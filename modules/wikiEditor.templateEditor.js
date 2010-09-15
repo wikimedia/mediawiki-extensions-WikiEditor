@@ -1,16 +1,12 @@
-/* JavaScript for WikiEditor Template Editor module */
+/*
+ * JavaScript for WikiEditor Template Editor
+ */
 
-$j(document).ready( function() {
-	// Check preferences for templateEditor
-	if ( !wgWikiEditorEnabledModules.templateEditor ) {
+$( document ).ready( function() {
+	// Disable in template namespace
+	if ( mediaWiki.config.get( 'wgNamespaceNumber' ) == 10 ) {
 		return true;
 	}
-	//disable if in template namespace
-	if ( wgNamespaceNumber == 10 ) {
-		return true;
-	}
-	// Add the templateEditor module
-	if ( $j.fn.wikiEditor ) {
-		$j( 'textarea#wpTextbox1' ).wikiEditor( 'addModule', 'templateEditor' );
-	}
+	// Add template editor module
+	$( 'textarea#wpTextbox1' ).wikiEditor( 'addModule', 'templateEditor' );
 });

@@ -1,0 +1,105 @@
+/*
+ * CSS for WikiEditor Dialogs jQuery plugin
+ */
+
+.wikiEditor-toolbar-dialog table {
+	margin-top: 0.75em;
+}
+.wikiEditor-toolbar-dialog table td {
+	padding: 0.5em;
+	height: 3em;
+	overflow: visible;
+}
+/* Put suggestions (default z-index 99) on top of dialogs (z-index 1002) */
+div.suggestions {
+	z-index: 1099;
+}
+.wikiEditor-toolbar-dialog .ui-dialog-titlebar-close:hover {
+	text-decoration: none;
+}
+.wikiEditor-toolbar-dialog .ui-dialog-content .status-invalid input {
+	border: 2px solid red;
+	padding: 2px 1px;
+}
+.wikiEditor-toolbar-dialog .ui-dialog-titlebar {
+	padding: 0.9em 1.4em 0.6em !important;
+}
+.wikiEditor-toolbar-dialog table td {
+	padding: 0 !important;
+}
+.wikiEditor-toolbar-dialog .ui-dialog-buttonpane button {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding: 0.2em 0.6em 0.15em !important;
+	margin: 0.5em 0 0.5em 0.4em !important;
+	border: 1px solid #a6a6a6 !important;
+	background: #f2f2f2 url(images/dialogs/button_off.png) repeat-x scroll 50% 100% !important;
+}
+.wikiEditor-toolbar-dialog .ui-dialog-buttonpane button:hover {
+	border-color: #6e7273;
+	background: #e1e1e1 url(images/dialogs/button_over.png) repeat-x scroll 50% 100% !important;
+}
+.wikiEditor-toolbar-dialog .ui-dialog-buttonpane button:active,
+.wikiEditor-toolbar-dialog .ui-dialog-buttonpane button:focus {
+	border-color: #707271;
+	background: #bfbfbf url(images/dialogs/button_down.png) repeat-x scroll 50% 100% !important;
+}
+.wikiEditor-toolbar-dialog .ui-dialog-buttonpane button.disabled {
+	color: #7f7f7f;
+	border-color: #cccccc;
+	background: #f2f2f2 url(images/dialogs/button_disabled.png) repeat-x scroll 50% 100% !important;	
+}
+/* Disables the annoying dashed border Firefox puts on active buttons */
+.wikiEditor-toolbar-dialog .ui-dialog-buttonpane button::-moz-focus-inner { 
+	border: 0; 
+}
+.wikiEditor-toolbar-dialog .ui-widget-header {
+	background: #f0f0f0 url(images/dialogs/titlebar_fade.png) repeat-x scroll 50% 100% !important;
+}
+/* FIXME: Should just update the icon sprite if we're keeping this X */
+.wikiEditor-toolbar-dialog .ui-icon-closethick {
+	background: url(images/dialogs/close_x.png) no-repeat 50% 50% !important;
+}
+.wikiEditor-toolbar-dialog .ui-dialog-buttonpane {
+	margin-top: 0 !important;
+	padding:0.3em 1.4em 0.5em 1.4em !important;
+}
+
+.wikiEditor-toolbar-dialog .ui-dialog-content fieldset{ 
+	border: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.wikiEditor-toolbar-dialog .ui-widget-header {
+	border-bottom:1px solid #6bc8f3 !important;
+}
+.wikiEditor-toolbar-dialog .ui-dialog-content input[type=text] {
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-khtml-box-sizing: border-box;
+}
+.wikiEditor-toolbar-dialog .ui-dialog-content input[type="radio"], 
+.wikiEditor-toolbar-dialog .ui-dialog-content input[type="checkbox"] {
+	margin-left: 0;
+}
+.wikiEditor-toolbar-dialog .ui-dialog-titlebar-close {
+	padding: 0;
+}
+body.ltr .wikiEditor-toolbar-dialog .ui-dialog-titlebar-close {
+	right: 0.9em;
+}
+.wikieditor-toolbar-field-wrapper {
+	padding: 0 0 25px 0;
+}
+.wikieditor-toolbar-floated-field-wrapper {
+	float: left;
+	margin-right: 2em;
+}
+.wikieditor-toolbar-dialog-hint {
+	color: #999999;
+}
+.wikiEditor-toolbar-dialog,
+.wikiEditor-toolbar-dialog .ui-widget-content {
+	border: none !important;
+}

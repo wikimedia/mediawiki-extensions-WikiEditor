@@ -55,18 +55,20 @@ evt: {
 		$.wikiEditor.modules.toc.fn.update( context );
 	},
 	ready: function( context, event ) {
-		// Add the TOC to the document
-		$.wikiEditor.modules.toc.fn.build( context );
-		if ( !context.$content ) {
-			return;
+		if ( 'module' in event && event.module === 'toc' ) {
+			// Add the TOC to the document
+			$.wikiEditor.modules.toc.fn.build( context );
+			if ( !context.$content ) {
+				return;
+			}
+			context.$content.parent()
+				.blur( function() {
+					var context = event.data.context;
+					$.wikiEditor.modules.toc.fn.unhighlight( context );
+				});
+			$.wikiEditor.modules.toc.fn.improveUI();
+			$.wikiEditor.modules.toc.evt.resize( context );
 		}
-		context.$content.parent()
-			.blur( function() {
-				var context = event.data.context;
-				$.wikiEditor.modules.toc.fn.unhighlight( context );
-			});
-		$.wikiEditor.modules.toc.fn.improveUI();
-		$.wikiEditor.modules.toc.evt.resize( context );
 	},
 	resize: function( context, event ) {
 		var availableWidth = context.$wikitext.width() - parseFloat( $.wikiEditor.modules.toc.cfg.textMinimumWidth ),
@@ -179,8 +181,8 @@ fn: {
 		if ( '$toc' in context.modules.toc ) {
 			return;
 		}
-		$.wikiEditor.modules.toc.cfg.rtl = config.rtl;
-		$.wikiEditor.modules.toc.cfg.flexProperty = config.rtl ? 'marginLeft' : 'marginRight';
+		$.wikiEditor.modules.toc.cfg.rtl = $( 'body' ).is( '.rtl' );
+		$.wikiEditor.modules.toc.cfg.flexProperty = $.wikiEditor.modules.toc.cfg.rtl ? 'marginLeft' : 'marginRight';
 		var height = context.$ui.find( '.wikiEditor-ui-left' ).height();
 		context.modules.toc.$toc = $( '<div />' )
 			.addClass( 'wikiEditor-ui-toc' )
@@ -193,9 +195,7 @@ fn: {
 				context.$ui.find( '.wikiEditor-ui-left' ).height()
 			);
 			$.wikiEditor.modules.toc.fn.redraw( context, $.wikiEditor.modules.toc.cfg.defaultWidth );
-		},
-		
-	
+	},
 	redraw: function( context, fixedWidth ) {
 		var fixedWidth = parseFloat( fixedWidth );
 		if( context.modules.toc.$toc.data( 'positionMode' ) == 'regular' ) {
@@ -512,7 +512,7 @@ fn: {
 					return false;
 				} )
 				.find( 'a' )
-				.text( mw.usability.getMsg( 'wikieditor-toc-hide' ) );
+				.text( mediaWiki.msg.get( 'wikieditor-toc-hide' ) );
 			$expandControl
 				.addClass( 'wikiEditor-ui-toc-expandControl' )
 				.append( '<a href="#" />' )
@@ -529,7 +529,7 @@ fn: {
 				} )
 				.hide()
 				.find( 'a' )
-				.text( mw.usability.getMsg( 'wikieditor-toc-show' ) );
+				.text( mediaWiki.msg.get( 'wikieditor-toc-show' ) );
 			$collapseControl.insertBefore( context.modules.toc.$toc );
 			context.$ui.find( '.wikiEditor-ui-left .wikiEditor-ui-top' ).append( $expandControl );
 		}

@@ -1,12 +1,8 @@
-/* JavaScript for WikiEditor PreviewDialog module */
+/*
+ * JavaScript for WikiEditor Preview Dialog
+ */
 
-$j(document).ready( function() {
-	// Check preferences for preview
-	if ( !wgWikiEditorEnabledModules.previewDialog ) {
-		return true;
-	}
-	// Add the preview module
-	if ( $j.fn.wikiEditor ) {
-		$j( 'textarea#wpTextbox1' ).wikiEditor( 'addModule', 'previewDialog' );
-	}
-});
+$( document ).ready( function() {
+	// Add preview module
+	$( 'textarea#wpTextbox1' ).wikiEditor( 'addModule', 'previewDialog' );
+} );

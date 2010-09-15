@@ -93,7 +93,7 @@ $.wikiEditor = {
 			return mod.supported;
 		}
 		// Run a browser support test and then cache and return the result
-		return mod.supported = mw.usability.testBrowser( mod.browsers );
+		return mod.supported = $.client.test( mod.browsers );
 	},
 	/**
 	 * Checks if a module has a specific requirement
@@ -111,7 +111,7 @@ $.wikiEditor = {
 		return false;
 	},
 	/**
-	 * Provides a way to extract messages from objects. Wraps the mw.usability.getMsg() function, which
+	 * Provides a way to extract messages from objects. Wraps the mediaWiki.msg.get() function, which
 	 * may eventually become a wrapper for some kind of core MW functionality.
 	 * 
 	 * @param object Object to extract messages from
@@ -133,11 +133,12 @@ $.wikiEditor = {
 		if ( property in object ) {
 			return object[property];
 		} else if ( property + 'Msg' in object ) {
-			if ( typeof object[property + 'Msg' ] == 'object' ) {
-				// [ messageKey, arg1, arg2, ... ]
-				return mw.usability.getMsg.apply( mw.usability, object[property + 'Msg' ] );
+			var p = object[property + 'Msg' ];
+			if ( typeof p == 'object' && typeof p.length !== undefined && p.length >= 2) {
+				// [ messageKey, { 'parameters': ['arg1, arg2, ...] } ]
+				return mediaWiki.msg.get( object[property + 'Msg' ][0], object[property + 'Msg' ][1] );
 			} else {
-				return mw.usability.getMsg( object[property + 'Msg'] );
+				return mediaWiki.msg.get( object[property + 'Msg'] );
 			}
 		} else {
 			return '';
@@ -169,7 +170,7 @@ $.wikiEditor = {
 		if ( src.substr( 0, 7 ) != 'http://' && src.substr( 0, 8 ) != 'https://' && src[0] != '/' ) {
 			src = path + src;
 		}
-		return src + '?' + wgWikiEditorIconVersion;
+		return src + '?' + wikiEditor.config.get( 'wgWikiEditorIconVersion' );
 	},
 	/**
 	 * Get the sprite offset for a language if available, icon for a language if available, or the default offset or icon,
@@ -280,6 +281,8 @@ if ( !context || typeof context == 'undefined' ) {
 						context.modules[module] = {};
 						// Tell the module to create itself on the context
 						$.wikiEditor.modules[module].fn.create( context, modules[module] );
+						// This is triggered each time a module is ready, the event will contain a module property
+						context.fn.trigger( 'ready', { 'module': module } );
 					}
 				}
 			}
@@ -1815,7 +1818,7 @@ if ( !context || typeof context == 'undefined' ) {
 	/* Disabling our loading div for now
 	var $loader = $( '<div></div>' )
 		.addClass( 'wikiEditor-ui-loading' )
-		.append( $( '<span>' + mw.usability.getMsg( 'wikieditor-loading' ) + '</span>' )
+		.append( $( '<span>' + mediaWiki.msg.get( 'wikieditor-loading' ) + '</span>' )
 			.css( 'marginTop', context.$textarea.height() / 2 ) );
 	*/
 	// Encapsulate the textarea with some containers for layout

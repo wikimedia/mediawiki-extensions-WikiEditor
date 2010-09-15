@@ -44,23 +44,21 @@ api: {
 		$.wikiEditor.modules.dialogs.fn.create( context, data )
 	},
 	openDialog: function( context, module ) {
-		mw.usability.load( [ '$j.ui', '$j.ui.dialog', '$j.ui.draggable', '$j.ui.resizable' ], function() {
-			if ( module in $.wikiEditor.modules.dialogs.modules ) {
-				var mod = $.wikiEditor.modules.dialogs.modules[module];
-				var $dialog = $( '#' + mod.id );
-				if ( $dialog.length == 0 ) {
-					$.wikiEditor.modules.dialogs.fn.reallyCreate( context, mod );
-					$dialog = $( '#' + mod.id );
-				}
-				
-				// Workaround for bug in jQuery UI: close button in top right retains focus
-				$dialog.closest( '.ui-dialog' )
-					.find( '.ui-dialog-titlebar-close' )
-					.removeClass( 'ui-state-focus' );
-				
-				$dialog.dialog( 'open' );
+		if ( module in $.wikiEditor.modules.dialogs.modules ) {
+			var mod = $.wikiEditor.modules.dialogs.modules[module];
+			var $dialog = $( '#' + mod.id );
+			if ( $dialog.length == 0 ) {
+				$.wikiEditor.modules.dialogs.fn.reallyCreate( context, mod );
+				$dialog = $( '#' + mod.id );
 			}
-		} );
+			
+			// Workaround for bug in jQuery UI: close button in top right retains focus
+			$dialog.closest( '.ui-dialog' )
+				.find( '.ui-dialog-titlebar-close' )
+				.removeClass( 'ui-state-focus' );
+			
+			$dialog.dialog( 'open' );
+		}
 	},
 	closeDialog: function( context, module ) {
 		if ( module in $.wikiEditor.modules.dialogs.modules ) {
@@ -116,10 +114,10 @@ fn: {
 		configuration.title = $.wikiEditor.autoMsg( module, 'title' );
 		// Transform messages in keys
 		// Stupid JS won't let us do stuff like
-		// foo = { mw.usability.getMsg( 'bar' ): baz }
+		// foo = { mediaWiki.msg.get( 'bar' ): baz }
 		configuration.newButtons = {};
 		for ( msg in configuration.buttons )
-			configuration.newButtons[mw.usability.getMsg( msg )] = configuration.buttons[msg];
+			configuration.newButtons[mediaWiki.msg.get( msg )] = configuration.buttons[msg];
 		configuration.buttons = configuration.newButtons;
 		// Create the dialog <div>
 		var dialogDiv = $( '<div />' )
@@ -191,7 +189,7 @@ fn: {
 	 */
 	setTabindexes: function( $elements ) {
 		// Get the highest tab index
-		var tabIndex = mw.usability.getMaxTabIndex() + 1;
+		var tabIndex = $( document ).lastTabIndex() + 1;
 		$elements.each( function() {
 			$j(this).attr( 'tabindex', tabIndex++ );
 		} );

@@ -316,7 +316,7 @@ fn: {
 				</fieldset>',
 			init: function() {
 				$(this).find( '[rel]' ).each( function() {
-					$(this).text( mw.usability.getMsg( $(this).attr( 'rel' ) ) );
+					$(this).text( mediaWiki.msg.get( $(this).attr( 'rel' ) ) );
 				} );
 			},
 			dialog: {

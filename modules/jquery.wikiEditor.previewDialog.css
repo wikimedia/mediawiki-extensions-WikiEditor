@@ -1,3 +1,8 @@
+/*
+ * CSS for WikiEditor Preview Dialog jQuery plugin
+ */
+
+/* FIXME: This only works for the first wikiEditor on the page! */
 #wikiEditor-0-preview-dialog .wikiEditor-ui-loading {
 	background: #f3f3f3;
 	z-index: 10;
@@ -9,11 +14,12 @@
 	overflow: hidden;
 	border: none;
 }
+/* FIXME: This only works for the first wikiEditor on the page! */
 #wikiEditor-0-preview-dialog .wikiEditor-ui-loading span {
 	display: block;
 	height: 24px;
 	width: 24px;
-	background: url( ../images/wikiEditor/toolbar/loading.gif ) 0 0 no-repeat;
+	background: url(images/toolbar/loading.gif) 0 0 no-repeat;
 	text-indent: -9999px;
 	margin: 50px auto;
 }
