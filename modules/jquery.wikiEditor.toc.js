@@ -446,7 +446,7 @@ fn: {
 		 */
 		function buildList( structure ) {
 			var list = $( '<ul />' );
-			for ( i in structure ) {
+			for ( var i = 0; i < structure.length; i++ ) {
 				var div = $( '<div />' )
 					.addClass( 'section-' + structure[i].index )
 					.data( 'index', structure[i].index )
@@ -641,7 +641,7 @@ fn: {
 			}
 			context.modules.toc.$toc.html( buildList( structure ) );
 			
-			if ( wgNavigableTOCResizable && !context.$ui.data( 'resizableDone' ) ) {
+			if ( !context.$ui.data( 'resizableDone' ) ) {
 				buildResizeControls();
 				buildCollapseControls();
 			}

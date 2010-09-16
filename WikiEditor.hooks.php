@@ -79,7 +79,11 @@ class WikiEditorHooks {
 			'scripts' => 'extensions/WikiEditor/modules/jquery.wikiEditor.toc.js',
 			'styles' => 'extensions/WikiEditor/modules/jquery.wikiEditor.toc.css',
 			'dependencies' => array(
-				'jquery.wikiEditor', 'jquery.ui.draggable', 'jquery.ui.resizable'
+				'jquery.wikiEditor',
+				'jquery.ui.draggable',
+				'jquery.ui.resizable',
+				'jquery.autoEllipsis',
+				'jquery.color',
 			),
 		),
 		'jquery.wikiEditor.toolbar' => array(
@@ -547,11 +551,6 @@ class WikiEditorHooks {
 			),
 			'modules' => array(
 				'wikiEditor.toc',
-			),
-			'configurations' => array(
-				// These are probably only for testing purposes?
-  				'wgNavigableTOCCollapseEnable',
-				'wgNavigableTOCResizable'
 			),
 		),
 	);
