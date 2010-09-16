@@ -76,15 +76,19 @@ body.rtl .wikieditor-toolbar-table-dimension-fields .wikieditor-toolbar-field-wr
 	background-repeat: no-repeat;
 }
 #wikieditor-toolbar-link-int-target-status-exists {
+	/* @embed */
 	background-image: url(images/dialogs/insert-link-exists.png);
 }
 #wikieditor-toolbar-link-int-target-status-notexists {
+	/* @embed */
 	background-image: url(images/dialogs/insert-link-notexists.png);
 }
 #wikieditor-toolbar-link-int-target-status-invalid {
+	/* @embed */
 	background-image: url(images/dialogs/insert-link-invalid.png);
 }
 #wikieditor-toolbar-link-int-target-status-external {
+	/* @embed */
 	background-image: url(images/dialogs/insert-link-external.png);
 }
 /* Reference Dialog */
@@ -127,6 +131,7 @@ body.rtl #wikieditor-toolbar-link-int-target-status-external {
 	background-position: 100% 50%;
 }
 body.rtl #wikieditor-toolbar-link-int-target-status-external {
+	/* @embed */
 	background-image: url(images/dialogs/insert-link-external-rtl.png);
 }
 body.rtl #wikieditor-toolbar-reference-dialog label {

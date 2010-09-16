@@ -111,6 +111,7 @@ body.rtl .wikiEditor-ui .wikiEditor-ui-right {
 	display: block;
 	height: 24px;
 	width: 24px;
+	/* @embed */
 	background: url(images/toolbar/loading.gif) 0 0 no-repeat;
 	text-indent: -9999px;
 	margin: 0 auto;

@@ -24,16 +24,11 @@ body.rtl .wikiEditor-ui-toolbar .sections {
 	background-color: #E0EEf7;
 }
 .wikiEditor-ui-toolbar {
+	/* @embed */
 	background-image: url(images/toolbar/base.png);
 	background-position: left top;
 	background-repeat: repeat-x;
 }
-/*
-.wikiEditor-ui-toolbar .toolbar {
-	background-image: url(../images/wikiEditor/toolbar/base.png?1);
-	background-position: left top;
-}
-*/
 body.rtl .wikiEditor-ui-toolbar .sections .section {
 	float: right;
 }
@@ -43,6 +38,7 @@ body.rtl .wikiEditor-ui-toolbar .sections .section {
 }
 .wikiEditor-ui-toolbar .sections .loading .spinner {
 	display: block;
+	/* @embed */
 	background-image: url(images/toolbar/loading.gif);
 	background-position: left center;
 	background-repeat: no-repeat;
@@ -106,6 +102,7 @@ body.rtl .wikiEditor-ui-toolbar .group-insert {
 }
 /* Sprited Buttons */
 .wikiEditor-toolbar-spritedButton { 
+	/* @embed */
 	background: url(images/toolbar/button-sprite.png) 0 0 no-repeat;
 	display: block;
 	float: left;
@@ -143,6 +140,7 @@ body.rtl .wikiEditor-ui-toolbar .tabs > span.tab {
 	height: 26px;
 	cursor: pointer;
 	color: #0645ad;
+	/* @embed */
 	background-image: url(images/toolbar/arrow-right.png);
 	background-position: left center;
 	background-repeat: no-repeat;
@@ -151,6 +149,7 @@ body.rtl .wikiEditor-ui-toolbar .tabs span.tab a,
 body.rtl .wikiEditor-ui-toolbar .tabs span.tab a:visited {
 	padding-left: 12px;
 	padding-right: 18px;
+	/* @embed */
 	background-image: url(images/toolbar/arrow-left.png);
 	background-position: right center;
 }
@@ -162,16 +161,19 @@ body.rtl .wikiEditor-ui-toolbar .tabs > pan.tab > a:visited {
 .wikiEditor-ui-toolbar .tabs span.tab a.current,
 .wikiEditor-ui-toolbar .tabs span.tab a.current:visited {
 	color: #333333;
+	/* @embed */
 	background-image: url(images/toolbar/arrow-down.png);
 }
 body.rtl .wikiEditor-ui-toolbar .tabs span.tab a.current,
 body.rtl .wikiEditor-ui-toolbar .tabs span.tab a.current:visited {
+	/* @embed */
 	background-image: url(images/toolbar/arrow-down.png);
 }
 .wikiEditor-ui-toolbar .tabs span.tab a.current:hover {
 	text-decoration: none;
 }
 .wikiEditor-ui-toolbar .tabs span.tab a.loading {
+	/* @embed */
 	background-image: url(images/toolbar/loading-small.gif) !important;
 }
 /* Toolbar */
@@ -220,6 +222,7 @@ body.rtl .wikiEditor-ui-toolbar .group > .tool-select {
 	float: right;
 }
 .wikiEditor-ui-toolbar .group .tool-select .label {
+	/* @embed */
 	background-image: url(images/toolbar/arrow-down.png);
 	background-position: center right;
 	background-repeat: no-repeat;
