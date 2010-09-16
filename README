@@ -1,0 +1,17 @@
+# Enhancements to the MediaWiki edit page
+#
+# This is a MediaWiki 1.17+ compatible version of the former UsabilityInitiative/WikiEditor extension. The key
+# differences between these versions is in the usage of ResourceLoader.
+# 
+# To get this working on your wiki
+
+require_once( "$IP/extensions/WikiEditor/WikiEditor.php" );
+
+# Before configuring this extension, see MediaWiki.php and become familiar with the initial state and structure of the
+# $wgWikiEditorFeatures configuration variable. Essentially it's an array or arrays, keyed by feature name, each
+# containing global and user keys with boolean values. "global" indicates that it should be turned on for everyone
+# always, while user indicates that users should be allowed to turn it on or off in their user preferences.
+
+# To enable a preference by default but still allow users to disable it in preferences, use something like...
+
+$wgDefaultUserOptions['wikieditor-preview'] = 1;
