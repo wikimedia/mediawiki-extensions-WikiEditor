@@ -12,13 +12,19 @@ class WikiEditorHooks {
 	
 	static $modules = array(
 		
+		/* Third-party modules */
+		
+		'contentCollector' => array(
+			'scripts' => 'extensions/WikiEditor/modules/contentCollector.js',
+		),
+		
 		/* WikiEditor jQuery plugin Resources */
 		
 		'jquery.wikiEditor' => array(
 			'scripts' => 'extensions/WikiEditor/modules/jquery.wikiEditor.js',
 			'styles' => 'extensions/WikiEditor/modules/jquery.wikiEditor.css',
 			'dependencies' => array(
-				'jquery.client', 'jquery.textSelection', 'jquery.delayedBind'
+				'jquery.client', 'jquery.textSelection', 'jquery.delayedBind', 'contentCollector',
 			),
 			'messages' => array(
 				'wikieditor-wikitext-tab',
