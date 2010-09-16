@@ -150,7 +150,7 @@ api : {
 				target += ' div.pages div[rel=' + data.page + '].page';
 				if ( typeof data.character == 'string' ) {
 					// Character
-					target += ' a[rel=' + data.character + ']';
+					target += ' span[rel=' + data.character + ']';
 				} else if ( typeof data.row == 'number' ) {
 					// Table row
 					target += ' table tr:not(:has(th)):eq(' + data.row + ')';

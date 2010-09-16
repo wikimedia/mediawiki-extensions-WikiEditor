@@ -172,7 +172,7 @@ var wikiEditorTests = {
 			'page': 'emoticons',
 			'character': ':))'
 	    },
-	    'test': '*[rel=info].section *[rel=emoticons].page a[rel=":))"]',
+	    'test': '*[rel=info].section *[rel=emoticons].page *[rel=":))"]',
 		'pre': 1,
 		'post': 0
 	},
