@@ -71,7 +71,7 @@ $.wikiEditor = {
 	 * Path to images - this is a bit messy, and it would need to change if this code (and images) gets moved into the
 	 * core - or anywhere for that matter...
 	 */
-	'imgPath' : wgScriptPath + '/extensions/UsabilityInitiative/images/wikiEditor/',
+	'imgPath' : wgScriptPath + '/extensions/WikiEditor/modules/images/',
 	/**
 	 * Checks the current browser against the browsers object to determine if the browser has been black-listed or not.
 	 * Because these rules are often very complex, the object contains configurable operators and can check against
@@ -1077,7 +1077,7 @@ if ( !context || typeof context == 'undefined' ) {
 					'frameBorder': 0,
 					'border': 0,
 					'tabindex': 1,
-					'src': wgScriptPath + '/extensions/UsabilityInitiative/js/plugins/jquery.wikiEditor.html?' +
+					'src': wgScriptPath + '/extensions/WikiEditor/modules/jquery.wikiEditor.html?' +
 						'instance=' + context.instance + '&ts=' + ( new Date() ).getTime() + '&is=content',
 					'id': 'wikiEditor-iframe-' + context.instance
 				} )
