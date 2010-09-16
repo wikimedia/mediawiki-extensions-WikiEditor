@@ -387,14 +387,6 @@ class WikiEditorHooks {
 	
 	static $features = array(
 		
-		/* Special features; not listed in $wgWikiEditorFeatures thus always enabled */
-		
-		'global' => array(
-			'configurations' => array(
-  				'wgWikiEditorIconVersion',
-			),
-		),
-		
 		/* Beta Features */
 		
 		'toolbar' => array(
@@ -560,8 +552,7 @@ class WikiEditorHooks {
 	protected static function isEnabled( $name ) {
 		global $wgWikiEditorFeatures, $wgUser;
 		
-		// Features not being controlled by $wgWikiEditorFeatures are always enabled, features with global set to true are
-		// always enabled
+		// Features with global set to true are always enabled
 		if ( !isset( $wgWikiEditorFeatures[$name] ) || $wgWikiEditorFeatures[$name]['global'] ) {
 			return true;
 		}

@@ -170,7 +170,7 @@ $.wikiEditor = {
 		if ( src.substr( 0, 7 ) != 'http://' && src.substr( 0, 8 ) != 'https://' && src[0] != '/' ) {
 			src = path + src;
 		}
-		return src + '?' + mediaWiki.config.get( 'wgWikiEditorIconVersion' );
+		return src + '?' + mediaWiki.loader.version( 'jquery.wikiEditor' );
 	},
 	/**
 	 * Get the sprite offset for a language if available, icon for a language if available, or the default offset or icon,

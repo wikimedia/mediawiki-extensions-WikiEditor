@@ -47,10 +47,6 @@ $wgWikiEditorFeatures = array(
 	'addMediaWizard' => array( 'global' => false, 'user' => false ),
 );
 
-// Bump this each time you change an icon without renaming it
-// FIXME: This needs to be done dynamically
-$wgWikiEditorIconVersion = 0;
-
 /* Setup */
 
 $wgExtensionCredits['other'][] = array(
