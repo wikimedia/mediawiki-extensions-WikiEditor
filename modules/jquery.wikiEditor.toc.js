@@ -55,20 +55,18 @@ evt: {
 		$.wikiEditor.modules.toc.fn.update( context );
 	},
 	ready: function( context, event ) {
-		if ( 'module' in event && event.module === 'toc' ) {
-			// Add the TOC to the document
-			$.wikiEditor.modules.toc.fn.build( context );
-			if ( !context.$content ) {
-				return;
-			}
-			context.$content.parent()
-				.blur( function() {
-					var context = event.data.context;
-					$.wikiEditor.modules.toc.fn.unhighlight( context );
-				});
-			$.wikiEditor.modules.toc.fn.improveUI();
-			$.wikiEditor.modules.toc.evt.resize( context );
+		// Add the TOC to the document
+		$.wikiEditor.modules.toc.fn.build( context );
+		if ( !context.$content ) {
+			return;
 		}
+		context.$content.parent()
+			.blur( function() {
+				var context = event.data.context;
+				$.wikiEditor.modules.toc.fn.unhighlight( context );
+			});
+		$.wikiEditor.modules.toc.fn.improveUI();
+		$.wikiEditor.modules.toc.evt.resize( context );
 	},
 	resize: function( context, event ) {
 		var availableWidth = context.$wikitext.width() - parseFloat( $.wikiEditor.modules.toc.cfg.textMinimumWidth ),

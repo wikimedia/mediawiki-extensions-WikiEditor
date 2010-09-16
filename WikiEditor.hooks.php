@@ -10,7 +10,7 @@ class WikiEditorHooks {
 	
 	/* Static Members */
 	
-	static $resources = array(
+	static $modules = array(
 		
 		/* WikiEditor jQuery plugin Resources */
 		
@@ -18,7 +18,11 @@ class WikiEditorHooks {
 			'scripts' => 'extensions/WikiEditor/modules/jquery.wikiEditor.js',
 			'styles' => 'extensions/WikiEditor/modules/jquery.wikiEditor.css',
 			'dependencies' => array(
-				'jquery.client',
+				'jquery.client', 'jquery.textSelection', 'jquery.delayedBind'
+			),
+			'messages' => array(
+				'wikieditor-wikitext-tab',
+				'wikieditor-loading',
 			),
 		),
 		'jquery.wikiEditor.dialogs' => array(
@@ -99,39 +103,42 @@ class WikiEditorHooks {
 			'scripts' => 'extensions/WikiEditor/modules/wikiEditor.dialogs.js',
 			'styles' => 'extensions/WikiEditor/modules/wikiEditor.dialogs.css',
 			'dependencies' => array(
-				'jquery.wikiEditor.dialogs',
+				'wikiEditor', 'jquery.wikiEditor.dialogs', 'jquery.suggestions',
 			),
 		),
 		'wikiEditor.highlight' => array(
 			'scripts' => 'extensions/WikiEditor/modules/wikiEditor.highlight.js',
 			'dependencies' => array(
-				'jquery.wikiEditor.highlight',
+				'wikiEditor', 'jquery.wikiEditor.highlight',
 			),
 		),
 		'wikiEditor.preview' => array(
 			'scripts' => 'extensions/WikiEditor/modules/wikiEditor.preview.js',
+			'dependencies' => array(
+				'wikiEditor', 'jquery.wikiEditor.preview',
+			),
 			'messages' => array(
 				'wikieditor-preview-tab',
 				'wikieditor-preview-changes-tab',
 				'wikieditor-preview-loading',
 			),
-			'dependencies' => array(
-				'jquery.wikiEditor.preview',
-			),
 		),
 		'wikiEditor.previewDialog' => array(
 			'scripts' => 'extensions/WikiEditor/modules/wikiEditor.previewDialog.js',
+			'dependencies' => array(
+				'wikiEditor', 'jquery.wikiEditor.previewDialog',
+			),
 			'messages' => array(
 				'wikieditor-previewDialog-preference',
 				'wikieditor-previewDialog-tab',
 				'wikieditor-previewDialog-loading',
 			),
-			'dependencies' => array(
-				'jquery.wikiEditor.preivewDialog',
-			),
 		),
 		'wikiEditor.publish' => array(
 			'scripts' => 'extensions/WikiEditor/modules/wikiEditor.publish.js',
+			'dependencies' => array(
+				'wikiEditor', 'jquery.wikiEditor.publish',
+			),
 			'messages' => array(
 				'wikieditor-publish-button-publish',
 				'wikieditor-publish-button-cancel',
@@ -142,39 +149,39 @@ class WikiEditorHooks {
 				'wikieditor-publish-dialog-publish',
 				'wikieditor-publish-dialog-goback',
 			),
-			'dependencies' => array(
-				'jquery.wikiEditor.publish',
-			),
 		),
 		'wikiEditor.templateEditor' => array(
 			'scripts' => 'extensions/WikiEditor/modules/wikiEditor.templateEditor.js',
+			'dependencies' => array(
+				'wikiEditor', 'jquery.wikiEditor.templateEditor',
+			),
 			'messages' => array(
 				'wikieditor-template-editor-dialog-title',
 				'wikieditor-template-editor-dialog-submit',
 				'wikieditor-template-editor-dialog-cancel',
 			),
-			'dependencies' => array(
-				'jquery.wikiEditor.templateEditor',
-			),
 		),
 		'wikiEditor.templates' => array(
 			'scripts' => 'extensions/WikiEditor/modules/wikiEditor.templates.js',
 			'dependencies' => array(
-				'jquery.wikiEditor.templates',
+				'wikiEditor', 'jquery.wikiEditor.templates',
 			),
 		),
 		'wikiEditor.toc' => array(
 			'scripts' => 'extensions/WikiEditor/modules/wikiEditor.toc.js',
+			'dependencies' => array(
+				'wikiEditor', 'jquery.wikiEditor.toc',
+			),
 			'messages' => array(
 				'wikieditor-toc-show',
 				'wikieditor-toc-hide',
 			),
-			'dependencies' => array(
-				'jquery.wikiEditor.toc',
-			),
 		),
 		'wikiEditor.toolbar' => array(
 			'scripts' => 'extensions/WikiEditor/modules/wikiEditor.toolbar.js',
+			'dependencies' => array(
+				'wikiEditor', 'jquery.wikiEditor.toolbar', 'jquery.cookie', 'jquery.async',
+			),
 			'messages' => array(
 				// This is a mixed bunch that needs to be separated between dialog and toolbar messages, but since the
 				// dialog module depends on the toolbar module, it's not an urgent matter
@@ -371,181 +378,227 @@ class WikiEditorHooks {
 				'wikieditor-toolbar-help-content-indent-syntax',
 				'wikieditor-toolbar-help-content-indent-result',
 			),
-			'dependencies' => array(
-				'jquery.wikiEditor.toolbar',
-			),
 		),
 	);
 	
-	static $modules = array(
+	static $features = array(
+		
+		/* Special features; not listed in $wgWikiEditorFeatures thus always enabled */
+		
 		'global' => array(
-			'variables' => array(
+			'configurations' => array(
   				'wgWikiEditorIconVersion',
 			),
 		),
-		'highlight' => array(
-			'preference' => array(
-				'key' => 'wikieditor-highlight',
-				'ui' => array(
-					'type' => 'toggle',
-					'label-message' => 'wikieditor-highlight-preference',
-					'section' => 'editing/labs',
-				),
-			),
-		),
-		'templateEditor' => array(
-			'preference' => array(
-				'key' => 'wikieditor-template-editor',
-				'ui' => array(
-					'type' => 'toggle',
-					'label-message' => 'wikieditor-template-editor-preference',
-					'section' => 'editing/labs',
-				),
-			),
-		),
-		'templates' => array(
-			'preference' => array(
-				'key' => 'wikieditor-templates',
-				'ui' => array(
-					'type' => 'toggle',
-					'label-message' => 'wikieditor-templates-preference',
-					'section' => 'editing/labs',
-				),
-			),
-		),
-		'addMediaWizard' => array(
-			'preference' => array(
-			 	'key' => 'addmediawizard-gadget',
-				'ui' => array(
-					'type' => 'toggle',
-					'label-message' => 'wikieditor-addMediaWizard-preference',
-					'section' => 'editing/labs',
-				),
-			),
-		),
-		'preview' => array(
-			'preference' => array(
-				'key' => 'wikieditor-preview',
-				'ui' => array(
-					'type' => 'toggle',
-					'label-message' => 'wikieditor-preview-preference',
-					'section' => 'editing/labs',
-				),
-			),
-			'messages' => array(
-				'wikieditor-preview-tab',
-				'wikieditor-preview-changes-tab',
-				'wikieditor-preview-loading',
-			),
-		),
-		'previewDialog' => array(
-			'preference' => array(
-				'key' => 'wikieditor-previewDialog',
-				'ui' => array(
-					'type' => 'toggle',
-					'label-message' => 'wikieditor-previewDialog-preference',
-					'section' => 'editing/labs',
-				),
-			),
-		),
-		'publish' => array(
-			'preference' => array(
-				'key' => 'wikieditor-publish',
-				'ui' => array(
-					'type' => 'toggle',
-					'label-message' => 'wikieditor-publish-preference',
-					'section' => 'editing/labs',
-				),
-			),
-		),
-		'toc' => array(
-			'preference' => array(
-				// Ideally this key would be 'wikieditor-toc'
-			 	'key' => 'usenavigabletoc',
-				'ui' => array(
-					'type' => 'toggle',
-					'label-message' => 'wikieditor-toc-preference',
-					'section' => 'editing/labs',
-				),
-			),
-			'variables' => array(
-				// These are probably only for testing purposes?
-  				'wgNavigableTOCCollapseEnable',
-				'wgNavigableTOCResizable'
-			),
-		),
+		
+		/* Beta Features */
+		
 		'toolbar' => array(
-			'preference' => array(
+			'preferences' => array(
 				// Ideally this key would be 'wikieditor-toolbar'
-				'key' => 'usebetatoolbar',
-				'ui' => array(
+				'usebetatoolbar' => array(
 					'type' => 'toggle',
 					'label-message' => 'wikieditor-toolbar-preference',
 					'section' => 'editing/beta',
 				),
 			),
+			'requirements' => array(
+				'usebetatoolbar' => true,
+			),
+			'modules' => array(
+				'wikiEditor.toolbar',
+			),
 		),
 		'dialogs' => array(
-			'preference' => array(
+			'preferences' => array(
 				// Ideally this key would be 'wikieditor-toolbar-dialogs'
-				'key' => 'usebetatoolbar-cgd',
-				'ui' => array(
+				'usebetatoolbar-cgd' => array(
 					'type' => 'toggle',
 					'label-message' => 'wikieditor-toolbar-dialogs-preference',
 					'section' => 'editing/beta',
 				),
+			),
+			'requirements' => array(
+				'usebetatoolbar-cgd' => true,
+			),
+			'modules' => array(
+				'wikiEditor.dialogs',
+			),
+		),
+		
+		/* Labs Features */
+		
+		'highlight' => array(
+			'preferences' => array(
+				'wikieditor-highlight' => array(
+					'type' => 'toggle',
+					'label-message' => 'wikieditor-highlight-preference',
+					'section' => 'editing/labs',
+				),
+			),
+			'requirements' => array(
+				'wikieditor-highlight' => true,
+			),
+			'modules' => array(
+				'wikiEditor.highlight',
+			),
+		),
+		'templateEditor' => array(
+			'preferences' => array(
+				'wikieditor-template-editor' => array(
+					'type' => 'toggle',
+					'label-message' => 'wikieditor-template-editor-preference',
+					'section' => 'editing/labs',
+				),
+			),
+			'requirements' => array(
+				'wikieditor-template-editor' => true,
+			),
+			'modules' => array(
+				'wikiEditor.templateEditor',
+			),
+		),
+		'templates' => array(
+			'preferences' => array(
+				'wikieditor-templates' => array(
+					'type' => 'toggle',
+					'label-message' => 'wikieditor-templates-preference',
+					'section' => 'editing/labs',
+				),
+			),
+			'requirements' => array(
+				'wikieditor-templates' => true,
+			),
+			'modules' => array(
+				'wikiEditor.templates',
+			),
+		),
+		'addMediaWizard' => array(
+			'preferences' => array(
+			 	'addmediawizard-gadget' => array(
+					'type' => 'toggle',
+					'label-message' => 'wikieditor-addMediaWizard-preference',
+					'section' => 'editing/labs',
+				),
+			),
+			'requirements' => array(
+				'addmediawizard-gadget' => true,
+			),
+			'modules' => array(
+				'wikiEditor.addMediaWizard',
+			),
+		),
+		'preview' => array(
+			'preferences' => array(
+				'wikieditor-preview' => array(
+					'type' => 'toggle',
+					'label-message' => 'wikieditor-preview-preference',
+					'section' => 'editing/labs',
+				),
+			),
+			'requirements' => array(
+				'wikieditor-preview' => true,
+			),
+			'modules' => array(
+				'wikiEditor.preview',
+			),
+		),
+		'previewDialog' => array(
+			'preferences' => array(
+				'wikieditor-previewDialog' => array(
+					'type' => 'toggle',
+					'label-message' => 'wikieditor-previewDialog-preference',
+					'section' => 'editing/labs',
+				),
+			),
+			'requirements' => array(
+				'wikieditor-previewDialog' => true,
+			),
+			'modules' => array(
+				'wikiEditor.previewDialog',
+			),
+		),
+		'publish' => array(
+			'preferences' => array(
+				'wikieditor-publish' => array(
+					'type' => 'toggle',
+					'label-message' => 'wikieditor-publish-preference',
+					'section' => 'editing/labs',
+				),
+			),
+			'requirements' => array(
+				'wikieditor-publish' => true,
+			),
+			'modules' => array(
+				'wikiEditor.publish',
+			),
+		),
+		'toc' => array(
+			'preferences' => array(
+				// Ideally this key would be 'wikieditor-toc'
+			 	'usenavigabletoc' => array(
+					'type' => 'toggle',
+					'label-message' => 'wikieditor-toc-preference',
+					'section' => 'editing/labs',
+				),
+			),
+			'requirements' => array(
+				'usenavigabletoc' => true,
+			),
+			'modules' => array(
+				'wikiEditor.toc',
+			),
+			'configurations' => array(
+				// These are probably only for testing purposes?
+  				'wgNavigableTOCCollapseEnable',
+				'wgNavigableTOCResizable'
 			),
 		),
 	);
 	
 	/* Protected Static Methods */
 	
-	protected static function isEnabled( $module ) {
-		global $wgVectorModules, $wgUser;
+	protected static function isEnabled( $name ) {
+		global $wgWikiEditorFeatures, $wgUser;
 		
-		$enabled =
-			$wgVectorModules[$module]['global'] ||
-			(
-				$wgVectorModules[$module]['user'] &&
-				isset( self::$modules[$module]['preferences']['key'] ) &&
-				$wgUser->getOption( self::$modules[$module]['preferences']['key'] )
-			);
-		if ( !$enabled ) {
-			return false;
+		// Features not being controlled by $wgWikiEditorFeatures are always enabled, features with global set to true are
+		// always enabled
+		if ( !isset( $wgWikiEditorFeatures[$name] ) || $wgWikiEditorFeatures[$name]['global'] ) {
+			return true;
 		}
-		if ( isset( self::$modules[$module]['preferences']['requirements'] ) ) {
-			foreach ( self::$modules[$module]['preferences']['requirements'] as $requirement => $value ) {
-				// Important! We really do want fuzzy evaluation here
-				if ( $wgUser->getOption( $requirement ) != $value ) {
-					return false;
+		// Features with user preference control can have any number of preferences to be specific values to be enabled
+		if ( $wgWikiEditorFeatures[$name]['user'] ) {
+			if ( isset( self::$features[$name]['requirements'] ) ) {
+				foreach ( self::$features[$name]['requirements'] as $requirement => $value ) {
+					// Important! We really do want fuzzy evaluation here
+					if ( $wgUser->getOption( $requirement ) != $value ) {
+						return false;
+					}
 				}
 			}
+			return true;
 		}
-		return true;
+		// Features controlled by $wgWikiEditorFeatures with both global and user set to false are awlways disabled 
+		return false;
 	}
 	
 	/* Static Methods */
 	
 	/**
-	 * BeforePageDisplay hook
+	 * EditPage::showEditForm:initial hook
 	 * 
 	 * Adds the modules to the edit form
 	 * 
 	 * @param $out OutputPage output page
 	 * @param $skin Skin current skin
 	 */
-	public static function beforePageDisplay( $out, $skin ) {
-		global $wgVectorModules;
+	public static function editPageShowEditFormInitial( &$toolbar ) {
+		global $wgOut;
 		
-		// Don't load Vector modules for non-Vector skins
-		if ( !( $skin instanceof SkinVector ) ) {
-			return true;
-		}
-		
-		// Add enabled modules
-		foreach ( $wgVectorModules as $module => $enable ) {
-			if ( self::isEnabled( $module ) ) {
-				$out->addModules( self::$modules[$module]['name'] );
+		// Add modules for enabled features
+		foreach ( self::$features as $name => $feature ) {
+			if ( isset( $feature['modules'] ) && self::isEnabled( $name ) ) {
+				$wgOut->addModules( $feature['modules'] );
 			}
 		}
 		return true;
@@ -560,12 +613,15 @@ class WikiEditorHooks {
 	 * @param $skin array list of default user preference controls
 	 */
 	public static function getPreferences( $user, &$defaultPreferences ) {
-		global $wgVectorModules;
+		global $wgWikiEditorFeatures;
 		
-		foreach ( $wgVectorModules as $module => $enable ) {
-			if ( $enable['user'] && isset( self::$modules['preferences'][$module]['ui'] ) ) {
-				$defaultPreferences[self::$modules['preferences'][$module]['key']] =
-					self::$modules['preferences'][$module]['ui'];
+		foreach ( self::$features as $name => $feature ) {
+			if (
+				isset( $feature['preferences'] ) &&
+				( !isset( $wgWikiEditorFeatures[$name] ) || $wgWikiEditorFeatures[$name]['user'] )
+			) {
+				foreach ( $feature['preferences'] as $key => $options )
+				$defaultPreferences[$key] = $options;
 			}
 		}
 		return true;
@@ -577,15 +633,15 @@ class WikiEditorHooks {
 	 * Adds enabled/disabled switches for Vector modules
 	 */
 	public static function makeGlobalVariablesScript( &$vars ) {
-		global $wgVectorModules;
+		global $wgWikiEditorFeatures;
 		
 		$configurations = array();
-		foreach ( $wgVectorModules as $module => $enable ) {
+		foreach ( self::$features as $name => $feature ) {
 			if (
-				isset( self::$modules[$module]['configurations'] ) &&
-				is_array( self::$modules[$module]['configurations'] )
+				isset( $feature['configurations'] ) &&
+				( !isset( $wgWikiEditorFeatures[$name] ) || self::isEnabled( $name ) )
 			) {
-				foreach ( self::$modules[$module]['configurations'] as $configuration ) {
+				foreach ( $feature['configurations'] as $configuration ) {
 					global $$configuration;
 					$configurations[$configuration] = $$configuration;
 				}
@@ -603,8 +659,8 @@ class WikiEditorHooks {
 	 * Adds modules to ResourceLoader
 	 */
 	public static function resourceLoaderRegisterModules() {
-		foreach ( self::$modules as $module ) {
-			ResourceLoader::register( $module['name'], new ResourceLoaderFileModule( $module['resources'] ) );
+		foreach ( self::$modules as $name => $resources ) {
+			ResourceLoader::register( $name, new ResourceLoaderFileModule( $resources ) );
 		}
 		return true;
 	}

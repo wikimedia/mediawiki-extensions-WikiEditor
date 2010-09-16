@@ -16,17 +16,17 @@
 /* Configuration */
 
 // Each module may be configured individually to be globally on/off or user preference based
-$wgWikiEditorModules = array(
-	// Order is significant: makes beta prefs appear before labs prefs
-	'toolbar' => array( 'global' => false, 'user' => true ),
+$wgWikiEditorFeatures = array(
+	'addMediaWizard' => array( 'global' => false, 'user' => false ),
+	'dialogs' => array( 'global' => false, 'user' => true ),
 	'highlight' => array( 'global' => false, 'user' => true ),
+	'toolbar' => array( 'global' => false, 'user' => true ),
 	'preview' => array( 'global' => false, 'user' => true ),
 	'previewDialog' => array( 'global' => false, 'user' => true ),
 	'publish' => array( 'global' => false, 'user' => true ),
-	'toc' => array( 'global' => false, 'user' => true ),
 	'templateEditor' => array( 'global' => false, 'user' => true ),
 	'templates' => array( 'global' => false, 'user' => true ),
-	'addMediaWizard' => array( 'global' => false, 'user' => false ),
+	'toc' => array( 'global' => false, 'user' => true ),
 );
 
 // Bump this each time you change an icon without renaming it
@@ -44,7 +44,7 @@ $wgExtensionCredits['other'][] = array(
 );
 $wgAutoloadClasses['WikiEditorHooks'] = dirname( __FILE__ ) . '/WikiEditor.hooks.php';
 $wgExtensionMessagesFiles['WikiEditor'] = dirname( __FILE__ ) . '/WikiEditor.i18n.php';
-$wgHooks['BeforePageDisplay'][] = 'WikiEditorHooks::beforePageDisplay';
+$wgHooks['EditPage::showEditForm:initial'][] = 'WikiEditorHooks::editPageShowEditFormInitial';
 $wgHooks['GetPreferences'][] = 'WikiEditorHooks::getPreferences';
 $wgHooks['MakeGlobalVariablesScript'][] = 'WikiEditorHooks::makeGlobalVariablesScript';
 $wgHooks['ResourceLoaderRegisterModules'][] = 'WikiEditorHooks::resourceLoaderRegisterModules';

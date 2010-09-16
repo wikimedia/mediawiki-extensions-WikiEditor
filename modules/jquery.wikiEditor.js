@@ -133,12 +133,12 @@ $.wikiEditor = {
 		if ( property in object ) {
 			return object[property];
 		} else if ( property + 'Msg' in object ) {
-			var p = object[property + 'Msg' ];
-			if ( typeof p == 'object' && typeof p.length !== undefined && p.length >= 2) {
+			var p = object[property + 'Msg'];
+			if ( p instanceof Array && p.length >= 2 ) {
 				// [ messageKey, { 'parameters': ['arg1, arg2, ...] } ]
 				return mediaWiki.msg.get( object[property + 'Msg' ][0], object[property + 'Msg' ][1] );
 			} else {
-				return mediaWiki.msg.get( object[property + 'Msg'] );
+				return mediaWiki.msg.get( p );
 			}
 		} else {
 			return '';
@@ -170,7 +170,7 @@ $.wikiEditor = {
 		if ( src.substr( 0, 7 ) != 'http://' && src.substr( 0, 8 ) != 'https://' && src[0] != '/' ) {
 			src = path + src;
 		}
-		return src + '?' + wikiEditor.config.get( 'wgWikiEditorIconVersion' );
+		return src + '?' + mediaWiki.config.get( 'wgWikiEditorIconVersion' );
 	},
 	/**
 	 * Get the sprite offset for a language if available, icon for a language if available, or the default offset or icon,
@@ -281,8 +281,6 @@ if ( !context || typeof context == 'undefined' ) {
 						context.modules[module] = {};
 						// Tell the module to create itself on the context
 						$.wikiEditor.modules[module].fn.create( context, modules[module] );
-						// This is triggered each time a module is ready, the event will contain a module property
-						context.fn.trigger( 'ready', { 'module': module } );
 					}
 				}
 			}

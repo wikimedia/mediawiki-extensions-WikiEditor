@@ -6,16 +6,6 @@ $( document ).ready( function() {
 	if ( !$.wikiEditor.isSupported( $.wikiEditor.modules.toolbar ) ) {
 		return;
 	}
-	// Some of the tools we're about to add depend on knowing if dialogs have been enabled or not, this little hack will
-	// add a class to the textarea that signals that they are or or not, so that the 'filters' property can be used
-	if ( mediaWiki.user.options.get( 'usebetatoolbar-cgd' ) ) {
-		if (
-			typeof $.wikiEditor.modules.dialogs !== 'undefined' &&
-			$.wikiEditor.isSupported( $.wikiEditor.modules.dialogs )
-		) {
-			$( '#wpTextbox1' ).addClass( 'toolbar-dialogs' );
-		}
-	}
 	// The old toolbar is still in place and needs to be removed so there aren't two toolbars
 	$( '#toolbar' ).remove();
 	// Add toolbar module

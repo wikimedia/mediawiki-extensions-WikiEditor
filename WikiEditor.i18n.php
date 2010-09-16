@@ -12,6 +12,10 @@ $messages = array();
  * @author Trevor Parscal
  */
 $messages['en'] = array(
+	/* Editing Preference Categories */
+	'prefs-beta' => 'Beta features',
+	'prefs-labs' => 'Labs features',
+	/* WikiEditor */
 	'wikieditor' => 'Advanced wikitext editing interface',
 	'wikieditor-desc' => 'Provides an extendable wikitext editing interface and many feature-providing modules',
 	'wikieditor-wikitext-tab' => 'Wikitext',

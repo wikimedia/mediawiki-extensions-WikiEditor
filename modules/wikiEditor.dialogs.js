@@ -6,6 +6,16 @@ $( document ).ready( function() {
 	if ( !$.wikiEditor.isSupported( $.wikiEditor.modules.dialogs ) ) {
 		return;
 	}
+	// Some toolbar tools depend on knowing if dialogs have been enabled or not. By adding a class to the textarea, we
+	// provide a way that the the 'filters' property can be used.
+	if ( mediaWiki.user.options.get( 'usebetatoolbar-cgd' ) ) {
+		if (
+			typeof $.wikiEditor.modules.dialogs !== 'undefined' &&
+			$.wikiEditor.isSupported( $.wikiEditor.modules.dialogs )
+		) {
+			$( '#wpTextbox1' ).addClass( 'toolbar-dialogs' );
+		}
+	}
 	// Add dialogs module
 	$( '#wpTextbox1' ).wikiEditor( 'addModule', { 'dialogs': {
 		'insert-link': {
