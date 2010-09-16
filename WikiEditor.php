@@ -17,19 +17,38 @@
 
 // Each module may be configured individually to be globally on/off or user preference based
 $wgWikiEditorFeatures = array(
-	'addMediaWizard' => array( 'global' => false, 'user' => false ),
-	'dialogs' => array( 'global' => false, 'user' => true ),
-	'highlight' => array( 'global' => false, 'user' => true ),
+	
+	/* Textarea / i-frame compatible (probably deployable) */
+	
 	'toolbar' => array( 'global' => false, 'user' => true ),
+	// Provides interactive tools
+	'dialogs' => array( 'global' => false, 'user' => true ),
+	// Adds a tab for previewing in-line
 	'preview' => array( 'global' => false, 'user' => true ),
+	// Adds a button for previewing in a dialog
 	'previewDialog' => array( 'global' => false, 'user' => true ),
+	//  Adds a button and dialog for step-by-step publishing
 	'publish' => array( 'global' => false, 'user' => true ),
-	'templateEditor' => array( 'global' => false, 'user' => true ),
-	'templates' => array( 'global' => false, 'user' => true ),
+	
+	/* I-frame dependent (do not deploy!) */
+	
+	// Experimental wikitext parsing/syntax highlight
+	'highlight' => array( 'global' => false, 'user' => true ),
+	// Failry stable table of contents
 	'toc' => array( 'global' => false, 'user' => true ),
+	// Pretty broken template collapsing/editing
+	'templateEditor' => array( 'global' => false, 'user' => true ),
+	// Bare-bones (probably broken) template collapsing
+	'templates' => array( 'global' => false, 'user' => true ),
+	
+	/* Unknown status */
+	
+	// Adds the AddMediaWizard gadget to the toolbar
+	'addMediaWizard' => array( 'global' => false, 'user' => false ),
 );
 
 // Bump this each time you change an icon without renaming it
+// FIXME: This needs to be done dynamically
 $wgWikiEditorIconVersion = 0;
 
 /* Setup */
