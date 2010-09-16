@@ -8,9 +8,9 @@
 
 class WikiEditorHooks {
 	
-	/* Static Members */
+	/* Protected Static Members */
 	
-	static $modules = array(
+	protected static $modules = array(
 		
 		/* Third-party modules */
 		
@@ -391,7 +391,7 @@ class WikiEditorHooks {
 		),
 	);
 	
-	static $features = array(
+	protected static $features = array(
 		
 		/* Beta Features */
 		
@@ -585,8 +585,7 @@ class WikiEditorHooks {
 	 * 
 	 * Adds the modules to the edit form
 	 * 
-	 * @param $out OutputPage output page
-	 * @param $skin Skin current skin
+	 * @param $toolbar array list of toolbar items
 	 */
 	public static function editPageShowEditFormInitial( &$toolbar ) {
 		global $wgOut;
