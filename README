@@ -14,4 +14,6 @@ require_once( "$IP/extensions/WikiEditor/WikiEditor.php" );
 
 # To enable a preference by default but still allow users to disable it in preferences, use something like...
 
+$wgDefaultUserOptions['usebetatoolbar'] = 1;
+$wgDefaultUserOptions['usebetatoolbar-cgd'] = 1;
 $wgDefaultUserOptions['wikieditor-preview'] = 1;
