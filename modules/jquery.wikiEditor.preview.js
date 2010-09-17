@@ -43,7 +43,7 @@ fn: {
 			'titleMsg': 'wikieditor-preview-tab',
 			'init': function( context ) {
 				// Gets the latest copy of the wikitext
-				var wikitext = context.fn.getContents();
+				var wikitext = context.$textarea.textSelection( 'getContents' );
 				// Aborts when nothing has changed since the last preview
 				if ( context.modules.preview.previewText == wikitext ) {
 					return;
@@ -51,10 +51,10 @@ fn: {
 				context.modules.preview.$preview.find( '.wikiEditor-preview-contents' ).empty();
 				context.modules.preview.$preview.find( '.wikiEditor-preview-loading' ).show();
 				$.post(
-					wgScriptPath + '/api.php',
+					mediaWiki.config.get( 'wgScriptPath' ) + '/api.php',
 					{
 						'action': 'parse',
-						'title': wgPageName,
+						'title': mediaWiki.config.get( 'wgPageName' ),
 						'text': wikitext,
 						'prop': 'text',
 						'pst': '',
@@ -84,7 +84,7 @@ fn: {
 			'titleMsg': 'wikieditor-preview-changes-tab',
 			'init': function( context ) {
 				// Gets the latest copy of the wikitext
-				var wikitext = context.fn.getContents();
+				var wikitext = context.$textarea.textSelection( 'getContents' );
 				// Aborts when nothing has changed since the last time
 				if ( context.modules.preview.changesText == wikitext ) {
 					return;
@@ -100,13 +100,13 @@ fn: {
 					'format': 'json'
 				};
 				
-				$.post( wgScriptPath + '/api.php', postdata, function( data ) {
+				$.post( mediaWiki.config.get( 'wgScriptPath' ) + '/api.php', postdata, function( data ) {
 					try {
 						var postdata2 = {
 							'action': 'query',
 							'indexpageids': '',
 							'prop': 'revisions',
-							'titles': wgPageName,
+							'titles': mediaWiki.config.get( 'wgPageName' ),
 							'rvdifftotext': data.parse.text['*'],
 							'rvprop': '',
 							'format': 'json'
@@ -115,7 +115,7 @@ fn: {
 						if ( section != '' )
 							postdata['rvsection'] = section;
 						
-						$.post( wgScriptPath + '/api.php', postdata2, function( data ) {
+						$.post( mediaWiki.config.get( 'wgScriptPath' ) + '/api.php', postdata2, function( data ) {
 								// Add diff CSS
 								if ( $( 'link[href=' + stylepath + '/common/diff.css]' ).size() == 0 ) {
 									$( 'head' ).append( $( '<link />' ).attr( {
