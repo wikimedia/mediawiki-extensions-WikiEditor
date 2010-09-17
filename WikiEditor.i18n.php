@@ -21,7 +21,7 @@ $messages['en'] = array(
 	'wikieditor-wikitext-tab' => 'Wikitext',
 	'wikieditor-loading' => 'Loading',
 	/* AddMediaWizard */
-    'wikieditor-addMediaWizard-preference' => 'Enable "Add media wizard" gadget',
+	'wikieditor-addMediaWizard-preference' => 'Enable "Add media wizard" gadget',
 	/* Highlight */
 	'wikieditor-highlight-preference' => 'Enable syntax highlighting when editing',
 	/* Preview */
@@ -263,3 +263,4 @@ Do you want to make it an internal link?',
 	'wikieditor-toolbar-help-content-indent-syntax' => 'Normal text<br />:Indented text<br />::Indented text',
 	'wikieditor-toolbar-help-content-indent-result' => 'Normal text<dl><dd>Indented text<dl><dd>Indented text</dd></dl></dd></dl>',
 );
+
