@@ -189,8 +189,8 @@ var wikiEditorTests = {
 		'post': 6
 	}
 };
-$j(document).ready( function() {
-	var button = $j( '<button>Run wikiEditor Tests!</button>' )
+$(document).ready( function() {
+	var button = $( '<button>Run wikiEditor Tests!</button>' )
 		.css( {
 			'position': 'fixed',
 			'bottom': 0,
@@ -204,12 +204,12 @@ $j(document).ready( function() {
 			'display': 'none'
 		} )
 		.click( function() {
-			if ( $j(this).attr( 'enabled' ) == 'false' ) {
-				$j(this).slideUp( 'fast' );
+			if ( $(this).attr( 'enabled' ) == 'false' ) {
+				$(this).slideUp( 'fast' );
 				return false;
 			}
 			var messages = [ 'Running tests for wikiEditor API' ];
-			var $target = $j( textareaId );
+			var $target = $( textareaId );
 			var $ui = $target.data( 'wikiEditor-context' ).$ui;
 			var passes = 0;
 			var tests = 0;
@@ -234,13 +234,13 @@ $j(document).ready( function() {
 					console.log( messages[message] );
 				}
 			}
-			$j(this)
+			$(this)
 				.attr( 'title', messages.join( " | " ) )
 				.text( passes + ' / ' + tests + ' were successful' )
 				.css( 'backgroundColor', passes < tests ? 'red' : 'green' )
 				.attr( 'enabled', 'false' )
 				.blur();
 		} )
-		.appendTo( $j( 'body' ) );
+		.appendTo( $( 'body' ) );
 	setTimeout( function() { button.slideDown( 'fast' ) }, 2000 );
 } );
