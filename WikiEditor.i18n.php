@@ -359,7 +359,8 @@ I guess that 'feature-providing modules' means the same as 'modules providing fe
 	'wikieditor-toolbar-tool-ulist' => '{{Identical|Bulleted list}}',
 	'wikieditor-toolbar-tool-olist' => '{{Identical|Numbered list}}',
 	'wikieditor-toolbar-tool-nowiki' => '工具栏注释',
-	'wikieditor-toolbar-tool-redirect' => "Tooltip for icon to place wiki text for a redirect in the edit box. The label before these icons says 'Insert'. 'Redirect' is a noun here.",
+	'wikieditor-toolbar-tool-redirect' => "Tooltip for icon to place wiki text for a redirect in the edit box. The label before these icons says 'Insert'. 'Redirect' is a noun here.
+{{Identical|Redirect}}",
 	'wikieditor-toolbar-tool-redirect-example' => "Target is an adjective describing the page name. You could use 'destination' instead of 'target'. 'Target page name' is the destination of the redirect and appears when the wikitext for a redirect is inserted in the text box thus 
  <nowiki>#REDIRECT [[target page name]]</nowiki>",
 	'wikieditor-toolbar-tool-small' => '{{Identical|Small}}',
