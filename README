@@ -1,9 +1,8 @@
-# Enhancements to the MediaWiki edit page
-#
-# This is a MediaWiki 1.17+ compatible version of the former UsabilityInitiative/WikiEditor extension. The key
-# differences between these versions is in the usage of ResourceLoader.
-# 
-# To get this working on your wiki
+# WikiEditor provides enhancements to the MediaWiki edit page
+
+# This extension requires MediaWiki 1.17+ because it makes use of ResourceLoader.
+
+# Example LocalSettings.php additions
 
 require_once( "$IP/extensions/WikiEditor/WikiEditor.php" );
 
