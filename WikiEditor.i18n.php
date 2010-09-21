@@ -17233,11 +17233,11 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (Português)
+ * @author 555
  * @author Giro720
  * @author Hamilton Abreu
  * @author Luckas Blade
  * @author Malafaya
- * @author 555
  */
 $messages['pt'] = array(
 	'prefs-beta' => 'Funcionalidades beta',
@@ -17471,6 +17471,7 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (Português do Brasil)
+ * @author 555
  * @author Daemorris
  * @author Everton137
  * @author Giro720
@@ -17478,7 +17479,6 @@ $messages['pt'] = array(
  * @author Heldergeovane
  * @author Lijealso
  * @author Luckas Blade
- * @author 555
  */
 $messages['pt-br'] = array(
 	'prefs-beta' => 'Características beta',
