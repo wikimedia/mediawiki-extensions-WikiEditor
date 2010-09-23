@@ -21373,8 +21373,7 @@ $messages['ta'] = array(
 	'wikieditor-toolbar-characters-page-thai' => 'தாய்',
 	'wikieditor-toolbar-characters-page-khmer' => 'கெமெர்',
 	'wikieditor-toolbar-section-help' => 'உதவி',
-	'wikieditor-toolbar-help-heading-description' => '# விளக்கம்
-# விவரம்',
+	'wikieditor-toolbar-help-heading-description' => 'விளக்கம்',
 	'wikieditor-toolbar-help-heading-syntax' => 'தாங்கள் தட்டச்சு செய்தது',
 	'wikieditor-toolbar-help-heading-result' => 'தங்களுக்குக் கிடைப்பது',
 	'wikieditor-toolbar-help-page-format' => 'உருவமைக்கப்படுகிறது',
