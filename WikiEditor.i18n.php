@@ -9745,6 +9745,7 @@ Chceš jón do interneho wotkaza přetworić?',
  * @author Dani
  * @author Glanthor Reviol
  * @author Hunyadym
+ * @author Misibacsi
  */
 $messages['hu'] = array(
 	'prefs-beta' => 'Béta funkciók',
@@ -9906,11 +9907,15 @@ Szeretnéd belső hivatkozássá alakítani?',
 	'wikieditor-toolbar-characters-page-greek' => 'Görög',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'Cirill',
 	'wikieditor-toolbar-characters-page-arabic' => 'Arab',
+	'wikieditor-toolbar-characters-page-persian' => 'Perzsa',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Héber',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bengáli',
 	'wikieditor-toolbar-characters-page-telugu' => 'Telugu',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Szingaléz',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Gudzsaráti',
+	'wikieditor-toolbar-characters-page-thai' => 'Thai',
+	'wikieditor-toolbar-characters-page-lao' => 'Lao',
+	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
 	'wikieditor-toolbar-section-help' => 'Segítség',
 	'wikieditor-toolbar-help-heading-description' => 'Leírás',
 	'wikieditor-toolbar-help-heading-syntax' => 'Amit be kell írnod',
