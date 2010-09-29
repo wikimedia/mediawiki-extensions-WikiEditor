@@ -7735,7 +7735,7 @@ $messages['frp'] = array(
 	'wikieditor-desc' => 'Balye una entèrface de changement de vouiquitèxto èxtensibla et un mouél de fonccionalitâts.',
 	'wikieditor-wikitext-tab' => 'Vouiquitèxto',
 	'wikieditor-loading' => 'Chargement',
-	'wikieditor-addMediaWizard-preference' => 'Activar l’outil « Assistent d’aponsa de mèdia »',
+	'wikieditor-addMediaWizard-preference' => 'Activar l’outil « Assistent d’aponsa de fichiérs multimèdia »',
 	'wikieditor-highlight-preference' => 'Activar la coloracion sintaxica pendent lo changement',
 	'wikieditor-preview-preference' => 'Activar la prèvisualisacion a châ couta',
 	'wikieditor-preview-tab' => 'Prèvisualisacion',
@@ -21385,8 +21385,7 @@ $messages['ta'] = array(
 	'wikieditor-toolbar-help-page-format' => 'உருவமைக்கப்படுகிறது',
 	'wikieditor-toolbar-help-page-link' => 'இணைப்புக்கள்',
 	'wikieditor-toolbar-help-page-heading' => 'தலைப்புக்கள்',
-	'wikieditor-toolbar-help-page-list' => '# பட்டியல்கள்
-# வரிசைகள்',
+	'wikieditor-toolbar-help-page-list' => 'பட்டியல்கள்',
 	'wikieditor-toolbar-help-page-file' => 'கோப்புக்கள்',
 	'wikieditor-toolbar-help-page-reference' => '# மேற்கோள்கள்
 # முன்மாதிரிகள்',
