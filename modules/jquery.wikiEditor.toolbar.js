@@ -142,7 +142,7 @@ api : {
 					// Save for later checking if empty
 					group = target;
 					// Tool
-					target += ' div[rel=' + data.tool + '].tool';
+					target += ' span[rel=' + data.tool + '].tool';
 				}
 			} else if ( typeof data.page == 'string' ) {
 				// Booklet page
@@ -327,7 +327,7 @@ fn: {
 								'alt' : label,
 								'title' : label,
 								'rel' : id,
-								'class' : 'wikiEditor-toolbar-spritedButton'
+								'class' : 'tool tool-button wikiEditor-toolbar-spritedButton'
 							} )
 							.text( label )
 							.css( 'backgroundPosition', offsetOrIcon[0] + 'px ' + offsetOrIcon[1] + 'px' );
@@ -362,17 +362,6 @@ fn: {
 							e.preventDefault();
 							return false;
 						} );
-					// If the action is a dialog that hasn't been set up yet, hide the button
-					// until the dialog is loaded
-					if ( tool.action.type == 'dialog' &&
-							!( tool.action.module in $.wikiEditor.modules.dialogs.modules ) ) {
-						$button.hide();
-						// JavaScript won't propagate the $button variable itself, it needs help
-						context.$textarea.bind( 'wikiEditor-dialogs-setup-' + tool.action.module,
-							{ button: $button }, function( event ) {
-								event.data.button.show().parent().show();
-						} );
-					}
 				}
 				return $button;
 			case 'select':

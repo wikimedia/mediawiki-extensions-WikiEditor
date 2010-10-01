@@ -120,7 +120,6 @@ $( document ).ready( function() {
 							'type': 'button',
 							'icon': 'insert-xlink.png',
 							'offset': [-70, 2],
-							'filters': [ '#wpTextbox1:not(.toolbar-dialogs)' ],
 							'action': {
 								'type': 'encapsulate',
 								'options': {
@@ -135,7 +134,6 @@ $( document ).ready( function() {
 							'type': 'button',
 							'icon': 'insert-ilink.png',
 							'offset': [2, -1582],
-							'filters': [ '#wpTextbox1:not(.toolbar-dialogs)' ],
 							'action': {
 								'type': 'encapsulate',
 								'options': {
@@ -143,17 +141,6 @@ $( document ).ready( function() {
 									'periMsg': 'wikieditor-toolbar-tool-ilink-example',
 									'post': "]]"
 								}
-							}
-						},
-						'linkCGD': {
-							'labelMsg': 'wikieditor-toolbar-tool-link',
-							'type': 'button',
-							'icon': 'insert-link.png',
-							'offset': [2, -1654],
-							'filters': [ '#wpTextbox1.toolbar-dialogs' ],
-							'action': {
-								'type': 'dialog',
-								'module': 'insert-link'
 							}
 						},
 						'file': {
@@ -171,20 +158,8 @@ $( document ).ready( function() {
 								}
 							}
 						},
-						'referenceCGD': {
-							'labelMsg': 'wikieditor-toolbar-tool-reference',
-							'type': 'button',
-							'icon': 'insert-reference.png',
-							'offset': [2, -1798],
-							'filters': [ 'body.ns-subject', '#wpTextbox1.toolbar-dialogs' ],
-							'action': {
-								'type': 'dialog',
-								'module': 'insert-reference'
-							}
-						},
 						'reference': {
 							'labelMsg': 'wikieditor-toolbar-tool-reference',
-							'filters': [ 'body.ns-subject', '#wpTextbox1:not(.toolbar-dialogs)' ],
 							'type': 'button',
 							'offset': [2, -1798],
 							'icon': 'insert-reference.png',

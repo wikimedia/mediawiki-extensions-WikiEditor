@@ -43,6 +43,7 @@ class WikiEditorHooks {
 				'jquery.wikiEditor',
 				'jquery.wikiEditor.toolbar',
 				'jquery.ui.dialog',
+				'jquery.ui.button',
 				'jquery.ui.draggable',
 				'jquery.ui.resizable',
 				'jquery.tabIndex',
@@ -122,8 +123,8 @@ class WikiEditorHooks {
 			'styles' => 'extensions/WikiEditor/modules/ext.wikiEditor.dialogs.css',
 			'dependencies' => array(
 				'ext.wikiEditor',
-				'jquery.wikiEditor.dialogs',
-				'jquery.suggestions',
+				'ext.wikiEditor.toolbar',
+				//  jquery.wikiEditor.dialogs and jquery.suggestions will be loaded on the fly
 			),
 			'group' => 'ext.wikiEditor',
 		),
