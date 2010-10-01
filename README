@@ -6,7 +6,7 @@
 
 require_once( "$IP/extensions/WikiEditor/WikiEditor.php" );
 
-# Before configuring this extension, see MediaWiki.php and become familiar with the initial state and structure of the
+# Before configuring this extension, see WikiEditor.php and become familiar with the initial state and structure of the
 # $wgWikiEditorFeatures configuration variable. Essentially it's an array or arrays, keyed by feature name, each
 # containing global and user keys with boolean values. "global" indicates that it should be turned on for everyone
 # always, while user indicates that users should be allowed to turn it on or off in their user preferences.
