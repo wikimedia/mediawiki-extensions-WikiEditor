@@ -21379,6 +21379,7 @@ $messages['ta'] = array(
 	'wikieditor-toolbar-characters-page-sinhala' => 'சிங்களம்',
 	'wikieditor-toolbar-characters-page-gujarati' => 'குஜராத்தி',
 	'wikieditor-toolbar-characters-page-thai' => 'தாய்',
+	'wikieditor-toolbar-characters-page-lao' => 'லாவோ',
 	'wikieditor-toolbar-characters-page-khmer' => 'கெமெர்',
 	'wikieditor-toolbar-section-help' => 'உதவி',
 	'wikieditor-toolbar-help-heading-description' => 'விளக்கம்',
