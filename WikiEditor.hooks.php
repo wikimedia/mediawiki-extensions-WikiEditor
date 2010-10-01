@@ -1,6 +1,6 @@
 <?php
 /**
- * Hooks for Vector extension
+ * Hooks for WikiEditor extension
  * 
  * @file
  * @ingroup Extensions
@@ -636,7 +636,7 @@ class WikiEditorHooks {
 	/**
 	 * GetPreferences hook
 	 * 
-	 * Adds Vector-releated items to the preferences
+	 * Adds WikiEditor-releated items to the preferences
 	 * 
 	 * @param $out User current user
 	 * @param $skin array list of default user preference controls
@@ -659,7 +659,7 @@ class WikiEditorHooks {
 	/**
 	 * MakeGlobalVariablesScript hook
 	 * 
-	 * Adds enabled/disabled switches for Vector modules
+	 * Adds enabled/disabled switches for WikiEditor modules
 	 */
 	public static function makeGlobalVariablesScript( &$vars ) {
 		global $wgWikiEditorFeatures;
