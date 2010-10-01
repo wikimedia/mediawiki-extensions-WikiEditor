@@ -649,8 +649,9 @@ class WikiEditorHooks {
 				isset( $feature['preferences'] ) &&
 				( !isset( $wgWikiEditorFeatures[$name] ) || $wgWikiEditorFeatures[$name]['user'] )
 			) {
-				foreach ( $feature['preferences'] as $key => $options )
-				$defaultPreferences[$key] = $options;
+				foreach ( $feature['preferences'] as $key => $options ) {
+					$defaultPreferences[$key] = $options;
+				}
 			}
 		}
 		return true;
