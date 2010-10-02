@@ -6237,6 +6237,7 @@ $messages['eo'] = array(
 	'wikieditor-toolbar-characters-page-telugu' => 'Telegua',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Sinhala',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Guĝarata',
+	'wikieditor-toolbar-characters-page-thai' => 'Taja',
 	'wikieditor-toolbar-section-help' => 'Helpo',
 	'wikieditor-toolbar-help-heading-description' => 'Priskribo',
 	'wikieditor-toolbar-help-heading-syntax' => 'Kion vi tajpas',
