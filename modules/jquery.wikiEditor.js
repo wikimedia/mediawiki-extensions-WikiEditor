@@ -139,8 +139,10 @@ $.wikiEditor = {
 		} else if ( property + 'Msg' in object ) {
 			var p = object[property + 'Msg'];
 			if ( p instanceof Array && p.length >= 2 ) {
-				// [ messageKey, { 'parameters': ['arg1, arg2, ...] } ]
-				return mediaWiki.msg.get( object[property + 'Msg' ][0], object[property + 'Msg' ][1] );
+				return mediaWiki.msg.get(
+					object[property + 'Msg' ][0],
+					{ 'parameters': [object[property + 'Msg' ][1]] }
+				);
 			} else {
 				return mediaWiki.msg.get( p );
 			}
