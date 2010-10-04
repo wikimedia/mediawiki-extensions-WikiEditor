@@ -59,7 +59,7 @@ api : {
 					);
 					for ( tool in data[type] ) {
 						// Tool
-						$group.append( $.wikiEditor.modules.toolbar.fn.buildTool( context, tool,data[type][tool] ) );
+						$group.append( $.wikiEditor.modules.toolbar.fn.buildTool( context, tool, data[type][tool] ) );
 					}
 					if ( $group.children().length ) {
 						$group.show();

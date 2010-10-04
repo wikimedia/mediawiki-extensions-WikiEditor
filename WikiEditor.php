@@ -26,20 +26,18 @@ $wgWikiEditorFeatures = array(
 	// Adds a tab for previewing in-line
 	'preview' => array( 'global' => false, 'user' => true ),
 	// Adds a button for previewing in a dialog
-	'previewDialog' => array( 'global' => false, 'user' => true ),
+	'previewDialog' => array( 'global' => false, 'user' => false ),
 	//  Adds a button and dialog for step-by-step publishing
 	'publish' => array( 'global' => false, 'user' => true ),
 	
 	/* I-frame dependent (do not deploy!) */
 	
-	// Experimental wikitext parsing/syntax highlight
-	'highlight' => array( 'global' => false, 'user' => true ),
 	// Failry stable table of contents
 	'toc' => array( 'global' => false, 'user' => true ),
 	// Pretty broken template collapsing/editing
-	'templateEditor' => array( 'global' => false, 'user' => true ),
+	'templateEditor' => array( 'global' => false, 'user' => false ),
 	// Bare-bones (probably broken) template collapsing
-	'templates' => array( 'global' => false, 'user' => true ),
+	'templates' => array( 'global' => false, 'user' => false ),
 	
 	/* Unknown status */
 	

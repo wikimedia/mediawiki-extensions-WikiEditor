@@ -22,8 +22,6 @@ $messages['en'] = array(
 	'wikieditor-loading' => 'Loading',
 	/* AddMediaWizard */
 	'wikieditor-addMediaWizard-preference' => 'Enable "Add media wizard" gadget',
-	/* Highlight */
-	'wikieditor-highlight-preference' => 'Enable syntax highlighting when editing',
 	/* Preview */
 	'wikieditor-preview-preference' => 'Enable side-by-side preview',
 	'wikieditor-preview-tab' => 'Preview',

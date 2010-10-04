@@ -415,17 +415,6 @@ $( document ).ready( function() {
 								}
 							}
 						},
-						'tableCGD': {
-							'labelMsg': 'wikieditor-toolbar-tool-table',
-							'type': 'button',
-							'icon': 'insert-table.png',
-							'offset': [2, -1942],
-							'filters': [ '#wpTextbox1.toolbar-dialogs' ],
-							'action': {
-								'type': 'dialog',
-								'module': 'insert-table'
-							}
-						},
 						'table': {
 							'labelMsg': 'wikieditor-toolbar-tool-table',
 							'type': 'button',
@@ -455,21 +444,6 @@ $( document ).ready( function() {
 									'post': "]]",
 									'ownline': true
 								}
-							}
-						}
-					}
-				},
-				'search': {
-					'tools': {
-						'replace': {
-							'labelMsg': 'wikieditor-toolbar-tool-replace',
-							'type': 'button',
-							'icon': 'search-replace.png',
-							'offset': [-70, -214],
-							'filters': [ '#wpTextbox1.toolbar-dialogs' ],
-							'action': {
-								'type': 'dialog',
-								'module': 'search-and-replace'
 							}
 						}
 					}

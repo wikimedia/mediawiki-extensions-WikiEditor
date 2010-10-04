@@ -28,7 +28,6 @@ class WikiEditorHooks {
 				'jquery.client',
 				'jquery.textSelection',
 				'jquery.delayedBind',
-				'contentCollector',
 			),
 			'messages' => array(
 				'wikieditor-wikitext-tab',
@@ -38,7 +37,10 @@ class WikiEditorHooks {
 		),
 		'jquery.wikiEditor.iframe' => array(
 			'scripts' => 'extensions/WikiEditor/modules/jquery.wikiEditor.iframe.js',
-			'dependencies' => 'jquery.wikiEditor',
+			'dependencies' => array(
+				'jquery.wikiEditor',
+				'contentCollector',
+			),
 			'group' => 'ext.wikiEditor',
 		),
 		'jquery.wikiEditor.dialogs' => array(
@@ -137,7 +139,8 @@ class WikiEditorHooks {
 			'dependencies' => array(
 				'ext.wikiEditor',
 				'ext.wikiEditor.toolbar',
-				//  jquery.wikiEditor.dialogs and jquery.suggestions will be loaded on the fly
+				'jquery.wikiEditor.dialogs',
+				'jquery.suggestions',
 			),
 			'group' => 'ext.wikiEditor',
 		),
@@ -197,6 +200,7 @@ class WikiEditorHooks {
 			'scripts' => 'extensions/WikiEditor/modules/ext.wikiEditor.templateEditor.js',
 			'dependencies' => array(
 				'ext.wikiEditor',
+				'ext.wikiEditor.highlight',
 				'jquery.wikiEditor.templateEditor',
 			),
 			'messages' => array(
@@ -210,6 +214,7 @@ class WikiEditorHooks {
 			'scripts' => 'extensions/WikiEditor/modules/ext.wikiEditor.templates.js',
 			'dependencies' => array(
 				'ext.wikiEditor',
+				'ext.wikiEditor.highlight',
 				'jquery.wikiEditor.templates',
 			),
 			'group' => 'ext.wikiEditor',
@@ -218,6 +223,7 @@ class WikiEditorHooks {
 			'scripts' => 'extensions/WikiEditor/modules/ext.wikiEditor.toc.js',
 			'dependencies' => array(
 				'ext.wikiEditor',
+				'ext.wikiEditor.highlight',
 				'jquery.wikiEditor.toc',
 			),
 			'messages' => array(
@@ -478,21 +484,6 @@ class WikiEditorHooks {
 		
 		/* Labs Features */
 		
-		'highlight' => array(
-			'preferences' => array(
-				'wikieditor-highlight' => array(
-					'type' => 'toggle',
-					'label-message' => 'wikieditor-highlight-preference',
-					'section' => 'editing/labs',
-				),
-			),
-			'requirements' => array(
-				'wikieditor-highlight' => true,
-			),
-			'modules' => array(
-				'ext.wikiEditor.highlight',
-			),
-		),
 		'templateEditor' => array(
 			'preferences' => array(
 				'wikieditor-template-editor' => array(
