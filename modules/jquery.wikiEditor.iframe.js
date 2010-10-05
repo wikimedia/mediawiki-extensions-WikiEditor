@@ -542,30 +542,26 @@ context.fn = $.extend( context.fn, {
 			t = nextT;
 		}
 	},
+	'saveCursorAndScrollTop': function() {
+		// Stub out textarea behavior
+		return;
+	},
+	'restoreCursorAndScrollTop': function() {
+		// Stub out textarea behavior
+		return;
+	},
 	'saveSelection': function() {
-		if ( !$.browser.msie ) {
-			// Only IE needs this
-			return;
-		}
-		if ( typeof context.$iframe != 'undefined' ) {
+		if ( $.client.name === 'msie' ) {
 			context.$iframe[0].contentWindow.focus();
 			context.savedSelection = context.$iframe[0].contentWindow.document.selection.createRange();
-		} else {
-			context.$textarea.focus();
-			context.savedSelection = document.selection.createRange();
 		}
 	},
 	'restoreSelection': function() {
-		if ( !$.browser.msie || context.savedSelection === null ) {
-			return;
-		}
-		if ( typeof context.$iframe != 'undefined' ) {
+		if ( $.client.name === 'msie' && context.savedSelection !== null ) {
 			context.$iframe[0].contentWindow.focus();
-		} else {
-			context.$textarea.focus();
+			context.savedSelection.select();
+			context.savedSelection = null;
 		}
-		context.savedSelection.select();
-		context.savedSelection = null;
 	},
 	/**
 	 * Update the history queue

@@ -502,7 +502,7 @@ $( document ).ready( function() {
 					'wikieditor-toolbar-tool-link-cancel': function() {
 						// Clear any saved selection state
 						var context = $(this).data( 'context' );
-						context.fn.restoreStuffForIE();
+						context.fn.restoreCursorAndScrollTop();
 						$(this).dialog( 'close' );
 					}
 				},
@@ -515,8 +515,8 @@ $( document ).ready( function() {
 					// Pre-fill the text fields based on the current selection
 					var context = $(this).data( 'context' );
 					// Restore and immediately save selection state, needed for inserting stuff later
-					context.fn.restoreStuffForIE();
-					context.fn.saveStuffForIE();
+					context.fn.restoreCursorAndScrollTop();
+					context.fn.saveCursorAndScrollTop();
 					var selection = context.$textarea.textSelection( 'getSelection' ); 
 					$( '#wikieditor-toolbar-link-int-target' ).focus();
 					// Trigger the change event, so the link status indicator is up to date
@@ -649,7 +649,7 @@ $( document ).ready( function() {
 					'wikieditor-toolbar-tool-reference-cancel': function() {
 						// Clear any saved selection state
 						var context = $( this ).data( 'context' );
-						context.fn.restoreStuffForIE();
+						context.fn.restoreCursorAndScrollTop();
 						$( this ).dialog( 'close' );
 					}
 				},
@@ -657,8 +657,8 @@ $( document ).ready( function() {
 					// Pre-fill the text fields based on the current selection
 					var context = $(this).data( 'context' );
 					// Restore and immediately save selection state, needed for inserting stuff later
-					context.fn.restoreStuffForIE();
-					context.fn.saveStuffForIE();
+					context.fn.restoreCursorAndScrollTop();
+					context.fn.saveCursorAndScrollTop();
 					var selection = context.$textarea.textSelection( 'getSelection' ); 
 					// set focus
 					$( '#wikieditor-toolbar-reference-text' ).focus();

@@ -488,32 +488,49 @@ if ( !context || typeof context == 'undefined' ) {
 				.appendTo( context.$ui );
 		},
 		/**
-		 * Save scrollTop and cursor position for IE.
+		 * Save scrollTop and cursor position for IE
 		 */
-		'saveStuffForIE': function() {
-			// Only need this for IE in textarea mode
-			if ( !$.browser.msie || context.$iframe )
-				return;
-			var IHateIE = {
-				'scrollTop' : context.$textarea.scrollTop(),
-				'pos': context.$textarea.textSelection( 'getCaretPosition', { startAndEnd: true } )
-			};
-			context.$textarea.data( 'IHateIE', IHateIE );
+		'saveCursorAndScrollTop': function() {
+			if ( $.client.name === 'msie' ) {
+				var IHateIE = {
+					'scrollTop' : context.$textarea.scrollTop(),
+					'pos': context.$textarea.textSelection( 'getCaretPosition', { startAndEnd: true } )
+				};
+				context.$textarea.data( 'IHateIE', IHateIE );
+			}
 		},
 		/**
-		 * Restore scrollTo and cursor position for IE.
+		 * Restore scrollTo and cursor position for IE
 		 */
-		'restoreStuffForIE': function() {
-			// Only need this for IE in textarea mode
-			if ( !$.browser.msie || context.$iframe )
-				return;
-			var IHateIE = context.$textarea.data( 'IHateIE' );
-			if ( !IHateIE )
-				return;
-			context.$textarea.scrollTop( IHateIE.scrollTop );
-			context.$textarea.textSelection( 'setSelection', { start: IHateIE.pos[0], end: IHateIE.pos[1] } );
-			context.$textarea.data( 'IHateIE', null );
-		}
+		'restoreCursorAndScrollTop': function() {
+			if ( $.client.name === 'msie' ) {
+				var IHateIE = context.$textarea.data( 'IHateIE' );
+				if ( IHateIE ) {
+					context.$textarea.scrollTop( IHateIE.scrollTop );
+					context.$textarea.textSelection( 'setSelection', { start: IHateIE.pos[0], end: IHateIE.pos[1] } );
+					context.$textarea.data( 'IHateIE', null );
+				}
+			}
+		},
+		/**
+		 * Save text selection for IE
+		 */
+		'saveSelection': function() {
+			if ( $.client.name === 'msie' ) {
+				context.$textarea.focus();
+				context.savedSelection = document.selection.createRange();
+			}
+		},
+		/**
+		 * Restore text selection for IE
+		 */
+		'restoreSelection': function() {
+			if ( $.client.name === 'msie' && context.savedSelection !== null ) {
+				context.$textarea.focus();
+				context.savedSelection.select();
+				context.savedSelection = null;
+			}
+		},
 	};
 	
 	/*

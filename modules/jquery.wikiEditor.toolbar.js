@@ -111,7 +111,7 @@ api : {
 						.append(
 							$( $.wikiEditor.modules.toolbar.fn.buildCharacter( data[type][character], actions ) )
 								.mousedown( function( e ) {
-									context.fn.saveStuffForIE();
+									context.fn.saveCursorAndScrollTop();
 									// No dragging!
 									e.preventDefault();
 									return false;
@@ -350,7 +350,7 @@ fn: {
 						.data( 'action', tool.action )
 						.data( 'context', context )
 						.mousedown( function( e ) {
-							context.fn.saveStuffForIE();
+							context.fn.saveCursorAndScrollTop();
 							// No dragging!
 							e.preventDefault();
 							return false;
@@ -376,7 +376,7 @@ fn: {
 								.data( 'action', tool.list[option].action )
 								.data( 'context', context )
 								.mousedown( function( e ) {
-									context.fn.saveStuffForIE();
+									context.fn.saveCursorAndScrollTop();
 									// No dragging!
 									e.preventDefault();
 									return false;
@@ -493,7 +493,7 @@ fn: {
 						.html( html )
 						.children()
 						.mousedown( function( e ) {
-							context.fn.saveStuffForIE();
+							context.fn.saveCursorAndScrollTop();
 							// No dragging!
 							e.preventDefault();
 							return false;
