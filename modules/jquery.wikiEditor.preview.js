@@ -117,13 +117,7 @@ fn: {
 						
 						$.post( mediaWiki.config.get( 'wgScriptPath' ) + '/api.php', postdata2, function( data ) {
 								// Add diff CSS
-								if ( $( 'link[href=' + stylepath + '/common/diff.css]' ).size() == 0 ) {
-									$( 'head' ).append( $( '<link />' ).attr( {
-										'rel': 'stylesheet',
-										'type': 'text/css',
-										'href': stylepath + '/common/diff.css'
-									} ) );
-								}
+								mediaWiki.loader.load( 'mediawiki.legacy.diff' );
 								try {
 									var diff = data.query.pages[data.query.pageids[0]]
 										.revisions[0].diff['*'];
