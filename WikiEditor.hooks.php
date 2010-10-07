@@ -15,15 +15,15 @@ class WikiEditorHooks {
 		/* Third-party modules */
 		
 		'contentCollector' => array(
-			'scripts' => 'extensions/WikiEditor/modules/contentCollector.js',
+			'scripts' => 'contentCollector.js',
 			'group' => 'ext.wikiEditor',
 		),
 		
 		/* WikiEditor jQuery plugin Resources */
 		
 		'jquery.wikiEditor' => array(
-			'scripts' => 'extensions/WikiEditor/modules/jquery.wikiEditor.js',
-			'styles' => 'extensions/WikiEditor/modules/jquery.wikiEditor.css',
+			'scripts' => 'jquery.wikiEditor.js',
+			'styles' => 'jquery.wikiEditor.css',
 			'dependencies' => array(
 				'jquery.client',
 				'jquery.textSelection',
@@ -36,7 +36,7 @@ class WikiEditorHooks {
 			'group' => 'ext.wikiEditor',
 		),
 		'jquery.wikiEditor.iframe' => array(
-			'scripts' => 'extensions/WikiEditor/modules/jquery.wikiEditor.iframe.js',
+			'scripts' => 'jquery.wikiEditor.iframe.js',
 			'dependencies' => array(
 				'jquery.wikiEditor',
 				'contentCollector',
@@ -44,8 +44,8 @@ class WikiEditorHooks {
 			'group' => 'ext.wikiEditor',
 		),
 		'jquery.wikiEditor.dialogs' => array(
-			'scripts' => 'extensions/WikiEditor/modules/jquery.wikiEditor.dialogs.js',
-			'styles' => 'extensions/WikiEditor/modules/jquery.wikiEditor.dialogs.css',
+			'scripts' => 'jquery.wikiEditor.dialogs.js',
+			'styles' => 'jquery.wikiEditor.dialogs.css',
 			'dependencies' => array(
 				'jquery.wikiEditor',
 				'jquery.wikiEditor.toolbar',
@@ -58,7 +58,7 @@ class WikiEditorHooks {
 			'group' => 'ext.wikiEditor',
 		),
 		'jquery.wikiEditor.highlight' => array(
-			'scripts' => 'extensions/WikiEditor/modules/jquery.wikiEditor.highlight.js',
+			'scripts' => 'jquery.wikiEditor.highlight.js',
 			'dependencies' => array(
 				'jquery.wikiEditor',
 				'jquery.wikiEditor.iframe',
@@ -66,14 +66,14 @@ class WikiEditorHooks {
 			'group' => 'ext.wikiEditor',
 		),
 		'jquery.wikiEditor.preview' => array(
-			'scripts' => 'extensions/WikiEditor/modules/jquery.wikiEditor.preview.js',
-			'styles' => 'extensions/WikiEditor/modules/jquery.wikiEditor.preview.css',
+			'scripts' => 'jquery.wikiEditor.preview.js',
+			'styles' => 'jquery.wikiEditor.preview.css',
 			'dependencies' => 'jquery.wikiEditor',
 			'group' => 'ext.wikiEditor',
 		),
 		'jquery.wikiEditor.previewDialog' => array(
-			'scripts' => 'extensions/WikiEditor/modules/jquery.wikiEditor.previewDialog.js',
-			'styles' => 'extensions/WikiEditor/modules/jquery.wikiEditor.previewDialog.css',
+			'scripts' => 'jquery.wikiEditor.previewDialog.js',
+			'styles' => 'jquery.wikiEditor.previewDialog.css',
 			'dependencies' => array(
 				'jquery.wikiEditor',
 				'jquery.wikiEditor.dialogs',
@@ -81,7 +81,7 @@ class WikiEditorHooks {
 			'group' => 'ext.wikiEditor',
 		),
 		'jquery.wikiEditor.publish' => array(
-			'scripts' => 'extensions/WikiEditor/modules/jquery.wikiEditor.publish.js',
+			'scripts' => 'jquery.wikiEditor.publish.js',
 			'dependencies' => array(
 				'jquery.wikiEditor',
 				'jquery.wikiEditor.dialogs',
@@ -89,7 +89,7 @@ class WikiEditorHooks {
 			'group' => 'ext.wikiEditor',
 		),
 		'jquery.wikiEditor.templateEditor' => array(
-			'scripts' => 'extensions/WikiEditor/modules/jquery.wikiEditor.templateEditor.js',
+			'scripts' => 'jquery.wikiEditor.templateEditor.js',
 			'dependencies' => array(
 				'jquery.wikiEditor',
 				'jquery.wikiEditor.iframe',
@@ -98,7 +98,7 @@ class WikiEditorHooks {
 			'group' => 'ext.wikiEditor',
 		),
 		'jquery.wikiEditor.templates' => array(
-			'scripts' => 'extensions/WikiEditor/modules/jquery.wikiEditor.templates.js',
+			'scripts' => 'jquery.wikiEditor.templates.js',
 			'dependencies' => array(
 				'jquery.wikiEditor',
 				'jquery.wikiEditor.iframe',
@@ -106,8 +106,8 @@ class WikiEditorHooks {
 			'group' => 'ext.wikiEditor',
 		),
 		'jquery.wikiEditor.toc' => array(
-			'scripts' => 'extensions/WikiEditor/modules/jquery.wikiEditor.toc.js',
-			'styles' => 'extensions/WikiEditor/modules/jquery.wikiEditor.toc.css',
+			'scripts' => 'jquery.wikiEditor.toc.js',
+			'styles' => 'jquery.wikiEditor.toc.css',
 			'dependencies' => array(
 				'jquery.wikiEditor',
 				'jquery.wikiEditor.iframe',
@@ -119,8 +119,8 @@ class WikiEditorHooks {
 			'group' => 'ext.wikiEditor',
 		),
 		'jquery.wikiEditor.toolbar' => array(
-			'scripts' => 'extensions/WikiEditor/modules/jquery.wikiEditor.toolbar.js',
-			'styles' => 'extensions/WikiEditor/modules/jquery.wikiEditor.toolbar.css',
+			'scripts' => 'jquery.wikiEditor.toolbar.js',
+			'styles' => 'jquery.wikiEditor.toolbar.css',
 			'dependencies' => 'jquery.wikiEditor',
 			'group' => 'ext.wikiEditor',
 		),
@@ -128,14 +128,14 @@ class WikiEditorHooks {
 		/* WikiEditor Resources */
 		
 		'ext.wikiEditor' => array(
-			'scripts' => 'extensions/WikiEditor/modules/ext.wikiEditor.js',
-			'styles' => 'extensions/WikiEditor/modules/ext.wikiEditor.css',
+			'scripts' => 'ext.wikiEditor.js',
+			'styles' => 'ext.wikiEditor.css',
 			'dependencies' => 'jquery.wikiEditor',
 			'group' => 'ext.wikiEditor',
 		),
 		'ext.wikiEditor.dialogs' => array(
-			'scripts' => 'extensions/WikiEditor/modules/ext.wikiEditor.dialogs.js',
-			'styles' => 'extensions/WikiEditor/modules/ext.wikiEditor.dialogs.css',
+			'scripts' => 'ext.wikiEditor.dialogs.js',
+			'styles' => 'ext.wikiEditor.dialogs.css',
 			'dependencies' => array(
 				'ext.wikiEditor',
 				'ext.wikiEditor.toolbar',
@@ -145,7 +145,7 @@ class WikiEditorHooks {
 			'group' => 'ext.wikiEditor',
 		),
 		'ext.wikiEditor.highlight' => array(
-			'scripts' => 'extensions/WikiEditor/modules/ext.wikiEditor.highlight.js',
+			'scripts' => 'ext.wikiEditor.highlight.js',
 			'dependencies' => array(
 				'ext.wikiEditor',
 				'jquery.wikiEditor.highlight',
@@ -153,7 +153,7 @@ class WikiEditorHooks {
 			'group' => 'ext.wikiEditor',
 		),
 		'ext.wikiEditor.preview' => array(
-			'scripts' => 'extensions/WikiEditor/modules/ext.wikiEditor.preview.js',
+			'scripts' => 'ext.wikiEditor.preview.js',
 			'dependencies' => array(
 				'ext.wikiEditor',
 				'jquery.wikiEditor.preview',
@@ -166,7 +166,7 @@ class WikiEditorHooks {
 			'group' => 'ext.wikiEditor',
 		),
 		'ext.wikiEditor.previewDialog' => array(
-			'scripts' => 'extensions/WikiEditor/modules/ext.wikiEditor.previewDialog.js',
+			'scripts' => 'ext.wikiEditor.previewDialog.js',
 			'dependencies' => array(
 				'ext.wikiEditor',
 				'jquery.wikiEditor.previewDialog',
@@ -179,7 +179,7 @@ class WikiEditorHooks {
 			'group' => 'ext.wikiEditor',
 		),
 		'ext.wikiEditor.publish' => array(
-			'scripts' => 'extensions/WikiEditor/modules/ext.wikiEditor.publish.js',
+			'scripts' => 'ext.wikiEditor.publish.js',
 			'dependencies' => array(
 				'ext.wikiEditor',
 				'jquery.wikiEditor.publish',
@@ -197,7 +197,7 @@ class WikiEditorHooks {
 			'group' => 'ext.wikiEditor',
 		),
 		'ext.wikiEditor.templateEditor' => array(
-			'scripts' => 'extensions/WikiEditor/modules/ext.wikiEditor.templateEditor.js',
+			'scripts' => 'ext.wikiEditor.templateEditor.js',
 			'dependencies' => array(
 				'ext.wikiEditor',
 				'ext.wikiEditor.highlight',
@@ -211,7 +211,7 @@ class WikiEditorHooks {
 			'group' => 'ext.wikiEditor',
 		),
 		'ext.wikiEditor.templates' => array(
-			'scripts' => 'extensions/WikiEditor/modules/ext.wikiEditor.templates.js',
+			'scripts' => 'ext.wikiEditor.templates.js',
 			'dependencies' => array(
 				'ext.wikiEditor',
 				'ext.wikiEditor.highlight',
@@ -220,7 +220,7 @@ class WikiEditorHooks {
 			'group' => 'ext.wikiEditor',
 		),
 		'ext.wikiEditor.toc' => array(
-			'scripts' => 'extensions/WikiEditor/modules/ext.wikiEditor.toc.js',
+			'scripts' => 'ext.wikiEditor.toc.js',
 			'dependencies' => array(
 				'ext.wikiEditor',
 				'ext.wikiEditor.highlight',
@@ -233,12 +233,12 @@ class WikiEditorHooks {
 			'group' => 'ext.wikiEditor',
 		),
 		'ext.wikiEditor.tests.toolbar' => array(
-			'scripts' => 'extensions/WikiEditor/modules/ext.wikiEditor.tests.toolbar.js',
+			'scripts' => 'ext.wikiEditor.tests.toolbar.js',
 			'dependencies' => 'ext.wikiEditor.toolbar',
 			'group' => 'ext.wikiEditor.tests',
 		),
 		'ext.wikiEditor.toolbar' => array(
-			'scripts' => 'extensions/WikiEditor/modules/ext.wikiEditor.toolbar.js',
+			'scripts' => 'ext.wikiEditor.toolbar.js',
 			'dependencies' => array(
 				'ext.wikiEditor',
 				'jquery.wikiEditor.toolbar',
@@ -695,7 +695,9 @@ class WikiEditorHooks {
 	 */
 	public static function resourceLoaderRegisterModules( &$resourceLoader ) {
 		foreach ( self::$modules as $name => $resources ) {
-			$resourceLoader->register( $name, new ResourceLoaderFileModule( $resources ) );
+			$resourceLoader->register(
+				$name, new ResourceLoaderFileModule( $resources, 'extensions/WikiEditor/modules/' )
+			);
 		}
 		return true;
 	}
