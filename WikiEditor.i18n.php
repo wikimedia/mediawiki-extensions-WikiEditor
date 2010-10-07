@@ -21391,8 +21391,7 @@ $messages['ta'] = array(
 	'wikieditor-toolbar-help-page-heading' => 'தலைப்புக்கள்',
 	'wikieditor-toolbar-help-page-list' => 'பட்டியல்கள்',
 	'wikieditor-toolbar-help-page-file' => 'கோப்புக்கள்',
-	'wikieditor-toolbar-help-page-reference' => '# மேற்கோள்கள்
-# முன்மாதிரிகள்',
+	'wikieditor-toolbar-help-page-reference' => 'மேற்கோள்கள்',
 	'wikieditor-toolbar-help-page-discussion' => 'உரையாடல்',
 	'wikieditor-toolbar-help-content-italic-description' => 'சாய்ந்த',
 	'wikieditor-toolbar-help-content-italic-syntax' => '"சாய்ந்த எழுத்துக்கள்"',
