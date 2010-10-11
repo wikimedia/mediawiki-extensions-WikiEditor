@@ -181,7 +181,7 @@ $( document ).ready( function() {
 							'action': {
 								'type': 'encapsulate',
 								'options': {
-									'post': "--~~~~"
+									'pre': "--~~~~"
 								}
 							}
 						}
