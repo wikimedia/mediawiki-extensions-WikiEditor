@@ -11890,6 +11890,8 @@ $messages['km'] = array(
 $messages['kn'] = array(
 	'wikieditor-preview-tab' => 'ಮುನ್ನೋಟ',
 	'wikieditor-previewDialog-tab' => 'ಮುನ್ನೋಟ',
+	'wikieditor-template-editor-dialog-cancel' => 'ರದ್ದು ಮಾಡು',
+	'wikieditor-toolbar-tool-reference-cancel' => 'ರದ್ದು ಮಾಡು',
 	'wikieditor-toolbar-tool-heading-1' => 'ದರ್ಜೆ ೧',
 	'wikieditor-toolbar-tool-heading-2' => 'ದರ್ಜೆ ೨',
 	'wikieditor-toolbar-tool-heading-3' => 'ದರ್ಜೆ ೩',
@@ -14479,10 +14481,14 @@ $messages['ml'] = array(
 	'wikieditor-toolbar-help-content-indent-result' => 'സാധാരണ എഴുത്ത്<dl><dd>നീക്കിയുള്ള എഴുത്ത്<dl><dd>നീക്കിയുള്ള എഴുത്ത്</dd></dl></dd></dl>',
 );
 
-/** Mongolian (Монгол) */
+/** Mongolian (Монгол)
+ * @author Chinneeb
+ */
 $messages['mn'] = array(
+	'wikieditor-template-editor-dialog-cancel' => 'Цуцлах',
 	'wikieditor-toolbar-loading' => 'Уншиж байна...',
 	'wikieditor-toolbar-tool-italic' => 'Налуу',
+	'wikieditor-toolbar-tool-reference-cancel' => 'Цуцлах',
 	'wikieditor-toolbar-help-content-italic-description' => 'Налуу бичиг',
 );
 
@@ -18202,7 +18208,6 @@ $messages['roa-tara'] = array(
 	'wikieditor-wikitext-tab' => 'Uicchiteste',
 	'wikieditor-loading' => 'Stoche a careche',
 	'wikieditor-addMediaWizard-preference' => 'Abbilete \'u gadget "Aggiunge wizard media"',
-	'wikieditor-highlight-preference' => "Abbilite 'a sindasse evidenziate quanne face le cangiaminde",
 	'wikieditor-preview-preference' => "Abbilite l'andeprime da na vanne a l'otre",
 	'wikieditor-preview-tab' => 'Andeprime',
 	'wikieditor-preview-changes-tab' => 'Cangiaminde',
@@ -18266,6 +18271,8 @@ $messages['roa-tara'] = array(
 	'wikieditor-toolbar-tool-file-example' => 'Esembie.jpg',
 	'wikieditor-toolbar-tool-reference' => 'Riferimende',
 	'wikieditor-toolbar-tool-reference-example' => "Mitte 'u teste le note de sotte aqquà",
+	'wikieditor-toolbar-tool-reference-cancel' => 'Annulle',
+	'wikieditor-toolbar-tool-reference-insert' => "'Nzerisce",
 	'wikieditor-toolbar-tool-signature' => 'Firme e orarie',
 	'wikieditor-toolbar-section-advanced' => 'Avanzate',
 	'wikieditor-toolbar-tool-heading' => 'Testate',
@@ -18282,6 +18289,7 @@ $messages['roa-tara'] = array(
 	'wikieditor-toolbar-tool-olist-example' => "Elemende de l'elenghe numerate",
 	'wikieditor-toolbar-tool-indent' => 'Idendazione',
 	'wikieditor-toolbar-tool-indent-example' => 'Linèe idendate',
+	'wikieditor-toolbar-tool-redirect' => 'Redirezione',
 	'wikieditor-toolbar-tool-big' => 'Granne',
 	'wikieditor-toolbar-tool-big-example' => 'Teste granne',
 	'wikieditor-toolbar-tool-small' => 'Piccinne',
@@ -18345,10 +18353,15 @@ $messages['roa-tara'] = array(
 	'wikieditor-toolbar-characters-page-greek' => 'Greche',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'Cirilliche',
 	'wikieditor-toolbar-characters-page-arabic' => 'Arabe',
+	'wikieditor-toolbar-characters-page-persian' => 'Persiane',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Ebbrèe',
+	'wikieditor-toolbar-characters-page-bangla' => 'Bangladesciane',
 	'wikieditor-toolbar-characters-page-telugu' => 'Telugu',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Sinhala',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Gujarati',
+	'wikieditor-toolbar-characters-page-thai' => 'Thai',
+	'wikieditor-toolbar-characters-page-lao' => 'Lao',
+	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
 	'wikieditor-toolbar-section-help' => 'Ajiute',
 	'wikieditor-toolbar-help-heading-description' => 'Descrizione',
 	'wikieditor-toolbar-help-heading-syntax' => 'Cè è scritte',
