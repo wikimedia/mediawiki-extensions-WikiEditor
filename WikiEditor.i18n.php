@@ -18677,11 +18677,12 @@ $messages['rue'] = array(
 	'wikieditor-wikitext-tab' => 'Вікітекст',
 	'wikieditor-loading' => 'Награває ся',
 	'wikieditor-addMediaWizard-preference' => 'Поволити додаток «Майстер придаваня медіа»',
-	'wikieditor-highlight-preference' => 'Почас едітованя высвічовати сінтакс',
 	'wikieditor-preview-preference' => 'Запнути нагляды в панелї',
 	'wikieditor-preview-tab' => 'Нагляд',
 	'wikieditor-preview-changes-tab' => 'Зміны',
 	'wikieditor-preview-loading' => 'Награваня...',
+	'wikieditor-previewDialog-preference' => 'Хосновати діалоґ про нагляд',
+	'wikieditor-previewDialog-tab' => 'Нагляд',
 	'wikieditor-previewDialog-loading' => 'Награваня...',
 	'wikieditor-publish-preference' => 'Запнути кроковане публікованя',
 	'wikieditor-publish-button-publish' => 'Публіковати',
@@ -21031,6 +21032,7 @@ $messages['su'] = array(
 /** Swedish (Svenska)
  * @author Ainali
  * @author Boivie
+ * @author Cohan
  * @author Dafer45
  * @author Hannibal
  * @author Sertion
@@ -21043,11 +21045,11 @@ $messages['sv'] = array(
 	'wikieditor-wikitext-tab' => 'Wikitext',
 	'wikieditor-loading' => 'Laddar',
 	'wikieditor-addMediaWizard-preference' => 'Aktivera "Lägg till media guiden" finessen',
-	'wikieditor-highlight-preference' => 'Aktivera markering av syntax vid redigering',
 	'wikieditor-preview-preference' => 'Aktivera förhandsgranskning sida-vid-sida',
 	'wikieditor-preview-tab' => 'Förhandsgranska',
 	'wikieditor-preview-changes-tab' => 'Ändringar',
 	'wikieditor-preview-loading' => 'Laddar...',
+	'wikieditor-previewDialog-preference' => 'Aktivera förhandsgranska',
 	'wikieditor-previewDialog-tab' => 'Förhandsgranska',
 	'wikieditor-previewDialog-loading' => 'Laddar...',
 	'wikieditor-publish-preference' => 'Aktivera steg-efter-steg-publicering',
@@ -21199,6 +21201,8 @@ $messages['sv'] = array(
 	'wikieditor-toolbar-characters-page-telugu' => 'Telugu',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Singalesiska',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Gujarati',
+	'wikieditor-toolbar-characters-page-thai' => 'Thai',
+	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
 	'wikieditor-toolbar-section-help' => 'Hjälp',
 	'wikieditor-toolbar-help-heading-description' => 'Beskrivning',
 	'wikieditor-toolbar-help-heading-syntax' => 'Vad du skriver',
@@ -21691,6 +21695,7 @@ $messages['te'] = array(
 	'wikieditor-preview-tab' => 'మునుజూపు',
 	'wikieditor-preview-changes-tab' => 'మార్పులు',
 	'wikieditor-preview-loading' => 'లోడవుతోంది...',
+	'wikieditor-previewDialog-preference' => 'మునుజూపు పేటికని చేతనం చేయి',
 	'wikieditor-previewDialog-tab' => 'మునుజూపు',
 	'wikieditor-previewDialog-loading' => 'లోడవుతోంది...',
 	'wikieditor-publish-button-publish' => 'ప్రచురించు',
@@ -21771,6 +21776,8 @@ $messages['te'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'పాదాక్షర పాఠ్యం',
 	'wikieditor-toolbar-group-insert' => 'చేర్చు',
 	'wikieditor-toolbar-tool-gallery' => 'చిత్రమాలిక',
+	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|ఉపశీర్షిక1
+{{ns:file}}:Example.jpg|ఉపశీర్షిక2',
 	'wikieditor-toolbar-tool-newline' => 'కొత్త లైను',
 	'wikieditor-toolbar-tool-table' => 'పట్టిక',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -24192,7 +24199,7 @@ $messages['yo'] = array(
 	'prefs-beta' => 'Àwọn ìní Beta',
 	'prefs-labs' => 'Àwọn ìní ibiàdánwò',
 	'wikieditor-wikitext-tab' => 'Ìkọ wiki',
-	'wikieditor-loading' => 'Ìrùjáde',
+	'wikieditor-loading' => 'Úngbéyọ',
 	'wikieditor-preview-preference' => 'Ìgbàláyè àyẹ̀wò lẹ́gbẹ̀ẹ́ ara wọn',
 	'wikieditor-preview-tab' => 'Àyẹ̀wò',
 	'wikieditor-preview-changes-tab' => 'Àwọn àtúnṣe',
