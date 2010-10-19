@@ -22586,6 +22586,13 @@ $messages['tl'] = array(
 	'wikieditor-toolbar-help-content-indent-result' => 'Karaniwang teksto<dl><dd>Tekstong nakaurong<dl><dd>Tekstong nakaurong</dd></dl></dd></dl>',
 );
 
+/** Tok Pisin (Tok Pisin)
+ * @author Iketsi
+ */
+$messages['tpi'] = array(
+	'wikieditor-toolbar-help-page-file' => 'Ol fail',
+);
+
 /** Turkish (Türkçe)
  * @author Joseph
  * @author Manco Capac
