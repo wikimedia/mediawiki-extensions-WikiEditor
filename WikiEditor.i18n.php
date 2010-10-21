@@ -13559,7 +13559,7 @@ $messages['lt'] = array(
  * @author Xil
  */
 $messages['lv'] = array(
-	'wikieditor-highlight-preference' => 'Atļaut sintakses iezīmēšanu rediģējot',
+	'wikieditor-wikitext-tab' => 'Vikiteksts',
 	'wikieditor-preview-preference' => "Ieslēgt ''side-by-side'' priekšskatu",
 	'wikieditor-preview-tab' => 'Pirmskats',
 	'wikieditor-preview-changes-tab' => 'Izmaiņas',
@@ -13569,6 +13569,9 @@ $messages['lv'] = array(
 	'wikieditor-previewDialog-loading' => 'Ielādē…',
 	'wikieditor-publish-button-publish' => 'Publicēt',
 	'wikieditor-publish-button-cancel' => 'Atcelt',
+	'wikieditor-publish-dialog-minor' => 'Maznozīmīgs labojums',
+	'wikieditor-publish-dialog-watch' => 'Uzraudzīt šo lapu',
+	'wikieditor-publish-dialog-publish' => 'Publicēt',
 	'wikieditor-template-editor-dialog-title' => 'Rediģēt veidni',
 	'wikieditor-template-editor-dialog-cancel' => 'Atcelt',
 	'wikieditor-toc-preference' => 'Ieslēgt satura rādītāju ar navigācijas iespējām',
@@ -18199,6 +18202,7 @@ $messages['ro'] = array(
 
 /** Tarandíne (Tarandíne)
  * @author Joetaras
+ * @author Reder
  */
 $messages['roa-tara'] = array(
 	'prefs-beta' => 'Funziune de Beta',
@@ -18272,7 +18276,9 @@ $messages['roa-tara'] = array(
 	'wikieditor-toolbar-tool-reference' => 'Riferimende',
 	'wikieditor-toolbar-tool-reference-example' => "Mitte 'u teste le note de sotte aqquà",
 	'wikieditor-toolbar-tool-reference-cancel' => 'Annulle',
+	'wikieditor-toolbar-tool-reference-title' => "'Nzerisce referenze",
 	'wikieditor-toolbar-tool-reference-insert' => "'Nzerisce",
+	'wikieditor-toolbar-tool-reference-text' => 'Teste de referenze',
 	'wikieditor-toolbar-tool-signature' => 'Firme e orarie',
 	'wikieditor-toolbar-section-advanced' => 'Avanzate',
 	'wikieditor-toolbar-tool-heading' => 'Testate',
@@ -18289,6 +18295,8 @@ $messages['roa-tara'] = array(
 	'wikieditor-toolbar-tool-olist-example' => "Elemende de l'elenghe numerate",
 	'wikieditor-toolbar-tool-indent' => 'Idendazione',
 	'wikieditor-toolbar-tool-indent-example' => 'Linèe idendate',
+	'wikieditor-toolbar-tool-nowiki' => "No scè penzanne 'a formattazione de Uicchi",
+	'wikieditor-toolbar-tool-nowiki-example' => 'Sckaffe teste non formattate aqquà',
 	'wikieditor-toolbar-tool-redirect' => 'Redirezione',
 	'wikieditor-toolbar-tool-big' => 'Granne',
 	'wikieditor-toolbar-tool-big-example' => 'Teste granne',
@@ -19817,13 +19825,13 @@ $messages['si'] = array(
 
 /** Slovak (Slovenčina)
  * @author Helix84
+ * @author Jkjk
  */
 $messages['sk'] = array(
 	'wikieditor' => 'Pokročilé rozhranie na úpravu wikitextu',
 	'wikieditor-desc' => 'Poskytuje rozšíriteľné rozhranie na úpravu wikitextu a mnohé moduly poskytujúce funkcionalitu',
 	'wikieditor-wikitext-tab' => 'Wikitext',
 	'wikieditor-loading' => 'Načítava sa',
-	'wikieditor-highlight-preference' => 'Zapnúť zvýrazňovanie syntaxe počas úprav',
 	'wikieditor-preview-preference' => 'Zapnúť náhľad vedľa úprav',
 	'wikieditor-preview-tab' => 'Náhľad',
 	'wikieditor-preview-changes-tab' => 'Zmeny',
@@ -19840,6 +19848,9 @@ $messages['sk'] = array(
 	'wikieditor-publish-dialog-publish' => 'Zverejniť',
 	'wikieditor-publish-dialog-goback' => 'Prejsť späť',
 	'wikieditor-template-editor-preference' => 'Povoliť úpravu šablón wiki prostredníctvom formulárov',
+	'wikieditor-template-editor-dialog-title' => 'Upraviť šablónu',
+	'wikieditor-template-editor-dialog-submit' => 'Aktualizovať',
+	'wikieditor-template-editor-dialog-cancel' => 'Zrušiť',
 	'wikieditor-toc-preference' => 'Povoliť obsah s odkazmi na časti',
 	'wikieditor-toc-show' => 'Zobraziť obsah',
 	'wikieditor-toc-hide' => 'Skryť obsah',
