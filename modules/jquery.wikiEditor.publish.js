@@ -63,7 +63,7 @@ fn: {
 						</div>',
 					init: function() {
 						$(this).find( '[rel]' ).each( function() {
-							$(this).text( mediaWiki.msg.get( $(this).attr( 'rel' ) ) );
+							$(this).text( mediaWiki.message( $(this).attr( 'rel' ) ) );
 						});
 						
 						/* REALLY DIRTY HACK! */

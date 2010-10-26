@@ -510,7 +510,7 @@ fn: {
 					return false;
 				} )
 				.find( 'a' )
-				.text( mediaWiki.msg.get( 'wikieditor-toc-hide' ) );
+				.text( mediaWiki.message( 'wikieditor-toc-hide' ) );
 			$expandControl
 				.addClass( 'wikiEditor-ui-toc-expandControl' )
 				.append( '<a href="#" />' )
@@ -527,7 +527,7 @@ fn: {
 				} )
 				.hide()
 				.find( 'a' )
-				.text( mediaWiki.msg.get( 'wikieditor-toc-show' ) );
+				.text( mediaWiki.message( 'wikieditor-toc-show' ) );
 			$collapseControl.insertBefore( context.modules.toc.$toc );
 			context.$ui.find( '.wikiEditor-ui-left .wikiEditor-ui-top' ).append( $expandControl );
 		}

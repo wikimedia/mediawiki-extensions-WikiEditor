@@ -220,20 +220,19 @@ $( document ).ready( function() {
 						updateExistence( true );
 				});
 				// Set labels of tabs based on rel values
-				var msg = mediaWiki.msg;
 				$(this).find( '[rel]' ).each( function() {
-					$(this).text( msg.get( $(this).attr( 'rel' ) ) );
+					$(this).text( mediaWiki.message( $(this).attr( 'rel' ) ) );
 				});
 				// Set tabindexes on form fields
 				$.wikiEditor.modules.dialogs.fn.setTabindexes( $(this).find( 'input' ).not( '[tabindex]' ) );
 				// Setup the tooltips in the textboxes
 				$( '#wikieditor-toolbar-link-int-target' )
-					.data( 'tooltip', msg.get( 'wikieditor-toolbar-tool-link-int-target-tooltip' ) );
+					.data( 'tooltip', mediaWiki.message( 'wikieditor-toolbar-tool-link-int-target-tooltip' ) );
 				$( '#wikieditor-toolbar-link-int-text' )
-					.data( 'tooltip', msg.get( 'wikieditor-toolbar-tool-link-int-text-tooltip' ) );
+					.data( 'tooltip', mediaWiki.message( 'wikieditor-toolbar-tool-link-int-text-tooltip' ) );
 				$( '#wikieditor-toolbar-link-int-target, #wikieditor-toolbar-link-int-text' )
 					.each( function() {
-						var tooltip = msg.get( $( this ).attr( 'id' ) + '-tooltip' );
+						var tooltip = mediaWiki.message( $( this ).attr( 'id' ) + '-tooltip' );
 						if ( $( this ).val() == '' )
 							$( this )
 								.addClass( 'wikieditor-toolbar-dialog-hint' )
@@ -302,11 +301,11 @@ $( document ).ready( function() {
 				});
 				// Add images to the page existence widget, which will be shown mutually exclusively to communicate if
 				// the page exists, does not exist or the title is invalid (like if it contains a | character)
-				var existsMsg = msg.get( 'wikieditor-toolbar-tool-link-int-target-status-exists' );
-				var notexistsMsg = msg.get( 'wikieditor-toolbar-tool-link-int-target-status-notexists' );
-				var invalidMsg = msg.get( 'wikieditor-toolbar-tool-link-int-target-status-invalid' );
-				var externalMsg = msg.get( 'wikieditor-toolbar-tool-link-int-target-status-external' );
-				var loadingMsg = msg.get( 'wikieditor-toolbar-tool-link-int-target-status-loading' );
+				var existsMsg = mediaWiki.message( 'wikieditor-toolbar-tool-link-int-target-status-exists' );
+				var notexistsMsg = mediaWiki.message( 'wikieditor-toolbar-tool-link-int-target-status-notexists' );
+				var invalidMsg = mediaWiki.message( 'wikieditor-toolbar-tool-link-int-target-status-invalid' );
+				var externalMsg = mediaWiki.message( 'wikieditor-toolbar-tool-link-int-target-status-external' );
+				var loadingMsg = mediaWiki.message( 'wikieditor-toolbar-tool-link-int-target-status-loading' );
 				$( '#wikieditor-toolbar-link-int-target-status' )
 					.append( $( '<div />' )
 						.attr( 'id', 'wikieditor-toolbar-link-int-target-status-exists' )
@@ -423,9 +422,8 @@ $( document ).ready( function() {
 							target = "";
 						if ( $( '#wikieditor-toolbar-link-int-text' ).data( 'tooltip-mode' ) )
 							text = "";
-						var msg = mediaWiki.msg;
 						if ( target == '' ) {
-							alert( msg.get( 'wikieditor-toolbar-tool-link-empty' ) );
+							alert( mediaWiki.message( 'wikieditor-toolbar-tool-link-empty' ) );
 							return;
 						}
 						if ( $.trim( text ) == '' ) {
@@ -437,7 +435,7 @@ $( document ).ready( function() {
 							// FIXME: Exactly how fragile is this?
 							if ( $( '#wikieditor-toolbar-link-int-target-status-invalid' ).is( ':visible' ) ) {
 								// Refuse to add links to invalid titles
-								alert( msg.get( 'wikieditor-toolbar-tool-link-int-invalid' ) );
+								alert( mediaWiki.message( 'wikieditor-toolbar-tool-link-int-invalid' ) );
 								return;
 							}
 							
@@ -455,12 +453,12 @@ $( document ).ready( function() {
 							if ( match && !$(this).data( 'ignoreLooksInternal' ) ) {
 								var buttons = { };
 								var that = this;
-								buttons[ msg.get( 'wikieditor-toolbar-tool-link-lookslikeinternal-int' ) ] =
+								buttons[ mediaWiki.message( 'wikieditor-toolbar-tool-link-lookslikeinternal-int' ) ] =
 									function() {
 										$( '#wikieditor-toolbar-link-int-target' ).val( match[1] ).change();
 										$(this).dialog( 'close' );
 									};
-								buttons[ msg.get( 'wikieditor-toolbar-tool-link-lookslikeinternal-ext' ) ] =
+								buttons[ mediaWiki.message( 'wikieditor-toolbar-tool-link-lookslikeinternal-ext' ) ] =
 									function() {
 										$(that).data( 'ignoreLooksInternal', true );
 										$(that).closest( '.ui-dialog' ).find( 'button:first' ).click();
@@ -468,7 +466,7 @@ $( document ).ready( function() {
 										$(this).dialog( 'close' );
 									};
 								$.wikiEditor.modules.dialogs.quickDialog(
-									msg.get( 'wikieditor-toolbar-tool-link-lookslikeinternal', match[1] ),
+									mediaWiki.message( 'wikieditor-toolbar-tool-link-lookslikeinternal', match[1] ),
 									{ buttons: buttons }
 								);
 								return;
@@ -617,7 +615,7 @@ $( document ).ready( function() {
 			init: function() {
 				// Insert translated strings into labels
 				$( this ).find( '[rel]' ).each( function() {
-					$( this ).text( mediaWiki.msg.get( $( this ).attr( 'rel' ) ) );
+					$( this ).text( mediaWiki.message( $( this ).attr( 'rel' ) ) );
 				} );
 				
 			},
@@ -761,7 +759,7 @@ $( document ).ready( function() {
 				</div></div>',
 			init: function() {
 				$(this).find( '[rel]' ).each( function() {
-					$(this).text( mediaWiki.msg.get( $(this).attr( 'rel' ) ) );
+					$(this).text( mediaWiki.message( $(this).attr( 'rel' ) ) );
 				});
 				// Set tabindexes on form fields
 				$.wikiEditor.modules.dialogs.fn.setTabindexes( $(this).find( 'input' ).not( '[tabindex]' ) );
@@ -821,21 +819,20 @@ $( document ).ready( function() {
 						var rows = parseInt( rowsVal, 10 );
 						var cols = parseInt( colsVal, 10 );
 						var header = $( '#wikieditor-toolbar-table-dimensions-header' ).is( ':checked' ) ? 1 : 0;
-						var msg = mediaWiki.msg;
 						if ( isNaN( rows ) || isNaN( cols ) || rows != rowsVal  || cols != colsVal ) {
-							alert( msg.get( 'wikieditor-toolbar-tool-table-invalidnumber' ) );
+							alert( mediaWiki.message( 'wikieditor-toolbar-tool-table-invalidnumber' ) );
 							return;
 						}
 						if ( rows + header == 0 || cols == 0 ) {
-							alert( msg.get( 'wikieditor-toolbar-tool-table-zero' ) );
+							alert( mediaWiki.message( 'wikieditor-toolbar-tool-table-zero' ) );
 							return;
 						}
 						if ( rows * cols > 1000 ) {
-							alert( msg.get( 'wikieditor-toolbar-tool-table-toomany', 1000 ) );
+							alert( mediaWiki.message( 'wikieditor-toolbar-tool-table-toomany', 1000 ) );
 							return;
 						}
-						var headerText = msg.get( 'wikieditor-toolbar-tool-table-example-header' );
-						var normalText = msg.get( 'wikieditor-toolbar-tool-table-example' );
+						var headerText = mediaWiki.message( 'wikieditor-toolbar-tool-table-example-header' );
+						var normalText = mediaWiki.message( 'wikieditor-toolbar-tool-table-example' );
 						var table = "";
 						for ( var r = 0; r < rows + header; r++ ) {
 							table += "|-\n";
@@ -958,9 +955,8 @@ $( document ).ready( function() {
 					</div>\
 				</fieldset>',
 			init: function() {
-				var msg = mediaWiki.msg;
 				$(this).find( '[rel]' ).each( function() {
-					$(this).text( msg.get( $(this).attr( 'rel' ) ) );
+					$(this).text( mediaWiki.message( $(this).attr( 'rel' ) ) );
 				});
 				// Set tabindexes on form fields
 				$.wikiEditor.modules.dialogs.fn.setTabindexes( $(this).find( 'input' ).not( '[tabindex]' ) );
@@ -990,7 +986,7 @@ $( document ).ready( function() {
 						var regex = new RegExp( searchStr, flags );
 					} catch( e ) {
 						$( '#wikieditor-toolbar-replace-invalidregex' )
-							.text( msg.get( 'wikieditor-toolbar-tool-replace-invalidregex',
+							.text( mediaWiki.message( 'wikieditor-toolbar-tool-replace-invalidregex',
 								e.message ) )
 							.show();
 						return;
@@ -1044,7 +1040,7 @@ $( document ).ready( function() {
 							offset = newEnd;
 						}
 						$( '#wikieditor-toolbar-replace-success' )
-							.text( msg.get( 'wikieditor-toolbar-tool-replace-success', match.length ) )
+							.text( mediaWiki.message( 'wikieditor-toolbar-tool-replace-success', match.length ) )
 							.show();
 						$(this).data( 'offset', 0 );
 					} else {
