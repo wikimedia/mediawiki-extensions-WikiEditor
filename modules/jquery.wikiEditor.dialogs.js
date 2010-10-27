@@ -114,10 +114,10 @@ fn: {
 		configuration.title = $.wikiEditor.autoMsg( module, 'title' );
 		// Transform messages in keys
 		// Stupid JS won't let us do stuff like
-		// foo = { mediaWiki.message( 'bar' ): baz }
+		// foo = { mediaWiki.msg( 'bar' ): baz }
 		configuration.newButtons = {};
 		for ( msg in configuration.buttons )
-			configuration.newButtons[mediaWiki.message( msg )] = configuration.buttons[msg];
+			configuration.newButtons[mediaWiki.msg( msg )] = configuration.buttons[msg];
 		configuration.buttons = configuration.newButtons;
 		// Create the dialog <div>
 		var dialogDiv = $( '<div />' )

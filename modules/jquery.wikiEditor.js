@@ -115,7 +115,7 @@ $.wikiEditor = {
 		return false;
 	},
 	/**
-	 * Provides a way to extract messages from objects. Wraps the mediaWiki.message() function, which
+	 * Provides a way to extract messages from objects. Wraps the mediaWiki.msg() function, which
 	 * may eventually become a wrapper for some kind of core MW functionality.
 	 * 
 	 * @param object Object to extract messages from
@@ -139,9 +139,9 @@ $.wikiEditor = {
 		} else if ( property + 'Msg' in object ) {
 			var p = object[property + 'Msg'];
 			if ( $.isArray( p ) && p.length >= 2 ) {
-				return mediaWiki.message.apply( p ).toString();
+				return mediaWiki.msg.apply( mediaWiki.msg, p );
 			} else {
-				return mediaWiki.message( p ).toString();
+				return mediaWiki.msg( p );
 			}
 		} else {
 			return '';
@@ -542,7 +542,7 @@ if ( !context || typeof context == 'undefined' ) {
 	/* Disabling our loading div for now
 	var $loader = $( '<div></div>' )
 		.addClass( 'wikiEditor-ui-loading' )
-		.append( $( '<span>' + mediaWiki.message( 'wikieditor-loading' ) + '</span>' )
+		.append( $( '<span>' + mediaWiki.msg( 'wikieditor-loading' ) + '</span>' )
 			.css( 'marginTop', context.$textarea.height() / 2 ) );
 	*/
 	// Encapsulate the textarea with some containers for layout

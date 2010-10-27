@@ -134,7 +134,7 @@ fn: {
 			}
 		} );
 		
-		var loadingMsg = mediaWiki.message( 'wikieditor-preview-loading' );
+		var loadingMsg = mediaWiki.msg( 'wikieditor-preview-loading' );
 		context.modules.preview.$preview
 			.add( context.$changesTab )
 			.append( $( '<div />' )
