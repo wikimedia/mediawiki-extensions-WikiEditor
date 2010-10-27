@@ -9,6 +9,8 @@ $( document ).ready( function() {
 	// The old toolbar is still in place and needs to be removed so there aren't two toolbars
 	$( '#toolbar' ).remove();
 	// Add toolbar module
+	// FIXME: Make config object retrievable for reusers
+	// TODO: Implement .wikiEditor( 'remove' )
 	$( '#wpTextbox1' ).wikiEditor( 'addModule', { 'toolbar': {
 		// Main section
 		'main': {

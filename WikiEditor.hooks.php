@@ -694,9 +694,12 @@ class WikiEditorHooks {
 	 * Adds modules to ResourceLoader
 	 */
 	public static function resourceLoaderRegisterModules( &$resourceLoader ) {
+		global $wgExtensionAssetsPath;
+		$localpath = dirname( __FILE__ ) . '/modules';
+		$remotepath = "$wgExtensionAssetsPath/WikiEditor/modules";
 		foreach ( self::$modules as $name => $resources ) {
 			$resourceLoader->register(
-				$name, new ResourceLoaderFileModule( $resources, 'extensions/WikiEditor/modules/' )
+				$name, new ResourceLoaderFileModule( $resources, $localpath, $remotepath )
 			);
 		}
 		return true;
