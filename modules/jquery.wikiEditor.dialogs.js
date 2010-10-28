@@ -1,10 +1,4 @@
 /**
- * Extend the RegExp object with an escaping function
- * From http://simonwillison.net/2006/Jan/20/escape/
- */
-RegExp.escape = function( s ) { return s.replace(/([.*+?^${}()|\/\\[\]])/g, '\\$1'); };
-
-/**
  * Dialog Module for wikiEditor
  */
 ( function( $ ) { $.wikiEditor.modules.dialogs = {
