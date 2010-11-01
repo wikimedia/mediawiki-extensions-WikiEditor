@@ -18264,6 +18264,7 @@ $messages['roa-tara'] = array(
 	'wikieditor-toolbar-tool-nowiki' => "No scè penzanne 'a formattazione de Uicchi",
 	'wikieditor-toolbar-tool-nowiki-example' => 'Sckaffe teste non formattate aqquà',
 	'wikieditor-toolbar-tool-redirect' => 'Redirezione',
+	'wikieditor-toolbar-tool-redirect-example' => "Nome d'a pàgene de destinazione",
 	'wikieditor-toolbar-tool-big' => 'Granne',
 	'wikieditor-toolbar-tool-big-example' => 'Teste granne',
 	'wikieditor-toolbar-tool-small' => 'Piccinne',
