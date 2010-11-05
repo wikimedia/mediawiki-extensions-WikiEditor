@@ -21188,6 +21188,7 @@ $messages['sv'] = array(
 	'wikieditor-toolbar-characters-page-sinhala' => 'Singalesiska',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Gujarati',
 	'wikieditor-toolbar-characters-page-thai' => 'Thai',
+	'wikieditor-toolbar-characters-page-lao' => 'Laotisk',
 	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
 	'wikieditor-toolbar-section-help' => 'Hjälp',
 	'wikieditor-toolbar-help-heading-description' => 'Beskrivning',
