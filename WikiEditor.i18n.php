@@ -11663,6 +11663,15 @@ $messages['ka'] = array(
 	'wikieditor-toolbar-help-content-indent-result' => 'ჩვეულებრივი ტექსტი<dl><dd>შეწეული ტექსტი<dl><dd>შეწეული ტექსტი</dd></dl></dd></dl>',
 );
 
+/** Kabardian (Cyrillic) (къэбэрдеибзэ/qabardjajəbza (Cyrillic))
+ * @author Bogups
+ */
+$messages['kbd-cyrl'] = array(
+	'wikieditor-toolbar-tool-reference' => 'ЩӀэупӀщӀэгъуэ',
+	'wikieditor-toolbar-section-advanced' => 'Нэхъыбу',
+	'wikieditor-toolbar-section-characters' => 'Дэмыгъэ специалхэр',
+);
+
 /** Kirmanjki (Kırmancki)
  * @author Mirzali
  */
