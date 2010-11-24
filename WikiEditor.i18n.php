@@ -24692,7 +24692,7 @@ $messages['zh-hans'] = array(
 	'wikieditor-desc' => '提供可扩充的维基文本编辑界面及功能组件',
 	'wikieditor-wikitext-tab' => '维基文本',
 	'wikieditor-loading' => '载入中',
-	'wikieditor-addMediaWizard-preference' => '启用「添加媒体向导」小工具',
+	'wikieditor-addMediaWizard-preference' => '启用“添加媒体向导”小工具',
 	'wikieditor-preview-preference' => '启用双列对比预览',
 	'wikieditor-preview-tab' => '预览',
 	'wikieditor-preview-changes-tab' => '修订',
@@ -24712,7 +24712,7 @@ $messages['zh-hans'] = array(
 	'wikieditor-template-editor-dialog-title' => '编辑模板',
 	'wikieditor-template-editor-dialog-submit' => '更新',
 	'wikieditor-template-editor-dialog-cancel' => '取消',
-	'wikieditor-templates-preference' => '启用模板收缩',
+	'wikieditor-templates-preference' => '启用折叠模板功能',
 	'wikieditor-toc-preference' => '启用导航目录',
 	'wikieditor-toc-show' => '显示内容',
 	'wikieditor-toc-hide' => '隐藏内容',
@@ -24849,8 +24849,8 @@ $messages['zh-hans'] = array(
 	'wikieditor-toolbar-characters-page-sinhala' => '僧伽罗字母',
 	'wikieditor-toolbar-characters-page-gujarati' => '古吉拉特字母',
 	'wikieditor-toolbar-characters-page-thai' => '泰语',
-	'wikieditor-toolbar-characters-page-lao' => '寮语',
-	'wikieditor-toolbar-characters-page-khmer' => '越南话',
+	'wikieditor-toolbar-characters-page-lao' => '老挝语',
+	'wikieditor-toolbar-characters-page-khmer' => '高棉语',
 	'wikieditor-toolbar-section-help' => '帮助',
 	'wikieditor-toolbar-help-heading-description' => '描述',
 	'wikieditor-toolbar-help-heading-syntax' => '输入内容',
@@ -24921,6 +24921,7 @@ $messages['zh-hans'] = array(
  * @author Horacewai2
  * @author KaiesTse
  * @author Liangent
+ * @author PhiLiP
  * @author Wong128hk
  */
 $messages['zh-hant'] = array(
@@ -25110,7 +25111,7 @@ $messages['zh-hant'] = array(
 	'wikieditor-toolbar-characters-page-gujarati' => '古吉拉特語',
 	'wikieditor-toolbar-characters-page-thai' => '泰語',
 	'wikieditor-toolbar-characters-page-lao' => '寮語',
-	'wikieditor-toolbar-characters-page-khmer' => '越南話',
+	'wikieditor-toolbar-characters-page-khmer' => '高棉語',
 	'wikieditor-toolbar-section-help' => '幫助',
 	'wikieditor-toolbar-help-heading-description' => '描述',
 	'wikieditor-toolbar-help-heading-syntax' => '您輸入什麼',
