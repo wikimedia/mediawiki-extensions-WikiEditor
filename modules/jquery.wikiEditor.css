@@ -10,6 +10,9 @@
 	background-color: #E0EEf7;
 	border: solid silver 1px;
 }
+.wikiEditor-ui textarea:focus {
+	outline: none;
+}
 body.rtl .wikiEditor-ui {
 	float: right;
 }
