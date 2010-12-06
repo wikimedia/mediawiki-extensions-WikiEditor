@@ -244,7 +244,7 @@ if ( !context || typeof context == 'undefined' ) {
 		/// The previous historyPosition, stored to detect if change events were due to an undo or redo action
 		'oldDelayedHistoryPosition': -1,
 		// List of extensions active on this context
-		'extensions': [],
+		'extensions': []
 	};
 	
 	/*
@@ -527,7 +527,7 @@ if ( !context || typeof context == 'undefined' ) {
 				context.savedSelection.select();
 				context.savedSelection = null;
 			}
-		},
+		}
 	};
 	
 	/*
