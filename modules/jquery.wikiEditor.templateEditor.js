@@ -253,7 +253,7 @@ fn: {
 			$template.parent().attr('contentEditable', 'false');
 		}
 		
-		$template.click( function(event) {event.preventDefault(); return false;} )
+		$template.click( function(event) {event.preventDefault(); return false;}; )
 		
 		$template.find( '.wikiEditor-template-name' )
 			.click( function( event ) { 
@@ -378,7 +378,7 @@ fn: {
 								.val( paramVal )
 								.each( function() {
 									$(this).css( 'height', $(this).val().length > 24 ? '4.5em' : '1.5em' );
-								} )
+								} );
 							$rows = $rows.not( $row );
 						} else {
 							// Create a new row
@@ -623,7 +623,7 @@ fn: {
 		 */
 		this.getAllInitialParams = function(){
 			return params;
-		}
+		};
 		/**
 		 * Get original template text
 		 */
@@ -647,7 +647,7 @@ fn: {
 		
 		this.isCollapsible = function() {
 			return collapsible;
-		}
+		};
 		
 		/**
 		 *  Update ranges if there's been a change in one or more 'segments' of the template.

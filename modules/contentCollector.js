@@ -431,7 +431,7 @@ function makeContentCollector( browser, domInterface ) {
 			numLinesAfter : wrapData.numLinesAfter,
 			lines : lineStrings
 		};
-	}
+	};
 
 	return cc;
 }

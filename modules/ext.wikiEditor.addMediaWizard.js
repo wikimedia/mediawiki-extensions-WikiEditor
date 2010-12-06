@@ -12,4 +12,4 @@ $( document ).ready( function() {
 		'http://prototype.wikimedia.org/s-2/js/mwEmbed/remotes/mediaWiki.js?&uselang=' +  wgUserLanguage,
 		'text/javascript'
 	);
-}
+};
