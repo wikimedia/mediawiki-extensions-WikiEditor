@@ -253,7 +253,7 @@ fn: {
 			$template.parent().attr('contentEditable', 'false');
 		}
 		
-		$template.click( function(event) {event.preventDefault(); return false;}; )
+		$template.click( function(event) {event.preventDefault(); return false;} );
 		
 		$template.find( '.wikiEditor-template-name' )
 			.click( function( event ) { 
