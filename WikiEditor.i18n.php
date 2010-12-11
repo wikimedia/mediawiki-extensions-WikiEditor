@@ -21282,6 +21282,7 @@ $messages['sw'] = array(
 	'wikieditor' => 'Kusano ya juu ya kuandika kiwiki',
 	'wikieditor-wikitext-tab' => 'Maandishi ya kiwiki',
 	'wikieditor-loading' => 'Inapakizwa',
+	'wikieditor-addMediaWizard-preference' => 'Wezesha kifaa cha "kifaa cha kuingiza faili la picha au sauti"',
 	'wikieditor-preview-preference' => 'Kuona hakikisho ya mabadiliko na ukurasa ulivyo sasa kwa pamoja.',
 	'wikieditor-preview-tab' => 'Hakiki',
 	'wikieditor-preview-changes-tab' => 'Mabadiliko',
