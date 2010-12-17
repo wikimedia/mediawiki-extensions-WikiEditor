@@ -20287,6 +20287,17 @@ $messages['sl'] = array(
  * @author Mikullovci11
  */
 $messages['sq'] = array(
+	'wikieditor-wikitext-tab' => 'Tekstwiki',
+	'wikieditor-loading' => 'Duke u ngarkuar',
+	'wikieditor-preview-tab' => 'Parapamje',
+	'wikieditor-preview-changes-tab' => 'Ndryshimet',
+	'wikieditor-preview-loading' => 'Duke u ngarkuar...',
+	'wikieditor-previewDialog-tab' => 'Parapamje',
+	'wikieditor-previewDialog-loading' => 'Duke u ngarkuar...',
+	'wikieditor-publish-button-publish' => 'Publikuar',
+	'wikieditor-publish-button-cancel' => 'Anullo',
+	'wikieditor-publish-dialog-title' => 'Publikimi për {{SITENAME}}',
+	'wikieditor-template-editor-dialog-submit' => 'Përditësime të reja',
 	'wikieditor-toolbar-loading' => 'Duke punuar...',
 	'wikieditor-toolbar-tool-bold' => 'Trashë',
 	'wikieditor-toolbar-tool-bold-example' => 'Tekst i trashë',
