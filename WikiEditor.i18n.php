@@ -3093,6 +3093,17 @@ $messages['bn'] = array(
 	'wikieditor-toolbar-help-content-indent-result' => 'সাধারণ লেখ<dl><dd>প্রান্তিককৃত লেখ<dl><dd>প্রান্তিককৃত লেখ</dd></dl></dd></dl>',
 );
 
+/** Tibetan (བོད་ཡིག)
+ * @author Freeyak
+ */
+$messages['bo'] = array(
+	'wikieditor-loading' => 'འདྲེན་པ།',
+	'wikieditor-preview-tab' => 'སྔ་མ།',
+	'wikieditor-publish-button-cancel' => 'རྩིས་མེད།',
+	'wikieditor-toolbar-tool-replace-close' => 'སྒོ་རྒྱག་པ།',
+	'wikieditor-toolbar-help-page-list' => 'རེའུ་མིག',
+);
+
 /** Bishnupria Manipuri (ইমার ঠার/বিষ্ণুপ্রিয়া মণিপুরী)
  * @author Usingha
  */
@@ -9034,7 +9045,7 @@ $messages['ha'] = array(
 $messages['he'] = array(
 	'prefs-beta' => 'אפשרויות בטא',
 	'prefs-labs' => 'אפשרויות מעבדה',
-	'wikieditor' => 'מנשק מתקדם לעריכת טקסט ויקי',
+	'wikieditor' => 'ממשק מתקדם לעריכת טקסט ויקי',
 	'wikieditor-desc' => 'מספקת מנשק עריכת ויקיטקסט הניתן להרחבה ומודולים המאפשרים להוסיף יכולות',
 	'wikieditor-wikitext-tab' => 'קוד ויקי',
 	'wikieditor-loading' => 'בטעינה',
