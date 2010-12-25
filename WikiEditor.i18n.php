@@ -7509,6 +7509,7 @@ Haluatko tehdä siitä sisäisen linkin?',
  * @author Peter17
  * @author PieRRoMaN
  * @author Urhixidur
+ * @author Zetud
  */
 $messages['fr'] = array(
 	'prefs-beta' => 'Fonctionnalités bêta',
@@ -7726,7 +7727,7 @@ Voulez-vous utiliser un lien interne à la place ?',
 	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Exemple.png|thumb|Texte affiché]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Texte affiché' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/UsabilityInitiative/images/wikiEditor/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Texte affiché</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Référence',
-	'wikieditor-toolbar-help-content-reference-syntax' => 'Texte de la page.&lt;ref name="test"&gt;[http://www.example.org texte du lien], texte additionnel.&lt;/ref&gt;',
+	'wikieditor-toolbar-help-content-reference-syntax' => 'Texte de la page&lt;ref name="test"&gt;[http://www.example.org texte du lien], texte additionnel.&lt;/ref&gt;',
 	'wikieditor-toolbar-help-content-reference-result' => "Texte de la page <sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-rereference-description' => 'Utilisation additionnelle de la même référence',
 	'wikieditor-toolbar-help-content-rereference-result' => "Texte de la page <sup><a href='#'>[1]</a></sup>",
