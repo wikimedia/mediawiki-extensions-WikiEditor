@@ -19679,6 +19679,7 @@ $messages['si'] = array(
 	'wikieditor-toolbar-tool-reference-cancel' => 'අත් හරින්න',
 	'wikieditor-toolbar-tool-reference-title' => 'යොමුවක්(Reference) ඇතුලුකරන්න',
 	'wikieditor-toolbar-tool-reference-insert' => 'ඇතුල් කරන්න',
+	'wikieditor-toolbar-tool-reference-text' => 'මූලාශ්‍ර පෙළ',
 	'wikieditor-toolbar-tool-signature' => 'අත්සන හා කාල මුද්‍රාව',
 	'wikieditor-toolbar-section-advanced' => 'දියුණු කළ',
 	'wikieditor-toolbar-tool-heading' => 'ශීර්ෂය',
