@@ -14248,6 +14248,7 @@ $messages['mk'] = array(
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Текст во страницата.&lt;ref name="test"&gt;[http://www.пример.org Текст на врската], дополнителен текст.&lt;/ref&gt;',
 	'wikieditor-toolbar-help-content-reference-result' => "Текст во страницата.<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-rereference-description' => 'Понатамошна употреба на истиот навод',
+	'wikieditor-toolbar-help-content-rereference-syntax' => '&lt;ref name="проба" /&gt;',
 	'wikieditor-toolbar-help-content-rereference-result' => "Текст во страницата.<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-showreferences-description' => 'Прикажи наводи',
 	'wikieditor-toolbar-help-content-showreferences-result' => "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.пример.org' class='external text' href='#'>Текст на врската</a>, дополнителен текст.</li></ol>",
@@ -24720,6 +24721,7 @@ Bangla',
  * @author Bencmq
  * @author Fantasticfears
  * @author Gaoxuewei
+ * @author Hydra
  * @author Liangent
  * @author Onecountry
  * @author PhiLiP
@@ -24738,6 +24740,7 @@ $messages['zh-hans'] = array(
 	'wikieditor-preview-tab' => '预览',
 	'wikieditor-preview-changes-tab' => '修订',
 	'wikieditor-preview-loading' => '载入中……',
+	'wikieditor-previewDialog-preference' => '启用预览对话框的',
 	'wikieditor-previewDialog-tab' => '预览',
 	'wikieditor-previewDialog-loading' => '载入中……',
 	'wikieditor-publish-preference' => '启用逐步发表功能',
