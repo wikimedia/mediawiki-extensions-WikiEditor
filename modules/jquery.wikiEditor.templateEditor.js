@@ -319,6 +319,7 @@ fn: {
 					$(this).text( mediaWiki.msg( $(this).attr( 'rel' ) ) );
 				} );
 			},
+			immediateCreate: true,
 			dialog: {
 				width: 600,
 				height: 400,

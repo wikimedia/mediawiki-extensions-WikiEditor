@@ -42,7 +42,7 @@ api: {
 			var mod = $.wikiEditor.modules.dialogs.modules[module];
 			var $dialog = $( '#' + mod.id );
 			if ( $dialog.length == 0 ) {
-				$.wikiEditor.modules.dialogs.fn.reallyCreate( context, mod );
+				$.wikiEditor.modules.dialogs.fn.reallyCreate( context, mod, module );
 				$dialog = $( '#' + mod.id );
 			}
 			
@@ -72,7 +72,7 @@ fn: {
 	 */
 	create: function( context, config ) {
 		// Defer building of modules, but do check whether they need the iframe rightaway
-		for ( mod in config ) {
+		for ( var mod in config ) {
 			var module = config[mod];
 			// Only create the dialog if it's supported, isn't filtered and doesn't exist yet
 			var filtered = false;
@@ -91,6 +91,10 @@ fn: {
 					context.fn.setupIframe();
 				}
 				context.$textarea.trigger( 'wikiEditor-dialogs-setup-' + mod );
+				// If this dialog requires immediate creation, create it now
+				if ( typeof module.immediateCreate !== 'undefined' && module.immediateCreate ) {
+					$.wikiEditor.modules.dialogs.fn.reallyCreate( context, module, mod );
+				}
 			}
 		}
 	},
@@ -98,8 +102,9 @@ fn: {
 	 * Build the actual dialog. This done on-demand rather than in create()
 	 * @param {Object} context Context object of editor dialog belongs to
 	 * @param {Object} module Dialog module object
+	 * @param {String} name Dialog name (key in $.wikiEditor.modules.dialogs.modules)
 	 */
-	reallyCreate: function( context, module ) {
+	reallyCreate: function( context, module, name ) {
 		var configuration = module.dialog;
 		// Add some stuff to configuration
 		configuration.bgiframe = true;
@@ -110,7 +115,7 @@ fn: {
 		// Stupid JS won't let us do stuff like
 		// foo = { mediaWiki.msg( 'bar' ): baz }
 		configuration.newButtons = {};
-		for ( msg in configuration.buttons )
+		for ( var msg in configuration.buttons )
 			configuration.newButtons[mediaWiki.msg( msg )] = configuration.buttons[msg];
 		configuration.buttons = configuration.newButtons;
 		// Create the dialog <div>
@@ -137,7 +142,7 @@ fn: {
 		} );
 		
 		// Let the outside world know we set up this dialog
-		context.$textarea.trigger( 'wikiEditor-dialogs-loaded-' + mod );
+		context.$textarea.trigger( 'wikiEditor-dialogs-loaded-' + name );
 	},
 	/**
 	 * Resize a dialog so its contents fit
