@@ -275,10 +275,13 @@ $wgResourceModules += array(
 		'scripts' => 'ext.wikiEditor.toolbar.js',
 		'dependencies' => array(
 			'ext.wikiEditor',
+			'ext.wikiEditor.toolbar.i18n',
 			'jquery.wikiEditor.toolbar',
 			'jquery.cookie',
 			'jquery.async',
-		),
+		)
+	),
+	'ext.wikiEditor.toolbar.i18n' => $wikiEditorTpl + array(
 		'messages' => array(
 			// This is a mixed bunch that needs to be separated between dialog and toolbar messages, but since the
 			// dialog module depends on the toolbar module, it's not an urgent matter
