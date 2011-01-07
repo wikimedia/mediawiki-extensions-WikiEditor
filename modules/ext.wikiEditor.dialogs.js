@@ -30,6 +30,7 @@ $( document ).ready( function() {
 				},
 				'reference': {
 					'labelMsg': 'wikieditor-toolbar-tool-reference',
+					'filters': [ 'body.ns-subject' ],
 					'type': 'button',
 					'icon': 'insert-reference.png',
 					'offset': [2, -1798],

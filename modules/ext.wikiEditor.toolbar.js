@@ -162,6 +162,7 @@ $( document ).ready( function() {
 						},
 						'reference': {
 							'labelMsg': 'wikieditor-toolbar-tool-reference',
+							'filters': [ 'body.ns-subject' ],
 							'type': 'button',
 							'offset': [2, -1798],
 							'icon': 'insert-reference.png',
