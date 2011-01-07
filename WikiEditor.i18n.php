@@ -20695,6 +20695,7 @@ $messages['sr-ec'] = array(
 
 /** Serbian Latin ekavian (Srpski (latinica))
  * @author Liangent
+ * @author Rancher
  * @author Жељко Тодоровић
  */
 $messages['sr-el'] = array(
@@ -20827,7 +20828,7 @@ $messages['sr-el'] = array(
 	'wikieditor-toolbar-help-page-link' => 'Veze',
 	'wikieditor-toolbar-help-page-heading' => 'Naslovi',
 	'wikieditor-toolbar-help-page-list' => 'Spiskovi',
-	'wikieditor-toolbar-help-page-file' => 'Fajlovi',
+	'wikieditor-toolbar-help-page-file' => 'Datoteke',
 	'wikieditor-toolbar-help-page-reference' => 'Reference',
 	'wikieditor-toolbar-help-page-discussion' => 'Razgovor',
 	'wikieditor-toolbar-help-content-italic-description' => 'Kurziv',
