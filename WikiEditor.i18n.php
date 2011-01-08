@@ -11443,6 +11443,7 @@ $messages['jv'] = array(
 /** Georgian (ქართული)
  * @author BRUTE
  * @author David1010
+ * @author Dawid Deutschland
  * @author გიორგიმელა
  */
 $messages['ka'] = array(
@@ -11529,7 +11530,7 @@ $messages['ka'] = array(
 	'wikieditor-toolbar-tool-heading-4' => 'დონე4',
 	'wikieditor-toolbar-tool-heading-5' => 'დონე 5',
 	'wikieditor-toolbar-tool-heading-example' => 'სათაურის ტექსტი',
-	'wikieditor-toolbar-group-format' => 'სია',
+	'wikieditor-toolbar-group-format' => 'ფორმატი',
 	'wikieditor-toolbar-tool-ulist' => 'მონიშნული სია',
 	'wikieditor-toolbar-tool-ulist-example' => 'მონიშნული სიის ელემენტი',
 	'wikieditor-toolbar-tool-olist' => 'დათვლადი სია',
