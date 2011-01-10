@@ -177,6 +177,15 @@ body.rtl .wikiEditor-ui-toolbar .tabs span.tab a.current:visited {
 	background-image: url(images/toolbar/loading-small.gif) !important;
 }
 /* Toolbar */
+/* IGNORED BY IE6
+ * BEWARE: For unknown reasons, Opera ignores the ".wikiEditor-ui-toolbar" .group .label rule
+ * except for when this rule is directly before it.
+ */
+body.rtl .wikiEditor-ui-toolbar .group > .label {
+	float: right;
+	margin-left: 8px;
+	margin-right: 5px;
+}
 .wikiEditor-ui-toolbar .group .label {
 	float: left;
 	border: 0px;
@@ -187,12 +196,6 @@ body.rtl .wikiEditor-ui-toolbar .tabs span.tab a.current:visited {
 	margin-right: 8px;
 	color: #777777;
 	cursor: default;
-}
-/* IGNORED BY IE6 */
-body.rtl .wikiEditor-ui-toolbar .group > .label {
-	float: right;
-	margin-left: 8px;
-	margin-right: 5px;
 }
 .wikiEditor-ui-toolbar .group img.tool {
 	float: left;
