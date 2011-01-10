@@ -318,7 +318,6 @@ $wgResourceModules += array(
 			'wikieditor-toolbar-tool-link-lookslikeinternal-ext',
 			'wikieditor-toolbar-tool-link-empty',
 			'wikieditor-toolbar-tool-file',
-			'wikieditor-toolbar-tool-file-pre',
 			'wikieditor-toolbar-tool-file-example',
 			'wikieditor-toolbar-tool-reference',
 			'wikieditor-toolbar-tool-reference-title',

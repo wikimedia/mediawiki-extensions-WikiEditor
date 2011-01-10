@@ -153,8 +153,7 @@ $( document ).ready( function() {
 							'action': {
 								'type': 'encapsulate',
 								'options': {
-									// FIXME: Why the hell was this done this way?
-									'preMsg': [ 'wikieditor-toolbar-tool-file-pre', '[[' ],
+									'pre': '[[' + mediaWiki.config.get( 'wgFormattedNamespaces' )[6] + ':',
 									'periMsg': 'wikieditor-toolbar-tool-file-example',
 									'post': "]]"
 								}
