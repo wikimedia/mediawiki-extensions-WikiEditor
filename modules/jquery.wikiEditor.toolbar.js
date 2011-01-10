@@ -701,7 +701,8 @@ fn: {
 		}
 		var $selectedIndex = $index.find( '*[rel=' + selected + ']' );
 		if ( $selectedIndex.size() == 0 ) {
-			selected = $index.children().eq( 0 ).attr( 'rel' );
+			$selectedIndex = $index.children().eq( 0 );
+			selected = $selectedIndex.attr( 'rel' );
 			$.cookie( cookie, selected, { expires: 30, path: '/' } );
 		}
 		$pages.children().hide();
