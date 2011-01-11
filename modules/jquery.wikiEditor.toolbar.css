@@ -89,9 +89,6 @@
 	float: left;
 	line-height: 26px;
 }
-html.ie-6 .wikiEditor-ui-toolbar .tabs span.tab {
-	display: inline-block;
-}
 .wikiEditor-ui-toolbar .tabs span.tab a,
 .wikiEditor-ui-toolbar .tabs span.tab a:visited {
 	display: inline-block;
@@ -171,9 +168,6 @@ html.ie-6 .wikiEditor-ui-toolbar .tabs span.tab {
 	margin-top: 22px;
 	border: solid 1px silver;
 	background-color: #ffffff;
-}
-html.ie-6 .wikiEditor-ui-toolbar .group .tool-select .options  {
-	margin-top: 0;
 }
 .wikiEditor-ui-toolbar .group .tool-select .options .option {
 	display: block;
