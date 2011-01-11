@@ -114,7 +114,7 @@
 }
 .wikiEditor-ui-toolbar .tabs span.tab a.loading {
 	/* @embed */
-	background-image: url(images/toolbar/loading-small.gif) !important;
+	background-image: url(images/toolbar/loading-small.gif);
 }
 /* Toolbar */
 .wikiEditor-ui-toolbar .group .label {
