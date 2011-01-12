@@ -1,7 +1,7 @@
 /*
  * CSS for WikiEditor Table of Contents jQuery plugin
  */
- 
+
 .wikiEditor-ui-toc {
 	/* height and width are set dynamically */
 	/*float: right;*/
@@ -11,10 +11,6 @@
 }
 .wikiEditor-ui-toc {
 	border-left: solid silver 1px;
-}
-body.rtl .wikiEditor-ui-toc {
-	border-right: solid silver 1px;
-	border-left: none;
 }
 .wikiEditor-ui-toc ul {
 	padding: 0;
@@ -39,10 +35,6 @@ body.rtl .wikiEditor-ui-toc {
 	border-bottom: solid 1px silver;
 	white-space: nowrap;
 	overflow: hidden;
-}
-body.rtl .tab-toc {
-	background-position: right top;
-	padding-right: 2em;
 }
 .tab-toc a {
 	outline: none;
@@ -69,44 +61,20 @@ body.rtl .tab-toc {
 	padding: 0.125em;
 	padding-left: 1em;
 }
-body.rtl .wikiEditor-ui-toc ul li div {
-	padding-right: 1em;
-	padding-left: 0;
-}
 .wikiEditor-ui-toc ul ul li div {
 	padding-left: 2em;
-}
-body.rtl .wikiEditor-ui-toc ul ul li div {
-	padding-right: 2em;
-	padding-left: 0;
 }
 .wikiEditor-ui-toc ul ul ul li div {
 	padding-left: 3em;
 }
-body.rtl .wikiEditor-ui-toc ul ul ul li div {
-	padding-right: 3em;
-	padding-left: 0;
-}
 .wikiEditor-ui-toc ul ul ul ul li div {
 	padding-left: 4em;
-}
-body.rtl .wikiEditor-ui-toc ul ul ul ul li div {
-	padding-right: 4em;
-	padding-left: 0;
 }
 .wikiEditor-ui-toc ul ul ul ul ul li div {
 	padding-left: 5em;
 }
-body.rtl .wikiEditor-ui-toc ul ul ul ul ul li div {
-	padding-right: 5em;
-	padding-left: 0;
-}
 .wikiEditor-ui-toc ul ul ul ul ul ul li div {
 	padding-left: 6em;
-}
-body.rtl wikiEditor-ui-toc ul ul ul ul ul ul li div {
-	padding-right: 6em;
-	padding-left: 0;
 }
 .wikiEditor-ui-toc ul li div.current {
 	background-color: #FAFAFA;
@@ -179,9 +147,6 @@ body.rtl wikiEditor-ui-toc ul ul ul ul ul ul li div {
 	background: url(images/toc/grip.png) 50% 50% no-repeat;
 	z-index: 0;
 }
-body.rtl .wikiEditor-ui-right .wikiEditor-ui-toc-resize-grip {
-	right: 2px !important;
-}
 .wikiEditor-ui-toolbar .tab-toc {
 	float: right;
 	margin: 3px 16px 3px 3px;
@@ -198,12 +163,6 @@ body.rtl .wikiEditor-ui-right .wikiEditor-ui-toc-resize-grip {
 	padding-right: 1em;
 	white-space: nowrap;
 	overflow: hidden;
-}
-body.rtl .wikiEditor-ui-toc-expandControl {
-	padding-left: 1em;
-	padding-right: 0;
-	left: 10px;
-	right: auto;
 }
 .wikiEditor-ui-text textarea {
 	resize: none;

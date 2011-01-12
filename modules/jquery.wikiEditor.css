@@ -13,9 +13,6 @@
 .wikiEditor-ui textarea:focus {
 	outline: none;
 }
-body.rtl .wikiEditor-ui {
-	float: right;
-}
 .wikiEditor-ui .wikiEditor-ui-bottom {
 	
 }
@@ -30,16 +27,10 @@ body.rtl .wikiEditor-ui {
 	float: left;
 	width: 100%;
 }
-body.rtl .wikiEditor-ui .wikiEditor-ui-left {
-	float: right;
-}
 .wikiEditor-ui .wikiEditor-ui-right {
 	float: right;
 	background: #F3F3F3;
 	overflow: hidden;
-}
-body.rtl .wikiEditor-ui .wikiEditor-ui-right {
-	float: left;
 }
 .wikiEditor-wikitext {
 	float: left;
