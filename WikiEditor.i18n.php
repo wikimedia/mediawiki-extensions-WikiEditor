@@ -1715,7 +1715,7 @@ $messages['as'] = array(
 	'wikieditor-toolbar-tool-file-example' => 'Example.jpg',
 );
 
-/** Bashkir (Башҡорт)
+/** Bashkir (Башҡортса)
  * @author Assele
  */
 $messages['ba'] = array(
@@ -2189,7 +2189,7 @@ $messages['be'] = array(
 	'wikieditor-toolbar-help-content-indent-result' => 'Просты тэкст<dl><dd>Тэкст з водступам<dl><dd>Тэкст з водступам</dd></dl></dd></dl>',
 );
 
-/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -17499,6 +17499,7 @@ $messages['pt'] = array(
  * @author Everton137
  * @author Giro720
  * @author Hamilton Abreu
+ * @author Helder.wiki
  * @author Heldergeovane
  * @author Lijealso
  * @author Luckas Blade
