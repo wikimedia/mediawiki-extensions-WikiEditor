@@ -1215,6 +1215,7 @@ $messages['ang'] = array(
 );
 
 /** Arabic (العربية)
+ * @author McDutchie
  * @author Meno25
  * @author OsamaK
  * @author Samer
@@ -2428,6 +2429,7 @@ $1:Прыклад.jpg|Подпіс2',
 
 /** Bulgarian (Български)
  * @author DCLXVI
+ * @author McDutchie
  * @author Spiritia
  * @author Turin
  */
@@ -2639,7 +2641,7 @@ $1:Example.jpg|Описание2',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Елемент от списъка<br /># Елемент от списъка',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Елемент от списъка</li><li>Елемент от списъка</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Вграден файл',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|мини|Текст под картинката]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Текст под картинката]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Текст под картинката' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Уголемяване' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Текст под картинката</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Източник',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Текст на страницата.&lt;ref name="test"&gt;[http://www.example.org Текст на външната препратка], допълнителен текст.&lt;/ref&gt;',
@@ -4076,6 +4078,7 @@ $messages['ce'] = array(
 /** Sorani (کوردی)
  * @author Asoxor
  * @author Marmzok
+ * @author McDutchie
  */
 $messages['ckb'] = array(
 	'prefs-beta' => 'کەرەسەکانی بیتا',
@@ -9754,6 +9757,7 @@ $1:Example.jpg|Popis2',
  * @author Dani
  * @author Glanthor Reviol
  * @author Hunyadym
+ * @author McDutchie
  * @author Misibacsi
  */
 $messages['hu'] = array(
@@ -9969,7 +9973,7 @@ $1:Példa.jpg|képaláírás2',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Listaelem<br /># Listaelem',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Listaelem</li><li>Listaelem</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Beszúrt fájl',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|bélyegkép|Képaláírás]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Képaláírás]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='A kép nagyítása' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Képaláírás</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Forráshivatkozás',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Lap szövege.&lt;ref name="test"&gt;[http://www.példaoldal.hu Hivatkozás szövege], további szöveg.&lt;/ref&gt;',
@@ -14262,6 +14266,7 @@ $1:Пример.jpg|Опис2',
 );
 
 /** Malayalam (മലയാളം)
+ * @author McDutchie
  * @author Praveenp
  */
 $messages['ml'] = array(
@@ -14476,7 +14481,7 @@ $1:Example.jpg|കുറിപ്പ്2',
 	'wikieditor-toolbar-help-content-olist-syntax' => '#ലിസ്റ്റിലെ അംഗം<br />#ലിസ്റ്റിലെ അംഗം',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>ലിസ്റ്റിലെ അംഗം</li><li>ലിസ്റ്റിലെ അംഗം</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'പ്രമാണം ചേർക്കൽ',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|ലഘു|വിവരണ കുറിപ്പ്]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|വിവരണ കുറിപ്പ്]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='കുറിപ്പായുള്ള എഴുത്ത്' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt='ലഘുചിത്രം'/></a><div class='thumbcaption'><div class='magnify'><a title='വലുതാക്കുക' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>കുറിപ്പായുള്ള എഴുത്ത്</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'അവലംബം',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'താളിലെ എഴുത്ത്.&lt;ref name="test"&gt;[http://www.example.org കണ്ണിയായുള്ള എഴുത്ത്], കൂടുതൽ എഴുത്ത്.&lt;/ref&gt;',
@@ -14507,6 +14512,7 @@ $messages['mn'] = array(
 
 /** Marathi (मराठी)
  * @author Mahitgar
+ * @author McDutchie
  * @author V.narsikar
  * @author अभय नातू
  */
@@ -14720,7 +14726,7 @@ $1:Example.jpg|चित्रपरिचय २',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# यादी घटक<br /># यादी घटक',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>यादी घटक</li><li>यादी घटक</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'संलग्न संचिका',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|ईवलेसे|मथळा मजकूर]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|मथळा मजकूर]]',
 	'wikieditor-toolbar-help-content-file-result' => "↓ <div style='width:104px;' class='thumbinner'><a title='मथळा मजकूर' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Caption text</div></div>
 <div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Caption text</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'संदर्भ',
@@ -19844,6 +19850,7 @@ $1:උදාහරණ.jpg| 2 යටි ලියමන',
 /** Slovak (Slovenčina)
  * @author Helix84
  * @author Jkjk
+ * @author McDutchie
  */
 $messages['sk'] = array(
 	'prefs-beta' => 'Nové funkcie',
@@ -20057,7 +20064,7 @@ $1:Príklad.jpg|Popis2',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Položka zoznamu<br /># Položka zoznamu',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Položka zoznamu</li><li>Položka zoznamu</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Vložený súbor',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Príklad.png|náhľad|Text nadpisu]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Príklad.png|thumb|Text nadpisu]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Text nadpisu' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Zväčšiť' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Text nadpisu</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referencie',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Text stránky.&lt;ref name="test"&gt;[http://www.example.org Text odkazu], ďalší text.&lt;/ref&gt;',
@@ -20290,7 +20297,7 @@ $1:Primer 2.jpg|Napis 2',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Vnos a <br /> # Vnos b',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li> Vnos a </li><li> Vnos b </li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Vgradnja slike',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Primer.jpg|thumb|Napis pod sliko]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Primer.png|thumb|Napis pod sliko]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'> <a title=\"Napis pod sliko\" class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a> <div class='thumbcaption'><div class='magnify'> <a title=\"Povečaj\" class='internal' href='#'><img height='11' width='15' alt='' src='\$1/common/images/magnify-clip.png'/></a> </div> Napis pod sliko </div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Sprotna opomba',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Besedilo strani. &lt;ref name=&quot;test&quot;&gt; [http://www.example.org Oznaka povezave], dodatno besedilo. &lt;/ref&gt;',
@@ -20475,9 +20482,10 @@ $messages['sq'] = array(
 	'wikieditor-toolbar-help-content-signature-description' => 'Firma',
 );
 
-/** Serbian Cyrillic ekavian (Српски (ћирилица))
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Charmed94
  * @author Helios13
+ * @author McDutchie
  * @author Rancher
  * @author Sasa Stefanovic
  * @author Жељко Тодоровић
@@ -20680,7 +20688,7 @@ $1:пример2.jpg|Наслов2',
 	'wikieditor-toolbar-help-content-ulist-description' => 'Попис с ознакама',
 	'wikieditor-toolbar-help-content-olist-description' => 'Нумерисана листа',
 	'wikieditor-toolbar-help-content-file-description' => 'Слика',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Примјер.png|мини|Назив слике]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Примјер.png|thumb|Назив слике]]',
 	'wikieditor-toolbar-help-content-reference-description' => 'Референце',
 	'wikieditor-toolbar-help-content-reference-result' => "Текст странице.<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-rereference-description' => 'Додатна употреба исте референце',
@@ -20694,8 +20702,9 @@ $1:пример2.jpg|Наслов2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Обичан текст<dl><dd>Увучени текст<dl><dd>Увучени текст</dd></dl></dd></dl>',
 );
 
-/** Serbian Latin ekavian (Srpski (latinica))
+/** Serbian Latin ekavian (‪Srpski (latinica)‬)
  * @author Liangent
+ * @author McDutchie
  * @author Rancher
  * @author Жељко Тодоровић
  */
@@ -20857,7 +20866,7 @@ $1:primer2.jpg|Naslov2',
 	'wikieditor-toolbar-help-content-heading5-syntax' => '===== Naslov odeljka =====',
 	'wikieditor-toolbar-help-content-heading5-result' => '<h5>Naslov odeljka</h5>',
 	'wikieditor-toolbar-help-content-olist-description' => 'Numerisana lista',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Primjer.png|mini|Naziv slike]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Primjer.png|thumb|Naziv slike]]',
 	'wikieditor-toolbar-help-content-reference-description' => 'Reference',
 	'wikieditor-toolbar-help-content-showreferences-description' => 'Prikaži reference',
 	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>Korisnik</a> (<a href='#' title='{{#special:mytalk}}'>razgovor</a>) 15:54, 10. jun 2009. (UTC)",
@@ -21082,6 +21091,7 @@ $1:Conto.jpg|Pedaran2',
  * @author Cohan
  * @author Dafer45
  * @author Hannibal
+ * @author McDutchie
  * @author Sertion
  */
 $messages['sv'] = array(
@@ -21296,7 +21306,7 @@ $1:Exempel.jpg|Bildtext2',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Listelement<br /># Listelement',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Listelement</li><li>Listelement</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Inbäddad fil',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|miniatyr|Bildtext]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Exempel.png|thumb|Bildtext]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Bildtext' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Förstora' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Bildtext</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referens',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Brödtext.&lt;ref name="test"&gt;[http://www.example.org Länktext], ytterligare text.&lt;/ref&gt;',
@@ -22406,6 +22416,7 @@ $1:Example.jpg|Titr2',
 
 /** Tagalog (Tagalog)
  * @author AnakngAraw
+ * @author McDutchie
  */
 $messages['tl'] = array(
 	'prefs-beta' => 'Mga kaangkapang-katangiang pang-beta',
@@ -22619,7 +22630,7 @@ $1:Halimbawa.jpg|Kapsyon2',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Bagay sa talaan<br /># Bagay sa talaan',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Bagay sa talaan</li><li>Bagay sa talaan</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Talaksang nakabaon',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Halimbawa.png|kagyat|Teksto ng kapsyon]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Halimbawa.png|thumb|Teksto ng kapsyon]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Tekstong nagpapaliwanag</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Sanggunian',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Taksto ng pahina.&lt;ref name="test"&gt;[http://www.halimbawa.org Teksto ng kawing], karagdagang teksto.&lt;/ref&gt;',
