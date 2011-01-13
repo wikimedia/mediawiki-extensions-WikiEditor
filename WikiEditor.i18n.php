@@ -129,8 +129,8 @@ Do you want to make it an internal link?',
 	'wikieditor-toolbar-tool-subscript-example' => 'Subscript text',
 	'wikieditor-toolbar-group-insert' => 'Insert',
 	'wikieditor-toolbar-tool-gallery' => 'Picture gallery',
-	'wikieditor-toolbar-tool-gallery-example' => "{{ns:file}}:Example.jpg|Caption1
-{{ns:file}}:Example.jpg|Caption2",
+	'wikieditor-toolbar-tool-gallery-example' => "$1:Example.jpg|Caption1
+$1:Example.jpg|Caption2",
 	'wikieditor-toolbar-tool-newline' => 'New line',
 	'wikieditor-toolbar-tool-table' => 'Table',
 	'wikieditor-toolbar-tool-table-example-old' => "-
@@ -239,7 +239,7 @@ Do you want to make it an internal link?',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# List item<br /># List item',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>List item</li><li>List item</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Embedded file',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Caption text]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Caption text]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Caption text</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Reference',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Page text.&lt;ref name="test"&gt;[http://www.example.org Link text], additional text.&lt;/ref&gt;',
@@ -574,8 +574,8 @@ Wil u dit na 'n interne skakel verander?",
 	'wikieditor-toolbar-tool-subscript-example' => 'Teks in onderskrif',
 	'wikieditor-toolbar-group-insert' => 'Invoeg',
 	'wikieditor-toolbar-tool-gallery' => 'Fotogalery',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Voorbeeld1|Byskrif1
-{{ns:file}}:Voorbeeld2|Byskrif2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Voorbeeld1|Byskrif1
+$1:Voorbeeld2|Byskrif2',
 	'wikieditor-toolbar-tool-newline' => 'Nuwe lyn',
 	'wikieditor-toolbar-tool-table' => 'Tabel',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -681,7 +681,7 @@ Wil u dit na 'n interne skakel verander?",
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Lyn in genommerde lys<br /># Lyn in genommerde lys',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Lyn in genommerde lys</li><li>Lyn in genommerde lys</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Ingebedde lêer',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Voorbeeld.png|thumb|Byskrif]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Voorbeeld.png|thumb|Byskrif]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Byskrif' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Vergroot' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Byskrif</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Verwysing',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Bladsyteks.&lt;ref name="test"&gt;[http://www.voorbeeld.org Skakel se teks], addisionele teks.&lt;/ref&gt;',
@@ -807,8 +807,8 @@ A doni ta bërë atë një lidhje të brendshme?',
 	'wikieditor-toolbar-tool-subscript-example' => 'tekstit Subscript',
 	'wikieditor-toolbar-group-insert' => 'Kall',
 	'wikieditor-toolbar-tool-gallery' => 'galeri artesh',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}: Example.jpg|Caption1
-{{ns:file}}: Example.jpg|Caption2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1: Example.jpg|Caption1
+$1: Example.jpg|Caption2',
 	'wikieditor-toolbar-tool-newline' => 'Linjë e re',
 	'wikieditor-toolbar-tool-table' => 'Tryezë',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -910,7 +910,7 @@ A doni ta bërë atë një lidhje të brendshme?',
 	'wikieditor-toolbar-help-content-olist-syntax' => 'pika # Lista <br /> pika # Lista',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li> pika Lista </li><li> pika Lista </li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Embedded file',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Caption teksti]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Caption teksti]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'> <a title=\"tekstit Legjenda\" class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a> <div class='thumbcaption'><div class='magnify'> <a title=\"Zmadho\" class='internal' href='#'><img height='11' width='15' alt='' src='\$1/common/images/magnify-clip.png'/></a> </div> tekstit Legjenda </div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referim',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Tekst faqesh. name="test"> <ref [http://www.example.org] teksti Link, teksti shtesë. </> ref',
@@ -1036,8 +1036,8 @@ $messages['an'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Texto en subéndiz',
 	'wikieditor-toolbar-group-insert' => 'Insertar',
 	'wikieditor-toolbar-tool-gallery' => "Galería d'imachens",
-	'wikieditor-toolbar-tool-gallery-example' => '↓ {{ns:file}}:Eixemplo.jpg|Piet_de_foto_1
-{{ns:file}}:Eixemplo.jpg|Piet_de_foto_2',
+	'wikieditor-toolbar-tool-gallery-example' => '↓ $1:Eixemplo.jpg|Piet_de_foto_1
+$1:Eixemplo.jpg|Piet_de_foto_2',
 	'wikieditor-toolbar-tool-newline' => 'Nueva linia',
 	'wikieditor-toolbar-tool-table' => 'Tabla',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -1143,7 +1143,7 @@ $messages['an'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => "# Elemento d'a lista<br /># Elemento d'a lista",
 	'wikieditor-toolbar-help-content-olist-result' => "<ol><li>Elemento d'a lista</li><li>Elemento d'a lista</li></ol>",
 	'wikieditor-toolbar-help-content-file-description' => 'Fichero incorporato',
-	'wikieditor-toolbar-help-content-file-syntax' => "[[{{ns:file}}:Eixemplo.png|thumb|Texto descriptivo d'a imachen]]",
+	'wikieditor-toolbar-help-content-file-syntax' => "[[$1:Eixemplo.png|thumb|Texto descriptivo d'a imachen]]",
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Texto de piet de foto' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Fer más gran' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Texto de piet de foto</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referencia',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Texto d\'a pachina.&lt;ref name="test"&gt;[http://www.example.org Texto d\'o vinclo], texto adicional.&lt;/ref&gt;',
@@ -1325,8 +1325,8 @@ $messages['ar'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'نص الحرف السفلي',
 	'wikieditor-toolbar-group-insert' => 'أدرج',
 	'wikieditor-toolbar-tool-gallery' => 'معرض صور',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|تعليق1
-{{ns:file}}:Example.jpg|تعليق2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|تعليق1
+$1:Example.jpg|تعليق2',
 	'wikieditor-toolbar-tool-newline' => 'سطر جديد',
 	'wikieditor-toolbar-tool-table' => 'جدولًا',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -1432,7 +1432,7 @@ $messages['ar'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# عنصر قائمة<br /># عنصر قائمة',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>عنصر قائمة</li><li>عنصر قائمة</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'ملف مضمّن',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|تصغير|نص الشرح]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|تصغير|نص الشرح]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='نص التعليق' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='تكبير' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>نص التعليق</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'مرجع',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'نص الصفحة.&lt;ref name="test"&gt;[http://www.example.org نص الوصلة]، نص إضافي.&lt;/ref&gt;',
@@ -1592,8 +1592,8 @@ $messages['arz'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Subscript text',
 	'wikieditor-toolbar-group-insert' => 'حط',
 	'wikieditor-toolbar-tool-gallery' => 'جاليرى الصور',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Caption1
-{{ns:file}}:Example.jpg|Caption2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Caption1
+$1:Example.jpg|Caption2',
 	'wikieditor-toolbar-tool-newline' => 'سطر جديد',
 	'wikieditor-toolbar-tool-table' => 'جدول',
 	'wikieditor-toolbar-tool-table-example-old' => '! header 1
@@ -1690,7 +1690,7 @@ $messages['arz'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# List item<br /># List item',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>List item</li><li>List item</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Embedded file',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Caption text]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Caption text]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Caption text</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'مرجع',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Page text.&lt;ref name="test"&gt;[http://www.example.org Link text], additional text.&lt;/ref&gt;',
@@ -1824,8 +1824,8 @@ $messages['ba'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Юлдан аҫтағы текст',
 	'wikieditor-toolbar-group-insert' => 'Өҫтәү',
 	'wikieditor-toolbar-tool-gallery' => 'Рәсемдәр йыйынтығы',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Миҫал.jpg|Тасуирлама1
-{{ns:file}}:Миҫал.jpg|Тасуирлама2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Миҫал.jpg|Тасуирлама1
+$1:Миҫал.jpg|Тасуирлама2',
 	'wikieditor-toolbar-tool-newline' => 'Яңы юл',
 	'wikieditor-toolbar-tool-table' => 'Таблица',
 	'wikieditor-toolbar-tool-table-example-old' => '! башлыҡ 1
@@ -1930,7 +1930,7 @@ $messages['ba'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Исемлектең бер юлы<br /># Исемлектең бер юлы',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Исемлектең бер юлы</li><li>Исемлектең бер юлы</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Индерелгән файл',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Миҫал.png|thumb|Аңлатма]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Миҫал.png|thumb|Аңлатма]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Аңлатма' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Ҙурайтырға' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Аңлатма</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Төшөрмә',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Биттәге текст.&lt;ref name="test"&gt;[http://www.example.org Һылтанма тексты], өҫтәмә текст.&lt;/ref&gt;',
@@ -2064,8 +2064,8 @@ $messages['be'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Падрадковы тэкст',
 	'wikieditor-toolbar-group-insert' => 'Уставіць',
 	'wikieditor-toolbar-tool-gallery' => 'Галерэя выяў',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Апісанне1
-{{ns:file}}:Example.jpg|Апісанне2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Апісанне1
+$1:Example.jpg|Апісанне2',
 	'wikieditor-toolbar-tool-newline' => 'Новы радок',
 	'wikieditor-toolbar-tool-table' => 'Табліца',
 	'wikieditor-toolbar-tool-table-example-old' => '- 
@@ -2171,7 +2171,7 @@ $messages['be'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Элемент пераліка<br /># Элемент пераліка',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Элемент пераліка</li><li>Элемент пераліка</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Файл у тэксце',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Апісанне файла]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Апісанне файла]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Апісанне файла' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Апісанне файла</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Зноска',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Тэкст на старонцы.&lt;ref name="test"&gt;[http://www.example.org Тэкст спасылкі], астатні тэкст зноскі.&lt;/ref&gt;',
@@ -2301,8 +2301,8 @@ $messages['be-tarask'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Падрадковы тэкст',
 	'wikieditor-toolbar-group-insert' => 'Уставіць',
 	'wikieditor-toolbar-tool-gallery' => 'Галерэя выяваў',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Прыклад.jpg|Подпіс1
-{{ns:file}}:Прыклад.jpg|Подпіс2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Прыклад.jpg|Подпіс1
+$1:Прыклад.jpg|Подпіс2',
 	'wikieditor-toolbar-tool-newline' => 'Новы радок',
 	'wikieditor-toolbar-tool-table' => 'Табліца',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -2408,7 +2408,7 @@ $messages['be-tarask'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Элемэнт сьпісу<br /># Элемэнт сьпісу',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Элемэнт сьпісу</li><li>Элемэнт сьпісу</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Укладзены файл',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Прыклад.png|thumb|Тэкст подпісу]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Прыклад.png|thumb|Тэкст подпісу]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Тэкст подпісу' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Тэкст подпісу</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Зноска',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Тэкст старонкі.&lt;ref name="test"&gt;[http://www.example.org Тэкст спасылкі], дадатковы тэкст.&lt;/ref&gt;',
@@ -2533,8 +2533,8 @@ $messages['bg'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Текст в долен индекс',
 	'wikieditor-toolbar-group-insert' => 'Вмъкване',
 	'wikieditor-toolbar-tool-gallery' => 'Галерия',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Описание1
-{{ns:file}}:Example.jpg|Описание2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Описание1
+$1:Example.jpg|Описание2',
 	'wikieditor-toolbar-tool-newline' => 'Нов ред',
 	'wikieditor-toolbar-tool-table' => 'Таблица',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -2639,7 +2639,7 @@ $messages['bg'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Елемент от списъка<br /># Елемент от списъка',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Елемент от списъка</li><li>Елемент от списъка</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Вграден файл',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|мини|Текст под картинката]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|мини|Текст под картинката]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Текст под картинката' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Уголемяване' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Текст под картинката</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Източник',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Текст на страницата.&lt;ref name="test"&gt;[http://www.example.org Текст на външната препратка], допълнителен текст.&lt;/ref&gt;',
@@ -2750,8 +2750,8 @@ Apakah Pian handak maulahnya manjadi tautan internal?',
 	'wikieditor-toolbar-tool-subscript-example' => 'Naskah subscript',
 	'wikieditor-toolbar-group-insert' => 'Masukakan',
 	'wikieditor-toolbar-tool-gallery' => 'Ruang gambar',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Cuntuh.jpg|Judul1
-{{ns:file}}:Cuntuh.jpg|Judul2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Cuntuh.jpg|Judul1
+$1:Cuntuh.jpg|Judul2',
 	'wikieditor-toolbar-tool-newline' => 'Baris hanyar',
 	'wikieditor-toolbar-tool-table' => 'Tabel',
 	'wikieditor-toolbar-tool-table-example-old' => '	-
@@ -2850,7 +2850,7 @@ Apakah Pian handak maulahnya manjadi tautan internal?',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Isi daptar<br /># Isi daptar',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Isi daptar</li><li>Isi daptar</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Maktub-akan barakas',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Cuntuh.png|thumb|Naskah judul gambar]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Cuntuh.png|thumb|Naskah judul gambar]]',
 	'wikieditor-toolbar-help-content-reference-description' => 'Rujukan',
 	'wikieditor-toolbar-help-content-reference-result' => "Naskah tungkaran.<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-rereference-result' => "Naskah tungkaran.<sup><a href='#'>[1]</a></sup>",
@@ -2969,8 +2969,8 @@ $messages['bn'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'সাবস্ক্রিপ্ট লেখা',
 	'wikieditor-toolbar-group-insert' => 'যোগ করো',
 	'wikieditor-toolbar-tool-gallery' => 'ছবির গ্যালারী',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|ক্যাপশন১
-{{ns:file}}:Example.jpg|ক্যাপশন২',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|ক্যাপশন১
+$1:Example.jpg|ক্যাপশন২',
 	'wikieditor-toolbar-tool-newline' => 'নতুন লাইন',
 	'wikieditor-toolbar-tool-table' => 'ছক',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -3076,7 +3076,7 @@ $messages['bn'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# তালিকা আইটেম <br /># তালিকা আইটেম',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>তালিকা আইটেম</li><li>তালিকা আইটেম</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'এম্বেডেড ফাইল',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|ক্যাপশন লেখ]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|ক্যাপশন লেখ]]',
 	'wikieditor-toolbar-help-content-reference-description' => 'তথ্যসূত্র',
 	'wikieditor-toolbar-help-content-reference-result' => "পাতার লেখা।<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-rereference-description' => 'একই তথ্যসূত্রের একাধিক ব্যবহার',
@@ -3208,8 +3208,8 @@ $messages['bpy'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'সাবস্ক্রিপ্ট মেয়েক',
 	'wikieditor-toolbar-group-insert' => 'বরা',
 	'wikieditor-toolbar-tool-gallery' => 'ফটকর গ্যালারী',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|ক্যাপশন১
-{{ns:file}}:Example.jpg|ক্যাপশন২',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|ক্যাপশন১
+$1:Example.jpg|ক্যাপশন২',
 	'wikieditor-toolbar-tool-newline' => 'নুৱা পারেঙ',
 	'wikieditor-toolbar-tool-table' => 'ছক',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -3315,7 +3315,7 @@ $messages['bpy'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# পারেঙর মেথেল<br /># পারেঙর মেথেল',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>পারেঙর মেথেল</li><li>পারেঙর মেথেল</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'এম্বেডেড ফাইলগ',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|ক্যাপশনর মেয়ক]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|ক্যাপশনর মেয়ক]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='ক্যাপশর মেয়েক' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='ডাঙরকর' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>ক্যাপশর মেয়েক</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'রেফারেন্সহানি',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'পাতার ইকাহানি।&lt;ref name="test"&gt;[http://www.example.org মিলাপর মেয়েকগি], আরতাউ মেয়েক।&lt;/ref&gt;',
@@ -3445,8 +3445,8 @@ Hag ul liamm diabarzh eo a fell deoc'h lakaat?",
 	'wikieditor-toolbar-tool-subscript-example' => 'Testenn e feur',
 	'wikieditor-toolbar-group-insert' => "Ensoc'hañ",
 	'wikieditor-toolbar-tool-gallery' => 'Skeudennaoueg',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Skouer.jpg|Deskrivadur1
-{{ns:file}}:Skouer.jpg|Deskrivadur2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Skouer.jpg|Deskrivadur1
+$1:Skouer.jpg|Deskrivadur2',
 	'wikieditor-toolbar-tool-newline' => 'Linenn nevez',
 	'wikieditor-toolbar-tool-table' => 'Taolenn',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -3552,7 +3552,7 @@ Hag ul liamm diabarzh eo a fell deoc'h lakaat?",
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Elfenn eus ar roll<br /># Elfenn eus ar roll',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Elfenn eus ar roll</li><li>Elfenn eus ar roll</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Restr enframmet',
-	'wikieditor-toolbar-help-content-file-syntax' => "[[{{ns:file}}:Example.png|thumb|Alc'hwez ar skeudenn]]",
+	'wikieditor-toolbar-help-content-file-syntax' => "[[$1:Example.png|thumb|Alc'hwez ar skeudenn]]",
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Testenn an alc'hwez' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Brasaat' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Testenn an alc'hwez</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Daveenn',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Testenn ar bajenn.&lt;ref name="test"&gt;[http://www.example.org testenn al liamm], testenn ouzhpenn.&lt;/ref&gt;',
@@ -3680,8 +3680,8 @@ Da li želite napraviti interni link?',
 	'wikieditor-toolbar-tool-subscript-example' => 'Tekst indeksa',
 	'wikieditor-toolbar-group-insert' => 'Ubaci',
 	'wikieditor-toolbar-tool-gallery' => 'Galerija slika',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Opis1
-{{ns:file}}:Example.jpg|Opis2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Opis1
+$1:Example.jpg|Opis2',
 	'wikieditor-toolbar-tool-newline' => 'Nova linija',
 	'wikieditor-toolbar-tool-table' => 'Tabela',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -3787,7 +3787,7 @@ Da li želite napraviti interni link?',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Stavka spiska<br /># Stavka spiska',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Stavka spiska</li><li>Stavka spiska</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Uklopljena datoteka',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Opis slike]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Opis slike]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Opis slike' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Uvećajte' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Opis slike</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Reference',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Tekst stranice.&lt;ref name="test"&gt;[http://www.example.org Tekst linka], dodatni tekst.&lt;/ref&gt;',
@@ -3918,8 +3918,8 @@ Voleu convertir-lo en un enllaç intern?",
 	'wikieditor-toolbar-tool-subscript-example' => 'Text en subíndex',
 	'wikieditor-toolbar-group-insert' => 'Insereix',
 	'wikieditor-toolbar-tool-gallery' => "Galeria d'imatges",
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Peu1
-{{ns:file}}:Example.jpg|Peu2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Peu1
+$1:Example.jpg|Peu2',
 	'wikieditor-toolbar-tool-newline' => 'Nova línia',
 	'wikieditor-toolbar-tool-table' => 'Taula',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -4025,7 +4025,7 @@ Voleu convertir-lo en un enllaç intern?",
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Element de la llista<br /># Element de la llista',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Element de la llista</li><li>Element de la llista</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Fitxer incrustat',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Text descriptiu de la imatge]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Text descriptiu de la imatge]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Llegenda</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referències',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Text de la pàgina.&lt;ref name="test"&gt;[http://www.exemple.cat Nom de l\'enllaç], text addicional.&lt;/ref&gt;',
@@ -4181,8 +4181,8 @@ $messages['ckb'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'دەقی ژێرنووس',
 	'wikieditor-toolbar-group-insert' => 'تێخستن',
 	'wikieditor-toolbar-tool-gallery' => 'گالێری وێنە',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:نموونە.jpg|شرۆڤەی ١
-{{ns:file}}:نموونە.jpg|شرۆڤەی ٢',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:نموونە.jpg|شرۆڤەی ١
+$1:نموونە.jpg|شرۆڤەی ٢',
 	'wikieditor-toolbar-tool-newline' => 'ھێڵی نوێ',
 	'wikieditor-toolbar-tool-table' => 'خشتە',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -4285,7 +4285,7 @@ $messages['ckb'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# ئەندامی لیست<br /># ئەندامی لیست',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>ئەندامی لیست</li><li>ئەندامی لیست</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'پەڕگەی نێودەق',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:نموونە.png|وێنۆک|دەقی شرۆڤە]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:نموونە.png|وێنۆک|دەقی شرۆڤە]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='دەقی شرۆڤە' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='گەورەکردنەوە' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>دەقی شرۆڤە</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'سەرچاوە',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'دەقی پەڕە.&lt;ref name="test"&gt;[http://www.example.org دەقی بەستەر], دەقی زیادی.&lt;/ref&gt;',
@@ -4422,8 +4422,8 @@ Chcete z něj tedy udělat vnitřní odkaz?',
 	'wikieditor-toolbar-tool-subscript-example' => 'Text v dolním indexu',
 	'wikieditor-toolbar-group-insert' => 'Vložit',
 	'wikieditor-toolbar-tool-gallery' => 'Galerie obrázků',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Příklad.jpg|Titulek 1
-{{ns:file}}:Příklad.jpg|Titulek 2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Příklad.jpg|Titulek 1
+$1:Příklad.jpg|Titulek 2',
 	'wikieditor-toolbar-tool-newline' => 'Nový řádek',
 	'wikieditor-toolbar-tool-table' => 'Tabulka',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -4529,7 +4529,7 @@ Chcete z něj tedy udělat vnitřní odkaz?',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Položka seznamu<br /># Položka seznamu',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Položka seznamu</li><li>Položka seznamu</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Vložení souboru',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Příklad.png|thumb|Text titulku]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Příklad.png|thumb|Text titulku]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Text titulku' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Zvětšit' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Text titulku</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Poznámka',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Text stránky.&lt;ref name="test"&gt;[http://www.example.org Text odkazu], další text.&lt;/ref&gt;',
@@ -4759,8 +4759,8 @@ Ydych chi am ei osod ar ffurf cyswllt mewnol?",
 	'wikieditor-toolbar-tool-subscript-example' => 'Ysgrifennwch isysgrif fan hyn',
 	'wikieditor-toolbar-group-insert' => 'Mewnosod',
 	'wikieditor-toolbar-tool-gallery' => 'Oriel lluniau',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Enghraifft.jpg|Disgrifiad1
-{{ns:file}}:Enghraifft.jpg|Disgrifiad2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Enghraifft.jpg|Disgrifiad1
+$1:Enghraifft.jpg|Disgrifiad2',
 	'wikieditor-toolbar-tool-newline' => 'Llinell newydd',
 	'wikieditor-toolbar-tool-table' => 'Tabl',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -4866,7 +4866,7 @@ Ydych chi am ei osod ar ffurf cyswllt mewnol?",
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Eitem ar y rhestr<br /># Eitem ar y rhestr',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Eitem ar y rhestr</li><li>Eitem ar y rhestr</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Ffeil mewnosodol',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Enghraifft.png|thumb|Disgrifiad]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Enghraifft.png|thumb|Disgrifiad]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Egluryn' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Chwyddo' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Egluryn</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Troednodyn',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Testun y dudalen.&lt;ref name="test"&gt;[http://www.enghraifft.org ysgrifen y cyswllt], ysgrifen ychwanegol.&lt;/ref&gt;',
@@ -4995,8 +4995,8 @@ $messages['da'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Sænket skrift',
 	'wikieditor-toolbar-group-insert' => 'Indsæt',
 	'wikieditor-toolbar-tool-gallery' => 'Billedgalleri',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Eksempel.jpg|Billedtekst1
-{{ns:file}}:Eksempel.jpg|Billedtekst2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Eksempel.jpg|Billedtekst1
+$1:Eksempel.jpg|Billedtekst2',
 	'wikieditor-toolbar-tool-newline' => 'Ny linje',
 	'wikieditor-toolbar-tool-table' => 'Tabel',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -5100,7 +5100,7 @@ $messages['da'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Listeelement<br /># Listeelement',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Listeelement</li><li>Listeelement</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Indlejret fil',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Billedtekst]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Billedtekst]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Billedtekst' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Forstør' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Billedtekst</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Fodnote',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Sidetekst.&lt;ref name="test"&gt;[http://www.example.org Henvisningstekst], yderligere tekst.&lt;/ref&gt;',
@@ -5235,8 +5235,8 @@ Möchtest du daraus einen internen Link machen?',
 	'wikieditor-toolbar-tool-subscript-example' => 'Tiefgestellter Text',
 	'wikieditor-toolbar-group-insert' => 'Einfügen',
 	'wikieditor-toolbar-tool-gallery' => 'Bildergalerie',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Beispiel.jpg|Beschreibung1
-{{ns:file}}:Beispiel.jpg|Beschreibung2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Beispiel.jpg|Beschreibung1
+$1:Beispiel.jpg|Beschreibung2',
 	'wikieditor-toolbar-tool-newline' => 'Neue Zeile',
 	'wikieditor-toolbar-tool-table' => 'Tabelle',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -5342,7 +5342,7 @@ Möchtest du daraus einen internen Link machen?',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Listeneintrag<br /># Listeneintrag',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Listeneintrag</li><li>Listeneintrag</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Eingebettete Datei',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Beispiel.png|thumb|Beschreibung]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Beispiel.png|thumb|Beschreibung]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Beschreibung' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Vergrößern' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Beschreibung</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Beleg',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Seitentext.&lt;ref name="test"&gt;[http://www.beispiel.org Linktext], zusätzlicher Text.&lt;/ref&gt;',
@@ -5485,8 +5485,8 @@ $messages['diq'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'metnê simgeya cêrıni',
 	'wikieditor-toolbar-group-insert' => 'têare ker',
 	'wikieditor-toolbar-tool-gallery' => 'galeriya resmi',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:misal.jpg|nuşteyê resmi1
-{{ns:file}}:misal.jpg|nuşteyê resmi2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:misal.jpg|nuşteyê resmi1
+$1:misal.jpg|nuşteyê resmi2',
 	'wikieditor-toolbar-tool-newline' => 'satıro newe',
 	'wikieditor-toolbar-tool-table' => 'Tablo',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -5589,7 +5589,7 @@ $messages['diq'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# unsurê listeyi<br /># unsurê listeyi',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>unsurê listeyi</li><li>unsurê listeyi</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'dosyaya weradaye/nımıte',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Nuşteyê resîmî]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Nuşteyê resîmî]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>metnê resmi</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'çıme/referans',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'metnê peli.&lt;ref name="tesel kerdış/cerebnayiş"&gt;[http://www.misal.org metnê gıreyi], zeylê metni.&lt;/ref&gt;',
@@ -5716,8 +5716,8 @@ Coš jen do internego wótkaza psétwóriś?',
 	'wikieditor-toolbar-tool-subscript-example' => 'Dłymoko stajony tekst',
 	'wikieditor-toolbar-group-insert' => 'Zasunuś',
 	'wikieditor-toolbar-tool-gallery' => 'Wobrazowa galerija',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Pśikład.jpg|Pópisanje1
-{{ns:file}}:Pśikład.jpg|Pópisanje2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Pśikład.jpg|Pópisanje1
+$1:Pśikład.jpg|Pópisanje2',
 	'wikieditor-toolbar-tool-newline' => 'Nowa smužka',
 	'wikieditor-toolbar-tool-table' => 'Tabela',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -5823,7 +5823,7 @@ Coš jen do internego wótkaza psétwóriś?',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Lisćinowy zapisk<br /># Lisćinowy zapisk',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Lisćinowy zapisk</li><li>Lisćinowy zapisk</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Zasajźona dataja',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Wobrazowe pópisanje]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Wobrazowe pópisanje]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Wobrazowe pópisanje' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Powětšyś' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Wobrazowe pópisanje</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referenca',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Tekst boka.&lt;ref name="test"&gt;[http://www.example.org Tekst wótkaza], pśidatny tekst.&lt;/ref&gt;',
@@ -5956,8 +5956,8 @@ $messages['el'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Κείμενο-δείκτης',
 	'wikieditor-toolbar-group-insert' => 'Εισαγωγή',
 	'wikieditor-toolbar-tool-gallery' => 'Συλλογή εικόνων',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Λεζάντα1
-{{ns:file}}:Example.jpg|Λεζάντα2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Λεζάντα1
+$1:Example.jpg|Λεζάντα2',
 	'wikieditor-toolbar-tool-newline' => 'Νέα γραμμή',
 	'wikieditor-toolbar-tool-table' => 'Πίνακας',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -6063,7 +6063,7 @@ $messages['el'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Αντικείμενο της λίστας<br /># Αντικείμενο της λίστας',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Στοιχείο λίστας</li><li>Στοιχείο λίστας</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Ενσωματωμένο αρχείο',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Κείμενο περιγραφής]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Κείμενο περιγραφής]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Κείμενο τίτλων' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Κείμενο τίτλων</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Παραπομπή',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Κείμενο σελίδας.&lt;ref name="test"&gt;[http://www.example.org Κείμενο συνδέσμου], επιπλέον κείμενο.&lt;/ref&gt;',
@@ -6195,8 +6195,8 @@ $messages['eo'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Malalta skribo',
 	'wikieditor-toolbar-group-insert' => 'Enmeti',
 	'wikieditor-toolbar-tool-gallery' => 'Bilda galerio',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Ekzemplo.jpg|Teksto1 pri dosiero
-{{ns:file}}:Ekzemplo.jpg|Teksto2 pri dosiero',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Ekzemplo.jpg|Teksto1 pri dosiero
+$1:Ekzemplo.jpg|Teksto2 pri dosiero',
 	'wikieditor-toolbar-tool-newline' => 'Nova linio',
 	'wikieditor-toolbar-tool-table' => 'Tabelo',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -6302,7 +6302,7 @@ $messages['eo'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Listero<br /># Listero',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Listero</li><li>Listero</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Enmetita dosiero',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Teksto pri dosiero]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Teksto pri dosiero]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Pligrandigi' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Teksto pri dosiero</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Piednoto',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Paĝa teksto.&lt;ref name="test"&gt;[http://www.ekzemplo.org Ligila teksto], aldona teksto.&lt;/ref&gt;',
@@ -6437,8 +6437,8 @@ $messages['es'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Texto suscrito',
 	'wikieditor-toolbar-group-insert' => 'Insertar',
 	'wikieditor-toolbar-tool-gallery' => 'Galería de fotos',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Ejemplo.jpg|Descripción1
-{{ns:file}}:Ejemplo.jpg|Descripción2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Ejemplo.jpg|Descripción1
+$1:Ejemplo.jpg|Descripción2',
 	'wikieditor-toolbar-tool-newline' => 'Nueva línea',
 	'wikieditor-toolbar-tool-table' => 'Tabla',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -6544,7 +6544,7 @@ $messages['es'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Listar item<br /># Listar item',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Listar item</li><li>Listar item</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Archivo empotrado',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Ejemplo.png|thumb|Leyenda de texto]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Ejemplo.png|thumb|Leyenda de texto]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Texto leyenda</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referencia',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Texto de página.&lt;ref name="test"&gt;[http://www.example.org Texto de vínculo], texto adicional.&lt;/ref&gt;',
@@ -6668,8 +6668,8 @@ Kas soovid sellest siselingi teha?',
 	'wikieditor-toolbar-tool-subscript-example' => 'Tekst allindeksina',
 	'wikieditor-toolbar-group-insert' => 'Lisa',
 	'wikieditor-toolbar-tool-gallery' => 'Pildigalerii',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Näide.jpg|Pildiallkiri1
-{{ns:file}}:Näide.jpg|Pildiallkiri2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Näide.jpg|Pildiallkiri1
+$1:Näide.jpg|Pildiallkiri2',
 	'wikieditor-toolbar-tool-newline' => 'Uus rida',
 	'wikieditor-toolbar-tool-table' => 'Tabel',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -6773,7 +6773,7 @@ Kas soovid sellest siselingi teha?',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Loendi liige<br /># Loendi liige',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Loendi liige</li><li>Loendi liige</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Manusfail',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Näide.png|thumb|Pildiallkiri.]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Näide.png|thumb|Pildiallkiri.]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Pildiallkiri' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Suurenda' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Pildiallkiri</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Viide',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Lehekülje tekst.&lt;ref name="test"&gt;[http://www.näide.ee Lingi tekst], täiendav tekst.&lt;/ref&gt;',
@@ -6903,8 +6903,8 @@ Barne lotura bezala sortu nahi duzu?',
 	'wikieditor-toolbar-tool-subscript-example' => 'Azpiindizearen testua',
 	'wikieditor-toolbar-group-insert' => 'Txertatu',
 	'wikieditor-toolbar-tool-gallery' => 'Irudi galeria',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Adibidea.jpg|Oina1
-{{ns:file}}:Adibidea.jpg|Oina2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Adibidea.jpg|Oina1
+$1:Adibidea.jpg|Oina2',
 	'wikieditor-toolbar-tool-newline' => 'Lerro berria',
 	'wikieditor-toolbar-tool-table' => 'Taula',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -7010,7 +7010,7 @@ Barne lotura bezala sortu nahi duzu?',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Zerrendako elementua<br /># Zerrendako elementua',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Zerrendako elementua</li><li>Zerrendako elementua</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Fitxategia txertatu',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Adibidea.png|thumb|Irudi oina]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Adibidea.png|thumb|Irudi oina]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Irudiaren testua' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Handitu' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Irudi oina</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Erreferentzia',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Orrialdearen testua.&lt;ref name="proba"&gt;[http://www.adibidea.org Loturaren testua], testu gehigarria.&lt;/ref&gt;',
@@ -7138,8 +7138,8 @@ $messages['fa'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'متن زیرنویس',
 	'wikieditor-toolbar-group-insert' => 'اضافه کردن',
 	'wikieditor-toolbar-tool-gallery' => 'نگارخانهٔ تصویر',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:مثال.jpg|عنوان ۱
-{{ns:file}}:مثال.jpg|عنوان ۲',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:مثال.jpg|عنوان ۱
+$1:مثال.jpg|عنوان ۲',
 	'wikieditor-toolbar-tool-newline' => 'خط جدید',
 	'wikieditor-toolbar-tool-table' => 'جدول',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -7245,7 +7245,7 @@ $messages['fa'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# مورد فهرست<br /># مورد فهرست',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>مورد فهرست</li><li>مورد فهرست</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'پرونده جاسازی‌شده',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:مثال.png|thumb|متن عنوان]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:مثال.png|thumb|متن عنوان]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='متن عنوان' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='بزرگ‌نمایی' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>متن عنوان</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'منبع',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'متن صفحه.&lt;ref name="test"&gt;[http://www.example.org متن پیوند]، متن اضافی.&lt;/ref&gt;',
@@ -7376,8 +7376,8 @@ Haluatko tehdä siitä sisäisen linkin?',
 	'wikieditor-toolbar-tool-subscript-example' => 'Alaindeksin teksti',
 	'wikieditor-toolbar-group-insert' => 'Lisää',
 	'wikieditor-toolbar-tool-gallery' => 'Kuvagalleria',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Esimerkki.jpg|Kuvateksti1
-{{ns:file}}:Esimerkki.jpg|Kuvateksti2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Esimerkki.jpg|Kuvateksti1
+$1:Esimerkki.jpg|Kuvateksti2',
 	'wikieditor-toolbar-tool-newline' => 'Uusi rivi',
 	'wikieditor-toolbar-tool-table' => 'Taulukko',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -7483,7 +7483,7 @@ Haluatko tehdä siitä sisäisen linkin?',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Luettelon kohta<br /># Luettelon kohta',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Luettelon kohta</li><li>Luettelon kohta</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Tallennettu tiedosto',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Esimerkki.png|thumb|Kuvateksti]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Esimerkki.png|thumb|Kuvateksti]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Kuvateksti' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Suurenna' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Kuvateksti</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Viite',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Sivun teksti.&lt;ref name="testi"&gt;[http://www.example.org Linkin teksti], lisäteksti.&lt;/ref&gt;',
@@ -7616,8 +7616,8 @@ Voulez-vous utiliser un lien interne à la place ?',
 	'wikieditor-toolbar-tool-subscript-example' => 'Texte en indice',
 	'wikieditor-toolbar-group-insert' => 'Insérer',
 	'wikieditor-toolbar-tool-gallery' => 'Galerie de fichiers',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Exemple.jpg|Description 1
-{{ns:file}}:Exemple.jpg|Description 2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Exemple.jpg|Description 1
+$1:Exemple.jpg|Description 2',
 	'wikieditor-toolbar-tool-newline' => 'Saut de ligne',
 	'wikieditor-toolbar-tool-table' => 'Tableau',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -7723,7 +7723,7 @@ Voulez-vous utiliser un lien interne à la place ?',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Élément de la liste<br /># Élément de la liste',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Élément de la liste</li><li>Élément de la liste</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Fichier inséré',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Exemple.png|thumb|Texte affiché]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Exemple.png|thumb|Texte affiché]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Texte affiché' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Texte affiché</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Référence',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Texte de la page&lt;ref name="test"&gt;[http://www.example.org texte du lien], texte additionnel.&lt;/ref&gt;',
@@ -7850,8 +7850,8 @@ Voléd-vos utilisar un lim de dedens a la place ?',
 	'wikieditor-toolbar-tool-subscript-example' => 'Tèxto en segno',
 	'wikieditor-toolbar-group-insert' => 'Entrebetar',
 	'wikieditor-toolbar-tool-gallery' => 'Galerie d’émâges',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Ègzemplo.jpg|Dèscripcion 1
-{{ns:file}}:Ègzemplo.jpg|Dèscripcion 2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Ègzemplo.jpg|Dèscripcion 1
+$1:Ègzemplo.jpg|Dèscripcion 2',
 	'wikieditor-toolbar-tool-newline' => 'Sôt de legne',
 	'wikieditor-toolbar-tool-table' => 'Tablô',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -7957,7 +7957,7 @@ Voléd-vos utilisar un lim de dedens a la place ?',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Èlèment de la lista<br /># Èlèment de la lista',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Èlèment de la lista</li><li>Èlèment de la lista</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Fichiér entrebetâ',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Ègzemplo.png|thumb|Tèxto montrâ]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Ègzemplo.png|thumb|Tèxto montrâ]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Tèxto montrâ' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Agrantir' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Tèxto montrâ</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Refèrence',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Tèxto de la pâge.&lt;ref name="test"&gt;[http://www.example.org tèxto du lim], tèxto de ples.&lt;/ref&gt;',
@@ -8111,8 +8111,8 @@ A bheil thu airson ceangal am broinn na làraich a dhèanamh dheth?',
 	'wikieditor-toolbar-tool-subscript-example' => 'Teacsa fo-sgrìobhte',
 	'wikieditor-toolbar-group-insert' => 'Cuir a-steach',
 	'wikieditor-toolbar-tool-gallery' => 'Gailearaidh nan dealbh',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Ballsampaill.jpg|Mìneachadh an deilbh1
-{{ns:file}}:Ballsampaill.jpg|Mìneachadh an deilbh2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Ballsampaill.jpg|Mìneachadh an deilbh1
+$1:Ballsampaill.jpg|Mìneachadh an deilbh2',
 	'wikieditor-toolbar-tool-newline' => 'Loidhne ùr',
 	'wikieditor-toolbar-tool-table' => 'Clàr',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -8215,7 +8215,7 @@ A bheil thu airson ceangal am broinn na làraich a dhèanamh dheth?',
 	'wikieditor-toolbar-help-content-olist-syntax' => '* Ball na liosta<br />* Ball na liosta',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Ball na liosta</li><li>Ball na liosta</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Embedded file',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Ballsampaill.png|thumb|Mìneachadh an deilbh]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Ballsampaill.png|thumb|Mìneachadh an deilbh]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Mìneachadh an deilbht' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Meudaich' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Mìneachadh an deilbh</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Iomradh',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Teacsa na duilleige.&lt;ref name="test"&gt;[http://www.ballsampaill.org Teacsa a\' cheangail], teacsa eile.&lt;/ref&gt;',
@@ -8342,8 +8342,8 @@ Quere converter ese enderezo nunha ligazón interna?',
 	'wikieditor-toolbar-tool-subscript-example' => 'Texto de subíndice',
 	'wikieditor-toolbar-group-insert' => 'Inserir',
 	'wikieditor-toolbar-tool-gallery' => 'Galería de imaxes',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Pé_de_foto_1
-{{ns:file}}:Example.jpg|Pé_de_foto_2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Pé_de_foto_1
+$1:Example.jpg|Pé_de_foto_2',
 	'wikieditor-toolbar-tool-newline' => 'Nova liña',
 	'wikieditor-toolbar-tool-table' => 'Táboa',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -8449,7 +8449,7 @@ Quere converter ese enderezo nunha ligazón interna?',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Elemento da lista<br /># Elemento da lista',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Elemento da lista</li><li>Elemento da lista</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Ficheiro embelecido',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Pé de foto.]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Pé de foto.]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Pé de foto' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Ampliar' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Pé de foto.</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referencia',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Texto da páxina&lt;ref name="test"&gt;[http://www.example.org Texto da ligazón], texto adicional.&lt;/ref&gt;.',
@@ -8667,8 +8667,8 @@ Wettsch e intärn Gleich setze?',
 	'wikieditor-toolbar-tool-subscript-example' => 'Untergsetzte Tekscht',
 	'wikieditor-toolbar-group-insert' => 'Yyfiege',
 	'wikieditor-toolbar-tool-gallery' => 'Bildergallerii',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Byschpil.jpg|Bschriftig1
-{{ns:file}}:Byschpil.jpg|Bschriftig2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Byschpil.jpg|Bschriftig1
+$1:Byschpil.jpg|Bschriftig2',
 	'wikieditor-toolbar-tool-newline' => 'Neji Zeile',
 	'wikieditor-toolbar-tool-table' => 'Tabälle',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -8774,7 +8774,7 @@ Wettsch e intärn Gleich setze?',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Lischtepunkt<br /># Lischtepunkt',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Lischtepunkt</li><li>Lischtepunkt</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Yygfiegti Datei',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Bildbschriftig]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Bildbschriftig]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Bildbschriftig' class='image' href='/wiki/Datei:Wiki.png'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='Bschriftig'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Bildbschriftig</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Quälle',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Sytetekscht.&lt;ref name="test"&gt;[http://www.byschpil.org Gleichtekscht], zuesätzlige Tekscht.&lt;/ref&gt;',
@@ -8897,8 +8897,8 @@ By vie lhiat jannoo kiangley çheusthie jeh?",
 	'wikieditor-toolbar-tool-subscript-example' => 'Teks fo-screeuit',
 	'wikieditor-toolbar-group-insert' => 'Cur stiagh',
 	'wikieditor-toolbar-tool-gallery' => 'Galleree jallooyn',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Fo-heidyl1
-{{ns:file}}:Example.jpg|Fo-heidyl2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Fo-heidyl1
+$1:Example.jpg|Fo-heidyl2',
 	'wikieditor-toolbar-tool-newline' => 'Linney noa',
 	'wikieditor-toolbar-tool-table' => 'Taabyl',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -9004,7 +9004,7 @@ By vie lhiat jannoo kiangley çheusthie jeh?",
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Meer rolley<br /># Meer rolley',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Meer rolley</li><li>Meer rolley</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Coadan jingit',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Teks fo-heidyl]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Teks fo-heidyl]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Teks fo-heidyl' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Mooadaghey' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Teks fo-heidyl</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Imraa',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Teks duillag.&lt;ref name="test"&gt;[http://www.example.org Teks kiangley], tooilley teks.&lt;/ref&gt;',
@@ -9147,8 +9147,8 @@ $messages['he'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'טקסט מונמך',
 	'wikieditor-toolbar-group-insert' => 'הוספה',
 	'wikieditor-toolbar-tool-gallery' => 'גלריית תמונות',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:דוגמה.jpg|כותרת 1
-{{ns:file}}:דוגמה.jpg|כותרת 2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:דוגמה.jpg|כותרת 1
+$1:דוגמה.jpg|כותרת 2',
 	'wikieditor-toolbar-tool-newline' => 'שורה חדשה',
 	'wikieditor-toolbar-tool-table' => 'טבלה',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -9254,7 +9254,7 @@ $messages['he'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# פריט רשימה<br /># פריט רשימה',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>פריט רשימה</li><li>פריט רשימה</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'קובץ המוצג בדף',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|טקסט הכותרת]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|טקסט הכותרת]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='טקסט הכותרת' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>טקסט הכותרת</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'הערת שוליים',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'טקסט הדף.&lt;ref name="test"&gt;[http://www.example.org טקסט הקישור], טקסט נוסף.&lt;/ref&gt;',
@@ -9390,8 +9390,8 @@ $messages['hr'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Tekst indeksa',
 	'wikieditor-toolbar-group-insert' => 'Uloži',
 	'wikieditor-toolbar-tool-gallery' => 'Galerija slika',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Primjer.jpg|Opis1
-{{ns:file}}:Primjer.jpg|Opis2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Primjer.jpg|Opis1
+$1:Primjer.jpg|Opis2',
 	'wikieditor-toolbar-tool-newline' => 'Novi redak',
 	'wikieditor-toolbar-tool-table' => 'Tablica',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -9497,7 +9497,7 @@ $messages['hr'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# stavka popisa<br /># stavka popisa',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>stavka popisa</li><li>stavka popisa</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Uložena datoteka',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Tekst opisa]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Tekst opisa]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Tekst opisa' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Povećaj' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Tekst opisa'</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Bilješke',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Tekst stranice.&lt;ref name="test"&gt;[http://www.primjer.org Tekst poveznice], dodatni tekst.&lt;/ref&gt;',
@@ -9624,8 +9624,8 @@ Chceš jón do interneho wotkaza přetworić?',
 	'wikieditor-toolbar-tool-subscript-example' => 'Hłuboko stajeny tekst',
 	'wikieditor-toolbar-group-insert' => 'Zasunyć',
 	'wikieditor-toolbar-tool-gallery' => 'Wobrazowa galerija',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Popis1
-{{ns:file}}:Example.jpg|Popis2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Popis1
+$1:Example.jpg|Popis2',
 	'wikieditor-toolbar-tool-newline' => 'Nowa linka',
 	'wikieditor-toolbar-tool-table' => 'Tabela',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -9731,7 +9731,7 @@ Chceš jón do interneho wotkaza přetworić?',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Lisćinowy zapisk<br /># Lisćinowy zapisk',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Lisćinowy zapisk</li><li>Lisćinowy zapisk</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Zasadźena dataja',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Tekst wobrazoweho popisa]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Tekst wobrazoweho popisa]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Tekst wobrazeho popisa' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Powjetšić' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Tekst wobrazoweho popisa</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referenca',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Tekst strony.&lt;ref name="test"&gt;[http://www.example.org tekst wotkaza], přidatny tekst.&lt;/ref&gt;',
@@ -9862,8 +9862,8 @@ Szeretnéd belső hivatkozássá alakítani?',
 	'wikieditor-toolbar-tool-subscript-example' => 'Alsó index szövege',
 	'wikieditor-toolbar-group-insert' => 'Beszúrás',
 	'wikieditor-toolbar-tool-gallery' => 'Képgaléria',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Példa.jpg|képaláírás1
-{{ns:file}}:Példa.jpg|képaláírás2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Példa.jpg|képaláírás1
+$1:Példa.jpg|képaláírás2',
 	'wikieditor-toolbar-tool-newline' => 'Új sor',
 	'wikieditor-toolbar-tool-table' => 'Táblázat',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -9969,7 +9969,7 @@ Szeretnéd belső hivatkozássá alakítani?',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Listaelem<br /># Listaelem',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Listaelem</li><li>Listaelem</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Beszúrt fájl',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|bélyegkép|Képaláírás]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|bélyegkép|Képaláírás]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='A kép nagyítása' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Képaláírás</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Forráshivatkozás',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Lap szövege.&lt;ref name="test"&gt;[http://www.példaoldal.hu Hivatkozás szövege], további szöveg.&lt;/ref&gt;',
@@ -10082,8 +10082,8 @@ $messages['hy'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Ենթատողային տեքստ',
 	'wikieditor-toolbar-group-insert' => 'Ավելացնել',
 	'wikieditor-toolbar-tool-gallery' => 'Պատկերասրահ',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Նկարագրություն1
-{{ns:file}}:Example.jpg|Նկարագրություն2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Նկարագրություն1
+$1:Example.jpg|Նկարագրություն2',
 	'wikieditor-toolbar-tool-newline' => 'Նոր տող',
 	'wikieditor-toolbar-tool-table' => 'Աղյուսակ',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -10185,7 +10185,7 @@ $messages['hy'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Ցանկի տարր<br /># Ցանկի տարր',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Ցանկի տարր</li><li>Ցանկի տարր</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Ներդրված ֆայլ',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Նկարագրություն]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Նկարագրություն]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Նկարագրություն' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Ընդարձակել' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Նկարագրություն</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Ծանոթագրություն',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Տեքստ էջում&lt;ref name="test"&gt;[http://www.example.org Հղման տեքստ], հավելյալ տեքստ։&lt;/ref&gt;։',
@@ -10312,8 +10312,8 @@ Vole tu facer lo un ligamine interne?',
 	'wikieditor-toolbar-tool-subscript-example' => 'Texto in subscripto',
 	'wikieditor-toolbar-group-insert' => 'Inserer',
 	'wikieditor-toolbar-tool-gallery' => 'Galeria de imagines',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Exemplo.jpg|Legenda1
-{{ns:file}}:Exemplo.jpg|Legenda2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Exemplo.jpg|Legenda1
+$1:Exemplo.jpg|Legenda2',
 	'wikieditor-toolbar-tool-newline' => 'Nove linea',
 	'wikieditor-toolbar-tool-table' => 'Tabella',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -10419,7 +10419,7 @@ Vole tu facer lo un ligamine interne?',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Elemento del lista<br /># Elemento del lista',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Elemento del lista</li><li>Elemento del lista</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'File incastrate',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Exemplo.png|thumb|Texto del legenda]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Exemplo.png|thumb|Texto del legenda]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Texto del legenda' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Texto del legenda</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referentia',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Texto del pagina.&lt;ref name="test"&gt;[http://www.example.org Texto del ligamine], texto additional.&lt;/ref&gt;',
@@ -10550,8 +10550,8 @@ Apakah Anda ingin membuatnya menjadi pranala internal?',
 	'wikieditor-toolbar-tool-subscript-example' => 'Teks subscript',
 	'wikieditor-toolbar-group-insert' => 'Masukkan',
 	'wikieditor-toolbar-tool-gallery' => 'Galeri gambar',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Contoh.jpg|Judul1
-{{ns:file}}:Contoh.jpg|Judul2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Contoh.jpg|Judul1
+$1:Contoh.jpg|Judul2',
 	'wikieditor-toolbar-tool-newline' => 'Baris baru',
 	'wikieditor-toolbar-tool-table' => 'Tabel',
 	'wikieditor-toolbar-tool-table-example-old' => '	-
@@ -10657,7 +10657,7 @@ Apakah Anda ingin membuatnya menjadi pranala internal?',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Isi daftar<br /># Isi daftar',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Isi daftar</li><li>Isi daftar</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Menyisipkan berkas',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Contoh.png|thumb|Teks judul gambar]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Contoh.png|thumb|Teks judul gambar]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Teks judul gambar' class='image' href='/wiki/Berkas:Wiki.png'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Perbesar' class='internal' href='/wiki/Berkas:Wiki.png'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Teks judul gambar</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referensi',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Teks halaman.&lt;ref name="test"&gt;[http://www.contoh.org Teks pranala], teks tambahan.&lt;/ref&gt;',
@@ -11060,8 +11060,8 @@ Vuoi che sia un link interno?",
 	'wikieditor-toolbar-tool-subscript-example' => 'Testo in pedice',
 	'wikieditor-toolbar-group-insert' => 'Inserisci',
 	'wikieditor-toolbar-tool-gallery' => 'Galleria di immagini',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Esempio.jpg|Didascalia1
-{{ns:file}}:Esempio.jpg|Didascalia2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Esempio.jpg|Didascalia1
+$1:Esempio.jpg|Didascalia2',
 	'wikieditor-toolbar-tool-newline' => 'Nuova riga',
 	'wikieditor-toolbar-tool-table' => 'Tabella',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -11167,7 +11167,7 @@ Vuoi che sia un link interno?",
 	'wikieditor-toolbar-help-content-olist-syntax' => "# Elemento dell'elenco<br /># Elemento dell'elenco",
 	'wikieditor-toolbar-help-content-olist-result' => "<ol><li>Elemento dell'elenco</li><li>Elemento dell'elenco</li></ol>",
 	'wikieditor-toolbar-help-content-file-description' => 'File incorporato',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Esempio.png|thumb|Testo della didascalia]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Esempio.png|thumb|Testo della didascalia]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Testo della didascalia</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Nota',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Testo della pagina.&lt;ref name="test"&gt;[http://www.example.org Testo del collegamento], testo aggiuntivo.&lt;/ref&gt;',
@@ -11297,8 +11297,8 @@ $messages['ja'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => '下付き文字',
 	'wikieditor-toolbar-group-insert' => '挿入',
 	'wikieditor-toolbar-tool-gallery' => '画像ギャラリー',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|キャプション1
-{{ns:file}}:Example.jpg|キャプション2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|キャプション1
+$1:Example.jpg|キャプション2',
 	'wikieditor-toolbar-tool-newline' => '改行',
 	'wikieditor-toolbar-tool-table' => '表',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -11404,7 +11404,7 @@ $messages['ja'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# 箇条書き項目<br /># 箇条書き項目',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>箇条書き項目</li><li>箇条書き項目</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => '埋め込みファイル',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|キャプション]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|キャプション]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='キャプション' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>キャプション</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => '注釈',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'ページ本文&lt;ref name="test"&gt;[http://www.example.org リンクタイトル]、追加テキスト&lt;/ref&gt;。',
@@ -11550,8 +11550,8 @@ $messages['ka'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'ქვეხაზური ტექსტი',
 	'wikieditor-toolbar-group-insert' => 'ჩასმა',
 	'wikieditor-toolbar-tool-gallery' => 'გამოსახულებათა გალერეა',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|აღწერა1
-{{ns:file}}:Example.jpg|აღწერა2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|აღწერა1
+$1:Example.jpg|აღწერა2',
 	'wikieditor-toolbar-tool-newline' => 'ახალი ხაზი',
 	'wikieditor-toolbar-tool-table' => 'ტაბულა',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -11657,7 +11657,7 @@ $messages['ka'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '#სიის ელემენტი<br /># სიის ელემენტი',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>სიის ელემენტი</li><li>სიის ელემენტი</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'ჩასმული ფაილი',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|წარწერის ტექსტი]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|წარწერის ტექსტი]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='წარწერის ტექსტი' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>წარწერის ტექსტი</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'მინიშნება',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'გვერდის ტექსტი&lt;ref name="test"&gt;[http://www.example.org ბმულის ტექსტი], დამატებითი ტექსტი.&lt;/ref&gt;.',
@@ -11780,9 +11780,9 @@ $messages['km'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'ឃ្លាជាសន្ទស្សន៍',
 	'wikieditor-toolbar-group-insert' => 'បញ្ជូល',
 	'wikieditor-toolbar-tool-gallery' => 'វិចិត្រសាលរូបភាព',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:ឧទាហរណ៍.jpg|ចំនងជើងក្រោមរូបភាព១
+	'wikieditor-toolbar-tool-gallery-example' => '$1:ឧទាហរណ៍.jpg|ចំនងជើងក្រោមរូបភាព១
 
-{{ns:file}}:ឧទាហរណ៍.jpg|ចំនងជើងក្រោមរូបភាព២',
+$1:ឧទាហរណ៍.jpg|ចំនងជើងក្រោមរូបភាព២',
 	'wikieditor-toolbar-tool-newline' => 'ចុះបន្ទាត់',
 	'wikieditor-toolbar-tool-table' => 'តារាង',
 	'wikieditor-toolbar-tool-table-example-old' => '↓ -
@@ -11881,7 +11881,7 @@ $messages['km'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# ធាតុរបស់បញ្ជី<br /># ធាតុរបស់បញ្ចី',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>ធាតុរបស់បញ្ជី</li><li>ធាតុរបស់បញ្ជី</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'រូបភាពបង្កប់',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:ឧទាហរណ៍.png|thumb|កូនចំនងជើងក្រោមរូបភាព]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:ឧទាហរណ៍.png|thumb|កូនចំនងជើងក្រោមរូបភាព]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='ចំណងជើងក្រោមរូបភាព' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='ពង្រីក' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>ចំណងជើងក្រោមរូបភាព</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'ឯកសារ​យោង​',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'អត្ថបទ​ទំព័រ​.&lt;ref name="test"&gt;[http://www.example.org តំណ​ភ្ជាប់], អក្សរ​បន្ថែម​.&lt;/ref&gt;',
@@ -12035,8 +12035,8 @@ $messages['ko'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => '아래 첨자',
 	'wikieditor-toolbar-group-insert' => '추가',
 	'wikieditor-toolbar-tool-gallery' => '화랑',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|설명1
-{{ns:file}}:Example.jpg|설명2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|설명1
+$1:Example.jpg|설명2',
 	'wikieditor-toolbar-tool-newline' => '새 줄',
 	'wikieditor-toolbar-tool-table' => '표',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -12143,7 +12143,7 @@ $messages['ko'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# 목록 항목<br /># 목록 항목',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>목록 항목</li><li>목록 항목</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => '파일 넣기',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|그림 설명]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|그림 설명]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='실제 크기로' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>그림 설명</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => '출처',
 	'wikieditor-toolbar-help-content-reference-syntax' => '문서 내용.&lt;ref name="test"&gt;[http://www.example.org 링크 제목], 기타 설명.&lt;/ref&gt;',
@@ -12267,8 +12267,8 @@ $messages['krc'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Тизгин тюбю текст',
 	'wikieditor-toolbar-group-insert' => 'Къош',
 	'wikieditor-toolbar-tool-gallery' => 'Суратланы галереясы',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Юлгю.jpg|Ангылатыу1
-{{ns:file}}:Юлгю.jpg|Ангылатыу2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Юлгю.jpg|Ангылатыу1
+$1:Юлгю.jpg|Ангылатыу2',
 	'wikieditor-toolbar-tool-newline' => 'Джангы тизгин',
 	'wikieditor-toolbar-tool-table' => 'Таблица',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -12374,7 +12374,7 @@ $messages['krc'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Списокну элементи<br /># Списокну элементи',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Списокну элементи</li><li>Списокну элементи</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Эндирилген файл',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Ачыкълау текст]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Ачыкълау текст]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='
 Ачыкълау текст' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Уллайт' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>
 Ачыкълау текст</div></div>",
@@ -12489,8 +12489,8 @@ $messages['ksh'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'En deef, noh unge, jeschtallte Schreff jeschrevve',
 	'wikieditor-toolbar-group-insert' => 'Erin donn:',
 	'wikieditor-toolbar-tool-gallery' => 'Jallerih met Belldscher',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Beishpell.jpg|eezte Beld-Täx
-{{ns:file}}:Beishpell.jpg|zweijte Beld-Täx',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Beishpell.jpg|eezte Beld-Täx
+$1:Beishpell.jpg|zweijte Beld-Täx',
 	'wikieditor-toolbar-tool-newline' => 'Neu Reih',
 	'wikieditor-toolbar-tool-table' => 'Tabäll',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -12591,7 +12591,7 @@ $messages['ksh'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Enndraach en de Leß<br /># Enndraach en de Leß',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Enndraach en de Leß</li><li>Enndraach en de Leß</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Enjeföösch Dattei',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Beld_Ungerschreff]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Beld_Ungerschreff]]',
 	'wikieditor-toolbar-help-content-file-result' => '<div style="width:104px;" class="thumbinner"><a title="Schreff unger dä Beld" class="image" href="/wiki/File:Wiki.png"><img height="50" width="100" border="0" class="thumbimage" src="extensions/WikiEditor/modules/images/toolbar/example-image.png" alt=""/></a><div class="thumbcaption"><div class="magnify"><a title="Enlarge" class="internal" href="/wiki/File:Wiki.png"><img height="11" width="15" alt="" src="$1/common/images/magnify-clip.png"/></a></div>Schreff unger dä Beld</div></div>',
 	'wikieditor-toolbar-help-content-reference-description' => 'Fohßnoht',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Tex en dä Sigg. &lt;ref name="versoht"&gt;[http://www.example.org Täx för dä Lengk], un noch jät mieh Täx.&lt;/ref&gt;',
@@ -12797,8 +12797,8 @@ $messages['la'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Textus subscriptus',
 	'wikieditor-toolbar-group-insert' => 'Inserere',
 	'wikieditor-toolbar-tool-gallery' => 'Pinacotheca',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Exemplum.jpg|Descriptio 1
-{{ns:file}}:Exemplum.jpg|Descriptio 2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Exemplum.jpg|Descriptio 1
+$1:Exemplum.jpg|Descriptio 2',
 	'wikieditor-toolbar-tool-newline' => 'Nova linea',
 	'wikieditor-toolbar-tool-table' => 'Tabula',
 	'wikieditor-toolbar-section-characters' => 'Characteres speciales',
@@ -12834,7 +12834,7 @@ $messages['la'] = array(
 	'wikieditor-toolbar-help-content-xlink-syntax' => '[http://www.example.org Titulus nexus]<br />[http://www.example.org]<br />http://www.example.org',
 	'wikieditor-toolbar-help-content-xlink-result' => "<a href='#' class='external'>Titulus nexus</a><br /><a href='#' class='external autonumber'>[1]</a><br /><a href='#' class='external'>http://www.example.org</a>",
 	'wikieditor-toolbar-help-content-file-description' => 'Fasciculus in pagina impositus',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Exemplum.png|thumb|Descriptio fasciculi]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Exemplum.png|thumb|Descriptio fasciculi]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Descriptio fasciculi' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Augere' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Descriptio fasciculi</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referentia bibliographica',
 	'wikieditor-toolbar-help-content-showreferences-description' => 'Referentias bibliographicas monstrare',
@@ -12952,8 +12952,8 @@ $messages['lb'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Text den am Indice steet',
 	'wikieditor-toolbar-group-insert' => 'Drasetzen',
 	'wikieditor-toolbar-tool-gallery' => 'Billergallerie',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Beschreiwung1
-{{ns:file}}:Example.jpg|Beschreiwung2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Beschreiwung1
+$1:Example.jpg|Beschreiwung2',
 	'wikieditor-toolbar-tool-newline' => 'Nei Linn',
 	'wikieditor-toolbar-tool-table' => 'Tabell',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -13067,7 +13067,7 @@ $messages['lb'] = array(
  <li>Element vun der Lëscht</li>
 </ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Agebonnene Fichier',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Ugewisenen Text]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Ugewisenen Text]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Ugewisenen Texte' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Ugewisenen Text</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referenz',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Text vun der Säit.&lt;ref name="test"&gt;[http://www.example.org Text vum Link], zousätzlechen Text.&lt;/ref&gt;',
@@ -13205,8 +13205,8 @@ Wils se d'r 'n intern verwiezing van make?",
 	'wikieditor-toolbar-tool-subscript-example' => 'Óngersjrifteks',
 	'wikieditor-toolbar-group-insert' => 'Voog in',
 	'wikieditor-toolbar-tool-gallery' => 'Beeljegalerie',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Veurbeildj1|Biesjrif1
-{{ns:file}}:Veurbeildj2|Biesjrif2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Veurbeildj1|Biesjrif1
+$1:Veurbeildj2|Biesjrif2',
 	'wikieditor-toolbar-tool-newline' => 'Nuuje regel',
 	'wikieditor-toolbar-tool-table' => 'Tabel',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -13312,7 +13312,7 @@ Wils se d'r 'n intern verwiezing van make?",
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Regel in genummerde lies<br /># Regel in genummerde lies',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Regel in genummerde lies</li><li>Regel in genummerde lies</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Mediabesjtandj',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Biesjrif]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Biesjrif]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Biesjrif' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Vergroeat' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Biesjrif</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Verwiezing',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Paginateks.&lt;ref name="test"&gt;[http://www.example.org Verwiezingsteks], biekómmendje teks.&lt;/ref&gt;',
@@ -13440,8 +13440,8 @@ $messages['lt'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Tekstas apačioje',
 	'wikieditor-toolbar-group-insert' => 'Įterpti',
 	'wikieditor-toolbar-tool-gallery' => 'Paveikslėlių galerija',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Pavyzdys.jpg|Aprašymas1
-{{ns:file}}:Pavyzdys.jpg|Aprašymas2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Pavyzdys.jpg|Aprašymas1
+$1:Pavyzdys.jpg|Aprašymas2',
 	'wikieditor-toolbar-tool-newline' => 'Nauja linija',
 	'wikieditor-toolbar-tool-table' => 'Lentelė',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -13547,7 +13547,7 @@ $messages['lt'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Sąrašo elementas<br /># Sąrašo elementas',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Sąrašo elementas</li><li>Sąrašo elementas</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Įterpti failą',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Aprašymas]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Aprašymas]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Aprašymas</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Išnaša',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Puslapio tekstas.&lt;ref name="test"&gt;[http://www.example.org Nuorodos tekstas], papildomas tekstas.&lt;/ref&gt;',
@@ -13662,8 +13662,8 @@ $messages['lv'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Apakšējā indeksa teksts',
 	'wikieditor-toolbar-group-insert' => 'Ievietot',
 	'wikieditor-toolbar-tool-gallery' => 'Attēlu galerija',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Apraksts1
-{{ns:file}}:Example.jpg|Apraksts2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Apraksts1
+$1:Example.jpg|Apraksts2',
 	'wikieditor-toolbar-tool-newline' => 'Jauna rinda',
 	'wikieditor-toolbar-tool-table' => 'Tabula',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -13766,7 +13766,7 @@ $messages['lv'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Saraksta elements<br /># Saraksta elements',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Saraksta elements</li><li>Saraksta elements</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Iekļauts fails',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Apraksts]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Apraksts]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Apraksts' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Palielināt' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Apraksts</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Atsauce',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Lapas teksts.&lt;ref name="test"&gt;[http://www.example.org Saites teksts], papildus teksts.&lt;/ref&gt;',
@@ -13901,8 +13901,8 @@ Apo awak ingin mambueknyo jadi pranala dalam?',
 	'wikieditor-toolbar-tool-subscript-example' => 'Teks ditulis di bawah',
 	'wikieditor-toolbar-group-insert' => 'Masuakkan',
 	'wikieditor-toolbar-tool-gallery' => 'Galeri gambar',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Contoh.jpg|Judul1
-{{ns:file}}:Contoh.jpg|Judul2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Contoh.jpg|Judul1
+$1:Contoh.jpg|Judul2',
 	'wikieditor-toolbar-tool-newline' => 'Barih baru',
 	'wikieditor-toolbar-tool-table' => 'Tabel',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -14008,7 +14008,7 @@ Apo awak ingin mambueknyo jadi pranala dalam?',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Senarai hal<br /># Senarai hal',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Senarai hal</li><li>Senarai hal</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Cantumkan berkas',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Contoh.png|thumb|Teks gambar]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Contoh.png|thumb|Teks gambar]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Teks gambar' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Pagadang' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Teks gambar</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Rujukan',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Teks laman.&lt;ref name="test"&gt;[http://www.example.org Teks tautan], teks tambahan.&lt;/ref&gt;',
@@ -14135,8 +14135,8 @@ $messages['mk'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Текст на долниот индекс',
 	'wikieditor-toolbar-group-insert' => 'Вметни',
 	'wikieditor-toolbar-tool-gallery' => 'Галерија',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Пример.jpg|Опис1
-{{ns:file}}:Пример.jpg|Опис2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Пример.jpg|Опис1
+$1:Пример.jpg|Опис2',
 	'wikieditor-toolbar-tool-newline' => 'Нов ред',
 	'wikieditor-toolbar-tool-table' => 'Табела',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -14242,7 +14242,7 @@ $messages['mk'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Ставка<br /># Ставка',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Ставка</li><li>Ставка</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Вметната податотека',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Описен текст]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Описен текст]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Опис' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Зголеми' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Опис</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Навод',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Текст во страницата.&lt;ref name="test"&gt;[http://www.пример.org Текст на врската], дополнителен текст.&lt;/ref&gt;',
@@ -14369,8 +14369,8 @@ $messages['ml'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'സബ്സ്ക്രിപ്റ്റ് എഴുത്ത്',
 	'wikieditor-toolbar-group-insert' => 'ഉൾപ്പെടുത്തുക',
 	'wikieditor-toolbar-tool-gallery' => 'ചിത്രശാല',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|കുറിപ്പ്1
-{{ns:file}}:Example.jpg|കുറിപ്പ്2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|കുറിപ്പ്1
+$1:Example.jpg|കുറിപ്പ്2',
 	'wikieditor-toolbar-tool-newline' => 'പുതിയ വരി',
 	'wikieditor-toolbar-tool-table' => 'പട്ടിക',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -14476,7 +14476,7 @@ $messages['ml'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '#ലിസ്റ്റിലെ അംഗം<br />#ലിസ്റ്റിലെ അംഗം',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>ലിസ്റ്റിലെ അംഗം</li><li>ലിസ്റ്റിലെ അംഗം</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'പ്രമാണം ചേർക്കൽ',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|ലഘു|വിവരണ കുറിപ്പ്]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|ലഘു|വിവരണ കുറിപ്പ്]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='കുറിപ്പായുള്ള എഴുത്ത്' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt='ലഘുചിത്രം'/></a><div class='thumbcaption'><div class='magnify'><a title='വലുതാക്കുക' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>കുറിപ്പായുള്ള എഴുത്ത്</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'അവലംബം',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'താളിലെ എഴുത്ത്.&lt;ref name="test"&gt;[http://www.example.org കണ്ണിയായുള്ള എഴുത്ത്], കൂടുതൽ എഴുത്ത്.&lt;/ref&gt;',
@@ -14614,8 +14614,8 @@ $messages['mr'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'अधोलेखन मजकूर',
 	'wikieditor-toolbar-group-insert' => 'समाविष्टकरा',
 	'wikieditor-toolbar-tool-gallery' => 'चित्रदिर्घा',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|चित्रपरिचय १
-{{ns:file}}:Example.jpg|चित्रपरिचय २',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|चित्रपरिचय १
+$1:Example.jpg|चित्रपरिचय २',
 	'wikieditor-toolbar-tool-newline' => 'नवी ओळ',
 	'wikieditor-toolbar-tool-table' => 'सारणी',
 	'wikieditor-toolbar-tool-table-example-old' => '! मथळा १
@@ -14720,7 +14720,7 @@ $messages['mr'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# यादी घटक<br /># यादी घटक',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>यादी घटक</li><li>यादी घटक</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'संलग्न संचिका',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|ईवलेसे|मथळा मजकूर]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|ईवलेसे|मथळा मजकूर]]',
 	'wikieditor-toolbar-help-content-file-result' => "↓ <div style='width:104px;' class='thumbinner'><a title='मथळा मजकूर' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Caption text</div></div>
 <div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Caption text</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'संदर्भ',
@@ -14851,8 +14851,8 @@ $messages['ms'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Teks subskrip',
 	'wikieditor-toolbar-group-insert' => 'Sisip',
 	'wikieditor-toolbar-tool-gallery' => 'Galeri gambar',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Contoh.jpg|Sari kata 1
-{{ns:file}}:Contoh.jpg|Sari kata 2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Contoh.jpg|Sari kata 1
+$1:Contoh.jpg|Sari kata 2',
 	'wikieditor-toolbar-tool-newline' => 'Baris baru',
 	'wikieditor-toolbar-tool-table' => 'Jadual',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -14960,7 +14960,7 @@ $messages['ms'] = array(
 # Perkara senarai',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Perkara senarai</li><li>Perkara senarai</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Fail terbenam',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Contoh.png|thumb|Teks judul pendek]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Contoh.png|thumb|Teks judul pendek]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Teks kapsyen' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Besarkan' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Teks kapsyen</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Rujukan',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Teks laman.&lt;ref nama="cubaan"&gt;[http://www.contoh.org Teks pautan], teks tambahan.&lt;/ref&gt;',
@@ -15085,8 +15085,8 @@ $messages['mt'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => "Test ta' indiċi ta' taħt",
 	'wikieditor-toolbar-group-insert' => 'Daħħal',
 	'wikieditor-toolbar-tool-gallery' => 'Gallerija tal-istampi',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Eżempju.jpg|Deskrizzjoni1
-{{ns:file}}:Eżempju.jpg|Deskrizzjoni2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Eżempju.jpg|Deskrizzjoni1
+$1:Eżempju.jpg|Deskrizzjoni2',
 	'wikieditor-toolbar-tool-newline' => 'Linja ġdida',
 	'wikieditor-toolbar-tool-table' => 'Tabella',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -15189,7 +15189,7 @@ $messages['mt'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Element tal-lista<br /># Element tal-lista',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Element tal-lista</li><li>Element tal-lista</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Fajl inkorporat',
-	'wikieditor-toolbar-help-content-file-syntax' => "[[{{ns:file}}:Eżempju.png|thumb|Test ta' deskrizzjoni]]",
+	'wikieditor-toolbar-help-content-file-syntax' => "[[$1:Eżempju.png|thumb|Test ta' deskrizzjoni]]",
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Test tad-deskrizzjoni' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Kabbar' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Test tad-deskrizzjoni</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referenza',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Test tal-paġna.&lt;ref name="test"&gt;[http://www.example.org Test tal-ħolqa], test addizzjonali.&lt;/ref&gt;',
@@ -15442,8 +15442,8 @@ Wi-j der een interne verwiezing van maken?",
 	'wikieditor-toolbar-tool-subscript-example' => 'Subscript tekse',
 	'wikieditor-toolbar-group-insert' => 'Derbie doon',
 	'wikieditor-toolbar-tool-gallery' => 'Foto-uutstalling',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Veurbeeld1|Bieschrifte1
-{{ns:file}}:Veurbeeld2|Bieschrifte2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Veurbeeld1|Bieschrifte1
+$1:Veurbeeld2|Bieschrifte2',
 	'wikieditor-toolbar-tool-newline' => 'Nieje regel',
 	'wikieditor-toolbar-tool-table' => 'Tebel',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -15546,7 +15546,7 @@ Wi-j der een interne verwiezing van maken?",
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Regel in een lieste mit nummers<br /># Regel in een lieste mit nummers',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Regel in een lieste mit nummers</li><li>Regel in een lieste mit nummers</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Bestaand derbie doon',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Veurbeeld.png|thumb|Beschrieving]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Veurbeeld.png|thumb|Beschrieving]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Bieschrifte' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Vergroten' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Bieschrifte</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Rifferentie',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Paginatekse.&lt;ref name="test"&gt;[http://www.example.org Beschrieving], eventuele tekse.&lt;/ref&gt;',
@@ -15676,8 +15676,8 @@ Wilt u er een interne verwijzing van maken?',
 	'wikieditor-toolbar-tool-subscript-example' => 'Tekst in subscript',
 	'wikieditor-toolbar-group-insert' => 'Invoegen',
 	'wikieditor-toolbar-tool-gallery' => 'Beeldengalerij',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Voorbeeld.jpg|Bijschrift1
-{{ns:file}}:Voorbeeld.jpg|Bijschrift2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Voorbeeld.jpg|Bijschrift1
+$1:Voorbeeld.jpg|Bijschrift2',
 	'wikieditor-toolbar-tool-newline' => 'Nieuwe regel',
 	'wikieditor-toolbar-tool-table' => 'Tabel',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -15783,7 +15783,7 @@ Wilt u er een interne verwijzing van maken?',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Regel in genummerde lijst<br /># Regel in genummerde lijst',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Regel in genummerde lijst</li><li>Regel in genummerde lijst</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Ingebed bestand',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Voorbeeld.png|thumb|Bijschrift]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Voorbeeld.png|thumb|Bijschrift]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Bijschrift' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Vergroten' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Bijschrift</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referentie',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Paginatekst.&lt;ref name="test"&gt;[http://www.example.org Verwijzingstekst], bijkomende tekst.&lt;/ref&gt;',
@@ -15909,8 +15909,8 @@ $messages['nn'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Senka skrift',
 	'wikieditor-toolbar-group-insert' => 'Set inn',
 	'wikieditor-toolbar-tool-gallery' => 'Biletgalleri',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Døme.jpg|Bilettekst1
-{{ns:file}}:Døme.jpg|Bilettekst2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Døme.jpg|Bilettekst1
+$1:Døme.jpg|Bilettekst2',
 	'wikieditor-toolbar-tool-newline' => 'Ny lina',
 	'wikieditor-toolbar-tool-table' => 'Tabell',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -16012,7 +16012,7 @@ $messages['nn'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Listeelement<br /># Listeelement',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Listeelement</li><li>Listeelement</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Fil',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Bilettekst]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Bilettekst]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Bilettekst'class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Forstørr' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Bilettekst</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referanse',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Sidetekst.&lt;ref name="test"&gt;[http://www.døme.org Lenkjetekst], ekstra lenkjetekst.&lt;/ref&gt;',
@@ -16140,8 +16140,8 @@ $messages['no'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Senket tekst',
 	'wikieditor-toolbar-group-insert' => 'Sett inn',
 	'wikieditor-toolbar-tool-gallery' => 'Bildegalleri',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Bildetekst1
-{{ns:file}}:Example.jpg|Bildetekst2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Bildetekst1
+$1:Example.jpg|Bildetekst2',
 	'wikieditor-toolbar-tool-newline' => 'Linjeskift',
 	'wikieditor-toolbar-tool-table' => 'Tabell',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -16249,7 +16249,7 @@ $messages['no'] = array(
 # Listeelement',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Listeelement</li><li>Listeelement</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Fil',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Bildetekst]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Bildetekst]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Bildetekst' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Forstørr' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Bildetekst</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referanse',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Tekst.&lt;ref name="test"&gt;[http://www.example.org Lenketekst], ytterligere tekst.&lt;/ref&gt;',
@@ -16401,8 +16401,8 @@ $messages['oc'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Tèxte en indici',
 	'wikieditor-toolbar-group-insert' => 'Inserir',
 	'wikieditor-toolbar-tool-gallery' => 'Galariá de fichièrs',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Exemple.jpg|Descripcion 1
-{{ns:file}}:Exemple.jpg|Descripcion 2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Exemple.jpg|Descripcion 1
+$1:Exemple.jpg|Descripcion 2',
 	'wikieditor-toolbar-tool-newline' => 'Saut de linha',
 	'wikieditor-toolbar-tool-table' => 'Tablèu',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -16503,7 +16503,7 @@ $messages['oc'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Element de la lista<br /># Element de la lista',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Element de la lista</li><li>Element de la lista</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Fichièr inserit',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Tèxte afichat]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Tèxte afichat]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Tèxte afichat' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Tèxte afichat</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referéncia',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Tèxte de la pagina.&lt;ref name="test"&gt;[http://www.example.org tèxte del ligam], tèxte adicional.&lt;/ref&gt;',
@@ -16703,8 +16703,8 @@ $messages['pl'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Tekst indeksu dolnego',
 	'wikieditor-toolbar-group-insert' => 'Wstaw',
 	'wikieditor-toolbar-tool-gallery' => 'Galeria obrazków',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Podpis1
-{{ns:file}}:Example.jpg|Podpis2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Podpis1
+$1:Example.jpg|Podpis2',
 	'wikieditor-toolbar-tool-newline' => 'Nowy wiersz',
 	'wikieditor-toolbar-tool-table' => 'Tabela',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -16810,7 +16810,7 @@ $messages['pl'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Pozycja listy<br /># Pozycja listy',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Pozycja listy</li><li>Pozycja listy</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Plik osadzony',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Przykład.png|thumb|Podpis pod plikiem]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Przykład.png|thumb|Podpis pod plikiem]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Tekst podpisu</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Przypis',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Treść strony&lt;ref name="test"&gt; [http://www.przyklad.org Opis linku], dodatkowy tekst. &lt;/ref&gt;.',
@@ -16937,8 +16937,8 @@ $messages['pms'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Test a ìndes an bass',
 	'wikieditor-toolbar-group-insert' => 'Anserì',
 	'wikieditor-toolbar-tool-gallery' => 'Galarìa ëd plance',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Esempi.jpg|Descrission1
-{{ns:file}}:Esempi.jpg|Descrission2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Esempi.jpg|Descrission1
+$1:Esempi.jpg|Descrission2',
 	'wikieditor-toolbar-tool-newline' => 'A cap',
 	'wikieditor-toolbar-tool-table' => 'Tàula',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -17044,7 +17044,7 @@ $messages['pms'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Element ëd la lista<br /># Element ëd la lista',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Element ëd la lista</li><li>Element ëd la lista</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Archivi anserì',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Esempi.png|thumb|Test mostrà]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Esempi.png|thumb|Test mostrà]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Test mostrà' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Test mostrà</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Arferiment',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Test ëd dla pàgina.&lt;ref name="test"&gt;[http://www.example.org Test dël colegament], test adissional.&lt;/ref&gt;',
@@ -17239,7 +17239,7 @@ $messages['ps'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# د لړليک توکی<br /># د لړليک توکی',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>د لړليک توکی</li><li>د لړليک توکی</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'خښه شوې دوتنه',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|د څرګندولو متن]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|د څرګندولو متن]]',
 	'wikieditor-toolbar-help-content-reference-description' => 'سرچينه',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'د مخ متن.&lt;ref name="test"&gt;[http://www.example.org د تړنې متن], اضافي متن.&lt;/ref&gt;',
 	'wikieditor-toolbar-help-content-reference-result' => "د مخ متن.<sup><a href='#'>[1]</a></sup>",
@@ -17368,8 +17368,8 @@ $messages['pt'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Texto em subscrito',
 	'wikieditor-toolbar-group-insert' => 'Inserir',
 	'wikieditor-toolbar-tool-gallery' => 'Galeria de imagens',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Exemplo1.jpg|Legenda1
-{{ns:file}}:Exemplo2.jpg|Legenda2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Exemplo1.jpg|Legenda1
+$1:Exemplo2.jpg|Legenda2',
 	'wikieditor-toolbar-tool-newline' => 'Nova linha',
 	'wikieditor-toolbar-tool-table' => 'Tabela',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -17475,7 +17475,7 @@ $messages['pt'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Elemento de lista<br /># Elemento de lista',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Elemento de lista</li><li>Elemento de lista</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Ficheiro incorporado',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Exemplo.png|thumb|Legenda]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Exemplo.png|thumb|Legenda]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Legenda' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Aumentar' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Legenda</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referência',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Texto da página.&lt;ref name="teste"&gt;[http://www.exemplo.org Texto do link], texto adicional.&lt;/ref&gt;',
@@ -17609,8 +17609,8 @@ $messages['pt-br'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Texto em subscrito',
 	'wikieditor-toolbar-group-insert' => 'Inserir',
 	'wikieditor-toolbar-tool-gallery' => 'Galeria de imagens',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Exemplo.jpg|Legenda1
-{{ns:file}}:Exemplo.jpg|Legenda2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Exemplo.jpg|Legenda1
+$1:Exemplo.jpg|Legenda2',
 	'wikieditor-toolbar-tool-newline' => 'Nova linha',
 	'wikieditor-toolbar-tool-table' => 'Tabela',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -17716,7 +17716,7 @@ $messages['pt-br'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Item de lista<br /># Item de lista',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Item de lista</li><li>Item de lista</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Arquivo embutido',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Exemplo.png|thumb|Legenda]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Exemplo.png|thumb|Legenda]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Legenda' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Aumentar' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Legenda</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referência',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Texto da página.&lt;ref name="teste"&gt;[http://www.exemplo.org Texto do link], texto adicional.&lt;/ref&gt;',
@@ -17842,8 +17842,8 @@ $messages['qu'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Uraychasqa qillqa',
 	'wikieditor-toolbar-group-insert' => "Sat'iy",
 	'wikieditor-toolbar-tool-gallery' => 'Suyu-suyu',
-	'wikieditor-toolbar-tool-gallery-example' => "{{ns:file}}:Qhawarichiy.jpg|Ch'uyanchay1
-{{ns:file}}:Qhawarichiy.jpg|Ch'uyanchay2",
+	'wikieditor-toolbar-tool-gallery-example' => "$1:Qhawarichiy.jpg|Ch'uyanchay1
+$1:Qhawarichiy.jpg|Ch'uyanchay2",
 	'wikieditor-toolbar-tool-newline' => "Musuq siq'i",
 	'wikieditor-toolbar-tool-table' => 'Wachuchasqa',
 	'wikieditor-toolbar-tool-table-example-old' => "-
@@ -17949,7 +17949,7 @@ $messages['qu'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Sutisuyup qallawan<br /># Sutisuyup qallawan',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Sutisuyup qallawan</li><li>Sutisuyup qallawan</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => "Ch'aqtasqa rikcha",
-	'wikieditor-toolbar-help-content-file-syntax' => "[[{{ns:file}}:Qhawarichiy.png|thumb|Ch'uyanchay qillqa]]",
+	'wikieditor-toolbar-help-content-file-syntax' => "[[$1:Qhawarichiy.png|thumb|Ch'uyanchay qillqa]]",
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Ch'uyanchay qillqa' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Hatunchay' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Ch'uyanchay qillqa</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Pukyumanta willay',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'P\'anqa qillqa.&lt;ref name="test"&gt;[http://www.example.org T\'inki qillqa], yapasqa qillqa.&lt;/ref&gt;',
@@ -18078,8 +18078,8 @@ $messages['ro'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Text la indice',
 	'wikieditor-toolbar-group-insert' => 'Inserare',
 	'wikieditor-toolbar-tool-gallery' => 'Galerie de imagini',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Exemplu.jpg|Descriere 1
-{{ns:file}}:Exemplu.jpg|Descriere 2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Exemplu.jpg|Descriere 1
+$1:Exemplu.jpg|Descriere 2',
 	'wikieditor-toolbar-tool-newline' => 'Linie nouă',
 	'wikieditor-toolbar-tool-table' => 'Tabel',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -18185,7 +18185,7 @@ $messages['ro'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Element<br /># Element',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Element</li><li>Element</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Fișier inserat',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Exemplu.png|thumb|Descrierea imaginii]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Exemplu.png|thumb|Descrierea imaginii]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Descrierea imaginii' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Mărește' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Descrierea imaginii</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referință',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Textul paginii.&lt;ref name="test"&gt;[http://www.exemplu.org Textul legăturii], text suplimentar.&lt;/ref&gt;',
@@ -18312,8 +18312,8 @@ $messages['roa-tara'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Teste sottoscritte',
 	'wikieditor-toolbar-group-insert' => "'Nzerisce",
 	'wikieditor-toolbar-tool-gallery' => 'Gallerìe fotografeche',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Titele1
-{{ns:file}}:Example.jpg|Titele2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Titele1
+$1:Example.jpg|Titele2',
 	'wikieditor-toolbar-tool-newline' => 'Linèa nove',
 	'wikieditor-toolbar-tool-table' => 'Tabbelle',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -18419,7 +18419,7 @@ $messages['roa-tara'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => "# Elemende de l'elenghe numerate<br /># Elemende de l'elenghe numerate",
 	'wikieditor-toolbar-help-content-olist-result' => "<ol><li>Elemende de l'elenghe</li><li>Elemende de l'elenghe</li></ol>",
 	'wikieditor-toolbar-help-content-file-description' => "File 'ngorporate",
-	'wikieditor-toolbar-help-content-file-syntax' => "[[{{ns:file}}:Esembie.png|thumb|Teste d'u titele]]",
+	'wikieditor-toolbar-help-content-file-syntax' => "[[$1:Esembie.png|thumb|Teste d'u titele]]",
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Teste d'u titele' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Allarie' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Teste d'u titele</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Riferimende',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Teste d\'a pàgene.&lt;ref name="test"&gt;[http://www.example.org Teste d\'u collegamende], teste addizionale.&lt;/ref&gt;',
@@ -18550,8 +18550,8 @@ $messages['ru'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Подстрочный текст',
 	'wikieditor-toolbar-group-insert' => 'Вставка',
 	'wikieditor-toolbar-tool-gallery' => 'Галерея картинок',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Описание1
-{{ns:file}}:Example.jpg|Описание2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Описание1
+$1:Example.jpg|Описание2',
 	'wikieditor-toolbar-tool-newline' => 'Новая строка',
 	'wikieditor-toolbar-tool-table' => 'Таблица',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -18657,7 +18657,7 @@ $messages['ru'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Элемент списка<br /># Элемент списка',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Элемент списка</li><li>Элемент списка</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Встроенный файл',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Пояснительный текст]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Пояснительный текст]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='
 Пояснительный текст' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Увеличить' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>
 Пояснительный текст</div></div>",
@@ -18785,8 +18785,8 @@ $messages['rue'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Підрядковый текст',
 	'wikieditor-toolbar-group-insert' => 'Вложыти',
 	'wikieditor-toolbar-tool-gallery' => 'Ґалерія',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Опис1
-{{ns:file}}:Example.jpg|Опис2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Опис1
+$1:Example.jpg|Опис2',
 	'wikieditor-toolbar-tool-newline' => 'Новый рядок',
 	'wikieditor-toolbar-tool-table' => 'Таблиця',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -18892,7 +18892,7 @@ $messages['rue'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Положка списку<br /># Положка списку',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Положка списку</li><li>Положка списку</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Вложіня файлу',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Пояснюючій текст]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Пояснюючій текст]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Пояснюючій текст' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Звекшыти' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Пояснюючій текст</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Позначка',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Текст сторінкы&lt;ref name="test"&gt;[http://www.example.org Текст одказу], додатковый текст.&lt;/ref&gt;.',
@@ -19018,8 +19018,8 @@ $messages['sah'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Устуруока аннынааҕы бичик',
 	'wikieditor-toolbar-group-insert' => 'Угуу',
 	'wikieditor-toolbar-tool-gallery' => 'Ойуулар галереялара',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Сурук1
-{{ns:file}}:Example.jpg|Сурук2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Сурук1
+$1:Example.jpg|Сурук2',
 	'wikieditor-toolbar-tool-newline' => 'Кыһыл устуруока',
 	'wikieditor-toolbar-tool-table' => 'Таабыл',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -19125,7 +19125,7 @@ $messages['sah'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Тиһик бэлиэтэ<br /># Тиһик бэлиэтэ',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Тиһик бэлиэтэ</li><li>Тиһик бэлиэтэ</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Иһинээҕи билэ',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Быһаарыыта]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Быһаарыыта]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='
 Быһаарыы сурук' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>
 Быһаарыы сурук</div></div>",
@@ -19232,8 +19232,8 @@ $messages['sc'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Testu subscritu',
 	'wikieditor-toolbar-group-insert' => 'Inserta',
 	'wikieditor-toolbar-tool-gallery' => 'Galleria de immàgines',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Esèmpiu.jpg|Didascalia1
-{{ns:file}}:Esèmpiu.jpg|Didascalia2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Esèmpiu.jpg|Didascalia1
+$1:Esèmpiu.jpg|Didascalia2',
 	'wikieditor-toolbar-tool-newline' => 'Lìnia noa',
 	'wikieditor-toolbar-tool-table' => 'Tabella',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -19339,7 +19339,7 @@ $messages['sc'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Elementu de sa lista<br /># Elementu de sa lista',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Elementu de sa lista</li><li>Elementu de sa lista</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'File incorporadu',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Esempru.png|thumb|Testu de sa didascalia]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Esempru.png|thumb|Testu de sa didascalia]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Testu de sa didascalia' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Amannia' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Testu de sa didascalia</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referèntzia',
 	'wikieditor-toolbar-help-content-reference-result' => "Testu de sa pàgina.<sup><a href='#'>[1]</a></sup>",
@@ -19459,8 +19459,8 @@ Vuoi ca forra nu liami nternu ?",
 	'wikieditor-toolbar-tool-subscript-example' => 'testu n pèdici',
 	'wikieditor-toolbar-group-insert' => 'Nsirìsci',
 	'wikieditor-toolbar-tool-gallery' => 'Gallirìa di mmàggini',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Didascalia1
-{{ns:file}}:Example.jpg|Didascalia2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Didascalia1
+$1:Example.jpg|Didascalia2',
 	'wikieditor-toolbar-tool-newline' => 'Ligna nova',
 	'wikieditor-toolbar-tool-table' => 'Tabbella',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -19579,7 +19579,7 @@ Vuoi ca forra nu liami nternu ?",
 	'wikieditor-toolbar-help-content-olist-syntax' => "* Elementu di l'elencu<br />* Elementu di l'elencu",
 	'wikieditor-toolbar-help-content-olist-result' => "<ol><li>Elementu di l'elencu</li><li>Elementu di l'elencu</li></ol>",
 	'wikieditor-toolbar-help-content-file-description' => 'File ncurpuratu',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Testu dâ didascalia]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Testu dâ didascalia]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Testu dâ didascalia' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Ngrannisci' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Testu dâ didascalia</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Rifirenza',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Testu dâ pàggina.&lt;ref name="test"&gt;[http://www.example.org Testu dû culligamentu], testu ca si pò junciri.&lt;/ref&gt;',
@@ -19716,8 +19716,8 @@ $messages['si'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'යටි ලකුණු පෙළ',
 	'wikieditor-toolbar-group-insert' => 'ඇතුල් කරන්න',
 	'wikieditor-toolbar-tool-gallery' => 'පිංතූර ගැලරිය',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:උදාහරණ.jpg| 1 යටි ලියමන
-{{ns:file}}:උදාහරණ.jpg| 2 යටි ලියමන',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:උදාහරණ.jpg| 1 යටි ලියමන
+$1:උදාහරණ.jpg| 2 යටි ලියමන',
 	'wikieditor-toolbar-tool-newline' => 'නව පේළිය',
 	'wikieditor-toolbar-tool-table' => 'වගුව',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -19823,7 +19823,7 @@ $messages['si'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# ලැයිස්තු අයිතමය<br /># ලැයිස්තු අයිතමය',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>ලැයිස්තු අයිතමය</li><li>ලැයිස්තු අයිතමය</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'කා වැද්දූ ගොනුව',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|යටි ලියමන් පෙළ]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|යටි ලියමන් පෙළ]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='යටි ලියමන් පෙළ' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='විශාලනය කිරීම' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>යටි ලියමන් පෙළ</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'යොමුව',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'පිටු පෙළ.&lt;ref name="test"&gt;[http://www.example.org සබැඳුම් පෙළ], අමතර පෙළ.&lt;/ref&gt;',
@@ -19950,8 +19950,8 @@ $messages['sk'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Dolný index',
 	'wikieditor-toolbar-group-insert' => 'Vložiť',
 	'wikieditor-toolbar-tool-gallery' => 'Galéria obrázkov',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Príklad.jpg|Popis1
-{{ns:file}}:Príklad.jpg|Popis2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Príklad.jpg|Popis1
+$1:Príklad.jpg|Popis2',
 	'wikieditor-toolbar-tool-newline' => 'Nový riadok',
 	'wikieditor-toolbar-tool-table' => 'Tabuľka',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -20057,7 +20057,7 @@ $messages['sk'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Položka zoznamu<br /># Položka zoznamu',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Položka zoznamu</li><li>Položka zoznamu</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Vložený súbor',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Príklad.png|náhľad|Text nadpisu]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Príklad.png|náhľad|Text nadpisu]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Text nadpisu' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Zväčšiť' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Text nadpisu</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referencie',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Text stránky.&lt;ref name="test"&gt;[http://www.example.org Text odkazu], ďalší text.&lt;/ref&gt;',
@@ -20183,8 +20183,8 @@ $messages['sl'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Podpisano besedilo',
 	'wikieditor-toolbar-group-insert' => 'Vstavi',
 	'wikieditor-toolbar-tool-gallery' => 'Galerija slik',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Primer 1.jpg|Napis 1
-{{ns:file}}:Primer 2.jpg|Napis 2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Primer 1.jpg|Napis 1
+$1:Primer 2.jpg|Napis 2',
 	'wikieditor-toolbar-tool-newline' => 'Nova vrstica',
 	'wikieditor-toolbar-tool-table' => 'Tabela',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -20290,7 +20290,7 @@ $messages['sl'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Vnos a <br /> # Vnos b',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li> Vnos a </li><li> Vnos b </li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Vgradnja slike',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Primer.jpg|thumb|Napis pod sliko]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Primer.jpg|thumb|Napis pod sliko]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'> <a title=\"Napis pod sliko\" class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a> <div class='thumbcaption'><div class='magnify'> <a title=\"Povečaj\" class='internal' href='#'><img height='11' width='15' alt='' src='\$1/common/images/magnify-clip.png'/></a> </div> Napis pod sliko </div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Sprotna opomba',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Besedilo strani. &lt;ref name=&quot;test&quot;&gt; [http://www.example.org Oznaka povezave], dodatno besedilo. &lt;/ref&gt;',
@@ -20464,7 +20464,7 @@ $messages['sq'] = array(
 	'wikieditor-toolbar-help-content-heading5-result' => '<h5>Mbishkrimi</h5>',
 	'wikieditor-toolbar-help-content-ulist-description' => 'Lista e të numruara',
 	'wikieditor-toolbar-help-content-olist-description' => 'Lista e numëruar',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:shembull.jpg|thumb|Përshkrimi]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:shembull.jpg|thumb|Përshkrimi]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Përshkrimi' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Zmadhoe' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Përshkrimi</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Burimi',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Teksti i Faqës.&lt;ref name="test"&gt;[http://www.shembull.org Teksti i lidhjes], Tekst shtues.&lt;/ref&gt;',
@@ -20580,8 +20580,8 @@ $messages['sr-ec'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Текст натписа',
 	'wikieditor-toolbar-group-insert' => 'Убаци',
 	'wikieditor-toolbar-tool-gallery' => 'Галерија слика',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:пример1.jpg|Наслов1
-{{ns:file}}:пример2.jpg|Наслов2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:пример1.jpg|Наслов1
+$1:пример2.jpg|Наслов2',
 	'wikieditor-toolbar-tool-newline' => 'Нова линија',
 	'wikieditor-toolbar-tool-table' => 'Табела',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -20680,7 +20680,7 @@ $messages['sr-ec'] = array(
 	'wikieditor-toolbar-help-content-ulist-description' => 'Попис с ознакама',
 	'wikieditor-toolbar-help-content-olist-description' => 'Нумерисана листа',
 	'wikieditor-toolbar-help-content-file-description' => 'Слика',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Примјер.png|мини|Назив слике]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Примјер.png|мини|Назив слике]]',
 	'wikieditor-toolbar-help-content-reference-description' => 'Референце',
 	'wikieditor-toolbar-help-content-reference-result' => "Текст странице.<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-rereference-description' => 'Додатна употреба исте референце',
@@ -20769,8 +20769,8 @@ $messages['sr-el'] = array(
 	'wikieditor-toolbar-tool-small-example' => 'Mali tekst',
 	'wikieditor-toolbar-group-insert' => 'Ubaci',
 	'wikieditor-toolbar-tool-gallery' => 'Galerija slika',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:primer1.jpg|Naslov1
-{{ns:file}}:primer2.jpg|Naslov2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:primer1.jpg|Naslov1
+$1:primer2.jpg|Naslov2',
 	'wikieditor-toolbar-tool-newline' => 'Nova linija',
 	'wikieditor-toolbar-tool-table' => 'Tabela',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -20857,7 +20857,7 @@ $messages['sr-el'] = array(
 	'wikieditor-toolbar-help-content-heading5-syntax' => '===== Naslov odeljka =====',
 	'wikieditor-toolbar-help-content-heading5-result' => '<h5>Naslov odeljka</h5>',
 	'wikieditor-toolbar-help-content-olist-description' => 'Numerisana lista',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Primjer.png|mini|Naziv slike]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Primjer.png|mini|Naziv slike]]',
 	'wikieditor-toolbar-help-content-reference-description' => 'Reference',
 	'wikieditor-toolbar-help-content-showreferences-description' => 'Prikaži reference',
 	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>Korisnik</a> (<a href='#' title='{{#special:mytalk}}'>razgovor</a>) 15:54, 10. jun 2009. (UTC)",
@@ -20962,8 +20962,8 @@ $messages['su'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Téks subskrip',
 	'wikieditor-toolbar-group-insert' => 'Asupkeun',
 	'wikieditor-toolbar-tool-gallery' => 'Galeri gambar',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Conto.jpg|Pedaran1
-{{ns:file}}:Conto.jpg|Pedaran2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Conto.jpg|Pedaran1
+$1:Conto.jpg|Pedaran2',
 	'wikieditor-toolbar-tool-newline' => 'Baris anyar',
 	'wikieditor-toolbar-tool-table' => 'Tabél',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -21059,7 +21059,7 @@ $messages['su'] = array(
 	'wikieditor-toolbar-help-content-heading5-result' => '<h5>Téks subjudul</h5>',
 	'wikieditor-toolbar-help-content-ulist-description' => 'Béréndélan pélor',
 	'wikieditor-toolbar-help-content-olist-description' => 'Béréndélan nomer',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Conto.png|thumb|Téks gambar]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Conto.png|thumb|Téks gambar]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Téks pedaran' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Gedéan' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Téks pedaran</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Rujukan',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Téks kaca.&lt;ref name="test"&gt;[http://www.conto.org Téks tutumbu], téks panambih.&lt;/ref&gt;',
@@ -21189,8 +21189,8 @@ $messages['sv'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Nedsänkt text',
 	'wikieditor-toolbar-group-insert' => 'Sätt in',
 	'wikieditor-toolbar-tool-gallery' => 'Bildgalleri',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Exempel.jpg|Bildtext1
-{{ns:file}}:Exempel.jpg|Bildtext2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Exempel.jpg|Bildtext1
+$1:Exempel.jpg|Bildtext2',
 	'wikieditor-toolbar-tool-newline' => 'Ny rad',
 	'wikieditor-toolbar-tool-table' => 'Tabell',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -21296,7 +21296,7 @@ $messages['sv'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Listelement<br /># Listelement',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Listelement</li><li>Listelement</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Inbäddad fil',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|miniatyr|Bildtext]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|miniatyr|Bildtext]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Bildtext' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Förstora' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Bildtext</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referens',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Brödtext.&lt;ref name="test"&gt;[http://www.example.org Länktext], ytterligare text.&lt;/ref&gt;',
@@ -21421,8 +21421,8 @@ $messages['sw'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Maandishi ya chini',
 	'wikieditor-toolbar-group-insert' => 'Kuweka',
 	'wikieditor-toolbar-tool-gallery' => 'Mkusanyiko wa picha',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Maelezo mafupi 1
-{{ns:file}}:Example.jpg|Maelezo mafupi 2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Maelezo mafupi 1
+$1:Example.jpg|Maelezo mafupi 2',
 	'wikieditor-toolbar-tool-newline' => 'Mstari mpya',
 	'wikieditor-toolbar-tool-table' => 'Jedwali',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -21529,7 +21529,7 @@ Idadi ya mistari au ya safu si halali.',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Aya<br /># Aya',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Aya</li><li>Aya</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Faili futike',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Maelezo mafupi]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Maelezo mafupi]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Maelezo mafupi' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Kuza' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Maelezo mafupi</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Tiniwayo',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Maandishi ya ukurasa.&lt;ref name="mfano"&gt;[http://www.example.org Maandishi ya kiungo], maandishi mengine.&lt;/ref&gt;',
@@ -21825,8 +21825,8 @@ $messages['te'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'పాదాక్షర పాఠ్యం',
 	'wikieditor-toolbar-group-insert' => 'చేర్చు',
 	'wikieditor-toolbar-tool-gallery' => 'చిత్రమాలిక',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|ఉపశీర్షిక1
-{{ns:file}}:Example.jpg|ఉపశీర్షిక2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|ఉపశీర్షిక1
+$1:Example.jpg|ఉపశీర్షిక2',
 	'wikieditor-toolbar-tool-newline' => 'కొత్త లైను',
 	'wikieditor-toolbar-tool-table' => 'పట్టిక',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -21919,7 +21919,7 @@ $messages['te'] = array(
 	'wikieditor-toolbar-help-content-olist-description' => 'సంఖ్యానుగుణ జాబితా',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# జాబితా అంశం<br /># జాబితా అంశం',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>జాబితా అంశం</li><li>జాబితా అంశం</li></ol>',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|వివరణ పాఠ్యం]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|వివరణ పాఠ్యం]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>వివరణ పాఠ్యం</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'సాక్ష్యాలు',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'పేజీ పాఠ్యం.&lt;ref name="test"&gt;[http://www.example.org లింకు పాఠ్యం], అదనపు పాఠ్యం.&lt;/ref&gt;',
@@ -22052,8 +22052,8 @@ $messages['th'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'ตัวหนังสือที่เป็นตัวห้อย',
 	'wikieditor-toolbar-group-insert' => 'แทรก',
 	'wikieditor-toolbar-tool-gallery' => 'จัดแสดงภาพ',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|คำอธิบายภาพ1
-{{ns:file}}:Example.jpg|คำอธิบายภาพ2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|คำอธิบายภาพ1
+$1:Example.jpg|คำอธิบายภาพ2',
 	'wikieditor-toolbar-tool-newline' => 'ขึ้นบรรทัดใหม่',
 	'wikieditor-toolbar-tool-table' => 'ตาราง',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -22155,7 +22155,7 @@ $messages['th'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# เนื้อหารายการ<br /># เนื้อหารายการ',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>เนื้อหารายการ</li><li>เนื้อหารายการ</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'แทรกไฟล์',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|คำอธิบายภาพ]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|คำอธิบายภาพ]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='คำอธิบาย' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='ขยายใหญ่' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>คำอธิบาย</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'อ้างอิง',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'ชื่อหน้า.&lt;ref name="test"&gt;[http://www.example.org ชื่อลิงก์], คำอธิบายเพิ่มเติม.&lt;/ref&gt;',
@@ -22279,8 +22279,8 @@ $messages['tk'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Setirasty tekst',
 	'wikieditor-toolbar-group-insert' => 'Giriz',
 	'wikieditor-toolbar-tool-gallery' => 'Surat galereýasy',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Titr1
-{{ns:file}}:Example.jpg|Titr2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Titr1
+$1:Example.jpg|Titr2',
 	'wikieditor-toolbar-tool-newline' => 'Täze setir',
 	'wikieditor-toolbar-tool-table' => 'Tablisa',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -22386,7 +22386,7 @@ $messages['tk'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Sanaw elementi<br /># Sanaw elementi',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Sanaw elementi</li><li>Sanaw elementi</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Salnan faýl',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Titriň teksti]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Titriň teksti]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Titriň teksti' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Ulalt' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Titriň teksti</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Salgylanma',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Sahypanyň teksti.&lt;ref name="test"&gt;[http://www.example.org Çykgydyň teksti], goşmaça tekst.&lt;/ref&gt;',
@@ -22512,8 +22512,8 @@ $messages['tl'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Teksto ng nakababang panitik',
 	'wikieditor-toolbar-group-insert' => 'Isingit',
 	'wikieditor-toolbar-tool-gallery' => 'Tipunan ng larawan',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Halimbawa.jpg|Kapsyon1
-{{ns:file}}:Halimbawa.jpg|Kapsyon2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Halimbawa.jpg|Kapsyon1
+$1:Halimbawa.jpg|Kapsyon2',
 	'wikieditor-toolbar-tool-newline' => 'Bagong guhit',
 	'wikieditor-toolbar-tool-table' => 'Talahanayan',
 	'wikieditor-toolbar-tool-table-example-old' => '
@@ -22619,7 +22619,7 @@ $messages['tl'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Bagay sa talaan<br /># Bagay sa talaan',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Bagay sa talaan</li><li>Bagay sa talaan</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Talaksang nakabaon',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Halimbawa.png|kagyat|Teksto ng kapsyon]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Halimbawa.png|kagyat|Teksto ng kapsyon]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Tekstong nagpapaliwanag</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Sanggunian',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Taksto ng pahina.&lt;ref name="test"&gt;[http://www.halimbawa.org Teksto ng kawing], karagdagang teksto.&lt;/ref&gt;',
@@ -22755,8 +22755,8 @@ $messages['tr'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Alt simge metni',
 	'wikieditor-toolbar-group-insert' => 'Ekle',
 	'wikieditor-toolbar-tool-gallery' => 'Resim galerisi',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Örnek.jpg|Resimyazısı1
-{{ns:file}}:Örnek.jpg|Resimyazısı2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Örnek.jpg|Resimyazısı1
+$1:Örnek.jpg|Resimyazısı2',
 	'wikieditor-toolbar-tool-newline' => 'Yeni satır',
 	'wikieditor-toolbar-tool-table' => 'Tablo',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -22861,7 +22861,7 @@ $messages['tr'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Liste öğesi<br /># Liste öğesi',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Liste öğesi</li><li>Liste öğesi</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Gömülü dosya',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Ornek.png|thumb|Resim yazısı]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Ornek.png|thumb|Resim yazısı]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Resim yazısı</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Kaynak',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Sayfa metni.&lt;ref name="deneme"&gt;[http://www.ornek.org Bağlanı metni], ek metin.&lt;/ref&gt;',
@@ -22988,8 +22988,8 @@ $messages['tt-cyrl'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Индекслы юл тексты',
 	'wikieditor-toolbar-group-insert' => 'Өстәү',
 	'wikieditor-toolbar-tool-gallery' => 'Рәсемнәр җыентыгы',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Мисал.jpg|Тасвирлама1
-{{ns:file}}:Мисал.jpg|Тасвирлама2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Мисал.jpg|Тасвирлама1
+$1:Мисал.jpg|Тасвирлама2',
 	'wikieditor-toolbar-tool-newline' => 'Яңа юл',
 	'wikieditor-toolbar-tool-table' => 'Табын',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -23095,7 +23095,7 @@ $messages['tt-cyrl'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Исемлекнең тәртибе<br /># Исемлекнең тәртибе',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Исемлекнең тәртибе</li><li>Исемлекнең тәртибе</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Куелган файл',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Аңлатмалы текст]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Аңлатмалы текст]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='
 Аңлатмалы текст' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Увеличить' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>
 Пояснительный текст</div></div>",
@@ -23227,8 +23227,8 @@ $messages['uk'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Текст нижнього індексу',
 	'wikieditor-toolbar-group-insert' => 'Вставити',
 	'wikieditor-toolbar-tool-gallery' => 'Галерея',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Опис1
-{{ns:file}}:Example.jpg|Опис2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Опис1
+$1:Example.jpg|Опис2',
 	'wikieditor-toolbar-tool-newline' => 'Новий рядок',
 	'wikieditor-toolbar-tool-table' => 'Таблиця',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -23334,7 +23334,7 @@ $messages['uk'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Елемент списку<br /># Елемент списку',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Елемент списку</li><li>Елемент списку</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Вбудований файл',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Пояснювальний текст]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Пояснювальний текст]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Пояснювальний текст' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Збільшити' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Пояснювальний текст</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Виноска',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Текст сторінки&lt;ref name="test"&gt;[http://www.example.org Текст посилання], додатковий текст.&lt;/ref&gt;.',
@@ -23467,8 +23467,8 @@ $messages['vec'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Testo in pèdice',
 	'wikieditor-toolbar-group-insert' => 'Inserissi',
 	'wikieditor-toolbar-tool-gallery' => 'Galerìa fotografica',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Esenpio.jpg|Didascalia1
-{{ns:file}}:Esenpio.jpg|Didascalia2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Esenpio.jpg|Didascalia1
+$1:Esenpio.jpg|Didascalia2',
 	'wikieditor-toolbar-tool-newline' => 'Riga nova',
 	'wikieditor-toolbar-tool-table' => 'Tabèla',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -23574,7 +23574,7 @@ $messages['vec'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => "# Elemento de l'elenco<br /># Elemento de l'elenco",
 	'wikieditor-toolbar-help-content-olist-result' => "<ol><li>Elemento de l'elenco</li><li>Elemento de l'elenco</li></ol>",
 	'wikieditor-toolbar-help-content-file-description' => 'File incorporado',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Testo de la didascalia]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Testo de la didascalia]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Testo de la didascalia</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Nota',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Testo de la pagina.&lt;ref name="test"&gt;[http://www.esenpio.org Testo del colegamento], altro testo in più.&lt;/ref&gt;',
@@ -23754,8 +23754,8 @@ $messages['vi'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Chữ được viết xuống dưới',
 	'wikieditor-toolbar-group-insert' => 'Chèn',
 	'wikieditor-toolbar-tool-gallery' => 'Album hình ảnh',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Ví dụ.jpg|Chú thích 1
-{{ns:file}}:Ví dụ.jpg|Chú thích 2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Ví dụ.jpg|Chú thích 1
+$1:Ví dụ.jpg|Chú thích 2',
 	'wikieditor-toolbar-tool-newline' => 'Dòng mới',
 	'wikieditor-toolbar-tool-table' => 'Bảng',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -23861,7 +23861,7 @@ $messages['vi'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Mục danh sách<br /># Mục danh sách',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Mục danh sách</li><li>Mục danh sách</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Chèn tập tin',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Ví dụ.png|thumb|Văn bản chú thích]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Ví dụ.png|thumb|Văn bản chú thích]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Văn bản chú thích' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Phóng lớn' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Văn bản chú thích</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Tham khảo',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Nội dung trang&lt;ref name="thử"&gt;[http://www.example.org Văn bản liên kết], văn bản bổ sung.&lt;/ref&gt;.',
@@ -23970,8 +23970,8 @@ $messages['wo'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Mbind ci suufaan',
 	'wikieditor-toolbar-group-insert' => 'Roof',
 	'wikieditor-toolbar-tool-gallery' => 'Gaaraluwaayu  nataal',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Misaal.jpg|Faramfacce1
-{{ns:file}}:Misaal.jpg|Faramfacce2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Misaal.jpg|Faramfacce1
+$1:Misaal.jpg|Faramfacce2',
 	'wikieditor-toolbar-tool-newline' => 'Rëdd wu bees',
 	'wikieditor-toolbar-tool-table' => 'Xaatim',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -24126,8 +24126,8 @@ $messages['yi'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'גענידערטער טעקסט',
 	'wikieditor-toolbar-group-insert' => 'צולייגן',
 	'wikieditor-toolbar-tool-gallery' => 'בילדער גאַלעריע',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:בײַשפיל.jpg|קעפל1
-{{ns:file}}:בײַשפיל.jpg|קעפל2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:בײַשפיל.jpg|קעפל1
+$1:בײַשפיל.jpg|קעפל2',
 	'wikieditor-toolbar-tool-newline' => 'נײַע שורה',
 	'wikieditor-toolbar-tool-table' => 'טאַבעלע',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -24230,7 +24230,7 @@ $messages['yi'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# ליסטע איינצל<br /># ליסטע איינצל',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>ליסטע איינצל</li><li>ליסטע איינצל</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'אײַנגעבעטעטע טעקע',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|באשרייבונג]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|באשרייבונג]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='קעפל טעקסט' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='פארגרעסערן' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>באַשרײַבונג</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'רעפערענץ',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'בלאַט טעקסט.&lt;ref name="test"&gt;[http://www.example.org לינק טעקסט], צוגעגעבענער טעקסט.&lt;/ref&gt;',
@@ -24352,8 +24352,8 @@ $messages['yo'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Ìkọ àfìkọṣábẹ́',
 	'wikieditor-toolbar-group-insert' => 'Ìkìbọ̀',
 	'wikieditor-toolbar-tool-gallery' => 'Ìkójọ àwòrán',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|Àkọlé1
-{{ns:file}}:Example.jpg|Àkọlé2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Àkọlé1
+$1:Example.jpg|Àkọlé2',
 	'wikieditor-toolbar-tool-newline' => 'Ìlà tuntun',
 	'wikieditor-toolbar-tool-table' => 'Tábìlì',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -24459,7 +24459,7 @@ $messages['yo'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Ohun àkójọ<br /># Ohun àkójọ',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Ohun àkójọ</li><li>Ohun àkójọ</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Fáìlì alákòósínú',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|Àkọlé]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Àkọlé]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Ìkọ àkọlé' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Ìkọ àkọlé</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Ìtọ́kasí',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Íkọ ojúewé.&lt;ref name="test"&gt;[http://www.example.org Ìkọ ìjápọ̀], ìkọ mìràn.&lt;/ref&gt;',
@@ -24582,8 +24582,8 @@ $messages['yue'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => '下標字',
 	'wikieditor-toolbar-group-insert' => '插入',
 	'wikieditor-toolbar-tool-gallery' => '畫廊',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|標題1
-{{ns:file}}:Example.jpg|標題2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|標題1
+$1:Example.jpg|標題2',
 	'wikieditor-toolbar-tool-newline' => '新行',
 	'wikieditor-toolbar-tool-table' => '表',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -24708,7 +24708,7 @@ Bangla',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# 一覽項目<br /># 一覽項目',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>一覽項目</li><li>一覽項目</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => '結合檔',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|標題字]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|標題字]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='標題字' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='放大' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>標題字</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => '參考',
 	'wikieditor-toolbar-help-content-reference-syntax' => '頁字。&lt;ref name="test"&gt;[http://www.example.org 連字]，附加字。&lt;/ref&gt;',
@@ -24842,8 +24842,8 @@ $messages['zh-hans'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => '下标文字',
 	'wikieditor-toolbar-group-insert' => '插入',
 	'wikieditor-toolbar-tool-gallery' => '画廊',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|标题1
-{{ns:file}}:Example.jpg|标题2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|标题1
+$1:Example.jpg|标题2',
 	'wikieditor-toolbar-tool-newline' => '换行',
 	'wikieditor-toolbar-tool-table' => '表格',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -24949,7 +24949,7 @@ $messages['zh-hans'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# 列表项<br /># 列表项',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>列表项</li><li>列表项</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => '嵌入文件',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|标题文本]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|标题文本]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='标题文本' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='放大' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>标题文本</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => '注释',
 	'wikieditor-toolbar-help-content-reference-syntax' => '页面文本。&lt;ref name="测试"&gt;[http://www.example.org 链接文本]，附加文本。&lt;/ref&gt;',
@@ -25081,8 +25081,8 @@ $messages['zh-hant'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => '下標文字',
 	'wikieditor-toolbar-group-insert' => '插入',
 	'wikieditor-toolbar-tool-gallery' => '畫廊',
-	'wikieditor-toolbar-tool-gallery-example' => '{{ns:file}}:Example.jpg|標題1
-{{ns:file}}:Example.jpg|標題2',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|標題1
+$1:Example.jpg|標題2',
 	'wikieditor-toolbar-tool-newline' => '換行',
 	'wikieditor-toolbar-tool-table' => '表格',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -25210,7 +25210,7 @@ $messages['zh-hant'] = array(
 	'wikieditor-toolbar-help-content-olist-syntax' => '# 列表項目<br /># 列表項目',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>列表項目</li><li>列表項目</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => '結合檔',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[{{ns:file}}:Example.png|thumb|標題文字]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|標題文字]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='標題文字' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='放大' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>標題文字</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => '參考',
 	'wikieditor-toolbar-help-content-reference-syntax' => '頁面文字。&lt;ref name="測試"&gt;[http://www.example.org 連結文字]，附加文字。&lt;/ref&gt;',
