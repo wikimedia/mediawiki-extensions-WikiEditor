@@ -17481,7 +17481,7 @@ $1:Exemplo2.jpg|Legenda2',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Elemento de lista<br /># Elemento de lista',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Elemento de lista</li><li>Elemento de lista</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Ficheiro incorporado',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Exemplo.png|thumb|Legenda]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Exemplo.png|thumb|Texto da legenda]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Legenda' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Aumentar' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Legenda</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referência',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Texto da página.&lt;ref name="teste"&gt;[http://www.exemplo.org Texto do link], texto adicional.&lt;/ref&gt;',
@@ -24986,6 +24986,7 @@ $1:Example.jpg|标题2',
  * @author KaiesTse
  * @author Liangent
  * @author PhiLiP
+ * @author Waihorace
  * @author Wong128hk
  */
 $messages['zh-hant'] = array(
@@ -25000,6 +25001,7 @@ $messages['zh-hant'] = array(
 	'wikieditor-preview-tab' => '預覽',
 	'wikieditor-preview-changes-tab' => '修訂',
 	'wikieditor-preview-loading' => '載入中...',
+	'wikieditor-previewDialog-preference' => '啟用預覽對話框',
 	'wikieditor-previewDialog-tab' => '預覽',
 	'wikieditor-previewDialog-loading' => '載入中...',
 	'wikieditor-publish-preference' => '啟用逐步發表功能',
