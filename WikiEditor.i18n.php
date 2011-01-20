@@ -24985,6 +24985,7 @@ $1:Example.jpg|标题2',
  * @author Horacewai2
  * @author KaiesTse
  * @author Liangent
+ * @author Mark85296341
  * @author PhiLiP
  * @author Waihorace
  * @author Wong128hk
@@ -25012,7 +25013,7 @@ $messages['zh-hant'] = array(
 	'wikieditor-publish-dialog-minor' => '小修改',
 	'wikieditor-publish-dialog-watch' => '監視本頁',
 	'wikieditor-publish-dialog-publish' => '發表',
-	'wikieditor-publish-dialog-goback' => '後退',
+	'wikieditor-publish-dialog-goback' => '返回',
 	'wikieditor-template-editor-preference' => '啟用wiki模板的表單式編輯',
 	'wikieditor-template-editor-dialog-title' => '編輯模板',
 	'wikieditor-template-editor-dialog-submit' => '更新',
@@ -25025,7 +25026,7 @@ $messages['zh-hant'] = array(
 	'wikieditor-toolbar-desc' => '可用性更佳之編輯工具',
 	'wikieditor-toolbar-preference' => '啟用加強編輯工具列',
 	'wikieditor-toolbar-dialogs-preference' => '使用對話框插入鏈接、表格等',
-	'wikieditor-toolbar-loading' => '載入中……',
+	'wikieditor-toolbar-loading' => '載入中...',
 	'wikieditor-toolbar-tool-bold' => '粗體',
 	'wikieditor-toolbar-tool-bold-example' => '粗體文字',
 	'wikieditor-toolbar-tool-italic' => '斜體',
