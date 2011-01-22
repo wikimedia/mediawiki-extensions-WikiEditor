@@ -5363,7 +5363,7 @@ $1:Beispiel.jpg|Beschreibung2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Normaler Text<dl><dd>Eingerückter Text<dl><dd>Eingerückter Text</dd></dl></dd></dl>',
 );
 
-/** German (formal address) (Deutsch (Sie-Form))
+/** German (formal address) (‪Deutsch (Sie-Form)‬)
  * @author Imre
  */
 $messages['de-formal'] = array(
@@ -12708,7 +12708,7 @@ $messages['ku-latn'] = array(
 	'wikieditor-toolbar-help-content-signature-description' => 'Îmze',
 );
 
-/** Cornish (Kernewek)
+/** Cornish (Kernowek)
  * @author Kw-Moon
  */
 $messages['kw'] = array(
@@ -20543,7 +20543,7 @@ $messages['sr-ec'] = array(
 	'wikieditor-toolbar-tool-link-cancel' => 'Откажи',
 	'wikieditor-toolbar-tool-link-int-target-status-exists' => 'Страница постоји',
 	'wikieditor-toolbar-tool-link-int-target-status-notexists' => 'Страница не постоји',
-	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Погрешан наслов',
+	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Неисправан наслов',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Спољашња веза',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'Провера постојања странице...',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'Наслов који сте изабрали није валидан',
@@ -24488,6 +24488,7 @@ $1:Example.jpg|Àkọlé2',
 
 /** Cantonese (粵語)
  * @author Horacewai2
+ * @author Waihorace
  */
 $messages['yue'] = array(
 	'prefs-beta' => '試緊嘅特色',
