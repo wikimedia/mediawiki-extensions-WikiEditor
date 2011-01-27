@@ -20431,6 +20431,9 @@ $messages['sq'] = array(
 	'wikieditor-toolbar-characters-page-telugu' => 'Telugu',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Singhalisht',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Guxharati',
+	'wikieditor-toolbar-characters-page-thai' => 'Thai',
+	'wikieditor-toolbar-characters-page-lao' => 'Lao',
+	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
 	'wikieditor-toolbar-section-help' => 'Ndihmë',
 	'wikieditor-toolbar-help-heading-description' => 'Përshkrimi',
 	'wikieditor-toolbar-help-heading-syntax' => 'Çfarë ju shkruajti',
@@ -20480,6 +20483,7 @@ $messages['sq'] = array(
 	'wikieditor-toolbar-help-content-showreferences-description' => 'Burim tregues',
 	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'Nënshkrimi dhe vula e kohës',
 	'wikieditor-toolbar-help-content-signature-description' => 'Firma',
+	'wikieditor-toolbar-help-content-indent-description' => 'Largoj nga ana e faqes',
 );
 
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
