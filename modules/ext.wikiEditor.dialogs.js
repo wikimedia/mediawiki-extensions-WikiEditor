@@ -508,7 +508,7 @@ $( document ).ready( function() {
 				open: function() {
 					// Cache the articlepath regex
 					$(this).data( 'articlePathRegex', new RegExp(
-						'^' + ( wgServer + wgArticlePath ).escapeRE()
+						'^' + $.escapeRE( wgServer + wgArticlePath )
 							.replace( /\\\$1/g, '(.*)' ) + '$'
 					) );
 					// Pre-fill the text fields based on the current selection
@@ -981,7 +981,7 @@ $( document ).ready( function() {
 						flags += 'g';
 					}
 					if ( !isRegex ) {
-						searchStr = searchStr.escapeRE();
+						searchStr = $.escapeRE( searchStr );
 					}
 					try {
 						var regex = new RegExp( searchStr, flags );
