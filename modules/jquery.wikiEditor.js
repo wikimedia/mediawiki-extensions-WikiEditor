@@ -488,7 +488,7 @@ if ( !context || typeof context == 'undefined' ) {
 		 * Save scrollTop and cursor position for IE
 		 */
 		'saveCursorAndScrollTop': function() {
-			if ( $.client.name === 'msie' ) {
+			if ( $.client.profile().name === 'msie' ) {
 				var IHateIE = {
 					'scrollTop' : context.$textarea.scrollTop(),
 					'pos': context.$textarea.textSelection( 'getCaretPosition', { startAndEnd: true } )
@@ -500,7 +500,7 @@ if ( !context || typeof context == 'undefined' ) {
 		 * Restore scrollTo and cursor position for IE
 		 */
 		'restoreCursorAndScrollTop': function() {
-			if ( $.client.name === 'msie' ) {
+			if ( $.client.profile().name === 'msie' ) {
 				var IHateIE = context.$textarea.data( 'IHateIE' );
 				if ( IHateIE ) {
 					context.$textarea.scrollTop( IHateIE.scrollTop );
@@ -513,7 +513,7 @@ if ( !context || typeof context == 'undefined' ) {
 		 * Save text selection for IE
 		 */
 		'saveSelection': function() {
-			if ( $.client.name === 'msie' ) {
+			if ( $.client.profile().name === 'msie' ) {
 				context.$textarea.focus();
 				context.savedSelection = document.selection.createRange();
 			}
@@ -522,7 +522,7 @@ if ( !context || typeof context == 'undefined' ) {
 		 * Restore text selection for IE
 		 */
 		'restoreSelection': function() {
-			if ( $.client.name === 'msie' && context.savedSelection !== null ) {
+			if ( $.client.profile().name === 'msie' && context.savedSelection !== null ) {
 				context.$textarea.focus();
 				context.savedSelection.select();
 				context.savedSelection = null;

@@ -551,13 +551,13 @@ context.fn = $.extend( context.fn, {
 		return;
 	},
 	'saveSelection': function() {
-		if ( $.client.name === 'msie' ) {
+		if ( $.client.profile().name === 'msie' ) {
 			context.$iframe[0].contentWindow.focus();
 			context.savedSelection = context.$iframe[0].contentWindow.document.selection.createRange();
 		}
 	},
 	'restoreSelection': function() {
-		if ( $.client.name === 'msie' && context.savedSelection !== null ) {
+		if ( $.client.profile().name === 'msie' && context.savedSelection !== null ) {
 			context.$iframe[0].contentWindow.focus();
 			context.savedSelection.select();
 			context.savedSelection = null;
