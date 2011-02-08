@@ -106,7 +106,7 @@ $.wikiEditor = {
 	 */
 	'isRequired': function( module, requirement ) {
 		if ( typeof module['req'] !== 'undefined' ) {
-			for ( req in module['req'] ) {
+			for ( var req in module['req'] ) {
 				if ( module['req'][req] == requirement ) {
 					return true;
 				}
@@ -595,11 +595,11 @@ if ( args[0] == 'addModule' && typeof args[1] != 'undefined' ) {
 		modules = {};
 		modules[args[1]] = '';
 	}
-	for ( module in modules ) {
+	for ( var module in modules ) {
 		// Only allow modules which are supported (and thus actually being turned on) affect the decision to extend
 		if ( module in $.wikiEditor.modules && $.wikiEditor.isSupported( $.wikiEditor.modules[module] ) ) {
 			// Activate all required core extensions on context
-			for ( e in $.wikiEditor.extensions ) {
+			for ( var e in $.wikiEditor.extensions ) {
 				if (
 					$.wikiEditor.isRequired( $.wikiEditor.modules[module], e ) &&
 					context.extensions.indexOf( e ) === -1
