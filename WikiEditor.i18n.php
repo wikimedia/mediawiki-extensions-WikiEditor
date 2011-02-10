@@ -11837,8 +11837,10 @@ $1:ឧទាហរណ៍.jpg|ចំនងជើងក្រោមរូបភា
 	'wikieditor-toolbar-characters-page-arabic' => 'អក្សរអារ៉ាប់',
 	'wikieditor-toolbar-characters-page-persian' => 'អក្សរពែក្ស',
 	'wikieditor-toolbar-characters-page-hebrew' => 'អក្សរហេប៊្រូ',
-	'wikieditor-toolbar-characters-page-bangla' => 'អក្សរបេងឡា',
+	'wikieditor-toolbar-characters-page-bangla' => 'អក្សរបេងក្លា',
+	'wikieditor-toolbar-characters-page-telugu' => 'អក្សរតិលគ្គ',
 	'wikieditor-toolbar-characters-page-sinhala' => 'អក្សរស៊ិនហាឡា',
+	'wikieditor-toolbar-characters-page-gujarati' => 'អក្សរគុចរទី',
 	'wikieditor-toolbar-characters-page-thai' => 'អក្សរថៃ',
 	'wikieditor-toolbar-characters-page-lao' => 'អក្សរឡាវ',
 	'wikieditor-toolbar-characters-page-khmer' => 'អក្សរខ្មែរ',
@@ -11895,6 +11897,7 @@ $1:ឧទាហរណ៍.jpg|ចំនងជើងក្រោមរូបភា
 	'wikieditor-toolbar-help-content-rereference-description' => 'ការប្រើប្រាស់​បន្ថែម​នៃ​ឯកសារ​យោង​ដូចគ្នា​',
 	'wikieditor-toolbar-help-content-rereference-result' => "អត្ថបទ​ទំព័រ​.<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-showreferences-description' => 'បង្ហាញ​ឯកសារ​យោង​',
+	'wikieditor-toolbar-help-content-showreferences-result' => "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>អត្ថបទតំណភ្ជាប់/a>, អត្ថបទបន្ថែម។</li></ol>",
 	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'ហត្ថលេខា​ ជាមួយនឹង​ត្រាពេលវេលា​',
 	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>អត្តនាម</a> (<a href='#' title='{{#special:mytalk}}'>ការពិភាក្សា</a>) ១៥:៥៤, ១០ មិថុនា ២០០៩ (UTC)",
 	'wikieditor-toolbar-help-content-signature-description' => 'ហត្ថលេខា​',
@@ -12619,6 +12622,7 @@ $1:Beishpell.jpg|zweijte Beld-Täx',
 
 /** Kurdish (Latin) (Kurdî (Latin))
  * @author Erdal Ronahi
+ * @author George Animal
  */
 $messages['ku-latn'] = array(
 	'wikieditor-loading' => 'Bar dibe',
@@ -12627,10 +12631,13 @@ $messages['ku-latn'] = array(
 	'wikieditor-preview-loading' => 'Bar dibe…',
 	'wikieditor-publish-button-publish' => 'Weşandin',
 	'wikieditor-publish-button-cancel' => 'Betal',
+	'wikieditor-publish-dialog-minor' => 'Guhertina biçûk',
+	'wikieditor-publish-dialog-watch' => 'Vê rûpelê bişopîne',
 	'wikieditor-publish-dialog-publish' => 'Weşandin',
 	'wikieditor-publish-dialog-goback' => 'Vegere',
 	'wikieditor-template-editor-dialog-submit' => 'Rojanekirin',
 	'wikieditor-template-editor-dialog-cancel' => 'Betal',
+	'wikieditor-toc-show' => 'Naverrokan nîşan bide',
 	'wikieditor-toolbar-loading' => 'Bar dibe…',
 	'wikieditor-toolbar-tool-bold' => 'Qalind',
 	'wikieditor-toolbar-tool-bold-example' => 'Nivîsa qalind',
@@ -12645,6 +12652,7 @@ $messages['ku-latn'] = array(
 	'wikieditor-toolbar-tool-link-cancel' => 'Betal',
 	'wikieditor-toolbar-tool-link-int-target-status-exists' => 'Rûpel heye',
 	'wikieditor-toolbar-tool-link-int-target-status-notexists' => 'Rûpel tune',
+	'wikieditor-toolbar-tool-link-lookslikeinternal-ext' => 'Lînka derve',
 	'wikieditor-toolbar-tool-file-example' => 'Mînak.jpg',
 	'wikieditor-toolbar-tool-reference' => 'Referans',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Betal',
@@ -12662,6 +12670,7 @@ $messages['ku-latn'] = array(
 	'wikieditor-toolbar-tool-heading-example' => 'Teksta sernivîsê',
 	'wikieditor-toolbar-group-format' => 'Teşe',
 	'wikieditor-toolbar-tool-nowiki-example' => 'Nivîs ku nebe formatkirin li vir têxe',
+	'wikieditor-toolbar-tool-redirect' => 'Redirect',
 	'wikieditor-toolbar-tool-redirect-example' => 'Navê rûpela hedef',
 	'wikieditor-toolbar-tool-big' => 'Mezin',
 	'wikieditor-toolbar-tool-small' => 'Biçûk',
@@ -12708,6 +12717,7 @@ $messages['ku-latn'] = array(
 	'wikieditor-toolbar-help-content-bolditalic-description' => 'Qalind û îtalîk',
 	'wikieditor-toolbar-help-content-bolditalic-result' => '<strong><em>Nivîsa qalind û îtalîk</em></strong>',
 	'wikieditor-toolbar-help-content-ilink-description' => 'Lînka hundirî',
+	'wikieditor-toolbar-help-content-xlink-description' => 'Lînka derve',
 	'wikieditor-toolbar-help-content-reference-description' => 'Referans',
 	'wikieditor-toolbar-help-content-signature-description' => 'Îmze',
 );
