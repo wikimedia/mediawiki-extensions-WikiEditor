@@ -607,7 +607,7 @@ context.fn = $.extend( context.fn, {
 				'frameBorder': 0,
 				'border': 0,
 				'tabindex': 1,
-				'src': wgScriptPath + '/extensions/WikiEditor/modules/jquery.wikiEditor.html?' +
+				'src': wgExtensionAssetsPath + '/WikiEditor/modules/jquery.wikiEditor.html?' +
 					'instance=' + context.instance + '&ts=' + ( new Date() ).getTime() + '&is=content',
 				'id': 'wikiEditor-iframe-' + context.instance
 			} )

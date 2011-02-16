@@ -75,7 +75,7 @@ $.wikiEditor = {
 	 * Path to images - this is a bit messy, and it would need to change if this code (and images) gets moved into the
 	 * core - or anywhere for that matter...
 	 */
-	'imgPath' : wgScriptPath + '/extensions/WikiEditor/modules/images/',
+	'imgPath' : wgExtensionAssetsPath + '/WikiEditor/modules/images/',
 	/**
 	 * Checks the current browser against the browsers object to determine if the browser has been black-listed or not.
 	 * Because these rules are often very complex, the object contains configurable operators and can check against
