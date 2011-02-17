@@ -41,6 +41,7 @@ class WikiEditorHooks {
 			),
 			'requirements' => array(
 				'usebetatoolbar-cgd' => true,
+				'usebetatoolbar' => true,
 			),
 			'modules' => array(
 				'ext.wikiEditor.dialogs',
