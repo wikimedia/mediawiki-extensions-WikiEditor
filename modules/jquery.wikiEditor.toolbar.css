@@ -241,7 +241,7 @@
 }
 .wikiEditor-ui-toolbar .section-help .page-table td.cell-syntax,
 .wikiEditor-ui-toolbar .section-help .page-table td.syntax {
-	font-family: monospace;
+	font-family: monospace, "Courier New";
 }
 .wikiEditor-ui-toolbar .section-help .page-table td.syntax,
 .wikiEditor-ui-toolbar .section-help .page-table td.cell-syntax,
@@ -267,7 +267,7 @@
 	color: black;
 	text-decoration: none;
 	cursor: pointer;
-	font-family: monospace;
+	font-family: monospace, "Courier New";
 	font-size: 1.25em;
 }
 .wikiEditor-ui-toolbar .page-characters div[dir=rtl] span {
