@@ -1716,6 +1716,17 @@ $messages['as'] = array(
 	'wikieditor-toolbar-tool-file-example' => 'Example.jpg',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author PPerviz
+ */
+$messages['az'] = array(
+	'wikieditor-toolbar-section-characters' => 'Xüsusi işarələr',
+	'wikieditor-toolbar-section-help' => 'Kömək',
+	'wikieditor-toolbar-help-content-italic-description' => 'Kursiv',
+	'wikieditor-toolbar-help-content-italic-syntax' => "''Kursiv mətn''",
+	'wikieditor-toolbar-help-content-italic-result' => '<em>Kursiv mətn</em>',
+);
+
 /** Bashkir (Башҡортса)
  * @author Assele
  */
@@ -20956,7 +20967,7 @@ $1:пример2.jpg|Наслов2',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Синхала',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Гуџарати',
 	'wikieditor-toolbar-characters-page-thai' => 'Тајландски',
-	'wikieditor-toolbar-characters-page-lao' => 'Лаошки',
+	'wikieditor-toolbar-characters-page-lao' => 'Лаоски',
 	'wikieditor-toolbar-characters-page-khmer' => 'Кмерски',
 	'wikieditor-toolbar-section-help' => 'Помоћ',
 	'wikieditor-toolbar-help-heading-description' => 'Опис',
