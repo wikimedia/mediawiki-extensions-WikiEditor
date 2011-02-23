@@ -270,7 +270,9 @@ if ( !context || typeof context == 'undefined' ) {
 			}
 			for ( var module in modules ) {
 				// Check for the existance of an available / supported module with a matching name and a create function
-				if ( typeof module == 'string' && $.wikiEditor.isSupported( $.wikiEditor.modules[module] ) ) {
+				if ( typeof module == 'string' && typeof $.wikiEditor.modules[module] !== 'undefined' && 
+						$.wikiEditor.isSupported( $.wikiEditor.modules[module] ) )
+				{
 					// Extend the context's core API with this module's own API calls
 					if ( 'api' in $.wikiEditor.modules[module] ) {
 						for ( var call in $.wikiEditor.modules[module].api ) {
