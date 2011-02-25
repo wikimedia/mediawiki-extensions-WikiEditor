@@ -158,9 +158,17 @@ class WikiEditorHooks {
 		),
 	);
 	
-	/* Protected Static Methods */
+	/* Static Methods */
 	
-	protected static function isEnabled( $name ) {
+	/**
+	 * Checks if a certain option is enabled
+	 *
+	 * This method is public to allow other extensions that use WikiEditor to use the
+	 * same configuration as WikiEditor itself
+	 *
+	 * @param $name Name of the feature, should be a key of $features
+	 */
+	public static function isEnabled( $name ) {
 		global $wgWikiEditorFeatures, $wgUser;
 		
 		// Features with global set to true are always enabled
@@ -182,8 +190,6 @@ class WikiEditorHooks {
 		// Features controlled by $wgWikiEditorFeatures with both global and user set to false are awlways disabled 
 		return false;
 	}
-	
-	/* Static Methods */
 	
 	/**
 	 * EditPage::showEditForm:initial hook
