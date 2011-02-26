@@ -1720,8 +1720,22 @@ $messages['as'] = array(
  * @author PPerviz
  */
 $messages['az'] = array(
+	'prefs-beta' => 'Beta xüsusiyyətlər',
+	'wikieditor-wikitext-tab' => 'Vikimətn',
+	'wikieditor-toolbar-tool-reference-insert' => 'Yerləşdirmək',
+	'wikieditor-toolbar-tool-reference-text' => 'İstinad mətn',
+	'wikieditor-toolbar-tool-signature' => 'İmza və vaxt qeydi',
+	'wikieditor-toolbar-section-advanced' => 'Ətraflı',
+	'wikieditor-toolbar-tool-heading' => 'Başlıq',
+	'wikieditor-toolbar-tool-heading-1' => 'Səviyyə 1',
+	'wikieditor-toolbar-tool-heading-2' => 'Səviyyə 2',
+	'wikieditor-toolbar-tool-heading-3' => 'Səviyyə 3',
+	'wikieditor-toolbar-tool-heading-4' => 'Səviyyə 4',
+	'wikieditor-toolbar-tool-heading-5' => 'Səviyyə 5',
+	'wikieditor-toolbar-tool-heading-example' => 'Başlıq mətni',
 	'wikieditor-toolbar-section-characters' => 'Xüsusi işarələr',
 	'wikieditor-toolbar-characters-page-latin' => 'Latın',
+	'wikieditor-toolbar-characters-page-latinextended' => 'Latın genişləndirilmiş',
 	'wikieditor-toolbar-characters-page-symbols' => 'Simvollar',
 	'wikieditor-toolbar-characters-page-greek' => 'Yunan',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'Kiril',
@@ -1731,6 +1745,7 @@ $messages['az'] = array(
 	'wikieditor-toolbar-characters-page-bangla' => 'Benqal',
 	'wikieditor-toolbar-characters-page-telugu' => 'Teluqu',
 	'wikieditor-toolbar-characters-page-thai' => 'Tay',
+	'wikieditor-toolbar-characters-page-lao' => 'Lao',
 	'wikieditor-toolbar-section-help' => 'Kömək',
 	'wikieditor-toolbar-help-heading-description' => 'Təsvir',
 	'wikieditor-toolbar-help-heading-syntax' => 'Yazdığınız',
@@ -1782,6 +1797,16 @@ $messages['az'] = array(
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Səhifənin mətni.&lt;ref name="test"&gt;[http://www.example.org Keçidin mətni], əlavə mətnt.&lt;/ref&gt;',
 	'wikieditor-toolbar-help-content-reference-result' => "Səhifənin mətni.<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-rereference-description' => 'Eyni istinaddan istifadənin əlavəsi',
+	'wikieditor-toolbar-help-content-rereference-result' => "Səhifə mətni.<sup><a href='#'>[1]</a></sup>",
+	'wikieditor-toolbar-help-content-showreferences-description' => 'İstinadları göstər',
+	'wikieditor-toolbar-help-content-showreferences-result' => "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Keçid mətni</a>, əlavə mətn.</li></ol>",
+	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'Vaxt qeydi ilə imza',
+	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>İstifadəçi adı</a> (<a href='#' title='{{#special:mytalk}}'>müzakirə</a>) 15:54, 10 iyun 2009 (UTC)",
+	'wikieditor-toolbar-help-content-signature-description' => 'İmza',
+	'wikieditor-toolbar-help-content-signature-result' => "<a href='#' title='{{#special:mypage}}'>İstifadəçi adı</a> (<a href='#' title='{{#special:mytalk}}'>müzakirə</a>)",
+	'wikieditor-toolbar-help-content-indent-description' => 'Abzas',
+	'wikieditor-toolbar-help-content-indent-syntax' => 'Normal mətn<br />:Abzasla mətn<br />::Abzasla mətn',
+	'wikieditor-toolbar-help-content-indent-result' => 'Normal mətn<dl><dd>Abzasla mətn<dl><dd>Abzasla mətn</dd></dl></dd></dl>',
 );
 
 /** Bashkir (Башҡортса)
