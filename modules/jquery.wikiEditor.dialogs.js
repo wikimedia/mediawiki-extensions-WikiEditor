@@ -84,7 +84,12 @@ fn: {
 					}
 				}
 			}
-			if ( !filtered && $.wikiEditor.isSupported( module ) && $( '#' + module.id ).size() == 0 ) {
+			// If the dialog already exists, but for another textarea, simply remove it
+			var $existingDialog = $( '#' + module.id );
+			if ( $existingDialog.size() > 0 && $existingDialog.data( 'context' ).$textarea != context.$textarea ) {
+				$existingDialog.remove();
+			}
+			if ( !filtered && $.wikiEditor.isSupported( module ) && $existingDialog.size() == 0 ) {
 				$.wikiEditor.modules.dialogs.modules[mod] = module;
 				// If this dialog requires the iframe, set it up
 				if ( typeof context.$iframe == 'undefined' && $.wikiEditor.isRequired( module, 'iframe' ) ) {
