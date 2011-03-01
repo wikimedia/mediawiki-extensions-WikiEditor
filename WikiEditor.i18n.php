@@ -1452,6 +1452,7 @@ $1:Example.jpg|تعليق2',
 );
 
 /** Aramaic (ܐܪܡܝܐ)
+ * @author Basharh
  * @author Michaelovic
  */
 $messages['arc'] = array(
@@ -1461,13 +1462,17 @@ $messages['arc'] = array(
 	'wikieditor-toolbar-tool-italic-example' => 'ܟܬܒܬܐ ܦܠܝܡܬܐ',
 	'wikieditor-toolbar-tool-ilink' => 'ܐܣܘܪܐ ܓܘܝܐ',
 	'wikieditor-toolbar-tool-xlink' => 'ܐܣܘܪܐ ܒܪܝܐ (ܕܟܘܪ http:// ܩܕܡܝܬܐ)',
+	'wikieditor-toolbar-section-advanced' => 'ܡܬܩܕܡܢܐ',
 	'wikieditor-toolbar-tool-heading-1' => 'ܫܘܝܐ 1',
 	'wikieditor-toolbar-tool-heading-2' => 'ܫܘܝܐ 2',
 	'wikieditor-toolbar-tool-heading-3' => 'ܫܘܝܐ 3',
 	'wikieditor-toolbar-tool-heading-4' => 'ܫܘܝܐ 4',
 	'wikieditor-toolbar-tool-heading-5' => 'ܫܘܝܐ 5',
+	'wikieditor-toolbar-tool-redirect' => 'ܨܘܝܒܐ',
 	'wikieditor-toolbar-tool-table' => 'ܠܘܚܝܬܐ',
 	'wikieditor-toolbar-tool-table-example' => 'ܡܬܠܐ',
+	'wikieditor-toolbar-tool-table-preview' => 'ܚܝܪܐ ܩܕܡܝܐ',
+	'wikieditor-toolbar-section-characters' => 'ܐܬܘܬ̈ܐ ܕܝܠܢܝܬ̈ܐ',
 	'wikieditor-toolbar-characters-page-latin' => 'ܠܐܛܝܢܝܬ',
 	'wikieditor-toolbar-characters-page-symbols' => 'ܪ̈ܡܙܐ',
 	'wikieditor-toolbar-characters-page-greek' => 'ܝܘܢܝܬ',
