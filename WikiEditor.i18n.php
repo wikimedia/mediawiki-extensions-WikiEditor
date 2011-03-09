@@ -1465,6 +1465,8 @@ $messages['arc'] = array(
 	'wikieditor-template-editor-dialog-title' => 'ܫܚܠܦ ܩܠܒܐ',
 	'wikieditor-template-editor-dialog-submit' => 'ܚܕܬ',
 	'wikieditor-template-editor-dialog-cancel' => 'ܒܛܘܠ',
+	'wikieditor-toc-show' => 'ܚܘܝ ܚܒܝܫܬ̈ܐ',
+	'wikieditor-toc-hide' => 'ܛܫܝ ܚܒܝܫܬ̈ܐ',
 	'wikieditor-toolbar-tool-bold' => 'ܥܒܝܬܐ',
 	'wikieditor-toolbar-tool-bold-example' => 'ܟܬܒܬܐ ܥܒܝܬܐ',
 	'wikieditor-toolbar-tool-italic' => 'ܦܠܝܡܬܐ',
@@ -1474,6 +1476,13 @@ $messages['arc'] = array(
 	'wikieditor-toolbar-tool-xlink' => 'ܐܣܘܪܐ ܒܪܝܐ (ܕܟܘܪ http:// ܩܕܡܝܬܐ)',
 	'wikieditor-toolbar-tool-link' => 'ܐܣܘܪܐ',
 	'wikieditor-toolbar-tool-link-title' => 'ܣܢܘܦ ܐܣܘܪܐ',
+	'wikieditor-toolbar-tool-link-int' => 'ܠܦܐܬܐ ܕܘܝܩܝ',
+	'wikieditor-toolbar-tool-link-insert' => 'ܣܢܘܦ ܐܣܘܪܐ',
+	'wikieditor-toolbar-tool-link-cancel' => 'ܒܛܘܠ',
+	'wikieditor-toolbar-tool-link-int-target-status-exists' => 'ܦܐܬܐ ܗܕܐ ܐܝܬ',
+	'wikieditor-toolbar-tool-link-int-target-status-notexists' => 'ܦܐܬܐ ܗܕܐ ܠܝܬ',
+	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'ܟܘܢܝܐ ܠܐ ܬܪܝܨܐ',
+	'wikieditor-toolbar-tool-link-int-target-status-external' => 'ܐܣܘܪܐ ܒܪܝܐ',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => 'ܐܣܘܪܐ ܓܘܝܐ',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-ext' => 'ܐܣܘܪܐ ܒܪܝܐ',
 	'wikieditor-toolbar-tool-reference-cancel' => 'ܒܛܘܠ',
@@ -1493,7 +1502,8 @@ $messages['arc'] = array(
 	'wikieditor-toolbar-tool-table-title' => 'ܣܢܦܐ ܕܠܘܚܝܬܐ',
 	'wikieditor-toolbar-tool-table-example' => 'ܡܬܠܐ',
 	'wikieditor-toolbar-tool-table-preview' => 'ܚܝܪܐ ܩܕܡܝܐ',
-	'wikieditor-toolbar-tool-table-insert' => 'ܣܢܦ',
+	'wikieditor-toolbar-tool-table-insert' => 'ܣܢܘܦ',
+	'wikieditor-toolbar-tool-table-cancel' => 'ܒܛܘܠ',
 	'wikieditor-toolbar-section-characters' => 'ܐܬܘܬ̈ܐ ܕܝܠܢܝܬ̈ܐ',
 	'wikieditor-toolbar-characters-page-latin' => 'ܠܐܛܝܢܐܝܬ',
 	'wikieditor-toolbar-characters-page-latinextended' => 'ܠܐܛܝܢܐܝܬ ܡܬܝܚܐ',
@@ -6670,6 +6680,7 @@ $1:Ekzemplo.jpg|Teksto2 pri dosiero',
  * @author Crazymadlover
  * @author Imre
  * @author Locos epraix
+ * @author McDutchie
  * @author PerroVerd
  * @author Pertile
  * @author Peter17
@@ -6889,7 +6900,7 @@ $1:Ejemplo.jpg|Descripción2',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Listar item<br /># Listar item',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Listar item</li><li>Listar item</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Archivo empotrado',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Ejemplo.png|thumb|Leyenda de texto]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Ejemplo.png|thumb|Texto de la leyenda]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Texto leyenda</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referencia',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Texto de página.&lt;ref name="test"&gt;[http://www.example.org Texto de vínculo], texto adicional.&lt;/ref&gt;',
@@ -11296,6 +11307,7 @@ Viltu gera hana að innri tengli?',
  * @author F. Cosoleto
  * @author Gianfranco
  * @author Gliu
+ * @author McDutchie
  * @author PaoloRomano
  * @author Una giornata uggiosa '94
  * @author Vituzzu
@@ -11513,7 +11525,7 @@ $1:Esempio.jpg|Didascalia2',
 	'wikieditor-toolbar-help-content-olist-syntax' => "# Elemento dell'elenco<br /># Elemento dell'elenco",
 	'wikieditor-toolbar-help-content-olist-result' => "<ol><li>Elemento dell'elenco</li><li>Elemento dell'elenco</li></ol>",
 	'wikieditor-toolbar-help-content-file-description' => 'File incorporato',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Testo della didascalia]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Esempio.png|thumb|Testo della didascalia]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Testo della didascalia</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Nota',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Testo della pagina.&lt;ref name="test"&gt;[http://www.example.org Testo del collegamento], testo aggiuntivo.&lt;/ref&gt;',
