@@ -38,11 +38,7 @@ $wgWikiEditorFeatures = array(
 	'templateEditor' => array( 'global' => false, 'user' => false ),
 	// Bare-bones (probably broken) template collapsing
 	'templates' => array( 'global' => false, 'user' => false ),
-	
-	/* Unknown status */
-	
-	// Adds the AddMediaWizard gadget to the toolbar
-	'addMediaWizard' => array( 'global' => false, 'user' => false ),
+
 );
 
 /* Setup */
