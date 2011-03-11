@@ -80,21 +80,6 @@ class WikiEditorHooks {
 				'ext.wikiEditor.templates',
 			),
 		),
-		'addMediaWizard' => array(
-			'preferences' => array(
-			 	'addmediawizard-gadget' => array(
-					'type' => 'toggle',
-					'label-message' => 'wikieditor-addMediaWizard-preference',
-					'section' => 'editing/labs',
-				),
-			),
-			'requirements' => array(
-				'addmediawizard-gadget' => true,
-			),
-			'modules' => array(
-				'ext.wikiEditor.addMediaWizard',
-			),
-		),
 		'preview' => array(
 			'preferences' => array(
 				'wikieditor-preview' => array(
