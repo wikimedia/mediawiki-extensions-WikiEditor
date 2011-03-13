@@ -224,7 +224,7 @@ class WikiEditorHooks {
 	 * 
 	 * Adds enabled/disabled switches for WikiEditor modules
 	 */
-	public static function makeGlobalVariablesScript( &$vars ) {
+	public static function resourceLoaderGetConfigVars( &$vars ) {
 		global $wgWikiEditorFeatures;
 		
 		$configurations = array();
