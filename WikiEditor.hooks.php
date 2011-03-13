@@ -244,4 +244,17 @@ class WikiEditorHooks {
 		}
 		return true;
 	}
+	
+	public static function makeGlobalVariablesScript( &$vars ) {
+		global $wgWikiEditorFeatures;
+		
+		// Build and export old-style wgWikiEditorEnabledModules object for back compat
+		$enabledModules = array();
+		foreach ( self::$features as $name => $feature ) {
+			$enabledModules[$name] = self::isEnabled( $name );
+		}
+		
+		$vars['wgWikiEditorEnabledModules'] = $enabledModules;
+		return true;
+	}
 }
