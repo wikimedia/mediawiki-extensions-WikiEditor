@@ -15082,6 +15082,7 @@ $1:Example.jpg|चित्रपरिचय २',
 );
 
 /** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
  * @author Aurora
  * @author Aviator
  * @author CoolCityCat
@@ -15301,7 +15302,7 @@ $1:Contoh.jpg|Sari kata 2',
 # Perkara senarai',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Perkara senarai</li><li>Perkara senarai</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Fail terbenam',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Contoh.png|thumb|Teks judul pendek]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Contoh.png|thumb|Teks kapsyen]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Teks kapsyen' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Besarkan' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Teks kapsyen</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Rujukan',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Teks laman.&lt;ref nama="cubaan"&gt;[http://www.contoh.org Teks pautan], teks tambahan.&lt;/ref&gt;',
