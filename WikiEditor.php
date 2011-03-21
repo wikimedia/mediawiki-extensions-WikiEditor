@@ -18,11 +18,14 @@
 // Each module may be configured individually to be globally on/off or user preference based
 $wgWikiEditorFeatures = array(
 	
-	/* Textarea / i-frame compatible (probably deployable) */
+	/* Textarea / i-frame compatible (OK to deploy) */
 	
 	'toolbar' => array( 'global' => false, 'user' => true ),
 	// Provides interactive tools
 	'dialogs' => array( 'global' => false, 'user' => true ),
+	
+	/* Textarea / i-frame compatible, but still experimental and unstable (do not deploy!) */
+	
 	// Adds a tab for previewing in-line
 	'preview' => array( 'global' => false, 'user' => true ),
 	// Adds a button for previewing in a dialog
