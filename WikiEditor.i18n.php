@@ -13913,6 +13913,13 @@ $1:Pavyzdys.jpg|Aprašymas2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Normalus tekstas<dl><dd>Įtrauktas tekstas<dl><dd>Įtrauktas tekstas</dd></dl></dd></dl>',
 );
 
+/** Latgalian (Latgaļu)
+ * @author Dark Eagle
+ */
+$messages['ltg'] = array(
+	'wikieditor-template-editor-dialog-submit' => 'Atjaunynuot',
+);
+
 /** Latvian (Latviešu)
  * @author Marozols
  * @author Papuass
@@ -21208,7 +21215,7 @@ $1:primer2.jpg|Naslov2',
 	'wikieditor-toolbar-tool-replace-close' => 'Zatvori',
 	'wikieditor-toolbar-tool-replace-success' => 'Napravljenih zamena: $1.',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'Niste uneli ništa za pretragu.',
-	'wikieditor-toolbar-section-characters' => 'Posebni karakteri',
+	'wikieditor-toolbar-section-characters' => 'Posebni znakovi',
 	'wikieditor-toolbar-characters-page-latin' => 'latinica',
 	'wikieditor-toolbar-characters-page-latinextended' => 'proširena latinica',
 	'wikieditor-toolbar-characters-page-ipa' => 'IPA',
