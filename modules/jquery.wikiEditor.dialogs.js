@@ -172,7 +172,7 @@ fn: {
 		$(this).css( 'white-space', 'nowrap' );
 		if ( wrapper.width() <= $(this).get(0).scrollWidth ) {
 			var thisWidth = $(this).data( 'thisWidth' ) ? $(this).data( 'thisWidth' ) : 0;
-			thisWidth = Math.max( $(this).get(0).scrollWidth, thisWidth );
+			thisWidth = Math.max( $(this).get(0).width, thisWidth );
 			$(this).width( thisWidth );
 			$(this).data( 'thisWidth', thisWidth );
 			var wrapperWidth = $(this).data( 'wrapperWidth' ) ? $(this).data( 'wrapperWidth' ) : 0;
