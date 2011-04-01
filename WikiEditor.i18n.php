@@ -15155,7 +15155,7 @@ $messages['ms'] = array(
 	'wikieditor-toolbar-tool-link-ext-target' => 'Pautan URL:',
 	'wikieditor-toolbar-tool-link-ext-text' => 'Teks pautan:',
 	'wikieditor-toolbar-tool-link-insert' => 'Sisip pautan',
-	'wikieditor-toolbar-tool-link-cancel' => 'Batal',
+	'wikieditor-toolbar-tool-link-cancel' => 'Batalkan',
 	'wikieditor-toolbar-tool-link-int-target-status-exists' => 'Laman wujud',
 	'wikieditor-toolbar-tool-link-int-target-status-notexists' => 'Laman tidak wujud',
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Tajuk tidak sah',
@@ -15170,7 +15170,7 @@ $messages['ms'] = array(
 	'wikieditor-toolbar-tool-file-example' => 'Contoh.jpg',
 	'wikieditor-toolbar-tool-reference' => 'Rujukan',
 	'wikieditor-toolbar-tool-reference-example' => 'Sisip nota kaki di sini',
-	'wikieditor-toolbar-tool-reference-cancel' => 'Batal',
+	'wikieditor-toolbar-tool-reference-cancel' => 'Batalkan',
 	'wikieditor-toolbar-tool-reference-title' => 'Sisip rujukan',
 	'wikieditor-toolbar-tool-reference-insert' => 'Sisip',
 	'wikieditor-toolbar-tool-reference-text' => 'Teks rujukan',
@@ -15231,7 +15231,7 @@ $1:Contoh.jpg|Sari kata 2',
 	'wikieditor-toolbar-tool-table-example' => 'Teks sel',
 	'wikieditor-toolbar-tool-table-preview' => 'Pralihat',
 	'wikieditor-toolbar-tool-table-insert' => 'Sisip',
-	'wikieditor-toolbar-tool-table-cancel' => 'Batal',
+	'wikieditor-toolbar-tool-table-cancel' => 'Batalkan',
 	'wikieditor-toolbar-tool-table-toomany' => 'Memasukkan jadual dengan lebih $1 sel tidak dibenarkan dengan dialog ini.',
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'Anda tidak menyertakan nombor yang sah untuk bilangan baris dan lajur.',
 	'wikieditor-toolbar-tool-table-zero' => 'Anda tidak boleh menyisipkan jadual dengan baris atau lajur sifar.',
@@ -23283,6 +23283,7 @@ $1:Örnek.jpg|Resimyazısı2',
 );
 
 /** Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
+ * @author Bulatbulat
  * @author Ильнар
  * @author Рашат Якупов
  */
@@ -23511,7 +23512,7 @@ $1:Мисал.jpg|Тасвирлама2',
 	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'Имза (куелган вакыт белән)',
 	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>Кулланучы исеме</a> (<a href='#' title='{{#special:mytalk}}'>бәхәс</a>) 15:54, 10 июнь 2009 (UTC)",
 	'wikieditor-toolbar-help-content-signature-description' => 'Имза',
-	'wikieditor-toolbar-help-content-signature-result' => "<a href='#' title='{{#special:mypage}}'>Кулланучы исемеa> (<a href='#' title='{{#special:mytalk}}'>бәхәс</a>)",
+	'wikieditor-toolbar-help-content-signature-result' => "<a href='#' title='{{#special:mypage}}'>Кулланучы исеме</a> (<a href='#' title='{{#special:mytalk}}'>бәхәс</a>)",
 	'wikieditor-toolbar-help-content-indent-description' => 'Чигенеш',
 	'wikieditor-toolbar-help-content-indent-syntax' => 'Гади текст<br />:Чигенешле текст<br />::Чигенешле текст',
 	'wikieditor-toolbar-help-content-indent-result' => 'Гади текст<dl><dd>Чигенешле текст<dl><dd>Чигенешле текст</dd></dl></dd></dl>',
