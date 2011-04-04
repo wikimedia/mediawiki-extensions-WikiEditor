@@ -571,6 +571,12 @@ getDefaultConfig: function() {
 							}
 						},
 						{
+							'label': "\u201e\u201d",
+							'action': {
+								'type': 'encapsulate', 'options': { 'pre': "\u201e", 'post': "\u201d" }
+							}
+						},
+						{
 							'label': "\u00ab\u00bb",
 							'action': {
 								'type': 'encapsulate', 'options': { 'pre': "\u00ab", 'post': "\u00bb" }
