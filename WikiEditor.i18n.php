@@ -1031,7 +1031,7 @@ $messages['an'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Texto en subéndiz',
 	'wikieditor-toolbar-group-insert' => 'Insertar',
 	'wikieditor-toolbar-tool-gallery' => "Galería d'imachens",
-	'wikieditor-toolbar-tool-gallery-example' => '↓ $1:Eixemplo.jpg|Piet_de_foto_1
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Eixemplo.jpg|Piet_de_foto_1
 $1:Eixemplo.jpg|Piet_de_foto_2',
 	'wikieditor-toolbar-tool-newline' => 'Nueva linia',
 	'wikieditor-toolbar-tool-table' => 'Tabla',
@@ -12105,7 +12105,7 @@ $messages['km'] = array(
 $1:ឧទាហរណ៍.jpg|ចំនងជើងក្រោមរូបភាព២',
 	'wikieditor-toolbar-tool-newline' => 'ចុះបន្ទាត់',
 	'wikieditor-toolbar-tool-table' => 'តារាង',
-	'wikieditor-toolbar-tool-table-example-old' => '↓ -
+	'wikieditor-toolbar-tool-table-example-old' => '-
 ! ឈ្មោះជួរឈរ 1
 ! ឈ្មោះជួរឈរ 2
 ! ឈ្មោះជួរឈរ 3
@@ -15074,7 +15074,7 @@ $1:Example.jpg|चित्रपरिचय २',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>यादी घटक</li><li>यादी घटक</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'संलग्न संचिका',
 	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|मथळा मजकूर]]',
-	'wikieditor-toolbar-help-content-file-result' => "↓ <div style='width:104px;' class='thumbinner'><a title='मथळा मजकूर' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Caption text</div></div>
+	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='मथळा मजकूर' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Caption text</div></div>
 <div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Caption text</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'संदर्भ',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Page text.&lt;ref name="test"&gt;[http://www.example.org Link text], additional text.&lt;/ref&gt;',
@@ -15088,7 +15088,7 @@ $1:Example.jpg|चित्रपरिचय २',
 	'wikieditor-toolbar-help-content-signature-description' => 'सही',
 	'wikieditor-toolbar-help-content-signature-result' => "<a href='#' title='{{#विशेष:माझेसदस्यपान}}'>सदस्यनाव</a> (<a href='#' title='{{#विशेष:माझ्याचर्चा}}'>चर्चा</a>)",
 	'wikieditor-toolbar-help-content-indent-description' => 'समासांतर',
-	'wikieditor-toolbar-help-content-indent-syntax' => '↓ सामान्य मजकूर<br />:समासीत मजकूर<br />::समासीत मजकूर',
+	'wikieditor-toolbar-help-content-indent-syntax' => 'सामान्य मजकूर<br />:समासीत मजकूर<br />::समासीत मजकूर',
 	'wikieditor-toolbar-help-content-indent-result' => 'सामान्य मजकूर<dl><dd>समासीत मजकूर<dl><dd>समासीत मजकूर</dd></dl></dd></dl>',
 );
 
@@ -15263,9 +15263,9 @@ $1:Contoh.jpg|Sari kata 2',
 	'wikieditor-toolbar-characters-page-telugu' => 'Telugu',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Sinhala',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Gujarati',
-	'wikieditor-toolbar-characters-page-thai' => '↓ Thai',
-	'wikieditor-toolbar-characters-page-lao' => '↓ Lao',
-	'wikieditor-toolbar-characters-page-khmer' => '↓ Khmer',
+	'wikieditor-toolbar-characters-page-thai' => 'Thai',
+	'wikieditor-toolbar-characters-page-lao' => 'Lao',
+	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
 	'wikieditor-toolbar-section-help' => 'Bantuan',
 	'wikieditor-toolbar-help-heading-description' => 'Keterangan',
 	'wikieditor-toolbar-help-heading-syntax' => 'Yang ditaip',
@@ -17326,7 +17326,7 @@ $1:Esempi.jpg|Descrission2',
 	'wikieditor-toolbar-tool-replace-button-findnext' => "Trové col ch'a-i ven dòp",
 	'wikieditor-toolbar-tool-replace-button-replacenext' => "Rampiassé col ch'a-i ven dòp",
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Rampiassé tut',
-	'wikieditor-toolbar-tool-replace-close' => '↓ Sara',
+	'wikieditor-toolbar-tool-replace-close' => 'Sara',
 	'wikieditor-toolbar-tool-replace-nomatch' => "Soa arserca a l'ha nen trovà 'd corëspondense.",
 	'wikieditor-toolbar-tool-replace-success' => '$1 sostitussion fàite.',
 	'wikieditor-toolbar-tool-replace-emptysearch' => "A l'ha butà gnun test da arserché.",
