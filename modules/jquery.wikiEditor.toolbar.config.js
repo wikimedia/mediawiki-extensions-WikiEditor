@@ -270,7 +270,8 @@ getDefaultConfig: function() {
 									'pre': "* ",
 									'periMsg': 'wikieditor-toolbar-tool-ulist-example',
 									'post': "",
-									'ownline': true
+									'ownline': true,
+									'splitlines': true
 								}
 							}
 						},
@@ -285,7 +286,8 @@ getDefaultConfig: function() {
 									'pre': "# ",
 									'periMsg': 'wikieditor-toolbar-tool-olist-example',
 									'post': "",
-									'ownline': true
+									'ownline': true,
+									'splitlines': true
 								}
 							}
 						},
