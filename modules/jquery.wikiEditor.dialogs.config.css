@@ -64,9 +64,6 @@ body.rtl .wikieditor-toolbar-table-dimension-fields .wikieditor-toolbar-field-wr
 	float: left;
 	line-height: 1.7em;
 }
-#wikieditor-toolbar-link-int-target-status-loading {
-	line-height: 1.7em;
-}
 #wikieditor-toolbar-link-int-target-status-exists,
 #wikieditor-toolbar-link-int-target-status-notexists,
 #wikieditor-toolbar-link-int-target-status-invalid,

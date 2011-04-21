@@ -323,7 +323,7 @@ getDefaultConfig: function () {
 					.append( $( '<div />' )
 						.attr( 'id', 'wikieditor-toolbar-link-int-target-status-loading' )
 						.append( $( '<img />' ).attr( {
-							'src': $.wikiEditor.imgPath + 'dialogs/' + 'loading.gif',
+							'src': $.wikiEditor.imgPath + 'dialogs/' + 'loading-small.gif',
 							'alt': loadingMsg,
 							'title': loadingMsg
 						} ) )
