@@ -170,7 +170,6 @@ getDefaultConfig: function() {
 						},
 						'signature': {
 							'labelMsg': 'wikieditor-toolbar-tool-signature',
-							'filters': [ 'body:not(.ns-0)' ],
 							'type': 'button',
 							'offset': [2, -1872],
 							'icon': 'insert-signature.png',

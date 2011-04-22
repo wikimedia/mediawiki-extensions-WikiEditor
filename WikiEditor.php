@@ -23,6 +23,8 @@ $wgWikiEditorFeatures = array(
 	'toolbar' => array( 'global' => false, 'user' => true ),
 	// Provides interactive tools
 	'dialogs' => array( 'global' => false, 'user' => true ),
+	// Hide signature button from main namespace
+	'hidesig' => array( 'global' => false, 'user' => false ),
 	
 	/* Textarea / i-frame compatible, but still experimental and unstable (do not deploy!) */
 	
@@ -496,5 +498,11 @@ $wgResourceModules += array(
 			'jquery.wikiEditor.toolbar.config',
 		)
 	),
-	
+	'ext.wikiEditor.toolbar.hideSig' => $wikiEditorTpl + array(
+		'scripts' => 'ext.wikiEditor.toolbar.hideSig.js',
+		'dependencies' => array(
+			'ext.wikiEditor',
+			'ext.wikiEditor.toolbar',
+		)
+	),
 );

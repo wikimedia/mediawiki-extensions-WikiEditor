@@ -55,6 +55,7 @@ $messages['en'] = array(
 	'wikieditor-toolbar-desc' => 'Edit page toolbar with enhanced usability',
 	'wikieditor-toolbar-preference' => 'Enable enhanced editing toolbar',
 	'wikieditor-toolbar-dialogs-preference' => 'Enable dialogs for inserting links, tables and more',
+	'wikieditor-toolbar-hidesig' => 'Hide the signature button from pages in the main namespace',
 	'wikieditor-toolbar-loading' => 'Loading...',
 	/* Toolbar - Main Section */
 	'wikieditor-toolbar-tool-bold' => 'Bold',

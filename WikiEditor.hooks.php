@@ -47,6 +47,22 @@ class WikiEditorHooks {
 				'ext.wikiEditor.dialogs',
 			),
 		),
+		'hidesig' => array(
+			'preferences' => array(
+				'wikieditor-toolbar-hidesig' => array(
+					'type' => 'toggle',
+					'label-message' => 'wikieditor-toolbar-hidesig',
+					'section' => 'editing/beta',
+				),
+			),
+			'requirements' => array(
+				'wikieditor-toolbar-hidesig' => true,
+				'usebetatoolbar' => true,
+			),
+			'modules' => array(
+				'ext.wikiEditor.toolbar.hideSig',
+			),
+		),
 		
 		/* Labs Features */
 		
