@@ -2417,6 +2417,7 @@ $messages['be-tarask'] = array(
 	'wikieditor-toolbar-desc' => 'Панэль інструмэнтаў для рэдагаваньня з палепшанай зручнасьцю',
 	'wikieditor-toolbar-preference' => 'Уключыць палепшаную панэль інструмэнтаў для рэдагаваньня',
 	'wikieditor-toolbar-dialogs-preference' => 'Дазволіць формы для ўстаўкі спасылак, табліцаў і іншых элемэнтаў',
+	'wikieditor-toolbar-hidesig' => 'Схаваць кнопку подпісу са старонак у асноўнай прасторы назваў',
 	'wikieditor-toolbar-loading' => 'Загрузка…',
 	'wikieditor-toolbar-tool-bold' => 'Тлусты',
 	'wikieditor-toolbar-tool-bold-example' => 'Тлусты тэкст',
@@ -4737,6 +4738,7 @@ $messages['cs'] = array(
 	'wikieditor-toolbar-desc' => 'Editační panel nástrojů s vylepšenou použitelností',
 	'wikieditor-toolbar-preference' => 'Zapnout vylepšený panel nástrojů',
 	'wikieditor-toolbar-dialogs-preference' => 'Používat dialogy pro vkládání odkazů, tabulek atd.',
+	'wikieditor-toolbar-hidesig' => 'Skrýt tlačítko podpisu na stránkách v hlavním jmenném prostoru',
 	'wikieditor-toolbar-loading' => 'Načítá se…',
 	'wikieditor-toolbar-tool-bold' => 'Tučně',
 	'wikieditor-toolbar-tool-bold-example' => 'Tučný text',
@@ -7411,6 +7413,7 @@ $1:Adibidea.jpg|Oina2',
  * @author Ebraminio
  * @author Huji
  * @author Ladsgroup
+ * @author Wayiran
  */
 $messages['fa'] = array(
 	'prefs-beta' => 'امکانات بتا',
@@ -7447,6 +7450,7 @@ $messages['fa'] = array(
 	'wikieditor-toolbar-desc' => 'نوار ابزار ویرایش صفحه با استفاده‌پذیری بالاتر',
 	'wikieditor-toolbar-preference' => 'فعال‌کردن نوارابزار ویرایش پیشرفته',
 	'wikieditor-toolbar-dialogs-preference' => 'فعال‌سازی پنجره‌های تعاملی برای وارد کردن پیوندها، جدول‌ها و غیره',
+	'wikieditor-toolbar-hidesig' => 'نهفتن دکمهٔ امضا از صفحات در فضای نام اصلی',
 	'wikieditor-toolbar-loading' => 'در حال بارگذاری...',
 	'wikieditor-toolbar-tool-bold' => 'ضخیم',
 	'wikieditor-toolbar-tool-bold-example' => 'متن ضخیم',
@@ -18879,6 +18883,7 @@ $messages['ru'] = array(
 	'wikieditor-toolbar-desc' => 'Панель редактирования с улучшенным юзабилити',
 	'wikieditor-toolbar-preference' => 'Включить улучшенную панель редактирования',
 	'wikieditor-toolbar-dialogs-preference' => 'Включить диалоги для вставки ссылок, таблиц и других объектов',
+	'wikieditor-toolbar-hidesig' => 'Скрыть кнопку подписи на страницах основного пространства имён',
 	'wikieditor-toolbar-loading' => 'Загрузка…',
 	'wikieditor-toolbar-tool-bold' => 'Полужирный',
 	'wikieditor-toolbar-tool-bold-example' => 'Полужирное начертание',
@@ -20507,6 +20512,7 @@ $messages['sl'] = array(
 	'wikieditor-toolbar-desc' => 'Urejevalna orodna vrstica z večjo uporabnostjo',
 	'wikieditor-toolbar-preference' => 'Omogoči izboljšano urejevalno vrstico',
 	'wikieditor-toolbar-dialogs-preference' => 'Omogoči pogovorna okna za vstavljanje povezav, tabel itn.',
+	'wikieditor-toolbar-hidesig' => 'Skrij gumb za podpis s strani v glavnem imenskem prostoru',
 	'wikieditor-toolbar-loading' => 'Nalaganje ...',
 	'wikieditor-toolbar-tool-bold' => 'Krepko',
 	'wikieditor-toolbar-tool-bold-example' => 'Krepko besedilo',
