@@ -3560,6 +3560,7 @@ $messages['br'] = array(
 	'wikieditor-toolbar-desc' => "Barrenn ostilhoù kemmañ aesoc'h da implijout",
 	'wikieditor-toolbar-preference' => 'Gweredekaat ar varrenn ostilhoù kemmañ gwellaet',
 	'wikieditor-toolbar-dialogs-preference' => 'Gweredekaat ar boestoù divizout evit ouzhpennañ liammoù, taolennoù ha traoù all',
+	'wikieditor-toolbar-hidesig' => 'Kuzhat ar bouton sinañ er pajennoù zo en esaouenn anv pennañ',
 	'wikieditor-toolbar-loading' => 'O kargañ...',
 	'wikieditor-toolbar-tool-bold' => 'Tev',
 	'wikieditor-toolbar-tool-bold-example' => 'Testenn dev',
@@ -3794,6 +3795,7 @@ $messages['bs'] = array(
 	'wikieditor-toolbar-desc' => 'Alatna traka stranice za uređivanje sa poboljšanom upotrebljivošću',
 	'wikieditor-toolbar-preference' => 'Omogući naprednu traku za uređivanje',
 	'wikieditor-toolbar-dialogs-preference' => 'Omogući dijaloge za dodavanje linkova, tabela i više',
+	'wikieditor-toolbar-hidesig' => 'Sakrij dugme potpisa sa stranica u glavnom imenskom prostoru',
 	'wikieditor-toolbar-loading' => 'Punjenje...',
 	'wikieditor-toolbar-tool-bold' => 'Podebljano',
 	'wikieditor-toolbar-tool-bold-example' => 'Podebljan tekst',
@@ -5274,6 +5276,7 @@ $1:Enghraifft.jpg|Disgrifiad2',
  * @author Christian List
  * @author F. Cosoleto
  * @author Froztbyte
+ * @author Peter Alberti
  * @author Sarrus
  * @author Sir48
  */
@@ -5289,6 +5292,7 @@ $messages['da'] = array(
 	'wikieditor-preview-changes-tab' => 'Ændringer',
 	'wikieditor-preview-loading' => 'Indlæser...',
 	'wikieditor-previewDialog-tab' => 'Forhåndsvisning',
+	'wikieditor-previewDialog-loading' => 'Indlæser…',
 	'wikieditor-publish-preference' => 'Aktiver skridt-for-skridt udgivelse',
 	'wikieditor-publish-button-publish' => 'Udgiv',
 	'wikieditor-publish-button-cancel' => 'Afbryd',
@@ -7926,6 +7930,7 @@ $messages['fr'] = array(
 	'wikieditor-toolbar-desc' => 'Barre d’outils de modification avec l’utilisabilité améliorée',
 	'wikieditor-toolbar-preference' => 'Activer la barre d’outils améliorée',
 	'wikieditor-toolbar-dialogs-preference' => 'Activer les boîtes de dialogue pour ajouter des liens, des tableaux et plus',
+	'wikieditor-toolbar-hidesig' => "Masquer le bouton de signature dans les pages de l'espace de noms principal",
 	'wikieditor-toolbar-loading' => 'Chargement...',
 	'wikieditor-toolbar-tool-bold' => 'Gras',
 	'wikieditor-toolbar-tool-bold-example' => 'Texte en gras',
@@ -16478,6 +16483,7 @@ $messages['no'] = array(
 	'wikieditor-toolbar-desc' => 'Verktøylinje for redigering med utvidet brukervennlighet',
 	'wikieditor-toolbar-preference' => 'Aktiver utvidet verktøylinje for redigering',
 	'wikieditor-toolbar-dialogs-preference' => 'Slå på dialoger for innsetting av lenker, tabeller og mer',
+	'wikieditor-toolbar-hidesig' => 'Skjul signaturknappen fra sider i hovednavnerommet',
 	'wikieditor-toolbar-loading' => 'Laster...',
 	'wikieditor-toolbar-tool-bold' => 'Fet',
 	'wikieditor-toolbar-tool-bold-example' => 'Fet tekst',
