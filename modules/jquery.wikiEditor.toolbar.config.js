@@ -261,8 +261,14 @@ getDefaultConfig: function() {
 						'ulist': {
 							'labelMsg': 'wikieditor-toolbar-tool-ulist',
 							'type': 'button',
-							'icon': 'format-ulist.png',
-							'offset': [2, -1366],
+							'icon': {
+								'default': 'format-ulist.png',
+								'default-rtl': 'format-ulist-rtl.png'
+							},
+							'offset': {
+								'default': [2, -1366],
+								'default-rtl': [-70, -286]
+							},
 							'action': {
 								'type': 'encapsulate',
 								'options': {
@@ -277,8 +283,14 @@ getDefaultConfig: function() {
 						'olist': {
 							'labelMsg': 'wikieditor-toolbar-tool-olist',
 							'type': 'button',
-							'icon': 'format-olist.png',
-							'offset': [2, -1078],
+							'icon': {
+								'default': 'format-olist.png',
+								'default-rtl': 'format-olist-rtl.png'
+							},
+							'offset': {
+								'default': [2, -1078],
+								'default-rtl': [-70, -358]
+							},
 							'action': {
 								'type': 'encapsulate',
 								'options': {
@@ -293,8 +305,14 @@ getDefaultConfig: function() {
 						'indent': {
 							'labelMsg': 'wikieditor-toolbar-tool-indent',
 							'type': 'button',
-							'icon': 'format-indent.png',
-							'offset': [2, -646],
+							'icon': {
+								'default': 'format-indent.png',
+								'default-rtl': 'format-indent-rtl.png'
+							},
+							'offset': {
+								'default': [2, -646],
+								'default-rtl': [-70, -430]
+							},
 							'action': {
 								'type': 'encapsulate',
 								'options': {
@@ -433,8 +451,14 @@ getDefaultConfig: function() {
 						'redirect': {
 							'labelMsg': 'wikieditor-toolbar-tool-redirect',
 							'type': 'button',
-							'icon': 'insert-redirect.png',
-							'offset': [-70, -142],
+							'icon': {
+								'default': 'insert-redirect.png',
+								'default-rtl': 'insert-redirect-rtl.png'
+							},
+							'offset': {
+								'default': [-70, -142],
+								'default-rtl': [-70, -502],
+							},
 							'action': {
 								'type': 'encapsulate',
 								'options': {

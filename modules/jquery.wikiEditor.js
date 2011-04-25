@@ -149,14 +149,16 @@ $.wikiEditor = {
 	},
 	/**
 	 * Provides a way to extract a property of an object in a certain language, falling back on the property keyed as
-	 * 'default'. If such key doesn't exist, the object itself is considered the actual value, which should ideally
-	 * be the case so that you may use a string or object of any number of strings keyed by language with a default.
+	 * 'default' or 'default-rtl'. If such key doesn't exist, the object itself is considered the actual value, which
+	 * should ideally be the case so that you may use a string or object of any number of strings keyed by language
+	 * with a default.
 	 * 
 	 * @param object Object to extract property from
 	 * @param lang Language code, defaults to wgUserLanguage
 	 */
 	'autoLang': function( object, lang ) {
-		return object[lang || wgUserLanguage] || object['default'] || object;
+		var defaultKey = $( 'body' ).hasClass( 'rtl' ) ? 'default-rtl' : 'default';
+		return object[lang || wgUserLanguage] || object[defaultKey] || object['default'] || object;
 	},
 	/**
 	 * Provides a way to extract the path of an icon in a certain language, automatically appending a version number for
