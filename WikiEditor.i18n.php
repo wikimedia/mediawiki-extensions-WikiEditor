@@ -1778,6 +1778,7 @@ $messages['as'] = array(
 /** Azerbaijani (Azərbaycanca)
  * @author Cekli829
  * @author PPerviz
+ * @author Vago
  */
 $messages['az'] = array(
 	'prefs-beta' => 'Beta xüsusiyyətlər',
@@ -1796,7 +1797,10 @@ $messages['az'] = array(
 	'wikieditor-toolbar-tool-italic-example' => 'Kursiv mətn',
 	'wikieditor-toolbar-tool-ilink' => 'Daxili keçid',
 	'wikieditor-toolbar-tool-ilink-example' => 'Keçidin başlığı',
+	'wikieditor-toolbar-tool-xlink-example' => 'http://www.example.com başlıq',
 	'wikieditor-toolbar-tool-link' => 'Keçid',
+	'wikieditor-toolbar-tool-link-title' => 'Keçid yerləşdir',
+	'wikieditor-toolbar-tool-link-int-target-tooltip' => 'URL üçün səhifə başlığı',
 	'wikieditor-toolbar-tool-link-ext-target' => 'URL linki:',
 	'wikieditor-toolbar-tool-link-cancel' => 'Ləğv et',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => 'Daxili keçid',
@@ -1822,11 +1826,35 @@ $messages['az'] = array(
 	'wikieditor-toolbar-tool-big-example' => 'Böyük mətn',
 	'wikieditor-toolbar-tool-small' => 'Kiçik',
 	'wikieditor-toolbar-tool-small-example' => 'Kiçik mətn',
+	'wikieditor-toolbar-group-insert' => 'Yerləşdirmək',
 	'wikieditor-toolbar-tool-gallery' => 'Şəkil qalereyası',
 	'wikieditor-toolbar-tool-newline' => 'Yeni xətt',
+	'wikieditor-toolbar-tool-table-example-old' => '-
+! başlıq 1
+! başlıq 2
+! başlıq 3
+|-
+| sıra 1, sütun 1
+| sıra 1, sütun 2
+| sıra 1, sütun 3
+|-
+| sıra 2, sütun 1
+| sıra 2, sütun 2
+| sıra 2, sütun 3',
+	'wikieditor-toolbar-tool-table-title' => 'Cədvəl yerləşdir',
+	'wikieditor-toolbar-tool-table-dimensions-rows' => 'Sətirlər:',
+	'wikieditor-toolbar-tool-table-dimensions-columns' => 'Sütunlar:',
+	'wikieditor-toolbar-tool-table-example' => 'Nümunə',
 	'wikieditor-toolbar-tool-table-preview' => 'Sınaq göstərişi',
 	'wikieditor-toolbar-tool-table-insert' => 'Yerləşdirmək',
 	'wikieditor-toolbar-tool-table-cancel' => 'Ləğv et',
+	'wikieditor-toolbar-tool-replace' => 'Axtar və dəyiş',
+	'wikieditor-toolbar-tool-replace-title' => 'Axtar və dəyiş',
+	'wikieditor-toolbar-tool-replace-search' => 'Axtar:',
+	'wikieditor-toolbar-tool-replace-replace' => 'Bununla dəyiş:',
+	'wikieditor-toolbar-tool-replace-button-findnext' => 'Növbətini axtar',
+	'wikieditor-toolbar-tool-replace-button-replacenext' => 'Növbətini dəyiş',
+	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Hamısını dəyiş',
 	'wikieditor-toolbar-tool-replace-close' => 'Bağla',
 	'wikieditor-toolbar-section-characters' => 'Xüsusi işarələr',
 	'wikieditor-toolbar-characters-page-latin' => 'Latın',
@@ -8655,6 +8683,7 @@ $messages['gl'] = array(
 	'wikieditor-toolbar-desc' => 'Editar a páxina da barra de ferramentas cunha mellor usabilidade',
 	'wikieditor-toolbar-preference' => 'Activar a barra de ferramentas de edición mellorada',
 	'wikieditor-toolbar-dialogs-preference' => 'Activar os diálogos para engadir ligazóns, táboas e máis',
+	'wikieditor-toolbar-hidesig' => 'Agochar o botón de sinatura nas páxinas do espazo de nomes principal',
 	'wikieditor-toolbar-loading' => 'Cargando...',
 	'wikieditor-toolbar-tool-bold' => 'Negra',
 	'wikieditor-toolbar-tool-bold-example' => 'Texto en negra',
@@ -11570,6 +11599,7 @@ $1:Esempio.jpg|Didascalia2',
  * @author Aotake
  * @author Fryed-peach
  * @author Hosiryuhosi
+ * @author Ohgi
  * @author 青子守歌
  */
 $messages['ja'] = array(
@@ -11607,6 +11637,7 @@ $messages['ja'] = array(
 	'wikieditor-toolbar-desc' => '使いやすさの向上したページ編集ツールバー',
 	'wikieditor-toolbar-preference' => '改良型編集ツールバーを有効にする',
 	'wikieditor-toolbar-dialogs-preference' => 'リンクや表などの挿入ダイアログを有効化する',
+	'wikieditor-toolbar-hidesig' => '標準名前空間で署名ボタンを非表示にする',
 	'wikieditor-toolbar-loading' => '読み込み中…',
 	'wikieditor-toolbar-tool-bold' => '太字',
 	'wikieditor-toolbar-tool-bold-example' => '太字文',
