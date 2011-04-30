@@ -730,11 +730,14 @@ getDefaultConfig: function () {
 					<span rel="wikieditor-toolbar-tool-table-example"></span>\
 					<div class="wikieditor-toolbar-table-preview-content">\
 						<table id="wikieditor-toolbar-table-preview" class="wikieditor-toolbar-table-preview wikitable">\
+						<thead>\
 							<tr class="wikieditor-toolbar-table-preview-header">\
 								<th rel="wikieditor-toolbar-tool-table-example-header"></th>\
 								<th rel="wikieditor-toolbar-tool-table-example-header"></th>\
 								<th rel="wikieditor-toolbar-tool-table-example-header"></th>\
-							</tr><tr class="wikieditor-toolbar-table-preview-hidden" style="display: none;">\
+							</tr>\
+						</thead><tbody>\
+							<tr class="wikieditor-toolbar-table-preview-hidden" style="display: none;">\
 								<td rel="wikieditor-toolbar-tool-table-example-cell-text"></td>\
 								<td rel="wikieditor-toolbar-tool-table-example-cell-text"></td>\
 								<td rel="wikieditor-toolbar-tool-table-example-cell-text"></td>\
@@ -751,6 +754,7 @@ getDefaultConfig: function () {
 								<td rel="wikieditor-toolbar-tool-table-example-cell-text"></td>\
 								<td rel="wikieditor-toolbar-tool-table-example-cell-text"></td>\
 							</tr>\
+						</tbody>\
 						</table>\
 					</div>\
 				</div></div>',
@@ -769,15 +773,14 @@ getDefaultConfig: function () {
 				
 				// Hack for sortable preview: dynamically adding
 				// sortable class doesn't work, so we use a clone
-				// FIXME: Relies on sortable table internals
 				$( '#wikieditor-toolbar-table-preview' )
 					.clone()
 					.attr( 'id', 'wikieditor-toolbar-table-preview2' )
 					.addClass( 'sortable' )
 					.insertAfter( $( '#wikieditor-toolbar-table-preview' ) )
 					.hide();
-				if ( typeof ts_makeSortable == 'function' )
-					ts_makeSortable( $( '#wikieditor-toolbar-table-preview2' ).get( 0 ) );
+				if ( typeof jQuery.fn.tablesorter == 'function' )
+					$( '#wikieditor-toolbar-table-preview2' ).tablesorter();
 				$( '#wikieditor-toolbar-table-sortable' ).click( function() {
 					// Swap the currently shown one clone with the other one
 					$( '#wikieditor-toolbar-table-preview' )
@@ -797,12 +800,11 @@ getDefaultConfig: function () {
 					var hiddenHTML = $( '.wikieditor-toolbar-table-preview-hidden' ).html();
 					$( '.wikieditor-toolbar-table-preview-header' ).html( hiddenHTML );
 					$( '.wikieditor-toolbar-table-preview-hidden' ).html( headerHTML );
-					if ( typeof ts_makeSortable == 'function' )
-						ts_makeSortable(
-	     						$( '#wikieditor-toolbar-table-preview, #wikieditor-toolbar-table-preview2' )
+					if ( typeof jQuery.fn.tablesorter == 'function' ) {
+							$( '#wikieditor-toolbar-table-preview, #wikieditor-toolbar-table-preview2' )
 								.filter( '.sortable' )
-								.get( 0 )
-						);
+								.tablesorter();
+					}
 				});
 			},
 			dialog: {
