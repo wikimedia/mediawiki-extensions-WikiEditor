@@ -14809,7 +14809,7 @@ $messages['ml'] = array(
 	'wikieditor-toolbar-tool-redirect-example' => 'ലക്ഷ്യതാളിന്റെ പേര്',
 	'wikieditor-toolbar-tool-big' => 'വലുത്',
 	'wikieditor-toolbar-tool-big-example' => 'വലിയ എഴുത്ത്',
-	'wikieditor-toolbar-tool-small' => 'ചെറിയത്',
+	'wikieditor-toolbar-tool-small' => 'ചെറുത്',
 	'wikieditor-toolbar-tool-small-example' => 'ചെറിയ എഴുത്ത്',
 	'wikieditor-toolbar-tool-superscript' => 'മുകളിലായുള്ള എഴുത്ത്',
 	'wikieditor-toolbar-tool-superscript-example' => 'സൂപ്പർസ്ക്രിപ്റ്റ് എഴുത്ത്',
@@ -22061,6 +22061,7 @@ Idadi ya mistari au ya safu si halali.',
 
 /** Tamil (தமிழ்)
  * @author TRYPPN
+ * @author செல்வா
  */
 $messages['ta'] = array(
 	'wikieditor-loading' => 'ஏற்றப்படுகிறது',
@@ -22183,19 +22184,19 @@ $messages['ta'] = array(
 	'wikieditor-toolbar-tool-replace-nomatch' => 'தங்களது தேடலுக்கான முடிவு எங்கும் ஒத்துவரவில்லை.',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'எதனைத்தேடுவது என்று தாங்கள் குறிப்பிடவில்லை.',
 	'wikieditor-toolbar-section-characters' => 'சிறப்பு எழுத்துருக்கள்',
-	'wikieditor-toolbar-characters-page-latin' => 'லத்தின்',
+	'wikieditor-toolbar-characters-page-latin' => 'இலத்தீன்',
 	'wikieditor-toolbar-characters-page-symbols' => 'குறியீடுகள்',
 	'wikieditor-toolbar-characters-page-greek' => 'கிரேக்கம்',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'சைரிலிக் (Cyrillic)',
 	'wikieditor-toolbar-characters-page-arabic' => 'அரபு',
-	'wikieditor-toolbar-characters-page-persian' => 'பெர்சியன் (Persian)',
-	'wikieditor-toolbar-characters-page-hebrew' => 'ஹுப்ரு',
+	'wikieditor-toolbar-characters-page-persian' => 'பாரசீகம்',
+	'wikieditor-toolbar-characters-page-hebrew' => 'எபிரேயம் (ஈபுரு)',
 	'wikieditor-toolbar-characters-page-bangla' => 'வங்காளம்',
 	'wikieditor-toolbar-characters-page-telugu' => 'தெலுங்கு',
 	'wikieditor-toolbar-characters-page-sinhala' => 'சிங்களம்',
-	'wikieditor-toolbar-characters-page-gujarati' => 'குஜராத்தி',
+	'wikieditor-toolbar-characters-page-gujarati' => 'குசராத்தி',
 	'wikieditor-toolbar-characters-page-thai' => 'தாய்',
-	'wikieditor-toolbar-characters-page-lao' => 'லாவோ',
+	'wikieditor-toolbar-characters-page-lao' => 'இலாவோ',
 	'wikieditor-toolbar-characters-page-khmer' => 'கெமெர்',
 	'wikieditor-toolbar-section-help' => 'உதவி',
 	'wikieditor-toolbar-help-heading-description' => 'விளக்கம்',
