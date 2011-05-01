@@ -23670,6 +23670,7 @@ $messages['uk'] = array(
 	'wikieditor-toolbar-desc' => 'Панель засобів редагування з покращеною ужитковістю',
 	'wikieditor-toolbar-preference' => 'Увімкнути покращену панель засобів редагування',
 	'wikieditor-toolbar-dialogs-preference' => 'Увімкнути діалоги для додавання посилань, таблиць та іншого',
+	'wikieditor-toolbar-hidesig' => 'Приховати кнопку підпису зі сторінок в основному просторі назв',
 	'wikieditor-toolbar-loading' => 'Завантаження…',
 	'wikieditor-toolbar-tool-bold' => 'Жирний',
 	'wikieditor-toolbar-tool-bold-example' => 'Жирний текст',
