@@ -5026,15 +5026,15 @@ $messages['csb'] = array(
  * @author ОйЛ
  */
 $messages['cu'] = array(
-	'wikieditor-preview-changes-tab' => 'мѣ́нꙑ',
-	'wikieditor-publish-button-publish' => 'съхранѥ́ниѥ',
-	'wikieditor-publish-dialog-minor' => 'ма́лаꙗ мѣ́на',
+	'wikieditor-preview-changes-tab' => 'мѣнꙑ',
+	'wikieditor-publish-button-publish' => 'съхранѥниѥ',
+	'wikieditor-publish-dialog-minor' => 'малаꙗ мѣна',
 	'wikieditor-publish-dialog-watch' => 'си страни́цѧ блюдє́ниѥ',
-	'wikieditor-publish-dialog-publish' => 'съхранѥ́ниѥ',
+	'wikieditor-publish-dialog-publish' => 'съхранѥниѥ',
 	'wikieditor-template-editor-dialog-title' => 'обраꙁьца исправлѥ́ниѥ',
 	'wikieditor-toolbar-tool-ilink-example' => 'съвѧ́ꙁи и́мѧ',
-	'wikieditor-toolbar-tool-xlink-example' => 'http://www.example.com съвѧ́ꙁи и́мѧ',
-	'wikieditor-toolbar-tool-link' => 'съвѧ́ꙁь',
+	'wikieditor-toolbar-tool-xlink-example' => 'http://www.example.com съвѧꙁи имѧ',
+	'wikieditor-toolbar-tool-link' => 'съвѧꙁь',
 	'wikieditor-toolbar-tool-link-title' => 'съвѧ́ꙁи приложє́ниѥ',
 	'wikieditor-toolbar-tool-link-insert' => 'съвѧ́ꙁи приложє́ниѥ',
 	'wikieditor-toolbar-tool-link-int-target-status-notexists' => 'страни́цѧ нѣ́стъ',
