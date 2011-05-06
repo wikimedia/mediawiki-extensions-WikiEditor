@@ -7916,6 +7916,7 @@ $1:Esimerkki.jpg|Kuvateksti2',
 );
 
 /** French (Français)
+ * @author Crochet.david
  * @author IAlex
  * @author Jean-Frédéric
  * @author McDutchie
@@ -7934,10 +7935,10 @@ $messages['fr'] = array(
 	'wikieditor-preview-preference' => 'Activer la prévisualisation côte à côte',
 	'wikieditor-preview-tab' => 'Prévisualisation',
 	'wikieditor-preview-changes-tab' => 'Changements',
-	'wikieditor-preview-loading' => 'Chargement...',
+	'wikieditor-preview-loading' => 'Chargement …',
 	'wikieditor-previewDialog-preference' => 'Activer la boîte de dialogue d’aperçu',
 	'wikieditor-previewDialog-tab' => 'Prévisualisation',
-	'wikieditor-previewDialog-loading' => 'Chargement...',
+	'wikieditor-previewDialog-loading' => 'Chargement …',
 	'wikieditor-publish-preference' => 'Activer la publication étape par étape',
 	'wikieditor-publish-button-publish' => 'Publier',
 	'wikieditor-publish-button-cancel' => 'Annuler',
@@ -7960,7 +7961,7 @@ $messages['fr'] = array(
 	'wikieditor-toolbar-preference' => 'Activer la barre d’outils améliorée',
 	'wikieditor-toolbar-dialogs-preference' => 'Activer les boîtes de dialogue pour ajouter des liens, des tableaux et plus',
 	'wikieditor-toolbar-hidesig' => "Masquer le bouton de signature dans les pages de l'espace de noms principal",
-	'wikieditor-toolbar-loading' => 'Chargement...',
+	'wikieditor-toolbar-loading' => 'Chargement …',
 	'wikieditor-toolbar-tool-bold' => 'Gras',
 	'wikieditor-toolbar-tool-bold-example' => 'Texte en gras',
 	'wikieditor-toolbar-tool-italic' => 'Italique',
@@ -11400,6 +11401,7 @@ $messages['it'] = array(
 	'wikieditor-toolbar-desc' => 'Barra degli strumenti di modifica della pagina con migliorata usabilità',
 	'wikieditor-toolbar-preference' => 'Abilita barra degli strumenti di modifica avanzata',
 	'wikieditor-toolbar-dialogs-preference' => "Abilita le finestre per l'inserimento di link, tabelle ed altro",
+	'wikieditor-toolbar-hidesig' => 'Nasconde il pulsante della firma dalle pagine nel namespace principale',
 	'wikieditor-toolbar-loading' => 'Caricamento in corso...',
 	'wikieditor-toolbar-tool-bold' => 'Grassetto',
 	'wikieditor-toolbar-tool-bold-example' => 'Testo in grassetto',
