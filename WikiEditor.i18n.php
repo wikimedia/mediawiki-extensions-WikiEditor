@@ -12384,6 +12384,7 @@ $messages['ko'] = array(
 	'wikieditor-toolbar-desc' => '사용성이 향상된 편집 툴바',
 	'wikieditor-toolbar-preference' => '기능이 향상된 편집 툴바 사용하기',
 	'wikieditor-toolbar-dialogs-preference' => '링크와 표 등을 삽입할 때 대화 상자 사용하기',
+	'wikieditor-toolbar-hidesig' => '일반 문서 이름공간에서 서명 단추를 숨기기',
 	'wikieditor-toolbar-loading' => '불러오는 중…',
 	'wikieditor-toolbar-tool-bold' => '굵은 글씨',
 	'wikieditor-toolbar-tool-bold-example' => '굵은 글씨',
@@ -13327,6 +13328,7 @@ $messages['lb'] = array(
 	'wikieditor-toolbar-desc' => 'Toolbar vun de Säitenännerunge mat erweiderter Benotzerfrëndlechkeet',
 	'wikieditor-toolbar-preference' => 'Déi erweidert Ännerungs-Toolbar aktivéieren',
 	'wikieditor-toolbar-dialogs-preference' => "Dialoge fir d'Drasetze vu Linken, Tabellen a méi aschalten",
+	'wikieditor-toolbar-hidesig' => 'Den Ënnerschrëftsknäppchen op Säiten am Haaptnummraum verstoppen',
 	'wikieditor-toolbar-loading' => 'Lueden...',
 	'wikieditor-toolbar-tool-bold' => 'Fettgedréckt',
 	'wikieditor-toolbar-tool-bold-example' => 'Fettgedréckten Text',
@@ -14956,6 +14958,7 @@ $messages['mn'] = array(
 );
 
 /** Marathi (मराठी)
+ * @author Htt
  * @author Mahitgar
  * @author McDutchie
  * @author V.narsikar
@@ -14972,6 +14975,8 @@ $messages['mr'] = array(
 	'wikieditor-preview-tab' => 'झलक',
 	'wikieditor-preview-changes-tab' => 'बदल',
 	'wikieditor-preview-loading' => 'चढवत आहे…',
+	'wikieditor-previewDialog-tab' => 'झलक पहा',
+	'wikieditor-previewDialog-loading' => 'चढवत आहे…',
 	'wikieditor-publish-preference' => 'टप्प्या-टप्प्याने प्रकाशन शक्य करा',
 	'wikieditor-publish-button-publish' => 'प्रकाशित करा
 दाखवा',
@@ -15179,6 +15184,7 @@ $1:Example.jpg|चित्रपरिचय २',
 	'wikieditor-toolbar-help-content-rereference-description' => 'याच संदर्भाचा अतिरीक्त वापर',
 	'wikieditor-toolbar-help-content-rereference-result' => "पान मजकूर.<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-showreferences-description' => 'संदर्भ दर्शवा',
+	'wikieditor-toolbar-help-content-showreferences-result' => "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Link text</a>, additional text.</li></ol>",
 	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'वेळेसह तुमची सही 
 तुमची सही व वेळ',
 	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>सदस्यनाव</a> (<a href='#' title='{{#special:mytalk}}'>चर्चा</a>) 15:54, 10 June 2009 (UTC)",
