@@ -8,6 +8,9 @@
  */
 api : {
 	addToToolbar : function( context, data ) {
+
+		var smooth = true;
+
 		for ( type in data ) {
 			switch ( type ) {
 				case 'sections':
@@ -31,11 +34,6 @@ api : {
 						$tabs.append(
 							$.wikiEditor.modules.toolbar.fn.buildTab( context, section, data[type][section] )
 						);
-						// Update visibility of section
-						$section = $sections.find( '.section:visible' );
-						if ( $section.size() ) {
-							$sections.animate( { 'height': $section.outerHeight() }, 'fast' );
-						}
 					}
 					break;
 				case 'groups':
@@ -49,6 +47,7 @@ api : {
 							$.wikiEditor.modules.toolbar.fn.buildGroup( context, group, data[type][group] )
 						);
 					}
+					smooth = false;
 					break;
 				case 'tools':
 					if ( ! ( 'section' in data && 'group' in data ) ) {
@@ -64,6 +63,7 @@ api : {
 					if ( $group.children().length ) {
 						$group.show();
 					}
+					smooth = false;
 					break;
 				case 'pages':
 					if ( ! ( 'section' in data ) ) {
@@ -84,6 +84,7 @@ api : {
 						);
 					}
 					$.wikiEditor.modules.toolbar.fn.updateBookletSelection( context, page, $pages, $index );
+					smooth = false;
 					break;
 				case 'rows':
 					if ( ! ( 'section' in data && 'page' in data ) ) {
@@ -96,6 +97,7 @@ api : {
 						// Row
 						$table.append( $.wikiEditor.modules.toolbar.fn.buildRow( context, data[type][row] ) );
 					}
+					smooth = false;
 					break;
 				case 'characters':
 					if ( ! ( 'section' in data && 'page' in data ) ) {
@@ -124,8 +126,21 @@ api : {
 								} )
 						);
 					}
+					smooth = false;
 					break;
 				default: break;
+			}
+		}
+
+		// Fix div.section size after adding things; if smooth is true uses a smooth
+		// animation, otherwise just change height (breaking any ongoing animation)
+		var $sections = context.modules.toolbar.$toolbar.find( 'div.sections' );
+		$section = $sections.find( '.section:visible' );
+		if ( $section.size() ) {
+			if ( smooth ) {
+				$sections.animate( { 'height': $section.outerHeight() }, 'fast' );
+			} else {
+				$sections.height( $section.outerHeight() );
 			}
 		}
 	},
