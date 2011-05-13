@@ -5546,6 +5546,7 @@ $1:Eksempel.jpg|Billedtekst2',
  * @author Mikullovci11
  * @author Umherirrender
  * @author Ziko
+ * @author ✓
  */
 $messages['de'] = array(
 	'prefs-beta' => 'Beta-Funktionen',
@@ -5655,7 +5656,7 @@ Möchtest du daraus einen internen Link machen?',
 	'wikieditor-toolbar-tool-gallery' => 'Bildergalerie',
 	'wikieditor-toolbar-tool-gallery-example' => '$1:Beispiel.jpg|Beschreibung1
 $1:Beispiel.jpg|Beschreibung2',
-	'wikieditor-toolbar-tool-newline' => 'Neue Zeile',
+	'wikieditor-toolbar-tool-newline' => 'Zeilenumbruch erzwingen (nicht im Fließtext verwenden)',
 	'wikieditor-toolbar-tool-table' => 'Tabelle',
 	'wikieditor-toolbar-tool-table-example-old' => '-
 ! Überschrift 1
@@ -18238,6 +18239,7 @@ $messages['qu'] = array(
 	'wikieditor-toolbar-desc' => "Kallpachasqa llamk'apunapaq butunnintin uma siq'i",
 	'wikieditor-toolbar-preference' => "Kallpachasqa llamk'apunapaq butunnintin uma siq'ita atichiy",
 	'wikieditor-toolbar-dialogs-preference' => "T'inkikunapaq, wachuchasqakunapaq, aswanpaqpas willanakuykunata atichiy",
+	'wikieditor-toolbar-hidesig' => "Uma suti k'iti p'anqakunamanta silq'uy butunta pakay",
 	'wikieditor-toolbar-loading' => 'Chaqnamuspa…',
 	'wikieditor-toolbar-tool-bold' => 'Yanasapa',
 	'wikieditor-toolbar-tool-bold-example' => 'Yanasapa qillqa',
