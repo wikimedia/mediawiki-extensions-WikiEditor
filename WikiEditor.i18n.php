@@ -21652,6 +21652,7 @@ $messages['sv'] = array(
 	'wikieditor-toolbar-desc' => 'Redigeringsverktygsrad med utökad användbarhet',
 	'wikieditor-toolbar-preference' => 'Aktivera utökad redigeringsverktygsrad',
 	'wikieditor-toolbar-dialogs-preference' => 'Aktivera dialoger för inläggning av länkar, tabeller och annat',
+	'wikieditor-toolbar-hidesig' => 'Dölj knappen signatur på sidor i huvudnamnrymden',
 	'wikieditor-toolbar-loading' => 'Laddar...',
 	'wikieditor-toolbar-tool-bold' => 'Fet',
 	'wikieditor-toolbar-tool-bold-example' => 'Fet text',
