@@ -22542,6 +22542,7 @@ $messages['tg-latn'] = array(
 
 /** Thai (ไทย)
  * @author Horus
+ * @author Korrawit
  * @author Octahedron80
  * @author Woraponboonkerd
  */
@@ -22756,7 +22757,7 @@ $1:Example.jpg|คำอธิบายภาพ2',
 	'wikieditor-toolbar-help-content-rereference-description' => 'การใช้การอ้างอิงเดียวกันเพิ่มเติม',
 	'wikieditor-toolbar-help-content-rereference-result' => "ข้อความในหน้า<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-showreferences-description' => 'แสดงแหล่งอ้างอิง',
-	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'ลายเซ็นต์พร้องลงเวลา',
+	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'ลายเซ็นพร้อมลงเวลา',
 	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>ชื่อผู้ใช้</a> (<a href='#' title='{{#special:mytalk}}'>พูดคุย</a>) 15:54, 10 June 2009 (UTC)",
 	'wikieditor-toolbar-help-content-signature-description' => 'ลายเซ็น',
 	'wikieditor-toolbar-help-content-signature-result' => "<a href='#' title='{{#special:mypage}}'>ชื่อผู้ใช้</a> (<a href='#' title='{{#special:mytalk}}'>พูดคุย</a>)",
