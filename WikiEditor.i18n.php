@@ -11185,6 +11185,18 @@ $messages['ig'] = array(
 	'wikieditor-toolbar-help-content-indent-description' => 'Tụ atụ',
 );
 
+/** Ingush (ГІалгІай Ğalğaj)
+ * @author Sapral Mikail
+ */
+$messages['inh'] = array(
+	'wikieditor-toolbar-characters-page-latin' => 'Лаьтмий',
+	'wikieditor-toolbar-characters-page-greek' => 'Джелтий',
+	'wikieditor-toolbar-characters-page-cyrillic' => 'Цырилиций',
+	'wikieditor-toolbar-characters-page-arabic' => 'Iарбий',
+	'wikieditor-toolbar-characters-page-persian' => 'Фаьранзий',
+	'wikieditor-toolbar-characters-page-hebrew' => 'Жугтий',
+);
+
 /** Ido (Ido)
  * @author Malafaya
  */
