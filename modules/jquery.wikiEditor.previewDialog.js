@@ -55,7 +55,7 @@ fn: {
 										'checked' : '';
 								$( '#wpMinoredit' ).attr( 'checked', minorChecked );
 								$( '#wpWatchthis' ).attr( 'checked', watchChecked );
-								$( '#wpSummary' ).val( $j( '#wikiEditor-' + context.instance +
+								$( '#wpSummary' ).val( $( '#wikiEditor-' + context.instance +
 									'-dialog-summary' ).val() );
 								$( '#editform' ).submit();
 							},

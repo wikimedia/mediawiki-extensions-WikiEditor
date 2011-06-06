@@ -2,10 +2,10 @@
  * This plugin provides a way to build a wiki-text editing user interface around a textarea.
  * 
  * @example To intialize without any modules:
- * 		$j( 'div#edittoolbar' ).wikiEditor();
+ * 		$( 'div#edittoolbar' ).wikiEditor();
  * 
  * @example To initialize with one or more modules, or to add modules after it's already been initialized:
- * 		$j( 'textarea#wpTextbox1' ).wikiEditor( 'addModule', 'toolbar', { ... config ... } );
+ * 		$( 'textarea#wpTextbox1' ).wikiEditor( 'addModule', 'toolbar', { ... config ... } );
  * 
  */
 ( function( $ ) {
@@ -203,7 +203,7 @@ $.wikiEditor = {
 $.fn.wikiEditor = function() {
 
 // Skip any further work when running in browsers that are unsupported
-if ( !$j.wikiEditor.isSupported() ) {
+if ( !$.wikiEditor.isSupported() ) {
 	return $(this);
 }
 
@@ -252,7 +252,7 @@ if ( !context || typeof context == 'undefined' ) {
 	/*
 	 * Externally Accessible API
 	 * 
-	 * These are available using calls to $j(selection).wikiEditor( call, data ) where selection is a jQuery selection
+	 * These are available using calls to $(selection).wikiEditor( call, data ) where selection is a jQuery selection
 	 * of the textarea that the wikiEditor instance was built around.
 	 */
 	
@@ -357,7 +357,7 @@ if ( !context || typeof context == 'undefined' ) {
 						if ( event.ctrlKey || event.altKey || event.shiftKey ) { 
 							return true;
 						} else {
-							var $tabindexList = $j( '[tabindex]:visible' ).sort( function( a, b ) {
+							var $tabindexList = $( '[tabindex]:visible' ).sort( function( a, b ) {
 								return a.tabIndex - b.tabIndex;
 							} );
 							for( var i=0; i < $tabindexList.length; i++ ) {

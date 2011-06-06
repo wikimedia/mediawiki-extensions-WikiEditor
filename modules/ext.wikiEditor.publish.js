@@ -4,5 +4,5 @@
 
 $( document ).ready( function() {
 	// Add publish module
-	$j( '#wpTextbox1' ).wikiEditor( 'addModule', 'publish' );
+	$( '#wpTextbox1' ).wikiEditor( 'addModule', 'publish' );
 } );

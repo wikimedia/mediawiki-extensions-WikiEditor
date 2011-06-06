@@ -74,7 +74,7 @@ fn: {
 						var newCopyWarnHTML = '<ul>';
 						for ( var i = 0; i < copyWarnStatements.length; i++ ) {
 							if ( copyWarnStatements[i] != '' ) {
-								var copyWarnStatement = $j.trim( copyWarnStatements[i] ).replace( /\.*$/, '' );
+								var copyWarnStatement = $.trim( copyWarnStatements[i] ).replace( /\.*$/, '' );
 								newCopyWarnHTML += '<li>' + copyWarnStatement + '.</li>';
 							}
 						}
@@ -112,7 +112,7 @@ fn: {
 										'checked' : '';
 								$( '#wpMinoredit' ).attr( 'checked', minorChecked );
 								$( '#wpWatchthis' ).attr( 'checked', watchChecked );
-								$( '#wpSummary' ).val( $j( '#wikiEditor-' + context.instance +
+								$( '#wpSummary' ).val( $( '#wikiEditor-' + context.instance +
 									'-dialog-summary' ).val() );
 								$( '#editform' ).submit();
 							},

@@ -153,7 +153,7 @@ fn: {
 	 * Resize a dialog so its contents fit
 	 *
 	 * Usage: dialog.each( resize ); or dialog.bind( 'blah', resize );
-	 * NOTE: This function assumes $j.ui.dialog has already been loaded
+	 * NOTE: This function assumes $.ui.dialog has already been loaded
 	 */
 	resize: function() {
 		var wrapper = $(this).closest( '.ui-dialog' );
@@ -195,7 +195,7 @@ fn: {
 		// Get the highest tab index
 		var tabIndex = $( document ).lastTabIndex() + 1;
 		$elements.each( function() {
-			$j(this).attr( 'tabindex', tabIndex++ );
+			$(this).attr( 'tabindex', tabIndex++ );
 		} );
 	}
 },
