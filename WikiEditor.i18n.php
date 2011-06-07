@@ -1211,6 +1211,7 @@ $messages['ang'] = array(
 );
 
 /** Arabic (العربية)
+ * @author Aiman titi
  * @author McDutchie
  * @author Meno25
  * @author OsamaK
@@ -1252,6 +1253,7 @@ $messages['ar'] = array(
 	'wikieditor-toolbar-desc' => 'شريط تحرير الصفحات مع تحسين الاستخدامية',
 	'wikieditor-toolbar-preference' => 'مكّن شريط أدوات التحرير المُحسّن',
 	'wikieditor-toolbar-dialogs-preference' => 'مكّن حوارات إدراج الوصلات والجداول وغيرها',
+	'wikieditor-toolbar-hidesig' => 'إخفاء زر التوقيع من الصفحات الموجودة في مساحة الاسم الرئيسي',
 	'wikieditor-toolbar-loading' => 'يُحمّل...',
 	'wikieditor-toolbar-tool-bold' => 'عريض',
 	'wikieditor-toolbar-tool-bold-example' => 'نص عريض',
