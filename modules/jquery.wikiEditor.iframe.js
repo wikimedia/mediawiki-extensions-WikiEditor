@@ -9,6 +9,80 @@
  * on to all modules. This is also where we can attach some extra information to the events.
  */
 context.evt = $.extend( context.evt, {
+	/**
+	 * Filters change events, which occur when the user interacts with the contents of the iframe. The goal of this
+	 * function is to both classify the scope of changes as 'division' or 'character' and to prevent further
+	 * processing of events which did not actually change the content of the iframe.
+	 */
+	'keydown': function( event ) {
+		switch ( event.which ) {
+			case 90: // z
+			case 89: // y
+				if ( event.which == 89 && !$.browser.msie ) {
+					// only handle y events for IE
+					return true;
+				} else if ( ( event.ctrlKey || event.metaKey ) && context.history.length ) {
+					// HistoryPosition is a negative number between -1 and -context.history.length, in other words
+					// it's the number of steps backwards from the latest state.
+					var newPosition;
+					if ( event.shiftKey || event.which == 89 ) {
+						// Redo
+						newPosition = context.historyPosition + 1;
+					} else {
+						// Undo
+						newPosition = context.historyPosition - 1;
+					}
+					// Only act if we are switching to a valid state
+					if ( newPosition >= ( context.history.length * -1 ) && newPosition < 0 ) {
+						// Make sure we run the history storing code before we make this change
+						context.fn.updateHistory( context.oldDelayedHTML != context.$content.html() );
+						context.oldDelayedHistoryPosition = context.historyPosition;
+						context.historyPosition = newPosition;
+						// Change state
+						// FIXME: Destroys event handlers, will be a problem with template folding
+						context.$content.html(
+							context.history[context.history.length + context.historyPosition].html
+						);
+						context.fn.purgeOffsets();
+						if( context.history[context.history.length + context.historyPosition].sel ) {
+							context.fn.setSelection( {
+								start: context.history[context.history.length + context.historyPosition].sel[0],
+								end: context.history[context.history.length + context.historyPosition].sel[1]
+							} );
+						}
+					}
+					// Prevent the browser from jumping in and doing its stuff
+					return false;
+				}
+				break;
+				// Intercept all tab events to provide consisten behavior across browsers
+				// Webkit browsers insert tab characters by default into the iframe rather than changing input focus
+			case 9: //tab
+					// if any modifier keys are pressed, allow the browser to do it's thing
+					if ( event.ctrlKey || event.altKey || event.shiftKey ) {
+						return true;
+					} else {
+						var $tabindexList = $( '[tabindex]:visible' ).sort( function( a, b ) {
+							return a.tabIndex - b.tabIndex;
+						} );
+						for( var i=0; i < $tabindexList.length; i++ ) {
+							if( $tabindexList.eq( i ).attr('id') == context.$iframe.attr( 'id' ) ) {
+								$tabindexList.get( i + 1 ).focus();
+								break;
+							}
+						}
+						return false;
+					}
+				break;
+			 case 86: //v
+				 if ( event.ctrlKey && $.browser.msie && 'paste' in context.evt ) {
+					 //paste, intercepted for IE
+					 context.evt.paste( event );
+				 }
+				 break;
+		}
+		return true;
+	},
 	'change': function( event ) {
 		event.data.scope = 'division';
 		var newHTML = context.$content.html();
