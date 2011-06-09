@@ -606,7 +606,7 @@ if ( args[0] == 'addModule' && typeof args[1] != 'undefined' ) {
 			for ( var e in $.wikiEditor.extensions ) {
 				if (
 					$.wikiEditor.isRequired( $.wikiEditor.modules[module], e ) &&
-					context.extensions.indexOf( e ) === -1
+					$.inArray( e, context.extensions ) === -1
 				) {
 					context.extensions[context.extensions.length] = e;
         			$.wikiEditor.extensions[e]( context );
