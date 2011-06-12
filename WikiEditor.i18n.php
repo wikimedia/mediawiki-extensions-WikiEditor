@@ -16045,6 +16045,19 @@ $1:Veurbeeld2|Bieschrifte2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Normale tekse<dl><dd>In-esprungen tekse<dl><dd>In-esprungen tekse</dd></dl></dd></dl>',
 );
 
+/** Nepali (नेपाली)
+ * @author Bhawani Gautam
+ */
+$messages['ne'] = array(
+	'wikieditor-toolbar-section-advanced' => 'उन्नत',
+	'wikieditor-toolbar-tool-heading' => 'शीर्षक',
+	'wikieditor-toolbar-tool-heading-2' => 'शीर्षक 2',
+	'wikieditor-toolbar-tool-heading-3' => 'शीर्षक 3',
+	'wikieditor-toolbar-tool-heading-4' => 'शीर्षक 4',
+	'wikieditor-toolbar-tool-heading-5' => 'शीर्षक 5',
+	'wikieditor-toolbar-section-characters' => 'विशेष वर्णहरु',
+);
+
 /** Dutch (Nederlands)
  * @author Hamaryns
  * @author McDutchie
@@ -19395,6 +19408,18 @@ $1:Example.jpg|Опис2',
 	'wikieditor-toolbar-help-content-indent-description' => 'Одступ',
 	'wikieditor-toolbar-help-content-indent-syntax' => 'Звычайный текст<br />:Текст з одступом<br />::Текст з одступом',
 	'wikieditor-toolbar-help-content-indent-result' => 'Звычайный текст<dl><dd>Текст з одступом<dl><dd>Текст з одступом</dd></dl></dd></dl>',
+);
+
+/** Sanskrit (संस्कृत)
+ * @author Bhawani Gautam
+ */
+$messages['sa'] = array(
+	'wikieditor-toolbar-section-advanced' => 'उन्नतम्',
+	'wikieditor-toolbar-tool-heading-2' => 'शीर्षकम् 2',
+	'wikieditor-toolbar-tool-heading-3' => 'शीर्षकम्',
+	'wikieditor-toolbar-tool-heading-4' => 'शीर्षकम् 4',
+	'wikieditor-toolbar-tool-heading-5' => 'शीर्षकम्',
+	'wikieditor-toolbar-section-characters' => 'विशेष-वर्णानि',
 );
 
 /** Yakut (Саха тыла)
