@@ -11384,6 +11384,7 @@ Viltu gera hana að innri tengli?',
  * @author Gianfranco
  * @author Gliu
  * @author McDutchie
+ * @author Nemo bis
  * @author PaoloRomano
  * @author Una giornata uggiosa '94
  * @author Vituzzu
@@ -11455,7 +11456,7 @@ $messages['it'] = array(
 Vuoi che sia un link interno?",
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => 'Link interno',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-ext' => 'Collegamento esterno',
-	'wikieditor-toolbar-tool-link-empty' => 'Non hai indicato nulla verso cui linkare.',
+	'wikieditor-toolbar-tool-link-empty' => 'Non hai indicato la destinazione del collegamento.',
 	'wikieditor-toolbar-tool-file' => 'File incorporato',
 	'wikieditor-toolbar-tool-file-example' => 'Esempio.jpg',
 	'wikieditor-toolbar-tool-reference' => 'Nota',
@@ -17526,7 +17527,7 @@ $messages['pms'] = array(
 	'wikieditor-toolbar-desc' => "Bara d'utiss ëd modìfica con dovrabilità ameliorà",
 	'wikieditor-toolbar-preference' => "Ativé la bara d'utiss ameliorà",
 	'wikieditor-toolbar-dialogs-preference' => "Ativé ij quàder ëd diàlogh për anserì anliure, tàule e d'àutr",
-	'wikieditor-toolbar-hidesig' => 'Sterma ël boton ëd firma da le pagine ant lë spassi nominal prinsipal',
+	'wikieditor-toolbar-hidesig' => 'Stërmé ël boton ëd firma ant le pàgine ëd lë spassi nominal prinsipal',
 	'wikieditor-toolbar-loading' => 'Cariament...',
 	'wikieditor-toolbar-tool-bold' => 'Grassèt',
 	'wikieditor-toolbar-tool-bold-example' => 'Test an grassèt',
