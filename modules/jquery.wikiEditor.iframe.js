@@ -66,7 +66,7 @@ context.evt = $.extend( context.evt, {
 							return a.tabIndex - b.tabIndex;
 						} );
 						for( var i=0; i < $tabindexList.length; i++ ) {
-							if( $tabindexList.eq( i ).attr('id') == context.$iframe.attr( 'id' ) ) {
+							if( $tabindexList.eq( i ).attr( 'id' ) == context.$iframe.attr( 'id' ) ) {
 								$tabindexList.get( i + 1 ).focus();
 								break;
 							}
@@ -681,7 +681,7 @@ context.fn = $.extend( context.fn, {
 				'frameBorder': 0,
 				'border': 0,
 				'tabindex': 1,
-				'src': wgExtensionAssetsPath + '/WikiEditor/modules/jquery.wikiEditor.html?' +
+				'src': mw.config.get( 'wgExtensionAssetsPath' ) + '/WikiEditor/modules/jquery.wikiEditor.html?' +
 					'instance=' + context.instance + '&ts=' + ( new Date() ).getTime() + '&is=content',
 				'id': 'wikiEditor-iframe-' + context.instance
 			} )

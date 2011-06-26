@@ -51,10 +51,10 @@ fn: {
 				context.modules.preview.$preview.find( '.wikiEditor-preview-contents' ).empty();
 				context.modules.preview.$preview.find( '.wikiEditor-preview-loading' ).show();
 				$.post(
-					mediaWiki.config.get( 'wgScriptPath' ) + '/api.php',
+					mw.util.wikiScript( 'api' ),
 					{
 						'action': 'parse',
-						'title': mediaWiki.config.get( 'wgPageName' ),
+						'title': mw.config.get( 'wgPageName' ),
 						'text': wikitext,
 						'prop': 'text',
 						'pst': '',
@@ -100,13 +100,13 @@ fn: {
 					'format': 'json'
 				};
 				
-				$.post( mediaWiki.config.get( 'wgScriptPath' ) + '/api.php', postdata, function( data ) {
+				$.post( mw.util.wikiScript( 'api' ), postdata, function( data ) {
 					try {
 						var postdata2 = {
 							'action': 'query',
 							'indexpageids': '',
 							'prop': 'revisions',
-							'titles': mediaWiki.config.get( 'wgPageName' ),
+							'titles': mw.config.get( 'wgPageName' ),
 							'rvdifftotext': data.parse.text['*'],
 							'rvprop': '',
 							'format': 'json'
@@ -115,9 +115,9 @@ fn: {
 						if ( section != '' )
 							postdata['rvsection'] = section;
 						
-						$.post( mediaWiki.config.get( 'wgScriptPath' ) + '/api.php', postdata2, function( data ) {
+						$.post( mw.util.wikiScript( 'api' ) + postdata2, function( data ) {
 								// Add diff CSS
-								mediaWiki.loader.load( 'mediawiki.legacy.diff' );
+								mw.loader.load( 'mediawiki.legacy.diff' );
 								try {
 									var diff = data.query.pages[data.query.pageids[0]]
 										.revisions[0].diff['*'];

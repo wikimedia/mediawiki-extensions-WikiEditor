@@ -85,10 +85,10 @@ fn: {
 							$dialog.find( '.wikiEditor-preview-dialog-contents' ).empty();
 							$dialog.find( '.wikiEditor-ui-loading' ).show();
 							$.post(
-								wgScriptPath + '/api.php',
+								mw.util.wikiScript( 'api' ),
 								{
 									'action': 'parse',
-									'title': wgPageName,
+									'title': mw.config.get( 'wgPageName' ),
 									'text': wikitext,
 									'prop': 'text',
 									'pst': '',
@@ -105,7 +105,8 @@ fn: {
 									context.modules.preview.previewText = wikitext;
 									$dialog.find( '.wikiEditor-ui-loading' ).hide();
 									$dialog.find( '.wikiEditor-preview-dialog-contents' )
-										.html( '<h1 class="firstHeading" id="firstHeading">'+wgTitle+'</h1>' + 
+										.html( '<h1 class="firstHeading" id="firstHeading">' +
+											mw.config.get( 'wgTitle' ) + '</h1>' +
 											data.parse.text['*'] )
 										.find( 'a:not([href^=#])' ).click( function() { return false; } );
 								},

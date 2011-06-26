@@ -4,7 +4,7 @@
 
 $( document ).ready( function() {
 	// Disable for template namespace
-	if ( mediaWiki.config.get( 'wgNamespaceNumber' ) == 10 ) {
+	if ( mw.config.get( 'wgNamespaceNumber' ) == 10 ) {
 		return true;
 	}
 	// Add templates module

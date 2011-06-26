@@ -637,7 +637,7 @@ fn: {
 			// section 0, if needed
 			var structure = buildStructure( outline );
 			if ( $( 'input[name=wpSection]' ).val() == '' ) {
-				structure.unshift( { 'text': wgPageName.replace( /_/g, ' ' ), 'level': 1, 'index': 0 } );
+				structure.unshift( { 'text': mw.config.get( 'wgPageName' ).replace( /_/g, ' ' ), 'level': 1, 'index': 0 } );
 			}
 			context.modules.toc.$toc.html( buildList( structure ) );
 			

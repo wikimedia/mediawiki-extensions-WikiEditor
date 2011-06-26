@@ -110,7 +110,7 @@ getDefaultConfig: function () {
 					if ( typeof arguments.callee.regex == 'undefined' ) {
 						// Cache the regex
 						arguments.callee.regex =
-							new RegExp( "^(" + wgUrlProtocols + "|www\\.)", 'i');
+							new RegExp( "^(" + mw.config.get( 'wgUrlProtocols' ) + "|www\\.)", 'i');
 					}
 					return s.match( arguments.callee.regex );
 				}
@@ -174,7 +174,7 @@ getDefaultConfig: function () {
 					$( '#wikieditor-toolbar-link-int-target-status' ).data(
 						'request',
 						$.ajax( {
-							url: wgScriptPath + '/api.php',
+							url: mw.util.wikiScript( 'api' ),
 							dataType: 'json',
 							data: {
 								'action': 'query',
@@ -369,7 +369,7 @@ getDefaultConfig: function () {
 						}
 						
 						var request = $.ajax( {
-							url: wgScriptPath + '/api.php',
+							url: mw.util.wikiScript( 'api' ),
 							data: {
 								'action': 'opensearch',
 								'search': title,
@@ -504,7 +504,7 @@ getDefaultConfig: function () {
 				open: function() {
 					// Cache the articlepath regex
 					$(this).data( 'articlePathRegex', new RegExp(
-						'^' + $.escapeRE( wgServer + wgArticlePath )
+						'^' + $.escapeRE( mw.config.get( 'wgServer' ) + mw.config.get( 'wgArticlePath' ) )
 							.replace( /\\\$1/g, '(.*)' ) + '$'
 					) );
 					// Pre-fill the text fields based on the current selection

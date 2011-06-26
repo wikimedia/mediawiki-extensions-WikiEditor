@@ -75,7 +75,7 @@ $.wikiEditor = {
 	 * Path to images - this is a bit messy, and it would need to change if this code (and images) gets moved into the
 	 * core - or anywhere for that matter...
 	 */
-	'imgPath' : wgExtensionAssetsPath + '/WikiEditor/modules/images/',
+	'imgPath' : mw.config.get( 'wgExtensionAssetsPath' ) + '/WikiEditor/modules/images/',
 	/**
 	 * Checks the current browser against the browsers object to determine if the browser has been black-listed or not.
 	 * Because these rules are often very complex, the object contains configurable operators and can check against
@@ -158,7 +158,7 @@ $.wikiEditor = {
 	 */
 	'autoLang': function( object, lang ) {
 		var defaultKey = $( 'body' ).hasClass( 'rtl' ) ? 'default-rtl' : 'default';
-		return object[lang || wgUserLanguage] || object[defaultKey] || object['default'] || object;
+		return object[lang || mw.config.get( 'wgUserLanguage' )] || object[defaultKey] || object['default'] || object;
 	},
 	/**
 	 * Provides a way to extract the path of an icon in a certain language, automatically appending a version number for
@@ -175,7 +175,7 @@ $.wikiEditor = {
 		if ( src.substr( 0, 7 ) != 'http://' && src.substr( 0, 8 ) != 'https://' && src[0] != '/' ) {
 			src = path + src;
 		}
-		return src + '?' + mediaWiki.loader.version( 'jquery.wikiEditor' );
+		return src + '?' + mw.loader.version( 'jquery.wikiEditor' );
 	},
 	/**
 	 * Get the sprite offset for a language if available, icon for a language if available, or the default offset or icon,
@@ -186,7 +186,7 @@ $.wikiEditor = {
 	 * @param lang Language code, defaults to wgUserLanguage
 	 */
 	'autoIconOrOffset': function( icon, offset, path, lang ) {
-		lang = lang || wgUserLanguage;
+		lang = lang || mw.config.get( 'wgUserLanguage' );
 		if ( typeof offset == 'object' && lang in offset ) {
 			return offset[lang];
 		} else if ( typeof icon == 'object' && lang in icon ) {

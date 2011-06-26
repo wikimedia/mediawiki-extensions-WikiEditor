@@ -4,7 +4,7 @@
 ( function( $ ) { $.wikiEditor.modules.toolbar.config = {
 
 getDefaultConfig: function() {
-	var fileNamespace = mediaWiki.config.get( 'wgFormattedNamespaces' )[6];
+	var fileNamespace = mw.config.get( 'wgFormattedNamespaces' )[6];
 	return { 'toolbar': {
 		// Main section
 		'main': {
@@ -936,7 +936,7 @@ getDefaultConfig: function() {
 						{
 							'description': { 'htmlMsg': 'wikieditor-toolbar-help-content-file-description' },
 							'syntax': { 'htmlMsg': [ 'wikieditor-toolbar-help-content-file-syntax', fileNamespace ] },
-							'result': { 'htmlMsg': [ 'wikieditor-toolbar-help-content-file-result', stylepath ] }
+							'result': { 'htmlMsg': [ 'wikieditor-toolbar-help-content-file-result', mw.get( 'stylepath' ) ] }
 						}
 					]
 				},
