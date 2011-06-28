@@ -11188,13 +11188,14 @@ $messages['ig'] = array(
 );
 
 /** Ingush (ГІалгІай Ğalğaj)
+ * @author Amire80
  * @author Sapral Mikail
  */
 $messages['inh'] = array(
 	'wikieditor-toolbar-characters-page-latin' => 'Лаьтмий',
 	'wikieditor-toolbar-characters-page-greek' => 'Джелтий',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'Цырилиций',
-	'wikieditor-toolbar-characters-page-arabic' => 'Iарбий',
+	'wikieditor-toolbar-characters-page-arabic' => 'Ӏарбий',
 	'wikieditor-toolbar-characters-page-persian' => 'Фаьранзий',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Жугтий',
 );
@@ -15874,6 +15875,9 @@ $messages['myv'] = array(
  * @author Teòtlalili
  */
 $messages['nah'] = array(
+	'prefs-beta' => 'Ìtlâtlamảtilis in tlayêyẻkòlli',
+	'prefs-labs' => 'Ìntlâtlamảtilis in tlayêyẻkòyàntìn',
+	'wikieditor' => 'Wel senka yankuik netzòwilìxtlâtli in tlenìk moyêyèktlàlia in wikitlâkuilòlmantli',
 	'wikieditor-wikitext-tab' => 'Huiquitlahcuilōliztli',
 	'wikieditor-loading' => 'Motlamāmaltia',
 	'wikieditor-preview-changes-tab' => 'Tlapatlaliztli',
