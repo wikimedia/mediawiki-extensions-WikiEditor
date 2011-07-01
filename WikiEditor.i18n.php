@@ -12,9 +12,6 @@ $messages = array();
  * @author Trevor Parscal
  */
 $messages['en'] = array(
-	/* Editing Preference Categories */
-	'prefs-beta' => 'Beta features',
-	'prefs-labs' => 'Labs features',
 	/* WikiEditor */
 	'wikieditor' => 'Advanced wikitext editing interface',
 	'wikieditor-desc' => 'Provides an extendable wikitext editing interface and many feature-providing modules',
@@ -273,8 +270,7 @@ $1:Example.jpg|Caption2",
  * @author Siebrand
  */
 $messages['qqq'] = array(
-	'prefs-beta' => "Header of a subsection at [[Special:Preferences]], tab ''{{int:prefs-editing}}'', listing features that are in beta but mostly suitable for general use",
-	'prefs-labs' => "Header of a subsection at [[Special:Preferences]], tab ''{{int:prefs-editing}}'', listing features that are experimental",
+
 	'wikieditor-desc' => "{{desc}}
 
 I guess that 'feature-providing modules' means the same as 'modules providing features'.",
@@ -357,7 +353,7 @@ I guess that 'feature-providing modules' means the same as 'modules providing fe
 	'wikieditor-toolbar-tool-nowiki' => '工具栏注释',
 	'wikieditor-toolbar-tool-redirect' => "Tooltip for icon to place wiki text for a redirect in the edit box. The label before these icons says 'Insert'. 'Redirect' is a noun here.
 {{Identical|Redirect}}",
-	'wikieditor-toolbar-tool-redirect-example' => "Target is an adjective describing the page name. You could use 'destination' instead of 'target'. 'Target page name' is the destination of the redirect and appears when the wikitext for a redirect is inserted in the text box thus 
+	'wikieditor-toolbar-tool-redirect-example' => "Target is an adjective describing the page name. You could use 'destination' instead of 'target'. 'Target page name' is the destination of the redirect and appears when the wikitext for a redirect is inserted in the text box thus
  <nowiki>#REDIRECT [[target page name]]</nowiki>",
 	'wikieditor-toolbar-tool-small' => '{{Identical|Small}}',
 	'wikieditor-toolbar-group-insert' => '{{Identical|Insert}}',
@@ -1041,12 +1037,12 @@ $1:Eixemplo.jpg|Piet_de_foto_2',
 ! encabezau 2
 ! encabezau 3
 |-
-| ringlera 1, celda 1 
-| ringlera 1, celda 2 
-| ringlera 1, celda 3 
-|- 
-| ringlera 2, celda 1 
-| ringlera 2, celda 2 
+| ringlera 1, celda 1
+| ringlera 1, celda 2
+| ringlera 1, celda 3
+|-
+| ringlera 2, celda 1
+| ringlera 2, celda 2
 | ringlera 2, celda 3',
 	'wikieditor-toolbar-tool-table-example-cell-text' => "Texto d'a celda",
 	'wikieditor-toolbar-tool-table-example-header' => 'Texto de títol',
@@ -2286,17 +2282,17 @@ $messages['be'] = array(
 $1:Example.jpg|Апісанне2',
 	'wikieditor-toolbar-tool-newline' => 'Новы радок',
 	'wikieditor-toolbar-tool-table' => 'Табліца',
-	'wikieditor-toolbar-tool-table-example-old' => '- 
- ! загаловак 1 
- ! загаловак 2 
- ! загаловак 3 
- | - 
- | радок 1, ячэйка 1 
- | радок 1, ячэйка 2 
- | радок 1, ячэйка 3 
- | - 
- | радок 2, ячэйка 1 
- | радок 2, ячэйка 2 
+	'wikieditor-toolbar-tool-table-example-old' => '-
+ ! загаловак 1
+ ! загаловак 2
+ ! загаловак 3
+ | -
+ | радок 1, ячэйка 1
+ | радок 1, ячэйка 2
+ | радок 1, ячэйка 3
+ | -
+ | радок 2, ячэйка 1
+ | радок 2, ячэйка 2
  | радок 2, ячэйка 3',
 	'wikieditor-toolbar-tool-table-example-cell-text' => 'Тэкст ячэйкі',
 	'wikieditor-toolbar-tool-table-example-header' => 'Тэкст загалоўка',
@@ -4144,12 +4140,12 @@ $1:Example.jpg|Peu2',
 ! capçalera 2
 ! capçalera 3
 |-
-| fila 1, cel·la 1 
-| fila 1, cel·la 2 
-| fila 1, cel·la 3 
-|- 
-| fila 2, cel·la 1 
-| fila 2, cel·la 2 
+| fila 1, cel·la 1
+| fila 1, cel·la 2
+| fila 1, cel·la 3
+|-
+| fila 2, cel·la 1
+| fila 2, cel·la 2
 | fila 2, cel·la 3',
 	'wikieditor-toolbar-tool-table-example-cell-text' => 'Text de cel·la',
 	'wikieditor-toolbar-tool-table-example-header' => 'Text de capçalera',
@@ -11297,7 +11293,7 @@ $messages['is'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-notexists' => 'Síðan er ekki til',
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Ógildur titill',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'Titillinn sem þú gafst upp er ógildur.',
-	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'Slóðin sem þú gafst upp lítur út eins og hún hafi verið ætluð til að tengja í aðra wiki-síðu. 
+	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'Slóðin sem þú gafst upp lítur út eins og hún hafi verið ætluð til að tengja í aðra wiki-síðu.
 Viltu gera hana að innri tengli?',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => 'Innri tengill',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-ext' => 'Ytri tengill',
@@ -11306,7 +11302,7 @@ Viltu gera hana að innri tengli?',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Hætta við',
 	'wikieditor-toolbar-tool-newline' => 'Ný lína',
 	'wikieditor-toolbar-tool-table' => 'Tafla',
-	'wikieditor-toolbar-tool-table-example-old' => '- 
+	'wikieditor-toolbar-tool-table-example-old' => '-
 ! titill 1
 ! titill 2
 ! titill 3
@@ -15369,7 +15365,7 @@ $1:Example.jpg|चित्रपरिचय २',
 	'wikieditor-toolbar-help-content-rereference-result' => "पान मजकूर.<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-showreferences-description' => 'संदर्भ दर्शवा',
 	'wikieditor-toolbar-help-content-showreferences-result' => "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Link text</a>, additional text.</li></ol>",
-	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'वेळेसह तुमची सही 
+	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'वेळेसह तुमची सही
 तुमची सही व वेळ',
 	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>सदस्यनाव</a> (<a href='#' title='{{#special:mytalk}}'>चर्चा</a>) 15:54, 10 June 2009 (UTC)",
 	'wikieditor-toolbar-help-content-signature-description' => 'सही',
@@ -21141,21 +21137,21 @@ $messages['sq'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'Tekst subscript',
 	'wikieditor-toolbar-group-insert' => 'Shto',
 	'wikieditor-toolbar-tool-gallery' => 'Galeria i piktureve',
-	'wikieditor-toolbar-tool-gallery-example' => '((Ns: file)): Shembull.jpg | Përshkrim1 
+	'wikieditor-toolbar-tool-gallery-example' => '((Ns: file)): Shembull.jpg | Përshkrim1
 ((Ns: file)): Shembull.jpg | Përshkrim2',
 	'wikieditor-toolbar-tool-newline' => 'Linjë te re',
 	'wikieditor-toolbar-tool-table' => 'Tabel',
-	'wikieditor-toolbar-tool-table-example-old' => '- 
- ! titulli 1 
- ! titulli 2 
- ! titulli 3 
- | - 
- | linjë 1, qeliza 1 
- | linjë 1, qeliza 2 
- | linjë 1, qeliza 3 
- | - 
- | linjë 2, qeliza 1 
- | linjë 2, qeliza 2 
+	'wikieditor-toolbar-tool-table-example-old' => '-
+ ! titulli 1
+ ! titulli 2
+ ! titulli 3
+ | -
+ | linjë 1, qeliza 1
+ | linjë 1, qeliza 2
+ | linjë 1, qeliza 3
+ | -
+ | linjë 2, qeliza 1
+ | linjë 2, qeliza 2
  | linjë 2, qeliza 3',
 	'wikieditor-toolbar-tool-table-example-cell-text' => 'Teksti e qelizës',
 	'wikieditor-toolbar-tool-table-example-header' => 'Titulli',
@@ -22424,7 +22420,7 @@ $messages['ta'] = array(
 	'wikieditor-toolbar-tool-heading' => 'தலைப்பு',
 	'wikieditor-toolbar-tool-heading-1' => '# முதற் கட்டம்
 # நிலை ஒன்று',
-	'wikieditor-toolbar-tool-heading-2' => '# இரண்டாம் கட்டம் 
+	'wikieditor-toolbar-tool-heading-2' => '# இரண்டாம் கட்டம்
 # நிலை இரண்டு',
 	'wikieditor-toolbar-tool-heading-3' => '# மூன்றாம் கட்டம்
 # நிலை மூன்று',
