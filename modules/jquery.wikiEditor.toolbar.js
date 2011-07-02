@@ -40,7 +40,7 @@ api : {
 					if ( ! ( 'section' in data ) ) {
 						continue;
 					}
-					var	$section = context.modules.toolbar.$toolbar.find( 'div[rel=' + data.section + '].section' );
+					var	$section = context.modules.toolbar.$toolbar.find( 'div[rel="' + data.section + '"].section' );
 					for ( var group in data[type] ) {
 						// Group
 						$section.append(
@@ -54,7 +54,7 @@ api : {
 						continue;
 					}
 					var $group = context.modules.toolbar.$toolbar.find(
-						'div[rel=' + data.section + '].section ' + 'div[rel=' + data.group + '].group'
+						'div[rel="' + data.section + '"].section ' + 'div[rel=' + data.group + '].group'
 					);
 					for ( var tool in data[type] ) {
 						// Tool
@@ -70,10 +70,10 @@ api : {
 						continue;
 					}
 					var $pages = context.modules.toolbar.$toolbar.find(
-						'div[rel=' + data.section + '].section .pages'
+						'div[rel="' + data.section + '"].section .pages'
 					);
 					var $index = context.modules.toolbar.$toolbar.find(
-						'div[rel=' + data.section + '].section .index'
+						'div[rel="' + data.section + '"].section .index'
 					);
 					for ( var page in data[type] ) {
 						// Page
@@ -91,7 +91,7 @@ api : {
 						continue;
 					}
 					var $table = context.modules.toolbar.$toolbar.find(
-						'div[rel=' + data.section + '].section ' + 'div[rel=' + data.page + '].page table'
+						'div[rel="' + data.section + '"].section ' + 'div[rel=' + data.page + '].page table'
 					);
 					for ( i = 0; i < data.rows.length; i++ ) {
 						// Row
@@ -104,7 +104,7 @@ api : {
 						continue;
 					}
 					var $characters = context.modules.toolbar.$toolbar.find(
-						'div[rel=' + data.section + '].section ' + 'div[rel=' + data.page + '].page div'
+						'div[rel="' + data.section + '"].section ' + 'div[rel="' + data.page + '"].page div'
 					);
 					var actions = $characters.data( 'actions' );
 					for ( i = 0; data.character.length; i++ ) {
@@ -147,25 +147,25 @@ api : {
 	removeFromToolbar : function( context, data ) {
 		if ( typeof data.section == 'string' ) {
 			// Section
-			var tab = 'div.tabs span[rel=' + data.section + '].tab';
-			var target = 'div[rel=' + data.section + '].section';
+			var tab = 'div.tabs span[rel="' + data.section + '"].tab';
+			var target = 'div[rel="' + data.section + '"].section';
 			var group = null;
 			if ( typeof data.group == 'string' ) {
 				// Toolbar group
-				target += ' div[rel=' + data.group + '].group';
+				target += ' div[rel="' + data.group + '"].group';
 				if ( typeof data.tool == 'string' ) {
 					// Save for later checking if empty
 					group = target;
 					// Tool
-					target += ' span[rel=' + data.tool + '].tool';
+					target += ' span[rel="' + data.tool + '"].tool';
 				}
 			} else if ( typeof data.page == 'string' ) {
 				// Booklet page
-				var index = target + ' div.index div[rel=' + data.page + ']';
-				target += ' div.pages div[rel=' + data.page + '].page';
+				var index = target + ' div.index div[rel="' + data.page + '"]';
+				target += ' div.pages div[rel="' + data.page + '"].page';
 				if ( typeof data.character == 'string' ) {
 					// Character
-					target += ' span[rel=' + data.character + ']';
+					target += ' span[rel="' + data.character + '"]';
 				} else if ( typeof data.row == 'number' ) {
 					// Table row
 					target += ' table tr:not(:has(th)):eq(' + data.row + ')';
@@ -719,14 +719,14 @@ fn: {
 		if ( selected != null ) {
 			$.cookie( cookie, selected, { expires: 30, path: '/' } );
 		}
-		var $selectedIndex = $index.find( '*[rel=' + selected + ']' );
+		var $selectedIndex = $index.find( '*[rel="' + selected + '"]' );
 		if ( $selectedIndex.size() === 0 ) {
 			$selectedIndex = $index.children().eq( 0 );
 			selected = $selectedIndex.attr( 'rel' );
 			$.cookie( cookie, selected, { expires: 30, path: '/' } );
 		}
 		$pages.children().hide();
-		$pages.find( '*[rel=' + selected + ']' ).show();
+		$pages.find( '*[rel="' + selected + '"]' ).show();
 		$index.children().removeClass( 'current' );
 		$selectedIndex.addClass( 'current' );
 	},
