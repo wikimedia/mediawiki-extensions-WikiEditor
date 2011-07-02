@@ -213,7 +213,7 @@ $(document).ready( function() {
 			var $ui = $target.data( 'wikiEditor-context' ).$ui;
 			var passes = 0;
 			var tests = 0;
-			for ( test in wikiEditorTests ) {
+			for ( var test in wikiEditorTests ) {
 				var pre = $ui.find( wikiEditorTests[test].test ).size() ==
 					wikiEditorTests[test].pre;
 				messages.push ( test + '-pre: ' + ( pre ? 'PASS' : 'FAIL' ) );

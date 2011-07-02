@@ -103,7 +103,7 @@ api : {
 					if ( ! ( 'section' in data && 'page' in data ) ) {
 						continue;
 					}
-					$characters = context.modules.toolbar.$toolbar.find(
+					var $characters = context.modules.toolbar.$toolbar.find(
 						'div[rel=' + data.section + '].section ' + 'div[rel=' + data.page + '].page div'
 					);
 					var actions = $characters.data( 'actions' );
@@ -135,7 +135,7 @@ api : {
 		// Fix div.section size after adding things; if smooth is true uses a smooth
 		// animation, otherwise just change height (breaking any ongoing animation)
 		var $divSections = context.modules.toolbar.$toolbar.find( 'div.sections' );
-		$visibleSection = $divSections.find( '.section:visible' );
+		var $visibleSection = $divSections.find( '.section:visible' );
 		if ( $visibleSection.size() ) {
 			if ( smooth ) {
 				$divSections.animate( { 'height': $visibleSection.outerHeight() }, 'fast' );
@@ -491,7 +491,7 @@ fn: {
 				break;
 			case 'characters':
 				$page.addClass( 'page-characters' );
-				$characters = $( '<div/>' ).data( 'context', context ).data( 'actions', {} );
+				var $characters = $( '<div/>' ).data( 'context', context ).data( 'actions', {} );
 				var actions = $characters.data( 'actions' );
 				if ( 'language' in page ) {
 					$characters.attr( 'lang', page.language );
@@ -598,7 +598,7 @@ fn: {
 					var $section =
 						$(this).data( 'context' ).$ui.find( '.section-' + $(this).parent().attr( 'rel' ) );
 					var show = $section.css( 'display' ) == 'none';
-					$previousSections = $section.parent().find( '.section-visible' );
+					var $previousSections = $section.parent().find( '.section-visible' );
 					$previousSections.css( 'position', 'absolute' );
 					$previousSections.removeClass( 'section-visible' );
 					$previousSections.fadeOut( 'fast', function() { $(this).css( 'position', 'relative' ); } );
