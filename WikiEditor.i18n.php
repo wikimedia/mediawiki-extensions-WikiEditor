@@ -925,8 +925,6 @@ $1: Example.jpg|Caption2',
  * @author Juanpabl
  */
 $messages['an'] = array(
-	'prefs-beta' => 'Caracteristicas beta',
-	'prefs-labs' => 'Caracteristicas experimentals',
 	'wikieditor' => "Interficie abanzada d'edición de wikitexto",
 	'wikieditor-desc' => 'Proporciona una interficie extensible de modificación de wikitexto y quantos modulos de funcionalidatz',
 	'wikieditor-wikitext-tab' => 'Wikitexto',
@@ -4027,8 +4025,6 @@ $1:Example.jpg|Opis2',
  * @author Vriullop
  */
 $messages['ca'] = array(
-	'prefs-beta' => 'Característiques beta',
-	'prefs-labs' => 'Característiques de laboratori',
 	'wikieditor' => 'Interfície avançada de modificació de wikitext',
 	'wikieditor-desc' => 'Proporciona una interfície extensible de modificació de wikitext i diversos mòduls de funcionalitats',
 	'wikieditor-wikitext-tab' => 'Wikitext',
@@ -5552,8 +5548,6 @@ $1:Eksempel.jpg|Billedtekst2',
  * @author ✓
  */
 $messages['de'] = array(
-	'prefs-beta' => 'Beta-Funktionen',
-	'prefs-labs' => 'Experimentelle Labor-Funktionen',
 	'wikieditor' => 'Fortgeschrittener Wikitext-Editor',
 	'wikieditor-desc' => 'Ermöglicht eine erweiterbare Oberfläche zur Wikitext-Bearbeitung sowie viele weitere neue Funktionen',
 	'wikieditor-wikitext-tab' => 'Wikitext',
@@ -5604,7 +5598,7 @@ $messages['de'] = array(
 	'wikieditor-toolbar-tool-link-int-text' => 'Anzeige im Text:',
 	'wikieditor-toolbar-tool-link-int-text-tooltip' => 'Text eingeben, der angezeigt werden soll',
 	'wikieditor-toolbar-tool-link-ext' => 'Zu einer externen Internetseite',
-	'wikieditor-toolbar-tool-link-ext-target' => 'Linkadresse:',
+	'wikieditor-toolbar-tool-link-ext-target' => 'URL des Links:',
 	'wikieditor-toolbar-tool-link-ext-text' => 'Linkbezeichnung:',
 	'wikieditor-toolbar-tool-link-insert' => 'Link einfügen',
 	'wikieditor-toolbar-tool-link-cancel' => 'Abbrechen',
@@ -5698,7 +5692,7 @@ $1:Beispiel.jpg|Beschreibung2',
 	'wikieditor-toolbar-tool-replace-button-replacenext' => 'Nächste ersetzen',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Alle ersetzen',
 	'wikieditor-toolbar-tool-replace-close' => 'Schließen',
-	'wikieditor-toolbar-tool-replace-nomatch' => 'Deine Suche hat keine Ergebnisse erzielt.',
+	'wikieditor-toolbar-tool-replace-nomatch' => 'Deine Suche hat keine Ergebnisse erbracht.',
 	'wikieditor-toolbar-tool-replace-success' => '$1 Ersetzung(en) durchgeführt.',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'Du hast nichts zum Suchen eingegeben.',
 	'wikieditor-toolbar-tool-replace-invalidregex' => 'Der eingegebene reguläre Ausdruck ist ungültig: $1',
@@ -15143,8 +15137,6 @@ $messages['mn'] = array(
  * @author अभय नातू
  */
 $messages['mr'] = array(
-	'prefs-beta' => 'बीटा चेहेरेपट्टी',
-	'prefs-labs' => 'प्रायोगिक वैशिष्ट्ये',
 	'wikieditor' => 'विकिमजकूर संपादनाची विकसित सुविधा',
 	'wikieditor-desc' => 'विस्तारणीय विकिमजकुर संपादन आंतरपृष्ठ (इंटरफेस) आणि बर्‍याच वैशिष्ट्यपूर्ण निश्चयिका (मॊड्यूल्स) पुरवते',
 	'wikieditor-wikitext-tab' => 'विकिमजकूर',
@@ -15871,8 +15863,6 @@ $messages['myv'] = array(
  * @author Teòtlalili
  */
 $messages['nah'] = array(
-	'prefs-beta' => 'Ìtlâtlamảtilis in tlayêyẻkòlli',
-	'prefs-labs' => 'Ìntlâtlamảtilis in tlayêyẻkòyàntìn',
 	'wikieditor' => 'Wel senka yankuik netzòwilìxtlâtli in tlenìk moyêyèktlàlia in wikitlâkuilòlmantli',
 	'wikieditor-desc' => 'Tèwàlmàktia sè mìxmankànetzòwilìxtlâtli kàmpa wìtz in wikitlâkuilòlmantli tlèn moyêyèktlàlis ìwàn kèski ìyànalòwan kàmpa mowàlnèxtia in ìntlâtlamảtilis',
 	'wikieditor-wikitext-tab' => 'Wikitlâkuilòlmantli',
@@ -15956,7 +15946,9 @@ $messages['nah'] = array(
 	'wikieditor-toolbar-tool-heading-5' => 'Tlàlilòkâtli 5',
 	'wikieditor-toolbar-tool-heading-example' => 'Tòkâtlàlistlâkuilòlmantli',
 	'wikieditor-toolbar-group-format' => 'Chîchìwilòkâtli',
-	'wikieditor-toolbar-tool-redirect' => 'Tlacuepaliztli',
+	'wikieditor-toolbar-tool-nowiki' => 'Âmò tlawikichîchìwilòkàyö',
+	'wikieditor-toolbar-tool-nowiki-example' => 'Xikmotlàlili nikàn in âmò tlachîchìuhtli tlâkuilòlmantli',
+	'wikieditor-toolbar-tool-redirect' => 'Tlaôwitilistli',
 	'wikieditor-toolbar-tool-big' => 'Huēyi',
 	'wikieditor-toolbar-tool-big-example' => 'Huēyi tlahcuilōliztli',
 	'wikieditor-toolbar-tool-small' => 'Tepitōn',
@@ -16009,7 +16001,8 @@ $messages['nah'] = array(
 	'wikieditor-toolbar-characters-page-lao' => 'Laotlahcuilōlli',
 	'wikieditor-toolbar-characters-page-khmer' => 'Jemertlahcuilōlli',
 	'wikieditor-toolbar-section-help' => 'Tēpalēhuiliztli',
-	'wikieditor-toolbar-help-page-link' => 'Tzòwilistìn',
+	'wikieditor-toolbar-help-page-link' => 'Tzòtzòwistìn',
+	'wikieditor-toolbar-help-page-heading' => 'Tòkâtlàlistìn',
 	'wikieditor-toolbar-help-page-file' => 'Èwáltìn',
 	'wikieditor-toolbar-help-page-reference' => 'Ànálòmë',
 	'wikieditor-toolbar-help-page-discussion' => 'Tēixnāmiquiliztli',
@@ -21034,8 +21027,6 @@ $1:Primer 2.jpg|Napis 2',
  * @author Olsi
  */
 $messages['sq'] = array(
-	'prefs-beta' => 'Karakteristikat Beta',
-	'prefs-labs' => 'Karakteristikat laboratorik',
 	'wikieditor' => 'Editori i përparuar',
 	'wikieditor-desc' => 'Siguron një redaktimi të vazhdueshëm wikitekst dhe shumë sigurime metrazhi',
 	'wikieditor-wikitext-tab' => 'Tekstwiki',
@@ -22342,8 +22333,6 @@ Idadi ya mistari au ya safu si halali.',
  * @author செல்வா
  */
 $messages['ta'] = array(
-	'prefs-beta' => 'சோதனைநிலை அம்சங்கள்',
-	'prefs-labs' => 'ஆய்வக அம்சங்கள்',
 	'wikieditor' => 'மேம்பட்ட விக்கியுரைத் தொகுப்பு இடைமுகம்',
 	'wikieditor-desc' => 'நீட்டிக்கத்தகு விக்கிஉரை இடைமுகத்தையும் மேலும் பல அம்சங்களையும் தருகிறது',
 	'wikieditor-wikitext-tab' => 'விக்கிஉரை',
