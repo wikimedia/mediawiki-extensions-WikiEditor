@@ -113,9 +113,9 @@ fn: {
 						};
 						var section = $( '[name=wpSection]' ).val();
 						if ( section != '' )
-							postdata['rvsection'] = section;
+							postdata2['rvsection'] = section;
 						
-						$.post( mw.util.wikiScript( 'api' ) + postdata2, function( data ) {
+						$.post( mw.util.wikiScript( 'api' ), postdata2, function( data ) {
 								// Add diff CSS
 								mw.loader.load( 'mediawiki.legacy.diff' );
 								try {
