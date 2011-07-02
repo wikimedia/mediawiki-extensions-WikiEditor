@@ -9,7 +9,7 @@
 api : {
 	addToToolbar : function( context, data ) {
 
-		var smooth = true, type;
+		var smooth = true, type, i;
 
 		for ( type in data ) {
 			switch ( type ) {
@@ -93,9 +93,9 @@ api : {
 					var $table = context.modules.toolbar.$toolbar.find(
 						'div[rel=' + data.section + '].section ' + 'div[rel=' + data.page + '].page table'
 					);
-					for ( var row in data[type] ) {
+					for ( i = 0; i < data.rows.length; i++ ) {
 						// Row
-						$table.append( $.wikiEditor.modules.toolbar.fn.buildRow( context, data[type][row] ) );
+						$table.append( $.wikiEditor.modules.toolbar.fn.buildRow( context, data.rows[i] ) );
 					}
 					smooth = false;
 					break;
@@ -107,11 +107,11 @@ api : {
 						'div[rel=' + data.section + '].section ' + 'div[rel=' + data.page + '].page div'
 					);
 					var actions = $characters.data( 'actions' );
-					for ( var character in data[type] ) {
+					for ( i = 0; data.character.length; i++ ) {
 						// Character
 						$characters
 						.append(
-							$( $.wikiEditor.modules.toolbar.fn.buildCharacter( data[type][character], actions ) )
+							$( $.wikiEditor.modules.toolbar.fn.buildCharacter( data.characters[i], actions ) )
 								.mousedown( function( e ) {
 									context.fn.saveCursorAndScrollTop();
 									// No dragging!
@@ -321,8 +321,8 @@ fn: {
 	},
 	buildTool : function( context, id, tool ) {
 		if ( 'filters' in tool ) {
-			for ( var filter in tool.filters ) {
-				if ( $( tool.filters[filter] ).size() === 0 ) {
+			for ( var i = 0; i < tool.filters.length; i++ ) {
+				if ( $( tool.filters[i] ).size() === 0 ) {
 					return null;
 				}
 			}
@@ -470,6 +470,7 @@ fn: {
 			} );
 	},
 	buildPage : function( context, id, page ) {
+		var html;
 		var $page = $( '<div/>' ).attr( {
 			'class' : 'page page-' + id,
 			'rel' : id
@@ -477,14 +478,14 @@ fn: {
 		switch ( page.layout ) {
 			case 'table':
 				$page.addClass( 'page-table' );
-				var html =
+				html =
 					'<table cellpadding=0 cellspacing=0 ' + 'border=0 width="100%" class="table table-' + id + '">';
 				if ( 'headings' in page ) {
 					html += $.wikiEditor.modules.toolbar.fn.buildHeading( context, page.headings );
 				}
 				if ( 'rows' in page ) {
-					for ( var row in page.rows ) {
-						html += $.wikiEditor.modules.toolbar.fn.buildRow( context, page.rows[row] );
+					for ( var i = 0; i < page.rows.length; i++ ) {
+						html += $.wikiEditor.modules.toolbar.fn.buildRow( context, page.rows[i] );
 					}
 				}
 				$page.html( html );
@@ -500,7 +501,7 @@ fn: {
 					$characters.attr( 'dir', page.direction );
 				}
 				if ( 'characters' in page ) {
-					var html = '';
+					html = '';
 					for ( var i = 0; i < page.characters.length; i++ ) {
 						html += $.wikiEditor.modules.toolbar.fn.buildCharacter( page.characters[i], actions );
 					}
@@ -530,8 +531,8 @@ fn: {
 	},
 	buildHeading : function( context, headings ) {
 		var html = '<tr>';
-		for ( var heading in headings ) {
-			html += '<th>' + $.wikiEditor.autoMsg( headings[heading], ['html', 'text'] ) + '</th>';
+		for ( var i = 0; i< headings.length; i++ ) {
+			html += '<th>' + $.wikiEditor.autoMsg( headings[i], ['html', 'text'] ) + '</th>';
 		}
 		return html;
 	},

@@ -230,8 +230,8 @@ $(document).ready( function() {
 				tests++;
 			}
 			if ( window.console !== undefined ) {
-				for ( message in messages ) {
-					console.log( messages[message] );
+				for ( var i = 0; i < messages.length; i++ ) {
+					console.log( messages[i] );
 				}
 			}
 			$(this)
