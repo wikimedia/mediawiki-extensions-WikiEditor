@@ -54,7 +54,7 @@ api : {
 						continue;
 					}
 					var $group = context.modules.toolbar.$toolbar.find(
-						'div[rel="' + data.section + '"].section ' + 'div[rel=' + data.group + '].group'
+						'div[rel="' + data.section + '"].section ' + 'div[rel="' + data.group + '"].group'
 					);
 					for ( var tool in data[type] ) {
 						// Tool
@@ -91,7 +91,7 @@ api : {
 						continue;
 					}
 					var $table = context.modules.toolbar.$toolbar.find(
-						'div[rel="' + data.section + '"].section ' + 'div[rel=' + data.page + '].page table'
+						'div[rel="' + data.section + '"].section ' + 'div[rel="' + data.page + '"].page table'
 					);
 					for ( i = 0; i < data.rows.length; i++ ) {
 						// Row
