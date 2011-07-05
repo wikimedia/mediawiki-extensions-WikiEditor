@@ -270,7 +270,6 @@ $1:Example.jpg|Caption2",
  * @author Siebrand
  */
 $messages['qqq'] = array(
-
 	'wikieditor-desc' => "{{desc}}
 
 I guess that 'feature-providing modules' means the same as 'modules providing features'.",
@@ -353,7 +352,7 @@ I guess that 'feature-providing modules' means the same as 'modules providing fe
 	'wikieditor-toolbar-tool-nowiki' => '工具栏注释',
 	'wikieditor-toolbar-tool-redirect' => "Tooltip for icon to place wiki text for a redirect in the edit box. The label before these icons says 'Insert'. 'Redirect' is a noun here.
 {{Identical|Redirect}}",
-	'wikieditor-toolbar-tool-redirect-example' => "Target is an adjective describing the page name. You could use 'destination' instead of 'target'. 'Target page name' is the destination of the redirect and appears when the wikitext for a redirect is inserted in the text box thus
+	'wikieditor-toolbar-tool-redirect-example' => "Target is an adjective describing the page name. You could use 'destination' instead of 'target'. 'Target page name' is the destination of the redirect and appears when the wikitext for a redirect is inserted in the text box thus 
  <nowiki>#REDIRECT [[target page name]]</nowiki>",
 	'wikieditor-toolbar-tool-small' => '{{Identical|Small}}',
 	'wikieditor-toolbar-group-insert' => '{{Identical|Insert}}',
@@ -464,8 +463,6 @@ $messages['ab'] = array(
  * @author Naudefj
  */
 $messages['af'] = array(
-	'prefs-beta' => 'Beta-funksies',
-	'prefs-labs' => 'Labs-funksies',
 	'wikieditor' => 'Uitgebreide teksverwerker vir wikiteks',
 	'wikieditor-desc' => "Voorsien 'n uitbreibare wikiteks-verwerker en modules met bykomende funksies",
 	'wikieditor-wikitext-tab' => 'Wikiteks',
@@ -697,8 +694,6 @@ $1:Voorbeeld2|Byskrif2',
  * @author Mdupont
  */
 $messages['aln'] = array(
-	'prefs-beta' => 'karakteristika Beta',
-	'prefs-labs' => 'Laboratorë karakteristika',
 	'wikieditor' => 'redaktimi i avancuar wikitext interface',
 	'wikieditor-desc' => 'Siguron një ndërfaqe të vazhdohet redaktimi wikitext dhe module shumë me metrazh të siguruar',
 	'wikieditor-wikitext-tab' => 'Wikitext',
@@ -1213,8 +1208,6 @@ $messages['ang'] = array(
  * @author ترجمان05
  */
 $messages['ar'] = array(
-	'prefs-beta' => 'مزايا بيتا',
-	'prefs-labs' => 'مزايا مُختَبرية',
 	'wikieditor' => 'الواجهة المتقدمة لتعديل نص ويكي',
 	'wikieditor-desc' => 'يوفر واجهة تعديل نص ويكي قابلة للتمديد والعديد من الوحدات التي توفر المزايا',
 	'wikieditor-wikitext-tab' => 'نص الويكي',
@@ -1555,8 +1548,6 @@ $messages['arc'] = array(
  * @author Meno25
  */
 $messages['arz'] = array(
-	'prefs-beta' => 'خصايص Beta',
-	'prefs-labs' => 'خصايص Labs',
 	'wikieditor' => 'Interface متقدم بتاع تعديل wikitext',
 	'wikieditor-desc' => 'بيدّى interface بتاع wikitext بينفع يتكبّر و modules كتيره بتنفع تعمل مميزات',
 	'wikieditor-wikitext-tab' => 'Wikitext',
@@ -1777,7 +1768,6 @@ $messages['as'] = array(
  * @author Vago
  */
 $messages['az'] = array(
-	'prefs-beta' => 'Beta xüsusiyyətlər',
 	'wikieditor-wikitext-tab' => 'Vikimətn',
 	'wikieditor-loading' => 'Yüklə',
 	'wikieditor-preview-tab' => 'Sınaq göstərişi',
@@ -1933,8 +1923,6 @@ $messages['az'] = array(
  * @author Assele
  */
 $messages['ba'] = array(
-	'prefs-beta' => 'Бета версияһы мөмкинлектәре',
-	'prefs-labs' => 'Һынау өсөн мөмкинлектәр',
 	'wikieditor' => 'Киңәйтелгән викитекст мөхәррирләү интерфейсы',
 	'wikieditor-desc' => 'Киңәйтелгән викитекст мөхәррирләү интерфейсы менән һәм модулдәр тарафынан күп мөмкинлектәр менән тәьмин итә',
 	'wikieditor-wikitext-tab' => 'Викитекст',
@@ -2408,8 +2396,6 @@ $1:Example.jpg|Апісанне2',
  * @author Zedlik
  */
 $messages['be-tarask'] = array(
-	'prefs-beta' => 'Тэставыя магчымасьці',
-	'prefs-labs' => 'Экспэрымэнтальныя магчымасьці',
 	'wikieditor' => 'Пашыраны інтэрфэйс рэдагаваньня вікі-тэксту',
 	'wikieditor-desc' => 'Дадае пашыраны інтэрфэйс рэдагаваньня вікі-тэксту і шмат модульных магчымасьцяў',
 	'wikieditor-wikitext-tab' => 'Вікі-тэкст',
@@ -2645,8 +2631,6 @@ $1:Прыклад.jpg|Подпіс2',
  * @author Turin
  */
 $messages['bg'] = array(
-	'prefs-beta' => 'Функционалности на Бета',
-	'prefs-labs' => 'Функционалности на Labs',
 	'wikieditor' => 'Подобрен интерфейс за редактиране на уикитекст',
 	'wikieditor-desc' => 'Предлага разширяем интерфейс за редактиране на уикитекст и множество модули с допълнителни функционалности',
 	'wikieditor-wikitext-tab' => 'Уикитекст',
@@ -3081,8 +3065,6 @@ $1:Cuntuh.jpg|Judul2',
  * @author Wikitanvir
  */
 $messages['bn'] = array(
-	'prefs-beta' => 'বেটা বৈশিষ্টসমূহ',
-	'prefs-labs' => 'পরীক্ষাগার বৈশিষ্টসমূহ',
 	'wikieditor' => 'উন্নত উইকিটেক্সট সম্পাদনা ইন্টারফেস',
 	'wikieditor-wikitext-tab' => 'উইকিটেক্সট',
 	'wikieditor-loading' => 'আনা হচ্ছে',
@@ -3320,8 +3302,6 @@ $messages['bo'] = array(
  * @author Usingha
  */
 $messages['bpy'] = array(
-	'prefs-beta' => 'বেটার বৈশিষ্টহানি',
-	'prefs-labs' => 'পরীক্ষাগারর বৈশিষ্টহানি',
 	'wikieditor' => 'উচ উইকিটেক্সট পাতানির ইন্টারফেসহান',
 	'wikieditor-desc' => 'উইকি-টেক্ট পতানির কা সালকরানি একরব অসারে ইন্টারফেস বারো আরাকউ ফিচার দিতই মডিউল',
 	'wikieditor-wikitext-tab' => 'উইকিটেক্সট',
@@ -3552,8 +3532,6 @@ $1:Example.jpg|ক্যাপশন২',
  * @author Y-M D
  */
 $messages['br'] = array(
-	'prefs-beta' => 'Perzhioù beta',
-	'prefs-labs' => 'Perzhioù "labs"',
 	'wikieditor' => 'Etrefas kemmañ wikitestenn klokaet',
 	'wikieditor-desc' => "Poruchas a ra un etrefas kemmañ wikitestenn astennidik ha meur a arc'hwel all.",
 	'wikieditor-wikitext-tab' => 'Wikitestenn',
@@ -3787,8 +3765,6 @@ $1:Skouer.jpg|Deskrivadur2',
  * @author Palapa
  */
 $messages['bs'] = array(
-	'prefs-beta' => 'Beta mogućnosti',
-	'prefs-labs' => 'Eksperimentalne mogućnosti',
 	'wikieditor' => 'Napredni interfejs za uređivanje wikiteksta',
 	'wikieditor-desc' => 'Omogućava proširivi interfejs za uređivanje wikiteksta i mnoge module sa brojnim mogućnostima',
 	'wikieditor-wikitext-tab' => 'Wikitekst',
@@ -4256,8 +4232,6 @@ $1:Example.jpg|Peu2',
  * @author Sasan700
  */
 $messages['ce'] = array(
-	'prefs-beta' => 'Гlоле таронаш',
-	'prefs-labs' => 'Муха ю хьажарна таронаш',
 	'wikieditor' => 'Викийозан рéдоккхучечохь аллсам чулоцург',
 	'wikieditor-desc' => 'Аьтто бо тlе хуттучо, викийозан аъ ишта кхечу харжамна рéдоккхучечохь аллсам чулоцучо',
 	'wikieditor-wikitext-tab' => 'Викийоза',
@@ -4492,8 +4466,6 @@ $1:Example.jpg|Цуьнах лаце2',
  * @author McDutchie
  */
 $messages['ckb'] = array(
-	'prefs-beta' => 'کەرەسەکانی بیتا',
-	'prefs-labs' => 'کەرەسەکانی تاقیگەکان',
 	'wikieditor' => 'ڕووکاری پێشکەوتووی دەستکاریکردنی ویکیدەق',
 	'wikieditor-wikitext-tab' => 'ویکیدەق',
 	'wikieditor-loading' => 'بارکردن',
@@ -4730,8 +4702,6 @@ $messages['co'] = array(
  * @author Mormegil
  */
 $messages['cs'] = array(
-	'prefs-beta' => 'Funkce z betaverze',
-	'prefs-labs' => 'Funkce z Labs',
 	'wikieditor' => 'Vylepšené rozhraní pro editaci wikitextu',
 	'wikieditor-desc' => 'Poskytuje rozšiřitelné editační rozhraní a mnoho modulů s novými funkcemi',
 	'wikieditor-wikitext-tab' => 'Wikitext',
@@ -5067,8 +5037,6 @@ $messages['cu'] = array(
  * @author Lloffiwr
  */
 $messages['cy'] = array(
-	'prefs-beta' => 'Nodweddion Beta',
-	'prefs-labs' => 'Nodweddion Labs',
 	'wikieditor' => 'Rhyngwyneb golygu testun wici uwch',
 	'wikieditor-desc' => 'Yn darparu rhyngwyneb estynadwy ar gyfer golygu testun wici a llawer o fodiwlau o nodweddion arbennig',
 	'wikieditor-wikitext-tab' => 'Testun wici',
@@ -5101,6 +5069,7 @@ $messages['cy'] = array(
 	'wikieditor-toolbar-desc' => 'Bar offer y dudalen olygu gyda gwelliannau defnyddioldeb',
 	'wikieditor-toolbar-preference' => "Defnyddio'r bar offer golygu estynedig",
 	'wikieditor-toolbar-dialogs-preference' => 'Galluoger y blychau yn y rhyngwyneb ar gyfer mewnosod cysylltiadau, tablau ag ati',
+	'wikieditor-toolbar-hidesig' => "Cuddio'r botwm llofnodi rhag y tudalennau yn y prif barth",
 	'wikieditor-toolbar-loading' => "Wrthi'n llwytho...",
 	'wikieditor-toolbar-tool-bold' => 'Praff',
 	'wikieditor-toolbar-tool-bold-example' => 'Testun praff',
@@ -5305,8 +5274,6 @@ $1:Enghraifft.jpg|Disgrifiad2',
  * @author Sir48
  */
 $messages['da'] = array(
-	'prefs-beta' => 'Betafunktioner',
-	'prefs-labs' => 'Testfunktioner',
 	'wikieditor' => 'Avanceret interface til redigering af wikitekst',
 	'wikieditor-desc' => 'Giver et udvidet interface til redigering af wikitekst og mange moduler med hjælpefunktioner',
 	'wikieditor-wikitext-tab' => 'wikitekst',
@@ -5797,8 +5764,6 @@ Möchten Sie daraus einen internen Link machen?',
  * @author Xoser
  */
 $messages['diq'] = array(
-	'prefs-beta' => 'Xacetê beta',
-	'prefs-labs' => 'Xacetê labs',
 	'wikieditor' => 'Interfaceye wikitext ke raver siyayo',
 	'wikieditor-desc' => 'Yew pedê nuştişiyê girdi u moduleyanê binan dano',
 	'wikieditor-wikitext-tab' => 'Wikimeqale',
@@ -6026,8 +5991,6 @@ $1:misal.jpg|nuşteyê resmi2',
  * @author Michawiki
  */
 $messages['dsb'] = array(
-	'prefs-beta' => 'Betafunkcije',
-	'prefs-labs' => 'Laborowe funkcije',
 	'wikieditor' => 'Rozšyrjony pówjerch za wobźěkowabnje wikiteksta',
 	'wikieditor-desc' => 'Stoj rozšyrjobny pówjerch za wobźěłowanje wikiteksta a wjele modulow k dispoziciji',
 	'wikieditor-wikitext-tab' => 'WikiTekst',
@@ -6265,8 +6228,6 @@ $1:Pśikład.jpg|Pópisanje2',
  * @author Περίεργος
  */
 $messages['el'] = array(
-	'prefs-beta' => 'Λειτουργίες της Beta',
-	'prefs-labs' => 'Λειτουργίες των Labs',
 	'wikieditor' => 'Προχωρημένη διεπαφή επεξεργασίας κειμένου wiki',
 	'wikieditor-desc' => 'Παρέχει μία επεκτάσιμη διεπαφή επεξεργασίας κειμένου wiki και πολλές μονάδες παροχής χαρακτηριστικών',
 	'wikieditor-wikitext-tab' => 'Κείμενο wiki',
@@ -6503,8 +6464,6 @@ $1:Example.jpg|Λεζάντα2',
  * @author Ziko
  */
 $messages['eo'] = array(
-	'prefs-beta' => 'Ecoj de Beta',
-	'prefs-labs' => 'Ecoj el Laboratorio',
 	'wikieditor' => 'Progresa redaktilo por vikiteksto',
 	'wikieditor-desc' => 'Ebligas redaktan interfacon por etendebla vikiteksto kaj multaj utilaj moduloj',
 	'wikieditor-wikitext-tab' => 'Vikiteksto',
@@ -6746,8 +6705,6 @@ $1:Ekzemplo.jpg|Teksto2 pri dosiero',
  * @author Translationista
  */
 $messages['es'] = array(
-	'prefs-beta' => 'Características de prueba',
-	'prefs-labs' => 'Características de los laboratorios',
 	'wikieditor' => 'Interfaz avanzada de edición de wikitexto',
 	'wikieditor-desc' => 'Provee de una interfaz extensible de edición de wikitexto y varios módulos que ofrecen características',
 	'wikieditor-wikitext-tab' => 'Wikitexto',
@@ -6982,8 +6939,6 @@ $1:Ejemplo.jpg|Descripción2',
  * @author WikedKentaur
  */
 $messages['et'] = array(
-	'prefs-beta' => 'Beetafunktsioonid',
-	'prefs-labs' => 'Katsefunktsioonid',
 	'wikieditor-wikitext-tab' => 'Vikitekst',
 	'wikieditor-loading' => 'Laadimine',
 	'wikieditor-preview-tab' => 'Eelvaade',
@@ -7211,8 +7166,6 @@ $1:Näide.jpg|Pildiallkiri2',
  * @author Joxemai
  */
 $messages['eu'] = array(
-	'prefs-beta' => 'Beta ezaugarriak',
-	'prefs-labs' => 'Labs ezaugarriak',
 	'wikieditor' => 'Wikitestu edizio-interfaze aurreratua',
 	'wikieditor-desc' => 'Wikitestua editatzeko interfazea eta ezaugarri berriak ematen ditu',
 	'wikieditor-wikitext-tab' => 'Wikitestua',
@@ -7447,8 +7400,6 @@ $1:Adibidea.jpg|Oina2',
  * @author Wayiran
  */
 $messages['fa'] = array(
-	'prefs-beta' => 'امکانات بتا',
-	'prefs-labs' => 'ویژگی‌های آزمایشی',
 	'wikieditor' => 'رابط ویرایش پیشرفته ویکی‌متن',
 	'wikieditor-desc' => 'یک رابط ویرایش پیشرفته ویکی‌متن و چندین پودمان دارای قابلیت فراهم می‌کند',
 	'wikieditor-wikitext-tab' => 'ویکی‌متن',
@@ -7684,8 +7635,6 @@ $1:مثال.jpg|عنوان ۲',
  * @author ZeiP
  */
 $messages['fi'] = array(
-	'prefs-beta' => 'Beta-ominaisuudet',
-	'prefs-labs' => 'Kokeelliset ominaisuudet',
 	'wikieditor' => 'Edistynyt wikitext-muokkauskäyttöliittymä',
 	'wikieditor-desc' => 'Tarjoaa laajennettavan wikitext-muokkauskäyttöliittymän ja monia toimintoja tarjoavia laajennuksia.',
 	'wikieditor-wikitext-tab' => 'Wikiteksti',
@@ -7925,8 +7874,6 @@ $1:Esimerkki.jpg|Kuvateksti2',
  * @author Zetud
  */
 $messages['fr'] = array(
-	'prefs-beta' => 'Fonctionnalités bêta',
-	'prefs-labs' => 'Fonctionnalités « labs »',
 	'wikieditor' => 'Interface avancée de modification de wikitexte',
 	'wikieditor-desc' => 'Fournit un interface de modification de wikitexte extensible et plusieurs fonctionnalités.',
 	'wikieditor-wikitext-tab' => 'WikiTexte',
@@ -8159,8 +8106,6 @@ $1:Exemple.jpg|Description 2',
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
-	'prefs-beta' => 'Fonccionalitâts « Bèta »',
-	'prefs-labs' => 'Fonccionalitâts « Laboratiors »',
 	'wikieditor' => 'Entèrface avanciê de changement de vouiquitèxto',
 	'wikieditor-desc' => 'Balye una entèrface de changement de vouiquitèxto èxtensibla et un mouél de fonccionalitâts.',
 	'wikieditor-wikitext-tab' => 'Vouiquitèxto',
@@ -8419,8 +8364,6 @@ $messages['fy'] = array(
  * @author Akerbeltz
  */
 $messages['gd'] = array(
-	'prefs-beta' => 'Feartan Beta',
-	'prefs-labs' => 'Feartan nan deuchainn-lannan',
 	'wikieditor' => 'Eadar-aghaidh deasachadh wikitext adhartach',
 	'wikieditor-desc' => 'Bheir seo dhut eadar-aghaidh deasachadh wikitext adhartach agus iomadh mòideal a bheir dhut feartan',
 	'wikieditor-wikitext-tab' => 'Wikitext',
@@ -8649,8 +8592,6 @@ $1:Ballsampaill.jpg|Mìneachadh an deilbh2',
  * @author Toliño
  */
 $messages['gl'] = array(
-	'prefs-beta' => 'Características en probas',
-	'prefs-labs' => 'Características experimentais',
 	'wikieditor' => 'Interface avanzada de edición de texto wiki',
 	'wikieditor-desc' => 'Proporciona unha interface extensible de edición de texto wiki e moitas funcionalidades de módulos',
 	'wikieditor-wikitext-tab' => 'Texto wiki',
@@ -8974,8 +8915,6 @@ $messages['grc'] = array(
  * @author Kghbln
  */
 $messages['gsw'] = array(
-	'prefs-beta' => 'Betafunktione',
-	'prefs-labs' => 'Alphafunktione',
 	'wikieditor' => 'Oberflechi fir s fortgschritte Wikitext-Bearbeite',
 	'wikieditor-desc' => 'Stellt e uusklappbari Wikitext-Bearbeitigsoberflechi z Verfiegig un vili Modul mit extra Megligkeite',
 	'wikieditor-wikitext-tab' => 'WikiText',
@@ -9209,8 +9148,6 @@ $1:Byschpil.jpg|Bschriftig2',
  * @author Shimmin Beg
  */
 $messages['gv'] = array(
-	'prefs-beta' => 'Troyn as greieyn beta',
-	'prefs-labs' => 'Troyn as greieyn prowaltagh',
 	'wikieditor-wikitext-tab' => 'Teks wiki',
 	'wikieditor-loading' => 'Laadey',
 	'wikieditor-preview-preference' => 'Lhiggey da roie-haishbynys çheu-ry-heu',
@@ -9454,8 +9391,6 @@ $messages['ha'] = array(
  * @author Yonidebest
  */
 $messages['he'] = array(
-	'prefs-beta' => 'אפשרויות בטא',
-	'prefs-labs' => 'אפשרויות מעבדה',
 	'wikieditor' => 'ממשק מתקדם לעריכת טקסט ויקי',
 	'wikieditor-desc' => 'מספקת מנשק עריכת ויקיטקסט הניתן להרחבה ומודולים המאפשרים להוסיף יכולות',
 	'wikieditor-wikitext-tab' => 'קוד ויקי',
@@ -9696,8 +9631,6 @@ $messages['hif-latn'] = array(
  * @author SpeedyGonsales
  */
 $messages['hr'] = array(
-	'prefs-beta' => 'Beta mogućnosti',
-	'prefs-labs' => 'Labs mogućnosti',
 	'wikieditor' => 'Napredno sučelje uređivanja wikiteksta',
 	'wikieditor-desc' => 'Pruža proširivo sučelje za uređivanje wikiteksta i više modula s raznim dodacima',
 	'wikieditor-wikitext-tab' => 'Wikitekst',
@@ -9930,8 +9863,6 @@ $1:Primjer.jpg|Opis2',
  * @author Michawiki
  */
 $messages['hsb'] = array(
-	'prefs-beta' => 'Betafunkcije',
-	'prefs-labs' => 'Laborowe funkcije',
 	'wikieditor' => 'Rozšěrjeny powjerch za wobdźěłowanje wikiteksta',
 	'wikieditor-desc' => 'Steji rozšěrjujomny powjerch za wobdźěłowanje wikiteksta a wjele modulow k dispoziciji.',
 	'wikieditor-wikitext-tab' => 'WikiTekst',
@@ -10168,8 +10099,6 @@ $1:Example.jpg|Popis2',
  * @author Misibacsi
  */
 $messages['hu'] = array(
-	'prefs-beta' => 'Béta funkciók',
-	'prefs-labs' => 'Kísérleti funkciók',
 	'wikieditor' => 'Fejlett szerkesztőfelület wikiszöveghez',
 	'wikieditor-desc' => 'Bővíthető szerkesztőfelület wikiszöveghez és több, új funkciókat kínáló modul',
 	'wikieditor-wikitext-tab' => 'Wikiszöveg',
@@ -10618,8 +10547,6 @@ $1:Example.jpg|Նկարագրություն2',
  * @author McDutchie
  */
 $messages['ia'] = array(
-	'prefs-beta' => 'Functiones beta',
-	'prefs-labs' => 'Functiones experimental',
 	'wikieditor' => 'Interfacie avantiate de modification de wikitexto',
 	'wikieditor-desc' => 'Forni un interfacie de modification de wikitexto extensibile con multe modulos a functiones additional',
 	'wikieditor-wikitext-tab' => 'Wikitexto',
@@ -10856,8 +10783,6 @@ $1:Exemplo.jpg|Legenda2',
  * @author Kenrick95
  */
 $messages['id'] = array(
-	'prefs-beta' => 'Fitur Beta',
-	'prefs-labs' => 'Fitur Labs',
 	'wikieditor' => 'Antarmuka penyuntingan teks wiki canggih',
 	'wikieditor-desc' => 'Menyediakan antarmuka penyuntingan teks wiki yang lebih berkembang dan banyak modul penyedia fitur',
 	'wikieditor-wikitext-tab' => 'TeksWiki',
@@ -11381,8 +11306,6 @@ Viltu gera hana að innri tengli?',
  * @author Vituzzu
  */
 $messages['it'] = array(
-	'prefs-beta' => 'Funzionalità beta',
-	'prefs-labs' => 'Funzionalità dei laboratori',
 	'wikieditor' => 'Interfaccia avanzata di modifica del wikitesto',
 	'wikieditor-desc' => "Fornisce un'interfaccia di modifica del wikitesto estensibile e molti moduli che forniscono altre funzionalità",
 	'wikieditor-wikitext-tab' => 'Wikitesto',
@@ -11619,8 +11542,6 @@ $1:Esempio.jpg|Didascalia2',
  * @author 青子守歌
  */
 $messages['ja'] = array(
-	'prefs-beta' => 'ベータ版機能',
-	'prefs-labs' => 'ラボの機能',
 	'wikieditor' => '高度なウィキテキスト編集インターフェイス',
 	'wikieditor-desc' => '拡張可能なウィキテキスト編集インターフェイスと多数の機能モジュールを提供する',
 	'wikieditor-wikitext-tab' => 'ウィキテキスト',
@@ -11873,8 +11794,6 @@ $messages['jv'] = array(
  * @author გიორგიმელა
  */
 $messages['ka'] = array(
-	'prefs-beta' => 'ბეტა შესაძლებლობები',
-	'prefs-labs' => 'ექსპერიმენტალური ფუნქციები',
 	'wikieditor' => 'ვიკიტექსტის რედაქტირების გაფართოებული ინტერფეისი',
 	'wikieditor-desc' => 'ვიკიტექსტის რედაქტირების გაფართოებული ინტერფეისისა და სხვა ფუნქციებს უზრუნველყოფს',
 	'wikieditor-wikitext-tab' => 'ვიკიტექსტი',
@@ -12101,7 +12020,7 @@ $1:Example.jpg|აღწერა2',
 	'wikieditor-toolbar-help-content-indent-result' => 'ჩვეულებრივი ტექსტი<dl><dd>შეწეული ტექსტი<dl><dd>შეწეული ტექსტი</dd></dl></dd></dl>',
 );
 
-/** Kabardian (Cyrillic) (къэбэрдеибзэ/qabardjajəbza (Cyrillic))
+/** Kabardian (Cyrillic) (Къэбэрдеибзэ / Qabardjajəbza (Cyrillic))
  * @author Bogups
  */
 $messages['kbd-cyrl'] = array(
@@ -12121,8 +12040,6 @@ $messages['kiu'] = array(
  * @author គីមស៊្រុន
  */
 $messages['km'] = array(
-	'prefs-beta' => 'មុខងារពិសេសថ្មីៗរបស់ស៊េរីបេតា',
-	'prefs-labs' => 'មុខងារពិសេសថ្មីៗដែលស្ថិតក្រោមការពិសោធន៍នៅឡើយ',
 	'wikieditor-loading' => 'កំពុងផ្ទុក',
 	'wikieditor-publish-button-publish' => 'បោះផ្សាយ',
 	'wikieditor-publish-button-cancel' => 'បោះបង់',
@@ -12364,8 +12281,6 @@ $messages['kn'] = array(
  * @author Kwj2772
  */
 $messages['ko'] = array(
-	'prefs-beta' => '베타 기능',
-	'prefs-labs' => '실험 중인 기능',
 	'wikieditor' => '확장된 위키텍스트 편집 인터페이스',
 	'wikieditor-desc' => '확장된 위키 문법 편집 인터페이스와 다양한 기능을 제공하는 모듈을 제공',
 	'wikieditor-wikitext-tab' => '위키텍스트',
@@ -12599,8 +12514,6 @@ $1:Example.jpg|설명2',
  * @author Къарачайлы
  */
 $messages['krc'] = array(
-	'prefs-beta' => 'Бета-амалла',
-	'prefs-labs' => 'Эксперимент амалла',
 	'wikieditor' => 'Викитекст редакторлауну кенгертилген интерфейси',
 	'wikieditor-desc' => 'Викитекст редакторлауну кенгертилген интерфейсин эмда модулла берген кёб башха функцияны джетиштиреди.',
 	'wikieditor-wikitext-tab' => 'Викитекст',
@@ -12830,8 +12743,6 @@ $1:Юлгю.jpg|Ангылатыу2',
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'prefs-beta' => 'Saache zum Ußprobeere, di schun en Zick lang erproob woode sin',
-	'prefs-labs' => 'Neu Saache zom Ußprobeere, die künnte noch nit akeraat fluppe',
 	'wikieditor' => 'Fottjeschredde Eddiror för de WikiTäx',
 	'wikieditor-desc' => 'Brängk en Müjjeleschkeit för Wikitäx enzejävve un ze ändere en et Wiki, di mer ußboue kann, un noch allerhand Kröhmsches met dobei hät.',
 	'wikieditor-wikitext-tab' => 'Wikitäx',
@@ -13466,8 +13377,6 @@ $1:Exemplum.jpg|Descriptio 2',
  * @author Robby
  */
 $messages['lb'] = array(
-	'prefs-beta' => 'Beta-Fonctiounen',
-	'prefs-labs' => '"Labs"-Fonctiounen',
 	'wikieditor' => "Erweiderten Interface fir d'Änner vu Wikitext",
 	'wikieditor-desc' => "Liwwert en erweiderbaren Interface fir d'Ännere vu Wikitext a vill Module mat Fonctiounen",
 	'wikieditor-wikitext-tab' => 'WikiText',
@@ -13719,8 +13628,6 @@ $1:Example.jpg|Beschreiwung2',
  * @author Pahles
  */
 $messages['li'] = array(
-	'prefs-beta' => 'Bètadeil',
-	'prefs-labs' => 'Alfadeil',
 	'wikieditor' => 'Oetgebreijde teksverwèrker veur wikiteks',
 	'wikieditor-desc' => "Voeg 'nen oetbreidbare teksverwerker veur wikiteks toe en modules mit extra meugelikheje",
 	'wikieditor-wikitext-tab' => 'Wikiteks',
@@ -13955,8 +13862,6 @@ $1:Veurbeildj2|Biesjrif2',
  * @author Vpovilaitis
  */
 $messages['lt'] = array(
-	'prefs-beta' => 'Beta funkcijos',
-	'prefs-labs' => 'Bandomosios funkcijos',
 	'wikieditor' => 'Išplėstinė wikiteksto redagavimo sąsaja',
 	'wikieditor-desc' => 'Prideda išplečiamą wikiteksto redagavimo sąsają ir daug funkcijų turinčius modulius',
 	'wikieditor-wikitext-tab' => 'Wikitekstas',
@@ -14423,8 +14328,6 @@ $messages['lzz'] = array(
  * @author VoteITP
  */
 $messages['min'] = array(
-	'prefs-beta' => 'Corak Beta',
-	'prefs-labs' => 'Corak Uji',
 	'wikieditor' => 'Suntingan antarmuka teks wiki lanjut',
 	'wikieditor-desc' => 'Menyediakan suntingan antarmuka teks wiki dan babarapo ruang penyedia corak',
 	'wikieditor-wikitext-tab' => 'Teks wiki',
@@ -14654,8 +14557,6 @@ $1:Contoh.jpg|Judul2',
  * @author Brest
  */
 $messages['mk'] = array(
-	'prefs-beta' => 'Бета-можности',
-	'prefs-labs' => 'Експериментални можности',
 	'wikieditor' => 'Посредник за напредно уредување со викитекст',
 	'wikieditor-desc' => 'Дава проширлив посредник за уредување со викитекст и многу модули за разни други алатки',
 	'wikieditor-wikitext-tab' => 'ВикиТекст',
@@ -14889,8 +14790,6 @@ $1:Пример.jpg|Опис2',
  * @author Praveenp
  */
 $messages['ml'] = array(
-	'prefs-beta' => 'പരീക്ഷണാടിസ്ഥാനത്തിലുള്ള സൗകര്യങ്ങൾ',
-	'prefs-labs' => 'പരീക്ഷണശാലയിൽ തയ്യാറാകുന്ന സൗകര്യങ്ങൾ',
 	'wikieditor' => 'വിക്കിഎഴുത്തുകൾ തിരുത്തുവാനുള്ള നൂതന സമ്പർക്കമുഖം',
 	'wikieditor-desc' => 'വികസിപ്പിക്കാവുന്ന വിധത്തിലുള്ള വിക്കിഎഴുത്ത് തിരുത്തൽ സമ്പർക്കമുഖവും മറ്റ് സവിശേഷ ഘടകങ്ങളും നൽകുന്നു',
 	'wikieditor-wikitext-tab' => 'വിക്കിഎഴുത്ത്',
@@ -15376,8 +15275,6 @@ $1:Example.jpg|चित्रपरिचय २',
  * @author Yosri
  */
 $messages['ms'] = array(
-	'prefs-beta' => 'Ciri-ciri beta',
-	'prefs-labs' => 'Ciri-ciri makmal',
 	'wikieditor' => 'Wikiteks keutamaan halaman suntingan',
 	'wikieditor-desc' => 'Menyediakan halaman wikitext suntingan dan ciri modul lain',
 	'wikieditor-wikitext-tab' => 'Wikiteks',
@@ -15611,8 +15508,6 @@ $1:Contoh.jpg|Sari kata 2',
  * @author Chrisportelli
  */
 $messages['mt'] = array(
-	'prefs-beta' => 'Karatteristiċi tal-Beta',
-	'prefs-labs' => 'Karatteristiċi tal-laboratorji',
 	'wikieditor' => "Interfaċċa avvanzata ta' modifika tat-test tal-wiki",
 	'wikieditor-desc' => "Tipprovdi interfaċċa ta' modifika tat-test tal-wiki estendibbli u ħafna moduli li jipprovdu aktar funzjonalitajiet",
 	'wikieditor-wikitext-tab' => 'Test tal-wiki',
@@ -16026,8 +15921,6 @@ $messages['nah'] = array(
  * @author Servien
  */
 $messages['nds-nl'] = array(
-	'prefs-beta' => 'Bètafuncties',
-	'prefs-labs' => 'Alphafuncties',
 	'wikieditor' => 'Uut-ebreien teksverwarker veur wikitekse',
 	'wikieditor-desc' => 'Hierdeur krie-j een teksverwarker veur wikitekse dee-j uut kunnen breien en modules mit extra functies',
 	'wikieditor-wikitext-tab' => 'Wikitekse',
@@ -16269,8 +16162,6 @@ $messages['ne'] = array(
  * @author Tvdm
  */
 $messages['nl'] = array(
-	'prefs-beta' => 'Bètafunctionaliteit',
-	'prefs-labs' => 'Alphafunctionaliteit',
 	'wikieditor' => 'Uitgebreide tekstverwerker voor wikitekst',
 	'wikieditor-desc' => 'Voegt een uitbreidbare tekstverwerker voor wikitekst toe en modules met extra mogelijkheden',
 	'wikieditor-wikitext-tab' => 'Wikitekst',
@@ -16506,8 +16397,6 @@ $1:Voorbeeld.jpg|Bijschrift2',
  * @author Nghtwlkr
  */
 $messages['nn'] = array(
-	'prefs-beta' => 'Betafunksjonar',
-	'prefs-labs' => 'Testfunksjonar',
 	'wikieditor' => 'Avansert grensesnitt for endring av wikitekst',
 	'wikieditor-wikitext-tab' => 'Wikitekst',
 	'wikieditor-loading' => 'Lastar',
@@ -16734,8 +16623,6 @@ $1:Døme.jpg|Bilettekst2',
  * @author Nghtwlkr
  */
 $messages['no'] = array(
-	'prefs-beta' => 'Betafunksjoner',
-	'prefs-labs' => 'Lab-funksjoner',
 	'wikieditor' => 'Avansert grensesnitt for redigering av wikitekst',
 	'wikieditor-desc' => 'Gir et utvidbart tekstredigeringsgrensesnitt og mange utvidelsesmoduler',
 	'wikieditor-wikitext-tab' => 'Wikitekst',
@@ -17003,8 +16890,6 @@ $messages['nso'] = array(
  * @author McDutchie
  */
 $messages['oc'] = array(
-	'prefs-beta' => 'Foncionalitats bèta',
-	'prefs-labs' => 'Foncionalitats « labs »',
 	'wikieditor' => 'Interfàcia avançada de modificacion de wikitèxte',
 	'wikieditor-desc' => 'Provesís una interfàcia de modificacion de wikitèxte extensible e mantuna foncionalitats.',
 	'wikieditor-wikitext-tab' => 'Wikitèxte',
@@ -17304,8 +17189,6 @@ $messages['pdc'] = array(
  * @author Wpedzich
  */
 $messages['pl'] = array(
-	'prefs-beta' => 'Funkcje testowe',
-	'prefs-labs' => 'Funkcje doświadczalne',
 	'wikieditor' => 'Zaawansowany interfejs edycji wikitekstu',
 	'wikieditor-desc' => 'Dostarcza rozszerzalny interfejs edycji wikitekstu oraz wiele funkcji oferowane przez moduły',
 	'wikieditor-wikitext-tab' => 'Wikikod',
@@ -17538,8 +17421,6 @@ $1:Example.jpg|Podpis2',
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'prefs-beta' => 'Caraterìstiche dla Beta',
-	'prefs-labs' => 'Caraterìstiche dël laboratòri',
 	'wikieditor' => 'Antërfacia ëd modìfica avansà ëd wikitext',
 	'wikieditor-desc' => "A dà n'antërfacia ëd modìfica estendìbil ëd wikitext e motobin ëd modoj ch'a dan ëd fonsionalità",
 	'wikieditor-wikitext-tab' => 'Test Wiki',
@@ -17780,7 +17661,6 @@ $messages['pnt'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
-	'prefs-beta' => 'د آزمېښتي بڼې ځانګړنې',
 	'wikieditor' => 'د پرمختللی ويکي متن د سمون ليدنمخ',
 	'wikieditor-wikitext-tab' => 'ويکي متن',
 	'wikieditor-loading' => 'د برسېرېدو په حال کې',
@@ -17969,8 +17849,6 @@ $messages['ps'] = array(
  * @author Malafaya
  */
 $messages['pt'] = array(
-	'prefs-beta' => 'Funcionalidades beta',
-	'prefs-labs' => 'Funcionalidades dos laboratórios',
 	'wikieditor' => 'Interface avançada de edição de texto wiki',
 	'wikieditor-desc' => 'Fornece uma interface extensível de edição de texto wiki e vários módulos funcionais',
 	'wikieditor-wikitext-tab' => 'Texto Wiki',
@@ -18210,8 +18088,6 @@ $1:Exemplo2.jpg|Legenda2',
  * @author Luckas Blade
  */
 $messages['pt-br'] = array(
-	'prefs-beta' => 'Características beta',
-	'prefs-labs' => 'Características de laboratório',
 	'wikieditor' => 'Interface avançada de edição de wikitexto',
 	'wikieditor-desc' => 'Fornece uma interface extensível de edição de textowiki e vários módulos funcionais',
 	'wikieditor-wikitext-tab' => 'Wikitexto',
@@ -18443,8 +18319,6 @@ $1:Exemplo.jpg|Legenda2',
  * @author AlimanRuna
  */
 $messages['qu'] = array(
-	'prefs-beta' => 'Beta nisqap kaqninkuna',
-	'prefs-labs' => 'Laburaturyu nisqap kaqninkuna',
 	'wikieditor' => "Ñawparikusqa wiki qillqa llamk'apuna uyapura",
 	'wikieditor-desc' => "Mast'arinalla wiki qillqa llamk'apuna uyapurata achka yanapaykuq llamk'anachakunatapas haywan",
 	'wikieditor-wikitext-tab' => 'Wiki qillqa',
@@ -18679,8 +18553,6 @@ $1:Qhawarichiy.jpg|Ch'uyanchay2",
  * @author Minisarm
  */
 $messages['ro'] = array(
-	'prefs-beta' => 'Opțiuni beta',
-	'prefs-labs' => 'Opțiuni „labs”',
 	'wikieditor' => 'Interfață de modificare wikitext avansată',
 	'wikieditor-desc' => 'Afișează o interfață de modificare a wikitextului ce se poate extinde cu multe funcționalități',
 	'wikieditor-wikitext-tab' => 'Wikitext',
@@ -18913,8 +18785,6 @@ $1:Exemplu.jpg|Descriere 2',
  * @author Reder
  */
 $messages['roa-tara'] = array(
-	'prefs-beta' => 'Funziune de Beta',
-	'prefs-labs' => 'Funziune de Labs',
 	'wikieditor' => "Wikitext avanzate pe le cangiaminde de l'inderfacce",
 	'wikieditor-desc' => "Dè 'nu wikitext estendibbele pe le cangiaminde de l'inderfacce e 'nu sbuenne de funzionalità de cchiù previste sus a le module",
 	'wikieditor-wikitext-tab' => 'Uicchiteste',
@@ -19151,8 +19021,6 @@ $1:Example.jpg|Titele2',
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
-	'prefs-beta' => 'Бета-возможности',
-	'prefs-labs' => 'Экспериментальные возможности',
 	'wikieditor' => 'Расширенный интерфейс редактирования викитекста',
 	'wikieditor-desc' => 'Обеспечивает расширяемый интерфейс редактирования викитекста и многие функции, предоставляемые модулями',
 	'wikieditor-wikitext-tab' => 'Викитекст',
@@ -19386,8 +19254,6 @@ $1:Example.jpg|Описание2',
  * @author Gazeb
  */
 $messages['rue'] = array(
-	'prefs-beta' => 'Бета-функції',
-	'prefs-labs' => 'Експеріменталны функції',
 	'wikieditor' => 'Росшыреный інтерфейс едітованя вікітексту',
 	'wikieditor-desc' => 'Забезпечує росшырительный інтерфейс едітованя вікітексту з богато функціоналныма модулами',
 	'wikieditor-wikitext-tab' => 'Вікітекст',
@@ -19630,8 +19496,6 @@ $messages['sa'] = array(
  * @author HalanTul
  */
 $messages['sah'] = array(
-	'prefs-beta' => 'Бета-туруоруулар',
-	'prefs-labs' => 'Тургутуллар туруоруулар',
 	'wikieditor' => 'Биики тиэкиһи эрэдээксийэлиир кэҥэтиллибит интерфейс',
 	'wikieditor-desc' => 'Биики тиэкис кэҥэтиллэр интерфейсын уонна модуллар көмөлөрүнэн атын кыахтары хааччыйар',
 	'wikieditor-wikitext-tab' => 'Биики тиэкис',
@@ -20069,8 +19933,6 @@ $1:Esèmpiu.jpg|Didascalia2',
  * @author Gmelfi
  */
 $messages['scn'] = array(
-	'prefs-beta' => 'Funzioni beta',
-	'prefs-labs' => 'Funziunalità dî labboratoria',
 	'wikieditor' => 'Ntirfazza avanzata di canci di testu wiki',
 	'wikieditor-desc' => 'Duna na ntirfazza di canci dû testu wiki ca si pò stènniri e assai àutri môduli ca dùnanu àutri funziunalità',
 	'wikieditor-wikitext-tab' => 'testu wiki',
@@ -20326,8 +20188,6 @@ $messages['sco'] = array(
  * @author බිඟුවා
  */
 $messages['si'] = array(
-	'prefs-beta' => 'බීටා අනුවාදයේ ලක්ෂණ',
-	'prefs-labs' => 'Labs features',
 	'wikieditor' => 'දියුණු කළ විකි පෙළ සංස්කරණය කිරීමේ අතුරු මුහුණත',
 	'wikieditor-desc' => 'විස්තීරණය කළ හැකි විකිපෙළ සංස්කරණය කිරීමේ අතුරු මුහුණතක් හා බොහෝ විශේෂාංග-ලබාදෙන මොඩියුල සපයයි',
 	'wikieditor-wikitext-tab' => 'විකි පෙළ',
@@ -20560,8 +20420,6 @@ $1:උදාහරණ.jpg| 2 යටි ලියමන',
  * @author McDutchie
  */
 $messages['sk'] = array(
-	'prefs-beta' => 'Nové funkcie',
-	'prefs-labs' => 'Laboratórne funkcie',
 	'wikieditor' => 'Pokročilé rozhranie na úpravu wikitextu',
 	'wikieditor-desc' => 'Poskytuje rozšíriteľné rozhranie na úpravu wikitextu a mnohé moduly poskytujúce funkcionalitu',
 	'wikieditor-wikitext-tab' => 'Wikitext',
@@ -20793,8 +20651,6 @@ $1:Príklad.jpg|Popis2',
  * @author Dbc334
  */
 $messages['sl'] = array(
-	'prefs-beta' => 'Betafunkcije',
-	'prefs-labs' => 'Funkcije laboratorija',
 	'wikieditor' => 'Napredni vmesnik za urejanje wikibesedila',
 	'wikieditor-desc' => 'Nudi razširjen vmesnik za urejanje wikibesedila in mnogo modulov z dodatnimi funkcijami',
 	'wikieditor-wikitext-tab' => 'Wikibesedilo',
@@ -21263,8 +21119,6 @@ $messages['sq'] = array(
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
-	'prefs-beta' => 'Бета функције',
-	'prefs-labs' => 'Лабораторијске функције',
 	'wikieditor' => 'Напредно сучеље уређивања викитекста',
 	'wikieditor-wikitext-tab' => 'Викитекст',
 	'wikieditor-loading' => 'Учитавање',
@@ -21480,7 +21334,6 @@ $1:пример2.jpg|Наслов2',
  * @author Жељко Тодоровић
  */
 $messages['sr-el'] = array(
-	'prefs-beta' => 'Beta funkcije',
 	'wikieditor-wikitext-tab' => 'Vikitekst',
 	'wikieditor-loading' => 'Učitavanje',
 	'wikieditor-preview-tab' => 'Pretpregled',
@@ -21655,8 +21508,6 @@ $messages['stq'] = array(
  * @author Kandar
  */
 $messages['su'] = array(
-	'prefs-beta' => 'Fitur béta',
-	'prefs-labs' => 'Fitur Labs',
 	'wikieditor-wikitext-tab' => 'Wikitext',
 	'wikieditor-loading' => 'Ngamuat',
 	'wikieditor-preview-tab' => 'Pramidang',
@@ -21866,8 +21717,6 @@ $1:Conto.jpg|Pedaran2',
  * @author Sertion
  */
 $messages['sv'] = array(
-	'prefs-beta' => 'Betafunktioner',
-	'prefs-labs' => 'Testfunktioner',
 	'wikieditor' => 'Avancerat gränssnitt för redigering av wikitext',
 	'wikieditor-desc' => 'Tillhandahåller ett utökat gränssnitt för redigering av wikitext och många moduler som tillhandahåller funktioner',
 	'wikieditor-wikitext-tab' => 'Wikitext',
@@ -22100,7 +21949,6 @@ $1:Exempel.jpg|Bildtext2',
  * @author Muddyb Blast Producer
  */
 $messages['sw'] = array(
-	'prefs-beta' => 'Zana za Beta',
 	'wikieditor' => 'Kusano ya juu ya kuandika kiwiki',
 	'wikieditor-wikitext-tab' => 'Maandishi ya kiwiki',
 	'wikieditor-loading' => 'Inapakizwa',
@@ -22570,8 +22418,6 @@ $1:எடுத்துக்காட்டு.jpg|படவிளக்கம
  * @author Veeven
  */
 $messages['te'] = array(
-	'prefs-beta' => 'బీటా సౌలభ్యాలు',
-	'prefs-labs' => 'ప్రయోగాత్మక సౌలభ్యాలు',
 	'wikieditor' => 'ఉన్నత వికీపాఠ్య దిద్దుబాటు ముఖాంతరం',
 	'wikieditor-wikitext-tab' => 'వికీపాఠ్యం',
 	'wikieditor-loading' => 'లోడవుతూంది',
@@ -22788,7 +22634,6 @@ $messages['tg-latn'] = array(
  * @author Woraponboonkerd
  */
 $messages['th'] = array(
-	'prefs-beta' => 'คุณลักษณะรุ่นทดสอบ',
 	'wikieditor-wikitext-tab' => 'ข้อความวิกิ',
 	'wikieditor-loading' => 'กำลังโหลด',
 	'wikieditor-preview-preference' => 'เปิดใช้งานการแสดงตัวอย่างแบบเคียงข้าง',
@@ -23011,8 +22856,6 @@ $1:Example.jpg|คำอธิบายภาพ2',
  * @author Hanberke
  */
 $messages['tk'] = array(
-	'prefs-beta' => 'Beta funksiýalar',
-	'prefs-labs' => 'Synag funksiýalar',
 	'wikieditor' => 'Giňeldilen wikitekst redaktirleme interfeýsi',
 	'wikieditor-desc' => 'Giňeldilýän wikitekst redkatirleme interfeýsini we köp aýratynlykly modullary üpjün edýär',
 	'wikieditor-wikitext-tab' => 'Wikitekst',
@@ -23244,8 +23087,6 @@ $1:Example.jpg|Titr2',
  * @author McDutchie
  */
 $messages['tl'] = array(
-	'prefs-beta' => 'Mga kaangkapang-katangiang pang-beta',
-	'prefs-labs' => 'Mga kasangkapang-katangiang pang-Labs',
 	'wikieditor' => 'Mas masulong na dugtungang-mukha na pambago ng wikiteksto',
 	'wikieditor-desc' => 'Nagbibigay ng maidurugtong na dugtungang-mukha na pambago ng wikiteksto at maraming mga modulong nagbibigay ng katangiang-kasangkapan',
 	'wikieditor-wikitext-tab' => 'Wikiteksto',
@@ -23487,8 +23328,6 @@ $messages['tpi'] = array(
  * @author Vito Genovese
  */
 $messages['tr'] = array(
-	'prefs-beta' => 'Beta özellikleri',
-	'prefs-labs' => 'Lab özellikleri',
 	'wikieditor' => 'Gelişmiş viki metni düzenleme arayüzü',
 	'wikieditor-desc' => 'Genişletilebilir bir viki metni düzenleme arayüzü ve birçok özellik sağlayan modüller sağlar',
 	'wikieditor-wikitext-tab' => 'Vikimetin',
@@ -23721,8 +23560,6 @@ $1:Örnek.jpg|Resimyazısı2',
  * @author Рашат Якупов
  */
 $messages['tt-cyrl'] = array(
-	'prefs-beta' => 'Бета-мөмкинчелекләр',
-	'prefs-labs' => 'Сынаулы мөмкинчелекләр',
 	'wikieditor' => 'Викитекстны үзгәртү буенча киңәйтелгән интерфейс',
 	'wikieditor-desc' => 'Викитекстны үзгәртү буенча киңәйтелгән интефейс (модулляр тарафынна бирелә)',
 	'wikieditor-wikitext-tab' => 'Викитекст',
@@ -23959,8 +23796,6 @@ $1:Мисал.jpg|Тасвирлама2',
  * @author Тест
  */
 $messages['uk'] = array(
-	'prefs-beta' => 'Бета-функції',
-	'prefs-labs' => 'Експериментальні функції',
 	'wikieditor' => 'Розширений інтерфейс редагування вікітексту',
 	'wikieditor-desc' => 'Забезпечує розширюваний інтерфейс редагування вікітексту і багато функціональних модулів',
 	'wikieditor-wikitext-tab' => 'Вікітекст',
@@ -24199,8 +24034,6 @@ $messages['ur'] = array(
  * @author Vajotwo
  */
 $messages['vec'] = array(
-	'prefs-beta' => 'Funsionałidà beta',
-	'prefs-labs' => 'Funsionałidà de i laboratori',
 	'wikieditor' => 'Interfacia avansada de modifica testo wiki',
 	'wikieditor-desc' => 'Fornisse na interfacia avansada de modifica testo wiki e vari moduli funsionali',
 	'wikieditor-wikitext-tab' => 'Testo wiki',
@@ -24485,8 +24318,6 @@ $messages['vep'] = array(
  * @author Vinhtantran
  */
 $messages['vi'] = array(
-	'prefs-beta' => 'Tính năng beta',
-	'prefs-labs' => 'Tính năng phòng thí nghiệm',
 	'wikieditor' => 'Giao diện sửa đổi văn bản wiki nâng cao',
 	'wikieditor-desc' => 'Cung cấp giao diện sửa đổi văn bản wiki có thể mở rộng, cũng như nhiều tính năng khác',
 	'wikieditor-wikitext-tab' => 'Mã wiki',
@@ -24865,8 +24696,6 @@ $messages['xmf'] = array(
  * @author פוילישער
  */
 $messages['yi'] = array(
-	'prefs-beta' => 'בעטאַ אייגנשאַפֿטן',
-	'prefs-labs' => 'לאַבאראַטאריע מעגלעכקייטן',
 	'wikieditor' => 'פֿארטגעשריטענע וויקיטעקסט רעדאַקטירונג',
 	'wikieditor-desc' => 'פֿאַרברייטבאַרער וויקיטעקס רעדאַקטירונג אויבערפֿלאך מיט א סך מאדולן וואָס פֿאַרזארגן נײַע פֿונקציאנען',
 	'wikieditor-wikitext-tab' => 'וויקיטעקסט',
@@ -25086,8 +24915,6 @@ $1:בײַשפיל.jpg|קעפל2',
  * @author Demmy
  */
 $messages['yo'] = array(
-	'prefs-beta' => 'Àwọn ìní Beta',
-	'prefs-labs' => 'Àwọn ìní ibiàdánwò',
 	'wikieditor-wikitext-tab' => 'Ìkọ wiki',
 	'wikieditor-loading' => 'Úngbéyọ',
 	'wikieditor-preview-preference' => 'Ìgbàláyè àyẹ̀wò lẹ́gbẹ̀ẹ́ ara wọn',
@@ -25315,8 +25142,6 @@ $1:Example.jpg|Àkọlé2',
  * @author Waihorace
  */
 $messages['yue'] = array(
-	'prefs-beta' => '試緊嘅特色',
-	'prefs-labs' => '實驗性嘅特色',
 	'wikieditor' => '進階維基文字編輯界面',
 	'wikieditor-desc' => '提供一個可以展開嘅維基文字編輯界面同埋好多其他特色嘅模組',
 	'wikieditor-wikitext-tab' => '維基文字',
@@ -25573,8 +25398,6 @@ Bangla',
  * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
-	'prefs-beta' => 'Beta特性',
-	'prefs-labs' => '实验室功能',
 	'wikieditor' => '高级维基文本编辑界面',
 	'wikieditor-desc' => '提供可扩充的维基文本编辑界面及功能组件',
 	'wikieditor-wikitext-tab' => '维基文本',
@@ -25816,8 +25639,6 @@ $1:Example.jpg|标题2',
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
-	'prefs-beta' => 'Beta 特性',
-	'prefs-labs' => '實驗中的功能',
 	'wikieditor' => '進階維基文字編輯介面',
 	'wikieditor-desc' => '提供可擴充的維基文字編輯介面及功能組件',
 	'wikieditor-wikitext-tab' => '維基文字',
