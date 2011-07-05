@@ -178,7 +178,10 @@ $wgResourceModules += array(
 	'jquery.wikiEditor.toolbar' => $wikiEditorTpl + array(
 		'scripts' => 'jquery.wikiEditor.toolbar.js',
 		'styles' => 'jquery.wikiEditor.toolbar.css',
-		'dependencies' => 'jquery.wikiEditor',
+		'dependencies' => array(
+			'jquery.wikiEditor',
+			'jquery.wikiEditor.toolbar.i18n',
+		),
 	),
 	'jquery.wikiEditor.toolbar.config' => $wikiEditorTpl + array(
 		'scripts' => 'jquery.wikiEditor.toolbar.config.js',
