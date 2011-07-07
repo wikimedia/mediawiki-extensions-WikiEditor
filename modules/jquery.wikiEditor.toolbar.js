@@ -107,7 +107,7 @@ api : {
 						'div[rel="' + data.section + '"].section ' + 'div[rel="' + data.page + '"].page div'
 					);
 					var actions = $characters.data( 'actions' );
-					for ( i = 0; data.character.length; i++ ) {
+					for ( i = 0; i < data.characters.length; i++ ) {
 						// Character
 						$characters
 						.append(
