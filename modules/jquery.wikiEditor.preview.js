@@ -117,7 +117,7 @@ fn: {
 						
 						$.post( mw.util.wikiScript( 'api' ), postdata2, function( data ) {
 								// Add diff CSS
-								mw.loader.load( 'mediawiki.legacy.diff' );
+								mw.loader.load( 'mediawiki.action.history.diff' );
 								try {
 									var diff = data.query.pages[data.query.pageids[0]]
 										.revisions[0].diff['*'];
