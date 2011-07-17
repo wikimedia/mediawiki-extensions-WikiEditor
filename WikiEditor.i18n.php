@@ -17118,10 +17118,11 @@ $1:Exemple.jpg|Descripcion 2',
 );
 
 /** Oriya (ଓଡ଼ିଆ)
+ * @author Odisha1
  * @author Psubhashish
  */
 $messages['or'] = array(
-	'wikieditor-toolbar-help-content-signature-description' => 'ଦସ୍ତଖତ',
+	'wikieditor-toolbar-help-content-signature-description' => 'ପରିଚାୟକ',
 );
 
 /** Deitsch (Deitsch)
