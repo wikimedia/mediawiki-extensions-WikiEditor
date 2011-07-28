@@ -24038,9 +24038,24 @@ $1:Example.jpg|Опис2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Звичайний текст<dl><dd>Текст з відступом<dl><dd>Текст з відступом</dd></dl></dd></dl>',
 );
 
-/** Urdu (اردو) */
+/** Urdu (اردو)
+ * @author محبوب عالم
+ */
 $messages['ur'] = array(
+	'wikieditor-preview-tab' => 'پیش منظر',
+	'wikieditor-preview-changes-tab' => 'تبدیلیاں',
+	'wikieditor-previewDialog-preference' => 'پیش منظر خانہ فعال کرو',
+	'wikieditor-previewDialog-tab' => 'پیش منظر',
+	'wikieditor-publish-preference' => 'قدم بہ قدم شائع کاری فعال کرو',
+	'wikieditor-publish-button-publish' => 'شائع کرو',
+	'wikieditor-publish-button-cancel' => 'منسوخ',
+	'wikieditor-publish-dialog-summary' => 'خلاصۂ تدوین (اپنی کی گئی تبدیلیوں کی مختصر وضاحت کریں):',
+	'wikieditor-publish-dialog-minor' => 'معمولی ترمیم',
+	'wikieditor-publish-dialog-watch' => 'یہ صفحہ زیرِنظر کریں',
+	'wikieditor-publish-dialog-publish' => 'شائع کرو',
+	'wikieditor-publish-dialog-goback' => 'پیچھے جاؤ',
 	'wikieditor-template-editor-dialog-cancel' => 'منسوخ',
+	'wikieditor-toolbar-tool-bold' => 'جلی',
 	'wikieditor-toolbar-tool-reference-cancel' => 'منسوخ',
 );
 
