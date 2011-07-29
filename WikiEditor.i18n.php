@@ -24056,6 +24056,7 @@ $messages['ur'] = array(
 	'wikieditor-publish-dialog-goback' => 'پیچھے جاؤ',
 	'wikieditor-template-editor-dialog-cancel' => 'منسوخ',
 	'wikieditor-toolbar-tool-bold' => 'جلی',
+	'wikieditor-toolbar-tool-italic' => 'ترچھا',
 	'wikieditor-toolbar-tool-reference-cancel' => 'منسوخ',
 );
 
