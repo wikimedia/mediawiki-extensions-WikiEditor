@@ -5574,7 +5574,7 @@ $messages['de'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Ungültiger Titel',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Externer Link',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'Prüfe, ob Seite existiert …',
-	'wikieditor-toolbar-tool-link-int-invalid' => 'Der von dir angegebene Seitenname ist ungültig.',
+	'wikieditor-toolbar-tool-link-int-invalid' => 'Der angegebene Seitenname ist ungültig.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'Die angegebene URL sieht so aus, als ob sie auf eine andere Wikiseite verlinken würde.
 Möchtest du daraus einen internen Link machen?',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => 'Interner Link',
@@ -20725,7 +20725,7 @@ $messages['sl'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Neveljaven naslov',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Zunanja povezava',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'Preverjanje obstoja strani ...',
-	'wikieditor-toolbar-tool-link-int-invalid' => 'Naslov, ki ste ga navedli ni veljaven.',
+	'wikieditor-toolbar-tool-link-int-invalid' => 'Navedeni naslov ni veljaven.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'Navedeni URL izgleda kot povezava na drugo wikistran. Ali jo želite narediti notranjo povezavo?',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => 'Notranja povezava',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-ext' => 'Zunanja povezava',
