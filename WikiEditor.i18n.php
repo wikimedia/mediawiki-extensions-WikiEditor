@@ -12026,7 +12026,7 @@ $1:Example.jpg|აღწერა2',
 	'wikieditor-toolbar-help-content-indent-result' => 'ჩვეულებრივი ტექსტი<dl><dd>შეწეული ტექსტი<dl><dd>შეწეული ტექსტი</dd></dl></dd></dl>',
 );
 
-/** Kabardian (Cyrillic) (Къэбэрдеибзэ / Qabardjajəbza (Cyrillic))
+/** Kabardian (Cyrillic) (Адыгэбзэ (Cyrillic))
  * @author Bogups
  */
 $messages['kbd-cyrl'] = array(
@@ -19513,7 +19513,7 @@ $messages['sa'] = array(
 	'wikieditor-toolbar-section-characters' => 'विशेष-वर्णानि',
 );
 
-/** Yakut (Саха тыла)
+/** Sakha (Саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
