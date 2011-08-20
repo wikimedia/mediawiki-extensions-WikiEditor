@@ -86,10 +86,12 @@ fn: {
 			}
 			// If the dialog already exists, but for another textarea, simply remove it
 			var $existingDialog = $( '#' + module.id );
-			if ( $existingDialog.size() > 0 && $existingDialog.data( 'context' ).$textarea != context.$textarea ) {
+			if ( $existingDialog.length > 0 && $existingDialog.data( 'context' ).$textarea != context.$textarea ) {
 				$existingDialog.remove();
 			}
-			if ( !filtered && $.wikiEditor.isSupported( module ) && $existingDialog.size() == 0 ) {
+			// Re-select from the DOM, we might have removed the dialog just now
+			$existingDialog = $( '#' + module.id );
+			if ( !filtered && $.wikiEditor.isSupported( module ) && $existingDialog.size() === 0 ) {
 				$.wikiEditor.modules.dialogs.modules[mod] = module;
 				// If this dialog requires the iframe, set it up
 				if ( typeof context.$iframe == 'undefined' && $.wikiEditor.isRequired( module, 'iframe' ) ) {
