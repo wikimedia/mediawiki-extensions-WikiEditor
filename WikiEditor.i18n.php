@@ -1762,6 +1762,40 @@ $messages['as'] = array(
 	'wikieditor-toolbar-tool-file-example' => 'Example.jpg',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'wikieditor-toolbar-tool-link-insert' => 'Inxertar enllaz',
+	'wikieditor-toolbar-tool-link-cancel' => 'Encaboxar',
+	'wikieditor-toolbar-tool-link-int-target-status-exists' => 'La páxina yá esiste',
+	'wikieditor-toolbar-tool-link-int-target-status-notexists' => 'La páxina nun esiste',
+	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Títulu non válidu',
+	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Enllaz esternu',
+	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'Comprobando la esistencia de la páxina...',
+	'wikieditor-toolbar-tool-link-int-invalid' => 'El títulu que conseñasti nun ye válidu.',
+	'wikieditor-toolbar-tool-reference' => 'Referencia',
+	'wikieditor-toolbar-tool-reference-example' => 'Escribir equí el testu de la nota al pie',
+	'wikieditor-toolbar-tool-reference-cancel' => 'Encaboxar',
+	'wikieditor-toolbar-section-characters' => 'Caráuteres especiales',
+	'wikieditor-toolbar-characters-page-latin' => 'Llatín',
+	'wikieditor-toolbar-characters-page-latinextended' => 'Llatín estendíu',
+	'wikieditor-toolbar-characters-page-ipa' => 'AFI',
+	'wikieditor-toolbar-characters-page-symbols' => 'Símbolos',
+	'wikieditor-toolbar-characters-page-greek' => 'Griegu',
+	'wikieditor-toolbar-characters-page-cyrillic' => 'Cirílicu',
+	'wikieditor-toolbar-characters-page-arabic' => 'Árabe',
+	'wikieditor-toolbar-characters-page-persian' => 'Persa',
+	'wikieditor-toolbar-characters-page-hebrew' => 'Hebréu',
+	'wikieditor-toolbar-characters-page-bangla' => 'Bengalín',
+	'wikieditor-toolbar-characters-page-telugu' => 'Telugu',
+	'wikieditor-toolbar-characters-page-sinhala' => 'Cingalés',
+	'wikieditor-toolbar-characters-page-gujarati' => 'Gujarati',
+	'wikieditor-toolbar-characters-page-thai' => 'Tailandés',
+	'wikieditor-toolbar-characters-page-lao' => 'Laosianu',
+	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
+);
+
 /** Azerbaijani (Azərbaycanca)
  * @author Cekli829
  * @author PPerviz
