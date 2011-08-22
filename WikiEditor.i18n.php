@@ -23378,6 +23378,7 @@ $messages['tpi'] = array(
 
 /** Turkish (Türkçe)
  * @author Joseph
+ * @author Koc61
  * @author Manco Capac
  * @author Srhat
  * @author Vito Genovese
@@ -23415,6 +23416,7 @@ $messages['tr'] = array(
 	'wikieditor-toolbar-desc' => 'Gelişmiş kullanılabilirlik ile sayfa araç çubuğunu değiştir',
 	'wikieditor-toolbar-preference' => 'Gelişmiş düzenleme araç çubuğunu etkinleştir',
 	'wikieditor-toolbar-dialogs-preference' => 'Bağlantılar, tablolar ve daha fazlasını eklemek için iletileri etkinleştir',
+	'wikieditor-toolbar-hidesig' => 'Ana ad boşluğundaki sayfalardan imzayı saklama tuşu',
 	'wikieditor-toolbar-loading' => 'Yükleniyor...',
 	'wikieditor-toolbar-tool-bold' => 'Kalın',
 	'wikieditor-toolbar-tool-bold-example' => 'Kalın yazı',
