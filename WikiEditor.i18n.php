@@ -3238,7 +3238,7 @@ $1:Example.jpg|ক্যাপশন২',
 	'wikieditor-toolbar-tool-replace-button-findnext' => 'পরবর্তী অনুসন্ধান',
 	'wikieditor-toolbar-tool-replace-button-replacenext' => 'পরবর্তী প্রতিস্থাপন',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'সব প্রতিস্থাপন',
-	'wikieditor-toolbar-tool-replace-close' => 'বাতিল',
+	'wikieditor-toolbar-tool-replace-close' => 'বন্ধ',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'আপনার অনুসন্ধান কোনো কিছুর সাথে মিলেনি।',
 	'wikieditor-toolbar-tool-replace-success' => '$1 টি প্রতিস্থাপন সম্পন্ন হয়েছে।',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'আপনি অনুসন্ধানের জন্য কোনো কিছু দেননি।',
@@ -6731,6 +6731,7 @@ $1:Ekzemplo.jpg|Teksto2 pri dosiero',
 /** Spanish (Español)
  * @author AlimanRuna
  * @author Crazymadlover
+ * @author Fitoschido
  * @author Imre
  * @author Locos epraix
  * @author McDutchie
@@ -6910,7 +6911,7 @@ $1:Ejemplo.jpg|Descripción2',
 	'wikieditor-toolbar-help-heading-syntax' => 'Lo que escribe',
 	'wikieditor-toolbar-help-heading-result' => 'Lo que obtiene',
 	'wikieditor-toolbar-help-page-format' => 'Formateando',
-	'wikieditor-toolbar-help-page-link' => 'Vínculos',
+	'wikieditor-toolbar-help-page-link' => 'Enlaces',
 	'wikieditor-toolbar-help-page-heading' => 'Encabezados',
 	'wikieditor-toolbar-help-page-list' => 'Listas',
 	'wikieditor-toolbar-help-page-file' => 'Archivos',
@@ -17707,6 +17708,8 @@ $1:Esempi.jpg|Descrission2',
  * @author Khalid Mahmood
  */
 $messages['pnb'] = array(
+	'wikieditor' => 'اگیودواں وکیٹکسٹ نوں تبدیل کرن دا سسٹم',
+	'wikieditor-wikitext-tab' => 'وکی ٹکسٹ',
 	'wikieditor-loading' => 'لوڈنگ',
 	'wikieditor-preview-tab' => 'کچا کم وکھاؤ',
 	'wikieditor-preview-changes-tab' => 'تبدیلیاں',
@@ -17791,6 +17794,51 @@ $messages['pnb'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'تھلویں لکھائی',
 	'wikieditor-toolbar-group-insert' => 'رلاؤ',
 	'wikieditor-toolbar-tool-gallery' => 'مورت نگری',
+	'wikieditor-toolbar-tool-table' => 'ٹیبل',
+	'wikieditor-toolbar-tool-table-example-old' => '-
+! سرخی 1
+! سرخی 2
+! سرخی 3
+|-
+| لیک 1, ڈبی 1
+| لیک 1, ڈبی 2
+| لیک 1, ڈبی 3
+|-
+| لیک 2, ڈبی 1
+| لیک 2, ڈبی 2
+| لیک 2, ڈبی 3',
+	'wikieditor-toolbar-tool-table-example-cell-text' => 'ڈبی لکھت',
+	'wikieditor-toolbar-tool-table-example-header' => 'سرخی شبد',
+	'wikieditor-toolbar-tool-table-title' => 'ٹیبل پاؤ',
+	'wikieditor-toolbar-tool-table-dimensions-rows' => 'لیناں',
+	'wikieditor-toolbar-tool-table-dimensions-columns' => 'کالم',
+	'wikieditor-toolbar-tool-table-dimensions-header' => 'سرخی لین جوڑو',
+	'wikieditor-toolbar-tool-table-wikitable' => 'بارڈر نال سٹائل',
+	'wikieditor-toolbar-tool-table-sortable' => 'ٹیبل ترتیب چ کرو',
+	'wikieditor-toolbar-tool-table-example' => 'ادھارن',
+	'wikieditor-toolbar-tool-table-preview' => 'کچا کم',
+	'wikieditor-toolbar-tool-table-insert' => 'رلاؤ',
+	'wikieditor-toolbar-tool-table-cancel' => 'واپس',
+	'wikieditor-toolbar-tool-table-toomany' => '$1 توں زیادہ ڈبیاں ایس ٹیبل چ پانا ایس کم چ نئیں ہوسکدا۔',
+	'wikieditor-toolbar-tool-table-invalidnumber' => 'تساں نیں کوئی ٹھیک کالم یا لیکاں نئیں پایاں۔',
+	'wikieditor-toolbar-tool-table-zero' => 'صفر قطار یا کالم نئیں پاا جاسکدا۔',
+	'wikieditor-toolbar-tool-replace' => 'لبو تے بدلو۔',
+	'wikieditor-toolbar-tool-replace-title' => 'لبو تے بدلو',
+	'wikieditor-toolbar-tool-replace-search' => 'ایس لئی لبو:',
+	'wikieditor-toolbar-tool-replace-replace' => 'ایدے نال بدلو:',
+	'wikieditor-toolbar-tool-replace-case' => 'آمنے سامنے رکھو',
+	'wikieditor-toolbar-tool-replace-button-findnext' => 'اگلا لبو',
+	'wikieditor-toolbar-tool-replace-button-replacenext' => 'لکھت بدلو',
+	'wikieditor-toolbar-tool-replace-button-replaceall' => 'سارے بدلو',
+	'wikieditor-toolbar-tool-replace-close' => 'بند کرو',
+	'wikieditor-toolbar-tool-replace-nomatch' => 'تھاڈی کھوج کسے نال نئیں رلدی',
+	'wikieditor-toolbar-tool-replace-success' => '$1 بدلیا.',
+	'wikieditor-toolbar-tool-replace-emptysearch' => 'جوڑ لئی تساں کوئی شے نئیں لکھی۔',
+	'wikieditor-toolbar-tool-replace-invalidregex' => 'ایکسپریشن جیہڑی تساں پائی اے ٹھیک نغیں:$1',
+	'wikieditor-toolbar-section-characters' => 'خاص کیریکٹرز',
+	'wikieditor-toolbar-characters-page-latin' => 'لاطینی',
+	'wikieditor-toolbar-characters-page-latinextended' => 'ودویں لاطینی',
+	'wikieditor-toolbar-characters-page-ipa' => 'IPA',
 	'wikieditor-toolbar-characters-page-symbols' => 'نشان',
 	'wikieditor-toolbar-characters-page-greek' => 'یونانی',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'سریلیک',
@@ -17817,10 +17865,42 @@ $messages['pnb'] = array(
 	'wikieditor-toolbar-help-page-discussion' => 'گل بات',
 	'wikieditor-toolbar-help-content-italic-description' => 'ترچھا',
 	'wikieditor-toolbar-help-content-italic-syntax' => "''ترچھی لکھت''",
+	'wikieditor-toolbar-help-content-italic-result' => '<em>ترجھی لکھت</em>',
 	'wikieditor-toolbar-help-content-bold-description' => 'موٹا',
 	'wikieditor-toolbar-help-content-bold-syntax' => "'''موٹی لکھت'''",
 	'wikieditor-toolbar-help-content-bold-result' => '<strong>موٹی لکھت</strong>',
+	'wikieditor-toolbar-help-content-ilink-description' => 'اندرونی جوڑ',
+	'wikieditor-toolbar-help-content-ilink-syntax' => '[[صفہ سرخی|جوڑ نشان]]<br />[[صفہ سرخی]]',
+	'wikieditor-toolbar-help-content-xlink-description' => 'بارلے جوڑ',
+	'wikieditor-toolbar-help-content-xlink-syntax' => '[http://www.example.org جوڑ نشان]<br />[http://www.example.org]<br />http://www.example.org',
+	'wikieditor-toolbar-help-content-heading2-description' => 'دوجی پڈھر دی سرخی',
+	'wikieditor-toolbar-help-content-heading2-syntax' => '== سرخی لکھت ==',
+	'wikieditor-toolbar-help-content-heading2-result' => '<h2>سرخی لکھت</h2>',
+	'wikieditor-toolbar-help-content-heading3-description' => 'تیجی پڈھر دی سرخی',
+	'wikieditor-toolbar-help-content-heading3-syntax' => '== سرخی لکھت ==',
+	'wikieditor-toolbar-help-content-heading3-result' => '<h3>سرخی لکھت</h3>',
+	'wikieditor-toolbar-help-content-heading4-description' => 'چوتھی پڈھر دی سرخی',
+	'wikieditor-toolbar-help-content-heading4-syntax' => '==== سرخی لکھت ====',
+	'wikieditor-toolbar-help-content-heading4-result' => '<h4>سرخی لکھت </h4>',
+	'wikieditor-toolbar-help-content-heading5-description' => 'پنجویں پدہر دی سرخی',
+	'wikieditor-toolbar-help-content-heading5-syntax' => '===== سرخی لکھت =====',
+	'wikieditor-toolbar-help-content-heading5-result' => '<h5>سرخی لکھت</h5>',
+	'wikieditor-toolbar-help-content-ulist-description' => 'نشان والی لسٹ',
+	'wikieditor-toolbar-help-content-ulist-syntax' => '* لسٹ آئٹم<br />* لسٹ آئٹم',
+	'wikieditor-toolbar-help-content-ulist-result' => '<ul><li>لسٹ آئٹم</li><li>لسٹ آئٹم</li></ul>',
+	'wikieditor-toolbar-help-content-olist-description' => 'نمبراں والی لسٹ',
+	'wikieditor-toolbar-help-content-olist-syntax' => '#لسٹ آئٹم<br />#لسٹ آئٹم',
+	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>لسٹ آئٹم</li><li>لسٹ آئٹم</li></ol>',
+	'wikieditor-toolbar-help-content-file-description' => 'مورت لگی فائل',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|سرخی]]',
+	'wikieditor-toolbar-help-content-reference-description' => 'اتے پتے',
+	'wikieditor-toolbar-help-content-rereference-description' => 'ہور ورتن اوسے اتے پتے دا',
+	'wikieditor-toolbar-help-content-showreferences-description' => 'اتے پتے وکھاؤ',
+	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'تواڈے دستخط ویلے دے نال',
 	'wikieditor-toolbar-help-content-signature-description' => 'دسخط',
+	'wikieditor-toolbar-help-content-indent-description' => 'انڈنٹ',
+	'wikieditor-toolbar-help-content-indent-syntax' => 'نارمل لکھت<br />:ودی لکھت<br />::ودی لکھت',
+	'wikieditor-toolbar-help-content-indent-result' => 'نارمل لکھت<dl><dd>ودی لکھت<dl><dd>ودی لکھت</dd></dl></dd></dl>',
 );
 
 /** Pontic (Ποντιακά) */
