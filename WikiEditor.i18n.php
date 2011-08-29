@@ -1205,6 +1205,7 @@ $messages['ang'] = array(
  * @author Meno25
  * @author OsamaK
  * @author Samer
+ * @author Zack wadghiri
  * @author ترجمان05
  */
 $messages['ar'] = array(
@@ -1242,8 +1243,8 @@ $messages['ar'] = array(
 	'wikieditor-toolbar-dialogs-preference' => 'مكّن حوارات إدراج الوصلات والجداول وغيرها',
 	'wikieditor-toolbar-hidesig' => 'إخفاء زر التوقيع من الصفحات الموجودة في مساحة الاسم الرئيسي',
 	'wikieditor-toolbar-loading' => 'يُحمّل...',
-	'wikieditor-toolbar-tool-bold' => 'عريض',
-	'wikieditor-toolbar-tool-bold-example' => 'نص عريض',
+	'wikieditor-toolbar-tool-bold' => 'غليظ',
+	'wikieditor-toolbar-tool-bold-example' => 'نص غليظ',
 	'wikieditor-toolbar-tool-italic' => 'مائل',
 	'wikieditor-toolbar-tool-italic-example' => 'نص مائل',
 	'wikieditor-toolbar-tool-ilink' => 'وصلة داخلية',
@@ -1357,8 +1358,8 @@ $1:Example.jpg|تعليق2',
 	'wikieditor-toolbar-tool-replace-invalidregex' => 'التعبير النمطي الذي أدخلته غير صالح: $1',
 	'wikieditor-toolbar-section-characters' => 'محارف خاصة',
 	'wikieditor-toolbar-characters-page-latin' => 'اللاتينية',
-	'wikieditor-toolbar-characters-page-latinextended' => 'مد لاتيني',
-	'wikieditor-toolbar-characters-page-ipa' => 'آي بي إي',
+	'wikieditor-toolbar-characters-page-latinextended' => 'لاتينية موسعة',
+	'wikieditor-toolbar-characters-page-ipa' => 'صوتية دولية',
 	'wikieditor-toolbar-characters-page-symbols' => 'رموز',
 	'wikieditor-toolbar-characters-page-greek' => 'اليونانية',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'السيريلية',
@@ -1386,12 +1387,12 @@ $1:Example.jpg|تعليق2',
 	'wikieditor-toolbar-help-content-italic-description' => 'مائل',
 	'wikieditor-toolbar-help-content-italic-syntax' => "''نص مائل''",
 	'wikieditor-toolbar-help-content-italic-result' => '<em>نص مائل</em>',
-	'wikieditor-toolbar-help-content-bold-description' => 'عريض',
-	'wikieditor-toolbar-help-content-bold-syntax' => "'''نص عريض'''",
-	'wikieditor-toolbar-help-content-bold-result' => '<strong>نص عريض</strong>',
-	'wikieditor-toolbar-help-content-bolditalic-description' => 'عريض ومائل',
-	'wikieditor-toolbar-help-content-bolditalic-syntax' => "'''''نص عريض ومائل'''''",
-	'wikieditor-toolbar-help-content-bolditalic-result' => '<strong><em>نص عريض ومائل</em></strong>',
+	'wikieditor-toolbar-help-content-bold-description' => 'غليظ',
+	'wikieditor-toolbar-help-content-bold-syntax' => "'''نص غليظ'''",
+	'wikieditor-toolbar-help-content-bold-result' => '<strong>نص غليظ</strong>',
+	'wikieditor-toolbar-help-content-bolditalic-description' => 'غليظ ومائل',
+	'wikieditor-toolbar-help-content-bolditalic-syntax' => "'''''نص غليظ ومائل'''''",
+	'wikieditor-toolbar-help-content-bolditalic-result' => '<strong><em>نص غليظ ومائل</em></strong>',
 	'wikieditor-toolbar-help-content-ilink-description' => 'وصلة داخلية',
 	'wikieditor-toolbar-help-content-ilink-syntax' => '[[عنوان الصفحة|اسم الوصلة]]<br />[[عنوان الصفحة]]',
 	'wikieditor-toolbar-help-content-ilink-result' => "<a href='#'>اسم الوصلة</a><br /><a href='#'>عنوان الصفحة</a>",
