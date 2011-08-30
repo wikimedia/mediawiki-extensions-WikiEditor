@@ -311,6 +311,7 @@ $wgResourceModules += array(
 			'wikieditor-toolbar-characters-page-greek',
 			'wikieditor-toolbar-characters-page-cyrillic',
 			'wikieditor-toolbar-characters-page-arabic',
+			'wikieditor-toolbar-characters-page-arabicextended',
 			'wikieditor-toolbar-characters-page-persian',
 			'wikieditor-toolbar-characters-page-hebrew',
 			'wikieditor-toolbar-characters-page-bangla',

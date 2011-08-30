@@ -650,17 +650,106 @@ getDefaultConfig: function() {
 						"\u042f", "\u044f"
 					]
 				},
+				// The core 28-letter alphabet, special letters for the Arabic language,
+				// vowels, punctuation, digits.
+				// Names of letters are written as in the Unicode charts.
 				'arabic': {
 					'labelMsg': 'wikieditor-toolbar-characters-page-arabic',
 					'layout': 'characters',
 					'language': 'ar',
 					'direction': 'rtl',
 					'characters': [
-						"\u061b", "\u061f", "\u0621", "\u0622", "\u0623", "\u0624", "\u0625", "\u0626", "\u0627",
-						"\u0628", "\u0629", "\u062a", "\u062b", "\u062c", "\u062d", "\u062e", "\u062f", "\u0630",
-						"\u0631", "\u0632", "\u0633", "\u0634", "\u0635", "\u0636", "\u0637", "\u0638", "\u0639",
-						"\u063a", "\u0641", "\u0642", "\u0643", "\u0644", "\u0645", "\u0646", "\u0647", "\u0648",
-						"\u0649", "\u064a", "\u060c", "\u067e", "\u0686", "\u0698", "\u06af", "\u06ad"
+						// core alphabet
+						"\u0627", "\u0628",	"\u062a", "\u062b", "\u062c", "\u062d", "\u062e", "\u062f",
+						"\u0630", "\u0631", "\u0632", "\u0633", "\u0634", "\u0635", "\u0636", "\u0637",
+						"\u0638", "\u0639", "\u063a", "\u0641", "\u0642", "\u0643", "\u0644", "\u0645",
+						"\u0646", "\u0647", "\u0648", "\u064a",
+						// special letters for the Arabic language
+						"\u0621", // Hamza
+						"\u0622", "\u0623", "\u0625", "\u0671", // Alef
+						"\u0624", // Waw hamza
+						"\u0626", // Yeh hamza
+						"\u0649", // Alef maksura
+						"\u0629", // Teh marbuta
+						// vowels
+						"\u064E", "\u064F", "\u0650", "\u064B", "\u064C", "\u064D", "\u0651", "\u0652",
+						"\u0670",
+						// punctuation
+						"\u060c", "\u061b", "\u061f", "\u0640",
+						// digits
+						"\u0660", "\u0661", "\u0662", "\u0663", "\u0664", "\u0665", "\u0666", "\u0667",
+						"\u0668", "\u0669", "\u066A", "\u066B", "\u066C", "\u066D"
+					]
+				},
+				// Characters for languages other than Arabic.
+				'arabicextended': {
+					'labelMsg': 'wikieditor-toolbar-characters-page-arabicextended',
+					'layout': 'characters',
+					'language': 'ar',
+					'direction': 'rtl',
+					'characters': [
+						// Alef
+						"\u0672", "\u0673", "\u0674", "\u0675", "\u0773", "\u0774",
+						// Beh
+						"\u066E", "\u067B", "\u067E", "\u0680", "\u0750", "\u0751", "\u0752", "\u0753",
+						"\u0754", "\u0755", "\u0756",
+						// Teh
+						"\u0679", "\u067A", "\u067C", "\u067D", "\u067F",
+						// Jeem
+						"\u0681", "\u0682", "\u0683", "\u0684", "\u0685", "\u0686", "\u0687", "\u06BF",
+						// Hah
+						"\u0757", "\u0758", "\u076E", "\u076F", "\u0772", "\u077C",
+						// Dal
+						"\u0688", "\u0689", "\u068A", "\u068B", "\u068C", "\u068D", "\u068E", "\u068F",
+						"\u0690", "\u06EE", "\u0759", "\u075A",
+						// Reh
+						"\u0691", "\u0692", "\u0693", "\u0694", "\u0695", "\u0696", "\u0697", "\u0698",
+						"\u0699", "\u06EF", "\u075B", "\u076B", "\u076C", "\u0771",
+						// Seen
+						"\u069A", "\u069B", "\u069C", "\u077D",
+						// Sheen
+						"\u06FA", "\u075C", "\u076D", "\u0770", "\u077E",
+						// Sad
+						"\u069D", "\u069E",
+						// Dad
+						"\u06FB",
+						// Tah
+						"\u069F",
+						// Ain
+						"\u06A0", "\u075D", "\u075E", "\u075F",
+						// Ghain
+						"\u06FC",
+						// Feh
+						"\u06A1", "\u06A2", "\u06A3", "\u06A4", "\u06A5", "\u06A6", "\u0760", "\u0761",
+						// Qaf
+						"\u066F", "\u06A7", "\u06A8",
+						// Kaf
+						"\u063B", "\u063C", "\u06A9", "\u06AA", "\u06AB", "\u06AC", "\u06AD", "\u06AE",
+						"\u06AF", "\u06B0", "\u06B1", "\u06B2", "\u06B3", "\u06B4", "\u0762", "\u0763",
+						"\u0764", "\u077F",
+						// Lam
+						"\u06B5", "\u06B6", "\u06B7", "\u06B8", "\u076A",
+						// Meem
+						"\u0765", "\u0766",
+						// Noon
+						"\u06B9", "\u06BA", "\u06BB", "\u06BC", "\u06BD", "\u0767", "\u0768", "\u0769",
+						// Heh
+						"\u06BE", "\u06C0", "\u06C1", "\u06C2", "\u06C3", "\u06D5", "\u06FF",
+						// Waw
+						"\u0676", "\u0677", "\u06C4", "\u06C5", "\u06C6", "\u06C7", "\u06C8", "\u06C9",
+						"\u06CA", "\u06CB", "\u06CF", "\u0778", "\u0779",
+						// Yeh
+						"\u0620", "\u063D", "\u063E", "\u063F", "\u0678", "\u06CC", "\u06CD", "\u06CE",
+						"\u06D0", "\u06D1", "\u06D2", "\u06D3", "\u0775", "\u0776", "\u0777", "\u077A",
+						"\u077B",
+						// diacritics
+						"\u0656", "\u0657", "\u0658", "\u0659", "\u065A", "\u065B", "\u065C", "\u065D",
+						"\u065E", "\u065F",
+						// special punctuation
+						"\u06D4", "\u06FD", "\u06FE",
+						// special digits
+						"\u06F0", "\u06F1", "\u06F2", "\u06F3", "\u06F4", "\u06F5", "\u06F6", "\u06F7",
+						"\u06F8", "\u06F9",
 					]
 				},
 				'hebrew': {
