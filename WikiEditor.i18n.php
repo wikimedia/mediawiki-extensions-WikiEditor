@@ -1210,6 +1210,7 @@ $messages['ang'] = array(
  * @author Samer
  * @author Zack wadghiri
  * @author ترجمان05
+ * @author زكريا
  */
 $messages['ar'] = array(
 	'wikieditor' => 'الواجهة المتقدمة لتعديل نص ويكي',
@@ -17180,12 +17181,12 @@ $messages['or'] = array(
 	'wikieditor-loading' => 'ଧାରଣ ହେଉଛି',
 	'wikieditor-preview-tab' => 'ପ୍ରାକ୍ ଦର୍ଶନ',
 	'wikieditor-preview-changes-tab' => 'ବଦଳାଇବା',
-	'wikieditor-preview-loading' => 'ଧାରଣ ହେଉଛି...',
-	'wikieditor-previewDialog-loading' => 'ଧାରଣ ହେଉଛି...',
+	'wikieditor-preview-loading' => 'ଖୋଲୁଅଛି...',
+	'wikieditor-previewDialog-loading' => 'ଖୋଲୁଅଛି...',
 	'wikieditor-publish-button-cancel' => 'ବାତିଲ',
 	'wikieditor-template-editor-dialog-submit' => 'ଅପଡେଟ',
 	'wikieditor-template-editor-dialog-cancel' => 'ବାତିଲ',
-	'wikieditor-toolbar-loading' => 'ଧାରଣ ହେଉଛି...',
+	'wikieditor-toolbar-loading' => 'ଖୋଲୁଅଛି...',
 	'wikieditor-toolbar-tool-bold' => 'ମୋଟା ଅକ୍ଷର',
 	'wikieditor-toolbar-tool-italic' => 'ତେରେଛା',
 	'wikieditor-toolbar-tool-link' => 'ସଂଯୋଗ',
