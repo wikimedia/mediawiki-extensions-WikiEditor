@@ -2432,6 +2432,7 @@ $1:Example.jpg|Апісанне2',
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
+ * @author Renessaince
  * @author Wizardist
  * @author Zedlik
  */
@@ -2592,6 +2593,7 @@ $1:Прыклад.jpg|Подпіс2',
 	'wikieditor-toolbar-characters-page-greek' => 'Грэцкія',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'Кірылічныя',
 	'wikieditor-toolbar-characters-page-arabic' => 'Арабскія',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'Арабская пашыраная',
 	'wikieditor-toolbar-characters-page-persian' => 'Пэрсыдзкія',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Іўрыт',
 	'wikieditor-toolbar-characters-page-bangla' => 'Бэнгальскія',
@@ -5473,6 +5475,7 @@ $1:Eksempel.jpg|Billedtekst2',
 	'wikieditor-toolbar-characters-page-greek' => 'Græsk',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'Kyrillisk',
 	'wikieditor-toolbar-characters-page-arabic' => 'Arabisk',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'Udvidet arabisk',
 	'wikieditor-toolbar-characters-page-persian' => 'Persisk',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Hebraisk',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bengali',
@@ -5562,7 +5565,7 @@ $messages['de'] = array(
 	'wikieditor-desc' => 'Ermöglicht eine erweiterbare Oberfläche zur Wikitext-Bearbeitung sowie viele weitere neue Funktionen',
 	'wikieditor-wikitext-tab' => 'Wikitext',
 	'wikieditor-loading' => 'Lade',
-	'wikieditor-preview-preference' => 'Gegenüberstellungs-Vorschau ermöglichen',
+	'wikieditor-preview-preference' => 'Gegenüberstellungsvorschau ermöglichen',
 	'wikieditor-preview-tab' => 'Vorschau',
 	'wikieditor-preview-changes-tab' => 'Änderungen',
 	'wikieditor-preview-loading' => 'lädt …',
@@ -5583,7 +5586,7 @@ $messages['de'] = array(
 	'wikieditor-template-editor-dialog-submit' => 'Aktualisieren',
 	'wikieditor-template-editor-dialog-cancel' => 'Abbrechen',
 	'wikieditor-templates-preference' => 'Aktivierung des Ein- und Ausblendens von Vorlagen',
-	'wikieditor-toc-preference' => 'Inhaltsverzeichnis im Bearbeiten-Fenster aktivieren',
+	'wikieditor-toc-preference' => 'Inhaltsverzeichnis im Bearbeitungsfenster aktivieren',
 	'wikieditor-toc-show' => 'Inhaltsverzeichnis einblenden',
 	'wikieditor-toc-hide' => 'Inhaltsverzeichnis ausblenden',
 	'wikieditor-toolbar' => 'Bearbeiten-Werkzeugleiste',
@@ -7444,6 +7447,7 @@ $1:Adibidea.jpg|Oina2',
  * @author Ebraminio
  * @author Huji
  * @author Ladsgroup
+ * @author Mjbmr
  * @author Wayiran
  */
 $messages['fa'] = array(
@@ -7602,6 +7606,7 @@ $1:مثال.jpg|عنوان ۲',
 	'wikieditor-toolbar-characters-page-greek' => 'یونانی',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'سیریلیک',
 	'wikieditor-toolbar-characters-page-arabic' => 'عربی',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'عربی توسعه یافته',
 	'wikieditor-toolbar-characters-page-persian' => 'فارسی',
 	'wikieditor-toolbar-characters-page-hebrew' => 'عبری',
 	'wikieditor-toolbar-characters-page-bangla' => 'بنگالی',
@@ -11595,6 +11600,7 @@ $1:Esempio.jpg|Didascalia2',
  * @author Fryed-peach
  * @author Hosiryuhosi
  * @author Ohgi
+ * @author Schu
  * @author 青子守歌
  */
 $messages['ja'] = array(
@@ -11754,6 +11760,7 @@ $1:Example.jpg|キャプション2',
 	'wikieditor-toolbar-characters-page-greek' => 'ギリシャ文字',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'キリル文字',
 	'wikieditor-toolbar-characters-page-arabic' => 'アラビア文字',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'アラビア語の拡張',
 	'wikieditor-toolbar-characters-page-persian' => 'ペルシア語',
 	'wikieditor-toolbar-characters-page-hebrew' => 'ヘブライ文字',
 	'wikieditor-toolbar-characters-page-bangla' => 'ベンガル文字',
@@ -13588,6 +13595,7 @@ $1:Example.jpg|Beschreiwung2',
 	'wikieditor-toolbar-characters-page-greek' => 'Griichesch',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'Kyrillisch',
 	'wikieditor-toolbar-characters-page-arabic' => 'Arabesch',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'Arabesch, erweidert',
 	'wikieditor-toolbar-characters-page-persian' => 'Persesch',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Hebräisch',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bangalesch',
@@ -18412,6 +18420,7 @@ $1:Exemplo2.jpg|Legenda2',
  * @author Heldergeovane
  * @author Lijealso
  * @author Luckas Blade
+ * @author MetalBrasil
  */
 $messages['pt-br'] = array(
 	'wikieditor' => 'Interface avançada de edição de wikitexto',
@@ -18569,6 +18578,7 @@ $1:Exemplo.jpg|Legenda2',
 	'wikieditor-toolbar-characters-page-greek' => 'Grego',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'Cirílico',
 	'wikieditor-toolbar-characters-page-arabic' => 'Árabe',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'Árabe estendido',
 	'wikieditor-toolbar-characters-page-persian' => 'Persa',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Hebraico',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bengali',
@@ -24122,6 +24132,7 @@ $1:Мисал.jpg|Тасвирлама2',
 /** Ukrainian (Українська)
  * @author AS
  * @author Ahonc
+ * @author Dim Grits
  * @author Olvin
  * @author Prima klasy4na
  * @author Тест
@@ -24282,6 +24293,7 @@ $1:Example.jpg|Опис2',
 	'wikieditor-toolbar-characters-page-greek' => 'Грецькі',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'Кирилиця',
 	'wikieditor-toolbar-characters-page-arabic' => 'Арабські',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'Арабська розширена',
 	'wikieditor-toolbar-characters-page-persian' => 'Перські',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Іврит',
 	'wikieditor-toolbar-characters-page-bangla' => 'Бенгальські',
