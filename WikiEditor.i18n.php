@@ -17723,6 +17723,7 @@ $1:Esempi.jpg|Descrission2',
 	'wikieditor-toolbar-characters-page-greek' => 'Grech',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'Sirìlich',
 	'wikieditor-toolbar-characters-page-arabic' => 'Àrabo',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'Àrabo spantià',
 	'wikieditor-toolbar-characters-page-persian' => 'Persian',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Ebréo',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bangla',
@@ -25761,6 +25762,7 @@ Bangla',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
+ * @author Anakmalaysia
  * @author Bencmq
  * @author Fantasticfears
  * @author Gaoxuewei
@@ -25927,6 +25929,7 @@ $1:Example.jpg|标题2',
 	'wikieditor-toolbar-characters-page-greek' => '希腊字母',
 	'wikieditor-toolbar-characters-page-cyrillic' => '西里尔字母',
 	'wikieditor-toolbar-characters-page-arabic' => '阿拉伯字母',
+	'wikieditor-toolbar-characters-page-arabicextended' => '扩展阿拉伯字母',
 	'wikieditor-toolbar-characters-page-persian' => '波斯语',
 	'wikieditor-toolbar-characters-page-hebrew' => '希伯来字母',
 	'wikieditor-toolbar-characters-page-bangla' => '孟加拉',
