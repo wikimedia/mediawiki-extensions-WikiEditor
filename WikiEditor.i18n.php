@@ -270,8 +270,11 @@ $1:Example.jpg|Caption2",
  * @author Prima klasy4na
  * @author Raymond
  * @author Siebrand
+ * @author Yekrats
  */
 $messages['qqq'] = array(
+	'wikieditor' => 'An extension to allow for advanced editing features.
+http://www.mediawiki.org/wiki/Extension:WikiEditor',
 	'wikieditor-desc' => "{{desc}}
 
 I guess that 'feature-providing modules' means the same as 'modules providing features'.",
@@ -316,6 +319,8 @@ I guess that 'feature-providing modules' means the same as 'modules providing fe
 	'wikieditor-toc-preference' => "Option at [[Special:Preferences]], tab ''{{int:prefs-editing}}''",
 	'wikieditor-toc-show' => 'Label of the show/hide link when the navigable table of contents is hidden',
 	'wikieditor-toc-hide' => 'Label of the show/hide link when the navigable table of contents is visible',
+	'wikieditor-toolbar' => 'A customizable toolbar for the WikiEditor.
+For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization',
 	'wikieditor-toolbar-desc' => '{{desc}}',
 	'wikieditor-toolbar-preference' => 'Option in [[Special:Preferences]]',
 	'wikieditor-toolbar-dialogs-preference' => "Caption of a checkbox on [[Special:Preferences]] (''editing'' tab), enabling helper dialogs for various features of the advanced edit toolbar (e.g. inserting links or tables).
@@ -396,13 +401,25 @@ This message does not support PLURAL on $1.',
 A "regular expression" is a syntax to find strings based on patterns, for more see [[wikipedia:Regular expression|the Wikipedia article]].
 
 Regular expressions are mostly a programmer tool, which is sometimes exposed to normal users too. It\'s almost as an programming language, but it is used to describe different kinds of strings (sometimes also called patterns and pattern matching), and is often used to change (parts of) the strings too.',
+	'wikieditor-toolbar-section-characters' => 'This will be a toolbar for special characters, like emoticons.
+For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization',
 	'wikieditor-toolbar-characters-page-latin' => 'This is the name of a script, or alphabet, not a language',
+	'wikieditor-toolbar-characters-page-latinextended' => 'The name of the Latin Extended character set section of the toolbar.
+For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization',
 	'wikieditor-toolbar-characters-page-ipa' => 'IPA means a script: "international phonetic alphabet" here, and not "international phonetic association", the organization behind it.',
+	'wikieditor-toolbar-characters-page-symbols' => 'The section name for symbols on the wiki-toolbar.
+For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization',
 	'wikieditor-toolbar-characters-page-greek' => 'This is the name of a script, or alphabet, not a language.',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'This is the name of a script, or a group of alphabets, used mainly in Eastern Europe and North and Central Asia.',
 	'wikieditor-toolbar-characters-page-arabic' => 'This is the name of a script, or alphabet, not a language.',
 	'wikieditor-toolbar-characters-page-arabicextended' => 'This is a description of the additional group of Arabic script characters for languages such as a Persian, Urdu, Pashto and others. This message is supposed to be similar to {{msg-mw|Wikieditor-toolbar-characters-page-latinextended}}.',
+	'wikieditor-toolbar-characters-page-persian' => 'The name of the Persian character set (alphabet) on the toolbar.
+For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization',
 	'wikieditor-toolbar-characters-page-hebrew' => 'This is the name of a script, or alphabet, not a language.',
+	'wikieditor-toolbar-characters-page-bangla' => 'The name of the [[w:Bengali alphabet|Bangla]] (a.k.a. Bengali) character set (alphabet) on the toolbar.
+For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization',
+	'wikieditor-toolbar-characters-page-telugu' => 'The name of the [[w:Telugu language#Alphabet|Telugu]] character set (alphabet) on the toolbar.
+For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization',
 	'wikieditor-toolbar-section-help' => '{{Identical|Help}}',
 	'wikieditor-toolbar-help-heading-description' => '{{Identical|Description}}',
 	'wikieditor-toolbar-help-page-link' => '{{Identical|Links}}',
@@ -6519,7 +6536,7 @@ $messages['eo'] = array(
 	'wikieditor-preview-tab' => 'Antaŭvido',
 	'wikieditor-preview-changes-tab' => 'Ŝanĝoj',
 	'wikieditor-preview-loading' => 'Ŝargante...',
-	'wikieditor-previewDialog-preference' => 'Ebligi antaŭprezentan dialogon',
+	'wikieditor-previewDialog-preference' => 'Ŝalti antaŭvidan dialogon',
 	'wikieditor-previewDialog-tab' => 'Antaŭvido',
 	'wikieditor-previewDialog-loading' => 'Ŝargante...',
 	'wikieditor-publish-preference' => 'Ŝalti po-paŝan eldonadon',
@@ -9456,7 +9473,7 @@ $messages['he'] = array(
 	'wikieditor-desc' => 'מספקת מנשק עריכת ויקיטקסט הניתן להרחבה ומודולים המאפשרים להוסיף יכולות',
 	'wikieditor-wikitext-tab' => 'קוד ויקי',
 	'wikieditor-loading' => 'בטעינה',
-	'wikieditor-preview-preference' => 'הפעלת תצוגה מקבילה',
+	'wikieditor-preview-preference' => 'הפעלת תצוגה מקדימה מקבילה',
 	'wikieditor-preview-tab' => 'תצוגה מקדימה',
 	'wikieditor-preview-changes-tab' => 'שינויים',
 	'wikieditor-preview-loading' => 'נטען...',
@@ -9478,8 +9495,8 @@ $messages['he'] = array(
 	'wikieditor-template-editor-dialog-cancel' => 'ביטול',
 	'wikieditor-templates-preference' => 'הפעלת קיפול תבניות',
 	'wikieditor-toc-preference' => 'הפעלת תוכן עניינים עם אפשרות ניווט',
-	'wikieditor-toc-show' => 'הצגת התכנים',
-	'wikieditor-toc-hide' => 'הסתרת התכנים',
+	'wikieditor-toc-show' => 'הצגת תוכן העניינים',
+	'wikieditor-toc-hide' => 'הסתרת התוכן',
 	'wikieditor-toolbar' => 'סרגל עריכה',
 	'wikieditor-toolbar-desc' => 'הרחבת השמישות של סרגל עריכת הדף',
 	'wikieditor-toolbar-preference' => 'הפעלת סרגל עריכה משופר',
