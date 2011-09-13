@@ -1,19 +1,19 @@
 <?php
 /**
  * Hooks for WikiEditor extension
- * 
+ *
  * @file
  * @ingroup Extensions
  */
 
 class WikiEditorHooks {
-	
+
 	/* Protected Static Members */
-	
+
 	protected static $features = array(
-		
+
 		/* Beta Features */
-		
+
 		'toolbar' => array(
 			'preferences' => array(
 				// Ideally this key would be 'wikieditor-toolbar'
@@ -63,9 +63,9 @@ class WikiEditorHooks {
 				'ext.wikiEditor.toolbar.hideSig',
 			),
 		),
-		
+
 		/* Labs Features */
-		
+
 		'templateEditor' => array(
 			'preferences' => array(
 				'wikieditor-template-editor' => array(
@@ -158,9 +158,9 @@ class WikiEditorHooks {
 			),
 		),
 	);
-	
+
 	/* Static Methods */
-	
+
 	/**
 	 * Checks if a certain option is enabled
 	 *
@@ -171,7 +171,7 @@ class WikiEditorHooks {
 	 */
 	public static function isEnabled( $name ) {
 		global $wgWikiEditorFeatures, $wgUser;
-		
+
 		// Features with global set to true are always enabled
 		if ( !isset( $wgWikiEditorFeatures[$name] ) || $wgWikiEditorFeatures[$name]['global'] ) {
 			return true;
@@ -188,20 +188,20 @@ class WikiEditorHooks {
 			}
 			return true;
 		}
-		// Features controlled by $wgWikiEditorFeatures with both global and user set to false are awlways disabled 
+		// Features controlled by $wgWikiEditorFeatures with both global and user set to false are awlways disabled
 		return false;
 	}
-	
+
 	/**
 	 * EditPage::showEditForm:initial hook
-	 * 
+	 *
 	 * Adds the modules to the edit form
-	 * 
+	 *
 	 * @param $toolbar array list of toolbar items
 	 */
 	public static function editPageShowEditFormInitial( &$toolbar ) {
 		global $wgOut;
-		
+
 		// Add modules for enabled features
 		foreach ( self::$features as $name => $feature ) {
 			if ( isset( $feature['modules'] ) && self::isEnabled( $name ) ) {
@@ -210,18 +210,18 @@ class WikiEditorHooks {
 		}
 		return true;
 	}
-	
+
 	/**
 	 * GetPreferences hook
-	 * 
+	 *
 	 * Adds WikiEditor-releated items to the preferences
-	 * 
+	 *
 	 * @param $user User current user
 	 * @param $defaultPreferences array list of default user preference controls
 	 */
 	public static function getPreferences( $user, &$defaultPreferences ) {
 		global $wgWikiEditorFeatures;
-		
+
 		foreach ( self::$features as $name => $feature ) {
 			if (
 				isset( $feature['preferences'] ) &&
@@ -234,15 +234,15 @@ class WikiEditorHooks {
 		}
 		return true;
 	}
-	
+
 	/**
 	 * MakeGlobalVariablesScript hook
-	 * 
+	 *
 	 * Adds enabled/disabled switches for WikiEditor modules
 	 */
 	public static function resourceLoaderGetConfigVars( &$vars ) {
 		global $wgWikiEditorFeatures;
-		
+
 		$configurations = array();
 		foreach ( self::$features as $name => $feature ) {
 			if (
@@ -260,16 +260,16 @@ class WikiEditorHooks {
 		}
 		return true;
 	}
-	
+
 	public static function makeGlobalVariablesScript( &$vars ) {
 		global $wgWikiEditorFeatures;
-		
+
 		// Build and export old-style wgWikiEditorEnabledModules object for back compat
 		$enabledModules = array();
 		foreach ( self::$features as $name => $feature ) {
 			$enabledModules[$name] = self::isEnabled( $name );
 		}
-		
+
 		$vars['wgWikiEditorEnabledModules'] = $enabledModules;
 		return true;
 	}

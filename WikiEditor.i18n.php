@@ -359,7 +359,7 @@ For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Too
 	'wikieditor-toolbar-tool-nowiki' => '工具栏注释',
 	'wikieditor-toolbar-tool-redirect' => "Tooltip for icon to place wiki text for a redirect in the edit box. The label before these icons says 'Insert'. 'Redirect' is a noun here.
 {{Identical|Redirect}}",
-	'wikieditor-toolbar-tool-redirect-example' => "Target is an adjective describing the page name. You could use 'destination' instead of 'target'. 'Target page name' is the destination of the redirect and appears when the wikitext for a redirect is inserted in the text box thus 
+	'wikieditor-toolbar-tool-redirect-example' => "Target is an adjective describing the page name. You could use 'destination' instead of 'target'. 'Target page name' is the destination of the redirect and appears when the wikitext for a redirect is inserted in the text box thus
  <nowiki>#REDIRECT [[target page name]]</nowiki>",
 	'wikieditor-toolbar-tool-small' => '{{Identical|Small}}',
 	'wikieditor-toolbar-group-insert' => '{{Identical|Insert}}',

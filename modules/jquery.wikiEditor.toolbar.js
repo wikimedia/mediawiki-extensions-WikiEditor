@@ -580,7 +580,7 @@ fn: {
 		if ( selected !== null ) {
 			$.cookie( 'wikiEditor-' + context.instance + '-toolbar-section', selected, { expires: 30, path: '/' } );
 		}
-		var $link = 
+		var $link =
 			$( '<a/>' )
 				.addClass( selected == id ? 'current' : null )
 				.attr( 'href', '#' )
@@ -661,7 +661,7 @@ fn: {
 		var $section = $( '<div/>' ).attr( { 'class': section.type + ' section section-' + id, 'rel': id } );
 		var selected = $.cookie( 'wikiEditor-' + context.instance + '-toolbar-section' );
 		var show = selected == id;
-		
+
 		if ( section.deferLoad !== undefined && section.deferLoad && id !== 'main' && !show ) {
 			// This class shows the spinner and serves as a marker for the click handler in buildTab()
 			$section.addClass( 'loading' ).append( $( '<div/>' ).addClass( 'spinner' ) );
@@ -672,7 +672,7 @@ fn: {
 		} else {
 			$.wikiEditor.modules.toolbar.fn.reallyBuildSection( context, id, section, $section );
 		}
-		
+
 		// Show or hide section
 		if ( id !== 'main' ) {
 			$section.css( 'display', show ? 'block' : 'none' );
