@@ -963,24 +963,31 @@ getDefaultConfig: function () {
 				// TODO: Find a cleaner way to share this function
 				$(this).data( 'replaceCallback', function( mode ) {
 					$( '#wikieditor-toolbar-replace-nomatch, #wikieditor-toolbar-replace-success, #wikieditor-toolbar-replace-emptysearch, #wikieditor-toolbar-replace-invalidregex' ).hide();
+
+					// Search string cannot be empty
 					var searchStr = $( '#wikieditor-toolbar-replace-search' ).val();
 					if ( searchStr == '' ) {
 						$( '#wikieditor-toolbar-replace-emptysearch' ).show();
 						return;
 					}
+
+					// Replace string can be empty
 					var replaceStr = $( '#wikieditor-toolbar-replace-replace' ).val();
+
+					// Prepare the regular expression flags
 					var flags = 'm';
 					var matchCase = $( '#wikieditor-toolbar-replace-case' ).is( ':checked' );
-					var isRegex = $( '#wikieditor-toolbar-replace-regex' ).is( ':checked' );
 					if ( !matchCase ) {
 						flags += 'i';
+					}
+					var isRegex = $( '#wikieditor-toolbar-replace-regex' ).is( ':checked' );
+					if ( !isRegex ) {
+						searchStr = $.escapeRE( searchStr );
 					}
 					if ( mode == 'replaceAll' ) {
 						flags += 'g';
 					}
-					if ( !isRegex ) {
-						searchStr = $.escapeRE( searchStr );
-					}
+
 					try {
 						var regex = new RegExp( searchStr, flags );
 					} catch( e ) {
@@ -990,20 +997,26 @@ getDefaultConfig: function () {
 							.show();
 						return;
 					}
+
 					var $textarea = $(this).data( 'context' ).$textarea;
 					var text = $textarea.textSelection( 'getContents' );
 					var match = false;
-					var offset, s;
+					var offset, textRemainder;
 					if ( mode != 'replaceAll' ) {
-						offset = $(this).data( 'offset' );
-						s = text.substr( offset );
-						match = s.match( regex );
+						if (mode == 'replace') {
+							offset = $(this).data( 'matchIndex' );
+						} else {
+							offset = $(this).data( 'offset' );
+						}
+						textRemainder = text.substr( offset );
+						match = textRemainder.match( regex );
 					}
 					if ( !match ) {
 						// Search hit BOTTOM, continuing at TOP
+						// TODO: Add a "Wrap around" option.
 						offset = 0;
-						s = text;
-						match = s.match( regex );
+						textRemainder = text;
+						match = textRemainder.match( regex );
 					}
 					
 					if ( !match ) {
@@ -1017,13 +1030,13 @@ getDefaultConfig: function () {
 						// in Firefox/Webkit, but in IE replacing the entire content once is better.
 						var index;
 						for ( var i = 0; i < match.length; i++ ) {
-							index = s.indexOf( match[i] );
+							index = textRemainder.indexOf( match[i] );
 							if ( index == -1 ) {
 								// This shouldn't happen
 								break;
 							}
-							var matchedText = s.substr( index, match[i].length );
-							s = s.substr( index + match[i].length );
+							var matchedText = textRemainder.substr( index, match[i].length );
+							textRemainder = textRemainder.substr( index + match[i].length );
 							
 							var start = index + offset;
 							var end = start + match[i].length;
@@ -1043,27 +1056,63 @@ getDefaultConfig: function () {
 							.show();
 						$(this).data( 'offset', 0 );
 					} else {
-						// Make regex placeholder substitution ($1) work
-						var replace = isRegex ? match[0].replace( regex, replaceStr ): replaceStr;
-						var start = match.index + offset;
-						var end = start + match[0].length;
-						var newEnd = start + replace.length;
-						var context = $( this ).data( 'context' );
-						$textarea.textSelection( 'setSelection', { 'start': start,
-							'end': end } );
+						var start, end;
+						
 						if ( mode == 'replace' ) {
-							$textarea
-								.textSelection( 'encapsulateSelection', {
-									'peri': replace,
-									'replace': true } )
-								.textSelection( 'setSelection', {
-									'start': start,
-									'end': newEnd } );
+							var actualReplacement;
+
+							if (isRegex) {
+								// If backreferences (like $1) are used, the actual actual replacement string will be different
+								actualReplacement = match[0].replace( regex, replaceStr );
+							} else {
+								actualReplacement = replaceStr;
+							}
+
+							if (match) {
+								// Do the replacement
+								$textarea.textSelection( 'encapsulateSelection', {
+										'peri': actualReplacement,
+										'replace': true } );
+								// Reload the text after replacement
+								text = $textarea.textSelection( 'getContents' );
+							}
+
+							// Find the next instance
+							offset = offset + match[0].length + actualReplacement.length;
+							textRemainder = text.substr( offset );
+							match = textRemainder.match( regex );
+
+							if (match) {
+								start = offset + match.index;
+								end = start + match[0].length;
+							} else {
+								// If no new string was found, try searching from the beginning.
+								// TODO: Add a "Wrap around" option.
+								textRemainder = text;
+								match = textRemainder.match( regex );
+								if (match) {
+									start = match.index;
+									end = start + match[0].length;
+								} else {
+									// Give up
+									start = 0;
+									end = 0;
+								}
+							}
+						} else {
+							start = offset + match.index;
+							end = start + match[0].length;
 						}
+
+						$( this ).data( 'matchIndex', start);
+
+						$textarea.textSelection( 'setSelection', {
+								'start': start,
+								'end': end
+						} );
 						$textarea.textSelection( 'scrollToCaretPosition' );
-						$textarea.textSelection( 'setSelection', { 'start': start,
-							'end': mode == 'replace' ? newEnd : end } );
-						$( this ).data( 'offset', mode == 'replace' ? newEnd : end );
+						$( this ).data( 'offset', end );
+						var context = $( this ).data( 'context' );
 						var textbox = typeof context.$iframe != 'undefined' ?
 								context.$iframe[0].contentWindow : $textarea[0];
 						textbox.focus();
@@ -1092,6 +1141,8 @@ getDefaultConfig: function () {
 				},
 				open: function() {
 					$(this).data( 'offset', 0 );
+					$(this).data( 'matchIndex', 0 );
+					
 					$( '#wikieditor-toolbar-replace-search' ).focus();
 					$( '#wikieditor-toolbar-replace-nomatch, #wikieditor-toolbar-replace-success, #wikieditor-toolbar-replace-emptysearch, #wikieditor-toolbar-replace-invalidregex' ).hide();
 					if ( !( $(this).data( 'onetimeonlystuff' ) ) ) {
