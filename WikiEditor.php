@@ -506,7 +506,6 @@ $wgResourceModules += array(
 		'scripts' => 'ext.wikiEditor.toolbar.hideSig.js',
 		'dependencies' => array(
 			'ext.wikiEditor',
-			'ext.wikiEditor.toolbar',
 		)
 	),
 );
