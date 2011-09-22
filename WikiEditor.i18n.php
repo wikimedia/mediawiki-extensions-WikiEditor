@@ -17211,6 +17211,7 @@ $1:Exemple.jpg|Descripcion 2',
 );
 
 /** Oriya (ଓଡ଼ିଆ)
+ * @author Ansumang
  * @author Odisha1
  * @author Psubhashish
  */
@@ -17221,7 +17222,7 @@ $messages['or'] = array(
 	'wikieditor-loading' => 'ଖୋଜୁଅଛି',
 	'wikieditor-preview-preference' => 'ପାଖାପାଖି ଦେଖଣା ସଚଳ କରାଇବେ',
 	'wikieditor-preview-tab' => 'ଦେଖଣା',
-	'wikieditor-preview-changes-tab' => 'ବଦଳାସବୁ',
+	'wikieditor-preview-changes-tab' => 'ବଦଳସବୁ',
 	'wikieditor-preview-loading' => 'ଖୋଲୁଅଛି...',
 	'wikieditor-previewDialog-preference' => 'ଦେଖଣା ଘରଟି ଖୋଲୁଅଛି',
 	'wikieditor-previewDialog-tab' => 'ଦେଖଣା',
@@ -17297,7 +17298,7 @@ $messages['or'] = array(
 	'wikieditor-toolbar-tool-heading-4' => 'ସ୍ତର ୪',
 	'wikieditor-toolbar-tool-heading-5' => 'ସ୍ତର ୫',
 	'wikieditor-toolbar-tool-heading-example' => 'ଶିରୋନାମା ଲେଖା',
-	'wikieditor-toolbar-group-format' => 'ଶୈଳୀ',
+	'wikieditor-toolbar-group-format' => 'ସଜାଣି',
 	'wikieditor-toolbar-tool-ulist' => 'ବିନ୍ଦୁ ଦିଆ ତାଲିକା',
 	'wikieditor-toolbar-tool-ulist-example' => 'ବିନ୍ଦୁ ଦିଆ ତାଲିକା ବସ୍ତୁ',
 	'wikieditor-toolbar-tool-olist' => 'ସଂଖ୍ୟାଦିଆ ତାଲିକା',
@@ -17340,7 +17341,7 @@ $1:ଉଦାହରଣ.jpg|ଶିରୋନାମା୨',
 	'wikieditor-toolbar-tool-table-dimensions-rows' => 'ଧାଡ଼ି',
 	'wikieditor-toolbar-tool-table-dimensions-columns' => 'ସ୍ତମ୍ଭସବୁ',
 	'wikieditor-toolbar-tool-table-dimensions-header' => 'ଉପର ଶିରୋନାମା ଧାଡ଼ି',
-	'wikieditor-toolbar-tool-table-wikitable' => 'ସୀମା ସହିତ ଶୈଳୀ',
+	'wikieditor-toolbar-tool-table-wikitable' => 'ସୀମା ସହିତ ସଜାଣି',
 	'wikieditor-toolbar-tool-table-sortable' => 'ଶ୍ରେଣୀ ଅନୁସାରେ ସାରଣି ତିଆରି କରିବେ',
 	'wikieditor-toolbar-tool-table-example' => 'ଉଦାହରଣ',
 	'wikieditor-toolbar-tool-table-preview' => 'ଦେଖଣା',
