@@ -16992,6 +16992,7 @@ $messages['nso'] = array(
 );
 
 /** Occitan (Occitan)
+ * @author Boulaur
  * @author Cedric31
  * @author Jfblanc
  * @author McDutchie
@@ -17064,6 +17065,7 @@ $messages['oc'] = array(
 	'wikieditor-toolbar-tool-reference' => 'Referéncia',
 	'wikieditor-toolbar-tool-reference-example' => 'Inserir lo tèxte de la nòta en bas de pagina aicí',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Anullar',
+	'wikieditor-toolbar-tool-reference-insert' => 'Inserir',
 	'wikieditor-toolbar-tool-signature' => 'Signatura e data',
 	'wikieditor-toolbar-section-advanced' => 'Avançat',
 	'wikieditor-toolbar-tool-heading' => 'Títol',
@@ -17990,6 +17992,7 @@ $1:Esempi.jpg|Descrission2',
  */
 $messages['pnb'] = array(
 	'wikieditor' => 'اگیودواں وکیٹکسٹ نوں تبدیل کرن دا سسٹم',
+	'wikieditor-desc' => 'وڈا ہون والا وکیٹیکسٹ ایڈیٹنگ  تے موڈیولز دیو۔',
 	'wikieditor-wikitext-tab' => 'وکی ٹکسٹ',
 	'wikieditor-loading' => 'لوڈنگ',
 	'wikieditor-preview-tab' => 'کچا کم وکھاؤ',
