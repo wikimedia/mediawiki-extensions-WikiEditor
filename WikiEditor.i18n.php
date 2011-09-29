@@ -5578,6 +5578,7 @@ $1:Eksempel.jpg|Billedtekst2',
  * @author MF-Warburg
  * @author Metalhead64
  * @author Mikullovci11
+ * @author Ojay
  * @author Umherirrender
  * @author Ziko
  * @author ✓
@@ -5590,10 +5591,10 @@ $messages['de'] = array(
 	'wikieditor-preview-preference' => 'Gegenüberstellungsvorschau ermöglichen',
 	'wikieditor-preview-tab' => 'Vorschau',
 	'wikieditor-preview-changes-tab' => 'Änderungen',
-	'wikieditor-preview-loading' => 'lädt …',
+	'wikieditor-preview-loading' => 'Am Laden …',
 	'wikieditor-previewDialog-preference' => 'Aktiviere die Abfrage zur Vorschau',
 	'wikieditor-previewDialog-tab' => 'Vorschau',
-	'wikieditor-previewDialog-loading' => 'lädt …',
+	'wikieditor-previewDialog-loading' => 'Am Laden …',
 	'wikieditor-publish-preference' => 'Schritt-für-Schritt-Veröffentlichung ermöglichen',
 	'wikieditor-publish-button-publish' => 'Veröffentlichen',
 	'wikieditor-publish-button-cancel' => 'Abbrechen',
@@ -5616,7 +5617,7 @@ $messages['de'] = array(
 	'wikieditor-toolbar-preference' => 'Erweiterte Bearbeiten-Werkzeugleiste aktivieren',
 	'wikieditor-toolbar-dialogs-preference' => 'Dialoge für das Einfügen von Links, Tabellen usw. aktivieren',
 	'wikieditor-toolbar-hidesig' => 'Den Unterschriftsbutton bei Seiten im Artikelnamensraum ausblenden',
-	'wikieditor-toolbar-loading' => 'Laden …',
+	'wikieditor-toolbar-loading' => 'Am Laden …',
 	'wikieditor-toolbar-tool-bold' => 'Fett',
 	'wikieditor-toolbar-tool-bold-example' => 'Fetter Text',
 	'wikieditor-toolbar-tool-italic' => 'Kursiv',
@@ -5628,9 +5629,9 @@ $messages['de'] = array(
 	'wikieditor-toolbar-tool-link' => 'Link',
 	'wikieditor-toolbar-tool-link-title' => 'Link einfügen',
 	'wikieditor-toolbar-tool-link-int' => 'Zu einer Wiki-Seite',
-	'wikieditor-toolbar-tool-link-int-target' => 'Seitentitel:',
+	'wikieditor-toolbar-tool-link-int-target' => 'Zielseite oder URL:',
 	'wikieditor-toolbar-tool-link-int-target-tooltip' => 'Titel der Seite oder URL',
-	'wikieditor-toolbar-tool-link-int-text' => 'Anzeige im Text:',
+	'wikieditor-toolbar-tool-link-int-text' => 'angezeigter Text/Linktext:',
 	'wikieditor-toolbar-tool-link-int-text-tooltip' => 'Text eingeben, der angezeigt werden soll',
 	'wikieditor-toolbar-tool-link-ext' => 'Zu einer externen Internetseite',
 	'wikieditor-toolbar-tool-link-ext-target' => 'URL des Links:',
@@ -16277,10 +16278,10 @@ $messages['nl'] = array(
 	'wikieditor-preview-preference' => 'Bewerken en voorvertoning naast elkaar',
 	'wikieditor-preview-tab' => 'Voorvertoning',
 	'wikieditor-preview-changes-tab' => 'Wijzigingen',
-	'wikieditor-preview-loading' => 'Bezig met laden...',
+	'wikieditor-preview-loading' => 'Bezig met laden…',
 	'wikieditor-previewDialog-preference' => 'Voorvertoningsdialoogvenster inschakelen',
 	'wikieditor-previewDialog-tab' => 'Voorvertoning',
-	'wikieditor-previewDialog-loading' => 'Bezig met laden...',
+	'wikieditor-previewDialog-loading' => 'Bezig met laden…',
 	'wikieditor-publish-preference' => 'Stap voor stap publiceren inschakelen',
 	'wikieditor-publish-button-publish' => 'Publiceren',
 	'wikieditor-publish-button-cancel' => 'Annuleren',
