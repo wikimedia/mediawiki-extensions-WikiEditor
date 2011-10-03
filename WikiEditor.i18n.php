@@ -12125,6 +12125,17 @@ $messages['kiu'] = array(
 	'wikieditor-toolbar-tool-link' => 'Girê',
 );
 
+/** Kazakh (Cyrillic script) (‪Қазақша (кирил)‬)
+ * @author GaiJin
+ */
+$messages['kk-cyrl'] = array(
+	'wikieditor-toolbar-section-advanced' => 'Кеңейтілген',
+	'wikieditor-toolbar-group-format' => 'Пішім',
+	'wikieditor-toolbar-group-insert' => 'Енгізу',
+	'wikieditor-toolbar-section-characters' => 'Арнайы таңбалар',
+	'wikieditor-toolbar-section-help' => 'Анықтама',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author គីមស៊្រុន
  */
@@ -21694,7 +21705,7 @@ $messages['sq'] = array(
 	'wikieditor-toolbar-help-content-indent-result' => 'Tekst normal<dl><dd>Tekst me kryeradhë<dl><dd>Tekst me kryeradhë</dd></dl></dd></dl>',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Charmed94
  * @author Helios13
  * @author McDutchie
@@ -21763,7 +21774,7 @@ $messages['sr-ec'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'Ниста унели ништа за повезивање.',
 	'wikieditor-toolbar-tool-file' => 'Слика',
 	'wikieditor-toolbar-tool-file-example' => 'Пример.jpg',
-	'wikieditor-toolbar-tool-reference' => 'Референца',
+	'wikieditor-toolbar-tool-reference' => 'Навод',
 	'wikieditor-toolbar-tool-reference-example' => 'Унесите текст фусноте овде',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Откажи',
 	'wikieditor-toolbar-tool-reference-title' => 'Убаци референцу',
@@ -21868,7 +21879,7 @@ $1:пример2.jpg|Наслов2',
 	'wikieditor-toolbar-help-page-heading' => 'Наслови',
 	'wikieditor-toolbar-help-page-list' => 'Спискови',
 	'wikieditor-toolbar-help-page-file' => 'Датотеке',
-	'wikieditor-toolbar-help-page-reference' => 'Референце',
+	'wikieditor-toolbar-help-page-reference' => 'Наводи',
 	'wikieditor-toolbar-help-page-discussion' => 'Разговор',
 	'wikieditor-toolbar-help-content-italic-description' => 'Курзив',
 	'wikieditor-toolbar-help-content-italic-syntax' => "''Курзиван текст''",
