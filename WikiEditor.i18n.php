@@ -16739,6 +16739,7 @@ $1:Døme.jpg|Bilettekst2',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Event
  * @author Jon Harald Søby
  * @author Laaknor
  * @author Nghtwlkr
@@ -16899,6 +16900,7 @@ $1:Example.jpg|Bildetekst2',
 	'wikieditor-toolbar-characters-page-greek' => 'Gresk',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'Kyrillisk',
 	'wikieditor-toolbar-characters-page-arabic' => 'Arabisk',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'Utvidet arabisk',
 	'wikieditor-toolbar-characters-page-persian' => 'Persisk',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Hebraisk',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bangla',
