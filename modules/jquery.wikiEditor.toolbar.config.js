@@ -457,7 +457,7 @@ getDefaultConfig: function() {
 							},
 							'offset': {
 								'default': [-70, -142],
-								'default-rtl': [-70, -502],
+								'default-rtl': [-70, -502]
 							},
 							'action': {
 								'type': 'encapsulate',
