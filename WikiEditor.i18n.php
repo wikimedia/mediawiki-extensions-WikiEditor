@@ -1824,6 +1824,7 @@ $messages['ast'] = array(
  * @author Koc61
  * @author PPerviz
  * @author Vago
+ * @author Vugar 1981
  */
 $messages['az'] = array(
 	'wikieditor-wikitext-tab' => 'Vikimətn',
@@ -1835,6 +1836,11 @@ $messages['az'] = array(
 	'wikieditor-previewDialog-loading' => 'Yüklənir…',
 	'wikieditor-publish-button-publish' => 'Yeniləmə',
 	'wikieditor-publish-button-cancel' => 'Ləğv et',
+	'wikieditor-publish-dialog-minor' => 'Kiçik dəyişiklik',
+	'wikieditor-publish-dialog-publish' => 'Publish',
+	'wikieditor-publish-dialog-goback' => 'Geriyə',
+	'wikieditor-template-editor-dialog-title' => 'Şablonu redaktə et',
+	'wikieditor-template-editor-dialog-submit' => 'Yenilə',
 	'wikieditor-template-editor-dialog-cancel' => 'Ləğv et',
 	'wikieditor-toolbar-loading' => 'Yüklənir…',
 	'wikieditor-toolbar-tool-bold' => 'Qalın',
@@ -1849,6 +1855,8 @@ $messages['az'] = array(
 	'wikieditor-toolbar-tool-link-int-target-tooltip' => 'URL üçün səhifə başlığı',
 	'wikieditor-toolbar-tool-link-ext-target' => 'URL linki:',
 	'wikieditor-toolbar-tool-link-cancel' => 'Ləğv et',
+	'wikieditor-toolbar-tool-link-int-target-status-notexists' => 'Səhifə mövcud deyil',
+	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Yanlış başlıq',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => 'Daxili keçid',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-ext' => 'Xarici keçid',
 	'wikieditor-toolbar-tool-file' => 'Şəkil əlavə etmə',
@@ -1868,13 +1876,16 @@ $messages['az'] = array(
 	'wikieditor-toolbar-tool-heading-example' => 'Başlıq mətni',
 	'wikieditor-toolbar-group-format' => 'Format',
 	'wikieditor-toolbar-tool-redirect' => 'Yönləndirmə',
+	'wikieditor-toolbar-tool-redirect-example' => 'Səhifə adını əlavə et',
 	'wikieditor-toolbar-tool-big' => 'Böyük',
 	'wikieditor-toolbar-tool-big-example' => 'Böyük mətn',
 	'wikieditor-toolbar-tool-small' => 'Kiçik',
 	'wikieditor-toolbar-tool-small-example' => 'Kiçik mətn',
+	'wikieditor-toolbar-tool-subscript' => 'Subscript',
 	'wikieditor-toolbar-group-insert' => 'Yerləşdirmək',
 	'wikieditor-toolbar-tool-gallery' => 'Şəkil qalereyası',
 	'wikieditor-toolbar-tool-newline' => 'Yeni xətt',
+	'wikieditor-toolbar-tool-table' => 'Cədvəl',
 	'wikieditor-toolbar-tool-table-example-old' => '-
 ! başlıq 1
 ! başlıq 2
@@ -1887,6 +1898,7 @@ $messages['az'] = array(
 | sıra 2, sütun 1
 | sıra 2, sütun 2
 | sıra 2, sütun 3',
+	'wikieditor-toolbar-tool-table-example-header' => 'Başlıq mətni',
 	'wikieditor-toolbar-tool-table-title' => 'Cədvəl yerləşdir',
 	'wikieditor-toolbar-tool-table-dimensions-rows' => 'Sətirlər:',
 	'wikieditor-toolbar-tool-table-dimensions-columns' => 'Sütunlar:',
@@ -1914,8 +1926,11 @@ $messages['az'] = array(
 	'wikieditor-toolbar-characters-page-hebrew' => 'İvrit',
 	'wikieditor-toolbar-characters-page-bangla' => 'Benqal',
 	'wikieditor-toolbar-characters-page-telugu' => 'Teluqu',
+	'wikieditor-toolbar-characters-page-sinhala' => 'Sinqal',
+	'wikieditor-toolbar-characters-page-gujarati' => 'Qucarat',
 	'wikieditor-toolbar-characters-page-thai' => 'Tay',
 	'wikieditor-toolbar-characters-page-lao' => 'Lao',
+	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
 	'wikieditor-toolbar-section-help' => 'Kömək',
 	'wikieditor-toolbar-help-heading-description' => 'Təsvir',
 	'wikieditor-toolbar-help-heading-syntax' => 'Yazdığınız',
