@@ -21950,7 +21950,7 @@ $1:пример2.jpg|Наслов2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Обични текст<dl><dd>Увучени текст<dl><dd>Увучени текст</dd></dl></dd></dl>',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Liangent
  * @author McDutchie
  * @author Rancher
@@ -22077,6 +22077,7 @@ $1:primer2.jpg|Naslov2',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bangla',
 	'wikieditor-toolbar-characters-page-telugu' => 'telugu',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Gudžarati',
+	'wikieditor-toolbar-characters-page-lao' => 'laoski',
 	'wikieditor-toolbar-section-help' => 'Pomoć',
 	'wikieditor-toolbar-help-heading-description' => 'Opis',
 	'wikieditor-toolbar-help-heading-syntax' => 'Šta kucate',
