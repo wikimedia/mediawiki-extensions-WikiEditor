@@ -9011,6 +9011,7 @@ $messages['grc'] = array(
 );
 
 /** Swiss German (Alemannisch)
+ * @author Als-Chlämens
  * @author Als-Holder
  * @author Kghbln
  */
@@ -9171,6 +9172,7 @@ $1:Byschpil.jpg|Bschriftig2',
 	'wikieditor-toolbar-characters-page-greek' => 'Griechisch',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'Kyrillisch',
 	'wikieditor-toolbar-characters-page-arabic' => 'Arabisch',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'Erwyyterts Arabisch',
 	'wikieditor-toolbar-characters-page-persian' => 'Persisch',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Hebräisch',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bengalisch',
