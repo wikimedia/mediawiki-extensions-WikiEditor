@@ -1,6 +1,6 @@
 <?php
 
-/*
+/**
  * To configure MW for these tests
  * 1) If you are running multiple test suites, add the following in LocalSettings.php
  * require_once("extensions/WikiEditor/tests/selenium/WikiEditorSeleniumConfig.php");
