@@ -3827,7 +3827,7 @@ $1:Skouer.jpg|Deskrivadur2',
 	'wikieditor-toolbar-help-content-reference-result' => "Testenn ar bajenn.<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-rereference-description' => 'Adimplij eus an hevelep daveenn',
 	'wikieditor-toolbar-help-content-rereference-result' => "Testenn ar bajenn.<sup><a href='#'>[1]</a></sup>",
-	'wikieditor-toolbar-help-content-showreferences-description' => 'Dispakañ an daveennoù',
+	'wikieditor-toolbar-help-content-showreferences-description' => 'Diskwel an daveennoù',
 	'wikieditor-toolbar-help-content-showreferences-result' => "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Anv al liamm</a>, testenn ouzhpenn.</li></ol>",
 	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'Sinadur gant an deiziad',
 	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>Anv implijer</a> (<a href='#' title='{{#special:mytalk}}'>kaozeal</a>) 15:54, 10 Mezheven 2009 (UTC)",
@@ -26092,7 +26092,7 @@ $messages['zh-hans'] = array(
 	'wikieditor-toolbar-tool-ilink' => '内部链接',
 	'wikieditor-toolbar-tool-ilink-example' => '链接标题',
 	'wikieditor-toolbar-tool-xlink' => '外部链接（注意加前缀http://）',
-	'wikieditor-toolbar-tool-xlink-example' => 'http://www.example.com 链接标题',
+	'wikieditor-toolbar-tool-xlink-example' => 'http://www.范例.com（在这里输入网址） 链接文字',
 	'wikieditor-toolbar-tool-link' => '链接',
 	'wikieditor-toolbar-tool-link-title' => '插入链接',
 	'wikieditor-toolbar-tool-link-int' => '链往wiki页面',
@@ -26116,8 +26116,8 @@ $messages['zh-hans'] = array(
 	'wikieditor-toolbar-tool-link-lookslikeinternal-ext' => '外部链接',
 	'wikieditor-toolbar-tool-link-empty' => '您没有输入链接内容。',
 	'wikieditor-toolbar-tool-file' => '嵌入文件',
-	'wikieditor-toolbar-tool-file-example' => 'Example.jpg',
-	'wikieditor-toolbar-tool-reference' => '注释',
+	'wikieditor-toolbar-tool-file-example' => '范例.jpg（在这里输入文件名）',
+	'wikieditor-toolbar-tool-reference' => '参考',
 	'wikieditor-toolbar-tool-reference-example' => '在此处插入注释文字',
 	'wikieditor-toolbar-tool-reference-cancel' => '取消',
 	'wikieditor-toolbar-tool-reference-title' => '插入注释内容',
@@ -26143,10 +26143,10 @@ $messages['zh-hans'] = array(
 	'wikieditor-toolbar-tool-nowiki-example' => '在此处插入非维基格式文字',
 	'wikieditor-toolbar-tool-redirect' => '重定向',
 	'wikieditor-toolbar-tool-redirect-example' => '目标页名称',
-	'wikieditor-toolbar-tool-big' => '大',
-	'wikieditor-toolbar-tool-big-example' => '大号字',
-	'wikieditor-toolbar-tool-small' => '小',
-	'wikieditor-toolbar-tool-small-example' => '小号字',
+	'wikieditor-toolbar-tool-big' => '大号',
+	'wikieditor-toolbar-tool-big-example' => '大号文字',
+	'wikieditor-toolbar-tool-small' => '小号',
+	'wikieditor-toolbar-tool-small-example' => '小号文字',
 	'wikieditor-toolbar-tool-superscript' => '上标',
 	'wikieditor-toolbar-tool-superscript-example' => '上标文字',
 	'wikieditor-toolbar-tool-subscript' => '下标',
@@ -26162,13 +26162,13 @@ $1:Example.jpg|标题2',
 ! 标题2
 ! 标题3
 |-
-| 第一行第一个单元格
-| 第一行第二个单元格
-| 第一行第三个单元格
+| 第1行第1格
+| 第1行第2格
+| 第1行第3格
 |-
-| 第二行第一个单元格
-| 第二行第二个单元格
-| 第二行第三个单元格',
+| 第2行第1格
+| 第2行第2格
+| 第2行第3格',
 	'wikieditor-toolbar-tool-table-example-cell-text' => '单元格文字',
 	'wikieditor-toolbar-tool-table-example-header' => '标题文字',
 	'wikieditor-toolbar-tool-table-title' => '插入表格',
@@ -26263,7 +26263,7 @@ $1:Example.jpg|标题2',
 	'wikieditor-toolbar-help-content-file-description' => '嵌入文件',
 	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|标题文本]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='标题文本' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='放大' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>标题文本</div></div>",
-	'wikieditor-toolbar-help-content-reference-description' => '注释',
+	'wikieditor-toolbar-help-content-reference-description' => '参考',
 	'wikieditor-toolbar-help-content-reference-syntax' => '页面文本。&lt;ref name="测试"&gt;[http://www.example.org 链接文本]，附加文本。&lt;/ref&gt;',
 	'wikieditor-toolbar-help-content-reference-result' => "页面文本。<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-rereference-description' => '复用注释',
