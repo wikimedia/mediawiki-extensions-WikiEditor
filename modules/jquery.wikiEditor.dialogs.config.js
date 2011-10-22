@@ -779,8 +779,11 @@ getDefaultConfig: function () {
 					.addClass( 'sortable' )
 					.insertAfter( $( '#wikieditor-toolbar-table-preview' ) )
 					.hide();
-				if ( typeof jQuery.fn.tablesorter == 'function' )
-					$( '#wikieditor-toolbar-table-preview2' ).tablesorter();
+
+				mw.loader.using( 'jquery.tablesorter', function() {
+		                       	$( '#wikieditor-toolbar-table-preview2' ).tablesorter();
+				});
+
 				$( '#wikieditor-toolbar-table-sortable' ).click( function() {
 					// Swap the currently shown one clone with the other one
 					$( '#wikieditor-toolbar-table-preview' )
