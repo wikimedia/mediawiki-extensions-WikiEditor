@@ -502,9 +502,11 @@ getDefaultConfig: function () {
 					}
 				},
 				open: function() {
+					// Obtain the server name without the protocol. wgServer may be protocol-relative
+					var serverName = mw.config.get( 'wgServer' ).replace( /^(https?:)?\/\//, '' );
 					// Cache the articlepath regex
 					$(this).data( 'articlePathRegex', new RegExp(
-						'^' + $.escapeRE( mw.config.get( 'wgServer' ) + mw.config.get( 'wgArticlePath' ) )
+						'^https?://' + $.escapeRE( serverName + mw.config.get( 'wgArticlePath' ) )
 							.replace( /\\\$1/g, '(.*)' ) + '$'
 					) );
 					// Pre-fill the text fields based on the current selection
