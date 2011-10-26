@@ -4700,12 +4700,15 @@ $1:نموونە.jpg|شرۆڤەی ٢',
 	'wikieditor-toolbar-characters-page-greek' => 'یۆنانی',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'سیریلیک',
 	'wikieditor-toolbar-characters-page-arabic' => 'عەرەبی',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'عەرەبیی پەرەپێدراو',
 	'wikieditor-toolbar-characters-page-persian' => 'فارسی',
 	'wikieditor-toolbar-characters-page-hebrew' => 'عیبری',
 	'wikieditor-toolbar-characters-page-bangla' => 'بەنگالی',
 	'wikieditor-toolbar-characters-page-telugu' => 'تێلوگو',
 	'wikieditor-toolbar-characters-page-sinhala' => 'سینھالا',
 	'wikieditor-toolbar-characters-page-gujarati' => 'گوجەراتی',
+	'wikieditor-toolbar-characters-page-thai' => 'تایلەندی',
+	'wikieditor-toolbar-characters-page-khmer' => 'خمێری',
 	'wikieditor-toolbar-section-help' => 'یارمەتی',
 	'wikieditor-toolbar-help-heading-description' => 'وەسف',
 	'wikieditor-toolbar-help-heading-syntax' => 'ئەوی تایپی دەکەی',
@@ -7253,6 +7256,7 @@ $1:Näide.jpg|Pildiallkiri2',
  * @author An13sa
  * @author Inorbez
  * @author Joxemai
+ * @author Xabier Armendaritz
  */
 $messages['eu'] = array(
 	'wikieditor' => 'Wikitestu edizio-interfaze aurreratua',
@@ -7327,7 +7331,7 @@ Barne lotura bezala sortu nahi duzu?',
 	'wikieditor-toolbar-tool-reference-title' => 'Txertatu erreferentzia',
 	'wikieditor-toolbar-tool-reference-insert' => 'Txertatu',
 	'wikieditor-toolbar-tool-reference-text' => 'Erreferentzia-testua',
-	'wikieditor-toolbar-tool-signature' => 'Sinadura data eta orduarekin',
+	'wikieditor-toolbar-tool-signature' => 'Sinadura, eguna eta ordua',
 	'wikieditor-toolbar-section-advanced' => 'Aurreratua',
 	'wikieditor-toolbar-tool-heading' => 'Izenburua',
 	'wikieditor-toolbar-tool-heading-1' => '1. maila',
@@ -7473,8 +7477,8 @@ $1:Adibidea.jpg|Oina2',
 	'wikieditor-toolbar-help-content-rereference-result' => "Orrialdearen testua.<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-showreferences-description' => 'Erreferentziak erakutsi',
 	'wikieditor-toolbar-help-content-showreferences-result' => "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.adibidea.org' class='external text' href='#'>Loturaren testua</a>, testu gehigarria.</li></ol>",
-	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'Sindaura data eta orduarekin',
-	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>Lankide izena</a> (<a href='#' title='{{#special:mytalk}}'>eztabaida</a>) 15:54, 10 Ekaina 2009 (UTC)",
+	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'Sindaura, eguna eta ordua',
+	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>Lankide izena</a> (<a href='#' title='{{#special:mytalk}}'>eztabaida</a>) 2009-06-10, 15:54 (UTC)",
 	'wikieditor-toolbar-help-content-signature-description' => 'Sinadura',
 	'wikieditor-toolbar-help-content-signature-result' => "<a href='#' title='{{#special:mypage}}'>Lankide izena</a> (<a href='#' title='{{#special:mytalk}}'>eztabaida</a>)",
 	'wikieditor-toolbar-help-content-indent-description' => 'Koska',
@@ -9731,6 +9735,7 @@ $messages['hif-latn'] = array(
 /** Croatian (Hrvatski)
  * @author Ex13
  * @author Excaliboor
+ * @author Roberta F.
  * @author SpeedyGonsales
  */
 $messages['hr'] = array(
@@ -9762,8 +9767,8 @@ $messages['hr'] = array(
 	'wikieditor-toc-preference' => 'Omogući navigaciju sadržaja',
 	'wikieditor-toc-show' => 'Prikaži sadržaj',
 	'wikieditor-toc-hide' => 'Sakrij sadržaj',
-	'wikieditor-toolbar' => 'Alatna traka',
-	'wikieditor-toolbar-desc' => 'Alatna traka za uređivanje s poboljšanom uporabljivošću',
+	'wikieditor-toolbar' => 'Alatna vrpca',
+	'wikieditor-toolbar-desc' => 'Alatna vrpca za uređivanje s poboljšanom uporabljivošću',
 	'wikieditor-toolbar-preference' => 'Omogući poboljšanu alatnu traku',
 	'wikieditor-toolbar-dialogs-preference' => 'Dopusti upitnike za unos veza, tablica i ostalog',
 	'wikieditor-toolbar-hidesig' => 'Sakrij gumb potpisa sa stranica u glavnom imenskom prostoru',
@@ -9898,7 +9903,7 @@ $1:Primjer.jpg|Opis2',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Gudžarati znakovi',
 	'wikieditor-toolbar-characters-page-thai' => 'Tajlandski',
 	'wikieditor-toolbar-characters-page-lao' => 'Laoški znakovi',
-	'wikieditor-toolbar-characters-page-khmer' => 'Kmerskim',
+	'wikieditor-toolbar-characters-page-khmer' => 'kmerski',
 	'wikieditor-toolbar-section-help' => 'Pomoć',
 	'wikieditor-toolbar-help-heading-description' => 'Opis',
 	'wikieditor-toolbar-help-heading-syntax' => 'Što upisujete',
@@ -11204,6 +11209,20 @@ $messages['ig'] = array(
 	'wikieditor-toolbar-help-content-heading5-result' => '<h5>Íshí edemede</h5>',
 	'wikieditor-toolbar-help-content-signature-description' => 'Áhà gi',
 	'wikieditor-toolbar-help-content-indent-description' => 'Tụ atụ',
+);
+
+/** Iloko (Ilokano)
+ * @author Lam-ang
+ */
+$messages['ilo'] = array(
+	'wikieditor-preview-tab' => 'Ipadas',
+	'wikieditor-previewDialog-tab' => 'Preview',
+	'wikieditor-publish-dialog-minor' => 'Bassit a baliwan',
+	'wikieditor-publish-dialog-watch' => 'Bantayan daytoy a panid',
+	'wikieditor-template-editor-dialog-title' => 'Baliwan ti templeta',
+	'wikieditor-toc-show' => 'Ipakita ti linaon',
+	'wikieditor-toc-hide' => 'Ilemmeng ti linaon',
+	'wikieditor-toolbar-tool-redirect' => 'Baw-ing',
 );
 
 /** Ingush (ГІалгІай Ğalğaj)
@@ -17289,7 +17308,7 @@ $messages['or'] = array(
 	'wikieditor-toolbar-desc' => 'ଅଧିକ ବ୍ୟବହାର ସୁବିଧା ସହ ପୃଷ୍ଠା ସମ୍ପାଦନା ଉପକରଣ ପଟିକା',
 	'wikieditor-toolbar-preference' => 'ଉନ୍ନତ ସମ୍ପାଦନା ଉପକରଣ ପେଡ଼ିକୁ ସଚଳ କରିବେ',
 	'wikieditor-toolbar-dialogs-preference' => 'ଲିଙ୍କ, ସାରଣୀ ଓ ଅଧିକ ସୁବିଧା ସବୁ ଯୋଡ଼ିବା ନିମନ୍ତେ ଆଦେଶ ସଚଳ କରାଇବେ',
-	'wikieditor-toolbar-hidesig' => 'ମୂଳ ନେମସ୍ପେସରେ ପୃଷ୍ଠାମାନଙ୍କରୁ ଦସ୍ତଖତ କରିବା ସୁବିଧାଟିକୁ ଲୁଚାଇଦେବେ',
+	'wikieditor-toolbar-hidesig' => 'ମୂଳ ନେମସ୍ପେସରେ ପୃଷ୍ଠାମାନଙ୍କରୁ  ସନ୍ତକ ଦେବା ସୁବିଧାଟିକୁ ଲୁଚାଇଦେବେ',
 	'wikieditor-toolbar-loading' => 'ଖୋଲୁଅଛି...',
 	'wikieditor-toolbar-tool-bold' => 'ମୋଟା ଅକ୍ଷର',
 	'wikieditor-toolbar-tool-bold-example' => 'ମୋଟା ଲେଖା',
@@ -17330,7 +17349,7 @@ $messages['or'] = array(
 	'wikieditor-toolbar-tool-reference-title' => 'ଆଧାର ଦେବେ',
 	'wikieditor-toolbar-tool-reference-insert' => 'ଭରିବେ',
 	'wikieditor-toolbar-tool-reference-text' => 'ଆଧାର ଲେଖା',
-	'wikieditor-toolbar-tool-signature' => 'ଦସ୍ତଖତ ଓ ସମୟଚିହ୍ନ',
+	'wikieditor-toolbar-tool-signature' => 'ସନ୍ତକ ଓ ସମୟଚିହ୍ନ',
 	'wikieditor-toolbar-section-advanced' => 'ଉନ୍ନତ',
 	'wikieditor-toolbar-tool-heading' => 'ଶିରୋନାମା',
 	'wikieditor-toolbar-tool-heading-1' => 'ସ୍ତର ୧',
@@ -17477,9 +17496,9 @@ $1:ଉଦାହରଣ.jpg|ଶିରୋନାମା୨',
 	'wikieditor-toolbar-help-content-rereference-result' => "ପୃଷ୍ଠା ଲେଖା ।<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-showreferences-description' => 'ଦେଖଣା ଆଧାରସମୂହ',
 	'wikieditor-toolbar-help-content-showreferences-result' => "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Link text</a>, ଅଧିକ ବିବରଣୀ ।</li></ol>",
-	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'ଦସ୍ତଖତ ସହିତ ସମୟଚିହ୍ନ',
+	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'ସନ୍ତକ ସହିତ ସମୟଚିହ୍ନ',
 	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>ଇଉଜର ନାମ</a> (<a href='#' title='{{#special:mytalk}}'>ଆଲୋଚନା</a>) 15:54, 10 June 2009 (UTC)",
-	'wikieditor-toolbar-help-content-signature-description' => 'ଦସ୍ତଖତ',
+	'wikieditor-toolbar-help-content-signature-description' => 'ସନ୍ତକ',
 	'wikieditor-toolbar-help-content-signature-result' => "<a href='#' title='{{#special:mypage}}'>ଇଉଜର ନାମ</a> (<a href='#' title='{{#special:mytalk}}'>ଆଲୋଚନା</a>)",
 	'wikieditor-toolbar-help-content-indent-description' => 'ଅନୁଚ୍ଛେଦ ଛାଡ଼',
 	'wikieditor-toolbar-help-content-indent-syntax' => 'ସାଧାରଣ ଲେଖା<br />:ମାର୍ଜିନ ଦିଆ ଲେଖା<br />::ମାର୍ଜିନ ଦିଆ ଲେଖା',
@@ -23954,6 +23973,7 @@ $messages['tpi'] = array(
 );
 
 /** Turkish (Türkçe)
+ * @author Emperyan
  * @author Joseph
  * @author Koc61
  * @author Manco Capac
@@ -24116,6 +24136,7 @@ $1:Örnek.jpg|Resimyazısı2',
 	'wikieditor-toolbar-characters-page-greek' => 'Yunan',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'Kiril',
 	'wikieditor-toolbar-characters-page-arabic' => 'Arapça',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'Genişletilmiş Arapça',
 	'wikieditor-toolbar-characters-page-persian' => 'Farsça',
 	'wikieditor-toolbar-characters-page-hebrew' => 'İbranice',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bengalce',
