@@ -249,7 +249,7 @@ if ( !context || typeof context == 'undefined' ) {
 		'extensions': []
 	};
 
-	/*
+	/**
 	 * Externally Accessible API
 	 *
 	 * These are available using calls to $(selection).wikiEditor( call, data ) where selection is a jQuery selection
@@ -296,7 +296,7 @@ if ( !context || typeof context == 'undefined' ) {
 		}
 	};
 
-	/*
+	/**
 	 * Event Handlers
 	 *
 	 * These act as filters returning false if the event should be ignored or returning true if it should be passed
@@ -461,7 +461,7 @@ if ( !context || typeof context == 'undefined' ) {
 		}
 	};
 
-	/*
+	/**
 	 * Base UI Construction
 	 *
 	 * The UI is built from several containers, the outer-most being a div classed as "wikiEditor-ui". These containers

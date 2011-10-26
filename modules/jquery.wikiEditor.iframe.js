@@ -829,7 +829,7 @@ context.fn = $.extend( context.fn, {
 		};
 	},
 
-	/*
+	/**
 	 * Compatibility with the $.textSelection jQuery plug-in. When the iframe is in use, these functions provide
 	 * equivilant functionality to the otherwise textarea-based functionality.
 	 */
