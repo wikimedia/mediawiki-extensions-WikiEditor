@@ -5837,7 +5837,6 @@ $1:Beispiel.jpg|Beschreibung2',
  */
 $messages['de-formal'] = array(
 	'wikieditor-publish-dialog-summary' => 'Zusammenfassung (kurze Beschreibung der von Ihnen vorgenommenen Änderungen):',
-	'wikieditor-toolbar-tool-link-int-invalid' => 'Der von Ihnen angegebene Titel ist ungültig.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'Die angegebene URL sieht so aus, als ob sie auf eine andere Wikiseite verlinken würde.
 Möchten Sie daraus einen internen Link machen?',
 	'wikieditor-toolbar-tool-link-empty' => 'Sie haben nichts zum Verlinken angegeben.',
