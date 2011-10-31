@@ -295,7 +295,7 @@ $wgResourceModules += array(
 			'wikieditor-toolbar-tool-replace-case',
 			'wikieditor-toolbar-tool-replace-regex',
 			'wikieditor-toolbar-tool-replace-button-findnext',
-			'wikieditor-toolbar-tool-replace-button-replacenext',
+			'wikieditor-toolbar-tool-replace-button-replace',
 			'wikieditor-toolbar-tool-replace-button-replaceall',
 			'wikieditor-toolbar-tool-replace-close',
 			'wikieditor-toolbar-tool-replace-nomatch',

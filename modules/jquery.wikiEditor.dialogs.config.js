@@ -1132,7 +1132,7 @@ getDefaultConfig: function () {
 						$(this).closest( '.ui-dialog' ).data( 'dialogaction', e.target );
 						$(this).data( 'replaceCallback' ).call( this, 'find' );
 					},
-					'wikieditor-toolbar-tool-replace-button-replacenext': function( e ) {
+					'wikieditor-toolbar-tool-replace-button-replace': function( e ) {
 						$(this).closest( '.ui-dialog' ).data( 'dialogaction', e.target );
 						$(this).data( 'replaceCallback' ).call( this, 'replace' );
 					},
