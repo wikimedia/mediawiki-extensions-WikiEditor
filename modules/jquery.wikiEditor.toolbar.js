@@ -602,7 +602,7 @@ fn: {
 					var $previousSections = $section.parent().find( '.section-visible' );
 					$previousSections.css( 'position', 'absolute' );
 					$previousSections.removeClass( 'section-visible' );
-					$previousSections.fadeOut( 'fast', function() { $(this).css( 'position', 'relative' ); } );
+					$previousSections.fadeOut( 'fast', function() { $(this).css( 'position', 'static' ); } );
 					$(this).parent().parent().find( 'a' ).removeClass( 'current' );
 					$sections.css( 'overflow', 'hidden' );
 					var animate = function( $that ) {
