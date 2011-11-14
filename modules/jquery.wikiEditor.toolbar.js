@@ -534,7 +534,7 @@ fn: {
 		for ( var i = 0; i< headings.length; i++ ) {
 			html += '<th>' + $.wikiEditor.autoMsg( headings[i], ['html', 'text'] ) + '</th>';
 		}
-		return html;
+		return html + '</tr>';
 	},
 	buildRow : function( context, row ) {
 		var html = '<tr>';
@@ -542,8 +542,7 @@ fn: {
 			html += '<td class="cell cell-' + cell + '" valign="top"><span>' +
 				$.wikiEditor.autoMsg( row[cell], ['html', 'text'] ) + '</span></td>';
 		}
-		html += '</tr>';
-		return html;
+		return html + '</tr>';
 	},
 	buildCharacter : function( character, actions ) {
 		if ( typeof character == 'string' ) {
