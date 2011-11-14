@@ -749,7 +749,7 @@ getDefaultConfig: function() {
 						"\u06D4", "\u06FD", "\u06FE",
 						// special digits
 						"\u06F0", "\u06F1", "\u06F2", "\u06F3", "\u06F4", "\u06F5", "\u06F6", "\u06F7",
-						"\u06F8", "\u06F9",
+						"\u06F8", "\u06F9"
 					]
 				},
 				'hebrew': {
