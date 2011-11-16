@@ -18490,6 +18490,7 @@ $messages['ps'] = array(
  * @author Giro720
  * @author Hamilton Abreu
  * @author Helder.wiki
+ * @author João Sousa
  * @author Luckas Blade
  * @author Malafaya
  * @author MetalBrasil
@@ -18635,7 +18636,7 @@ $1:Exemplo2.jpg|Legenda2',
 	'wikieditor-toolbar-tool-replace-case' => 'Distinguir maiúsculas de minúsculas',
 	'wikieditor-toolbar-tool-replace-regex' => 'Tratar texto de busca como uma expressão regular',
 	'wikieditor-toolbar-tool-replace-button-findnext' => 'Procurar próximo',
-	'wikieditor-toolbar-tool-replace-button-replacenext' => 'Substituir próximo',
+	'wikieditor-toolbar-tool-replace-button-replace' => 'Substituir',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Substituir todos',
 	'wikieditor-toolbar-tool-replace-close' => 'Fechar',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'A sua pesquisa não produziu resultados.',
@@ -22379,6 +22380,7 @@ $1:Conto.jpg|Pedaran2',
  * @author Hannibal
  * @author McDutchie
  * @author Sertion
+ * @author Warrakkk
  */
 $messages['sv'] = array(
 	'wikieditor' => 'Avancerat gränssnitt för redigering av wikitext',
@@ -22521,7 +22523,7 @@ $1:Exempel.jpg|Bildtext2',
 	'wikieditor-toolbar-tool-replace-case' => 'Skilj mellan små/stora bokstäver',
 	'wikieditor-toolbar-tool-replace-regex' => 'Behandla söksträngen som ett reguljärt uttryck',
 	'wikieditor-toolbar-tool-replace-button-findnext' => 'Hitta nästa',
-	'wikieditor-toolbar-tool-replace-button-replacenext' => 'Ersätt nästa',
+	'wikieditor-toolbar-tool-replace-button-replace' => 'Ersätt',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Ersätt alla',
 	'wikieditor-toolbar-tool-replace-close' => 'Stäng',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'Sökningen gav inget resultat.',
