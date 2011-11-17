@@ -10205,6 +10205,7 @@ $1:Example.jpg|Popis2',
 /** Hungarian (Magyar)
  * @author Bdamokos
  * @author Dani
+ * @author Dj
  * @author Glanthor Reviol
  * @author Hunyadym
  * @author McDutchie
@@ -10352,7 +10353,7 @@ $1:Példa.jpg|képaláírás2',
 	'wikieditor-toolbar-tool-replace-case' => 'Kis- és nagybetű-érzékenység',
 	'wikieditor-toolbar-tool-replace-regex' => 'A beírt szöveg egy reguláris kifejezés',
 	'wikieditor-toolbar-tool-replace-button-findnext' => 'Következő keresése',
-	'wikieditor-toolbar-tool-replace-button-replacenext' => 'Következő cseréje',
+	'wikieditor-toolbar-tool-replace-button-replace' => 'Csere',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Összes cseréje',
 	'wikieditor-toolbar-tool-replace-close' => 'Bezárás',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'Nincs egyetlen találat sem.',
@@ -10367,6 +10368,7 @@ $1:Példa.jpg|képaláírás2',
 	'wikieditor-toolbar-characters-page-greek' => 'Görög',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'Cirill',
 	'wikieditor-toolbar-characters-page-arabic' => 'Arab',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'Arab (bővített)',
 	'wikieditor-toolbar-characters-page-persian' => 'Perzsa',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Héber',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bengáli',
