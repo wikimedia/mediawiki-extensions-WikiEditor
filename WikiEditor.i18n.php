@@ -279,7 +279,7 @@ http://www.mediawiki.org/wiki/Extension:WikiEditor',
 
 I guess that 'feature-providing modules' means the same as 'modules providing features'.",
 	'wikieditor-wikitext-tab' => 'Caption of the tab containing the edit box',
-	'wikieditor-loading' => "Explanatory text for the temporary cover placed over the wikiediort while it's being assembled
+	'wikieditor-loading' => "Explanatory text for the temporary cover placed over the wikieditor while it's being assembled.
 {{Identical|Loading}}",
 	'wikieditor-preview-preference' => "Option in [[Special:Preferences]], tab ''{{int:prefs-editing}}''",
 	'wikieditor-preview-tab' => 'Caption of the tab containing the preview
@@ -16344,7 +16344,7 @@ $messages['nl'] = array(
 	'wikieditor' => 'Uitgebreide tekstverwerker voor wikitekst',
 	'wikieditor-desc' => 'Voegt een uitbreidbare tekstverwerker voor wikitekst toe en modules met extra mogelijkheden',
 	'wikieditor-wikitext-tab' => 'Wikitekst',
-	'wikieditor-loading' => 'Bezig met laden',
+	'wikieditor-loading' => 'Bezig met laden...',
 	'wikieditor-preview-preference' => 'Bewerken en voorvertoning naast elkaar',
 	'wikieditor-preview-tab' => 'Voorvertoning',
 	'wikieditor-preview-changes-tab' => 'Wijzigingen',
