@@ -16,7 +16,7 @@ $messages['en'] = array(
 	'wikieditor' => 'Advanced wikitext editing interface',
 	'wikieditor-desc' => 'Provides an extendable wikitext editing interface and many feature-providing modules',
 	'wikieditor-wikitext-tab' => 'Wikitext',
-	'wikieditor-loading' => 'Loading',
+	'wikieditor-loading' => 'Loading...',
 	/* Preview */
 	'wikieditor-preview-preference' => 'Enable side-by-side preview',
 	'wikieditor-preview-tab' => 'Preview',
