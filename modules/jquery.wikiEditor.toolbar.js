@@ -438,13 +438,13 @@ fn: {
 		}
 	},
 	buildBookmark : function( context, id, page ) {
-		var label = $.wikiEditor.autoMsg( page,
-		'label' );
+		var label = $.wikiEditor.autoMsg( page, 'label' );
 		return $( '<div/>' )
 			.text( label )
 			.attr( 'rel', id )
 			.data( 'context', context )
 			.mousedown( function( e ) {
+				context.fn.saveCursorAndScrollTop();
 				// No dragging!
 				e.preventDefault();
 				return false;
@@ -464,6 +464,7 @@ fn: {
 				if ( $.trackAction !== undefined){
 					$.trackAction(section + '.' + $(this).attr('rel'));
 				}
+				context.fn.restoreCursorAndScrollTop();
 				// No dragging!
 				event.preventDefault();
 				return false;
@@ -488,7 +489,7 @@ fn: {
 						html += $.wikiEditor.modules.toolbar.fn.buildRow( context, page.rows[i] );
 					}
 				}
-				$page.html( html );
+				$page.html( html + '</table>');
 				break;
 			case 'characters':
 				$page.addClass( 'page-characters' );
