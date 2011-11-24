@@ -270,6 +270,7 @@ $1:Example.jpg|Caption2",
  * @author Prima klasy4na
  * @author Raymond
  * @author Siebrand
+ * @author Umherirrender
  * @author Yekrats
  */
 $messages['qqq'] = array(
@@ -381,7 +382,8 @@ For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Too
 
 [[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.',
 	'wikieditor-toolbar-tool-table-cancel' => '{{Identical|Cancel}}',
-	'wikieditor-toolbar-tool-table-example-text' => 'Placeholder text to help the table example appear to be in the context of an article. Should be lorem ipsum, or equivalent.',
+	'wikieditor-toolbar-tool-table-example-text' => '{{optional}}
+Placeholder text to help the table example appear to be in the context of an article. Should be lorem ipsum, or equivalent.',
 	'wikieditor-toolbar-tool-table-toomany' => '[[file:Bulbgraph.png|left|22px]]
 This message does not support PLURAL on $1.',
 	'wikieditor-toolbar-tool-replace' => '{{Identical|Search and replace}}',
@@ -1239,7 +1241,7 @@ $messages['ar'] = array(
 	'wikieditor-previewDialog-preference' => 'مكّن حوار المعاينة',
 	'wikieditor-previewDialog-tab' => 'عاين',
 	'wikieditor-previewDialog-loading' => 'يُحمّل...',
-	'wikieditor-publish-preference' => 'فعل النشر خطوة بخطوة',
+	'wikieditor-publish-preference' => 'فعّل النشر خطوة بخطوة',
 	'wikieditor-publish-button-publish' => 'انشر',
 	'wikieditor-publish-button-cancel' => 'ألغِ',
 	'wikieditor-publish-dialog-title' => 'انشر في {{SITENAME}}',
@@ -7376,7 +7378,7 @@ $1:Adibidea.jpg|Oina2',
 	'wikieditor-toolbar-tool-table-zero' => 'Ezin duzu 0 errenkada edo zutabe duen taularik txertatu.',
 	'wikieditor-toolbar-tool-replace' => 'Bilatu eta ordezkatu',
 	'wikieditor-toolbar-tool-replace-title' => 'Bilatu eta aldatu',
-	'wikieditor-toolbar-tool-replace-search' => 'Honakoa bilatu:',
+	'wikieditor-toolbar-tool-replace-search' => 'Bilatu hau:',
 	'wikieditor-toolbar-tool-replace-replace' => 'Honegatik aldatu:',
 	'wikieditor-toolbar-tool-replace-case' => 'Bilaketa zehatza',
 	'wikieditor-toolbar-tool-replace-regex' => 'Bilaketa hitzak espresio erregular gisa tratatu',
