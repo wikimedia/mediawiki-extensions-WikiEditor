@@ -9705,6 +9705,27 @@ $1:דוגמה.jpg|כותרת 2',
 	'wikieditor-toolbar-help-content-indent-result' => 'טקסט רגיל<dl><dd>טקסט מוזח<dl><dd>טקסט מוזח</dd></dl></dd></dl>',
 );
 
+/** Hindi (हिन्दी)
+ * @author Pooja.srivastava
+ */
+$messages['hi'] = array(
+	'wikieditor' => 'उन्नत विकितेक्ष्त् संपादन इन्तेर्फचे',
+	'wikieditor-desc' => 'प्रदान करता है एक विकितेक्ष्त् एदितिङ् इन्तेर्फचे और् बहुत् सुविधा प्रदान कर्ता है मॉड्यूल',
+	'wikieditor-wikitext-tab' => 'व्विकितेक्ष्त्',
+	'wikieditor-loading' => 'लदान',
+	'wikieditor-preview-preference' => 'सक्षम पक्ष ध्वारा पक्ष पूर्वावलोकन',
+	'wikieditor-preview-tab' => 'पूर्वावलोकन',
+	'wikieditor-preview-changes-tab' => 'बद्लाप्न्',
+	'wikieditor-preview-loading' => 'लदान्',
+	'wikieditor-previewDialog-preference' => 'सक्श्म्',
+	'wikieditor-previewDialog-tab' => 'पूर्वावलोकन',
+	'wikieditor-previewDialog-loading' => 'लदान्',
+	'wikieditor-publish-preference' => 'सक्श्म्',
+	'wikieditor-publish-button-publish' => 'प्प्रकाशित करना',
+	'wikieditor-publish-button-cancel' => 'रद्द् किया जाय',
+	'wikieditor-publish-dialog-title' => '{{SITENAME}} को छापा जाय',
+);
+
 /** Fiji Hindi (Latin script) (Fiji Hindi) */
 $messages['hif-latn'] = array(
 	'wikieditor-toolbar-tool-bold' => 'Mota',
@@ -12545,6 +12566,7 @@ $1:Example.jpg|설명2',
 	'wikieditor-toolbar-tool-replace-case' => '대소문자를 구별',
 	'wikieditor-toolbar-tool-replace-regex' => '찾을 문자열에 정규 표현식을 적용',
 	'wikieditor-toolbar-tool-replace-button-findnext' => '다음 찾기',
+	'wikieditor-toolbar-tool-replace-button-replace' => '바꾸기',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => '모두 바꾸기',
 	'wikieditor-toolbar-tool-replace-close' => '닫기',
 	'wikieditor-toolbar-tool-replace-nomatch' => '일치하는 문자열을 찾지 못했습니다.',
