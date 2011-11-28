@@ -11665,6 +11665,7 @@ $1:Esempio.jpg|Didascalia2',
  * @author Hosiryuhosi
  * @author Ohgi
  * @author Schu
+ * @author Whym
  * @author 青子守歌
  */
 $messages['ja'] = array(
@@ -11809,6 +11810,7 @@ $1:Example.jpg|キャプション2',
 	'wikieditor-toolbar-tool-replace-case' => '大文字・小文字を区別する',
 	'wikieditor-toolbar-tool-replace-regex' => '正規表現で検索する',
 	'wikieditor-toolbar-tool-replace-button-findnext' => '次を検索',
+	'wikieditor-toolbar-tool-replace-button-replace' => '差し替える',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'すべて置換',
 	'wikieditor-toolbar-tool-replace-close' => '閉じる',
 	'wikieditor-toolbar-tool-replace-nomatch' => '検索文字列に一致するものはありませんでした。',
