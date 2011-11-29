@@ -7475,6 +7475,7 @@ $1:Adibidea.jpg|Oina2',
  * @author Ladsgroup
  * @author Mjbmr
  * @author Wayiran
+ * @author ZxxZxxZ
  */
 $messages['fa'] = array(
 	'wikieditor' => 'رابط ویرایش پیشرفته ویکی‌متن',
@@ -7617,6 +7618,7 @@ $1:مثال.jpg|عنوان ۲',
 	'wikieditor-toolbar-tool-replace-case' => 'تطبیق بزرگی و کوچکی حروف',
 	'wikieditor-toolbar-tool-replace-regex' => 'به‌کارگیری عبارت جستجو به عنوان یک عبارت باقاعده',
 	'wikieditor-toolbar-tool-replace-button-findnext' => 'یافتن بعدی',
+	'wikieditor-toolbar-tool-replace-button-replace' => 'جایگزینی',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'جایگزین کردن همه موارد',
 	'wikieditor-toolbar-tool-replace-close' => 'بستن',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'جستجوی شما با هیچ موردی مطابقت نداشت.',
