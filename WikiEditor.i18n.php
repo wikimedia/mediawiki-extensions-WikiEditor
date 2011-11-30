@@ -10585,9 +10585,10 @@ $1:Example.jpg|Նկարագրություն2',
 	'wikieditor-toolbar-characters-page-latinextended' => 'Լատիներեն ընդլայնված',
 	'wikieditor-toolbar-characters-page-ipa' => 'IPA',
 	'wikieditor-toolbar-characters-page-symbols' => 'Սիմվոլներ',
-	'wikieditor-toolbar-characters-page-greek' => 'Հուներեն',
+	'wikieditor-toolbar-characters-page-greek' => 'Հունարեն',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'Կիրիլիցա',
 	'wikieditor-toolbar-characters-page-arabic' => 'Արաբերեն',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'Արաբերեն ընդլայնված',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Եբրայերեն',
 	'wikieditor-toolbar-characters-page-bangla' => 'Բենգալերեն',
 	'wikieditor-toolbar-characters-page-telugu' => 'Տելուգու',
@@ -15433,12 +15434,12 @@ $messages['ms'] = array(
 	'wikieditor-desc' => 'Menyediakan halaman wikitext suntingan dan ciri modul lain',
 	'wikieditor-wikitext-tab' => 'Wikiteks',
 	'wikieditor-loading' => 'Editor sedang dimuatkan',
-	'wikieditor-preview-preference' => 'Aktifkan pratonton sisi',
-	'wikieditor-preview-tab' => 'Pratonton',
+	'wikieditor-preview-preference' => 'Aktifkan pralihat perbandingan',
+	'wikieditor-preview-tab' => 'Pralihat',
 	'wikieditor-preview-changes-tab' => 'Perubahan',
 	'wikieditor-preview-loading' => 'Memuatkan...',
-	'wikieditor-previewDialog-preference' => 'Aktifkan dialog pratonton',
-	'wikieditor-previewDialog-tab' => 'Pratonton',
+	'wikieditor-previewDialog-preference' => 'Aktifkan dialog pralihat',
+	'wikieditor-previewDialog-tab' => 'Pralihat',
 	'wikieditor-previewDialog-loading' => 'Memuatkan...',
 	'wikieditor-publish-preference' => 'Aktifkan tutorial penerbitan',
 	'wikieditor-publish-button-publish' => 'Terbitkan',
@@ -20823,6 +20824,7 @@ $messages['sco'] = array(
  * @author Singhalawap
  * @author චතුනි අලහප්පෙරුම
  * @author තඹරු විජේසේකර
+ * @author පසිඳු කාවින්ද
  * @author බිඟුවා
  */
 $messages['si'] = array(
@@ -20965,6 +20967,7 @@ $1:උදාහරණ.jpg| 2 යටි ලියමන',
 	'wikieditor-toolbar-tool-replace-case' => 'අවස්ථාව ගළපන්න',
 	'wikieditor-toolbar-tool-replace-regex' => 'සොයන පදය නියත ප්‍රකාශනයක් ලෙස සලකන්න',
 	'wikieditor-toolbar-tool-replace-button-findnext' => 'මීළඟ එක සොයන්න',
+	'wikieditor-toolbar-tool-replace-button-replace' => 'ප්‍රතිස්ථාපනය',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'සියල්ලම ප්‍රතිස්ථාපනය කරන්න',
 	'wikieditor-toolbar-tool-replace-close' => 'වසන්න',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'ඔබේ සෙවීම කිසිදු පදයක් හා නොගැළපේ.',
