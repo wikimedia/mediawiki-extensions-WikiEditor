@@ -15188,6 +15188,7 @@ $messages['mn'] = array(
  * @author Htt
  * @author Mahitgar
  * @author McDutchie
+ * @author Rahuldeshmukh101
  * @author V.narsikar
  * @author अभय नातू
  */
@@ -15333,6 +15334,7 @@ $1:Example.jpg|चित्रपरिचय २',
 	'wikieditor-toolbar-tool-replace-case' => '’केस’जुळवा',
 	'wikieditor-toolbar-tool-replace-regex' => 'शोध सूत्रास(स्ट्रिंग) नियमीत पदावली(एक्सप्रेशन) प्रमाणे गृहीत धरा.',
 	'wikieditor-toolbar-tool-replace-button-findnext' => 'पुढील शोधा:',
+	'wikieditor-toolbar-tool-replace-button-replace' => 'पुनर्स्थापित करा',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'सर्व बदली करा.',
 	'wikieditor-toolbar-tool-replace-close' => 'बंद करा.',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'आपला शोध कशाशीच जुळत नाही.',
@@ -17286,11 +17288,11 @@ $messages['or'] = array(
 	'wikieditor-wikitext-tab' => 'ଉଇକିଲେଖା',
 	'wikieditor-loading' => 'ଖୋଜୁଅଛି',
 	'wikieditor-preview-preference' => 'ପାଖାପାଖି ଦେଖଣା ସଚଳ କରାଇବେ',
-	'wikieditor-preview-tab' => 'ଦେଖଣା',
+	'wikieditor-preview-tab' => 'ସାଇତା ଆଗରୁ ଦେଖଣା',
 	'wikieditor-preview-changes-tab' => 'ବଦଳସବୁ',
 	'wikieditor-preview-loading' => 'ଖୋଲୁଅଛି...',
 	'wikieditor-previewDialog-preference' => 'ଦେଖଣା ଘରଟି ଖୋଲୁଅଛି',
-	'wikieditor-previewDialog-tab' => 'ଦେଖଣା',
+	'wikieditor-previewDialog-tab' => 'ସାଇତା ଆଗରୁ ଦେଖଣା',
 	'wikieditor-previewDialog-loading' => 'ଖୋଲୁଅଛି...',
 	'wikieditor-publish-preference' => 'ସ୍ତର ପରେ ସ୍ତର ପ୍ରକାଶନ',
 	'wikieditor-publish-button-publish' => 'ପ୍ରକାଶ କରିବେ',
@@ -17409,7 +17411,7 @@ $1:ଉଦାହରଣ.jpg|ଶିରୋନାମା୨',
 	'wikieditor-toolbar-tool-table-wikitable' => 'ସୀମା ସହିତ ସଜାଣି',
 	'wikieditor-toolbar-tool-table-sortable' => 'ଶ୍ରେଣୀ ଅନୁସାରେ ସାରଣି ତିଆରି କରିବେ',
 	'wikieditor-toolbar-tool-table-example' => 'ଉଦାହରଣ',
-	'wikieditor-toolbar-tool-table-preview' => 'ଦେଖଣା',
+	'wikieditor-toolbar-tool-table-preview' => 'ସାଇତା ଆଗରୁ ଦେଖଣା',
 	'wikieditor-toolbar-tool-table-insert' => 'ଭରିବେ',
 	'wikieditor-toolbar-tool-table-cancel' => 'ନାକଚ',
 	'wikieditor-toolbar-tool-table-toomany' => 'ଏହି ଆଦେଶରେ $1 ରୁ ଅଧିକ କୋଷ ଥିବା ସାରଣୀ ପୁରାଇବା ସମ୍ଭବପର ନୁହେଁ ।',
@@ -21780,7 +21782,7 @@ $messages['sr-ec'] = array(
 	'wikieditor-template-editor-dialog-cancel' => 'Откажи',
 	'wikieditor-templates-preference' => 'Омогућава размотавање шаблона',
 	'wikieditor-toc-preference' => 'Омогући навигациону табелу садржаја',
-	'wikieditor-toc-show' => 'Покажи садржај',
+	'wikieditor-toc-show' => 'Прикажи садржај',
 	'wikieditor-toc-hide' => 'Сакриј садржај',
 	'wikieditor-toolbar' => 'Алатна трака за уређивање',
 	'wikieditor-toolbar-preference' => 'Омогући побољшану траку за уређивање',
