@@ -53,7 +53,7 @@ $wgExtensionCredits['other'][] = array(
 	'name' => 'WikiEditor',
 	'author' => array( 'Trevor Parscal', 'Roan Kattouw', 'Nimish Gautam', 'Adam Miller' ),
 	'version' => '0.3.1',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:WikiEditor',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:WikiEditor',
 	'descriptionmsg' => 'wikieditor-desc',
 );
 $wgAutoloadClasses['WikiEditorHooks'] = dirname( __FILE__ ) . '/WikiEditor.hooks.php';
