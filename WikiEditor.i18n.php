@@ -16796,7 +16796,7 @@ $1:Døme.jpg|Bilettekst2',
  * @author Laaknor
  * @author Nghtwlkr
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'wikieditor' => 'Avansert grensesnitt for redigering av wikitekst',
 	'wikieditor-desc' => 'Gir et utvidbart tekstredigeringsgrensesnitt og mange utvidelsesmoduler',
 	'wikieditor-wikitext-tab' => 'Wikitekst',
