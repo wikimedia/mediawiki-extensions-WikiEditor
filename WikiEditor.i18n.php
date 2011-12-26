@@ -9716,6 +9716,7 @@ $1:דוגמה.jpg|כותרת 2',
 );
 
 /** Hindi (हिन्दी)
+ * @author Ansumang
  * @author Pooja.srivastava
  */
 $messages['hi'] = array(
@@ -9734,6 +9735,32 @@ $messages['hi'] = array(
 	'wikieditor-publish-button-publish' => 'प्प्रकाशित करना',
 	'wikieditor-publish-button-cancel' => 'रद्द् किया जाय',
 	'wikieditor-publish-dialog-title' => '{{SITENAME}} को छापा जाय',
+	'wikieditor-toolbar-tool-link' => 'लिंक',
+	'wikieditor-toolbar-tool-link-insert' => 'लिंक सम्मिलित करें',
+	'wikieditor-toolbar-tool-link-cancel' => 'रद्द करें',
+	'wikieditor-toolbar-tool-link-int-target-status-exists' => 'पृष्ठ मौजूद है',
+	'wikieditor-toolbar-tool-link-int-target-status-notexists' => 'पृष्ठ मौजूद नहीं है',
+	'wikieditor-toolbar-tool-link-int-target-status-external' => 'बाहरी कड़ियाँ',
+	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => 'आंतरिक लिंक',
+	'wikieditor-toolbar-tool-link-lookslikeinternal-ext' => 'बाहरी कड़ियाँ',
+	'wikieditor-toolbar-tool-file-example' => 'उदाहरण.jpg',
+	'wikieditor-toolbar-tool-reference' => 'संदर्भ',
+	'wikieditor-toolbar-section-advanced' => 'उन्नत',
+	'wikieditor-toolbar-tool-heading' => 'शीर्षक',
+	'wikieditor-toolbar-tool-heading-1' => 'स्तर १',
+	'wikieditor-toolbar-tool-heading-2' => 'स्तर २',
+	'wikieditor-toolbar-tool-heading-3' => 'स्तर ३',
+	'wikieditor-toolbar-tool-heading-4' => 'स्तर ४',
+	'wikieditor-toolbar-tool-heading-5' => 'स्तर ५',
+	'wikieditor-toolbar-group-format' => 'स्वरूप',
+	'wikieditor-toolbar-tool-redirect' => 'पुनर्निर्देशन',
+	'wikieditor-toolbar-tool-big' => 'बड़ा',
+	'wikieditor-toolbar-tool-small' => 'छोटा',
+	'wikieditor-toolbar-characters-page-bangla' => 'बांग्ला',
+	'wikieditor-toolbar-characters-page-gujarati' => 'गुजराती',
+	'wikieditor-toolbar-characters-page-thai' => 'थाई',
+	'wikieditor-toolbar-section-help' => 'सहायता',
+	'wikieditor-toolbar-help-heading-description' => 'वर्णन',
 );
 
 /** Fiji Hindi (Latin script) (Fiji Hindi) */
@@ -19575,6 +19602,7 @@ $1:Example.jpg|Titele2',
 	'wikieditor-toolbar-tool-replace-case' => 'Combronde maiuscole e minuscole',
 	'wikieditor-toolbar-tool-replace-regex' => "Tratte 'a stringhe de ricerche cumme a 'n'espressione regolare",
 	'wikieditor-toolbar-tool-replace-button-findnext' => "Cirche 'u prosseme",
+	'wikieditor-toolbar-tool-replace-button-replace' => 'Sostituisce',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Sostituisce tutte',
 	'wikieditor-toolbar-tool-replace-close' => 'Chiude',
 	'wikieditor-toolbar-tool-replace-nomatch' => "'A ricerca toje non g'à acchiate ninde.",
@@ -20584,6 +20612,7 @@ $1:Esèmpiu.jpg|Didascalia2',
 );
 
 /** Sicilian (Sicilianu)
+ * @author Aushulz
  * @author Gmelfi
  */
 $messages['scn'] = array(
@@ -20739,6 +20768,7 @@ $1:Example.jpg|Didascalia2',
 	'wikieditor-toolbar-tool-replace-case' => 'Maiùsculi/minùsculi',
 	'wikieditor-toolbar-tool-replace-regex' => "Tratta la stringa comu n'esprissioni rigulari",
 	'wikieditor-toolbar-tool-replace-button-findnext' => "Trova l'àutri",
+	'wikieditor-toolbar-tool-replace-button-replace' => 'Scancia',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Sustituisci tutticosi',
 	'wikieditor-toolbar-tool-replace-close' => 'Chiudi',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'La tò ricerca nun prudicìu risurtati',
