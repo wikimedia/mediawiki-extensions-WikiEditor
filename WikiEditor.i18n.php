@@ -18902,6 +18902,7 @@ $1:Exemplo2.jpg|Legenda2',
  * @author Lijealso
  * @author Luckas Blade
  * @author MetalBrasil
+ * @author Rafael Vargas
  */
 $messages['pt-br'] = array(
 	'wikieditor' => 'Interface avançada de edição de wikitexto',
@@ -19044,6 +19045,7 @@ $1:Exemplo.jpg|Legenda2',
 	'wikieditor-toolbar-tool-replace-case' => 'Coincidir maiúsculas e minúsculas',
 	'wikieditor-toolbar-tool-replace-regex' => 'Tratar texto da pesquisa como uma expressão regular',
 	'wikieditor-toolbar-tool-replace-button-findnext' => 'Procurar próximo',
+	'wikieditor-toolbar-tool-replace-button-replace' => 'Substituir',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Substituir todos',
 	'wikieditor-toolbar-tool-replace-close' => 'Fechar',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'Não houve coincidências para a sua pesquisa.',
@@ -21166,6 +21168,7 @@ $1:උදාහරණ.jpg| 2 යටි ලියමන',
 	'wikieditor-toolbar-characters-page-greek' => 'ග්‍රීක අක්ෂර',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'සිරිලික් අක්ෂර',
 	'wikieditor-toolbar-characters-page-arabic' => 'අරාබි අක්ෂර',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'අරාබි දීර්ඝ කල',
 	'wikieditor-toolbar-characters-page-persian' => 'පර්සියානු',
 	'wikieditor-toolbar-characters-page-hebrew' => 'හෙබ්‍රෙව් අක්ෂර',
 	'wikieditor-toolbar-characters-page-bangla' => 'බංග්ලා',
