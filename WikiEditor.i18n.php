@@ -12335,6 +12335,7 @@ $messages['jv'] = array(
  * @author BRUTE
  * @author David1010
  * @author Dawid Deutschland
+ * @author ITshnik
  * @author გიორგიმელა
  */
 $messages['ka'] = array(
@@ -12477,6 +12478,7 @@ $1:Example.jpg|აღწერა2',
 	'wikieditor-toolbar-tool-replace-case' => 'რეგისტრის გათვალისწინება',
 	'wikieditor-toolbar-tool-replace-regex' => 'ჩათვალეთ ძიების ხაზი რეგულარულ გამოსახულებად',
 	'wikieditor-toolbar-tool-replace-button-findnext' => 'შემდეგის მოძიება',
+	'wikieditor-toolbar-tool-replace-button-replace' => 'ჩანაცვლება',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'შეცვალეთ ყველაფერი',
 	'wikieditor-toolbar-tool-replace-close' => 'დახურვა',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'თქვენი მოთხოვნის შესაბამისი არაფერია ნაპოვნი',
@@ -14719,7 +14721,7 @@ $messages['lv'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Nekorekts nosaukums',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Ārējā saite',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'Tiek pārbaudīts vai lapa eksistē...',
-	'wikieditor-toolbar-tool-link-int-invalid' => 'Norādītais nosaukums nav korekts.',
+	'wikieditor-toolbar-tool-link-int-invalid' => 'Norādītais nosaukums nav derīgs.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'Norādītais URL izskatās pēc saites uz viki lapu. Vai vēlaties to pārveidot par iekšēju saiti?',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => 'Iekšējā saite',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-ext' => 'Ārējā saite',
