@@ -5841,6 +5841,7 @@ Möchten Sie daraus einen internen Link machen?',
 );
 
 /** Zazaki (Zazaki)
+ * @author Erdemaslancan
  * @author Mirzali
  * @author Xoser
  */
@@ -5865,7 +5866,7 @@ $messages['diq'] = array(
 	'wikieditor-publish-dialog-publish' => 'Çap ke',
 	'wikieditor-publish-dialog-goback' => 'Reyna şi',
 	'wikieditor-template-editor-preference' => 'Vurnayışê form-bıngeyınê şablonanê wikiy feal ke',
-	'wikieditor-template-editor-dialog-title' => 'Template bivurne',
+	'wikieditor-template-editor-dialog-title' => 'Sabloni bivurnê',
 	'wikieditor-template-editor-dialog-submit' => 'Rocaniye',
 	'wikieditor-template-editor-dialog-cancel' => 'Bıtexelne',
 	'wikieditor-templates-preference' => 'Qic kerdisê sabloni a bike',
@@ -9779,6 +9780,7 @@ $messages['hi'] = array(
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => 'आंतरिक लिंक',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-ext' => 'बाहरी कड़ियाँ',
 	'wikieditor-toolbar-tool-link-empty' => 'आप लिंक करने के लिए कुछ दर्ज़ नहीं किए थे ।',
+	'wikieditor-toolbar-tool-file' => 'संलग्न फ़ाइल',
 	'wikieditor-toolbar-tool-file-example' => 'उदाहरण.jpg',
 	'wikieditor-toolbar-tool-reference' => 'संदर्भ',
 	'wikieditor-toolbar-tool-reference-example' => 'आधार पाठ यहाँ सम्मिलित करें',
@@ -9839,6 +9841,7 @@ $1:उदाहरण.jpg|चित्रशीर्षक२',
 	'wikieditor-toolbar-tool-table-dimensions-columns' => 'कॉलम',
 	'wikieditor-toolbar-tool-table-dimensions-header' => 'शीर्ष लेख पंक्ति जोड़ें',
 	'wikieditor-toolbar-tool-table-wikitable' => 'बॉर्डर के साथ शैली',
+	'wikieditor-toolbar-tool-table-sortable' => 'सारणी सॉर्टबल बनाएँ',
 	'wikieditor-toolbar-tool-table-example' => 'उदाहरण',
 	'wikieditor-toolbar-tool-table-preview' => 'पूर्वावलोकन',
 	'wikieditor-toolbar-tool-table-insert' => 'सम्मिलित करें',
@@ -9852,6 +9855,7 @@ $1:उदाहरण.jpg|चित्रशीर्षक२',
 	'wikieditor-toolbar-tool-replace-button-replace' => 'इससे बदलें',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'सभी बदलें',
 	'wikieditor-toolbar-tool-replace-close' => 'बंद करें',
+	'wikieditor-toolbar-tool-replace-success' => '$1 प्रतिस्थापन बनें ।',
 	'wikieditor-toolbar-section-characters' => 'विशेष वर्ण',
 	'wikieditor-toolbar-characters-page-latin' => 'लाटिन',
 	'wikieditor-toolbar-characters-page-latinextended' => 'लाटिन विस्तारित',
@@ -9914,11 +9918,19 @@ $1:उदाहरण.jpg|चित्रशीर्षक२',
 	'wikieditor-toolbar-help-content-olist-description' => 'क्रमांकित सूची',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# सूची आइटम<br /># सूची आइटम',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>सूची आइटम</li><li>सूची आइटम</li></ol>',
+	'wikieditor-toolbar-help-content-file-description' => 'संलग्न फ़ाइल',
 	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:उदाहरण.png|thumb|शीर्षक नाम]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='चौड़ाई:104px;' class='thumbinner'><a title='शीर्षक नाम' class='इमेज' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='बढ़ाना' class='आंतरिक' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>शीर्षक नाम</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'संदर्भ',
+	'wikieditor-toolbar-help-content-reference-syntax' => 'पृष्ठ लेख ।&lt;ref name="test"&gt;[http://www.example.org लिंक लेख], अतिरिक्त लेख.&lt;/ref&gt;',
+	'wikieditor-toolbar-help-content-reference-result' => "पृष्ठ लेख ।<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-rereference-description' => 'वही संदर्भ का अतिरिक्त उपयोग',
+	'wikieditor-toolbar-help-content-rereference-result' => "पृष्ठ लेख ।<sup><a href='#'>[1]</a></sup>",
+	'wikieditor-toolbar-help-content-showreferences-description' => 'संदर्भ दिखाएँ',
+	'wikieditor-toolbar-help-content-showreferences-result' => "<ol class='संदर्भ'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='बाहरी लेख' href='#'>लिंक लेख</a>, अतिरिक्त लेख ।</li></ol>",
+	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>सदस्यनाम</a> (<a href='#' title='{{#special:mytalk}}'>चर्चा</a>) 15:54, 10 June 2009 (UTC)",
 	'wikieditor-toolbar-help-content-signature-description' => 'हस्ताक्षर',
+	'wikieditor-toolbar-help-content-signature-result' => "<a href='#' title='{{#special:mypage}}'>सदस्यनाम</a> (<a href='#' title='{{#special:mytalk}}'>वार्ता</a>)",
 );
 
 /** Fiji Hindi (Latin script) (Fiji Hindi) */
