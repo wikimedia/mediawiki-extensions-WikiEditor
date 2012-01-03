@@ -484,6 +484,7 @@ $messages['ab'] = array(
  * @author Adriaan
  * @author Anrie
  * @author Naudefj
+ * @author පසිඳු කාවින්ද
  */
 $messages['af'] = array(
 	'wikieditor' => 'Uitgebreide teksverwerker vir wikiteks',
@@ -518,6 +519,7 @@ $messages['af'] = array(
 	'wikieditor-toolbar-desc' => 'Wysigingsbalk met verhoogde bruikbaarheid',
 	'wikieditor-toolbar-preference' => 'Gebruik gevorderde redigeringsbalk',
 	'wikieditor-toolbar-dialogs-preference' => 'Aktiveer dialoog vir die byvoeging van skakels, tabelle en meer',
+	'wikieditor-toolbar-hidesig' => 'Steek die ondertekening knoppie van die bladsye in die hoof naamruimte',
 	'wikieditor-toolbar-loading' => 'Besig om te laai...',
 	'wikieditor-toolbar-tool-bold' => 'Vetdruk',
 	'wikieditor-toolbar-tool-bold-example' => 'Vetgedrukte teks',
@@ -626,6 +628,7 @@ $1:Voorbeeld2|Byskrif2',
 	'wikieditor-toolbar-tool-replace-case' => 'Gevoelig vir hoofletters',
 	'wikieditor-toolbar-tool-replace-regex' => 'Hanteer die soekstring as \'n "regular expression"',
 	'wikieditor-toolbar-tool-replace-button-findnext' => 'Vind volgende',
+	'wikieditor-toolbar-tool-replace-button-replace' => 'Vervang',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Vervang alles',
 	'wikieditor-toolbar-tool-replace-close' => 'Sluit',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'U soektog het geen resultate opgelewer nie.',
@@ -640,6 +643,7 @@ $1:Voorbeeld2|Byskrif2',
 	'wikieditor-toolbar-characters-page-greek' => 'Grieks',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'Cyrillies',
 	'wikieditor-toolbar-characters-page-arabic' => 'Arabies',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'Arabies uitgebrei',
 	'wikieditor-toolbar-characters-page-persian' => 'Persiese',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Hebreeus',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bengaals',
@@ -9932,6 +9936,7 @@ $1:उदाहरण.jpg|चित्रशीर्षक२',
 	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>सदस्यनाम</a> (<a href='#' title='{{#special:mytalk}}'>चर्चा</a>) 15:54, 10 June 2009 (UTC)",
 	'wikieditor-toolbar-help-content-signature-description' => 'हस्ताक्षर',
 	'wikieditor-toolbar-help-content-signature-result' => "<a href='#' title='{{#special:mypage}}'>सदस्यनाम</a> (<a href='#' title='{{#special:mytalk}}'>वार्ता</a>)",
+	'wikieditor-toolbar-help-content-indent-description' => 'इनडेंट',
 );
 
 /** Fiji Hindi (Latin script) (Fiji Hindi) */
@@ -20563,6 +20568,7 @@ $1:Example.jpg|Опис2',
 );
 
 /** Sanskrit (संस्कृतम्)
+ * @author Ansumang
  * @author Bhawani Gautam
  */
 $messages['sa'] = array(
@@ -20572,6 +20578,10 @@ $messages['sa'] = array(
 	'wikieditor-toolbar-tool-heading-4' => 'शीर्षकम् 4',
 	'wikieditor-toolbar-tool-heading-5' => 'शीर्षकम्',
 	'wikieditor-toolbar-section-characters' => 'विशेष-वर्णानि',
+	'wikieditor-toolbar-characters-page-symbols' => 'प्रतीक',
+	'wikieditor-toolbar-characters-page-greek' => 'ग्रीक',
+	'wikieditor-toolbar-characters-page-bangla' => 'वङ्गलिपि',
+	'wikieditor-toolbar-section-help' => 'साहाय्यम्',
 );
 
 /** Sakha (Саха тыла)
@@ -25618,9 +25628,15 @@ $1:Esenpio.jpg|Didascalia2',
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
+	'wikieditor-wikitext-tab' => 'Vikitekst',
+	'wikieditor-preview-tab' => 'Ezikacund',
 	'wikieditor-preview-changes-tab' => 'Toižetused',
+	'wikieditor-previewDialog-tab' => 'Ezikacund',
+	'wikieditor-publish-button-publish' => 'Publikuida',
 	'wikieditor-publish-dialog-minor' => 'Penikaine redakcii',
+	'wikieditor-publish-dialog-publish' => 'Publikuida',
 	'wikieditor-publish-dialog-goback' => 'Tagaze',
+	'wikieditor-toc-show' => 'Ozutada südäiolend',
 	'wikieditor-toolbar-tool-bold' => 'Lihavoitud',
 	'wikieditor-toolbar-tool-bold-example' => 'Lihavoitud tekst',
 	'wikieditor-toolbar-tool-link' => 'Kosketuz',
@@ -25630,12 +25646,17 @@ $messages['vep'] = array(
 	'wikieditor-toolbar-tool-link-cancel' => 'Heitta',
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Vär nimi',
 	'wikieditor-toolbar-tool-file' => 'Mülütadud fail',
+	'wikieditor-toolbar-tool-file-example' => 'Ozutez.jpg',
+	'wikieditor-toolbar-tool-reference-insert' => 'Ližata',
+	'wikieditor-toolbar-tool-heading' => 'Pälkirjutez',
 	'wikieditor-toolbar-tool-heading-1' => 'Tazopind 1',
 	'wikieditor-toolbar-tool-heading-2' => 'Tazopind 2',
 	'wikieditor-toolbar-tool-heading-3' => 'Tazopind 3',
 	'wikieditor-toolbar-tool-heading-4' => 'Tazopind 4',
 	'wikieditor-toolbar-tool-heading-5' => 'Tazopind 5',
+	'wikieditor-toolbar-tool-heading-example' => 'Pälkirjutesen tekst',
 	'wikieditor-toolbar-group-format' => 'Format:',
+	'wikieditor-toolbar-tool-ulist' => 'Markiruidud nimikirjutez',
 	'wikieditor-toolbar-tool-ulist-example' => 'Markiruidud nimikirjutez',
 	'wikieditor-toolbar-tool-olist' => 'Nomeroitud nimikirjutez',
 	'wikieditor-toolbar-tool-big' => "Sur'",
@@ -25648,9 +25669,13 @@ $messages['vep'] = array(
 	'wikieditor-toolbar-tool-table' => 'Tablut',
 	'wikieditor-toolbar-tool-table-title' => 'Ližada tablut',
 	'wikieditor-toolbar-tool-table-dimensions-rows' => 'Rivid',
+	'wikieditor-toolbar-tool-table-dimensions-columns' => 'Pachid:',
+	'wikieditor-toolbar-tool-table-example' => 'Ozutez',
+	'wikieditor-toolbar-tool-table-preview' => 'Ezikacund',
 	'wikieditor-toolbar-tool-table-insert' => 'Ližata',
 	'wikieditor-toolbar-tool-table-cancel' => 'Heitta',
 	'wikieditor-toolbar-tool-replace-close' => 'Saubata',
+	'wikieditor-toolbar-section-characters' => 'Specialižed znamad',
 	'wikieditor-toolbar-characters-page-latin' => 'Latinalaine',
 	'wikieditor-toolbar-characters-page-latinextended' => 'Levitadud latinalaine',
 	'wikieditor-toolbar-characters-page-ipa' => 'IPA',
@@ -25658,9 +25683,16 @@ $messages['vep'] = array(
 	'wikieditor-toolbar-characters-page-greek' => 'Grekalaine',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'Kirilline',
 	'wikieditor-toolbar-characters-page-arabic' => 'Arabine',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'Araban levitadud',
+	'wikieditor-toolbar-characters-page-persian' => 'Persižed',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Evrejine',
 	'wikieditor-toolbar-characters-page-telugu' => 'Telugu',
+	'wikieditor-toolbar-characters-page-gujarati' => 'Gudžarati',
+	'wikieditor-toolbar-characters-page-thai' => 'Tai',
+	'wikieditor-toolbar-characters-page-lao' => 'Lao',
+	'wikieditor-toolbar-characters-page-khmer' => 'Khmeran',
 	'wikieditor-toolbar-section-help' => 'Abu',
+	'wikieditor-toolbar-help-heading-description' => 'Ümbrikirjutand',
 	'wikieditor-toolbar-help-page-link' => 'Kosketused',
 	'wikieditor-toolbar-help-page-list' => 'Nimikirjutesed',
 	'wikieditor-toolbar-help-page-file' => 'Failad',
