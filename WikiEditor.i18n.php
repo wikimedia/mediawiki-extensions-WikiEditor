@@ -5670,7 +5670,7 @@ Möchtest du daraus einen internen Link machen?',
 	'wikieditor-toolbar-tool-link-empty' => 'Du hast nichts zum Verlinken angegeben.',
 	'wikieditor-toolbar-tool-file' => 'Eingebettete Datei',
 	'wikieditor-toolbar-tool-file-example' => 'Beispiel.jpg',
-	'wikieditor-toolbar-tool-reference' => 'Beleg',
+	'wikieditor-toolbar-tool-reference' => 'Quellennachweis',
 	'wikieditor-toolbar-tool-reference-example' => 'Fußnotentext hier einfügen',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Abbrechen',
 	'wikieditor-toolbar-tool-reference-title' => 'Einzelnachweis einfügen',
@@ -5816,7 +5816,7 @@ $1:Beispiel.jpg|Beschreibung2',
 	'wikieditor-toolbar-help-content-file-description' => 'Eingebettete Datei',
 	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Beispiel.png|thumb|Beschreibung]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Beschreibung' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Vergrößern' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Beschreibung</div></div>",
-	'wikieditor-toolbar-help-content-reference-description' => 'Beleg',
+	'wikieditor-toolbar-help-content-reference-description' => 'Quellennachweis',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Seitentext.&lt;ref name="test"&gt;[http://www.beispiel.org Linktext], zusätzlicher Text.&lt;/ref&gt;',
 	'wikieditor-toolbar-help-content-reference-result' => "Seitentext.<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-rereference-description' => 'Den gleichen Beleg erneut verwenden',
@@ -14702,6 +14702,7 @@ $messages['ltg'] = array(
 );
 
 /** Latvian (Latviešu)
+ * @author Gleb Borisov
  * @author GreenZeb
  * @author Marozols
  * @author Papuass
@@ -14771,7 +14772,7 @@ $messages['lv'] = array(
 	'wikieditor-toolbar-tool-reference-insert' => 'Ievietot',
 	'wikieditor-toolbar-tool-reference-text' => 'Atsauces teksts',
 	'wikieditor-toolbar-tool-signature' => 'Paraksts un parakstīšanās laiks',
-	'wikieditor-toolbar-section-advanced' => 'Papildus iespējas',
+	'wikieditor-toolbar-section-advanced' => 'Papildu iespējas',
 	'wikieditor-toolbar-tool-heading' => 'Virsraksts',
 	'wikieditor-toolbar-tool-heading-1' => '1. līmeņa',
 	'wikieditor-toolbar-tool-heading-2' => '2. līmeņa',
