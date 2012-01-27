@@ -20234,6 +20234,7 @@ $1:Example.jpg|Titele2',
  * @author Eleferen
  * @author G0rn
  * @author KPu3uC B Poccuu
+ * @author Kaganer
  * @author Lockal
  * @author Temuri rajavi
  * @author Александр Сигачёв
@@ -20243,14 +20244,14 @@ $messages['ru'] = array(
 	'wikieditor-desc' => 'Обеспечивает расширяемый интерфейс редактирования викитекста и многие функции, предоставляемые модулями',
 	'wikieditor-wikitext-tab' => 'Викитекст',
 	'wikieditor-loading' => 'Загрузка',
-	'wikieditor-preview-preference' => 'Включить предпросмотр бок о бок.',
+	'wikieditor-preview-preference' => 'Включить предпросмотр «бок о бок»',
 	'wikieditor-preview-tab' => 'Предпросмотр',
 	'wikieditor-preview-changes-tab' => 'Изменения',
 	'wikieditor-preview-loading' => 'Загрузка…',
 	'wikieditor-previewDialog-preference' => 'Включить диалог предпросмотра',
 	'wikieditor-previewDialog-tab' => 'Предпросмотр',
 	'wikieditor-previewDialog-loading' => 'Загрузка…',
-	'wikieditor-publish-preference' => 'Включить пошаговую публикацию.',
+	'wikieditor-publish-preference' => 'Включить пошаговую публикацию',
 	'wikieditor-publish-button-publish' => 'Опубликовать',
 	'wikieditor-publish-button-cancel' => 'Отмена',
 	'wikieditor-publish-dialog-title' => 'Опубликование в проекте {{SITENAME}}',
@@ -20264,13 +20265,13 @@ $messages['ru'] = array(
 	'wikieditor-template-editor-dialog-submit' => 'Обновить',
 	'wikieditor-template-editor-dialog-cancel' => 'Отмена',
 	'wikieditor-templates-preference' => 'Включить сворачивание шаблонов',
-	'wikieditor-toc-preference' => 'Включить оглавление с возможностью навигации.',
+	'wikieditor-toc-preference' => 'Включить оглавление с возможностью навигации',
 	'wikieditor-toc-show' => 'Показать оглавление',
 	'wikieditor-toc-hide' => 'Скрыть оглавление',
 	'wikieditor-toolbar' => 'Панель редактирования',
-	'wikieditor-toolbar-desc' => 'Панель редактирования с улучшенным удобством использования',
-	'wikieditor-toolbar-preference' => 'Включить улучшенную панель редактирования.',
-	'wikieditor-toolbar-dialogs-preference' => 'Включить диалоги для вставки ссылок, таблиц и других объектов.',
+	'wikieditor-toolbar-desc' => 'Панель редактирования, более удобная в использовании',
+	'wikieditor-toolbar-preference' => 'Включить улучшенную панель редактирования',
+	'wikieditor-toolbar-dialogs-preference' => 'Включить диалоги для вставки ссылок, таблиц и других объектов',
 	'wikieditor-toolbar-hidesig' => 'Скрыть кнопку подписи на страницах основного пространства имён',
 	'wikieditor-toolbar-loading' => 'Загрузка…',
 	'wikieditor-toolbar-tool-bold' => 'Полужирный',
