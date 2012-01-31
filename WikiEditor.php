@@ -17,26 +17,26 @@
 
 // Each module may be configured individually to be globally on/off or user preference based
 $wgWikiEditorFeatures = array(
-	
+
 	/* Textarea / i-frame compatible (OK to deploy) */
-	
+
 	'toolbar' => array( 'global' => false, 'user' => true ),
 	// Provides interactive tools
 	'dialogs' => array( 'global' => false, 'user' => true ),
 	// Hide signature button from main namespace
 	'hidesig' => array( 'global' => true, 'user' => false ),
-	
+
 	/* Textarea / i-frame compatible, but still experimental and unstable (do not deploy!) */
-	
+
 	// Adds a tab for previewing in-line
 	'preview' => array( 'global' => false, 'user' => true ),
 	// Adds a button for previewing in a dialog
 	'previewDialog' => array( 'global' => false, 'user' => false ),
 	//  Adds a button and dialog for step-by-step publishing
 	'publish' => array( 'global' => false, 'user' => true ),
-	
+
 	/* I-frame dependent (do not deploy!) */
-	
+
 	// Failry stable table of contents
 	'toc' => array( 'global' => false, 'user' => true ),
 	// Pretty broken template collapsing/editing
@@ -71,13 +71,13 @@ $wikiEditorTpl = array(
 
 $wgResourceModules += array(
 	/* Third-party modules */
-	
+
 	'contentCollector' => $wikiEditorTpl + array(
 		'scripts' => 'contentCollector.js',
 	),
-	
+
 	/* WikiEditor jQuery plugin Resources */
-	
+
 	'jquery.wikiEditor' => $wikiEditorTpl + array(
 		'scripts' => 'jquery.wikiEditor.js',
 		'styles' => 'jquery.wikiEditor.css',
@@ -392,9 +392,9 @@ $wgResourceModules += array(
 			'wikieditor-toolbar-help-content-indent-result',
 		),
 	),
-	
+
 	/* WikiEditor Resources */
-	
+
 	'ext.wikiEditor' => $wikiEditorTpl + array(
 		'scripts' => 'ext.wikiEditor.js',
 		'styles' => 'ext.wikiEditor.css',

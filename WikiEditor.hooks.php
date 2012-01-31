@@ -167,7 +167,8 @@ class WikiEditorHooks {
 	 * This method is public to allow other extensions that use WikiEditor to use the
 	 * same configuration as WikiEditor itself
 	 *
-	 * @param $name Name of the feature, should be a key of $features
+	 * @param $name string Name of the feature, should be a key of $features
+	 * @return bool
 	 */
 	public static function isEnabled( $name ) {
 		global $wgWikiEditorFeatures, $wgUser;
@@ -198,6 +199,7 @@ class WikiEditorHooks {
 	 * Adds the modules to the edit form
 	 *
 	 * @param $toolbar array list of toolbar items
+	 * @return bool
 	 */
 	public static function editPageShowEditFormInitial( &$toolbar ) {
 		global $wgOut;
@@ -218,6 +220,7 @@ class WikiEditorHooks {
 	 *
 	 * @param $user User current user
 	 * @param $defaultPreferences array list of default user preference controls
+	 * @return bool
 	 */
 	public static function getPreferences( $user, &$defaultPreferences ) {
 		global $wgWikiEditorFeatures;
@@ -239,6 +242,8 @@ class WikiEditorHooks {
 	 * MakeGlobalVariablesScript hook
 	 *
 	 * Adds enabled/disabled switches for WikiEditor modules
+	 * @param $vars array
+	 * @return bool
 	 */
 	public static function resourceLoaderGetConfigVars( &$vars ) {
 		global $wgWikiEditorFeatures;
@@ -261,9 +266,11 @@ class WikiEditorHooks {
 		return true;
 	}
 
+	/**
+	 * @param $vars array
+	 * @return bool
+	 */
 	public static function makeGlobalVariablesScript( &$vars ) {
-		global $wgWikiEditorFeatures;
-
 		// Build and export old-style wgWikiEditorEnabledModules object for back compat
 		$enabledModules = array();
 		foreach ( self::$features as $name => $feature ) {
