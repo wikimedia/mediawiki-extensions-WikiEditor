@@ -9395,6 +9395,31 @@ $1:Byschpil.jpg|Bschriftig2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Normale Tekscht<dl><dd>Yygruckte Tekscht<dl><dd>Yygruckte Tekscht</dd></dl></dd></dl>',
 );
 
+/** Gujarati (ગુજરાતી)
+ * @author KartikMistry
+ */
+$messages['gu'] = array(
+	'wikieditor-preview-changes-tab' => 'ફેરફારો',
+	'wikieditor-publish-button-cancel' => 'રદ કરો',
+	'wikieditor-template-editor-dialog-cancel' => 'રદ કરો',
+	'wikieditor-toolbar-tool-bold' => 'ઘાટું',
+	'wikieditor-toolbar-tool-bold-example' => 'ઘાટું લખાણ',
+	'wikieditor-toolbar-tool-italic' => 'ત્રાંસું',
+	'wikieditor-toolbar-tool-italic-example' => 'ત્રાંસું લખાણ',
+	'wikieditor-toolbar-tool-ilink' => 'આંતરિક કડી',
+	'wikieditor-toolbar-tool-ilink-example' => 'કડીનું શીર્ષક',
+	'wikieditor-toolbar-tool-link' => 'કડી',
+	'wikieditor-toolbar-tool-link-title' => 'કડી ઉમેરો',
+	'wikieditor-toolbar-tool-link-cancel' => 'રદ કરો',
+	'wikieditor-toolbar-tool-reference-cancel' => 'રદ કરો',
+	'wikieditor-toolbar-tool-newline' => 'નવું વાક્ય',
+	'wikieditor-toolbar-tool-table' => 'કોષ્ટક',
+	'wikieditor-toolbar-tool-table-example' => 'ઉદાહરણ',
+	'wikieditor-toolbar-tool-table-cancel' => 'રદ કરો',
+	'wikieditor-toolbar-characters-page-gujarati' => 'ગુજરાતી',
+	'wikieditor-toolbar-section-help' => 'મદદ',
+);
+
 /** Manx (Gaelg)
  * @author MacTire02
  * @author Shimmin Beg
