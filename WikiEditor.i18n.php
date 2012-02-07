@@ -9424,6 +9424,8 @@ $messages['gu'] = array(
 	'wikieditor-toc-show' => 'ટિપ્પણીઓ બતાવો',
 	'wikieditor-toc-hide' => 'ટિપ્પણીઓ સંતાડો',
 	'wikieditor-toolbar' => 'ફેરફાર  સાધન કંપાસ',
+	'wikieditor-toolbar-preference' => 'અદ્યતન સંપાદન સાધનો સક્રીય કરો',
+	'wikieditor-toolbar-dialogs-preference' => 'કડીઓ, કોઠા અને અન્ય વસ્તુઓ ઉમેરવા સંભાષણ સક્રીય કરો',
 	'wikieditor-toolbar-loading' => 'લવાઇ રહ્યું છે...',
 	'wikieditor-toolbar-tool-bold' => 'ઘાટું',
 	'wikieditor-toolbar-tool-bold-example' => 'ઘાટું લખાણ',
@@ -9478,7 +9480,9 @@ $messages['gu'] = array(
 	'wikieditor-toolbar-tool-indent' => 'હાંસિયો',
 	'wikieditor-toolbar-tool-indent-example' => 'હાંસિયાની રેખા',
 	'wikieditor-toolbar-tool-nowiki' => 'વિકિ ફોર્મેટીંગ ગેરહાજર',
+	'wikieditor-toolbar-tool-nowiki-example' => 'ફોર્મેટ કર્યા વગરનું લખાણ અહીં ઉમેરો',
 	'wikieditor-toolbar-tool-redirect' => 'દિશાનિર્દેશ',
+	'wikieditor-toolbar-tool-redirect-example' => 'લક્ષ્યાંકીત પૃષ્ઠ નામ',
 	'wikieditor-toolbar-tool-big' => 'મોટું',
 	'wikieditor-toolbar-tool-big-example' => 'મોટું લખાણ',
 	'wikieditor-toolbar-tool-small' => 'નાનું',
@@ -9489,6 +9493,8 @@ $messages['gu'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'નીચલા સ્તરનો અક્ષર દેહ',
 	'wikieditor-toolbar-group-insert' => 'ઉમેરો',
 	'wikieditor-toolbar-tool-gallery' => 'ચિત્ર માલા',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Caption1
+$1:Example.jpg|Caption2',
 	'wikieditor-toolbar-tool-newline' => 'નવું વાક્ય',
 	'wikieditor-toolbar-tool-table' => 'કોષ્ટક',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -9529,6 +9535,7 @@ $messages['gu'] = array(
 	'wikieditor-toolbar-tool-replace-nomatch' => 'તમારી શોધ કશાયને મળતી આવતી નથી',
 	'wikieditor-toolbar-tool-replace-success' => '$1 બદલાવ(વો) કરાયાં.',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'તમે શોધવા માટે કંઈ દાખલ કર્યું નથી.',
+	'wikieditor-toolbar-tool-replace-invalidregex' => 'તમે માહિતી મૂકી તે અમાન્ય છે : $1',
 	'wikieditor-toolbar-section-characters' => 'ખાસ અક્ષરો કે ચિન્હો',
 	'wikieditor-toolbar-characters-page-latin' => 'લેટિન',
 	'wikieditor-toolbar-characters-page-latinextended' => 'લેટિન વિસ્તૃત',
@@ -9551,6 +9558,7 @@ $messages['gu'] = array(
 	'wikieditor-toolbar-help-heading-description' => 'વર્ણન',
 	'wikieditor-toolbar-help-heading-syntax' => 'તમે જે લખો',
 	'wikieditor-toolbar-help-heading-result' => 'તમે જે મેળવો',
+	'wikieditor-toolbar-help-page-format' => 'રચના શૈલિ',
 	'wikieditor-toolbar-help-page-link' => 'કડીઓ',
 	'wikieditor-toolbar-help-page-heading' => 'મથાળું',
 	'wikieditor-toolbar-help-page-list' => 'યાદીઓ',
@@ -9578,14 +9586,21 @@ $messages['gu'] = array(
 	'wikieditor-toolbar-help-content-heading4-result' => '<h4>મથાળાનાં અક્ષરો</h4>',
 	'wikieditor-toolbar-help-content-heading5-description' => 'પાંચમાં સ્તરનું મથાળું',
 	'wikieditor-toolbar-help-content-heading5-syntax' => '===== મથાળાના અક્ષરો =====',
+	'wikieditor-toolbar-help-content-heading5-result' => '<h5>મથાળાનાં અક્ષરો</h5>',
 	'wikieditor-toolbar-help-content-ulist-description' => 'ચિન્હાંકીત યાદી',
+	'wikieditor-toolbar-help-content-ulist-syntax' => '* વસુઓની યાદી<br />* વસ્તુઓની યાદી',
 	'wikieditor-toolbar-help-content-olist-description' => 'ક્રમગત: યાદી',
 	'wikieditor-toolbar-help-content-file-description' => 'અંદર વણાયેલી (Embedded) ફાઇલ',
 	'wikieditor-toolbar-help-content-reference-description' => 'સંદર્ભ',
+	'wikieditor-toolbar-help-content-reference-result' => "પૃષ્ઠ લેખન.<sup><a href='#'>[1]</a></sup>",
+	'wikieditor-toolbar-help-content-rereference-description' => 'તેજ સંદર્ભનો વધારાનો વપરાશ',
+	'wikieditor-toolbar-help-content-rereference-result' => "પૃષ્ઠ લેખન.<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-showreferences-description' => 'સંદર્ભો દર્શાવો',
 	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'સમયછાપ સાથે હસ્તાક્ષર',
 	'wikieditor-toolbar-help-content-signature-description' => 'હસ્તાક્ષર',
 	'wikieditor-toolbar-help-content-indent-description' => 'હાંસિયો',
+	'wikieditor-toolbar-help-content-indent-syntax' => 'સામાન્ય અક્ષરો<br />:હાંસિયા મારેલા અક્ષરો<br />::હાંસિયા મારેલા અક્ષરો',
+	'wikieditor-toolbar-help-content-indent-result' => 'સામાન્ય લેખન<dl><dd>હાંસિયા મારેલ લેખન<dl><dd>હાંસિયા મારેલ લેખન</dd></dl></dd></dl>',
 );
 
 /** Manx (Gaelg)
@@ -10289,6 +10304,7 @@ $messages['hif-latn'] = array(
 );
 
 /** Croatian (Hrvatski)
+ * @author Bugoslav
  * @author Ex13
  * @author Excaliboor
  * @author Roberta F.
@@ -10455,9 +10471,9 @@ $1:Primjer.jpg|Opis2',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bangla znakovi',
 	'wikieditor-toolbar-characters-page-telugu' => 'telugu',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Sinhaleški znakovi',
-	'wikieditor-toolbar-characters-page-gujarati' => 'Gudžarati znakovi',
-	'wikieditor-toolbar-characters-page-thai' => 'Tajlandski',
-	'wikieditor-toolbar-characters-page-lao' => 'Laoški znakovi',
+	'wikieditor-toolbar-characters-page-gujarati' => 'Gudžaratski znakovi',
+	'wikieditor-toolbar-characters-page-thai' => 'Tajlandski (tajski) znakovi',
+	'wikieditor-toolbar-characters-page-lao' => 'Laoski znakovi',
 	'wikieditor-toolbar-characters-page-khmer' => 'kmerski',
 	'wikieditor-toolbar-section-help' => 'Pomoć',
 	'wikieditor-toolbar-help-heading-description' => 'Opis',
