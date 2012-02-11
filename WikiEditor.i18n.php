@@ -9401,6 +9401,7 @@ $1:Byschpil.jpg|Bschriftig2',
  */
 $messages['gu'] = array(
 	'wikieditor' => 'ઉચ્ચ વિકિલખાણ ફેરફાર દેખાવ',
+	'wikieditor-desc' => 'વિસ્તૃત વિકિલખાણ દેખાવ અને ઘણી સુવિધાઓ વાળા મોડ્યુલ્સ પૂરા પાડે છે',
 	'wikieditor-wikitext-tab' => 'વિકિલેખન (વિકિટેક્સ્ટ)‌',
 	'wikieditor-loading' => 'લવાઇ રહ્યું છે...',
 	'wikieditor-preview-preference' => 'બાજુમાં પુન:અવલોકન ચાલુ રાખો',
@@ -9611,12 +9612,14 @@ $1:Example.jpg|Caption2',
 	'wikieditor-toolbar-help-content-file-description' => 'અંદર વણાયેલી (Embedded) ફાઇલ',
 	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|કેપ્શન લખાણ]]',
 	'wikieditor-toolbar-help-content-reference-description' => 'સંદર્ભ',
+	'wikieditor-toolbar-help-content-reference-syntax' => 'પાનાં લખાણ.&lt;ref name="test"&gt;[http://www.example.org કડી લખાણ], વધારાનું લખાણ.&lt;/ref&gt;',
 	'wikieditor-toolbar-help-content-reference-result' => "પૃષ્ઠ લેખન.<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-rereference-description' => 'તેજ સંદર્ભનો વધારાનો વપરાશ',
 	'wikieditor-toolbar-help-content-rereference-result' => "પૃષ્ઠ લેખન.<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-showreferences-description' => 'સંદર્ભો દર્શાવો',
 	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'સમયછાપ સાથે હસ્તાક્ષર',
 	'wikieditor-toolbar-help-content-signature-description' => 'હસ્તાક્ષર',
+	'wikieditor-toolbar-help-content-signature-result' => "<a href='#' title='{{#special:mypage}}'>સભ્યનામ</a> (<a href='#' title='{{#special:mytalk}}'>ચર્ચા</a>)",
 	'wikieditor-toolbar-help-content-indent-description' => 'હાંસિયો',
 	'wikieditor-toolbar-help-content-indent-syntax' => 'સામાન્ય અક્ષરો<br />:હાંસિયા મારેલા અક્ષરો<br />::હાંસિયા મારેલા અક્ષરો',
 	'wikieditor-toolbar-help-content-indent-result' => 'સામાન્ય લેખન<dl><dd>હાંસિયા મારેલ લેખન<dl><dd>હાંસિયા મારેલ લેખન</dd></dl></dd></dl>',
@@ -27429,6 +27432,7 @@ $1:Example.jpg|标题2',
  * @author KaiesTse
  * @author Liangent
  * @author Mark85296341
+ * @author Oapbtommy
  * @author PhiLiP
  * @author Waihorace
  * @author Wong128hk
@@ -27622,7 +27626,7 @@ $1:Example.jpg|標題2',
 	'wikieditor-toolbar-characters-page-thai' => '泰語',
 	'wikieditor-toolbar-characters-page-lao' => '寮語',
 	'wikieditor-toolbar-characters-page-khmer' => '高棉語',
-	'wikieditor-toolbar-section-help' => '幫助',
+	'wikieditor-toolbar-section-help' => '說明',
 	'wikieditor-toolbar-help-heading-description' => '描述',
 	'wikieditor-toolbar-help-heading-syntax' => '您輸入什麼',
 	'wikieditor-toolbar-help-heading-result' => '您得到什麼',
