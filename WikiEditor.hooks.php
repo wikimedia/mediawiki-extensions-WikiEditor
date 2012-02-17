@@ -214,6 +214,22 @@ class WikiEditorHooks {
 	}
 
 	/**
+	 * EditPageBeforeEditToolbar hook
+	 *
+	 * Disable the old toolbar if the new one is enabled
+	 *
+	 * @param $toolbar html
+	 * @return bool
+	 */
+	public static function EditPageBeforeEditToolbar( &$toolbar ) {
+		if ( self::isEnabled( 'toolbar' ) ) {
+			$toolbar = '';
+			return false;
+		}
+		return true;
+	}
+
+	/**
 	 * GetPreferences hook
 	 *
 	 * Adds WikiEditor-releated items to the preferences
