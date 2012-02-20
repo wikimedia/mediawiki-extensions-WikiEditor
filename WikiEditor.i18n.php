@@ -1851,7 +1851,7 @@ $messages['ast'] = array(
 	'wikieditor-toolbar-tool-link-cancel' => 'Encaboxar',
 	'wikieditor-toolbar-tool-link-int-target-status-exists' => 'La páxina yá esiste',
 	'wikieditor-toolbar-tool-link-int-target-status-notexists' => 'La páxina nun esiste',
-	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Títulu non válidu',
+	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Títulu inválidu',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Enllaz esternu',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'Comprobando la esistencia de la páxina...',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'El títulu que conseñasti nun ye válidu.',
@@ -2910,6 +2910,7 @@ $1:Прыклад.jpg|Подпіс2',
  * @author McDutchie
  * @author Spiritia
  * @author Turin
+ * @author Wizardist
  */
 $messages['bg'] = array(
 	'wikieditor' => 'Подобрен интерфейс за редактиране на уикитекст',
@@ -3053,7 +3054,7 @@ $1:Example.jpg|Описание2',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Замяна на всички',
 	'wikieditor-toolbar-tool-replace-close' => 'Затваряне',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'Нямаше резултати, които да отговарят на вашето търсене.',
-	'wikieditor-toolbar-tool-replace-success' => '{{PLURAL:$1|Направена е|Направени са}} $1 {{PLURAL:$1|замяна|замени}}.',
+	'wikieditor-toolbar-tool-replace-success' => 'Направени са замени: $1.',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'Не сте въвели низ за търсене.',
 	'wikieditor-toolbar-tool-replace-invalidregex' => 'Въведеният от вас регулярен израз е невалиден: $1',
 	'wikieditor-toolbar-section-characters' => 'Специални символи',
