@@ -224,7 +224,6 @@ class WikiEditorHooks {
 	public static function EditPageBeforeEditToolbar( &$toolbar ) {
 		if ( self::isEnabled( 'toolbar' ) ) {
 			$toolbar = '';
-			return false;
 		}
 		return true;
 	}
