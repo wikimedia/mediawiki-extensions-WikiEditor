@@ -2042,11 +2042,14 @@ $messages['az'] = array(
 	'wikieditor-publish-button-publish' => 'Yeniləmə',
 	'wikieditor-publish-button-cancel' => 'Ləğv et',
 	'wikieditor-publish-dialog-minor' => 'Kiçik dəyişiklik',
+	'wikieditor-publish-dialog-watch' => 'Bu səhifəni izlə',
 	'wikieditor-publish-dialog-publish' => 'Publish',
 	'wikieditor-publish-dialog-goback' => 'Geriyə',
 	'wikieditor-template-editor-dialog-title' => 'Şablonu redaktə et',
 	'wikieditor-template-editor-dialog-submit' => 'Yenilə',
 	'wikieditor-template-editor-dialog-cancel' => 'Ləğv et',
+	'wikieditor-toc-show' => 'Möhtəviyyata bax',
+	'wikieditor-toc-hide' => 'Möhtəviyyatı gizlət',
 	'wikieditor-toolbar-loading' => 'Yüklənir…',
 	'wikieditor-toolbar-tool-bold' => 'Qalın',
 	'wikieditor-toolbar-tool-bold-example' => 'Qalın mətn',
@@ -3506,7 +3509,7 @@ $1:Example.jpg|ক্যাপশন২',
 	'wikieditor-toolbar-characters-page-thai' => 'থাই',
 	'wikieditor-toolbar-characters-page-lao' => 'লাও',
 	'wikieditor-toolbar-characters-page-khmer' => 'খেমার',
-	'wikieditor-toolbar-section-help' => 'সহায়িকা',
+	'wikieditor-toolbar-section-help' => 'সাহায্য',
 	'wikieditor-toolbar-help-heading-description' => 'বর্ণনা',
 	'wikieditor-toolbar-help-heading-syntax' => 'আপনি যা টাইপ করেছেন',
 	'wikieditor-toolbar-help-heading-result' => 'আপনি যা দেখতে পাচ্ছেন',
@@ -10175,6 +10178,7 @@ $1:דוגמה.jpg|כותרת 2',
 /** Hindi (हिन्दी)
  * @author Ansumang
  * @author Pooja.srivastava
+ * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
 	'wikieditor' => 'उन्नत विकितेक्ष्त् संपादन इन्तेर्फचे',
@@ -10190,7 +10194,7 @@ $messages['hi'] = array(
 	'wikieditor-previewDialog-loading' => 'लदान्',
 	'wikieditor-publish-preference' => 'सक्श्म्',
 	'wikieditor-publish-button-publish' => 'प्प्रकाशित करना',
-	'wikieditor-publish-button-cancel' => 'रद्द् किया जाय',
+	'wikieditor-publish-button-cancel' => 'रद्द करें',
 	'wikieditor-publish-dialog-title' => '{{SITENAME}} को छापा जाय',
 	'wikieditor-publish-dialog-minor' => 'छोटा संपादन',
 	'wikieditor-publish-dialog-watch' => 'इस पृष्ठ पे ध्यान रखेँ',
