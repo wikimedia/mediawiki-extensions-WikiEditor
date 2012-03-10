@@ -18491,6 +18491,7 @@ $messages['pdc'] = array(
 );
 
 /** Polish (Polski)
+ * @author BeginaFelicysym
  * @author Leinad
  * @author Marcin Łukasz Kiejzik
  * @author Nux
@@ -18635,7 +18636,7 @@ $1:Example.jpg|Podpis2',
 	'wikieditor-toolbar-tool-table-zero' => 'Nie można wstawić tabeli z zerową liczbą wierszy lub kolumn.',
 	'wikieditor-toolbar-tool-replace' => 'Wyszukaj i zastąp',
 	'wikieditor-toolbar-tool-replace-title' => 'Wyszukaj i zamień',
-	'wikieditor-toolbar-tool-replace-search' => 'Szukaj',
+	'wikieditor-toolbar-tool-replace-search' => 'Szukaj:',
 	'wikieditor-toolbar-tool-replace-replace' => 'Zastąp przez',
 	'wikieditor-toolbar-tool-replace-case' => 'Uwzględnij wielkość znaków',
 	'wikieditor-toolbar-tool-replace-regex' => 'Traktuj wyszukiwany ciąg jako wyrażenie regularne',
