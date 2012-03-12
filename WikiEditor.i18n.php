@@ -21990,6 +21990,7 @@ $1:උදාහරණ.jpg| 2 යටි ලියමන',
  * @author Helix84
  * @author Jkjk
  * @author McDutchie
+ * @author Teslaton
  */
 $messages['sk'] = array(
 	'wikieditor' => 'Pokročilé rozhranie na úpravu wikitextu',
@@ -22132,6 +22133,7 @@ $1:Príklad.jpg|Popis2',
 	'wikieditor-toolbar-tool-replace-case' => 'Na veľkosti písmen záleží',
 	'wikieditor-toolbar-tool-replace-regex' => 'Vyhľadávací reťazec je regulárny výraz',
 	'wikieditor-toolbar-tool-replace-button-findnext' => 'Nájsť ďalší',
+	'wikieditor-toolbar-tool-replace-button-replace' => 'Nahradiť',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Nahradiť všetky',
 	'wikieditor-toolbar-tool-replace-close' => 'Zatvoriť',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'Vyhľadávanie nenašlo vyhovujúce položky.',
@@ -22146,6 +22148,7 @@ $1:Príklad.jpg|Popis2',
 	'wikieditor-toolbar-characters-page-greek' => 'Grécke',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'Azbuka',
 	'wikieditor-toolbar-characters-page-arabic' => 'Arabské',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'Arabské rozšírené',
 	'wikieditor-toolbar-characters-page-persian' => 'Perzský',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Hebrejské',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bengálčina',
@@ -23817,6 +23820,7 @@ Idadi ya mistari au ya safu si halali.',
 );
 
 /** Tamil (தமிழ்)
+ * @author Karthi.dr
  * @author Surya Prakash.S.A.
  * @author TRYPPN
  * @author செல்வா
@@ -23873,7 +23877,7 @@ $messages['ta'] = array(
 	'wikieditor-toolbar-tool-link-ext-target' => 'இணைப்பு உரலி:',
 	'wikieditor-toolbar-tool-link-ext-text' => 'இணைப்புச் சொற்றொடர்:',
 	'wikieditor-toolbar-tool-link-insert' => 'இணைப்பையிடு',
-	'wikieditor-toolbar-tool-link-cancel' => 'விட்டுவிடு',
+	'wikieditor-toolbar-tool-link-cancel' => 'ரத்து செய்',
 	'wikieditor-toolbar-tool-link-int-target-status-exists' => 'இப்பக்கம் உள்ளது',
 	'wikieditor-toolbar-tool-link-int-target-status-notexists' => 'இப்பக்கம் இன்னும் உருவாக்கப்படவில்லை',
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'தவறான தலைப்பு',
@@ -24036,6 +24040,7 @@ $1:எடுத்துக்காட்டு.jpg|படவிளக்கம
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>பட்டியல் உருப்படி</li><li>பட்டியல் உருப்படி</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'பொதிந்துள்ள படிமம்',
 	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:எடுத்துக்காட்டு.png|விரலளவுப்படம்|படவிளக்கவுரை]]',
+	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='தலைப்புப் பெயர்' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='extensions/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='பெரிதாக்கு' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>தலைப்புப் பெயர்</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => '# மேற்கோள்
 # முன்மாதிரி',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'பக்க உரை.&lt;ref name="சோதனை"&gt;[http://www.example.org இணைப்பு உரை], கூடுதல் உரை.&lt;/ref&gt;',
