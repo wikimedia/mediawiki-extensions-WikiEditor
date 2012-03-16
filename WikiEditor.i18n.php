@@ -13314,6 +13314,7 @@ $messages['kn'] = array(
 	'wikieditor-toolbar-tool-heading-4' => 'ದರ್ಜೆ ೪',
 	'wikieditor-toolbar-tool-heading-5' => 'ದರ್ಜೆ ೫',
 	'wikieditor-toolbar-group-format' => 'ಪಟ್ಟಿ',
+	'wikieditor-toolbar-tool-big' => 'ದೊಡ್ದ',
 	'wikieditor-toolbar-tool-table' => 'ಪಟ್ಟಿ',
 	'wikieditor-toolbar-tool-table-example' => 'ಉದಾಹರಣೆ',
 	'wikieditor-toolbar-tool-table-preview' => 'ಮುನ್ನೋಟ',
