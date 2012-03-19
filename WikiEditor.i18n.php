@@ -15155,6 +15155,97 @@ $messages['ltg'] = array(
 	'wikieditor-template-editor-dialog-submit' => 'Atjaunynuot',
 );
 
+/** Lushai (Mizo ţawng)
+ * @author RMizo
+ */
+$messages['lus'] = array(
+	'wikieditor-wikitext-tab' => 'Wikithu',
+	'wikieditor-toolbar-section-advanced' => 'Ràiril',
+	'wikieditor-toolbar-tool-redirect' => 'Hruailuhna',
+	'wikieditor-toolbar-tool-redirect-example' => 'Hruailuhna tùr phêk',
+	'wikieditor-toolbar-tool-big' => 'Lian',
+	'wikieditor-toolbar-tool-big-example' => 'Hawrawp lian',
+	'wikieditor-toolbar-tool-small' => 'Të',
+	'wikieditor-toolbar-tool-small-example' => 'Hawrawp të',
+	'wikieditor-toolbar-tool-superscript' => 'Chhîpchhuan',
+	'wikieditor-toolbar-tool-superscript-example' => 'Thu chhîpchhuan',
+	'wikieditor-toolbar-tool-subscript' => 'Thu-üaithlà',
+	'wikieditor-toolbar-tool-subscript-example' => 'Thu üaithlà',
+	'wikieditor-toolbar-group-insert' => 'Telh rawh le',
+	'wikieditor-toolbar-tool-gallery' => 'Thlalâk chhuar',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Entirna.jpg|Sawifiahna1
+$1:Entirna.jpg|Sawifiahna2',
+	'wikieditor-toolbar-tool-newline' => 'Tlar thar',
+	'wikieditor-toolbar-tool-table' => 'Dawhkan',
+	'wikieditor-toolbar-tool-table-example-old' => '-
+! thupui1
+! thupui 2
+! thupui 3
+|-
+| tlar 1, pindan 1
+| tlar 1, pindan 2
+| tlar1, pindan 3
+|-
+| tlar 2, pindan 1
+| tlar 2, pindan 2
+| tlar 2, pindan 3',
+	'wikieditor-toolbar-tool-table-example-cell-text' => 'Pindan chhunga thu dah tùr',
+	'wikieditor-toolbar-tool-table-example-header' => 'Thupui',
+	'wikieditor-toolbar-tool-table-title' => 'Dawhkan telh rawh le',
+	'wikieditor-toolbar-tool-table-dimensions-rows' => 'Tlar',
+	'wikieditor-toolbar-tool-table-dimensions-columns' => 'Thlur',
+	'wikieditor-toolbar-tool-table-dimensions-header' => 'Tlar thupui',
+	'wikieditor-toolbar-tool-table-wikitable' => 'A tlang chhah',
+	'wikieditor-toolbar-tool-table-sortable' => 'Dawhkan remfel theiha siamna',
+	'wikieditor-toolbar-tool-table-example' => 'Entirna',
+	'wikieditor-toolbar-tool-table-preview' => 'Enchhinna',
+	'wikieditor-toolbar-tool-table-insert' => 'Telh rawh le',
+	'wikieditor-toolbar-tool-table-cancel' => 'Sûtna',
+	'wikieditor-toolbar-tool-table-zero' => 'Dawhkan tlar leh thlur nei lo a telh theih loh.',
+	'wikieditor-toolbar-tool-replace' => 'Zawna thlâkna',
+	'wikieditor-toolbar-tool-replace-title' => 'Zawng la thlâk rawh',
+	'wikieditor-toolbar-tool-replace-search' => 'Hei hi zawng rawh:',
+	'wikieditor-toolbar-tool-replace-replace' => 'Hei hian thlâk rawh:',
+	'wikieditor-toolbar-tool-replace-case' => 'A hawrawppui inmil thlapin',
+	'wikieditor-toolbar-tool-replace-button-findnext' => 'A dawt zawng rawh le',
+	'wikieditor-toolbar-tool-replace-button-replace' => 'Thlâk rawh le',
+	'wikieditor-toolbar-tool-replace-button-replaceall' => 'A vaiin thlâk rawh',
+	'wikieditor-toolbar-tool-replace-close' => 'Kharna',
+	'wikieditor-toolbar-tool-replace-nomatch' => 'I thil zawnin milpui a nei lo',
+	'wikieditor-toolbar-tool-replace-success' => 'Vawi $1 thlâk a ni.',
+	'wikieditor-toolbar-tool-replace-emptysearch' => 'Zawn tùr i ziak miah lo.',
+	'wikieditor-toolbar-tool-replace-invalidregex' => 'I thu ziah a dik lo: $1',
+	'wikieditor-toolbar-section-characters' => 'Hawrawp bîkte',
+	'wikieditor-toolbar-characters-page-latin' => 'Latin',
+	'wikieditor-toolbar-characters-page-latinextended' => 'Latin säwizàu',
+	'wikieditor-toolbar-characters-page-ipa' => 'IPA',
+	'wikieditor-toolbar-characters-page-symbols' => 'Chhinchhiahnate',
+	'wikieditor-toolbar-characters-page-greek' => 'Grik',
+	'wikieditor-toolbar-characters-page-cyrillic' => 'Sirilik (russia hawrawp ang chi)',
+	'wikieditor-toolbar-characters-page-arabic' => 'arabik',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'Arabik sâwizàu',
+	'wikieditor-toolbar-characters-page-persian' => 'Persia',
+	'wikieditor-toolbar-characters-page-hebrew' => 'Hebrai',
+	'wikieditor-toolbar-characters-page-bangla' => 'benggawli',
+	'wikieditor-toolbar-characters-page-telugu' => 'Telegu',
+	'wikieditor-toolbar-characters-page-sinhala' => 'Sinhala',
+	'wikieditor-toolbar-characters-page-gujarati' => 'Gujarati',
+	'wikieditor-toolbar-characters-page-thai' => 'Thaiţawng',
+	'wikieditor-toolbar-characters-page-lao' => 'Lao',
+	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
+	'wikieditor-toolbar-section-help' => 'Ţanpuina',
+	'wikieditor-toolbar-help-heading-description' => 'Sawifiahna',
+	'wikieditor-toolbar-help-heading-syntax' => 'I thu ziah',
+	'wikieditor-toolbar-help-heading-result' => 'I dawn',
+	'wikieditor-toolbar-help-page-format' => 'Inremphung',
+	'wikieditor-toolbar-help-page-link' => 'Zawmna',
+	'wikieditor-toolbar-help-page-heading' => 'Thupuite',
+	'wikieditor-toolbar-help-page-list' => 'Tlarna',
+	'wikieditor-toolbar-help-page-file' => 'Taksa',
+	'wikieditor-toolbar-help-page-reference' => 'Thulâkna',
+	'wikieditor-toolbar-help-page-discussion' => 'Sawihona',
+);
+
 /** Latvian (Latviešu)
  * @author Gleb Borisov
  * @author GreenZeb
