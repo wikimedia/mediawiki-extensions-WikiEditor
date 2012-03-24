@@ -757,15 +757,25 @@ getDefaultConfig: function() {
 					'layout': 'characters',
 					'direction': 'rtl',
 					'characters': [
+						// Letters
 						"\u05d0", "\u05d1", "\u05d2", "\u05d3", "\u05d4", "\u05d5", "\u05d6", "\u05d7", "\u05d8",
 						"\u05d9", "\u05db", "\u05da", "\u05dc", "\u05de", "\u05dd", "\u05e0", "\u05df", "\u05e1",
 						"\u05e2", "\u05e4", "\u05e3", "\u05e6", "\u05e5", "\u05e7", "\u05e8", "\u05e9", "\u05ea",
-						"\u05f3", "\u05f4", "\u05f0", "\u05f1", "\u05f2", "\u05be",
+
+						// Yiddish
+						"\u05f0", "\u05f1", "\u05f2",
+
+						// Punctuation
+						"\u05f3", "\u05f4", "\u05be", "\u2013",
+
+						// Vowels
 						[ "\u05b0\u25cc", "\u05b0" ], [ "\u05b1\u25cc", "\u05b1" ], [ "\u05b2\u25cc", "\u05b2" ],
 						[ "\u05b3\u25cc", "\u05b3" ], [ "\u05b4\u25cc", "\u05b4" ], [ "\u05b5\u25cc", "\u05b5" ],
 						[ "\u05b6\u25cc", "\u05b6" ], [ "\u05b7\u25cc", "\u05b7" ], [ "\u05b8\u25cc", "\u05b8" ],
 						[ "\u05b9\u25cc", "\u05b9" ], [ "\u05bb\u25cc", "\u05bb" ], [ "\u05bc\u25cc", "\u05bc" ],
 						[ "\u05c1\u25cc", "\u05c1" ], [ "\u05c2\u25cc", "\u05c2" ], [ "\u05c7\u25cc", "\u05c7" ],
+
+						// Cantillation
 						[ "\u0591\u25cc", "\u0591" ], [ "\u0592\u25cc", "\u0592" ], [ "\u0593\u25cc", "\u0593" ],
 						[ "\u0594\u25cc", "\u0594" ], [ "\u0595\u25cc", "\u0595" ], [ "\u0596\u25cc", "\u0596" ],
 						[ "\u0597\u25cc", "\u0597" ], [ "\u0598\u25cc", "\u0598" ], [ "\u0599\u25cc", "\u0599" ],
