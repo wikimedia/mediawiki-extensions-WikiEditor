@@ -678,7 +678,11 @@ getDefaultConfig: function() {
 						"\u060c", "\u061b", "\u061f", "\u0640",
 						// digits
 						"\u0660", "\u0661", "\u0662", "\u0663", "\u0664", "\u0665", "\u0666", "\u0667",
-						"\u0668", "\u0669", "\u066A", "\u066B", "\u066C", "\u066D"
+						"\u0668", "\u0669",
+						// other special characters
+						"\u066A", "\u066B", "\u066C", "\u066D",
+						// ZWNJ and ZWJ
+						[ "ZWNJ", "\u200C" ], [ "ZWJ", "\u200D" ]
 					]
 				},
 				// Characters for languages other than Arabic.
