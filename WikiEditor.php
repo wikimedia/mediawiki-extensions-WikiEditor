@@ -320,6 +320,7 @@ $wgResourceModules += array(
 			'wikieditor-toolbar-characters-page-persian',
 			'wikieditor-toolbar-characters-page-hebrew',
 			'wikieditor-toolbar-characters-page-bangla',
+			'wikieditor-toolbar-characters-page-tamil',
 			'wikieditor-toolbar-characters-page-telugu',
 			'wikieditor-toolbar-characters-page-sinhala',
 			'wikieditor-toolbar-characters-page-gujarati',

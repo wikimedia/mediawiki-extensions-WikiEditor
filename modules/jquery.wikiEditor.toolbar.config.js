@@ -809,6 +809,16 @@ getDefaultConfig: function() {
 						"\u09e8", "\u09e9", "\u09ea", "\u09eb", "\u09ec", "\u09ed", "\u09ee", "\u09ef", "\u09e6"
 					]
 				},
+				'tamil': {
+					'labelMsg': 'wikieditor-toolbar-characters-page-tamil',
+					'language': 'ta',
+					'layout': 'characters',
+					'characters': [
+						"\u0be6", "\u0be7", "\u0be8", "\u0be9", "\u0bea", "\u0beb", "\u0bec", "\u0bed", "\u0bee",
+						"\u0bef", "\u0bf0", "\u0bf1", "\u0bf2", "\u0bf3", "\u0bf4", "\u0bf5", "\u0bf6", "\u0bf7",
+						"\u0bf8", "\u0bf9", "\u0bfa", "\u0bd0"
+					]
+				},
 				'telugu': {
 					'labelMsg': 'wikieditor-toolbar-characters-page-telugu',
 					'language': 'te',
