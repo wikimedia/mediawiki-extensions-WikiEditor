@@ -20,9 +20,9 @@ $wgWikiEditorFeatures = array(
 
 	/* Textarea / i-frame compatible (OK to deploy) */
 
-	'toolbar' => array( 'global' => false, 'user' => true ),
+	'toolbar' => array( 'global' => true, 'user' => false ),
 	// Provides interactive tools
-	'dialogs' => array( 'global' => false, 'user' => true ),
+	'dialogs' => array( 'global' => true, 'user' => false ),
 	// Hide signature button from main namespace
 	'hidesig' => array( 'global' => true, 'user' => false ),
 
