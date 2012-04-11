@@ -20,7 +20,7 @@ $wgWikiEditorFeatures = array(
 
 	/* Textarea / i-frame compatible (OK to deploy) */
 
-	'toolbar' => array( 'global' => true, 'user' => false ),
+	'toolbar' => array( 'global' => false, 'user' => true ),
 	// Provides interactive tools
 	'dialogs' => array( 'global' => true, 'user' => false ),
 	// Hide signature button from main namespace
@@ -51,6 +51,9 @@ $wgWikiEditorFeatures = array(
 $wgWikiEditorToolbarClickTracking = false;
 
 /* Setup */
+
+// Enable toolbar preference by default
+$wgDefaultUserOptions['usebetatoolbar'] = 1;
 
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
