@@ -323,7 +323,6 @@ I guess that 'feature-providing modules' means the same as 'modules providing fe
 For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization',
 	'wikieditor-toolbar-desc' => '{{desc}}',
 	'wikieditor-toolbar-preference' => 'Option in [[Special:Preferences]]',
-{{Identical|Enable dialogs for inserting links, tables and more}}",
 	'wikieditor-toolbar-loading' => '{{Identical|Loading}}',
 	'wikieditor-toolbar-tool-bold' => '{{Identical|Bold}}',
 	'wikieditor-toolbar-tool-bold-example' => '{{Identical|Bold text}}',
