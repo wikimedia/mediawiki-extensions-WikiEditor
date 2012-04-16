@@ -22,7 +22,7 @@ $wgWikiEditorFeatures = array(
 
 	'toolbar' => array( 'global' => false, 'user' => true ),
 	// Provides interactive tools
-	'dialogs' => array( 'global' => true, 'user' => false ),
+	'dialogs' => array( 'global' => false, 'user' => true ),
 	// Hide signature button from main namespace
 	'hidesig' => array( 'global' => true, 'user' => false ),
 
@@ -51,9 +51,6 @@ $wgWikiEditorFeatures = array(
 $wgWikiEditorToolbarClickTracking = false;
 
 /* Setup */
-
-// Enable toolbar preference by default
-$wgDefaultUserOptions['usebetatoolbar'] = 1;
 
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,

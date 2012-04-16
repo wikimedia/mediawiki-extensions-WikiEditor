@@ -34,6 +34,14 @@ class WikiEditorHooks {
 			),
 		),
 		'dialogs' => array(
+			'preferences' => array(
+				// Ideally this key would be 'wikieditor-toolbar-dialogs'
+				'usebetatoolbar-cgd' => array(
+					'type' => 'toggle',
+					'label-message' => 'wikieditor-toolbar-dialogs-preference',
+					'section' => 'editing/beta',
+				),
+			),
 			'requirements' => array(
 				'usebetatoolbar-cgd' => true,
 				'usebetatoolbar' => true,
