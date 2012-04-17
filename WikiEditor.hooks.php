@@ -226,7 +226,13 @@ class WikiEditorHooks {
 	 */
 	public static function EditPageBeforeEditToolbar( &$toolbar ) {
 		if ( self::isEnabled( 'toolbar' ) ) {
-			$toolbar = '';
+			$toolbar = Html::rawElement(
+				'div', array(
+					'class' => 'wikiEditor-oldToolbar',
+					'style' => 'display:none;'
+				),
+				$toolbar
+			);
 		}
 		return true;
 	}
