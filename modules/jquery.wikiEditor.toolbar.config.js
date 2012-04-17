@@ -204,7 +204,7 @@ getDefaultConfig: function() {
 											'periMsg': 'wikieditor-toolbar-tool-heading-example',
 											'post': ' ==',
 											'regex': /^(\s*)(={1,6})(.*?)\2(\s*)$/,
-											'regexReplace': "\$1==\$3==\$4",
+											'regexReplace': "$1==$3==$4",
 											'ownline': true
 										}
 									}
@@ -218,7 +218,7 @@ getDefaultConfig: function() {
 											'periMsg': 'wikieditor-toolbar-tool-heading-example',
 											'post': ' ===',
 											'regex': /^(\s*)(={1,6})(.*?)\2(\s*)$/,
-											'regexReplace': "\$1===\$3===\$4",
+											'regexReplace': "$1===$3===$4",
 											'ownline': true
 										}
 									}
@@ -232,7 +232,7 @@ getDefaultConfig: function() {
 											'periMsg': 'wikieditor-toolbar-tool-heading-example',
 											'post': ' ====',
 											'regex': /^(\s*)(={1,6})(.*?)\2(\s*)$/,
-											'regexReplace': "\$1====\$3====\$4",
+											'regexReplace': "$1====$3====$4",
 											'ownline': true
 										}
 									}
@@ -246,7 +246,7 @@ getDefaultConfig: function() {
 											'periMsg': 'wikieditor-toolbar-tool-heading-example',
 											'post': ' =====',
 											'regex': /^(\s*)(={1,6})(.*?)\2(\s*)$/,
-											'regexReplace': "\$1=====\$3=====\$4",
+											'regexReplace': "$1=====$3=====$4",
 											'ownline': true
 										}
 									}
