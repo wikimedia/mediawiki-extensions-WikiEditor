@@ -184,6 +184,7 @@ $1:Example.jpg|Caption2",
 	'wikieditor-toolbar-characters-page-persian' => 'Persian',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Hebrew',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bangla',
+        'wikieditor-toolbar-characters-page-tamil' => 'Tamil',
 	'wikieditor-toolbar-characters-page-telugu' => 'Telugu',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Sinhala',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Gujarati',
@@ -420,6 +421,8 @@ For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Too
 For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization',
 	'wikieditor-toolbar-characters-page-hebrew' => 'This is the name of a script, or alphabet, not a language.',
 	'wikieditor-toolbar-characters-page-bangla' => 'The name of the [[w:Bengali alphabet|Bangla]] (a.k.a. Bengali) character set (alphabet) on the toolbar.
+For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization',
+	'wikieditor-toolbar-characters-page-tamil' => 'The name of the [[w:Tamil_Script#Numerals_and_symbols|Tamil]] numerals and symbols on the toolbar.
 For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization',
 	'wikieditor-toolbar-characters-page-telugu' => 'The name of the [[w:Telugu language#Alphabet|Telugu]] character set (alphabet) on the toolbar.
 For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization',
