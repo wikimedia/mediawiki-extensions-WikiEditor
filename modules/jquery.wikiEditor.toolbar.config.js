@@ -771,6 +771,18 @@ getDefaultConfig: function() {
 
 						// Punctuation
 						"\u05f3", "\u05f4", "\u05be", "\u2013",
+						{
+							'label': "\u201e\u201d",
+							'action': {
+								'type': 'encapsulate', 'options': { 'pre': "\u201e", 'post': "\u201d" }
+							}
+						},
+						{
+							'label': "\u201a\u2019",
+							'action': {
+								'type': 'encapsulate', 'options': { 'pre': "\u201a", 'post': "\u2019" }
+							}
+						},
 
 						// Vowels
 						[ "\u05b0\u25cc", "\u05b0" ], [ "\u05b1\u25cc", "\u05b1" ], [ "\u05b2\u25cc", "\u05b2" ],
