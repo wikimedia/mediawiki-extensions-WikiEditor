@@ -267,6 +267,7 @@ $1:Example.jpg|Caption2",
  * @author Liangent
  * @author Lloffiwr
  * @author Mormegil
+ * @author Njardarlogar
  * @author Onecountry
  * @author Prima klasy4na
  * @author Raymond
@@ -5969,6 +5970,7 @@ $1:Beispiel.jpg|Beschreibung2',
 	'wikieditor-toolbar-characters-page-persian' => 'Persisch',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Hebräisch',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bengalisch',
+	'wikieditor-toolbar-characters-page-tamil' => 'Tamilisch',
 	'wikieditor-toolbar-characters-page-telugu' => 'Telugu',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Singhalesisch',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Gujarati',
@@ -6991,7 +6993,9 @@ $1:Ekzemplo.jpg|Teksto2 pri dosiero',
 );
 
 /** Spanish (Español)
+ * @author -jem-
  * @author AlimanRuna
+ * @author Armando-Martin
  * @author Crazymadlover
  * @author Fitoschido
  * @author Imre
@@ -7164,6 +7168,7 @@ $1:Ejemplo.jpg|Descripción2',
 	'wikieditor-toolbar-characters-page-persian' => 'Persa',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Hebreo',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bengalí',
+	'wikieditor-toolbar-characters-page-tamil' => 'Tamil',
 	'wikieditor-toolbar-characters-page-telugu' => 'Telugú',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Sinhala',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Gujarati',
@@ -7191,7 +7196,7 @@ $1:Ejemplo.jpg|Descripción2',
 	'wikieditor-toolbar-help-content-bolditalic-syntax' => "'''''Texto en negrita y cursiva'''''",
 	'wikieditor-toolbar-help-content-bolditalic-result' => '<strong><em>Texto en negrita &amp; cursiva</em></strong>',
 	'wikieditor-toolbar-help-content-ilink-description' => 'Enlace interno',
-	'wikieditor-toolbar-help-content-ilink-syntax' => '[[Page title|Etiqueta de vínculo]]<br />[[Título de página]]',
+	'wikieditor-toolbar-help-content-ilink-syntax' => '[[Título de la página|Texto del enlace]]<br />[[Título de la página]]',
 	'wikieditor-toolbar-help-content-ilink-result' => "<a href='#'>Etiqueta de vínculo</a><br /><a href='#'>Título de página</a>",
 	'wikieditor-toolbar-help-content-xlink-description' => 'Enlace externo',
 	'wikieditor-toolbar-help-content-xlink-syntax' => '[http://www.example.org Etiqueta del enlace]<br />[http://www.example.org]<br />http://www.example.org',
@@ -8180,6 +8185,7 @@ $1:Esimerkki.jpg|Kuvateksti2',
 );
 
 /** French (Français)
+ * @author Cquoi
  * @author Crochet.david
  * @author Gomoko
  * @author IAlex
@@ -8352,6 +8358,7 @@ $1:Exemple.jpg|Description 2',
 	'wikieditor-toolbar-characters-page-persian' => 'persan',
 	'wikieditor-toolbar-characters-page-hebrew' => 'hébreu',
 	'wikieditor-toolbar-characters-page-bangla' => 'bengalî',
+	'wikieditor-toolbar-characters-page-tamil' => 'Tamoul',
 	'wikieditor-toolbar-characters-page-telugu' => 'télougou',
 	'wikieditor-toolbar-characters-page-sinhala' => 'cingalais',
 	'wikieditor-toolbar-characters-page-gujarati' => 'gujarâtî',
@@ -15969,6 +15976,7 @@ $1:Пример.jpg|Опис2',
 	'wikieditor-toolbar-characters-page-persian' => 'персиски',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Хебрејски',
 	'wikieditor-toolbar-characters-page-bangla' => 'Бенгалски',
+	'wikieditor-toolbar-characters-page-tamil' => 'тамилски',
 	'wikieditor-toolbar-characters-page-telugu' => 'Телугу',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Синхалски',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Гуџарати',
