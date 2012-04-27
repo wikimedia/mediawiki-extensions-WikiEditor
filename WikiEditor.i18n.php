@@ -12705,7 +12705,7 @@ $messages['ja'] = array(
 	'wikieditor' => '高度なウィキテキスト編集インターフェイス',
 	'wikieditor-desc' => '拡張可能なウィキテキスト編集インターフェイスと多数の機能モジュールを提供する',
 	'wikieditor-wikitext-tab' => 'ウィキテキスト',
-	'wikieditor-loading' => '読み込み中',
+	'wikieditor-loading' => '読み込み中...',
 	'wikieditor-preview-preference' => '比較プレビューを有効にする',
 	'wikieditor-preview-tab' => 'プレビュー',
 	'wikieditor-preview-changes-tab' => '変更',
@@ -12735,7 +12735,7 @@ $messages['ja'] = array(
 	'wikieditor-toolbar-preference' => '改良型編集ツールバーを有効にする',
 	'wikieditor-toolbar-dialogs-preference' => 'リンクや表などの挿入ダイアログを有効にする',
 	'wikieditor-toolbar-hidesig' => '標準名前空間で署名ボタンを非表示にする',
-	'wikieditor-toolbar-loading' => '読み込み中…',
+	'wikieditor-toolbar-loading' => '読み込み中...',
 	'wikieditor-toolbar-tool-bold' => '太字',
 	'wikieditor-toolbar-tool-bold-example' => '太字文',
 	'wikieditor-toolbar-tool-italic' => '斜体',
@@ -24226,6 +24226,7 @@ Idadi ya mistari au ya safu si halali.',
 
 /** Tamil (தமிழ்)
  * @author Karthi.dr
+ * @author Logicwiki
  * @author Surya Prakash.S.A.
  * @author TRYPPN
  * @author செல்வா
@@ -24393,6 +24394,7 @@ $1:எடுத்துக்காட்டு.jpg|படவிளக்கம
 	'wikieditor-toolbar-characters-page-persian' => 'பாரசீகம்',
 	'wikieditor-toolbar-characters-page-hebrew' => 'எபிரேயம் (ஈபுரு)',
 	'wikieditor-toolbar-characters-page-bangla' => 'வங்காளம்',
+	'wikieditor-toolbar-characters-page-tamil' => 'தமிழ்',
 	'wikieditor-toolbar-characters-page-telugu' => 'தெலுங்கு',
 	'wikieditor-toolbar-characters-page-sinhala' => 'சிங்களம்',
 	'wikieditor-toolbar-characters-page-gujarati' => 'குசராத்தி',
