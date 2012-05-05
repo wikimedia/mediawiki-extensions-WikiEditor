@@ -1232,6 +1232,7 @@ $messages['ang'] = array(
 
 /** Arabic (العربية)
  * @author Aiman titi
+ * @author DRIHEM
  * @author McDutchie
  * @author Meno25
  * @author OsamaK
@@ -1271,8 +1272,8 @@ $messages['ar'] = array(
 	'wikieditor-toc-hide' => 'أخفِ المحتويات',
 	'wikieditor-toolbar' => 'شريط أدوات التحرير',
 	'wikieditor-toolbar-desc' => 'شريط تحرير الصفحات مع تحسين الاستخدامية',
-	'wikieditor-toolbar-preference' => 'مكّن شريط أدوات التحرير المُحسّن',
-	'wikieditor-toolbar-dialogs-preference' => 'مكّن حوارات إدراج الوصلات والجداول وغيرها',
+	'wikieditor-toolbar-preference' => 'مكن شريط أدوات التحرير المحسن',
+	'wikieditor-toolbar-dialogs-preference' => 'مكن حوارات إدراج الوصلات والجداول وغيرها',
 	'wikieditor-toolbar-hidesig' => 'إخفاء زر التوقيع من الصفحات الموجودة في مساحة الاسم الرئيسي',
 	'wikieditor-toolbar-loading' => 'يُحمّل...',
 	'wikieditor-toolbar-tool-bold' => 'غليظ',
@@ -1400,6 +1401,7 @@ $1:Example.jpg|تعليق2',
 	'wikieditor-toolbar-characters-page-persian' => 'الفارسية',
 	'wikieditor-toolbar-characters-page-hebrew' => 'عبرية',
 	'wikieditor-toolbar-characters-page-bangla' => 'بنغالية',
+	'wikieditor-toolbar-characters-page-tamil' => 'التاميل',
 	'wikieditor-toolbar-characters-page-telugu' => 'تيلوجية',
 	'wikieditor-toolbar-characters-page-sinhala' => 'سنهالية',
 	'wikieditor-toolbar-characters-page-gujarati' => 'غجراتية',
@@ -18096,6 +18098,7 @@ $1:Voorbeeld.jpg|Bijschrift2',
  * @author Gunnernett
  * @author Harald Khan
  * @author Nghtwlkr
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'wikieditor' => 'Avansert grensesnitt for endring av wikitekst',
@@ -18199,7 +18202,7 @@ $messages['nn'] = array(
 	'wikieditor-toolbar-tool-gallery' => 'Biletgalleri',
 	'wikieditor-toolbar-tool-gallery-example' => '$1:Døme.jpg|Bilettekst1
 $1:Døme.jpg|Bilettekst2',
-	'wikieditor-toolbar-tool-newline' => 'Ny lina',
+	'wikieditor-toolbar-tool-newline' => 'Ny line',
 	'wikieditor-toolbar-tool-table' => 'Tabell',
 	'wikieditor-toolbar-tool-table-example-old' => '-
 ! overskrift 1
