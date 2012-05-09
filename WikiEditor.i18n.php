@@ -23766,6 +23766,7 @@ $1:Conto.jpg|Pedaran2',
  * @author Cohan
  * @author Dafer45
  * @author Hannibal
+ * @author Lokal Profil
  * @author McDutchie
  * @author Sertion
  * @author Warrakkk
@@ -23930,6 +23931,7 @@ $1:Exempel.jpg|Bildtext2',
 	'wikieditor-toolbar-characters-page-persian' => 'Persiska',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Hebreiska',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bengali',
+	'wikieditor-toolbar-characters-page-tamil' => 'Tamil',
 	'wikieditor-toolbar-characters-page-telugu' => 'Telugu',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Singalesiska',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Gujarati',
