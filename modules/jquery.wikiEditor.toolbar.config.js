@@ -619,7 +619,7 @@ getDefaultConfig: function() {
 				'greek': {
 					'labelMsg': 'wikieditor-toolbar-characters-page-greek',
 					'layout': 'characters',
-					'language': 'hl',
+					'language': 'el',
 					'characters': [
 						"\u0391", "\u0386", "\u03b1", "\u03ac", "\u0392", "\u03b2", "\u0393", "\u03b3", "\u0394",
 						"\u03b4", "\u0395", "\u0388", "\u03b5", "\u03ad", "\u0396", "\u03b6", "\u0397", "\u0389",
