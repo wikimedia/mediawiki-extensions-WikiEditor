@@ -6097,17 +6097,17 @@ $messages['diq'] = array(
 	'wikieditor-previewDialog-tab' => 'Verqayt',
 	'wikieditor-previewDialog-loading' => 'Ho bar keno...',
 	'wikieditor-publish-preference' => 'Game be game çap kerdişi a bike',
-	'wikieditor-publish-button-publish' => 'Çap ke',
+	'wikieditor-publish-button-publish' => 'Vıla ke',
 	'wikieditor-publish-button-cancel' => 'Iptal bike',
 	'wikieditor-publish-dialog-title' => '{{SITENAME}} rê çap ke',
 	'wikieditor-publish-dialog-summary' => 'Xulasayê vurnayişi (ser vurnayişê xo xulasa binuse):',
 	'wikieditor-publish-dialog-minor' => 'Vurnayişo qickek',
 	'wikieditor-publish-dialog-watch' => 'Ena pele seyr bike',
-	'wikieditor-publish-dialog-publish' => 'Çap ke',
+	'wikieditor-publish-dialog-publish' => 'Vıla ke',
 	'wikieditor-publish-dialog-goback' => 'Reyna şi',
 	'wikieditor-template-editor-preference' => 'Vurnayışê form-bıngeyınê şablonanê wikiy feal ke',
 	'wikieditor-template-editor-dialog-title' => 'Sabloni bivurnê',
-	'wikieditor-template-editor-dialog-submit' => 'Rocaniye',
+	'wikieditor-template-editor-dialog-submit' => 'Demeye',
 	'wikieditor-template-editor-dialog-cancel' => 'Bıterkne',
 	'wikieditor-templates-preference' => 'Qic kerdisê sabloni a bike',
 	'wikieditor-toc-preference' => 'Tabloyo tedeesteyi ke navigasyon keno ay a bike',
@@ -6126,7 +6126,7 @@ $messages['diq'] = array(
 	'wikieditor-toolbar-tool-ilink-example' => 'sernameyê gıreyi',
 	'wikieditor-toolbar-tool-xlink' => 'gıreyê teberi (http:// prefixi xo vir ra mekerê)',
 	'wikieditor-toolbar-tool-xlink-example' => 'http://www.misal.com sernameyê gıreyi',
-	'wikieditor-toolbar-tool-link' => 'gıre',
+	'wikieditor-toolbar-tool-link' => 'Link',
 	'wikieditor-toolbar-tool-link-title' => 'gıre bıerz',
 	'wikieditor-toolbar-tool-link-int' => 'yew pelê wiki re',
 	'wikieditor-toolbar-tool-link-int-target' => 'sernameyê peli',
@@ -14327,6 +14327,7 @@ $1:Beishpell.jpg|zweijte Beld-Täx',
 /** Kurdish (Latin script) (‪Kurdî (latînî)‬)
  * @author Erdal Ronahi
  * @author George Animal
+ * @author Ghybu
  * @author Gomada
  */
 $messages['ku-latn'] = array(
@@ -14394,6 +14395,7 @@ $messages['ku-latn'] = array(
 	'wikieditor-toolbar-tool-table-insert' => 'Têxistin',
 	'wikieditor-toolbar-tool-table-cancel' => 'Betal',
 	'wikieditor-toolbar-tool-replace-close' => 'Girtin',
+	'wikieditor-toolbar-section-characters' => 'Karakterên taybet',
 	'wikieditor-toolbar-characters-page-latin' => 'Latînî',
 	'wikieditor-toolbar-characters-page-latinextended' => 'Latînî berfirehkirî',
 	'wikieditor-toolbar-characters-page-ipa' => 'IPA',
