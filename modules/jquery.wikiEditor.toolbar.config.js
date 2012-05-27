@@ -462,7 +462,7 @@ getDefaultConfig: function() {
 							'action': {
 								'type': 'encapsulate',
 								'options': {
-									'pre': "#REDIRECT [[",
+									'pre': mw.config.get( 'wgWikiEditorMagicWords' ).redirect + ' [[',
 									'periMsg': 'wikieditor-toolbar-tool-redirect-example',
 									'post': "]]",
 									'ownline': true
