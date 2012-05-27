@@ -6112,7 +6112,7 @@ $messages['diq'] = array(
 	'wikieditor-publish-dialog-goback' => 'Reyna şi',
 	'wikieditor-template-editor-preference' => 'Vurnayışê form-bıngeyınê şablonanê wikiy feal ke',
 	'wikieditor-template-editor-dialog-title' => 'Sabloni bivurnê',
-	'wikieditor-template-editor-dialog-submit' => 'Demeye',
+	'wikieditor-template-editor-dialog-submit' => 'Newen ke',
 	'wikieditor-template-editor-dialog-cancel' => 'Bıterkne',
 	'wikieditor-templates-preference' => 'Qic kerdisê sabloni a bike',
 	'wikieditor-toc-preference' => 'Tabloyo tedeesteyi ke navigasyon keno ay a bike',
@@ -8228,6 +8228,7 @@ $1:Esimerkki.jpg|Kuvateksti2',
 /** French (Français)
  * @author Cquoi
  * @author Crochet.david
+ * @author DavidL
  * @author Gomoko
  * @author IAlex
  * @author Jean-Frédéric
@@ -8403,6 +8404,7 @@ $1:Exemple.jpg|Description 2',
 	'wikieditor-toolbar-characters-page-telugu' => 'télougou',
 	'wikieditor-toolbar-characters-page-sinhala' => 'cingalais',
 	'wikieditor-toolbar-characters-page-gujarati' => 'gujarâtî',
+	'wikieditor-toolbar-characters-page-devanagari' => 'Devanagari',
 	'wikieditor-toolbar-characters-page-thai' => 'thaï',
 	'wikieditor-toolbar-characters-page-lao' => 'laotien',
 	'wikieditor-toolbar-characters-page-khmer' => 'khmer',
@@ -10165,6 +10167,7 @@ $1:דוגמה.jpg|כותרת 2',
 	'wikieditor-toolbar-characters-page-telugu' => 'טלוגו',
 	'wikieditor-toolbar-characters-page-sinhala' => 'סינהלה',
 	'wikieditor-toolbar-characters-page-gujarati' => "גוג'רטית",
+	'wikieditor-toolbar-characters-page-devanagari' => 'דוונגארי',
 	'wikieditor-toolbar-characters-page-thai' => 'תאית',
 	'wikieditor-toolbar-characters-page-lao' => 'לאו',
 	'wikieditor-toolbar-characters-page-khmer' => 'קמר',
