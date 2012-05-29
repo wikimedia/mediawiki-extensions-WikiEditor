@@ -17254,6 +17254,13 @@ $messages['myv'] = array(
 	'wikieditor-toolbar-help-content-signature-description' => 'Кедень путома',
 );
 
+/** Mazanderani (مازِرونی)
+ * @author Mehdi
+ */
+$messages['mzn'] = array(
+	'wikieditor-toolbar-tool-replace-title' => 'چرخه‌تو و جایگزین هاکردن',
+);
+
 /** Nahuatl (Nāhuatl)
  * @author Ricardo gs
  * @author Teòtlalili
@@ -23608,8 +23615,11 @@ $1:primer2.jpg|Naslov2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Obični tekst<dl><dd>Uvučeni tekst<dl><dd>Uvučeni tekst</dd></dl></dd></dl>',
 );
 
-/** Seeltersk (Seeltersk) */
+/** Seeltersk (Seeltersk)
+ * @author Pyt
+ */
 $messages['stq'] = array(
+	'wikieditor-toolbar-section-advanced' => 'Ärwiederd',
 	'wikieditor-toolbar-help-content-bolditalic-result' => '<strong><em>Fatten &amp; kursiven Text</em></strong>',
 	'wikieditor-toolbar-help-content-ilink-description' => 'Internen Link',
 );
