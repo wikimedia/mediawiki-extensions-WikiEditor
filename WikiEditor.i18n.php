@@ -1944,6 +1944,7 @@ $1:Example.jpg|শিৰোনাম ২',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'সকলো  প্ৰতিস্থাপন',
 	'wikieditor-toolbar-tool-replace-close' => 'বন্ধ',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'আপোনাৰ অনুসন্ধানৰ কতো সামঞ্জচ্য পোৱা ন’গল।',
+	'wikieditor-toolbar-tool-replace-success' => '$1 টো প্ৰতিস্থাপন সম্পন্ন হৈছে।',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'সন্ধান কৰিবলৈ আপুনি একো টাইপ কৰা নাই।',
 	'wikieditor-toolbar-tool-replace-invalidregex' => 'আপুনি প্ৰদান কৰা ৰেগুলাৰ এক্সপ্রেছনটো অবৈধ: $1',
 	'wikieditor-toolbar-section-characters' => 'বিশেষ চিহ্নসমূহ:',
@@ -4045,7 +4046,7 @@ $1:Example.jpg|ক্যাপশন২',
 	'wikieditor-toolbar-help-content-indent-result' => 'চুমকার ইকা<dl><dd>কাসাদিয়াসি ইকা<dl><dd>কাসাদিয়াসি ইকা</dd></dl></dd></dl>',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fohanno
  * @author Fulup
  * @author Gwendal
@@ -4216,6 +4217,7 @@ $1:Skouer.jpg|Deskrivadur2',
 	'wikieditor-toolbar-characters-page-telugu' => 'Telougou',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Sinhala',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Gujarati',
+	'wikieditor-toolbar-characters-page-devanagari' => 'Devanagari',
 	'wikieditor-toolbar-characters-page-thai' => 'Thai',
 	'wikieditor-toolbar-characters-page-lao' => 'Laoseg',
 	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
@@ -6455,6 +6457,7 @@ $1:misal.jpg|nuşteyê resmi2',
 	'wikieditor-toolbar-characters-page-greek' => 'Yunan',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'Kiril',
 	'wikieditor-toolbar-characters-page-arabic' => 'Erebki',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'Erebkiya Heraye',
 	'wikieditor-toolbar-characters-page-persian' => 'Fariski',
 	'wikieditor-toolbar-characters-page-hebrew' => 'İbraniki',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bangla',
@@ -6462,6 +6465,7 @@ $1:misal.jpg|nuşteyê resmi2',
 	'wikieditor-toolbar-characters-page-telugu' => 'Telugu',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Sinhalaki',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Gujaratki',
+	'wikieditor-toolbar-characters-page-devanagari' => 'Devanagari',
 	'wikieditor-toolbar-characters-page-thai' => 'Thai',
 	'wikieditor-toolbar-characters-page-lao' => 'Lao',
 	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
@@ -7239,7 +7243,7 @@ $1:Ekzemplo.jpg|Teksto2 pri dosiero',
 	'wikieditor-toolbar-help-content-indent-result' => 'Norma teksto<dl><dd>Krommarĝena teksto<dl><dd>Krommarĝena teksto</dd></dl><dd></dl>',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author -jem-
  * @author AlimanRuna
  * @author Armando-Martin
@@ -7487,7 +7491,7 @@ $1:Ejemplo.jpg|Descripción2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Texto normal<dl><dd>Texto indentado<dl><dd>Texto indentado</dd></dl></dd></dl>',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Avjoska
  * @author Kyng
  * @author Pikne
@@ -9668,6 +9672,7 @@ $1:Byschpil.jpg|Bschriftig2',
 	'wikieditor-toolbar-characters-page-telugu' => 'Telugu',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Singhalesisch',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Gujarati',
+	'wikieditor-toolbar-characters-page-devanagari' => 'Devanagari',
 	'wikieditor-toolbar-characters-page-thai' => 'Thai',
 	'wikieditor-toolbar-characters-page-lao' => 'Lao',
 	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
@@ -20818,7 +20823,7 @@ $1:Qhawarichiy.jpg|Ch'uyanchay2",
 	'wikieditor-toolbar-help-content-indent-result' => 'Sapsi qillqa<dl><dd>Anchhuchisqa qillqa<dl><dd>Anchhuchisqa qillqa</dd></dl></dd></dl>',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author AdiJapan
  * @author Cin
  * @author Firilacroco
@@ -21288,7 +21293,7 @@ $1:Example.jpg|Titele2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Teste normale<dl><dd>Teste idendate<dl><dd>Teste idendate</dd></dl></dd></dl>',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Claymore
  * @author Dim Grits
  * @author Eleferen
