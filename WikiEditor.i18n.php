@@ -13869,12 +13869,13 @@ $messages['kn'] = array(
  * @author Kwj2772
  * @author Mintz0223
  * @author 관인생략
+ * @author 아라
  */
 $messages['ko'] = array(
 	'wikieditor' => '확장된 위키텍스트 편집 인터페이스',
 	'wikieditor-desc' => '확장된 위키 문법 편집 인터페이스와 다양한 기능을 제공하는 모듈을 제공',
 	'wikieditor-wikitext-tab' => '위키텍스트',
-	'wikieditor-loading' => '로딩중',
+	'wikieditor-loading' => '불러 오는 중...',
 	'wikieditor-preview-preference' => '미리 보기 비교 활성화',
 	'wikieditor-preview-tab' => '미리 보기',
 	'wikieditor-preview-changes-tab' => '차이',
@@ -13891,7 +13892,7 @@ $messages['ko'] = array(
 	'wikieditor-publish-dialog-watch' => '이 문서 주시하기',
 	'wikieditor-publish-dialog-publish' => '게시',
 	'wikieditor-publish-dialog-goback' => '돌아가기',
-	'wikieditor-template-editor-preference' => '위키 틀의 폼 기반 편집을 활성화하기',
+	'wikieditor-template-editor-preference' => '위키 틀의 양식 기반 편집을 활성화하기',
 	'wikieditor-template-editor-dialog-title' => '틀 편집하기',
 	'wikieditor-template-editor-dialog-submit' => '업데이트',
 	'wikieditor-template-editor-dialog-cancel' => '취소',
@@ -14494,9 +14495,11 @@ $1:Beishpell.jpg|zweijte Beld-Täx',
 	'wikieditor-toolbar-characters-page-persian' => 'Pärsesch',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Hebräjesch',
 	'wikieditor-toolbar-characters-page-bangla' => 'Benjaalesch',
+	'wikieditor-toolbar-characters-page-tamil' => 'Tamiilesch',
 	'wikieditor-toolbar-characters-page-telugu' => 'Teluuju',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Singhaleesesch',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Jujaraatesch',
+	'wikieditor-toolbar-characters-page-devanagari' => 'Devanagari',
 	'wikieditor-toolbar-characters-page-thai' => 'Thailändesch',
 	'wikieditor-toolbar-characters-page-lao' => 'Laotesch',
 	'wikieditor-toolbar-characters-page-khmer' => 'Khmer-Kambodschaanesch',
