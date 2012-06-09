@@ -337,8 +337,9 @@ fn: {
 						$.wikiEditor.imgPath + 'toolbar/'
 					);
 					if ( typeof offsetOrIcon == 'object' ) {
-						$button = $( '<span/>' )
+						$button = $( '<a/>' )
 							.attr( {
+								'href' : '#',
 								'alt' : label,
 								'title' : label,
 								'rel' : id,
