@@ -2028,7 +2028,7 @@ $1:Example.jpg|শিৰোনাম ২',
 	'wikieditor-toolbar-help-content-signature-result' => "<a href='#' title='{{#special:mypage}}'>ব্যৱহাৰকাৰী</a> (<a href='#' title='{{#special:mytalk}}'>আলোচনা</a>)",
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -2263,7 +2263,7 @@ $1:Exemplu.jpg|Pie2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Testu normal<dl><dd>Testu con sangría<dl><dd>Testu con sangría</dd></dl></dd></dl>',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  * @author Koc61
  * @author PPerviz
@@ -2682,7 +2682,7 @@ $messages['bar'] = array(
 	'wikieditor-templates-preference' => 'Aktiviarung vom Eih- und Ausblenden voh Vurlong',
 );
 
-/** Belarusian (Беларуская)
+/** Belarusian (беларуская)
  * @author Maksim L.
  * @author Yury Tarasievich
  */
@@ -3149,7 +3149,7 @@ $1:Прыклад.jpg|Подпіс2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Звычайны тэкст<dl><dd>Тэкст з водступам<dl><dd>Тэкст з водступам</dd></dl></dd></dl>',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  * @author McDutchie
  * @author Spiritia
@@ -3822,7 +3822,7 @@ $messages['bo'] = array(
 	'wikieditor-toolbar-help-page-list' => 'རེའུ་མིག',
 );
 
-/** Bishnupria Manipuri (ইমার ঠার/বিষ্ণুপ্রিয়া মণিপুরী)
+/** Bishnupria Manipuri (বিষ্ণুপ্রিয়া মণিপুরী)
  * @author Usingha
  */
 $messages['bpy'] = array(
@@ -4286,7 +4286,7 @@ $1:Skouer.jpg|Deskrivadur2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Testenn normal<dl><dd>Testenn endantet<dl><dd>Testenn endantet</dd></dl></dd></dl>',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  * @author Palapa
  */
@@ -4518,7 +4518,7 @@ $1:Example.jpg|Opis2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Obični tekst<dl><dd>Uvučeni tekst<dl><dd>Uvučeni tekst</dd></dl></dd></dl>',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author BroOk
  * @author Martorell
  * @author Paucabot
@@ -4988,7 +4988,7 @@ $1:Example.jpg|Цуьнах лаце2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Гуттарлера йоза<dl><dd>Дlахилийна йоза<dl><dd>Дlахилийна йоза</dd></dl></dd></dl>',
 );
 
-/** Sorani (کوردی)
+/** Sorani Kurdish (کوردی)
  * @author Asoxor
  * @author Marmzok
  * @author McDutchie
@@ -5218,7 +5218,7 @@ $1:نموونە.jpg|شرۆڤەی ٢',
 	'wikieditor-toolbar-help-content-indent-result' => 'دەقی ئاسایی<dl><dd>دەقی پێشچوو<dl><dd>دەقی پێشچوو</dd></dl></dd></dl>',
 );
 
-/** Corsican (Corsu) */
+/** Corsican (corsu) */
 $messages['co'] = array(
 	'wikieditor-toolbar-tool-heading-1' => 'Livellu 1',
 	'wikieditor-toolbar-tool-heading-2' => 'Livellu 2',
@@ -5227,7 +5227,7 @@ $messages['co'] = array(
 	'wikieditor-toolbar-tool-heading-5' => 'Livellu 5',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Kuvaly
  * @author Mormegil
  */
@@ -7733,7 +7733,7 @@ $1:Näide.jpg|Pildiallkiri2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Harilik tekst<dl><dd>Taandega tekst<dl><dd>Taandega tekst</dd></dl></dd></dl>',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  * @author Inorbez
  * @author Joxemai
@@ -8205,7 +8205,7 @@ $1:مثال.jpg|عنوان ۲',
 	'wikieditor-toolbar-help-content-indent-result' => 'متن عادی<dl><dd>متن تورفته<dl><dd>متن تورفته</dd></dl></dd></dl>',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Nedergard
  * @author Nike
@@ -8444,7 +8444,7 @@ $1:Esimerkki.jpg|Kuvateksti2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Normaali teksti<dl><dd>Sisennetty teksti<dl><dd>Sisennetty teksti</dd></dl></dd></dl>',
 );
 
-/** French (Français)
+/** French (français)
  * @author Cquoi
  * @author Crochet.david
  * @author DavidL
@@ -8690,7 +8690,7 @@ $1:Exemple.jpg|Description 2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Texte normal<dl><dd>Texte en retrait<dl><dd>Texte en retrait</dd></dl></dd></dl>',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -8923,7 +8923,7 @@ $1:Ègzemplo.jpg|Dèscripcion 2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Tèxto normal<dl><dd>Tèxto endentâ<dl><dd>Tèxto endentâ</dd></dl></dd></dl>',
 );
 
-/** Friulian (Furlan)
+/** Friulian (furlan)
  * @author Klenje
  */
 $messages['fur'] = array(
@@ -10680,7 +10680,7 @@ $messages['hif-latn'] = array(
 	'wikieditor-toolbar-tool-italic' => 'Tirchha',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Bugoslav
  * @author Ex13
  * @author Excaliboor
@@ -11150,7 +11150,7 @@ $1:Example.jpg|Popis2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Normalny tekst<dl><dd>Zasunjeny tekst<dl><dd>Zasunjeny tekst</dd></dl></dd></dl>',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Bdamokos
  * @author Dani
  * @author Dj
@@ -11607,7 +11607,7 @@ $1:Example.jpg|Նկարագրություն2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Սովորական տեքստ<dl><dd>Խորքից գրված տեքստ<dl><dd>Խորքից գրված տեքստ</dd></dl></dd></dl>',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -12481,7 +12481,7 @@ $messages['io'] = array(
 	'wikieditor-toolbar-help-content-signature-description' => 'Signaturo',
 );
 
-/** Icelandic (Íslenska)
+/** Icelandic (íslenska)
  * @author Krun
  * @author Maxí
  * @author Snævar
@@ -12700,7 +12700,7 @@ $1:Example.jpg|Myndlýsing2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Venjulegur texti<dl><dd>Inndreginn texti<dl><dd>Inndreginn texti</dd></dl></dd></dl>',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Aushulz
  * @author Beta16
  * @author F. Cosoleto
@@ -14681,7 +14681,7 @@ $messages['ku-latn'] = array(
 	'wikieditor-toolbar-help-content-signature-description' => 'Îmze',
 );
 
-/** Cornish (Kernowek)
+/** Cornish (kernowek)
  * @author Kw-Moon
  * @author Nrowe
  */
@@ -15469,7 +15469,7 @@ $1:Veurbeildj2|Biesjrif2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Normaal teks<dl><dd>Ingesprónge teks<dl><dd>Ingesprónge teks</dd></dl></dd></dl>',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Garas
  * @author Hugo.arg
  * @author Matasg
@@ -15700,7 +15700,7 @@ $1:Pavyzdys.jpg|Aprašymas2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Normalus tekstas<dl><dd>Įtrauktas tekstas<dl><dd>Įtrauktas tekstas</dd></dl></dd></dl>',
 );
 
-/** Latgalian (Latgaļu)
+/** Latgalian (latgaļu)
  * @author Dark Eagle
  */
 $messages['ltg'] = array(
@@ -15899,7 +15899,7 @@ $1:Entirna.jpg|Sawifiahna2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Thu tlúang<dl><dd>Tlar tihchìam<dl><dd>Tihtlum lehchhàwn</dd></dl></dd></dl>',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author Gleb Borisov
  * @author GreenZeb
  * @author Marozols
@@ -16358,7 +16358,7 @@ $1:Contoh.jpg|Judul2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Teks normal<dl><dd>Teks lekuk<dl><dd>Teks lekuk</dd></dl></dd></dl>',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  * @author Brest
  */
@@ -16829,7 +16829,7 @@ $1:Example.jpg|കുറിപ്പ്2',
 	'wikieditor-toolbar-help-content-indent-result' => 'സാധാരണ എഴുത്ത്<dl><dd>നീക്കിയുള്ള എഴുത്ത്<dl><dd>നീക്കിയുള്ള എഴുത്ത്</dd></dl></dd></dl>',
 );
 
-/** Mongolian (Монгол)
+/** Mongolian (монгол)
  * @author Chinneeb
  */
 $messages['mn'] = array(
@@ -18471,7 +18471,7 @@ $1:Voorbeeld.jpg|Bijschrift2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Normale tekst<dl><dd>Ingesprongen tekst<dl><dd>Ingesprongen tekst</dd></dl></dd></dl>',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Eirik
  * @author Gunnernett
  * @author Harald Khan
@@ -18733,7 +18733,7 @@ $messages['nso'] = array(
 	'wikieditor-toolbar-help-content-heading5-syntax' => '== Ditlhaka tša hlogo-taba ==',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Boulaur
  * @author Cedric31
  * @author Jfblanc
@@ -19281,7 +19281,7 @@ $messages['pfl'] = array(
 	'wikieditor-toolbar-help-content-bold-syntax' => "'''Fedde Tegschd'''",
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  * @author Leinad
  * @author Marcin Łukasz Kiejzik
@@ -20182,7 +20182,7 @@ $messages['ps'] = array(
 	'wikieditor-toolbar-help-content-indent-result' => 'عادي  متن<dl><dd>سرتشېدلی متن<dl><dd>سرتشېدلی متن</dd></dl></dd></dl>',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author 555
  * @author Giro720
  * @author Hamilton Abreu
@@ -20421,7 +20421,7 @@ $1:Exemplo2.jpg|Legenda2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Texto normal<dl><dd>Texto indentado<dl><dd>Texto indentado</dd></dl></dd></dl>',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author 555
  * @author Daemorris
  * @author Everton137
@@ -21130,7 +21130,7 @@ $1:Exemplu.jpg|Descriere 2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Text normal<dl><dd>Text indentat<dl><dd>Text indentat</dd></dl></dd></dl>',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  * @author Reder
  */
@@ -21858,7 +21858,7 @@ $messages['sa'] = array(
 	'wikieditor-toolbar-section-help' => 'साहाय्यम्',
 );
 
-/** Sakha (Саха тыла)
+/** Sakha (саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
@@ -22089,7 +22089,7 @@ $1:Example.jpg|Сурук2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Судургу тиэкис<dl><dd>Отступтаах тиэкис<dl><dd>Отступтаах тиэкис</dd></dl></dd></dl>',
 );
 
-/** Sardinian (Sardu)
+/** Sardinian (sardu)
  * @author Andria
  */
 $messages['sc'] = array(
@@ -22293,7 +22293,7 @@ $1:Esèmpiu.jpg|Didascalia2',
 	'wikieditor-toolbar-help-content-indent-description' => 'Indentatzione',
 );
 
-/** Sicilian (Sicilianu)
+/** Sicilian (sicilianu)
  * @author Aushulz
  * @author Gmelfi
  */
@@ -22783,7 +22783,7 @@ $1:උදාහරණ.jpg| 2 යටි ලියමන',
 	'wikieditor-toolbar-help-content-indent-result' => 'සාමාන්‍ය පෙළ<dl><dd>ඉන්ඩෙන්ට් කළ පෙළ<dl><dd>ඉන්ඩෙන්ට් කළ පෙළ</dd></dl></dd></dl>',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  * @author Jkjk
  * @author McDutchie
@@ -23018,7 +23018,7 @@ $1:Príklad.jpg|Popis2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Bežný text<dl><dd>Odsadený text<dl><dd>Odsadený text</dd></dl></dd></dl>',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -23251,7 +23251,7 @@ $1:Primer 2.jpg|Napis 2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Navadno besedilo <dl><dd> Zamaknjeno besedilo <dl><dd> Še bolj zamaknjeno besedilo </dd></dl></dd></dl>',
 );
 
-/** Albanian (Shqip)
+/** Albanian (shqip)
  * @author Mikullovci11
  * @author Olsi
  */
@@ -23481,7 +23481,7 @@ $messages['sq'] = array(
 	'wikieditor-toolbar-help-content-indent-result' => 'Tekst normal<dl><dd>Tekst me kryeradhë<dl><dd>Tekst me kryeradhë</dd></dl></dd></dl>',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Charmed94
  * @author Helios13
  * @author McDutchie
@@ -23720,7 +23720,7 @@ $1:пример2.jpg|Наслов2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Обични текст<dl><dd>Увучени текст<dl><dd>Увучени текст</dd></dl></dd></dl>',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Liangent
  * @author McDutchie
  * @author Rancher
@@ -24149,7 +24149,7 @@ $1:Conto.jpg|Pedaran2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Téks normal<dl><dd>Téks ngelok<dl><dd>Téks ngelok</dd></dl></dd></dl>',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Ainali
  * @author Boivie
  * @author Cohan
@@ -25064,13 +25064,13 @@ $1:Example.jpg|ఉపశీర్షిక2',
 	'wikieditor-toolbar-help-content-signature-result' => "<a href='#' title='{{#special:mypage}}'>వాడుకరిపేరు</a> (<a href='#' title='{{#special:mytalk}}'>చర్చ</a>)",
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ) */
+/** Tajik (Cyrillic script) (тоҷикӣ) */
 $messages['tg-cyrl'] = array(
 	'wikieditor-toolbar-tool-link' => 'Пайванд',
 	'wikieditor-toolbar-tool-link-cancel' => 'Лағв',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -26008,7 +26008,7 @@ $1:Örnek.jpg|Altyazı 2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Normal metin<dl><dd>Girintili metin<dl><dd>Girintili metin</dd></dl></dd></dl>',
 );
 
-/** Tatar (Cyrillic script) (Татарча)
+/** Tatar (Cyrillic script) (татарча)
  * @author Bulatbulat
  * @author Zahidulla
  * @author Ильнар
@@ -26242,7 +26242,7 @@ $1:Мисал.jpg|Тасвирлама2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Гади текст<dl><dd>Чигенешле текст<dl><dd>Чигенешле текст</dd></dl></dd></dl>',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author AS
  * @author Ahonc
  * @author Dim Grits
@@ -26686,7 +26686,7 @@ $1:مثال.jpg|تعقیب2',
 	'wikieditor-toolbar-help-content-signature-description' => 'دستخط',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  * @author Vajotwo
  */
@@ -28081,7 +28081,7 @@ Bangla',
 	'wikieditor-toolbar-help-content-indent-result' => '標準字<dl><dd>縮排字<dl><dd>縮排字</dd></dl></dd></dl>',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Anakmalaysia
  * @author Bencmq
  * @author Fantasticfears
@@ -28323,7 +28323,7 @@ $1:Example.jpg|标题2',
 	'wikieditor-toolbar-help-content-indent-result' => '标准文本<dl><dd>缩进文本<dl><dd>缩进文本</dd></dl></dd></dl>',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Anakmalaysia
  * @author Frankou
  * @author Gaoxuewei
