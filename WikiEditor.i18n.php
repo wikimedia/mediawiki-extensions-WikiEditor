@@ -5800,7 +5800,7 @@ $1:Enghraifft.jpg|Disgrifiad2',
 	'wikieditor-toolbar-help-content-indent-result' => "Ysgrifen rheolaidd<dl><dd>Ysgrifen wedi'i mewnoli<dl><dd>Ysgrifen wedi'i mewnoli</dd></dl></dd></dl>",
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Christian List
  * @author F. Cosoleto
  * @author Froztbyte
@@ -5973,6 +5973,7 @@ $1:Eksempel.jpg|Billedtekst2',
 	'wikieditor-toolbar-characters-page-telugu' => 'Telugu',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Singalesisk',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Gujarati',
+	'wikieditor-toolbar-characters-page-devanagari' => 'Devanagari',
 	'wikieditor-toolbar-characters-page-thai' => 'Thai',
 	'wikieditor-toolbar-characters-page-lao' => 'Laotisk',
 	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
