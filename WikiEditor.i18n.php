@@ -9179,7 +9179,7 @@ $1:Ballsampaill.jpg|Mìneachadh an deilbh2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Teacsa àbhaisteach<dl><dd>Teacsa air eagachadh a-steach<dl><dd>Teacsa air eagachadh a-steach</dd></dl></dd></dl>',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -9389,7 +9389,7 @@ $1:Example.jpg|Pé_de_foto_2',
 	'wikieditor-toolbar-help-content-heading5-description' => 'Cabeceira de 5º nivel',
 	'wikieditor-toolbar-help-content-heading5-syntax' => '===== Texto de cabeceira =====',
 	'wikieditor-toolbar-help-content-heading5-result' => '<h5>Texto de cabeceira</h5>',
-	'wikieditor-toolbar-help-content-ulist-description' => 'Lista de asteriscos',
+	'wikieditor-toolbar-help-content-ulist-description' => 'Lista con asteriscos',
 	'wikieditor-toolbar-help-content-ulist-syntax' => '* Elemento da lista<br />* Elemento da lista',
 	'wikieditor-toolbar-help-content-ulist-result' => '<ul><li>Elemento da lista</li><li>Elemento da lista</li></ul>',
 	'wikieditor-toolbar-help-content-olist-description' => 'Lista numerada',
@@ -12334,9 +12334,11 @@ $1:Example.jpg|Naisurat2',
 	'wikieditor-toolbar-characters-page-persian' => 'Persiano',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Hebreo',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bangla',
+	'wikieditor-toolbar-characters-page-tamil' => 'Tamil',
 	'wikieditor-toolbar-characters-page-telugu' => 'Telugu',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Sinhala',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Gujarati',
+	'wikieditor-toolbar-characters-page-devanagari' => 'Devanagari',
 	'wikieditor-toolbar-characters-page-thai' => 'Thai',
 	'wikieditor-toolbar-characters-page-lao' => 'Lao',
 	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
