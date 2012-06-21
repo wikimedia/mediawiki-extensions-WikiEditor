@@ -14893,6 +14893,31 @@ $1:Ensampel.jpg|Deskrifans2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Tekst usadow<dl><dd>Tekst krybys<dl><dd>Tekst krybys</dd></dl></dd></dl>',
 );
 
+/** Kirghiz (Кыргызча)
+ * @author Chorobek
+ */
+$messages['ky'] = array(
+	'wikieditor-toolbar-section-advanced' => 'Кеңейтилген',
+	'wikieditor-toolbar-tool-heading' => 'Баш сөз',
+	'wikieditor-toolbar-tool-heading-1' => '1 Деңгээл',
+	'wikieditor-toolbar-tool-heading-2' => '2 Деңгээл',
+	'wikieditor-toolbar-tool-heading-3' => '3 Деңгээл',
+	'wikieditor-toolbar-tool-heading-4' => '4 Деңгээл',
+	'wikieditor-toolbar-tool-heading-5' => '5 Деңгээл',
+	'wikieditor-toolbar-tool-heading-example' => 'Баш сөздүн тексти',
+	'wikieditor-toolbar-group-format' => 'Жасалга',
+	'wikieditor-toolbar-tool-ulist' => 'Белгиленген тизме',
+	'wikieditor-toolbar-tool-ulist-example' => 'Белгиленген тизме бирдиги',
+	'wikieditor-toolbar-tool-olist' => 'Санакталган тизме',
+	'wikieditor-toolbar-tool-olist-example' => 'Санакталган тизме бирдиги',
+	'wikieditor-toolbar-tool-indent' => 'Бош орун',
+	'wikieditor-toolbar-tool-indent-example' => 'Бош орунду сап',
+	'wikieditor-toolbar-tool-nowiki' => 'Уики жасалгага көңүл бурба',
+	'wikieditor-toolbar-tool-nowiki-example' => 'Жасалгаланбоочу тексти бул жерге киргиз',
+	'wikieditor-toolbar-tool-redirect' => 'Багытта',
+	'wikieditor-toolbar-tool-redirect-example' => 'Керектүү барактын аты',
+);
+
 /** Latin (Latina)
  * @author OrbiliusMagister
  * @author UV
