@@ -7991,6 +7991,7 @@ $1:Adibidea.jpg|Oina2',
  * @author Huji
  * @author Ladsgroup
  * @author Mjbmr
+ * @author Reza1615
  * @author Wayiran
  * @author ZxxZxxZ
  */
@@ -8158,6 +8159,7 @@ $1:مثال.jpg|عنوان ۲',
 	'wikieditor-toolbar-characters-page-telugu' => 'تالوگو',
 	'wikieditor-toolbar-characters-page-sinhala' => 'سینهالی',
 	'wikieditor-toolbar-characters-page-gujarati' => 'گجراتی',
+	'wikieditor-toolbar-characters-page-devanagari' => 'دواناگرى',
 	'wikieditor-toolbar-characters-page-thai' => 'تایلندی',
 	'wikieditor-toolbar-characters-page-lao' => 'لائو',
 	'wikieditor-toolbar-characters-page-khmer' => 'خمر',
@@ -9763,6 +9765,7 @@ $1:Byschpil.jpg|Bschriftig2',
 );
 
 /** Gujarati (ગુજરાતી)
+ * @author Ashok modhvadia
  * @author KartikMistry
  * @author Sushant savla
  */
@@ -9927,9 +9930,11 @@ $1:Example.jpg|Caption2',
 	'wikieditor-toolbar-characters-page-persian' => 'પર્સિયન',
 	'wikieditor-toolbar-characters-page-hebrew' => 'હિબ્રૂ',
 	'wikieditor-toolbar-characters-page-bangla' => 'બાંગ્લા',
+	'wikieditor-toolbar-characters-page-tamil' => 'તામિલ',
 	'wikieditor-toolbar-characters-page-telugu' => 'તેલુગુ',
 	'wikieditor-toolbar-characters-page-sinhala' => 'સિંહાલા',
 	'wikieditor-toolbar-characters-page-gujarati' => 'ગુજરાતી',
+	'wikieditor-toolbar-characters-page-devanagari' => 'દેવનાગરી',
 	'wikieditor-toolbar-characters-page-thai' => 'થાઈ',
 	'wikieditor-toolbar-characters-page-lao' => 'લાઓ',
 	'wikieditor-toolbar-characters-page-khmer' => 'ખ્મેર',
@@ -13978,9 +13983,9 @@ $messages['ko'] = array(
 	'wikieditor-toolbar-tool-heading-5' => '5단계',
 	'wikieditor-toolbar-tool-heading-example' => '제목',
 	'wikieditor-toolbar-group-format' => '기능',
-	'wikieditor-toolbar-tool-ulist' => '순서 없는 목록',
+	'wikieditor-toolbar-tool-ulist' => '글머리 기호 목록',
 	'wikieditor-toolbar-tool-ulist-example' => '항목',
-	'wikieditor-toolbar-tool-olist' => '순서 있는 목록',
+	'wikieditor-toolbar-tool-olist' => '번호가 매겨진 목록',
 	'wikieditor-toolbar-tool-olist-example' => '항목',
 	'wikieditor-toolbar-tool-indent' => '들여쓰기',
 	'wikieditor-toolbar-tool-indent-example' => '들여쓰기',
@@ -14102,10 +14107,10 @@ $1:Example.jpg|설명2',
 	'wikieditor-toolbar-help-content-heading5-description' => '5단계 제목',
 	'wikieditor-toolbar-help-content-heading5-syntax' => '===== 제목 =====',
 	'wikieditor-toolbar-help-content-heading5-result' => '<h5>제목</h5>',
-	'wikieditor-toolbar-help-content-ulist-description' => '순서 없는 목록',
+	'wikieditor-toolbar-help-content-ulist-description' => '글머리 기호 목록',
 	'wikieditor-toolbar-help-content-ulist-syntax' => '* 목록 항목<br />* 목록 항목',
 	'wikieditor-toolbar-help-content-ulist-result' => '<ul><li>목록 항목</li><li>목록 항목</li></ul>',
-	'wikieditor-toolbar-help-content-olist-description' => '순서 있는 목록',
+	'wikieditor-toolbar-help-content-olist-description' => '번호가 매겨진 목록',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# 목록 항목<br /># 목록 항목',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>목록 항목</li><li>목록 항목</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => '파일 넣기',
