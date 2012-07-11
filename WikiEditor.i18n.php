@@ -949,7 +949,7 @@ $1: Example.jpg|Caption2',
 	'wikieditor-toolbar-help-content-indent-result' => 'tekstit Normale <dl><dd> Teksti i prerë <dl><dd> Teksti i prerë </dd></dl></dd></dl>',
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -2457,7 +2457,7 @@ $messages['az'] = array(
 	'wikieditor-toolbar-help-content-indent-result' => 'Normal mətn<dl><dd>Abzasla mətn<dl><dd>Abzasla mətn</dd></dl></dd></dl>',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Assele
  * @author Haqmar
  */
@@ -2927,7 +2927,7 @@ $1:Example.jpg|Апісанне2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Просты тэкст<dl><dd>Тэкст з водступам<dl><dd>Тэкст з водступам</dd></dl></dd></dl>',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Renessaince
@@ -4774,7 +4774,7 @@ $1:Example.jpg|Peu2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Text normal<dl><dd>Text sagnat<dl><dd>Text sagnat</dd></dl></dd></dl>',
 );
 
-/** Chechen (Нохчийн)
+/** Chechen (нохчийн)
  * @author Sasan700
  */
 $messages['ce'] = array(
@@ -5480,7 +5480,7 @@ $1:Příklad.jpg|Titulek 2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Základní text<dl><dd>Odsazený text<dl><dd>Odsazený text</dd></dl></dd></dl>',
 );
 
-/** Kashubian (Kaszëbsczi)
+/** Kashubian (kaszëbsczi)
  * @author Kuvaly
  */
 $messages['csb'] = array(
@@ -5537,7 +5537,7 @@ $messages['csb'] = array(
 	'wikieditor-toolbar-help-content-xlink-description' => 'Bùtnowé lënczi',
 );
 
-/** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
@@ -6555,7 +6555,7 @@ $1:misal.jpg|nuşteyê resmi2',
 	'wikieditor-toolbar-help-content-indent-result' => 'metno normal<dl><dd>metno indent<dl><dd>metno indent</dd></dl></dd></dl>',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -10939,7 +10939,7 @@ $1:Primjer.jpg|Opis2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Normalni tekst<dl><dd>Uvučeni tekst<dl><dd>Uvučeni tekst</dd></dl></dd></dl>',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -13482,7 +13482,7 @@ $messages['kiu'] = array(
 	'wikieditor-toolbar-tool-link' => 'Girê',
 );
 
-/** Kazakh (Cyrillic script) (‪Қазақша (кирил)‬)
+/** Kazakh (Cyrillic script) (‪қазақша (кирил)‬)
  * @author GaiJin
  * @author Kaztrans
  */
@@ -14132,7 +14132,7 @@ $1:Example.jpg|설명2',
 	'wikieditor-toolbar-help-content-indent-result' => '보통 글<dl><dd>들여쓰기된 글<dl><dd>들여쓰기된 글</dd></dl></dd></dl>',
 );
 
-/** Karachay-Balkar (Къарачай-Малкъар)
+/** Karachay-Balkar (къарачай-малкъар)
  * @author Iltever
  * @author Къарачайлы
  */
@@ -17738,7 +17738,7 @@ $1:Eżempju.jpg|Deskrizzjoni2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Test normali<dl><dd>Test indentat<dl><dd>Test indentat</dd></dl></dd></dl>',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -17946,11 +17946,13 @@ $messages['nah'] = array(
 	'wikieditor-toolbar-help-content-indent-result' => 'Sâsanỉman tlâkuilòlmantli<dl><dd>Tlâtlapouhki tlakuilòlmantli<dl><dd>Tlâtlapouhki tlâkuilòlmantli</dd></dl></dd></dl>',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
+ * @author Danmichaelo
  * @author Event
- * @author Jon Harald Søby
+ * @author Haakon K
  * @author Laaknor
  * @author Nghtwlkr
+ * @author Simny
  */
 $messages['nb'] = array(
 	'wikieditor' => 'Avansert grensesnitt for redigering av wikitekst',
@@ -18093,6 +18095,7 @@ $1:Example.jpg|Bildetekst2',
 	'wikieditor-toolbar-tool-replace-case' => 'Skill mellom store/små bokstaver',
 	'wikieditor-toolbar-tool-replace-regex' => 'Bruk søkestrengen som et regulært uttrykk',
 	'wikieditor-toolbar-tool-replace-button-findnext' => 'Finn neste',
+	'wikieditor-toolbar-tool-replace-button-replace' => 'Erstatt',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Erstatt alle',
 	'wikieditor-toolbar-tool-replace-close' => 'Lukk',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'Søket ga ingen resultater.',
@@ -18111,9 +18114,11 @@ $1:Example.jpg|Bildetekst2',
 	'wikieditor-toolbar-characters-page-persian' => 'Persisk',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Hebraisk',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bangla',
+	'wikieditor-toolbar-characters-page-tamil' => 'Tamilsk',
 	'wikieditor-toolbar-characters-page-telugu' => 'Telugu',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Singalesisk',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Gujarati',
+	'wikieditor-toolbar-characters-page-devanagari' => 'Devanagari',
 	'wikieditor-toolbar-characters-page-thai' => 'Thai',
 	'wikieditor-toolbar-characters-page-lao' => 'Laotisk',
 	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
@@ -18143,16 +18148,16 @@ $1:Example.jpg|Bildetekst2',
 	'wikieditor-toolbar-help-content-xlink-description' => 'Ekstern lenke',
 	'wikieditor-toolbar-help-content-xlink-syntax' => '[http://www.example.org Lenkenavn]<br />[http://www.example.org]<br />http://www.example.org',
 	'wikieditor-toolbar-help-content-xlink-result' => "<a href='#' class='external'>Lenkenavn</a><br /><a href='#' class='external autonumber'>[1]</a><br /><a href='#' class='external'>http://www.example.org</a>",
-	'wikieditor-toolbar-help-content-heading2-description' => '2. nivå overskrift',
+	'wikieditor-toolbar-help-content-heading2-description' => 'Overskrift på 2. nivå',
 	'wikieditor-toolbar-help-content-heading2-syntax' => '== Overskrift ==',
 	'wikieditor-toolbar-help-content-heading2-result' => '<h2>Overskrift</h2>',
-	'wikieditor-toolbar-help-content-heading3-description' => '3. nivå overskrift',
+	'wikieditor-toolbar-help-content-heading3-description' => 'Overskrift på 3. nivå',
 	'wikieditor-toolbar-help-content-heading3-syntax' => '=== Overskrift ===',
 	'wikieditor-toolbar-help-content-heading3-result' => '<h3>Overskrift</h3>',
-	'wikieditor-toolbar-help-content-heading4-description' => '4. nivå overskrift',
+	'wikieditor-toolbar-help-content-heading4-description' => 'Overskrift på 4. nivå',
 	'wikieditor-toolbar-help-content-heading4-syntax' => '==== Overskrift ====',
 	'wikieditor-toolbar-help-content-heading4-result' => '<h4>Overskrift</h4>',
-	'wikieditor-toolbar-help-content-heading5-description' => '5. nivå overskrift',
+	'wikieditor-toolbar-help-content-heading5-description' => 'Overskrift på 5. nivå',
 	'wikieditor-toolbar-help-content-heading5-syntax' => '===== Overskrift =====',
 	'wikieditor-toolbar-help-content-heading5-result' => '<h5>Overskrift</h5>',
 	'wikieditor-toolbar-help-content-ulist-description' => 'Punktliste',
@@ -21798,7 +21803,7 @@ $1:Example.jpg|Описание2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Обычный текст<dl><dd>Текст с отступом<dl><dd>Текст с отступом</dd></dl></dd></dl>',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
@@ -27108,7 +27113,7 @@ $1:Esenpio.jpg|Didascalia2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Testo normal<dl><dd>Testo rientrà<dl><dd>Testo rientrà</dd></dl></dd></dl>',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
