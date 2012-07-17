@@ -202,7 +202,8 @@ jQuery(document).ready( function ( $ ) {
 			color: '#DDDDDD',
 			padding: '0.7em',
 			border: 'none',
-			display: 'none'
+			display: 'none',
+			cursor: 'pointer'
 		} )
 		.click( function () {
 			if ( $(this).data( 'testDone' ) ) {
