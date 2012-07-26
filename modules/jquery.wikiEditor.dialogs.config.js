@@ -729,12 +729,12 @@ $.wikiEditor.modules.dialogs.config = {
 							<div class="wikieditor-toolbar-field-wrapper">\
 								<label for="wikieditor-toolbar-table-dimensions-rows"\
 									rel="wikieditor-toolbar-tool-table-dimensions-rows"></label><br/>\
-								<input type="text" id="wikieditor-toolbar-table-dimensions-rows" size="4"/>\
+								<input type="number" min="1" max="1000" id="wikieditor-toolbar-table-dimensions-rows" size="4"/>\
 							</div>\
 							<div class="wikieditor-toolbar-field-wrapper">\
 								<label for="wikieditor-toolbar-table-dimensions-columns"\
 									rel="wikieditor-toolbar-tool-table-dimensions-columns"></label><br/>\
-								<input type="text" id="wikieditor-toolbar-table-dimensions-columns" size="4"/>\
+								<input type="number" min="1" max="1000" id="wikieditor-toolbar-table-dimensions-columns" size="4"/>\
 							</div>\
 						</div>\
 					</div></fieldset>\
@@ -832,8 +832,8 @@ $.wikiEditor.modules.dialogs.config = {
 							var colsVal = $( '#wikieditor-toolbar-table-dimensions-columns' ).val();
 							var rows = parseInt( rowsVal, 10 );
 							var cols = parseInt( colsVal, 10 );
-							var header = $( '#wikieditor-toolbar-table-dimensions-header' ).is( ':checked' ) ? 1 : 0;
-							if ( isNaN( rows ) || isNaN( cols ) || rows !== rowsVal  || cols !== colsVal ) {
+							var header = $( '#wikieditor-toolbar-table-dimensions-header' ).prop( 'checked' ) ? 1 : 0;
+							if ( isNaN( rows ) || isNaN( cols ) || String( rows ) !== rowsVal  || String( cols ) !== colsVal || rowsVal < 0 || colsVal < 0 ) {
 								alert( mw.msg( 'wikieditor-toolbar-tool-table-invalidnumber' ) );
 								return;
 							}
@@ -841,7 +841,7 @@ $.wikiEditor.modules.dialogs.config = {
 								alert( mw.msg( 'wikieditor-toolbar-tool-table-zero' ) );
 								return;
 							}
-							if ( rows * cols > 1000 ) {
+							if ( ( rows * cols ) > 1000 ) {
 								alert( mw.msg( 'wikieditor-toolbar-tool-table-toomany', 1000 ) );
 								return;
 							}
