@@ -209,9 +209,9 @@ $.wikiEditor.modules.dialogs.config = {
 									} else {
 										var page = data.query.pages[data.query.pageids[0]];
 										status = 'exists';
-										if ( page.missing ) {
+										if ( page.missing !== undefined ) {
 											status = 'notexists';
-										} else if ( page.invalid ) {
+										} else if ( page.invalid !== undefined ) {
 											status = 'invalid';
 										}
 									}
