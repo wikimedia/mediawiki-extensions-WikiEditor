@@ -757,6 +757,7 @@ $.wikiEditor.modules.dialogs.config = {
 					</fieldset>',
 				init: function () {
 					var magicWordsI18N = mw.config.get( 'wgWikiEditorMagicWords' );
+					var defaultMsg = mw.msg( 'wikieditor-toolbar-file-default' );
 					$( this )
 						.find( '[data-i18n-magic]' )
 							.text( function () {
@@ -765,7 +766,9 @@ $.wikiEditor.modules.dialogs.config = {
 							.removeAttr( 'data-i18n-magic' )
 							.end()
 						.find( '#wikieditor-toolbar-file-size' )
-							.attr( 'placeholder', mw.msg( 'wikieditor-toolbar-file-default' ) )
+							.attr( 'placeholder', defaultMsg )
+							// The message may be long in some languages
+							.attr( 'size', defaultMsg.length )
 							.end()
 						.find( '[rel]' )
 							.text( function () {
