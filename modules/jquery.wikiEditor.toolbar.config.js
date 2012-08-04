@@ -1271,7 +1271,7 @@ getDefaultConfig: function() {
 						{
 							'description': { 'htmlMsg': 'wikieditor-toolbar-help-content-file-description' },
 							'syntax': { 'htmlMsg': [ 'wikieditor-toolbar-help-content-file-syntax', fileNamespace ] },
-							'result': { 'htmlMsg': [ 'wikieditor-toolbar-help-content-file-result', mw.config.get( 'stylepath' ) ] }
+							'result': { 'htmlMsg': [ 'wikieditor-toolbar-help-content-file-result', mw.config.get( 'stylepath' ), mw.config.get( 'wgExtensionAssetsPath' ) ] }
 						}
 					]
 				},
