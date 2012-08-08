@@ -22442,6 +22442,7 @@ $1:उदाहरणम्.jpg|चित्रशीर्षकम्२',
 	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>सदस्यनाम</a> (<a href='#' title='{{#special:mytalk}}'>चर्चा</a>) 15:54, 10 June 2009 (UTC)",
 	'wikieditor-toolbar-help-content-signature-description' => 'हस्ताक्षरम्',
 	'wikieditor-toolbar-help-content-signature-result' => "<a href='#' title='{{#special:mypage}}'>सदस्यनाम</a> (<a href='#' title='{{#special:mytalk}}'>चर्चा</a>)",
+	'wikieditor-toolbar-help-content-indent-description' => 'भङ्गुरीकरोति',
 	'wikieditor-toolbar-help-content-indent-syntax' => 'सामान्यलेखः<br />:समीकृतः लेखः<br />::समीकृतः लेखः',
 	'wikieditor-toolbar-help-content-indent-result' => 'सामान्यः लेखः<dl><dd>सज्जीकृतः लेखः<dl><dd>सज्जीकृतः लेखः</dd></dl></dd></dl>',
 );
