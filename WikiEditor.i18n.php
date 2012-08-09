@@ -2569,6 +2569,14 @@ $messages['ba'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'Һеҙ нимәгә һылтанма яһағанығыҙҙы күрһәтмәгәнһегеҙ.',
 	'wikieditor-toolbar-tool-file' => 'Индерелгән файл',
 	'wikieditor-toolbar-tool-file-example' => 'Миҫал.jpg',
+	'wikieditor-toolbar-tool-file-title' => 'Файл өҫтәү',
+	'wikieditor-toolbar-file-target' => 'Файл исеме:',
+	'wikieditor-toolbar-file-size' => 'Күләме:',
+	'wikieditor-toolbar-file-float' => 'Тигеҙләү:',
+	'wikieditor-toolbar-file-default' => '(ғәҙәттәге)',
+	'wikieditor-toolbar-file-format' => 'Формат:',
+	'wikieditor-toolbar-tool-file-insert' => 'Өҫтәү',
+	'wikieditor-toolbar-tool-file-cancel' => 'Кире алырға',
 	'wikieditor-toolbar-tool-reference' => 'Төшөрмә',
 	'wikieditor-toolbar-tool-reference-example' => 'Төшөрмәнең текстын бында керетегеҙ',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Кире алырға',
@@ -2660,9 +2668,11 @@ $1:Миҫал.jpg|Тасуирлама2',
 	'wikieditor-toolbar-characters-page-persian' => 'Фарсы',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Йәһүд',
 	'wikieditor-toolbar-characters-page-bangla' => 'Бенгал',
+	'wikieditor-toolbar-characters-page-tamil' => 'Тамиль',
 	'wikieditor-toolbar-characters-page-telugu' => 'Телугу',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Сингал',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Гуджарати',
+	'wikieditor-toolbar-characters-page-devanagari' => 'Деванагари',
 	'wikieditor-toolbar-characters-page-thai' => 'Тай',
 	'wikieditor-toolbar-characters-page-lao' => 'Лао',
 	'wikieditor-toolbar-characters-page-khmer' => 'Кһмер',
@@ -5286,6 +5296,7 @@ $messages['co'] = array(
 );
 
 /** Czech (česky)
+ * @author Jkjk
  * @author Kuvaly
  * @author Mormegil
  */
@@ -5357,6 +5368,15 @@ Chcete z něj tedy udělat vnitřní odkaz?',
 	'wikieditor-toolbar-tool-link-empty' => 'Musíte uvést cíl odkazu.',
 	'wikieditor-toolbar-tool-file' => 'Vložený soubor',
 	'wikieditor-toolbar-tool-file-example' => 'Příklad.jpg',
+	'wikieditor-toolbar-tool-file-title' => 'Vložit soubor',
+	'wikieditor-toolbar-file-target' => 'Název souboru:',
+	'wikieditor-toolbar-file-caption' => 'Popisek:',
+	'wikieditor-toolbar-file-size' => 'Velikost:',
+	'wikieditor-toolbar-file-float' => 'Zarovnání:',
+	'wikieditor-toolbar-file-default' => '(výchozí)',
+	'wikieditor-toolbar-file-format' => 'Formát:',
+	'wikieditor-toolbar-tool-file-insert' => 'Vložit',
+	'wikieditor-toolbar-tool-file-cancel' => 'Storno',
 	'wikieditor-toolbar-tool-reference' => 'Poznámky',
 	'wikieditor-toolbar-tool-reference-example' => 'Sem uveďte text poznámky',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Storno',
@@ -5864,6 +5884,7 @@ $1:Enghraifft.jpg|Disgrifiad2',
  * @author Christian List
  * @author F. Cosoleto
  * @author Froztbyte
+ * @author Hylle
  * @author Peter Alberti
  * @author Sarrus
  * @author Sir48
@@ -5936,6 +5957,15 @@ $messages['da'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'Du har ikke angivet noget at linke til.',
 	'wikieditor-toolbar-tool-file' => 'Indlejret fil',
 	'wikieditor-toolbar-tool-file-example' => 'Eksempel.jpg',
+	'wikieditor-toolbar-tool-file-title' => 'Indsæt fil',
+	'wikieditor-toolbar-file-target' => 'Filnavn:',
+	'wikieditor-toolbar-file-caption' => 'Billedtekst:',
+	'wikieditor-toolbar-file-size' => 'Størrelse:',
+	'wikieditor-toolbar-file-float' => 'Justering:',
+	'wikieditor-toolbar-file-default' => '(standard)',
+	'wikieditor-toolbar-file-format' => 'Format:',
+	'wikieditor-toolbar-tool-file-insert' => 'Indsæt',
+	'wikieditor-toolbar-tool-file-cancel' => 'Annuller',
 	'wikieditor-toolbar-tool-reference' => 'Fodnote',
 	'wikieditor-toolbar-tool-reference-example' => 'Indsæt fodnotetekst her',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Annullér',
@@ -6854,6 +6884,7 @@ $1:Pśikład.jpg|Pópisanje2',
  * @author Dead3y3
  * @author Flyax
  * @author Geraki
+ * @author Glavkos
  * @author Lou
  * @author ZaDiak
  * @author Απεργός
@@ -6926,6 +6957,13 @@ $messages['el'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'Δεν εισάγατε τίποτα για σύνδεση σε αυτό.',
 	'wikieditor-toolbar-tool-file' => 'Ενσωματωμένο αρχείο',
 	'wikieditor-toolbar-tool-file-example' => 'Paradeigma.jpg',
+	'wikieditor-toolbar-tool-file-title' => 'Εισαγωγή αρχείου',
+	'wikieditor-toolbar-file-target' => 'Όνομα αρχείου:',
+	'wikieditor-toolbar-file-caption' => 'Λεζάντα',
+	'wikieditor-toolbar-file-size' => 'Μέγεθος:',
+	'wikieditor-toolbar-file-float' => 'Ευθυγράμμιση:',
+	'wikieditor-toolbar-tool-file-insert' => 'Εισαγωγή',
+	'wikieditor-toolbar-tool-file-cancel' => 'Άκυρο',
 	'wikieditor-toolbar-tool-reference' => 'Παραπομπή',
 	'wikieditor-toolbar-tool-reference-example' => 'Εισάγετε εδώ το κείμενο της παραπομπής.',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Ακύρωση',
@@ -7163,6 +7201,15 @@ $messages['eo'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'Vi ne enigis ion ajn por alligi',
 	'wikieditor-toolbar-tool-file' => 'Enmetita dosiero',
 	'wikieditor-toolbar-tool-file-example' => 'Ekzemplo.jpg',
+	'wikieditor-toolbar-tool-file-title' => 'Enmeti dosieron',
+	'wikieditor-toolbar-file-target' => 'Dosiernomo:',
+	'wikieditor-toolbar-file-caption' => 'Subteksto:',
+	'wikieditor-toolbar-file-size' => 'Grandeco:',
+	'wikieditor-toolbar-file-float' => 'Ĝisrandigo:',
+	'wikieditor-toolbar-file-default' => '(defaŭlto)',
+	'wikieditor-toolbar-file-format' => 'Formato:',
+	'wikieditor-toolbar-tool-file-insert' => 'Enmeti',
+	'wikieditor-toolbar-tool-file-cancel' => 'Nuligi',
 	'wikieditor-toolbar-tool-reference' => 'Piednoto',
 	'wikieditor-toolbar-tool-reference-example' => 'Enmetu tekston de piednoto ĉi tien',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Nuligi',
@@ -7256,9 +7303,11 @@ $1:Ekzemplo.jpg|Teksto2 pri dosiero',
 	'wikieditor-toolbar-characters-page-persian' => 'persa',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Hebrea',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bengala',
+	'wikieditor-toolbar-characters-page-tamil' => 'Tamila',
 	'wikieditor-toolbar-characters-page-telugu' => 'Telegua',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Sinhala',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Guĝarata',
+	'wikieditor-toolbar-characters-page-devanagari' => 'Nagario',
 	'wikieditor-toolbar-characters-page-thai' => 'Taja',
 	'wikieditor-toolbar-characters-page-lao' => 'laŭa',
 	'wikieditor-toolbar-characters-page-khmer' => 'kmera',
@@ -8139,6 +8188,15 @@ $messages['fa'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'شما چیزی برای پیونددادن وارد نکردید.',
 	'wikieditor-toolbar-tool-file' => 'پروندهٔ جاسازی‌شده',
 	'wikieditor-toolbar-tool-file-example' => 'مثال.jpg',
+	'wikieditor-toolbar-tool-file-title' => 'درج پرونده',
+	'wikieditor-toolbar-file-target' => 'نام پرونده:',
+	'wikieditor-toolbar-file-caption' => 'عنوان:',
+	'wikieditor-toolbar-file-size' => 'اندازه:',
+	'wikieditor-toolbar-file-float' => 'تراز:',
+	'wikieditor-toolbar-file-default' => '(پیش‌فرض)',
+	'wikieditor-toolbar-file-format' => 'قالب:',
+	'wikieditor-toolbar-tool-file-insert' => 'درج',
+	'wikieditor-toolbar-tool-file-cancel' => 'لغو',
 	'wikieditor-toolbar-tool-reference' => 'منبع',
 	'wikieditor-toolbar-tool-reference-example' => 'متن زیرنویس را اینجا اضافه کنید',
 	'wikieditor-toolbar-tool-reference-cancel' => 'لغو',
@@ -8236,7 +8294,7 @@ $1:مثال.jpg|عنوان ۲',
 	'wikieditor-toolbar-characters-page-telugu' => 'تالوگو',
 	'wikieditor-toolbar-characters-page-sinhala' => 'سینهالی',
 	'wikieditor-toolbar-characters-page-gujarati' => 'گجراتی',
-	'wikieditor-toolbar-characters-page-devanagari' => 'دواناگرى',
+	'wikieditor-toolbar-characters-page-devanagari' => 'دیواناگرى',
 	'wikieditor-toolbar-characters-page-thai' => 'تایلندی',
 	'wikieditor-toolbar-characters-page-lao' => 'لائو',
 	'wikieditor-toolbar-characters-page-khmer' => 'خمر',
@@ -8381,6 +8439,9 @@ Haluatko tehdä siitä sisäisen linkin?',
 	'wikieditor-toolbar-tool-link-empty' => 'Et antanut mitään linkitettävää.',
 	'wikieditor-toolbar-tool-file' => 'Tallennettu tiedosto',
 	'wikieditor-toolbar-tool-file-example' => 'Esimerkki.jpg',
+	'wikieditor-toolbar-tool-file-title' => 'Lisää tiedosto',
+	'wikieditor-toolbar-file-target' => 'Tiedostonimi:',
+	'wikieditor-toolbar-file-caption' => 'Kuvaus:',
 	'wikieditor-toolbar-tool-reference' => 'Viite',
 	'wikieditor-toolbar-tool-reference-example' => 'Lisää alahuomautusteksti tähän',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Peruuta',
@@ -8549,6 +8610,7 @@ $1:Esimerkki.jpg|Kuvateksti2',
  * @author Cquoi
  * @author Crochet.david
  * @author DavidL
+ * @author Erkethan
  * @author Gomoko
  * @author IAlex
  * @author Jean-Frédéric
@@ -8627,6 +8689,15 @@ Voulez-vous utiliser un lien interne à la place ?',
 	'wikieditor-toolbar-tool-link-empty' => 'Vous n’avez rien entré qui puisse être lié.',
 	'wikieditor-toolbar-tool-file' => 'Fichier inséré',
 	'wikieditor-toolbar-tool-file-example' => 'Exemple.jpg',
+	'wikieditor-toolbar-tool-file-title' => 'Importer un fichier',
+	'wikieditor-toolbar-file-target' => 'Nom de fichier :',
+	'wikieditor-toolbar-file-caption' => 'Légende :',
+	'wikieditor-toolbar-file-size' => 'Taille :',
+	'wikieditor-toolbar-file-float' => 'Alignement :',
+	'wikieditor-toolbar-file-default' => '(par défaut)',
+	'wikieditor-toolbar-file-format' => 'Format :',
+	'wikieditor-toolbar-tool-file-insert' => 'Insérer',
+	'wikieditor-toolbar-tool-file-cancel' => 'Annuler',
 	'wikieditor-toolbar-tool-reference' => 'Référence',
 	'wikieditor-toolbar-tool-reference-example' => 'Insérer le texte de la note de bas de page ici',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Annuler',
@@ -9926,6 +9997,13 @@ $messages['gu'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'તમે શોધવા માટે કંઈ દાખલ કર્યું નથી.',
 	'wikieditor-toolbar-tool-file' => 'અંદર વણાયેલી (Embedded) ફાઇલ',
 	'wikieditor-toolbar-tool-file-example' => 'Example.jpg (ઉદાહરણ)',
+	'wikieditor-toolbar-tool-file-title' => 'ફાઇલ ઉમેરો',
+	'wikieditor-toolbar-file-target' => 'ફાઇલનામ:',
+	'wikieditor-toolbar-file-size' => 'માપ:',
+	'wikieditor-toolbar-file-default' => '(મૂળભૂત)',
+	'wikieditor-toolbar-file-format' => 'શૈલી:',
+	'wikieditor-toolbar-tool-file-insert' => 'ઉમેરો',
+	'wikieditor-toolbar-tool-file-cancel' => 'રદ કરો',
 	'wikieditor-toolbar-tool-reference' => 'સંદર્ભ',
 	'wikieditor-toolbar-tool-reference-example' => 'પૃષ્ઠની નીચેના પાયામાં લખવાનું લેખન અહીં લખો',
 	'wikieditor-toolbar-tool-reference-cancel' => 'રદ કરો',
@@ -13428,6 +13506,14 @@ $messages['ka'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'თქვენ არ მიუთითეთ ბმული.',
 	'wikieditor-toolbar-tool-file' => 'ჩასმული ფაილი',
 	'wikieditor-toolbar-tool-file-example' => 'მაგალითი.jpg',
+	'wikieditor-toolbar-tool-file-title' => 'ფაილის ჩასმა',
+	'wikieditor-toolbar-file-target' => 'ფაილის სახელი:',
+	'wikieditor-toolbar-file-caption' => 'წარწერა:',
+	'wikieditor-toolbar-file-size' => 'ზომა:',
+	'wikieditor-toolbar-file-default' => '(სტანდარტული)',
+	'wikieditor-toolbar-file-format' => 'ფორმატი:',
+	'wikieditor-toolbar-tool-file-insert' => 'ჩასმა',
+	'wikieditor-toolbar-tool-file-cancel' => 'გაუქმება',
 	'wikieditor-toolbar-tool-reference' => 'მინიშნებები',
 	'wikieditor-toolbar-tool-reference-example' => 'ჩასვით მინიშნებების ტექსტი აქ',
 	'wikieditor-toolbar-tool-reference-cancel' => 'გაუქმება',
@@ -19649,6 +19735,7 @@ $messages['pfl'] = array(
  * @author Marcin Łukasz Kiejzik
  * @author Nux
  * @author Olgak85
+ * @author Przemub
  * @author Sp5uhe
  * @author ToSter
  * @author Wpedzich
@@ -19720,6 +19807,15 @@ $messages['pl'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'Nie podałeś adresu do którego ma prowadzić link.',
 	'wikieditor-toolbar-tool-file' => 'Plik osadzony',
 	'wikieditor-toolbar-tool-file-example' => 'Przykład.jpg',
+	'wikieditor-toolbar-tool-file-title' => 'Wstaw plik',
+	'wikieditor-toolbar-file-target' => 'Plik:',
+	'wikieditor-toolbar-file-caption' => 'Podpis:',
+	'wikieditor-toolbar-file-size' => 'Rozmiar:',
+	'wikieditor-toolbar-file-float' => 'Wyrównywanie:',
+	'wikieditor-toolbar-file-default' => '(domyślnie)',
+	'wikieditor-toolbar-file-format' => 'Format:',
+	'wikieditor-toolbar-tool-file-insert' => 'Wstaw',
+	'wikieditor-toolbar-tool-file-cancel' => 'Anuluj',
 	'wikieditor-toolbar-tool-reference' => 'Przypis',
 	'wikieditor-toolbar-tool-reference-example' => 'Wstaw tekst przypisu',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Anuluj',
@@ -19813,9 +19909,11 @@ $1:Example.jpg|Podpis2',
 	'wikieditor-toolbar-characters-page-persian' => 'Perskie',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Hebrajskie',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bengalski',
+	'wikieditor-toolbar-characters-page-tamil' => 'Tamilski',
 	'wikieditor-toolbar-characters-page-telugu' => 'Telugu',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Syngaleskie',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Gudźarackie',
+	'wikieditor-toolbar-characters-page-devanagari' => 'Dewanagari',
 	'wikieditor-toolbar-characters-page-thai' => 'Tajskie',
 	'wikieditor-toolbar-characters-page-lao' => 'Laotańskie',
 	'wikieditor-toolbar-characters-page-khmer' => 'Khmerskie',
@@ -20363,13 +20461,13 @@ $messages['pnt'] = array(
 $messages['ps'] = array(
 	'wikieditor' => 'د پرمختللی ويکي متن د سمون ليدنمخ',
 	'wikieditor-wikitext-tab' => 'ويکي متن',
-	'wikieditor-loading' => 'د برسېرېدو په حال کې',
+	'wikieditor-loading' => 'برسېرېدنې کې دی...',
 	'wikieditor-preview-preference' => 'څنګ په څنګ مخليدنه چارنده کول',
 	'wikieditor-preview-tab' => 'مخليدنه',
 	'wikieditor-preview-changes-tab' => 'بدلونونه',
-	'wikieditor-preview-loading' => 'د برسېرېدلو په حال کې...',
+	'wikieditor-preview-loading' => 'برسېرېدنې کې دی...',
 	'wikieditor-previewDialog-tab' => 'مخليدنه',
-	'wikieditor-previewDialog-loading' => 'د برسېرېدلو په حال کې...',
+	'wikieditor-previewDialog-loading' => 'برسېرېدنې کې دی...',
 	'wikieditor-publish-preference' => 'ګام په ګام خپرېدنه چارنده کول',
 	'wikieditor-publish-button-publish' => 'خپرول',
 	'wikieditor-publish-button-cancel' => 'ناګارل',
@@ -20386,7 +20484,7 @@ $messages['ps'] = array(
 	'wikieditor-toc-show' => 'مېنځپانګه ښکاره کول',
 	'wikieditor-toc-hide' => 'مېنځپانګه پټول',
 	'wikieditor-toolbar' => 'د سمون توکپټه',
-	'wikieditor-toolbar-loading' => 'د برسېرېدلو په حال کې...',
+	'wikieditor-toolbar-loading' => 'برسېرېدنې کې دی...',
 	'wikieditor-toolbar-tool-bold' => 'زغرد',
 	'wikieditor-toolbar-tool-bold-example' => 'زغرد متن',
 	'wikieditor-toolbar-tool-italic' => 'رېوند',
@@ -20480,9 +20578,11 @@ $messages['ps'] = array(
 	'wikieditor-toolbar-characters-page-persian' => 'پارسي',
 	'wikieditor-toolbar-characters-page-hebrew' => 'عبراني',
 	'wikieditor-toolbar-characters-page-bangla' => 'بنګالي',
+	'wikieditor-toolbar-characters-page-tamil' => 'تاميلي',
 	'wikieditor-toolbar-characters-page-telugu' => 'تېلوګو',
 	'wikieditor-toolbar-characters-page-sinhala' => 'سېنهالي',
 	'wikieditor-toolbar-characters-page-gujarati' => 'ګجراتي',
+	'wikieditor-toolbar-characters-page-devanagari' => 'دېوانګري',
 	'wikieditor-toolbar-characters-page-thai' => 'تايلنډي',
 	'wikieditor-toolbar-characters-page-lao' => 'لاوي',
 	'wikieditor-toolbar-characters-page-khmer' => 'خمري',
@@ -21262,6 +21362,7 @@ $1:Qhawarichiy.jpg|Ch'uyanchay2",
  * @author Cin
  * @author Firilacroco
  * @author Minisarm
+ * @author Stelistcristi
  */
 $messages['ro'] = array(
 	'wikieditor' => 'Interfață de modificare wikitext avansată',
@@ -21330,6 +21431,15 @@ $messages['ro'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'Nu ați introdus nimic către care să stabilesc o legătură.',
 	'wikieditor-toolbar-tool-file' => 'Fișier inserat',
 	'wikieditor-toolbar-tool-file-example' => 'Exemplu.jpg',
+	'wikieditor-toolbar-tool-file-title' => 'Inserează fișierul',
+	'wikieditor-toolbar-file-target' => 'Numele fișierului:',
+	'wikieditor-toolbar-file-caption' => 'Etichetă:',
+	'wikieditor-toolbar-file-size' => 'Mărime:',
+	'wikieditor-toolbar-file-float' => 'Aliniere:',
+	'wikieditor-toolbar-file-default' => '(implicit)',
+	'wikieditor-toolbar-file-format' => 'Format:',
+	'wikieditor-toolbar-tool-file-insert' => 'Inserează',
+	'wikieditor-toolbar-tool-file-cancel' => 'Renunță',
 	'wikieditor-toolbar-tool-reference' => 'Referință',
 	'wikieditor-toolbar-tool-reference-example' => 'Introduceți textul notei de subsol aici.',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Revocare',
@@ -21728,6 +21838,7 @@ $1:Example.jpg|Titele2',
 );
 
 /** Russian (русский)
+ * @author Alexandr Efremov
  * @author Claymore
  * @author Dim Grits
  * @author Eleferen
@@ -21805,6 +21916,8 @@ $messages['ru'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'Вы не указали на что ссылаться.',
 	'wikieditor-toolbar-tool-file' => 'Встроенный файл',
 	'wikieditor-toolbar-tool-file-example' => 'Example.jpg',
+	'wikieditor-toolbar-file-default' => '(по умолчанию)',
+	'wikieditor-toolbar-file-format' => 'Формат:',
 	'wikieditor-toolbar-tool-reference' => 'Сноска',
 	'wikieditor-toolbar-tool-reference-example' => 'Вставьте сюда текст сноски',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Отмена',
@@ -23210,6 +23323,10 @@ $messages['si'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'ඔබ සබැඳුමකට කිසිවක් ඇතුළු කර නොමැත.',
 	'wikieditor-toolbar-tool-file' => 'කා වැද්දූ ගොනුව',
 	'wikieditor-toolbar-tool-file-example' => 'උදාහරණ.jpg',
+	'wikieditor-toolbar-file-caption' => 'ශ්‍රීර්ෂ පාඨය:',
+	'wikieditor-toolbar-file-size' => 'විශාලත්වය:',
+	'wikieditor-toolbar-file-format' => 'ආකෘතිය:',
+	'wikieditor-toolbar-tool-file-cancel' => 'අවලංගු කරන්න',
 	'wikieditor-toolbar-tool-reference' => 'යොමුව',
 	'wikieditor-toolbar-tool-reference-example' => 'මෙහි footnote පෙළක් ඇතුල් කරන්න',
 	'wikieditor-toolbar-tool-reference-cancel' => 'අවලංගු කරන්න',
@@ -23303,6 +23420,7 @@ $1:උදාහරණ.jpg| 2 යටි ලියමන',
 	'wikieditor-toolbar-characters-page-persian' => 'පර්සියානු',
 	'wikieditor-toolbar-characters-page-hebrew' => 'හෙබ්‍රෙව් අක්ෂර',
 	'wikieditor-toolbar-characters-page-bangla' => 'බංග්ලා',
+	'wikieditor-toolbar-characters-page-tamil' => 'දෙමළ',
 	'wikieditor-toolbar-characters-page-telugu' => 'තෙලිඟු අක්ෂර',
 	'wikieditor-toolbar-characters-page-sinhala' => 'සිංහල',
 	'wikieditor-toolbar-characters-page-gujarati' => 'ගුජරාටි',
@@ -24145,6 +24263,15 @@ $messages['sr-ec'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'Ниста унели ништа за повезивање.',
 	'wikieditor-toolbar-tool-file' => 'Уграђена датотека',
 	'wikieditor-toolbar-tool-file-example' => 'Пример.jpg',
+	'wikieditor-toolbar-tool-file-title' => 'Убаци датотеку',
+	'wikieditor-toolbar-file-target' => 'Назив датотеке:',
+	'wikieditor-toolbar-file-caption' => 'Наслов:',
+	'wikieditor-toolbar-file-size' => 'Величина:',
+	'wikieditor-toolbar-file-float' => 'Поравнавање:',
+	'wikieditor-toolbar-file-default' => '(подразумевано)',
+	'wikieditor-toolbar-file-format' => 'Формат:',
+	'wikieditor-toolbar-tool-file-insert' => 'Убаци',
+	'wikieditor-toolbar-tool-file-cancel' => 'Откажи',
 	'wikieditor-toolbar-tool-reference' => 'Навод',
 	'wikieditor-toolbar-tool-reference-example' => 'Овде унесите текст фусноте',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Откажи',
@@ -25212,6 +25339,7 @@ Idadi ya mistari au ya safu si halali.',
 );
 
 /** Tamil (தமிழ்)
+ * @author Balajijagadesh
  * @author Karthi.dr
  * @author Logicwiki
  * @author Shanmugamp7
@@ -25284,6 +25412,7 @@ $messages['ta'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'நீங்கள் இணைப்பதற்கு எதையுமே உள்ளிடவில்லை.',
 	'wikieditor-toolbar-tool-file' => 'பொதிந்துள்ள படிமம்',
 	'wikieditor-toolbar-tool-file-example' => 'மாதிரிப்படம்',
+	'wikieditor-toolbar-tool-file-title' => 'கோப்பை நுழை',
 	'wikieditor-toolbar-tool-reference' => '# மேற்கோள்
 # முன்மாதிரி',
 	'wikieditor-toolbar-tool-reference-example' => 'அடிக்குறிப்பை இங்கே எழுதவும்',
@@ -25518,6 +25647,9 @@ $messages['te'] = array(
 	'wikieditor-toolbar-tool-link-lookslikeinternal-ext' => 'బయటి లంకె',
 	'wikieditor-toolbar-tool-link-empty' => 'మీరు దేనికి లంకె వెయ్యాలో పేర్కొనలేదు.',
 	'wikieditor-toolbar-tool-file' => 'పొదిగిన ఫైలు',
+	'wikieditor-toolbar-file-size' => 'పరిమాణం:',
+	'wikieditor-toolbar-file-default' => '(అప్రమేయం)',
+	'wikieditor-toolbar-tool-file-cancel' => 'రద్దుచేయి',
 	'wikieditor-toolbar-tool-reference' => 'సాక్ష్యాలు',
 	'wikieditor-toolbar-tool-reference-example' => 'పాదసూచిక పాఠ్యాన్ని ఇక్కడ చేర్చండి',
 	'wikieditor-toolbar-tool-reference-cancel' => 'రద్దుచేయి',
@@ -25596,6 +25728,7 @@ $1:Example.jpg|ఉపశీర్షిక2',
 	'wikieditor-toolbar-characters-page-telugu' => 'తెలుగు',
 	'wikieditor-toolbar-characters-page-sinhala' => 'సింహళ',
 	'wikieditor-toolbar-characters-page-gujarati' => 'గుజరాతీ',
+	'wikieditor-toolbar-characters-page-devanagari' => 'దేవనాగరి',
 	'wikieditor-toolbar-characters-page-thai' => 'థాయి',
 	'wikieditor-toolbar-characters-page-lao' => 'లావో',
 	'wikieditor-toolbar-characters-page-khmer' => 'ఖ్మెర్',
@@ -28707,6 +28840,7 @@ Bangla',
  * @author Onecountry
  * @author PhiLiP
  * @author Shizhao
+ * @author Simon Shek
  * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
@@ -28776,6 +28910,7 @@ $messages['zh-hans'] = array(
 	'wikieditor-toolbar-tool-link-empty' => '您没有输入链接内容。',
 	'wikieditor-toolbar-tool-file' => '嵌入文件',
 	'wikieditor-toolbar-tool-file-example' => '范例.jpg（在这里输入文件名）',
+	'wikieditor-toolbar-tool-file-cancel' => '取消',
 	'wikieditor-toolbar-tool-reference' => '参考',
 	'wikieditor-toolbar-tool-reference-example' => '在此处插入注释文字',
 	'wikieditor-toolbar-tool-reference-cancel' => '取消',
@@ -28949,6 +29084,7 @@ $1:Example.jpg|标题2',
  * @author Mark85296341
  * @author Oapbtommy
  * @author PhiLiP
+ * @author Simon Shek
  * @author Waihorace
  * @author Wong128hk
  * @author Wrightbus
@@ -29020,6 +29156,15 @@ $messages['zh-hant'] = array(
 	'wikieditor-toolbar-tool-link-empty' => '閣下並未輸入連結。',
 	'wikieditor-toolbar-tool-file' => '結合標題',
 	'wikieditor-toolbar-tool-file-example' => 'Example.jpg',
+	'wikieditor-toolbar-tool-file-title' => '插入檔案',
+	'wikieditor-toolbar-file-target' => '檔案名稱：',
+	'wikieditor-toolbar-file-caption' => '說明：',
+	'wikieditor-toolbar-file-size' => '大小：',
+	'wikieditor-toolbar-file-float' => '對齊：',
+	'wikieditor-toolbar-file-default' => '（預設）',
+	'wikieditor-toolbar-file-format' => '格式：',
+	'wikieditor-toolbar-tool-file-insert' => '插入',
+	'wikieditor-toolbar-tool-file-cancel' => '取消',
 	'wikieditor-toolbar-tool-reference' => '參考',
 	'wikieditor-toolbar-tool-reference-example' => '插入腳註文字於此',
 	'wikieditor-toolbar-tool-reference-cancel' => '取消',
