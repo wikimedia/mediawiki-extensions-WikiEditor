@@ -4603,6 +4603,7 @@ $1:Example.jpg|Opis2',
 );
 
 /** Catalan (català)
+ * @author Arnaugir
  * @author BroOk
  * @author Martorell
  * @author Paucabot
@@ -4679,6 +4680,15 @@ Voleu convertir-lo en un enllaç intern?",
 	'wikieditor-toolbar-tool-link-empty' => 'No heu entrat res per enllaçar.',
 	'wikieditor-toolbar-tool-file' => 'Fitxer incrustat',
 	'wikieditor-toolbar-tool-file-example' => 'Exemple.png',
+	'wikieditor-toolbar-tool-file-title' => 'Insereix arxiu',
+	'wikieditor-toolbar-file-target' => 'Nom del fitxer:',
+	'wikieditor-toolbar-file-caption' => 'Títol:',
+	'wikieditor-toolbar-file-size' => 'Mida:',
+	'wikieditor-toolbar-file-float' => 'Alineació:',
+	'wikieditor-toolbar-file-default' => '(per defecte)',
+	'wikieditor-toolbar-file-format' => 'Format:',
+	'wikieditor-toolbar-tool-file-insert' => 'Inserta',
+	'wikieditor-toolbar-tool-file-cancel' => 'Cancel·la',
 	'wikieditor-toolbar-tool-reference' => 'Referència',
 	'wikieditor-toolbar-tool-reference-example' => 'Inseriu la nota al peu aquí',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Cancel·la',
@@ -4772,9 +4782,11 @@ $1:Example.jpg|Peu2',
 	'wikieditor-toolbar-characters-page-persian' => 'Persa',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Hebreu',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bengalí',
+	'wikieditor-toolbar-characters-page-tamil' => 'Tamil',
 	'wikieditor-toolbar-characters-page-telugu' => 'Telugu',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Sinhala',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Gujarati',
+	'wikieditor-toolbar-characters-page-devanagari' => 'Devanagari',
 	'wikieditor-toolbar-characters-page-thai' => 'Tailandès',
 	'wikieditor-toolbar-characters-page-lao' => 'Laosià',
 	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
@@ -5074,6 +5086,7 @@ $1:Example.jpg|Цуьнах лаце2',
 
 /** Sorani Kurdish (کوردی)
  * @author Asoxor
+ * @author Calak
  * @author Marmzok
  * @author McDutchie
  */
@@ -5170,8 +5183,8 @@ $messages['ckb'] = array(
 	'wikieditor-toolbar-tool-redirect-example' => 'ناوی پەڕەی مەبەست',
 	'wikieditor-toolbar-tool-big' => 'گەورە',
 	'wikieditor-toolbar-tool-big-example' => 'دەقی گەورە',
-	'wikieditor-toolbar-tool-small' => 'بچوک',
-	'wikieditor-toolbar-tool-small-example' => 'دەقی بچکوک',
+	'wikieditor-toolbar-tool-small' => 'بچووک',
+	'wikieditor-toolbar-tool-small-example' => 'دەقی بچووک',
 	'wikieditor-toolbar-tool-superscript' => 'سەرنووس',
 	'wikieditor-toolbar-tool-superscript-example' => 'دەقی سەرنووس',
 	'wikieditor-toolbar-tool-subscript' => 'ژێرنووس',
@@ -5228,7 +5241,7 @@ $1:نموونە.jpg|شرۆڤەی ٢',
 	'wikieditor-toolbar-characters-page-ipa' => 'ئای پی ئەی',
 	'wikieditor-toolbar-characters-page-symbols' => 'ھێماکان',
 	'wikieditor-toolbar-characters-page-greek' => 'یۆنانی',
-	'wikieditor-toolbar-characters-page-cyrillic' => 'سیریلیک',
+	'wikieditor-toolbar-characters-page-cyrillic' => 'کیریلی',
 	'wikieditor-toolbar-characters-page-arabic' => 'عەرەبی',
 	'wikieditor-toolbar-characters-page-arabicextended' => 'عەرەبیی پەرەپێدراو',
 	'wikieditor-toolbar-characters-page-persian' => 'فارسی',
@@ -10675,6 +10688,7 @@ $1:דוגמה.jpg|כותרת 2',
 
 /** Hindi (हिन्दी)
  * @author Ansumang
+ * @author Karthi.dr
  * @author Pooja.srivastava
  * @author Siddhartha Ghai
  */
@@ -10736,6 +10750,7 @@ $messages['hi'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'आप लिंक करने के लिए कुछ दर्ज़ नहीं किए थे ।',
 	'wikieditor-toolbar-tool-file' => 'संलग्न फ़ाइल',
 	'wikieditor-toolbar-tool-file-example' => 'उदाहरण.jpg',
+	'wikieditor-toolbar-tool-file-cancel' => 'रद्द करें',
 	'wikieditor-toolbar-tool-reference' => 'संदर्भ',
 	'wikieditor-toolbar-tool-reference-example' => 'आधार पाठ यहाँ सम्मिलित करें',
 	'wikieditor-toolbar-tool-reference-cancel' => 'रद्द करें',
@@ -10823,9 +10838,11 @@ $1:उदाहरण.jpg|चित्रशीर्षक२',
 	'wikieditor-toolbar-characters-page-persian' => 'फार्सी',
 	'wikieditor-toolbar-characters-page-hebrew' => 'हिब्रू',
 	'wikieditor-toolbar-characters-page-bangla' => 'बांग्ला',
+	'wikieditor-toolbar-characters-page-tamil' => 'तमिल',
 	'wikieditor-toolbar-characters-page-telugu' => 'तेलूगू',
 	'wikieditor-toolbar-characters-page-sinhala' => 'सिंहल',
 	'wikieditor-toolbar-characters-page-gujarati' => 'गुजराती',
+	'wikieditor-toolbar-characters-page-devanagari' => 'देवनागरी',
 	'wikieditor-toolbar-characters-page-thai' => 'थाई',
 	'wikieditor-toolbar-characters-page-lao' => 'लाओ',
 	'wikieditor-toolbar-characters-page-khmer' => 'खमेर',
@@ -20599,6 +20616,12 @@ $messages['ps'] = array(
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => 'کورنۍ تړنه',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-ext' => 'باندنۍ تړنه',
 	'wikieditor-toolbar-tool-file' => 'خښه شوې دوتنه',
+	'wikieditor-toolbar-file-target' => 'د دوتنې نوم:',
+	'wikieditor-toolbar-file-size' => 'کچه:',
+	'wikieditor-toolbar-file-default' => '(تلواليز)',
+	'wikieditor-toolbar-file-format' => 'بڼه:',
+	'wikieditor-toolbar-tool-file-insert' => 'ورټومبل',
+	'wikieditor-toolbar-tool-file-cancel' => 'ناګارل',
 	'wikieditor-toolbar-tool-reference' => 'سرچينه',
 	'wikieditor-toolbar-tool-reference-example' => 'د پايڅوړ متن دلته وليکۍ',
 	'wikieditor-toolbar-tool-reference-cancel' => 'ناګارل',
@@ -23424,6 +23447,7 @@ $messages['si'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'ඔබ සබැඳුමකට කිසිවක් ඇතුළු කර නොමැත.',
 	'wikieditor-toolbar-tool-file' => 'කා වැද්දූ ගොනුව',
 	'wikieditor-toolbar-tool-file-example' => 'උදාහරණ.jpg',
+	'wikieditor-toolbar-tool-file-title' => 'ගොනුව ඇතුල් කරන්න',
 	'wikieditor-toolbar-file-target' => 'ගොනුනාමය:',
 	'wikieditor-toolbar-file-caption' => 'ශ්‍රීර්ෂ පාඨය:',
 	'wikieditor-toolbar-file-size' => 'විශාලත්වය:',
@@ -23529,6 +23553,7 @@ $1:උදාහරණ.jpg| 2 යටි ලියමන',
 	'wikieditor-toolbar-characters-page-telugu' => 'තෙලිඟු අක්ෂර',
 	'wikieditor-toolbar-characters-page-sinhala' => 'සිංහල',
 	'wikieditor-toolbar-characters-page-gujarati' => 'ගුජරාටි',
+	'wikieditor-toolbar-characters-page-devanagari' => 'දේවනගරි',
 	'wikieditor-toolbar-characters-page-thai' => 'තායි',
 	'wikieditor-toolbar-characters-page-lao' => 'ලාඕ',
 	'wikieditor-toolbar-characters-page-khmer' => 'ඛෙමර්',
@@ -24980,6 +25005,7 @@ $1:Conto.jpg|Pedaran2',
  * @author McDutchie
  * @author Sertion
  * @author Warrakkk
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'wikieditor' => 'Avancerat gränssnitt för redigering av wikitext',
@@ -25048,6 +25074,7 @@ $messages['sv'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'Du skrev inget att länka till.',
 	'wikieditor-toolbar-tool-file' => 'Inbäddad fil',
 	'wikieditor-toolbar-tool-file-example' => 'Exempel.jpg',
+	'wikieditor-toolbar-tool-file-title' => 'Infoga fil',
 	'wikieditor-toolbar-tool-reference' => 'Referens',
 	'wikieditor-toolbar-tool-reference-example' => 'Sätt in fotnotstexten här',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Avbryt',
@@ -25451,6 +25478,7 @@ Idadi ya mistari au ya safu si halali.',
  * @author Surya Prakash.S.A.
  * @author TRYPPN
  * @author செல்வா
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
 	'wikieditor' => 'மேம்பட்ட விக்கியுரைத் தொகுப்பு இடைமுகம்',
@@ -25621,6 +25649,7 @@ $1:எடுத்துக்காட்டு.jpg|படவிளக்கம
 	'wikieditor-toolbar-characters-page-greek' => 'கிரேக்கம்',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'சைரிலிக் (Cyrillic)',
 	'wikieditor-toolbar-characters-page-arabic' => 'அரபு',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'அரபு விரிவு',
 	'wikieditor-toolbar-characters-page-persian' => 'பாரசீகம்',
 	'wikieditor-toolbar-characters-page-hebrew' => 'எபிரேயம் (ஈபுரு)',
 	'wikieditor-toolbar-characters-page-bangla' => 'வங்காளம்',
@@ -28311,6 +28340,7 @@ $messages['yi'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'איר האט גאָרנישט ארײַנגעגעבן צום פֿאַרבינדן.',
 	'wikieditor-toolbar-tool-file' => 'אײַנגעבעטעטע טעקע',
 	'wikieditor-toolbar-tool-file-example' => 'בײַשפיל.jpg',
+	'wikieditor-toolbar-file-size' => 'גרייס:',
 	'wikieditor-toolbar-tool-reference' => 'רעפערענץ',
 	'wikieditor-toolbar-tool-reference-example' => 'אַרײַנשטעלן פֿיסל טעקסט דא',
 	'wikieditor-toolbar-tool-reference-cancel' => 'אַנולירן',
