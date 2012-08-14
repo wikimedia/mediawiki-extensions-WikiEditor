@@ -124,7 +124,10 @@ $.wikiEditor.modules.dialogs = {
 			// Add some stuff to configuration
 			configuration.bgiframe = true;
 			configuration.autoOpen = false;
-			configuration.modal = true;
+			// By default our dialogs are modal, unless explicitely defined in their specific configuration.
+			if( typeof configuration.modal == "undefined" ) {
+				configuration.modal = true;
+			}
 			configuration.title = $.wikiEditor.autoMsg( module, 'title' );
 			// Transform messages in keys
 			// Stupid JS won't let us do stuff like

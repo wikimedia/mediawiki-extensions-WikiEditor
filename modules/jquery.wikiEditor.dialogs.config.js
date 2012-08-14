@@ -1295,6 +1295,7 @@ $.wikiEditor.modules.dialogs.config = {
 				dialog: {
 					width: 500,
 					dialogClass: 'wikiEditor-toolbar-dialog',
+					modal: false,
 					buttons: {
 						'wikieditor-toolbar-tool-replace-button-findnext': function ( e ) {
 							$(this).closest( '.ui-dialog' ).data( 'dialogaction', e.target );
