@@ -1345,6 +1345,7 @@ $messages['ar'] = array(
 	'wikieditor-toolbar-file-target' => 'اسم الملف:',
 	'wikieditor-toolbar-file-caption' => 'التعليق:',
 	'wikieditor-toolbar-file-size' => 'الحجم:',
+	'wikieditor-toolbar-file-float' => 'محازاة:',
 	'wikieditor-toolbar-file-default' => '(افتراضي)',
 	'wikieditor-toolbar-file-format' => 'الصيغة:',
 	'wikieditor-toolbar-tool-file-insert' => 'إدراج',
@@ -3742,6 +3743,7 @@ $messages['bn'] = array(
 	'wikieditor-toolbar-file-target' => 'ফাইলের নাম:',
 	'wikieditor-toolbar-file-caption' => 'ক্যাপশন:',
 	'wikieditor-toolbar-file-size' => 'আকার:',
+	'wikieditor-toolbar-file-default' => '(ডিফল্ট)',
 	'wikieditor-toolbar-file-format' => 'ফরম্যাট:',
 	'wikieditor-toolbar-tool-file-insert' => 'যোগ করো',
 	'wikieditor-toolbar-tool-file-cancel' => 'বাতিল',
@@ -6581,7 +6583,7 @@ $1:misal.jpg|nuşteyê resmi2',
 	'wikieditor-toolbar-tool-table-wikitable' => 'sinorê stili',
 	'wikieditor-toolbar-tool-table-sortable' => 'make table rêz bena',
 	'wikieditor-toolbar-tool-table-example' => 'metnê hucreyi',
-	'wikieditor-toolbar-tool-table-preview' => 'seyrkerdışo ewwil',
+	'wikieditor-toolbar-tool-table-preview' => 'Verqayt',
 	'wikieditor-toolbar-tool-table-insert' => 'têare ker',
 	'wikieditor-toolbar-tool-table-cancel' => 'ibtal',
 	'wikieditor-toolbar-tool-table-toomany' => '$1 hucreyın ra ziyed tablo eştış pê no mesaj mumkin niyo',
@@ -7926,6 +7928,7 @@ $1:Näide.jpg|Pildiallkiri2',
  * @author Inorbez
  * @author Joxemai
  * @author Xabier Armendaritz
+ * @author පසිඳු කාවින්ද
  */
 $messages['eu'] = array(
 	'wikieditor' => 'Wikitestu edizio-interfaze aurreratua',
@@ -7994,6 +7997,10 @@ Barne lotura bezala sortu nahi duzu?',
 	'wikieditor-toolbar-tool-link-empty' => 'Ez duzu bilatu beharreko ezer adierazi.',
 	'wikieditor-toolbar-tool-file' => 'Fitxategia txertatu',
 	'wikieditor-toolbar-tool-file-example' => 'Adibidea.jpg',
+	'wikieditor-toolbar-file-size' => 'Tamaina:',
+	'wikieditor-toolbar-file-format' => 'Formatua:',
+	'wikieditor-toolbar-tool-file-insert' => 'Txertatu',
+	'wikieditor-toolbar-tool-file-cancel' => 'Utzi',
 	'wikieditor-toolbar-tool-reference' => 'Erreferentzia',
 	'wikieditor-toolbar-tool-reference-example' => 'Txertatu testu oina hemen',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Utzi',
@@ -8405,6 +8412,7 @@ $1:مثال.jpg|عنوان ۲',
 );
 
 /** Finnish (suomi)
+ * @author Beluga
  * @author Crt
  * @author Linnea
  * @author Nedergard
@@ -8485,6 +8493,12 @@ Haluatko tehdä siitä sisäisen linkin?',
 	'wikieditor-toolbar-tool-file-title' => 'Lisää tiedosto',
 	'wikieditor-toolbar-file-target' => 'Tiedostonimi:',
 	'wikieditor-toolbar-file-caption' => 'Kuvaus:',
+	'wikieditor-toolbar-file-size' => 'Koko:',
+	'wikieditor-toolbar-file-float' => 'Tasaus:',
+	'wikieditor-toolbar-file-default' => '(oletus)',
+	'wikieditor-toolbar-file-format' => 'Tiedostomuoto:',
+	'wikieditor-toolbar-tool-file-insert' => 'Lisää',
+	'wikieditor-toolbar-tool-file-cancel' => 'Peruuta',
 	'wikieditor-toolbar-tool-reference' => 'Viite',
 	'wikieditor-toolbar-tool-reference-example' => 'Lisää alahuomautusteksti tähän',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Peruuta',
@@ -9174,6 +9188,32 @@ $messages['fur'] = array(
 /** Western Frisian (Frysk) */
 $messages['fy'] = array(
 	'wikieditor-toolbar-tool-link-cancel' => 'Ofbrekke',
+);
+
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'wikieditor-loading' => 'Ag Lódáil....',
+	'wikieditor-preview-tab' => 'Réamhamharc',
+	'wikieditor-preview-loading' => 'Ag Lódáil....',
+	'wikieditor-previewDialog-tab' => 'Réamhamharc',
+	'wikieditor-previewDialog-loading' => 'Ag Lódáil....',
+	'wikieditor-publish-button-cancel' => 'Cealaigh',
+	'wikieditor-template-editor-dialog-cancel' => 'Cealaigh',
+	'wikieditor-toolbar-loading' => 'Ag Lódáil....',
+	'wikieditor-toolbar-tool-link-cancel' => 'Cealaigh',
+	'wikieditor-toolbar-file-format' => 'Formáid:',
+	'wikieditor-toolbar-tool-file-cancel' => 'Cealaigh',
+	'wikieditor-toolbar-tool-reference-cancel' => 'Cealaigh',
+	'wikieditor-toolbar-group-format' => 'Formáid',
+	'wikieditor-toolbar-tool-table-preview' => 'Réamhamharc',
+	'wikieditor-toolbar-tool-table-cancel' => 'Cealaigh',
+	'wikieditor-toolbar-tool-replace-close' => 'Dún',
+	'wikieditor-toolbar-section-help' => 'Cuidiú',
+	'wikieditor-toolbar-help-page-file' => 'Comhaid',
+	'wikieditor-toolbar-help-page-discussion' => 'Plé',
+	'wikieditor-toolbar-help-content-signature-description' => 'Síniú',
 );
 
 /** Scottish Gaelic (Gàidhlig)
@@ -13551,9 +13591,34 @@ $messages['jv'] = array(
 	'wikieditor-template-editor-dialog-submit' => 'Anyari',
 	'wikieditor-template-editor-dialog-cancel' => 'Batal',
 	'wikieditor-templates-preference' => 'Urubaké piranti nutup témplat',
+	'wikieditor-toc-preference' => 'Urubaké daptar isi sing mayar diarahaké',
 	'wikieditor-toc-show' => 'Tuduhaké isi',
 	'wikieditor-toc-hide' => 'Dhelikaké isi',
 	'wikieditor-toolbar' => 'Bilah prangkat panyuntingan',
+	'wikieditor-toolbar-desc' => 'Sunting bilah prangkat kaca mawa kagunan canggih',
+	'wikieditor-toolbar-preference' => 'Urubaké bilah prangkat panyuntingan canggih',
+	'wikieditor-toolbar-dialogs-preference' => 'Urubaké dialog kanggo nglebokaké pranala, tabèl lan liyané',
+	'wikieditor-toolbar-hidesig' => 'Dhelikaké pencetan tapak asta saka kaca-kaca nèng bilik jeneng utama',
+	'wikieditor-toolbar-loading' => 'Ngemot...',
+	'wikieditor-toolbar-tool-bold' => 'Kandel',
+	'wikieditor-toolbar-tool-bold-example' => 'Tèks kandel',
+	'wikieditor-toolbar-tool-italic' => 'Miring',
+	'wikieditor-toolbar-tool-italic-example' => 'Tèks miring',
+	'wikieditor-toolbar-tool-ilink' => 'Pranala njero',
+	'wikieditor-toolbar-tool-ilink-example' => 'Judhul pranala',
+	'wikieditor-toolbar-tool-xlink' => 'Pranala njaba (èling ater-ater http://)',
+	'wikieditor-toolbar-tool-xlink-example' => 'http://www.conto.com judhul pranala',
+	'wikieditor-toolbar-tool-link' => 'Pranala',
+	'wikieditor-toolbar-tool-link-title' => 'Lebokaké pranala',
+	'wikieditor-toolbar-tool-link-int' => 'Nuju kaca wiki',
+	'wikieditor-toolbar-tool-link-int-target' => 'Kaca utawa URL patujon:',
+	'wikieditor-toolbar-tool-link-int-target-tooltip' => 'Judhul utawa URL kaca',
+	'wikieditor-toolbar-tool-link-int-text' => 'Tèks sing tampil:',
+	'wikieditor-toolbar-tool-link-int-text-tooltip' => 'Tèks sing ditampilaké',
+	'wikieditor-toolbar-tool-link-ext' => 'Nuju kaca wèb njaba',
+	'wikieditor-toolbar-tool-link-ext-target' => 'URL pranala:',
+	'wikieditor-toolbar-tool-link-ext-text' => 'Tèks pranala:',
+	'wikieditor-toolbar-tool-link-insert' => 'Lebokaké pranala',
 	'wikieditor-toolbar-tool-link-cancel' => 'Batal',
 	'wikieditor-toolbar-tool-link-int-target-status-exists' => 'Kacané ana',
 	'wikieditor-toolbar-tool-link-int-target-status-notexists' => 'Kaca ora ana',
@@ -13613,6 +13678,22 @@ Apa Sampéyan arep ndadékaé kuwi pranala njero?',
 	'wikieditor-toolbar-tool-subscript-example' => 'Tèks subskrip',
 	'wikieditor-toolbar-group-insert' => 'Lebokaké',
 	'wikieditor-toolbar-tool-gallery' => 'Galèri gambar',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:Conto.jpg|Katrangan1
+$1:Conto.jpg|Katrangan2',
+	'wikieditor-toolbar-tool-newline' => 'Larik anyar',
+	'wikieditor-toolbar-tool-table' => 'Tabèl',
+	'wikieditor-toolbar-tool-table-example-old' => '-
+! Irah-irahan 1
+! Irah-irahan 2
+! Irah-irahan 3
+|-
+| larik 1, sèl 1
+| larik 1, sèl 2
+| larik 1, sèl 3
+|-
+| larik 2, sèl 1
+| larik 2, sèl 2
+| larik 2, sèl 3',
 	'wikieditor-toolbar-tool-table-example-cell-text' => 'Tèks sèl',
 	'wikieditor-toolbar-tool-table-example-header' => 'Tèks sirah',
 	'wikieditor-toolbar-tool-table-title' => 'Lebokaké tabèl',
@@ -13640,6 +13721,7 @@ Apa Sampéyan arep ndadékaé kuwi pranala njero?',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'Panggolèkan Sampéyan ora cocok karo apa waé.',
 	'wikieditor-toolbar-tool-replace-success' => 'Nggawé $1 gantèn.',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'Sampéyan ora nglebokaké apa-apa kanggo digolèki.',
+	'wikieditor-toolbar-tool-replace-invalidregex' => 'Èkspresi biasa sing Sampéyan lebokaké ora sah: $1',
 	'wikieditor-toolbar-section-characters' => 'Karakter kusus',
 	'wikieditor-toolbar-characters-page-latin' => 'Latin',
 	'wikieditor-toolbar-characters-page-latinextended' => 'Latin pepak',
@@ -13682,6 +13764,30 @@ Apa Sampéyan arep ndadékaé kuwi pranala njero?',
 	'wikieditor-toolbar-help-content-bolditalic-result' => '<strong><em>Tèks kandel &amp; miring</em></strong>',
 	'wikieditor-toolbar-help-content-ilink-description' => 'Pranala njero',
 	'wikieditor-toolbar-help-content-ilink-syntax' => '[[Judhul kaca|Labèl pranala]]<br />[[Judhul kaca]]',
+	'wikieditor-toolbar-help-content-ilink-result' => "<a href='#'>Labèl pranala</a><br /><a href='#'>Judhul kaca</a>",
+	'wikieditor-toolbar-help-content-xlink-description' => 'Pranala njaba',
+	'wikieditor-toolbar-help-content-xlink-syntax' => '[http://www.conto.org Labèl pranala]<br />[http://www.conto.org]<br />http://www.conto.org',
+	'wikieditor-toolbar-help-content-xlink-result' => "<a href='#' class='external'>Labèl pranala</a><br /><a href='#' class='external autonumber'>[1]</a><br /><a href='#' class='external'>http://www.conto.org</a>",
+	'wikieditor-toolbar-help-content-heading2-description' => 'Irah-irahan undhak ka-2',
+	'wikieditor-toolbar-help-content-heading2-syntax' => '== Tulisan irah-irahan ==',
+	'wikieditor-toolbar-help-content-heading2-result' => '<h2>Tulisan irah-irahan</h2>',
+	'wikieditor-toolbar-help-content-heading3-description' => 'Irah-irahan undhak ka-3',
+	'wikieditor-toolbar-help-content-heading3-syntax' => '=== Tulisan irah-irahan ===',
+	'wikieditor-toolbar-help-content-heading3-result' => '<h3>Tulisan irah-irahan</h3>',
+	'wikieditor-toolbar-help-content-heading4-description' => 'Irah-irahan undhak ka-4',
+	'wikieditor-toolbar-help-content-heading4-syntax' => '==== Tulisan irah-irahan ====',
+	'wikieditor-toolbar-help-content-heading4-result' => '<h4>Tulisan irah-irahan</h4>',
+	'wikieditor-toolbar-help-content-heading5-description' => 'Irah-irahan undhak ka-5',
+	'wikieditor-toolbar-help-content-heading5-syntax' => '===== Tulisan irah-irahan =====',
+	'wikieditor-toolbar-help-content-heading5-result' => '<h5>Tulisan irah-irahan</h5>',
+	'wikieditor-toolbar-help-content-ulist-description' => 'Daptar poin',
+	'wikieditor-toolbar-help-content-ulist-syntax' => '* Baranging daptar<br />* Baranging daptar',
+	'wikieditor-toolbar-help-content-ulist-result' => '<ul><li>Baranging daptar</li><li>Baranging daptar</li></ul>',
+	'wikieditor-toolbar-help-content-olist-description' => 'Daptar angka',
+	'wikieditor-toolbar-help-content-olist-syntax' => '# Baranging daptar<br /># Baranging daptar',
+	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Baranging daptar</li><li>Baranging daptar</li></ol>',
+	'wikieditor-toolbar-help-content-file-description' => 'Berkas kasisipaké',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Conto.png|gambar|Tulisan katrangan]]',
 );
 
 /** Georgian (ქართული)
@@ -19211,6 +19317,24 @@ $1:Voorbeeld.jpg|Bijschrift2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Normale tekst<dl><dd>Ingesprongen tekst<dl><dd>Ingesprongen tekst</dd></dl></dd></dl>',
 );
 
+/** ‪Nederlands (informeel)‬ (‪Nederlands (informeel)‬)
+ * @author Siebrand
+ */
+$messages['nl-informal'] = array(
+	'wikieditor-publish-dialog-summary' => 'Bewerkingssamenvatting (beschrijf kort de door jou gemaakte wijzingen):',
+	'wikieditor-toolbar-tool-link-int-invalid' => 'De pagina die je hebt opgegeven is ongeldig.',
+	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'De URL die je hebt opgegeven lijkt bedoeld te zijn als verwijzing naar een andere wikipagina.
+Wil je er een interne verwijzing van maken?',
+	'wikieditor-toolbar-tool-link-empty' => 'Je hebt niets opgegeven om naar te verwijzen.',
+	'wikieditor-toolbar-tool-table-invalidnumber' => 'Je hebt een ongeldig aantal regels of kolommen opgegeven.',
+	'wikieditor-toolbar-tool-table-zero' => 'Je kunt geen tabel invoegen zonder regels of kolommen.',
+	'wikieditor-toolbar-tool-replace-nomatch' => 'Je zoekopdracht heeft geen resultaten opgeleverd.',
+	'wikieditor-toolbar-tool-replace-emptysearch' => 'Je hebt geen zoekterm opgegeven.',
+	'wikieditor-toolbar-tool-replace-invalidregex' => 'Je reguliere expressie is ongeldig: $1',
+	'wikieditor-toolbar-help-heading-syntax' => 'Wat je typt',
+	'wikieditor-toolbar-help-heading-result' => 'Wat je te zien krijgt',
+);
+
 /** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Eirik
  * @author Gunnernett
@@ -19766,6 +19890,11 @@ $messages['or'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'ଆପଣ କିଛି ଲିଙ୍କ ସମ୍ପର୍କିତ କରିବା ପାଇଁ ଦେଇନାହାନ୍ତି ।',
 	'wikieditor-toolbar-tool-file' => 'ଏମବେଡ଼ ହୋଇ ଥିବା ଫାଇଲ',
 	'wikieditor-toolbar-tool-file-example' => 'ଉଦାହରଣ.jpg',
+	'wikieditor-toolbar-file-target' => 'ଫାଇଲ ନାମ:',
+	'wikieditor-toolbar-file-size' => 'ଆକାର:',
+	'wikieditor-toolbar-file-format' => 'ସଜାଣି:',
+	'wikieditor-toolbar-tool-file-insert' => 'ଭରିବେ',
+	'wikieditor-toolbar-tool-file-cancel' => 'ନାକଚ',
 	'wikieditor-toolbar-tool-reference' => 'ଆଧାର',
 	'wikieditor-toolbar-tool-reference-example' => 'ଏଠାରେ ପାଦଟୀକାଟି ରଖିବେ',
 	'wikieditor-toolbar-tool-reference-cancel' => 'ନାକଚ',
@@ -22168,6 +22297,7 @@ $1:Example.jpg|Titele2',
 /** Russian (русский)
  * @author Alexandr Efremov
  * @author Claymore
+ * @author David1010
  * @author Dim Grits
  * @author Eleferen
  * @author G0rn
@@ -22244,8 +22374,15 @@ $messages['ru'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'Вы не указали на что ссылаться.',
 	'wikieditor-toolbar-tool-file' => 'Встроенный файл',
 	'wikieditor-toolbar-tool-file-example' => 'Example.jpg',
+	'wikieditor-toolbar-tool-file-title' => 'Вставить файл',
+	'wikieditor-toolbar-file-target' => 'Имя файла:',
+	'wikieditor-toolbar-file-caption' => 'Подпись:',
+	'wikieditor-toolbar-file-size' => 'Размер:',
+	'wikieditor-toolbar-file-float' => 'Выравнивание:',
 	'wikieditor-toolbar-file-default' => '(по умолчанию)',
 	'wikieditor-toolbar-file-format' => 'Формат:',
+	'wikieditor-toolbar-tool-file-insert' => 'Вставка',
+	'wikieditor-toolbar-tool-file-cancel' => 'Отмена',
 	'wikieditor-toolbar-tool-reference' => 'Сноска',
 	'wikieditor-toolbar-tool-reference-example' => 'Вставьте сюда текст сноски',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Отмена',
@@ -22658,6 +22795,7 @@ $1:Example.jpg|Опис2',
  */
 $messages['sa'] = array(
 	'wikieditor' => 'उन्नतवीकिपाठ्यांशस्य सम्पादनमाध्यमम्',
+	'wikieditor-desc' => 'मध्यस्थसम्पादनयोग्यं विस्तारशीलं विकिपाठ्यांशं विविधानुकूलकारिणः विभागान् च प्रददाति',
 	'wikieditor-wikitext-tab' => 'विकिपाठः',
 	'wikieditor-loading' => 'आरोप्यमाणमस्ति.....',
 	'wikieditor-preview-preference' => 'पक्षशः प्राग्दृश्यं सक्षमं क्रियताम्',
@@ -22886,6 +23024,7 @@ $1:उदाहरणम्.jpg|चित्रशीर्षकम्२',
 	'wikieditor-toolbar-help-content-rereference-description' => 'तस्यैव आधारस्य अतिरिक्तः उपयोगः',
 	'wikieditor-toolbar-help-content-rereference-result' => "पृष्ठपाठः .<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-showreferences-description' => 'आधारः दर्श्यताम्',
+	'wikieditor-toolbar-help-content-showreferences-result' => "<ol class='आधाराः'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='बाह्यलेखः' href='#'>अनुबन्धलेखः</a>, अतिरिक्तलेखः ।</li></ol>",
 	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'हस्ताक्षरं समयाङ्कनञ्च',
 	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>सदस्यनाम</a> (<a href='#' title='{{#special:mytalk}}'>चर्चा</a>) 15:54, 10 June 2009 (UTC)",
 	'wikieditor-toolbar-help-content-signature-description' => 'हस्ताक्षरम्',
