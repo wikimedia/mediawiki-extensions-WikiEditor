@@ -13788,6 +13788,18 @@ $1:Conto.jpg|Katrangan2',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Baranging daptar</li><li>Baranging daptar</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Berkas kasisipaké',
 	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Conto.png|gambar|Tulisan katrangan]]',
+	'wikieditor-toolbar-help-content-reference-description' => 'Rujukan',
+	'wikieditor-toolbar-help-content-reference-syntax' => 'Tèks kaca.&lt;ref name="test"&gt;[http://www.conto.org Tèks pranala], tèks tambahan.&lt;/ref&gt;',
+	'wikieditor-toolbar-help-content-reference-result' => "Tèks kaca.<sup><a href='#'>[1]</a></sup>",
+	'wikieditor-toolbar-help-content-rereference-description' => 'Panganggoan tambahan saka rujukan sing padha',
+	'wikieditor-toolbar-help-content-rereference-result' => "Tèks kaca.<sup><a href='#'>[1]</a></sup>",
+	'wikieditor-toolbar-help-content-showreferences-description' => 'Tampilaké réferensi',
+	'wikieditor-toolbar-help-content-showreferences-result' => "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.conto.org' class='external text' href='#'>Tèks pranala</a>, tèks tambahan.</li></ol>",
+	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'Tapak asta lan cap wektu',
+	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>Panganggo</a> (<a href='#' title='{{#special:mytalk}}'>wicara</a>) 15:54, 10 Juni 2009 (UTC)",
+	'wikieditor-toolbar-help-content-signature-description' => 'Tapak asta',
+	'wikieditor-toolbar-help-content-signature-result' => "<a href='#' title='{{#special:mypage}}'>Panganggo</a> (<a href='#' title='{{#special:mytalk}}'>wicara</a>)",
+	'wikieditor-toolbar-help-content-indent-description' => 'Indèn',
 );
 
 /** Georgian (ქართული)
@@ -14511,7 +14523,7 @@ $messages['ko'] = array(
 	'wikieditor-toolbar-tool-italic-example' => '기울인 글씨',
 	'wikieditor-toolbar-tool-ilink' => '내부 링크',
 	'wikieditor-toolbar-tool-ilink-example' => '문서 제목',
-	'wikieditor-toolbar-tool-xlink' => '외부 링크 (주소 앞에 http://가 있어야 합니다.)',
+	'wikieditor-toolbar-tool-xlink' => '바깥 링크 (주소 앞에 http://가 있어야 합니다.)',
 	'wikieditor-toolbar-tool-xlink-example' => 'http://www.example.com 링크 이름',
 	'wikieditor-toolbar-tool-link' => '링크',
 	'wikieditor-toolbar-tool-link-title' => '링크 추가',
@@ -14528,13 +14540,13 @@ $messages['ko'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-exists' => '문서가 존재합니다.',
 	'wikieditor-toolbar-tool-link-int-target-status-notexists' => '문서가 존재하지 않습니다.',
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => '제목이 잘못되었습니다.',
-	'wikieditor-toolbar-tool-link-int-target-status-external' => '외부 링크',
+	'wikieditor-toolbar-tool-link-int-target-status-external' => '바깥 링크',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => '문서가 존재하는 지 확인 중...',
 	'wikieditor-toolbar-tool-link-int-invalid' => '입력한 제목이 잘못되었습니다.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => '당신이 입력한 URL은 다른 내부 문서일 수 있습니다.
 내부 링크로 바꾸겠습니까?',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => '내부 링크',
-	'wikieditor-toolbar-tool-link-lookslikeinternal-ext' => '외부 링크',
+	'wikieditor-toolbar-tool-link-lookslikeinternal-ext' => '바깥 링크',
 	'wikieditor-toolbar-tool-link-empty' => '링크할 대상을 입력하지 않았습니다.',
 	'wikieditor-toolbar-tool-file' => '파일 넣기',
 	'wikieditor-toolbar-tool-file-example' => 'Example.jpg',
@@ -14671,7 +14683,7 @@ $1:Example.jpg|설명2',
 	'wikieditor-toolbar-help-content-ilink-description' => '내부 링크',
 	'wikieditor-toolbar-help-content-ilink-syntax' => '[[문서 이름|다른 이름]]<br />[[문서 이름]]',
 	'wikieditor-toolbar-help-content-ilink-result' => "<a href='#'>다른 이름</a><br /><a href='#'>문서 이름</a>",
-	'wikieditor-toolbar-help-content-xlink-description' => '외부 링크',
+	'wikieditor-toolbar-help-content-xlink-description' => '바깥 링크',
 	'wikieditor-toolbar-help-content-xlink-syntax' => '[http://www.example.org 링크 이름]<br />[http://www.example.org]<br />http://www.example.org',
 	'wikieditor-toolbar-help-content-xlink-result' => "<a href='#' class='external'>링크 이름</a><br /><a href='#' class='external autonumber'>[1]</a><br /><a href='#' class='external'>http://www.example.org</a>",
 	'wikieditor-toolbar-help-content-heading2-description' => '2단계 제목',
@@ -27540,7 +27552,7 @@ $messages['uk'] = array(
 	'wikieditor-toolbar' => 'Панель засобів редагування',
 	'wikieditor-toolbar-desc' => 'Панель засобів редагування з покращеною ужитковістю',
 	'wikieditor-toolbar-preference' => 'Увімкнути покращену панель засобів редагування',
-	'wikieditor-toolbar-dialogs-preference' => 'Увімкнути діалоги для додавання посилань, таблиць та іншого',
+	'wikieditor-toolbar-dialogs-preference' => 'Увімкнути діалоги для пошуку і заміни, додавання посилань, таблиць та іншого',
 	'wikieditor-toolbar-hidesig' => 'Приховати кнопку підпису зі сторінок в основному просторі назв',
 	'wikieditor-toolbar-loading' => 'Завантаження…',
 	'wikieditor-toolbar-tool-bold' => 'Жирний',
@@ -27742,6 +27754,7 @@ $1:Example.jpg|Опис2',
 
 /** Urdu (اردو)
  * @author محبوب عالم
+ * @author පසිඳු කාවින්ද
  */
 $messages['ur'] = array(
 	'wikieditor' => 'ویکی متن کی تدوین کیلئے پیش رفتہ سطح البین',
@@ -27766,6 +27779,7 @@ $messages['ur'] = array(
 	'wikieditor-publish-dialog-goback' => 'پیچھے جاؤ',
 	'wikieditor-template-editor-preference' => 'ویکی سانچہ جات کا شکلبندی تدوین فعال کرو',
 	'wikieditor-template-editor-dialog-title' => 'سانچہ کی تدوین',
+	'wikieditor-template-editor-dialog-submit' => 'اپ ڈیٹ',
 	'wikieditor-template-editor-dialog-cancel' => 'منسوخ',
 	'wikieditor-templates-preference' => 'سانچہ کی تہدیم فعال کرو',
 	'wikieditor-toc-show' => 'مشتملات دکھاؤ',
@@ -27807,6 +27821,15 @@ $messages['ur'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'آپ نے ربط کیلئے کچھ داخل نہیں کیا۔',
 	'wikieditor-toolbar-tool-file' => 'پیوستہ ملف',
 	'wikieditor-toolbar-tool-file-example' => 'مثال.jpg',
+	'wikieditor-toolbar-tool-file-title' => 'فائل کو داخل کریں',
+	'wikieditor-toolbar-file-target' => 'توسیعۂ اسم:',
+	'wikieditor-toolbar-file-caption' => 'عنوان:',
+	'wikieditor-toolbar-file-size' => 'کا سائز:',
+	'wikieditor-toolbar-file-float' => 'سیدھ کریں:',
+	'wikieditor-toolbar-file-default' => '(طے شدہ)',
+	'wikieditor-toolbar-file-format' => 'فارمیٹ:',
+	'wikieditor-toolbar-tool-file-insert' => 'ڈالیں',
+	'wikieditor-toolbar-tool-file-cancel' => 'منسوخ',
 	'wikieditor-toolbar-tool-reference' => 'حوالہ',
 	'wikieditor-toolbar-tool-reference-example' => 'حاشیہ متن یہاں داخل کرو',
 	'wikieditor-toolbar-tool-reference-cancel' => 'منسوخ',
@@ -27827,6 +27850,9 @@ $messages['ur'] = array(
 	'wikieditor-toolbar-tool-ulist-example' => 'نقاطی فہرست کی مَد',
 	'wikieditor-toolbar-tool-olist' => 'نمبرشدہ فہرست',
 	'wikieditor-toolbar-tool-olist-example' => 'نمبرشُدہ فہرست کی مَد',
+	'wikieditor-toolbar-tool-nowiki' => 'کوئی وکی فارمیٹنگ',
+	'wikieditor-toolbar-tool-nowiki-example' => 'غیر فارمیٹ متن یہاں داخل کریں',
+	'wikieditor-toolbar-tool-redirect' => 'کی سمت تبدیل',
 	'wikieditor-toolbar-tool-redirect-example' => 'ہدف صفحہ کا نام',
 	'wikieditor-toolbar-tool-big' => 'بڑا',
 	'wikieditor-toolbar-tool-big-example' => 'بڑا متن',
@@ -27873,6 +27899,8 @@ $1:مثال.jpg|تعقیب2',
 	'wikieditor-toolbar-tool-replace-title' => 'تلاش و تبدیلئ متن',
 	'wikieditor-toolbar-tool-replace-search' => 'تلاش برائے:',
 	'wikieditor-toolbar-tool-replace-replace' => 'اِس کے ساتھ تبدیل کرو:',
+	'wikieditor-toolbar-tool-replace-case' => 'میچ کے کیس',
+	'wikieditor-toolbar-tool-replace-regex' => 'ایک باقاعدہ اظہار طور پر تلاش تار کا علاج',
 	'wikieditor-toolbar-tool-replace-button-findnext' => 'اگلی دریافت',
 	'wikieditor-toolbar-tool-replace-button-replace' => 'بدل دو',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'سب بدل دو',
@@ -27890,6 +27918,7 @@ $1:مثال.jpg|تعقیب2',
 	'wikieditor-toolbar-characters-page-persian' => 'فارسی',
 	'wikieditor-toolbar-characters-page-hebrew' => 'عبرانی',
 	'wikieditor-toolbar-characters-page-bangla' => 'بنگالی',
+	'wikieditor-toolbar-characters-page-tamil' => 'تامل',
 	'wikieditor-toolbar-characters-page-telugu' => 'تلگو',
 	'wikieditor-toolbar-characters-page-sinhala' => 'سنگھالی',
 	'wikieditor-toolbar-characters-page-gujarati' => 'گجراتی',
@@ -28263,6 +28292,7 @@ $messages['vep'] = array(
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  * @author Vinhtantran
+ * @author පසිඳු කාවින්ද
  */
 $messages['vi'] = array(
 	'wikieditor' => 'Giao diện sửa đổi văn bản wiki nâng cao',
@@ -28331,6 +28361,9 @@ $messages['vi'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'Bạn chưa nhập nơi nào để cho liên kết dẫn tới.',
 	'wikieditor-toolbar-tool-file' => 'Chèn tập tin',
 	'wikieditor-toolbar-tool-file-example' => 'Ví dụ.jpg',
+	'wikieditor-toolbar-file-format' => 'Định dạng:',
+	'wikieditor-toolbar-tool-file-insert' => 'Chèn',
+	'wikieditor-toolbar-tool-file-cancel' => 'Hủy bỏ',
 	'wikieditor-toolbar-tool-reference' => 'Chú thích tham khảo',
 	'wikieditor-toolbar-tool-reference-example' => 'Ghi chú tại đây',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Hủy bỏ',
@@ -28644,6 +28677,7 @@ $messages['xmf'] = array(
 
 /** Yiddish (ייִדיש)
  * @author פוילישער
+ * @author පසිඳු කාවින්ද
  */
 $messages['yi'] = array(
 	'wikieditor' => 'פֿארטגעשריטענע וויקיטעקסט רעדאַקטירונג',
@@ -28707,6 +28741,7 @@ $messages['yi'] = array(
 	'wikieditor-toolbar-tool-file' => 'אײַנגעבעטעטע טעקע',
 	'wikieditor-toolbar-tool-file-example' => 'בײַשפיל.jpg',
 	'wikieditor-toolbar-file-size' => 'גרייס:',
+	'wikieditor-toolbar-file-format' => 'פֿאָרמאַט:',
 	'wikieditor-toolbar-tool-reference' => 'רעפערענץ',
 	'wikieditor-toolbar-tool-reference-example' => 'אַרײַנשטעלן פֿיסל טעקסט דא',
 	'wikieditor-toolbar-tool-reference-cancel' => 'אַנולירן',
