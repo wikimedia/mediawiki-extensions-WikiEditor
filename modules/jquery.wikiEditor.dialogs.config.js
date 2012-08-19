@@ -747,10 +747,10 @@ $.wikiEditor.modules.dialogs.config = {
 							<div class="wikieditor-toolbar-field-wrapper">\
 								<label for="wikieditor-toolbar-file-format" rel="wikieditor-toolbar-file-format"></label><br/>\
 								<select type="text" id="wikieditor-toolbar-file-format">\
-								<option value="default" selected="selected" rel="wikieditor-toolbar-file-default"></option>\
-								<option data-i18n-magic="img_thumbnail">thumb</option>\
+								<option selected="selected" data-i18n-magic="img_thumbnail">thumb</option>\
 								<option data-i18n-magic="img_framed"></option>\
 								<option data-i18n-magic="img_frameless"></option>\
+								<option value="default" rel="wikieditor-toolbar-file-format-none"></option>\
 								</select>\
 							</div>\
 						</div>\
