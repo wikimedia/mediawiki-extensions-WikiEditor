@@ -5108,6 +5108,7 @@ $1:Example.jpg|Цуьнах лаце2',
  * @author Calak
  * @author Marmzok
  * @author McDutchie
+ * @author Muhammed taha
  */
 $messages['ckb'] = array(
 	'wikieditor' => 'ڕووکاری پێشکەوتووی دەستکاریکردنی ویکیدەق',
@@ -5174,6 +5175,10 @@ $messages['ckb'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'ھیچێک بۆ بەستەر بۆ کردن نەخستە ناوی',
 	'wikieditor-toolbar-tool-file' => 'پەڕگەی نێودەق',
 	'wikieditor-toolbar-tool-file-example' => 'نموونە.jpg',
+	'wikieditor-toolbar-file-target' => 'ناوی پەرگە:',
+	'wikieditor-toolbar-file-format' => 'داڕشتن:',
+	'wikieditor-toolbar-tool-file-insert' => 'تێخستن',
+	'wikieditor-toolbar-tool-file-cancel' => 'ھەڵوەشاندنەوە',
 	'wikieditor-toolbar-tool-reference' => 'سەرچاوە',
 	'wikieditor-toolbar-tool-reference-example' => 'دەقی پانووس بخەرە ئێرە',
 	'wikieditor-toolbar-tool-reference-cancel' => 'ھەڵوەشاندنەوە',
@@ -28402,6 +28407,12 @@ $messages['vi'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'Bạn chưa nhập nơi nào để cho liên kết dẫn tới.',
 	'wikieditor-toolbar-tool-file' => 'Chèn tập tin',
 	'wikieditor-toolbar-tool-file-example' => 'Ví dụ.jpg',
+	'wikieditor-toolbar-tool-file-title' => 'Chèn tập tin',
+	'wikieditor-toolbar-file-target' => 'Tên tập tin:',
+	'wikieditor-toolbar-file-caption' => 'Chú thích:',
+	'wikieditor-toolbar-file-size' => 'Kích cỡ:',
+	'wikieditor-toolbar-file-float' => 'Căn:',
+	'wikieditor-toolbar-file-default' => '(mặc định)',
 	'wikieditor-toolbar-file-format' => 'Định dạng:',
 	'wikieditor-toolbar-tool-file-insert' => 'Chèn',
 	'wikieditor-toolbar-tool-file-cancel' => 'Hủy bỏ',
