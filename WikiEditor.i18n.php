@@ -13089,6 +13089,7 @@ $1:Example.jpg|Myndlýsing2',
 /** Italian (italiano)
  * @author Aushulz
  * @author Beta16
+ * @author Darth Kule
  * @author F. Cosoleto
  * @author Gianfranco
  * @author Gliu
@@ -13106,10 +13107,10 @@ $messages['it'] = array(
 	'wikieditor-preview-preference' => 'Abilita anteprima laterale',
 	'wikieditor-preview-tab' => 'Anteprima',
 	'wikieditor-preview-changes-tab' => 'Modifiche',
-	'wikieditor-preview-loading' => 'Caricamento...',
+	'wikieditor-preview-loading' => 'Caricamento in corso...',
 	'wikieditor-previewDialog-preference' => 'Abilita la finestra di dialogo di anteprima',
 	'wikieditor-previewDialog-tab' => 'Anteprima',
-	'wikieditor-previewDialog-loading' => 'Caricamento...',
+	'wikieditor-previewDialog-loading' => 'Caricamento in corso...',
 	'wikieditor-publish-preference' => 'Abilita pubblicazione passo dopo passo',
 	'wikieditor-publish-button-publish' => 'Pubblica',
 	'wikieditor-publish-button-cancel' => 'Annulla',
