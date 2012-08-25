@@ -566,7 +566,7 @@ fn: {
 				ranges[params[rangeIndex].valueIndex].newVal = value;
 			}
 			return retVal;
-		};
+		}
 
 		/* Public Functions */
 
