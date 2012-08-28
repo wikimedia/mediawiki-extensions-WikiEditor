@@ -13341,6 +13341,7 @@ $1:Esempio.jpg|Didascalia2',
 );
 
 /** Japanese (日本語)
+ * @author 2nd-player
  * @author Aotake
  * @author Fryed-peach
  * @author Hosiryuhosi
@@ -13376,7 +13377,7 @@ $messages['ja'] = array(
 	'wikieditor-template-editor-dialog-submit' => '更新',
 	'wikieditor-template-editor-dialog-cancel' => '中止',
 	'wikieditor-templates-preference' => 'テンプレート折り畳みを有効にする',
-	'wikieditor-toc-preference' => '編集用目次を有効にする',
+	'wikieditor-toc-preference' => '編集画面の目次を有効にする',
 	'wikieditor-toc-show' => '目次を表示',
 	'wikieditor-toc-hide' => '目次を非表示',
 	'wikieditor-toolbar' => '編集ツールバー',
@@ -13418,6 +13419,15 @@ $messages['ja'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'リンクすべき入力が与えられていません。',
 	'wikieditor-toolbar-tool-file' => '埋め込みファイル',
 	'wikieditor-toolbar-tool-file-example' => '例.jpg',
+	'wikieditor-toolbar-tool-file-title' => 'ファイルを挿入',
+	'wikieditor-toolbar-file-target' => 'ファイル名:',
+	'wikieditor-toolbar-file-caption' => 'キャプション:',
+	'wikieditor-toolbar-file-size' => 'サイズ:',
+	'wikieditor-toolbar-file-float' => '配置:',
+	'wikieditor-toolbar-file-default' => '(既定)',
+	'wikieditor-toolbar-file-format' => '表示形式:',
+	'wikieditor-toolbar-tool-file-insert' => 'ファイル挿入',
+	'wikieditor-toolbar-tool-file-cancel' => '中止',
 	'wikieditor-toolbar-tool-reference' => '注釈',
 	'wikieditor-toolbar-tool-reference-example' => '注釈文をここに入力してください',
 	'wikieditor-toolbar-tool-reference-cancel' => '中止',
@@ -13515,6 +13525,7 @@ $1:Example.jpg|キャプション2',
 	'wikieditor-toolbar-characters-page-telugu' => 'テルグ文字',
 	'wikieditor-toolbar-characters-page-sinhala' => 'シンハラ文字',
 	'wikieditor-toolbar-characters-page-gujarati' => 'グジャラート文字',
+	'wikieditor-toolbar-characters-page-devanagari' => 'デーヴァナーガリー文字',
 	'wikieditor-toolbar-characters-page-thai' => 'タイ文字',
 	'wikieditor-toolbar-characters-page-lao' => 'ラオス文字',
 	'wikieditor-toolbar-characters-page-khmer' => 'クメール文字',
