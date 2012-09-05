@@ -6637,7 +6637,7 @@ $1:misal.jpg|nuşteyê resmi2',
 	'wikieditor-toolbar-characters-page-lao' => 'Lao',
 	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
 	'wikieditor-toolbar-section-help' => 'Peşti',
-	'wikieditor-toolbar-help-heading-description' => 'Sılasnayış',
+	'wikieditor-toolbar-help-heading-description' => 'Şınasnayış',
 	'wikieditor-toolbar-help-heading-syntax' => 'o yo ke şıma nuşt',
 	'wikieditor-toolbar-help-heading-result' => 'o yo ke şıma gırewt',
 	'wikieditor-toolbar-help-page-format' => 'fesal dayiş/format',
@@ -27592,6 +27592,7 @@ $1:Мисал.jpg|Тасвирлама2',
  * @author Ahonc
  * @author Dim Grits
  * @author Microcell
+ * @author NickK
  * @author Olvin
  * @author Prima klasy4na
  * @author Тест
@@ -27663,6 +27664,15 @@ $messages['uk'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'Ви не зазначили, на що створити посилання.',
 	'wikieditor-toolbar-tool-file' => 'Вкладений файл',
 	'wikieditor-toolbar-tool-file-example' => 'Example.jpg',
+	'wikieditor-toolbar-tool-file-title' => 'Вставити файл',
+	'wikieditor-toolbar-file-target' => 'Назва файлу:',
+	'wikieditor-toolbar-file-caption' => 'Підпис:',
+	'wikieditor-toolbar-file-size' => 'Розмір:',
+	'wikieditor-toolbar-file-float' => 'Вирівнювання:',
+	'wikieditor-toolbar-file-default' => '(стандартно)',
+	'wikieditor-toolbar-file-format' => 'Формат:',
+	'wikieditor-toolbar-tool-file-insert' => 'Вставити',
+	'wikieditor-toolbar-tool-file-cancel' => 'Скасувати',
 	'wikieditor-toolbar-tool-reference' => 'Виноска',
 	'wikieditor-toolbar-tool-reference-example' => 'Вставте сюди текст виноски',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Скасувати',
@@ -27757,6 +27767,7 @@ $1:Example.jpg|Опис2',
 	'wikieditor-toolbar-characters-page-persian' => 'Перські',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Іврит',
 	'wikieditor-toolbar-characters-page-bangla' => 'Бенгальські',
+	'wikieditor-toolbar-characters-page-tamil' => 'Тамільська',
 	'wikieditor-toolbar-characters-page-telugu' => 'Телугу',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Сингальська',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Гуджараті',
