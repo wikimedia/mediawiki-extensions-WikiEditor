@@ -21069,6 +21069,18 @@ $messages['ps'] = array(
 	'wikieditor-toolbar-tool-gallery' => 'د انځورونو انځورتون',
 	'wikieditor-toolbar-tool-newline' => 'نوې کرښه',
 	'wikieditor-toolbar-tool-table' => 'لښتيال',
+	'wikieditor-toolbar-tool-table-example-old' => '-
+! سرليک 1
+! سرليک 2
+! سرليک 3
+|-
+| صف 1، کوټه 1
+| صف 1، کوټه 2
+| صف 1، کوټه 3
+|-
+| صف 2، کوټه 1
+| صف 2، کوټه 2
+| صف 2، کوټه 3',
 	'wikieditor-toolbar-tool-table-example-header' => 'د سرليک متن',
 	'wikieditor-toolbar-tool-table-title' => 'لښتيال ورټومبل',
 	'wikieditor-toolbar-tool-table-dimensions-rows' => 'ليکې',
@@ -21498,6 +21510,15 @@ $messages['pt-br'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'Você não inseriu um link de destino.',
 	'wikieditor-toolbar-tool-file' => 'Arquivo embutido',
 	'wikieditor-toolbar-tool-file-example' => 'Exemplo.jpg',
+	'wikieditor-toolbar-tool-file-title' => 'Inserir arquivo',
+	'wikieditor-toolbar-file-target' => 'Nome do arquivo:',
+	'wikieditor-toolbar-file-caption' => 'Legenda:',
+	'wikieditor-toolbar-file-size' => 'Tamanho:',
+	'wikieditor-toolbar-file-float' => 'Alinhamento:',
+	'wikieditor-toolbar-file-default' => '(padrão)',
+	'wikieditor-toolbar-file-format' => 'Formato:',
+	'wikieditor-toolbar-tool-file-insert' => 'Inserir',
+	'wikieditor-toolbar-tool-file-cancel' => 'Cancelar',
 	'wikieditor-toolbar-tool-reference' => 'Referência',
 	'wikieditor-toolbar-tool-reference-example' => 'Insira o texto da referência aqui',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Cancelar',
@@ -21591,9 +21612,11 @@ $1:Exemplo.jpg|Legenda2',
 	'wikieditor-toolbar-characters-page-persian' => 'Persa',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Hebraico',
 	'wikieditor-toolbar-characters-page-bangla' => 'Bengali',
+	'wikieditor-toolbar-characters-page-tamil' => 'Tâmil',
 	'wikieditor-toolbar-characters-page-telugu' => 'Telugu',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Cingalês',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Guzerate',
+	'wikieditor-toolbar-characters-page-devanagari' => 'Devanágari',
 	'wikieditor-toolbar-characters-page-thai' => 'Tailandês',
 	'wikieditor-toolbar-characters-page-lao' => 'Laociano',
 	'wikieditor-toolbar-characters-page-khmer' => 'Cambojano',
