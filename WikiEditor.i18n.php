@@ -24317,6 +24317,7 @@ $1:Príklad.jpg|Popis2',
 
 /** Slovenian (slovenščina)
  * @author Dbc334
+ * @author Yerpo
  */
 $messages['sl'] = array(
 	'wikieditor' => 'Napredni vmesnik za urejanje wikibesedila',
@@ -24491,6 +24492,7 @@ $1:Primer 2.jpg|Napis 2',
 	'wikieditor-toolbar-characters-page-telugu' => 'Telugijski',
 	'wikieditor-toolbar-characters-page-sinhala' => 'Singalščina',
 	'wikieditor-toolbar-characters-page-gujarati' => 'Gudžarati',
+	'wikieditor-toolbar-characters-page-devanagari' => 'Devanagari',
 	'wikieditor-toolbar-characters-page-thai' => 'Tajski',
 	'wikieditor-toolbar-characters-page-lao' => 'Laoški',
 	'wikieditor-toolbar-characters-page-khmer' => 'Kmerski',
