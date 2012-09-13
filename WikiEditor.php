@@ -133,6 +133,7 @@ $wgResourceModules += array(
 			'wikieditor-toolbar-file-size',
 			'wikieditor-toolbar-file-float',
 			'wikieditor-toolbar-file-default',
+			'wikieditor-toolbar-file-format-none',
 			'wikieditor-toolbar-file-format',
 			'wikieditor-toolbar-tool-file-insert',
 			'wikieditor-toolbar-tool-file-cancel',

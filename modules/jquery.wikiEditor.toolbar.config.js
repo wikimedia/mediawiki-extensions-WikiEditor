@@ -149,7 +149,7 @@ getDefaultConfig: function() {
 								'options': {
 									'pre': '[[' + fileNamespace + ':',
 									'periMsg': 'wikieditor-toolbar-tool-file-example',
-									'post': "]]"
+									'post': "|" + mw.config.get( 'wgWikiEditorMagicWords' ).img_thumbnail + "]]"
 								}
 							}
 						},
