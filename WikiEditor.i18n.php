@@ -13932,6 +13932,7 @@ $messages['ka'] = array(
 	'wikieditor-toolbar-file-size' => 'ზომა:',
 	'wikieditor-toolbar-file-default' => '(სტანდარტული)',
 	'wikieditor-toolbar-file-format' => 'ფორმატი:',
+	'wikieditor-toolbar-file-format-none' => 'არა',
 	'wikieditor-toolbar-tool-file-insert' => 'ჩასმა',
 	'wikieditor-toolbar-tool-file-cancel' => 'გაუქმება',
 	'wikieditor-toolbar-tool-reference' => 'მინიშნებები',
