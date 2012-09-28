@@ -153,7 +153,7 @@
 }
 
 .wikiEditor-ui-right .ui-resizable-w {
-	left: 0px !important;
+	left: 0 !important;
 	z-index: 0;
 }
 
@@ -179,7 +179,7 @@
 .wikiEditor-ui-toc-expandControl {
 	position: absolute;
 	z-index: 2;
-	top: 0px;
+	top: 0;
 	right: 10px;
 	height: 26px;
 	padding: 3px 0;
