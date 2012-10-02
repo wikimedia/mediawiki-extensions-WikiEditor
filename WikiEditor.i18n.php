@@ -6454,7 +6454,20 @@ $1:Beispiel.jpg|Beschreibung2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Normaler Text<dl><dd>Eingerückter Text<dl><dd>Eingerückter Text</dd></dl></dd></dl>',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** Swiss High German (Schweizer Hochdeutsch)
+ * @author Geitost
+ */
+$messages['de-ch'] = array(
+	'wikieditor-toolbar-tool-reference-example' => 'Fussnotentext hier einfügen',
+	'wikieditor-toolbar-tool-big' => 'Gross',
+	'wikieditor-toolbar-tool-big-example' => 'Grosser Text',
+	'wikieditor-toolbar-tool-newline' => 'Zeilenumbruch erzwingen (nicht im Fliesstext verwenden)',
+	'wikieditor-toolbar-tool-replace-case' => 'Gross- und Kleinschreibung beachten',
+	'wikieditor-toolbar-tool-replace-close' => 'Schliessen',
+	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Beschreibung' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Vergrössern' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Beschreibung</div></div>",
+);
+
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Imre
  * @author Kghbln
  */
@@ -10530,7 +10543,7 @@ $1:Example.jpg|Fo-heidyl2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Teks cadjin<dl><dd>Teks jingit<dl><dd>Teks jingit</dd></dl></dd></dl>',
 );
 
-/** Hausa (هَوُسَ) */
+/** Hausa (Hausa) */
 $messages['ha'] = array(
 	'wikieditor-template-editor-dialog-cancel' => 'Soke',
 	'wikieditor-toolbar-tool-bold-example' => 'Rubutu mai gwaɓi',
@@ -14140,7 +14153,7 @@ $messages['kiu'] = array(
 	'wikieditor-toolbar-tool-link' => 'Girê',
 );
 
-/** Kazakh (Cyrillic script) (‪қазақша (кирил)‬)
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎)
  * @author GaiJin
  * @author Kaztrans
  */
@@ -15264,7 +15277,7 @@ $1:Beishpell.jpg|zweijte Beld-Täx',
 	'wikieditor-toolbar-help-content-indent-result' => 'Nommaale Täx<dl><dd>Enjerök<dl><dd>Un norrens enjerök</dd></dl></dd></dl>',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author Erdal Ronahi
  * @author George Animal
  * @author Ghybu
@@ -18692,7 +18705,7 @@ $messages['nah'] = array(
 	'wikieditor-toolbar-help-content-indent-result' => 'Sâsanỉman tlâkuilòlmantli<dl><dd>Tlâtlapouhki tlakuilòlmantli<dl><dd>Tlâtlapouhki tlâkuilòlmantli</dd></dl></dd></dl>',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Danmichaelo
  * @author Event
  * @author Haakon K
@@ -19429,7 +19442,7 @@ $1:Voorbeeld.jpg|Bijschrift2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Normale tekst<dl><dd>Ingesprongen tekst<dl><dd>Ingesprongen tekst</dd></dl></dd></dl>',
 );
 
-/** ‪Nederlands (informeel)‬ (‪Nederlands (informeel)‬)
+/** Nederlands (informeel)‎ (Nederlands (informeel)‎)
  * @author Siebrand
  */
 $messages['nl-informal'] = array(
@@ -19447,7 +19460,7 @@ Wil je er een interne verwijzing van maken?',
 	'wikieditor-toolbar-help-heading-result' => 'Wat je te zien krijgt',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Eirik
  * @author Gunnernett
  * @author Harald Khan
@@ -24831,7 +24844,7 @@ $messages['sq'] = array(
 	'wikieditor-toolbar-help-content-indent-result' => 'Tekst normal<dl><dd>Tekst me kryeradhë<dl><dd>Tekst me kryeradhë</dd></dl></dd></dl>',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Charmed94
  * @author Helios13
  * @author McDutchie
@@ -29587,7 +29600,7 @@ Bangla',
 	'wikieditor-toolbar-help-content-indent-result' => '標準字<dl><dd>縮排字<dl><dd>縮排字</dd></dl></dd></dl>',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Anakmalaysia
  * @author Bencmq
  * @author Fantasticfears
@@ -29842,7 +29855,7 @@ $1:Example.jpg|标题2',
 	'wikieditor-toolbar-help-content-indent-result' => '标准文本<dl><dd>缩进文本<dl><dd>缩进文本</dd></dl></dd></dl>',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Anakmalaysia
  * @author Frankou
  * @author Gaoxuewei
