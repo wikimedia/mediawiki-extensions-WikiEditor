@@ -18709,6 +18709,7 @@ $messages['nah'] = array(
  * @author Danmichaelo
  * @author Event
  * @author Haakon K
+ * @author Jsoby
  * @author Laaknor
  * @author Nghtwlkr
  * @author Simny
@@ -18787,6 +18788,7 @@ $messages['nb'] = array(
 	'wikieditor-toolbar-file-float' => 'Justering:',
 	'wikieditor-toolbar-file-default' => '(standard)',
 	'wikieditor-toolbar-file-format' => 'Format:',
+	'wikieditor-toolbar-file-format-none' => 'ingen',
 	'wikieditor-toolbar-tool-file-insert' => 'Sett inn',
 	'wikieditor-toolbar-tool-file-cancel' => 'Avbryt',
 	'wikieditor-toolbar-tool-reference' => 'Referanse',
