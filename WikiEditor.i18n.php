@@ -272,6 +272,7 @@ $1:Example.jpg|Caption2",
 
 /** Message documentation (Message documentation)
  * @author Amire80
+ * @author Crt
  * @author EugeneZelenko
  * @author Hamilton Abreu
  * @author Harald Khan
@@ -368,7 +369,7 @@ For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Too
 	'wikieditor-toolbar-file-size' => 'Label for input of size on insert file dialog',
 	'wikieditor-toolbar-file-float' => 'Label for image align selector on insert file dialog',
 	'wikieditor-toolbar-file-default' => 'Label for default option in insert file dialog selectors',
-	'wikieditor-toolbar-file-format' => 'Label for image format selector on insert file dialog',
+	'wikieditor-toolbar-file-format' => 'Label for image format (thumbnail, framed, frameless, none) selector on insert file dialog',
 	'wikieditor-toolbar-file-format-none' => 'Option in file dialog for no format for the added image',
 	'wikieditor-toolbar-tool-file-insert' => '{{Identical|Insert}}',
 	'wikieditor-toolbar-tool-file-cancel' => '{{Identical|Cancel}}',
@@ -8477,8 +8478,8 @@ $1:مثال.jpg|عنوان ۲',
  * @author ZeiP
  */
 $messages['fi'] = array(
-	'wikieditor' => 'Edistynyt wikitext-muokkauskäyttöliittymä',
-	'wikieditor-desc' => 'Tarjoaa laajennettavan wikitext-muokkauskäyttöliittymän ja monia toimintoja tarjoavia laajennuksia.',
+	'wikieditor' => 'Edistynyt wikitekstin muokkauskäyttöliittymä',
+	'wikieditor-desc' => 'Tarjoaa laajennettavan muokkauskäyttöliittymän wikitekstille ja muita toimintoja.',
 	'wikieditor-wikitext-tab' => 'Wikiteksti',
 	'wikieditor-loading' => 'Ladataan',
 	'wikieditor-preview-preference' => 'Ota käyttöön vierekkäinen esikatselu',
@@ -8550,7 +8551,8 @@ Haluatko tehdä siitä sisäisen linkin?',
 	'wikieditor-toolbar-file-size' => 'Koko:',
 	'wikieditor-toolbar-file-float' => 'Tasaus:',
 	'wikieditor-toolbar-file-default' => '(oletus)',
-	'wikieditor-toolbar-file-format' => 'Tiedostomuoto:',
+	'wikieditor-toolbar-file-format' => 'Muoto:',
+	'wikieditor-toolbar-file-format-none' => 'ei mitään',
 	'wikieditor-toolbar-tool-file-insert' => 'Lisää',
 	'wikieditor-toolbar-tool-file-cancel' => 'Peruuta',
 	'wikieditor-toolbar-tool-reference' => 'Viite',
