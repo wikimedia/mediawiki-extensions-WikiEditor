@@ -501,7 +501,9 @@ www.example.org is not a real website, but it has been reserved to use in softwa
 
 www.example.org is not a real website, but it has been reserved to use in software documentation. If you translate the word example and try to go to that web address then you might get a message that it doesn\'t exist. But somebody may have created a commercial web page for that address, such as www.Beispiel.org, using the German word for example. It is therefore recommended that you do not translate http://www.example.org at all. If you do wish to translate it you should first check where the translated link takes you.',
 	'wikieditor-toolbar-help-content-signaturetimestamp-description' => '{{Identical|Signature with timestamp}}',
+	'wikieditor-toolbar-help-content-signaturetimestamp-syntax' => '{{notranslate}}',
 	'wikieditor-toolbar-help-content-signature-description' => '{{Identical|Signature}}',
+	'wikieditor-toolbar-help-content-signature-syntax' => '{{notranslate}}',
 );
 
 /** Abkhazian (Аҧсшәа)
@@ -744,7 +746,7 @@ $1:Voorbeeld2|Byskrif2',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Lyn in genommerde lys<br /># Lyn in genommerde lys',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Lyn in genommerde lys</li><li>Lyn in genommerde lys</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Ingebedde lêer',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Voorbeeld.png|thumb|Byskrif]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Voorbeeld.png|thumb|Byskrif]]', # Fuzzy
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Byskrif' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Vergroot' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Byskrif</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Verwysing',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Bladsyteks.&lt;ref name="test"&gt;[http://www.voorbeeld.org Skakel se teks], addisionele teks.&lt;/ref&gt;',
@@ -793,11 +795,11 @@ $messages['aln'] = array(
 	'wikieditor-toc-preference' => 'Tabela e përmbajtjeve Aktivizo lundrueshëm',
 	'wikieditor-toc-show' => 'Përmbajtja Show',
 	'wikieditor-toc-hide' => 'Përmbajtja Hide',
-	'wikieditor-toolbar' => 'Editing toolbar',
+	'wikieditor-toolbar' => 'Editing toolbar', # Fuzzy
 	'wikieditor-toolbar-desc' => 'toolbar Redakto faqe me të përdorshmërisë zgjeruar',
 	'wikieditor-toolbar-preference' => 'Lejo redaktimin zgjeruar toolbar',
 	'wikieditor-toolbar-dialogs-preference' => 'dialogs Aktivizo për futjen e lidhjeve, tavolina dhe më shumë',
-	'wikieditor-toolbar-loading' => 'Loading ...',
+	'wikieditor-toolbar-loading' => 'Loading ...', # Fuzzy
 	'wikieditor-toolbar-tool-bold' => 'Guximtar',
 	'wikieditor-toolbar-tool-bold-example' => 'Tekst i trashë',
 	'wikieditor-toolbar-tool-italic' => 'Kursiv',
@@ -1675,7 +1677,7 @@ $messages['arz'] = array(
 	'wikieditor-template-editor-dialog-submit' => 'تحديث (update)',
 	'wikieditor-template-editor-dialog-cancel' => 'كانسل',
 	'wikieditor-templates-preference' => 'خلّى القالب يبان مقفول',
-	'wikieditor-toc-preference' => 'Enable navigable table of contents',
+	'wikieditor-toc-preference' => 'Enable navigable table of contents', # Fuzzy
 	'wikieditor-toc-show' => 'بيّن المحتويات',
 	'wikieditor-toc-hide' => 'خبّى المحتويات',
 	'wikieditor-toolbar' => 'شريط عدّة التحرير',
@@ -1807,15 +1809,15 @@ $1:Example.jpg|Caption2',
 	'wikieditor-toolbar-help-page-file' => 'فايلات',
 	'wikieditor-toolbar-help-page-reference' => 'مراجع',
 	'wikieditor-toolbar-help-page-discussion' => 'مناقشه',
-	'wikieditor-toolbar-help-content-italic-description' => 'Italic',
-	'wikieditor-toolbar-help-content-italic-syntax' => "''Italic text''",
+	'wikieditor-toolbar-help-content-italic-description' => 'Italic', # Fuzzy
+	'wikieditor-toolbar-help-content-italic-syntax' => "''Italic text''", # Fuzzy
 	'wikieditor-toolbar-help-content-italic-result' => '<em>Italic text</em>',
 	'wikieditor-toolbar-help-content-bold-description' => 'Bold',
-	'wikieditor-toolbar-help-content-bold-syntax' => "'''Bold text'''",
-	'wikieditor-toolbar-help-content-bold-result' => '<strong>Bold text</strong>',
-	'wikieditor-toolbar-help-content-bolditalic-description' => 'Bold &amp; italic',
-	'wikieditor-toolbar-help-content-bolditalic-syntax' => "'''''Bold &amp; italic text'''''",
-	'wikieditor-toolbar-help-content-bolditalic-result' => '<strong><em>Bold &amp; italic text</em></strong>',
+	'wikieditor-toolbar-help-content-bold-syntax' => "'''Bold text'''", # Fuzzy
+	'wikieditor-toolbar-help-content-bold-result' => '<strong>Bold text</strong>', # Fuzzy
+	'wikieditor-toolbar-help-content-bolditalic-description' => 'Bold &amp; italic', # Fuzzy
+	'wikieditor-toolbar-help-content-bolditalic-syntax' => "'''''Bold &amp; italic text'''''", # Fuzzy
+	'wikieditor-toolbar-help-content-bolditalic-result' => '<strong><em>Bold &amp; italic text</em></strong>', # Fuzzy
 	'wikieditor-toolbar-help-content-ilink-description' => 'لينك جوّانى',
 	'wikieditor-toolbar-help-content-ilink-syntax' => '[[اسم الصفحه|اسم اللينك]]<br />[[اسم الصفحه]]',
 	'wikieditor-toolbar-help-content-ilink-result' => "<a href='#'>اسم اللينك</a><br /><a href='#'>اسم الصفحه</a>",
@@ -1823,22 +1825,22 @@ $1:Example.jpg|Caption2',
 	'wikieditor-toolbar-help-content-xlink-syntax' => '[http://www.example.org اسم اللينك]<br />[http://www.example.org]<br />http://www.example.org',
 	'wikieditor-toolbar-help-content-xlink-result' => "<a href='#' class='external'>اسم اللينك</a><br /><a href='#' class='external autonumber'>[1]</a><br /><a href='#' class='external'>http://www.example.org</a>",
 	'wikieditor-toolbar-help-content-heading2-description' => '2nd level heading',
-	'wikieditor-toolbar-help-content-heading2-syntax' => '== Heading text ==',
-	'wikieditor-toolbar-help-content-heading2-result' => '<h2>Heading text</h2>',
-	'wikieditor-toolbar-help-content-heading3-description' => '3rd level heading',
-	'wikieditor-toolbar-help-content-heading3-syntax' => '=== Heading text ===',
-	'wikieditor-toolbar-help-content-heading4-description' => '4th level heading',
-	'wikieditor-toolbar-help-content-heading4-result' => '<h4>Heading text</h4>',
-	'wikieditor-toolbar-help-content-heading5-description' => '5th level heading',
-	'wikieditor-toolbar-help-content-heading5-syntax' => '===== Heading text =====',
-	'wikieditor-toolbar-help-content-heading5-result' => '<h5>Heading text</h5>',
+	'wikieditor-toolbar-help-content-heading2-syntax' => '== Heading text ==', # Fuzzy
+	'wikieditor-toolbar-help-content-heading2-result' => '<h2>Heading text</h2>', # Fuzzy
+	'wikieditor-toolbar-help-content-heading3-description' => '3rd level heading', # Fuzzy
+	'wikieditor-toolbar-help-content-heading3-syntax' => '=== Heading text ===', # Fuzzy
+	'wikieditor-toolbar-help-content-heading4-description' => '4th level heading', # Fuzzy
+	'wikieditor-toolbar-help-content-heading4-result' => '<h4>Heading text</h4>', # Fuzzy
+	'wikieditor-toolbar-help-content-heading5-description' => '5th level heading', # Fuzzy
+	'wikieditor-toolbar-help-content-heading5-syntax' => '===== Heading text =====', # Fuzzy
+	'wikieditor-toolbar-help-content-heading5-result' => '<h5>Heading text</h5>', # Fuzzy
 	'wikieditor-toolbar-help-content-ulist-description' => 'ليسته فيها bullets',
-	'wikieditor-toolbar-help-content-ulist-syntax' => '* List item<br />* List item',
-	'wikieditor-toolbar-help-content-ulist-result' => '<ul><li>List item</li><li>List item</li></ul>',
+	'wikieditor-toolbar-help-content-ulist-syntax' => '* List item<br />* List item', # Fuzzy
+	'wikieditor-toolbar-help-content-ulist-result' => '<ul><li>List item</li><li>List item</li></ul>', # Fuzzy
 	'wikieditor-toolbar-help-content-olist-description' => 'ليسته مترقمه',
-	'wikieditor-toolbar-help-content-olist-syntax' => '# List item<br /># List item',
-	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>List item</li><li>List item</li></ol>',
-	'wikieditor-toolbar-help-content-file-description' => 'Embedded file',
+	'wikieditor-toolbar-help-content-olist-syntax' => '# List item<br /># List item', # Fuzzy
+	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>List item</li><li>List item</li></ol>', # Fuzzy
+	'wikieditor-toolbar-help-content-file-description' => 'Embedded file', # Fuzzy
 	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Caption text]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Caption text</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'مرجع',
@@ -3406,7 +3408,7 @@ $1:Example.jpg|Описание2',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Замяна на всички',
 	'wikieditor-toolbar-tool-replace-close' => 'Затваряне',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'Нямаше резултати, които да отговарят на вашето търсене.',
-	'wikieditor-toolbar-tool-replace-success' => 'Направени са замени: $1.',
+	'wikieditor-toolbar-tool-replace-success' => 'Направени са замени: $1.', # Fuzzy
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'Не сте въвели низ за търсене.',
 	'wikieditor-toolbar-tool-replace-invalidregex' => 'Въведеният от вас регулярен израз е невалиден: $1',
 	'wikieditor-toolbar-section-characters' => 'Специални символи',
@@ -3680,7 +3682,7 @@ $1:Cuntuh.jpg|Judul2',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Isi daptar<br /># Isi daptar',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Isi daptar</li><li>Isi daptar</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Maktub-akan barakas',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Cuntuh.png|thumb|Naskah judul gambar]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Cuntuh.png|thumb|Naskah judul gambar]]', # Fuzzy
 	'wikieditor-toolbar-help-content-reference-description' => 'Rujukan',
 	'wikieditor-toolbar-help-content-reference-result' => "Naskah tungkaran.<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-rereference-result' => "Naskah tungkaran.<sup><a href='#'>[1]</a></sup>",
@@ -5364,7 +5366,8 @@ $1:نموونە.jpg|شرۆڤەی ٢',
 	'wikieditor-toolbar-help-content-indent-result' => 'دەقی ئاسایی<dl><dd>دەقی پێشچوو<dl><dd>دەقی پێشچوو</dd></dl></dd></dl>',
 );
 
-/** Corsican (corsu) */
+/** Corsican (corsu)
+ */
 $messages['co'] = array(
 	'wikieditor-toolbar-tool-heading-1' => 'Livellu 1',
 	'wikieditor-toolbar-tool-heading-2' => 'Livellu 2',
@@ -5659,7 +5662,7 @@ $messages['csb'] = array(
 	'wikieditor-toolbar-tool-table-insert' => 'Wstôwi',
 	'wikieditor-toolbar-tool-table-cancel' => 'Anulujë',
 	'wikieditor-toolbar-tool-replace-button-findnext' => 'Nalezë pòstãpné',
-	'wikieditor-toolbar-tool-replace-close' => 'Anulujë',
+	'wikieditor-toolbar-tool-replace-close' => 'Anulujë', # Fuzzy
 	'wikieditor-toolbar-section-characters' => 'Specjalnë céchów',
 	'wikieditor-toolbar-characters-page-ipa' => 'IPA',
 	'wikieditor-toolbar-characters-page-symbols' => 'Céchë',
@@ -6680,6 +6683,9 @@ $1:misal.jpg|nuşteyê resmi2',
 	'wikieditor-toolbar-characters-page-thai' => 'Thai',
 	'wikieditor-toolbar-characters-page-lao' => 'Lao',
 	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
+	'wikieditor-toolbar-characters-endash' => 'tira kılme',
+	'wikieditor-toolbar-characters-emdash' => 'tira derge',
+	'wikieditor-toolbar-characters-minus' => 'işaretê kemiye',
 	'wikieditor-toolbar-section-help' => 'Peşti',
 	'wikieditor-toolbar-help-heading-description' => 'Şınasnayış',
 	'wikieditor-toolbar-help-heading-syntax' => 'o yo ke şıma nuşt',
@@ -6687,7 +6693,7 @@ $1:misal.jpg|nuşteyê resmi2',
 	'wikieditor-toolbar-help-page-format' => 'fesal dayiş/format',
 	'wikieditor-toolbar-help-page-link' => 'gıreyi',
 	'wikieditor-toolbar-help-page-heading' => 'sernameyi',
-	'wikieditor-toolbar-help-page-list' => 'listeyi',
+	'wikieditor-toolbar-help-page-list' => 'Listey',
 	'wikieditor-toolbar-help-page-file' => 'dosyayi',
 	'wikieditor-toolbar-help-page-reference' => 'Çımey',
 	'wikieditor-toolbar-help-page-discussion' => 'werê-ameyiş/munaqeşa',
@@ -8419,6 +8425,9 @@ $1:مثال.jpg|عنوان ۲',
 	'wikieditor-toolbar-characters-page-thai' => 'تایلندی',
 	'wikieditor-toolbar-characters-page-lao' => 'لائو',
 	'wikieditor-toolbar-characters-page-khmer' => 'خمر',
+	'wikieditor-toolbar-characters-endash' => 'خط فاصله',
+	'wikieditor-toolbar-characters-emdash' => 'خط فاسله کشیده',
+	'wikieditor-toolbar-characters-minus' => 'علامت منفی',
 	'wikieditor-toolbar-section-help' => 'راهنما',
 	'wikieditor-toolbar-help-heading-description' => 'توضیح',
 	'wikieditor-toolbar-help-heading-syntax' => 'آن چه می‌نویسید',
@@ -9258,7 +9267,8 @@ $messages['fur'] = array(
 	'wikieditor-toolbar-section-help' => 'Jutori',
 );
 
-/** Western Frisian (Frysk) */
+/** Western Frisian (Frysk)
+ */
 $messages['fy'] = array(
 	'wikieditor-toolbar-tool-link-cancel' => 'Ofbrekke',
 );
@@ -9498,7 +9508,7 @@ $1:Ballsampaill.jpg|Mìneachadh an deilbh2',
 	'wikieditor-toolbar-help-content-olist-syntax' => '* Ball na liosta<br />* Ball na liosta',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Ball na liosta</li><li>Ball na liosta</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Embedded file',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Ballsampaill.png|thumb|Mìneachadh an deilbh]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Ballsampaill.png|thumb|Mìneachadh an deilbh]]', # Fuzzy
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Mìneachadh an deilbht' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Meudaich' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Mìneachadh an deilbh</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Iomradh',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Teacsa na duilleige.&lt;ref name="test"&gt;[http://www.ballsampaill.org Teacsa a\' cheangail], teacsa eile.&lt;/ref&gt;',
@@ -9790,7 +9800,7 @@ $messages['grc'] = array(
 	'wikieditor-toolbar-tool-heading-3' => 'Ἐπίπεδον 3',
 	'wikieditor-toolbar-tool-heading-4' => 'Ἐπίπεδον 4',
 	'wikieditor-toolbar-tool-heading-5' => 'Ἐπίπεδον 5',
-	'wikieditor-toolbar-group-format' => 'Κατάλογος',
+	'wikieditor-toolbar-group-format' => 'Κατάλογος', # Fuzzy
 	'wikieditor-toolbar-tool-big' => 'Μέγα',
 	'wikieditor-toolbar-tool-big-example' => 'Μέγα κείμενον',
 	'wikieditor-toolbar-tool-small' => 'Σμικρόν',
@@ -10572,7 +10582,8 @@ $1:Example.jpg|Fo-heidyl2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Teks cadjin<dl><dd>Teks jingit<dl><dd>Teks jingit</dd></dl></dd></dl>',
 );
 
-/** Hausa (Hausa) */
+/** Hausa (Hausa)
+ */
 $messages['ha'] = array(
 	'wikieditor-template-editor-dialog-cancel' => 'Soke',
 	'wikieditor-toolbar-tool-bold-example' => 'Rubutu mai gwaɓi',
@@ -11058,7 +11069,8 @@ $1:उदाहरण.jpg|चित्रशीर्षक२',
 	'wikieditor-toolbar-help-content-indent-result' => 'सामान्य लेख<dl><dd>इनडेंटेड लेख<dl><dd>इनडेंटेड लेख</dd></dl></dd></dl>',
 );
 
-/** Fiji Hindi (Latin script) (Fiji Hindi) */
+/** Fiji Hindi (Latin script) (Fiji Hindi)
+ */
 $messages['hif-latn'] = array(
 	'wikieditor-toolbar-tool-bold' => 'Mota',
 	'wikieditor-toolbar-tool-bold-example' => 'Mota akchhar',
@@ -11929,7 +11941,7 @@ $1:Example.jpg|Նկարագրություն2',
 	'wikieditor-toolbar-tool-replace-regex' => 'Որոնման տողը ընկալել որպես regular expression',
 	'wikieditor-toolbar-tool-replace-button-findnext' => 'Գտնել հաջորդը',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Փոխարինել բոլորը',
-	'wikieditor-toolbar-tool-replace-close' => 'Բեկանել',
+	'wikieditor-toolbar-tool-replace-close' => 'Բեկանել', # Fuzzy
 	'wikieditor-toolbar-tool-replace-nomatch' => 'Ձեր որոնմանը համապատասխանող արդյունքներ չեն գտնվել։',
 	'wikieditor-toolbar-tool-replace-success' => 'Կատարվել է $1 փոխարինում։',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'Դուք որոնելու որևէ բան չեք նշել։',
@@ -12886,7 +12898,7 @@ $messages['io'] = array(
 	'wikieditor-toolbar-tool-heading-3' => 'Nivelo 3',
 	'wikieditor-toolbar-tool-heading-4' => 'Nivelo 4',
 	'wikieditor-toolbar-tool-heading-5' => 'Nivelo 5',
-	'wikieditor-toolbar-group-format' => 'Listo',
+	'wikieditor-toolbar-group-format' => 'Listo', # Fuzzy
 	'wikieditor-toolbar-tool-big' => 'Granda',
 	'wikieditor-toolbar-tool-big-example' => 'Granda texto',
 	'wikieditor-toolbar-tool-small' => 'Mikra',
@@ -14578,7 +14590,7 @@ $messages['kn'] = array(
 	'wikieditor-toolbar-tool-heading-3' => 'ದರ್ಜೆ ೩',
 	'wikieditor-toolbar-tool-heading-4' => 'ದರ್ಜೆ ೪',
 	'wikieditor-toolbar-tool-heading-5' => 'ದರ್ಜೆ ೫',
-	'wikieditor-toolbar-group-format' => 'ಪಟ್ಟಿ',
+	'wikieditor-toolbar-group-format' => 'ಪಟ್ಟಿ', # Fuzzy
 	'wikieditor-toolbar-tool-big' => 'ದೊಡ್ದ',
 	'wikieditor-toolbar-tool-table' => 'ಪಟ್ಟಿ',
 	'wikieditor-toolbar-tool-table-example' => 'ಉದಾಹರಣೆ',
@@ -15144,6 +15156,16 @@ $messages['ksh'] = array(
 	'wikieditor-toolbar-tool-link-empty' => 'Mer han nix faßjehallde för ne Lingk drop ze maache.',
 	'wikieditor-toolbar-tool-file' => 'Enjefösch Dattei',
 	'wikieditor-toolbar-tool-file-example' => 'Beld_Beishpöll.jpeg',
+	'wikieditor-toolbar-tool-file-title' => 'Dattei ennfööje',
+	'wikieditor-toolbar-file-target' => 'Dä Dattei iere Naame:',
+	'wikieditor-toolbar-file-caption' => 'Lejände:',
+	'wikieditor-toolbar-file-size' => 'Ömfang',
+	'wikieditor-toolbar-file-float' => 'Ußreeschte:',
+	'wikieditor-toolbar-file-default' => '(Schtandatt)',
+	'wikieditor-toolbar-file-format' => 'Fommaat:',
+	'wikieditor-toolbar-file-format-none' => 'kein',
+	'wikieditor-toolbar-tool-file-insert' => 'Enfööje',
+	'wikieditor-toolbar-tool-file-cancel' => 'Ophüre',
 	'wikieditor-toolbar-tool-reference' => 'Fohßnoht',
 	'wikieditor-toolbar-tool-reference-example' => 'Donn hef dä Täx es för en Fohßnoht enjävve',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Ophüre',
@@ -15246,6 +15268,9 @@ $1:Beishpell.jpg|zweijte Beld-Täx',
 	'wikieditor-toolbar-characters-page-thai' => 'Thailändesch',
 	'wikieditor-toolbar-characters-page-lao' => 'Laotesch',
 	'wikieditor-toolbar-characters-page-khmer' => 'Khmer-Kambodschaanesch',
+	'wikieditor-toolbar-characters-endash' => 'Ene Halfjeviertschtresch',
+	'wikieditor-toolbar-characters-emdash' => 'Ene Jeviertschtresch',
+	'wikieditor-toolbar-characters-minus' => 'Et Winnijer-Zeische',
 	'wikieditor-toolbar-section-help' => 'Hölp',
 	'wikieditor-toolbar-help-heading-description' => 'Beschrevve',
 	'wikieditor-toolbar-help-heading-syntax' => 'Wat De schriifs',
@@ -15871,7 +15896,7 @@ $1:Exemplum.jpg|Descriptio 2',
 	'wikieditor-toolbar-help-content-xlink-syntax' => '[http://www.example.org Titulus nexus]<br />[http://www.example.org]<br />http://www.example.org',
 	'wikieditor-toolbar-help-content-xlink-result' => "<a href='#' class='external'>Titulus nexus</a><br /><a href='#' class='external autonumber'>[1]</a><br /><a href='#' class='external'>http://www.example.org</a>",
 	'wikieditor-toolbar-help-content-file-description' => 'Fasciculus in pagina impositus',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Exemplum.png|thumb|Descriptio fasciculi]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Exemplum.png|thumb|Descriptio fasciculi]]', # Fuzzy
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Descriptio fasciculi' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Augere' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Descriptio fasciculi</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referentia bibliographica',
 	'wikieditor-toolbar-help-content-showreferences-description' => 'Referentias bibliographicas monstrare',
@@ -17273,7 +17298,7 @@ $1:Contoh.jpg|Judul2',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Senarai hal<br /># Senarai hal',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Senarai hal</li><li>Senarai hal</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'Cantumkan berkas',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Contoh.png|thumb|Teks gambar]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Contoh.png|thumb|Teks gambar]]', # Fuzzy
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Teks gambar' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Pagadang' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Teks gambar</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Rujukan',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Teks laman.&lt;ref name="test"&gt;[http://www.example.org Teks tautan], teks tambahan.&lt;/ref&gt;',
@@ -18225,6 +18250,9 @@ $1:Contoh.jpg|Sari kata 2',
 	'wikieditor-toolbar-characters-page-thai' => 'Thai',
 	'wikieditor-toolbar-characters-page-lao' => 'Lao',
 	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
+	'wikieditor-toolbar-characters-endash' => 'sengkang en',
+	'wikieditor-toolbar-characters-emdash' => 'sengkang em',
+	'wikieditor-toolbar-characters-minus' => 'tanda tolak',
 	'wikieditor-toolbar-section-help' => 'Bantuan',
 	'wikieditor-toolbar-help-heading-description' => 'Keterangan',
 	'wikieditor-toolbar-help-heading-syntax' => 'Yang ditaip',
@@ -19855,7 +19883,7 @@ $messages['oc'] = array(
 	'wikieditor-toolbar-tool-heading-4' => 'Nivèl 4',
 	'wikieditor-toolbar-tool-heading-5' => 'Nivèl 5',
 	'wikieditor-toolbar-tool-heading-example' => 'Tèxte del títol',
-	'wikieditor-toolbar-group-format' => 'Lista',
+	'wikieditor-toolbar-group-format' => 'Lista', # Fuzzy
 	'wikieditor-toolbar-tool-ulist' => 'Lista amb de piuses',
 	'wikieditor-toolbar-tool-ulist-example' => 'Element de la lista amb de piuses',
 	'wikieditor-toolbar-tool-olist' => 'Lista numerotada',
@@ -21058,7 +21086,8 @@ $1:ادھارن.جےپیجی|سرخی2',
 	'wikieditor-toolbar-help-content-indent-result' => 'نارمل لکھت<dl><dd>ودی لکھت<dl><dd>ودی لکھت</dd></dl></dd></dl>',
 );
 
-/** Pontic (Ποντιακά) */
+/** Pontic (Ποντιακά)
+ */
 $messages['pnt'] = array(
 	'wikieditor-toolbar-loading' => "Φορτών'...",
 	'wikieditor-toolbar-tool-big-example' => 'Τρανόν κείμενον',
@@ -21275,7 +21304,6 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (português)
- * @author 555
  * @author Giro720
  * @author Hamilton Abreu
  * @author Helder.wiki
@@ -21284,6 +21312,7 @@ $messages['ps'] = array(
  * @author Malafaya
  * @author MetalBrasil
  * @author SandroHc
+ * @author 555
  */
 $messages['pt'] = array(
 	'wikieditor' => 'Interface avançada de edição de texto wiki',
@@ -21526,7 +21555,6 @@ $1:Exemplo2.jpg|Legenda2',
 );
 
 /** Brazilian Portuguese (português do Brasil)
- * @author 555
  * @author Daemorris
  * @author Everton137
  * @author Giro720
@@ -21537,6 +21565,7 @@ $1:Exemplo2.jpg|Legenda2',
  * @author Luckas Blade
  * @author MetalBrasil
  * @author Rafael Vargas
+ * @author 555
  */
 $messages['pt-br'] = array(
 	'wikieditor' => 'Interface avançada de edição de wikitexto',
@@ -23663,7 +23692,7 @@ $1:Esèmpiu.jpg|Didascalia2',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Elementu de sa lista<br /># Elementu de sa lista',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Elementu de sa lista</li><li>Elementu de sa lista</li></ol>',
 	'wikieditor-toolbar-help-content-file-description' => 'File incorporadu',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Esempru.png|thumb|Testu de sa didascalia]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Esempru.png|thumb|Testu de sa didascalia]]', # Fuzzy
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Testu de sa didascalia' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Amannia' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Testu de sa didascalia</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Referèntzia',
 	'wikieditor-toolbar-help-content-reference-result' => "Testu de sa pàgina.<sup><a href='#'>[1]</a></sup>",
@@ -23876,7 +23905,7 @@ $1:Example.jpg|Didascalia2',
 	'wikieditor-toolbar-help-content-bolditalic-syntax' => "'''''Testu n grassettu e cursivu'''''",
 	'wikieditor-toolbar-help-content-bolditalic-result' => '<strong><em>Testuo n grassettu e cursivu</em></strong>',
 	'wikieditor-toolbar-help-content-ilink-description' => 'Liami nternu',
-	'wikieditor-toolbar-help-content-ilink-syntax' => '[[Titulu pàggina|Etichetta di culligamentu]]<br />[[Titulu pàggina]]',
+	'wikieditor-toolbar-help-content-ilink-syntax' => '[[Titulu pàggina|Etichetta di culligamentu]]<br />[[Titulu pàggina]]', # Fuzzy
 	'wikieditor-toolbar-help-content-ilink-result' => "<a href='#'>Etichetta di culligamentu</a><br /><a href='#'>Tìtulu dâ pàggina</a>",
 	'wikieditor-toolbar-help-content-xlink-description' => 'Lijami di fora',
 	'wikieditor-toolbar-help-content-xlink-syntax' => '[http://www.example.org Etichetta dû liami]<br />[http://www.example.org]<br />http://www.example.org',
@@ -23920,7 +23949,8 @@ $1:Example.jpg|Didascalia2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Testu nurmali<dl><dd>Testu ndintatu<dl><dd>Testu ndintatu</dd></dl></dd></dl>',
 );
 
-/** Scots (Scots) */
+/** Scots (Scots)
+ */
 $messages['sco'] = array(
 	'wikieditor-toolbar-characters-page-ipa' => 'IPA',
 );
@@ -24762,7 +24792,7 @@ $messages['sq'] = array(
 	'wikieditor-toolbar-group-insert' => 'Shto',
 	'wikieditor-toolbar-tool-gallery' => 'Galeria i piktureve',
 	'wikieditor-toolbar-tool-gallery-example' => '((Ns: file)): Shembull.jpg | Përshkrim1
-((Ns: file)): Shembull.jpg | Përshkrim2',
+((Ns: file)): Shembull.jpg | Përshkrim2', # Fuzzy
 	'wikieditor-toolbar-tool-newline' => 'Linjë te re',
 	'wikieditor-toolbar-tool-table' => 'Tabel',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -25576,7 +25606,7 @@ $1:Conto.jpg|Pedaran2',
 	'wikieditor-toolbar-help-content-heading5-result' => '<h5>Téks subjudul</h5>',
 	'wikieditor-toolbar-help-content-ulist-description' => 'Béréndélan pélor',
 	'wikieditor-toolbar-help-content-olist-description' => 'Béréndélan nomer',
-	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Conto.png|thumb|Téks gambar]]',
+	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Conto.png|thumb|Téks gambar]]', # Fuzzy
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Téks pedaran' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Gedéan' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Téks pedaran</div></div>",
 	'wikieditor-toolbar-help-content-reference-description' => 'Rujukan',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'Téks kaca.&lt;ref name="test"&gt;[http://www.conto.org Téks tutumbu], téks panambih.&lt;/ref&gt;',
@@ -25860,7 +25890,7 @@ $messages['sw'] = array(
 	'wikieditor-preview-tab' => 'Hakiki',
 	'wikieditor-preview-changes-tab' => 'Mabadiliko',
 	'wikieditor-preview-loading' => 'Inapakiwa...',
-	'wikieditor-previewDialog-preference' => 'Wezesha kisanduku cha kudhibiti hakikisho',
+	'wikieditor-previewDialog-preference' => 'Wezesha kisanduku cha kudhibiti hakikisho', # Fuzzy
 	'wikieditor-previewDialog-tab' => 'Hakiki',
 	'wikieditor-previewDialog-loading' => 'Inapakiwa...',
 	'wikieditor-publish-preference' => 'Kuwezesha kutoa mabadiliko hatua kwa hatua',
@@ -25997,7 +26027,7 @@ Idadi ya mistari au ya safu si halali.',
 	'wikieditor-toolbar-tool-replace-case' => 'Oanisha herufi kwa ukubwa wake',
 	'wikieditor-toolbar-tool-replace-regex' => 'Fanya mtindo wa tafuta kama uonyesho wa kawaida',
 	'wikieditor-toolbar-tool-replace-button-findnext' => 'Tafuta maandishi yajayo',
-	'wikieditor-toolbar-tool-replace-button-replace' => 'Badilisha',
+	'wikieditor-toolbar-tool-replace-button-replace' => 'Badilisha', # Fuzzy
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Badilisha yote',
 	'wikieditor-toolbar-tool-replace-close' => 'Funga',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'Maandishi ulioyatafuta hayakupatikana.',
@@ -26546,7 +26576,8 @@ $1:Example.jpg|ఉపశీర్షిక2',
 	'wikieditor-toolbar-help-content-signature-result' => "<a href='#' title='{{#special:mypage}}'>వాడుకరిపేరు</a> (<a href='#' title='{{#special:mytalk}}'>చర్చ</a>)",
 );
 
-/** Tajik (Cyrillic script) (тоҷикӣ) */
+/** Tajik (Cyrillic script) (тоҷикӣ)
+ */
 $messages['tg-cyrl'] = array(
 	'wikieditor-toolbar-tool-link' => 'Пайванд',
 	'wikieditor-toolbar-tool-link-cancel' => 'Лағв',
@@ -26868,7 +26899,7 @@ $messages['tk'] = array(
 	'wikieditor-toolbar-tool-heading-4' => 'Dereje 4',
 	'wikieditor-toolbar-tool-heading-5' => 'Dereje 5',
 	'wikieditor-toolbar-tool-heading-example' => 'Adyň teksti',
-	'wikieditor-toolbar-group-format' => 'Sanaw',
+	'wikieditor-toolbar-group-format' => 'Sanaw', # Fuzzy
 	'wikieditor-toolbar-tool-ulist' => 'Markirlenen sanaw',
 	'wikieditor-toolbar-tool-ulist-example' => 'Markirlenen sanaw elementi',
 	'wikieditor-toolbar-tool-olist' => 'Belgili sanaw',
@@ -27507,8 +27538,10 @@ $1:Örnek.jpg|Altyazı 2',
 	'wikieditor-toolbar-help-content-showreferences-description' => 'Kaynakçayı görüntüle',
 	'wikieditor-toolbar-help-content-showreferences-result' => "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.ornek.org' class='external text' href='#'>Bağlantı metni</a>, ek metin.</li></ol>",
 	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'Zaman damgası ile imza',
+	'wikieditor-toolbar-help-content-signaturetimestamp-syntax' => '~~~~',
 	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>Kullanıcı adı</a> (<a href='#' title='{{#special:mytalk}}'>mesaj</a>) 15.54, 17 Şubat 2012 (UTC)",
 	'wikieditor-toolbar-help-content-signature-description' => 'İmza',
+	'wikieditor-toolbar-help-content-signature-syntax' => '~~~',
 	'wikieditor-toolbar-help-content-signature-result' => "<a href='#' title='{{#special:mypage}}'>Kullanıcı adı</a> (<a href='#' title='{{#special:mytalk}}'>mesaj</a>)",
 	'wikieditor-toolbar-help-content-indent-description' => 'Girinti',
 	'wikieditor-toolbar-help-content-indent-syntax' => 'Normal metin<br />:Girintili metin<br />::Girintili metin',
@@ -29024,9 +29057,9 @@ $1:Ví dụ.jpg|Chú thích 2',
 	'wikieditor-toolbar-help-content-showreferences-description' => 'Liệt kê các chú thích',
 	'wikieditor-toolbar-help-content-showreferences-result' => "<ol class='references'><li id='cite_note-th.E1.BB.AD-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Văn bản liên kết</a>, văn bản bổ sung.</li></ol>",
 	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'Chữ ký có ngày',
-	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>Tên đăng ký</a> (<a href='#' title='{{#special:mytalk}}'>thảo luận</a>) 15:54, ngày 10 tháng 6 năm 2009 (UTC)",
+	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>Tên người dùng</a> (<a href='#' title='{{#special:mytalk}}'>thảo luận</a>) 15:54, ngày 10 tháng 6 năm 2009 (UTC)",
 	'wikieditor-toolbar-help-content-signature-description' => 'Chữ ký',
-	'wikieditor-toolbar-help-content-signature-result' => "<a href='#' title='{{#special:mypage}}'>Tên đăng ký</a> (<a href='#' title='{{#special:mytalk}}'>thảo luận</a>)",
+	'wikieditor-toolbar-help-content-signature-result' => "<a href='#' title='{{#special:mypage}}'>Tên người dùng</a> (<a href='#' title='{{#special:mytalk}}'>thảo luận</a>)",
 	'wikieditor-toolbar-help-content-indent-description' => 'Tăng lề',
 	'wikieditor-toolbar-help-content-indent-syntax' => 'Văn bản thường<br />:Văn bản được tăng lề<br />::Văn bản được tăng lề',
 	'wikieditor-toolbar-help-content-indent-result' => 'Văn bản thường<dl><dd>Văn bản được tăng lề<dl><dd>Văn bản được tăng lề</dd></dl></dd></dl>',
@@ -29043,7 +29076,7 @@ $messages['vo'] = array(
 	'wikieditor-toolbar-tool-link-int-target' => 'Tiäd pada:',
 	'wikieditor-toolbar-tool-link-int-text' => 'Vödem yüma',
 	'wikieditor-toolbar-tool-link-cancel' => 'Nosükön',
-	'wikieditor-toolbar-group-format' => 'Lised',
+	'wikieditor-toolbar-group-format' => 'Lised', # Fuzzy
 	'wikieditor-toolbar-tool-big' => 'Gretik',
 	'wikieditor-toolbar-tool-big-example' => 'Vödem gretik',
 	'wikieditor-toolbar-tool-table' => 'Taib',
@@ -29107,7 +29140,7 @@ $messages['wo'] = array(
 	'wikieditor-toolbar-tool-heading-4' => 'Tolluwaay 4',
 	'wikieditor-toolbar-tool-heading-5' => 'Tolluwaay 5',
 	'wikieditor-toolbar-tool-heading-example' => 'Mbindu koj bi',
-	'wikieditor-toolbar-group-format' => 'Lim',
+	'wikieditor-toolbar-group-format' => 'Lim', # Fuzzy
 	'wikieditor-toolbar-tool-ulist' => 'Lim bees tombal',
 	'wikieditor-toolbar-tool-ulist-example' => 'Cëri lim bees tombal',
 	'wikieditor-toolbar-tool-olist' => 'Lim bees nimerool',
@@ -29161,19 +29194,21 @@ $1:Misaal.jpg|Faramfacce2',
 	'wikieditor-toolbar-tool-replace-case' => 'Tollale dayoo',
 	'wikieditor-toolbar-tool-replace-button-findnext' => 'Gis bi toftal',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Wuutal yépp',
-	'wikieditor-toolbar-tool-replace-close' => 'Neenal',
+	'wikieditor-toolbar-tool-replace-close' => 'Neenal', # Fuzzy
 	'wikieditor-toolbar-tool-replace-nomatch' => 'Sa ceet gi jurul dara',
 	'wikieditor-toolbar-tool-replace-success' => '$1 wuutu lees def',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'Waxoo looy seet.',
 );
 
-/** Wu (吴语) */
+/** Wu (吴语)
+ */
 $messages['wuu'] = array(
 	'wikieditor-template-editor-dialog-cancel' => '取消',
 	'wikieditor-toolbar-tool-reference-cancel' => '取消',
 );
 
-/** Mingrelian (მარგალური) */
+/** Mingrelian (მარგალური)
+ */
 $messages['xmf'] = array(
 	'wikieditor-toolbar-characters-page-ipa' => 'IPA',
 );
@@ -29729,7 +29764,7 @@ $messages['yue'] = array(
 	'wikieditor-toolbar-tool-heading-4' => '4級',
 	'wikieditor-toolbar-tool-heading-5' => '5級',
 	'wikieditor-toolbar-tool-heading-example' => '標題字',
-	'wikieditor-toolbar-group-format' => '一覽',
+	'wikieditor-toolbar-group-format' => '一覽', # Fuzzy
 	'wikieditor-toolbar-tool-ulist' => '點列一覽',
 	'wikieditor-toolbar-tool-ulist-example' => '點列一覽項目',
 	'wikieditor-toolbar-tool-olist' => '數字一覽',
@@ -30432,4 +30467,3 @@ $1:Example.jpg|標題2',
 $messages['zu'] = array(
 	'wikieditor-toolbar-tool-table-preview' => 'Isibonakalo',
 );
-
