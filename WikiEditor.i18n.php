@@ -11494,6 +11494,9 @@ $1:Example.jpg|Popis2',
 	'wikieditor-toolbar-characters-page-thai' => 'Thailandšćina',
 	'wikieditor-toolbar-characters-page-lao' => 'Laošćina',
 	'wikieditor-toolbar-characters-page-khmer' => 'Khmeršćina',
+	'wikieditor-toolbar-characters-endash' => 'krótka ležaca smužka',
+	'wikieditor-toolbar-characters-emdash' => 'dołha ležaca smužka',
+	'wikieditor-toolbar-characters-minus' => 'minusowe znamješko',
 	'wikieditor-toolbar-section-help' => 'Pomoc',
 	'wikieditor-toolbar-help-heading-description' => 'Wopisanje',
 	'wikieditor-toolbar-help-heading-syntax' => 'Štož zapisuješ',
@@ -13492,7 +13495,7 @@ $messages['ja'] = array(
 	'wikieditor-toolbar-tool-link-int-text' => 'リンク文:',
 	'wikieditor-toolbar-tool-link-int-text-tooltip' => '表示する文字列を入力してください',
 	'wikieditor-toolbar-tool-link-ext' => '外部のウェブページへ',
-	'wikieditor-toolbar-tool-link-ext-target' => 'リンクURL:',
+	'wikieditor-toolbar-tool-link-ext-target' => 'リンクの URL:',
 	'wikieditor-toolbar-tool-link-ext-text' => 'リンク テキスト:',
 	'wikieditor-toolbar-tool-link-insert' => 'リンク挿入',
 	'wikieditor-toolbar-tool-link-cancel' => '中止',
@@ -16662,7 +16665,7 @@ $messages['ltg'] = array(
 	'wikieditor-template-editor-dialog-submit' => 'Atjaunynuot',
 );
 
-/** Lushai (Mizo ţawng)
+/** Mizo (Mizo ţawng)
  * @author RMizo
  */
 $messages['lus'] = array(
@@ -27552,10 +27555,8 @@ $1:Örnek.jpg|Altyazı 2',
 	'wikieditor-toolbar-help-content-showreferences-description' => 'Kaynakçayı görüntüle',
 	'wikieditor-toolbar-help-content-showreferences-result' => "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.ornek.org' class='external text' href='#'>Bağlantı metni</a>, ek metin.</li></ol>",
 	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'Zaman damgası ile imza',
-	'wikieditor-toolbar-help-content-signaturetimestamp-syntax' => '~~~~',
 	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>Kullanıcı adı</a> (<a href='#' title='{{#special:mytalk}}'>mesaj</a>) 15.54, 17 Şubat 2012 (UTC)",
 	'wikieditor-toolbar-help-content-signature-description' => 'İmza',
-	'wikieditor-toolbar-help-content-signature-syntax' => '~~~',
 	'wikieditor-toolbar-help-content-signature-result' => "<a href='#' title='{{#special:mypage}}'>Kullanıcı adı</a> (<a href='#' title='{{#special:mytalk}}'>mesaj</a>)",
 	'wikieditor-toolbar-help-content-indent-description' => 'Girinti',
 	'wikieditor-toolbar-help-content-indent-syntax' => 'Normal metin<br />:Girintili metin<br />::Girintili metin',
