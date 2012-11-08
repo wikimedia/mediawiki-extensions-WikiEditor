@@ -27814,6 +27814,14 @@ $1:Мисал.jpg|Тасвирлама2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Гади текст<dl><dd>Чигенешле текст<dl><dd>Чигенешле текст</dd></dl></dd></dl>',
 );
 
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'wikieditor-toolbar-file-size' => 'ⵜⵉⵖⵣⵉ:',
+	'wikieditor-toolbar-help-page-file' => 'ⵉⵙⴷⴰⵡⵏ',
+);
+
 /** Ukrainian (українська)
  * @author AS
  * @author Ahonc
