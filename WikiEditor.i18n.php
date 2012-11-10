@@ -26230,6 +26230,7 @@ $messages['ta'] = array(
 	'wikieditor-toolbar-file-size' => 'அளவு:',
 	'wikieditor-toolbar-file-default' => '(இயல்பிருப்பு)',
 	'wikieditor-toolbar-file-format' => 'வடிவமைப்பு:',
+	'wikieditor-toolbar-file-format-none' => 'ஏதுமில்லை',
 	'wikieditor-toolbar-tool-file-insert' => 'உள்ளிடு',
 	'wikieditor-toolbar-tool-file-cancel' => 'ரத்து செய்',
 	'wikieditor-toolbar-tool-reference' => '# மேற்கோள்
