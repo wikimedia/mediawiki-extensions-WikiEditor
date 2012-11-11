@@ -27820,6 +27820,20 @@ $1:Мисал.jpg|Тасвирлама2',
  */
 $messages['tzm'] = array(
 	'wikieditor-toolbar-file-size' => 'ⵜⵉⵖⵣⵉ:',
+	'wikieditor-toolbar-characters-page-latin' => 'ⵜⴰⵍⴰⵜⵉⵏⵉⵜ',
+	'wikieditor-toolbar-characters-page-greek' => 'ⵜⴰⵢⵓⵏⴰⵏⵉⵜ',
+	'wikieditor-toolbar-characters-page-arabic' => 'ⵜⴰⵄⵔⴰⴱⵜ',
+	'wikieditor-toolbar-characters-page-persian' => 'ⵜⴰⴼⴰⵔⵉⵙⵉⵜ',
+	'wikieditor-toolbar-characters-page-hebrew' => 'ⵜⴰⵄⵉⴱⵔⵉⵜ',
+	'wikieditor-toolbar-characters-page-bangla' => 'ⵜⴰⴱⵏⴳⴰⵍⵉⵜ',
+	'wikieditor-toolbar-characters-page-tamil' => 'ⵜⴰⵎⵉⵍ',
+	'wikieditor-toolbar-characters-page-telugu' => 'ⵜⴻⵍⵓⴳⵓ',
+	'wikieditor-toolbar-characters-page-sinhala' => 'ⵜⴰⵙⵏⵀⴰⵍⵉⵜ',
+	'wikieditor-toolbar-characters-page-thai' => 'ⵜⴰⵟⴰⵢⵍⴰⵏⴷⵉⵜ',
+	'wikieditor-toolbar-characters-page-lao' => 'ⵜⵍⴰⵡⵉⵜ',
+	'wikieditor-toolbar-characters-page-khmer' => 'ⵅⴰⵎⵉⵔ',
+	'wikieditor-toolbar-section-help' => 'ⵜⵉⵡⵉⵙⵉ',
+	'wikieditor-toolbar-help-page-list' => 'ⵓⵎⵓⵖⵏ',
 	'wikieditor-toolbar-help-page-file' => 'ⵉⵙⴷⴰⵡⵏ',
 );
 
