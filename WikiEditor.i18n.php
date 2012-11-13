@@ -18978,6 +18978,9 @@ $1:Example.jpg|Bildetekst2',
 	'wikieditor-toolbar-characters-page-thai' => 'Thai',
 	'wikieditor-toolbar-characters-page-lao' => 'Laotisk',
 	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
+	'wikieditor-toolbar-characters-endash' => 'bindestrek',
+	'wikieditor-toolbar-characters-emdash' => 'tankestrek',
+	'wikieditor-toolbar-characters-minus' => 'minustegn',
 	'wikieditor-toolbar-section-help' => 'Hjelp',
 	'wikieditor-toolbar-help-heading-description' => 'Beskrivelse',
 	'wikieditor-toolbar-help-heading-syntax' => 'Hva du skriver',
@@ -27840,6 +27843,7 @@ $messages['tzm'] = array(
 /** Ukrainian (українська)
  * @author AS
  * @author Ahonc
+ * @author Base
  * @author Dim Grits
  * @author Microcell
  * @author NickK
@@ -27921,6 +27925,7 @@ $messages['uk'] = array(
 	'wikieditor-toolbar-file-float' => 'Вирівнювання:',
 	'wikieditor-toolbar-file-default' => '(стандартно)',
 	'wikieditor-toolbar-file-format' => 'Формат:',
+	'wikieditor-toolbar-file-format-none' => 'нема',
 	'wikieditor-toolbar-tool-file-insert' => 'Вставити',
 	'wikieditor-toolbar-tool-file-cancel' => 'Скасувати',
 	'wikieditor-toolbar-tool-reference' => 'Виноска',
@@ -28025,6 +28030,9 @@ $1:Example.jpg|Опис2',
 	'wikieditor-toolbar-characters-page-thai' => 'Тайські',
 	'wikieditor-toolbar-characters-page-lao' => 'Лаоські',
 	'wikieditor-toolbar-characters-page-khmer' => 'Кхмерські',
+	'wikieditor-toolbar-characters-endash' => 'коротке тире',
+	'wikieditor-toolbar-characters-emdash' => 'довге тире',
+	'wikieditor-toolbar-characters-minus' => 'мінус',
 	'wikieditor-toolbar-section-help' => 'Довідка',
 	'wikieditor-toolbar-help-heading-description' => 'Опис',
 	'wikieditor-toolbar-help-heading-syntax' => 'Що ви вводите',
