@@ -9562,7 +9562,7 @@ $messages['gl'] = array(
 	'wikieditor' => 'Interface avanzada de edición de texto wiki',
 	'wikieditor-desc' => 'Proporciona unha interface extensible de edición de texto wiki e moitas funcionalidades de módulos',
 	'wikieditor-wikitext-tab' => 'Texto wiki',
-	'wikieditor-loading' => 'Cargando',
+	'wikieditor-loading' => 'Cargando...',
 	'wikieditor-preview-preference' => 'Activar a vista previa comparativa',
 	'wikieditor-preview-tab' => 'Vista previa',
 	'wikieditor-preview-changes-tab' => 'Cambios',
@@ -9604,7 +9604,7 @@ $messages['gl'] = array(
 	'wikieditor-toolbar-tool-link' => 'Ligazón',
 	'wikieditor-toolbar-tool-link-title' => 'Inserir unha ligazón',
 	'wikieditor-toolbar-tool-link-int' => 'Cara a unha páxina wiki',
-	'wikieditor-toolbar-tool-link-int-target' => 'Título da páxina:',
+	'wikieditor-toolbar-tool-link-int-target' => 'Título da páxina ou URL:',
 	'wikieditor-toolbar-tool-link-int-target-tooltip' => 'Título da páxina ou URL',
 	'wikieditor-toolbar-tool-link-int-text' => 'Texto da ligazón:',
 	'wikieditor-toolbar-tool-link-int-text-tooltip' => 'Insira o texto que se mostrará',
@@ -21496,20 +21496,21 @@ $messages['ps'] = array(
  * @author Malafaya
  * @author MetalBrasil
  * @author SandroHc
+ * @author Waldir
  * @author 555
  */
 $messages['pt'] = array(
 	'wikieditor' => 'Interface avançada de edição de texto wiki',
 	'wikieditor-desc' => 'Fornece uma interface extensível de edição de texto wiki e vários módulos funcionais',
 	'wikieditor-wikitext-tab' => 'Texto Wiki',
-	'wikieditor-loading' => 'A carregar',
+	'wikieditor-loading' => 'A carregar…',
 	'wikieditor-preview-preference' => 'Possibilitar antevisão lado a lado',
 	'wikieditor-preview-tab' => 'Antevisão',
 	'wikieditor-preview-changes-tab' => 'Alterações',
-	'wikieditor-preview-loading' => 'A carregar...',
+	'wikieditor-preview-loading' => 'A carregar…',
 	'wikieditor-previewDialog-preference' => 'Activar o diálogo de antevisão',
 	'wikieditor-previewDialog-tab' => 'Antevisão',
-	'wikieditor-previewDialog-loading' => 'A carregar...',
+	'wikieditor-previewDialog-loading' => 'A carregar…',
 	'wikieditor-publish-preference' => 'Possibilitar publicação passo a passo',
 	'wikieditor-publish-button-publish' => 'Publicar',
 	'wikieditor-publish-button-cancel' => 'Cancelar',
@@ -21532,7 +21533,7 @@ $messages['pt'] = array(
 	'wikieditor-toolbar-preference' => 'Activar a barra de ferramentas de edição melhorada',
 	'wikieditor-toolbar-dialogs-preference' => 'Possibilitar diálogos de inserção de links, tabelas e outros',
 	'wikieditor-toolbar-hidesig' => 'Esconder o botão da assinatura nas páginas do espaço nominal principal',
-	'wikieditor-toolbar-loading' => 'A carregar...',
+	'wikieditor-toolbar-loading' => 'A carregar…',
 	'wikieditor-toolbar-tool-bold' => 'Negrito',
 	'wikieditor-toolbar-tool-bold-example' => 'Texto a negrito',
 	'wikieditor-toolbar-tool-italic' => 'Itálico',
