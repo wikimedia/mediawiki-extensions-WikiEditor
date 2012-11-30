@@ -5464,7 +5464,7 @@ $messages['cs'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Neplatný název',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Externí odkaz',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'Zjišťování existence stránky…',
-	'wikieditor-toolbar-tool-link-int-invalid' => 'Vámi zadaný název je neplatný.',
+	'wikieditor-toolbar-tool-link-int-invalid' => 'Zadaný název je neplatný.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'Uvedené URL vypadá jako odkaz na jinou stránku této wiki.
 Chcete z něj tedy udělat vnitřní odkaz?',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => 'Vnitřní odkaz',
