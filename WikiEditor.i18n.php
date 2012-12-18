@@ -2538,6 +2538,7 @@ $messages['az'] = array(
 /** South Azerbaijani (تورکجه)
  * @author Amir a57
  * @author E THP
+ * @author Ebrahimi-amir
  * @author Mousa
  */
 $messages['azb'] = array(
@@ -2625,7 +2626,7 @@ $messages['azb'] = array(
 	'wikieditor-toolbar-tool-olist-example' => 'نومره‌لنمیش لیست آیتِمی',
 	'wikieditor-toolbar-tool-indent' => 'ایچری‌آپارما',
 	'wikieditor-toolbar-tool-indent-example' => 'ایچری‌گئتمیش خط',
-	'wikieditor-toolbar-tool-nowiki' => 'ویکی ‌فورمت‌سیز',
+	'wikieditor-toolbar-tool-nowiki' => 'ویکی ‌فورمتینده دئییل',
 	'wikieditor-toolbar-tool-nowiki-example' => 'فورمت‌لشدیریلمه‌میش یازی‌نی بورا داخیل ائدین',
 	'wikieditor-toolbar-tool-redirect' => 'یؤنلندیرمه',
 	'wikieditor-toolbar-tool-redirect-example' => 'صحیفه آدینی علاوه ائت',
@@ -2736,13 +2737,13 @@ $1:اؤرنک.jpg|باشلیق۲',
 	'wikieditor-toolbar-help-content-heading2-syntax' => '== باش‌لیق متن ==',
 	'wikieditor-toolbar-help-content-heading2-result' => '<h2>باشلیق متن</h2>',
 	'wikieditor-toolbar-help-content-heading3-description' => '3-جو سویه‌لی باش‌لیق',
-	'wikieditor-toolbar-help-content-heading3-syntax' => '== باشلیق متن ==',
+	'wikieditor-toolbar-help-content-heading3-syntax' => '== متن باشلیغی ==',
 	'wikieditor-toolbar-help-content-heading3-result' => '<h3>باشلیق متن</h3>',
 	'wikieditor-toolbar-help-content-heading4-description' => '4-جو سویه‌لی باش‌لیق',
-	'wikieditor-toolbar-help-content-heading4-syntax' => '==== باشلیق متن ====',
+	'wikieditor-toolbar-help-content-heading4-syntax' => '==== متن باشلیغی ====',
 	'wikieditor-toolbar-help-content-heading4-result' => '<h4>باشلیق متن</h4>',
 	'wikieditor-toolbar-help-content-heading5-description' => '5-جی سویه‌لی باش‌لیق',
-	'wikieditor-toolbar-help-content-heading5-syntax' => '===== باشلیق متن =====',
+	'wikieditor-toolbar-help-content-heading5-syntax' => '===== متن باشلیغی =====',
 	'wikieditor-toolbar-help-content-heading5-result' => '<h5>باشلیق متن</h5>',
 	'wikieditor-toolbar-help-content-ulist-description' => 'مارکالانمیش سیاهی',
 	'wikieditor-toolbar-help-content-ulist-syntax' => '* سیاهی بندی<br />*سیاهی بندی',
@@ -8768,6 +8769,7 @@ $1:مثال.jpg|عنوان ۲',
 /** Finnish (suomi)
  * @author Beluga
  * @author Crt
+ * @author Kulmalukko
  * @author Linnea
  * @author Nedergard
  * @author Nike
@@ -8955,6 +8957,7 @@ $1:Esimerkki.jpg|Kuvateksti2',
 	'wikieditor-toolbar-characters-page-thai' => 'Thai',
 	'wikieditor-toolbar-characters-page-lao' => 'Lao',
 	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
+	'wikieditor-toolbar-characters-minus' => 'miinusmerkki',
 	'wikieditor-toolbar-section-help' => 'Ohje',
 	'wikieditor-toolbar-help-heading-description' => 'Kuvaus',
 	'wikieditor-toolbar-help-heading-syntax' => 'Mitä kirjoitat',
