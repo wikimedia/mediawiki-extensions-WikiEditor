@@ -30808,6 +30808,7 @@ $1:Example.jpg|标题2',
  * @author Mark85296341
  * @author Oapbtommy
  * @author PhiLiP
+ * @author Shirayuki
  * @author Simon Shek
  * @author Waihorace
  * @author Wong128hk
@@ -30887,6 +30888,7 @@ $messages['zh-hant'] = array(
 	'wikieditor-toolbar-file-float' => '對齊：',
 	'wikieditor-toolbar-file-default' => '（預設）',
 	'wikieditor-toolbar-file-format' => '格式：',
+	'wikieditor-toolbar-file-format-none' => '無',
 	'wikieditor-toolbar-tool-file-insert' => '插入',
 	'wikieditor-toolbar-tool-file-cancel' => '取消',
 	'wikieditor-toolbar-tool-reference' => '參考',
@@ -31012,6 +31014,7 @@ $1:Example.jpg|標題2',
 	'wikieditor-toolbar-characters-page-thai' => '泰語',
 	'wikieditor-toolbar-characters-page-lao' => '寮語',
 	'wikieditor-toolbar-characters-page-khmer' => '高棉語',
+	'wikieditor-toolbar-characters-minus' => '減號',
 	'wikieditor-toolbar-section-help' => '說明',
 	'wikieditor-toolbar-help-heading-description' => '描述',
 	'wikieditor-toolbar-help-heading-syntax' => '您輸入什麼',
