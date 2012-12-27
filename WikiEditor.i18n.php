@@ -8780,6 +8780,7 @@ $1:مثال.jpg|عنوان ۲',
  * @author Olli
  * @author Silvonen
  * @author Str4nd
+ * @author VezonThunder
  * @author ZeiP
  */
 $messages['fi'] = array(
@@ -8961,6 +8962,8 @@ $1:Esimerkki.jpg|Kuvateksti2',
 	'wikieditor-toolbar-characters-page-thai' => 'Thai',
 	'wikieditor-toolbar-characters-page-lao' => 'Lao',
 	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
+	'wikieditor-toolbar-characters-endash' => 'ajatusviiva',
+	'wikieditor-toolbar-characters-emdash' => 'pitkä ajatusviiva',
 	'wikieditor-toolbar-characters-minus' => 'miinusmerkki',
 	'wikieditor-toolbar-section-help' => 'Ohje',
 	'wikieditor-toolbar-help-heading-description' => 'Kuvaus',
