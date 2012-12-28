@@ -125,6 +125,7 @@ $wgResourceModules += array(
 			'jquery.wikiEditor.toolbar.i18n',
 			'jquery.suggestions',
 			'mediawiki.Title',
+			'mediawiki.jqueryMsg',
 		),
 		'messages' => array(
 			'wikieditor-toolbar-tool-file-title',
