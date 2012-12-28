@@ -21178,6 +21178,7 @@ $1:Example.jpg|Podpis2',
 /** Piedmontese (Piemontèis)
  * @author Borichèt
  * @author Dragonòt
+ * @author පසිඳු කාවින්ද
  */
 $messages['pms'] = array(
 	'wikieditor' => 'Antërfacia ëd modìfica avansà ëd wikitext',
@@ -21253,6 +21254,7 @@ $messages['pms'] = array(
 	'wikieditor-toolbar-file-float' => 'Alineament:',
 	'wikieditor-toolbar-file-default' => '(stàndard)',
 	'wikieditor-toolbar-file-format' => 'Formà:',
+	'wikieditor-toolbar-file-format-none' => 'gnun',
 	'wikieditor-toolbar-tool-file-insert' => 'Anserì',
 	'wikieditor-toolbar-tool-file-cancel' => 'Scancela',
 	'wikieditor-toolbar-tool-reference' => 'Arferiment',
