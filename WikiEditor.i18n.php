@@ -287,6 +287,7 @@ $1:Example.jpg|Caption2",
  * @author Onecountry
  * @author Prima klasy4na
  * @author Raymond
+ * @author Shirayuki
  * @author Siebrand
  * @author Umherirrender
  * @author Yekrats
@@ -294,9 +295,8 @@ $1:Example.jpg|Caption2",
 $messages['qqq'] = array(
 	'wikieditor' => 'An extension to allow for advanced editing features.
 http://www.mediawiki.org/wiki/Extension:WikiEditor',
-	'wikieditor-desc' => "{{desc}}
-
-I guess that 'feature-providing modules' means the same as 'modules providing features'.",
+	'wikieditor-desc' => '{{desc|name=Wiki Editor|url=http://www.mediawiki.org/wiki/Extension:WikiEditor}}
+I guess that "feature-providing modules" means the same as "modules providing features".',
 	'wikieditor-wikitext-tab' => 'Caption of the tab containing the edit box',
 	'wikieditor-loading' => "Explanatory text for the temporary cover placed over the wikieditor while it's being assembled.
 {{Identical|Loading}}",
@@ -396,15 +396,23 @@ For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Too
 	'wikieditor-toolbar-group-insert' => '{{Identical|Insert}}',
 	'wikieditor-toolbar-tool-table' => '{{Identical|Table}}',
 	'wikieditor-toolbar-tool-table-example-cell-text' => '[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.',
-	'wikieditor-toolbar-tool-table-example-header' => '[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.',
+	'wikieditor-toolbar-tool-table-example-header' => '[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.
+
+See also:
+* {{msg-mw|wikieditor-toolbar-tool-table-example-header}}
+* {{msg-mw|wikieditor-toolbar-tool-table-example}}',
 	'wikieditor-toolbar-tool-table-title' => '[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.',
 	'wikieditor-toolbar-tool-table-dimensions-rows' => '[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.',
 	'wikieditor-toolbar-tool-table-dimensions-columns' => '[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.',
 	'wikieditor-toolbar-tool-table-dimensions-header' => '[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.',
 	'wikieditor-toolbar-tool-table-wikitable' => '[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.',
 	'wikieditor-toolbar-tool-table-sortable' => '[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.',
-	'wikieditor-toolbar-tool-table-example' => '{{Identical|Example}}
-  [[File:Wikieditor-toolbar-tool-table.png|thumb]]This is a noun. Important to indicate that this is not a preview of what the table will look like, but an example of what it will look similar to. See screenshot.',
+	'wikieditor-toolbar-tool-table-example' => '[[File:Wikieditor-toolbar-tool-table.png|thumb]]This is a noun. Important to indicate that this is not a preview of what the table will look like, but an example of what it will look similar to. See screenshot.
+
+See also:
+* {{msg-mw|wikieditor-toolbar-tool-table-example-header}}
+* {{msg-mw|wikieditor-toolbar-tool-table-example}}
+{{Identical|Example}}',
 	'wikieditor-toolbar-tool-table-preview' => '{{Identical|Preview}}
 
 [[File:Wikieditor-toolbar-tool-table.png|thumb]]This is a noun. See screenshot.',
@@ -414,8 +422,18 @@ For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Too
 	'wikieditor-toolbar-tool-table-cancel' => '{{Identical|Cancel}}',
 	'wikieditor-toolbar-tool-table-example-text' => '{{optional}}
 Placeholder text to help the table example appear to be in the context of an article. Should be lorem ipsum, or equivalent.',
-	'wikieditor-toolbar-tool-table-toomany' => '[[file:Bulbgraph.png|left|22px]]
-This message does not support PLURAL on $1.',
+	'wikieditor-toolbar-tool-table-toomany' => 'See also:
+* {{msg-mw|wikieditor-toolbar-tool-table-invalidnumber}}
+* {{msg-mw|wikieditor-toolbar-tool-table-zero}}
+* {{msg-mw|wikieditor-toolbar-tool-table-toomany}}',
+	'wikieditor-toolbar-tool-table-invalidnumber' => 'See also:
+* {{msg-mw|wikieditor-toolbar-tool-table-invalidnumber}}
+* {{msg-mw|wikieditor-toolbar-tool-table-zero}}
+* {{msg-mw|wikieditor-toolbar-tool-table-toomany}}',
+	'wikieditor-toolbar-tool-table-zero' => 'See also:
+* {{msg-mw|wikieditor-toolbar-tool-table-invalidnumber}}
+* {{msg-mw|wikieditor-toolbar-tool-table-zero}}
+* {{msg-mw|wikieditor-toolbar-tool-table-toomany}}',
 	'wikieditor-toolbar-tool-replace' => '{{Identical|Search and replace}}',
 	'wikieditor-toolbar-tool-replace-title' => '{{Identical|Search and replace}}',
 	'wikieditor-toolbar-tool-replace-search' => '{{Identical|Search}}',
@@ -2667,7 +2685,7 @@ $1:اؤرنک.jpg|باشلیق۲',
 	'wikieditor-toolbar-tool-table-preview' => 'اؤن‌گؤستریش',
 	'wikieditor-toolbar-tool-table-insert' => 'یاراشدیرماق',
 	'wikieditor-toolbar-tool-table-cancel' => 'لغو ائت',
-	'wikieditor-toolbar-tool-table-toomany' => '$1 آرتیرماق چوخ بیر جدول علاوه بو مئساژ ایله مومکون دئییل.',
+	'wikieditor-toolbar-tool-table-toomany' => '$1 آرتیرماق چوخ بیر جدول علاوه بو مئساژ ایله مومکون دئییل.', # Fuzzy
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'هازیرکی بیر سطر و سوتون سایی یازمامیسینیز.',
 	'wikieditor-toolbar-tool-table-zero' => 'بیر صیفیر سطرلی یا سوتونلو جدول یئرلیشدیره بیلنمیزسینیز.',
 	'wikieditor-toolbar-tool-replace' => 'آختار و دییش',
@@ -6642,7 +6660,7 @@ $1:Beispiel.jpg|Beschreibung2',
 	'wikieditor-toolbar-tool-table-preview' => 'Vorschau',
 	'wikieditor-toolbar-tool-table-insert' => 'Einfügen',
 	'wikieditor-toolbar-tool-table-cancel' => 'Abbrechen',
-	'wikieditor-toolbar-tool-table-toomany' => 'Das Einfügen einer Tabelle mit mehr als $1 Zellen ist mit diesem Dialog nicht möglich.',
+	'wikieditor-toolbar-tool-table-toomany' => 'Das Einfügen einer Tabelle mit mehr als 1000 Zellen ist mit diesem Dialog nicht möglich.',
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'Du hast keine gültige Anzahl von Zeilen oder Spalten angegeben.',
 	'wikieditor-toolbar-tool-table-zero' => 'Du kannst keine Tabelle einfügen, die weder Zeilen noch Spalten hat.',
 	'wikieditor-toolbar-tool-replace' => 'Suchen und Ersetzen',
@@ -7666,7 +7684,7 @@ $1:Ekzemplo.jpg|Teksto2 pri dosiero',
 	'wikieditor-toolbar-tool-table-preview' => 'Antaŭvido',
 	'wikieditor-toolbar-tool-table-insert' => 'Enmeti',
 	'wikieditor-toolbar-tool-table-cancel' => 'Nuligi',
-	'wikieditor-toolbar-tool-table-toomany' => 'Enmeti tabelon kun pli ol $1 ĉeloj ne eblas per ĉi tiu dialogujo.',
+	'wikieditor-toolbar-tool-table-toomany' => 'Enmeti tabelon kun pli ol $1 ĉeloj ne eblas per ĉi tiu dialogujo.', # Fuzzy
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'Vi ne enigis permesitan nombron de linioj aŭ kolumnoj.',
 	'wikieditor-toolbar-tool-table-zero' => 'Vi ne povas enigi tabelon kun nul linioj aŭ kolumnoj.',
 	'wikieditor-toolbar-tool-replace' => 'Serĉi kaj anstataŭigi',
@@ -8925,7 +8943,7 @@ $1:Esimerkki.jpg|Kuvateksti2',
 	'wikieditor-toolbar-tool-table-preview' => 'Esikatselu',
 	'wikieditor-toolbar-tool-table-insert' => 'Lisää',
 	'wikieditor-toolbar-tool-table-cancel' => 'Peruuta',
-	'wikieditor-toolbar-tool-table-toomany' => 'Tällä toiminnolla ei voi tehdä taulukkoa, jossa on yli $1 solua.',
+	'wikieditor-toolbar-tool-table-toomany' => 'Tällä toiminnolla ei voi tehdä taulukkoa, jossa on yli $1 solua.', # Fuzzy
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'Et syöttänyt kelvollista rivi- tai sarakemäärää.',
 	'wikieditor-toolbar-tool-table-zero' => 'Et voi lisätä taulukkoa, jossa ei ole yhtään riviä tai saraketta.',
 	'wikieditor-toolbar-tool-replace' => 'Etsi ja korvaa',
@@ -9433,7 +9451,7 @@ $1:Ègzemplo.jpg|Dèscripcion 2',
 	'wikieditor-toolbar-tool-table-preview' => 'Prèvisualisacion',
 	'wikieditor-toolbar-tool-table-insert' => 'Entrebetar',
 	'wikieditor-toolbar-tool-table-cancel' => 'Anular',
-	'wikieditor-toolbar-tool-table-toomany' => 'O est pas possiblo d’entrebetar un tablô de més de $1 cèlules avouéc cél outil.',
+	'wikieditor-toolbar-tool-table-toomany' => 'O est pas possiblo d’entrebetar un tablô de més de $1 cèlules avouéc cél outil.', # Fuzzy
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'Vos éd pas buchiê un nombro de legnes ou ben de colones valido.',
 	'wikieditor-toolbar-tool-table-zero' => 'Vos pouede pas entrebetar un tablô sen legne ou ben sen colona.',
 	'wikieditor-toolbar-tool-replace' => 'Rechèrchiér et pués remplaciér',
@@ -13883,7 +13901,7 @@ $1:Example.jpg|キャプション2',
 	'wikieditor-toolbar-tool-table-preview' => 'プレビュー',
 	'wikieditor-toolbar-tool-table-insert' => '挿入',
 	'wikieditor-toolbar-tool-table-cancel' => '中止',
-	'wikieditor-toolbar-tool-table-toomany' => 'このダイアログでは、$1個以上のセルがある表は挿入できません。',
+	'wikieditor-toolbar-tool-table-toomany' => 'このダイアログでは、1000個以上のセルがある表は挿入できません。',
 	'wikieditor-toolbar-tool-table-invalidnumber' => '入力した行数または列数が有効ではありません。',
 	'wikieditor-toolbar-tool-table-zero' => '行数または列数が0の表は挿入できません。',
 	'wikieditor-toolbar-tool-replace' => '検索と置換',
@@ -17773,7 +17791,7 @@ $1:Пример.jpg|Опис2',
 	'wikieditor-toolbar-tool-table-preview' => 'Преглед',
 	'wikieditor-toolbar-tool-table-insert' => 'Вметни',
 	'wikieditor-toolbar-tool-table-cancel' => 'Откажи',
-	'wikieditor-toolbar-tool-table-toomany' => 'Не можете да вметнувате табела со повеќе од $1 ќелии со овој дијалог.',
+	'wikieditor-toolbar-tool-table-toomany' => 'Не можете да вметнувате табела со повеќе од 1000 ќелии со овој дијалог.',
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'Не внесовте важечки број на редови или колони.',
 	'wikieditor-toolbar-tool-table-zero' => 'Не можете да вметнувате табела со нула редови или колони.',
 	'wikieditor-toolbar-tool-replace' => 'Најди и замени',
@@ -19723,7 +19741,7 @@ $1:Voorbeeld.jpg|Bijschrift2',
 	'wikieditor-toolbar-tool-table-preview' => 'Voorvertoning',
 	'wikieditor-toolbar-tool-table-insert' => 'Invoegen',
 	'wikieditor-toolbar-tool-table-cancel' => 'Annuleren',
-	'wikieditor-toolbar-tool-table-toomany' => 'Het invoegen van een tabel met meer dan $1 cellen is niet mogelijk via dit dialoogvenster.',
+	'wikieditor-toolbar-tool-table-toomany' => 'Het invoegen van een tabel met meer dan 1000 cellen is niet mogelijk via dit dialoogvenster.',
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'U hebt een ongeldig aantal regels of kolommen opgegeven.',
 	'wikieditor-toolbar-tool-table-zero' => 'U kunt geen tabel invoegen zonder regels of kolommen.',
 	'wikieditor-toolbar-tool-replace' => 'Zoeken en vervangen',
@@ -19988,7 +20006,7 @@ $1:Døme.jpg|Bilettekst2',
 	'wikieditor-toolbar-tool-table-preview' => 'Førehandsvising',
 	'wikieditor-toolbar-tool-table-insert' => 'Set inn',
 	'wikieditor-toolbar-tool-table-cancel' => 'Avbryt',
-	'wikieditor-toolbar-tool-table-toomany' => 'Det er ikkje mogleg å setja inn meir enn $1 seller med denne dialogen.',
+	'wikieditor-toolbar-tool-table-toomany' => 'Det er ikkje mogleg å setja inn meir enn $1 seller med denne dialogen.', # Fuzzy
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'Du har ikkje skrive inn eit gyldig tal på rader eller kolonner.',
 	'wikieditor-toolbar-tool-table-zero' => 'Ein kan ikkje setja inn ein tabell med null rader eller kolonner.',
 	'wikieditor-toolbar-tool-replace' => 'Søk og byt ut',
@@ -21321,7 +21339,7 @@ $1:Esempi.jpg|Descrission2',
 	'wikieditor-toolbar-tool-table-preview' => 'Previsualisassion',
 	'wikieditor-toolbar-tool-table-insert' => 'Anserì',
 	'wikieditor-toolbar-tool-table-cancel' => 'Scancelé',
-	'wikieditor-toolbar-tool-table-toomany' => "Anserì na tàula con pì che $1 casele a l'é nen possìbil con cost utiss.",
+	'wikieditor-toolbar-tool-table-toomany' => "Anserì na tàula con pì che $1 casele a l'é nen possìbil con cost utiss.", # Fuzzy
 	'wikieditor-toolbar-tool-table-invalidnumber' => "A l'ha butà un nùmer ëd linie o colòne nen bon.",
 	'wikieditor-toolbar-tool-table-zero' => 'A peul pa anserì na tàula sensa gnun-a linia o colòna',
 	'wikieditor-toolbar-tool-replace' => 'Sërché e rampiassé',
@@ -22999,7 +23017,7 @@ $1:Example.jpg|Titele2',
 	'wikieditor-toolbar-tool-table-preview' => 'Andeprime',
 	'wikieditor-toolbar-tool-table-insert' => 'Inzerisce',
 	'wikieditor-toolbar-tool-table-cancel' => 'Annulle',
-	'wikieditor-toolbar-tool-table-toomany' => "Inzerimende de 'na tabbelle cu cchiù de $1 celle non g'è possibbele cu stu dialoghe",
+	'wikieditor-toolbar-tool-table-toomany' => "'U 'nzerimende de 'na tabbelle cu cchiù de 1000 celle non g'è possibbele cu stu dialoghe.",
 	'wikieditor-toolbar-tool-table-invalidnumber' => "Tu non g'è mise 'nu numere valide de righe o culonne.",
 	'wikieditor-toolbar-tool-table-zero' => "Tu non ge puè inzerì 'na tabbelle cù zero righe o culonne.",
 	'wikieditor-toolbar-tool-replace' => 'Cirche e sostituisce',
@@ -24677,7 +24695,7 @@ $1:උදාහරණ.jpg| 2 යටි ලියමන',
 	'wikieditor-toolbar-tool-table-preview' => 'පූර්ව දර්ශනය',
 	'wikieditor-toolbar-tool-table-insert' => 'ඇතුල් කරන්න',
 	'wikieditor-toolbar-tool-table-cancel' => 'අත් හරින්න',
-	'wikieditor-toolbar-tool-table-toomany' => 'මෙහිදී $1 කොටුවකට වඩා ඇති වගුවක් ඇතුල් කිරීම කළ නොහැකිය.',
+	'wikieditor-toolbar-tool-table-toomany' => 'මෙහිදී $1 කොටුවකට වඩා ඇති වගුවක් ඇතුල් කිරීම කළ නොහැකිය.', # Fuzzy
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'ඔබ පේළි හෝ තීරු ගණන සඳහා වලංගු අගයක් ඇතුළත් කර නැත.',
 	'wikieditor-toolbar-tool-table-zero' => 'ඔබට පේළි හෝ තීරු ශුන්‍ය වන වගුවක් ඇතුල් කළ නොහැක.',
 	'wikieditor-toolbar-tool-replace' => 'සෙවීම හා ප්‍රතිස්ථාපනය',
@@ -24714,6 +24732,9 @@ $1:උදාහරණ.jpg| 2 යටි ලියමන',
 	'wikieditor-toolbar-characters-page-thai' => 'තායි',
 	'wikieditor-toolbar-characters-page-lao' => 'ලාඕ',
 	'wikieditor-toolbar-characters-page-khmer' => 'ඛෙමර්',
+	'wikieditor-toolbar-characters-endash' => 'en තේජස',
+	'wikieditor-toolbar-characters-emdash' => 'em තේජස',
+	'wikieditor-toolbar-characters-minus' => 'ඍණ ලකුණ',
 	'wikieditor-toolbar-section-help' => 'උදව්',
 	'wikieditor-toolbar-help-heading-description' => 'විස්තරය',
 	'wikieditor-toolbar-help-heading-syntax' => 'ඔබ යතුරු ලියනය කරන දෙය',
@@ -29583,7 +29604,7 @@ $1:Ví dụ.jpg|Chú thích 2',
 	'wikieditor-toolbar-tool-table-preview' => 'Xem trước',
 	'wikieditor-toolbar-tool-table-insert' => 'Chèn',
 	'wikieditor-toolbar-tool-table-cancel' => 'Hủy bỏ',
-	'wikieditor-toolbar-tool-table-toomany' => 'Không thể dùng hộp thoại này để chèn bảng có hơn $1 ô.',
+	'wikieditor-toolbar-tool-table-toomany' => 'Không thể dùng hộp thoại này để chèn bảng có hơn 1.000 ô.',
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'Bạn đã nhập số hàng hay cột không hợp lệ.',
 	'wikieditor-toolbar-tool-table-zero' => 'Không thể chèn bảng không có hàng hay cột nào.',
 	'wikieditor-toolbar-tool-replace' => 'Tìm và thay thế',
@@ -30706,7 +30727,7 @@ $1:Example.jpg|标题2',
 	'wikieditor-toolbar-tool-table-preview' => '预览',
 	'wikieditor-toolbar-tool-table-insert' => '插入',
 	'wikieditor-toolbar-tool-table-cancel' => '取消',
-	'wikieditor-toolbar-tool-table-toomany' => '在这个对话框中无法插入超过$1个单元格的表格。',
+	'wikieditor-toolbar-tool-table-toomany' => '在这个对话框中无法插入超过$1个单元格的表格。', # Fuzzy
 	'wikieditor-toolbar-tool-table-invalidnumber' => '您输入的行数或列数无效。',
 	'wikieditor-toolbar-tool-table-zero' => '您不能插入一个零行或零列的表格。',
 	'wikieditor-toolbar-tool-replace' => '查找和替换',
@@ -30972,22 +30993,11 @@ $1:Example.jpg|標題2',
 	'wikieditor-toolbar-tool-table-dimensions-header' => '新增標題行',
 	'wikieditor-toolbar-tool-table-wikitable' => '設定邊框格式',
 	'wikieditor-toolbar-tool-table-sortable' => '使表格內容可排序',
-	'wikieditor-toolbar-tool-table-example' => '-
-! 表頭 1
-! 表頭 2
-! 表頭 3
-|-
-| 行 1, 格 1
-| 行 1, 格 2
-| 行 1, 格 3
-|-
-| 行 2, 格 1
-| 行 2, 格 2
-| 行 2, 格 3',
+	'wikieditor-toolbar-tool-table-example' => '例子',
 	'wikieditor-toolbar-tool-table-preview' => '預覽',
 	'wikieditor-toolbar-tool-table-insert' => '插入',
 	'wikieditor-toolbar-tool-table-cancel' => '取消',
-	'wikieditor-toolbar-tool-table-toomany' => '在這個對話框中無法插入超過 $1 個單元格的表格。',
+	'wikieditor-toolbar-tool-table-toomany' => '在這個對話框中無法插入超過 $1 個單元格的表格。', # Fuzzy
 	'wikieditor-toolbar-tool-table-invalidnumber' => '您輸入的行數或列數無效。',
 	'wikieditor-toolbar-tool-table-zero' => '您不能插入一個零行或零列的表格。',
 	'wikieditor-toolbar-tool-replace' => '尋找和替換',
