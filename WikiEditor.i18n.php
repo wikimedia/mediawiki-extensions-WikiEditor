@@ -178,7 +178,7 @@ $1:Example.jpg|Caption2",
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Replace all',
 	'wikieditor-toolbar-tool-replace-close' => 'Close',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'Your search did not match anything.',
-	'wikieditor-toolbar-tool-replace-success' => '$1 replacement(s) made.',
+	'wikieditor-toolbar-tool-replace-success' => '$1 {{PLURAL:$1|replacement|replacements}} made.',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'You did not enter anything to search for.',
 	'wikieditor-toolbar-tool-replace-invalidregex' => 'The regular expression you entered is invalid: $1',
 	/* Toolbar - Special characters Section */
