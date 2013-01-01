@@ -5491,7 +5491,9 @@ $messages['ckb'] = array(
 	'wikieditor-toolbar-tool-file' => 'پەڕگەی نێودەق',
 	'wikieditor-toolbar-tool-file-example' => 'نموونە.jpg',
 	'wikieditor-toolbar-file-target' => 'ناوی پەرگە:',
+	'wikieditor-toolbar-file-size' => 'قەبارە:',
 	'wikieditor-toolbar-file-format' => 'داڕشتن:',
+	'wikieditor-toolbar-file-format-none' => 'ھیچ',
 	'wikieditor-toolbar-tool-file-insert' => 'تێخستن',
 	'wikieditor-toolbar-tool-file-cancel' => 'ھەڵوەشاندنەوە',
 	'wikieditor-toolbar-tool-reference' => 'سەرچاوە',
@@ -9428,7 +9430,7 @@ Voléd-vos utilisar un lim de dedens a la place ?',
 	'wikieditor-toolbar-tool-gallery-example' => '$1:Ègzemplo.jpg|Dèscripcion 1
 $1:Ègzemplo.jpg|Dèscripcion 2',
 	'wikieditor-toolbar-tool-newline' => 'Sôt de legne',
-	'wikieditor-toolbar-tool-table' => 'Tablô',
+	'wikieditor-toolbar-tool-table' => 'Grelye',
 	'wikieditor-toolbar-tool-table-example-old' => '-
 ! en-téta 1
 ! en-téta 2
