@@ -330,8 +330,7 @@ I guess that "feature-providing modules" means the same as "modules providing fe
 	'wikieditor-publish-dialog-publish' => "Button that saves the user's edit in the dialog that opens when the user clicks the Publish button
 
 {{Identical|Publish}}",
-	'wikieditor-publish-dialog-goback' => 'Button that closes the dialog that opens when the user clicks the Publish button
-
+	'wikieditor-publish-dialog-goback' => 'Button that closes the dialog that opens when the user clicks the Publish button.
 {{Identical|Go back}}',
 	'wikieditor-template-editor-dialog-submit' => '{{Identical|Update}}',
 	'wikieditor-template-editor-dialog-cancel' => '{{Identical|Cancel}}',
@@ -372,7 +371,8 @@ For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Too
 	'wikieditor-toolbar-file-size' => 'Label for input of size on insert file dialog',
 	'wikieditor-toolbar-file-float' => 'Label for image align selector on insert file dialog',
 	'wikieditor-toolbar-file-default' => 'Label for default option in insert file dialog selectors',
-	'wikieditor-toolbar-file-format' => 'Label for image format (thumbnail, framed, frameless, none) selector on insert file dialog',
+	'wikieditor-toolbar-file-format' => 'Label for image format (thumbnail, framed, frameless, none) selector on insert file dialog
+{{Identical|Format}}',
 	'wikieditor-toolbar-file-format-none' => 'Option in file dialog for no format for the added image',
 	'wikieditor-toolbar-tool-file-insert' => '{{Identical|Insert}}',
 	'wikieditor-toolbar-tool-file-cancel' => '{{Identical|Cancel}}',
@@ -2272,7 +2272,7 @@ $1:Exemplu.jpg|Pie2',
 	'wikieditor-toolbar-tool-table-preview' => 'Vista previa',
 	'wikieditor-toolbar-tool-table-insert' => 'Inxertar',
 	'wikieditor-toolbar-tool-table-cancel' => 'Encaboxar',
-	'wikieditor-toolbar-tool-table-toomany' => 'Con esti diálogu nun ye posible inxertar una tabla de más de $1 caxelles.',
+	'wikieditor-toolbar-tool-table-toomany' => 'Con esti diálogu nun ye posible inxertar una tabla de más de 1000 caxelles.',
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'Nun escribisti un númberu válidu de fileres o columnes.',
 	'wikieditor-toolbar-tool-table-zero' => 'Nun pues inxertar una tabla con cero fileres o columnes.',
 	'wikieditor-toolbar-tool-replace' => 'Guetar y reemplazar',
@@ -2286,7 +2286,7 @@ $1:Exemplu.jpg|Pie2',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Sustituir toos',
 	'wikieditor-toolbar-tool-replace-close' => 'Zarrar',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'La to gueta nun alcontró coincidencies.',
-	'wikieditor-toolbar-tool-replace-success' => '$1 reemplazos fechos',
+	'wikieditor-toolbar-tool-replace-success' => '$1 {{PLURAL:$1|reemplazu fechu|reemplazos fechos}}.',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'Nun escribisti nada pa guetar.',
 	'wikieditor-toolbar-tool-replace-invalidregex' => "La espresión regular qu'escribisti ye inválida: $1",
 	'wikieditor-toolbar-section-characters' => 'Caráuteres especiales',
@@ -2376,6 +2376,7 @@ $1:Exemplu.jpg|Pie2',
 );
 
 /** Azerbaijani (azərbaycanca)
+ * @author AZISS
  * @author Cekli829
  * @author Koc61
  * @author PPerviz
@@ -2385,10 +2386,10 @@ $1:Exemplu.jpg|Pie2',
 $messages['az'] = array(
 	'wikieditor-wikitext-tab' => 'Vikimətn',
 	'wikieditor-loading' => 'Yüklə',
-	'wikieditor-preview-tab' => 'Sınaq göstərişi',
+	'wikieditor-preview-tab' => 'Sınaq görüntüsü',
 	'wikieditor-preview-changes-tab' => 'Dəyişikliklər',
 	'wikieditor-preview-loading' => 'Yüklənir…',
-	'wikieditor-previewDialog-tab' => 'Sınaq göstərişi',
+	'wikieditor-previewDialog-tab' => 'Sınaq görüntüsü',
 	'wikieditor-previewDialog-loading' => 'Yüklənir…',
 	'wikieditor-publish-button-publish' => 'Yeniləmə',
 	'wikieditor-publish-button-cancel' => 'Ləğv et',
@@ -2462,7 +2463,7 @@ $messages['az'] = array(
 	'wikieditor-toolbar-tool-table-dimensions-rows' => 'Sətirlər:',
 	'wikieditor-toolbar-tool-table-dimensions-columns' => 'Sütunlar:',
 	'wikieditor-toolbar-tool-table-example' => 'Nümunə',
-	'wikieditor-toolbar-tool-table-preview' => 'Sınaq göstərişi',
+	'wikieditor-toolbar-tool-table-preview' => 'Sınaq görüntüsü',
 	'wikieditor-toolbar-tool-table-insert' => 'Yerləşdirmək',
 	'wikieditor-toolbar-tool-table-cancel' => 'Ləğv et',
 	'wikieditor-toolbar-tool-replace' => 'Axtar və dəyiş',
