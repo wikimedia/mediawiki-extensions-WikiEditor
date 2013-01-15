@@ -20373,6 +20373,7 @@ $1:Exemple.jpg|Descripcion 2',
 
 /** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
+ * @author Jnanaranjan Sahu
  * @author Odisha1
  * @author Psubhashish
  * @author Shisir 1945
@@ -20519,7 +20520,7 @@ $1:ଉଦାହରଣ.jpg|ଶିରୋନାମା୨',
 	'wikieditor-toolbar-tool-table-preview' => 'ସାଇତା ଆଗରୁ ଦେଖଣା',
 	'wikieditor-toolbar-tool-table-insert' => 'ଭରିବେ',
 	'wikieditor-toolbar-tool-table-cancel' => 'ନାକଚ',
-	'wikieditor-toolbar-tool-table-toomany' => 'ଏହି ଆଦେଶରେ $1 ରୁ ଅଧିକ କୋଷ ଥିବା ସାରଣୀ ପୁରାଇବା ସମ୍ଭବପର ନୁହେଁ ।',
+	'wikieditor-toolbar-tool-table-toomany' => 'ଏହି ଆଦେଶରେ 1000 ରୁ ଅଧିକ କୋଷ ଥିବା ସାରଣୀ ପୁରାଇବା ସମ୍ଭବପର ନୁହେଁ ।',
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'ଆପଣ ଏକ ସଠିକ ଧାଡ଼ି ଓ ସ୍ତମ୍ଭ ସଂଖ୍ୟା ଦେଇ ନାହାନ୍ତି ।',
 	'wikieditor-toolbar-tool-table-zero' => 'ଆପଣ କିଛି ଧାଡ଼ି ବ ସ୍ତମ୍ଭ ନଥାଇ ସାରଣୀଟିଏ ପୁରାଇପାରିବେ ନାହିଁ ।',
 	'wikieditor-toolbar-tool-replace' => 'ଖୋଜି ବଦଳାଇବେ',
@@ -20533,7 +20534,7 @@ $1:ଉଦାହରଣ.jpg|ଶିରୋନାମା୨',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'ସବୁ ବଦଳାଇବେ',
 	'wikieditor-toolbar-tool-replace-close' => 'ବନ୍ଦ କରିବେ',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'ଆପଣଙ୍କ ଖୋଜା କାହା ସଙ୍ଗେ ମେଳ ଖାଇଲା ନାହିଁ',
-	'wikieditor-toolbar-tool-replace-success' => '$1 ଟି ଜାଗାରେ ପ୍ରତିବଦଳ କରାଗଲା ।',
+	'wikieditor-toolbar-tool-replace-success' => '!$1 {{PLURAL:$1|ପ୍ରତିବଦଳ|ପ୍ରତିବଦଳଗୁଡିକ}} କରାଗଲା ।',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'ଆପଣ କିଛି ଖୋଜିବା ପାଇଁ ଦେଇନାହାନ୍ତି ।',
 	'wikieditor-toolbar-tool-replace-invalidregex' => 'ଆପଣ ଦେଇଥିବା ନିୟମିତ ଅଭିବ୍ୟକ୍ତି ଅବୈଧ ଅଟେ : $1',
 	'wikieditor-toolbar-section-characters' => 'ବିଶେଷ ସଙ୍କେତ',
@@ -20556,6 +20557,9 @@ $1:ଉଦାହରଣ.jpg|ଶିରୋନାମା୨',
 	'wikieditor-toolbar-characters-page-thai' => 'ଥାଇ',
 	'wikieditor-toolbar-characters-page-lao' => 'ଲାଓ',
 	'wikieditor-toolbar-characters-page-khmer' => 'କମେର ଭାଷା',
+	'wikieditor-toolbar-characters-endash' => 'en ଡ୍ୟାସ',
+	'wikieditor-toolbar-characters-emdash' => 'em ଡ୍ୟାସ',
+	'wikieditor-toolbar-characters-minus' => 'ମିନୁଗୁଡିକର ଚିହ୍ନ',
 	'wikieditor-toolbar-section-help' => 'ସହଯୋଗ',
 	'wikieditor-toolbar-help-heading-description' => 'ବିବରଣୀ',
 	'wikieditor-toolbar-help-heading-syntax' => 'ଆପଣ କଣ ଟାଇପ କରିବେ',
