@@ -1297,6 +1297,7 @@ $messages['ang'] = array(
  * @author DRIHEM
  * @author McDutchie
  * @author Meno25
+ * @author Mido
  * @author OsamaK
  * @author Samer
  * @author Zack wadghiri
@@ -1377,6 +1378,7 @@ $messages['ar'] = array(
 	'wikieditor-toolbar-file-float' => 'ناحية:',
 	'wikieditor-toolbar-file-default' => '(افتراضي)',
 	'wikieditor-toolbar-file-format' => 'الصيغة:',
+	'wikieditor-toolbar-file-format-none' => 'لا يوجد',
 	'wikieditor-toolbar-tool-file-insert' => 'إدراج',
 	'wikieditor-toolbar-tool-file-cancel' => 'إلغاء',
 	'wikieditor-toolbar-tool-reference' => 'مرجع',
@@ -1443,7 +1445,7 @@ $1:Example.jpg|تعليق2',
 	'wikieditor-toolbar-tool-table-preview' => 'عرض مسبق',
 	'wikieditor-toolbar-tool-table-insert' => 'أدرج',
 	'wikieditor-toolbar-tool-table-cancel' => 'إلغاء',
-	'wikieditor-toolbar-tool-table-toomany' => 'إدراج جدول بأكثر من $1 خلية غير ممكن عبر هذا الحوار.',
+	'wikieditor-toolbar-tool-table-toomany' => 'إدراج جدول بأكثر من 1000 خلية غير ممكن عبر هذا الحوار.',
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'لم تدخل رقما صحيحا للصفوف أو الأعمدة.',
 	'wikieditor-toolbar-tool-table-zero' => 'لا يمكن أن تدرج جدولا بلا صفوف أو أعمدة.',
 	'wikieditor-toolbar-tool-replace' => 'ابحث واستبدل',
@@ -1457,7 +1459,7 @@ $1:Example.jpg|تعليق2',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'استبدل الكل',
 	'wikieditor-toolbar-tool-replace-close' => 'أغلق',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'بحثك لم يطابق أي شيء.',
-	'wikieditor-toolbar-tool-replace-success' => 'أجري $1 استبدال(ات).',
+	'wikieditor-toolbar-tool-replace-success' => 'أجري $1 استبدال(ات).', # Fuzzy
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'لم تكتب شيئًا لتبحث عنه.',
 	'wikieditor-toolbar-tool-replace-invalidregex' => 'التعبير النمطي الذي أدخلته غير صالح: $1',
 	'wikieditor-toolbar-section-characters' => 'أحرف خاصة',
