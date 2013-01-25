@@ -8975,7 +8975,7 @@ $1:Esimerkki.jpg|Kuvateksti2',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Korvaa kaikki',
 	'wikieditor-toolbar-tool-replace-close' => 'Sulje',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'Hakusi ei tuottanut osumia.',
-	'wikieditor-toolbar-tool-replace-success' => '$1 korvausta tehty.', # Fuzzy
+	'wikieditor-toolbar-tool-replace-success' => '$1 {{PLURAL:$1|korvaus|korvausta}} tehty.',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'Et antanut mitään haettavaa.',
 	'wikieditor-toolbar-tool-replace-invalidregex' => 'Syöttämäsi säännöllinen lauseke ei ole kelvollinen: $1',
 	'wikieditor-toolbar-section-characters' => 'Erikoismerkit',
