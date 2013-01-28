@@ -23253,6 +23253,7 @@ $1:Example.jpg|Titele2',
 /** Russian (русский)
  * @author Alexandr Efremov
  * @author Claymore
+ * @author DCamer
  * @author David1010
  * @author Dim Grits
  * @author Eleferen
@@ -23337,6 +23338,7 @@ $messages['ru'] = array(
 	'wikieditor-toolbar-file-float' => 'Выравнивание:',
 	'wikieditor-toolbar-file-default' => '(по умолчанию)',
 	'wikieditor-toolbar-file-format' => 'Формат:',
+	'wikieditor-toolbar-file-format-none' => 'никакой',
 	'wikieditor-toolbar-tool-file-insert' => 'Вставка',
 	'wikieditor-toolbar-tool-file-cancel' => 'Отмена',
 	'wikieditor-toolbar-tool-reference' => 'Сноска',
@@ -23404,7 +23406,7 @@ $1:Example.jpg|Описание2',
 	'wikieditor-toolbar-tool-table-insert' => 'Вставить',
 	'wikieditor-toolbar-tool-table-cancel' => 'Отмена',
 	'wikieditor-toolbar-tool-table-example-text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec purus diam. Sed aliquam imperdiet nunc quis lacinia. Donec rutrum consectetur placerat. Sed volutpat neque non purus faucibus id ultricies enim euismod.',
-	'wikieditor-toolbar-tool-table-toomany' => 'Этот диалог не позволяет вставить таблицу размером более $1 ячеек.', # Fuzzy
+	'wikieditor-toolbar-tool-table-toomany' => 'Этот диалог не позволяет вставить таблицу размером более 1000 ячеек.',
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'Вы не указали корректное количество строк или столбцов.',
 	'wikieditor-toolbar-tool-table-zero' => 'Вы не можете вставить таблицу с нулевым количеством строк или столбцов.',
 	'wikieditor-toolbar-tool-replace' => 'Поиск и замена',
@@ -23441,6 +23443,8 @@ $1:Example.jpg|Описание2',
 	'wikieditor-toolbar-characters-page-thai' => 'Тайские',
 	'wikieditor-toolbar-characters-page-lao' => 'Лаосские',
 	'wikieditor-toolbar-characters-page-khmer' => 'Кхмерские',
+	'wikieditor-toolbar-characters-emdash' => 'длинное тире',
+	'wikieditor-toolbar-characters-minus' => 'знак минус',
 	'wikieditor-toolbar-section-help' => 'Справка',
 	'wikieditor-toolbar-help-heading-description' => 'Описание',
 	'wikieditor-toolbar-help-heading-syntax' => 'Что вы вводите',
