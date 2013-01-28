@@ -46,10 +46,6 @@ $wgWikiEditorFeatures = array(
 
 );
 
-// If set to true and the ClickTracking extension is installed, track clicks
-// on the toolbar buttons
-$wgWikiEditorToolbarClickTracking = false;
-
 /* Setup */
 
 $wgExtensionCredits['other'][] = array(
