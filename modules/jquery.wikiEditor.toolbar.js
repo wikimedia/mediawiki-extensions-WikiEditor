@@ -776,6 +776,8 @@ fn: {
 				var oldValue = $( 'body' ).css( 'position' );
 				$( 'body' ).css( 'position', 'static' );
 				$( 'body' ).css( 'position', oldValue );
+
+				context.$textarea.trigger( 'wikiEditor-toolbar-doneInitialSections' );
 			},
 			'loop' : function( i, s ) {
 				s.$sections.append( $.wikiEditor.modules.toolbar.fn.buildSection( s.context, s.id, s.config ) );
