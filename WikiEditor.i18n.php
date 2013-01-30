@@ -8961,7 +8961,7 @@ $1:Esimerkki.jpg|Kuvateksti2',
 	'wikieditor-toolbar-tool-table-preview' => 'Esikatselu',
 	'wikieditor-toolbar-tool-table-insert' => 'Lisää',
 	'wikieditor-toolbar-tool-table-cancel' => 'Peruuta',
-	'wikieditor-toolbar-tool-table-toomany' => 'Tällä toiminnolla ei voi tehdä taulukkoa, jossa on yli $1 solua.', # Fuzzy
+	'wikieditor-toolbar-tool-table-toomany' => 'Tällä toiminnolla ei voi tehdä taulukkoa, jossa on yli 1000 solua.',
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'Et syöttänyt kelvollista rivi- tai sarakemäärää.',
 	'wikieditor-toolbar-tool-table-zero' => 'Et voi lisätä taulukkoa, jossa ei ole yhtään riviä tai saraketta.',
 	'wikieditor-toolbar-tool-replace' => 'Etsi ja korvaa',
