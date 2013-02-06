@@ -374,7 +374,8 @@ For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Too
 	'wikieditor-toolbar-file-default' => 'Label for default option in insert file dialog selectors',
 	'wikieditor-toolbar-file-format' => 'Label for image format (thumbnail, framed, frameless, none) selector on insert file dialog
 {{Identical|Format}}',
-	'wikieditor-toolbar-file-format-none' => 'Option in file dialog for no format for the added image',
+	'wikieditor-toolbar-file-format-none' => 'Option in file dialog for no format for the added image.
+{{Identical|None}}',
 	'wikieditor-toolbar-tool-file-insert' => '{{Identical|Insert}}',
 	'wikieditor-toolbar-tool-file-cancel' => '{{Identical|Cancel}}',
 	'wikieditor-toolbar-tool-reference' => '{{Identical|Reference}}',
