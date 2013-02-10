@@ -14396,7 +14396,7 @@ $messages['ka'] = array(
 	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|აღწერა1
 $1:Example.jpg|აღწერა2',
 	'wikieditor-toolbar-tool-newline' => 'ახალი ხაზი',
-	'wikieditor-toolbar-tool-table' => 'ტაბულა',
+	'wikieditor-toolbar-tool-table' => 'ცხრილი',
 	'wikieditor-toolbar-tool-table-example-old' => '-
 ! სახელი 1
 ! სახელი 2
@@ -30993,7 +30993,7 @@ $1:Example.jpg|标题2',
 	'wikieditor-toolbar-tool-table-preview' => '预览',
 	'wikieditor-toolbar-tool-table-insert' => '插入',
 	'wikieditor-toolbar-tool-table-cancel' => '取消',
-	'wikieditor-toolbar-tool-table-toomany' => '在这个对话框中无法插入超过$1个单元格的表格。', # Fuzzy
+	'wikieditor-toolbar-tool-table-toomany' => '在这个对话框中无法插入超过1000个单元格的表格。',
 	'wikieditor-toolbar-tool-table-invalidnumber' => '您输入的行数或列数无效。',
 	'wikieditor-toolbar-tool-table-zero' => '您不能插入一个零行或零列的表格。',
 	'wikieditor-toolbar-tool-replace' => '查找和替换',
@@ -31007,7 +31007,7 @@ $1:Example.jpg|标题2',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => '替换所有',
 	'wikieditor-toolbar-tool-replace-close' => '关闭',
 	'wikieditor-toolbar-tool-replace-nomatch' => '没有找到任何匹配项。',
-	'wikieditor-toolbar-tool-replace-success' => '完成$1次替换。', # Fuzzy
+	'wikieditor-toolbar-tool-replace-success' => '完成了$1次{{PLURAL:$1|替换|替换}}。',
 	'wikieditor-toolbar-tool-replace-emptysearch' => '您没有输入查找内容。',
 	'wikieditor-toolbar-tool-replace-invalidregex' => '您输入的正则表达式无效：$1',
 	'wikieditor-toolbar-section-characters' => '特殊文字',
@@ -31030,6 +31030,8 @@ $1:Example.jpg|标题2',
 	'wikieditor-toolbar-characters-page-thai' => '泰语',
 	'wikieditor-toolbar-characters-page-lao' => '老挝语',
 	'wikieditor-toolbar-characters-page-khmer' => '高棉语',
+	'wikieditor-toolbar-characters-endash' => '短划线',
+	'wikieditor-toolbar-characters-emdash' => '长划线',
 	'wikieditor-toolbar-characters-minus' => '减号',
 	'wikieditor-toolbar-section-help' => '帮助',
 	'wikieditor-toolbar-help-heading-description' => '说明',
