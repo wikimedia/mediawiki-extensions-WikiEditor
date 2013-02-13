@@ -405,7 +405,8 @@ See also:
 * {{msg-mw|wikieditor-toolbar-tool-table-example}}',
 	'wikieditor-toolbar-tool-table-title' => '[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.',
 	'wikieditor-toolbar-tool-table-dimensions-rows' => '[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.',
-	'wikieditor-toolbar-tool-table-dimensions-columns' => '[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.',
+	'wikieditor-toolbar-tool-table-dimensions-columns' => '[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.
+{{Identical|Column}}',
 	'wikieditor-toolbar-tool-table-dimensions-header' => '[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.',
 	'wikieditor-toolbar-tool-table-wikitable' => '[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.',
 	'wikieditor-toolbar-tool-table-sortable' => '[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.',
