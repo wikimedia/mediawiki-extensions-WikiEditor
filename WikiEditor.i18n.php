@@ -455,7 +455,8 @@ A "regular expression" is a syntax to find strings based on patterns, for more s
 
 Regular expressions are mostly a programmer tool, which is sometimes exposed to normal users too. It\'s almost as an programming language, but it is used to describe different kinds of strings (sometimes also called patterns and pattern matching), and is often used to change (parts of) the strings too.',
 	'wikieditor-toolbar-section-characters' => 'This will be a toolbar for special characters, like emoticons.
-For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization',
+For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization
+{{Identical|Special character}}',
 	'wikieditor-toolbar-characters-page-latin' => 'This is the name of a script, or alphabet, not a language',
 	'wikieditor-toolbar-characters-page-latinextended' => 'The name of the Latin Extended character set section of the toolbar.
 For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization',
