@@ -28672,6 +28672,7 @@ $messages['ug-arab'] = array(
 /** Ukrainian (українська)
  * @author AS
  * @author Ahonc
+ * @author AtUkr
  * @author Base
  * @author Dim Grits
  * @author Microcell
@@ -28822,7 +28823,7 @@ $1:Example.jpg|Опис2',
 	'wikieditor-toolbar-tool-table-insert' => 'Вставити',
 	'wikieditor-toolbar-tool-table-cancel' => 'Скасувати',
 	'wikieditor-toolbar-tool-table-example-text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec purus diam. Sed aliquam imperdiet nunc quis lacinia. Donec rutrum consectetur placerat. Sed volutpat neque non purus faucibus id ultricies enim euismod.',
-	'wikieditor-toolbar-tool-table-toomany' => 'Цей діалог не дозволяє вставити таблицю з більш ніж $1 комірок.', # Fuzzy
+	'wikieditor-toolbar-tool-table-toomany' => 'Цей діалог не дозволяє вставити таблицю розміром більше 1000 клітинок.',
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'Ви не вказали необхідного числа рядків і стовпців.',
 	'wikieditor-toolbar-tool-table-zero' => 'Ви не можете вставити таблицю з нульовою кількістю рядків або стовпців.',
 	'wikieditor-toolbar-tool-replace' => 'Пошук і заміна',
@@ -28836,7 +28837,7 @@ $1:Example.jpg|Опис2',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Замінити всі',
 	'wikieditor-toolbar-tool-replace-close' => 'Закрити',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'За Вашим запитом нічого не знайдено.',
-	'wikieditor-toolbar-tool-replace-success' => 'Зроблено замін: $1.', # Fuzzy
+	'wikieditor-toolbar-tool-replace-success' => '$1 {{PLURAL:$1|заміну|замін}} зроблено.',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'Ви не зазначили, що треба шукати.',
 	'wikieditor-toolbar-tool-replace-invalidregex' => 'Введений вами регулярний вираз помилковий: $1',
 	'wikieditor-toolbar-section-characters' => 'Спеціальні символи',
