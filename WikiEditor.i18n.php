@@ -446,6 +446,7 @@ Placeholder text to help the table example appear to be in the context of an art
 
 More notes:
 * "Regular expression" is mostly a programmer tool, which is sometimes exposed to normal users too. It\'s almost as an programming language, but it is used to describe different kinds of strings (sometimes also called patterns and pattern matching), and is often used to change (parts of) the strings too.',
+	'wikieditor-toolbar-tool-replace-button-findnext' => '{{Identical|Find next}}',
 	'wikieditor-toolbar-tool-replace-button-replace' => '{{Identical|Replace}}',
 	'wikieditor-toolbar-tool-replace-close' => '{{Identical|Close}}',
 	'wikieditor-toolbar-tool-replace-success' => '* $1 - number of replacements',
