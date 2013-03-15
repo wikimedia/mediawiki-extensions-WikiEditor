@@ -22691,7 +22691,7 @@ $1:Qhawarichiy.jpg|Ch'uyanchay2",
 	'wikieditor-toolbar-tool-table-preview' => 'Ñawpaqta qhawallay',
 	'wikieditor-toolbar-tool-table-insert' => "Sat'iy",
 	'wikieditor-toolbar-tool-table-cancel' => 'Ama niy',
-	'wikieditor-toolbar-tool-table-toomany' => "Kay willanakuypiqa manam $1-manta aswan wachu ukhukunata sat'iyta atinkichu.", # Fuzzy
+	'wikieditor-toolbar-tool-table-toomany' => "Kay willanakuypiqa manam waranqamanta aswan wachu ukhukunata sat'iyta atinkichu.",
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'Sinrukunapaq icha wachukunapaq allin yupayta manam yaykuchirqunkichu.',
 	'wikieditor-toolbar-tool-table-zero' => "Sinrunnaq (0 sinruyuq) icha wachunnaq (0 wachuyuq) wachuchasqata manam sat'iyta atinkichu.",
 	'wikieditor-toolbar-tool-replace' => 'Maskaspa huknachay',
@@ -22704,7 +22704,7 @@ $1:Qhawarichiy.jpg|Ch'uyanchay2",
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Tukuykunata huknachay',
 	'wikieditor-toolbar-tool-replace-close' => "Wichq'ay",
 	'wikieditor-toolbar-tool-replace-nomatch' => 'Maskayniykiwan manam imatapas taripankichu.',
-	'wikieditor-toolbar-tool-replace-success' => '$1 kuti huknachasqam.', # Fuzzy
+	'wikieditor-toolbar-tool-replace-success' => '$1 {{PLURAL:$1|kuti|kuti}} huknachasqam.', # Fuzzy
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'Manam ima maskanatapas yaykuchirqunkichu.',
 	'wikieditor-toolbar-tool-replace-invalidregex' => 'Qusqayki patanchay qillqananchaqa manam allinchu: $1',
 	'wikieditor-toolbar-section-characters' => 'Sapaq sanampakuna',
