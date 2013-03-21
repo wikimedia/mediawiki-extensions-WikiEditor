@@ -396,6 +396,12 @@ For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Too
  <nowiki>#REDIRECT [[target page name]]</nowiki>",
 	'wikieditor-toolbar-tool-small' => '{{Identical|Small}}',
 	'wikieditor-toolbar-group-insert' => '{{Identical|Insert}}',
+	'wikieditor-toolbar-tool-gallery-example' => 'Used as example for Picture Gallery.
+
+This message follows the message {{msg-mw|wikieditor-toolbar-tool-gallery}}.
+
+Parameters:
+* $1 - namespace name "File"',
 	'wikieditor-toolbar-tool-table' => '{{Identical|Table}}',
 	'wikieditor-toolbar-tool-table-example-cell-text' => '[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.',
 	'wikieditor-toolbar-tool-table-example-header' => '[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.
@@ -6529,6 +6535,7 @@ $1:Eksempel.jpg|Billedtekst2',
  * @author Metalhead64
  * @author Mikullovci11
  * @author Ojay
+ * @author TMg
  * @author Umherirrender
  * @author Ziko
  * @author ✓
@@ -6563,9 +6570,9 @@ $messages['de'] = array(
 	'wikieditor-toc-show' => 'Inhaltsverzeichnis einblenden',
 	'wikieditor-toc-hide' => 'Inhaltsverzeichnis ausblenden',
 	'wikieditor-toolbar' => 'Bearbeiten-Werkzeugleiste',
-	'wikieditor-toolbar-desc' => 'Bearbeiten-Werkzeugleiste mit erweiterter Benutzerfreundlichkeit',
+	'wikieditor-toolbar-desc' => 'Bearbeiten-Werkzeugleiste mit verbesserter Benutzerfreundlichkeit',
 	'wikieditor-toolbar-preference' => 'Erweiterte Bearbeiten-Werkzeugleiste aktivieren',
-	'wikieditor-toolbar-dialogs-preference' => 'Dialoge für das Einfügen von Links, Tabellen usw. aktivieren',
+	'wikieditor-toolbar-dialogs-preference' => 'Assistenten zum Einfügen von Links und Tabellen sowie die Funktion „Suchen und Ersetzen“ aktivieren',
 	'wikieditor-toolbar-hidesig' => 'Die Schaltfläche für die Signatur bei Seiten im Artikelnamensraum ausblenden',
 	'wikieditor-toolbar-loading' => 'Lade …',
 	'wikieditor-toolbar-tool-bold' => 'Fett',
@@ -15006,7 +15013,7 @@ $messages['ko'] = array(
 	'wikieditor-toolbar-tool-italic-example' => '기울인 글씨',
 	'wikieditor-toolbar-tool-ilink' => '안쪽 링크',
 	'wikieditor-toolbar-tool-ilink-example' => '문서 제목',
-	'wikieditor-toolbar-tool-xlink' => '바깥 링크 (주소 앞에 http://가 있어야 합니다.)',
+	'wikieditor-toolbar-tool-xlink' => '바깥 링크 (주소 앞에 http://가 있어야 합니다)',
 	'wikieditor-toolbar-tool-xlink-example' => 'http://www.example.com 링크 이름',
 	'wikieditor-toolbar-tool-link' => '링크',
 	'wikieditor-toolbar-tool-link-title' => '링크 추가',
