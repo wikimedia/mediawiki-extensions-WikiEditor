@@ -3996,6 +3996,7 @@ $1:Cuntuh.jpg|Judul2',
 
 /** Bengali (বাংলা)
  * @author Bellayet
+ * @author Leemon2010
  * @author Nasir8891
  * @author Wikitanvir
  */
@@ -4020,7 +4021,7 @@ $messages['bn'] = array(
 	'wikieditor-publish-dialog-publish' => 'প্রকাশ করো',
 	'wikieditor-publish-dialog-goback' => 'ফিরে যাও',
 	'wikieditor-template-editor-preference' => 'উইকি টেম্পলেটের ফরম ভিত্তিক সম্পাদনা সক্রিয় করো',
-	'wikieditor-template-editor-dialog-title' => 'টেম্পলেট সম্পাদনা',
+	'wikieditor-template-editor-dialog-title' => 'টেমপ্লেট সম্পাদনা',
 	'wikieditor-template-editor-dialog-submit' => 'হালনাগাদ',
 	'wikieditor-template-editor-dialog-cancel' => 'বাতিল',
 	'wikieditor-templates-preference' => 'টেম্পলেট ভাঁজ হওয়া সক্রিয়',
@@ -4031,6 +4032,7 @@ $messages['bn'] = array(
 	'wikieditor-toolbar-desc' => 'বেশি ব্যবহারযোগ্য সম্পাদনা পাতার টুলবার',
 	'wikieditor-toolbar-preference' => 'শক্তিশালী সম্পাদনা টুলবার সক্রিয় করো',
 	'wikieditor-toolbar-dialogs-preference' => 'যোগকৃত লিংক, ছক এবং আরও কিছুর জন্য ডায়লগ সক্রিয় করো',
+	'wikieditor-toolbar-hidesig' => 'প্রধান নেমস্পেসের পৃষ্ঠাগুলির থেকে স্বাক্ষর বোতাম লুকান',
 	'wikieditor-toolbar-loading' => 'লোডিং...',
 	'wikieditor-toolbar-tool-bold' => 'গাঢ়',
 	'wikieditor-toolbar-tool-bold-example' => 'গাঢ় লেখা',
@@ -4068,8 +4070,10 @@ $messages['bn'] = array(
 	'wikieditor-toolbar-file-target' => 'ফাইলের নাম:',
 	'wikieditor-toolbar-file-caption' => 'ক্যাপশন:',
 	'wikieditor-toolbar-file-size' => 'আকার:',
+	'wikieditor-toolbar-file-float' => 'সারিবদ্ধ:',
 	'wikieditor-toolbar-file-default' => '(ডিফল্ট)',
 	'wikieditor-toolbar-file-format' => 'ফরম্যাট:',
+	'wikieditor-toolbar-file-format-none' => 'কিছুই না',
 	'wikieditor-toolbar-tool-file-insert' => 'যোগ করো',
 	'wikieditor-toolbar-tool-file-cancel' => 'বাতিল',
 	'wikieditor-toolbar-tool-reference' => 'তথ্যসূত্র',
@@ -4168,6 +4172,7 @@ $1:Example.jpg|ক্যাপশন২',
 	'wikieditor-toolbar-characters-page-telugu' => 'তেলেগু',
 	'wikieditor-toolbar-characters-page-sinhala' => 'শিংহলী',
 	'wikieditor-toolbar-characters-page-gujarati' => 'গুজরাতি',
+	'wikieditor-toolbar-characters-page-devanagari' => 'দেবনাগরী',
 	'wikieditor-toolbar-characters-page-thai' => 'থাই',
 	'wikieditor-toolbar-characters-page-lao' => 'লাও',
 	'wikieditor-toolbar-characters-page-khmer' => 'খেমার',
@@ -4218,6 +4223,7 @@ $1:Example.jpg|ক্যাপশন২',
 	'wikieditor-toolbar-help-content-file-description' => 'এম্বেডেড ফাইল',
 	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|ক্যাপশন লেখ]]',
 	'wikieditor-toolbar-help-content-reference-description' => 'তথ্যসূত্র',
+	'wikieditor-toolbar-help-content-reference-syntax' => 'পাতার লেখা।&lt;ref name="test"&gt;[http://www.example.org লিংকের লেখা], অতিরিক্ত লেখা।&lt;/ref&gt;',
 	'wikieditor-toolbar-help-content-reference-result' => "পাতার লেখা।<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-rereference-description' => 'একই তথ্যসূত্রের একাধিক ব্যবহার',
 	'wikieditor-toolbar-help-content-rereference-result' => "পাতার লেখ।<sup><a href='#'>[1]</a></sup>",
@@ -21114,6 +21120,7 @@ $messages['pfl'] = array(
  * @author Rezonansowy
  * @author Sp5uhe
  * @author ToSter
+ * @author WTM
  * @author Wpedzich
  */
 $messages['pl'] = array(
@@ -21271,7 +21278,7 @@ $1:Example.jpg|Podpis2',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Zastąp wszystkie',
 	'wikieditor-toolbar-tool-replace-close' => 'Zamknij',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'Wyszukiwanego wzorca nie odnaleziono.',
-	'wikieditor-toolbar-tool-replace-success' => 'Wykonano $1 zamian.', # Fuzzy
+	'wikieditor-toolbar-tool-replace-success' => 'Wykonano $1 {{PLURAL:$1|zamianę|zamiany|zamian}}.',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'Nie określiłeś niczego do wyszukania.',
 	'wikieditor-toolbar-tool-replace-invalidregex' => 'Nieprawidłowe wyrażenie regularne – $1',
 	'wikieditor-toolbar-section-characters' => 'Znaki specjalne',
