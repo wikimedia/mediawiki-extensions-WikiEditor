@@ -14375,6 +14375,7 @@ $messages['ka'] = array(
 	'wikieditor-toolbar-file-target' => 'ფაილის სახელი:',
 	'wikieditor-toolbar-file-caption' => 'წარწერა:',
 	'wikieditor-toolbar-file-size' => 'ზომა:',
+	'wikieditor-toolbar-file-float' => 'გასწორება:',
 	'wikieditor-toolbar-file-default' => '(სტანდარტული)',
 	'wikieditor-toolbar-file-format' => 'ფორმატი:',
 	'wikieditor-toolbar-file-format-none' => 'არა',
