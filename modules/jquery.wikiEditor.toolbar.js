@@ -278,7 +278,7 @@ fn: {
 		var $group = $( '<div/>' ).attr( { 'class' : 'group group-' + id, 'rel' : id } );
 		var label = $.wikiEditor.autoMsg( group, 'label' );
 		if ( label ) {
-			$group.append( '<div class="label">' + label + '</div>' );
+			$group.append( '<span class="label">' + label + '</div>' );
 		}
 		var empty = true;
 		if ( 'tools' in group ) {
