@@ -286,6 +286,7 @@ $1:Example.jpg|Caption2",
  * @author Njardarlogar
  * @author Onecountry
  * @author Prima klasy4na
+ * @author Purodha
  * @author Raymond
  * @author Shirayuki
  * @author Siebrand
@@ -451,11 +452,12 @@ Placeholder text to help the table example appear to be in the context of an art
 	'wikieditor-toolbar-tool-replace-regex' => 'A "regular expression" is a syntax to find strings based on patterns, for more see [[wikipedia:Regular expression|the Wikipedia article]].
 
 More notes:
-* "Regular expression" is mostly a programmer tool, which is sometimes exposed to normal users too. It\'s almost as an programming language, but it is used to describe different kinds of strings (sometimes also called patterns and pattern matching), and is often used to change (parts of) the strings too.',
+* "Regular expression" is mostly a programmer tool, which is sometimes exposed to normal users too. It\'s almost as an programming language, but it is used to describe different kinds of strings (sometimes also called patterns and pattern matching), and is often used to change (parts of) the strings,  too.',
 	'wikieditor-toolbar-tool-replace-button-findnext' => '{{Identical|Find next}}',
 	'wikieditor-toolbar-tool-replace-button-replace' => '{{Identical|Replace}}',
 	'wikieditor-toolbar-tool-replace-close' => '{{Identical|Close}}',
-	'wikieditor-toolbar-tool-replace-success' => '* $1 - number of replacements',
+	'wikieditor-toolbar-tool-replace-success' => 'Parameter:
+* $1 - the number of replacements',
 	'wikieditor-toolbar-tool-replace-invalidregex' => '$1 is a browser-supplied error message, probably in English, possibly in the browser language.
 
 A "regular expression" is a syntax to find strings based on patterns, for more see [[wikipedia:Regular expression|the Wikipedia article]].
@@ -5211,6 +5213,7 @@ $1:Example.jpg|Peu2',
 
 /** Chechen (нохчийн)
  * @author Sasan700
+ * @author Умар
  */
 $messages['ce'] = array(
 	'wikieditor' => 'Викийозан рéдоккхучечохь аллсам чулоцург',
@@ -5234,10 +5237,10 @@ $messages['ce'] = array(
 	'wikieditor-publish-dialog-publish' => 'Нахангайта',
 	'wikieditor-publish-dialog-goback' => 'Юхьа',
 	'wikieditor-template-editor-preference' => 'Латайé куцкепа рéдаккхар бáраман гlонца',
-	'wikieditor-template-editor-dialog-title' => 'Куцкеп хийцам',
+	'wikieditor-template-editor-dialog-title' => 'Кеп хийцам',
 	'wikieditor-template-editor-dialog-submit' => 'Карлаяккха',
 	'wikieditor-template-editor-dialog-cancel' => 'Цаоьшу',
-	'wikieditor-templates-preference' => 'Латедé куцкеп хьарчар',
+	'wikieditor-templates-preference' => 'Латедé кеп хьарчар',
 	'wikieditor-toc-preference' => 'Латедé коьрта дерг шавигарна аттонца',
 	'wikieditor-toc-show' => 'Гайта коьртехь дерг',
 	'wikieditor-toc-hide' => 'Къайлахьо коьртехь дерг',
@@ -5276,7 +5279,7 @@ $messages['ce'] = array(
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => 'Чоьхьа хьажориг',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-ext' => 'Арахьа хьажориг',
 	'wikieditor-toolbar-tool-link-empty' => 'Ахьа ца гайтин мичхьа хьажойеза хьажориг.',
-	'wikieditor-toolbar-tool-file' => 'Чохь йолу хlум',
+	'wikieditor-toolbar-tool-file' => 'Чохь йолу файл',
 	'wikieditor-toolbar-tool-file-example' => 'Example.jpg',
 	'wikieditor-toolbar-tool-reference' => 'Такхо',
 	'wikieditor-toolbar-tool-reference-example' => 'Чудилла кхузе такхо деза йоза',
@@ -5295,9 +5298,9 @@ $messages['ce'] = array(
 	'wikieditor-toolbar-tool-heading-example' => 'Коьрта йоза',
 	'wikieditor-toolbar-group-format' => 'Бáрам',
 	'wikieditor-toolbar-tool-ulist' => 'Къастам бина могlам',
-	'wikieditor-toolbar-tool-ulist-example' => 'Къастам бина могlаман хlум',
+	'wikieditor-toolbar-tool-ulist-example' => 'Къастам бина могlаман файл',
 	'wikieditor-toolbar-tool-olist' => 'Терахьца болу могlам',
-	'wikieditor-toolbar-tool-olist-example' => 'Терахьца болу могlаман хlум',
+	'wikieditor-toolbar-tool-olist-example' => 'Терахьца болу могlаман файл',
 	'wikieditor-toolbar-tool-indent' => 'Дlахило',
 	'wikieditor-toolbar-tool-indent-example' => 'Могlа дlахилабо',
 	'wikieditor-toolbar-tool-nowiki' => 'Тергал ца бо вики-бáрамхlоттор',
@@ -5414,12 +5417,12 @@ $1:Example.jpg|Цуьнах лаце2',
 	'wikieditor-toolbar-help-content-heading5-syntax' => '===== Коьрта могlан йоза =====',
 	'wikieditor-toolbar-help-content-heading5-result' => '<h5>Коьрта могlан йоза</h5>',
 	'wikieditor-toolbar-help-content-ulist-description' => 'Къастам бина могlам',
-	'wikieditor-toolbar-help-content-ulist-syntax' => '* Могlаман хlум<br />* Могlаман хlум',
-	'wikieditor-toolbar-help-content-ulist-result' => '<ul><li>Могlаман хlум</li><li>Могlаман хlум</li></ul>',
+	'wikieditor-toolbar-help-content-ulist-syntax' => '* Могlаман файл<br />* Могlаман файл',
+	'wikieditor-toolbar-help-content-ulist-result' => '<ul><li>Могlаман файл</li><li>Могlаман файл</li></ul>',
 	'wikieditor-toolbar-help-content-olist-description' => 'Терахьца болу могlам',
-	'wikieditor-toolbar-help-content-olist-syntax' => '# Могlаман хlум<br /># Могlаман хlум',
-	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Могlаман хlум</li><li>Могlаман хlум</li></ol>',
-	'wikieditor-toolbar-help-content-file-description' => 'Чохь йолу хlум',
+	'wikieditor-toolbar-help-content-olist-syntax' => '# Могlаман файл<br /># Могlаман файл',
+	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Могlаман файл</li><li>Могlаман файл</li></ol>',
+	'wikieditor-toolbar-help-content-file-description' => 'Чохь йолу файл',
 	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Оцуьнах лаьцна йоза]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='
 Оцуьнах лаьцна йоза' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Доккха дан' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>
@@ -7362,6 +7365,7 @@ $messages['el'] = array(
 	'wikieditor-toolbar-desc' => 'Μπάρα εργαλείων επεξεργασίας σελίδων με περισσότερες δυνατότητες χρήσης',
 	'wikieditor-toolbar-preference' => 'Ενεργοποιήστε την μπάρα εργαλείων με τις περισσότερες δυνατότητες επεξεργασίας',
 	'wikieditor-toolbar-dialogs-preference' => 'Ενεργοποιήστε παράθυρα διαλόγων για την εισαγωγή συνδέσμων, πινάκων και άλλων',
+	'wikieditor-toolbar-hidesig' => 'Κρύψε το κουμπί υπογραφής από σελίδες στον κύριο χώρο ονομάτων',
 	'wikieditor-toolbar-loading' => 'Φόρτωση...',
 	'wikieditor-toolbar-tool-bold' => 'Έντονα',
 	'wikieditor-toolbar-tool-bold-example' => 'Έντονο κείμενο',
@@ -7401,6 +7405,9 @@ $messages['el'] = array(
 	'wikieditor-toolbar-file-caption' => 'Λεζάντα',
 	'wikieditor-toolbar-file-size' => 'Μέγεθος:',
 	'wikieditor-toolbar-file-float' => 'Ευθυγράμμιση:',
+	'wikieditor-toolbar-file-default' => '(προεπιλεγμένο)',
+	'wikieditor-toolbar-file-format' => 'Μορφή αρχείου:',
+	'wikieditor-toolbar-file-format-none' => 'κανένα',
 	'wikieditor-toolbar-tool-file-insert' => 'Εισαγωγή',
 	'wikieditor-toolbar-tool-file-cancel' => 'Άκυρο',
 	'wikieditor-toolbar-tool-reference' => 'Παραπομπή',
@@ -7467,7 +7474,7 @@ $1:Example.jpg|Λεζάντα2',
 	'wikieditor-toolbar-tool-table-preview' => 'Προεπισκόπηση',
 	'wikieditor-toolbar-tool-table-insert' => 'Εισαγωγή',
 	'wikieditor-toolbar-tool-table-cancel' => 'Άκυρο',
-	'wikieditor-toolbar-tool-table-toomany' => 'Η εισαγωγή ενός πίνακα με περισσότερα από $1 κελιά δεν είναι δυνατή με αυτό το πλαίσιο διαλόγου.', # Fuzzy
+	'wikieditor-toolbar-tool-table-toomany' => 'Η εισαγωγή ενός πίνακα με περισσότερα από 1000 κελιά δεν είναι δυνατή με αυτό το πλαίσιο διαλόγου.',
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'Δεν έχετε εισαγάγει έναν έγκυρο αριθμό των γραμμών ή στηλών.',
 	'wikieditor-toolbar-tool-table-zero' => 'Δεν μπορείτε να εισαγάγετε έναν πίνακα χωρίς γραμμές ή στήλες.',
 	'wikieditor-toolbar-tool-replace' => 'Αναζήτηση και αντικατάσταση',
@@ -7481,7 +7488,7 @@ $1:Example.jpg|Λεζάντα2',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Αντικατάσταση όλων',
 	'wikieditor-toolbar-tool-replace-close' => 'Κλείσιμο',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'Η αναζήτηση δεν ταίριαξε με κάτι.',
-	'wikieditor-toolbar-tool-replace-success' => 'Έγιναν $1 αντικαταστάσεις.', # Fuzzy
+	'wikieditor-toolbar-tool-replace-success' => 'Έγιναν $1 {{PLURAL:$1|αντικατάσταση|αντικαταστάσεις}}.',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'Δεν εισάγατε τίποτα προς αναζήτηση.',
 	'wikieditor-toolbar-tool-replace-invalidregex' => 'Η κανονική έκφραση που δώσατε είναι άκυρη: $1',
 	'wikieditor-toolbar-section-characters' => 'Ειδικοί χαρακτήρες',
@@ -7492,6 +7499,7 @@ $1:Example.jpg|Λεζάντα2',
 	'wikieditor-toolbar-characters-page-greek' => 'Ελληνικό',
 	'wikieditor-toolbar-characters-page-cyrillic' => 'Κυριλλικό',
 	'wikieditor-toolbar-characters-page-arabic' => 'Αραβικό',
+	'wikieditor-toolbar-characters-page-arabicextended' => 'Arabic extended',
 	'wikieditor-toolbar-characters-page-persian' => 'Περσικό',
 	'wikieditor-toolbar-characters-page-hebrew' => 'Εβραϊκό',
 	'wikieditor-toolbar-characters-page-bangla' => 'Μπενγκάλι',
@@ -7503,6 +7511,7 @@ $1:Example.jpg|Λεζάντα2',
 	'wikieditor-toolbar-characters-page-thai' => 'ταϊλανδικά',
 	'wikieditor-toolbar-characters-page-lao' => 'λαοτινά',
 	'wikieditor-toolbar-characters-page-khmer' => 'καμποτζιανά',
+	'wikieditor-toolbar-characters-minus' => 'σύμβολο πλην',
 	'wikieditor-toolbar-section-help' => 'Βοήθεια',
 	'wikieditor-toolbar-help-heading-description' => 'Περιγραφή',
 	'wikieditor-toolbar-help-heading-syntax' => 'Τι πληκτρολογείς',
@@ -15031,8 +15040,8 @@ $messages['ko'] = array(
 	'wikieditor-toolbar-tool-link-int' => '위키 문서로 연결',
 	'wikieditor-toolbar-tool-link-int-target' => '대상 문서 또는 URL:',
 	'wikieditor-toolbar-tool-link-int-target-tooltip' => '문서 제목 또는 URL',
-	'wikieditor-toolbar-tool-link-int-text' => '링크 텍스트:',
-	'wikieditor-toolbar-tool-link-int-text-tooltip' => '문서에 보여지는 문장',
+	'wikieditor-toolbar-tool-link-int-text' => '링크에 보여지는 글:',
+	'wikieditor-toolbar-tool-link-int-text-tooltip' => '문서에 보여지는 글',
 	'wikieditor-toolbar-tool-link-ext' => '바깥 웹 페이지로 연결',
 	'wikieditor-toolbar-tool-link-ext-target' => '링크 URL:',
 	'wikieditor-toolbar-tool-link-ext-text' => '링크 텍스트:',
@@ -15461,8 +15470,8 @@ $1:Юлгю.jpg|Ангылатыу2',
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'wikieditor' => 'Fottjeschredde Eddiror för de WikiTäx',
-	'wikieditor-desc' => 'Brängk en Müjjeleschkeit för Wikitäx enzejävve un ze ändere en et Wiki, di mer ußboue kann, un noch allerhand Kröhmsches met dobei hät.',
+	'wikieditor' => 'Fottjeschredde Eddiror för der WikiTäx',
+	'wikieditor-desc' => 'Brängk en Möjjeleschkeit för Wikitäx enzejävve un ze ändere en et Wiki, di mer ußboue kann, un di noch allerhand Kröhmsches met dobei hät.',
 	'wikieditor-wikitext-tab' => 'Wikitäx',
 	'wikieditor-loading' => 'Ben aam Laade&nbsp;&hellip;',
 	'wikieditor-preview-preference' => 'Donn de {{int:preview}} nevvedraan zohlohße',
@@ -15610,15 +15619,15 @@ $1:Beishpell.jpg|zweijte Beld-Täx',
 	'wikieditor-toolbar-tool-replace-search' => 'Söhk noh:',
 	'wikieditor-toolbar-tool-replace-replace' => 'Tuusch dat uß jähje:',
 	'wikieditor-toolbar-tool-replace-case' => 'Jruß un klein Boochstaave ongerscheide',
-	'wikieditor-toolbar-tool-replace-regex' => '„{{int:Edittoolbar-tool-replace-search}}“ es en <i lang="en">regular expression</i>',
+	'wikieditor-toolbar-tool-replace-regex' => 'Söhk noh enem rejolähre Ußdrok',
 	'wikieditor-toolbar-tool-replace-button-findnext' => 'Dä näxte fenge',
 	'wikieditor-toolbar-tool-replace-button-replace' => 'Ußtuusche',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Alle ußtuusche',
 	'wikieditor-toolbar-tool-replace-close' => 'Zohmaache',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'Doh ham_mer nix jefonge.',
-	'wikieditor-toolbar-tool-replace-success' => '$1 Mohl jet <!--{{PLURAL:$1|Eijmol|$1 Mohl jet|Nix}}--> jetuusch.', # Fuzzy
+	'wikieditor-toolbar-tool-replace-success' => '{{PLURAL:$1|Eijmol|$1 Mohl jät|Nix}} jetuusch.',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'Do häs nix aanjejovve, för donoh ze söhke.',
-	'wikieditor-toolbar-tool-replace-invalidregex' => 'Do häs en onjöltijje <i lang="en">regular expression</i> aanjejovve: $1',
+	'wikieditor-toolbar-tool-replace-invalidregex' => 'Do häs ene onjöltijje rejolähre Ußdrok aanjejovve: $1',
 	'wikieditor-toolbar-section-characters' => 'Sönderzeijsche',
 	'wikieditor-toolbar-characters-page-latin' => 'Lateinesch',
 	'wikieditor-toolbar-characters-page-latinextended' => 'Lateinesch met Extras',
