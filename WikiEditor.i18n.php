@@ -22084,6 +22084,7 @@ $messages['ps'] = array(
  * @author Hamilton Abreu
  * @author Helder.wiki
  * @author João Sousa
+ * @author Luckas
  * @author Luckas Blade
  * @author Malafaya
  * @author MetalBrasil
@@ -22114,7 +22115,7 @@ $messages['pt'] = array(
 	'wikieditor-publish-dialog-goback' => 'Voltar',
 	'wikieditor-template-editor-preference' => 'Possibilitar edição de predefinições com base em formulários',
 	'wikieditor-template-editor-dialog-title' => 'Editar predefinição',
-	'wikieditor-template-editor-dialog-submit' => 'Actualizar',
+	'wikieditor-template-editor-dialog-submit' => 'Atualizar',
 	'wikieditor-template-editor-dialog-cancel' => 'Cancelar',
 	'wikieditor-templates-preference' => 'Possibilitar a recolha e expansão de predefinições',
 	'wikieditor-toc-preference' => 'Possibilitar tabela de conteúdo navegável',
