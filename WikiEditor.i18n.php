@@ -25733,13 +25733,14 @@ $messages['sq'] = array(
  * @author Charmed94
  * @author Helios13
  * @author McDutchie
+ * @author Milicevic01
  * @author Rancher
  * @author Sasa Stefanovic
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
-	'wikieditor' => 'Напредно сучеље уређивања викитекста',
+	'wikieditor' => 'Напредно окружење за уређивање вики-текста',
 	'wikieditor-desc' => 'Пружа прошириво корисничко окружење за уређивање викитекста и много модула са бројним могућностима',
 	'wikieditor-wikitext-tab' => 'Викитекст',
 	'wikieditor-loading' => 'Учитавање',
