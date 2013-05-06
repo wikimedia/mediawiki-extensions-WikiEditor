@@ -12638,6 +12638,7 @@ $1:Exemplo.jpg|Legenda2',
  * @author Farras
  * @author Irwangatot
  * @author IvanLanin
+ * @author Iwan Novirion
  * @author Kenrick95
  */
 $messages['id'] = array(
@@ -12818,6 +12819,9 @@ $1:Contoh.jpg|Judul2',
 	'wikieditor-toolbar-characters-page-thai' => 'Thai',
 	'wikieditor-toolbar-characters-page-lao' => 'Lao',
 	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
+	'wikieditor-toolbar-characters-endash' => 'en dash',
+	'wikieditor-toolbar-characters-emdash' => 'em dash',
+	'wikieditor-toolbar-characters-minus' => 'tanda kurang',
 	'wikieditor-toolbar-section-help' => 'Bantuan',
 	'wikieditor-toolbar-help-heading-description' => 'Keterangan',
 	'wikieditor-toolbar-help-heading-syntax' => 'Yang Anda ketikkan',
@@ -12873,7 +12877,7 @@ $1:Contoh.jpg|Judul2',
 	'wikieditor-toolbar-help-content-showreferences-description' => 'Menampilkan referensi',
 	'wikieditor-toolbar-help-content-showreferences-result' => "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.contoh.org' class='external text' href='#'>Teks pranala</a>, teks tambahan.</li></ol>",
 	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'Tanda tangan dengan waktu',
-	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>Name pengguna</a> (<a href='#' title='{{#special:mytalk}}'>bicara</a>) 15:54, 10 June 2009 (UTC)",
+	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>Nama pengguna</a> (<a href='#' title='{{#special:mytalk}}'>bicara</a>) 15:54, 10 Mei 2013 (UTC)",
 	'wikieditor-toolbar-help-content-signature-description' => 'Tanda tangan',
 	'wikieditor-toolbar-help-content-signature-result' => "<a href='#' title='{{#special:mypage}}'>Nama pengguna</a> (<a href='#' title='{{#special:mytalk}}'>bicara</a>)",
 	'wikieditor-toolbar-help-content-indent-description' => 'Inden',
@@ -17713,7 +17717,7 @@ $1:Contoh.jpg|Judul2',
 	'wikieditor-toolbar-characters-page-khmer' => 'Khmer',
 	'wikieditor-toolbar-characters-endash' => 'en dash',
 	'wikieditor-toolbar-characters-emdash' => 'em dash',
-	'wikieditor-toolbar-characters-minus' => 'minus sign',
+	'wikieditor-toolbar-characters-minus' => 'tando kurang',
 	'wikieditor-toolbar-section-help' => 'Bantuan',
 	'wikieditor-toolbar-help-heading-description' => 'Katarangan',
 	'wikieditor-toolbar-help-heading-syntax' => 'Apo nan Sanak ketik',
