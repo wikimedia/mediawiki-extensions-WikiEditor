@@ -1252,6 +1252,7 @@ $1:Eixemplo.jpg|Piet_de_foto_2',
 );
 
 /** Old English (Ænglisc)
+ * @author Gott wisst
  * @author Wōdenhelm
  */
 $messages['ang'] = array(
@@ -1300,7 +1301,7 @@ $messages['ang'] = array(
 	'wikieditor-toolbar-help-content-bold-description' => 'Þicce',
 	'wikieditor-toolbar-help-content-bold-syntax' => "'''Þicce traht'''",
 	'wikieditor-toolbar-help-content-bold-result' => '<strong>Þicce traht</strong>',
-	'wikieditor-toolbar-help-content-ilink-description' => 'Innanƿeard hlenċe',
+	'wikieditor-toolbar-help-content-ilink-description' => 'Inweard hlenca',
 	'wikieditor-toolbar-help-content-reference-description' => 'Fruma',
 );
 
