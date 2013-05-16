@@ -12176,6 +12176,7 @@ $1:Példa.jpg|képaláírás2',
 
 /** Armenian (Հայերեն)
  * @author Chaojoker
+ * @author Vadgt
  * @author Xelgen
  */
 $messages['hy'] = array(
