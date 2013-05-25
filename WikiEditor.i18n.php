@@ -51,7 +51,7 @@ $messages['en'] = array(
 	'wikieditor-toolbar' => 'Editing toolbar',
 	'wikieditor-toolbar-desc' => 'Edit page toolbar with enhanced usability',
 	'wikieditor-toolbar-preference' => 'Enable enhanced editing toolbar',
-	'wikieditor-toolbar-dialogs-preference' => 'Enable dialogs for inserting links, tables and more',
+	'wikieditor-toolbar-dialogs-preference' => 'Enable wizards for inserting links, tables as well as the search and replace function',
 	'wikieditor-toolbar-hidesig' => 'Hide the signature button from pages in the main namespace',
 	'wikieditor-toolbar-loading' => 'Loading...',
 	/* Toolbar - Main Section */
@@ -343,7 +343,7 @@ For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Too
 	'wikieditor-toolbar-desc' => '{{desc}}',
 	'wikieditor-toolbar-preference' => 'Option in [[Special:Preferences]]',
 	'wikieditor-toolbar-dialogs-preference' => "Caption of a checkbox on [[Special:Preferences]] (''editing'' tab), enabling helper dialogs for various features of the advanced edit toolbar (e.g. inserting links or tables).
-{{Identical|Enable dialogs for inserting links, tables and more}}",
+{{Identical|Enable wizards for inserting links, tables as well as the search and replace function}}",
 	'wikieditor-toolbar-loading' => '{{Identical|Loading}}',
 	'wikieditor-toolbar-tool-bold' => '{{Identical|Bold}}',
 	'wikieditor-toolbar-tool-bold-example' => '{{Identical|Bold text}}',
