@@ -1892,7 +1892,7 @@ $1:Example.jpg|Caption2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Normal text<dl><dd>Indented text<dl><dd>Indented text</dd></dl></dd></dl>',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  * @author Chaipau
  * @author Gitartha.bordoloi
@@ -19256,7 +19256,7 @@ $messages['nah'] = array(
 	'wikieditor-toolbar-help-content-indent-result' => 'Sâsanỉman tlâkuilòlmantli<dl><dd>Tlâtlapouhki tlakuilòlmantli<dl><dd>Tlâtlapouhki tlâkuilòlmantli</dd></dl></dd></dl>',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Danmichaelo
  * @author Event
  * @author Haakon K
@@ -19511,7 +19511,7 @@ $1:Example.jpg|Bildetekst2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Normal tekst<dl><dd>Innrykket tekst<dl><dd>Innrykket tekst</dd></dl></dd></dl>',
 );
 
-/** Nedersaksies (Nedersaksies)
+/** Low Saxon (Netherlands) (Nedersaksies)
  * @author Servien
  */
 $messages['nds-nl'] = array(
@@ -20019,7 +20019,7 @@ Wil je er een interne koppeling van maken?',
 	'wikieditor-toolbar-help-heading-result' => 'Wat je te zien krijgt',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Eirik
  * @author Gunnernett
  * @author Harald Khan
@@ -20540,7 +20540,7 @@ $1:Exemple.jpg|Descripcion 2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Tèxte normal<dl><dd>Tèxte indentat<dl><dd>Tèxte indentat</dd></dl></dd></dl>',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  * @author Jnanaranjan Sahu
  * @author Odisha1
@@ -22349,6 +22349,7 @@ $1:Exemplo2.jpg|Legenda2',
  * @author Helder.wiki
  * @author Heldergeovane
  * @author Lijealso
+ * @author Luckas
  * @author Luckas Blade
  * @author MetalBrasil
  * @author Rafael Vargas
