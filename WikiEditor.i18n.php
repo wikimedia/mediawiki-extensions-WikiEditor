@@ -19263,6 +19263,7 @@ $messages['nah'] = array(
  * @author Danmichaelo
  * @author Event
  * @author Haakon K
+ * @author Jeblad
  * @author Jsoby
  * @author Laaknor
  * @author Nghtwlkr
@@ -19272,7 +19273,7 @@ $messages['nb'] = array(
 	'wikieditor' => 'Avansert grensesnitt for redigering av wikitekst',
 	'wikieditor-desc' => 'Gir et utvidbart tekstredigeringsgrensesnitt og mange utvidelsesmoduler',
 	'wikieditor-wikitext-tab' => 'Wikitekst',
-	'wikieditor-loading' => 'Laster',
+	'wikieditor-loading' => 'Laster...',
 	'wikieditor-preview-preference' => 'Aktiver forhåndsvisning side-ved-side',
 	'wikieditor-preview-tab' => 'Forhåndsvisning',
 	'wikieditor-preview-changes-tab' => 'Endringer',
@@ -19409,7 +19410,7 @@ $1:Example.jpg|Bildetekst2',
 	'wikieditor-toolbar-tool-table-preview' => 'Forhåndsvisning',
 	'wikieditor-toolbar-tool-table-insert' => 'Sett inn',
 	'wikieditor-toolbar-tool-table-cancel' => 'Avbryt',
-	'wikieditor-toolbar-tool-table-toomany' => 'Det er ikke mulig å sette inn mer enn $1 celler med denne boksen.', # Fuzzy
+	'wikieditor-toolbar-tool-table-toomany' => 'Det er ikke mulig å sette inn mer enn $1 celler med denne dialogen.', # Fuzzy
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'Du har ikke skrevet inn et gyldig antall rader eller kolonner.',
 	'wikieditor-toolbar-tool-table-zero' => 'De kan ikke sette inn en tabell med null rader eller kolonner.',
 	'wikieditor-toolbar-tool-replace' => 'Søk og erstatt',
@@ -19423,7 +19424,7 @@ $1:Example.jpg|Bildetekst2',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Erstatt alle',
 	'wikieditor-toolbar-tool-replace-close' => 'Lukk',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'Søket ga ingen resultater.',
-	'wikieditor-toolbar-tool-replace-success' => 'Gjorde $1 erstating(er).', # Fuzzy
+	'wikieditor-toolbar-tool-replace-success' => '{{PLURAL:$1|En erstatning|$1 erstatninger}} utført.',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'Du skrev ikke inn noe å søke etter.',
 	'wikieditor-toolbar-tool-replace-invalidregex' => 'Det regulære uttrykket du skrev inn er ugyldig: $1',
 	'wikieditor-toolbar-section-characters' => 'Spesialtegn',
