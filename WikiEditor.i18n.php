@@ -22287,7 +22287,7 @@ $1:Exemplo2.jpg|Legenda2',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Substituir todos',
 	'wikieditor-toolbar-tool-replace-close' => 'Fechar',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'A sua pesquisa não produziu resultados.',
-	'wikieditor-toolbar-tool-replace-success' => 'Substituições realizadas: $1.', # Fuzzy
+	'wikieditor-toolbar-tool-replace-success' => '$1 {{PLURAL:$1|substituição realizada|substituições realizadas}}.',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'Não introduziu nada para pesquisar.',
 	'wikieditor-toolbar-tool-replace-invalidregex' => "A expressão regular ''(regex)'' que introduziu é inválida: $1",
 	'wikieditor-toolbar-section-characters' => 'Caracteres especiais',
