@@ -365,6 +365,7 @@ For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Too
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => '{{Identical|Internal link}}',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-ext' => '{{Identical|External link}}',
 	'wikieditor-toolbar-tool-file' => '{{Identical|Embedded file}}',
+	'wikieditor-toolbar-tool-file-example' => '{{Identical|Example}}',
 	'wikieditor-toolbar-tool-file-title' => 'Title for insert file dialog',
 	'wikieditor-toolbar-file-target' => 'Label for the input of filename on insert file dialog',
 	'wikieditor-toolbar-file-caption' => 'Label for input of caption on insert file dialog
@@ -381,7 +382,8 @@ For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Too
 	'wikieditor-toolbar-tool-file-cancel' => '{{Identical|Cancel}}',
 	'wikieditor-toolbar-tool-reference' => '{{Identical|Reference}}',
 	'wikieditor-toolbar-tool-reference-cancel' => '{{Identical|Cancel}}',
-	'wikieditor-toolbar-tool-reference-title' => 'Title of insert reference dialog. This text is on the very top bar of the dialog.',
+	'wikieditor-toolbar-tool-reference-title' => 'Title of insert reference dialog. This text is on the very top bar of the dialog.
+{{Identical|Insert reference}}',
 	'wikieditor-toolbar-tool-reference-insert' => 'Button text for the insert action of the insert reference dialog.
 {{Identical|Insert}}',
 	'wikieditor-toolbar-tool-reference-text' => 'Label for the input field on the insert reference dialog.',
@@ -391,11 +393,13 @@ For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Too
 	'wikieditor-toolbar-group-format' => '{{Identical|Format}}',
 	'wikieditor-toolbar-tool-ulist' => '{{Identical|Bulleted list}}',
 	'wikieditor-toolbar-tool-olist' => '{{Identical|Numbered list}}',
+	'wikieditor-toolbar-tool-indent' => '{{Identical|Indent}}',
 	'wikieditor-toolbar-tool-nowiki' => 'This is the text that appears when you hover the mouse over the third button from the right on the edit toolbar.',
 	'wikieditor-toolbar-tool-redirect' => "Tooltip for icon to place wiki text for a redirect in the edit box. The label before these icons says 'Insert'. 'Redirect' is a noun here.
 {{Identical|Redirect}}",
 	'wikieditor-toolbar-tool-redirect-example' => "Target is an adjective describing the page name. You could use 'destination' instead of 'target'. 'Target page name' is the destination of the redirect and appears when the wikitext for a redirect is inserted in the text box thus
  <nowiki>#REDIRECT [[target page name]]</nowiki>",
+	'wikieditor-toolbar-tool-big' => '{{Identical|Big}}',
 	'wikieditor-toolbar-tool-small' => '{{Identical|Small}}',
 	'wikieditor-toolbar-group-insert' => '{{Identical|Insert}}',
 	'wikieditor-toolbar-tool-gallery-example' => 'Used as example for Picture Gallery.
@@ -486,6 +490,8 @@ For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Too
 For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization',
 	'wikieditor-toolbar-characters-page-telugu' => 'The name of the [[w:Telugu language#Alphabet|Telugu]] character set (alphabet) on the toolbar.
 For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization',
+	'wikieditor-toolbar-characters-page-lao' => '{{Identical|Lao}}',
+	'wikieditor-toolbar-characters-page-khmer' => '{{Identical|Khmer}}',
 	'wikieditor-toolbar-characters-endash' => 'Title tooltip for the en dash character (–); See https://en.wikipedia.org/wiki/Dash',
 	'wikieditor-toolbar-characters-emdash' => 'Title tooltip for the em dash character (—); See https://en.wikipedia.org/wiki/Dash',
 	'wikieditor-toolbar-characters-minus' => 'Title tooltip for the minus sign character (−), not to be confused with a hyphen',
@@ -536,6 +542,7 @@ www.example.org is not a real website, but it has been reserved to use in softwa
 	'wikieditor-toolbar-help-content-signaturetimestamp-syntax' => '{{notranslate}}',
 	'wikieditor-toolbar-help-content-signature-description' => '{{Identical|Signature}}',
 	'wikieditor-toolbar-help-content-signature-syntax' => '{{notranslate}}',
+	'wikieditor-toolbar-help-content-indent-description' => '{{Identical|Indent}}',
 );
 
 /** Abkhazian (Аҧсшәа)
@@ -5250,7 +5257,7 @@ $messages['ce'] = array(
 	'wikieditor-toolbar' => 'Рéдоккху меттиг',
 	'wikieditor-toolbar-desc' => 'Рéдоккху меттиг гlоле лелорца',
 	'wikieditor-toolbar-preference' => 'Латайé гlоле йолу тадар',
-	'wikieditor-toolbar-dialogs-preference' => 'Латайé йозан хьажориг йуьллург, таблийцан аъ кхин хlумнашна',
+	'wikieditor-toolbar-dialogs-preference' => 'Латайé йозан хьажориг йуьллург, таблийцан аъ кхин хlумнашна', # Fuzzy
 	'wikieditor-toolbar-loading' => 'Чуйолуш…',
 	'wikieditor-toolbar-tool-bold' => 'Дерстино',
 	'wikieditor-toolbar-tool-bold-example' => 'Дерстино до йоза',
@@ -14390,7 +14397,7 @@ $messages['ka'] = array(
 	'wikieditor-toolbar' => 'რედაქტირების პანელი',
 	'wikieditor-toolbar-desc' => 'რედაქტირების პანელი გაუმჯობესებული იუზაბილითით',
 	'wikieditor-toolbar-preference' => 'ჩართეთ რედაქტირების გაუმჯობესებული პანელი',
-	'wikieditor-toolbar-dialogs-preference' => 'ბმულების, ცხრილებისა და სხვა ობიექტების ჩასასმელად ჩართეთ დიალოგები',
+	'wikieditor-toolbar-dialogs-preference' => 'ბმულების, ცხრილებისა და სხვა ობიექტების ჩასასმელად ჩართეთ დიალოგები', # Fuzzy
 	'wikieditor-toolbar-hidesig' => 'ხელმოწერის ღილაკის დამალვა სახელთა სივრცის ძირითად გვერდებზე',
 	'wikieditor-toolbar-loading' => 'იტვირთება…',
 	'wikieditor-toolbar-tool-bold' => 'მუქი',
@@ -22176,7 +22183,7 @@ $messages['pt'] = array(
 	'wikieditor-toolbar' => 'Barra de ferramentas de edição',
 	'wikieditor-toolbar-desc' => 'Barra de ferramentas de edição com usabilidade melhorada',
 	'wikieditor-toolbar-preference' => 'Activar a barra de ferramentas de edição melhorada',
-	'wikieditor-toolbar-dialogs-preference' => 'Possibilitar diálogos de inserção de links, tabelas e outros',
+	'wikieditor-toolbar-dialogs-preference' => 'Possibilitar diálogos de inserção de links, tabelas e outros', # Fuzzy
 	'wikieditor-toolbar-hidesig' => 'Esconder o botão da assinatura nas páginas do espaço nominal principal',
 	'wikieditor-toolbar-loading' => 'A carregar…',
 	'wikieditor-toolbar-tool-bold' => 'Negrito',
