@@ -367,7 +367,8 @@ For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Too
 	'wikieditor-toolbar-tool-file' => '{{Identical|Embedded file}}',
 	'wikieditor-toolbar-tool-file-example' => '{{Identical|Example}}',
 	'wikieditor-toolbar-tool-file-title' => 'Title for insert file dialog',
-	'wikieditor-toolbar-file-target' => 'Label for the input of filename on insert file dialog',
+	'wikieditor-toolbar-file-target' => 'Label for the input of filename on insert file dialog.
+{{Identical|Filename}}',
 	'wikieditor-toolbar-file-caption' => 'Label for input of caption on insert file dialog
 
 {{Identical|Caption}}',
@@ -8124,7 +8125,7 @@ $messages['et'] = array(
 	'wikieditor-desc' => 'Sisaldab vikiteksti laiendatud redigeerimisliidest ja palju redigeerimisfunktsioone.',
 	'wikieditor-wikitext-tab' => 'Vikitekst',
 	'wikieditor-loading' => 'Laadimine...',
-	'wikieditor-preview-preference' => 'Kuva eelvaade külgmisel sakil',
+	'wikieditor-preview-preference' => 'Kasuta kõrvalkaardil kuvatavat eelvaadet',
 	'wikieditor-preview-tab' => 'Eelvaade',
 	'wikieditor-preview-changes-tab' => 'Muudatused',
 	'wikieditor-preview-loading' => 'Laadimine...',
@@ -8150,7 +8151,7 @@ $messages['et'] = array(
 	'wikieditor-toolbar' => 'Toimetamise tööriistariba',
 	'wikieditor-toolbar-desc' => 'Täiustatud kasutushõlpsusega redigeerimislehekülje tööriistariba',
 	'wikieditor-toolbar-preference' => 'Kasuta laiendatud redigeerimisriba',
-	'wikieditor-toolbar-dialogs-preference' => 'Kasuta tabelite ja muu lisamiseks dialoogikaste',
+	'wikieditor-toolbar-dialogs-preference' => 'Kasuta tabelite ja muu lisamiseks dialoogikaste', # Fuzzy
 	'wikieditor-toolbar-hidesig' => 'Peida põhinimeruumi lehekülgedel allkirjanupp',
 	'wikieditor-toolbar-loading' => 'Laadimine...',
 	'wikieditor-toolbar-tool-bold' => 'Rasvane',
@@ -12721,7 +12722,7 @@ $messages['id'] = array(
 	'wikieditor-toolbar' => 'Bilah alat penyuntingan',
 	'wikieditor-toolbar-desc' => 'Bilah alat penyuntingan dengan kebergunaan yang ditingkatkan',
 	'wikieditor-toolbar-preference' => 'Aktifkan bilah alat penyuntingan yang telah ditingkatkan',
-	'wikieditor-toolbar-dialogs-preference' => 'Aktifkan bantuan untuk menambahkan pranala, tabel dan lainnya',
+	'wikieditor-toolbar-dialogs-preference' => 'Aktifkan bantuan untuk menambahkan pranala, tabel dan lainnya', # Fuzzy
 	'wikieditor-toolbar-hidesig' => 'Sembunyikan tombol tanda tangan dari halaman pada ruang nama utama',
 	'wikieditor-toolbar-loading' => 'Mengunggah...',
 	'wikieditor-toolbar-tool-bold' => 'Tebal',
@@ -12764,6 +12765,7 @@ Apakah Anda ingin membuatnya menjadi pranala internal?',
 	'wikieditor-toolbar-file-float' => 'Rata:',
 	'wikieditor-toolbar-file-default' => '(baku)',
 	'wikieditor-toolbar-file-format' => 'Format:',
+	'wikieditor-toolbar-file-format-none' => 'tidak ada',
 	'wikieditor-toolbar-tool-file-insert' => 'Sisipkan',
 	'wikieditor-toolbar-tool-file-cancel' => 'Batal',
 	'wikieditor-toolbar-tool-reference' => 'Referensi',
