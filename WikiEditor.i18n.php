@@ -22637,7 +22637,6 @@ $1:Exemplo2.jpg|Legenda2',
  * @author Giro720
  * @author Hamilton Abreu
  * @author Helder.wiki
- * @author Heldergeovane
  * @author Lijealso
  * @author Luckas
  * @author Luckas Blade
