@@ -80,6 +80,7 @@ $messages['en'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Invalid title',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'External link',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'Checking page existence...',
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => 'Disambiguation page',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'The title you specified is invalid.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'The URL you specified looks like it was intended as a link to another wiki page.
 Do you want to make it an internal link?',
@@ -361,6 +362,7 @@ For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Too
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Text shown when the link target the user entered points to an external web site
 {{Identical|External link}}',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'alt text and title text for the image shown while the title the user entered is being checked for existence',
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => 'Text shown when the link target the user entered points to a disambiguation page',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'This message appears when you try to create an internal link but the page title in the link is invalid.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => '{{Identical|Internal link}}',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-ext' => '{{Identical|External link}}',

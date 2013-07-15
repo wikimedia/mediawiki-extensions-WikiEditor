@@ -188,40 +188,40 @@ $.wikiEditor.modules.dialogs.config = {
 						// Show loading spinner while waiting for the API to respond
 						updateWidget( 'loading' );
 						// Call the API to check page status, saving the request object so it can be aborted if
-						// necessary
+						// necessary.
+						// This used to request a page that would show whether or not the target exists, but we can
+						// also check whether it has the disambiguation property and still get existence information.
+						// If the Disambiguator extension is not installed then such a property won't be set.
 						$( '#wikieditor-toolbar-link-int-target-status' ).data(
 							'request',
-							$.ajax( {
-								url: mw.util.wikiScript( 'api' ),
-								dataType: 'json',
-								data: {
-									action: 'query',
-									indexpageids: '',
-									titles: target,
-									converttitles: '',
-									format: 'json'
-								},
-								success: function ( data ) {
-									var status;
-									if ( !data || !data.query ) {
-										// This happens in some weird cases
-										status = false;
-									} else {
-										var page = data.query.pages[data.query.pageids[0]];
-										status = 'exists';
-										if ( page.missing !== undefined ) {
-											status = 'notexists';
-										} else if ( page.invalid !== undefined ) {
-											status = 'invalid';
-										}
+							( new mw.Api() ).get( {
+								action: 'query',
+								prop: 'pageprops',
+								titles: target,
+								ppprop: 'disambiguation',
+								indexpageids: true,
+							} ).done( function ( data ) {
+								var status;
+								if ( !data.query ) {
+									// This happens in some weird cases
+									status = false;
+								} else {
+									var page = data.query.pages[data.query.pageids[0]];
+									status = 'exists';
+									if ( page.missing !== undefined ) {
+										status = 'notexists';
+									} else if ( page.invalid !== undefined ) {
+										status = 'invalid';
+									} else if ( page.pageprops !== undefined ) {
+										status = 'disambig';
 									}
-									// Cache the status of the link target if the force internal
-									// parameter was not passed
-									if ( !internal ) {
-										cache[target] = status;
-									}
-									updateWidget( status );
 								}
+								// Cache the status of the link target if the force internal
+								// parameter was not passed
+								if ( !internal ) {
+									cache[target] = status;
+								}
+								updateWidget( status );
 							} )
 						);
 					}
@@ -324,6 +324,7 @@ $.wikiEditor.modules.dialogs.config = {
 					var invalidMsg = mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-invalid' );
 					var externalMsg = mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-external' );
 					var loadingMsg = mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-loading' );
+					var disambigMsg = mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-disambig' );
 					$( '#wikieditor-toolbar-link-int-target-status' )
 						.append( $( '<div>' )
 							.attr( 'id', 'wikieditor-toolbar-link-int-target-status-exists' )
@@ -348,6 +349,10 @@ $.wikiEditor.modules.dialogs.config = {
 								'alt': loadingMsg,
 								'title': loadingMsg
 							} ) )
+						)
+						.append( $( '<div>' )
+							.attr( 'id', 'wikieditor-toolbar-link-int-target-status-disambig' )
+							.append( disambigMsg )
 						)
 						.data( 'existencecache', {} )
 						.children().hide();
