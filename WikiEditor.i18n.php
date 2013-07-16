@@ -362,7 +362,8 @@ For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Too
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Text shown when the link target the user entered points to an external web site
 {{Identical|External link}}',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'alt text and title text for the image shown while the title the user entered is being checked for existence',
-	'wikieditor-toolbar-tool-link-int-target-status-disambig' => 'Text shown when the link target the user entered points to a disambiguation page',
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => 'Text shown when the link target the user entered points to a disambiguation page.
+{{Identical|Disambiguation page}}',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'This message appears when you try to create an internal link but the page title in the link is invalid.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => '{{Identical|Internal link}}',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-ext' => '{{Identical|External link}}',
@@ -6651,6 +6652,7 @@ $messages['de'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Ungültiger Titel',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Externer Link',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'Prüfe, ob Seite vorhanden ist …',
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => 'Begriffsklärungsseite',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'Der angegebene Seitenname ist ungültig.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'Die von dir angegebene URL wirkt wie eine, die auf eine andere Wikiseite verlinken würde.
 Möchtest du daraus einen internen Link machen?',
@@ -8693,6 +8695,7 @@ $messages['fa'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'عنوان نادرست',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'پیوند به بیرون',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'بررسی وجود داشتن صفحه...',
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => 'صفحهٔ ابهام‌زدائی',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'عنوان تعیین‌شده نامعتبر است.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'نشانی اینترنتی که وارد کردید به شکلی است که نمایانگر یک پیوند به صفحه‌ای داخل ویکی است. آیا می‌خواهید آن را به یک پیوند داخلی تبدیل کنید؟',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => 'پیوند داخلی',
@@ -9149,6 +9152,7 @@ $1:Esimerkki.jpg|Kuvateksti2',
  * @author PieRRoMaN
  * @author Urhixidur
  * @author Verdy p
+ * @author Wyz
  * @author Zetud
  */
 $messages['fr'] = array(
@@ -9211,6 +9215,7 @@ $messages['fr'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Titre invalide',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Lien externe',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'Vérification de l’existence de la page...',
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => 'Page d’homonymie',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'Le titre que vous avez spécifié est incorrect.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'L’URL que vous avez spécifiée semble mener à une autre page du wiki.
 Voulez-vous utiliser un lien interne à la place ?',
@@ -9988,6 +9993,7 @@ $messages['gl'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Título non válido',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Ligazón externa',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'Comprobando a existencia da páxina...',
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => 'Páxina de homónimos',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'O título que especificou non é válido.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'O enderezo URL que especificou semella ser unha ligazón cara a outra páxina do wiki.
 Quere converter ese enderezo nunha ligazón interna?',
@@ -13660,7 +13666,7 @@ $messages['it'] = array(
 	'wikieditor-toolbar' => 'Barra degli strumenti di modifica',
 	'wikieditor-toolbar-desc' => 'Barra degli strumenti di modifica della pagina con migliorata usabilità',
 	'wikieditor-toolbar-preference' => 'Abilita barra degli strumenti di modifica avanzata',
-	'wikieditor-toolbar-dialogs-preference' => "Abilita le finestre per l'inserimento di link, tabelle ed altro",
+	'wikieditor-toolbar-dialogs-preference' => "Abilita le finestre per l'inserimento di collegamenti, tabelle e la funzione di cerca e sostituisci",
 	'wikieditor-toolbar-hidesig' => 'Nasconde il pulsante della firma dalle pagine nel namespace principale',
 	'wikieditor-toolbar-loading' => 'Caricamento in corso...',
 	'wikieditor-toolbar-tool-bold' => 'Grassetto',
@@ -13688,6 +13694,7 @@ $messages['it'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Titolo non valido',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Collegamento esterno',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => "Controllo dell'esistenza della pagina in corso....",
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => 'Pagina di disambiguazione',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'Il titolo che hai specificato non è valido.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => "La URL che hai indicato sembra un link verso un'altra pagina wiki.
 Vuoi che sia un link interno?",
@@ -13916,7 +13923,7 @@ $messages['ja'] = array(
 	'wikieditor-toolbar' => '編集ツールバー',
 	'wikieditor-toolbar-desc' => '使いやすさの向上したページ編集ツールバー',
 	'wikieditor-toolbar-preference' => '改良型編集ツールバーを有効にする',
-	'wikieditor-toolbar-dialogs-preference' => 'リンクや表などの挿入ダイアログを有効にする',
+	'wikieditor-toolbar-dialogs-preference' => 'リンクや表などの挿入ダイアログを有効にする', # Fuzzy
 	'wikieditor-toolbar-hidesig' => '標準名前空間で署名ボタンを非表示にする',
 	'wikieditor-toolbar-loading' => '読み込み中...',
 	'wikieditor-toolbar-tool-bold' => '太字',
@@ -13944,6 +13951,7 @@ $messages['ja'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'ページ名として無効です',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => '外部リンク',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'ページの存在を確認中...',
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => '曖昧さ回避ページ',
 	'wikieditor-toolbar-tool-link-int-invalid' => '指定したページ名は無効です。',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => '指定した URL は別のウィキページへのリンクのようです。
 これを内部リンクにしますか?',
@@ -23513,7 +23521,7 @@ $messages['roa-tara'] = array(
 	'wikieditor-toolbar' => 'Barre de le cangiaminde',
 	'wikieditor-toolbar-desc' => "Cange 'a pàgene d'a barre de le struminde cu l'usabbilità avanzate",
 	'wikieditor-toolbar-preference' => "Abbilite 'a barre de le struminde pe le cangiaminde avanzate",
-	'wikieditor-toolbar-dialogs-preference' => "Abbilite le dialoghe pe l'inzerimende de collegaminde, tabbelle e otre cose",
+	'wikieditor-toolbar-dialogs-preference' => "Abbilite le procedure guidate pe l'inzerimende de collegaminde, tabbelle e otre cose pa funzione de ricerche e sostituzione",
 	'wikieditor-toolbar-hidesig' => "Scunne 'u buttone d'a firme da le pàggene jndr'à 'u namespace prengepàle",
 	'wikieditor-toolbar-loading' => 'Stoche a careche…',
 	'wikieditor-toolbar-tool-bold' => 'Grascette',
@@ -23541,6 +23549,7 @@ $messages['roa-tara'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Titole invalide',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Collegaminde fore a Uicchipèdie',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => "Stoche a verifiche l'esistenze d'a pàgene...",
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => 'Pàgene de disambbiguazione',
 	'wikieditor-toolbar-tool-link-int-invalid' => "'U titele ca è specificate jè invalide.",
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => "'A URL ca tu è specificate pare manghe ca vò ccù punde a 'n'otra pàgene de Uicchi. Ce vuè ccù face 'nu collegamende inderne?",
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => "Collegamende jndr'à Uicchipèdie",
@@ -28526,6 +28535,7 @@ $messages['tpi'] = array(
  * @author Joseph
  * @author Koc61
  * @author Manco Capac
+ * @author Rapsar
  * @author Sadrettin
  * @author Srhat
  * @author Vito Genovese
@@ -28562,7 +28572,7 @@ $messages['tr'] = array(
 	'wikieditor-toolbar' => 'Araç çubuğu düzenleme',
 	'wikieditor-toolbar-desc' => 'Gelişmiş kullanılabilirlik ile sayfa araç çubuğunu düzenle',
 	'wikieditor-toolbar-preference' => 'Gelişmiş düzenleme araç çubuğunu etkinleştir',
-	'wikieditor-toolbar-dialogs-preference' => 'Bağlantılar, tablolar ve daha fazlasını eklemek için iletileri etkinleştir',
+	'wikieditor-toolbar-dialogs-preference' => 'Bağlantılar, tablolar ve daha fazlasını eklemek için iletileri etkinleştir', # Fuzzy
 	'wikieditor-toolbar-hidesig' => 'Ana ad boşluğundaki sayfalardan imza düğmesini gizle',
 	'wikieditor-toolbar-loading' => 'Yükleniyor...',
 	'wikieditor-toolbar-tool-bold' => 'Kalın',
@@ -28590,6 +28600,7 @@ $messages['tr'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Geçersiz başlık',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Dış bağlantı',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'Sayfanın mevcudiyeti denetleniyor...',
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => 'Anlam ayrımı sayfası',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'Belirttiğiniz başlık geçersiz.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'Belirttiğiniz URL, başka bir viki sayfasına bir bağlantı yapılmak istenmiş gibi görünüyor. Bunu dahili bir bağlantı yapmak ister misiniz?',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => 'Dahili bağlantı',
