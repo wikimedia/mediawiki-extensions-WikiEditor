@@ -5255,7 +5255,7 @@ $messages['ce'] = array(
 	'wikieditor-publish-dialog-minor' => 'Жим хийцам',
 	'wikieditor-publish-dialog-watch' => 'Тергам бé хlокху агlон',
 	'wikieditor-publish-dialog-publish' => 'Нахангайта',
-	'wikieditor-publish-dialog-goback' => 'Юхьа',
+	'wikieditor-publish-dialog-goback' => 'Юха',
 	'wikieditor-template-editor-preference' => 'Латайé куцкепа рéдаккхар бáраман гlонца',
 	'wikieditor-template-editor-dialog-title' => 'Кеп хийцам',
 	'wikieditor-template-editor-dialog-submit' => 'Карлаяккха',
@@ -21580,7 +21580,7 @@ $messages['pl'] = array(
 	'wikieditor-toolbar' => 'Pasek narzędzi edycyjnych',
 	'wikieditor-toolbar-desc' => 'Ułatwiający pracę pasek narzędzi edycyjnych',
 	'wikieditor-toolbar-preference' => 'Włącz rozszerzony pasek narzędzi edycyjnych',
-	'wikieditor-toolbar-dialogs-preference' => 'Włącz okienka dodawania linków, tabel itp.',
+	'wikieditor-toolbar-dialogs-preference' => 'Włącz kreatory dodawania linków, tabel itp.',
 	'wikieditor-toolbar-hidesig' => 'Ukryj przycisk podpisu na stronach głównej przestrzeni nazw',
 	'wikieditor-toolbar-loading' => 'Ładowanie...',
 	'wikieditor-toolbar-tool-bold' => 'Wytłuszczenie',
@@ -21608,6 +21608,7 @@ $messages['pl'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Nieprawidłowy tytuł',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Link zewnętrzny',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'Sprawdzanie czy strona istnieje…',
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => 'Strona ujednoznaczniająca',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'Wprowadzony tytuł jest nieprawidłowy.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'Podany URL wygląda jak link do innej strony wiki. Czy chcesz, aby był to link wewnętrzny?',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => 'Link wewnętrzny',
@@ -22745,6 +22746,7 @@ $1:Exemplo2.jpg|Legenda2',
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Daemorris
  * @author Everton137
  * @author Giro720
@@ -22789,7 +22791,7 @@ $messages['pt-br'] = array(
 	'wikieditor-toolbar' => 'Barra de ferramentas de edição',
 	'wikieditor-toolbar-desc' => 'Barra de ferramentas de edição com usabilidade melhorada',
 	'wikieditor-toolbar-preference' => 'Ativar a barra de ferramentas de edição melhorada',
-	'wikieditor-toolbar-dialogs-preference' => 'Possibilitar diálogos de inserção de ligações, tabelas e outros',
+	'wikieditor-toolbar-dialogs-preference' => 'Possibilitar diálogos de inserção de ligações, tabelas e outros', # Fuzzy
 	'wikieditor-toolbar-hidesig' => 'Esconder o botão da assinatura nas páginas do espaço nominal principal',
 	'wikieditor-toolbar-loading' => 'Carregando...',
 	'wikieditor-toolbar-tool-bold' => 'Negrito',
@@ -22817,6 +22819,7 @@ $messages['pt-br'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Título inválido',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Link externo',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'Verificando existência da página...',
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => 'Página de desambiguação',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'O título que você especificou é inválido.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'A URL que você especificou parece ser um link para outra página do wiki. Você deseja usar como link interno?',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => 'Link interno',
@@ -22831,6 +22834,7 @@ $messages['pt-br'] = array(
 	'wikieditor-toolbar-file-float' => 'Alinhamento:',
 	'wikieditor-toolbar-file-default' => '(padrão)',
 	'wikieditor-toolbar-file-format' => 'Formato:',
+	'wikieditor-toolbar-file-format-none' => 'nenhum',
 	'wikieditor-toolbar-tool-file-insert' => 'Inserir',
 	'wikieditor-toolbar-tool-file-cancel' => 'Cancelar',
 	'wikieditor-toolbar-tool-reference' => 'Referência',
@@ -22897,7 +22901,7 @@ $1:Exemplo.jpg|Legenda2',
 	'wikieditor-toolbar-tool-table-preview' => 'Pré-visualização',
 	'wikieditor-toolbar-tool-table-insert' => 'Inserir',
 	'wikieditor-toolbar-tool-table-cancel' => 'Cancelar',
-	'wikieditor-toolbar-tool-table-toomany' => 'Não é possível inserir uma tabela com mais de $1 colunas com esta interface.', # Fuzzy
+	'wikieditor-toolbar-tool-table-toomany' => 'Não é possível inserir uma tabela com mais de 1000 células com esta interface.',
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'Você não introduziu um número válido de linhas ou colunas.',
 	'wikieditor-toolbar-tool-table-zero' => 'Você não pode inserir uma tabela com zero linhas ou colunas.',
 	'wikieditor-toolbar-tool-replace' => 'Localizar e substituir',
@@ -22911,7 +22915,7 @@ $1:Exemplo.jpg|Legenda2',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Substituir todos',
 	'wikieditor-toolbar-tool-replace-close' => 'Fechar',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'Não houve coincidências para a sua pesquisa.',
-	'wikieditor-toolbar-tool-replace-success' => 'Substituições realizadas: $1.', # Fuzzy
+	'wikieditor-toolbar-tool-replace-success' => '$1 {{PLURAL:$1|substituição realizada|substituições realizadas}}.',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'Você não introduziu nada para buscar.',
 	'wikieditor-toolbar-tool-replace-invalidregex' => "A expressão regular ''(regex)'' que você introduziu é inválida: $1",
 	'wikieditor-toolbar-section-characters' => 'Caracteres especiais',
