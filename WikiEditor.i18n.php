@@ -5385,7 +5385,7 @@ $1:Example.jpg|Цуьнах лаце2',
 	'wikieditor-toolbar-tool-replace-button-findnext' => 'Караде тlаьхьадогlург',
 	'wikieditor-toolbar-tool-replace-button-replace' => 'Хийца',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Дерриге хийца',
-	'wikieditor-toolbar-tool-replace-close' => 'Дlачlагlа',
+	'wikieditor-toolbar-tool-replace-close' => 'ДӀачӀагӀа',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'Хьан дехарца хlумма ца карийна.',
 	'wikieditor-toolbar-tool-replace-success' => 'Балийна хийцам: $1.', # Fuzzy
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'Ахьа ца гайтна хlу лаха деза.',
@@ -13928,7 +13928,7 @@ $messages['ja'] = array(
 	'wikieditor-toolbar' => '編集ツールバー',
 	'wikieditor-toolbar-desc' => '使いやすさの向上したページ編集ツールバー',
 	'wikieditor-toolbar-preference' => '改良型編集ツールバーを有効にする',
-	'wikieditor-toolbar-dialogs-preference' => 'リンクや表などの挿入ダイアログを有効にする', # Fuzzy
+	'wikieditor-toolbar-dialogs-preference' => 'リンクや表などの挿入、および検索と置換のためのウィザードを有効にする',
 	'wikieditor-toolbar-hidesig' => '標準名前空間で署名ボタンを非表示にする',
 	'wikieditor-toolbar-loading' => '読み込み中...',
 	'wikieditor-toolbar-tool-bold' => '太字',
