@@ -31355,6 +31355,7 @@ Bangla',
  * @author Gaoxuewei
  * @author Hydra
  * @author Liangent
+ * @author Liuxinyu970226
  * @author Onecountry
  * @author PhiLiP
  * @author Shirayuki
@@ -31394,7 +31395,7 @@ $messages['zh-hans'] = array(
 	'wikieditor-toolbar' => '编辑工具栏',
 	'wikieditor-toolbar-desc' => '具有增强可用性的页面编辑工具',
 	'wikieditor-toolbar-preference' => '启用增强编辑工具栏',
-	'wikieditor-toolbar-dialogs-preference' => '启用对话框插入链接、表格等',
+	'wikieditor-toolbar-dialogs-preference' => '启用对话框插入链接、表格以及搜索和替换功能',
 	'wikieditor-toolbar-hidesig' => '在主名字空间中隐藏签名按钮',
 	'wikieditor-toolbar-loading' => '正在载入',
 	'wikieditor-toolbar-tool-bold' => '粗体',
@@ -31422,6 +31423,7 @@ $messages['zh-hans'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => '无效标题',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => '外部链接',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => '检查页面是否存在……',
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => '消歧义页',
 	'wikieditor-toolbar-tool-link-int-invalid' => '您指定的标题无效。',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => '您输入的网址似乎指向另一个wiki页面，是否希望将其改为内部链接？',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => '内部链接',
@@ -31532,10 +31534,10 @@ $1:Example.jpg|标题2',
 	'wikieditor-toolbar-characters-page-persian' => '波斯语',
 	'wikieditor-toolbar-characters-page-hebrew' => '希伯来字母',
 	'wikieditor-toolbar-characters-page-bangla' => '孟加拉',
-	'wikieditor-toolbar-characters-page-tamil' => '泰米尔',
-	'wikieditor-toolbar-characters-page-telugu' => '泰卢固字母',
-	'wikieditor-toolbar-characters-page-sinhala' => '僧伽罗字母',
-	'wikieditor-toolbar-characters-page-gujarati' => '古吉拉特字母',
+	'wikieditor-toolbar-characters-page-tamil' => '泰米尔语',
+	'wikieditor-toolbar-characters-page-telugu' => '泰卢固语',
+	'wikieditor-toolbar-characters-page-sinhala' => '僧伽罗语',
+	'wikieditor-toolbar-characters-page-gujarati' => '古吉拉特语',
 	'wikieditor-toolbar-characters-page-devanagari' => '梵文',
 	'wikieditor-toolbar-characters-page-thai' => '泰语',
 	'wikieditor-toolbar-characters-page-lao' => '老挝语',
