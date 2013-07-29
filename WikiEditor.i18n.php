@@ -17649,6 +17649,13 @@ $1:Example.jpg|Apraksts2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Teksts bez atkāpes<dl><dd>Teksts ar atkāpi<dl><dd>Teksts ar atkāpi</dd></dl></dd></dl>',
 );
 
+/** Literary Chinese (文言)
+ * @author Yanteng3
+ */
+$messages['lzh'] = array(
+	'wikieditor-loading' => '載之……',
+);
+
 /** Lazuri (Lazuri)
  * @author Bombola
  */
@@ -19753,6 +19760,7 @@ $messages['nds-nl'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Ongeldige ziednaam',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Uutgaonde verwiezing',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'Is an t kieken of disse zied al besteet...',
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => 'Deurverwieszied',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'De op-egeven zied is ongeldig.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => "t Lik as of t webadres da'j op-egeven hebben n verwiezing naor n aandere wikizied mut ween.
 Wi'j der n interne verwiezing van maken?",
