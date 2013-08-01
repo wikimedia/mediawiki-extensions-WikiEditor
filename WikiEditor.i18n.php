@@ -13928,7 +13928,7 @@ $messages['ja'] = array(
 	'wikieditor-toolbar' => '編集ツールバー',
 	'wikieditor-toolbar-desc' => '使いやすさの向上したページ編集ツールバー',
 	'wikieditor-toolbar-preference' => '改良型編集ツールバーを有効にする',
-	'wikieditor-toolbar-dialogs-preference' => 'リンクや表などの挿入、および検索と置換のためのウィザードを有効にする',
+	'wikieditor-toolbar-dialogs-preference' => 'リンクや表の挿入、および検索と置換のためのウィザードを有効にする',
 	'wikieditor-toolbar-hidesig' => '標準名前空間で署名ボタンを非表示にする',
 	'wikieditor-toolbar-loading' => '読み込み中...',
 	'wikieditor-toolbar-tool-bold' => '太字',
@@ -19962,6 +19962,7 @@ $messages['ne'] = array(
 /** Dutch (Nederlands)
  * @author Hamaryns
  * @author McDutchie
+ * @author Romaine
  * @author SPQRobin
  * @author Siebrand
  * @author Tvdm
@@ -20027,6 +20028,7 @@ $messages['nl'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Ongeldige paginanaam',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Externe koppeling',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'Bezig met controleren of de pagina al bestaat...',
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => 'Doorverwijspagina',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'De opgegeven pagina is ongeldig.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'De URL die u hebt opgegeven lijkt bedoeld te zijn als koppeling naar een andere wikipagina.
 Wilt u er een interne koppeling van maken?',
