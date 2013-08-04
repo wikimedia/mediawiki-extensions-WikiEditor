@@ -8203,6 +8203,7 @@ $messages['et'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Vigane pealkiri',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Välislink',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'Lehekülje olemasolu kindlakstegemine...',
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => 'Täpsustuslehekülg',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'Määratud pealkiri on vigane.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'Paistab, et sisestatud internetiaadress viitab teisele vikileheküljele.
 Kas soovid sellest siselingi teha?',
