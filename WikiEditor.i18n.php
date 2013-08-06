@@ -5618,7 +5618,7 @@ $1:نموونە.jpg|شرۆڤەی ٢',
 	'wikieditor-toolbar-tool-table-preview' => 'پێشبینین',
 	'wikieditor-toolbar-tool-table-insert' => 'تێخستن',
 	'wikieditor-toolbar-tool-table-cancel' => 'ھەڵوەشاندنەوە',
-	'wikieditor-toolbar-tool-table-toomany' => 'تێخستنی خشتەیەک بە زۆرتر لە $1 خانەوە بەم ئامرازەوە ناکرێ.', # Fuzzy
+	'wikieditor-toolbar-tool-table-toomany' => 'تێخستنی خشتەیەک بە زۆرتر لە ١٠٠٠ خانەوە بەم ئامرازەوە ناکرێ.',
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'ژمارەیەکی دروستت بۆ ڕیزەکان یان ستوونەکان نەداوە.',
 	'wikieditor-toolbar-tool-table-zero' => 'ناتوانی خشتەیەک بێ ھیچ ڕیز یان ستوونێک تێبخەی',
 	'wikieditor-toolbar-tool-replace' => 'دۆزینەوە و لەجێدانان',
