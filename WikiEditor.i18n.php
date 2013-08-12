@@ -341,7 +341,7 @@ I guess that "feature-providing modules" means the same as "modules providing fe
 	'wikieditor-toc-hide' => 'Label of the show/hide link when the navigable table of contents is visible',
 	'wikieditor-toolbar' => 'A customizable toolbar for the WikiEditor.
 For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization',
-	'wikieditor-toolbar-desc' => '{{desc}}',
+	'wikieditor-toolbar-desc' => 'Unused at this time.',
 	'wikieditor-toolbar-preference' => 'Option in [[Special:Preferences]]',
 	'wikieditor-toolbar-dialogs-preference' => "Caption of a checkbox on [[Special:Preferences]] (''editing'' tab), enabling helper dialogs for various features of the advanced edit toolbar (e.g. inserting links or tables).
 {{Identical|Enable wizards for inserting links, tables as well as the search and replace function}}",
