@@ -314,13 +314,13 @@ fn: {
 					var offsetOrIcon = $.wikiEditor.autoIconOrOffset( tool.icon, tool.offset,
 						$.wikiEditor.imgPath + 'toolbar/'
 					);
-					if ( typeof offsetOrIcon == 'object' ) {
+					if ( typeof offsetOrIcon === 'object' ) {
 						$button = $( '<a/>' )
 							.attr( {
 								'href' : '#',
-								'alt' : label,
 								'title' : label,
 								'rel' : id,
+								'role' : 'button',
 								'class' : 'tool tool-button wikiEditor-toolbar-spritedButton'
 							} )
 							.text( label )
@@ -336,6 +336,7 @@ fn: {
 							'alt' : label,
 							'title' : label,
 							'rel' : id,
+							'role' : 'button',
 							'class' : 'tool tool-button'
 						} );
 				}
@@ -575,7 +576,12 @@ fn: {
 		var $link =
 			$( '<a/>' )
 				.addClass( selected == id ? 'current' : null )
-				.attr( 'href', '#' )
+				.attr( {
+					href: '#',
+					role: 'button',
+					'aria-pressed': 'false',
+					'aria-controls': 'wikiEditor-section-' + id
+				} )
 				.text( $.wikiEditor.autoMsg( section, 'label' ) )
 				.data( 'context', context )
 				.mouseup( function( e ) {
@@ -587,14 +593,23 @@ fn: {
 					return false;
 				} )
 				.click( function( e ) {
+					// We have to set aria-pressed over here, as NVDA wont recognize it
+					// if we do it in the below .each as it seems
+					$(this).attr( 'aria-pressed', 'true' );
+					$( '.tab > a' ).each( function( i, elem ) {
+						if ( elem !== e.target ) {
+							$( elem ).attr( 'aria-pressed', 'false' );
+						}
+					} );
 					var $sections = $(this).data( 'context' ).$ui.find( '.sections' );
 					var $section =
 						$(this).data( 'context' ).$ui.find( '.section-' + $(this).parent().attr( 'rel' ) );
 					var show = $section.css( 'display' ) == 'none';
-					var $previousSections = $section.parent().find( '.section-visible' );
-					$previousSections.css( 'position', 'absolute' );
-					$previousSections.removeClass( 'section-visible' );
-					$previousSections.fadeOut( 'fast', function() { $(this).css( 'position', 'static' ); } );
+					$section.parent().find( '.section-visible' )
+						.css( 'position', 'absolute' )
+						.attr( 'aria-expanded', 'false' )
+						.removeClass( 'section-visible' )
+						.fadeOut( 'fast', function() { $(this).css( 'position', 'static' ); } );
 					$(this).parent().parent().find( 'a' ).removeClass( 'current' );
 					$sections.css( 'overflow', 'hidden' );
 					var animate = function( $that ) {
@@ -606,8 +621,9 @@ fn: {
 						} );
 					};
 					if ( show ) {
-						$section.addClass( 'section-visible' );
-						$section.fadeIn( 'fast' );
+						$section.addClass( 'section-visible' )
+							.attr( 'aria-expanded', 'true' )
+							.fadeIn( 'fast' );
 						if ( $section.hasClass( 'loading' ) ) {
 							// Loading of this section was deferred, load it now
 							var $that = $(this);
@@ -646,7 +662,11 @@ fn: {
 			.append( $link );
 	},
 	buildSection: function( context, id, section ) {
-		var $section = $( '<div/>' ).attr( { 'class': section.type + ' section section-' + id, 'rel': id } );
+		var $section = $( '<div/>' ).attr( {
+			'class': section.type + ' section section-' + id,
+			'rel': id,
+			id: 'wikiEditor-section-' + id
+		} );
 		var selected = $.cookie( 'wikiEditor-' + context.instance + '-toolbar-section' );
 		var show = selected == id;
 
@@ -663,7 +683,10 @@ fn: {
 
 		// Show or hide section
 		if ( id !== 'main' ) {
-			$section.css( 'display', show ? 'block' : 'none' );
+			$section
+				.css( 'display', show ? 'block' : 'none' )
+				.attr( 'aria-expanded', show ? 'true' : 'false' );
+
 			if ( show ) {
 				$section.addClass( 'section-visible' );
 			}
