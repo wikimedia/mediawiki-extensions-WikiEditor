@@ -29193,6 +29193,7 @@ $messages['ug-arab'] = array(
 /** Ukrainian (українська)
  * @author AS
  * @author Ahonc
+ * @author Andriykopanytsia
  * @author AtUkr
  * @author Base
  * @author Dim Grits
@@ -29234,7 +29235,7 @@ $messages['uk'] = array(
 	'wikieditor-toolbar' => 'Панель засобів редагування',
 	'wikieditor-toolbar-desc' => 'Панель засобів редагування з покращеною ужитковістю',
 	'wikieditor-toolbar-preference' => 'Увімкнути покращену панель засобів редагування',
-	'wikieditor-toolbar-dialogs-preference' => 'Увімкнути діалоги для пошуку і заміни, додавання посилань, таблиць та іншого',
+	'wikieditor-toolbar-dialogs-preference' => 'Увімкнути майстри для додавання посилань, таблиць, а також функції пошуку і заміни',
 	'wikieditor-toolbar-hidesig' => 'Приховати кнопку підпису зі сторінок в основному просторі назв',
 	'wikieditor-toolbar-loading' => 'Завантаження…',
 	'wikieditor-toolbar-tool-bold' => 'Жирний',
@@ -29262,6 +29263,7 @@ $messages['uk'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Неприпустима назва',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Зовнішнє посилання',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'Перевірка наявності сторінки...',
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => 'Сторінка неоднозначності',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'Зазначена назва неприпустима.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'Зазначений вами URL виглядає як посилання на іншу вікі-сторінку. Ви хочете зробити його внутрішнім посиланням?',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => 'Внутрішнє посилання',
