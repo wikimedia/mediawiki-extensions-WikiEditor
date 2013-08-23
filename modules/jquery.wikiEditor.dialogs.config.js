@@ -199,7 +199,7 @@ $.wikiEditor.modules.dialogs.config = {
 								prop: 'pageprops',
 								titles: target,
 								ppprop: 'disambiguation',
-								indexpageids: true,
+								indexpageids: true
 							} ).done( function ( data ) {
 								var status;
 								if ( !data.query ) {
