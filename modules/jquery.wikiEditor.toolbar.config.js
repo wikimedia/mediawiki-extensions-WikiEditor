@@ -815,7 +815,7 @@ getDefaultConfig: function() {
 						"\u047A", "\u047B", // Round Omega (old cyrillic)
 						"\u047c", "\u047d", // Cyr Omega with Titlo (old cyrillic)
 						"\u047e", "\u047f", // Cyr Ot (old cyrillic)
-						"\u0480", "\u0481", // Cyr Koppa (old cyrillic)
+						"\u0480", "\u0481"  // Cyr Koppa (old cyrillic)
 					]
 				},
 				// The core 28-letter alphabet, special letters for the Arabic language,
