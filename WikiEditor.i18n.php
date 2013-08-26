@@ -533,8 +533,13 @@ For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Too
 	'wikieditor-toolbar-help-content-ulist-description' => '{{Identical|Bulleted list}}',
 	'wikieditor-toolbar-help-content-olist-description' => '{{Identical|Numbered list}}',
 	'wikieditor-toolbar-help-content-file-description' => '{{Identical|Embedded file}}',
-	'wikieditor-toolbar-help-content-file-syntax' => "{{doc-important|''thumb'' is a magic word. Leave it untranslated!}}",
-	'wikieditor-toolbar-help-content-file-result' => '{{doc-important|Do not translate anything except "Caption text" (twice) and "Enlarge" (to "{{int:thumbnail-more}}").}}',
+	'wikieditor-toolbar-help-content-file-syntax' => "{{doc-important|''thumb'' is a magic word. Leave it untranslated!}}
+Parameters:
+* \$1 - \"File\" namespace name",
+	'wikieditor-toolbar-help-content-file-result' => '{{doc-important|Do not translate anything except "Caption text" (twice) and "Enlarge" (to "{{int:thumbnail-more}}").}}
+Parameters:
+* $1 - style path. e.g. "/w/skins"
+* $2 - extension assets path. e.g. "/w/extensions"',
 	'wikieditor-toolbar-help-content-reference-description' => '{{Identical|Reference}}',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'I suggest leaving the <code>name="test"</code> string in English
 
