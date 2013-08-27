@@ -15265,7 +15265,7 @@ $messages['ko'] = array(
 	'wikieditor-toolbar-tool-subscript' => '아래 첨자',
 	'wikieditor-toolbar-tool-subscript-example' => '아래 첨자',
 	'wikieditor-toolbar-group-insert' => '넣기',
-	'wikieditor-toolbar-tool-gallery' => '화랑',
+	'wikieditor-toolbar-tool-gallery' => '사진 갤러리',
 	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|설명1
 $1:Example.jpg|설명2',
 	'wikieditor-toolbar-tool-newline' => '새 줄',
