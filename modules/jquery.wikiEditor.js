@@ -146,9 +146,9 @@ $.wikiEditor = {
 		} else if ( property + 'Msg' in object ) {
 			var p = object[property + 'Msg'];
 			if ( $.isArray( p ) && p.length >= 2 ) {
-				return mediaWiki.msg.apply( mediaWiki.msg, p );
+				return mediaWiki.message.apply( mediaWiki.message, p ).plain();
 			} else {
-				return mediaWiki.msg( p );
+				return mediaWiki.message( p ).plain();
 			}
 		} else {
 			return '';
