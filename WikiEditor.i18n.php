@@ -354,6 +354,7 @@ For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Too
 	'wikieditor-toolbar-tool-xlink' => '{{Identical|External link (remember http:// prefix)}}',
 	'wikieditor-toolbar-tool-xlink-example' => "www.example.com is not a real website, but it has been reserved to use in software documentation, and will never be sold or used for advertising. If you translate the word example and try to go to that web address then you might get a message that it doesn't exist. But somebody may have created a commercial web page for that address, such as www.Beispiel.org, using the German word for example. It is therefore recommended that you do not translate http://www.example.com at all. If you do wish to translate it you should first check where the translated link takes you, and bear in mind that anybody could purchase that name in the future.",
 	'wikieditor-toolbar-tool-link' => '{{Identical|Link}}',
+	'wikieditor-toolbar-tool-link-ext-target' => '{{Identical|Link URL}}',
 	'wikieditor-toolbar-tool-link-cancel' => '{{Identical|Cancel}}',
 	'wikieditor-toolbar-tool-link-int-target-status-exists' => 'Text shown when the title the user entered exists',
 	'wikieditor-toolbar-tool-link-int-target-status-notexists' => 'Text shown when the title the user entered does not exist',
