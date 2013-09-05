@@ -470,11 +470,14 @@ More notes:
 	'wikieditor-toolbar-tool-replace-close' => '{{Identical|Close}}',
 	'wikieditor-toolbar-tool-replace-success' => 'Parameter:
 * $1 - the number of replacements',
-	'wikieditor-toolbar-tool-replace-invalidregex' => '$1 is a browser-supplied error message, probably in English, possibly in the browser language.
+	'wikieditor-toolbar-tool-replace-invalidregex' => 'Parameters:
+* $1 - a browser-supplied error message, probably in English, possibly in the browser language.
 
 A "regular expression" is a syntax to find strings based on patterns, for more see [[wikipedia:Regular expression|the Wikipedia article]].
 
-Regular expressions are mostly a programmer tool, which is sometimes exposed to normal users too. It\'s almost as an programming language, but it is used to describe different kinds of strings (sometimes also called patterns and pattern matching), and is often used to change (parts of) the strings too.',
+Regular expressions are mostly a programmer tool, which is sometimes exposed to normal users too.
+
+It\'s almost as an programming language, but it is used to describe different kinds of strings (sometimes also called patterns and pattern matching), and is often used to change (parts of) the strings too.',
 	'wikieditor-toolbar-section-characters' => 'This will be a toolbar for special characters, like emoticons.
 For more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization
 {{Identical|Special character}}',
