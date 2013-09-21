@@ -23795,6 +23795,7 @@ $1:Example.jpg|Titele2',
  * @author KPu3uC B Poccuu
  * @author Kaganer
  * @author Lockal
+ * @author Okras
  * @author Temuri rajavi
  * @author Александр Сигачёв
  */
@@ -23830,7 +23831,7 @@ $messages['ru'] = array(
 	'wikieditor-toolbar' => 'Панель редактирования',
 	'wikieditor-toolbar-desc' => 'Панель редактирования, более удобная в использовании',
 	'wikieditor-toolbar-preference' => 'Включить улучшенную панель редактирования',
-	'wikieditor-toolbar-dialogs-preference' => 'Включить диалоги для вставки ссылок, таблиц и других объектов',
+	'wikieditor-toolbar-dialogs-preference' => 'Включить мастера для вставки ссылок, таблиц, а также функции вставки и замены',
 	'wikieditor-toolbar-hidesig' => 'Скрыть кнопку подписи на страницах основного пространства имён',
 	'wikieditor-toolbar-loading' => 'Загрузка…',
 	'wikieditor-toolbar-tool-bold' => 'Полужирный',
