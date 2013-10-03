@@ -22334,7 +22334,7 @@ $messages['ps'] = array(
 	'wikieditor' => 'د پرمختللی ويکي متن د سمون ليدنمخ',
 	'wikieditor-wikitext-tab' => 'ويکي متن',
 	'wikieditor-loading' => 'برسېرېدنې کې دی...',
-	'wikieditor-preview-preference' => 'څنګ په څنګ مخليدنه چارنده کول',
+	'wikieditor-preview-preference' => 'څنگ په څنگ مخليدنه چارنول',
 	'wikieditor-preview-tab' => 'مخليدنه',
 	'wikieditor-preview-changes-tab' => 'بدلونونه',
 	'wikieditor-preview-loading' => 'برسېرېدنې کې دی...',
@@ -22408,8 +22408,8 @@ $messages['ps'] = array(
 	'wikieditor-toolbar-tool-heading-5' => '۵ کچه',
 	'wikieditor-toolbar-tool-heading-example' => 'د سرليک متن',
 	'wikieditor-toolbar-group-format' => 'بڼه',
-	'wikieditor-toolbar-tool-ulist' => 'ګولۍ داره لړليک',
-	'wikieditor-toolbar-tool-ulist-example' => 'د ګولۍ داره لړليک توکی',
+	'wikieditor-toolbar-tool-ulist' => 'گولۍ داره لړليک',
+	'wikieditor-toolbar-tool-ulist-example' => 'د گولۍ داره لړليک توکی',
 	'wikieditor-toolbar-tool-olist' => 'شمېرن لړليک',
 	'wikieditor-toolbar-tool-redirect-example' => 'د هدفي مخ نوم',
 	'wikieditor-toolbar-tool-big' => 'لوی',
@@ -22510,7 +22510,7 @@ $messages['ps'] = array(
 	'wikieditor-toolbar-help-content-heading5-description' => 'د پينځمې کچې سرليک',
 	'wikieditor-toolbar-help-content-heading5-syntax' => '===== د سرليک متن =====',
 	'wikieditor-toolbar-help-content-heading5-result' => '<h5>د سرليک متن</h5>',
-	'wikieditor-toolbar-help-content-ulist-description' => 'ګولۍ داره لړليک',
+	'wikieditor-toolbar-help-content-ulist-description' => 'گولۍ داره لړليک',
 	'wikieditor-toolbar-help-content-ulist-syntax' => '* د لړليک توکی<br />* د لړليک توکی',
 	'wikieditor-toolbar-help-content-ulist-result' => '<ul><li>د لړليک توکی</li><li>د لړليک توکی</li></ul>',
 	'wikieditor-toolbar-help-content-olist-description' => 'شمېرن لړليک',
@@ -31663,6 +31663,7 @@ $1:Example.jpg|标题2',
  * @author Horacewai2
  * @author KaiesTse
  * @author Liangent
+ * @author Liuxinyu970226
  * @author Mark85296341
  * @author Oapbtommy
  * @author PhiLiP
@@ -31732,6 +31733,7 @@ $messages['zh-hant'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => '無效標題',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => '外部連結',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => '正檢查頁面是否存在……',
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => '消歧義頁',
 	'wikieditor-toolbar-tool-link-int-invalid' => '所指定標題無效。',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => '閣下所輸入 URL 似乎指向另一個 wiki 頁面，請問須否轉為內部連結？',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => '內部連結',
