@@ -25713,6 +25713,7 @@ $1:Príklad.jpg|Popis2',
 
 /** Slovenian (slovenščina)
  * @author Dbc334
+ * @author Eleassar
  * @author Yerpo
  */
 $messages['sl'] = array(
@@ -25730,7 +25731,7 @@ $messages['sl'] = array(
 	'wikieditor-publish-preference' => 'Omogoči objavljanje korak-po-koraku',
 	'wikieditor-publish-button-publish' => 'Objavi',
 	'wikieditor-publish-button-cancel' => 'Prekliči',
-	'wikieditor-publish-dialog-title' => 'Objavi na {{GRAMMAR:dajalnik|{{SITENAME}}}}',
+	'wikieditor-publish-dialog-title' => 'Objavi na {{SITENAME}}',
 	'wikieditor-publish-dialog-summary' => 'Povzetek urejanja (na kratko opišite narejene spremembe):',
 	'wikieditor-publish-dialog-minor' => 'Manjše urejanje',
 	'wikieditor-publish-dialog-watch' => 'Opazuj stran',
