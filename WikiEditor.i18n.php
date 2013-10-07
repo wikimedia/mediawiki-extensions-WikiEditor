@@ -16403,6 +16403,7 @@ $1:Example.jpg|Баяндама2',
 );
 
 /** Latin (Latina)
+ * @author Autokrator
  * @author OrbiliusMagister
  * @author UV
  */
@@ -16435,6 +16436,7 @@ $messages['la'] = array(
 	'wikieditor-toolbar-tool-reference' => 'Referentia bibliographica',
 	'wikieditor-toolbar-tool-reference-title' => 'Referentiam bibliographicam addere',
 	'wikieditor-toolbar-tool-signature' => 'Subscriptio tua cum indicatione temporis',
+	'wikieditor-toolbar-section-advanced' => 'Plura',
 	'wikieditor-toolbar-tool-heading-1' => 'Planities 1',
 	'wikieditor-toolbar-tool-big' => 'Magna',
 	'wikieditor-toolbar-tool-big-example' => 'Textus magnus',
@@ -16464,6 +16466,8 @@ $1:Exemplum.jpg|Descriptio 2',
 	'wikieditor-toolbar-help-heading-description' => 'Descriptio',
 	'wikieditor-toolbar-help-page-format' => 'Formatio',
 	'wikieditor-toolbar-help-page-link' => 'Nexus',
+	'wikieditor-toolbar-help-page-heading' => 'Tituli',
+	'wikieditor-toolbar-help-page-list' => 'Indices',
 	'wikieditor-toolbar-help-page-file' => 'Fasciculi',
 	'wikieditor-toolbar-help-page-reference' => 'Referentiae bibliographicae',
 	'wikieditor-toolbar-help-page-discussion' => 'Disputatio',
