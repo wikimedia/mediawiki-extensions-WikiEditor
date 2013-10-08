@@ -6890,6 +6890,7 @@ Möchten Sie daraus einen internen Link machen?',
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Gorizon
  * @author Mirzali
  * @author Xoser
  */
@@ -6925,7 +6926,7 @@ $messages['diq'] = array(
 	'wikieditor-toolbar' => 'nizamkerdışê çuyaya haceti',
 	'wikieditor-toolbar-desc' => 'Xacetê çuveyî pê enhanced usability bivurne',
 	'wikieditor-toolbar-preference' => 'çuyaya haceti yo dewlemendbiyayeyi aktif ker',
-	'wikieditor-toolbar-dialogs-preference' => "qey têare kerdışê gıre, tablo usb'ani mesajan aktif bıker", # Fuzzy
+	'wikieditor-toolbar-dialogs-preference' => "Qey têare kerdışê gıre, tablo usb'ani mesajan aktif bıkere",
 	'wikieditor-toolbar-hidesig' => 'Vanganê naman de serênan pela dı maka  imzer bınımnê',
 	'wikieditor-toolbar-loading' => 'bar beno...',
 	'wikieditor-toolbar-tool-bold' => 'qalın',
@@ -6953,6 +6954,7 @@ $messages['diq'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Sernameyo xırab.',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Gırêy teberi',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'mewcudiyetê peli konrol beno',
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => 'Pera maneyo bini',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'Sernameyo ke şımayê vanê ravêrde niyo.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'URLyo ke şıma nişan kerdo, pelê yewna wikiyi re gıre biyo aseno.
 şıma wazeni no gıre yew gıreyo daxili bıbo?',
@@ -7035,7 +7037,7 @@ $1:misal.jpg|nuşteyê resmi2',
 	'wikieditor-toolbar-tool-table-preview' => 'Verqayt',
 	'wikieditor-toolbar-tool-table-insert' => 'têare ker',
 	'wikieditor-toolbar-tool-table-cancel' => 'Bıterkne',
-	'wikieditor-toolbar-tool-table-toomany' => '$1 hucreyın ra ziyed tablo eştış pê no mesaj mumkin niyo', # Fuzzy
+	'wikieditor-toolbar-tool-table-toomany' => '1000 hucrara ziyed tablo eştış pê no mesaj mumkın niyo',
 	'wikieditor-toolbar-tool-table-invalidnumber' => 'şıma pê yew amaro meqbul o satır u estun cı nêkewti',
 	'wikieditor-toolbar-tool-table-zero' => 'tablo ya ke tede satır u estun çinibo şıma nêşkeni têare bıkeri',
 	'wikieditor-toolbar-tool-replace' => 'bıgêr u bıvurn',
@@ -7049,7 +7051,7 @@ $1:misal.jpg|nuşteyê resmi2',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'pêroyin bıvurn',
 	'wikieditor-toolbar-tool-replace-close' => 'Racnê',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'çi yo ke şıma gêrenê cı çin o.',
-	'wikieditor-toolbar-tool-replace-success' => '$1 vurnayiş vıraziya.', # Fuzzy
+	'wikieditor-toolbar-tool-replace-success' => '$1 {{PLURAL:$1|yedeg|yedegi}} vıraziya.',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'şıma qey cıgêrayiş taway/çiyek nênuşt',
 	'wikieditor-toolbar-tool-replace-invalidregex' => 'ifadeya normal a ke şıma kwene cı meqbul niya: $1',
 	'wikieditor-toolbar-section-characters' => 'karakterê xususiyî',
