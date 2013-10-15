@@ -17002,6 +17002,13 @@ $1:Veurbeildj2|Biesjrif2',
 	'wikieditor-toolbar-help-content-indent-result' => 'Normaal teks<dl><dd>Ingesprónge teks<dl><dd>Ingesprónge teks</dd></dl></dd></dl>',
 );
 
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'wikieditor-toolbar-help-page-discussion' => 'گپ',
+);
+
 /** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Garas
