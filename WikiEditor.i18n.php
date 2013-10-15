@@ -5805,6 +5805,7 @@ $messages['cs'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Neplatný název',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Externí odkaz',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'Zjišťování existence stránky…',
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => 'Rozcestník',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'Zadaný název je neplatný.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'Uvedené URL vypadá jako odkaz na jinou stránku této wiki.
 Chcete z něj tedy udělat vnitřní odkaz?',
@@ -16999,6 +17000,13 @@ $1:Veurbeildj2|Biesjrif2',
 	'wikieditor-toolbar-help-content-indent-description' => 'Spring in',
 	'wikieditor-toolbar-help-content-indent-syntax' => 'Normaal teks<br />:Ingesprónge teks<br />::Ingesprónge teks',
 	'wikieditor-toolbar-help-content-indent-result' => 'Normaal teks<dl><dd>Ingesprónge teks<dl><dd>Ingesprónge teks</dd></dl></dd></dl>',
+);
+
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'wikieditor-toolbar-help-page-discussion' => 'گپ',
 );
 
 /** Lithuanian (lietuvių)
