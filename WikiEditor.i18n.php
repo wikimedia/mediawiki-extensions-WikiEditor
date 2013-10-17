@@ -11519,6 +11519,7 @@ $messages['hif-latn'] = array(
  * @author Bugoslav
  * @author Ex13
  * @author Excaliboor
+ * @author MaGa
  * @author Roberta F.
  * @author SpeedyGonsales
  */
@@ -11593,7 +11594,7 @@ $messages['hr'] = array(
 	'wikieditor-toolbar-tool-reference' => 'Bilješke',
 	'wikieditor-toolbar-tool-reference-example' => 'Umetni tekst fusnote ovdje',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Odustani',
-	'wikieditor-toolbar-tool-reference-title' => 'Umetni poveznicu',
+	'wikieditor-toolbar-tool-reference-title' => 'Umetni izvor',
 	'wikieditor-toolbar-tool-reference-insert' => 'Umetni',
 	'wikieditor-toolbar-tool-reference-text' => 'Referentni tekst',
 	'wikieditor-toolbar-tool-signature' => 'Potpis i datum',
