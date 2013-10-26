@@ -5405,7 +5405,7 @@ $1:Example.jpg|Цуьнах лаце2',
 	'wikieditor-toolbar-tool-replace-success' => 'Балийна хийцам: $1.', # Fuzzy
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'Ахьа ца гайтна хlу лаха деза.',
 	'wikieditor-toolbar-tool-replace-invalidregex' => 'Ахьа язйина цlе юх-юха нийса яц: $1',
-	'wikieditor-toolbar-section-characters' => 'Саболу куьцаш',
+	'wikieditor-toolbar-section-characters' => 'Лерина куьцаш',
 	'wikieditor-toolbar-characters-page-latin' => 'Латинан',
 	'wikieditor-toolbar-characters-page-latinextended' => 'Латинан алсам',
 	'wikieditor-toolbar-characters-page-ipa' => 'ДАЭ (IPA)',
