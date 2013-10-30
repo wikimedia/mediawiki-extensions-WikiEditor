@@ -1,7 +1,7 @@
 /**
  * Configuration of Toolbar module for wikiEditor
  */
-( function( $ ) { $.wikiEditor.modules.toolbar.config = {
+( function ( $ ) { $.wikiEditor.modules.toolbar.config = {
 
 getDefaultConfig: function() {
 	var fileNamespace = mw.config.get( 'wgFormattedNamespaces' )[6];

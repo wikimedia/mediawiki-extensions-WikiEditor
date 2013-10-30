@@ -1,5 +1,5 @@
 /* TOC Module for wikiEditor */
-( function( $ ) { $.wikiEditor.modules.toc = {
+( function ( $ ) { $.wikiEditor.modules.toc = {
 
 /**
  * Compatability map

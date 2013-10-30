@@ -1,5 +1,5 @@
 /* TemplateEditor module for wikiEditor */
-( function( $ ) { $.wikiEditor.modules.templateEditor = {
+( function ( $ ) { $.wikiEditor.modules.templateEditor = {
 /**
  * Name mappings, dirty hack which will be removed once "TemplateInfo" extension is more fully supported
  */

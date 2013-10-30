@@ -1,5 +1,5 @@
 /* Publish module for wikiEditor */
-( function( $ ) { $.wikiEditor.modules.previewDialog = {
+( function ( $ ) { $.wikiEditor.modules.previewDialog = {
 
 /**
  * Compatability map

@@ -1,5 +1,5 @@
 /* Templates Module for wikiEditor */
-( function( $ ) { $.wikiEditor.modules.templates = {
+( function ( $ ) { $.wikiEditor.modules.templates = {
 
 /**
  * Core Requirements
