@@ -11517,6 +11517,7 @@ $messages['hif-latn'] = array(
 
 /** Croatian (hrvatski)
  * @author Bugoslav
+ * @author Eleassar
  * @author Ex13
  * @author Excaliboor
  * @author MaGa
@@ -11538,7 +11539,7 @@ $messages['hr'] = array(
 	'wikieditor-publish-preference' => 'Omogućiti korak-po-korak izdavanje',
 	'wikieditor-publish-button-publish' => 'Objaviti',
 	'wikieditor-publish-button-cancel' => 'Odustani',
-	'wikieditor-publish-dialog-title' => 'Objavi na {{SITENAME}}',
+	'wikieditor-publish-dialog-title' => 'Objavi na {{GRAMMAR:dajalnik|{{SITENAME}}}}',
 	'wikieditor-publish-dialog-summary' => 'Uredi sažetak (kratko opišite promjene koje ste učinili):',
 	'wikieditor-publish-dialog-minor' => 'Manja promjena',
 	'wikieditor-publish-dialog-watch' => 'Prati ovu stranicu',
@@ -21956,7 +21957,7 @@ $messages['pms'] = array(
 	'wikieditor-toolbar' => "Bara d'utiss ëd modìfica",
 	'wikieditor-toolbar-desc' => "Bara d'utiss ëd modìfica con dovrabilità ameliorà",
 	'wikieditor-toolbar-preference' => "Ativé la bara d'utiss ameliorà",
-	'wikieditor-toolbar-dialogs-preference' => "Ativé ij quàder ëd diàlogh për anserì anliure, tàule e d'àutr", # Fuzzy
+	'wikieditor-toolbar-dialogs-preference' => "Ativé j'assistent për gionté dle anliure, dle tàule e ëdcò la fonsion d'arserca e rampiass",
 	'wikieditor-toolbar-hidesig' => 'Stërmé ël boton ëd firma ant le pàgine ëd lë spassi nominal prinsipal',
 	'wikieditor-toolbar-loading' => 'Cariament...',
 	'wikieditor-toolbar-tool-bold' => 'Grassèt',
@@ -25818,7 +25819,7 @@ $messages['sl'] = array(
 	'wikieditor-publish-preference' => 'Omogoči objavljanje korak-po-koraku',
 	'wikieditor-publish-button-publish' => 'Objavi',
 	'wikieditor-publish-button-cancel' => 'Prekliči',
-	'wikieditor-publish-dialog-title' => 'Objavi na {{SITENAME}}',
+	'wikieditor-publish-dialog-title' => 'Objavi na {{GRAMMAR:dajalnik|{{SITENAME}}}}',
 	'wikieditor-publish-dialog-summary' => 'Povzetek urejanja (na kratko opišite narejene spremembe):',
 	'wikieditor-publish-dialog-minor' => 'Manjše urejanje',
 	'wikieditor-publish-dialog-watch' => 'Opazuj stran',
