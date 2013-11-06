@@ -1,8 +1,7 @@
 /*
  * JavaScript for WikiEditor Template Editor
  */
-
-$( document ).ready( function () {
+jQuery( document ).ready( function ( $ ) {
 	// Disable in template namespace
 	if ( mw.config.get( 'wgNamespaceNumber' ) === 10 ) {
 		return true;

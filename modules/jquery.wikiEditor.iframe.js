@@ -1,6 +1,6 @@
 /* IFrame extension for wikiEditor */
 
-( function( $ ) { $.wikiEditor.extensions.iframe = function( context ) {
+( function ( $ ) { $.wikiEditor.extensions.iframe = function( context ) {
 
 /*
  * Event Handlers
