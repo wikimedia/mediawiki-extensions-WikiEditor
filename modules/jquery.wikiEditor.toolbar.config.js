@@ -1,7 +1,8 @@
 /**
  * Configuration of Toolbar module for wikiEditor
  */
-( function ( $ ) { $.wikiEditor.modules.toolbar.config = {
+/*jshint camelcase:false, quotmark:false */
+( function ( $, mw ) { $.wikiEditor.modules.toolbar.config = {
 
 getDefaultConfig: function() {
 	var fileNamespace = mw.config.get( 'wgFormattedNamespaces' )[6];
@@ -1452,4 +1453,4 @@ getDefaultConfig: function() {
 	} };
 }
 
-}; } ) ( jQuery );
+}; } ) ( jQuery, mediaWiki );
