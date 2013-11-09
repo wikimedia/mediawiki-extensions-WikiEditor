@@ -269,8 +269,6 @@ $wgResourceModules += array(
 			'wikieditor-toolbar-tool-ulist-example',
 			'wikieditor-toolbar-tool-olist',
 			'wikieditor-toolbar-tool-olist-example',
-			'wikieditor-toolbar-tool-indent',
-			'wikieditor-toolbar-tool-indent-example',
 			'wikieditor-toolbar-tool-nowiki',
 			'wikieditor-toolbar-tool-nowiki-example',
 			'wikieditor-toolbar-tool-redirect',
