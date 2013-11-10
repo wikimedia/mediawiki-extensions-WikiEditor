@@ -334,6 +334,7 @@ I guess that "feature-providing modules" means the same as "modules providing fe
 {{Identical|Publish}}",
 	'wikieditor-publish-dialog-goback' => 'Button that closes the dialog that opens when the user clicks the Publish button.
 {{Identical|Go back}}',
+	'wikieditor-template-editor-dialog-title' => '{{Identical|Edit template}}',
 	'wikieditor-template-editor-dialog-submit' => '{{Identical|Update}}',
 	'wikieditor-template-editor-dialog-cancel' => '{{Identical|Cancel}}',
 	'wikieditor-toc-preference' => "Option at [[Special:Preferences]], tab ''{{int:prefs-editing}}''",
