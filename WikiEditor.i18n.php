@@ -1282,6 +1282,7 @@ $1:Eixemplo.jpg|Piet_de_foto_2',
 
 /** Old English (Ænglisc)
  * @author Gott wisst
+ * @author Shirayuki
  * @author Wōdenhelm
  */
 $messages['ang'] = array(
@@ -5406,7 +5407,7 @@ $1:Example.jpg|Цуьнах лаце2',
 	'wikieditor-toolbar-tool-replace-success' => 'Балийна хийцам: $1.', # Fuzzy
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'Ахьа ца гайтна хlу лаха деза.',
 	'wikieditor-toolbar-tool-replace-invalidregex' => 'Ахьа язйина цlе юх-юха нийса яц: $1',
-	'wikieditor-toolbar-section-characters' => 'Лерина куьцаш',
+	'wikieditor-toolbar-section-characters' => 'Леррина символаш',
 	'wikieditor-toolbar-characters-page-latin' => 'Латинан',
 	'wikieditor-toolbar-characters-page-latinextended' => 'Латинан алсам',
 	'wikieditor-toolbar-characters-page-ipa' => 'ДАЭ (IPA)',
@@ -9732,6 +9733,7 @@ $messages['ga'] = array(
 
 /** Scottish Gaelic (Gàidhlig)
  * @author Akerbeltz
+ * @author Shirayuki
  */
 $messages['gd'] = array(
 	'wikieditor' => 'Eadar-aghaidh deasachadh wikitext adhartach',
