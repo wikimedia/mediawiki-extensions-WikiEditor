@@ -4034,6 +4034,7 @@ $1:Cuntuh.jpg|Judul2',
 );
 
 /** Bengali (বাংলা)
+ * @author Aftab1995
  * @author Bellayet
  * @author Leemon2010
  * @author Nasir8891
@@ -4151,8 +4152,8 @@ $messages['bn'] = array(
 	'wikieditor-toolbar-tool-subscript-example' => 'সাবস্ক্রিপ্ট লেখা',
 	'wikieditor-toolbar-group-insert' => 'যোগ করো',
 	'wikieditor-toolbar-tool-gallery' => 'ছবির গ্যালারী',
-	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|ক্যাপশন১
-$1:Example.jpg|ক্যাপশন২',
+	'wikieditor-toolbar-tool-gallery-example' => '$1:উদাহরণ.jpg|ক্যাপশন১
+$1:উদাহরণ.jpg|ক্যাপশন২',
 	'wikieditor-toolbar-tool-newline' => 'নতুন লাইন',
 	'wikieditor-toolbar-tool-table' => 'ছক',
 	'wikieditor-toolbar-tool-table-example-old' => '-
@@ -6894,6 +6895,7 @@ Möchten Sie daraus einen internen Link machen?',
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
  * @author Gorizon
+ * @author Marmase
  * @author Mirzali
  * @author Xoser
  */
@@ -6976,10 +6978,10 @@ $messages['diq'] = array(
 	'wikieditor-toolbar-file-format-none' => 'çıniyo',
 	'wikieditor-toolbar-tool-file-insert' => 'Têare ker',
 	'wikieditor-toolbar-tool-file-cancel' => 'Bıterkne',
-	'wikieditor-toolbar-tool-reference' => 'çıme',
+	'wikieditor-toolbar-tool-reference' => 'Referans',
 	'wikieditor-toolbar-tool-reference-example' => 'metnê notê bınini tiya kerê',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Bıtexelne',
-	'wikieditor-toolbar-tool-reference-title' => 'Referance de bike',
+	'wikieditor-toolbar-tool-reference-title' => 'Referans dek',
 	'wikieditor-toolbar-tool-reference-insert' => 'de bike',
 	'wikieditor-toolbar-tool-reference-text' => 'Nusteyê Referansi',
 	'wikieditor-toolbar-tool-signature' => 'tamğayê imza ve zamani',
@@ -7080,7 +7082,7 @@ $1:misal.jpg|nuşteyê resmi2',
 	'wikieditor-toolbar-characters-endash' => 'tira kılme',
 	'wikieditor-toolbar-characters-emdash' => 'tira derge',
 	'wikieditor-toolbar-characters-minus' => 'işaretê kemiye',
-	'wikieditor-toolbar-section-help' => 'Peşti',
+	'wikieditor-toolbar-section-help' => 'Desteg',
 	'wikieditor-toolbar-help-heading-description' => 'Şınasnayış',
 	'wikieditor-toolbar-help-heading-syntax' => 'o yo ke şıma nuşt',
 	'wikieditor-toolbar-help-heading-result' => 'o yo ke şıma gırewt',
@@ -7090,7 +7092,7 @@ $1:misal.jpg|nuşteyê resmi2',
 	'wikieditor-toolbar-help-page-list' => 'Listey',
 	'wikieditor-toolbar-help-page-file' => 'dosyayi',
 	'wikieditor-toolbar-help-page-reference' => 'Çımey',
-	'wikieditor-toolbar-help-page-discussion' => 'werê-ameyiş/munaqeşa',
+	'wikieditor-toolbar-help-page-discussion' => 'Vaten',
 	'wikieditor-toolbar-help-content-italic-description' => 'italik',
 	'wikieditor-toolbar-help-content-italic-syntax' => "''metno italik''",
 	'wikieditor-toolbar-help-content-italic-result' => '<em>metno italik</em>',
@@ -7127,7 +7129,7 @@ $1:misal.jpg|nuşteyê resmi2',
 	'wikieditor-toolbar-help-content-file-description' => 'dosyaya weradaye/nımıte',
 	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Nuşteyê resîmî]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>metnê resmi</div></div>",
-	'wikieditor-toolbar-help-content-reference-description' => 'çıme/referans',
+	'wikieditor-toolbar-help-content-reference-description' => 'Referans',
 	'wikieditor-toolbar-help-content-reference-syntax' => 'metnê peli.&lt;ref name="tesel kerdış/cerebnayiş"&gt;[http://www.misal.org metnê gıreyi], zeylê metni.&lt;/ref&gt;',
 	'wikieditor-toolbar-help-content-reference-result' => "metnê peli.<sup><a href='#'>[1]</a></sup>",
 	'wikieditor-toolbar-help-content-rereference-description' => 'şuxulnayişê zeylê o çımeyi',
