@@ -20639,6 +20639,7 @@ $messages['nso'] = array(
 );
 
 /** Occitan (occitan)
+ * @author Beta16
  * @author Boulaur
  * @author Cedric31
  * @author Jfblanc
@@ -20713,7 +20714,7 @@ $messages['oc'] = array(
 	'wikieditor-toolbar-tool-file-example' => 'Exemple.jpg',
 	'wikieditor-toolbar-tool-file-title' => 'Importar un fichièr',
 	'wikieditor-toolbar-file-target' => 'Nom de fichièr :',
-	'wikieditor-toolbar-file-caption' => 'Legenda :',
+	'wikieditor-toolbar-file-caption' => 'Legenda:',
 	'wikieditor-toolbar-file-size' => 'Talha :',
 	'wikieditor-toolbar-file-float' => 'Alinhament :',
 	'wikieditor-toolbar-file-default' => '(per defaut)',
