@@ -277,7 +277,11 @@ context.evt = $.extend( context.evt, {
  * Internally used functions
  */
 context.fn = $.extend( context.fn, {
-	highlightLine: function ( highlightLine ) {
+	/**
+	 * @param {jQuery} $element
+	 * @param mode
+	 */
+	highlightLine: function ( $element ) {
 		if ( !$element.is( 'p' ) ) {
 			$element = $element.closest( 'p' );
 		}
@@ -285,7 +289,7 @@ context.fn = $.extend( context.fn, {
 		setTimeout( function() { $element.animate( { 'backgroundColor': 'white' }, 'slow' ); }, 100 );
 		setTimeout( function() { $element.css( 'backgroundColor', 'white' ); }, 1000 );
 	},
-	htmlToText: function ( htmlToText ) {
+	htmlToText: function ( html ) {
 		// This function is slow for large inputs, so aggressively cache input/output pairs
 		if ( html in context.htmlToTextMap ) {
 			return context.htmlToTextMap[html];
@@ -359,7 +363,7 @@ context.fn = $.extend( context.fn, {
 	 * @param strict If true, the element the selection starts in cannot match (default: false)
 	 * @return jQuery object or null if unknown
 	 */
-	beforeSelection: function ( beforeSelection ) {
+	beforeSelection: function ( classname, strict ) {
 		if ( typeof classname === 'undefined' ) {
 			classname = '';
 		}
@@ -442,7 +446,7 @@ context.fn = $.extend( context.fn, {
 	/**
 	 * Object used by traverser(). Don't use this unless you know what you're doing
 	 */
-	rawTraverser: function ( rawTraverser ) {
+	rawTraverser: function ( node, inP, ancestor, skipNoinclude ) {
 		this.node = node;
 		this.inP = inP;
 		this.ancestor = ancestor;
@@ -530,28 +534,28 @@ context.fn = $.extend( context.fn, {
 	 * @return Traverser object, use .next() or .prev() to get a traverser object referring to the
 	 *  previous/next node
 	 */
-	traverser: function ( traverser ) {
+	traverser: function ( start ) {
 		// Find the leftmost leaf node in the tree
 		var startNode = start.jquery ? start.get( 0 ) : start;
 		var node = startNode;
-		var inP = node.nodeName == 'P' ? node : null;
+		var inP = node.nodeName === 'P' ? node : null;
 		do {
 			// Filter nodes with the wikiEditor-noinclude class
 			// Don't use $( p ).hasClass( 'wikiEditor-noinclude' ) because
 			// $() is slow in a tight loop
-			while ( node && ( ' ' + node.className + ' ' ).indexOf( ' wikiEditor-noinclude ' ) != -1 ) {
+			while ( node && ( ' ' + node.className + ' ' ).indexOf( ' wikiEditor-noinclude ' ) !== -1 ) {
 				node = node.nextSibling;
 			}
 			if ( node && node.firstChild ) {
 				node = node.firstChild;
-				if ( node.nodeName == 'P' ) {
+				if ( node.nodeName === 'P' ) {
 					inP = node;
 				}
 			}
 		} while ( node && node.firstChild );
 		return new context.fn.rawTraverser( node, inP, startNode, true );
 	},
-	getOffset: function ( getOffset ) {
+	getOffset: function ( offset ) {
 		if ( !context.offsets ) {
 			context.fn.refreshOffsets();
 		}
@@ -642,10 +646,10 @@ context.fn = $.extend( context.fn, {
 	/**
 	 * Update the history queue
 	 *
-	 * @param htmlChange pass true or false to inidicate if there was a text change that should potentially
+	 * @param htmlChange Pass true or false to inidicate if there was a text change that should potentially
 	 * 	be given a new history state.
 	 */
-	updateHistory: function ( updateHistory ) {
+	updateHistory: function ( htmlChange ) {
 		var newHTML = context.$content.html();
 		var newSel = context.fn.getCaretPosition();
 		// Was text changed? Was it because of a REDO or UNDO action?
@@ -917,7 +921,7 @@ context.fn = $.extend( context.fn, {
 	 * selection is empty.
 	 * DO NOT CALL THIS DIRECTLY, use $.textSelection( 'functionname', options ) instead
 	 */
-	encapsulateSelection: function ( encapsulateSelection ) {
+	encapsulateSelection: function ( options ) {
 		var selText = $(this).textSelection( 'getSelection' );
 		var selTextArr;
 		var collapseToEnd = false;
@@ -1129,7 +1133,7 @@ context.fn = $.extend( context.fn, {
 	 * Gets the position (in resolution of bytes not nessecarily characters) in a textarea
 	 * DO NOT CALL THIS DIRECTLY, use $.textSelection( 'functionname', options ) instead
 	 */
-	getCaretPosition: function ( getCaretPosition ) {
+	getCaretPosition: function ( options ) {
 		var startPos = null, endPos = null;
 		if ( context.$iframe[0].contentWindow.getSelection ) {
 			var selection = context.$iframe[0].contentWindow.getSelection();
@@ -1266,7 +1270,7 @@ context.fn = $.extend( context.fn, {
 	 * @param startContainer Element in iframe to start selection in. If not set, start is a character offset
 	 * @param endContainer Element in iframe to end selection in. If not set, end is a character offset
 	 */
-	setSelection: function ( setSelection ) {
+	setSelection: function ( options ) {
 		var sc = options.startContainer, ec = options.endContainer;
 		sc = sc && sc.jquery ? sc[0] : sc;
 		ec = ec && ec.jquery ? ec[0] : ec;
@@ -1353,7 +1357,7 @@ context.fn = $.extend( context.fn, {
 	 * Scroll a textarea to the current cursor position. You can set the cursor position with setSelection()
 	 * DO NOT CALL THIS DIRECTLY, use $.textSelection( 'functionname', options ) instead
 	 */
-	scrollToCaretPosition: function ( scrollToCaretPosition ) {
+	scrollToCaretPosition: function ( options ) {
 		context.fn.scrollToTop( context.fn.getElementAtCursor(), true );
 	},
 	/**
@@ -1363,7 +1367,7 @@ context.fn = $.extend( context.fn, {
 	 * @param $element jQuery object containing an element in the iframe
 	 * @param force If true, scroll the element even if it's already visible
 	 */
-	scrollToTop: function ( scrollToTop ) {
+	scrollToTop: function ( $element, force ) {
 		var html = context.$content.closest( 'html' ),
 			body = context.$content.closest( 'body' ),
 			parentHtml = $( 'html' ),
