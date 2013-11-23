@@ -8918,6 +8918,7 @@ $1:مثال.jpg|عنوان ۲',
  * @author Nedergard
  * @author Nike
  * @author Olli
+ * @author Pxos
  * @author Silvonen
  * @author Str4nd
  * @author Stryn
@@ -8984,6 +8985,7 @@ $messages['fi'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Virheellinen otsikko',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Ulkoinen linkki',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'Tarkastetaan sivun olemassaolo…',
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => 'Täsmennyssivu',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'Antamasi otsikko on virheellinen.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'URL-osoite, jonka annoit näyttää siltä kuin se olisi linkki toiselle wikisivulle.
 Haluatko tehdä siitä sisäisen linkin?',
@@ -15319,7 +15321,7 @@ $1:Example.jpg|설명2',
 	'wikieditor-toolbar-tool-table-zero' => '행이나 열의 개수가 0인 표를 넣을 수 없습니다.',
 	'wikieditor-toolbar-tool-replace' => '찾아 바꾸기',
 	'wikieditor-toolbar-tool-replace-title' => '찾아 바꾸기',
-	'wikieditor-toolbar-tool-replace-search' => '찾기:',
+	'wikieditor-toolbar-tool-replace-search' => '찾을 대상:',
 	'wikieditor-toolbar-tool-replace-replace' => '바꾸기:',
 	'wikieditor-toolbar-tool-replace-case' => '대소문자를 구별',
 	'wikieditor-toolbar-tool-replace-regex' => '찾을 문자열에 정규 표현식을 적용',
