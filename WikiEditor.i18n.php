@@ -5742,7 +5742,7 @@ $messages['co'] = array(
 	'wikieditor-toolbar-tool-heading-5' => 'Livellu 5',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Jkjk
  * @author Kuvaly
  * @author Littledogboy
@@ -6051,7 +6051,7 @@ $messages['csb'] = array(
 	'wikieditor-toolbar-help-content-xlink-description' => 'Bùtnowé lënczi',
 );
 
-/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
