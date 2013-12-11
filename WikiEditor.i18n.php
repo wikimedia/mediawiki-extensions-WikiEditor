@@ -31269,6 +31269,7 @@ $1:Example.jpg|Àkọlé2',
  * @author Horacewai2
  * @author Simon Shek
  * @author Waihorace
+ * @author Xiaomingyan
  */
 $messages['yue'] = array(
 	'wikieditor' => '進階維基文字編輯界面',
@@ -31401,8 +31402,8 @@ $1:Example.jpg|標題2',
 | 行 2, 格 3',
 	'wikieditor-toolbar-tool-table-example-header' => '標題',
 	'wikieditor-toolbar-tool-table-title' => '插入表格',
-	'wikieditor-toolbar-tool-table-dimensions-rows' => '行',
-	'wikieditor-toolbar-tool-table-dimensions-columns' => '行',
+	'wikieditor-toolbar-tool-table-dimensions-rows' => '行数',
+	'wikieditor-toolbar-tool-table-dimensions-columns' => '列數',
 	'wikieditor-toolbar-tool-table-dimensions-header' => '新增標題行',
 	'wikieditor-toolbar-tool-table-wikitable' => '連埋外框同格式',
 	'wikieditor-toolbar-tool-table-sortable' => '整一個可以排序嘅表格',
@@ -31662,8 +31663,8 @@ $1:Example.jpg|标题2',
 	'wikieditor-toolbar-tool-table-example-cell-text' => '单元格文字',
 	'wikieditor-toolbar-tool-table-example-header' => '标题文字',
 	'wikieditor-toolbar-tool-table-title' => '插入表格',
-	'wikieditor-toolbar-tool-table-dimensions-rows' => '行',
-	'wikieditor-toolbar-tool-table-dimensions-columns' => '列',
+	'wikieditor-toolbar-tool-table-dimensions-rows' => '行数',
+	'wikieditor-toolbar-tool-table-dimensions-columns' => '列数',
 	'wikieditor-toolbar-tool-table-dimensions-header' => '添加标题行',
 	'wikieditor-toolbar-tool-table-wikitable' => '显示边框',
 	'wikieditor-toolbar-tool-table-sortable' => '使表格内容可排序',
@@ -31792,6 +31793,7 @@ $1:Example.jpg|标题2',
  * @author Waihorace
  * @author Wong128hk
  * @author Wrightbus
+ * @author Xiaomingyan
  */
 $messages['zh-hant'] = array(
 	'wikieditor' => '進階維基文字編輯介面',
@@ -31937,8 +31939,8 @@ $1:Example.jpg|標題2',
 | 行 2, 格 3',
 	'wikieditor-toolbar-tool-table-example-header' => '標題',
 	'wikieditor-toolbar-tool-table-title' => '插入表格',
-	'wikieditor-toolbar-tool-table-dimensions-rows' => '行',
-	'wikieditor-toolbar-tool-table-dimensions-columns' => '列',
+	'wikieditor-toolbar-tool-table-dimensions-rows' => '行數',
+	'wikieditor-toolbar-tool-table-dimensions-columns' => '列數',
 	'wikieditor-toolbar-tool-table-dimensions-header' => '新增標題行',
 	'wikieditor-toolbar-tool-table-wikitable' => '設定邊框格式',
 	'wikieditor-toolbar-tool-table-sortable' => '使表格內容可排序',
