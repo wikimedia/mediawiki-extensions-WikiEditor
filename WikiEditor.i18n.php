@@ -5312,6 +5312,7 @@ $messages['ce'] = array(
 	'wikieditor-toolbar-tool-link-int-target-status-invalid' => 'Ца магайо цlе',
 	'wikieditor-toolbar-tool-link-int-target-status-external' => 'Арахьара хьажораг',
 	'wikieditor-toolbar-tool-link-int-target-status-loading' => 'Агlо ю яц хьоьжуш…',
+	'wikieditor-toolbar-tool-link-int-target-status-disambig' => 'Дуккха маьӀнаш долу агӀонаш',
 	'wikieditor-toolbar-tool-link-int-invalid' => 'Гойтуш йолу цlе ца магайо.',
 	'wikieditor-toolbar-tool-link-lookslikeinternal' => 'Ахьа хоттийна URL кхечу вики-агӀонан хьажорагах тера ю. Лаьий хьуна и хьажораг чоьхьарчех я?',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => 'Чоьхьа хьажораг',
