@@ -13664,6 +13664,7 @@ $1:Example.jpg|Myndlýsing2',
  * @author Beta16
  * @author Darth Kule
  * @author F. Cosoleto
+ * @author FRacco
  * @author Gianfranco
  * @author Gliu
  * @author McDutchie
@@ -13703,7 +13704,7 @@ $messages['it'] = array(
 	'wikieditor-toc-hide' => 'Nascondi i contenuti',
 	'wikieditor-toolbar' => 'Barra degli strumenti di modifica',
 	'wikieditor-toolbar-desc' => 'Barra degli strumenti di modifica della pagina con migliorata usabilità',
-	'wikieditor-toolbar-preference' => 'Abilita barra degli strumenti di modifica avanzata',
+	'wikieditor-toolbar-preference' => 'Abilita la barra degli strumenti di modifica avanzata',
 	'wikieditor-toolbar-dialogs-preference' => "Abilita le finestre per l'inserimento di collegamenti, tabelle e la funzione di cerca e sostituisci",
 	'wikieditor-toolbar-hidesig' => 'Nasconde il pulsante della firma dalle pagine nel namespace principale',
 	'wikieditor-toolbar-loading' => 'Caricamento in corso...',
