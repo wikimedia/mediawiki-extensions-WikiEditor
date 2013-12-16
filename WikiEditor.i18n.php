@@ -6865,9 +6865,11 @@ $1:Beispiel.jpg|Beschreibung2',
 );
 
 /** Swiss High German (Schweizer Hochdeutsch)
+ * @author Filzstift
  * @author Geitost
  */
 $messages['de-ch'] = array(
+	'wikieditor-toolbar-dialogs-preference' => 'Assistenten zum Einfügen von Links und Tabellen sowie die Funktion «Suchen und Ersetzen» aktivieren',
 	'wikieditor-toolbar-tool-reference-example' => 'Fussnotentext hier einfügen',
 	'wikieditor-toolbar-tool-big' => 'Gross',
 	'wikieditor-toolbar-tool-big-example' => 'Grosser Text',
