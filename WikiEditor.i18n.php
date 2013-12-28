@@ -7095,7 +7095,7 @@ $1:misal.jpg|nuşteyê resmi2',
 	'wikieditor-toolbar-help-page-list' => 'Listey',
 	'wikieditor-toolbar-help-page-file' => 'dosyayi',
 	'wikieditor-toolbar-help-page-reference' => 'Çımey',
-	'wikieditor-toolbar-help-page-discussion' => 'Vaten',
+	'wikieditor-toolbar-help-page-discussion' => 'Werênayış',
 	'wikieditor-toolbar-help-content-italic-description' => 'italik',
 	'wikieditor-toolbar-help-content-italic-syntax' => "''metno italik''",
 	'wikieditor-toolbar-help-content-italic-result' => '<em>metno italik</em>',
@@ -23988,6 +23988,7 @@ $1:Example.jpg|Titele2',
  * @author Dim Grits
  * @author Eleferen
  * @author G0rn
+ * @author Iluvatar
  * @author KPu3uC B Poccuu
  * @author Kaganer
  * @author Lockal
@@ -24010,7 +24011,7 @@ $messages['ru'] = array(
 	'wikieditor-publish-preference' => 'Включить пошаговую публикацию',
 	'wikieditor-publish-button-publish' => 'Опубликовать',
 	'wikieditor-publish-button-cancel' => 'Отмена',
-	'wikieditor-publish-dialog-title' => 'Опубликование в проекте {{SITENAME}}',
+	'wikieditor-publish-dialog-title' => 'Публикация в проекте {{SITENAME}}',
 	'wikieditor-publish-dialog-summary' => 'Описание изменений (кратко укажите какие изменения были произведены):',
 	'wikieditor-publish-dialog-minor' => 'Малое изменение',
 	'wikieditor-publish-dialog-watch' => 'Наблюдать за этой страницей',
