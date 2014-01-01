@@ -5072,7 +5072,7 @@ Voleu convertir-lo en un enllaç intern?",
 	'wikieditor-toolbar-tool-link-empty' => 'No heu entrat res per enllaçar.',
 	'wikieditor-toolbar-tool-file' => 'Fitxer incrustat',
 	'wikieditor-toolbar-tool-file-example' => 'Exemple.png',
-	'wikieditor-toolbar-tool-file-title' => 'Insereix arxiu',
+	'wikieditor-toolbar-tool-file-title' => 'Inserir un fitxer',
 	'wikieditor-toolbar-file-target' => 'Nom del fitxer:',
 	'wikieditor-toolbar-file-caption' => 'Títol:',
 	'wikieditor-toolbar-file-size' => 'Mida:',
@@ -5080,7 +5080,7 @@ Voleu convertir-lo en un enllaç intern?",
 	'wikieditor-toolbar-file-default' => '(per defecte)',
 	'wikieditor-toolbar-file-format' => 'Format:',
 	'wikieditor-toolbar-file-format-none' => 'cap',
-	'wikieditor-toolbar-tool-file-insert' => 'Inserta',
+	'wikieditor-toolbar-tool-file-insert' => 'Insereix',
 	'wikieditor-toolbar-tool-file-cancel' => 'Cancel·la',
 	'wikieditor-toolbar-tool-reference' => 'Referència',
 	'wikieditor-toolbar-tool-reference-example' => 'Inseriu la nota al peu aquí',
@@ -5298,8 +5298,8 @@ $messages['ce'] = array(
 	'wikieditor-toolbar-tool-link' => 'Хьажораг',
 	'wikieditor-toolbar-tool-link-title' => 'Чуйилла хьажораг',
 	'wikieditor-toolbar-tool-link-int' => 'Вики агӀоне',
-	'wikieditor-toolbar-tool-link-int-target' => 'Хьажийна агlо йа URL:',
-	'wikieditor-toolbar-tool-link-int-target-tooltip' => 'Агlон цlе йа URL',
+	'wikieditor-toolbar-tool-link-int-target' => 'Хьажийна агӀо я URL:',
+	'wikieditor-toolbar-tool-link-int-target-tooltip' => 'АгӀон цӀе я URL',
 	'wikieditor-toolbar-tool-link-int-text' => 'Гойтуш долу йоза:',
 	'wikieditor-toolbar-tool-link-int-text-tooltip' => 'Чудилла схьагайта дезаш долу йоза',
 	'wikieditor-toolbar-tool-link-ext' => 'Хьалхара агlон чохь',
@@ -16601,6 +16601,16 @@ $1:Exemplum.jpg|Descriptio 2',
 	'wikieditor-toolbar-help-content-signaturetimestamp-result' => "<a href='#' title='{{#special:mypage}}'>Nomen usoris</a> (<a href='#' title='{{#special:mytalk}}'>disputatio</a>) 15:54, 10 Iunii 2009 (UTC)",
 	'wikieditor-toolbar-help-content-signature-description' => 'Subscriptio',
 	'wikieditor-toolbar-help-content-signature-result' => "<a href='#' title='{{#special:mypage}}'>Nomen usoris</a> (<a href='#' title='{{#special:mytalk}}'>disputatio</a>)",
+);
+
+/** Ladino (Ladino)
+ * @author Menachem.Moreira
+ */
+$messages['lad'] = array(
+	'wikieditor-wikitext-tab' => 'Vikiteksto',
+	'wikieditor-publish-button-publish' => 'Publikar',
+	'wikieditor-publish-dialog-title' => 'Publikar a {{SITENAME}}',
+	'wikieditor-publish-dialog-publish' => 'Publikar',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
