@@ -249,7 +249,7 @@ if ( !context || typeof context === 'undefined' ) {
 		'oldDelayedHTML': null,
 		// The previous selection of the iframe, stored to detect whether the selection has changed
 		'oldDelayedSel': null,
-		// Saved selection state for IE
+		// Saved selection state for old IE (<=10)
 		'savedSelection': null,
 		// Stack of states in { html: [string] } form
 		'history': [],
@@ -459,17 +459,17 @@ if ( !context || typeof context === 'undefined' ) {
 		},
 
 		/**
-		 * Save text selection for IE
+		 * Save text selection for old IE (<=10)
 		 */
 		saveSelection: function () {
-			if ( $.client.profile().name === 'msie' ) {
+			if ( $.client.profile().name === 'msie' && document.selection && document.selection.createRange ) {
 				context.$textarea.focus();
 				context.savedSelection = document.selection.createRange();
 			}
 		},
 
 		/**
-		 * Restore text selection for IE
+		 * Restore text selection for old IE (<=10)
 		 */
 		restoreSelection: function () {
 			if ( $.client.profile().name === 'msie' && context.savedSelection !== null ) {
