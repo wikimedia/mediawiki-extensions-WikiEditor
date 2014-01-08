@@ -24163,7 +24163,7 @@ $1:Example.jpg|Описание2',
 	'wikieditor-toolbar-tool-replace-button-replaceall' => 'Заменить все',
 	'wikieditor-toolbar-tool-replace-close' => 'Закрыть',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'По вашему запросу ничего не найдено.',
-	'wikieditor-toolbar-tool-replace-success' => '$1 {{PLURAL:$1|замена произведена|замен произведено|замены произведены}}.', # Fuzzy
+	'wikieditor-toolbar-tool-replace-success' => '$1 {{PLURAL:$1|замена произведена|замен произведено|замены произведены}}.',
 	'wikieditor-toolbar-tool-replace-emptysearch' => 'Вы не указали что следует искать.',
 	'wikieditor-toolbar-tool-replace-invalidregex' => 'Введённое вами регулярное выражение ошибочно:  $1',
 	'wikieditor-toolbar-section-characters' => 'Спецсимволы',
