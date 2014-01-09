@@ -5326,6 +5326,7 @@ $messages['ce'] = array(
 	'wikieditor-toolbar-file-size' => 'Барам:',
 	'wikieditor-toolbar-file-float' => 'Нисдар:',
 	'wikieditor-toolbar-file-default' => '(Iад йитарца)',
+	'wikieditor-toolbar-file-format-none' => 'цхьаа',
 	'wikieditor-toolbar-tool-file-insert' => 'Чудилла',
 	'wikieditor-toolbar-tool-file-cancel' => 'Цаоьшу',
 	'wikieditor-toolbar-tool-reference' => 'ТIетовжар',
