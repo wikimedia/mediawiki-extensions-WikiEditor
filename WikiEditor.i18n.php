@@ -30633,7 +30633,7 @@ $messages['vi'] = array(
 	'wikieditor-toolbar-tool-subscript' => 'Viết xuống dưới',
 	'wikieditor-toolbar-tool-subscript-example' => 'Chữ được viết xuống dưới',
 	'wikieditor-toolbar-group-insert' => 'Chèn',
-	'wikieditor-toolbar-tool-gallery' => 'Album hình ảnh',
+	'wikieditor-toolbar-tool-gallery' => 'Tập ảnh',
 	'wikieditor-toolbar-tool-gallery-example' => '$1:Ví dụ.jpg|Chú thích 1
 $1:Ví dụ.jpg|Chú thích 2',
 	'wikieditor-toolbar-tool-newline' => 'Dòng mới',
