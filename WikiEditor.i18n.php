@@ -27601,6 +27601,16 @@ Idadi ya mistari au ya safu si halali.',
 	'wikieditor-toolbar-help-content-indent-result' => 'Maandiko ya kawaida<dl><dd>Yaliyojongezwa ndani<dl><dd>Yaliyojongezwa ndani</dd></dl></dd></dl>',
 );
 
+/** Silesian (ślůnski)
+ * @author Krol111
+ */
+$messages['szl'] = array(
+	'wikieditor' => 'Zaawansowano tajla edycyji wikitekstu',
+	'wikieditor-desc' => 'Dowo poszyrzalno tajla edycyji wikitekstu a wjela funkcyji uofyrowane bez moduły',
+	'wikieditor-wikitext-tab' => 'Wikitext',
+	'wikieditor-loading' => 'Trwo ładowańy…',
+);
+
 /** Tamil (தமிழ்)
  * @author Balajijagadesh
  * @author Karthi.dr
