@@ -17117,6 +17117,7 @@ $1:Veurbeildj2|Biesjrif2',
 );
 
 /** لوری (لوری)
+ * @author Bonevarluri
  * @author Mogoeilor
  */
 $messages['lrc'] = array(
@@ -17166,6 +17167,9 @@ $messages['lrc'] = array(
 	'wikieditor-toolbar-tool-reference-insert' => 'دائن',
 	'wikieditor-toolbar-section-advanced' => 'پيشرفته',
 	'wikieditor-toolbar-tool-heading' => 'سربلگه',
+	'wikieditor-toolbar-tool-heading-1' => 'ریتراز1',
+	'wikieditor-toolbar-tool-heading-3' => 'ریتراز3',
+	'wikieditor-toolbar-tool-heading-5' => 'ریتراز5',
 	'wikieditor-toolbar-tool-small' => 'كؤچك',
 	'wikieditor-toolbar-tool-small-example' => 'متن كؤچك',
 	'wikieditor-toolbar-group-insert' => 'دائن',
@@ -17190,6 +17194,10 @@ $messages['lrc'] = array(
 	'wikieditor-toolbar-characters-page-khmer' => 'خمر',
 	'wikieditor-toolbar-section-help' => 'هومياری',
 	'wikieditor-toolbar-help-page-discussion' => 'گپ',
+	'wikieditor-toolbar-help-content-heading2-description' => 'دوئمی ریتراز سرون',
+	'wikieditor-toolbar-help-content-heading3-description' => 'سئمین ریتراز سرون',
+	'wikieditor-toolbar-help-content-heading4-description' => 'چئارمی ریتراز سرون',
+	'wikieditor-toolbar-help-content-heading5-description' => 'پنجمین ریتراز سرون',
 	'wikieditor-toolbar-help-content-indent-description' => 'مئن رئته',
 );
 
@@ -28809,6 +28817,7 @@ $messages['tpi'] = array(
  * @author Joseph
  * @author Koc61
  * @author Manco Capac
+ * @author Meelo
  * @author Rapsar
  * @author Sadrettin
  * @author Srhat
@@ -28883,6 +28892,7 @@ $messages['tr'] = array(
 	'wikieditor-toolbar-tool-file' => 'Gömülü dosya',
 	'wikieditor-toolbar-tool-file-example' => 'Örnek.jpg',
 	'wikieditor-toolbar-file-float' => 'Hizalama:',
+	'wikieditor-toolbar-tool-file-insert' => 'Ekle',
 	'wikieditor-toolbar-tool-reference' => 'Kaynakça',
 	'wikieditor-toolbar-tool-reference-example' => 'Dipnot metnini buraya ekleyin',
 	'wikieditor-toolbar-tool-reference-cancel' => 'İptal',
