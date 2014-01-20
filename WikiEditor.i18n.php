@@ -15243,6 +15243,7 @@ $messages['kn'] = array(
  * @author Kwj2772
  * @author LFM
  * @author Mintz0223
+ * @author Priviet
  * @author 관인생략
  * @author 아라
  */
@@ -15320,7 +15321,7 @@ $messages['ko'] = array(
 	'wikieditor-toolbar-file-caption' => '설명:',
 	'wikieditor-toolbar-file-size' => '크기:',
 	'wikieditor-toolbar-file-float' => '정렬:',
-	'wikieditor-toolbar-file-default' => '(기본값)',
+	'wikieditor-toolbar-file-default' => '(기본 값)',
 	'wikieditor-toolbar-file-format' => '형식:',
 	'wikieditor-toolbar-file-format-none' => '없음',
 	'wikieditor-toolbar-tool-file-insert' => '넣기',
@@ -17154,6 +17155,7 @@ $messages['lrc'] = array(
 	'wikieditor-toolbar-tool-link' => 'ديس ون',
 	'wikieditor-toolbar-tool-link-int' => 'سی ويكی بلگه',
 	'wikieditor-toolbar-tool-link-cancel' => 'رد كردن',
+	'wikieditor-toolbar-tool-file-title' => 'نیائن جانیا',
 	'wikieditor-toolbar-file-size' => 'انازه',
 	'wikieditor-toolbar-file-float' => 'د راست چيين',
 	'wikieditor-toolbar-file-default' => 'پيش فرض',
@@ -17193,6 +17195,7 @@ $messages['lrc'] = array(
 	'wikieditor-toolbar-characters-page-lao' => 'لائو',
 	'wikieditor-toolbar-characters-page-khmer' => 'خمر',
 	'wikieditor-toolbar-section-help' => 'هومياری',
+	'wikieditor-toolbar-help-page-file' => 'جانیایا',
 	'wikieditor-toolbar-help-page-discussion' => 'گپ',
 	'wikieditor-toolbar-help-content-heading2-description' => 'دوئمی ریتراز سرون',
 	'wikieditor-toolbar-help-content-heading3-description' => 'سئمین ریتراز سرون',
