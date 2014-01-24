@@ -17167,6 +17167,7 @@ $messages['lrc'] = array(
 	'wikieditor-toolbar-tool-reference-cancel' => 'رد كردن',
 	'wikieditor-toolbar-tool-reference-title' => 'دائن سرچشمه',
 	'wikieditor-toolbar-tool-reference-insert' => 'دائن',
+	'wikieditor-toolbar-tool-signature' => 'امضا و دیسمن وخت',
 	'wikieditor-toolbar-section-advanced' => 'پيشرفته',
 	'wikieditor-toolbar-tool-heading' => 'سربلگه',
 	'wikieditor-toolbar-tool-heading-1' => 'ریتراز1',
@@ -17201,6 +17202,8 @@ $messages['lrc'] = array(
 	'wikieditor-toolbar-help-content-heading3-description' => 'سئمین ریتراز سرون',
 	'wikieditor-toolbar-help-content-heading4-description' => 'چئارمی ریتراز سرون',
 	'wikieditor-toolbar-help-content-heading5-description' => 'پنجمین ریتراز سرون',
+	'wikieditor-toolbar-help-content-signaturetimestamp-description' => 'امضا و دیسمن وخت',
+	'wikieditor-toolbar-help-content-signature-description' => 'امضا',
 	'wikieditor-toolbar-help-content-indent-description' => 'مئن رئته',
 );
 
