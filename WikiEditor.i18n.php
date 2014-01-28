@@ -17155,6 +17155,7 @@ $messages['lrc'] = array(
 	'wikieditor-toolbar-tool-link' => 'ديس ون',
 	'wikieditor-toolbar-tool-link-int' => 'سی ويكی بلگه',
 	'wikieditor-toolbar-tool-link-cancel' => 'رد كردن',
+	'wikieditor-toolbar-tool-link-int-target-status-notexists' => 'بلگه نیئش',
 	'wikieditor-toolbar-tool-file-title' => 'نیائن جانیا',
 	'wikieditor-toolbar-file-size' => 'انازه',
 	'wikieditor-toolbar-file-float' => 'د راست چيين',
