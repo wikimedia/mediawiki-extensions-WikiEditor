@@ -30006,7 +30006,7 @@ $messages['uz'] = array(
 	'wikieditor-toolbar-tool-link-lookslikeinternal-int' => 'Ichki havola',
 	'wikieditor-toolbar-tool-link-lookslikeinternal-ext' => 'Tashqi havola',
 	'wikieditor-toolbar-tool-link-empty' => 'Nimaga ishorat qilishni koʻrsatmadingiz',
-	'wikieditor-toolbar-tool-file' => 'Oʻrnatilgan fayl',
+	'wikieditor-toolbar-tool-file' => 'Fayl oʻrnatish',
 	'wikieditor-toolbar-tool-file-example' => 'Example.jpg',
 	'wikieditor-toolbar-tool-file-title' => 'Fayl qoʻyish',
 	'wikieditor-toolbar-file-target' => 'Fayl nomi:',
@@ -30165,7 +30165,7 @@ $1:Example.jpg|Izoh2',
 	'wikieditor-toolbar-help-content-olist-description' => 'Raqamlangan roʻyxat',
 	'wikieditor-toolbar-help-content-olist-syntax' => '# Roʻyxat qismi<br /># Roʻyxat qismi',
 	'wikieditor-toolbar-help-content-olist-result' => '<ol><li>Roʻyxat qismi</li><li>Roʻyxat qismi</li></ol>',
-	'wikieditor-toolbar-help-content-file-description' => 'Oʻrnatilgan fayl',
+	'wikieditor-toolbar-help-content-file-description' => 'Fayl oʻrnatish',
 	'wikieditor-toolbar-help-content-file-syntax' => '[[$1:Example.png|thumb|Izohlovchi matn]]',
 	'wikieditor-toolbar-help-content-file-result' => "<div style='width:104px;' class='thumbinner'><a title='
 Izohlovchi matn' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Kattalashtirish' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>
