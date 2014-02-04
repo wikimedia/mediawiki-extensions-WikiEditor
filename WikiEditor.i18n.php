@@ -5367,20 +5367,20 @@ $messages['ce'] = array(
 	'wikieditor-toolbar-tool-gallery' => 'Дуккха суьрташ',
 	'wikieditor-toolbar-tool-gallery-example' => '$1:Example.jpg|Цуьнах лаце1
 $1:Example.jpg|Цуьнах лаце2',
-	'wikieditor-toolbar-tool-newline' => 'Керла могlа',
+	'wikieditor-toolbar-tool-newline' => 'Керла могӀа',
 	'wikieditor-toolbar-tool-table' => 'Таблица',
 	'wikieditor-toolbar-tool-table-example-old' => '-
-! коьрта могlа 1
-! коьрта могlа 2
-! коьрта могlа 3
+! коьрта могӀа 1
+! коьрта могӀа 2
+! коьрта могӀа 3
 |-
-| могlа 1, чоь 1
-| могlа 1, чоь 2
-| могlа 1, чоь 3
+| могӀа 1, чоь 1
+| могӀа 1, чоь 2
+| могӀа 1, чоь 3
 |-
-| могlа 2, чоь 1
-| могlа 2, чоь 2
-| могlа 2, чоь 3',
+| могӀа 2, чоь 1
+| могӀа 2, чоь 2
+| могӀа 2, чоь 3',
 	'wikieditor-toolbar-tool-table-example-cell-text' => 'Чоьнан йоза',
 	'wikieditor-toolbar-tool-table-example-header' => 'Коьрта йоза',
 	'wikieditor-toolbar-tool-table-title' => 'Чуйилла таблица',
@@ -23543,7 +23543,7 @@ $messages['ro'] = array(
 	'wikieditor-publish-dialog-title' => 'Publică pe {{SITENAME}}',
 	'wikieditor-publish-dialog-summary' => 'Descrierea modificărilor (descrieți pe scurt modificările făcute):',
 	'wikieditor-publish-dialog-minor' => 'Modificare minoră',
-	'wikieditor-publish-dialog-watch' => 'Monitorizează această pagină',
+	'wikieditor-publish-dialog-watch' => 'Urmărește această pagină',
 	'wikieditor-publish-dialog-publish' => 'Salvează pagina',
 	'wikieditor-publish-dialog-goback' => 'Înapoi',
 	'wikieditor-template-editor-preference' => 'Activează modificarea formatelor wiki prin formulare',
