@@ -17183,6 +17183,7 @@ $messages['lrc'] = array(
 	'wikieditor-toolbar-tool-small' => 'كؤچك',
 	'wikieditor-toolbar-tool-small-example' => 'متن كؤچك',
 	'wikieditor-toolbar-group-insert' => 'دائن',
+	'wikieditor-toolbar-tool-gallery' => 'عسگدونی',
 	'wikieditor-toolbar-tool-newline' => 'خط تازه',
 	'wikieditor-toolbar-tool-table' => 'جعوه',
 	'wikieditor-toolbar-tool-replace' => 'بگرد و جاگزین کو',
