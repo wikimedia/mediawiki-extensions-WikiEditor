@@ -11502,7 +11502,7 @@ $1:उदाहरण.jpg|चित्रशीर्षक२',
 	'wikieditor-toolbar-tool-replace-close' => 'बंद करें',
 	'wikieditor-toolbar-tool-replace-nomatch' => 'आपके खोज कुछ मिला नहीं',
 	'wikieditor-toolbar-tool-replace-success' => '$1 प्रतिस्थापन बनें ।', # Fuzzy
-	'wikieditor-toolbar-section-characters' => 'विशेष वर्ण',
+	'wikieditor-toolbar-section-characters' => 'विशेष अक्षर',
 	'wikieditor-toolbar-characters-page-latin' => 'लाटिन',
 	'wikieditor-toolbar-characters-page-latinextended' => 'लाटिन विस्तारित',
 	'wikieditor-toolbar-characters-page-ipa' => 'आइपीए',
