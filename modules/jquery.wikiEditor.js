@@ -481,6 +481,13 @@ if ( !context || typeof context === 'undefined' ) {
 	};
 
 	/**
+	 * Workaround for a scrolling bug in IE8 (bug 61908)
+	 */
+	if ( $.client.profile().name === 'msie' ) {
+		context.$textarea.css( 'height', context.$textarea.height() );
+	}
+
+	/**
 	 * Base UI Construction
 	 *
 	 * The UI is built from several containers, the outer-most being a div classed as "wikiEditor-ui". These containers
