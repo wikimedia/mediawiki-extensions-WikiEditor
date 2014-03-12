@@ -316,28 +316,6 @@ getDefaultConfig: function() {
 								}
 							}
 						},
-						'indent': {
-							'labelMsg': 'wikieditor-toolbar-tool-indent',
-							'type': 'button',
-							'icon': {
-								'default': 'format-indent.png',
-								'default-rtl': 'format-indent-rtl.png'
-							},
-							'offset': {
-								'default': [2, -646],
-								'default-rtl': [-70, -430]
-							},
-							'action': {
-								'type': 'encapsulate',
-								'options': {
-									'pre': ":",
-									'periMsg': 'wikieditor-toolbar-tool-indent-example',
-									'post': "",
-									'ownline': true,
-									'splitlines': true
-								}
-							}
-						},
 						'nowiki': {
 							'labelMsg': 'wikieditor-toolbar-tool-nowiki',
 							'type': 'button',
