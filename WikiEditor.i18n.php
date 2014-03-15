@@ -18720,12 +18720,15 @@ $1:Example.jpg|കുറിപ്പ്2',
 
 /** Mongolian (монгол)
  * @author Chinneeb
+ * @author MongolWiki
  */
 $messages['mn'] = array(
 	'wikieditor-template-editor-dialog-cancel' => 'Цуцлах',
 	'wikieditor-toolbar' => 'Засварлах түүлбар',
 	'wikieditor-toolbar-loading' => 'Уншиж байна...',
+	'wikieditor-toolbar-tool-bold' => 'Тод',
 	'wikieditor-toolbar-tool-italic' => 'Налуу',
+	'wikieditor-toolbar-tool-reference' => 'Зүүлт',
 	'wikieditor-toolbar-tool-reference-cancel' => 'Цуцлах',
 	'wikieditor-toolbar-help-content-italic-description' => 'Налуу бичиг',
 );
@@ -22773,6 +22776,7 @@ $messages['ps'] = array(
  * @author Malafaya
  * @author MetalBrasil
  * @author SandroHc
+ * @author Vitorvicentevalente
  * @author Waldir
  * @author 555
  */
@@ -22785,7 +22789,7 @@ $messages['pt'] = array(
 	'wikieditor-preview-tab' => 'Antevisão',
 	'wikieditor-preview-changes-tab' => 'Alterações',
 	'wikieditor-preview-loading' => 'A carregar…',
-	'wikieditor-previewDialog-preference' => 'Ativar o diálogo de antevisão',
+	'wikieditor-previewDialog-preference' => 'Activar o diálogo de antevisão',
 	'wikieditor-previewDialog-tab' => 'Antevisão',
 	'wikieditor-previewDialog-loading' => 'A carregar…',
 	'wikieditor-publish-preference' => 'Possibilitar publicação passo a passo',
@@ -22799,7 +22803,7 @@ $messages['pt'] = array(
 	'wikieditor-publish-dialog-goback' => 'Voltar',
 	'wikieditor-template-editor-preference' => 'Possibilitar edição de predefinições com base em formulários',
 	'wikieditor-template-editor-dialog-title' => 'Editar predefinição',
-	'wikieditor-template-editor-dialog-submit' => 'Atualizar',
+	'wikieditor-template-editor-dialog-submit' => 'Actualizar',
 	'wikieditor-template-editor-dialog-cancel' => 'Cancelar',
 	'wikieditor-templates-preference' => 'Possibilitar a recolha e expansão de predefinições',
 	'wikieditor-toc-preference' => 'Possibilitar tabela de conteúdo navegável',
@@ -22807,7 +22811,7 @@ $messages['pt'] = array(
 	'wikieditor-toc-hide' => 'Esconder conteúdo',
 	'wikieditor-toolbar' => 'Barra de ferramentas de edição',
 	'wikieditor-toolbar-desc' => 'Barra de ferramentas de edição com usabilidade melhorada',
-	'wikieditor-toolbar-preference' => 'Ativar a barra de ferramentas de edição melhorada',
+	'wikieditor-toolbar-preference' => 'Activar a barra de ferramentas de edição melhorada',
 	'wikieditor-toolbar-dialogs-preference' => 'Possibilitar diálogos de inserção de links, tabelas e outros', # Fuzzy
 	'wikieditor-toolbar-hidesig' => 'Esconder o botão da assinatura nas páginas do espaço nominal principal',
 	'wikieditor-toolbar-loading' => 'A carregar…',
@@ -22872,8 +22876,6 @@ $messages['pt'] = array(
 	'wikieditor-toolbar-tool-ulist-example' => 'Elemento de lista com marcas',
 	'wikieditor-toolbar-tool-olist' => 'Lista numerada',
 	'wikieditor-toolbar-tool-olist-example' => 'Elemento de lista numerada',
-	'wikieditor-toolbar-tool-indent' => 'Indentação',
-	'wikieditor-toolbar-tool-indent-example' => 'Linha indentada',
 	'wikieditor-toolbar-tool-nowiki' => 'Sem formatação wiki',
 	'wikieditor-toolbar-tool-nowiki-example' => 'Inserir aqui texto sem formatação',
 	'wikieditor-toolbar-tool-redirect' => 'Redirecionamento',
