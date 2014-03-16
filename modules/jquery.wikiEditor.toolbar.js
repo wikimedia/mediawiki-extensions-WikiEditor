@@ -61,9 +61,6 @@ api : {
 						// Tool
 						$group.append( $.wikiEditor.modules.toolbar.fn.buildTool( context, tool, data[type][tool] ) );
 					}
-					if ( $group.children().length ) {
-						$group.show();
-					}
 					smooth = false;
 					break;
 				case 'pages':
