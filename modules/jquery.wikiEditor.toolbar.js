@@ -227,7 +227,7 @@ fn: {
 		if ( '$toolbar' in context.modules.toolbar ) {
 			return;
 		}
-		context.modules.toolbar.$toolbar = $( '<div/>' )
+		context.modules.toolbar.$toolbar = $( '<div>' )
 			.addClass( 'wikiEditor-ui-toolbar' )
 			.attr( 'id', 'wikiEditor-ui-toolbar' );
 		$.wikiEditor.modules.toolbar.fn.build( context, config );
@@ -280,7 +280,7 @@ fn: {
 		}
 	},
 	buildGroup : function( context, id, group ) {
-		var $group = $( '<div/>' ).attr( { 'class' : 'group group-' + id, 'rel' : id } );
+		var $group = $( '<div>' ).attr( { 'class' : 'group group-' + id, 'rel' : id } );
 		var label = $.wikiEditor.autoMsg( group, 'label' );
 		if ( label ) {
 			$group.append( '<span class="label">' + label + '</div>' );
@@ -320,7 +320,7 @@ fn: {
 						$.wikiEditor.imgPath + 'toolbar/'
 					);
 					if ( typeof offsetOrIcon === 'object' ) {
-						$button = $( '<a/>' )
+						$button = $( '<a>' )
 							.attr( {
 								'href' : '#',
 								'title' : label,
@@ -333,7 +333,7 @@ fn: {
 					}
 				}
 				if ( !$button ) {
-					$button = $( '<img/>' )
+					$button = $( '<img>' )
 						.attr( {
 							'src' : src,
 							'width' : 22,
@@ -365,14 +365,14 @@ fn: {
 				}
 				return $button;
 			case 'select':
-				var $select = $( '<div/>' )
+				var $select = $( '<div>' )
 					.attr( { 'rel' : id, 'class' : 'tool tool-select' } );
-				var $options = $( '<div/>' ).addClass( 'options' );
+				var $options = $( '<div>' ).addClass( 'options' );
 				if ( 'list' in tool ) {
 					for ( var option in tool.list ) {
 						var optionLabel = $.wikiEditor.autoMsg( tool.list[option], 'label' );
 						$options.append(
-							$( '<a/>' )
+							$( '<a>' )
 								.data( 'action', tool.list[option].action )
 								.data( 'context', context )
 								.mousedown( function( e ) {
@@ -400,8 +400,8 @@ fn: {
 						);
 					}
 				}
-				$select.append( $( '<div/>' ).addClass( 'menu' ).append( $options ) );
-				$select.append( $( '<a/>' )
+				$select.append( $( '<div>' ).addClass( 'menu' ).append( $options ) );
+				$select.append( $( '<a>' )
 						.addClass( 'label' )
 						.text( label )
 						.data( 'options', $options )
@@ -424,7 +424,7 @@ fn: {
 	},
 	buildBookmark : function( context, id, page ) {
 		var label = $.wikiEditor.autoMsg( page, 'label' );
-		return $( '<div/>' )
+		return $( '<div>' )
 			.text( label )
 			.attr( 'rel', id )
 			.data( 'context', context )
@@ -453,7 +453,7 @@ fn: {
 	},
 	buildPage : function( context, id, page ) {
 		var html, i;
-		var $page = $( '<div/>' ).attr( {
+		var $page = $( '<div>' ).attr( {
 			'class' : 'page page-' + id,
 			'rel' : id
 		} );
@@ -474,7 +474,7 @@ fn: {
 				break;
 			case 'characters':
 				$page.addClass( 'page-characters' );
-				var $characters = $( '<div/>' ).data( 'context', context ).data( 'actions', {} );
+				var $characters = $( '<div>' ).data( 'context', context ).data( 'actions', {} );
 				var actions = $characters.data( 'actions' );
 				if ( 'language' in page ) {
 					$characters.attr( 'lang', page.language );
@@ -580,7 +580,7 @@ fn: {
 			$.cookie( 'wikiEditor-' + context.instance + '-toolbar-section', selected, { expires: 30, path: '/' } );
 		}
 		var $link =
-			$( '<a/>' )
+			$( '<a>' )
 				.addClass( selected === id ? 'current' : null )
 				.attr( {
 					href: '#',
@@ -660,7 +660,7 @@ fn: {
 					e.preventDefault();
 					return false;
 				});
-		return $( '<span/>' )
+		return $( '<span>' )
 			.attr({
 				'class' : 'tab tab-' + id,
 				'rel' : id
@@ -668,7 +668,7 @@ fn: {
 			.append( $link );
 	},
 	buildSection: function( context, id, section ) {
-		var $section = $( '<div/>' ).attr( {
+		var $section = $( '<div>' ).attr( {
 			'class': section.type + ' section section-' + id,
 			'rel': id,
 			id: 'wikiEditor-section-' + id
@@ -678,7 +678,7 @@ fn: {
 
 		if ( section.deferLoad !== undefined && section.deferLoad && id !== 'main' && !show ) {
 			// This class shows the spinner and serves as a marker for the click handler in buildTab()
-			$section.addClass( 'loading' ).append( $( '<div/>' ).addClass( 'spinner' ) );
+			$section.addClass( 'loading' ).append( $( '<div>' ).addClass( 'spinner' ) );
 			$section.bind( 'loadSection', function() {
 				$.wikiEditor.modules.toolbar.fn.reallyBuildSection( context, id, section, $section );
 				$section.removeClass( 'loading' );
@@ -712,8 +712,8 @@ fn: {
 				}
 				break;
 			case 'booklet':
-				var $pages = $( '<div/>' ).addClass( 'pages' );
-				var $index = $( '<div/>' ).addClass( 'index' );
+				var $pages = $( '<div>' ).addClass( 'pages' );
+				var $index = $( '<div>' ).addClass( 'index' );
 				if ( 'pages' in section ) {
 					for ( var page in section.pages ) {
 						$pages.append(
@@ -749,9 +749,9 @@ fn: {
 		$selectedIndex.addClass( 'current' );
 	},
 	build : function( context, config ) {
-		var $tabs = $( '<div/>' ).addClass( 'tabs' ).appendTo( context.modules.toolbar.$toolbar );
-		var $sections = $( '<div/>' ).addClass( 'sections' ).appendTo( context.modules.toolbar.$toolbar );
-		context.modules.toolbar.$toolbar.append( $( '<div/>' ).css( 'clear', 'both' ) );
+		var $tabs = $( '<div>' ).addClass( 'tabs' ).appendTo( context.modules.toolbar.$toolbar );
+		var $sections = $( '<div>' ).addClass( 'sections' ).appendTo( context.modules.toolbar.$toolbar );
+		context.modules.toolbar.$toolbar.append( $( '<div>' ).css( 'clear', 'both' ) );
 		var sectionQueue = [];
 		for ( var section in config ) {
 			if ( section === 'main' ) {
