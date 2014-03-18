@@ -119,7 +119,7 @@ context.evt = $.extend( context.evt, {
 		setTimeout( function() {
 			context.$content.find( 'br' ).each( function() {
 				if ( $(this).parent().is( 'body' ) ) {
-					$(this).wrap( $( '<p></p>' ) );
+					$(this).wrap( $( '<p>' ) );
 				}
 			} );
 		}, 100 );
@@ -297,7 +297,7 @@ context.fn = $.extend( context.fn, {
 		var origHTML = html;
 
 		// We use this elaborate trickery for cross-browser compatibility
-		// IE does overzealous whitespace collapsing for $( '<pre />' ).html( html );
+		// IE does overzealous whitespace collapsing for $( '<pre>' ).html( html );
 		// We also do <br> and easy cases for <p> conversion here, complicated cases are handled later
 		html = html
 			.replace( /\r?\n/g, '' ) // IE7 inserts newlines before block elements
@@ -682,7 +682,7 @@ context.fn = $.extend( context.fn, {
 	 * Sets up the iframe in place of the textarea to allow more advanced operations
 	 */
 	setupIframe: function () {
-		context.$iframe = $( '<iframe></iframe>' )
+		context.$iframe = $( '<iframe>' )
 			.attr( {
 				'frameBorder': 0,
 				'border': 0,
@@ -749,7 +749,7 @@ context.fn = $.extend( context.fn, {
 				// Use a dummy div to escape all entities
 				// This'll also escape <br>, <span> and &nbsp; , so we unescape those after
 				// We also need to unescape the doubly-escaped things mentioned above
-				html = $( '<div />' ).text( '<p>' + html.replace( /\r?\n/g, '</p><p>' ) + '</p>' ).html()
+				html = $( '<div>' ).text( '<p>' + html.replace( /\r?\n/g, '</p><p>' ) + '</p>' ).html()
 					.replace( /&amp;nbsp;/g, '&nbsp;' )
 					// Allow <p> tags to survive encoding
 					.replace( /&lt;p&gt;/g, '<p>' )
@@ -894,7 +894,7 @@ context.fn = $.extend( context.fn, {
 			if ( $.browser.opera ) {
 				// Opera strips newlines in getSelection(), so we need something more sophisticated
 				if ( retval.rangeCount > 0 ) {
-					retval = context.fn.htmlToText( $( '<pre />' )
+					retval = context.fn.htmlToText( $( '<pre>' )
 							.append( retval.getRangeAt( 0 ).cloneContents() )
 							.html()
 					);

@@ -395,12 +395,12 @@ fn: {
 							$rows = $rows.not( $row );
 						} else {
 							// Create a new row
-							var $paramRow = $( '<div />' )
+							var $paramRow = $( '<div>' )
 								.addClass( 'wikiEditor-template-dialog-field-wrapper' );
-							$( '<label />' )
+							$( '<label>' )
 								.text( paramText )
 								.appendTo( $paramRow );
-							$( '<textarea />' )
+							$( '<textarea>' )
 								.data( 'name', param.name )
 								.val( paramVal )
 								.each( function() {
