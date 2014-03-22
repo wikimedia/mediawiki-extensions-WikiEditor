@@ -11,7 +11,7 @@
 }
 
 .wikiEditor-ui-toc {
-	border-left: solid silver 1px;
+	border-left: 1px solid silver;
 }
 
 .wikiEditor-ui-toc ul {
@@ -35,7 +35,7 @@
 	padding: 3px 0;
 	line-height: 26px;
 	padding-left: 1em;
-	border-bottom: solid 1px silver;
+	border-bottom: 1px solid silver;
 	white-space: nowrap;
 	overflow: hidden;
 }
@@ -99,7 +99,7 @@
 	font-size: 1em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
-	border-bottom: solid 1px #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
 }
 /* Collapsing changes */
 .wikiEditor-ui-toc {
