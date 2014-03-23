@@ -62,7 +62,7 @@ api : {
 						$group.append( $.wikiEditor.modules.toolbar.fn.buildTool( context, tool, data[type][tool] ) );
 					}
 					if ( $group.children().length ) {
-						$group.show();
+						$group.removeClass( 'empty' );
 					}
 					smooth = false;
 					break;
@@ -136,7 +136,7 @@ api : {
 		// Fix div.section size after adding things; if smooth is true uses a smooth
 		// animation, otherwise just change height (breaking any ongoing animation)
 		var $divSections = context.modules.toolbar.$toolbar.find( 'div.sections' );
-		var $visibleSection = $divSections.find( '.section:visible' );
+		var $visibleSection = $divSections.find( '.section-visible' );
 		if ( $visibleSection.size() ) {
 			if ( smooth ) {
 				$divSections.animate( { 'height': $visibleSection.outerHeight() }, 'fast' );
@@ -189,7 +189,7 @@ api : {
 			if ( group ) {
 				var $group = context.modules.toolbar.$toolbar.find( group );
 				if ( $group.children().length === 0 ) {
-					$group.hide();
+					$group.addClass( 'empty' );
 				}
 			}
 		}
@@ -292,7 +292,7 @@ fn: {
 			}
 		}
 		if ( empty ) {
-			$group.hide();
+			$group.addClass( 'empty' );
 		}
 		return $group;
 	},
@@ -604,28 +604,31 @@ fn: {
 					var $sections = $( this ).data( 'context' ).$ui.find( '.sections' );
 					var $section =
 						$( this ).data( 'context' ).$ui.find( '.section-' + $( this ).parent().attr( 'rel' ) );
-					var show = $section.css( 'display' ) === 'none';
+					var show = !$section.hasClass( 'section-visible' );
 					$section.parent().find( '.section-visible' )
 						.css( 'position', 'absolute' )
 						.attr( 'aria-expanded', 'false' )
 						.removeClass( 'section-visible' )
-						.fadeOut( 'fast', function () {
-							$( this ).css( 'position', 'static' );
+						.animate( { opacity: 0 }, 'fast', 'linear', function () {
+							$( this ).addClass( 'section-hidden' ).css( 'position', 'static' );
 						} );
+
 					$( this ).parent().parent().find( 'a' ).removeClass( 'current' );
 					$sections.css( 'overflow', 'hidden' );
 					var animate = function ( $that ) {
 						$sections
-						.css( 'display', 'block' )
 						.animate( { 'height': $section.outerHeight() }, $section.outerHeight() * 2, function () {
 							$that.css( 'overflow', 'visible' ).css( 'height', 'auto' );
 							context.fn.trigger( 'resize' );
 						} );
 					};
 					if ( show ) {
-						$section.addClass( 'section-visible' )
+						$section.removeClass( 'section-hidden' )
 							.attr( 'aria-expanded', 'true' )
-							.fadeIn( 'fast' );
+							.animate( {opacity: 100.0}, 'fast', 'linear', function () {
+								$(this).addClass( 'section-visible' );
+							} );
+
 						if ( $section.hasClass( 'loading' ) ) {
 							// Loading of this section was deferred, load it now
 							var $that = $( this );
@@ -642,8 +645,8 @@ fn: {
 					} else {
 						$sections
 							.css( 'height', $section.outerHeight() )
-							.animate( { 'height': 'hide' }, $section.outerHeight() * 2, function () {
-								$( this ).css( { 'overflow': 'visible', 'height': 0 } );
+							.animate( { 'height': 0 }, $section.outerHeight() * 2, function () {
+								$( this ).css( { 'overflow': 'visible' } );
 								context.fn.trigger( 'resize' );
 							} );
 					}
@@ -685,12 +688,12 @@ fn: {
 
 		// Show or hide section
 		if ( id !== 'main' ) {
-			$section
-				.css( 'display', show ? 'block' : 'none' )
-				.attr( 'aria-expanded', show ? 'true' : 'false' );
+			$section.attr( 'aria-expanded', show ? 'true' : 'false' );
 
 			if ( show ) {
 				$section.addClass( 'section-visible' );
+			} else {
+				$section.addClass( 'section-hidden' );
 			}
 		}
 		return $section;
@@ -777,7 +780,7 @@ fn: {
 			},
 			'loop' : function ( i, s ) {
 				s.$sections.append( $.wikiEditor.modules.toolbar.fn.buildSection( s.context, s.id, s.config ) );
-				var $section = s.$sections.find( '.section:visible' );
+				var $section = s.$sections.find( '.section-visible' );
 				if ( $section.size() ) {
 					$sections.animate( { 'height': $section.outerHeight() }, $section.outerHeight() * 2, function ( ) {
 						context.fn.trigger( 'resize' );

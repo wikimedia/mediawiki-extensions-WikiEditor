@@ -6,6 +6,11 @@
 	position: relative;
 	display: block;
 }
+
+.wikiEditor-ui-toolbar .empty {
+	display: none;
+}
+
 /* Expandable Sections */
 .wikiEditor-ui-toolbar .sections {
 	float: left;
@@ -14,12 +19,16 @@
 	height: 0;
 }
 .wikiEditor-ui-toolbar .sections .section {
-	display: none;
 	float: left;
 	width: 100%;
 	border-top: 1px solid #DDDDDD;
 	background-color: #E0EEf7;
 }
+
+.wikiEditor-ui-toolbar .sections .section-hidden {
+	display: none;
+}
+
 .wikiEditor-ui-toolbar {
 	/* @embed */
 	background-image: url(images/toolbar/base.png);
