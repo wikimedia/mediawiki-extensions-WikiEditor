@@ -30579,8 +30579,8 @@ $messages['vep'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['vi'] = array(
-	'wikieditor' => 'Giao diện sửa đổi văn bản wiki nâng cao',
-	'wikieditor-desc' => 'Cung cấp giao diện sửa đổi văn bản wiki có thể mở rộng, cũng như nhiều tính năng khác',
+	'wikieditor' => 'Giao diện sửa đổi mã wiki nâng cao',
+	'wikieditor-desc' => 'Cung cấp giao diện sửa đổi mã wiki có thể mở rộng, cũng như nhiều tính năng khác',
 	'wikieditor-wikitext-tab' => 'Mã wiki',
 	'wikieditor-loading' => 'Đang tải',
 	'wikieditor-preview-preference' => 'Cho phép so sánh cạnh nhau',
@@ -30676,8 +30676,6 @@ $messages['vi'] = array(
 	'wikieditor-toolbar-tool-ulist-example' => 'Mục danh sách',
 	'wikieditor-toolbar-tool-olist' => 'Danh sách đánh số',
 	'wikieditor-toolbar-tool-olist-example' => 'Mục danh sách số',
-	'wikieditor-toolbar-tool-indent' => 'Tăng lề',
-	'wikieditor-toolbar-tool-indent-example' => 'Dòng được tăng lề',
 	'wikieditor-toolbar-tool-nowiki' => 'Tắt định dạng wiki',
 	'wikieditor-toolbar-tool-nowiki-example' => 'Chèn văn bản thuần tại đây',
 	'wikieditor-toolbar-tool-redirect' => 'Đổi hướng',
