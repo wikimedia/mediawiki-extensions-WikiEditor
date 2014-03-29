@@ -1,10 +1,10 @@
 <?php
 /**
  * WikiEditor extension
- * 
+ *
  * @file
  * @ingroup Extensions
- * 
+ *
  * @author Trevor Parscal <trevor@wikimedia.org>
  * @author Roan Kattouw <roan.kattouw@gmail.com>
  * @author Nimish Gautam <nimish@wikimedia.org>
@@ -52,12 +52,13 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'WikiEditor',
 	'author' => array( 'Trevor Parscal', 'Roan Kattouw', 'Nimish Gautam', 'Adam Miller' ),
-	'version' => '0.3.1',
+	'version' => '0.4.0',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:WikiEditor',
 	'descriptionmsg' => 'wikieditor-desc',
 );
-$wgAutoloadClasses['WikiEditorHooks'] = dirname( __FILE__ ) . '/WikiEditor.hooks.php';
-$wgExtensionMessagesFiles['WikiEditor'] = dirname( __FILE__ ) . '/WikiEditor.i18n.php';
+$wgAutoloadClasses['WikiEditorHooks'] = __DIR__ . '/WikiEditor.hooks.php';
+$wgMessagesDirs['WikiEditor'] = __DIR__ . '/i18n';
+$wgExtensionMessagesFiles['WikiEditor'] = __DIR__ . '/WikiEditor.i18n.php';
 $wgHooks['EditPage::showEditForm:initial'][] = 'WikiEditorHooks::editPageShowEditFormInitial';
 $wgHooks['GetPreferences'][] = 'WikiEditorHooks::getPreferences';
 $wgHooks['ResourceLoaderGetConfigVars'][] = 'WikiEditorHooks::resourceLoaderGetConfigVars';
@@ -65,7 +66,7 @@ $wgHooks['MakeGlobalVariablesScript'][] = 'WikiEditorHooks::makeGlobalVariablesS
 $wgHooks['EditPageBeforeEditToolbar'][] = 'WikiEditorHooks::EditPageBeforeEditToolbar';
 
 $wikiEditorTpl = array(
-	'localBasePath' => dirname( __FILE__ ) . '/modules',
+	'localBasePath' => __DIR__ . '/modules',
 	'remoteExtPath' => 'WikiEditor/modules',
 	'group' => 'ext.wikiEditor',
 );
