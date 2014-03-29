@@ -4,7 +4,8 @@
             "Liangent",
             "McDutchie",
             "Rancher",
-            "Жељко Тодоровић"
+            "Жељко Тодоровић",
+            "Milicevic01"
         ]
     },
     "wikieditor": "Napredno sučelje uređivanja vikiteksta",
@@ -52,7 +53,7 @@
     "wikieditor-toolbar-tool-link": "Veza",
     "wikieditor-toolbar-tool-link-title": "Ubaci vezu",
     "wikieditor-toolbar-tool-link-int": "Prema viki stranici",
-    "wikieditor-toolbar-tool-link-int-target": "Naslov strane:",
+    "wikieditor-toolbar-tool-link-int-target": "Naslov strane ili URL:",
     "wikieditor-toolbar-tool-link-int-target-tooltip": "Naslov stranice ili URL",
     "wikieditor-toolbar-tool-link-int-text": "Tekst veze:",
     "wikieditor-toolbar-tool-link-int-text-tooltip": "Tekst za prikaz",
@@ -102,8 +103,6 @@
     "wikieditor-toolbar-tool-ulist-example": "Stavka popisa s oznakama",
     "wikieditor-toolbar-tool-olist": "Numerisani spisak",
     "wikieditor-toolbar-tool-olist-example": "Stavka numerisanog spiska",
-    "wikieditor-toolbar-tool-indent": "Uvučeni red",
-    "wikieditor-toolbar-tool-indent-example": "Uvučeni red",
     "wikieditor-toolbar-tool-nowiki": "Bez viki oblikovanja",
     "wikieditor-toolbar-tool-nowiki-example": "Ubacite neoblikovan tekst ovde",
     "wikieditor-toolbar-tool-redirect": "Preusmerenje",
