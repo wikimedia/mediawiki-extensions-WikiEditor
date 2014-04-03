@@ -13,7 +13,6 @@
  * $wgVectorFeatures['editwarning'] = array( 'global' => false, 'user' => false );
  * $wgWikiEditorFeatures['templateEditor'] = array( 'global' => false, 'user' => false );
  * $wgWikiEditorFeatures['toolbar'] = array( 'global' => true, 'user' => true );
- * $wgWikiEditorFeatures['toc'] = array( 'global' => false, 'user' => false );
  * $wgWikiEditorFeatures['highlight'] = array( 'global' => false, 'user' => false );
  * $wgWikiEditorFeatures['dialogs'] = array( 'global' => true, 'user' => true );
  *
