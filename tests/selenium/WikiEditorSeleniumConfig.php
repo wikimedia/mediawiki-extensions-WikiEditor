@@ -12,7 +12,6 @@ class WikiEditorSeleniumConfig {
 			'wgWikiEditorFeatures' => array(
 				'toolbar' => array( 'global' => true, 'user' => true ),
 				'highlight' => array( 'global' => false, 'user' => false ),
-				'templateEditor' => array( 'global' => false, 'user' => false ),
 				'dialogs' => array( 'global' => true, 'user' => true )
 			),
 			'wgVectorFeatures' => array(
