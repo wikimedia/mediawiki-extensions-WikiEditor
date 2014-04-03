@@ -48,7 +48,7 @@ $.wikiEditor = {
 			msie: [['>=', 7]],
 			// Layout issues in FF < 2
 			firefox: [['>=', 2]],
-			// Text selection bugs galore - this may be a different situation with the new iframe-based solution
+			// Text selection bugs galore
 			opera: [['>=', 9.6]],
 			// jQuery minimums
 			safari: [['>=', 3]],
@@ -64,7 +64,7 @@ $.wikiEditor = {
 			msie: [['>=', 8]],
 			// Layout issues in FF < 2
 			firefox: [['>=', 2]],
-			// Text selection bugs galore - this may be a different situation with the new iframe-based solution
+			// Text selection bugs galore
 			opera: [['>=', 9.6]],
 			// jQuery minimums
 			safari: [['>=', 3]],
@@ -239,24 +239,8 @@ if ( !context || typeof context === 'undefined' ) {
 		'data': {},
 		// Unique numeric ID of this instance used both for looking up and differentiating instances of wikiEditor
 		'instance': $.wikiEditor.instances.push( $(this) ) - 1,
-		// Array mapping elements in the textarea to character offsets
-		'offsets': null,
-		// Cache for context.fn.htmlToText()
-		'htmlToTextMap': {},
-		// The previous HTML of the iframe, stored to detect whether something really changed.
-		'oldHTML': null,
-		// Same for delayedChange()
-		'oldDelayedHTML': null,
-		// The previous selection of the iframe, stored to detect whether the selection has changed
-		'oldDelayedSel': null,
 		// Saved selection state for old IE (<=10)
 		'savedSelection': null,
-		// Stack of states in { html: [string] } form
-		'history': [],
-		// Current history state position - this is number of steps backwards, so it's always -1 or less
-		'historyPosition': -1,
-		/// The previous historyPosition, stored to detect if change events were due to an undo or redo action
-		'oldDelayedHistoryPosition': -1,
 		// List of extensions active on this context
 		'extensions': []
 	};
