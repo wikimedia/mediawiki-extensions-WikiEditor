@@ -62,11 +62,6 @@ $wikiEditorTpl = array(
 );
 
 $wgResourceModules += array(
-	/* Third-party modules */
-
-	'contentCollector' => $wikiEditorTpl + array(
-		'scripts' => 'contentCollector.js',
-	),
 
 	/* WikiEditor jQuery plugin Resources */
 
@@ -81,13 +76,6 @@ $wgResourceModules += array(
 		'messages' => array(
 			'wikieditor-wikitext-tab',
 			'wikieditor-loading',
-		),
-	),
-	'jquery.wikiEditor.iframe' => $wikiEditorTpl + array(
-		'scripts' => 'jquery.wikiEditor.iframe.js',
-		'dependencies' => array(
-			'jquery.wikiEditor',
-			'contentCollector',
 		),
 	),
 	'jquery.wikiEditor.dialogs' => $wikiEditorTpl + array(
