@@ -34,14 +34,6 @@ $wgWikiEditorFeatures = array(
 	'previewDialog' => array( 'global' => false, 'user' => false ),
 	//  Adds a button and dialog for step-by-step publishing
 	'publish' => array( 'global' => false, 'user' => true ),
-
-	/* I-frame dependent (do not deploy!) */
-
-	// Pretty broken template collapsing/editing
-	'templateEditor' => array( 'global' => false, 'user' => false ),
-	// Bare-bones (probably broken) template collapsing
-	'templates' => array( 'global' => false, 'user' => false ),
-
 );
 
 /* Setup */
@@ -160,21 +152,6 @@ $wgResourceModules += array(
 		'dependencies' => array(
 			'jquery.wikiEditor',
 			'jquery.wikiEditor.dialogs',
-		),
-	),
-	'jquery.wikiEditor.templateEditor' => $wikiEditorTpl + array(
-		'scripts' => 'jquery.wikiEditor.templateEditor.js',
-		'dependencies' => array(
-			'jquery.wikiEditor',
-			'jquery.wikiEditor.iframe',
-			'jquery.wikiEditor.dialogs',
-		),
-	),
-	'jquery.wikiEditor.templates' => $wikiEditorTpl + array(
-		'scripts' => 'jquery.wikiEditor.templates.js',
-		'dependencies' => array(
-			'jquery.wikiEditor',
-			'jquery.wikiEditor.iframe',
 		),
 	),
 	'jquery.wikiEditor.toolbar' => $wikiEditorTpl + array(
@@ -461,27 +438,6 @@ $wgResourceModules += array(
 			'wikieditor-publish-dialog-watch',
 			'wikieditor-publish-dialog-publish',
 			'wikieditor-publish-dialog-goback',
-		),
-	),
-	'ext.wikiEditor.templateEditor' => $wikiEditorTpl + array(
-		'scripts' => 'ext.wikiEditor.templateEditor.js',
-		'dependencies' => array(
-			'ext.wikiEditor',
-			'ext.wikiEditor.highlight',
-			'jquery.wikiEditor.templateEditor',
-		),
-		'messages' => array(
-			'wikieditor-template-editor-dialog-title',
-			'wikieditor-template-editor-dialog-submit',
-			'wikieditor-template-editor-dialog-cancel',
-		),
-	),
-	'ext.wikiEditor.templates' => $wikiEditorTpl + array(
-		'scripts' => 'ext.wikiEditor.templates.js',
-		'dependencies' => array(
-			'ext.wikiEditor',
-			'ext.wikiEditor.highlight',
-			'jquery.wikiEditor.templates',
 		),
 	),
 	'ext.wikiEditor.tests.toolbar' => $wikiEditorTpl + array(
