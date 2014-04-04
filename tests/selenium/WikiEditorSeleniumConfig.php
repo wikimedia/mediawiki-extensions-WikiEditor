@@ -11,7 +11,6 @@ class WikiEditorSeleniumConfig {
 			'wgDefaultSkin' => 'vector',
 			'wgWikiEditorFeatures' => array(
 				'toolbar' => array( 'global' => true, 'user' => true ),
-				'highlight' => array( 'global' => false, 'user' => false ),
 				'dialogs' => array( 'global' => true, 'user' => true )
 			),
 			'wgVectorFeatures' => array(

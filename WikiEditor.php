@@ -127,13 +127,6 @@ $wgResourceModules += array(
 			'wikieditor-toolbar-tool-file-cancel',
 		),
 	),
-	'jquery.wikiEditor.highlight' => $wikiEditorTpl + array(
-		'scripts' => 'jquery.wikiEditor.highlight.js',
-		'dependencies' => array(
-			'jquery.wikiEditor',
-			'jquery.wikiEditor.iframe',
-		),
-	),
 	'jquery.wikiEditor.preview' => $wikiEditorTpl + array(
 		'scripts' => 'jquery.wikiEditor.preview.js',
 		'styles' => 'jquery.wikiEditor.preview.css',
@@ -390,13 +383,6 @@ $wgResourceModules += array(
 			'ext.wikiEditor.toolbar',
 			'jquery.wikiEditor.dialogs',
 			'jquery.wikiEditor.dialogs.config',
-		),
-	),
-	'ext.wikiEditor.highlight' => $wikiEditorTpl + array(
-		'scripts' => 'ext.wikiEditor.highlight.js',
-		'dependencies' => array(
-			'ext.wikiEditor',
-			'jquery.wikiEditor.highlight',
 		),
 	),
 	'ext.wikiEditor.preview' => $wikiEditorTpl + array(

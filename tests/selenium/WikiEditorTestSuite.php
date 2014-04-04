@@ -12,7 +12,6 @@
  * $wgDefaultSkin = 'vector';
  * $wgVectorFeatures['editwarning'] = array( 'global' => false, 'user' => false );
  * $wgWikiEditorFeatures['toolbar'] = array( 'global' => true, 'user' => true );
- * $wgWikiEditorFeatures['highlight'] = array( 'global' => false, 'user' => false );
  * $wgWikiEditorFeatures['dialogs'] = array( 'global' => true, 'user' => true );
  *
  */
