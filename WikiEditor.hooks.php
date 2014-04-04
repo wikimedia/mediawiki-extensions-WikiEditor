@@ -140,23 +140,7 @@ class WikiEditorHooks {
 			'modules' => array(
 				'ext.wikiEditor.publish',
 			),
-		),
-		'toc' => array(
-			'preferences' => array(
-				// Ideally this key would be 'wikieditor-toc'
-			 	'usenavigabletoc' => array(
-					'type' => 'toggle',
-					'label-message' => 'wikieditor-toc-preference',
-					'section' => 'editing/labs',
-				),
-			),
-			'requirements' => array(
-				'usenavigabletoc' => true,
-			),
-			'modules' => array(
-				'ext.wikiEditor.toc',
-			),
-		),
+		)
 	);
 
 	/* Static Methods */

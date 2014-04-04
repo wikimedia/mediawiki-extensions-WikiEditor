@@ -37,8 +37,6 @@ $wgWikiEditorFeatures = array(
 
 	/* I-frame dependent (do not deploy!) */
 
-	// Failry stable table of contents
-	'toc' => array( 'global' => false, 'user' => true ),
 	// Pretty broken template collapsing/editing
 	'templateEditor' => array( 'global' => false, 'user' => false ),
 	// Bare-bones (probably broken) template collapsing
@@ -177,18 +175,6 @@ $wgResourceModules += array(
 		'dependencies' => array(
 			'jquery.wikiEditor',
 			'jquery.wikiEditor.iframe',
-		),
-	),
-	'jquery.wikiEditor.toc' => $wikiEditorTpl + array(
-		'scripts' => 'jquery.wikiEditor.toc.js',
-		'styles' => 'jquery.wikiEditor.toc.css',
-		'dependencies' => array(
-			'jquery.wikiEditor',
-			'jquery.wikiEditor.iframe',
-			'jquery.ui.draggable',
-			'jquery.ui.resizable',
-			'jquery.autoEllipsis',
-			'jquery.color',
 		),
 	),
 	'jquery.wikiEditor.toolbar' => $wikiEditorTpl + array(
@@ -496,18 +482,6 @@ $wgResourceModules += array(
 			'ext.wikiEditor',
 			'ext.wikiEditor.highlight',
 			'jquery.wikiEditor.templates',
-		),
-	),
-	'ext.wikiEditor.toc' => $wikiEditorTpl + array(
-		'scripts' => 'ext.wikiEditor.toc.js',
-		'dependencies' => array(
-			'ext.wikiEditor',
-			'ext.wikiEditor.highlight',
-			'jquery.wikiEditor.toc',
-		),
-		'messages' => array(
-			'wikieditor-toc-show',
-			'wikieditor-toc-hide',
 		),
 	),
 	'ext.wikiEditor.tests.toolbar' => $wikiEditorTpl + array(
