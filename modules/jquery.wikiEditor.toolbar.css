@@ -239,6 +239,9 @@
 	padding: 5px;
 	margin: 0;
 }
+.wikiEditor-ui-toolbar .section-help .page-table .cell {
+	vertical-align: top;
+}
 .wikiEditor-ui-toolbar .section-help .page-table td.cell-syntax,
 .wikiEditor-ui-toolbar .section-help .page-table td.syntax {
 	font-family: monospace, "Courier New";
