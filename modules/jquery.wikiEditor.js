@@ -507,15 +507,16 @@ if ( !context || typeof context === 'undefined' ) {
 				.append( $( '<div>' ).addClass( 'wikiEditor-ui-tabs' ).hide() )
 				.append( $( '<div>' ).addClass( 'wikiEditor-ui-buttons' ) )
 		)
-		.before( $( '<div style="clear: both;"></div>' ) );
+		.before( $( '<div>' ).addClass( 'wikiEditor-ui-clear' ) );
 	// Get references to some of the newly created containers
 	context.$controls = context.$ui.find( '.wikiEditor-ui-buttons' ).hide();
 	context.$buttons = context.$ui.find( '.wikiEditor-ui-buttons' );
 	context.$tabs = context.$ui.find( '.wikiEditor-ui-tabs' );
 	// Clear all floating after the UI
-	context.$ui.after( $( '<div style="clear: both;"></div>' ) );
+	context.$ui.after( $( '<div>' ).addClass( 'wikiEditor-ui-clear' ) );
 	// Attach a right container
 	context.$wikitext.append( $( '<div>' ).addClass( 'wikiEditor-ui-right' ) );
+	context.$wikitext.append( $( '<div>' ).addClass( 'wikiEditor-ui-clear' ) );
 	// Attach a top container to the left pane
 	context.$wikitext.find( '.wikiEditor-ui-left' ).prepend( $( '<div>' ).addClass( 'wikiEditor-ui-top' ) );
 	// Setup the intial view
