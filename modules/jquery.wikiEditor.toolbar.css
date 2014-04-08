@@ -4,6 +4,7 @@
 
 .wikiEditor-ui-toolbar {
 	position: relative;
+	display: block;
 }
 /* Expandable Sections */
 .wikiEditor-ui-toolbar .sections {

@@ -29,6 +29,9 @@ class WikiEditorHooks {
 			'modules' => array(
 				'ext.wikiEditor.toolbar',
 			),
+			'stylemodules' => array(
+				'ext.wikiEditor.toolbar.styles',
+			),
 		),
 		'dialogs' => array(
 			'preferences' => array(
@@ -160,7 +163,13 @@ class WikiEditorHooks {
 
 		// Add modules for enabled features
 		foreach ( self::$features as $name => $feature ) {
-			if ( isset( $feature['modules'] ) && self::isEnabled( $name ) ) {
+			if ( !self::isEnabled( $name ) ) {
+				continue;
+			}
+			if ( isset( $feature['stylemodules'] ) ) {
+				$wgOut->addModuleStyles( $feature['stylemodules'] );
+			}
+			if ( isset( $feature['modules'] ) ) {
 				$wgOut->addModules( $feature['modules'] );
 			}
 		}
@@ -179,8 +188,7 @@ class WikiEditorHooks {
 		if ( self::isEnabled( 'toolbar' ) ) {
 			$toolbar = Html::rawElement(
 				'div', array(
-					'class' => 'wikiEditor-oldToolbar',
-					'style' => 'display:none;'
+					'class' => 'wikiEditor-oldToolbar'
 				),
 				$toolbar
 			);

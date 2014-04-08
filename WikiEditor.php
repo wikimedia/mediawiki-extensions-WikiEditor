@@ -425,6 +425,9 @@ $wgResourceModules += array(
 			'jquery.wikiEditor.toolbar.config',
 		)
 	),
+	'ext.wikiEditor.toolbar.styles' => $wikiEditorTpl + array(
+		'styles' => 'ext.wikiEditor.toolbar.styles.css',
+	),
 	'ext.wikiEditor.toolbar.hideSig' => $wikiEditorTpl + array(
 		'scripts' => 'ext.wikiEditor.toolbar.hideSig.js',
 	),
