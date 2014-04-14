@@ -71,7 +71,6 @@ $wgResourceModules += array(
 		'dependencies' => array(
 			'jquery.client',
 			'jquery.textSelection',
-			'jquery.delayedBind',
 		),
 		'messages' => array(
 			'wikieditor-wikitext-tab',
