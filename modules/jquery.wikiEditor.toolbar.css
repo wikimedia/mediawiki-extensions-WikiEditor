@@ -46,7 +46,8 @@
 .wikiEditor-ui-toolbar .section-main {
 	position: relative;
 	float: left;
-	height: 26px;
+	min-height: 26px;
+	height: 100%;
 }
 /* Groups */
 .wikiEditor-ui-toolbar .group {
