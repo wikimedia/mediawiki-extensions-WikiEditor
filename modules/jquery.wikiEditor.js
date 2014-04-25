@@ -486,9 +486,6 @@ if ( !context || typeof context === 'undefined' ) {
 		.append( $( '<span>' + mediaWiki.msg( 'wikieditor-loading' ) + '</span>' )
 			.css( 'marginTop', context.$textarea.height() / 2 ) );
 	*/
-	/* Preserving cursor and focus state, which will get lost due to wrapAll */
-	var hasFocus = context.$textarea.is( ':focus' ),
-		cursorPos = context.$textarea.textSelection( 'getCaretPosition', { startAndEnd: true } );
 	// Encapsulate the textarea with some containers for layout
 	context.$textarea
 	/* Disabling our loading div for now
@@ -500,14 +497,6 @@ if ( !context || typeof context === 'undefined' ) {
 		.wrapAll( $( '<div>' ).addClass( 'wikiEditor-ui-left' ) )
 		.wrapAll( $( '<div>' ).addClass( 'wikiEditor-ui-bottom' ) )
 		.wrapAll( $( '<div>' ).addClass( 'wikiEditor-ui-text' ) );
-	// Restore scroll position after this wrapAll (tracked by mediawiki.action.edit)
-	context.$textarea.prop( 'scrollTop', $( '#wpScrolltop' ).val() );
-	// Restore focus and cursor if needed
-	if ( hasFocus ) {
-		context.$textarea.focus();
-		context.$textarea.textSelection( 'setSelection', { start: cursorPos[0], end: cursorPos[1] } );
-	}
-
 	// Get references to some of the newly created containers
 	context.$ui = context.$textarea.parent().parent().parent().parent().parent();
 	context.$wikitext = context.$textarea.parent().parent().parent().parent();
