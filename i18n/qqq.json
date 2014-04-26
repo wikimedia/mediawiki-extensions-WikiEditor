@@ -36,7 +36,7 @@
 	"wikieditor-publish-button-cancel": "Button to the right of the Edit/Preview tabs that has the same effect as the {{msg-mw|Cancel}} link below the edit box.\n\n{{Identical|Cancel}}",
 	"wikieditor-publish-dialog-title": "Title of the dialog that opens when the user clicks the Publish button",
 	"wikieditor-publish-dialog-summary": "Label for the edit summary textbox in the dialog that opens when the user clicks the Publish button. See also {{msg-mw|Summary}}.",
-	"wikieditor-publish-dialog-minor": "Label for the minor edit checkbox in the dialog that opens when the user clicks the Publish button. See also {{msg-mw|Minoredit}}",
+	"wikieditor-publish-dialog-minor": "Label for the minor edit checkbox in the dialog that opens when the user clicks the Publish button.\n\nSee also:\n* {{msg-mw|Minoredit}}\n{{Identical|Minor edit}}",
 	"wikieditor-publish-dialog-watch": "Label for the watch checkbox in the dialog that opens when the user clicks the Publish button\n\n{{Identical|Watch this page}}",
 	"wikieditor-publish-dialog-publish": "Button that saves the user's edit in the dialog that opens when the user clicks the Publish button\n\n{{Identical|Publish}}",
 	"wikieditor-publish-dialog-goback": "Button that closes the dialog that opens when the user clicks the Publish button.\n{{Identical|Go back}}",
