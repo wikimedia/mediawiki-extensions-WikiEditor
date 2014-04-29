@@ -44,7 +44,7 @@
 	"wikieditor-toolbar": "編輯工具列",
 	"wikieditor-toolbar-desc": "可用性更佳之編輯工具",
 	"wikieditor-toolbar-preference": "啟用進階編輯工具列",
-	"wikieditor-toolbar-dialogs-preference": "啟用協助視窗來插入連結、表格、搜尋與取代",
+	"wikieditor-toolbar-dialogs-preference": "啟用導引程式來進行插入連結、表格、搜尋與取代的動作",
 	"wikieditor-toolbar-hidesig": "從主名字空間的頁面中隱藏簽名按鈕",
 	"wikieditor-toolbar-loading": "載入中...",
 	"wikieditor-toolbar-tool-bold": "粗體",
