@@ -190,7 +190,7 @@ var wikiEditorTests = {
 	}
 };
 
-jQuery(document).ready( function ( $ ) {
+jQuery( document ).ready( function ( $ ) {
 	var $button = $( '<button>Run wikiEditor Tests!</button>' )
 		.css( {
 			position: 'fixed',
@@ -206,8 +206,8 @@ jQuery(document).ready( function ( $ ) {
 			cursor: 'pointer'
 		} )
 		.click( function () {
-			if ( $(this).data( 'testDone' ) ) {
-				$(this).slideUp( 'fast' );
+			if ( $( this ).data( 'testDone' ) ) {
+				$( this ).slideUp( 'fast' );
 				return false;
 			}
 
@@ -239,7 +239,7 @@ jQuery(document).ready( function ( $ ) {
 				}
 			}
 
-			$(this)
+			$( this )
 				.attr( 'title', messages.join( ' | ' ) )
 				.text( passes + ' / ' + tests + ' were successful' )
 				.css( 'backgroundColor', passes < tests ? 'red' : 'green' )

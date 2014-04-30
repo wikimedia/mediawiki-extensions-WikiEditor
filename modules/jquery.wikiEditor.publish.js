@@ -67,9 +67,9 @@ fn: {
 					init: function () {
 						var i;
 
-						$(this).find( '[rel]' ).each( function () {
-							$(this).text( mediaWiki.msg( $(this).attr( 'rel' ) ) );
-						});
+						$( this ).find( '[rel]' ).each( function () {
+							$( this ).text( mediaWiki.msg( $( this ).attr( 'rel' ) ) );
+						} );
 
 						/* REALLY DIRTY HACK! */
 						// Reformat the copyright warning stuff
@@ -85,7 +85,7 @@ fn: {
 						}
 						newCopyWarnHTML += '</ul>';
 						// No list if there's only one element
-						$(this).find( '.wikiEditor-publish-dialog-copywarn' ).html(
+						$( this ).find( '.wikiEditor-publish-dialog-copywarn' ).html(
 								copyWarnStatements.length > 1 ? newCopyWarnHTML : copyWarnHTML
 						);
 						/* END OF REALLY DIRTY HACK */
@@ -103,10 +103,10 @@ fn: {
 								.prop( 'checked', true );
 							}
 
-						$(this).find( 'form' ).submit( function ( e ) {
-							$(this).closest( '.ui-dialog' ).find( 'button:first' ).click();
+						$( this ).find( 'form' ).submit( function ( e ) {
+							$( this ).closest( '.ui-dialog' ).find( 'button:first' ).click();
 							e.preventDefault();
-						});
+						} );
 					},
 					immediateCreate: true,
 					dialog: {
@@ -125,7 +125,7 @@ fn: {
 								$( '#editform' ).submit();
 							},
 							'wikieditor-publish-dialog-goback': function () {
-								$(this).dialog( 'close' );
+								$( this ).dialog( 'close' );
 							}
 						},
 						open: function () {

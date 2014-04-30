@@ -4,7 +4,7 @@
 /*jshint camelcase:false, quotmark:false */
 ( function ( $, mw ) { $.wikiEditor.modules.toolbar.config = {
 
-getDefaultConfig: function() {
+getDefaultConfig: function () {
 	var fileNamespace = mw.config.get( 'wgFormattedNamespaces' )[6];
 	return { 'toolbar': {
 		// Main section

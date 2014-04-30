@@ -216,21 +216,21 @@ $.fn.wikiEditor = function () {
 
 // Skip any further work when running in browsers that are unsupported
 if ( !$.wikiEditor.isSupported() ) {
-	return $(this);
+	return $( this );
 }
 
 /* Initialization */
 
 // The wikiEditor context is stored in the element's data, so when this function gets called again we can pick up right
 // where we left off
-var context = $(this).data( 'wikiEditor-context' );
+var context = $( this ).data( 'wikiEditor-context' );
 // On first call, we need to set things up, but on all following calls we can skip right to the API handling
 if ( !context || typeof context === 'undefined' ) {
 
 	// Star filling the context with useful data - any jQuery selections, as usual should be named with a preceding $
 	context = {
 		// Reference to the textarea element which the wikiEditor is being built around
-		'$textarea': $(this),
+		'$textarea': $( this ),
 		// Container for any number of mutually exclusive views that are accessible by tabs
 		'views': {},
 		// Container for any number of module-specific data - only including data for modules in use on this context
@@ -238,7 +238,7 @@ if ( !context || typeof context === 'undefined' ) {
 		// General place to shouve bits of data into
 		'data': {},
 		// Unique numeric ID of this instance used both for looking up and differentiating instances of wikiEditor
-		'instance': $.wikiEditor.instances.push( $(this) ) - 1,
+		'instance': $.wikiEditor.instances.push( $( this ) ) - 1,
 		// Saved selection state for old IE (<=10)
 		'savedSelection': null,
 		// List of extensions active on this context
@@ -248,7 +248,7 @@ if ( !context || typeof context === 'undefined' ) {
 	/**
 	 * Externally Accessible API
 	 *
-	 * These are available using calls to $(selection).wikiEditor( call, data ) where selection is a jQuery selection
+	 * These are available using calls to $( selection ).wikiEditor( call, data ) where selection is a jQuery selection
 	 * of the textarea that the wikiEditor instance was built around.
 	 */
 
@@ -336,9 +336,9 @@ if ( !context || typeof context === 'undefined' ) {
 					name in $.wikiEditor.modules[module].evt
 				) {
 					var ret = $.wikiEditor.modules[module].evt[name]( context, event );
-					if (ret !== null) {
+					if ( ret !== null ) {
 						//if 1 returns false, the end result is false
-						if( returnFromModules === null ) {
+						if ( returnFromModules === null ) {
 							returnFromModules = ret;
 						} else {
 							returnFromModules = returnFromModules && ret;
@@ -388,10 +388,10 @@ if ( !context || typeof context === 'undefined' ) {
 						} )
 						.click( function ( event ) {
 							context.$ui.find( '.wikiEditor-ui-view' ).hide();
-							context.$ui.find( '.' + $(this).parent().attr( 'rel' ) ).show();
+							context.$ui.find( '.' + $( this ).parent().attr( 'rel' ) ).show();
 							context.$tabs.find( 'div' ).removeClass( 'current' );
-							$(this).parent().addClass( 'current' );
-							$(this).blur();
+							$( this ).parent().addClass( 'current' );
+							$( this ).blur();
 							if ( 'init' in options && typeof options.init === 'function' ) {
 								options.init( context );
 							}
@@ -578,7 +578,7 @@ if ( args.length > 0 ) {
 }
 
 // Store the context for next time, and support chaining
-return $(this).data( 'wikiEditor-context', context );
+return $( this ).data( 'wikiEditor-context', context );
 
 };
 
