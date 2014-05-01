@@ -43,7 +43,7 @@
 	"wikieditor-toolbar-tool-link": "Link",
 	"wikieditor-toolbar-tool-link-title": "Lingi lisamine",
 	"wikieditor-toolbar-tool-link-int": "Vikileheküljele",
-	"wikieditor-toolbar-tool-link-int-target": "Lehekülje pealkiri:",
+	"wikieditor-toolbar-tool-link-int-target": "Sihtlehekülg või internetiaadress:",
 	"wikieditor-toolbar-tool-link-int-target-tooltip": "Lehekülje pealkiri või internetiaadress",
 	"wikieditor-toolbar-tool-link-int-text": "Lingi tekst:",
 	"wikieditor-toolbar-tool-link-int-text-tooltip": "Kuvatav tekst",
