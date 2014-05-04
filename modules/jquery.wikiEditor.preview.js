@@ -60,7 +60,7 @@ fn: {
 						action: 'parse',
 						title: mw.config.get( 'wgPageName' ),
 						text: wikitext,
-						prop: 'text',
+						prop: 'text|modules',
 						pst: ''
 					},
 					function ( data ) {
@@ -76,6 +76,11 @@ fn: {
 						context.modules.preview.$preview.find( '.wikiEditor-preview-contents' )
 							.html( data.parse.text['*'] )
 							.find( 'a:not([href^=#])' ).click( false );
+						var collection = data.parse.modules.concat(
+							data.parse.modulescripts,
+							data.parse.modulestyles,
+							data.parse.modulemessages );
+						mw.loader.load( collection );
 					},
 					'json'
 				);
