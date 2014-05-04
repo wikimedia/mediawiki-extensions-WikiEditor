@@ -99,6 +99,7 @@ fn: {
 				var postdata = {
 					format: 'json',
 					action: 'parse',
+					title: mw.config.get( 'wgPageName' ),
 					onlypst: '',
 					text: wikitext
 				};
