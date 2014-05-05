@@ -204,8 +204,8 @@ $.wikiEditor.modules.dialogs.config = {
 								indexpageids: true
 							} ).done( function ( data ) {
 								var status;
-								if ( !data.query ) {
-									// This happens in some weird cases
+								if ( !data.query || !data.query.pages ) {
+									// This happens in some weird cases like interwiki links
 									status = false;
 								} else {
 									var page = data.query.pages[data.query.pageids[0]];
