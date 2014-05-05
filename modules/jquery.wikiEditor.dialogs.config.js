@@ -5,6 +5,8 @@
 /*global alert */
 ( function ( $, mw ) {
 
+var hasOwn = Object.prototype.hasOwnProperty;
+
 $.wikiEditor.modules.dialogs.config = {
 
 	replaceIcons: function ( $textarea ) {
@@ -167,7 +169,7 @@ $.wikiEditor.modules.dialogs.config = {
 						}
 						var target = $( '#wikieditor-toolbar-link-int-target' ).val();
 						var cache = $( '#wikieditor-toolbar-link-int-target-status' ).data( 'existencecache' );
-						if ( cache[target] ) {
+						if ( hasOwn.call( cache, target ) ) {
 							updateWidget( cache[target] );
 							return;
 						}
@@ -396,7 +398,7 @@ $.wikiEditor.modules.dialogs.config = {
 							}
 
 							var cache = $( this ).data( 'suggcache' );
-							if ( typeof cache[title] !== 'undefined' ) {
+							if ( hasOwn.call( cache, title ) ) {
 								$( this ).suggestions( 'suggestions', cache[title] );
 								return;
 							}
