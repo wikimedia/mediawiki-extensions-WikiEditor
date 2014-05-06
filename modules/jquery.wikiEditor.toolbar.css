@@ -68,8 +68,14 @@
 }
 /* Sprited Buttons */
 .wikiEditor-toolbar-spritedButton { 
+	background-image: url('images/toolbar/button-sprite.png');
 	/* @embed */
-	background: url(images/toolbar/button-sprite.png) 0 0 no-repeat;
+	background-image: -webkit-linear-gradient(transparent, transparent), url('images/toolbar/button-sprite.svg');
+	/* @embed */
+	background-image: linear-gradient(transparent, transparent), url('images/toolbar/button-sprite.svg');
+
+	background-position: 0 0;
+	background-repeat: no-repeat;
 	display: block;
 	float: left;
 	height: 22px;
