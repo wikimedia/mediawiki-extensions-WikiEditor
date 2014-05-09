@@ -158,7 +158,7 @@ api : {
 					// Save for later checking if empty
 					group = target;
 					// Tool
-					target = group + ' a[rel="' + data.tool + '"].tool, ' + group + ' img[rel="' + data.tool + '"].tool';
+					target = target + ' a[rel="' + data.tool + '"].tool, ' + target + ' img[rel="' + data.tool + '"].tool';
 				}
 			} else if ( typeof data.page === 'string' ) {
 				// Booklet page
