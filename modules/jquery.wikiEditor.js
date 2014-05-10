@@ -55,8 +55,8 @@ $.wikiEditor = {
 			chrome: [['>=', 3]],
 			netscape: [['>=', 9]],
 			blackberry: false,
-			ipod: false,
-			iphone: false
+			ipod: [['>=', 6]],
+			iphone: [['>=', 6]]
 		},
 		// Right-to-left languages
 		rtl: {
@@ -71,8 +71,8 @@ $.wikiEditor = {
 			chrome: [['>=', 3]],
 			netscape: [['>=', 9]],
 			blackberry: false,
-			ipod: false,
-			iphone: false
+			ipod: [['>=', 6]],
+			iphone: [['>=', 6]]
 		}
 	},
 
