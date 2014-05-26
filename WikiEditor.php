@@ -10,7 +10,7 @@
  * @author Nimish Gautam <nimish@wikimedia.org>
  * @author Adam Miller <amiller@wikimedia.org>
  * @license GPL v2 or later
- * @version 0.3.1
+ * @version 0.4.0
  */
 
 /* Configuration */
