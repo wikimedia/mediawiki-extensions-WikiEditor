@@ -118,7 +118,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Tiefgestellter Text",
 	"wikieditor-toolbar-group-insert": "Einfügen",
 	"wikieditor-toolbar-tool-gallery": "Bildergalerie",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Beispiel.jpg|Beschreibung1\n$1:Beispiel.jpg|Beschreibung2",
+	"wikieditor-toolbar-tool-gallery-example": "Beispiel.jpg|Beschreibung1\nBeispiel.jpg|Beschreibung2",
 	"wikieditor-toolbar-tool-newline": "Zeilenumbruch erzwingen (nicht im Fließtext verwenden)",
 	"wikieditor-toolbar-tool-table": "Tabelle",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! Überschrift 1\n! Überschrift 2\n! Überschrift 3\n|-\n| Zeile 1, Zelle 1\n| Zeile 1, Zelle 2\n| Zeile 1, Zelle 3\n|-\n| Zeile 2, Zelle 1\n| Zeile 2, Zelle 2\n| Zeile 2, Zelle 3",
