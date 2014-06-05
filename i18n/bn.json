@@ -109,7 +109,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "সাবস্ক্রিপ্ট লেখা",
 	"wikieditor-toolbar-group-insert": "যোগ করো",
 	"wikieditor-toolbar-tool-gallery": "ছবির গ্যালারী",
-	"wikieditor-toolbar-tool-gallery-example": "$1:উদাহরণ.jpg|ক্যাপশন১\n$1:উদাহরণ.jpg|ক্যাপশন২",
+	"wikieditor-toolbar-tool-gallery-example": "উদাহরণ.jpg|ক্যাপশন১\nউদাহরণ.jpg|ক্যাপশন২",
 	"wikieditor-toolbar-tool-newline": "নতুন লাইন",
 	"wikieditor-toolbar-tool-table": "ছক",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! শিরোনাম ১\n! শিরোনাম ২\n! শিরোনাম ৩\n|-\n| সারি ১, ঘর ১\n| সারি ১, ঘর ২\n| সারি ১, ঘর ৩\n|-\n| সারি ২, ঘর ১\n| সারি ২, ঘর ২\n| সারি ২, ঘর ৩",

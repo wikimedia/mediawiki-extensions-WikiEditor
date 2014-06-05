@@ -107,7 +107,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Тизгин тюбю текст",
 	"wikieditor-toolbar-group-insert": "Къош",
 	"wikieditor-toolbar-tool-gallery": "Суратланы галереясы",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Юлгю.jpg|Ангылатыу1\n$1:Юлгю.jpg|Ангылатыу2",
+	"wikieditor-toolbar-tool-gallery-example": "Юлгю.jpg|Ангылатыу1\nЮлгю.jpg|Ангылатыу2",
 	"wikieditor-toolbar-tool-newline": "Джангы тизгин",
 	"wikieditor-toolbar-tool-table": "Таблица",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! башлыкъ 1\n! башлыкъ 2\n! башлыкъ 3\n|-\n| тизгин 1, кюбюр 1\n| тизгин 1, кюбюр 2\n| тизгин 1, кюбюр 3\n|-\n| тизгин 2, кюбюр 1\n| тизгин 2, кюбюр 2\n| тизгин 2, кюбюр 3",

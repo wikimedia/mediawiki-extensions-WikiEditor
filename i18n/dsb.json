@@ -107,7 +107,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Dłymoko stajony tekst",
 	"wikieditor-toolbar-group-insert": "Zasunuś",
 	"wikieditor-toolbar-tool-gallery": "Wobrazowa galerija",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Pśikład.jpg|Pópisanje1\n$1:Pśikład.jpg|Pópisanje2",
+	"wikieditor-toolbar-tool-gallery-example": "Pśikład.jpg|Pópisanje1\nPśikład.jpg|Pópisanje2",
 	"wikieditor-toolbar-tool-newline": "Nowa smužka",
 	"wikieditor-toolbar-tool-table": "Tabela",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! głowa 1\n! głowa 2\n! głowa 3\n|-\n| smužka 1, cela 1\n| smužka 1, cela 2\n| smužka 1, cela 3\n|-\n| smužka 2, cela 1\n| smužka 2, cela 2\n| smužka 2, cela 3",

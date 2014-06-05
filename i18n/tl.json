@@ -106,7 +106,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Teksto ng nakababang panitik",
 	"wikieditor-toolbar-group-insert": "Isingit",
 	"wikieditor-toolbar-tool-gallery": "Tipunan ng larawan",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Halimbawa.jpg|Kapsyon1\n$1:Halimbawa.jpg|Kapsyon2",
+	"wikieditor-toolbar-tool-gallery-example": "Halimbawa.jpg|Kapsyon1\nHalimbawa.jpg|Kapsyon2",
 	"wikieditor-toolbar-tool-newline": "Bagong guhit",
 	"wikieditor-toolbar-tool-table": "Talahanayan",
 	"wikieditor-toolbar-tool-table-example-old": "\n! paulo 1\n! paulo 2\n! paulo 3\n|-\n| pahalang na hanay 1, sihay 1\n| pahalang na hanay  1, sihay 2\n| pahalang na hanay  1, sihay 3\n|-\n| pahalang na hanay  2, sihay 1\n| pahalang na hanay 2, sihay 2\n| pahalang na hanay 2, sihay 3",

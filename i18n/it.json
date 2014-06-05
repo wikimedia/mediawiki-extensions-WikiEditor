@@ -118,7 +118,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Testo in pedice",
 	"wikieditor-toolbar-group-insert": "Inserisci",
 	"wikieditor-toolbar-tool-gallery": "Galleria di immagini",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Esempio.jpg|Didascalia1\n$1:Esempio.jpg|Didascalia2",
+	"wikieditor-toolbar-tool-gallery-example": "Esempio.jpg|Didascalia1\nEsempio.jpg|Didascalia2",
 	"wikieditor-toolbar-tool-newline": "Nuova riga",
 	"wikieditor-toolbar-tool-table": "Tabella",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! titolo 1\n! titolo 2\n! titolo 3\n|-\n| riga 1, cella 1\n| riga 1, cella 2\n| riga 1, cella 3\n|-\n| riga 2, cella 1\n| riga 2, cella 2\n| riga 2, cella 3",

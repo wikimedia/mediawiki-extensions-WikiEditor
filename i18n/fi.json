@@ -120,7 +120,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Alaindeksin teksti",
 	"wikieditor-toolbar-group-insert": "Lisää",
 	"wikieditor-toolbar-tool-gallery": "Kuvagalleria",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Esimerkki.jpg|Kuvateksti1\n$1:Esimerkki.jpg|Kuvateksti2",
+	"wikieditor-toolbar-tool-gallery-example": "Esimerkki.jpg|Kuvateksti1\nEsimerkki.jpg|Kuvateksti2",
 	"wikieditor-toolbar-tool-newline": "Uusi rivi",
 	"wikieditor-toolbar-tool-table": "Taulukko",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! otsikko 1\n! otsikko 2\n! otsikko 3\n|-\n| rivi 1, solu 1\n| rivi 1, solu 2\n| rivi 1, solu 3\n|-\n| rivi 2, solu 1\n| rivi 2, solu 2\n| rivi 2, solu 3",

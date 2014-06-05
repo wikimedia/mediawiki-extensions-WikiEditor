@@ -109,7 +109,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Текст в долен индекс",
 	"wikieditor-toolbar-group-insert": "Вмъкване",
 	"wikieditor-toolbar-tool-gallery": "Галерия",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Описание1\n$1:Example.jpg|Описание2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Описание1\nExample.jpg|Описание2",
 	"wikieditor-toolbar-tool-newline": "Нов ред",
 	"wikieditor-toolbar-tool-table": "Таблица",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! колона 1\n! колона 2\n! колона 3\n|-\n| ред 1, клетка 1\n| ред 1, клетка 2\n| ред 1, клетка 3\n|-\n| ред 2, клетка 1\n| ред 2, клетка 2\n| ред 2, клетка 3",

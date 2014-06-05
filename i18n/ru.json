@@ -120,7 +120,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Подстрочный текст",
 	"wikieditor-toolbar-group-insert": "Вставка",
 	"wikieditor-toolbar-tool-gallery": "Галерея картинок",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Описание1\n$1:Example.jpg|Описание2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Описание1\nExample.jpg|Описание2",
 	"wikieditor-toolbar-tool-newline": "Новая строка",
 	"wikieditor-toolbar-tool-table": "Таблица",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! заголовок 1\n! заголовок 2\n! заголовок 3\n|-\n| строка 1, ячейка 1\n| строка 1, ячейка 2\n| строка 1, ячейка 3\n|-\n| строка 2, ячейка 1\n| строка 2, ячейка 2\n| строка 2, ячейка 3",

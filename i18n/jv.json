@@ -106,7 +106,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Tèks subskrip",
 	"wikieditor-toolbar-group-insert": "Lebokaké",
 	"wikieditor-toolbar-tool-gallery": "Galèri gambar",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Conto.jpg|Katrangan1\n$1:Conto.jpg|Katrangan2",
+	"wikieditor-toolbar-tool-gallery-example": "Conto.jpg|Katrangan1\nConto.jpg|Katrangan2",
 	"wikieditor-toolbar-tool-newline": "Larik anyar",
 	"wikieditor-toolbar-tool-table": "Tabèl",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! Irah-irahan 1\n! Irah-irahan 2\n! Irah-irahan 3\n|-\n| larik 1, sèl 1\n| larik 1, sèl 2\n| larik 1, sèl 3\n|-\n| larik 2, sèl 1\n| larik 2, sèl 2\n| larik 2, sèl 3",

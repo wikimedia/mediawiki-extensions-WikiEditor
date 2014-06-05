@@ -92,7 +92,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "ឃ្លាជាសន្ទស្សន៍",
 	"wikieditor-toolbar-group-insert": "បញ្ជូល",
 	"wikieditor-toolbar-tool-gallery": "វិចិត្រសាលរូបភាព",
-	"wikieditor-toolbar-tool-gallery-example": "$1:ឧទាហរណ៍.jpg|ចំនងជើងក្រោមរូបភាព១\n\n$1:ឧទាហរណ៍.jpg|ចំនងជើងក្រោមរូបភាព២",
+	"wikieditor-toolbar-tool-gallery-example": "ឧទាហរណ៍.jpg|ចំនងជើងក្រោមរូបភាព១\nឧទាហរណ៍.jpg|ចំនងជើងក្រោមរូបភាព២",
 	"wikieditor-toolbar-tool-newline": "ចុះបន្ទាត់",
 	"wikieditor-toolbar-tool-table": "តារាង",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! ឈ្មោះជួរឈរ 1\n! ឈ្មោះជួរឈរ 2\n! ឈ្មោះជួរឈរ 3\n|-\n| ជួរដេក 1, ប្រអប់ 1\n| ជួរដេក 1, ប្រអប់ 2\n| ជួរដេក 1, ប្រអប់ 3\n|-\n| ជួរដេក 2, ប្រអប់ 1\n| ជួរដេក 2, ប្រអប់ 2\n| ជួរដេក 2, ប្រអប់ 3",

@@ -64,7 +64,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Mbind ci suufaan",
 	"wikieditor-toolbar-group-insert": "Roof",
 	"wikieditor-toolbar-tool-gallery": "Gaaraluwaayu  nataal",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Misaal.jpg|Faramfacce1\n$1:Misaal.jpg|Faramfacce2",
+	"wikieditor-toolbar-tool-gallery-example": "Misaal.jpg|Faramfacce1\nMisaal.jpg|Faramfacce2",
 	"wikieditor-toolbar-tool-newline": "Rëdd wu bees",
 	"wikieditor-toolbar-tool-table": "Xaatim",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! koj 1\n! koj 2\n! koj 3\n|-\n| rëdd 1, keno 1\n| rëdd 1, keno 2\n| rëdd 1, keno 3\n|-\n| rëdd 2, keno 1\n| rëdd 2, keno 2\n| rëdd 2, keno 3",

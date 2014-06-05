@@ -74,7 +74,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Thu üaithlà",
 	"wikieditor-toolbar-group-insert": "Telh rawh le",
 	"wikieditor-toolbar-tool-gallery": "Thlalâk chhuar",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Entirna.jpg|Sawifiahna1\n$1:Entirna.jpg|Sawifiahna2",
+	"wikieditor-toolbar-tool-gallery-example": "Entirna.jpg|Sawifiahna1\nEntirna.jpg|Sawifiahna2",
 	"wikieditor-toolbar-tool-newline": "Tlar thar",
 	"wikieditor-toolbar-tool-table": "Dawhkan",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! thupui1\n! thupui 2\n! thupui 3\n|-\n| tlar 1, pindan 1\n| tlar 1, pindan 2\n| tlar1, pindan 3\n|-\n| tlar 2, pindan 1\n| tlar 2, pindan 2\n| tlar 2, pindan 3",

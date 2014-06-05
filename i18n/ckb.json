@@ -106,7 +106,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "دەقی ژێرنووس",
 	"wikieditor-toolbar-group-insert": "تێخستن",
 	"wikieditor-toolbar-tool-gallery": "گالێری وێنە",
-	"wikieditor-toolbar-tool-gallery-example": "$1:نموونە.jpg|شرۆڤەی ١\n$1:نموونە.jpg|شرۆڤەی ٢",
+	"wikieditor-toolbar-tool-gallery-example": "نموونە.jpg|شرۆڤەی ١\nنموونە.jpg|شرۆڤەی ٢",
 	"wikieditor-toolbar-tool-newline": "ھێڵی نوێ",
 	"wikieditor-toolbar-tool-table": "خشتە",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! سەردێڕی ١\n! سەردێڕی ٢\n! سەردێڕی ٣\n|-\n| ڕیزی ١، خانەی ١\n| ڕیزی ١، خانەی ٢\n| ڕیزی ١، خانەی ٣\n|-\n| ڕیزی ٢، خانەی ١\n| ڕیزی ٢، خانەی ٢\n| ڕیزی ٢، خانەی ٣",

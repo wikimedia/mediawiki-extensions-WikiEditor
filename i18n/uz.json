@@ -107,7 +107,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Satrosti matn",
 	"wikieditor-toolbar-group-insert": "Qoʻyish",
 	"wikieditor-toolbar-tool-gallery": "Rasmlar galereyasi",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Izoh1\n$1:Example.jpg|Izoh2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Izoh1\nExample.jpg|Izoh2",
 	"wikieditor-toolbar-tool-newline": "Yangi qator",
 	"wikieditor-toolbar-tool-table": "Jadval",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! sarlavha 1\n! sarlavha 2\n! sarlavha 3\n|-\n| qator 1, katak 1\n| qator 1, katak 2\n| qator 1, katak 3\n|-\n| qator 2, katak 1\n| qator 2, katak 2\n| qator 2, katak 3",

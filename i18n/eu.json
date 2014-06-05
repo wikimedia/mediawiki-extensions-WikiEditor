@@ -103,7 +103,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Azpiindizearen testua",
 	"wikieditor-toolbar-group-insert": "Txertatu",
 	"wikieditor-toolbar-tool-gallery": "Irudi galeria",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Adibidea.jpg|Oina1\n$1:Adibidea.jpg|Oina2",
+	"wikieditor-toolbar-tool-gallery-example": "Adibidea.jpg|Oina1\nAdibidea.jpg|Oina2",
 	"wikieditor-toolbar-tool-newline": "Lerro berria",
 	"wikieditor-toolbar-tool-table": "Taula",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! goiburua 1\n! goiburua 2\n! goiburua 3\n|-\n| errenkada 1, gela 1\n| errenkada 1, gela 2\n| errenkada 1, gela 3\n|-\n| errenkada 2, gela 1\n| errenkada 2, gela 2\n| errenkada 2, gela 3",

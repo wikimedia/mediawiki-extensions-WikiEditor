@@ -109,7 +109,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Chữ được viết xuống dưới",
 	"wikieditor-toolbar-group-insert": "Chèn",
 	"wikieditor-toolbar-tool-gallery": "Tập ảnh",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Ví dụ.jpg|Chú thích 1\n$1:Ví dụ.jpg|Chú thích 2",
+	"wikieditor-toolbar-tool-gallery-example": "Ví dụ.jpg|Chú thích 1\nVí dụ.jpg|Chú thích 2",
 	"wikieditor-toolbar-tool-newline": "Dòng mới",
 	"wikieditor-toolbar-tool-table": "Bảng",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! tiêu đề 1\n! tiêu đề 2\n! tiêu đề 3\n|-\n| hàng 1, cột 1\n| hàng 1, cột 2\n| hàng 1, cột 3\n|-\n| hàng 2, cột 1\n| hàng 2, cột 2\n| hàng 2, cột 3",

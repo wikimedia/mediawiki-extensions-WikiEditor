@@ -113,7 +113,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Текст индекса",
 	"wikieditor-toolbar-group-insert": "Убаци",
 	"wikieditor-toolbar-tool-gallery": "Галерија слика",
-	"wikieditor-toolbar-tool-gallery-example": "$1:пример1.jpg|Наслов1\n$1:пример2.jpg|Наслов2",
+	"wikieditor-toolbar-tool-gallery-example": "пример1.jpg|Наслов1\nпример2.jpg|Наслов2",
 	"wikieditor-toolbar-tool-newline": "Нови ред",
 	"wikieditor-toolbar-tool-table": "Табела",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! наслов 1\n! наслов 2\n! наслов 3\n|-\n| ред 1, ћелија 1\n| ред 1, ћелија 2\n| ред 1, ћелија 3\n|-\n| ред 2, ћелија 1\n| ред 2, ћелија 2\n| ред 2, ћелија 3",

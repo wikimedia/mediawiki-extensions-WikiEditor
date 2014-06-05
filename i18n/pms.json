@@ -109,7 +109,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Test a ìndes an bass",
 	"wikieditor-toolbar-group-insert": "Anserì",
 	"wikieditor-toolbar-tool-gallery": "Galarìa ëd plance",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Esempi.jpg|Descrission1\n$1:Esempi.jpg|Descrission2",
+	"wikieditor-toolbar-tool-gallery-example": "Esempi.jpg|Descrission1\nEsempi.jpg|Descrission2",
 	"wikieditor-toolbar-tool-newline": "A cap",
 	"wikieditor-toolbar-tool-table": "Tàula",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! antestassion 1\n! antestassion 2\n! antestassion 3\n|-\n| linia 1, casela 1\n| linia 1, casela 2\n| linia 1, casela 3\n|-\n| linia 2, casela 1\n| linia 2, casela 2\n| linia 2, casela 3",

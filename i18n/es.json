@@ -121,7 +121,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Texto en subíndice",
 	"wikieditor-toolbar-group-insert": "Insertar",
 	"wikieditor-toolbar-tool-gallery": "Galería de fotos",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Ejemplo.jpg|Descripción1\n$1:Ejemplo.jpg|Descripción2",
+	"wikieditor-toolbar-tool-gallery-example": "Ejemplo.jpg|Descripción1\nEjemplo.jpg|Descripción2",
 	"wikieditor-toolbar-tool-newline": "Línea nueva",
 	"wikieditor-toolbar-tool-table": "Tabla",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! encabezado 1\n! encabezado 2\n! encabezado 3\n|-\n| fila 1, celda 1\n| fila 1, celda 2\n| fila 1, celda 3\n|-\n| fila 2, celda 1\n| fila 2, celda 2\n| fila 2, celda 3",

@@ -110,7 +110,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Text v dolním indexu",
 	"wikieditor-toolbar-group-insert": "Vložit",
 	"wikieditor-toolbar-tool-gallery": "Galerie obrázků",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Příklad.jpg|Titulek 1\n$1:Příklad.jpg|Titulek 2",
+	"wikieditor-toolbar-tool-gallery-example": "Příklad.jpg|Titulek 1\nPříklad.jpg|Titulek 2",
 	"wikieditor-toolbar-tool-newline": "Nový řádek",
 	"wikieditor-toolbar-tool-table": "Tabulka",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! hlavička 1\n! hlavička 2\n! hlavička 3\n|-\n| řádek 1, buňka 1\n| řádek 1, buňka 2\n| řádek 1, buňka 3\n|-\n| řádek 2, buňka 1\n| řádek 2, buňka 2\n| řádek 2, buňka 3",

@@ -107,7 +107,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Testu en subíndiz",
 	"wikieditor-toolbar-group-insert": "Inxertar",
 	"wikieditor-toolbar-tool-gallery": "Galería d'imaxes",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Exemplu.jpg|Pie1\n$1:Exemplu.jpg|Pie2",
+	"wikieditor-toolbar-tool-gallery-example": "Exemplu.jpg|Pie1\nExemplu.jpg|Pie2",
 	"wikieditor-toolbar-tool-newline": "Nueva llinia",
 	"wikieditor-toolbar-tool-table": "Tabla",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! testera 1\n! testera 2\n! testera 3\n|-\n| filera 1, caxella 1\n| filera 1, caxella 2\n| filera 1, caxella 3\n|-\n| filera 2, caxella 1\n| filera 2, caxella 2\n| filera 2, caxella 3",

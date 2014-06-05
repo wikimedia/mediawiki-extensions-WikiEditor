@@ -115,7 +115,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "아래 첨자",
 	"wikieditor-toolbar-group-insert": "넣기",
 	"wikieditor-toolbar-tool-gallery": "사진 갤러리",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|설명1\n$1:Example.jpg|설명2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|설명1\nExample.jpg|설명2",
 	"wikieditor-toolbar-tool-newline": "새 줄",
 	"wikieditor-toolbar-tool-table": "표",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! 제목 1\n! 제목 2\n! 제목 3\n|-\n| 1행 1열\n| 1행 2열\n| 1행 3열\n|-\n| 2행 1열\n| 2행 2열\n| 2행 3열",

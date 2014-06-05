@@ -107,7 +107,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Texto de subíndice",
 	"wikieditor-toolbar-group-insert": "Inserir",
 	"wikieditor-toolbar-tool-gallery": "Galería de imaxes",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Pé_de_foto_1\n$1:Example.jpg|Pé_de_foto_2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Pé_de_foto_1\nExample.jpg|Pé_de_foto_2",
 	"wikieditor-toolbar-tool-newline": "Nova liña",
 	"wikieditor-toolbar-tool-table": "Táboa",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! cabeceira 1\n! cabeceira 2\n! cabeceira 3\n|-\n| liña 1, cela 1\n| liña 1, cela 2\n| liña 1, cela 3\n|-\n| liña 2, cela 1\n| liña 2, cela 2\n| liña 2, cela 3",

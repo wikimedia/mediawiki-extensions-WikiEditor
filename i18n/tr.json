@@ -108,7 +108,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Alt simge metni",
 	"wikieditor-toolbar-group-insert": "Ekle",
 	"wikieditor-toolbar-tool-gallery": "Resim sergisi",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Örnek.jpg|Altyazı 1\n$1:Örnek.jpg|Altyazı 2",
+	"wikieditor-toolbar-tool-gallery-example": "Örnek.jpg|Altyazı 1\nÖrnek.jpg|Altyazı 2",
 	"wikieditor-toolbar-tool-newline": "Yeni satır",
 	"wikieditor-toolbar-tool-table": "Tablo",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! başlık 1\n! başlık 2\n! başlık 3\n|-\n| satır 1, hücre 1\n| satır 1, hücre 2\n| satır 1, hücre 3\n|-\n| satır 2, hücre 1\n| satır 2, hücre 2\n| satır 2, hücre 3",

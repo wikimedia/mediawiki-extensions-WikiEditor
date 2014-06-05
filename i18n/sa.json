@@ -107,7 +107,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "अवाङ्कपाठ्यांशः",
 	"wikieditor-toolbar-group-insert": "योज्यताम्",
 	"wikieditor-toolbar-tool-gallery": "चित्रवीथिका",
-	"wikieditor-toolbar-tool-gallery-example": "$1:उदाहरणम्.jpg|चित्रशीर्षकम्१\n$1:उदाहरणम्.jpg|चित्रशीर्षकम्२",
+	"wikieditor-toolbar-tool-gallery-example": "उदाहरणम्.jpg|चित्रशीर्षकम्१\nउदाहरणम्.jpg|चित्रशीर्षकम्२",
 	"wikieditor-toolbar-tool-newline": "नूतना पङ्क्तिः",
 	"wikieditor-toolbar-tool-table": "कोष्टकम्",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! शीर्षकम् १\n! शीर्षकम् २\n! शीर्षकम् ३\n|-\n| पंक्तिः १, प्रकोष्ठम् १\n| पंक्तिः १, प्रकोष्ठम् २\n| पंक्तिः १, प्रकोष्ठम् ३\n|-\n| पंक्तिः २, प्रकोष्ठम् १\n| पंक्तिः २, प्रकोष्ठम् २\n| पंक्तिः २, प्रकोष्ठम् ३",

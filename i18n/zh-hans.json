@@ -119,7 +119,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "下标文字",
 	"wikieditor-toolbar-group-insert": "插入",
 	"wikieditor-toolbar-tool-gallery": "图库",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|说明1\n$1:Example.jpg|说明2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|说明1\nExample.jpg|说明2",
 	"wikieditor-toolbar-tool-newline": "换行",
 	"wikieditor-toolbar-tool-table": "表格",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! 标题1\n! 标题2\n! 标题3\n|-\n| 第1行第1格\n| 第1行第2格\n| 第1行第3格\n|-\n| 第2行第1格\n| 第2行第2格\n| 第2行第3格",

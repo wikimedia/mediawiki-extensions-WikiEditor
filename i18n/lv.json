@@ -101,7 +101,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Apakšējā indeksa teksts",
 	"wikieditor-toolbar-group-insert": "Ievietot",
 	"wikieditor-toolbar-tool-gallery": "Attēlu galerija",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Apraksts1\n$1:Example.jpg|Apraksts2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Apraksts1\nExample.jpg|Apraksts2",
 	"wikieditor-toolbar-tool-newline": "Jauna rinda",
 	"wikieditor-toolbar-tool-table": "Tabula",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! 1. virsraksts\n! 2. virsraksts\n! 3. virsraksts\n|-\n| 1. rinda, 1. šūna\n| 1. rinda, 2. šūna\n| 1. rinda, 3. šūna\n|-\n| 2. rinda, 1. šūna\n| 2. rinda, 2. šūna\n| 2. rinda, 3. šūna",

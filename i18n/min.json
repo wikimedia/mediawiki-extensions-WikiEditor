@@ -108,7 +108,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Teks ketek di bawah",
 	"wikieditor-toolbar-group-insert": "Masuakan",
 	"wikieditor-toolbar-tool-gallery": "Galeri gambar",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Contoh.jpg|Judul1\n$1:Contoh.jpg|Judul2",
+	"wikieditor-toolbar-tool-gallery-example": "Contoh.jpg|Judul1\nContoh.jpg|Judul2",
 	"wikieditor-toolbar-tool-newline": "Barih baru",
 	"wikieditor-toolbar-tool-table": "Tabel",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! kapalo judul 1\n! kapalo judul 2\n! kapalo judul 3\n|-\n| barih 1, sel 1\n| barih 1, sel 2\n| barih 1, sel 3\n|-\n| barih 2, sel 1\n| barih 2, sel 2\n| barih 2, sel 3",

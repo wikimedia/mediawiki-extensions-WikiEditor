@@ -107,7 +107,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Uraychasqa qillqa",
 	"wikieditor-toolbar-group-insert": "Sat'iy",
 	"wikieditor-toolbar-tool-gallery": "Suyu-suyu",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Qhawarichiy.jpg|Ch'uyanchay1\n$1:Qhawarichiy.jpg|Ch'uyanchay2",
+	"wikieditor-toolbar-tool-gallery-example": "Qhawarichiy.jpg|Ch'uyanchay1\nQhawarichiy.jpg|Ch'uyanchay2",
 	"wikieditor-toolbar-tool-newline": "Musuq siq'i",
 	"wikieditor-toolbar-tool-table": "Wachuchasqa",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! uma siq'i 1\n! uma siq'i 2\n! uma siq'i 3\n|-\n| sinru 1, wachu ukhu 1\n| sinru 1, wachu ukhu 2\n| sinru 1, wachu ukhu 3\n|-\n| sinru 2, wachu ukhu 1\n| sinru 2, wachu ukhu 2\n| sinru 2, wachu ukhu 3",

@@ -91,7 +91,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Teks fo-screeuit",
 	"wikieditor-toolbar-group-insert": "Cur stiagh",
 	"wikieditor-toolbar-tool-gallery": "Galleree jallooyn",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Fo-heidyl1\n$1:Example.jpg|Fo-heidyl2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Fo-heidyl1\nExample.jpg|Fo-heidyl2",
 	"wikieditor-toolbar-tool-newline": "Linney noa",
 	"wikieditor-toolbar-tool-table": "Taabyl",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! kione-linney 1\n! kione-linney 2\n! kione-linney 3\n|-\n| roa 1, killag 1\n| roa 1, killag 2\n| roa 1, killag 3\n|-\n| roa 2, killag 1\n| roa 2, killag 2\n| roa 2, killag 3",

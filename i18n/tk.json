@@ -95,7 +95,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Setirasty tekst",
 	"wikieditor-toolbar-group-insert": "Giriz",
 	"wikieditor-toolbar-tool-gallery": "Surat galereýasy",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Titr1\n$1:Example.jpg|Titr2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Titr1\nExample.jpg|Titr2",
 	"wikieditor-toolbar-tool-newline": "Täze setir",
 	"wikieditor-toolbar-tool-table": "Tablisa",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! at 1\n! at 2\n! at 3\n|-\n| hatar 1, öýjük 1\n| hatar 1, öýjük 2\n| hatar 1, öýjük 3\n|-\n| hatar 2, öýjük 1\n| hatar 2, öýjük 2\n| hatar 2, öýjük 3",

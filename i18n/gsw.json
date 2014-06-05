@@ -108,7 +108,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Untergsetzte Tekscht",
 	"wikieditor-toolbar-group-insert": "Yyfiege",
 	"wikieditor-toolbar-tool-gallery": "Bildergallerii",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Byschpil.jpg|Bschriftig1\n$1:Byschpil.jpg|Bschriftig2",
+	"wikieditor-toolbar-tool-gallery-example": "Byschpil.jpg|Bschriftig1\nByschpil.jpg|Bschriftig2",
 	"wikieditor-toolbar-tool-newline": "Neji Zeile",
 	"wikieditor-toolbar-tool-table": "Tabälle",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! Chopf 1\n! Chopf 2\n! Chopf 3\n|-\n| Zyylete 1, Zälle 1\n| Zyylete 1, Zälle 2\n| Zyylete 1, Zälle 3\n|-\n| Zyylete 2, Zälle 1\n| Zyylete 2, Zälle 2\n| Zyylete 2, Zälle 3",

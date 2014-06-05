@@ -93,7 +93,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Падрадковы тэкст",
 	"wikieditor-toolbar-group-insert": "Уставіць",
 	"wikieditor-toolbar-tool-gallery": "Галерэя выяў",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Апісанне1\n$1:Example.jpg|Апісанне2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Апісанне1\nExample.jpg|Апісанне2",
 	"wikieditor-toolbar-tool-newline": "Новы радок",
 	"wikieditor-toolbar-tool-table": "Табліца",
 	"wikieditor-toolbar-tool-table-example-old": "-\n ! загаловак 1\n ! загаловак 2\n ! загаловак 3\n | -\n | радок 1, ячэйка 1\n | радок 1, ячэйка 2\n | радок 1, ячэйка 3\n | -\n | радок 2, ячэйка 1\n | радок 2, ячэйка 2\n | радок 2, ячэйка 3",

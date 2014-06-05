@@ -108,7 +108,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Text den am Indice steet",
 	"wikieditor-toolbar-group-insert": "Drasetzen",
 	"wikieditor-toolbar-tool-gallery": "Billergallerie",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Beschreiwung1\n$1:Example.jpg|Beschreiwung2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Beschreiwung1\nExample.jpg|Beschreiwung2",
 	"wikieditor-toolbar-tool-newline": "Nei Linn",
 	"wikieditor-toolbar-tool-table": "Tabell",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! Iwwerschrëft 1\n! Iwwerschrëft 2\n! Iwwerschrëft 3\n|-\n| Rei 1, Zell 1\n| Rei 1, Zell 2\n| Rei 1, Zell 3\n|-\n| Rei 2, Zell 1\n| Rei 2, Zell 2\n| Rei 2, Zell 3",

@@ -106,7 +106,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Tèxto en segno",
 	"wikieditor-toolbar-group-insert": "Entrebetar",
 	"wikieditor-toolbar-tool-gallery": "Galerie d’émâges",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Ègzemplo.jpg|Dèscripcion 1\n$1:Ègzemplo.jpg|Dèscripcion 2",
+	"wikieditor-toolbar-tool-gallery-example": "Ègzemplo.jpg|Dèscripcion 1\nÈgzemplo.jpg|Dèscripcion 2",
 	"wikieditor-toolbar-tool-newline": "Sôt de legne",
 	"wikieditor-toolbar-tool-table": "Grelye",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! en-téta 1\n! en-téta 2\n! en-téta 3\n|-\n| legne 1, câsa 1\n| legne 1, câsa 2\n| legne 1, câsa 3\n|-\n| legne 2, câsa 1\n| legne 2, câsa 2\n| legne 2, câsa 3",

@@ -9,7 +9,8 @@
 			"Schu",
 			"Shirayuki",
 			"Whym",
-			"青子守歌"
+			"青子守歌",
+			"Rxy"
 		]
 	},
 	"wikieditor": "高度なウィキテキスト編集インターフェイス",
@@ -115,7 +116,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "下付き文字",
 	"wikieditor-toolbar-group-insert": "挿入",
 	"wikieditor-toolbar-tool-gallery": "画像ギャラリー",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|キャプション1\n$1:Example.jpg|キャプション2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|キャプション1\nExample.jpg|キャプション2",
 	"wikieditor-toolbar-tool-newline": "改行",
 	"wikieditor-toolbar-tool-table": "表",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! 見出し 1\n! 見出し 2\n! 見出し 3\n|-\n| 行 1、セル 1\n| 行 1、セル 2\n| 行 1、セル 3\n|-\n| 行 2、セル 1\n| 行 2、セル 2\n| 行 2、セル 3",

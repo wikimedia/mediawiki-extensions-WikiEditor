@@ -116,7 +116,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "نص سفلي",
 	"wikieditor-toolbar-group-insert": "إدراج",
 	"wikieditor-toolbar-tool-gallery": "معرض صور",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|تعليق1\n$1:Example.jpg|تعليق2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|تعليق1\nExample.jpg|تعليق2",
 	"wikieditor-toolbar-tool-newline": "سطر جديد",
 	"wikieditor-toolbar-tool-table": "جدول",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! عنوان عمود 1\n! عنوان عمود 2\n! عنوان عمود 3\n|-\n| صف 1، خانة 1\n| صف 1، خانة 2\n| صف 1، خانة 3\n|-\n| صف 2، خانة 1\n| صف 2، خانة 2\n| صف 2، خانة 3",

@@ -96,7 +96,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "testu n pèdici",
 	"wikieditor-toolbar-group-insert": "Nsirìsci",
 	"wikieditor-toolbar-tool-gallery": "Gallirìa di mmàggini",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Didascalia1\n$1:Example.jpg|Didascalia2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Didascalia1\nExample.jpg|Didascalia2",
 	"wikieditor-toolbar-tool-newline": "Ligna nova",
 	"wikieditor-toolbar-tool-table": "Tabbella",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! titulu 1\n! titulu 2\n! titulu 3\n|-\n| ligna 1, cella 1\n| ligna 1, cella 2\n| ligna 1, cella 3\n|-\n| ligna 2, cella 1\n| ligna 2, cella 2\n| ligna 2, cella 3\n-\n! titulu 1\n! titulu 2\n! titulu 3\n|-\n| ligna 1, cella 1\n| ligna 1, cella 2\n| ligna 1, cella 3\n|-\n| ligna 2, cella 1\n| ligna 2, cella 2\n| ligna 2, cella 3",

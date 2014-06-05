@@ -107,7 +107,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Texto in subscripto",
 	"wikieditor-toolbar-group-insert": "Inserer",
 	"wikieditor-toolbar-tool-gallery": "Galeria de imagines",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Exemplo.jpg|Legenda1\n$1:Exemplo.jpg|Legenda2",
+	"wikieditor-toolbar-tool-gallery-example": "Exemplo.jpg|Legenda1\nExemplo.jpg|Legenda2",
 	"wikieditor-toolbar-tool-newline": "Nove linea",
 	"wikieditor-toolbar-tool-table": "Tabella",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! capite 1\n! capite 2\n! capite 3\n|-\n| linea 1, cellula 1\n| linea 1, cellula 2\n| linea 1, cellula 3\n|-\n| linea 2, cellula 1\n| linea 2, cellula 2\n| linea 2, cellula 3",

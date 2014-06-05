@@ -95,7 +95,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "ตัวหนังสือที่เป็นตัวห้อย",
 	"wikieditor-toolbar-group-insert": "แทรก",
 	"wikieditor-toolbar-tool-gallery": "จัดแสดงภาพ",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|คำอธิบายภาพ1\n$1:Example.jpg|คำอธิบายภาพ2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|คำอธิบายภาพ1\nExample.jpg|คำอธิบายภาพ2",
 	"wikieditor-toolbar-tool-newline": "ขึ้นบรรทัดใหม่",
 	"wikieditor-toolbar-tool-table": "ตาราง",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! ชื่อเรื่อง 1\n! ชื่อเรื่อง 2\n! ชื่อเรื่อง 3\n|-\n| แถว 1, ช่อง 1\n| แถว 1, ช่อง 2\n| แถว 1, ช่อง 3\n|-\n| แถว 2, ช่อง 1\n| แถว 2, ช่อง 2\n| แถว 2, ช่อง 3",

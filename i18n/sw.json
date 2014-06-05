@@ -101,7 +101,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Maandishi ya chini",
 	"wikieditor-toolbar-group-insert": "Kuweka",
 	"wikieditor-toolbar-tool-gallery": "Mkusanyiko wa picha",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Maelezo mafupi 1\n$1:Example.jpg|Maelezo mafupi 2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Maelezo mafupi 1\nExample.jpg|Maelezo mafupi 2",
 	"wikieditor-toolbar-tool-newline": "Mstari mpya",
 	"wikieditor-toolbar-tool-table": "Jedwali",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! kichwa 1\n! kichwa 2\n! kichwa 3\n|-\n| mstari 1, kisanduku 1\n| mstari 1, kisanduku 2\n| mstari 1, kisanduku 3\n|-\n| mstari 2, kisanduku 1\n| mstari 2, kisanduku 2\n| mstari 2, kisanduku 3",

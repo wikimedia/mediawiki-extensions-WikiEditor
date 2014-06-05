@@ -107,7 +107,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Testo ti subeskritu",
 	"wikieditor-toolbar-group-insert": "Isengngat",
 	"wikieditor-toolbar-tool-gallery": "Palko ti retrato",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Naisurat1\n$1:Example.jpg|Naisurat2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Naisurat1\nExample.jpg|Naisurat2",
 	"wikieditor-toolbar-tool-newline": "Baro a linia",
 	"wikieditor-toolbar-tool-table": "Tabla",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! paulo 1\n! paulo 2\n! paulo 3\n|-\n| aray 1, selula 1\n| aray 1, selula 2\n| aray 1, selula 3\n|-\n| aray 2, selula 1\n| aray 2, selula 2\n| aray 2, selula 3",

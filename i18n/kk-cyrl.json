@@ -107,7 +107,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Астыңғы жазу",
 	"wikieditor-toolbar-group-insert": "Енгізу",
 	"wikieditor-toolbar-tool-gallery": "Сурет галереясы",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Сипаттамасы1\n$1:Example.jpg|Сипаттамасы2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Сипаттамасы1\nExample.jpg|Сипаттамасы2",
 	"wikieditor-toolbar-tool-newline": "Жаңа жол",
 	"wikieditor-toolbar-tool-table": "Кесте",
 	"wikieditor-toolbar-tool-table-example-old": "! тақырыпша 1\n! тақырыпша 2\n! тақырыпша 3\n|-\n| жол 1, ұяшық 1\n| жол 1, ұяшық 2\n| жол 1, ұяшық 3\n|-\n| жол 2, ұяшық 1\n| жол 2, ұяшық 2\n| жол 2, ұяшық 3",

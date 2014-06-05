@@ -118,7 +118,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Nedsänkt text",
 	"wikieditor-toolbar-group-insert": "Infoga",
 	"wikieditor-toolbar-tool-gallery": "Bildgalleri",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Exempel.jpg|Bildtext1\n$1:Exempel.jpg|Bildtext2",
+	"wikieditor-toolbar-tool-gallery-example": "Exempel.jpg|Bildtext1\nExempel.jpg|Bildtext2",
 	"wikieditor-toolbar-tool-newline": "Ny rad",
 	"wikieditor-toolbar-tool-table": "Tabell",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! överskrift 1\n! överskrift 2\n! överskrift 3\n|-\n| rad 1, cell 1\n| rad 1, cell 2\n| rad 1, cell 3\n|-\n| rad 2, cell 1\n| rad 2, cell 2\n| rad 2, cell 3",

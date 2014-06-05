@@ -120,7 +120,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Texte en indice",
 	"wikieditor-toolbar-group-insert": "Insérer",
 	"wikieditor-toolbar-tool-gallery": "Galerie de fichiers",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Exemple.jpg|Description 1\n$1:Exemple.jpg|Description 2",
+	"wikieditor-toolbar-tool-gallery-example": "Exemple.jpg|Description 1\nExemple.jpg|Description 2",
 	"wikieditor-toolbar-tool-newline": "Saut de ligne",
 	"wikieditor-toolbar-tool-table": "Tableau",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! en-tête 1\n! en-tête 2\n! en-tête 3\n|-\n| ligne 1, case 1\n| ligne 1, case 2\n| ligne 1, case 3\n|-\n| ligne 2, case 1\n| ligne 2, case 2\n| ligne 2, case 3",

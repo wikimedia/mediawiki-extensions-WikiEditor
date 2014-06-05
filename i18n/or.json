@@ -111,7 +111,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "ସବସ୍କ୍ରିପ୍ଟ ଅକ୍ଷର",
 	"wikieditor-toolbar-group-insert": "ଭରନ୍ତୁ",
 	"wikieditor-toolbar-tool-gallery": "ଛବିସମୂହ",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|ବିବରଣ୧\n$1:Example.jpg|ବିବରଣ୨",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|ବିବରଣ୧\nExample.jpg|ବିବରଣ୨",
 	"wikieditor-toolbar-tool-newline": "ନୂଆ ଧାଡ଼ି",
 	"wikieditor-toolbar-tool-table": "ସାରଣୀ (Table)",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! header 1\n! header 2\n! header 3\n|-\n| row 1, cell 1\n| row 1, cell 2\n| row 1, cell 3\n|-\n| row 2, cell 1\n| row 2, cell 2\n| row 2, cell 3",

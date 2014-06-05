@@ -99,7 +99,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Dolný index",
 	"wikieditor-toolbar-group-insert": "Vložiť",
 	"wikieditor-toolbar-tool-gallery": "Galéria obrázkov",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Príklad.jpg|Popis1\n$1:Príklad.jpg|Popis2",
+	"wikieditor-toolbar-tool-gallery-example": "Príklad.jpg|Popis1\nPríklad.jpg|Popis2",
 	"wikieditor-toolbar-tool-newline": "Nový riadok",
 	"wikieditor-toolbar-tool-table": "Tabuľka",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! hlavička 1\n! hlavička 2\n! hlavička 3\n|-\n| riadok 1, bunka 1\n| riadok 1, bunka 2\n| riadok 1, bunka 3\n|-\n| riadok 2, bunka 1\n| riadok 2, bunka 2\n| riadok 2, bunka 3",

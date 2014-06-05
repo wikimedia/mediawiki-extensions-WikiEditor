@@ -113,7 +113,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Text en subíndex",
 	"wikieditor-toolbar-group-insert": "Insereix",
 	"wikieditor-toolbar-tool-gallery": "Galeria d'imatges",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Peu1\n$1:Example.jpg|Peu2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Peu1\nExample.jpg|Peu2",
 	"wikieditor-toolbar-tool-newline": "Nova línia",
 	"wikieditor-toolbar-tool-table": "Taula",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! capçalera 1\n! capçalera 2\n! capçalera 3\n|-\n| fila 1, cel·la 1\n| fila 1, cel·la 2\n| fila 1, cel·la 3\n|-\n| fila 2, cel·la 1\n| fila 2, cel·la 2\n| fila 2, cel·la 3",

@@ -105,7 +105,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "નીચલા સ્તરનો અક્ષર દેહ",
 	"wikieditor-toolbar-group-insert": "ઉમેરો",
 	"wikieditor-toolbar-tool-gallery": "ચિત્ર માલા",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Caption1\n$1:Example.jpg|Caption2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Caption1\nExample.jpg|Caption2",
 	"wikieditor-toolbar-tool-newline": "નવું વાક્ય",
 	"wikieditor-toolbar-tool-table": "કોષ્ટક",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! header 1\n! header 2\n! header 3\n|-\n| row 1, cell 1\n| row 1, cell 2\n| row 1, cell 3\n|-\n| row 2, cell 1\n| row 2, cell 2\n| row 2, cell 3",

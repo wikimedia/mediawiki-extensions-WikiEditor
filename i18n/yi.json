@@ -106,7 +106,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "גענידערטער טעקסט",
 	"wikieditor-toolbar-group-insert": "צולייגן",
 	"wikieditor-toolbar-tool-gallery": "בילדער גאַלעריע",
-	"wikieditor-toolbar-tool-gallery-example": "$1:בײַשפיל.jpg|קעפל1\n$1:בײַשפיל.jpg|קעפל2",
+	"wikieditor-toolbar-tool-gallery-example": "בײַשפיל.jpg|קעפל1\nבײַשפיל.jpg|קעפל2",
 	"wikieditor-toolbar-tool-newline": "נײַע שורה",
 	"wikieditor-toolbar-tool-table": "טאַבעלע",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! קעפל 1\n! קעפל 2\n! קעפל 3\n|-\n| ריי 1, צעל 1\n| ריי 1, צעל 2\n| ריי 1, צעל 3\n|-\n| ריי 2, צעל 1\n| ריי 2, צעל 2\n| ריי 2, צעל 3",

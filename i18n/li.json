@@ -97,7 +97,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Óngersjrifteks",
 	"wikieditor-toolbar-group-insert": "Voog in",
 	"wikieditor-toolbar-tool-gallery": "Beeljegalerie",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Veurbeildj1|Biesjrif1\n$1:Veurbeildj2|Biesjrif2",
+	"wikieditor-toolbar-tool-gallery-example": "Veurbeildj1|Biesjrif1\nVeurbeildj2|Biesjrif2",
 	"wikieditor-toolbar-tool-newline": "Nuuje regel",
 	"wikieditor-toolbar-tool-table": "Tabel",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! kóp 1\n! kóp 2\n! kóp 3\n|-\n| rie 1, cel 1\n| rie 1, cel 2\n| rie 1, cel 3\n|-\n| rie 2, cel 1\n| rie 2, cel 2\n| rie 2, cel 3",

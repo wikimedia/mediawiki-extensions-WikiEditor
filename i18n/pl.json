@@ -117,7 +117,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Tekst indeksu dolnego",
 	"wikieditor-toolbar-group-insert": "Wstaw",
 	"wikieditor-toolbar-tool-gallery": "Galeria obrazków",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Podpis1\n$1:Example.jpg|Podpis2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Podpis1\nExample.jpg|Podpis2",
 	"wikieditor-toolbar-tool-newline": "Nowy wiersz",
 	"wikieditor-toolbar-tool-table": "Tabela",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! nagłówek 1\n! nagłówek 2\n! nagłówek 3\n| -\n| wiersz 1, komórka 1\n| wiersz 1, komórka 2\n| wiersz 1, komórka 3\n| -\n| wiersz 2, komórka 1\n| wiersz 2, komórka 2\n| wiersz 2, komórka 3",

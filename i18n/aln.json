@@ -94,7 +94,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "tekstit Subscript",
 	"wikieditor-toolbar-group-insert": "Kall",
 	"wikieditor-toolbar-tool-gallery": "galeri artesh",
-	"wikieditor-toolbar-tool-gallery-example": "$1: Example.jpg|Caption1\n$1: Example.jpg|Caption2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Caption1\nExample.jpg|Caption2",
 	"wikieditor-toolbar-tool-newline": "Linjë e re",
 	"wikieditor-toolbar-tool-table": "Tryezë",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! header 1\n! header 2\n! header 3\n|-\n| rresht 1, qelizë 1\n| rresht 1, qelizë 2\n| rresht 1, qelizë 3\n| -\n| rresht 2, qelizë 1\n| rresht 2, qelizë 2\n| rresht 2, qelizë 3",

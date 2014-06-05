@@ -108,7 +108,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Текст на долниот индекс",
 	"wikieditor-toolbar-group-insert": "Вметни",
 	"wikieditor-toolbar-tool-gallery": "Галерија",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Пример.jpg|Опис1\n$1:Пример.jpg|Опис2",
+	"wikieditor-toolbar-tool-gallery-example": "Пример.jpg|Опис1\nПример.jpg|Опис2",
 	"wikieditor-toolbar-tool-newline": "Нов ред",
 	"wikieditor-toolbar-tool-table": "Табела",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! наслов 1\n! наслов 2\n! наслов 3\n|-\n| ред 1, поле 1\n| ред 1, поле 2\n| ред 1, поле 3\n|-\n| ред 2, поле 1\n| ред 2, поле 2\n| ред 2, поле 3",

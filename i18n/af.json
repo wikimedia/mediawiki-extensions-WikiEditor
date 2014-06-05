@@ -109,7 +109,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Teks in onderskrif",
 	"wikieditor-toolbar-group-insert": "Invoeg",
 	"wikieditor-toolbar-tool-gallery": "Fotogalery",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Voorbeeld1|Byskrif1\n$1:Voorbeeld2|Byskrif2",
+	"wikieditor-toolbar-tool-gallery-example": "Voorbeeld1|Byskrif1\nVoorbeeld2|Byskrif2",
 	"wikieditor-toolbar-tool-newline": "Nuwe lyn",
 	"wikieditor-toolbar-tool-table": "Tabel",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! opskrif 1\n! opskrif 2\n! opskrif 3\n|-\n| ry 1, sel 1\n| ry 1, sel 2\n| ry 1, sel 3\n|-\n| ry 2, sel 1\n| ry 2, sel 2\n| ry 2, sel 3",

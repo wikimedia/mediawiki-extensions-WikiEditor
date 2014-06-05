@@ -85,7 +85,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Testu subscritu",
 	"wikieditor-toolbar-group-insert": "Inserta",
 	"wikieditor-toolbar-tool-gallery": "Galleria de immàgines",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Esèmpiu.jpg|Didascalia1\n$1:Esèmpiu.jpg|Didascalia2",
+	"wikieditor-toolbar-tool-gallery-example": "Esèmpiu.jpg|Didascalia1\nEsèmpiu.jpg|Didascalia2",
 	"wikieditor-toolbar-tool-newline": "Lìnia noa",
 	"wikieditor-toolbar-tool-table": "Tabella",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! tìtulu 1\n! tìtulu 2\n! tìtulu 3\n|-\n| lìnia 1, tzella 1\n| lìnia 1, tzella 2\n| lìnia 1, tzella 3\n|-\n| lìnia 2, tzella 1\n| lìnia 2, tzella 2\n| lìnia 2, tzella 3",

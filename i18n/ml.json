@@ -109,7 +109,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "സബ്സ്ക്രിപ്റ്റ് എഴുത്ത്",
 	"wikieditor-toolbar-group-insert": "ഉൾപ്പെടുത്തുക",
 	"wikieditor-toolbar-tool-gallery": "ചിത്രശാല",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|കുറിപ്പ്1\n$1:Example.jpg|കുറിപ്പ്2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|കുറിപ്പ്1\nExample.jpg|കുറിപ്പ്2",
 	"wikieditor-toolbar-tool-newline": "പുതിയ വരി",
 	"wikieditor-toolbar-tool-table": "പട്ടിക",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! തലക്കുറി 1\n! തലക്കുറി 2\n! തലക്കുറി 3\n|-\n| വരി 1, കളം 1\n| വരി 1, കളം 2\n| വരി 1, കളം 3\n|-\n| വരി 2, കളം 1\n| വരി 2, കളം 2\n| വരി 2, കളം 3",

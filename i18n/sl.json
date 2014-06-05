@@ -109,7 +109,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Podpisano besedilo",
 	"wikieditor-toolbar-group-insert": "Vstavi",
 	"wikieditor-toolbar-tool-gallery": "Galerija slik",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Primer 1.jpg|Napis 1\n$1:Primer 2.jpg|Napis 2",
+	"wikieditor-toolbar-tool-gallery-example": "Primer 1.jpg|Napis 1\nPrimer 2.jpg|Napis 2",
 	"wikieditor-toolbar-tool-newline": "Nova vrstica",
 	"wikieditor-toolbar-tool-table": "Tabela",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! glava 1\n! glava 2\n! glava 3\n|-\n| vrstica 1, celica 1\n| vrstica 1, celica 2\n| vrstica 1, celica 3\n|-\n| vrstica 2, celica 1\n| vrstica 2, celica 2\n| vrstica 2, celica 3",

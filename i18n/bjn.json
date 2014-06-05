@@ -82,7 +82,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Naskah subscript",
 	"wikieditor-toolbar-group-insert": "Masukakan",
 	"wikieditor-toolbar-tool-gallery": "Ruang gambar",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Cuntuh.jpg|Judul1\n$1:Cuntuh.jpg|Judul2",
+	"wikieditor-toolbar-tool-gallery-example": "Cuntuh.jpg|Judul1\nCuntuh.jpg|Judul2",
 	"wikieditor-toolbar-tool-newline": "Baris hanyar",
 	"wikieditor-toolbar-tool-table": "Tabel",
 	"wikieditor-toolbar-tool-table-example-old": "\t-\n! judul hapat 1\n! judul hapat 2\n! judul hapat 3\n|-\n| baris 1, sel 1\n| baris 1, sel 2\n| baris 1, sel 3\n|-\n| baris 2, sel 1\n| baris 2, sel 2\n| baris 2, sel 3",

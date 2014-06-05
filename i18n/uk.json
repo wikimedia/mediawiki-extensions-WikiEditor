@@ -117,7 +117,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Текст нижнього індексу",
 	"wikieditor-toolbar-group-insert": "Вставити",
 	"wikieditor-toolbar-tool-gallery": "Галерея",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Опис1\n$1:Example.jpg|Опис2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Опис1\nExample.jpg|Опис2",
 	"wikieditor-toolbar-tool-newline": "Новий рядок",
 	"wikieditor-toolbar-tool-table": "Таблиця",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! заголовок 1\n! заголовок 2\n! заголовок 3\n|-\n| рядок 1, комірка 1\n| рядок 1, комірка 2\n| рядок 1, комірка 3\n|-\n| рядок 2, комірка 1\n| рядок 2, комірка 2\n| рядок 2, комірка 3",

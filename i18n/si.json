@@ -113,7 +113,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "යටි ලකුණු පෙළ",
 	"wikieditor-toolbar-group-insert": "ඇතුල් කරන්න",
 	"wikieditor-toolbar-tool-gallery": "පිංතූර ගැලරිය",
-	"wikieditor-toolbar-tool-gallery-example": "$1:උදාහරණ.jpg| 1 යටි ලියමන\n$1:උදාහරණ.jpg| 2 යටි ලියමන",
+	"wikieditor-toolbar-tool-gallery-example": "උදාහරණ.jpg| 1 යටි ලියමන\nඋදාහරණ.jpg| 2 යටි ලියමන",
 	"wikieditor-toolbar-tool-newline": "නව පේළිය",
 	"wikieditor-toolbar-tool-table": "වගුව",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! 1 ශීර්ෂකය\n! 2 ශීර්ෂකය\n! 3 ශීර්ෂකය\n|-\n| 1 පේළිය,1 කොටුව\n| 1 පේළිය,2 කොටුව\n| 1 පේළිය,3 කොටුව\n|-\n| 2 පේළිය,1 කොටුව\n| 2 පේළිය,2 කොටුව\n| 2 පේළිය,3 කොටුව",

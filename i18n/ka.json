@@ -110,7 +110,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "ქვეხაზური ტექსტი",
 	"wikieditor-toolbar-group-insert": "ჩასმა",
 	"wikieditor-toolbar-tool-gallery": "გამოსახულებათა გალერეა",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|აღწერა1\n$1:Example.jpg|აღწერა2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|აღწერა1\nExample.jpg|აღწერა2",
 	"wikieditor-toolbar-tool-newline": "ახალი ხაზი",
 	"wikieditor-toolbar-tool-table": "ცხრილი",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! სახელი 1\n! სახელი 2\n! სახელი 3\n|-\n| ხაზი 1, უჯრედი 1\n| ხაზი 1, უჯრედი 2\n| ხაზი 1, უჯრედი 3\n|-\n| ხაზი 2, უჯრედი 1\n| ხაზი 2, უჯრედი 2\n| ხაზი 2, უჯრედი 3",

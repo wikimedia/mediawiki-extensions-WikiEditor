@@ -107,7 +107,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Hłuboko stajeny tekst",
 	"wikieditor-toolbar-group-insert": "Zasunyć",
 	"wikieditor-toolbar-tool-gallery": "Wobrazowa galerija",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Popis1\n$1:Example.jpg|Popis2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Popis1\nExample.jpg|Popis2",
 	"wikieditor-toolbar-tool-newline": "Nowa linka",
 	"wikieditor-toolbar-tool-table": "Tabela",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! hłowa 1\n! hłowa 2\n! hłowa 3\n|-\n| rjadka 1, cela 1\n| rjadka 1, cela 2\n| rjadka 1, cela 3\n|-\n| rjadka 2, cela 1\n| rjadka 2, cela 2\n| rjadka 2, cela 3",

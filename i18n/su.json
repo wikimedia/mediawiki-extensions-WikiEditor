@@ -81,7 +81,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Téks subskrip",
 	"wikieditor-toolbar-group-insert": "Asupkeun",
 	"wikieditor-toolbar-tool-gallery": "Galeri gambar",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Conto.jpg|Pedaran1\n$1:Conto.jpg|Pedaran2",
+	"wikieditor-toolbar-tool-gallery-example": "Conto.jpg|Pedaran1\nConto.jpg|Pedaran2",
 	"wikieditor-toolbar-tool-newline": "Baris anyar",
 	"wikieditor-toolbar-tool-table": "Tabél",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! huhulu 1\n! huhulu 2\n! huhulu 3\n|-\n| baris 1, sél 1\n| baris 1, sél 2\n| baris 1, sél 3\n|-\n| baris 2, sél 1\n| baris 2, sél 2\n| baris 2, sél 3",

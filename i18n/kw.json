@@ -90,7 +90,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Tekst isskrif",
 	"wikieditor-toolbar-group-insert": "Keworra",
 	"wikieditor-toolbar-tool-gallery": "Mirva imajys",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Ensampel.jpg|Deskrifans1\n$1:Ensampel.jpg|Deskrifans2",
+	"wikieditor-toolbar-tool-gallery-example": "Ensampel.jpg|Deskrifans1\nEnsampel.jpg|Deskrifans2",
 	"wikieditor-toolbar-tool-newline": "Linen nowyth",
 	"wikieditor-toolbar-tool-table": "Tabel",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! pennlinen 1\n! pennlinen 2\n! pennlinen 3\n|-\n| rew 1, kellik 1\n| rew 1, kellik 2\n| rew 1, kellik 3\n|-\n| rew 2, kellik 1\n| rew 2, kellik 2\n| rew 2, kellik 3",

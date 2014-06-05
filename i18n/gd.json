@@ -96,7 +96,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Teacsa fo-sgrìobhte",
 	"wikieditor-toolbar-group-insert": "Cuir a-steach",
 	"wikieditor-toolbar-tool-gallery": "Gailearaidh nan dealbh",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Ballsampaill.jpg|Mìneachadh an deilbh1\n$1:Ballsampaill.jpg|Mìneachadh an deilbh2",
+	"wikieditor-toolbar-tool-gallery-example": "Ballsampaill.jpg|Mìneachadh an deilbh1\nBallsampaill.jpg|Mìneachadh an deilbh2",
 	"wikieditor-toolbar-tool-newline": "Loidhne ùr",
 	"wikieditor-toolbar-tool-table": "Clàr",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! bann-cinn 1\n! bann-cinn 2\n! bann-cinn 3\n|-\n| sreath 1, cealla 1\n| sreath 1, cealla 2\n| sreath 1, cealla 3\n|-\n| sreath 2, cealla 1\n| sreath 2, cealla 2\n| sreath 2, cealla 3",

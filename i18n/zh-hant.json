@@ -124,7 +124,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "下標文字",
 	"wikieditor-toolbar-group-insert": "插入",
 	"wikieditor-toolbar-tool-gallery": "圖片庫",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|標題1\n$1:Example.jpg|標題2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|標題1\nExample.jpg|標題2",
 	"wikieditor-toolbar-tool-newline": "換行",
 	"wikieditor-toolbar-tool-table": "表格",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! 標題 1\n! 標題 2\n! 標題 3\n|-\n| 列 1, 儲存格 1\n| 列 1, 儲存格 2\n| 列 1, 儲存格 3\n|-\n| 列 2, 儲存格 1\n| 列 2, 儲存格 2\n| 列 2, 儲存格 3",

@@ -103,7 +103,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Ենթատողային տեքստ",
 	"wikieditor-toolbar-group-insert": "Ավելացնել",
 	"wikieditor-toolbar-tool-gallery": "Պատկերասրահ",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Նկարագրություն1\n$1:Example.jpg|Նկարագրություն2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Նկարագրություն1\nExample.jpg|Նկարագրություն2",
 	"wikieditor-toolbar-tool-newline": "Նոր տող",
 	"wikieditor-toolbar-tool-table": "Աղյուսակ",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! վերնագիր 1\n! վերնագիր 2\n! վերնագիր 3\n|-\n| տող 1, սյունակ 1\n| տող 1, սյունակ 2\n| տող 1, սյունակ 3\n|-\n| տող 2, սյունակ 1\n| տող 2, սյունակ 2\n| տող 2, սյունակ 3",

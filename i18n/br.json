@@ -109,7 +109,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Testenn e feur",
 	"wikieditor-toolbar-group-insert": "Ensoc'hañ",
 	"wikieditor-toolbar-tool-gallery": "Skeudennaoueg",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Skouer.jpg|Deskrivadur1\n$1:Skouer.jpg|Deskrivadur2",
+	"wikieditor-toolbar-tool-gallery-example": "Skouer.jpg|Deskrivadur1\nSkouer.jpg|Deskrivadur2",
 	"wikieditor-toolbar-tool-newline": "Linenn nevez",
 	"wikieditor-toolbar-tool-table": "Taolenn",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! talbenn 1\n! talbenn 2\n! talbenn 3\n|-\n| linenn 1, kellig 1\n| linenn 1, kellig 2\n| linenn 1, kellig 3\n|-\n| linenn 2, kellig 1\n| linenn 2, kellig 2\n| linenn 2, kellig 3",

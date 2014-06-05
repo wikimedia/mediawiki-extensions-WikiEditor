@@ -106,7 +106,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "ذیلی نص متن",
 	"wikieditor-toolbar-group-insert": "ادخال",
 	"wikieditor-toolbar-tool-gallery": "مجموعۂ تصاویر",
-	"wikieditor-toolbar-tool-gallery-example": "$1:مثال.jpg|تعقیب1\n$1:مثال.jpg|تعقیب2",
+	"wikieditor-toolbar-tool-gallery-example": "مثال.jpg|تعقیب1\nمثال.jpg|تعقیب2",
 	"wikieditor-toolbar-tool-newline": "نئی لکیر",
 	"wikieditor-toolbar-tool-table": "جدول",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! سرنامہ 1\n! سرنامہ 2\n! سرنامہ 3\n|-\n| صف 1, خانہ 1\n| صف 1, خانہ 2\n| صف 1, خانہ 3\n|-\n| صف 2, خانہ 1\n| صف 2, خانہ 2\n| صف 2, خانہ 3",

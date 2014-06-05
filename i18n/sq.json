@@ -96,7 +96,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Tekst subscript",
 	"wikieditor-toolbar-group-insert": "Shto",
 	"wikieditor-toolbar-tool-gallery": "Galeria i piktureve",
-	"wikieditor-toolbar-tool-gallery-example": "((Ns: file)): Shembull.jpg | Përshkrim1\n((Ns: file)): Shembull.jpg | Përshkrim2",
+	"wikieditor-toolbar-tool-gallery-example": "Shembull.jpg | Përshkrim1\nShembull.jpg | Përshkrim2",
 	"wikieditor-toolbar-tool-newline": "Linjë te re",
 	"wikieditor-toolbar-tool-table": "Tabel",
 	"wikieditor-toolbar-tool-table-example-old": "-\n ! titulli 1\n ! titulli 2\n ! titulli 3\n | -\n | linjë 1, qeliza 1\n | linjë 1, qeliza 2\n | linjë 1, qeliza 3\n | -\n | linjë 2, qeliza 1\n | linjë 2, qeliza 2\n | linjë 2, qeliza 3",

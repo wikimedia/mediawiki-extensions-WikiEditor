@@ -106,7 +106,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Дæлрæнхъон текст",
 	"wikieditor-toolbar-group-insert": "Батыссын",
 	"wikieditor-toolbar-tool-gallery": "Нывты галери",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Фыст1\n$1:Example.jpg|Фыст2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Фыст1\nExample.jpg|Фыст2",
 	"wikieditor-toolbar-tool-newline": "Ног рæнхъ",
 	"wikieditor-toolbar-tool-table": "Таблицæ",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! сæр 1\n! сæр 2\n! сæр 3\n|-\n| рæнхъ 1, чырæг 1\n| рæнхъ 1, чырæг 2\n| рæнхъ 1, чырæг 3\n|-\n| рæнхъ 2, чырæг 1\n| рæнхъ 2, чырæг 2\n| рæнхъ 2, чырæг 3",

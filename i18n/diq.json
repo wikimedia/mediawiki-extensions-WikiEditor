@@ -111,7 +111,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "metnê simgeya cêrıni",
 	"wikieditor-toolbar-group-insert": "têare ker",
 	"wikieditor-toolbar-tool-gallery": "galeriya resmi",
-	"wikieditor-toolbar-tool-gallery-example": "$1:misal.jpg|nuşteyê resmi1\n$1:misal.jpg|nuşteyê resmi2",
+	"wikieditor-toolbar-tool-gallery-example": "misal.jpg|nuşteyê resmi1\nmisal.jpg|nuşteyê resmi2",
 	"wikieditor-toolbar-tool-newline": "satıro newe",
 	"wikieditor-toolbar-tool-table": "Tablo",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! sername 1\n! sername 2\n! sername 3\n|-\n| satır 1, hucre 1\n| satır 1, hucre 2\n| satır 1, hucre 3\n|-\n| satır 2, hucre 1\n| satır 2, hucre 2\n| satır 2, hucre 3",

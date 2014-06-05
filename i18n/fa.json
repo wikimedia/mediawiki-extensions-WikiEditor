@@ -114,7 +114,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "متن زیرنویس",
 	"wikieditor-toolbar-group-insert": "افزودن",
 	"wikieditor-toolbar-tool-gallery": "نگارخانهٔ تصویر",
-	"wikieditor-toolbar-tool-gallery-example": "$1:مثال.jpg|عنوان ۱\n$1:مثال.jpg|عنوان ۲",
+	"wikieditor-toolbar-tool-gallery-example": "مثال.jpg|عنوان ۱\nمثال.jpg|عنوان ۲",
 	"wikieditor-toolbar-tool-newline": "خط جدید",
 	"wikieditor-toolbar-tool-table": "جدول",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! عنوان ۱\n! عنوان ۲\n! عنوان ۳\n|-\n| ردیف ۱، خانه ۱\n| ردیف ۱، خانه ۲\n| ردیف ۱، خانه ۳\n|-\n| ردیف ۲، خانه ۱\n| ردیف ۲، خانه ۲\n| ردیف ۲، خانه ۳",

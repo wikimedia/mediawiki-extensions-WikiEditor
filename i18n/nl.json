@@ -113,7 +113,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Tekst in subscript",
 	"wikieditor-toolbar-group-insert": "Invoegen",
 	"wikieditor-toolbar-tool-gallery": "Afbeeldingengalerij",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Voorbeeld.jpg|Bijschrift1\n$1:Voorbeeld.jpg|Bijschrift2",
+	"wikieditor-toolbar-tool-gallery-example": "Voorbeeld.jpg|Bijschrift1\nVoorbeeld.jpg|Bijschrift2",
 	"wikieditor-toolbar-tool-newline": "Nieuwe regel",
 	"wikieditor-toolbar-tool-table": "Tabel",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! kop 1\n! kop 2\n! kop 3\n|-\n| rij 1, cel 1\n| rij 1, cel 2\n| rij 1, cel 3\n|-\n| rij 2, cel 1\n| rij 2, cel 2\n| rij 2, cel 3",

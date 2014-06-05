@@ -112,7 +112,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Malalta skribo",
 	"wikieditor-toolbar-group-insert": "Enmeti",
 	"wikieditor-toolbar-tool-gallery": "Bilda galerio",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Ekzemplo.jpg|Teksto1 pri dosiero\n$1:Ekzemplo.jpg|Teksto2 pri dosiero",
+	"wikieditor-toolbar-tool-gallery-example": "Ekzemplo.jpg|Teksto1 pri dosiero\nEkzemplo.jpg|Teksto2 pri dosiero",
 	"wikieditor-toolbar-tool-newline": "Nova linio",
 	"wikieditor-toolbar-tool-table": "Tabelo",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! titolo 1\n! titolo 2\n! titolo 3\n|-\n| linio 1, ĉelo 1\n| linio 1, ĉelo 2\n| linio 1, ĉelo 3\n|-\n| linio 2, ĉelo 1\n| linio 2, ĉelo 2\n| linio 2, ĉelo 3",

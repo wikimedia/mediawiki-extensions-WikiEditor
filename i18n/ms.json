@@ -6,7 +6,8 @@
 			"Aviator",
 			"CoolCityCat",
 			"Diagramma Della Verita",
-			"Yosri"
+			"Yosri",
+			"Pizza1016"
 		]
 	},
 	"wikieditor": "Wikiteks keutamaan halaman suntingan",
@@ -112,7 +113,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Teks subskrip",
 	"wikieditor-toolbar-group-insert": "Sisip",
 	"wikieditor-toolbar-tool-gallery": "Galeri gambar",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Contoh.jpg|Sari kata 1\n$1:Contoh.jpg|Sari kata 2",
+	"wikieditor-toolbar-tool-gallery-example": "Contoh.jpg|Sari kata 1\nContoh.jpg|Sari kata 2",
 	"wikieditor-toolbar-tool-newline": "Baris baru",
 	"wikieditor-toolbar-tool-table": "Jadual",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! pengatas 1\n! pengatas 2\n! pengatas 3\n|-\n| baris 1, sel 1\n| baris 1, sel 2\n| baris 1, sel 3\n|-\n| baris 2, sel 1\n| baris 2, sel 2\n| baris 2, sel 3",
@@ -224,9 +225,9 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "Paparkan senarai rujukan",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.contoh.org' class='external text' href='#'>Teks pautan</a>, teks tambahan.</li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Tandatangan dengan waktu",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "<a href='#' title='{{#special:mypage}}'>Nama pengguna</a> (<a href='#' title='{{#special:mytalk}}'>bual</a>) 15:54, 10 Jun 2009 (UTC)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "<a href='#' title='{{#special:mypage}}'>Nama pengguna</a> (<a href='#' title='{{#special:mytalk}}'>bincang</a>) 15:54, 10 Jun 2009 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "Tandatangan",
-	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#special:mypage}}'>Nama pengguna</a> (<a href='#' title='{{#special:mytalk}}'>bual</a>)",
+	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#special:mypage}}'>Nama pengguna</a> (<a href='#' title='{{#special:mytalk}}'>bincang</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Inden",
 	"wikieditor-toolbar-help-content-indent-syntax": "Teks normal<br />:Teks terinden<br />::Teks terinden",
 	"wikieditor-toolbar-help-content-indent-result": "Teks normal<dl><dd>Teks terinden<dl><dd>Teks terinden</dd></dl></dd></dl>"

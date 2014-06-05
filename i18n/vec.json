@@ -108,7 +108,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Testo in pèdice",
 	"wikieditor-toolbar-group-insert": "Inserisi",
 	"wikieditor-toolbar-tool-gallery": "Galerìa fotografica",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Exenpio.jpg|Didascalia1\n$1:Exenpio.jpg|Didascalia2",
+	"wikieditor-toolbar-tool-gallery-example": "Exenpio.jpg|Didascalia1\nExenpio.jpg|Didascalia2",
 	"wikieditor-toolbar-tool-newline": "Riga nova",
 	"wikieditor-toolbar-tool-table": "Tabèla",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! intestasion 1\n! intestasion 2\n! intestasion 3\n|-\n| riga 1, caxèla 1\n| riga 1, caxèla 2\n| riga 1, caxèla 3\n|-\n| riga 2, caxèla 1\n| riga 2, caxèla 2\n| riga 2, caxèla 3",

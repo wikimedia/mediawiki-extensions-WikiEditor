@@ -111,7 +111,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "טקסט מונמך",
 	"wikieditor-toolbar-group-insert": "הוספה",
 	"wikieditor-toolbar-tool-gallery": "גלריית תמונות",
-	"wikieditor-toolbar-tool-gallery-example": "$1:דוגמה.jpg|כותרת 1\n$1:דוגמה.jpg|כותרת 2",
+	"wikieditor-toolbar-tool-gallery-example": "דוגמה.jpg|כותרת 1\nדוגמה.jpg|כותרת 2",
 	"wikieditor-toolbar-tool-newline": "שורה חדשה",
 	"wikieditor-toolbar-tool-table": "טבלה",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! כותרת 1\n! כותרת 2\n! כותרת 3\n|-\n| שורה 1, תא 1\n| שורה 1, תא 2\n| שורה 1, תא 3\n|-\n| שורה 2, תא 1\n| שורה 2, תא 2\n| שורה 2, תא 3",

@@ -113,7 +113,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Sænket tekst",
 	"wikieditor-toolbar-group-insert": "Indsæt",
 	"wikieditor-toolbar-tool-gallery": "Billedgalleri",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Eksempel.jpg|Billedtekst1\n$1:Eksempel.jpg|Billedtekst2",
+	"wikieditor-toolbar-tool-gallery-example": "Eksempel.jpg|Billedtekst1\nEksempel.jpg|Billedtekst2",
 	"wikieditor-toolbar-tool-newline": "Ny linje",
 	"wikieditor-toolbar-tool-table": "Tabel",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! overskrift 1\n! overskrift 2\n! overskrift 3\n|-\n| række 1, celle 1\n| række 1, celle 2\n| række 1, celle 3\n|-\n| række 2, celle 1\n| række 2, celle 2\n| række 2, celle 3",

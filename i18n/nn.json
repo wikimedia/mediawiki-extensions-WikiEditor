@@ -106,7 +106,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Senka skrift",
 	"wikieditor-toolbar-group-insert": "Set inn",
 	"wikieditor-toolbar-tool-gallery": "Biletgalleri",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Døme.jpg|Bilettekst1\n$1:Døme.jpg|Bilettekst2",
+	"wikieditor-toolbar-tool-gallery-example": "Døme.jpg|Bilettekst1\nDøme.jpg|Bilettekst2",
 	"wikieditor-toolbar-tool-newline": "Ny line",
 	"wikieditor-toolbar-tool-table": "Tabell",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! overskrift 1\n! overskrift 2\n! overskrift 3\n|-\n| rad 1, selle 1\n| rad 1, selle 2\n| rad 1, selle 3\n|-\n| rad 2, selle 1\n| rad 2, selle 2\n| rad 2, selle 3",

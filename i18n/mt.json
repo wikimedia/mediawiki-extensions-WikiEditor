@@ -104,7 +104,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Test ta' indiċi ta' taħt",
 	"wikieditor-toolbar-group-insert": "Daħħal",
 	"wikieditor-toolbar-tool-gallery": "Gallerija tal-istampi",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Eżempju.jpg|Deskrizzjoni1\n$1:Eżempju.jpg|Deskrizzjoni2",
+	"wikieditor-toolbar-tool-gallery-example": "Eżempju.jpg|Deskrizzjoni1\nEżempju.jpg|Deskrizzjoni2",
 	"wikieditor-toolbar-tool-newline": "Linja ġdida",
 	"wikieditor-toolbar-tool-table": "Tabella",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! ras 1\n! ras 2\n! ras 3\n|-\n| filliera 1, ċellola 1\n| filliera 1, ċellola 2\n| filliera 1, ċellola 3\n|-\n| filliera 2, ċellola 1\n| filliera 2, ċellola 2\n| filliera 2, ċellola 3",

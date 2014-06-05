@@ -46,7 +46,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Textus subscriptus",
 	"wikieditor-toolbar-group-insert": "Inserere",
 	"wikieditor-toolbar-tool-gallery": "Pinacotheca",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Exemplum.jpg|Descriptio 1\n$1:Exemplum.jpg|Descriptio 2",
+	"wikieditor-toolbar-tool-gallery-example": "Exemplum.jpg|Descriptio 1\nExemplum.jpg|Descriptio 2",
 	"wikieditor-toolbar-tool-newline": "Nova linea",
 	"wikieditor-toolbar-tool-table": "Tabula",
 	"wikieditor-toolbar-section-characters": "Characteres speciales",

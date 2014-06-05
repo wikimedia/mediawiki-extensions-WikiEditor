@@ -95,7 +95,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Устуруока аннынааҕы бичик",
 	"wikieditor-toolbar-group-insert": "Угуу",
 	"wikieditor-toolbar-tool-gallery": "Ойуулар галереялара",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Сурук1\n$1:Example.jpg|Сурук2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Сурук1\nExample.jpg|Сурук2",
 	"wikieditor-toolbar-tool-newline": "Кыһыл устуруока",
 	"wikieditor-toolbar-tool-table": "Таабыл",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! баһа 1\n! баһа 2\n! баһа 3\n|-\n| строка 1, ячейка 1\n| строка 1, ячейка 2\n| строка 1, ячейка 3\n|-\n| строка 2, ячейка 1\n| строка 2, ячейка 2\n| строка 2, ячейка 3",

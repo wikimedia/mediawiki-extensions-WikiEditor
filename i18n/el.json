@@ -115,7 +115,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Κείμενο-δείκτης",
 	"wikieditor-toolbar-group-insert": "Εισαγωγή",
 	"wikieditor-toolbar-tool-gallery": "Συλλογή εικόνων",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Λεζάντα1\n$1:Example.jpg|Λεζάντα2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Λεζάντα1\nExample.jpg|Λεζάντα2",
 	"wikieditor-toolbar-tool-newline": "Νέα γραμμή",
 	"wikieditor-toolbar-tool-table": "Πίνακας",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! κεφαλίδα 1\n! κεφαλίδα 2\n! κεφαλίδα 3\n|-\n| γραμμή 1, κελί 1\n| γραμμή 1, κελί 2\n| γραμμή 1, κελί 3\n|-\n| γραμμή 2, κελί 1\n| γραμμή 2, κελί 2\n| γραμμή 2, κελί 3",

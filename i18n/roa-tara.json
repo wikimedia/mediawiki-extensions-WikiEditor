@@ -108,7 +108,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Teste sottoscritte",
 	"wikieditor-toolbar-group-insert": "'Nzerisce",
 	"wikieditor-toolbar-tool-gallery": "Gallerìe fotografeche",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Titele1\n$1:Example.jpg|Titele2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Titele1\nExample.jpg|Titele2",
 	"wikieditor-toolbar-tool-newline": "Linèa nove",
 	"wikieditor-toolbar-tool-table": "Tabbelle",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! testate 1\n! testate 2\n! testate 3\n|-\n| righe 1, celle 1\n| righe 1, celle 2\n| righe 1, celle 3\n|-\n| righe 2, celle 1\n| righe 2, celle 2\n| righe 2, celle 3",

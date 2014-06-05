@@ -96,7 +96,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Texto en subéndiz",
 	"wikieditor-toolbar-group-insert": "Insertar",
 	"wikieditor-toolbar-tool-gallery": "Galería d'imachens",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Eixemplo.jpg|Piet_de_foto_1\n$1:Eixemplo.jpg|Piet_de_foto_2",
+	"wikieditor-toolbar-tool-gallery-example": "Eixemplo.jpg|Piet_de_foto_1\nEixemplo.jpg|Piet_de_foto_2",
 	"wikieditor-toolbar-tool-newline": "Nueva linia",
 	"wikieditor-toolbar-tool-table": "Tabla",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! encabezau 1\n! encabezau 2\n! encabezau 3\n|-\n| ringlera 1, celda 1\n| ringlera 1, celda 2\n| ringlera 1, celda 3\n|-\n| ringlera 2, celda 1\n| ringlera 2, celda 2\n| ringlera 2, celda 3",

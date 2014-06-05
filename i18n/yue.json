@@ -97,7 +97,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "下標字",
 	"wikieditor-toolbar-group-insert": "插入",
 	"wikieditor-toolbar-tool-gallery": "畫廊",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|標題1\n$1:Example.jpg|標題2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|標題1\nExample.jpg|標題2",
 	"wikieditor-toolbar-tool-newline": "新行",
 	"wikieditor-toolbar-tool-table": "表",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! 表頭 1\n! 表頭 2\n! 表頭 3\n|-\n| 行 1, 格 1\n| 行 1, 格 2\n| 行 1, 格 3\n|-\n| 行 2, 格 1\n| 行 2, 格 2\n| 行 2, 格 3",

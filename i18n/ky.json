@@ -58,7 +58,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Саптан ылдый текст",
 	"wikieditor-toolbar-group-insert": "Киргиз",
 	"wikieditor-toolbar-tool-gallery": "Сүрөттөр галлереясы",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Баяндама1\n$1:Example.jpg|Баяндама2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Баяндама1\nExample.jpg|Баяндама2",
 	"wikieditor-toolbar-tool-newline": "Жаңы сап",
 	"wikieditor-toolbar-tool-table": "Жадыбал",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! бөрк сөз 1\n! бөрк сөз 2\n! бөрк сөз 3\n|-\n|  1 сап, 1 көзөнөк \n|  1 сап, 2 көзөнөк\n|  1 сап, 3 көзөнөк\n|-\n|  2 сап, 1 көзөнөк\n|  2 сап, 2 көзөнөк\n|  2 сап, 3 көзөнөк",

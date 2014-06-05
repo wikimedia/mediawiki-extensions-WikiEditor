@@ -107,7 +107,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Tekste in onderschrift",
 	"wikieditor-toolbar-group-insert": "Derbie doon",
 	"wikieditor-toolbar-tool-gallery": "Foto-uutstallige",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Veurbeeld1|Bieschrift1\n$1:Veurbeeld2|Bieschrift2",
+	"wikieditor-toolbar-tool-gallery-example": "Veurbeeld1|Bieschrift1\nVeurbeeld2|Bieschrift2",
 	"wikieditor-toolbar-tool-newline": "Nieje regel",
 	"wikieditor-toolbar-tool-table": "Tabel",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! kop 1\n! kop 2\n! kop 3\n|-\n| rie 1, sel 1\n| rie 1, sel 2\n| rie 1, sel 3\n|-\n| rie 2, sel 1\n| rie 2, sel 2\n| rie 2, sel 3",

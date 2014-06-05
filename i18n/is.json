@@ -104,7 +104,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "texti í niðurskrift",
 	"wikieditor-toolbar-group-insert": "Setja inn",
 	"wikieditor-toolbar-tool-gallery": "Mynda safn",
-	"wikieditor-toolbar-tool-gallery-example": "$1:Example.jpg|Myndlýsing1\n$1:Example.jpg|Myndlýsing2",
+	"wikieditor-toolbar-tool-gallery-example": "Example.jpg|Myndlýsing1\nExample.jpg|Myndlýsing2",
 	"wikieditor-toolbar-tool-newline": "Ný lína",
 	"wikieditor-toolbar-tool-table": "Töflu",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! titill 1\n! titill 2\n! titill 3\n|-\n| röð 1, reitur 1\n| röð 1, reitur 2\n| röð 1, reitur 3\n| -\n| röð 2, reitur 1\n| röð 2, reitur 2\n| röð 2, reitur 3",
