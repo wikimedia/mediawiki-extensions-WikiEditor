@@ -93,7 +93,7 @@
 	"wikieditor-toolbar-tool-big": "{{Identical|Big}}",
 	"wikieditor-toolbar-tool-small": "{{Identical|Small}}",
 	"wikieditor-toolbar-group-insert": "{{Identical|Insert}}",
-	"wikieditor-toolbar-tool-gallery-example": "Used as example for Picture Gallery.\n\nThis message follows the message {{msg-mw|wikieditor-toolbar-tool-gallery}}.\n\nParameters:\n* $1 - namespace name \"File\"",
+	"wikieditor-toolbar-tool-gallery-example": "Used as example for Picture Gallery.\n\nThis message follows the message {{msg-mw|wikieditor-toolbar-tool-gallery}}.\n\nParameters:\n* $1 - optional namespace name \"File\", unused in the default message.",
 	"wikieditor-toolbar-tool-table": "{{Identical|Table}}",
 	"wikieditor-toolbar-tool-table-example-cell-text": "[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.",
 	"wikieditor-toolbar-tool-table-example-header": "[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.\n\nSee also:\n* {{msg-mw|wikieditor-toolbar-tool-table-example-header}}\n* {{msg-mw|wikieditor-toolbar-tool-table-example}}",
