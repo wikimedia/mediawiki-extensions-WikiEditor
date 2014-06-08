@@ -18,7 +18,8 @@
 			"Wong128hk",
 			"Wrightbus",
 			"Xiaomingyan",
-			"Cwlin0416"
+			"Cwlin0416",
+			"Liflon"
 		]
 	},
 	"wikieditor": "進階 Wiki 文字編輯介面",
@@ -112,7 +113,7 @@
 	"wikieditor-toolbar-tool-olist-example": "編號清單項目",
 	"wikieditor-toolbar-tool-nowiki": "不使用 Wiki 格式化語法",
 	"wikieditor-toolbar-tool-nowiki-example": "插入非格式化文字",
-	"wikieditor-toolbar-tool-redirect": "重新導向",
+	"wikieditor-toolbar-tool-redirect": "重定向",
 	"wikieditor-toolbar-tool-redirect-example": "目標頁名稱",
 	"wikieditor-toolbar-tool-big": "放大",
 	"wikieditor-toolbar-tool-big-example": "放大文字",
