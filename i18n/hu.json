@@ -7,7 +7,8 @@
 			"Glanthor Reviol",
 			"Hunyadym",
 			"McDutchie",
-			"Misibacsi"
+			"Misibacsi",
+			"Csega"
 		]
 	},
 	"wikieditor": "Fejlett szerkesztőfelület wikiszöveghez",
@@ -111,7 +112,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Alsó index szövege",
 	"wikieditor-toolbar-group-insert": "Beszúrás",
 	"wikieditor-toolbar-tool-gallery": "Képgaléria",
-	"wikieditor-toolbar-tool-gallery-example": "Példa.jpg|képaláírás1\nPélda.jpg|képaláírás2",
+	"wikieditor-toolbar-tool-gallery-example": "Példa.jpg|Képaláírás1\nPélda.jpg|Képaláírás2",
 	"wikieditor-toolbar-tool-newline": "Új sor",
 	"wikieditor-toolbar-tool-table": "Táblázat",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! 1. fejléc\n! 2. fejléc\n! 3. fejléc\n|-\n| 1. sor, 1. cella\n| 1. sor, 2. cella\n| 1. sor, 3. cella\n|-\n| 2. sor, 1. cella\n| 2. sor, 2. cella\n| 2. sor, 3. cella",
