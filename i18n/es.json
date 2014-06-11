@@ -40,7 +40,7 @@
 	"wikieditor-publish-dialog-goback": "Regresar",
 	"wikieditor-toolbar": "Barra de herramientas de edición",
 	"wikieditor-toolbar-desc": "Barra de herramientas de la página de edición con usabilidad mejorada",
-	"wikieditor-toolbar-preference": "Habilitar la barra de herramientas de edición mejorada",
+	"wikieditor-toolbar-preference": "Activar la barra de herramientas de edición mejorada",
 	"wikieditor-toolbar-dialogs-preference": "Activar los asistentes para insertar enlaces y tablas, y la función de buscar y reemplazar",
 	"wikieditor-toolbar-hidesig": "Ocultar el botón firmar de las páginas en el espacio de nombres principal",
 	"wikieditor-toolbar-loading": "Cargando...",
