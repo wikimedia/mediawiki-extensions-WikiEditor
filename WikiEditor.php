@@ -140,6 +140,8 @@ $wgResourceModules += array(
 		'dependencies' => array(
 			'jquery.wikiEditor',
 			'jquery.wikiEditor.toolbar.i18n',
+			'jquery.cookie',
+			'jquery.async',
 		),
 	),
 	'jquery.wikiEditor.toolbar.config' => $wikiEditorTpl + array(
@@ -148,8 +150,6 @@ $wgResourceModules += array(
 			'jquery.wikiEditor',
 			'jquery.wikiEditor.toolbar.i18n',
 			'jquery.wikiEditor.toolbar',
-			'jquery.cookie',
-			'jquery.async',
 		)
 	),
 	'jquery.wikiEditor.toolbar.i18n' => $wikiEditorTpl + array(
