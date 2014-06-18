@@ -68,7 +68,7 @@
 	"wikieditor-toolbar-tool-link-int-target-status-loading": "Kontrollerar om sidan existerar...",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Förgreningssida",
 	"wikieditor-toolbar-tool-link-int-invalid": "Titeln du angav är ogiltig.",
-	"wikieditor-toolbar-tool-link-lookslikeinternal": "URL:et du specificerade ser ut att vara avsett som en länk till en annan wikisida. Vill du göra det till en intern länk?",
+	"wikieditor-toolbar-tool-link-lookslikeinternal": "URL:en du specificerade ser ut att vara avsed som en länk till en annan wikisida. Vill du göra den till en intern länk?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Intern länk",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Extern länk",
 	"wikieditor-toolbar-tool-link-empty": "Du skrev inget att länka till.",
