@@ -155,11 +155,14 @@ class WikiEditorHooks {
 	 *
 	 * Adds the modules to the edit form
 	 *
-	 * @param $toolbar array list of toolbar items
+	 * @param $editPage EditPage the current EditPage object.
+	 * @param $output OutputPage object.
 	 * @return bool
 	 */
-	public static function editPageShowEditFormInitial( &$toolbar ) {
-		global $wgOut;
+	public static function editPageShowEditFormInitial( $editPage, $outputPage ) {
+		if ( $editPage->contentModel !== CONTENT_MODEL_WIKITEXT ) {
+			return true;
+		}
 
 		// Add modules for enabled features
 		foreach ( self::$features as $name => $feature ) {
@@ -167,10 +170,10 @@ class WikiEditorHooks {
 				continue;
 			}
 			if ( isset( $feature['stylemodules'] ) ) {
-				$wgOut->addModuleStyles( $feature['stylemodules'] );
+				$outputPage->addModuleStyles( $feature['stylemodules'] );
 			}
 			if ( isset( $feature['modules'] ) ) {
-				$wgOut->addModules( $feature['modules'] );
+				$outputPage->addModules( $feature['modules'] );
 			}
 		}
 		return true;
