@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mucalexx"
+			"Mucalexx",
+			"Matthias Klostermayr"
 		]
-	}
+	},
+	"wikieditor-toolbar-tool-redirect": "Weidaloatung"
 }
