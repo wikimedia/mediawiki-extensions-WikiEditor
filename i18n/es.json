@@ -15,7 +15,8 @@
 			"Peter17",
 			"Platonides",
 			"Translationista",
-			"Vivaelcelta"
+			"Vivaelcelta",
+			"Luis Felipe Schenone"
 		]
 	},
 	"wikieditor": "Interfaz avanzada de edición de wikitexto",
@@ -32,7 +33,7 @@
 	"wikieditor-publish-preference": "Habilitar publicación paso a paso",
 	"wikieditor-publish-button-publish": "Publicar",
 	"wikieditor-publish-button-cancel": "Cancelar",
-	"wikieditor-publish-dialog-title": "Publicar en {{SITENAME}}",
+	"wikieditor-publish-dialog-title": "Publicar en {{{SITENAME}}}",
 	"wikieditor-publish-dialog-summary": "Resumen de edición (describe brevemente los cambios que has realizado):",
 	"wikieditor-publish-dialog-minor": "Edición menor",
 	"wikieditor-publish-dialog-watch": "Vigilar esta página",
