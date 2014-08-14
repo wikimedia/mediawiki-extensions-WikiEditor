@@ -799,7 +799,8 @@ $.wikiEditor.modules.dialogs.config = {
 						'wikieditor-toolbar-tool-file-insert': function () {
 							var fileName, caption, fileFloat, fileFormat, fileSize, fileTitle,
 								options, fileUse,
-								hasPxRgx = /.+px$/;
+								hasPxRgx = /.+px$/,
+								magicWordsI18N = mw.config.get( 'wgWikiEditorMagicWords' );
 							fileName = $( '#wikieditor-toolbar-file-target' ).val();
 							caption = $( '#wikieditor-toolbar-file-caption' ).val();
 							fileFloat = $( '#wikieditor-toolbar-file-float' ).val();
@@ -844,10 +845,11 @@ $.wikiEditor.modules.dialogs.config = {
 							// Restore form state
 							$( ['#wikieditor-toolbar-file-target',
 								'#wikieditor-toolbar-file-caption',
-								'#wikieditor-toolbar-file-size',
-								'#wikieditor-toolbar-file-float',
-								'#wikieditor-toolbar-file-format'].join( ',' )
+								'#wikieditor-toolbar-file-size'].join( ',' )
 							).val( '' );
+							$( '#wikieditor-toolbar-file-float' ).val( 'default' );
+							/*jshint camelcase: false */
+							$( '#wikieditor-toolbar-file-format' ).val( magicWordsI18N.img_thumbnail );
 						},
 						'wikieditor-toolbar-tool-file-cancel': function () {
 							$( this ).dialog( 'close' );
