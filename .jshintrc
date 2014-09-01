@@ -26,8 +26,9 @@
 	// Environment
 	"browser": true,
 
-	"predef": [
-		"mediaWiki",
-		"jQuery"
-	]
+	"globals": {
+		"mediaWiki": false,
+		"jQuery": false,
+		"QUnit": false
+	}
 }

@@ -52,6 +52,7 @@ $GLOBALS['wgExtensionMessagesFiles']['WikiEditor'] = __DIR__ . '/WikiEditor.i18n
 $GLOBALS['wgHooks']['EditPage::showEditForm:initial'][] = 'WikiEditorHooks::editPageShowEditFormInitial';
 $GLOBALS['wgHooks']['GetPreferences'][] = 'WikiEditorHooks::getPreferences';
 $GLOBALS['wgHooks']['ResourceLoaderGetConfigVars'][] = 'WikiEditorHooks::resourceLoaderGetConfigVars';
+$GLOBALS['wgHooks']['ResourceLoaderTestModules'][] = 'WikiEditorHooks::resourceLoaderTestModules';
 $GLOBALS['wgHooks']['MakeGlobalVariablesScript'][] = 'WikiEditorHooks::makeGlobalVariablesScript';
 $GLOBALS['wgHooks']['EditPageBeforeEditToolbar'][] = 'WikiEditorHooks::EditPageBeforeEditToolbar';
 
@@ -412,10 +413,6 @@ $GLOBALS['wgResourceModules'] += array(
 			'wikieditor-publish-dialog-publish',
 			'wikieditor-publish-dialog-goback',
 		),
-	),
-	'ext.wikiEditor.tests.toolbar' => $wikiEditorTpl + array(
-		'scripts' => 'ext.wikiEditor.tests.toolbar.js',
-		'dependencies' => 'ext.wikiEditor.toolbar',
 	),
 	'ext.wikiEditor.toolbar' => $wikiEditorTpl + array(
 		'scripts' => 'ext.wikiEditor.toolbar.js',
