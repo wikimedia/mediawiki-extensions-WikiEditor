@@ -18,7 +18,8 @@
 			"Shirayuki",
 			"Siebrand",
 			"Umherirrender",
-			"Yekrats"
+			"Yekrats",
+			"Liuxinyu970226"
 		]
 	},
 	"wikieditor": "An extension to allow for advanced editing features.\nhttp://www.mediawiki.org/wiki/Extension:WikiEditor",
@@ -71,9 +72,9 @@
 	"wikieditor-toolbar-tool-file-title": "Title for insert file dialog",
 	"wikieditor-toolbar-file-target": "Label for the input of filename on insert file dialog.\n{{Identical|Filename}}",
 	"wikieditor-toolbar-file-caption": "Label for input of caption on insert file dialog\n\n{{Identical|Caption}}",
-	"wikieditor-toolbar-file-size": "Label for input of size on insert file dialog",
-	"wikieditor-toolbar-file-float": "Label for image align selector on insert file dialog",
-	"wikieditor-toolbar-file-default": "Label for default option in insert file dialog selectors",
+	"wikieditor-toolbar-file-size": "Label for input of size on insert file dialog\n{{Identical|Size}}",
+	"wikieditor-toolbar-file-float": "Label for image align selector on insert file dialog\n{{Identical|Align}}",
+	"wikieditor-toolbar-file-default": "Label for default option in insert file dialog selectors\n{{Identical|Default}}",
 	"wikieditor-toolbar-file-format": "Label for image format (thumbnail, framed, frameless, none) selector on insert file dialog\n{{Identical|Format}}",
 	"wikieditor-toolbar-file-format-none": "Option in file dialog for no format for the added image.\n{{Identical|None}}",
 	"wikieditor-toolbar-tool-file-insert": "{{Identical|Insert}}",
