@@ -40,7 +40,7 @@
 	"wikieditor-toolbar": "Työkalupalkki muokkaukseen",
 	"wikieditor-toolbar-desc": "Muokkaussivun työkalupalkki paremmalla käytettävyydellä.",
 	"wikieditor-toolbar-preference": "Ota käyttöön parannettu työkalupalkki muokkauksissa",
-	"wikieditor-toolbar-dialogs-preference": "Ota käyttöön valintatoiminto, jonka avulla voit lisätä linkkejä ja taulukoita sekä hakea ja korvata",
+	"wikieditor-toolbar-dialogs-preference": "Ota käyttöön aputoiminnot, joiden avulla voit lisätä linkkejä ja taulukoita sekä etsiä ja korvata tekstiä",
 	"wikieditor-toolbar-hidesig": "Piilota allekirjoituspainike sivuilta päänimiavaruudessa",
 	"wikieditor-toolbar-loading": "Ladataan…",
 	"wikieditor-toolbar-tool-bold": "Lihavointi",
