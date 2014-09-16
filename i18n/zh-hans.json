@@ -149,7 +149,7 @@
 	"wikieditor-toolbar-tool-replace-button-replaceall": "替换所有",
 	"wikieditor-toolbar-tool-replace-close": "关闭",
 	"wikieditor-toolbar-tool-replace-nomatch": "没有找到任何匹配项。",
-	"wikieditor-toolbar-tool-replace-success": "完成了$1次{{PLURAL:$1|替换|替换}}。",
+	"wikieditor-toolbar-tool-replace-success": "完成了$1次{{PLURAL:$1|替换}}。",
 	"wikieditor-toolbar-tool-replace-emptysearch": "您没有输入查找内容。",
 	"wikieditor-toolbar-tool-replace-invalidregex": "您输入的正则表达式无效：$1",
 	"wikieditor-toolbar-section-characters": "特殊字符",

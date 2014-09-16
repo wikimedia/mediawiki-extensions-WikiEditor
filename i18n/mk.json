@@ -141,7 +141,7 @@
 	"wikieditor-toolbar-tool-replace-success": "{{PLURAL:$1|Направена е $1 замена.|Направени се $1 замени.}}",
 	"wikieditor-toolbar-tool-replace-emptysearch": "Не внесовте зборови за пребарување.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "Регуларниот израз кој го внесовте е неважечки: $1",
-	"wikieditor-toolbar-section-characters": "Специјални знаци",
+	"wikieditor-toolbar-section-characters": "Посебни знаци",
 	"wikieditor-toolbar-characters-page-latin": "Латиница",
 	"wikieditor-toolbar-characters-page-latinextended": "Латиница-проширено",
 	"wikieditor-toolbar-characters-page-ipa": "МФА",
