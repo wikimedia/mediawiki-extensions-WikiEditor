@@ -12,7 +12,8 @@
 			"Luckas Blade",
 			"MetalBrasil",
 			"Rafael Vargas",
-			"555"
+			"555",
+			"Dianakc"
 		]
 	},
 	"wikieditor": "Interface avançada de edição de wikitexto",
@@ -38,7 +39,7 @@
 	"wikieditor-toolbar": "Barra de ferramentas de edição",
 	"wikieditor-toolbar-desc": "Barra de ferramentas de edição com usabilidade melhorada",
 	"wikieditor-toolbar-preference": "Ativar a barra de ferramentas de edição melhorada",
-	"wikieditor-toolbar-dialogs-preference": "Possibilitar diálogos de inserção de ligações, tabelas assim como a função de buscar e substituir",
+	"wikieditor-toolbar-dialogs-preference": "Ativa assistentes para a inserção de links, tabelas assim como a função de procurar e substituir",
 	"wikieditor-toolbar-hidesig": "Esconder o botão da assinatura nas páginas do espaço nominal principal",
 	"wikieditor-toolbar-loading": "Carregando...",
 	"wikieditor-toolbar-tool-bold": "Negrito",
