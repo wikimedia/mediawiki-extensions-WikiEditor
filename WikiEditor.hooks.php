@@ -155,8 +155,8 @@ class WikiEditorHooks {
 	 *
 	 * Adds the modules to the edit form
 	 *
-	 * @param $editPage EditPage the current EditPage object.
-	 * @param $output OutputPage object.
+	 * @param EditPage $editPage the current EditPage object.
+	 * @param OutputPage $outputPage object.
 	 * @return bool
 	 */
 	public static function editPageShowEditFormInitial( $editPage, $outputPage ) {
@@ -202,10 +202,10 @@ class WikiEditorHooks {
 	/**
 	 * GetPreferences hook
 	 *
-	 * Adds WikiEditor-releated items to the preferences
+	 * Adds WikiEditor-related items to the preferences
 	 *
-	 * @param $user User current user
-	 * @param $defaultPreferences array list of default user preference controls
+	 * @param User $user current user
+	 * @param array $defaultPreferences list of default user preference controls
 	 * @return bool
 	 */
 	public static function getPreferences( $user, &$defaultPreferences ) {
@@ -285,9 +285,10 @@ class WikiEditorHooks {
 			'img_framed',
 			'img_frameless',
 		);
+		$magicWords = array();
 		foreach ( $requiredMagicWords as $name ) {
-				$magicWords[$name] = MagicWord::get( $name )->getSynonym( 0 );
-			}
+			$magicWords[$name] = MagicWord::get( $name )->getSynonym( 0 );
+		}
 		$vars['wgWikiEditorMagicWords'] = $magicWords;
 	}
 
