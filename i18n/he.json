@@ -5,7 +5,8 @@
 			"Rotemliss",
 			"YaronSh",
 			"Yonidebest",
-			"חיים"
+			"חיים",
+			"Guycn2"
 		]
 	},
 	"wikieditor": "ממשק מתקדם לעריכת טקסט ויקי",
@@ -61,7 +62,7 @@
 	"wikieditor-toolbar-tool-link-int-target-status-loading": "בדיקה האם הדף קיים...",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "דף פירושונים",
 	"wikieditor-toolbar-tool-link-int-invalid": "הכותרת שצוינה אינה תקינה.",
-	"wikieditor-toolbar-tool-link-lookslikeinternal": "הכתובת שציינתם נראית כאילו היא מיועדת לקשר לדף אחר בוויקי. האם ברצונכם להפוך זאת לקישור פנימי?",
+	"wikieditor-toolbar-tool-link-lookslikeinternal": "הכתובת שציינת נראית כאילו היא מיועדת לקשר לדף אחר בוויקי.\nהאם ברצונך להפוך זאת לקישור פנימי?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "קישור פנימי",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "קישור חיצוני",
 	"wikieditor-toolbar-tool-link-empty": "לא הזנתם שום דבר לקשר אליו.",
@@ -141,9 +142,9 @@
 	"wikieditor-toolbar-tool-replace-button-replace": "החלפה",
 	"wikieditor-toolbar-tool-replace-button-replaceall": "החלפת הכול",
 	"wikieditor-toolbar-tool-replace-close": "סגירה",
-	"wikieditor-toolbar-tool-replace-nomatch": "לא התקבלו התאמות לחיפושכם.",
+	"wikieditor-toolbar-tool-replace-nomatch": "לא התקבלו התאמות לחיפושך.",
 	"wikieditor-toolbar-tool-replace-success": "{{PLURAL:$1|בוצעה החלפה אחת|בוצעו $1 החלפות}}.",
-	"wikieditor-toolbar-tool-replace-emptysearch": "לא כתבתם טקסט לחיפוש.",
+	"wikieditor-toolbar-tool-replace-emptysearch": "לא הזנת טקסט לחיפוש.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "הביטוי הרגולרי שהוכנס אינו תקין: $1",
 	"wikieditor-toolbar-section-characters": "תווים מיוחדים",
 	"wikieditor-toolbar-characters-page-latin": "לטיני",
