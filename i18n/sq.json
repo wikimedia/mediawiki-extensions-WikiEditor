@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Mikullovci11",
-			"Olsi"
+			"Olsi",
+			"Paladox"
 		]
 	},
 	"wikieditor": "Editori i përparuar",
@@ -28,7 +29,7 @@
 	"wikieditor-toolbar": "Redaktoni trat me vegla",
 	"wikieditor-toolbar-desc": "Redaktoni shiritin e veglave të faqes me përdorshmëri të zgjeruar",
 	"wikieditor-toolbar-preference": "Aktizoni redaktimin e zgjeruar të shiritit të mjeteve",
-	"wikieditor-toolbar-dialogs-preference": "Aktivizoni dialogun për të futur lidhjet, tabelët etj.",
+	"wikieditor-toolbar-dialogs-preference": "Aktivizo magjistarët për të futur lidhjet, tavolina si dhe kërko dhe të zëvendësojë funksion",
 	"wikieditor-toolbar-loading": "Duke punuar...",
 	"wikieditor-toolbar-tool-bold": "Trashë",
 	"wikieditor-toolbar-tool-bold-example": "Tekst i trashë",
@@ -112,7 +113,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Parapamje",
 	"wikieditor-toolbar-tool-table-insert": "Shto",
 	"wikieditor-toolbar-tool-table-cancel": "Anulo",
-	"wikieditor-toolbar-tool-table-toomany": "Futja e një tabelë më shumë se $1 qeliza nuk është, në këtë dialog, e mundur.",
+	"wikieditor-toolbar-tool-table-toomany": "Futja e një tabelë më shumë se 1000 qeliza nuk është, në këtë dialog, e mundur.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Ju nuk keni dhënë numër të vlefshme e rreshtave apo kollonave.",
 	"wikieditor-toolbar-tool-table-zero": "Ju nuk mund të fusni një tabelë me zero rreshta apo kollona.",
 	"wikieditor-toolbar-tool-replace": "Kërkoni dhe zhvendosni",
@@ -125,7 +126,7 @@
 	"wikieditor-toolbar-tool-replace-button-replaceall": "Zëvendësojnë të gjitha",
 	"wikieditor-toolbar-tool-replace-close": "Mbylle",
 	"wikieditor-toolbar-tool-replace-nomatch": "Nuk ka rezultate që përputhen me kërkesën.",
-	"wikieditor-toolbar-tool-replace-success": "$1 Zëvendësimi(et) duke u zbatuar.",
+	"wikieditor-toolbar-tool-replace-success": "$1 {{plural:$1|zëvendësimin|zëvendësimet}} bërë.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "Ju nuk keni futur asgjë për të kërkuar.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "Shprehja që e keni futur është i pavlefshëm: $1",
 	"wikieditor-toolbar-section-characters": "Karaktere të veçanta",
