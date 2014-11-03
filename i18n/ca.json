@@ -8,8 +8,7 @@
 			"SMP",
 			"Solde",
 			"Toniher",
-			"Vriullop",
-			"Paladox"
+			"Vriullop"
 		]
 	},
 	"wikieditor": "Interfície avançada de modificació de wikitext",
@@ -35,7 +34,7 @@
 	"wikieditor-toolbar": "Editant la barra d'eines",
 	"wikieditor-toolbar-desc": "Barra d'eines d'edició amb usabilitat millorada",
 	"wikieditor-toolbar-preference": "Habilita la barra d'eines millorada",
-	"wikieditor-toolbar-dialogs-preference": "Habilitar els assistents per inserir enllaços, taules, així com la cerca i reemplaça funció",
+	"wikieditor-toolbar-dialogs-preference": "Habilita caixes de diàleg per inserir enllaços, taules i altres",
 	"wikieditor-toolbar-hidesig": "Amaga el botó de signar de les pàgines de l'espai de noms principal",
 	"wikieditor-toolbar-loading": "Carregant...",
 	"wikieditor-toolbar-tool-bold": "Negreta",

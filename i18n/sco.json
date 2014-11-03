@@ -1,12 +1,4 @@
 {
-	"@metadata": {
-		"authors": [
-			"Paladox"
-		]
-	},
-	"wikieditor-wikitext-tab": "Wikitex",
-	"wikieditor-loading": "Laidin...",
-	"wikieditor-preview-tab": "Luik ower",
-	"wikieditor-preview-loading": "Laidin...",
+	"@metadata": [],
 	"wikieditor-toolbar-characters-page-ipa": "IPA"
 }

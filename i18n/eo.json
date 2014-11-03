@@ -7,8 +7,7 @@
 			"Marcos",
 			"Michawiki",
 			"Yekrats",
-			"Ziko",
-			"Paladox"
+			"Ziko"
 		]
 	},
 	"wikieditor": "Progresa redaktilo por vikiteksto",
@@ -62,7 +61,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Nepermesita titolo",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Ligilo al ekstero",
 	"wikieditor-toolbar-tool-link-int-target-status-loading": "Kontrolante ekziston de paĝo...",
-	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Apartigiloj paĝon",
 	"wikieditor-toolbar-tool-link-int-invalid": "La titolo kiun vi enmetis estas nepermesita.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "La retadreso (URL), kiun vi indikis, aspektas kvazaŭ ĝi estas ligilo al paĝo de alia vikio.\nĈu vi volas ŝanĝi ĝin al interna ligilo?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Interna ligilo",
@@ -130,7 +128,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Antaŭvido",
 	"wikieditor-toolbar-tool-table-insert": "Enmeti",
 	"wikieditor-toolbar-tool-table-cancel": "Nuligi",
-	"wikieditor-toolbar-tool-table-toomany": "Enmeti tabelon kun pli ol 1000 ĉeloj ne eblas per ĉi tiu dialogujo.",
+	"wikieditor-toolbar-tool-table-toomany": "Enmeti tabelon kun pli ol $1 ĉeloj ne eblas per ĉi tiu dialogujo.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Vi ne enigis permesitan nombron de linioj aŭ kolumnoj.",
 	"wikieditor-toolbar-tool-table-zero": "Vi ne povas enigi tabelon kun nul linioj aŭ kolumnoj.",
 	"wikieditor-toolbar-tool-replace": "Serĉi kaj anstataŭigi",
@@ -221,10 +219,8 @@
 	"wikieditor-toolbar-help-content-reference-syntax": "Paĝa teksto.&lt;ref name=\"test\"&gt;[http://www.ekzemplo.org Ligila teksto], aldona teksto.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Paĝa teksto.<sup><a href='#'>[1]</a></sup>",
 	"wikieditor-toolbar-help-content-rereference-description": "Reuzo de la sama piednoto.",
-	"wikieditor-toolbar-help-content-rereference-syntax": "&lt;ref name=\"test\" /&gt;",
 	"wikieditor-toolbar-help-content-rereference-result": "Paĝa teksto.<sup><a href='#'>[1]</a></sup>",
 	"wikieditor-toolbar-help-content-showreferences-description": "Montri piednotojn",
-	"wikieditor-toolbar-help-content-showreferences-syntax": "&lt;references /&gt;",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.ekzemplo.org' class='external text' href='#'>Ligila teksto</a>, aldona teksto.</li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Subskribo kun tempindiko",
 	"wikieditor-toolbar-help-content-signaturetimestamp-result": "<a href='#' title='{{#special:mypage}}'>Salutnomo</a> (<a href='#' title='{{#special:mytalk}}'>diskuto</a>) 15:54, 10 junio 2009 (UTC)",
