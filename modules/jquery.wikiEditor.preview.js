@@ -74,6 +74,7 @@ fn: {
 					context.modules.preview.$preview.find( '.wikiEditor-preview-loading' ).hide();
 					context.modules.preview.$preview.find( '.wikiEditor-preview-contents' )
 						.html( data.parse.text['*'] )
+						.append( '<div class="visualClear"></div>' )
 						.find( 'a:not([href^=#])' )
 							.click( false );
 
@@ -140,7 +141,9 @@ fn: {
 								var diff = data.query.pages[data.query.pageids[0]]
 									.revisions[0].diff['*'];
 
-								context.$changesTab.find( 'table.diff tbody' ).html( diff );
+								context.$changesTab.find( 'table.diff tbody' )
+									.html( diff )
+									.append( '<div class="visualClear"></div>' );
 								context.modules.preview.changesText = wikitext;
 							} catch ( e ) {
 								// "data.blah is undefined" error, ignore
