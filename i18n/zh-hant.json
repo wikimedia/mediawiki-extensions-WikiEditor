@@ -19,7 +19,8 @@
 			"Wrightbus",
 			"Xiaomingyan",
 			"Cwlin0416",
-			"Liflon"
+			"Liflon",
+			"LNDDYL"
 		]
 	},
 	"wikieditor": "進階 Wiki 文字編輯介面",
@@ -141,7 +142,7 @@
 	"wikieditor-toolbar-tool-table-preview": "預覽",
 	"wikieditor-toolbar-tool-table-insert": "插入",
 	"wikieditor-toolbar-tool-table-cancel": "取消",
-	"wikieditor-toolbar-tool-table-toomany": "此對話框中無法插入超過 1000 個儲存格的表格。",
+	"wikieditor-toolbar-tool-table-toomany": "此對話方塊中無法插入超過 1000 個儲存格的表格。",
 	"wikieditor-toolbar-tool-table-invalidnumber": "您輸入的列數或欄數無效。",
 	"wikieditor-toolbar-tool-table-zero": "您不能插入一個零列或零欄的表格。",
 	"wikieditor-toolbar-tool-replace": "搜尋與取代",
