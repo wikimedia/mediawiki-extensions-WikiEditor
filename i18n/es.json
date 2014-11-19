@@ -16,7 +16,8 @@
 			"Platonides",
 			"Translationista",
 			"Vivaelcelta",
-			"Luis Felipe Schenone"
+			"Luis Felipe Schenone",
+			"Macofe"
 		]
 	},
 	"wikieditor": "Interfaz avanzada de edición de wikitexto",
@@ -134,7 +135,7 @@
 	"wikieditor-toolbar-tool-table-dimensions-header": "Incluir encabezado de fila",
 	"wikieditor-toolbar-tool-table-wikitable": "Estilo con bordes",
 	"wikieditor-toolbar-tool-table-sortable": "Hacer la tabla organizable",
-	"wikieditor-toolbar-tool-table-example": "Texto de celda",
+	"wikieditor-toolbar-tool-table-example": "Ejemplo",
 	"wikieditor-toolbar-tool-table-preview": "Previsualización",
 	"wikieditor-toolbar-tool-table-insert": "Insertar",
 	"wikieditor-toolbar-tool-table-cancel": "Cancelar",
