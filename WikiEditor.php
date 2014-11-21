@@ -16,7 +16,7 @@
 /* Configuration */
 
 // Each module may be configured individually to be globally on/off or user preference based
-$wgWikiEditorFeatures = array(
+$GLOBALS['wgWikiEditorFeatures'] = array(
 
 	/* Textarea / i-frame compatible (OK to deploy) */
 
@@ -38,7 +38,7 @@ $wgWikiEditorFeatures = array(
 
 /* Setup */
 
-$wgExtensionCredits['other'][] = array(
+$GLOBALS['$wgExtensionCredits']['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'WikiEditor',
 	'author' => array( 'Trevor Parscal', 'Roan Kattouw', 'Nimish Gautam', 'Adam Miller' ),
@@ -46,14 +46,14 @@ $wgExtensionCredits['other'][] = array(
 	'url' => 'https://www.mediawiki.org/wiki/Extension:WikiEditor',
 	'descriptionmsg' => 'wikieditor-desc',
 );
-$wgAutoloadClasses['WikiEditorHooks'] = __DIR__ . '/WikiEditor.hooks.php';
-$wgMessagesDirs['WikiEditor'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['WikiEditor'] = __DIR__ . '/WikiEditor.i18n.php';
-$wgHooks['EditPage::showEditForm:initial'][] = 'WikiEditorHooks::editPageShowEditFormInitial';
-$wgHooks['GetPreferences'][] = 'WikiEditorHooks::getPreferences';
-$wgHooks['ResourceLoaderGetConfigVars'][] = 'WikiEditorHooks::resourceLoaderGetConfigVars';
-$wgHooks['MakeGlobalVariablesScript'][] = 'WikiEditorHooks::makeGlobalVariablesScript';
-$wgHooks['EditPageBeforeEditToolbar'][] = 'WikiEditorHooks::EditPageBeforeEditToolbar';
+$GLOBALS['wgAutoloadClasses']['WikiEditorHooks'] = __DIR__ . '/WikiEditor.hooks.php';
+$GLOBALS['wgMessagesDirs']['WikiEditor'] = __DIR__ . '/i18n';
+$GLOBALS['wgExtensionMessagesFiles']['WikiEditor'] = __DIR__ . '/WikiEditor.i18n.php';
+$GLOBALS['wgHooks']['EditPage::showEditForm:initial'][] = 'WikiEditorHooks::editPageShowEditFormInitial';
+$GLOBALS['wgHooks']['GetPreferences'][] = 'WikiEditorHooks::getPreferences';
+$GLOBALS['wgHooks']['ResourceLoaderGetConfigVars'][] = 'WikiEditorHooks::resourceLoaderGetConfigVars';
+$GLOBALS['wgHooks']['MakeGlobalVariablesScript'][] = 'WikiEditorHooks::makeGlobalVariablesScript';
+$GLOBALS['wgHooks']['EditPageBeforeEditToolbar'][] = 'WikiEditorHooks::EditPageBeforeEditToolbar';
 
 $wikiEditorTpl = array(
 	'localBasePath' => __DIR__ . '/modules',
@@ -61,7 +61,7 @@ $wikiEditorTpl = array(
 	'group' => 'ext.wikiEditor',
 );
 
-$wgResourceModules += array(
+$GLOBALS['wgResourceModules'] += array(
 
 	/* WikiEditor jQuery plugin Resources */
 
