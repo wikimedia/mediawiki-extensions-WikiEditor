@@ -38,7 +38,7 @@ $GLOBALS['wgWikiEditorFeatures'] = array(
 
 /* Setup */
 
-$GLOBALS['$wgExtensionCredits']['other'][] = array(
+$GLOBALS['wgExtensionCredits']['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'WikiEditor',
 	'author' => array( 'Trevor Parscal', 'Roan Kattouw', 'Nimish Gautam', 'Adam Miller' ),
