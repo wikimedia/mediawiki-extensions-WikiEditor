@@ -30,8 +30,6 @@
 	"wikieditor-preview-tab": "Caption of the tab containing the preview\n\n{{Identical|Preview}}",
 	"wikieditor-preview-changes-tab": "Caption of the tab containing a diff of the user's changes, à la ''{{int:Showdiff}}'' ({{msg-mw|Showdiff|notext=1}}).\n\n{{Identical|Change}}",
 	"wikieditor-preview-loading": "Alt text for spinner displayed while preview is being loaded\n{{Identical|Loading}}",
-	"wikieditor-previewDialog-tab": "Caption of the tab containing the preview\n\n{{Identical|Preview}}",
-	"wikieditor-previewDialog-loading": "Alt text for spinner displayed while preview is being loaded\n{{Identical|Loading}}",
 	"wikieditor-publish-preference": "Option in [[Special:Preferences]], tab ''{{int:prefs-editing}}''",
 	"wikieditor-publish-button-publish": "Button to the right of the Edit/Preview tabs that opens a dialog window that lets the user save their edit\n\n{{Identical|Publish}}",
 	"wikieditor-publish-button-cancel": "Button to the right of the Edit/Preview tabs that has the same effect as the {{msg-mw|Cancel}} link below the edit box.\n\n{{Identical|Cancel}}",

@@ -30,8 +30,6 @@ $GLOBALS['wgWikiEditorFeatures'] = array(
 
 	// Adds a tab for previewing in-line
 	'preview' => array( 'global' => false, 'user' => true ),
-	// Adds a button for previewing in a dialog
-	'previewDialog' => array( 'global' => false, 'user' => false ),
 	//  Adds a button and dialog for step-by-step publishing
 	'publish' => array( 'global' => false, 'user' => true ),
 );
@@ -118,14 +116,6 @@ $GLOBALS['wgResourceModules'] += array(
 		'scripts' => 'jquery.wikiEditor.preview.js',
 		'styles' => 'jquery.wikiEditor.preview.css',
 		'dependencies' => 'jquery.wikiEditor',
-	),
-	'jquery.wikiEditor.previewDialog' => $wikiEditorTpl + array(
-		'scripts' => 'jquery.wikiEditor.previewDialog.js',
-		'styles' => 'jquery.wikiEditor.previewDialog.css',
-		'dependencies' => array(
-			'jquery.wikiEditor',
-			'jquery.wikiEditor.dialogs',
-		),
 	),
 	'jquery.wikiEditor.publish' => $wikiEditorTpl + array(
 		'scripts' => 'jquery.wikiEditor.publish.js',
@@ -382,18 +372,6 @@ $GLOBALS['wgResourceModules'] += array(
 			'wikieditor-preview-tab',
 			'wikieditor-preview-changes-tab',
 			'wikieditor-preview-loading',
-		),
-	),
-	'ext.wikiEditor.previewDialog' => $wikiEditorTpl + array(
-		'scripts' => 'ext.wikiEditor.previewDialog.js',
-		'dependencies' => array(
-			'ext.wikiEditor',
-			'jquery.wikiEditor.previewDialog',
-		),
-		'messages' => array(
-			'wikieditor-previewDialog-preference',
-			'wikieditor-previewDialog-tab',
-			'wikieditor-previewDialog-loading',
 		),
 	),
 	'ext.wikiEditor.publish' => $wikiEditorTpl + array(
