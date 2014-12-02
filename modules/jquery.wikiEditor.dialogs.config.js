@@ -562,8 +562,8 @@
 						width: 590,
 						buttons: {
 							'wikieditor-toolbar-tool-file-insert': function () {
-								var fileName, caption, fileFloat, fileFormat, fileSize, fileTitle,
-									options, fileUse,
+								var fileName, caption, fileFloat, fileFormat, fileSize, whitespace,
+									fileTitle, options, fileUse,
 									hasPxRgx = /.+px$/,
 									magicWordsI18N = mw.config.get( 'wgWikiEditorMagicWords' );
 								fileName = $( '#wikieditor-toolbar-file-target' ).val();
@@ -571,6 +571,7 @@
 								fileFloat = $( '#wikieditor-toolbar-file-float' ).val();
 								fileFormat = $( '#wikieditor-toolbar-file-format' ).val();
 								fileSize = $( '#wikieditor-toolbar-file-size' ).val();
+								whitespace = $( '#wikieditor-toolbar-file-dialog' ).data( 'whitespace' );
 								// Append px to end to size if not already contains it
 								if ( fileSize !== '' && !hasPxRgx.test( fileSize ) ) {
 									fileSize += 'px';
@@ -598,9 +599,9 @@
 									{
 										type: 'replace',
 										options: {
-											pre: '[[',
+											pre: whitespace[ 0 ] + '[[',
 											peri: fileUse,
-											post: ']]',
+											post: ']]' + whitespace[ 1 ],
 											ownline: true
 										}
 									},
@@ -639,7 +640,94 @@
 							}
 						},
 						open: function () {
+							var context, selection, parseFileSyntax,
+								magicWordsI18N = mw.config.get( 'wgWikiEditorMagicWords' ),
+								fileData = {
+									pre: '',
+									post: '',
+									fileName: '',
+									caption: '',
+									fileSize: '',
+									fileFloat: 'default',
+									fileFormat: magicWordsI18N.img_thumbnail
+								};
+
+							parseFileSyntax = function ( wikitext ) {
+								var escapedPipe = '\u0001',
+									result = {},
+									match, params, file, i, param;
+								if ( wikitext.indexOf( escapedPipe ) !== -1 ) {
+									return false;
+								}
+								match = /^(\s*)\[\[(.*)\]\](\s*)$/.exec( wikitext );
+								if ( !match ) {
+									return false;
+								}
+								result.pre = match[ 1 ];
+								result.post = match[ 3 ];
+								// Escape pipes inside links and templates,
+								// then split the parameters at the remaining pipes
+								params = match[ 2 ].replace( /\[\[[^[\]]*\]\]|\{\{[^{}]\}\}/g, function ( link ) {
+									return link.replace( /\|/g, escapedPipe );
+								} ).split( '|' );
+								file = new mw.Title( params[ 0 ] );
+								if ( file.getNamespaceId() !== 6 ) {
+									return false;
+								}
+								result.fileName = file.getMainText();
+								for ( i = 1; i < params.length; i++ ) {
+									param = params[ i ].toLowerCase();
+									if ( param === 'right' || param === magicWordsI18N.img_right ) {
+										result.fileFloat = magicWordsI18N.img_right;
+									} else if ( param === 'left' || param === magicWordsI18N.img_left ) {
+										result.fileFloat = magicWordsI18N.img_left;
+									} else if ( param === 'none' || param === magicWordsI18N.img_none ) {
+										result.fileFloat = magicWordsI18N.img_none;
+									} else if ( param === 'center' || param === 'centre' || param === magicWordsI18N.img_center ) {
+										result.fileFloat = magicWordsI18N.img_center;
+									} else if ( param === 'thumbnail' || param === 'thumb' || param === magicWordsI18N.img_thumbnail ) {
+										result.fileFormat = magicWordsI18N.img_thumbnail;
+									} else if ( param === 'framed' || param === 'enframed' || param === 'frame' || param === magicWordsI18N.img_framed ) {
+										result.fileFormat = magicWordsI18N.img_framed;
+									} else if ( param === 'frameless' || param === magicWordsI18N.img_frameless ) {
+										result.fileFormat = magicWordsI18N.img_frameless;
+									} else if ( /.+px$/.test( param ) ) {
+										result.fileSize = param.replace( /px$/, '' );
+									} else if ( param === '' ) {
+										continue;
+									} else if ( i === params.length - 1 ) { // Last param -> caption
+										result.caption = param.replace( new RegExp( mw.RegExp.escape( escapedPipe ), 'g' ), '|' );
+									} else { // Unknown param
+										return false;
+									}
+								}
+								if ( !result.fileFormat ) {
+									result.fileFormat = 'default';
+								}
+								return result;
+							};
+
+							// Retrieve the current selection
+							context = $( this ).data( 'context' );
+							selection = context.$textarea.textSelection( 'getSelection' );
+
+							// Pre-fill the text fields based on the current selection
+							if ( selection !== '' ) {
+								fileData = $.extend( fileData, parseFileSyntax( selection ) );
+							}
+
+							// Initialize the form fields
+							$( '#wikieditor-toolbar-file-dialog' )
+								.data( 'whitespace', [ fileData.pre, fileData.post ] );
+							$( '#wikieditor-toolbar-file-target' ).val( fileData.fileName );
+							$( '#wikieditor-toolbar-file-caption' ).val( fileData.caption );
+							$( '#wikieditor-toolbar-file-float' ).val( fileData.fileFloat );
+							$( '#wikieditor-toolbar-file-format' ).val( fileData.fileFormat );
+							$( '#wikieditor-toolbar-file-size' ).val( fileData.fileSize );
+
+							// Set focus
 							$( '#wikieditor-toolbar-file-target' ).trigger( 'focus' );
+
 							if ( !( $( this ).data( 'dialogkeypressset' ) ) ) {
 								$( this ).data( 'dialogkeypressset', true );
 								// Execute the action associated with the first button
