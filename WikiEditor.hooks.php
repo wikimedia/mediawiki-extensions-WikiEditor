@@ -84,21 +84,6 @@ class WikiEditorHooks {
 				'ext.wikiEditor.preview',
 			),
 		),
-		'previewDialog' => array(
-			'preferences' => array(
-				'wikieditor-previewDialog' => array(
-					'type' => 'toggle',
-					'label-message' => 'wikieditor-previewDialog-preference',
-					'section' => 'editing/labs',
-				),
-			),
-			'requirements' => array(
-				'wikieditor-previewDialog' => true,
-			),
-			'modules' => array(
-				'ext.wikiEditor.previewDialog',
-			),
-		),
 		'publish' => array(
 			'preferences' => array(
 				'wikieditor-publish' => array(
