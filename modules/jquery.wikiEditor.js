@@ -219,6 +219,9 @@ if ( !$.wikiEditor.isSupported() ) {
 	return $( this );
 }
 
+// Save browser profile for detailed tests.
+var profile = $.client.profile();
+
 /* Initialization */
 
 // The wikiEditor context is stored in the element's data, so when this function gets called again we can pick up right
@@ -311,6 +314,11 @@ if ( !context || typeof context === 'undefined' ) {
 		 * Executes core event filters as well as event handlers provided by modules.
 		 */
 		trigger: function ( name, event ) {
+			// Workaround for a scrolling bug in IE8 (bug 61908)
+			if ( profile.name === 'msie' && profile.versionNumber === 8 ) {
+				context.$textarea.css( 'width', context.$textarea.parent().width() );
+			}
+
 			// Event is an optional argument, but from here on out, at least the type field should be dependable
 			if ( typeof event === 'undefined' ) {
 				event = { 'type': 'custom' };
@@ -467,8 +475,9 @@ if ( !context || typeof context === 'undefined' ) {
 	/**
 	 * Workaround for a scrolling bug in IE8 (bug 61908)
 	 */
-	if ( $.client.profile().name === 'msie' ) {
+	if ( profile.name === 'msie' && profile.versionNumber === 8 ) {
 		context.$textarea.css( 'height', context.$textarea.height() );
+		context.$textarea.css( 'width', context.$textarea.parent().width() );
 	}
 
 	/**
