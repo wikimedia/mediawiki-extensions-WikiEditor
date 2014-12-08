@@ -1369,7 +1369,7 @@ getDefaultConfig: function () {
 					'rows': [
 						{
 							'description': { 'htmlMsg': 'wikieditor-toolbar-help-content-file-description' },
-							'syntax': { 'htmlMsg': [ 'wikieditor-toolbar-help-content-file-syntax', fileNamespace ] },
+							'syntax': { 'htmlMsg': [ 'wikieditor-toolbar-help-content-file-syntax', fileNamespace, mw.config.get( 'wgWikiEditorMagicWords' ).img_thumbnail ] },
 							'result': { 'htmlMsg': [ 'wikieditor-toolbar-help-content-file-result', mw.config.get( 'stylepath' ), mw.config.get( 'wgExtensionAssetsPath' ) ] }
 						}
 					]
