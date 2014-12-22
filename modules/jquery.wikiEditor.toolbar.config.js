@@ -182,7 +182,7 @@ getDefaultConfig: function () {
 						'signature': {
 							'labelMsg': 'wikieditor-toolbar-tool-signature',
 							'type': 'button',
-							'offset': [2, -1872],
+							'offset': [2, -1870],
 							'icon': 'insert-signature.png',
 							'action': {
 								'type': 'encapsulate',
