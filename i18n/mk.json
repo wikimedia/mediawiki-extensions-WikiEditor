@@ -206,7 +206,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# Ставка<br /># Ставка",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Ставка</li><li>Ставка</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Вметната податотека",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|thumb|Описен текст]]",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Описен текст]]",
 	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Опис' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Зголеми' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Опис</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "Навод",
 	"wikieditor-toolbar-help-content-reference-syntax": "Текст во страницата.&lt;ref name=\"test\"&gt;[http://www.пример.org Текст на врската], дополнителен текст.&lt;/ref&gt;",

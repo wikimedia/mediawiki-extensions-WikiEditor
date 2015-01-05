@@ -217,7 +217,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# 列表项<br /># 列表项",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>列表项</li><li>列表项</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "嵌入文件",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|thumb|说明文字]]",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|说明文字]]",
 	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='说明文字' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='放大' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>说明文字</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "参考",
 	"wikieditor-toolbar-help-content-reference-syntax": "页面文本。&lt;ref name=\"测试\"&gt;[http://www.example.org 链接文本]，附加文本。&lt;/ref&gt;",

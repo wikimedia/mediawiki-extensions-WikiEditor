@@ -5,7 +5,8 @@
 			"Bellayet",
 			"Leemon2010",
 			"Nasir8891",
-			"Wikitanvir"
+			"Wikitanvir",
+			"Aftabuzzaman"
 		]
 	},
 	"wikieditor": "উন্নত উইকিটেক্সট সম্পাদনা ইন্টারফেস",
@@ -15,9 +16,6 @@
 	"wikieditor-preview-tab": "প্রাকদর্শন",
 	"wikieditor-preview-changes-tab": "পরিবর্তনসমূহ",
 	"wikieditor-preview-loading": "লোডিং...",
-	"wikieditor-previewDialog-preference": "প্রাকদর্শন ডায়লগ সক্রিয় করো",
-	"wikieditor-previewDialog-tab": "প্রাকদর্শন",
-	"wikieditor-previewDialog-loading": "লোডিং...",
 	"wikieditor-publish-preference": "ধাপে ধাপে প্রকাশ করা সক্রিয় করো",
 	"wikieditor-publish-button-publish": "প্রকাশ করো",
 	"wikieditor-publish-button-cancel": "বাতিল",
@@ -211,7 +209,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# তালিকা আইটেম <br /># তালিকা আইটেম",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>তালিকা আইটেম</li><li>তালিকা আইটেম</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "এম্বেডেড ফাইল",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:উদাহরণ.png|thumb|ক্যাপশন লেখা]]",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:উদাহরণ.png|$2|ক্যাপশন লেখা]]",
 	"wikieditor-toolbar-help-content-reference-description": "তথ্যসূত্র",
 	"wikieditor-toolbar-help-content-reference-syntax": "পাতার লেখা।&lt;ref name=\"test\"&gt;[http://www.example.org লিংকের লেখা], অতিরিক্ত লেখা।&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "পাতার লেখা।<sup><a href='#'>[1]</a></sup>",

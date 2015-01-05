@@ -224,7 +224,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# 清單項目<br /># 清單項目",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>清單項目</li><li>清單項目</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "附加檔案",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|thumb|標題文字]]",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|標題文字]]",
 	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='標題文字' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='放大' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>標題文字</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "參考來源",
 	"wikieditor-toolbar-help-content-reference-syntax": "頁面文字。&lt;ref name=\"test\"&gt;[http://www.example.org 連結文字]，附加文字。&lt;/ref&gt;",
