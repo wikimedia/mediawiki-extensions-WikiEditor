@@ -210,7 +210,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Element</li><li>Element</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Fișier inserat",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Exemplu.png|$2|Descrierea imaginii]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Descrierea imaginii' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Mărește' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Descrierea imaginii</div></div>",
+	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Descrierea imaginii' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Mărește' class='internal' href='#'></a></div>Descrierea imaginii</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "Referință",
 	"wikieditor-toolbar-help-content-reference-syntax": "Textul paginii.&lt;ref name=\"test\"&gt;[http://www.exemplu.org Textul legăturii], text suplimentar.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Textul paginii.<sup><a href='#'>[1]</a></sup>",

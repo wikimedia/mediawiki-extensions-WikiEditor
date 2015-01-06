@@ -204,7 +204,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Lischtepunkt</li><li>Lischtepunkt</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Yygfiegti Datei",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Bildbschriftig]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Bildbschriftig' class='image' href='/wiki/Datei:Wiki.png'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='Bschriftig'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Bildbschriftig</div></div>",
+	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Bildbschriftig' class='image' href='/wiki/Datei:Wiki.png'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='Bschriftig'><div class='magnify'><a title='Enlarge' class='internal' href='#'></a></div>Bildbschriftig</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "Quälle",
 	"wikieditor-toolbar-help-content-reference-syntax": "Sytetekscht.&lt;ref name=\"test\"&gt;[http://www.byschpil.org Gleichtekscht], zuesätzlige Tekscht.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Sytetekscht.<sup><a href='#'>[1]</a></sup>",

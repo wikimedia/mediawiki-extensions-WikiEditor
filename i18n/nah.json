@@ -138,7 +138,7 @@
 	"wikieditor-toolbar-help-content-ilink-description": "Tlâtek tzòwistli",
 	"wikieditor-toolbar-help-content-xlink-description": "Calān tzonhuiliztli",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Ejemplo.png|$2|Tlatòkâyòtilisyòtl]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Tlatòkâyòtilisyòtl</div></div>",
+	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'></a></div>Tlatòkâyòtilisyòtl</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "Tlànalòyàntli",
 	"wikieditor-toolbar-help-content-reference-syntax": "Tlaìxtlapallâkuilòlmantli.&lt;ref name=\"test\"&gt;[http://www.example.org Tzòwistlâkuilòlmantli], tlâxitìllâkuilòlmantli.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Tlaìxtlapallâkuilòlmantli.<sup><a href='#'>[1]</a></sup>",

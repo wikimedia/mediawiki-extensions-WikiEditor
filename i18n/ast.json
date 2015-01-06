@@ -206,7 +206,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Elementu de la llista</li><li>Elementu de la llista</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Ficheru incrustáu",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Exemplu.png|$2|Testu del pie]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Testu del pie' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Ampliar' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Testu del pie</div></div>",
+	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Testu del pie' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Ampliar' class='internal' href='#'></a></div>Testu del pie</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "Referencia",
 	"wikieditor-toolbar-help-content-reference-syntax": "Testu de la páxina&lt;ref name=\"test\"&gt;[http://www.example.org Testu del enllaz], otru testu.&lt;/ref&gt;.",
 	"wikieditor-toolbar-help-content-reference-result": "Testu de la páxina.<sup><a href='#'>[1]</a></sup>",

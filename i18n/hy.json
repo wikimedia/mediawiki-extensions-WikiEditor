@@ -203,7 +203,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Ցանկի տարր</li><li>Ցանկի տարր</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Ներկառուցված նիշք",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Նկարագրություն]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Նկարագրություն' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Ընդարձակել' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Նկարագրություն</div></div>",
+	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Նկարագրություն' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Ընդարձակել' class='internal' href='#'></a></div>Նկարագրություն</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "Ծանոթագրություն",
 	"wikieditor-toolbar-help-content-reference-syntax": "Տեքստ էջում&lt;ref name=\"test\"&gt;[http://www.example.org Հղման տեքստ], հավելյալ տեքստ։&lt;/ref&gt;։",
 	"wikieditor-toolbar-help-content-reference-result": "Տեքստ էջում<sup><a href='#'>[1]</a></sup>։",

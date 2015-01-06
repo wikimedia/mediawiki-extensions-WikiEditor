@@ -184,7 +184,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>सूची आइटम</li><li>सूची आइटम</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "संलग्न फ़ाइल",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:उदाहरण.png|$2|शीर्षक नाम]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='चौड़ाई:104px;' class='thumbinner'><a title='शीर्षक नाम' class='इमेज' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='बढ़ाना' class='आंतरिक' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>शीर्षक नाम</div></div>",
+	"wikieditor-toolbar-help-content-file-result": "<div style='चौड़ाई:104px;' class='thumbinner'><a title='शीर्षक नाम' class='इमेज' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='बढ़ाना' class='आंतरिक' href='#'></a></div>शीर्षक नाम</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "संदर्भ",
 	"wikieditor-toolbar-help-content-reference-syntax": "पृष्ठ लेख ।&lt;ref name=\"test\"&gt;[http://www.example.org लिंक लेख], अतिरिक्त लेख.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "पृष्ठ लेख ।<sup><a href='#'>[1]</a></sup>",

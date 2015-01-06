@@ -215,7 +215,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>مورد فهرست</li><li>مورد فهرست</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "پرونده جاسازی‌شده",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:مثال.png|بندانگشتی|متن عنوان]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='متن عنوان' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='بزرگ‌نمایی' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>متن عنوان</div></div>",
+	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='متن عنوان' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='بزرگ‌نمایی' class='internal' href='#'></a></div>متن عنوان</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "منبع",
 	"wikieditor-toolbar-help-content-reference-syntax": "متن صفحه.&lt;ref name=\"test\"&gt;[http://www.example.org متن پیوند]، متن اضافی.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "متن صفحه.<sup><a href='#'>[1]</a></sup>",

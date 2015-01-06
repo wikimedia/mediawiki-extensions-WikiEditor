@@ -201,7 +201,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>વસ્તુ યાદી</li><li>વસ્તુ યાદી</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "અંદર વણાયેલી (Embedded) ફાઇલ",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|કેપ્શન લખાણ]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Caption text</div></div>",
+	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'></a></div>Caption text</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "સંદર્ભ",
 	"wikieditor-toolbar-help-content-reference-syntax": "પાનાં લખાણ.&lt;ref name=\"test\"&gt;[http://www.example.org કડી લખાણ], વધારાનું લખાણ.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "પૃષ્ઠ લેખન.<sup><a href='#'>[1]</a></sup>",

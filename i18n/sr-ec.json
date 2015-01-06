@@ -208,7 +208,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Ставка</li><li>Ставка</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Уграђена датотека",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Пример.png|$2|Описни текст]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Опис' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Повећај' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Опис</div></div>",
+	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Опис' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Повећај' class='internal' href='#'></a></div>Опис</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "Навод",
 	"wikieditor-toolbar-help-content-reference-syntax": "Текст странице.&lt;ref name=\"test\"&gt;[http://www.primer.org Текст везе], додатни текст.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Текст странице.<sup><a href='#'>[1]</a></sup>",

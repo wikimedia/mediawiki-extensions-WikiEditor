@@ -212,7 +212,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Regel in genummerde lijst</li><li>Regel in genummerde lijst</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Ingebed bestand",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Voorbeeld.png|$2|Bijschrift]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Bijschrift' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Vergroten' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Bijschrift</div></div>",
+	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Bijschrift' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Vergroten' class='internal' href='#'></a></div>Bijschrift</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "Referentie",
 	"wikieditor-toolbar-help-content-reference-syntax": "Paginatekst.&lt;ref name=\"test\"&gt;[http://www.example.org Koppelingstekst], extra tekst.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Paginatekst. <sup><a href='#'>[1]</a></sup>",

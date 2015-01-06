@@ -208,7 +208,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Element ëd la lista</li><li>Element ëd la lista</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Archivi anserì",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Test dël tìtol]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Test mostrà' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$2/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'><img height='11' width='15' alt='' src='$1/common/images/magnify-clip.png'/></a></div>Test mostrà</div></div>",
+	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Test mostrà' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'></a></div>Test mostrà</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "Arferiment",
 	"wikieditor-toolbar-help-content-reference-syntax": "Test ëd dla pàgina.&lt;ref name=\"test\"&gt;[http://www.example.org Test dël colegament], test adissional.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Test ëd la pàgina.<sup><a href='#'>[1]</a></sup>",
