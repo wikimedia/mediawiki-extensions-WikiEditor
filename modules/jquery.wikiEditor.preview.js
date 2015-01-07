@@ -33,6 +33,8 @@ fn: {
 	 * @param config Configuration object to create module from
 	 */
 	create: function ( context ) {
+		var api = new mw.Api();
+
 		if ( 'initialized' in context.modules.preview ) {
 			return;
 		}
@@ -53,18 +55,12 @@ fn: {
 				}
 				context.modules.preview.$preview.find( '.wikiEditor-preview-contents' ).empty();
 				context.modules.preview.$preview.find( '.wikiEditor-preview-loading' ).show();
-				$.ajax( {
-					url: mw.util.wikiScript( 'api' ),
-					type: 'POST',
-					dataType: 'json',
-					data: {
-						format: 'json',
-						action: 'parse',
-						title: mw.config.get( 'wgPageName' ),
-						text: wikitext,
-						prop: 'text|modules',
-						pst: ''
-					}
+				api.post( {
+					action: 'parse',
+					title: mw.config.get( 'wgPageName' ),
+					text: wikitext,
+					prop: 'text|modules',
+					pst: ''
 				} ).done( function ( data ) {
 					if ( !data.parse || !data.parse.text || data.parse.text['*'] === undefined ) {
 						return;
@@ -102,21 +98,14 @@ fn: {
 				context.$changesTab.find( '.wikiEditor-preview-loading' ).show();
 
 				// Call the API. First PST the input, then diff it
-				$.ajax( {
-					url: mw.util.wikiScript( 'api' ),
-					type: 'POST',
-					dataType: 'json',
-					data: {
-						format: 'json',
-						action: 'parse',
-						title: mw.config.get( 'wgPageName' ),
-						onlypst: '',
-						text: wikitext
-					}
+				api.post( {
+					action: 'parse',
+					title: mw.config.get( 'wgPageName' ),
+					onlypst: '',
+					text: wikitext
 				} ).done( function ( data ) {
 					try {
 						var postdata2 = {
-							format: 'json',
 							action: 'query',
 							indexpageids: '',
 							prop: 'revisions',
@@ -129,12 +118,8 @@ fn: {
 							postdata2.rvsection = section;
 						}
 
-						$.ajax( {
-							url: mw.util.wikiScript( 'api' ),
-							type: 'POST',
-							dataType: 'json',
-							data: postdata2
-						} ).done( function ( data ) {
+						api.post( postdata2 )
+						.done( function ( data ) {
 							// Add diff CSS
 							mw.loader.load( 'mediawiki.action.history.diff' );
 							try {

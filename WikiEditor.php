@@ -97,6 +97,7 @@ $GLOBALS['wgResourceModules'] += array(
 			'jquery.wikiEditor.dialogs',
 			'jquery.wikiEditor.toolbar.i18n',
 			'jquery.suggestions',
+			'mediawiki.api',
 			'mediawiki.Title',
 			'mediawiki.jqueryMsg',
 		),
@@ -116,7 +117,10 @@ $GLOBALS['wgResourceModules'] += array(
 	'jquery.wikiEditor.preview' => $wikiEditorTpl + array(
 		'scripts' => 'jquery.wikiEditor.preview.js',
 		'styles' => 'jquery.wikiEditor.preview.css',
-		'dependencies' => 'jquery.wikiEditor',
+		'dependencies' => array(
+			'jquery.wikiEditor',
+			'mediawiki.api',
+		),
 	),
 	'jquery.wikiEditor.publish' => $wikiEditorTpl + array(
 		'scripts' => 'jquery.wikiEditor.publish.js',

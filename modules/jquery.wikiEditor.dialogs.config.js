@@ -119,6 +119,8 @@ $.wikiEditor.modules.dialogs.config = {
 					</fieldset>',
 
 				init: function () {
+					var api = new mw.Api();
+
 					function isExternalLink( s ) {
 						// The following things are considered to be external links:
 						// * Starts a URL protocol
@@ -198,7 +200,7 @@ $.wikiEditor.modules.dialogs.config = {
 						// If the Disambiguator extension is not installed then such a property won't be set.
 						$( '#wikieditor-toolbar-link-int-target-status' ).data(
 							'request',
-							( new mw.Api() ).get( {
+							api.get( {
 								action: 'query',
 								prop: 'pageprops',
 								titles: target,
@@ -403,20 +405,15 @@ $.wikiEditor.modules.dialogs.config = {
 								return;
 							}
 
-							var request = $.ajax( {
-								url: mw.util.wikiScript( 'api' ),
-								data: {
-									action: 'opensearch',
-									search: title,
-									namespace: 0,
-									suggest: '',
-									format: 'json'
-								},
-								dataType: 'json',
-								success: function ( data ) {
-									cache[title] = data[1];
-									$( that ).suggestions( 'suggestions', data[1] );
-								}
+							var request = api.get( {
+								action: 'opensearch',
+								search: title,
+								namespace: 0,
+								suggest: ''
+							} )
+							.done( function ( data ) {
+								cache[title] = data[1];
+								$( that ).suggestions( 'suggestions', data[1] );
 							} );
 							$( this ).data( 'request', request );
 						},
