@@ -93,6 +93,7 @@ $GLOBALS['wgResourceModules'] += array(
 		'scripts' => 'jquery.wikiEditor.dialogs.config.js',
 		'styles' => 'jquery.wikiEditor.dialogs.config.css',
 		'dependencies' => array(
+			'jquery.mwExtension',
 			'jquery.wikiEditor',
 			'jquery.wikiEditor.dialogs',
 			'jquery.wikiEditor.toolbar.i18n',
