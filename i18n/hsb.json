@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Michawiki"
+			"Michawiki",
+			"Mikławš"
 		]
 	},
 	"wikieditor": "Rozšěrjeny powjerch za wobdźěłowanje wikiteksta",
@@ -205,8 +206,8 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# Lisćinowy zapisk<br /># Lisćinowy zapisk",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Lisćinowy zapisk</li><li>Lisćinowy zapisk</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Zasadźena dataja",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Tekst wobrazoweho popisa]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Tekst wobrazeho popisa' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Powjetšić' class='internal' href='#'></a></div>Tekst wobrazoweho popisa</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Popis wobraza]]",
+	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Popis wobraza' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Powjetšić' class='internal' href='#'></a></div>Popis wobraza</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "Referenca",
 	"wikieditor-toolbar-help-content-reference-syntax": "Tekst strony.&lt;ref name=\"test\"&gt;[http://www.example.org tekst wotkaza], přidatny tekst.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Tekst strony.<sup><a href='#'>[1]</a></sup>",
