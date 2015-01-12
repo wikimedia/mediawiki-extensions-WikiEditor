@@ -96,8 +96,7 @@
 					htmlTemplate: 'dialogInsertLink.html',
 
 					init: function () {
-						var loadingMsg,
-							api = new mw.Api();
+						var api = new mw.Api();
 
 						function isExternalLink( s ) {
 							// The following things are considered to be external links:
@@ -311,7 +310,6 @@
 						} );
 						// Add images to the page existence widget, which will be shown mutually exclusively to communicate if
 						// the page exists, does not exist or the title is invalid (like if it contains a | character)
-						loadingMsg = mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-loading' );
 						$( '#wikieditor-toolbar-link-int-target-status' )
 							.append( $( '<div>' )
 								.attr( 'id', 'wikieditor-toolbar-link-int-target-status-exists' )
@@ -331,11 +329,7 @@
 							)
 							.append( $( '<div>' )
 								.attr( 'id', 'wikieditor-toolbar-link-int-target-status-loading' )
-								.append( $( '<img>' ).attr( {
-									src: $.wikiEditor.imgPath + 'dialogs/loading-small.gif',
-									alt: loadingMsg,
-									title: loadingMsg
-								} ) )
+								.attr( 'title', mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-loading' ) )
 							)
 							.append( $( '<div>' )
 								.attr( 'id', 'wikieditor-toolbar-link-int-target-status-disambig' )
