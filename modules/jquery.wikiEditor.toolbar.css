@@ -252,18 +252,14 @@
 .wikiEditor-ui-toolbar .section-help .page-table .cell {
 	vertical-align: top;
 }
-.wikiEditor-ui-toolbar .section-help .page-table td.cell-syntax,
-.wikiEditor-ui-toolbar .section-help .page-table td.syntax {
+.wikiEditor-ui-toolbar .section-help .page-table td.cell-syntax {
 	font-family: monospace, "Courier New";
 }
-.wikiEditor-ui-toolbar .section-help .page-table td.syntax,
 .wikiEditor-ui-toolbar .section-help .page-table td.cell-syntax,
-.wikiEditor-ui-toolbar .section-help .page-table td.cell-result,
-.wikiEditor-ui-toolbar .section-help .page-table td.result {
+.wikiEditor-ui-toolbar .section-help .page-table td.cell-result {
 	width: 40%;
 }
-.wikiEditor-ui-toolbar .section-help .page-table td.description,
-.wikiEditor-ui-toolbar .section-help .page-table td.description {
+.wikiEditor-ui-toolbar .section-help .page-table td.cell-description {
 	width: 20%;
 }
 /* Characters Pages */
