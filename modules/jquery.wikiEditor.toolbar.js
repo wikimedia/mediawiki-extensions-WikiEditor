@@ -625,8 +625,8 @@ fn: {
 					if ( show ) {
 						$section.removeClass( 'section-hidden' )
 							.attr( 'aria-expanded', 'true' )
-							.animate( {opacity: 100.0}, 'fast', 'linear', function () {
-								$(this).addClass( 'section-visible' );
+							.animate( { opacity: 100.0 }, 'fast', 'linear', function () {
+								$( this ).addClass( 'section-visible' );
 							} );
 
 						if ( $section.hasClass( 'loading' ) ) {

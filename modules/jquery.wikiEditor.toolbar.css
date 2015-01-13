@@ -77,7 +77,7 @@
 	border-right: none;
 }
 /* Sprited Buttons */
-.wikiEditor-toolbar-spritedButton { 
+.wikiEditor-toolbar-spritedButton {
 	/* @embed */
 	background: url(images/toolbar/button-sprite.png) 0 0 no-repeat;
 	display: block;

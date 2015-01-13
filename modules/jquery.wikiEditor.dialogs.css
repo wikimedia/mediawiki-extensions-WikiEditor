@@ -21,7 +21,7 @@ div.suggestions {
 	padding: 0 !important;
 }
 
-.wikiEditor-toolbar-dialog .ui-dialog-content fieldset { 
+.wikiEditor-toolbar-dialog .ui-dialog-content fieldset {
 	border: none !important;
 	margin: 0 !important;
 	padding: 0 !important;
@@ -38,7 +38,7 @@ div.suggestions {
 	-khtml-box-sizing: border-box;
 }
 
-.wikiEditor-toolbar-dialog .ui-dialog-content input[type="radio"], 
+.wikiEditor-toolbar-dialog .ui-dialog-content input[type="radio"],
 .wikiEditor-toolbar-dialog .ui-dialog-content input[type="checkbox"] {
 	margin-left: 0;
 }

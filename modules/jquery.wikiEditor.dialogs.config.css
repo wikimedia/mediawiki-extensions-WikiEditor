@@ -148,18 +148,18 @@ body.rtl .wikiEditor-toolbar-dialog .ui-dialog-buttonpane button {
 	clear: both;
 	height: 0;
 }
-.wikieditor-toolbar-table-dimension-fields, 
-.wikieditor-toolbar-dialog-wrapper { 
-	display: inline-table; 
+.wikieditor-toolbar-table-dimension-fields,
+.wikieditor-toolbar-dialog-wrapper {
+	display: inline-table;
 }
 /* Hides from IE-mac \*/
-* html .wikieditor-toolbar-table-dimension-fields, 
-* html .wikieditor-toolbar-dialog-wrapper { 
-	height: 1%; 
+* html .wikieditor-toolbar-table-dimension-fields,
+* html .wikieditor-toolbar-dialog-wrapper {
+	height: 1%;
 }
-.wikieditor-toolbar-table-dimension-fields, 
-.wikieditor-toolbar-dialog-wrapper { 
-	display: block; 
+.wikieditor-toolbar-table-dimension-fields,
+.wikieditor-toolbar-dialog-wrapper {
+	display: block;
 }
 /* End hide from IE-mac */
 .wikiEditor-toolbar-dialog .ui-dialog-buttonpane {
