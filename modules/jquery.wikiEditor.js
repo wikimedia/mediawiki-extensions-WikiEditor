@@ -11,6 +11,8 @@
 /*jshint onevar:false, boss:true */
 ( function ( $, mw ) {
 
+var hasOwn = Object.prototype.hasOwnProperty;
+
 /**
  * Global static object for wikiEditor that provides generally useful functionality to all modules and contexts.
  */
@@ -168,7 +170,8 @@ $.wikiEditor = {
 	 */
 	autoLang: function ( object, lang ) {
 		var defaultKey = $( 'body' ).hasClass( 'rtl' ) ? 'default-rtl' : 'default';
-		return object[lang || mw.config.get( 'wgUserLanguage' )] || object[defaultKey] || object['default'] || object;
+		lang = lang || mw.config.get( 'wgUserLanguage' );
+		return hasOwn.call( object, lang ) ? object[lang] : ( object[defaultKey] || object['default'] || object );
 	},
 
 	/**
@@ -199,9 +202,9 @@ $.wikiEditor = {
 	 */
 	autoIconOrOffset: function ( icon, offset, path, lang ) {
 		lang = lang || mw.config.get( 'wgUserLanguage' );
-		if ( typeof offset === 'object' && lang in offset ) {
+		if ( typeof offset === 'object' && hasOwn.call( offset, lang ) ) {
 			return offset[lang];
-		} else if ( typeof icon === 'object' && lang in icon ) {
+		} else if ( typeof icon === 'object' && hasOwn.call( icon, lang ) ) {
 			return $.wikiEditor.autoIcon( icon, undefined, lang );
 		} else {
 			return $.wikiEditor.autoLang( offset, lang );
