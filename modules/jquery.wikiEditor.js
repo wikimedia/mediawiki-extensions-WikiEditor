@@ -80,7 +80,7 @@ $.wikiEditor = {
 	 * Path to images - this is a bit messy, and it would need to change if this code (and images) gets moved into the
 	 * core - or anywhere for that matter...
 	 */
-	imgPath : mw.config.get( 'wgExtensionAssetsPath' ) + '/WikiEditor/modules/images/',
+	imgPath: mw.config.get( 'wgExtensionAssetsPath' ) + '/WikiEditor/modules/images/',
 
 	/**
 	 * Checks the current browser against the browsers object to determine if the browser has been black-listed or not.
@@ -429,7 +429,7 @@ if ( !context || typeof context === 'undefined' ) {
 		saveCursorAndScrollTop: function () {
 			if ( $.client.profile().name === 'msie' ) {
 				var IHateIE = {
-					'scrollTop' : context.$textarea.scrollTop(),
+					'scrollTop': context.$textarea.scrollTop(),
 					'pos': context.$textarea.textSelection( 'getCaretPosition', { startAndEnd: true } )
 				};
 				context.$textarea.data( 'IHateIE', IHateIE );
