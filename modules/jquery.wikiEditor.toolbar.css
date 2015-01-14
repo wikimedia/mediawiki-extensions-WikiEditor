@@ -231,10 +231,14 @@
 	background-color: #FAFAFA;
 }
 /* Help Pages */
-.wikiEditor-ui-toolbar .page-table table {
+.wikiEditor-ui-toolbar .page-table {
 	padding-left: 5px;
 	padding-right: 5px;
+}
+.wikiEditor-ui-toolbar .page-table table {
 	background: none;
+	border-collapse: collapse;
+	width: 100%;
 }
 .wikiEditor-ui-toolbar .page-table th {
 	color: #999999;

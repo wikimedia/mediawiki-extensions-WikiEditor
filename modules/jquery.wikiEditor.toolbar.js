@@ -455,7 +455,7 @@ fn: {
 			case 'table':
 				$page.addClass( 'page-table' );
 				html =
-					'<table cellpadding=0 cellspacing=0 ' + 'border=0 width="100%" class="table table-' + id + '">';
+					'<table class="table-' + id + '">';
 				if ( 'headings' in page ) {
 					html += $.wikiEditor.modules.toolbar.fn.buildHeading( context, page.headings );
 				}

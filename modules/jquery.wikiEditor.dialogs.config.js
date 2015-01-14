@@ -1125,11 +1125,11 @@ $.wikiEditor.modules.dialogs.config = {
 					<fieldset>\
 						<div class="wikieditor-toolbar-field-wrapper">\
 							<label for="wikieditor-toolbar-replace-search" rel="wikieditor-toolbar-tool-replace-search"></label>\
-							<input type="text" id="wikieditor-toolbar-replace-search" style="width: 100%;"/>\
+							<input type="text" id="wikieditor-toolbar-replace-search"/>\
 						</div>\
 						<div class="wikieditor-toolbar-field-wrapper">\
 							<label for="wikieditor-toolbar-replace-replace" rel="wikieditor-toolbar-tool-replace-replace"></label>\
-							<input type="text" id="wikieditor-toolbar-replace-replace" style="width: 100%;"/>\
+							<input type="text" id="wikieditor-toolbar-replace-replace"/>\
 						</div>\
 						<div class="wikieditor-toolbar-field-wrapper">\
 							<input type="checkbox" id="wikieditor-toolbar-replace-case"/>\
