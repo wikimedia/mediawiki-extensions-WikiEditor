@@ -253,7 +253,7 @@
 	vertical-align: top;
 }
 .wikiEditor-ui-toolbar .section-help .page-table td.cell-syntax {
-	font-family: monospace, "Courier New";
+	font-family: monospace, Courier;
 }
 .wikiEditor-ui-toolbar .section-help .page-table td.cell-syntax,
 .wikiEditor-ui-toolbar .section-help .page-table td.cell-result {
@@ -276,7 +276,7 @@
 	color: black;
 	text-decoration: none;
 	cursor: pointer;
-	font-family: monospace, "Courier New";
+	font-family: monospace, Courier;
 	font-size: 1.25em;
 	line-height: 1;
 }
