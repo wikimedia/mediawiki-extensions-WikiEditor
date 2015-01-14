@@ -262,6 +262,11 @@
 .wikiEditor-ui-toolbar .section-help .page-table td.cell-description {
 	width: 20%;
 }
+/* T33649 */
+.wikiEditor-ui-toolbar .section-help .page-table .table-link td.cell-syntax {
+	white-space: pre;
+}
+
 /* Characters Pages */
 .wikiEditor-ui-toolbar .page-characters div span {
 	border: 1px solid #DDDDDD;
