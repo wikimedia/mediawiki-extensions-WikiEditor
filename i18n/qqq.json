@@ -126,7 +126,7 @@
 	"wikieditor-toolbar-characters-page-latin": "This is the name of a script, or alphabet, not a language",
 	"wikieditor-toolbar-characters-page-latinextended": "The name of the Latin Extended character set section of the toolbar.\nFor more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization",
 	"wikieditor-toolbar-characters-page-ipa": "IPA means a script: \"international phonetic alphabet\" here, and not \"international phonetic association\", the organization behind it.",
-	"wikieditor-toolbar-characters-page-symbols": "The section name for symbols on the wiki-toolbar.\nFor more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization",
+	"wikieditor-toolbar-characters-page-symbols": "The section name for symbols on the wiki-toolbar.\nFor more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization\n\n{{Identical|Symbol}}",
 	"wikieditor-toolbar-characters-page-greek": "This is the name of a script, or alphabet, not a language.",
 	"wikieditor-toolbar-characters-page-cyrillic": "This is the name of a script, or a group of alphabets, used mainly in Eastern Europe and North and Central Asia.",
 	"wikieditor-toolbar-characters-page-arabic": "This is the name of a script, or alphabet, not a language.",
