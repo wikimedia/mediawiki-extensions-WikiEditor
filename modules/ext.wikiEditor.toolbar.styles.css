@@ -7,11 +7,6 @@ form#editform {
 	padding: 0;
 }
 
-#wpSummary,
-#wpSummaryLabel {
-	margin-bottom: 1em;
-}
-
 #wpTextbox1 {
 	line-height: 1.5em;
 	resize: vertical;
