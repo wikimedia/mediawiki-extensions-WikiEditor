@@ -211,6 +211,7 @@
 	width: 20%;
 	height: 125px;
 	overflow: auto;
+	resize: horizontal;
 }
 .wikiEditor-ui-toolbar .booklet .index div {
 	padding: 4px;
@@ -224,8 +225,6 @@
 	cursor: default;
 }
 .wikiEditor-ui-toolbar .booklet .pages {
-	float: right;
-	width: 80%;
 	height: 125px;
 	overflow: auto;
 	background-color: #FAFAFA;
