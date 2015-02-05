@@ -55,6 +55,10 @@ $GLOBALS['wgHooks']['ResourceLoaderGetConfigVars'][] =
 $GLOBALS['wgHooks']['ResourceLoaderTestModules'][] = 'WikiEditorHooks::resourceLoaderTestModules';
 $GLOBALS['wgHooks']['MakeGlobalVariablesScript'][] = 'WikiEditorHooks::makeGlobalVariablesScript';
 $GLOBALS['wgHooks']['EditPageBeforeEditToolbar'][] = 'WikiEditorHooks::EditPageBeforeEditToolbar';
+$GLOBALS['wgHooks']['EditPage::showEditForm:fields'][] = 'WikiEditorHooks::editPageShowEditFormFields';
+$GLOBALS['wgHooks']['BeforePageDisplay'][] = 'WikiEditorHooks::onBeforePageDisplay';
+$GLOBALS['wgHooks']['EditPage::attemptSave'][] = 'WikiEditorHooks::editPageAttemptSave';
+$GLOBALS['wgHooks']['EditPage::attemptSave:after'][] = 'WikiEditorHooks::editPageAttemptSaveAfter';
 
 $wikiEditorTpl = array(
 	'localBasePath' => __DIR__ . '/modules',
@@ -356,10 +360,16 @@ $GLOBALS['wgResourceModules'] += array(
 
 	/* WikiEditor Resources */
 
+	'ext.wikiEditor.init' => $wikiEditorTpl + array(
+		'scripts' => 'ext.wikiEditor.init.js'
+	),
 	'ext.wikiEditor' => $wikiEditorTpl + array(
 		'scripts' => 'ext.wikiEditor.js',
 		'styles' => 'ext.wikiEditor.less',
-		'dependencies' => 'jquery.wikiEditor',
+		'dependencies' => array(
+			'ext.wikiEditor.init',
+			'jquery.wikiEditor'
+		),
 	),
 	'ext.wikiEditor.dialogs' => $wikiEditorTpl + array(
 		'scripts' => 'ext.wikiEditor.dialogs.js',
