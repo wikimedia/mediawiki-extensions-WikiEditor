@@ -47,9 +47,11 @@ $GLOBALS['wgExtensionCredits']['other'][] = array(
 $GLOBALS['wgAutoloadClasses']['WikiEditorHooks'] = __DIR__ . '/WikiEditor.hooks.php';
 $GLOBALS['wgMessagesDirs']['WikiEditor'] = __DIR__ . '/i18n';
 $GLOBALS['wgExtensionMessagesFiles']['WikiEditor'] = __DIR__ . '/WikiEditor.i18n.php';
-$GLOBALS['wgHooks']['EditPage::showEditForm:initial'][] = 'WikiEditorHooks::editPageShowEditFormInitial';
+$GLOBALS['wgHooks']['EditPage::showEditForm:initial'][] =
+	'WikiEditorHooks::editPageShowEditFormInitial';
 $GLOBALS['wgHooks']['GetPreferences'][] = 'WikiEditorHooks::getPreferences';
-$GLOBALS['wgHooks']['ResourceLoaderGetConfigVars'][] = 'WikiEditorHooks::resourceLoaderGetConfigVars';
+$GLOBALS['wgHooks']['ResourceLoaderGetConfigVars'][] =
+	'WikiEditorHooks::resourceLoaderGetConfigVars';
 $GLOBALS['wgHooks']['ResourceLoaderTestModules'][] = 'WikiEditorHooks::resourceLoaderTestModules';
 $GLOBALS['wgHooks']['MakeGlobalVariablesScript'][] = 'WikiEditorHooks::makeGlobalVariablesScript';
 $GLOBALS['wgHooks']['EditPageBeforeEditToolbar'][] = 'WikiEditorHooks::EditPageBeforeEditToolbar';
@@ -66,7 +68,7 @@ $GLOBALS['wgResourceModules'] += array(
 
 	'jquery.wikiEditor' => $wikiEditorTpl + array(
 		'scripts' => 'jquery.wikiEditor.js',
-		'styles' => 'jquery.wikiEditor.css',
+		'styles' => 'jquery.wikiEditor.less',
 		'dependencies' => array(
 			'jquery.client',
 			'jquery.textSelection',
@@ -78,7 +80,7 @@ $GLOBALS['wgResourceModules'] += array(
 	),
 	'jquery.wikiEditor.dialogs' => $wikiEditorTpl + array(
 		'scripts' => 'jquery.wikiEditor.dialogs.js',
-		'styles' => 'jquery.wikiEditor.dialogs.css',
+		'styles' => 'jquery.wikiEditor.dialogs.less',
 		'dependencies' => array(
 			'jquery.wikiEditor',
 			'jquery.wikiEditor.toolbar',
@@ -91,7 +93,7 @@ $GLOBALS['wgResourceModules'] += array(
 	),
 	'jquery.wikiEditor.dialogs.config' => $wikiEditorTpl + array(
 		'scripts' => 'jquery.wikiEditor.dialogs.config.js',
-		'styles' => 'jquery.wikiEditor.dialogs.config.css',
+		'styles' => 'jquery.wikiEditor.dialogs.config.less',
 		'dependencies' => array(
 			'jquery.mwExtension',
 			'jquery.wikiEditor',
@@ -117,7 +119,7 @@ $GLOBALS['wgResourceModules'] += array(
 	),
 	'jquery.wikiEditor.preview' => $wikiEditorTpl + array(
 		'scripts' => 'jquery.wikiEditor.preview.js',
-		'styles' => 'jquery.wikiEditor.preview.css',
+		'styles' => 'jquery.wikiEditor.preview.less',
 		'dependencies' => array(
 			'jquery.wikiEditor',
 			'mediawiki.api',
@@ -132,7 +134,7 @@ $GLOBALS['wgResourceModules'] += array(
 	),
 	'jquery.wikiEditor.toolbar' => $wikiEditorTpl + array(
 		'scripts' => 'jquery.wikiEditor.toolbar.js',
-		'styles' => 'jquery.wikiEditor.toolbar.css',
+		'styles' => 'jquery.wikiEditor.toolbar.less',
 		'dependencies' => array(
 			'jquery.wikiEditor',
 			'jquery.wikiEditor.toolbar.i18n',
@@ -356,7 +358,7 @@ $GLOBALS['wgResourceModules'] += array(
 
 	'ext.wikiEditor' => $wikiEditorTpl + array(
 		'scripts' => 'ext.wikiEditor.js',
-		'styles' => 'ext.wikiEditor.css',
+		'styles' => 'ext.wikiEditor.less',
 		'dependencies' => 'jquery.wikiEditor',
 	),
 	'ext.wikiEditor.dialogs' => $wikiEditorTpl + array(
@@ -406,7 +408,7 @@ $GLOBALS['wgResourceModules'] += array(
 		)
 	),
 	'ext.wikiEditor.toolbar.styles' => $wikiEditorTpl + array(
-		'styles' => 'ext.wikiEditor.toolbar.styles.css',
+		'styles' => 'ext.wikiEditor.toolbar.styles.less',
 	),
 	'ext.wikiEditor.toolbar.hideSig' => $wikiEditorTpl + array(
 		'scripts' => 'ext.wikiEditor.toolbar.hideSig.js',
