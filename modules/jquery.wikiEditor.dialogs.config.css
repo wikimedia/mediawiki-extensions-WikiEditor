@@ -2,6 +2,12 @@
  * CSS for WikiEditor Dialogs
  */
 
+/* Replace Dialog */
+#wikieditor-toolbar-replace-search,
+#wikieditor-toolbar-replace-replace {
+	width: 100%;
+}
+
 /* Table Dialog */
 #wikieditor-toolbar-table-dialog fieldset {
 	width: 218px;
