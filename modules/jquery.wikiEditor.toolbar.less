@@ -71,7 +71,7 @@
 			line-height: 26px;
 
 			a, a:visited  {
-				.background-image('images/toolbar/arrow-ltr.png');
+				.background-image-svg('images/toolbar/arrow-ltr.svg', 'images/toolbar/arrow-ltr.png');
 				background-position: left center;
 				background-repeat: no-repeat;
 				color: #0645ad;
@@ -84,7 +84,7 @@
 			}
 
 			a.current, a.current:visited {
-				.background-image('images/toolbar/arrow-down.png');
+				.background-image-svg('images/toolbar/arrow-down.svg', 'images/toolbar/arrow-down.png');
 				color: #333;
 
 				&:hover {
@@ -148,7 +148,7 @@
 			background-color: #fff;
 
 			.label {
-				.background-image('images/toolbar/arrow-down.png');
+				.background-image-svg('images/toolbar/arrow-down.svg', 'images/toolbar/arrow-down.png');
 				background-position: center right;
 				background-repeat: no-repeat;
 				padding: 0;
@@ -342,7 +342,7 @@
 
 /* Sprited Buttons */
 .wikiEditor-toolbar-spritedButton {
-	.background-image('images/toolbar/button-sprite.png');
+	.background-image-svg('images/toolbar/button-sprite.svg', 'images/toolbar/button-sprite.png');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	display: block;
