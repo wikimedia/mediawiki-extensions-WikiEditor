@@ -13,10 +13,6 @@ div.suggestions {
 	padding: 0 !important;
 }
 
-.wikiEditor-toolbar-dialog .ui-widget-header {
-	border-bottom:1px solid #6bc8f3 !important;
-}
-
 .wikiEditor-toolbar-dialog .ui-dialog-content input[type=text] {
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
