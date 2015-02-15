@@ -125,8 +125,7 @@ $.wikiEditor = {
 	},
 
 	/**
-	 * Provides a way to extract messages from objects. Wraps the mediaWiki.msg() function, which
-	 * may eventually become a wrapper for some kind of core MW functionality.
+	 * Provides a way to extract messages from objects. Wraps a mediaWiki.message( ... ).plain() call.
 	 *
 	 * @param object Object to extract messages from
 	 * @param property String of name of property which contains the message. This should be the base name of the
