@@ -2,23 +2,9 @@
  * CSS for WikiEditor Dialogs jQuery plugin
  */
 
-.wikiEditor-toolbar-dialog table {
-	margin-top: 0.75em;
-}
-
-.wikiEditor-toolbar-dialog table td {
-	padding: 0.5em;
-	height: 3em;
-	overflow: visible;
-}
-
 /* Put suggestions (default z-index 99) on top of dialogs (z-index 1002) */
 div.suggestions {
 	z-index: 1099;
-}
-
-.wikiEditor-toolbar-dialog table td {
-	padding: 0 !important;
 }
 
 .wikiEditor-toolbar-dialog .ui-dialog-content fieldset {
