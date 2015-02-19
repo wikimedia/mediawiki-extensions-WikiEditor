@@ -1098,7 +1098,7 @@ $.wikiEditor.modules.dialogs.config = {
 				'browsers': {
 					// Left-to-right languages
 					'ltr': {
-						'msie': false,
+						'msie': [['>=', 11]], // Known to work on 11.
 						'firefox': [['>=', 2]],
 						'opera': false,
 						'safari': [['>=', 3]],
@@ -1106,7 +1106,7 @@ $.wikiEditor.modules.dialogs.config = {
 					},
 					// Right-to-left languages
 					'rtl': {
-						'msie': false,
+						'msie': [['>=', 11]], // Works on 11 but dialog positioning is cruddy.
 						'firefox': [['>=', 2]],
 						'opera': false,
 						'safari': [['>=', 3]],
