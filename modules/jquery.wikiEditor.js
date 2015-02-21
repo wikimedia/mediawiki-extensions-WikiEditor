@@ -426,28 +426,30 @@ if ( !context || typeof context === 'undefined' ) {
 		},
 
 		/**
-		 * Save scrollTop and cursor position for IE
+		 * Save scrollTop and cursor position for old IE (<=10)
+		 * Related to old IE 8 issues that are no longer reproducible
 		 */
 		saveCursorAndScrollTop: function () {
-			if ( $.client.profile().name === 'msie' ) {
-				var IHateIE = {
+			if ( profile.name === 'msie' && document.selection && document.selection.createRange ) {
+				var IHateIE8 = {
 					'scrollTop': context.$textarea.scrollTop(),
 					'pos': context.$textarea.textSelection( 'getCaretPosition', { startAndEnd: true } )
 				};
-				context.$textarea.data( 'IHateIE', IHateIE );
+				context.$textarea.data( 'IHateIE8', IHateIE8 );
 			}
 		},
 
 		/**
-		 * Restore scrollTo and cursor position for IE
+		 * Restore scrollTo and cursor position for IE (<=10)
+		 * Related to old IE 8 issues that are no longer reproducible
 		 */
 		restoreCursorAndScrollTop: function () {
-			if ( $.client.profile().name === 'msie' ) {
-				var IHateIE = context.$textarea.data( 'IHateIE' );
-				if ( IHateIE ) {
-					context.$textarea.scrollTop( IHateIE.scrollTop );
-					context.$textarea.textSelection( 'setSelection', { start: IHateIE.pos[0], end: IHateIE.pos[1] } );
-					context.$textarea.data( 'IHateIE', null );
+			if ( profile.name === 'msie' && document.selection && document.selection.createRange ) {
+				var IHateIE8 = context.$textarea.data( 'IHateIE' );
+				if ( IHateIE8 ) {
+					context.$textarea.scrollTop( IHateIE8.scrollTop );
+					context.$textarea.textSelection( 'setSelection', { start: IHateIE8.pos[0], end: IHateIE8.pos[1] } );
+					context.$textarea.data( 'IHateIE8', null );
 				}
 			}
 		},
