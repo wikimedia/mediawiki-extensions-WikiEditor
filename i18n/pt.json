@@ -13,7 +13,8 @@
 			"Vitorvicentevalente",
 			"Waldir",
 			"555",
-			"He7d3r"
+			"He7d3r",
+			"Opraco"
 		]
 	},
 	"wikieditor": "Interface avançada de edição de texto wiki",
@@ -49,7 +50,7 @@
 	"wikieditor-toolbar-tool-xlink-example": "http://www.example.com título do link",
 	"wikieditor-toolbar-tool-link": "Link",
 	"wikieditor-toolbar-tool-link-title": "Inserir um link",
-	"wikieditor-toolbar-tool-link-int": "Para uma página wiki",
+	"wikieditor-toolbar-tool-link-int": "Para uma página na wiki",
 	"wikieditor-toolbar-tool-link-int-target": "Página ou URL de destino:",
 	"wikieditor-toolbar-tool-link-int-target-tooltip": "Título ou URL da página",
 	"wikieditor-toolbar-tool-link-int-text": "Texto a apresentar:",
