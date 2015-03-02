@@ -458,7 +458,7 @@ if ( !context || typeof context === 'undefined' ) {
 		 * Save text selection for old IE (<=10)
 		 */
 		saveSelection: function () {
-			if ( $.client.profile().name === 'msie' && document.selection && document.selection.createRange ) {
+			if ( profile.name === 'msie' && document.selection && document.selection.createRange ) {
 				context.$textarea.focus();
 				context.savedSelection = document.selection.createRange();
 			}
@@ -468,7 +468,7 @@ if ( !context || typeof context === 'undefined' ) {
 		 * Restore text selection for old IE (<=10)
 		 */
 		restoreSelection: function () {
-			if ( $.client.profile().name === 'msie' && context.savedSelection !== null ) {
+			if ( profile.name === 'msie' && context.savedSelection !== null ) {
 				context.$textarea.focus();
 				context.savedSelection.select();
 				context.savedSelection = null;
