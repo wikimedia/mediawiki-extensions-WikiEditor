@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bouron"
+			"Bouron",
+			"Amikeco"
 		]
 	},
 	"wikieditor": "Размæцыд викитекст ивыны интерфейс",
@@ -165,7 +166,7 @@
 	"wikieditor-toolbar-help-heading-result": "Цы исыс",
 	"wikieditor-toolbar-help-page-format": "Фæлындын",
 	"wikieditor-toolbar-help-page-link": "Æрвитæнтæ",
-	"wikieditor-toolbar-help-page-heading": "Сæртæ",
+	"wikieditor-toolbar-help-page-heading": "Сæргæндтæ",
 	"wikieditor-toolbar-help-page-list": "Номхыгъдтæ",
 	"wikieditor-toolbar-help-page-file": "Файлтæ",
 	"wikieditor-toolbar-help-page-reference": "Фиппаинæгтæ",

@@ -4,7 +4,8 @@
 			"Horacewai2",
 			"Simon Shek",
 			"Waihorace",
-			"Xiaomingyan"
+			"Xiaomingyan",
+			"LNDDYL"
 		]
 	},
 	"wikieditor": "進階維基文字編輯界面",
@@ -107,7 +108,7 @@
 	"wikieditor-toolbar-tool-table-dimensions-header": "新增標題行",
 	"wikieditor-toolbar-tool-table-wikitable": "連埋外框同格式",
 	"wikieditor-toolbar-tool-table-sortable": "整一個可以排序嘅表格",
-	"wikieditor-toolbar-tool-table-example": "-\n! 表頭 1\n! 表頭 2\n! 表頭 3\n|-\n| 行 1, 格 1\n| 行 1, 格 2\n| 行 1, 格 3\n|-\n| 行 2, 格 1\n| 行 2, 格 2\n| 行 2, 格 3",
+	"wikieditor-toolbar-tool-table-example": "範例",
 	"wikieditor-toolbar-tool-table-preview": "預覽",
 	"wikieditor-toolbar-tool-table-insert": "插入",
 	"wikieditor-toolbar-tool-table-cancel": "取消",
