@@ -5,10 +5,10 @@
 .wikiEditor-preview-loading {
 	padding: 1em;
 	background-color: white;
-}
 
-.wikiEditor-preview-loading span {
-	color: #666666;
+	span {
+		color: #666666;
+	}
 }
 
 .wikiEditor-preview-spinner {
@@ -21,11 +21,15 @@
 }
 
 /* FIXME: This only works for the first wikiEditor on the page! */
-#wikiEditor-0-preview-dialog .wikiEditor-ui-loading {
-	overflow: hidden;
-	border: none;
+#wikiEditor-0-preview-dialog {
+	.wikiEditor-ui-loading {
+		overflow: hidden;
+		border: none;
+	}
 }
 
-.ui-dialog .ui-dialog-buttonpane {
-	margin: 0 !important;
+.ui-dialog {
+	.ui-dialog-buttonpane {
+		margin: 0 !important;
+	}
 }
