@@ -7,6 +7,10 @@
 ( function ( mw, $ ) {
 	mw.wikiEditor = {
 		logEditEvent: function ( action, data ) {
+			if ( mw.loader.getState( 'schema.Edit' ) === null ) {
+				return;
+			}
+
 			mw.loader.using( 'schema.Edit' ).done( function () {
 				data = $.extend( {
 					version: 1,
