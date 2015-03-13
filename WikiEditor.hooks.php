@@ -460,7 +460,7 @@ class WikiEditorHooks {
 		$request = $article->getContext()->getRequest();
 		if ( $request->getVal( 'editingStatsId', false ) !== false ) {
 			$data = array();
-			$data['editingStatsId'] = $request->getVal( 'editingStatsId' );
+			$data['editingSessionId'] = $request->getVal( 'editingStatsId' );
 
 			if ( $status->isOK() ) {
 				$action = 'saveSuccess';
