@@ -167,7 +167,7 @@ class WikiEditorHooks {
 			'page.id' => $page->getId(),
 			'page.title' => $title->getPrefixedText(),
 			'page.ns' => $title->getNamespace(),
-			'page.revid' => $page->getRevision() && $page->getRevision()->getId(),
+			'page.revid' => $page->getRevision() ? $page->getRevision()->getId() : 0,
 			'user.id' => $user->getId(),
 			'user.editCount' => $user->getEditCount() ?: 0,
 			'mediawiki.version' => $wgVersion
