@@ -169,7 +169,7 @@ class WikiEditorHooks {
 			'page.ns' => $title->getNamespace(),
 			'page.revid' => $page->getRevision() && $page->getRevision()->getId(),
 			'user.id' => $user->getId(),
-			'user.editCount' => $user->getEditCount(),
+			'user.editCount' => $user->getEditCount() ?: 0,
 			'mediawiki.version' => $wgVersion
 		) + $data;
 
