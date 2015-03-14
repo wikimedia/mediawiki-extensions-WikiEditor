@@ -122,7 +122,8 @@ class WikiEditorHooks {
 		if ( !isset( $wgWikiEditorFeatures[$name] ) || $wgWikiEditorFeatures[$name]['global'] ) {
 			return true;
 		}
-		// Features with user preference control can have any number of preferences to be specific values to be enabled
+		// Features with user preference control can have any number of preferences
+		// to be specific values to be enabled
 		if ( $wgWikiEditorFeatures[$name]['user'] ) {
 			if ( isset( self::$features[$name]['requirements'] ) ) {
 				foreach ( self::$features[$name]['requirements'] as $requirement => $value ) {
@@ -134,7 +135,8 @@ class WikiEditorHooks {
 			}
 			return true;
 		}
-		// Features controlled by $wgWikiEditorFeatures with both global and user set to false are awlways disabled
+		// Features controlled by $wgWikiEditorFeatures with both global and user
+		// set to false are always disabled
 		return false;
 	}
 
@@ -336,7 +338,7 @@ class WikiEditorHooks {
 		if ( count( $configurations ) ) {
 			$vars = array_merge( $vars, $configurations );
 		}
-		//expose magic words for use by the wikieditor toolbar
+		// expose magic words for use by the wikieditor toolbar
 		WikiEditorHooks::getMagicWords( $vars );
 		return true;
 	}
@@ -346,7 +348,8 @@ class WikiEditorHooks {
 	 *
 	 * Registers JavaScript test modules
 	 *
-	 * @param $testModules array of javascript testing modules. 'qunit' is fed using tests/qunit/QUnitTestResources.php.
+	 * @param $testModules array of javascript testing modules. 'qunit' is fed using
+	 * tests/qunit/QUnitTestResources.php.
 	 * @param $resourceLoader object
 	 * @return bool
 	 */
@@ -383,7 +386,7 @@ class WikiEditorHooks {
 	 * @param $vars array
 	 * @return bool
 	 */
-	private static function getMagicWords( &$vars ){
+	private static function getMagicWords( &$vars ) {
 		$requiredMagicWords = array(
 			'redirect',
 			'img_right',
@@ -474,19 +477,19 @@ class WikiEditorHooks {
 
 				if ( $status->value === EditPage::AS_CONFLICT_DETECTED ) {
 					$data['action.saveFailure.type'] = 'editConflict';
-				} else if ( $status->value === EditPage::AS_ARTICLE_WAS_DELETED ) {
+				} elseif ( $status->value === EditPage::AS_ARTICLE_WAS_DELETED ) {
 					$data['action.saveFailure.type'] = 'editPageDeleted';
-				} else if ( isset( $errors[0][0] ) && $errors[0][0] === 'abusefilter-disallowed' ) {
+				} elseif ( isset( $errors[0][0] ) && $errors[0][0] === 'abusefilter-disallowed' ) {
 					$data['action.saveFailure.type'] = 'extensionAbuseFilter';
-				} else if ( isset( $editPage->getArticle()->getPage()->ConfirmEdit_ActivateCaptcha ) ) {
+				} elseif ( isset( $editPage->getArticle()->getPage()->ConfirmEdit_ActivateCaptcha ) ) {
 					// TODO: :(
 					$data['action.saveFailure.type'] = 'extensionCaptcha';
-				} else if ( isset( $errors[0][0] ) && $errors[0][0] === 'spamprotectiontext' ) {
+				} elseif ( isset( $errors[0][0] ) && $errors[0][0] === 'spamprotectiontext' ) {
 					$data['action.saveFailure.type'] = 'extensionSpamBlacklist';
 				} else {
-						// Catch everything else... We don't seem to get userBadToken or
-						// userNewUser through this hook.
-						$data['action.saveFailure.type'] = 'responseUnknown';
+					// Catch everything else... We don't seem to get userBadToken or
+					// userNewUser through this hook.
+					$data['action.saveFailure.type'] = 'responseUnknown';
 				}
 			}
 			self::doEventLogging( $action, $article, $data );

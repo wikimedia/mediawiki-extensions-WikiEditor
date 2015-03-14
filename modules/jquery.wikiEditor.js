@@ -336,7 +336,7 @@ if ( !context || typeof context === 'undefined' ) {
 					return false;
 				}
 			}
-			var returnFromModules = null; //they return null by default
+			var returnFromModules = null; // they return null by default
 			// Pass the event around to all modules activated on this context
 
 			for ( var module in context.modules ) {
@@ -347,7 +347,7 @@ if ( !context || typeof context === 'undefined' ) {
 				) {
 					var ret = $.wikiEditor.modules[module].evt[name]( context, event );
 					if ( ret !== null ) {
-						//if 1 returns false, the end result is false
+						// if 1 returns false, the end result is false
 						if ( returnFromModules === null ) {
 							returnFromModules = ret;
 						} else {

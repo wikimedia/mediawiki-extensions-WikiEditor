@@ -599,7 +599,7 @@ $.wikiEditor.modules.dialogs.config = {
 						$( '#wikieditor-toolbar-link-int-target' ).suggestions();
 
 						// don't overwrite user's text
-						if ( selection !== '' ){
+						if ( selection !== '' ) {
 							$( '#wikieditor-toolbar-link-int-text' ).data( 'untouched', false );
 						}
 
@@ -810,7 +810,7 @@ $.wikiEditor.modules.dialogs.config = {
 							if ( fileName !== '' ) {
 								fileTitle = new mw.Title( fileName );
 								// Append file namespace prefix to filename if not already contains it
-								if ( fileTitle.getNamespaceId() !== 6 ){
+								if ( fileTitle.getNamespaceId() !== 6 ) {
 									fileTitle = new mw.Title( fileName, 6 );
 								}
 								fileName = fileTitle.toText();

@@ -1,7 +1,7 @@
 <?php
 define ( 'WIKI_TEST_WAIT_TIME', "3000" ); // Waiting time
 
-// tool bar, buttons , links
+// tool bar, buttons, links
 // commonly using links
 define ( 'LINK_MAIN_PAGE', "link=Main page" );
 define ( 'LINK_RANDOM_PAGE', "link=Random article" );
@@ -13,11 +13,13 @@ define ( 'LINK_PREVIEW', "wpPreview" );
 
 define ( 'WIKI_SEARCH_PAGE', "Hair (musical)" ); // Page name to search
 define ( 'WIKI_TEXT_SEARCH', "TV" ); // Text to search
-define ( 'WIKI_INTERNAL_LINK', "Wikieditor-Fixture-Page" ); // Exisiting page name to add as an internal tag
+// Existing page name to add as an internal tag
+define ( 'WIKI_INTERNAL_LINK', "Wikieditor-Fixture-Page" );
 define ( 'WIKI_EXTERNAL_LINK', "www.google.com" ); // External web site name
 define ( 'WIKI_EXTERNAL_LINK_TITLE', "Google" ); // Page title of the external web site name
 define ( 'WIKI_CODE_PATH', getcwd() ); // get the current path of the program
-define ( 'WIKI_SCREENSHOTS_PATH', "screenshots" ); // the folder the error screen shots will be saved
+// the folder the error screen shots will be saved
+define ( 'WIKI_SCREENSHOTS_PATH', "screenshots" );
 define ( 'WIKI_SCREENSHOTS_TYPE', "png" ); // screen print type
 define ( 'WIKI_TEMP_NEWPAGE', "TestWikiPage" ); // temporary creating new page name
 // for WikiCommonFunction_TC
@@ -80,5 +82,3 @@ define ( 'BUTTON_CANCEL', "//button[4]" );
 define ( 'TEXT_PREVIEW_TEXT1', "//div[@id='wikiPreview']/p[1]" );
 define ( 'TEXT_PREVIEW_TEXT2', "//div[@id='wikiPreview']/p[2]" );
 define ( 'TEXT_PREVIEW_TEXT3', "//div[@id='wikiPreview']/p[3]" );
-
-

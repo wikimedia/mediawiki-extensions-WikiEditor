@@ -23,7 +23,7 @@ class WikiEditorTestSuite extends SeleniumTestSuite
 	}
 	public function addTests() {
 		$testFiles = array(
-			'extensions/WikiEditor/tests/selenium/WikiDialogs_Links.php'
+			'extensions/WikiEditor/tests/selenium/WikiDialogsLinks.php'
 		);
 		parent::addTestFiles( $testFiles );
 	}

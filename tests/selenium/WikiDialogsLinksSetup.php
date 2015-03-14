@@ -5,7 +5,7 @@ include( "WikiEditorConstants.php" );
  * Date : Apr - 2010
  * @author : BhagyaG - Calcey
  */
-class WikiDialogs_Links_Setup extends SeleniumTestCase {
+class WikiDialogsLinksSetup extends SeleniumTestCase {
 
 	// Open the page.
 	function doOpenLink() {
@@ -34,14 +34,14 @@ class WikiDialogs_Links_Setup extends SeleniumTestCase {
 
 	// Create a temporary fixture page
 	function doCreateInternalTestPageIfMissing() {
-		$this->type( INPUT_SEARCH_BOX,  WIKI_INTERNAL_LINK );
+		$this->type( INPUT_SEARCH_BOX, WIKI_INTERNAL_LINK );
 		$this->click( BUTTON_SEARCH );
 		$this->waitForPageToLoad( WIKI_TEST_WAIT_TIME );
 		$this->click( LINK_START . WIKI_INTERNAL_LINK );
 		$this->waitForPageToLoad( WIKI_TEST_WAIT_TIME );
-		$location =  $this->getLocation() . "\n";
-		if ( strpos( $location, '&redlink=1' ) !== false  ) {
-			$this->type( TEXT_EDITOR,  "Test fixture page. No real content here" );
+		$location = $this->getLocation() . "\n";
+		if ( strpos( $location, '&redlink=1' ) !== false ) {
+			$this->type( TEXT_EDITOR, "Test fixture page. No real content here" );
 			$this->click( BUTTON_SAVE_WATCH );
 			$this->waitForPageToLoad( WIKI_TEST_WAIT_TIME );
 			$this->assertTrue( $this->isTextPresent( WIKI_INTERNAL_LINK ),
@@ -51,7 +51,7 @@ class WikiDialogs_Links_Setup extends SeleniumTestCase {
 
 	// Create a temporary new page
 	function doCreateNewPageTemporary() {
-		$this->type( INPUT_SEARCH_BOX,  WIKI_TEMP_NEWPAGE );
+		$this->type( INPUT_SEARCH_BOX, WIKI_TEMP_NEWPAGE );
 		$this->click( BUTTON_SEARCH );
 		$this->waitForPageToLoad( WIKI_TEST_WAIT_TIME );
 		$this->click( LINK_START . WIKI_TEMP_NEWPAGE );
@@ -64,15 +64,24 @@ class WikiDialogs_Links_Setup extends SeleniumTestCase {
 		$this->click( LINK_ADDLINK );
 		$this->waitForPopup( 'addLink', WIKI_TEST_WAIT_TIME );
 		$this->type( TEXT_LINKNAME, ( WIKI_INTERNAL_LINK ) );
-		$this->assertTrue( $this->isElementPresent( ICON_PAGEEXISTS ), 'Element ' . ICON_PAGEEXISTS . 'Not found' );
+		$this->assertTrue(
+			$this->isElementPresent( ICON_PAGEEXISTS ),
+			'Element ' . ICON_PAGEEXISTS . 'Not found'
+		);
 		$this->assertEquals( "on", $this->getValue( OPT_INTERNAL ) );
 		$this->click( BUTTON_INSERTLINK );
 		$this->click( LINK_PREVIEW );
 		$this->waitForPageToLoad( WIKI_TEST_WAIT_TIME );
-		$this->assertEquals( ( WIKI_INTERNAL_LINK ), $this->getText( LINK_START . WIKI_INTERNAL_LINK ) );
+		$this->assertEquals(
+			( WIKI_INTERNAL_LINK ),
+			$this->getText( LINK_START . WIKI_INTERNAL_LINK )
+		);
 		$this->click( LINK_START . WIKI_INTERNAL_LINK );
 		$this->waitForPageToLoad( WIKI_TEST_WAIT_TIME );
-		$this->assertTrue( $this->isTextPresent( WIKI_INTERNAL_LINK ), $this->getText( TEXT_PAGE_HEADING ) );
+		$this->assertTrue(
+			$this->isTextPresent( WIKI_INTERNAL_LINK ),
+			$this->getText( TEXT_PAGE_HEADING )
+		);
 	}
 
 	// Add a internal link with different display text and verify
@@ -81,7 +90,8 @@ class WikiDialogs_Links_Setup extends SeleniumTestCase {
 		$this->click( LINK_ADDLINK );
 		$this->waitForPopup( 'addLink', WIKI_TEST_WAIT_TIME );
 		$this->type( TEXT_LINKNAME, WIKI_INTERNAL_LINK );
-		$this->type ( TEXT_LINKDISPLAYNAME, WIKI_INTERNAL_LINK . TEXT_LINKDISPLAYNAME_APPENDTEXT );
+		$this->type( TEXT_LINKDISPLAYNAME,
+			WIKI_INTERNAL_LINK . TEXT_LINKDISPLAYNAME_APPENDTEXT );
 		$this->assertTrue( $this->isElementPresent( ICON_PAGEEXISTS ) );
 		$this->assertEquals( "on", $this->getValue( OPT_INTERNAL ) );
 		$this->click( BUTTON_INSERTLINK );
@@ -91,8 +101,10 @@ class WikiDialogs_Links_Setup extends SeleniumTestCase {
 			$this->getText( LINK_START . WIKI_INTERNAL_LINK . TEXT_LINKDISPLAYNAME_APPENDTEXT ) );
 		$this->click( LINK_START . WIKI_INTERNAL_LINK . TEXT_LINKDISPLAYNAME_APPENDTEXT );
 		$this->waitForPageToLoad( WIKI_TEST_WAIT_TIME );
-		$this->assertTrue( $this->isTextPresent( WIKI_INTERNAL_LINK ), $this->getText( TEXT_PAGE_HEADING ) );
-
+		$this->assertTrue(
+			$this->isTextPresent( WIKI_INTERNAL_LINK ),
+			$this->getText( TEXT_PAGE_HEADING )
+		);
 	}
 
 	// Add a internal link with blank display text and verify
@@ -124,8 +136,10 @@ class WikiDialogs_Links_Setup extends SeleniumTestCase {
 		$this->click( BUTTON_INSERTLINK );
 		$this->click( LINK_PREVIEW );
 		$this->waitForPageToLoad( WIKI_TEST_WAIT_TIME );
-		$this->assertEquals( WIKI_EXTERNAL_LINK, $this->getText( LINK_START . WIKI_EXTERNAL_LINK ) );
-
+		$this->assertEquals(
+			WIKI_EXTERNAL_LINK,
+			$this->getText( LINK_START . WIKI_EXTERNAL_LINK )
+		);
 		$this->click( LINK_START . WIKI_EXTERNAL_LINK );
 		$this->waitForPageToLoad( WIKI_TEST_WAIT_TIME );
 		$this->assertEquals( WIKI_EXTERNAL_LINK_TITLE, $this->getTitle() );
@@ -142,10 +156,13 @@ class WikiDialogs_Links_Setup extends SeleniumTestCase {
 		$this->click( BUTTON_INSERTLINK );
 		$this->click( LINK_PREVIEW );
 		$this->waitForPageToLoad( WIKI_TEST_WAIT_TIME );
-		$this->assertEquals( WIKI_EXTERNAL_LINK_TITLE, $this->getText( LINK_START . WIKI_EXTERNAL_LINK_TITLE ) );
+		$this->assertEquals(
+			WIKI_EXTERNAL_LINK_TITLE,
+			$this->getText( LINK_START . WIKI_EXTERNAL_LINK_TITLE )
+		);
 		$this->click( LINK_START . ( WIKI_EXTERNAL_LINK_TITLE ) );
 		$this->waitForPageToLoad( WIKI_TEST_WAIT_TIME );
-		$this->assertEquals( WIKI_EXTERNAL_LINK_TITLE , $this->getTitle() );
+		$this->assertEquals( WIKI_EXTERNAL_LINK_TITLE, $this->getTitle() );
 	}
 
 	// Add external link with Blank display text and verify
@@ -182,7 +199,7 @@ class WikiDialogs_Links_Setup extends SeleniumTestCase {
 		$WIKI_TABLE_ROW = $WIKI_TABLE_ROW + 1;
 		$this->assertTrue( $this->isElementPresent( TEXT_TABLEID_OTHER .
 			TEXT_VALIDATE_TABLE_PART1 . $WIKI_TABLE_ROW .
-			TEXT_VALIDATE_TABLE_PART2 .  $WIKI_TABLE_COL .
+			TEXT_VALIDATE_TABLE_PART2 . $WIKI_TABLE_COL .
 			TEXT_VALIDATE_TABLE_PART3 ) );
 	}
 

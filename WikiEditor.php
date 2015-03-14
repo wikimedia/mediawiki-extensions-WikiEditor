@@ -30,7 +30,7 @@ $GLOBALS['wgWikiEditorFeatures'] = array(
 
 	// Adds a tab for previewing in-line
 	'preview' => array( 'global' => false, 'user' => true ),
-	//  Adds a button and dialog for step-by-step publishing
+	// Adds a button and dialog for step-by-step publishing
 	'publish' => array( 'global' => false, 'user' => true ),
 );
 
@@ -152,7 +152,7 @@ $GLOBALS['wgResourceModules'] += array(
 			'jquery.wikiEditor',
 			'jquery.wikiEditor.toolbar.i18n',
 			'jquery.wikiEditor.toolbar',
-		)
+		),
 	),
 	'jquery.wikiEditor.toolbar.i18n' => $wikiEditorTpl + array(
 		'messages' => array(
@@ -415,7 +415,7 @@ $GLOBALS['wgResourceModules'] += array(
 			'ext.wikiEditor',
 			'jquery.wikiEditor.toolbar',
 			'jquery.wikiEditor.toolbar.config',
-		)
+		),
 	),
 	'ext.wikiEditor.toolbar.styles' => $wikiEditorTpl + array(
 		'styles' => 'ext.wikiEditor.toolbar.styles.less',

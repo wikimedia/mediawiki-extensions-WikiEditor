@@ -5,7 +5,7 @@ class WikiEditorSeleniumConfig {
 	public static function getSettings( &$includeFiles, &$globalConfigs ) {
 		$includes = array(
 			'extensions/Vector/Vector.php',
-		    'extensions/WikiEditor/WikiEditor.php'
+			'extensions/WikiEditor/WikiEditor.php'
 		);
 		$configs = array(
 			'wgDefaultSkin' => 'vector',
