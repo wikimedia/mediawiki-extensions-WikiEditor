@@ -205,7 +205,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Èlèment de la lista</li><li>Èlèment de la lista</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Fichiér entrebetâ",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Ègzemplo.png|$2|Tèxto montrâ]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Tèxto montrâ' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Agrantir' class='internal' href='#'></a></div>Tèxto montrâ</div></div>",
+	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='Tèxto montrâ' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Agrantir' class='internal' href='#'></a></div>Tèxto montrâ</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "Refèrence",
 	"wikieditor-toolbar-help-content-reference-syntax": "Tèxto de la pâge.&lt;ref name=\"test\"&gt;[http://www.example.org tèxto du lim], tèxto de ples.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Tèxto de la pâge.<sup><a href='#'>[1]</a></sup>",

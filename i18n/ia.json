@@ -204,7 +204,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Elemento del lista</li><li>Elemento del lista</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "File incastrate",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Exemplo.png|$2|Texto del legenda]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Texto del legenda' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'></a></div>Texto del legenda</div></div>",
+	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='Texto del legenda' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'></a></div>Texto del legenda</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "Referentia",
 	"wikieditor-toolbar-help-content-reference-syntax": "Texto del pagina.&lt;ref name=\"test\"&gt;[http://www.example.org Texto del ligamine], texto additional.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Texto del pagina.<sup><a href='#'>[1]</a></sup>",

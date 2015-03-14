@@ -206,7 +206,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Elemento da lista</li><li>Elemento da lista</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Ficheiro embelecido",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Pé de foto.]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Pé de foto' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Ampliar' class='internal' href='#'></a></div>Pé de foto.</div></div>",
+	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='Pé de foto' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Ampliar' class='internal' href='#'></a></div>Pé de foto.</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "Referencia",
 	"wikieditor-toolbar-help-content-reference-syntax": "Texto da páxina&lt;ref name=\"test\"&gt;[http://www.example.org Texto da ligazón], texto adicional.&lt;/ref&gt;.",
 	"wikieditor-toolbar-help-content-reference-result": "Texto da páxina<sup><a href='#'>[1]</a></sup>.",

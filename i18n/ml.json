@@ -208,7 +208,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>ലിസ്റ്റിലെ അംഗം</li><li>ലിസ്റ്റിലെ അംഗം</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "പ്രമാണം ചേർക്കൽ",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|വിവരണ കുറിപ്പ്]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='കുറിപ്പായുള്ള എഴുത്ത്' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt='ലഘുചിത്രം'/></a><div class='thumbcaption'><div class='magnify'><a title='വലുതാക്കുക' class='internal' href='#'></a></div>കുറിപ്പായുള്ള എഴുത്ത്</div></div>",
+	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='കുറിപ്പായുള്ള എഴുത്ത്' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt='ലഘുചിത്രം'/></a><div class='thumbcaption'><div class='magnify'><a title='വലുതാക്കുക' class='internal' href='#'></a></div>കുറിപ്പായുള്ള എഴുത്ത്</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "അവലംബം",
 	"wikieditor-toolbar-help-content-reference-syntax": "താളിലെ എഴുത്ത്.&lt;ref name=\"test\"&gt;[http://www.example.org കണ്ണിയായുള്ള എഴുത്ത്], കൂടുതൽ എഴുത്ത്.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "താളിലെ എഴുത്ത്.<sup><a href='#'>[1]</a></sup>",

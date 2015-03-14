@@ -206,7 +206,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Исемлектең бер юлы</li><li>Исемлектең бер юлы</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Индерелгән файл",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Миҫал.png|$2|Аңлатма]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Аңлатма' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Ҙурайтырға' class='internal' href='#'></a></div>Аңлатма</div></div>",
+	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='Аңлатма' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Ҙурайтырға' class='internal' href='#'></a></div>Аңлатма</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "Төшөрмә",
 	"wikieditor-toolbar-help-content-reference-syntax": "Биттәге текст.&lt;ref name=\"test\"&gt;[http://www.example.org Һылтанма тексты], өҫтәмә текст.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Биттәге текст.<sup><a href='#'>[1]</a></sup>",

@@ -100,7 +100,7 @@
 	"wikieditor-toolbar-help-content-ulist-result": "<ul><li>Res indicata</li><li>Res indicata</li></ul>",
 	"wikieditor-toolbar-help-content-file-description": "Fasciculus in pagina impositus",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Exemplum.png|$2|Descriptio fasciculi]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Descriptio fasciculi' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Augere' class='internal' href='#'></a></div>Descriptio fasciculi</div></div>",
+	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='Descriptio fasciculi' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Augere' class='internal' href='#'></a></div>Descriptio fasciculi</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "Referentia bibliographica",
 	"wikieditor-toolbar-help-content-reference-syntax": "Textus paginae.&lt;ref name=\"test\"&gt;[http://www.example.org Textus nexus], textus additus.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Textus paginae.<sup><a href='#'>[1]</a></sup>",

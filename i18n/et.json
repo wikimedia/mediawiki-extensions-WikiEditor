@@ -209,7 +209,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Loendi liige</li><li>Loendi liige</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Manusfail",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Näide.png|$2|Pildiallkiri]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:104px;' class='thumbinner'><a title='Pildiallkiri' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Suurenda' class='internal' href='#'></a></div>Pildiallkiri</div></div>",
+	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='Pildiallkiri' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Suurenda' class='internal' href='#'></a></div>Pildiallkiri</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "Viide",
 	"wikieditor-toolbar-help-content-reference-syntax": "Lehekülje tekst.&lt;ref name=\"test\"&gt;[http://www.näide.ee Lingi tekst], täiendav tekst.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Lehekülje tekst.<sup><a href='#'>[1]</a></sup>",
