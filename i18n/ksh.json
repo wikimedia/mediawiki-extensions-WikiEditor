@@ -207,7 +207,6 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Enndraach en de Leß</li><li>Enndraach en de Leß</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Enjeföösch Dattei",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Beld_Ungerschreff]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style=\"width:102px;\" class=\"thumbinner\"><a title=\"Schreff onger däm Beld\" class=\"image\" href=\"/wiki/File:Wiki.png\"><img height=\"50\" width=\"100\" border=\"0\" class=\"thumbimage\" src=\"$1/WikiEditor/modules/images/toolbar/example-image.png\" alt=\"\"/></a><div class=\"thumbcaption\"><div class=\"magnify\"><a title=\"Enlarge\" class=\"internal\" href=\"#\"></a></div>Schreff onger däm Beld</div></div>",
 	"wikieditor-toolbar-help-content-reference-description": "Fohßnoht",
 	"wikieditor-toolbar-help-content-reference-syntax": "Tex en dä Sigg. &lt;ref name=\"versoht\"&gt;[http://www.example.org Täx för dä Lengk], un noch jät mieh Täx.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Tex en dä Sigg. <sup><a href=\"#\">[1]</a></sup>",
