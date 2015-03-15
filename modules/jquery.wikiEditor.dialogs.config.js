@@ -471,6 +471,7 @@ $.wikiEditor.modules.dialogs.config = {
 								else
 									insertText = '[[' + target + '|' + escapeInternalText( text ) + ']]';
 							} else {
+								target = $.trim( target );
 								// Prepend http:// if there is no protocol
 								if ( !target.match( /^[a-z]+:\/\/./ ) )
 									target = 'http://' + target;
