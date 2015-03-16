@@ -16,7 +16,7 @@
 /* Configuration */
 
 // Each module may be configured individually to be globally on/off or user preference based
-$GLOBALS['wgWikiEditorFeatures'] = array(
+$wgWikiEditorFeatures = array(
 
 	/* Textarea / i-frame compatible (OK to deploy) */
 
@@ -36,7 +36,7 @@ $GLOBALS['wgWikiEditorFeatures'] = array(
 
 /* Setup */
 
-$GLOBALS['wgExtensionCredits']['other'][] = array(
+$wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'WikiEditor',
 	'author' => array( 'Trevor Parscal', 'Roan Kattouw', 'Nimish Gautam', 'Adam Miller' ),
@@ -44,21 +44,21 @@ $GLOBALS['wgExtensionCredits']['other'][] = array(
 	'url' => 'https://www.mediawiki.org/wiki/Extension:WikiEditor',
 	'descriptionmsg' => 'wikieditor-desc',
 );
-$GLOBALS['wgAutoloadClasses']['WikiEditorHooks'] = __DIR__ . '/WikiEditor.hooks.php';
-$GLOBALS['wgMessagesDirs']['WikiEditor'] = __DIR__ . '/i18n';
-$GLOBALS['wgExtensionMessagesFiles']['WikiEditor'] = __DIR__ . '/WikiEditor.i18n.php';
-$GLOBALS['wgHooks']['EditPage::showEditForm:initial'][] =
+$wgAutoloadClasses['WikiEditorHooks'] = __DIR__ . '/WikiEditor.hooks.php';
+$wgMessagesDirs['WikiEditor'] = __DIR__ . '/i18n';
+$wgExtensionMessagesFiles['WikiEditor'] = __DIR__ . '/WikiEditor.i18n.php';
+$wgHooks['EditPage::showEditForm:initial'][] =
 	'WikiEditorHooks::editPageShowEditFormInitial';
-$GLOBALS['wgHooks']['GetPreferences'][] = 'WikiEditorHooks::getPreferences';
-$GLOBALS['wgHooks']['ResourceLoaderGetConfigVars'][] =
+$wgHooks['GetPreferences'][] = 'WikiEditorHooks::getPreferences';
+$wgHooks['ResourceLoaderGetConfigVars'][] =
 	'WikiEditorHooks::resourceLoaderGetConfigVars';
-$GLOBALS['wgHooks']['ResourceLoaderTestModules'][] = 'WikiEditorHooks::resourceLoaderTestModules';
-$GLOBALS['wgHooks']['MakeGlobalVariablesScript'][] = 'WikiEditorHooks::makeGlobalVariablesScript';
-$GLOBALS['wgHooks']['EditPageBeforeEditToolbar'][] = 'WikiEditorHooks::EditPageBeforeEditToolbar';
-$GLOBALS['wgHooks']['EditPage::showEditForm:fields'][] = 'WikiEditorHooks::editPageShowEditFormFields';
-$GLOBALS['wgHooks']['BeforePageDisplay'][] = 'WikiEditorHooks::onBeforePageDisplay';
-$GLOBALS['wgHooks']['EditPage::attemptSave'][] = 'WikiEditorHooks::editPageAttemptSave';
-$GLOBALS['wgHooks']['EditPage::attemptSave:after'][] = 'WikiEditorHooks::editPageAttemptSaveAfter';
+$wgHooks['ResourceLoaderTestModules'][] = 'WikiEditorHooks::resourceLoaderTestModules';
+$wgHooks['MakeGlobalVariablesScript'][] = 'WikiEditorHooks::makeGlobalVariablesScript';
+$wgHooks['EditPageBeforeEditToolbar'][] = 'WikiEditorHooks::EditPageBeforeEditToolbar';
+$wgHooks['EditPage::showEditForm:fields'][] = 'WikiEditorHooks::editPageShowEditFormFields';
+$wgHooks['BeforePageDisplay'][] = 'WikiEditorHooks::onBeforePageDisplay';
+$wgHooks['EditPage::attemptSave'][] = 'WikiEditorHooks::editPageAttemptSave';
+$wgHooks['EditPage::attemptSave:after'][] = 'WikiEditorHooks::editPageAttemptSaveAfter';
 
 $wikiEditorTpl = array(
 	'localBasePath' => __DIR__ . '/modules',
@@ -66,7 +66,7 @@ $wikiEditorTpl = array(
 	'group' => 'ext.wikiEditor',
 );
 
-$GLOBALS['wgResourceModules'] += array(
+$wgResourceModules += array(
 
 	/* WikiEditor jQuery plugin Resources */
 
