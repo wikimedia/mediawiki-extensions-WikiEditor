@@ -217,7 +217,7 @@ class WikiEditorHooks {
 		if ( class_exists( 'EventLogging' ) && !$request->wasPosted() ) {
 			$data = array();
 			$data['editingSessionId'] = self::getEditingStatsId();
-			if ( $request->getVal( 'section', false ) ) {
+			if ( $request->getVal( 'section' ) ) {
 				$data['action.init.type'] = 'section';
 			} else {
 				$data['action.init.type'] = 'page';
@@ -440,7 +440,7 @@ class WikiEditorHooks {
 	public static function editPageAttemptSave( EditPage $editPage ) {
 		$article = $editPage->getArticle();
 		$request = $article->getContext()->getRequest();
-		if ( $request->getVal( 'editingStatsId', false ) !== false ) {
+		if ( $request->getVal( 'editingStatsId' ) ) {
 			self::doEventLogging(
 				'saveAttempt',
 				$article,
@@ -461,7 +461,7 @@ class WikiEditorHooks {
 	public static function editPageAttemptSaveAfter( EditPage $editPage, Status $status ) {
 		$article = $editPage->getArticle();
 		$request = $article->getContext()->getRequest();
-		if ( $request->getVal( 'editingStatsId', false ) !== false ) {
+		if ( $request->getVal( 'editingStatsId' ) ) {
 			$data = array();
 			$data['editingSessionId'] = $request->getVal( 'editingStatsId' );
 
