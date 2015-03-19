@@ -502,6 +502,7 @@ if ( !context || typeof context === 'undefined' ) {
 	/* Preserving cursor and focus state, which will get lost due to wrapAll */
 	var hasFocus = context.$textarea.is( ':focus' ),
 		cursorPos = context.$textarea.textSelection( 'getCaretPosition', { startAndEnd: true } ),
+		editingSessionIdInput = context.$textarea.closest( 'form' ).find( '#editingStatsId' ),
 		editingSessionId;
 	// Encapsulate the textarea with some containers for layout
 	context.$textarea
@@ -551,15 +552,12 @@ if ( !context || typeof context === 'undefined' ) {
 		context.fn.trigger( 'resize', event );
 	} );
 
-	if (
-		( mw.config.get( 'wgAction' ) === 'edit' || mw.config.get( 'wgAction' ) === 'submit' ) &&
-		mw.config.get( 'wgPageContentModel' ) === 'wikitext'
-	) {
-		editingSessionId = $( '#editform input#editingStatsId' ).val();
+	if ( editingSessionIdInput.length ) {
+		editingSessionId = editingSessionIdInput.val();
 		mw.wikiEditor.logEditEvent( 'ready', {
 			editingSessionId: editingSessionId
 		} );
-		$( '#editform' ).submit( function () {
+		context.$textarea.closest( 'form' ).submit( function () {
 			context.submitting = true;
 		} );
 		this.onUnloadFallback = window.onunload;
