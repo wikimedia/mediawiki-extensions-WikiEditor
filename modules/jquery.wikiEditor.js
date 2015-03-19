@@ -501,7 +501,8 @@ if ( !context || typeof context === 'undefined' ) {
 	*/
 	/* Preserving cursor and focus state, which will get lost due to wrapAll */
 	var hasFocus = context.$textarea.is( ':focus' ),
-		cursorPos = context.$textarea.textSelection( 'getCaretPosition', { startAndEnd: true } );
+		cursorPos = context.$textarea.textSelection( 'getCaretPosition', { startAndEnd: true } ),
+		editingSessionId;
 	// Encapsulate the textarea with some containers for layout
 	context.$textarea
 	/* Disabling our loading div for now
@@ -550,9 +551,13 @@ if ( !context || typeof context === 'undefined' ) {
 		context.fn.trigger( 'resize', event );
 	} );
 
-	if ( mw.config.get( 'wgAction' ) === 'edit' || mw.config.get( 'wgAction' ) === 'submit' ) {
+	if (
+		( mw.config.get( 'wgAction' ) === 'edit' || mw.config.get( 'wgAction' ) === 'submit' ) &&
+		mw.config.get( 'wgPageContentModel' ) === 'wikitext'
+	) {
+		editingSessionId = $( '#editform input#editingStatsId' ).val();
 		mw.wikiEditor.logEditEvent( 'ready', {
-			editingSessionId: $( '#editform input#editingStatsId' ).val()
+			editingSessionId: editingSessionId
 		} );
 		$( '#editform' ).submit( function () {
 			context.submitting = true;
@@ -567,7 +572,7 @@ if ( !context || typeof context === 'undefined' ) {
 
 			if ( !context.submitting ) {
 				mw.wikiEditor.logEditEvent( 'abort', {
-					editingSessionId: $( '#editform input#editingStatsId' ).val(),
+					editingSessionId: editingSessionId,
 					// TODO: abort.type
 				} );
 			}
