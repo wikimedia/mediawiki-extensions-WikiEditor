@@ -550,29 +550,31 @@ if ( !context || typeof context === 'undefined' ) {
 		context.fn.trigger( 'resize', event );
 	} );
 
-	mw.wikiEditor.logEditEvent( 'ready', {
-		editingSessionId: $( '#editform input#editingStatsId' ).val()
-	} );
-	$( '#editform' ).submit( function () {
-		context.submitting = true;
-	} );
-	this.onUnloadFallback = window.onunload;
-	window.onunload = function () {
-		var fallbackResult;
+	if ( mw.config.get( 'wgAction' ) === 'edit' || mw.config.get( 'wgAction' ) === 'submit' ) {
+		mw.wikiEditor.logEditEvent( 'ready', {
+			editingSessionId: $( '#editform input#editingStatsId' ).val()
+		} );
+		$( '#editform' ).submit( function () {
+			context.submitting = true;
+		} );
+		this.onUnloadFallback = window.onunload;
+		window.onunload = function () {
+			var fallbackResult;
 
-		if ( this.onUnloadFallback ) {
-			fallbackResult = this.onUnloadFallback();
-		}
+			if ( this.onUnloadFallback ) {
+				fallbackResult = this.onUnloadFallback();
+			}
 
-		if ( !context.submitting ) {
-			mw.wikiEditor.logEditEvent( 'abort', {
-				editingSessionId: $( '#editform input#editingStatsId' ).val(),
-				// TODO: abort.type
-			} );
-		}
+			if ( !context.submitting ) {
+				mw.wikiEditor.logEditEvent( 'abort', {
+					editingSessionId: $( '#editform input#editingStatsId' ).val(),
+					// TODO: abort.type
+				} );
+			}
 
-		return fallbackResult;
-	};
+			return fallbackResult;
+		};
+	}
 }
 
 /* API Execution */
