@@ -111,7 +111,7 @@
 	"wikieditor-toolbar-tool-table-insert": "See screenshot.\n[[File:Wikieditor-toolbar-tool-table.png|thumb]]\n{{Identical|Insert}}",
 	"wikieditor-toolbar-tool-table-cancel": "{{Identical|Cancel}}",
 	"wikieditor-toolbar-tool-table-example-text": "{{optional}}\nPlaceholder text to help the table example appear to be in the context of an article. Should be lorem ipsum, or equivalent.",
-	"wikieditor-toolbar-tool-table-toomany": "See also:\n* {{msg-mw|wikieditor-toolbar-tool-table-invalidnumber}}\n* {{msg-mw|wikieditor-toolbar-tool-table-zero}}\n* {{msg-mw|wikieditor-toolbar-tool-table-toomany}}",
+	"wikieditor-toolbar-tool-table-toomany": "See also:\n* {{msg-mw|wikieditor-toolbar-tool-table-invalidnumber}}\n* {{msg-mw|wikieditor-toolbar-tool-table-zero}}\n* {{msg-mw|wikieditor-toolbar-tool-table-toomany}}\n\nParameter:\n* $1 - Maximum number of permitted table cells (currently 1000)",
 	"wikieditor-toolbar-tool-table-invalidnumber": "See also:\n* {{msg-mw|wikieditor-toolbar-tool-table-invalidnumber}}\n* {{msg-mw|wikieditor-toolbar-tool-table-zero}}\n* {{msg-mw|wikieditor-toolbar-tool-table-toomany}}",
 	"wikieditor-toolbar-tool-table-zero": "See also:\n* {{msg-mw|wikieditor-toolbar-tool-table-invalidnumber}}\n* {{msg-mw|wikieditor-toolbar-tool-table-zero}}\n* {{msg-mw|wikieditor-toolbar-tool-table-toomany}}",
 	"wikieditor-toolbar-tool-replace": "{{Identical|Search and replace}}",
