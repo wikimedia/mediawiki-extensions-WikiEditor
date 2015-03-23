@@ -4,7 +4,8 @@
 			"Bulatbulat",
 			"Zahidulla",
 			"Ильнар",
-			"Рашат Якупов"
+			"Рашат Якупов",
+			"Macofe"
 		]
 	},
 	"wikieditor": "Викитекстны үзгәртү буенча киңәйтелгән интерфейс",
@@ -189,8 +190,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# Исемлекнең тәртибе<br /># Исемлекнең тәртибе",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Исемлекнең тәртибе</li><li>Исемлекнең тәртибе</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Куелган файл",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Аңлатмалы текст]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='\nАңлатмалы текст' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Зурайтырга' class='internal' href='#'></a></div>\nАңлатмалы текст</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Искәрмә",
 	"wikieditor-toolbar-help-content-reference-syntax": "Битнең тексты.&lt;ref name=\"test\"&gt;[http://www.example.org Сылтаманың тексты], өстәмә текст.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Битнең тексты.<sup><a href='#'>[1]</a></sup>",

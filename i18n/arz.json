@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Dudi",
-			"Meno25"
+			"Meno25",
+			"Macofe"
 		]
 	},
 	"wikieditor": "Interface متقدم بتاع تعديل wikitext",
@@ -171,8 +172,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# List item<br /># List item",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>List item</li><li>List item</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Embedded file",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Caption text]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'></a></div>Caption text</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "مرجع",
 	"wikieditor-toolbar-help-content-reference-syntax": "Page text.&lt;ref name=\"test\"&gt;[http://www.example.org Link text], additional text.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Page text.<sup><a href='#'>[1]</a></sup>",

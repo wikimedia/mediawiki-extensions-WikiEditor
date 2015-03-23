@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ezagren",
-			"J Subhi"
+			"J Subhi",
+			"Macofe"
 		]
 	},
 	"wikieditor-wikitext-tab": "NaskahWiki",
@@ -168,7 +169,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# Isi daptar<br /># Isi daptar",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Isi daptar</li><li>Isi daptar</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Maktub-akan barakas",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Cuntuh.png|$2|Naskah judul gambar]]",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Cuntuh.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Rujukan",
 	"wikieditor-toolbar-help-content-reference-result": "Naskah tungkaran.<sup><a href='#'>[1]</a></sup>",
 	"wikieditor-toolbar-help-content-rereference-result": "Naskah tungkaran.<sup><a href='#'>[1]</a></sup>",

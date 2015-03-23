@@ -8,7 +8,8 @@
 			"Shantanoo",
 			"V.narsikar",
 			"अभय नातू",
-			"संतोष दहिवळ"
+			"संतोष दहिवळ",
+			"Macofe"
 		]
 	},
 	"wikieditor": "विकिमजकूर संपादनाची विकसित सुविधा",
@@ -210,8 +211,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# यादी घटक<br /># यादी घटक",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>यादी घटक</li><li>यादी घटक</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "संलग्न संचिका",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|मथळा मजकूर]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='मथळा मजकूर' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'></a></div>Caption text</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "संदर्भ",
 	"wikieditor-toolbar-help-content-reference-syntax": "Page text.&lt;ref name=\"test\"&gt;[http://www.example.org Link text], additional text.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Page text.<sup><a href='#'>[1]</a></sup>",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Demmy"
+			"Demmy",
+			"Macofe"
 		]
 	},
 	"wikieditor-wikitext-tab": "Ìkọ wiki",
@@ -184,8 +185,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# Ohun àkójọ<br /># Ohun àkójọ",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Ohun àkójọ</li><li>Ohun àkójọ</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Fáìlì alákòósínú",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Àkọlé]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='Ìkọ àkọlé' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'></a></div>Ìkọ àkọlé</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Ìtọ́kasí",
 	"wikieditor-toolbar-help-content-reference-syntax": "Íkọ ojúewé.&lt;ref name=\"test\"&gt;[http://www.example.org Ìkọ ìjápọ̀], ìkọ mìràn.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Ìkọ ojúewé.<sup><a href='#'>[1]</a></sup>",

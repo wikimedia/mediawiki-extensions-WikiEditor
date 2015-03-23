@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Chorobek",
-			"Викиней"
+			"Викиней",
+			"Macofe"
 		]
 	},
 	"wikieditor-loading": "Жүктөлүүдө...",
@@ -155,8 +156,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# Тизме бирдиги<br /># Тизме бирдиги",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Тизме бирдиги</li><li>Тизме бирдиги</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Кыстарылган файл",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Түшүндүрмө текст]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='Түшүндүрмө текст' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Чоңойт' class='internal' href='#'></a></div>Түшүндүрмө текст</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Шилтемелер",
 	"wikieditor-toolbar-help-content-reference-syntax": "Барактын тексти.&lt;ref name=\"test\"&gt;[http://www.example.org Шилтеменин тексти], кошумча текст.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Барактын тексти.<sup><a href='#'>[1]</a></sup>",

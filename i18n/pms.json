@@ -3,7 +3,8 @@
 		"authors": [
 			"Borichèt",
 			"Dragonòt",
-			"පසිඳු කාවින්ද"
+			"පසිඳු කාවින්ද",
+			"Macofe"
 		]
 	},
 	"wikieditor": "Antërfacia ëd modìfica avansà ëd wikitext",
@@ -207,8 +208,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# Element ëd la lista<br /># Element ëd la lista",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Element ëd la lista</li><li>Element ëd la lista</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Archivi anserì",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Test dël tìtol]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='Test mostrà' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'></a></div>Test mostrà</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Arferiment",
 	"wikieditor-toolbar-help-content-reference-syntax": "Test ëd dla pàgina.&lt;ref name=\"test\"&gt;[http://www.example.org Test dël colegament], test adissional.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Test ëd la pàgina.<sup><a href='#'>[1]</a></sup>",

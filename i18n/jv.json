@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Meursault2004",
-			"NoiX180"
+			"NoiX180",
+			"Macofe"
 		]
 	},
 	"wikieditor": "Antarmuka panyuntingan tèks wiki canggih",
@@ -200,7 +201,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# Baranging daptar<br /># Baranging daptar",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Baranging daptar</li><li>Baranging daptar</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Berkas kasisipaké",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Conto.png|$2|Tulisan katrangan]]",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Conto.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Rujukan",
 	"wikieditor-toolbar-help-content-reference-syntax": "Tèks kaca.&lt;ref name=\"test\"&gt;[http://www.conto.org Tèks pranala], tèks tambahan.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Tèks kaca.<sup><a href='#'>[1]</a></sup>",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mdupont"
+			"Mdupont",
+			"Macofe"
 		]
 	},
 	"wikieditor": "redaktimi i avancuar wikitext interface",
@@ -182,8 +183,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "pika # Lista <br /> pika # Lista",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li> pika Lista </li><li> pika Lista </li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Embedded file",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Caption teksti]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'> <a title=\"tekstit Legjenda\" class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a> <div class='thumbcaption'><div class='magnify'> <a title=\"Zmadho\" class='internal' href='#'></a> </div> tekstit Legjenda </div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Referim",
 	"wikieditor-toolbar-help-content-reference-syntax": "Tekst faqesh. name=\"test\"> <ref [http://www.example.org] teksti Link, teksti shtesë. </> ref",
 	"wikieditor-toolbar-help-content-reference-result": "Tekst faqesh. <a href='#'><sup>[1]</sup></a>",

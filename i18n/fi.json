@@ -14,7 +14,8 @@
 			"Stryn",
 			"VezonThunder",
 			"ZeiP",
-			"Syreeni"
+			"Syreeni",
+			"Macofe"
 		]
 	},
 	"wikieditor": "Edistynyt wikitekstin muokkauskäyttöliittymä",
@@ -218,8 +219,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# Luettelon kohta<br /># Luettelon kohta",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Luettelon kohta</li><li>Luettelon kohta</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Tallennettu tiedosto",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Kuvateksti]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='Kuvateksti' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Suurenna' class='internal' href='#'></a></div>Kuvateksti</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Viite",
 	"wikieditor-toolbar-help-content-reference-syntax": "Sivun teksti.&lt;ref name=\"testi\"&gt;[http://www.example.org Linkin teksti], lisäteksti.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Sivun teksti.<sup><a href='#'>[1]</a></sup>",

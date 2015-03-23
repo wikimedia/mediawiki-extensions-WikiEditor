@@ -7,7 +7,8 @@
 			"Excaliboor",
 			"MaGa",
 			"Roberta F.",
-			"SpeedyGonsales"
+			"SpeedyGonsales",
+			"Macofe"
 		]
 	},
 	"wikieditor": "Napredno sučelje uređivanja wikiteksta",
@@ -193,8 +194,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# stavka popisa<br /># stavka popisa",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>stavka popisa</li><li>stavka popisa</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Uložena datoteka",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Tekst opisa]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='Tekst opisa' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Povećaj' class='internal' href='#'></a></div>Tekst opisa'</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Bilješke",
 	"wikieditor-toolbar-help-content-reference-syntax": "Tekst stranice.&lt;ref name=\"test\"&gt;[http://www.primjer.org Tekst poveznice], dodatni tekst.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Tekst stranice.<sup><a href='#'>[1]</a></sup>",

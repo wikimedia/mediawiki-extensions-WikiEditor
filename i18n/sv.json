@@ -12,7 +12,8 @@
 			"McDutchie",
 			"Sertion",
 			"Warrakkk",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Macofe"
 		]
 	},
 	"wikieditor": "Avancerat gränssnitt för redigering av wikitext",
@@ -216,8 +217,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# Listelement<br /># Listelement",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Listelement</li><li>Listelement</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Inbäddad fil",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Exempel.png|$2|Bildtext]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='Bildtext' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Förstora' class='internal' href='#'></a></div>Bildtext</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Exempel.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Referens",
 	"wikieditor-toolbar-help-content-reference-syntax": "Brödtext.&lt;ref name=\"test\"&gt;[http://www.example.org Länktext], ytterligare text.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Brödtext.<sup><a href='#'>[1]</a></sup>",

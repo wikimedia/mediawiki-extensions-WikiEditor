@@ -3,7 +3,8 @@
 		"authors": [
 			"Ansumang",
 			"Bhawani Gautam",
-			"Shubha"
+			"Shubha",
+			"Macofe"
 		]
 	},
 	"wikieditor": "उन्नतवीकिपाठ्यांशस्य सम्पादनमाध्यमम्",
@@ -202,8 +203,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# अंशानां सूची <br /># अंशानां सूची",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>अंशानां सूची </li><li>अंशानां सूची </li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "अन्तर्गता सञ्चिका",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:उदाहरणम्.png|$2|शीर्षकपाठः]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='व्यासः:१०४px;' class='thumbinner'><a title='शीर्षकम्' class='चित्रम्' href='#'><img height='५०' व्यासः='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='विशालीकरोतु' class='आन्तरिकम्' href='#'></a></div>शीर्षकम्</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:उदाहरणम्.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "आधारः",
 	"wikieditor-toolbar-help-content-reference-syntax": "पृष्ठपाठः ।&lt;ref name=\"test\"&gt;[http://www.example.org अनुबन्धपाठः], अतिरिक्तपाठः.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "पृष्ठपाठः.<sup><a href='#'>[1]</a></sup>",

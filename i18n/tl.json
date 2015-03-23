@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"AnakngAraw",
-			"McDutchie"
+			"McDutchie",
+			"Macofe"
 		]
 	},
 	"wikieditor": "Mas masulong na dugtungang-mukha na pambago ng wikiteksto",
@@ -202,8 +203,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# Bagay sa talaan<br /># Bagay sa talaan",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Bagay sa talaan</li><li>Bagay sa talaan</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Talaksang nakabaon",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Halimbawa.png|$2|Teksto ng kapsyon]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Enlarge' class='internal' href='#'></a></div>Tekstong nagpapaliwanag</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Halimbawa.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Sanggunian",
 	"wikieditor-toolbar-help-content-reference-syntax": "Taksto ng pahina.&lt;ref name=\"test\"&gt;[http://www.halimbawa.org Teksto ng kawing], karagdagang teksto.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Teksto ng pahina.<sup><a href='#'>[1]</a></sup>",

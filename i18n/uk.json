@@ -11,7 +11,8 @@
 			"NickK",
 			"Olvin",
 			"Prima klasy4na",
-			"Тест"
+			"Тест",
+			"Macofe"
 		]
 	},
 	"wikieditor": "Розширений інтерфейс редагування вікітексту",
@@ -216,8 +217,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# Елемент списку<br /># Елемент списку",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Елемент списку</li><li>Елемент списку</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Вбудований файл",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Пояснювальний текст]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='Пояснювальний текст' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Збільшити' class='internal' href='#'></a></div>Пояснювальний текст</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Виноска",
 	"wikieditor-toolbar-help-content-reference-syntax": "Текст сторінки&lt;ref name=\"test\"&gt;[http://www.example.org Текст посилання], додатковий текст.&lt;/ref&gt;.",
 	"wikieditor-toolbar-help-content-reference-result": "Текст сторінки.<sup><a href='#'>[1]</a></sup>",

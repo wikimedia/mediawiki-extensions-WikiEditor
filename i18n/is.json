@@ -3,7 +3,8 @@
 		"authors": [
 			"Krun",
 			"Maxí",
-			"Snævar"
+			"Snævar",
+			"Macofe"
 		]
 	},
 	"wikieditor-wikitext-tab": "Wiki-texti",
@@ -197,8 +198,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# Lista atriði<br /># Lista atriði",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Lista atriði</li><li>Lista atriði</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Bæta við mynd",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Myndlýsing]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='Myndlýsing' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Stækka' class='internal' href='#'></a></div>Myndlýsing</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Tilvísun",
 	"wikieditor-toolbar-help-content-reference-syntax": "Texti síðu.&lt;ref name=\"test\"&gt;[http://www.example.org Titill síðu], Skoðað 1. janúar 2010.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Texti síðu.<sup><a href='#'>[1]</a></sup>",

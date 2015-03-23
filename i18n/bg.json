@@ -6,7 +6,8 @@
 			"Spiritia",
 			"Stanqo",
 			"Turin",
-			"Wizardist"
+			"Wizardist",
+			"Macofe"
 		]
 	},
 	"wikieditor": "Подобрен интерфейс за редактиране на уикитекст",
@@ -208,8 +209,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# Елемент от списъка<br /># Елемент от списъка",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Елемент от списъка</li><li>Елемент от списъка</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Вграден файл",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Текст под картинката]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='Текст под картинката' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Уголемяване' class='internal' href='#'></a></div>Текст под картинката</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Източник",
 	"wikieditor-toolbar-help-content-reference-syntax": "Текст на страницата.&lt;ref name=\"test\"&gt;[http://www.example.org Текст на външната препратка], допълнителен текст.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Текст на страницата.<sup><a href='#'>[1]</a></sup>",

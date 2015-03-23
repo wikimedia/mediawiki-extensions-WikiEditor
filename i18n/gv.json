@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"MacTire02",
-			"Shimmin Beg"
+			"Shimmin Beg",
+			"Macofe"
 		]
 	},
 	"wikieditor-wikitext-tab": "Teks wiki",
@@ -185,8 +186,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# Meer rolley<br /># Meer rolley",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Meer rolley</li><li>Meer rolley</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Coadan jingit",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Teks fo-heidyl]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='Teks fo-heidyl' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Mooadaghey' class='internal' href='#'></a></div>Teks fo-heidyl</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Imraa",
 	"wikieditor-toolbar-help-content-reference-syntax": "Teks duillag.&lt;ref name=\"test\"&gt;[http://www.example.org Teks kiangley], tooilley teks.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Teks duillag.<sup><a href='#'>[1]</a></sup>",

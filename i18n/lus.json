@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"RMizo"
+			"RMizo",
+			"Macofe"
 		]
 	},
 	"wikieditor-wikitext-tab": "Wikithu",
@@ -164,7 +165,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# Tlar tùra<br /># Tlar tùra",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Tlar tùra</li><li>Tlar tùra</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Taksa telh",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Entirna.png|$2|Sawifiahna thü]]",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Entirna.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Ràwnte",
 	"wikieditor-toolbar-help-content-reference-syntax": "Thu inziak.&lt;ref name=\"test\"&gt;[http://www.example.org zawmna thü], thu dang.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Thu inziak.<sup><a href='#'>[1]</a></sup>",

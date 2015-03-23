@@ -3,7 +3,8 @@
 		"authors": [
 			"BMRG14",
 			"Ebraminio",
-			"Khalid Mahmood"
+			"Khalid Mahmood",
+			"Macofe"
 		]
 	},
 	"wikieditor": "اگیودواں وکیٹکسٹ نوں تبدیل کرن دا سسٹم",
@@ -190,8 +191,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "#لسٹ آئٹم<br />#لسٹ آئٹم",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>لسٹ آئٹم</li><li>لسٹ آئٹم</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "مورت لگی فائل",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|سرخی]]",
-	"wikieditor-toolbar-help-content-file-result": "<div سٹائل='چوڑائی:104px;' کلاس='تھمبنر'><اک سرخی='سرخی لکھت' کلاس='مورت' href='#'><مورت اونچائی='50' چوڑائی='100' باڈر='0' کلاس='تھمبامیج' src='ایکسٹنشن/وکیایڈیٹر/موڈیولز/مورتاں/اوزار پٹی/ادھارن-مورت.پیاینجی' alt=''/></a><ڈو کلاس='تھمبسرخی'><ڈو کلاس='وڈاکرنا'><اک سرخی='وڈا' کلاس='انٹرنل' href='#'><مورت انچائی='11' چوڑائی='15' alt='' src='$1/کامن/مورتاں/وڈا کلپ۔پیاینجی.پیاینجی'/></a></div>سرخی لکھت</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "اتے پتے",
 	"wikieditor-toolbar-help-content-reference-syntax": "صفہ لکھت.&lt;ref name=\"test\"&gt;[http://www.example.org جوڑ لکھت], ہور لکھت.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "صفا لکھت.<sup><a href='#'>[1]</a></sup>",

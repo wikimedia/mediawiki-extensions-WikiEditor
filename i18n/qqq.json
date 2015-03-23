@@ -25,7 +25,7 @@
 		]
 	},
 	"wikieditor": "An extension to allow for advanced editing features.\nhttp://www.mediawiki.org/wiki/Extension:WikiEditor",
-	"wikieditor-desc": "{{desc|name=Wiki Editor|url=http://www.mediawiki.org/wiki/Extension:WikiEditor}}\nI guess that \"feature-providing modules\" means the same as \"modules providing features\".",
+	"wikieditor-desc": "{{desc|name=Wiki Editor|url=https://www.mediawiki.org/wiki/Extension:WikiEditor}}\nI guess that \"feature-providing modules\" means the same as \"modules providing features\".",
 	"wikieditor-wikitext-tab": "Caption of the tab containing the edit box",
 	"wikieditor-loading": "Explanatory text for the temporary cover placed over the wikieditor while it's being assembled.\n{{Identical|Loading}}",
 	"wikieditor-preview-preference": "Option in [[Special:Preferences]], tab ''{{int:prefs-editing}}''",

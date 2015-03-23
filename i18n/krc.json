@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Iltever",
-			"Къарачайлы"
+			"Къарачайлы",
+			"Macofe"
 		]
 	},
 	"wikieditor": "Викитекст редакторлауну кенгертилген интерфейси",
@@ -204,8 +205,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# Тизимни элементи<br /># Тизимни элементи",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Тизимни элементи</li><li>Тизимни элементи</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Эндирилген файл",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Ачыкълау текст]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='\nАчыкълау текст' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Уллайт' class='internal' href='#'></a></div>\nАчыкълау текст</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Белги",
 	"wikieditor-toolbar-help-content-reference-syntax": "Бетни тексти.&lt;ref name=\"test\"&gt;[http://www.example.org Джибериуню тексти], къошакъ текст.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Бетни тексти.<sup><a href='#'>[1]</a></sup>",

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"CERminator",
-			"Palapa"
+			"Palapa",
+			"Macofe"
 		]
 	},
 	"wikieditor": "Napredni interfejs za uređivanje wikiteksta",
@@ -188,8 +189,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# Stavka spiska<br /># Stavka spiska",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Stavka spiska</li><li>Stavka spiska</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Uklopljena datoteka",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Opis slike]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='Opis slike' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Uvećajte' class='internal' href='#'></a></div>Opis slike</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Reference",
 	"wikieditor-toolbar-help-content-reference-syntax": "Tekst stranice.&lt;ref name=\"test\"&gt;[http://www.example.org Tekst linka], dodatni tekst.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Tekst stranice.<sup><a href='#'>[1]</a></sup>",

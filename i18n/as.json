@@ -4,7 +4,8 @@
 			"Bishnu Saikia",
 			"Chaipau",
 			"Gitartha.bordoloi",
-			"Nilamdyuti"
+			"Nilamdyuti",
+			"Macofe"
 		]
 	},
 	"wikieditor": "উচ্চতৰ ৱিকিপাঠ্য সম্পাদনা ইণ্টাৰফে'চ",
@@ -207,8 +208,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# তালিকা আইটেম <br /># তালিকা আইটেম",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>তালিকা আইটেম</li><li>তালিকা আইটেম</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "এম্বেডেড ফাইল",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|শিৰোনাম পাঠ্য]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title=''শীৰ্ষ পাঠ্য'' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='ডাঙৰকৈ চাওক' class='internal' href='#'></a></div>শীৰ্ষ পাঠ্য'</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "তথ্যসংগ্ৰহ",
 	"wikieditor-toolbar-help-content-reference-syntax": "Page text.&lt;ref name=\"test\"&gt;[http://www.example.org Link text], additional text.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "পৃষ্ঠাৰ পাঠ্য।<sup><a href='#'>[1]</a></sup>",

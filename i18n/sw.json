@@ -3,7 +3,8 @@
 		"authors": [
 			"Kwisha",
 			"Lloffiwr",
-			"Muddyb Blast Producer"
+			"Muddyb Blast Producer",
+			"Macofe"
 		]
 	},
 	"wikieditor": "Kusano ya juu ya kuandika kiwiki",
@@ -194,8 +195,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# Aya<br /># Aya",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Aya</li><li>Aya</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Ingiza faili",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|Maelezo mafupi]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='Maelezo mafupi' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Kuza' class='internal' href='#'></a></div>Maelezo mafupi</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Marejeo",
 	"wikieditor-toolbar-help-content-reference-syntax": "Maandishi ya ukurasa.&lt;ref name=\"mfano\"&gt;[http://www.example.org Maandishi ya kiungo], maandishi mengine.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Maandiko.<sup><a href='#'>[1]</a></sup>",

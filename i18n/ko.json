@@ -9,7 +9,8 @@
 			"Mintz0223",
 			"Priviet",
 			"관인생략",
-			"아라"
+			"아라",
+			"Macofe"
 		]
 	},
 	"wikieditor": "확장된 위키텍스트 편집 인터페이스",
@@ -213,8 +214,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# 목록 항목<br /># 목록 항목",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>목록 항목</li><li>목록 항목</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "파일 넣기",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|그림 설명]]",
-	"wikieditor-toolbar-help-content-file-result": "<div style='width:102px;' class='thumbinner'><a title='Caption text' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='$1/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='실제 크기로' class='internal' href='#'></a></div>그림 설명</div></div>",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "출처",
 	"wikieditor-toolbar-help-content-reference-syntax": "문서 내용.&lt;ref name=\"test\"&gt;[http://www.example.org 링크 제목], 기타 설명.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "문서 내용.<sup><a href='#'>[1]</a></sup>",
