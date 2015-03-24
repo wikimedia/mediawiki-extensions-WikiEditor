@@ -339,15 +339,11 @@
 				"wikieditor-toolbar-help-content-indent-result"
 			]
 		},
-		"ext.wikiEditor.init": {
-			"scripts": "ext.wikiEditor.init.js"
-		},
 		"ext.wikiEditor": {
 			"group": "ext.wikiEditor",
 			"scripts": "ext.wikiEditor.js",
 			"styles": "ext.wikiEditor.less",
 			"dependencies": [
-				"ext.wikiEditor.init",
 				"jquery.wikiEditor"
 			]
 		},
