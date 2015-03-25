@@ -2,3 +2,5 @@
 *~
 *.kate-swp
 .*.swp
+composer.lock
+vendor

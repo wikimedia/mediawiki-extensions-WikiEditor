@@ -321,23 +321,6 @@ class WikiEditorHooks {
 	 * @return bool
 	 */
 	public static function resourceLoaderGetConfigVars( &$vars ) {
-		global $wgWikiEditorFeatures;
-
-		$configurations = array();
-		foreach ( self::$features as $name => $feature ) {
-			if (
-				isset( $feature['configurations'] ) &&
-				( !isset( $wgWikiEditorFeatures[$name] ) || self::isEnabled( $name ) )
-			) {
-				foreach ( $feature['configurations'] as $configuration ) {
-					global $$configuration;
-					$configurations[$configuration] = $$configuration;
-				}
-			}
-		}
-		if ( count( $configurations ) ) {
-			$vars = array_merge( $vars, $configurations );
-		}
 		// expose magic words for use by the wikieditor toolbar
 		WikiEditorHooks::getMagicWords( $vars );
 		return true;
