@@ -152,6 +152,7 @@ $wgResourceModules += array(
 			'jquery.wikiEditor',
 			'jquery.wikiEditor.toolbar.i18n',
 			'jquery.wikiEditor.toolbar',
+			'mediawiki.language.specialCharacters',
 		),
 	),
 	'jquery.wikiEditor.toolbar.i18n' => $wikiEditorTpl + array(

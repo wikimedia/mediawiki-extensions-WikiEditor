@@ -136,7 +136,8 @@
 			"dependencies": [
 				"jquery.wikiEditor",
 				"jquery.wikiEditor.toolbar.i18n",
-				"jquery.wikiEditor.toolbar"
+				"jquery.wikiEditor.toolbar",
+				"mediawiki.language.specialCharacters"
 			]
 		},
 		"jquery.wikiEditor.toolbar.i18n": {
