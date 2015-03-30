@@ -196,6 +196,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Listelement</li><li>Listelement</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Inbäddad fil",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Exempel.png|$2|$3]]",
+	"wikieditor-toolbar-help-content-file-caption": "Bildtext",
 	"wikieditor-toolbar-help-content-reference-description": "Referens",
 	"wikieditor-toolbar-help-content-reference-syntax": "Brödtext.&lt;ref name=\"test\"&gt;[http://www.example.org Länktext], ytterligare text.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Brödtext.<sup><a href='#'>[1]</a></sup>",
