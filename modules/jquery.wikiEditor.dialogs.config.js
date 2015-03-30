@@ -330,28 +330,23 @@ $.wikiEditor.modules.dialogs.config = {
 					} );
 					// Add images to the page existence widget, which will be shown mutually exclusively to communicate if
 					// the page exists, does not exist or the title is invalid (like if it contains a | character)
-					var existsMsg = mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-exists' );
-					var notexistsMsg = mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-notexists' );
-					var invalidMsg = mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-invalid' );
-					var externalMsg = mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-external' );
 					var loadingMsg = mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-loading' );
-					var disambigMsg = mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-disambig' );
 					$( '#wikieditor-toolbar-link-int-target-status' )
 						.append( $( '<div>' )
 							.attr( 'id', 'wikieditor-toolbar-link-int-target-status-exists' )
-							.append( existsMsg )
+							.text( mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-exists' ) )
 						)
 						.append( $( '<div>' )
 							.attr( 'id', 'wikieditor-toolbar-link-int-target-status-notexists' )
-							.append( notexistsMsg )
+							.text( mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-notexists' ) )
 						)
 						.append( $( '<div>' )
 							.attr( 'id', 'wikieditor-toolbar-link-int-target-status-invalid' )
-							.append( invalidMsg )
+							.text( mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-invalid' ) )
 						)
 						.append( $( '<div>' )
 							.attr( 'id', 'wikieditor-toolbar-link-int-target-status-external' )
-							.append( externalMsg )
+							.text( mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-external' ) )
 						)
 						.append( $( '<div>' )
 							.attr( 'id', 'wikieditor-toolbar-link-int-target-status-loading' )
@@ -363,7 +358,7 @@ $.wikiEditor.modules.dialogs.config = {
 						)
 						.append( $( '<div>' )
 							.attr( 'id', 'wikieditor-toolbar-link-int-target-status-disambig' )
-							.append( disambigMsg )
+							.text( mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-disambig' ) )
 						)
 						.data( 'existencecache', {} )
 						.children().hide();
