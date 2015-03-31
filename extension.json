@@ -340,7 +340,6 @@
 			]
 		},
 		"ext.wikiEditor.init": {
-			"group": "ext.wikiEditor",
 			"scripts": "ext.wikiEditor.init.js"
 		},
 		"ext.wikiEditor": {
