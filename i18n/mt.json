@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Chrisportelli",
-			"Macofe"
+			"Macofe",
+			"Leli Forte"
 		]
 	},
 	"wikieditor": "Interfaċċa avvanzata ta' modifika tat-test tal-wiki",
@@ -86,7 +87,7 @@
 	"wikieditor-toolbar-tool-heading-example": "Titlu tas-sezzjoni",
 	"wikieditor-toolbar-group-format": "Format",
 	"wikieditor-toolbar-tool-ulist": "Lista puntata",
-	"wikieditor-toolbar-tool-ulist-example": "Element tal-lista puntata",
+	"wikieditor-toolbar-tool-ulist-example": "Element tal-lista bil-punti",
 	"wikieditor-toolbar-tool-olist": "Lista numerata",
 	"wikieditor-toolbar-tool-olist-example": "Element tal-lista numerata",
 	"wikieditor-toolbar-tool-nowiki": "Injora l-ifformattjar wiki",
