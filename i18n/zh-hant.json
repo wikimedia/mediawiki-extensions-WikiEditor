@@ -204,6 +204,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>清單項目</li><li>清單項目</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "附加檔案",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
+	"wikieditor-toolbar-help-content-file-caption": "標題文字",
 	"wikieditor-toolbar-help-content-reference-description": "參考來源",
 	"wikieditor-toolbar-help-content-reference-syntax": "頁面文字。&lt;ref name=\"test\"&gt;[http://www.example.org 連結文字]，附加文字。&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "頁面文字。<sup><a href='#'>[1]</a></sup>",

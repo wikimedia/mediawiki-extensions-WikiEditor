@@ -188,6 +188,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Položka seznamu</li><li>Položka seznamu</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Vložení souboru",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Příklad.png|$2|$3]]",
+	"wikieditor-toolbar-help-content-file-caption": "Text nadpisu",
 	"wikieditor-toolbar-help-content-reference-description": "Reference",
 	"wikieditor-toolbar-help-content-reference-syntax": "Text stránky.&lt;ref name=\"test\"&gt;[http://www.example.org Text odkazu], další text.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Text stránky.<sup><a href='#'>[1]</a></sup>",
