@@ -22,7 +22,8 @@
 			"Liuxinyu970226",
 			"Metalhead64",
 			"Mareklug",
-			"Macofe"
+			"Macofe",
+			"Totosunarto"
 		]
 	},
 	"wikieditor": "An extension to allow for advanced editing features.\nhttp://www.mediawiki.org/wiki/Extension:WikiEditor",
@@ -159,7 +160,7 @@
 	"wikieditor-toolbar-help-content-ulist-description": "{{Identical|Bulleted list}}",
 	"wikieditor-toolbar-help-content-olist-description": "{{Identical|Numbered list}}",
 	"wikieditor-toolbar-help-content-file-description": "{{Identical|Embedded file}}",
-	"wikieditor-toolbar-help-content-file-syntax": "Parameters:\n* $1 - \"File\" namespace name\n* $2 - the image syntax parameter for a thumbnail\n* $3 - the caption for the a thumbnail",
+	"wikieditor-toolbar-help-content-file-syntax": "Parameter:\n* $1 - \"File\" nama namespace\n* $2 - parameter syntax gambar untuk thumbnail\n* $3 - keterangan sebuah thumbnail",
 	"wikieditor-toolbar-help-content-file-caption": "Placeholder text for file caption. Must match {{msg-mw|wikieditor-toolbar-help-content-file-syntax}}.",
 	"wikieditor-toolbar-help-content-reference-description": "{{Identical|Reference}}",
 	"wikieditor-toolbar-help-content-reference-syntax": "I suggest leaving the <code>name=\"test\"</code> string in English\n\nwww.example.org is not a real website, but it has been reserved to use in software documentation. If you translate the word example and try to go to that web address then you might get a message that it doesn't exist. But somebody may have created a commercial web page for that address, such as www.Beispiel.org, using the German word for example. It is therefore recommended that you do not translate http://www.example.org at all. If you do wish to translate it you should first check where the translated link takes you.",
