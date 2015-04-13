@@ -194,6 +194,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>箇条書き項目</li><li>箇条書き項目</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "埋め込みファイル",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
+	"wikieditor-toolbar-help-content-file-caption": "キャプション文",
 	"wikieditor-toolbar-help-content-reference-description": "注釈",
 	"wikieditor-toolbar-help-content-reference-syntax": "ページ本文&lt;ref name=\"test\"&gt;[http://www.example.org リンクタイトル]、追加テキスト&lt;/ref&gt;。",
 	"wikieditor-toolbar-help-content-reference-result": "ページ本文<sup><a href='#'>[1]</a></sup>。",
