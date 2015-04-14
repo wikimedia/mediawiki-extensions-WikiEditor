@@ -60,11 +60,9 @@ $wgHooks['BeforePageDisplay'][] = 'WikiEditorHooks::onBeforePageDisplay';
 $wgHooks['EditPage::attemptSave'][] = 'WikiEditorHooks::editPageAttemptSave';
 $wgHooks['EditPage::attemptSave:after'][] = 'WikiEditorHooks::editPageAttemptSaveAfter';
 
-$wikiEditorBaseTpl = array(
+$wikiEditorTpl = array(
 	'localBasePath' => __DIR__ . '/modules',
 	'remoteExtPath' => 'WikiEditor/modules',
-);
-$wikiEditorTpl = $wikiEditorBaseTpl + array(
 	'group' => 'ext.wikiEditor',
 );
 
@@ -364,17 +362,10 @@ $wgResourceModules += array(
 
 	/* WikiEditor Resources */
 
-	'ext.wikiEditor.init' => $wikiEditorBaseTpl + array(
-		// Use wikiEditorBaseTpl so that no group is specified.
-		// The init module is loaded on all pages and would otherwise
-		// require a separate http request.
-		'scripts' => 'ext.wikiEditor.init.js'
-	),
 	'ext.wikiEditor' => $wikiEditorTpl + array(
 		'scripts' => 'ext.wikiEditor.js',
 		'styles' => 'ext.wikiEditor.less',
 		'dependencies' => array(
-			'ext.wikiEditor.init',
 			'jquery.wikiEditor'
 		),
 	),
