@@ -154,6 +154,10 @@ class WikiEditorHooks {
 		if ( !class_exists( 'EventLogging' ) ) {
 			return false;
 		}
+		// Sample 25% (via hex digit)
+		if ( $data['editingSessionId'][0] > '3' ) {
+			return false;
+		}
 
 		$user = $article->getContext()->getUser();
 		$page = $article->getPage();
@@ -257,6 +261,11 @@ class WikiEditorHooks {
 		if ( !$editingStatsId ) {
 			$editingStatsId = self::getEditingStatsId();
 		}
+		// Sample 25% (via hex digit)
+		if ( $editingStatsId[0] > '3' ) {
+			return true;
+		}
+
 		$outputPage->addHTML(
 			Xml::element(
 				'input',
