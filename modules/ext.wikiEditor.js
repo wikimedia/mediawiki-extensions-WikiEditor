@@ -3,6 +3,8 @@
  */
 
 ( function ( $, mw ) {
+	var editingSessionId;
+
 	function logEditEvent( action, data ) {
 		if ( mw.loader.getState( 'schema.Edit' ) === null ) {
 			return;
@@ -44,14 +46,14 @@
 
 	$( function () {
 		var $textarea = $( '#wpTextbox1' ),
-			editingSessionIdInput = $( '#editingStatsId' ),
-			editingSessionId, submitting, onUnloadFallback;
+			$editingSessionIdInput = $( '#editingStatsId' ),
+			submitting, onUnloadFallback;
 
 		// Initialize wikiEditor
 		$textarea.wikiEditor();
 
-		if ( editingSessionIdInput.length ) {
-			editingSessionId = editingSessionIdInput.val();
+		if ( $editingSessionIdInput.length ) {
+			editingSessionId = $editingSessionIdInput.val();
 			logEditEvent( 'ready', {
 				editingSessionId: editingSessionId
 			} );
@@ -72,6 +74,15 @@
 						// TODO: abort.type
 					} );
 				}
+
+				// If/when the user uses the back button to go back to the edit form
+				// and the browser serves this from bfcache, regenerate the session ID
+				// so we don't use the same ID twice. Ideally we'd do this by listening to the pageshow
+				// event and checking e.originalEvent.persisted, but that doesn't work in Chrome:
+				// https://code.google.com/p/chromium/issues/detail?id=344507
+				// So instead we modify the DOM here, after sending the abort event.
+				editingSessionId = mw.user.generateRandomSessionId();
+				$editingSessionIdInput.val( editingSessionId );
 
 				return fallbackResult;
 			};
