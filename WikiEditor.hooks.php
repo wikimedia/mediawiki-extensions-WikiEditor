@@ -258,7 +258,7 @@ class WikiEditorHooks {
 
 		$req = $outputPage->getContext()->getRequest();
 		$editingStatsId = $req->getVal( 'editingStatsId' );
-		if ( !$editingStatsId ) {
+		if ( !$editingStatsId || !$req->wasPosted() ) {
 			$editingStatsId = self::getEditingStatsId();
 		}
 		// Sample 25% (via hex digit)
