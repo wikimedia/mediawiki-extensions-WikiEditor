@@ -68,7 +68,7 @@
 
 				if ( !submitting ) {
 					logEditEvent( 'abort', {
-						editingSessionId: editingSessionId,
+						editingSessionId: editingSessionId
 						// TODO: abort.type
 					} );
 				}
