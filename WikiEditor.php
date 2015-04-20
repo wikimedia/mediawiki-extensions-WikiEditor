@@ -366,7 +366,8 @@ $wgResourceModules += array(
 		'scripts' => 'ext.wikiEditor.js',
 		'styles' => 'ext.wikiEditor.less',
 		'dependencies' => array(
-			'jquery.wikiEditor'
+			'jquery.wikiEditor',
+			'mediawiki.user'
 		),
 	),
 	'ext.wikiEditor.dialogs' => $wikiEditorTpl + array(
