@@ -10,6 +10,13 @@
 			return;
 		}
 
+		// Sample 25% (via hex digit)
+		// We have to do this on the client too because the unload handler
+		// can cause an editingSessionId to be generated on the client
+		if ( editingSessionId.charAt( 0 ) > '3' ) {
+			return;
+		}
+
 		mw.loader.using( 'schema.Edit' ).done( function () {
 			data = $.extend( {
 				version: 1,
