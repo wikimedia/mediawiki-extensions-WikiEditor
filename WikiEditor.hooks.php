@@ -261,10 +261,6 @@ class WikiEditorHooks {
 		if ( !$editingStatsId || !$req->wasPosted() ) {
 			$editingStatsId = self::getEditingStatsId();
 		}
-		// Sample 25% (via hex digit)
-		if ( $editingStatsId[0] > '3' ) {
-			return true;
-		}
 
 		$outputPage->addHTML(
 			Xml::element(
