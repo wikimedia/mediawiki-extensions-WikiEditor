@@ -54,6 +54,7 @@
 	$( function () {
 		var $textarea = $( '#wpTextbox1' ),
 			$editingSessionIdInput = $( '#editingStatsId' ),
+			origText = $textarea.val(),
 			submitting, onUnloadFallback;
 
 		// Initialize wikiEditor
@@ -69,7 +70,12 @@
 			} );
 			onUnloadFallback = window.onunload;
 			window.onunload = function () {
-				var fallbackResult;
+				var fallbackResult,
+					caVeEdit = $( '#ca-ve-edit' )[0],
+					switchingToVE = caVeEdit && (
+						document.activeElement === caVeEdit ||
+						$.contains( caVeEdit, document.activeElement )
+					);
 
 				if ( onUnloadFallback ) {
 					fallbackResult = onUnloadFallback();
@@ -77,8 +83,12 @@
 
 				if ( !submitting ) {
 					logEditEvent( 'abort', {
-						editingSessionId: editingSessionId
-						// TODO: abort.type
+						editingSessionId: editingSessionId,
+						type: switchingToVE ? 'switchwithout' :
+							( mw.config.get( 'wgAction' ) !== 'submit' && origText === $textarea.val() ?
+								'nochange' :
+								'abandon'
+							)
 					} );
 				}
 
