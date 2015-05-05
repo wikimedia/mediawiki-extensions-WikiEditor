@@ -3,7 +3,8 @@
 		"authors": [
 			"Aushulz",
 			"Gmelfi",
-			"Macofe"
+			"Macofe",
+			"Pippinu"
 		]
 	},
 	"wikieditor": "Ntirfazza avanzata di canci di testu wiki",
@@ -26,7 +27,7 @@
 	"wikieditor-toolbar": "Barra dî strummenta di canci",
 	"wikieditor-toolbar-desc": "Barra dî strummenta di canci dâ pàggina cu na megghiu usabbilità",
 	"wikieditor-toolbar-preference": "Abbilita la barra avanzata dî strummenta di canci",
-	"wikieditor-toolbar-dialogs-preference": "Abbilita li finestri di dialugu pi nsirìri liami, tabbelli e àutri cosi",
+	"wikieditor-toolbar-dialogs-preference": "Attiva li pruciduri guidati pi' nsirìri liami e tabbelli e pâ funzioni di risciduta e rimpiazzu",
 	"wikieditor-toolbar-loading": "Caricamentu in corsu...",
 	"wikieditor-toolbar-tool-bold": "Grassettu",
 	"wikieditor-toolbar-tool-bold-example": "Testu in grassettu",
@@ -110,7 +111,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Antiprima",
 	"wikieditor-toolbar-tool-table-insert": "Nsirìsci",
 	"wikieditor-toolbar-tool-table-cancel": "Annulla",
-	"wikieditor-toolbar-tool-table-toomany": "Cu stu strummentu nun è pussìbbili nsirìri na tabbella cu cchiossai di $1 celli",
+	"wikieditor-toolbar-tool-table-toomany": "Cu' sta finestra di diàlugu nun si ponnu nsirìri tabbelli cu' cchiussai di 1000 ceḍḍi.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Nun andicasti nu nùmmuru vâliddu di ligni o di culonni",
 	"wikieditor-toolbar-tool-table-zero": "Nun puoi nsiriri na tabbella senza ligni e/o senza culonni",
 	"wikieditor-toolbar-tool-replace": "Cerca e sustituisci",
@@ -124,7 +125,7 @@
 	"wikieditor-toolbar-tool-replace-button-replaceall": "Sustituisci tutticosi",
 	"wikieditor-toolbar-tool-replace-close": "Chiudi",
 	"wikieditor-toolbar-tool-replace-nomatch": "La tò ricerca nun prudicìu risurtati",
-	"wikieditor-toolbar-tool-replace-success": "$1 sustituzzioni fatta/fatti",
+	"wikieditor-toolbar-tool-replace-success": "{{PLURAL:$1|Fatta|Fatti}} $1 sustituzzioni.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "Nun annicasti chidda ca s'havi a circari",
 	"wikieditor-toolbar-tool-replace-invalidregex": "L'esprissioni rigulari misa nun è vàlidda: $1",
 	"wikieditor-toolbar-section-characters": "Carattiri spiciali",
@@ -149,7 +150,7 @@
 	"wikieditor-toolbar-help-content-bolditalic-syntax": "'''''Testu n grassettu e cursivu'''''",
 	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>Testuo n grassettu e cursivu</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "Liami nternu",
-	"wikieditor-toolbar-help-content-ilink-syntax": "[[Titulu pàggina|Etichetta di culligamentu]]<br />[[Titulu pàggina]]",
+	"wikieditor-toolbar-help-content-ilink-syntax": "[[Tìtulu dâ pàggina|Etichetta dû culligamentu]]<br />[[Tìtulu dâ pàggina]]",
 	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>Etichetta di culligamentu</a><br /><a href='#'>Tìtulu dâ pàggina</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "Lijami di fora",
 	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.example.org Etichetta dû liami]<br />[http://www.example.org]<br />http://www.example.org",
