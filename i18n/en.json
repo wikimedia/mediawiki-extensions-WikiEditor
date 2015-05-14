@@ -121,7 +121,7 @@
     "wikieditor-toolbar-tool-table-insert": "Insert",
     "wikieditor-toolbar-tool-table-cancel": "Cancel",
     "wikieditor-toolbar-tool-table-example-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec purus diam. Sed aliquam imperdiet nunc quis lacinia. Donec rutrum consectetur placerat. Sed volutpat neque non purus faucibus id ultricies enim euismod.",
-    "wikieditor-toolbar-tool-table-toomany": "Inserting a table with more than 1000 cells is not possible with this dialog.",
+    "wikieditor-toolbar-tool-table-toomany": "Inserting a table with more than $1 {{PLURAL:$1|cells}} is not possible with this dialog.",
     "wikieditor-toolbar-tool-table-invalidnumber": "You have not entered a valid number of rows or columns.",
     "wikieditor-toolbar-tool-table-zero": "You cannot insert a table with zero rows or columns.",
     "wikieditor-toolbar-tool-replace": "Search and replace",
