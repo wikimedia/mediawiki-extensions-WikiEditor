@@ -39,8 +39,14 @@ $wgWikiEditorFeatures = array(
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'WikiEditor',
-	'author' => array( 'Trevor Parscal', 'Roan Kattouw', 'Nimish Gautam', 'Adam Miller' ),
-	'version' => '0.4.0',
+	'author' => array(
+		'Derk-Jan Hartman',
+		'Trevor Parscal',
+		'Roan Kattouw',
+		'Nimish Gautam',
+		'Adam Miller'
+	),
+	'version' => '0.5.0',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:WikiEditor',
 	'descriptionmsg' => 'wikieditor-desc',
 );

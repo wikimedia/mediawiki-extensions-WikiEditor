@@ -1,4 +1,9 @@
 {
+  "name": "mediawiki/wikieditor",
+  "type": "mediawiki-extension",
+  "description": "Advanced wikitext editing interface",
+  "homepage": "https://www.mediawiki.org/wiki/Extension:WikiEditor",
+  "license": "GPL-2.0+",
 	"require-dev": {
 		"jakub-onderka/php-parallel-lint": "0.8.0",
 		"mediawiki/mediawiki-codesniffer": "0.1.0"
