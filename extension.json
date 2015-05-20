@@ -1,7 +1,8 @@
 {
 	"name": "WikiEditor",
-	"version": "0.4.0",
+	"version": "0.5.0",
 	"author": [
+		"Derk-Jan Hartman",
 		"Trevor Parscal",
 		"Roan Kattouw",
 		"Nimish Gautam",
@@ -344,7 +345,8 @@
 			"scripts": "ext.wikiEditor.js",
 			"styles": "ext.wikiEditor.less",
 			"dependencies": [
-				"jquery.wikiEditor"
+				"jquery.wikiEditor",
+				"mediawiki.user"
 			]
 		},
 		"ext.wikiEditor.dialogs": {
