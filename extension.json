@@ -11,6 +11,7 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:WikiEditor",
 	"descriptionmsg": "wikieditor-desc",
 	"type": "other",
+	"callback": "WikiEditorHooks::onRegistration",
 	"MessagesDirs": {
 		"WikiEditor": [
 			"i18n"
@@ -413,28 +414,7 @@
 		"remoteExtPath": "WikiEditor/modules"
 	},
 	"config": {
-		"WikiEditorFeatures": {
-			"toolbar": {
-				"global": false,
-				"user": true
-			},
-			"dialogs": {
-				"global": false,
-				"user": true
-			},
-			"hidesig": {
-				"global": true,
-				"user": false
-			},
-			"preview": {
-				"global": false,
-				"user": true
-			},
-			"publish": {
-				"global": false,
-				"user": true
-			}
-		}
+		"@doc": "WikiEditorFeatures is set in WikiEditor.hooks.php"
 	},
 	"AutoloadClasses": {
 		"WikiEditorHooks": "WikiEditor.hooks.php"
