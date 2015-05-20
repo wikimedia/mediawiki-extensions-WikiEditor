@@ -46,7 +46,6 @@ $wgExtensionCredits['other'][] = array(
 );
 $wgAutoloadClasses['WikiEditorHooks'] = __DIR__ . '/WikiEditor.hooks.php';
 $wgMessagesDirs['WikiEditor'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['WikiEditor'] = __DIR__ . '/WikiEditor.i18n.php';
 $wgHooks['EditPage::showEditForm:initial'][] =
 	'WikiEditorHooks::editPageShowEditFormInitial';
 $wgHooks['GetPreferences'][] = 'WikiEditorHooks::getPreferences';
