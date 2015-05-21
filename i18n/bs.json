@@ -3,7 +3,8 @@
 		"authors": [
 			"CERminator",
 			"Palapa",
-			"Macofe"
+			"Macofe",
+			"KWiki"
 		]
 	},
 	"wikieditor": "Napredni interfejs za uređivanje wikiteksta",
@@ -55,7 +56,7 @@
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Vanjski link",
 	"wikieditor-toolbar-tool-link-int-target-status-loading": "Provjeravam postojanje stranice...",
 	"wikieditor-toolbar-tool-link-int-invalid": "Naslov koji ste unijeli je nevaljan.",
-	"wikieditor-toolbar-tool-link-lookslikeinternal": "URL koji ste naveli izgleda da je prepoznat kao link na drugu wiki stranicu.\nDa li želite napraviti interni link?",
+	"wikieditor-toolbar-tool-link-lookslikeinternal": "Izgleda da je URL koji ste naveli prepoznat kao link na drugu wiki-stranicu.\nŽelite li napraviti unutrašnji link?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Unutrašnji link",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Vanjski link",
 	"wikieditor-toolbar-tool-link-empty": "Niste unijeli ništa za linkovanje.",
