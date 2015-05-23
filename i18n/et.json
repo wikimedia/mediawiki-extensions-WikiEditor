@@ -123,7 +123,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Eelvaade",
 	"wikieditor-toolbar-tool-table-insert": "Lisa",
 	"wikieditor-toolbar-tool-table-cancel": "Loobu",
-	"wikieditor-toolbar-tool-table-toomany": "Selle dialoogiaknaga ei saa lisada tabelit, millel on üle 1000 lahtri.",
+	"wikieditor-toolbar-tool-table-toomany": "Selle dialoogiaknaga ei saa lisada tabelit, milles on üle $1 {{PLURAL:$1|lahtri}}.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Sa pole sisestanud sobivat ridade ega veergude määra.",
 	"wikieditor-toolbar-tool-table-zero": "Ühegi rea ega veeruta tabelit ei saa lisada",
 	"wikieditor-toolbar-tool-replace": "Otsi ja asenda",

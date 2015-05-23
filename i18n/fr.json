@@ -16,7 +16,8 @@
 			"Wyz",
 			"Zetud",
 			"Macofe",
-			"Djiboun"
+			"Djiboun",
+			"Freak2fast4u"
 		]
 	},
 	"wikieditor": "Interface avancée de modification de wikitexte",
@@ -135,7 +136,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Prévisualisation",
 	"wikieditor-toolbar-tool-table-insert": "Insérer",
 	"wikieditor-toolbar-tool-table-cancel": "Annuler",
-	"wikieditor-toolbar-tool-table-toomany": "Il n’est pas possible d’insérer un tableau de plus de 1000 cellules avec cet outil.",
+	"wikieditor-toolbar-tool-table-toomany": "Il n’est pas possible d’insérer un tableau de plus de $1 {{PLURAL:$1|cellule|cellules}} avec cet outil.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Vous n’avez pas entré un nombre de lignes ou de colonnes valide.",
 	"wikieditor-toolbar-tool-table-zero": "Vous ne pouvez pas insérer un tableau sans ligne ou sans colonne.",
 	"wikieditor-toolbar-tool-replace": "Rechercher et remplacer",
