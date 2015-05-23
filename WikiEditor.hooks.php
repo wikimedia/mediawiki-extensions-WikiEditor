@@ -111,8 +111,7 @@ class WikiEditorHooks {
 	 */
 	public static function onRegistration() {
 		// Each module may be configured individually to be globally on/off or user preference based
-		global $wgWikiEditorFeatures;
-		$wgWikiEditorFeatures = array(
+		$features = array(
 
 			/* Textarea / i-frame compatible (OK to deploy) */
 
@@ -129,6 +128,20 @@ class WikiEditorHooks {
 			// Adds a button and dialog for step-by-step publishing
 			'publish' => array( 'global' => false, 'user' => true ),
 		);
+
+		// Eww, do a 2d array merge so we don't wipe out settings
+		global $wgWikiEditorFeatures;
+		if ( $wgWikiEditorFeatures ) {
+			foreach ( $features as $name => $settings ) {
+				if ( isset( $wgWikiEditorFeatures[$name] ) ) {
+					$wgWikiEditorFeatures[$name] += $settings;
+				} else {
+					$wgWikiEditorFeatures[$name] = $settings;
+				}
+			}
+		} else {
+			$wgWikiEditorFeatures = $features;
+		}
 
 	}
 
