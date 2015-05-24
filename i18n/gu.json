@@ -4,7 +4,8 @@
 			"Ashok modhvadia",
 			"KartikMistry",
 			"Sushant savla",
-			"Macofe"
+			"Macofe",
+			"NehalDaveND"
 		]
 	},
 	"wikieditor": "ઉચ્ચ વિકિલખાણ ફેરફાર દેખાવ",
@@ -64,9 +65,11 @@
 	"wikieditor-toolbar-tool-file-example": "Example.jpg (ઉદાહરણ)",
 	"wikieditor-toolbar-tool-file-title": "ફાઇલ ઉમેરો",
 	"wikieditor-toolbar-file-target": "ફાઇલનામ:",
+	"wikieditor-toolbar-file-caption": "શિરોનામ:",
 	"wikieditor-toolbar-file-size": "માપ:",
 	"wikieditor-toolbar-file-default": "(મૂળભૂત)",
 	"wikieditor-toolbar-file-format": "શૈલી:",
+	"wikieditor-toolbar-file-format-none": "કોઇ નહીં",
 	"wikieditor-toolbar-tool-file-insert": "ઉમેરો",
 	"wikieditor-toolbar-tool-file-cancel": "રદ કરો",
 	"wikieditor-toolbar-tool-reference": "સંદર્ભ",

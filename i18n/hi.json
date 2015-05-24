@@ -5,7 +5,8 @@
 			"Karthi.dr",
 			"Pooja.srivastava",
 			"Siddhartha Ghai",
-			"Macofe"
+			"Macofe",
+			"NehalDaveND"
 		]
 	},
 	"wikieditor": "उन्नत विकितेक्ष्त् संपादन इन्तेर्फचे",
@@ -57,6 +58,14 @@
 	"wikieditor-toolbar-tool-link-empty": "आप लिंक करने के लिए कुछ दर्ज़ नहीं किए थे ।",
 	"wikieditor-toolbar-tool-file": "संलग्न फ़ाइल",
 	"wikieditor-toolbar-tool-file-example": "उदाहरण.jpg",
+	"wikieditor-toolbar-tool-file-title": "फ़ाइल सम्मिलित करें",
+	"wikieditor-toolbar-file-target": "संचिका नाम:",
+	"wikieditor-toolbar-file-caption": "शीर्षक",
+	"wikieditor-toolbar-file-size": "आकार",
+	"wikieditor-toolbar-file-default": "(डिफॉल्ट)",
+	"wikieditor-toolbar-file-format": "स्वरूप",
+	"wikieditor-toolbar-file-format-none": "कोई नहीं",
+	"wikieditor-toolbar-tool-file-insert": "सम्मिलित करें",
 	"wikieditor-toolbar-tool-file-cancel": "रद्द करें",
 	"wikieditor-toolbar-tool-reference": "संदर्भ",
 	"wikieditor-toolbar-tool-reference-example": "आधार पाठ यहाँ सम्मिलित करें",
