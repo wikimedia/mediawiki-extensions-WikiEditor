@@ -4,9 +4,9 @@
 			"Purodha"
 		]
 	},
-	"wikieditor": "Fottjeschredde Eddiror för der WikiTäx",
-	"wikieditor-desc": "Brängk en Möjjeleschkeit för Wikitäx enzejävve un ze ändere en et Wiki, di mer ußboue kann, un di noch allerhand Kröhmsches met dobei hät.",
-	"wikieditor-wikitext-tab": "Wikitäx",
+	"wikieditor": "Fottjeschredde Eddiror för der WikkiTäx",
+	"wikieditor-desc": "Brängk en Müjjeleschkeit för Wikkitäx ennzejävve un ze ändere en et Wikki, di mer ußboue kann, un di noch allerhand Kröhmsches met dobei hät.",
+	"wikieditor-wikitext-tab": "Wikkitäx",
 	"wikieditor-loading": "Ben aam Lahde&nbsp;…",
 	"wikieditor-preview-preference": "Donn de {{int:preview}} nevvedraan zohlohße",
 	"wikieditor-preview-tab": "{{int:preview}}",
@@ -90,7 +90,7 @@
 	"wikieditor-toolbar-tool-ulist-example": "Ene Enndraach en dä Leß",
 	"wikieditor-toolbar-tool-olist": "En Leß met Nommere",
 	"wikieditor-toolbar-tool-olist-example": "Ene Enndraach en dä Leß",
-	"wikieditor-toolbar-tool-nowiki": "Der Wiki-Code för et Fommatteere üvverjonn",
+	"wikieditor-toolbar-tool-nowiki": "Der Wikki_Kohd för et Fommattehre övverjonn",
 	"wikieditor-toolbar-tool-nowiki-example": "Jif dä Tex en, dä vun de Wiki-Soffwär nit bearbeid, un en Rauh jelooße wääde soll",
 	"wikieditor-toolbar-tool-redirect": "En Ömleidong",
 	"wikieditor-toolbar-tool-redirect-example": "Dä Tittel vun dä Sigg, wo et hen jonn sull",

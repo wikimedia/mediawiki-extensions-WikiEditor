@@ -12,7 +12,8 @@
 			"ToSter",
 			"WTM",
 			"Wpedzich",
-			"Mareklug"
+			"Mareklug",
+			"Chrumps"
 		]
 	},
 	"wikieditor": "Zaawansowany interfejs edycji wikitekstu",
@@ -131,7 +132,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Podgląd",
 	"wikieditor-toolbar-tool-table-insert": "Wstaw",
 	"wikieditor-toolbar-tool-table-cancel": "Anuluj",
-	"wikieditor-toolbar-tool-table-toomany": "Wstawianie tabeli o większej liczbie komórek niż 1000 nie jest możliwe z użyciem tego okna.",
+	"wikieditor-toolbar-tool-table-toomany": "Wstawianie tabeli o większej liczbie komórek niż $1 nie jest możliwe z użyciem tego okna.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Nie wprowadziłeś poprawnej liczby wierszy i kolumn.",
 	"wikieditor-toolbar-tool-table-zero": "Nie można wstawić tabeli z zerową liczbą wierszy lub kolumn.",
 	"wikieditor-toolbar-tool-replace": "Wyszukaj i zastąp",

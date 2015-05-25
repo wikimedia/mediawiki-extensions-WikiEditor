@@ -121,7 +121,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Andeprime",
 	"wikieditor-toolbar-tool-table-insert": "Inzerisce",
 	"wikieditor-toolbar-tool-table-cancel": "Annulle",
-	"wikieditor-toolbar-tool-table-toomany": "'U 'nzerimende de 'na tabbelle cu cchiù de 1000 celle non g'è possibbele cu stu dialoghe.",
+	"wikieditor-toolbar-tool-table-toomany": "'U 'nzerimende de 'na tabbelle cu cchiù de $1 {{PLURAL:$1|celle}} non g'è possibbele cu stu dialoghe.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Tu non g'è mise 'nu numere valide de righe o culonne.",
 	"wikieditor-toolbar-tool-table-zero": "Tu non ge puè inzerì 'na tabbelle cù zero righe o culonne.",
 	"wikieditor-toolbar-tool-replace": "Cirche e sostituisce",

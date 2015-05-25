@@ -120,7 +120,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Қарап шығу",
 	"wikieditor-toolbar-tool-table-insert": "Енгізу",
 	"wikieditor-toolbar-tool-table-cancel": "Болдырмау",
-	"wikieditor-toolbar-tool-table-toomany": "Бұл диалог арқылы кестеге 1000-нан көп ұяшық енгізу мүмкін емес.",
+	"wikieditor-toolbar-tool-table-toomany": "Бұл диалог арқылы кестеге $1 {{PLURAL:$1|ұяшықтан}} көп  енгізу мүмкін емес.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Сіз бағандар немесе қатарлар бойынша жарамды нөмір енгізбедіңіз.",
 	"wikieditor-toolbar-tool-table-zero": "Сіз нөлдік қатар немесе баған бойынша кесте кірістіре алмайсыз.",
 	"wikieditor-toolbar-tool-replace": "Іздеу және алмастыру",

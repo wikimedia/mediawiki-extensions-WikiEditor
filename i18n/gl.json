@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Toliño",
-			"Banjo"
+			"Banjo",
+			"Elisardojm"
 		]
 	},
 	"wikieditor": "Interface avanzada de edición de texto wiki",
@@ -121,7 +122,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Vista previa",
 	"wikieditor-toolbar-tool-table-insert": "Inserir",
 	"wikieditor-toolbar-tool-table-cancel": "Cancelar",
-	"wikieditor-toolbar-tool-table-toomany": "Non é posible inserir unha táboa con máis de 1000 celas con este diálogo.",
+	"wikieditor-toolbar-tool-table-toomany": "Non é posible inserir unha táboa con máis de $1 {{PLURAL:$1|cela|celas}} con este diálogo.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Non inseriu un número válido de fileiras ou columnas.",
 	"wikieditor-toolbar-tool-table-zero": "Non pode inserir unha táboa con cero fileiras ou columnas.",
 	"wikieditor-toolbar-tool-replace": "Buscar e substituír",
