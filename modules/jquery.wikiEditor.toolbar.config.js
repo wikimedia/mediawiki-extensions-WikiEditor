@@ -29,7 +29,6 @@ getDefaultConfig: function () {
 								'it': [2, -286],
 								'nl': [2, -502],
 								'pt': [2, -358],
-								'pt-br': [2, -358],
 								'pl': [2, -142],
 								'ml': [2, -142]
 							},
@@ -51,7 +50,6 @@ getDefaultConfig: function () {
 								'nl': 'format-bold-V.png',
 								'os': 'format-bold-os.png',
 								'pt': 'format-bold-N.png',
-								'pt-br': 'format-bold-N.png',
 								'pl': 'format-bold-B.png',
 								'ru': 'format-bold-ru.png',
 								'ml': 'format-bold-B.png'
@@ -85,7 +83,6 @@ getDefaultConfig: function () {
 								'nl': [2, -790],
 								'os': [2, -934],
 								'pt': [2, -862],
-								'pt-br': [2, -862],
 								'pl': [2, -862],
 								'ru': [2, -934],
 								'ml': [2, -862]
@@ -108,7 +105,6 @@ getDefaultConfig: function () {
 								'nl': 'format-italic-C.png',
 								'os': 'format-italic-K.png',
 								'pt': 'format-italic-I.png',
-								'pt-br': 'format-italic-I.png',
 								'pl': 'format-italic-I.png',
 								'ru': 'format-italic-K.png',
 								'ml': 'format-italic-I.png'

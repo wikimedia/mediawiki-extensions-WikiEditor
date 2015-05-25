@@ -11,7 +11,25 @@
 /*jshint onevar:false, boss:true */
 ( function ( $, mw ) {
 
-var hasOwn = Object.prototype.hasOwnProperty;
+var hasOwn = Object.prototype.hasOwnProperty,
+
+/**
+ * Array of language codes.
+ */
+fallbackChain = ( function () {
+	var isRTL = $( 'body' ).hasClass( 'rtl' ),
+		chain = mw.language.getFallbackLanguageChain();
+
+	// Do not fallback to 'en'
+	if ( chain.length >= 2 && !/^en-/.test( chain[chain.length - 2] ) ) {
+		chain.pop();
+	}
+	if ( isRTL ) {
+		chain.push( 'default-rtl' );
+	}
+	chain.push( 'default' );
+	return chain;
+} )();
 
 /**
  * Global static object for wikiEditor that provides generally useful functionality to all modules and contexts.
@@ -168,9 +186,15 @@ $.wikiEditor = {
 	 * @param lang Language code, defaults to wgUserLanguage
 	 */
 	autoLang: function ( object, lang ) {
-		var defaultKey = $( 'body' ).hasClass( 'rtl' ) ? 'default-rtl' : 'default';
-		lang = lang || mw.config.get( 'wgUserLanguage' );
-		return hasOwn.call( object, lang ) ? object[lang] : ( object[defaultKey] || object['default'] || object );
+		var i, key, chain = [lang].concat( fallbackChain );
+
+		for ( i = 0; i < chain.length; i++ ) {
+			key = chain[i];
+			if ( hasOwn.call( object, key ) ) {
+				return object[key];
+			}
+		}
+		return object;
 	},
 
 	/**
@@ -200,14 +224,25 @@ $.wikiEditor = {
 	 * @param lang Language code, defaults to wgUserLanguage
 	 */
 	autoIconOrOffset: function ( icon, offset, path, lang ) {
-		lang = lang || mw.config.get( 'wgUserLanguage' );
-		if ( typeof offset === 'object' && hasOwn.call( offset, lang ) ) {
-			return offset[lang];
-		} else if ( typeof icon === 'object' && hasOwn.call( icon, lang ) ) {
-			return $.wikiEditor.autoIcon( icon, undefined, lang );
-		} else {
-			return $.wikiEditor.autoLang( offset, lang );
+		var i, key, src, chain = [lang].concat( fallbackChain );
+
+		path = path || $.wikiEditor.imgPath;
+
+		for ( i = 0; i < chain.length; i++ ) {
+			key = chain[i];
+			if ( offset && hasOwn.call( offset, key ) ) {
+				return offset[key];
+			}
+			if ( icon && hasOwn.call( icon, key ) ) {
+				src = icon[key];
+				// Prepend path if src is not absolute
+				if ( src.substr( 0, 7 ) !== 'http://' && src.substr( 0, 8 ) !== 'https://' && src[0] !== '/' ) {
+					src = path + src;
+				}
+				return src + '?' + mw.loader.getVersion( 'jquery.wikiEditor' );
+			}
 		}
+		return offset || icon;
 	}
 };
 

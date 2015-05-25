@@ -56,7 +56,8 @@
 			"styles": "jquery.wikiEditor.less",
 			"dependencies": [
 				"jquery.client",
-				"jquery.textSelection"
+				"jquery.textSelection",
+				"mediawiki.language"
 			],
 			"messages": [
 				"wikieditor-wikitext-tab",
