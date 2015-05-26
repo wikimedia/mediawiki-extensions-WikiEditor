@@ -12,7 +12,8 @@
 			"Olvin",
 			"Prima klasy4na",
 			"Тест",
-			"Macofe"
+			"Macofe",
+			"Ата"
 		]
 	},
 	"wikieditor": "Розширений інтерфейс редагування вікітексту",
@@ -132,7 +133,7 @@
 	"wikieditor-toolbar-tool-table-insert": "Вставити",
 	"wikieditor-toolbar-tool-table-cancel": "Скасувати",
 	"wikieditor-toolbar-tool-table-example-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec purus diam. Sed aliquam imperdiet nunc quis lacinia. Donec rutrum consectetur placerat. Sed volutpat neque non purus faucibus id ultricies enim euismod.",
-	"wikieditor-toolbar-tool-table-toomany": "Цей діалог не дозволяє вставити таблицю розміром більше 1000 клітинок.",
+	"wikieditor-toolbar-tool-table-toomany": "Цей діалог не дозволяє вставити таблицю розміром більше $1 {{PLURAL:$1|клітинки|клітинок}}.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Ви не вказали необхідного числа рядків і стовпців.",
 	"wikieditor-toolbar-tool-table-zero": "Ви не можете вставити таблицю з нульовою кількістю рядків або стовпців.",
 	"wikieditor-toolbar-tool-replace": "Пошук і заміна",
@@ -196,6 +197,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Елемент списку</li><li>Елемент списку</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Вбудований файл",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
+	"wikieditor-toolbar-help-content-file-caption": "Текст опису",
 	"wikieditor-toolbar-help-content-reference-description": "Виноска",
 	"wikieditor-toolbar-help-content-reference-syntax": "Текст сторінки&lt;ref name=\"test\"&gt;[http://www.example.org Текст посилання], додатковий текст.&lt;/ref&gt;.",
 	"wikieditor-toolbar-help-content-reference-result": "Текст сторінки.<sup><a href='#'>[1]</a></sup>",
