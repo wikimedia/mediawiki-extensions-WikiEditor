@@ -119,7 +119,7 @@
 	"wikieditor-toolbar-tool-table-preview": "פֿאראויסשטעלונג",
 	"wikieditor-toolbar-tool-table-insert": "צולייגן",
 	"wikieditor-toolbar-tool-table-cancel": "אנולירן",
-	"wikieditor-toolbar-tool-table-toomany": "מיט דעם  דיאַלאג איז נישט מעגלעך אַרײַנשטעלן א טאַבעלע מיט מער ווי 1000 צעלן",
+	"wikieditor-toolbar-tool-table-toomany": "מיט דעם  דיאַלאג איז נישט מעגלעך אַרײַנשטעלן א טאַבעלע מיט מער ווי $1 {{PLURAL:$1|צעלן}}.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "איר האָט נישט ארײַנגעגעבן אַ גילטיקן נומער פון שורות אָדער זיילן.",
 	"wikieditor-toolbar-tool-table-zero": "איר קענט נישט אַרײַנשטעלן א טאַבעלע מיט נול שורות אדער זיילן.",
 	"wikieditor-toolbar-tool-replace": "זוכן און בײַטן",
