@@ -401,6 +401,7 @@
 			]
 		},
 		"ext.wikiEditor.toolbar.styles": {
+			"position": "top",
 			"group": "ext.wikiEditor",
 			"styles": "ext.wikiEditor.toolbar.styles.less"
 		},
