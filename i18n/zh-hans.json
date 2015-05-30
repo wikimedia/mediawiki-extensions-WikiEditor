@@ -132,7 +132,7 @@
 	"wikieditor-toolbar-tool-table-preview": "预览",
 	"wikieditor-toolbar-tool-table-insert": "插入",
 	"wikieditor-toolbar-tool-table-cancel": "取消",
-	"wikieditor-toolbar-tool-table-toomany": "在这个对话框中无法插入超过1000个单元格的表格。",
+	"wikieditor-toolbar-tool-table-toomany": "在这个对话框中无法插入超过$1个{{PLURAL:$1|单元格}}的表格。",
 	"wikieditor-toolbar-tool-table-invalidnumber": "您输入的行数或列数无效。",
 	"wikieditor-toolbar-tool-table-zero": "您不能插入一个零行或零列的表格。",
 	"wikieditor-toolbar-tool-replace": "查找和替换",
