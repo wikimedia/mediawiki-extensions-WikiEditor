@@ -134,7 +134,7 @@
 	"wikieditor-toolbar-tool-table-insert": "Вставить",
 	"wikieditor-toolbar-tool-table-cancel": "Отмена",
 	"wikieditor-toolbar-tool-table-example-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec purus diam. Sed aliquam imperdiet nunc quis lacinia. Donec rutrum consectetur placerat. Sed volutpat neque non purus faucibus id ultricies enim euismod.",
-	"wikieditor-toolbar-tool-table-toomany": "Этот диалог не позволяет вставить таблицу размером более 1000 ячеек.",
+	"wikieditor-toolbar-tool-table-toomany": "Этот диалог не позволяет вставить таблицу размером более $1 {{PLURAL:$1|ячейки|ячеек}}.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Вы не указали корректное количество строк или столбцов.",
 	"wikieditor-toolbar-tool-table-zero": "Вы не можете вставить таблицу с нулевым количеством строк или столбцов.",
 	"wikieditor-toolbar-tool-replace": "Поиск и замена",
