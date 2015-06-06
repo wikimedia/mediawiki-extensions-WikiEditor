@@ -9,7 +9,8 @@
 			"Tvdm",
 			"Wiki13",
 			"Macofe",
-			"MedShot"
+			"MedShot",
+			"HanV"
 		]
 	},
 	"wikieditor": "Uitgebreide tekstverwerker voor wikitekst",
@@ -128,7 +129,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Voorvertoning",
 	"wikieditor-toolbar-tool-table-insert": "Invoegen",
 	"wikieditor-toolbar-tool-table-cancel": "Annuleren",
-	"wikieditor-toolbar-tool-table-toomany": "Het invoegen van een tabel met meer dan 1000 cellen is niet mogelijk via dit dialoogvenster.",
+	"wikieditor-toolbar-tool-table-toomany": "Het invoegen van een tabel met meer dan $1 {{PLURAL:$1|cellen}} is hier niet mogelijk.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "U hebt een ongeldig aantal regels of kolommen opgegeven.",
 	"wikieditor-toolbar-tool-table-zero": "U kunt geen tabel invoegen zonder regels of kolommen.",
 	"wikieditor-toolbar-tool-replace": "Zoeken en vervangen",
