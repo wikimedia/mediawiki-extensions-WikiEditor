@@ -11,6 +11,7 @@
 		]
 	},
 	"wikieditor": "উন্নত উইকিটেক্সট সম্পাদনা ইন্টারফেস",
+	"wikieditor-desc": "একটি সম্প্রসারণযোগ্য উইকিটেক্সট সম্পাদনা ইন্টারফেস প্রদান করে এবং এবং বহু বৈশিষ্ট্য মডিউল প্রদান করে",
 	"wikieditor-wikitext-tab": "উইকিটেক্সট",
 	"wikieditor-loading": "লোড হচ্ছে...",
 	"wikieditor-preview-preference": "পাশাপাশি প্রাকদর্শন সক্রিয় করো",
@@ -125,7 +126,7 @@
 	"wikieditor-toolbar-tool-table-preview": "প্রাকদর্শন",
 	"wikieditor-toolbar-tool-table-insert": "যোগ করো",
 	"wikieditor-toolbar-tool-table-cancel": "বাতিল",
-	"wikieditor-toolbar-tool-table-toomany": "এই ডায়লগ দ্বারা একটি সারণিতে ১০০০ ঘরের বেশি ছক যোগ করা সম্ভব নয়।",
+	"wikieditor-toolbar-tool-table-toomany": "এই ডায়লগ দ্বারা একটি সারণিতে $1 {{PLURAL:$1|ঘরের}} বেশি ছক যোগ করা সম্ভব নয়।",
 	"wikieditor-toolbar-tool-table-invalidnumber": "আপনি সারি এবং কলামের জন্য ভুল সংখ্যা টাইপ করেছেন।",
 	"wikieditor-toolbar-tool-table-zero": "আপনি ছকের সারি এবং কলামের সংখ্যা শূন্য দিতে পারবেন না।",
 	"wikieditor-toolbar-tool-replace": "অনুসন্ধান ও প্রতিস্থাপন",
