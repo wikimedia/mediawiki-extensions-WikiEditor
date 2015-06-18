@@ -10,10 +10,10 @@
 			return;
 		}
 
-		// Sample 25% (via hex digit)
+		// Sample 6.25% (via hex digit)
 		// We have to do this on the client too because the unload handler
 		// can cause an editingSessionId to be generated on the client
-		if ( editingSessionId.charAt( 0 ) > '3' ) {
+		if ( editingSessionId.charAt( 0 ) > '0' ) {
 			return;
 		}
 

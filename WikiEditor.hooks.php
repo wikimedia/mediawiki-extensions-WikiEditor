@@ -193,8 +193,8 @@ class WikiEditorHooks {
 		if ( !class_exists( 'EventLogging' ) ) {
 			return false;
 		}
-		// Sample 25% (via hex digit)
-		if ( $data['editingSessionId'][0] > '3' ) {
+		// Sample 6.25% (via hex digit)
+		if ( $data['editingSessionId'][0] > '0' ) {
 			return false;
 		}
 
