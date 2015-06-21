@@ -122,7 +122,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Predogled",
 	"wikieditor-toolbar-tool-table-insert": "Vstavi",
 	"wikieditor-toolbar-tool-table-cancel": "Prekliči",
-	"wikieditor-toolbar-tool-table-toomany": "Vstavljanje tabele z več kot 1000 celicami s tem obrazcem ni mogoče.",
+	"wikieditor-toolbar-tool-table-toomany": "Vstavljanje tabele z več kot $1 {{PLURAL:$1|celico|celicama|celicami}} s tem obrazcem ni mogoče.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Niste vnesli veljavnega števila vrstic ali stolpcev.",
 	"wikieditor-toolbar-tool-table-zero": "Ne morete vstaviti tabele z nič vrsticami ali stolpci.",
 	"wikieditor-toolbar-tool-replace": "Zamenjaj",

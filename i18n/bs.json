@@ -4,7 +4,8 @@
 			"CERminator",
 			"Palapa",
 			"Macofe",
-			"KWiki"
+			"KWiki",
+			"Munja"
 		]
 	},
 	"wikieditor": "Napredni interfejs za uređivanje wikiteksta",
@@ -84,7 +85,7 @@
 	"wikieditor-toolbar-tool-olist-example": "Stavka numerisanog spiska",
 	"wikieditor-toolbar-tool-nowiki": "Nema wiki formatiranja",
 	"wikieditor-toolbar-tool-nowiki-example": "Unesi neformatirani tekst ovdje",
-	"wikieditor-toolbar-tool-redirect": "Preusmjeri",
+	"wikieditor-toolbar-tool-redirect": "Premjesti",
 	"wikieditor-toolbar-tool-redirect-example": "Ime ciljne stranice",
 	"wikieditor-toolbar-tool-big": "Veliko",
 	"wikieditor-toolbar-tool-big-example": "Povećan tekst",
