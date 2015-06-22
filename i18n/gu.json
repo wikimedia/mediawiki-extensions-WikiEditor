@@ -5,7 +5,8 @@
 			"KartikMistry",
 			"Sushant savla",
 			"Macofe",
-			"NehalDaveND"
+			"NehalDaveND",
+			"Dsvyas"
 		]
 	},
 	"wikieditor": "ઉચ્ચ વિકિલખાણ ફેરફાર દેખાવ",
@@ -187,7 +188,7 @@
 	"wikieditor-toolbar-help-content-file-description": "અંદર વણાયેલી (Embedded) ફાઇલ",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "સંદર્ભ",
-	"wikieditor-toolbar-help-content-reference-syntax": "પાનાં લખાણ.&lt;ref name=\"test\"&gt;[http://www.example.org કડી લખાણ], વધારાનું લખાણ.&lt;/ref&gt;",
+	"wikieditor-toolbar-help-content-reference-syntax": "પાનાં લખાણ.&lt;ref name=\"test\"&gt; {{cite web |url= |title= |author= |date= |work= |publisher= |accessdate= |archiveurl = |archivedate = }}&lt;/ref&gt;.",
 	"wikieditor-toolbar-help-content-reference-result": "પૃષ્ઠ લેખન.<sup><a href='#'>[1]</a></sup>",
 	"wikieditor-toolbar-help-content-rereference-description": "તેજ સંદર્ભનો વધારાનો વપરાશ",
 	"wikieditor-toolbar-help-content-rereference-result": "પૃષ્ઠ લેખન.<sup><a href='#'>[1]</a></sup>",
