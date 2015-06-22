@@ -183,13 +183,12 @@ $.wikiEditor = {
 	 * with a default.
 	 *
 	 * @param object Object to extract property from
-	 * @param lang Language code, defaults to wgUserLanguage
 	 */
-	autoLang: function ( object, lang ) {
-		var i, key, chain = [lang].concat( fallbackChain );
+	autoLang: function ( object ) {
+		var i, key;
 
-		for ( i = 0; i < chain.length; i++ ) {
-			key = chain[i];
+		for ( i = 0; i < fallbackChain.length; i++ ) {
+			key = fallbackChain[i];
 			if ( hasOwn.call( object, key ) ) {
 				return object[key];
 			}
@@ -203,10 +202,9 @@ $.wikiEditor = {
 	 *
 	 * @param icon Icon object from e.g. toolbar config
 	 * @param path Default icon path, defaults to $.wikiEditor.imgPath
-	 * @param lang Language code, defaults to wgUserLanguage
 	 */
-	autoIcon: function ( icon, path, lang ) {
-		var src = $.wikiEditor.autoLang( icon, lang );
+	autoIcon: function ( icon, path ) {
+		var src = $.wikiEditor.autoLang( icon );
 		path = path || $.wikiEditor.imgPath;
 		// Prepend path if src is not absolute
 		if ( src.substr( 0, 7 ) !== 'http://' && src.substr( 0, 8 ) !== 'https://' && src[0] !== '/' ) {
@@ -221,15 +219,14 @@ $.wikiEditor = {
 	 * @param icon Icon object, see autoIcon()
 	 * @param offset Offset object
 	 * @param path Icon path, see autoIcon()
-	 * @param lang Language code, defaults to wgUserLanguage
 	 */
-	autoIconOrOffset: function ( icon, offset, path, lang ) {
-		var i, key, src, chain = [lang].concat( fallbackChain );
+	autoIconOrOffset: function ( icon, offset, path ) {
+		var i, key, src;
 
 		path = path || $.wikiEditor.imgPath;
 
-		for ( i = 0; i < chain.length; i++ ) {
-			key = chain[i];
+		for ( i = 0; i < fallbackChain.length; i++ ) {
+			key = fallbackChain[i];
 			if ( offset && hasOwn.call( offset, key ) ) {
 				return offset[key];
 			}
