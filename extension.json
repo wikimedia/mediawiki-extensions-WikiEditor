@@ -39,9 +39,6 @@
 		"EditPage::showEditForm:fields": [
 			"WikiEditorHooks::editPageShowEditFormFields"
 		],
-		"BeforePageDisplay": [
-			"WikiEditorHooks::onBeforePageDisplay"
-		],
 		"EditPage::attemptSave": [
 			"WikiEditorHooks::editPageAttemptSave"
 		],

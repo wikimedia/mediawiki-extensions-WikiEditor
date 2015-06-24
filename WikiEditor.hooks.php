@@ -433,20 +433,6 @@ class WikiEditorHooks {
 
 
 	/**
-	 * Adds WikiEditor JS to the output.
-	 *
-	 * This is attached to the MediaWiki 'BeforePageDisplay' hook.
-	 *
-	 * @param OutputPage $output
-	 * @param Skin $skin
-	 * @return boolean
-	 */
-	public static function onBeforePageDisplay( OutputPage &$output, Skin &$skin ) {
-		$output->addModules( array( 'ext.wikiEditor.init' ) );
-		return true;
-	}
-
-	/**
 	 * Gets a 32 character alphanumeric random string to be used for stats.
 	 * @return string
 	 */
