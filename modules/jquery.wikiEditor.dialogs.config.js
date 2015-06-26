@@ -536,7 +536,7 @@ $.wikiEditor.modules.dialogs.config = {
 						var serverName = mw.config.get( 'wgServer' ).replace( /^(https?:)?\/\//, '' );
 						// Cache the articlepath regex
 						$( this ).data( 'articlePathRegex', new RegExp(
-							'^https?://' + $.escapeRE( serverName + mw.config.get( 'wgArticlePath' ) )
+							'^https?://' + mw.RegExp.escape( serverName + mw.config.get( 'wgArticlePath' ) )
 								.replace( /\\\$1/g, '(.*)' ) + '$'
 						) );
 						// Pre-fill the text fields based on the current selection
@@ -1168,7 +1168,7 @@ $.wikiEditor.modules.dialogs.config = {
 						}
 						var isRegex = $( '#wikieditor-toolbar-replace-regex' ).is( ':checked' );
 						if ( !isRegex ) {
-							searchStr = $.escapeRE( searchStr );
+							searchStr = mw.RegExp.escape( searchStr );
 						}
 						if ( mode === 'replaceAll' ) {
 							flags += 'g';
