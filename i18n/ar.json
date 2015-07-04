@@ -194,6 +194,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>عنصر قائمة</li><li>عنصر قائمة</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "ملف مضمن",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
+	"wikieditor-toolbar-help-content-file-caption": "نص التعليق",
 	"wikieditor-toolbar-help-content-reference-description": "مرجع",
 	"wikieditor-toolbar-help-content-reference-syntax": "نص الصفحة.&lt;ref name=\"test\"&gt;[http://www.example.org نص الوصلة]، نص إضافي.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "نص الصفحة.<sup><a href='#'>[1]</a></sup>",
