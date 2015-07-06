@@ -636,7 +636,7 @@ fn: {
 								$section.trigger( 'loadSection' );
 								animate( $that );
 								$that.removeClass( 'loading' );
-							}, 1000 );
+							} );
 						} else {
 							animate( $( this ) );
 							$( this ).addClass( 'current' );
