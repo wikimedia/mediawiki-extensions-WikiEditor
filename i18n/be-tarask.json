@@ -6,7 +6,8 @@
 			"Renessaince",
 			"Wizardist",
 			"Zedlik",
-			"Macofe"
+			"Macofe",
+			"Red Winged Duck"
 		]
 	},
 	"wikieditor": "Пашыраны інтэрфэйс рэдагаваньня вікі-тэксту",
@@ -125,7 +126,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Папярэдні прагляд",
 	"wikieditor-toolbar-tool-table-insert": "Уставіць",
 	"wikieditor-toolbar-tool-table-cancel": "Закрыць",
-	"wikieditor-toolbar-tool-table-toomany": "Гэтая форма ня можа ўставіць табліцу, якая ўтрымлівае больш за 1000 ячэек.",
+	"wikieditor-toolbar-tool-table-toomany": "З дапамогай гэтага дыялёгу нельга ўставіць табліцу памерам больш чым $1 {{PLURAL:$1|ячэйка|ячэйкі|ячэек}}.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Вы не ўвялі слушную колькасьць радкоў ці слупкоў.",
 	"wikieditor-toolbar-tool-table-zero": "Вы ня можаце ўставіць табліцу з нулявой колькасьцю радкоў ці слупкоў.",
 	"wikieditor-toolbar-tool-replace": "Знайсьці і замяніць",
