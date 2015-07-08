@@ -190,6 +190,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Элемэнт сьпісу</li><li>Элемэнт сьпісу</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Укладзены файл",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Прыклад.png|$2|$3]]",
+	"wikieditor-toolbar-help-content-file-caption": "Тэкст апісаньня",
 	"wikieditor-toolbar-help-content-reference-description": "Зноска",
 	"wikieditor-toolbar-help-content-reference-syntax": "Тэкст старонкі.&lt;ref name=\"test\"&gt;[http://www.example.org Тэкст спасылкі], дадатковы тэкст.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Тэкст старонкі.<sup><a href='#'>[1]</a></sup>",

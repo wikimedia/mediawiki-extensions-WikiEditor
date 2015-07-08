@@ -132,7 +132,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Förhandsgranska",
 	"wikieditor-toolbar-tool-table-insert": "Infoga",
 	"wikieditor-toolbar-tool-table-cancel": "Avbryt",
-	"wikieditor-toolbar-tool-table-toomany": "Att sätta in en tabell med fler än 1000 celler är inte möjligt med denna dialog.",
+	"wikieditor-toolbar-tool-table-toomany": "Att sätta in en tabell med fler än $1  {{PLURAL:$1|celler}} är inte möjligt med denna dialog.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Du har inte angett ett giltigt antal rader eller kolumner.",
 	"wikieditor-toolbar-tool-table-zero": "Du kan inte sätta in en tabell med noll rader eller kolumner.",
 	"wikieditor-toolbar-tool-replace": "Sök och ersätt",

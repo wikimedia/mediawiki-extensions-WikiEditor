@@ -59,7 +59,7 @@
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Nevaljani naslov",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Vanjska poveznica",
 	"wikieditor-toolbar-tool-link-int-target-status-loading": "Provjera postoji li stranica...",
-	"wikieditor-toolbar-tool-link-int-invalid": "Naslov koji ste naveli je nevažeći.",
+	"wikieditor-toolbar-tool-link-int-invalid": "Naslov koji ste naveli nije valjan.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "URL koji ste predali čini se namijenjen kao poveznica na drugu wiki stranicu.\nŽelite li napraviti unutrašnju poveznicu?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Unutarnja poveznica",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Vanjska poveznica",
