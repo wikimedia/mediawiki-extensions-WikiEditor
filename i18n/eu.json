@@ -6,7 +6,8 @@
 			"Joxemai",
 			"Xabier Armendaritz",
 			"පසිඳු කාවින්ද",
-			"Macofe"
+			"Macofe",
+			"Sator"
 		]
 	},
 	"wikieditor": "Wikitestu edizio-interfaze aurreratua",
@@ -56,6 +57,7 @@
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Balio gabeko izenburua",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Kanpo lotura",
 	"wikieditor-toolbar-tool-link-int-target-status-loading": "Orriaren existentzia egiaztatzen...",
+	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Argipen orria",
 	"wikieditor-toolbar-tool-link-int-invalid": "Zehaztutako izenburua ez dago zuzen.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "Adierazi duzun URL beste wiki orri batera lotzen duela dirudi.\nBarne lotura bezala sortu nahi duzu?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Barne lotura",
@@ -63,6 +65,9 @@
 	"wikieditor-toolbar-tool-link-empty": "Ez duzu bilatu beharreko ezer adierazi.",
 	"wikieditor-toolbar-tool-file": "Fitxategia txertatu",
 	"wikieditor-toolbar-tool-file-example": "Adibidea.jpg",
+	"wikieditor-toolbar-tool-file-title": "Fitxategia txertatu",
+	"wikieditor-toolbar-file-target": "Fitxategi-izena:",
+	"wikieditor-toolbar-file-caption": "Irudi-oineko testua",
 	"wikieditor-toolbar-file-size": "Tamaina:",
 	"wikieditor-toolbar-file-format": "Formatua:",
 	"wikieditor-toolbar-tool-file-insert": "Txertatu",
