@@ -6,7 +6,8 @@
 			"Macofe",
 			"KWiki",
 			"Munja",
-			"Srdjan m"
+			"Srdjan m",
+			"Semso98"
 		]
 	},
 	"wikieditor": "Napredni interfejs za uređivanje wikiteksta",
@@ -127,7 +128,7 @@
 	"wikieditor-toolbar-tool-replace-button-replaceall": "Zamijeni sve",
 	"wikieditor-toolbar-tool-replace-close": "Zatvori",
 	"wikieditor-toolbar-tool-replace-nomatch": "Vaša pretraga nije dala nijedan rezultat.",
-	"wikieditor-toolbar-tool-replace-success": "Načinjeno $1 izmjena.",
+	"wikieditor-toolbar-tool-replace-success": "Načinjeno $1 {{PLURAL:$1|izmjena|izmjene}}.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "Niste unijeli ništa za pretragu.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "Regularni izraz koji ste unijeli nije valjan: $1",
 	"wikieditor-toolbar-section-characters": "Posebni znakovi",
