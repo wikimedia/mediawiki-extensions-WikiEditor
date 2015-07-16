@@ -84,7 +84,7 @@ api: {
 							$.wikiEditor.modules.toolbar.fn.buildBookmark( context, page, data[type][page] )
 						);
 					}
-					$.wikiEditor.modules.toolbar.fn.updateBookletSelection( context, page, $pages, $index );
+					$.wikiEditor.modules.toolbar.fn.updateBookletSelection( context, data.section, $pages, $index );
 					smooth = false;
 					break;
 				case 'rows':
@@ -175,7 +175,7 @@ api: {
 					context.modules.toolbar.$toolbar.find( index ).remove();
 					$.wikiEditor.modules.toolbar.fn.updateBookletSelection(
 						context,
-						null,
+						data.section,
 						context.modules.toolbar.$toolbar.find( target ),
 						context.modules.toolbar.$toolbar.find( index )
 					);
@@ -728,18 +728,16 @@ fn: {
 		}
 	},
 	updateBookletSelection: function ( context, id, $pages, $index ) {
-		/*jshint eqnull:true */
 		var cookie = 'wikiEditor-' + context.instance + '-booklet-' + id + '-page';
 		var selected = $.cookie( cookie );
 		// Re-save cookie
-		if ( selected != null ) {
+		if ( selected !== null ) {
 			$.cookie( cookie, selected, { expires: 30, path: '/' } );
 		}
 		var $selectedIndex = $index.find( '*[rel="' + selected + '"]' );
-		if ( $selectedIndex.size() === 0 ) {
+		if ( $selectedIndex.length === 0 ) {
 			$selectedIndex = $index.children().eq( 0 );
 			selected = $selectedIndex.attr( 'rel' );
-			$.cookie( cookie, selected, { expires: 30, path: '/' } );
 		}
 		$pages.children().hide();
 		$pages.find( '*[rel="' + selected + '"]' ).show();
