@@ -57,7 +57,7 @@
 	"wikieditor-toolbar-tool-link-insert": "링크 넣기",
 	"wikieditor-toolbar-tool-link-cancel": "취소",
 	"wikieditor-toolbar-tool-link-int-target-status-exists": "문서가 존재합니다.",
-	"wikieditor-toolbar-tool-link-int-target-status-notexists": "문서가 존재하지 않습니다.",
+	"wikieditor-toolbar-tool-link-int-target-status-notexists": "문서가 존재하지 않습니다",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "제목이 잘못되었습니다.",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "바깥 링크",
 	"wikieditor-toolbar-tool-link-int-target-status-loading": "문서가 존재하는 지 확인 중...",
