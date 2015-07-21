@@ -729,6 +729,11 @@ getDefaultConfig: function () {
 							'result': { 'htmlMsg': 'wikieditor-toolbar-help-content-reference-result' }
 						},
 						{
+							'description': { 'htmlMsg': 'wikieditor-toolbar-help-content-named-reference-description' },
+							'syntax': { 'htmlMsg': 'wikieditor-toolbar-help-content-named-reference-syntax' },
+							'result': { 'htmlMsg': 'wikieditor-toolbar-help-content-named-reference-result' }
+						},
+						{
 							'description': { 'htmlMsg': 'wikieditor-toolbar-help-content-rereference-description' },
 							'syntax': { 'htmlMsg': 'wikieditor-toolbar-help-content-rereference-syntax' },
 							'result': { 'htmlMsg': 'wikieditor-toolbar-help-content-rereference-result' }
