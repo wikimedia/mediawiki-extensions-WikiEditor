@@ -767,12 +767,6 @@ fn: {
 		$.eachAsync( sectionQueue, {
 			'bulk': 0,
 			'end': function () {
-				// HACK: Opera doesn't seem to want to redraw after these bits
-				// are added to the DOM, so we can just FORCE it!
-				var oldValue = $( 'body' ).css( 'position' );
-				$( 'body' ).css( 'position', 'static' );
-				$( 'body' ).css( 'position', oldValue );
-
 				context.$textarea.trigger( 'wikiEditor-toolbar-doneInitialSections' );
 			},
 			'loop': function ( i, s ) {
