@@ -213,7 +213,7 @@
 	"wikieditor-toolbar-help-content-reference-result": "Html example used in the help section \"reference\" of the toolbar",
 	"wikieditor-toolbar-help-content-named-reference-description": "Description used in the help section \"reference\" of the toolbar",
 	"wikieditor-toolbar-help-content-named-reference-syntax": "{{Optional}}\nSyntax example used in the help section \"reference\" of the toolbar\n\nIt is suggest to leave the <code>name=\"test\"</code> string in English",
-	"wikieditor-toolbar-help-content-named-reference-result": "Html example used in the help section \"reference\" of the toolbar",
+	"wikieditor-toolbar-help-content-named-reference-result": "Html example used in the help section \"reference\" of the toolbar. If your language uses different digits, use it instead of \"[2]\".",
 	"wikieditor-toolbar-help-content-rereference-description": "Description used in the help section \"reference\" of the toolbar",
 	"wikieditor-toolbar-help-content-rereference-syntax": "{{Optional}}\nSyntax example used in the help section \"reference\" of the toolbar",
 	"wikieditor-toolbar-help-content-rereference-result": "Html example used in the help section \"reference\" of the toolbar",

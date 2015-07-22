@@ -6,7 +6,8 @@
 			"Waihorace",
 			"Xiaomingyan",
 			"LNDDYL",
-			"Macofe"
+			"Macofe",
+			"CRCHF"
 		]
 	},
 	"wikieditor": "進階維基文字編輯界面",
@@ -113,7 +114,7 @@
 	"wikieditor-toolbar-tool-table-preview": "預覽",
 	"wikieditor-toolbar-tool-table-insert": "插入",
 	"wikieditor-toolbar-tool-table-cancel": "取消",
-	"wikieditor-toolbar-tool-table-toomany": "插入一個多個$1格嘅表格用呢個信息框係唔可能嘅",
+	"wikieditor-toolbar-tool-table-toomany": "插入一個或多個$1格嘅表再用呢個信息框係冇可能嘅。",
 	"wikieditor-toolbar-tool-table-invalidnumber": "你係行或者列輸入左一個唔正確嘅數字",
 	"wikieditor-toolbar-tool-table-zero": "你唔可以插入一個有0行或者列嘅表格",
 	"wikieditor-toolbar-tool-replace": "搜索同重新放位",

@@ -199,6 +199,7 @@
 	"wikieditor-toolbar-help-content-reference-description": "Przypis",
 	"wikieditor-toolbar-help-content-reference-syntax": "Treść strony&lt;ref&gt; [http://www.przyklad.org Opis linku], dodatkowy tekst. &lt;/ref&gt;.",
 	"wikieditor-toolbar-help-content-reference-result": "Treść strony<sup><a href='#'>[1]</a></sup>.",
+	"wikieditor-toolbar-help-content-named-reference-description": "Nazwany odnośnik",
 	"wikieditor-toolbar-help-content-rereference-description": "Kolejne użycie nazwanego przypisu",
 	"wikieditor-toolbar-help-content-rereference-result": "Treść strony<sup><a href='#'>[2]</a></sup>.",
 	"wikieditor-toolbar-help-content-showreferences-description": "Wyświetl przypisy",

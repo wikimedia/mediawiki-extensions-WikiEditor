@@ -204,6 +204,7 @@
 	"wikieditor-toolbar-help-content-reference-description": "Referencia",
 	"wikieditor-toolbar-help-content-reference-syntax": "Texto de página.&lt;ref&gt;[http://www.example.org Texto de vínculo], texto adicional.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Texto de página.<sup><a href='#'>[1]</a></sup>",
+	"wikieditor-toolbar-help-content-named-reference-description": "Referencia nombrada",
 	"wikieditor-toolbar-help-content-rereference-description": "Uso adicional de la misma referencia",
 	"wikieditor-toolbar-help-content-rereference-result": "Texto de página.<sup><a href='#'>[2]</a></sup>",
 	"wikieditor-toolbar-help-content-showreferences-description": "Mostrar referencias",
