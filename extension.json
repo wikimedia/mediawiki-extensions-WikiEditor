@@ -10,6 +10,7 @@
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:WikiEditor",
 	"descriptionmsg": "wikieditor-desc",
+	"license-name": "GPL-2.0+",
 	"type": "other",
 	"callback": "WikiEditorHooks::onRegistration",
 	"MessagesDirs": {
