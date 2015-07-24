@@ -191,6 +191,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Ставка</li><li>Ставка</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Уграђена датотека",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Пример.png|$2|$3]]",
+	"wikieditor-toolbar-help-content-file-caption": "Опис слике",
 	"wikieditor-toolbar-help-content-reference-description": "Навод",
 	"wikieditor-toolbar-help-content-reference-syntax": "Текст странице.&lt;ref&gt;[http://www.primer.org Текст везе], додатни текст.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Текст странице.<sup><a href='#'>[1]</a></sup>",

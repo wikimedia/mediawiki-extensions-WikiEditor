@@ -186,7 +186,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# Stavka<br /># Stavka",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Stavka</li><li>Stavka</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Ugrađena datoteka",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Primjer.png|$2|$3]]",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Reference",
 	"wikieditor-toolbar-help-content-reference-syntax": "Tekst stranice.&lt;ref&gt;[http://www.primer.org Tekst veze], dodatni tekst.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Tekst stranice.<sup><a href='#'>[1]</a></sup>",

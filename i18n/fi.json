@@ -201,6 +201,7 @@
 	"wikieditor-toolbar-help-content-reference-description": "Viite",
 	"wikieditor-toolbar-help-content-reference-syntax": "Sivun teksti.&lt;ref&gt;[http://www.example.org Linkin teksti], lisäteksti.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Sivun teksti.<sup><a href='#'>[1]</a></sup>",
+	"wikieditor-toolbar-help-content-named-reference-description": "Nimetty viite",
 	"wikieditor-toolbar-help-content-rereference-description": "Saman viitteen lisäkäyttö",
 	"wikieditor-toolbar-help-content-rereference-result": "Sivun teksti.<sup><a href='#'>[2]</a></sup>",
 	"wikieditor-toolbar-help-content-showreferences-description": "Näytä viitteet",
