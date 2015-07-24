@@ -429,7 +429,7 @@ fn: {
 			} )
 			.click( function ( event ) {
 				$( this ).parent().parent().find( '.page' ).hide();
-				$( this ).parent().parent().find( '.page-' + $( this ).attr( 'rel' ) ).show();
+				$( this ).parent().parent().find( '.page-' + $( this ).attr( 'rel' ) ).show().trigger( 'loadPage' );
 				$( this ).siblings().removeClass( 'current' );
 				$( this ).addClass( 'current' );
 				var section = $( this ).parent().parent().attr( 'rel' );
@@ -444,12 +444,24 @@ fn: {
 				return false;
 			} );
 	},
-	buildPage: function ( context, id, page ) {
-		var html, i;
+	buildPage: function ( context, id, page, deferLoad ) {
 		var $page = $( '<div>' ).attr( {
 			'class': 'page page-' + id,
 			'rel': id
 		} );
+		if ( deferLoad ) {
+			$page.addClass( 'loading' ).append( $( '<div>' ).addClass( 'spinner' ) );
+			$page.bind( 'loadPage', function () {
+				$.wikiEditor.modules.toolbar.fn.reallyBuildPage( context, id, page, $page );
+				$page.removeClass( 'loading' );
+			} );
+		} else {
+			$.wikiEditor.modules.toolbar.fn.reallyBuildPage( context, id, page, $page );
+		}
+		return $page;
+	},
+	reallyBuildPage: function ( context, id, page, $page ) {
+		var html, i;
 		switch ( page.layout ) {
 			case 'table':
 				$page.addClass( 'page-table' );
@@ -507,7 +519,6 @@ fn: {
 				$page.append( $characters );
 				break;
 		}
-		return $page;
 	},
 	buildHeading: function ( context, headings ) {
 		var html = '<tr>';
@@ -614,33 +625,18 @@ fn: {
 
 					$( this ).parent().parent().find( 'a' ).removeClass( 'current' );
 					$sections.css( 'overflow', 'hidden' );
-					var animate = function ( $that ) {
-						$sections
-						.animate( { 'height': $section.outerHeight() }, $section.outerHeight() * 2, function () {
-							$that.css( 'overflow', 'visible' ).css( 'height', 'auto' );
-							context.fn.trigger( 'resize' );
-						} );
-					};
 					if ( show ) {
 						$section.removeClass( 'section-hidden' )
 							.attr( 'aria-expanded', 'true' )
 							.animate( { opacity: 100.0 }, 'fast', 'linear', function () {
 								$( this ).addClass( 'section-visible' );
 							} );
-
-						if ( $section.hasClass( 'loading' ) ) {
-							// Loading of this section was deferred, load it now
-							var $that = $( this );
-							$that.addClass( 'current loading' );
-							setTimeout( function () {
-								$section.trigger( 'loadSection' );
-								animate( $that );
-								$that.removeClass( 'loading' );
+						$sections
+							.animate( { 'height': $section.outerHeight() }, $section.outerHeight() * 2, function () {
+								$( this ).css( 'overflow', 'visible' ).css( 'height', 'auto' );
+								context.fn.trigger( 'resize' );
 							} );
-						} else {
-							animate( $( this ) );
-							$( this ).addClass( 'current' );
-						}
+						$( this ).addClass( 'current' );
 					} else {
 						$sections
 							.css( 'height', $section.outerHeight() )
@@ -674,16 +670,7 @@ fn: {
 		var selected = $.cookie( 'wikiEditor-' + context.instance + '-toolbar-section' );
 		var show = selected === id;
 
-		if ( section.deferLoad !== undefined && section.deferLoad && id !== 'main' && !show ) {
-			// This class shows the spinner and serves as a marker for the click handler in buildTab()
-			$section.addClass( 'loading' ).append( $( '<div>' ).addClass( 'spinner' ) );
-			$section.bind( 'loadSection', function () {
-				$.wikiEditor.modules.toolbar.fn.reallyBuildSection( context, id, section, $section );
-				$section.removeClass( 'loading' );
-			} );
-		} else {
-			$.wikiEditor.modules.toolbar.fn.reallyBuildSection( context, id, section, $section );
-		}
+		$.wikiEditor.modules.toolbar.fn.reallyBuildSection( context, id, section, $section, section.deferLoad );
 
 		// Show or hide section
 		if ( id !== 'main' ) {
@@ -697,7 +684,7 @@ fn: {
 		}
 		return $section;
 	},
-	reallyBuildSection: function ( context, id, section, $section ) {
+	reallyBuildSection: function ( context, id, section, $section, deferLoad ) {
 		context.$textarea.trigger( 'wikiEditor-toolbar-buildSection-' + $section.attr( 'rel' ), [section] );
 		switch ( section.type ) {
 			case 'toolbar':
@@ -715,7 +702,7 @@ fn: {
 				if ( 'pages' in section ) {
 					for ( var page in section.pages ) {
 						$pages.append(
-							$.wikiEditor.modules.toolbar.fn.buildPage( context, page, section.pages[page] )
+							$.wikiEditor.modules.toolbar.fn.buildPage( context, page, section.pages[page], deferLoad )
 						);
 						$index.append(
 							$.wikiEditor.modules.toolbar.fn.buildBookmark( context, page, section.pages[page] )
@@ -740,7 +727,7 @@ fn: {
 			selected = $selectedIndex.attr( 'rel' );
 		}
 		$pages.children().hide();
-		$pages.find( '*[rel="' + selected + '"]' ).show();
+		$pages.find( '*[rel="' + selected + '"]' ).show().trigger( 'loadPage' );
 		$index.children().removeClass( 'current' );
 		$selectedIndex.addClass( 'current' );
 	},
