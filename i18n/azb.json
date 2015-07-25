@@ -4,7 +4,8 @@
 			"Amir a57",
 			"E THP",
 			"Ebrahimi-amir",
-			"Mousa"
+			"Mousa",
+			"Koroğlu"
 		]
 	},
 	"wikieditor-wikitext-tab": "ویکی‌متن",
@@ -18,6 +19,8 @@
 	"wikieditor-publish-dialog-watch": "بو صفحه‌نی ایزله",
 	"wikieditor-publish-dialog-publish": "یایلما",
 	"wikieditor-publish-dialog-goback": "دالییا گییت",
+	"wikieditor-toolbar-preference": "گلیشمیش دییشدیرمه آراج چۇبوغونو چالیشدیر",
+	"wikieditor-toolbar-dialogs-preference": "تعامل پنجره‌لرینی باغلانتی، جدول و داها باشقاسینی آرتیرماق اۆچون چالیشدیر",
 	"wikieditor-toolbar-loading": "یوکلنیر...",
 	"wikieditor-toolbar-tool-bold": "قالین رنگ",
 	"wikieditor-toolbar-tool-bold-example": "قالین یازی",
@@ -103,7 +106,7 @@
 	"wikieditor-toolbar-tool-table-example-header": "باشلیق متنی",
 	"wikieditor-toolbar-tool-table-title": "جدول آرتیرماق",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "سطرلر:",
-	"wikieditor-toolbar-tool-table-dimensions-columns": "سوتونلار",
+	"wikieditor-toolbar-tool-table-dimensions-columns": "سوتون‌لار",
 	"wikieditor-toolbar-tool-table-dimensions-header": "باشلیق سطرینی آرتیر",
 	"wikieditor-toolbar-tool-table-wikitable": "کنارلیگی آرتیر",
 	"wikieditor-toolbar-tool-table-sortable": "جدولی سیرالانا بیلن ائت",

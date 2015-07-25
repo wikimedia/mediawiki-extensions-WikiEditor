@@ -189,6 +189,7 @@
 	"wikieditor-toolbar-help-content-reference-syntax": "Text vun der Säit.&lt;ref&gt;[http://www.example.org Text vum Link], zousätzlechen Text.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Text vun der Säit <sup><a href='#'>[1]</a></sup>",
 	"wikieditor-toolbar-help-content-named-reference-description": "Referenz mat engem Numm",
+	"wikieditor-toolbar-help-content-named-reference-result": "Text vun der Säit <sup><a href='#'>[2]</a></sup>",
 	"wikieditor-toolbar-help-content-rereference-description": "Zousätzleche Gebrauch vun derselwëschter Referenz",
 	"wikieditor-toolbar-help-content-rereference-result": "Text vun der Säit. <sup><a href='#'>[2]</a></sup>",
 	"wikieditor-toolbar-help-content-showreferences-description": "Referenze weisen",
