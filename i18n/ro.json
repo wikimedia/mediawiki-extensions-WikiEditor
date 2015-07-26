@@ -6,7 +6,8 @@
 			"Firilacroco",
 			"Minisarm",
 			"Stelistcristi",
-			"Macofe"
+			"Macofe",
+			"Wintereu"
 		]
 	},
 	"wikieditor": "Interfață de modificare wikitext avansată",
@@ -190,7 +191,7 @@
 	"wikieditor-toolbar-help-content-file-description": "Fișier inserat",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Exemplu.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Referință",
-	"wikieditor-toolbar-help-content-reference-syntax": "Textul paginii.&lt;ref&gt;[http://www.exemplu.org Textul legăturii], text suplimentar.&lt;/ref&gt;",
+	"wikieditor-toolbar-help-content-reference-syntax": "Textul paginii.&lt;ref&gt;[http://www.exemplu.org Legătura textului], text suplimentar.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Textul paginii.<sup><a href='#'>[1]</a></sup>",
 	"wikieditor-toolbar-help-content-rereference-description": "Utilizare suplimentară a aceleiași referințe",
 	"wikieditor-toolbar-help-content-rereference-result": "Textul paginii.<sup><a href='#'>[2]</a></sup>",
