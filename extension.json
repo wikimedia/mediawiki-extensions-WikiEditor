@@ -101,7 +101,14 @@
 				"wikieditor-toolbar-file-format",
 				"wikieditor-toolbar-tool-file-insert",
 				"wikieditor-toolbar-tool-file-cancel"
-			]
+			],
+			"templates": {
+				"dialogInsertFile.html": "templates/dialogInsertFile.html",
+				"dialogInsertLink.html": "templates/dialogInsertLink.html",
+				"dialogInsertReference.html": "templates/dialogInsertReference.html",
+				"dialogInsertTable.html": "templates/dialogInsertTable.html",
+				"dialogReplace.html": "templates/dialogReplace.html"
+			}
 		},
 		"jquery.wikiEditor.preview": {
 			"group": "ext.wikiEditor",
