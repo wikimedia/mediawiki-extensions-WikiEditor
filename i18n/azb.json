@@ -182,7 +182,7 @@
 	"wikieditor-toolbar-help-content-reference-syntax": "صحیفه‌نین متنی.&lt;ref&gt;[http://www.example.org کئچیدین متنی]، علاوه متنت.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "صحیفه متنی.<sup><a href='#'>[1]</a></sup>",
 	"wikieditor-toolbar-help-content-rereference-description": "عینی ایستیناددان ایستیفاده‌نین علاوه‌سی",
-	"wikieditor-toolbar-help-content-rereference-result": "صحیفه متنی.<sup><a href='#'>[2]</a></sup>",
+	"wikieditor-toolbar-help-content-rereference-result": "صفحه متنی.<sup><a href='#'>[2]</a></sup>",
 	"wikieditor-toolbar-help-content-showreferences-description": "قایناق لاری گؤستر",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>م</a>، آرتیق متن.</li></ol>تن باغلانتی سی",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "واخت قئیدی ایله ایمضا",

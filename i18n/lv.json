@@ -154,7 +154,7 @@
 	"wikieditor-toolbar-help-content-bolditalic-syntax": "'''''Pustrekns teksts kursīvā'''''",
 	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>Pustrekns teksts kursīvā</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "Iekšējā saite",
-	"wikieditor-toolbar-help-content-ilink-syntax": "[[Lapas nosaukums|Saites teksts]]<br />[[Lapas nosaukums]]",
+	"wikieditor-toolbar-help-content-ilink-syntax": "[[Lapas nosaukums]]<br />[[Lapas nosaukums|Saites teksts]]",
 	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>Saites teksts</a><br /><a href='#'>Lapas nosaukums</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "Ārējā saite",
 	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.example.org Saites teksts]<br />[http://www.example.org]<br />http://www.example.org",
