@@ -406,10 +406,6 @@
 			"position": "top",
 			"group": "ext.wikiEditor",
 			"styles": "ext.wikiEditor.toolbar.styles.less"
-		},
-		"ext.wikiEditor.toolbar.hideSig": {
-			"group": "ext.wikiEditor",
-			"scripts": "ext.wikiEditor.toolbar.hideSig.js"
 		}
 	},
 	"ResourceFileModulePaths": {

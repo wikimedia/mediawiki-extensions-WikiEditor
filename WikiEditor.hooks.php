@@ -53,22 +53,6 @@ class WikiEditorHooks {
 				'ext.wikiEditor.dialogs',
 			),
 		),
-		'hidesig' => array(
-			'preferences' => array(
-				'wikieditor-toolbar-hidesig' => array(
-					'type' => 'toggle',
-					'label-message' => 'wikieditor-toolbar-hidesig',
-					'section' => 'editing/editor',
-				),
-			),
-			'requirements' => array(
-				'wikieditor-toolbar-hidesig' => true,
-				'usebetatoolbar' => true,
-			),
-			'modules' => array(
-				'ext.wikiEditor.toolbar.hideSig',
-			),
-		),
 
 		/* Labs Features */
 
@@ -118,8 +102,6 @@ class WikiEditorHooks {
 			'toolbar' => array( 'global' => false, 'user' => true ),
 			// Provides interactive tools
 			'dialogs' => array( 'global' => false, 'user' => true ),
-			// Hide signature button from main namespace
-			'hidesig' => array( 'global' => true, 'user' => false ),
 
 			/* Textarea / i-frame compatible, but still experimental and unstable (do not deploy!) */
 
@@ -367,6 +349,7 @@ class WikiEditorHooks {
 	public static function resourceLoaderGetConfigVars( &$vars ) {
 		// expose magic words for use by the wikieditor toolbar
 		WikiEditorHooks::getMagicWords( $vars );
+
 		return true;
 	}
 

@@ -6,7 +6,7 @@
 
 getDefaultConfig: function () {
 	var fileNamespace = mw.config.get( 'wgFormattedNamespaces' )[6];
-	return { 'toolbar': {
+	var result = { 'toolbar': {
 		// Main section
 		'main': {
 			'type': 'toolbar',
@@ -776,6 +776,16 @@ getDefaultConfig: function () {
 			}
 		}
 	} };
+
+	// If this page is not a talk page and not in a namespaces listed in
+	// wgExtraSignatureNamespaces, remove the signature button
+	if ( mw.config.get( 'wgNamespaceNumber' ) % 2 === 0 &&
+		$.inArray( mw.config.get( 'wgNamespaceNumber' ), mw.config.get( 'wgExtraSignatureNamespaces' ) ) === -1
+	) {
+		delete result.toolbar.main.groups.insert.tools.signature;
+	}
+
+	return result;
 }
 
 }; } ) ( jQuery, mediaWiki );

@@ -47,7 +47,6 @@
 	"wikieditor-toolbar-desc": "Unused at this time.",
 	"wikieditor-toolbar-preference": "Option in [[Special:Preferences]]",
 	"wikieditor-toolbar-dialogs-preference": "Caption of a checkbox on [[Special:Preferences]] (''editing'' tab), enabling helper dialogs for various features of the advanced edit toolbar (e.g. inserting links or tables).\n{{Identical|Enable wizards for inserting links, tables as well as the search and replace function}}",
-	"wikieditor-toolbar-hidesig": "Description for a global preference to hide signature in main namespace.",
 	"wikieditor-toolbar-loading": "{{Identical|Loading}}",
 	"wikieditor-toolbar-tool-bold": "{{Identical|Bold}}",
 	"wikieditor-toolbar-tool-bold-example": "{{Identical|Bold text}}",
