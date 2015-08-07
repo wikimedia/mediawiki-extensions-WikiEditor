@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Sasan700",
-			"Умар"
+			"Умар",
+			"Исмаил Садуев"
 		]
 	},
 	"wikieditor": "Викийоза тадаран шоьйра интерфейс",
@@ -19,14 +20,13 @@
 	"wikieditor-publish-dialog-title": "{{SITENAME}} проектехь арахецар",
 	"wikieditor-publish-dialog-summary": "Хийцамах лаьцна (доц язде хlу хийцам бина ахьа):",
 	"wikieditor-publish-dialog-minor": "Жим хийцам",
-	"wikieditor-publish-dialog-watch": "Тергам бé хlокху агlон",
+	"wikieditor-publish-dialog-watch": "Тергам бé хӀокху агӀона",
 	"wikieditor-publish-dialog-publish": "Арахеца",
 	"wikieditor-publish-dialog-goback": "Юха",
 	"wikieditor-toolbar": "Тадаран меттиг",
 	"wikieditor-toolbar-desc": "Тадаран меттиг гӀоле лелорца",
 	"wikieditor-toolbar-preference": "Гайта дика кечйина панель",
 	"wikieditor-toolbar-dialogs-preference": "Латайé йозан хьажорг йуьллург, таблицан а, кхин хӀумнашна а",
-	"wikieditor-toolbar-hidesig": "Коьрта цӀерийн аннийн агӀонашкахь къайлаяккха куьйг таӀо кнопка",
 	"wikieditor-toolbar-loading": "Чуйолуш…",
 	"wikieditor-toolbar-tool-bold": "Дерстино",
 	"wikieditor-toolbar-tool-bold-example": "Дерстино до йоза",
