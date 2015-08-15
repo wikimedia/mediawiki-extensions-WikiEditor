@@ -10,7 +10,8 @@
 			"Priviet",
 			"관인생략",
 			"아라",
-			"Macofe"
+			"Macofe",
+			"Hwangjy9"
 		]
 	},
 	"wikieditor": "확장된 위키텍스트 편집 인터페이스",
@@ -167,7 +168,7 @@
 	"wikieditor-toolbar-help-content-bolditalic-syntax": "'''''굵고 기울인 글씨'''''",
 	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>굵고 기울인 글씨</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "안쪽 링크",
-	"wikieditor-toolbar-help-content-ilink-syntax": "[[문서 이름|다른 이름]]<br />[[문서 이름]]",
+	"wikieditor-toolbar-help-content-ilink-syntax": "[[문서 이름]]<br />[[문서 이름|다른 이름]]",
 	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>다른 이름</a><br /><a href='#'>문서 이름</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "바깥 링크",
 	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.example.org 링크 이름]<br />[http://www.example.org]<br />http://www.example.org",
