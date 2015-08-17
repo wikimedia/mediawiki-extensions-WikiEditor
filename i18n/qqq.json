@@ -46,7 +46,7 @@
 	"wikieditor-toolbar": "A customizable toolbar for the WikiEditor.\nFor more information, see http://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization",
 	"wikieditor-toolbar-desc": "Unused at this time.",
 	"wikieditor-toolbar-preference": "Option in [[Special:Preferences]]",
-	"wikieditor-toolbar-dialogs-preference": "Caption of a checkbox on [[Special:Preferences]] (''editing'' tab), enabling helper dialogs for various features of the advanced edit toolbar (e.g. inserting links or tables).\n{{Identical|Enable wizards for inserting links, tables as well as the search and replace function}}",
+	"wikieditor-toolbar-dialogs-preference": "Caption of a checkbox on [[Special:Preferences]] (''editing'' tab), enabling helper dialogs for various features of the advanced edit toolbar (e.g. inserting links or tables).",
 	"wikieditor-toolbar-loading": "{{Identical|Loading}}",
 	"wikieditor-toolbar-tool-bold": "{{Identical|Bold}}",
 	"wikieditor-toolbar-tool-bold-example": "{{Identical|Bold text}}",
