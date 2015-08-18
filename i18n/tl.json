@@ -3,7 +3,8 @@
 		"authors": [
 			"AnakngAraw",
 			"McDutchie",
-			"Macofe"
+			"Macofe",
+			"Lam-ang"
 		]
 	},
 	"wikieditor": "Mas masulong na dugtungang-mukha na pambago ng wikiteksto",
@@ -27,7 +28,6 @@
 	"wikieditor-toolbar-desc": "Kahong kasangkapan na pamatnugot na may pinainam na pagkanagagamit",
 	"wikieditor-toolbar-preference": "Paganahin ang pinainam na kahong kasangkapang pamatnugot",
 	"wikieditor-toolbar-dialogs-preference": "Paganahin ang mga salitaan para sa pagsisingit ng mga kawing, mga tabla at marami pa",
-	"wikieditor-toolbar-hidesig": "Itago ang pindutan ng lagda magmula sa mga pahina sa loob ng pangunahing puwang ng pangalan",
 	"wikieditor-toolbar-loading": "Ikinakarga...",
 	"wikieditor-toolbar-tool-bold": "Makapal",
 	"wikieditor-toolbar-tool-bold-example": "Makapal na panitik",
@@ -158,7 +158,7 @@
 	"wikieditor-toolbar-help-content-bold-result": "<strong>Tekstong makapal</strong>",
 	"wikieditor-toolbar-help-content-bolditalic-description": "Makapal &amp; nakapahilis",
 	"wikieditor-toolbar-help-content-bolditalic-syntax": "'''''Tekstong makapal &amp; nakapahilis'''''",
-	"wikieditor-toolbar-help-content-bolditalic-result": "strong><em>Tekstong makapal &amp; nakapahilis</em></strong>",
+	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>Tekstong makapal &amp; nakapahilis</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "Kawing panloob",
 	"wikieditor-toolbar-help-content-ilink-syntax": "[[Page title|Tatak ng kawing]]<br />[[Pamagat ng pahina]]",
 	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>Tatak ng kawing</a><br /><a href='#'>Pamagat ng pahina</a>",
