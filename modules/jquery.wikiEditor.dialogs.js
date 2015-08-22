@@ -135,6 +135,8 @@ $.wikiEditor.modules.dialogs = {
 			configuration.buttons = configuration.newButtons;
 			if ( module.htmlTemplate ) {
 				$content = mw.template.get( 'jquery.wikiEditor.dialogs.config', module.htmlTemplate ).render();
+			} else if ( module.html instanceof jQuery ) {
+				$content = module.html;
 			} else {
 				$content = $( $.parseHTML( module.html ) );
 			}
