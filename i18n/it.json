@@ -132,7 +132,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Anteprima",
 	"wikieditor-toolbar-tool-table-insert": "Inserisci",
 	"wikieditor-toolbar-tool-table-cancel": "Annulla",
-	"wikieditor-toolbar-tool-table-toomany": "Con questo strumento non è possibile inserire una tabella che abbia più di 1000 celle.",
+	"wikieditor-toolbar-tool-table-toomany": "Con questo strumento non è possibile inserire una tabella che abbia più di $1 {{PLURAL:$1|cella|celle}}.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Non hai indicato un numero valido di righe o di colonne.",
 	"wikieditor-toolbar-tool-table-zero": "Non puoi inserire una tabella senza righe e/o senza colonne.",
 	"wikieditor-toolbar-tool-replace": "Cerca e sostituisci",

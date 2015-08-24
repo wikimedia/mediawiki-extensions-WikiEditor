@@ -9,7 +9,8 @@
 			"TRYPPN",
 			"செல்வா",
 			"மதனாஹரன்",
-			"Macofe"
+			"Macofe",
+			"Shrikarsan"
 		]
 	},
 	"wikieditor": "மேம்பட்ட விக்கியுரைத் தொகுப்பு இடைமுகம்",
@@ -155,10 +156,10 @@
 	"wikieditor-toolbar-help-page-reference": "மேற்கோள்கள்",
 	"wikieditor-toolbar-help-page-discussion": "உரையாடல்",
 	"wikieditor-toolbar-help-content-italic-description": "சாய்ந்த",
-	"wikieditor-toolbar-help-content-italic-syntax": "\"சாய்ந்த எழுத்துக்கள்\"",
+	"wikieditor-toolbar-help-content-italic-syntax": "''சாய்ந்த எழுத்துக்கள்''",
 	"wikieditor-toolbar-help-content-italic-result": "<em>சாய்ந்த எழுத்துரை</em>",
 	"wikieditor-toolbar-help-content-bold-description": "தடித்த",
-	"wikieditor-toolbar-help-content-bold-syntax": "\"தடித்த எழுத்துக்கள்\"",
+	"wikieditor-toolbar-help-content-bold-syntax": "'''தடித்த எழுத்துக்கள்'''",
 	"wikieditor-toolbar-help-content-bold-result": "<strong>தடித்த உரை</strong>",
 	"wikieditor-toolbar-help-content-bolditalic-description": "தடித்த & சாய்ந்த",
 	"wikieditor-toolbar-help-content-bolditalic-syntax": "'''''தடித்த & சாய்ந்த சொற்றொடர்'''''",
