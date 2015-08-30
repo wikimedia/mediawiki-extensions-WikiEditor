@@ -136,7 +136,7 @@
 	"wikieditor-toolbar-tool-replace-title": "찾아 바꾸기",
 	"wikieditor-toolbar-tool-replace-search": "찾을 대상:",
 	"wikieditor-toolbar-tool-replace-replace": "바꾸기:",
-	"wikieditor-toolbar-tool-replace-case": "대소문자 구별",
+	"wikieditor-toolbar-tool-replace-case": "대소문자 구분",
 	"wikieditor-toolbar-tool-replace-regex": "찾을 문자열에 정규 표현식을 적용",
 	"wikieditor-toolbar-tool-replace-button-findnext": "다음 찾기",
 	"wikieditor-toolbar-tool-replace-button-replace": "바꾸기",
