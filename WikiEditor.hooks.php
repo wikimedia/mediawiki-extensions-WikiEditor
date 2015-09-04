@@ -190,7 +190,6 @@ class WikiEditorHooks {
 			'editor' => 'wikitext',
 			'platform' => 'desktop', // FIXME
 			'integration' => 'page',
-			'page.length' => -1, // FIXME
 			'page.id' => $page->getId(),
 			'page.title' => $title->getPrefixedText(),
 			'page.ns' => $title->getNamespace(),
@@ -204,7 +203,7 @@ class WikiEditorHooks {
 			$data['user.class'] = 'IP';
 		}
 
-		return EventLogging::logEvent( 'Edit', 11448630, $data );
+		return EventLogging::logEvent( 'Edit', 13457736, $data );
 	}
 
 	/**
