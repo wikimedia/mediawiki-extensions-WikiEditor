@@ -12,7 +12,8 @@
 			"青子守歌",
 			"Rxy",
 			"Macofe",
-			"Sujiniku"
+			"Sujiniku",
+			"Otokoume"
 		]
 	},
 	"wikieditor": "高度なウィキテキスト編集インターフェイス",
@@ -198,10 +199,11 @@
 	"wikieditor-toolbar-help-content-reference-description": "注釈",
 	"wikieditor-toolbar-help-content-reference-syntax": "ページ本文&lt;ref&gt;[http://www.example.org リンクタイトル]、追加テキスト&lt;/ref&gt;。",
 	"wikieditor-toolbar-help-content-reference-result": "ページ本文<sup><a href='#'>[1]</a></sup>。",
+	"wikieditor-toolbar-help-content-named-reference-result": "ページ本文<sup><a href='#'>[2]</a></sup>。",
 	"wikieditor-toolbar-help-content-rereference-description": "同じ注釈の追加利用",
 	"wikieditor-toolbar-help-content-rereference-result": "ページ本文<sup><a href='#'>[2]</a></sup>。",
 	"wikieditor-toolbar-help-content-showreferences-description": "脚注の表示",
-	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>リンクタイトル</a>、追加テキスト</li></ol>",
+	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>リンクタイトル</a>、追加テキスト</li><li id='cite_note-test-1'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>リンクタイトル</a></li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "時刻印付き署名",
 	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='{{#special:mypage}}'>利用者名</a> (<a href='#' title='{{#special:mytalk}}'>トーク</a>) 2009年6月10日 (水) 15:54 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "署名",
