@@ -28,7 +28,6 @@
 				'page.title': mw.config.get( 'wgPageName' ),
 				'page.ns': mw.config.get( 'wgNamespaceNumber' ),
 				'page.revid': mw.config.get( 'wgRevisionId' ),
-				'page.length': -1, // FIXME
 				'user.id': mw.user.getId(),
 				'user.editCount': mw.config.get( 'wgUserEditCount', 0 ),
 				'mediawiki.version': mw.config.get( 'wgVersion' )
@@ -70,25 +69,32 @@
 			} );
 			onUnloadFallback = window.onunload;
 			window.onunload = function () {
-				var fallbackResult,
+				var fallbackResult, abortType,
 					caVeEdit = $( '#ca-ve-edit' )[0],
 					switchingToVE = caVeEdit && (
 						document.activeElement === caVeEdit ||
 						$.contains( caVeEdit, document.activeElement )
-					);
+					),
+					unmodified = mw.config.get( 'wgAction' ) !== 'submit' && origText === $textarea.val();
 
 				if ( onUnloadFallback ) {
 					fallbackResult = onUnloadFallback();
 				}
 
+				if ( switchingToVE && unmodified ) {
+					abortType = 'switchnochange';
+				} else if ( switchingToVE ) {
+					abortType = 'switchwithout';
+				} else if ( unmodified ) {
+					abortType = 'nochange';
+				} else {
+					abortType = 'abandon';
+				}
+
 				if ( !submitting ) {
 					logEditEvent( 'abort', {
 						editingSessionId: editingSessionId,
-						type: switchingToVE ? 'switchwithout' :
-							( mw.config.get( 'wgAction' ) !== 'submit' && origText === $textarea.val() ?
-								'nochange' :
-								'abandon'
-							)
+						type: abortType
 					} );
 				}
 
