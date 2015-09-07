@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Mdupont",
-			"Macofe"
+			"Macofe",
+			"Ammartivari"
 		]
 	},
 	"wikieditor": "redaktimi i avancuar wikitext interface",
@@ -18,7 +19,7 @@
 	"wikieditor-publish-button-cancel": "Anuloj",
 	"wikieditor-publish-dialog-title": "Publikimi në {{SITENAME}}",
 	"wikieditor-publish-dialog-summary": "përmbledhje Edit (përshkruaj shkurtimisht ndryshimet që keni bërë):",
-	"wikieditor-publish-dialog-minor": "Minor redakto",
+	"wikieditor-publish-dialog-minor": "Redaktim i vogël",
 	"wikieditor-publish-dialog-watch": "Watch këtë faqe",
 	"wikieditor-publish-dialog-publish": "Publikoj",
 	"wikieditor-publish-dialog-goback": "Kthehem",

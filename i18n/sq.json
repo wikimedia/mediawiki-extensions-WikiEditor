@@ -4,7 +4,8 @@
 			"Mikullovci11",
 			"Olsi",
 			"Nemo bis",
-			"Macofe"
+			"Macofe",
+			"Ammartivari"
 		]
 	},
 	"wikieditor": "Editori i përparuar",
@@ -20,7 +21,7 @@
 	"wikieditor-publish-button-cancel": "Anulo",
 	"wikieditor-publish-dialog-title": "Publikimi për {{SITENAME}}",
 	"wikieditor-publish-dialog-summary": "Përmbledhje (përshkrim të shkurtër e ndryshimeve që e keni bërë):",
-	"wikieditor-publish-dialog-minor": "Ky është një redaktim i vogël",
+	"wikieditor-publish-dialog-minor": "Redaktim i vogël",
 	"wikieditor-publish-dialog-watch": "Mbikqyre këtë faqe",
 	"wikieditor-publish-dialog-publish": "Publikuar",
 	"wikieditor-publish-dialog-goback": "Kthehu",
