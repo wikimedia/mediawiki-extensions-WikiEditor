@@ -4,7 +4,8 @@
 			"Aushulz",
 			"Gmelfi",
 			"Macofe",
-			"Pippinu"
+			"Pippinu",
+			"Sarvaturi"
 		]
 	},
 	"wikieditor": "Ntirfazza avanzata di canci di testu wiki",
@@ -27,7 +28,7 @@
 	"wikieditor-toolbar": "Barra dî strummenta di canci",
 	"wikieditor-toolbar-desc": "Barra dî strummenta di canci dâ pàggina cu na megghiu usabbilità",
 	"wikieditor-toolbar-preference": "Abbilita la barra avanzata dî strummenta di canci",
-	"wikieditor-toolbar-dialogs-preference": "Attiva li pruciduri guidati pi' nsirìri liami e tabbelli e pâ funzioni di risciduta e rimpiazzu",
+	"wikieditor-toolbar-dialogs-preference": "Attiva li pruciduri guidati pi nziriri liami e tabbelli e pâ funzioni di arricerca e rimpiazzu",
 	"wikieditor-toolbar-loading": "Caricamentu in corsu...",
 	"wikieditor-toolbar-tool-bold": "Grassettu",
 	"wikieditor-toolbar-tool-bold-example": "Testu in grassettu",
@@ -111,7 +112,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Antiprima",
 	"wikieditor-toolbar-tool-table-insert": "Nsirìsci",
 	"wikieditor-toolbar-tool-table-cancel": "Annulla",
-	"wikieditor-toolbar-tool-table-toomany": "Cu' sta finestra di diàlugu nun si ponnu nsirìri tabbelli cu' cchiussai di 1000 ceḍḍi.",
+	"wikieditor-toolbar-tool-table-toomany": "Cu sta finestra di diàlugu nun si ponnu nziriri tabbelli cu cchiossai di 1000 ceddi.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Nun andicasti nu nùmmuru vâliddu di ligni o di culonni",
 	"wikieditor-toolbar-tool-table-zero": "Nun puoi nsiriri na tabbella senza ligni e/o senza culonni",
 	"wikieditor-toolbar-tool-replace": "Cerca e sustituisci",
