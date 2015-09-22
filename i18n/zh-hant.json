@@ -146,7 +146,7 @@
 	"wikieditor-toolbar-tool-replace-title": "搜尋與取代",
 	"wikieditor-toolbar-tool-replace-search": "搜尋：",
 	"wikieditor-toolbar-tool-replace-replace": "取代為：",
-	"wikieditor-toolbar-tool-replace-case": "區分大小寫",
+	"wikieditor-toolbar-tool-replace-case": "大小寫須相符",
 	"wikieditor-toolbar-tool-replace-regex": "使用正規表示法搜尋",
 	"wikieditor-toolbar-tool-replace-button-findnext": "尋找下一筆",
 	"wikieditor-toolbar-tool-replace-button-replace": "取代",
