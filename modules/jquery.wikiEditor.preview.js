@@ -76,8 +76,7 @@ fn: {
 
 					var loadmodules = data.parse.modules.concat(
 						data.parse.modulescripts,
-						data.parse.modulestyles,
-						data.parse.modulemessages
+						data.parse.modulestyles
 					);
 					mw.loader.load( loadmodules );
 				} );
