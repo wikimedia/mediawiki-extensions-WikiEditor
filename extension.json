@@ -12,7 +12,6 @@
 	"descriptionmsg": "wikieditor-desc",
 	"license-name": "GPL-2.0+",
 	"type": "other",
-	"callback": "WikiEditorHooks::onRegistration",
 	"MessagesDirs": {
 		"WikiEditor": [
 			"i18n"
@@ -420,7 +419,25 @@
 		"remoteExtPath": "WikiEditor/modules"
 	},
 	"config": {
-		"@doc": "WikiEditorFeatures is set in WikiEditor.hooks.php"
+		"WikiEditorFeatures": {
+			"toolbar": {
+				"global": false,
+				"user": true
+			},
+			"dialogs": {
+				"global": false,
+				"user": true
+			},
+			"preview": {
+				"global": false,
+				"user": true
+			},
+			"publish": {
+				"global": false,
+				"user": true
+			},
+			"_merge_strategy": "array_plus_2d"
+		}
 	},
 	"AutoloadClasses": {
 		"WikiEditorHooks": "WikiEditor.hooks.php"
