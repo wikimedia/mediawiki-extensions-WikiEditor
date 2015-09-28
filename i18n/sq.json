@@ -5,17 +5,18 @@
 			"Olsi",
 			"Nemo bis",
 			"Macofe",
-			"Ammartivari"
+			"Ammartivari",
+			"Kosovastar"
 		]
 	},
 	"wikieditor": "Editori i përparuar",
 	"wikieditor-desc": "Siguron një redaktimi të vazhdueshëm wikitekst dhe shumë sigurime metrazhi",
 	"wikieditor-wikitext-tab": "Tekstwiki",
-	"wikieditor-loading": "Duke u ngarkuar",
+	"wikieditor-loading": "Duke ngarkuar...",
 	"wikieditor-preview-preference": "Aktivizoni parapamjen krah-për-krah",
 	"wikieditor-preview-tab": "Parapamje",
 	"wikieditor-preview-changes-tab": "Ndryshimet",
-	"wikieditor-preview-loading": "Duke u ngarkuar...",
+	"wikieditor-preview-loading": "Duke ngarkuar...",
 	"wikieditor-publish-preference": "Aktivizoni publikimin hap-pas-hapi",
 	"wikieditor-publish-button-publish": "Publikuar",
 	"wikieditor-publish-button-cancel": "Anulo",
