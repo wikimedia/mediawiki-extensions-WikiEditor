@@ -12,7 +12,8 @@
 			"TMg",
 			"Umherirrender",
 			"Ziko",
-			"✓"
+			"✓",
+			"Purodha"
 		]
 	},
 	"wikieditor": "Fortgeschrittener Wikitext-Editor",
@@ -36,7 +37,6 @@
 	"wikieditor-toolbar-desc": "Bearbeiten-Werkzeugleiste mit verbesserter Benutzerfreundlichkeit",
 	"wikieditor-toolbar-preference": "Erweiterte Bearbeiten-Werkzeugleiste aktivieren",
 	"wikieditor-toolbar-dialogs-preference": "Assistenten zum Einfügen von Links und Tabellen sowie die Funktion „Suchen und Ersetzen“ aktivieren",
-	"wikieditor-toolbar-hidesig": "Die Schaltfläche für die Signatur bei Seiten im Artikelnamensraum ausblenden",
 	"wikieditor-toolbar-loading": "Lade …",
 	"wikieditor-toolbar-tool-bold": "Fett",
 	"wikieditor-toolbar-tool-bold-example": "Fetter Text",
@@ -131,7 +131,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Vorschau",
 	"wikieditor-toolbar-tool-table-insert": "Einfügen",
 	"wikieditor-toolbar-tool-table-cancel": "Abbrechen",
-	"wikieditor-toolbar-tool-table-toomany": "Das Einfügen einer Tabelle mit mehr als {{PLURAL:$1|einer Zelle|1000 Zellen}} ist mit diesem Dialog nicht möglich.",
+	"wikieditor-toolbar-tool-table-toomany": "Das Einfügen einer Tabelle mit mehr als {{PLURAL:$1|einer Zelle|$1 Zellen}} ist mit diesem Dialog nicht möglich.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Du hast keine gültige Anzahl von Zeilen oder Spalten angegeben.",
 	"wikieditor-toolbar-tool-table-zero": "Du kannst keine Tabelle einfügen, die weder Zeilen noch Spalten hat.",
 	"wikieditor-toolbar-tool-replace": "Suchen und Ersetzen",
