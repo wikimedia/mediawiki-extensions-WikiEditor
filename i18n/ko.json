@@ -197,6 +197,7 @@
 	"wikieditor-toolbar-help-content-reference-description": "각주",
 	"wikieditor-toolbar-help-content-reference-syntax": "문서 내용.&lt;ref&gt;[http://www.example.org 링크 제목], 기타 설명.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "문서 내용.<sup><a href='#'>[1]</a></sup>",
+	"wikieditor-toolbar-help-content-named-reference-result": "문서 내용.<sup><a href='#'>[2]</a></sup>",
 	"wikieditor-toolbar-help-content-rereference-description": "같은 각주의 추가 사용",
 	"wikieditor-toolbar-help-content-rereference-result": "문서 내용.<sup><a href='#'>[2]</a></sup>",
 	"wikieditor-toolbar-help-content-showreferences-description": "각주 보이기",
