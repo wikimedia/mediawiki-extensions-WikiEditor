@@ -11,7 +11,8 @@
 			"Zack wadghiri",
 			"ترجمان05",
 			"زكريا",
-			"Macofe"
+			"Macofe",
+			"Shbib Al-Subaie"
 		]
 	},
 	"wikieditor": "الواجهة المتقدمة لتعديل نص ويكي",
@@ -197,6 +198,8 @@
 	"wikieditor-toolbar-help-content-reference-description": "مرجع",
 	"wikieditor-toolbar-help-content-reference-syntax": "نص الصفحة.&lt;ref&gt;[http://www.example.org نص الوصلة]، نص إضافي.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "نص الصفحة.<sup><a href='#'>[1]</a></sup>",
+	"wikieditor-toolbar-help-content-named-reference-description": "مرجع مسمى",
+	"wikieditor-toolbar-help-content-named-reference-result": "نص الصفحة.<sup><a href='#'>[2]</a></sup>",
 	"wikieditor-toolbar-help-content-rereference-description": "استخدام نفس المرجع مرة أخرى",
 	"wikieditor-toolbar-help-content-rereference-result": "نص الصفحة.<sup><a href='#'>[2]</a></sup>",
 	"wikieditor-toolbar-help-content-showreferences-description": "اعرض المراجع",
