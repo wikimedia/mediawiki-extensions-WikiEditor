@@ -3,7 +3,8 @@
 		"authors": [
 			"Iltever",
 			"Къарачайлы",
-			"Macofe"
+			"Macofe",
+			"Ernác"
 		]
 	},
 	"wikieditor": "Викитекст редакторлауну кенгертилген интерфейси",
@@ -27,7 +28,6 @@
 	"wikieditor-toolbar-desc": "Хайырланыр мадары игиленнген тюрлендириу панель",
 	"wikieditor-toolbar-preference": "Игиленнген тюрлендириу панелни джандыр",
 	"wikieditor-toolbar-dialogs-preference": "Джибериулени, таблицаланы эмда андан башханы къошар ючюн мастерни джандыр",
-	"wikieditor-toolbar-hidesig": "Баш атла аламдагъы бетледе башлыкъны тиегин джашыр",
 	"wikieditor-toolbar-loading": "Джюклениу...",
 	"wikieditor-toolbar-tool-bold": "Къалын",
 	"wikieditor-toolbar-tool-bold-example": "Къалын джазыу",
