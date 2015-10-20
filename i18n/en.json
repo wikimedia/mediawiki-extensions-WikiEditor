@@ -69,6 +69,7 @@
 	"wikieditor-toolbar-file-format-none": "none",
 	"wikieditor-toolbar-tool-file-insert": "Insert",
 	"wikieditor-toolbar-tool-file-cancel": "Cancel",
+	"wikieditor-toolbar-tool-file-upload": "Upload",
 	"wikieditor-toolbar-tool-reference": "Reference",
 	"wikieditor-toolbar-tool-reference-example": "Insert footnote text here",
 	"wikieditor-toolbar-tool-reference-cancel": "Cancel",

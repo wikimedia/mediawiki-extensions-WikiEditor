@@ -29,6 +29,7 @@
 	"globals": {
 		"mediaWiki": false,
 		"jQuery": false,
-		"QUnit": false
+		"QUnit": false,
+		"OO": true
 	}
 }

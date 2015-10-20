@@ -3,7 +3,7 @@
  */
 /*jshint curly:false, noarg:false, quotmark:false, onevar:false */
 /*global alert */
-( function ( $, mw ) {
+( function ( $, mw, OO ) {
 
 var hasOwn = Object.prototype.hasOwnProperty;
 
@@ -781,6 +781,25 @@ $.wikiEditor.modules.dialogs.config = {
 						},
 						'wikieditor-toolbar-tool-file-cancel': function () {
 							$( this ).dialog( 'close' );
+						},
+						'wikieditor-toolbar-tool-file-upload': function () {
+							var windowManager = new OO.ui.WindowManager(),
+								uploadDialog = new mw.Upload.Dialog( {
+									bookletClass: mw.ForeignStructuredUpload.BookletLayout
+								} );
+
+							$( this ).dialog( 'close' );
+							$( 'body' ).append( windowManager.$element );
+							windowManager.addWindows( [ uploadDialog ] );
+							windowManager.openWindow( uploadDialog );
+
+							uploadDialog.uploadBooklet.on( 'fileSaved', function ( imageInfo ) {
+								uploadDialog.close();
+								windowManager.$element.remove();
+
+								$.wikiEditor.modules.dialogs.api.openDialog( this, 'insert-file' );
+								$( '#wikieditor-toolbar-file-target' ).val( imageInfo.canonicaltitle );
+							} );
 						}
 					},
 					open: function () {
@@ -1224,4 +1243,4 @@ $.wikiEditor.modules.dialogs.config = {
 
 };
 
-}( jQuery, mediaWiki ) );
+}( jQuery, mediaWiki, OO ) );

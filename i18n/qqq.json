@@ -91,6 +91,7 @@
 	"wikieditor-toolbar-file-format-none": "Option in file dialog for no format for the added image.\n{{Identical|None}}",
 	"wikieditor-toolbar-tool-file-insert": "{{Identical|Insert}}",
 	"wikieditor-toolbar-tool-file-cancel": "{{Identical|Cancel}}",
+	"wikieditor-toolbar-tool-file-upload": "Label for button that opens the upload dialog",
 	"wikieditor-toolbar-tool-reference": "{{Identical|Reference}}",
 	"wikieditor-toolbar-tool-reference-example": "Used as example text when inserting a reference into the editbox from the toolbar",
 	"wikieditor-toolbar-tool-reference-cancel": "{{Identical|Cancel}}",

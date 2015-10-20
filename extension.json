@@ -84,6 +84,8 @@
 				"jquery.wikiEditor.dialogs",
 				"jquery.wikiEditor.toolbar.i18n",
 				"jquery.suggestions",
+				"mediawiki.Upload.Dialog",
+				"mediawiki.ForeignStructuredUpload.BookletLayout",
 				"mediawiki.api",
 				"mediawiki.RegExp",
 				"mediawiki.Title",
@@ -99,7 +101,8 @@
 				"wikieditor-toolbar-file-format-none",
 				"wikieditor-toolbar-file-format",
 				"wikieditor-toolbar-tool-file-insert",
-				"wikieditor-toolbar-tool-file-cancel"
+				"wikieditor-toolbar-tool-file-cancel",
+				"wikieditor-toolbar-tool-file-upload"
 			],
 			"templates": {
 				"dialogInsertFile.html": "templates/dialogInsertFile.html",
