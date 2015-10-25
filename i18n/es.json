@@ -85,6 +85,7 @@
 	"wikieditor-toolbar-file-format-none": "ninguno",
 	"wikieditor-toolbar-tool-file-insert": "Insertar",
 	"wikieditor-toolbar-tool-file-cancel": "Cancelar",
+	"wikieditor-toolbar-tool-file-upload": "Subir",
 	"wikieditor-toolbar-tool-reference": "Referencia",
 	"wikieditor-toolbar-tool-reference-example": "Insertar nota a pie de página aquí",
 	"wikieditor-toolbar-tool-reference-cancel": "Cancelar",

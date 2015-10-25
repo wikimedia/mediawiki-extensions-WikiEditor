@@ -9,7 +9,8 @@
 			"Vpovilaitis",
 			"Pofka",
 			"Salpusnis",
-			"Albertas"
+			"Albertas",
+			"Zygimantus"
 		]
 	},
 	"wikieditor": "Išplėstinė wikiteksto redagavimo sąsaja",
@@ -77,6 +78,7 @@
 	"wikieditor-toolbar-file-format-none": "nėra",
 	"wikieditor-toolbar-tool-file-insert": "Įterpti",
 	"wikieditor-toolbar-tool-file-cancel": "Atšaukti",
+	"wikieditor-toolbar-tool-file-upload": "Įkelti",
 	"wikieditor-toolbar-tool-reference": "Išnaša",
 	"wikieditor-toolbar-tool-reference-example": "Čia įterpkite teksto išnašą",
 	"wikieditor-toolbar-tool-reference-cancel": "Atšaukti",

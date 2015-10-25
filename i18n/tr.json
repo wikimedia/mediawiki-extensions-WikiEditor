@@ -12,7 +12,8 @@
 			"Srhat",
 			"Vito Genovese",
 			"Macofe",
-			"McAang"
+			"McAang",
+			"Mizunee"
 		]
 	},
 	"wikieditor": "Gelişmiş viki metni düzenleme arayüzü",
@@ -72,6 +73,7 @@
 	"wikieditor-toolbar-tool-file-example": "Örnek.jpg",
 	"wikieditor-toolbar-file-float": "Hizalama:",
 	"wikieditor-toolbar-tool-file-insert": "Ekle",
+	"wikieditor-toolbar-tool-file-upload": "Yükle",
 	"wikieditor-toolbar-tool-reference": "Kaynakça",
 	"wikieditor-toolbar-tool-reference-example": "Dipnot metnini buraya ekleyin",
 	"wikieditor-toolbar-tool-reference-cancel": "İptal",

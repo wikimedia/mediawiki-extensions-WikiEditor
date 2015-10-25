@@ -14,7 +14,8 @@
 			"Una giornata uggiosa '94",
 			"Vituzzu",
 			"Toadino2",
-			"Statix64"
+			"Statix64",
+			"Macofe"
 		]
 	},
 	"wikieditor": "Interfaccia avanzata di modifica del wikitesto",
@@ -82,6 +83,7 @@
 	"wikieditor-toolbar-file-format-none": "nessuno",
 	"wikieditor-toolbar-tool-file-insert": "Inserisci",
 	"wikieditor-toolbar-tool-file-cancel": "Annulla",
+	"wikieditor-toolbar-tool-file-upload": "Carica",
 	"wikieditor-toolbar-tool-reference": "Nota",
 	"wikieditor-toolbar-tool-reference-example": "Inserire qui il testo della nota",
 	"wikieditor-toolbar-tool-reference-cancel": "Annulla",
