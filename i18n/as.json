@@ -5,7 +5,8 @@
 			"Chaipau",
 			"Gitartha.bordoloi",
 			"Nilamdyuti",
-			"Macofe"
+			"Macofe",
+			"Dibya Dutta"
 		]
 	},
 	"wikieditor": "উচ্চতৰ ৱিকিপাঠ্য সম্পাদনা ইণ্টাৰফে'চ",
@@ -72,6 +73,7 @@
 	"wikieditor-toolbar-file-format-none": "একো নাই",
 	"wikieditor-toolbar-tool-file-insert": "সুমুৱাওক",
 	"wikieditor-toolbar-tool-file-cancel": "বাতিল কৰক",
+	"wikieditor-toolbar-tool-file-upload": "আপল'ড",
 	"wikieditor-toolbar-tool-reference": "তথ্যসংগ্ৰহ",
 	"wikieditor-toolbar-tool-reference-example": "পাদটীকাৰ লিখনি ইয়াত যোগ দিয়ক",
 	"wikieditor-toolbar-tool-reference-cancel": "বাতিল",
