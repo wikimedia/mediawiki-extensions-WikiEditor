@@ -16,7 +16,8 @@
 			"Dianakc",
 			"He7d3r",
 			"Opraco",
-			"Macofe"
+			"Macofe",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"wikieditor": "Interface avançada de edição de wikitexto",
@@ -84,6 +85,7 @@
 	"wikieditor-toolbar-file-format-none": "nenhum",
 	"wikieditor-toolbar-tool-file-insert": "Inserir",
 	"wikieditor-toolbar-tool-file-cancel": "Cancelar",
+	"wikieditor-toolbar-tool-file-upload": "Enviar",
 	"wikieditor-toolbar-tool-reference": "Referência",
 	"wikieditor-toolbar-tool-reference-example": "Insira o texto da referência aqui",
 	"wikieditor-toolbar-tool-reference-cancel": "Cancelar",

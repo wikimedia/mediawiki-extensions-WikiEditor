@@ -144,7 +144,7 @@
 	"wikieditor-toolbar-tool-replace-close": "Uždaryti",
 	"wikieditor-toolbar-tool-replace-nomatch": "Jūsų paieška nieko nerado.",
 	"wikieditor-toolbar-tool-replace-success": "Atlikta $1{{PLURAL:$1|}} pakeitimas (-ų).",
-	"wikieditor-toolbar-tool-replace-emptysearch": "Jūs neįvedėte nieko ieškoti.",
+	"wikieditor-toolbar-tool-replace-emptysearch": "Jūs nieko neįvedėte į paiešką.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "Reguliarioji išraiška, kurią įvedėte, yra neleistina: $1",
 	"wikieditor-toolbar-section-characters": "Specialieji simboliai",
 	"wikieditor-toolbar-section-help": "Pagalba",
