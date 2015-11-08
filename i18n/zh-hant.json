@@ -21,7 +21,8 @@
 			"Cwlin0416",
 			"Liflon",
 			"LNDDYL",
-			"Macofe"
+			"Macofe",
+			"Black9869184"
 		]
 	},
 	"wikieditor": "進階 Wiki 文字編輯介面",
@@ -89,6 +90,7 @@
 	"wikieditor-toolbar-file-format-none": "無",
 	"wikieditor-toolbar-tool-file-insert": "插入",
 	"wikieditor-toolbar-tool-file-cancel": "取消",
+	"wikieditor-toolbar-tool-file-upload": "上傳",
 	"wikieditor-toolbar-tool-reference": "參考文獻",
 	"wikieditor-toolbar-tool-reference-example": "插入腳註文字於此",
 	"wikieditor-toolbar-tool-reference-cancel": "取消",
