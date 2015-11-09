@@ -85,6 +85,7 @@
 	"wikieditor-toolbar-file-format-none": "aucun",
 	"wikieditor-toolbar-tool-file-insert": "Insérer",
 	"wikieditor-toolbar-tool-file-cancel": "Annuler",
+	"wikieditor-toolbar-tool-file-upload": "Télécharger",
 	"wikieditor-toolbar-tool-reference": "Référence",
 	"wikieditor-toolbar-tool-reference-example": "Insérer le texte de la note de bas de page ici",
 	"wikieditor-toolbar-tool-reference-cancel": "Annuler",

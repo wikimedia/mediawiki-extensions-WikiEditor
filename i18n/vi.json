@@ -4,7 +4,8 @@
 			"Minh Nguyen",
 			"Vinhtantran",
 			"පසිඳු කාවින්ද",
-			"Macofe"
+			"Macofe",
+			"Nguyên Lê"
 		]
 	},
 	"wikieditor": "Giao diện sửa đổi mã wiki nâng cao",
@@ -72,6 +73,7 @@
 	"wikieditor-toolbar-file-format-none": "không",
 	"wikieditor-toolbar-tool-file-insert": "Chèn",
 	"wikieditor-toolbar-tool-file-cancel": "Hủy bỏ",
+	"wikieditor-toolbar-tool-file-upload": "Tải lên",
 	"wikieditor-toolbar-tool-reference": "Chú thích tham khảo",
 	"wikieditor-toolbar-tool-reference-example": "Ghi chú tại đây",
 	"wikieditor-toolbar-tool-reference-cancel": "Hủy bỏ",
