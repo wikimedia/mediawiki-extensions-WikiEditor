@@ -7,7 +7,8 @@
 			"Xabier Armendaritz",
 			"පසිඳු කාවින්ද",
 			"Macofe",
-			"Sator"
+			"Sator",
+			"Subi"
 		]
 	},
 	"wikieditor": "Wikitestu edizio-interfaze aurreratua",
@@ -72,6 +73,7 @@
 	"wikieditor-toolbar-file-format": "Formatua:",
 	"wikieditor-toolbar-tool-file-insert": "Txertatu",
 	"wikieditor-toolbar-tool-file-cancel": "Utzi",
+	"wikieditor-toolbar-tool-file-upload": "Igo",
 	"wikieditor-toolbar-tool-reference": "Erreferentzia",
 	"wikieditor-toolbar-tool-reference-example": "Txertatu testu oina hemen",
 	"wikieditor-toolbar-tool-reference-cancel": "Utzi",
