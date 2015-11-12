@@ -3,7 +3,8 @@
 		"authors": [
 			"Lloffiwr",
 			"Xxglennxx",
-			"Macofe"
+			"Macofe",
+			"Robin Owain"
 		]
 	},
 	"wikieditor": "Rhyngwyneb golygu testun wici uwch",
@@ -71,6 +72,7 @@
 	"wikieditor-toolbar-file-format-none": "dim",
 	"wikieditor-toolbar-tool-file-insert": "Mewnosod",
 	"wikieditor-toolbar-tool-file-cancel": "Rhoi heibio",
+	"wikieditor-toolbar-tool-file-upload": "Uwchlwytho",
 	"wikieditor-toolbar-tool-reference": "Troednodyn",
 	"wikieditor-toolbar-tool-reference-example": "Ysgrifennwch droednodyn fan hyn",
 	"wikieditor-toolbar-tool-reference-cancel": "Diddymu",
