@@ -190,7 +190,7 @@
 	"wikieditor-toolbar-help-content-olist-syntax": "# Isi daftar<br /># Isi daftar",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Isi daftar</li><li>Isi daftar</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Menyisipkan berkas",
-	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Contoh.png|$2|$3]]",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-reference-description": "Referensi",
 	"wikieditor-toolbar-help-content-reference-syntax": "Teks halaman.&lt;ref&gt;[http://www.contoh.org Teks pranala], teks tambahan.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Teks halaman.<sup><a href='#'>[1]</a></sup>",
