@@ -10,7 +10,8 @@
 			"Wiki13",
 			"Macofe",
 			"MedShot",
-			"HanV"
+			"HanV",
+			"Sjoerddebruin"
 		]
 	},
 	"wikieditor": "Uitgebreide tekstverwerker voor wikitekst",
@@ -78,6 +79,7 @@
 	"wikieditor-toolbar-file-format-none": "geen",
 	"wikieditor-toolbar-tool-file-insert": "Invoegen",
 	"wikieditor-toolbar-tool-file-cancel": "Annuleren",
+	"wikieditor-toolbar-tool-file-upload": "Uploaden",
 	"wikieditor-toolbar-tool-reference": "Referentie",
 	"wikieditor-toolbar-tool-reference-example": "Plaats hier tekst voor de voetnoot",
 	"wikieditor-toolbar-tool-reference-cancel": "Annuleren",
