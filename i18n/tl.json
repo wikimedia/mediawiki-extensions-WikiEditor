@@ -4,7 +4,8 @@
 			"AnakngAraw",
 			"McDutchie",
 			"Macofe",
-			"Lam-ang"
+			"Lam-ang",
+			"Leeheonjin"
 		]
 	},
 	"wikieditor": "Mas masulong na dugtungang-mukha na pambago ng wikiteksto",
@@ -70,6 +71,7 @@
 	"wikieditor-toolbar-file-format": "Kaanyuan:",
 	"wikieditor-toolbar-tool-file-insert": "Isingit",
 	"wikieditor-toolbar-tool-file-cancel": "Huwag ituloy",
+	"wikieditor-toolbar-tool-file-upload": "Ikargang paitaas (upload)",
 	"wikieditor-toolbar-tool-reference": "Sanggunian",
 	"wikieditor-toolbar-tool-reference-example": "Isingit dito ang teksto ng talababa",
 	"wikieditor-toolbar-tool-reference-cancel": "Huwag ituloy",
