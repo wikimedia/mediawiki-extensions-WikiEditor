@@ -20,7 +20,7 @@ $.wikiEditor.modules.toolbar.config = {
 									labelMsg: 'wikieditor-toolbar-tool-bold',
 									type: 'button',
 									offset: {
-										default: [ 2, -574 ],
+										'default': [ 2, -574 ],
 										en: [ 2, -142 ],
 										cs: [ 2, -142 ],
 										de: [ 2, -214 ],
@@ -37,7 +37,7 @@ $.wikiEditor.modules.toolbar.config = {
 										ml: [ 2, -142 ]
 									},
 									icon: {
-										default: 'format-bold.png',
+										'default': 'format-bold.png',
 										en: 'format-bold-B.png',
 										cs: 'format-bold-B.png',
 										de: 'format-bold-F.png',
@@ -75,7 +75,7 @@ $.wikiEditor.modules.toolbar.config = {
 									labelMsg: 'wikieditor-toolbar-tool-italic',
 									type: 'button',
 									offset: {
-										default: [ 2, -718 ],
+										'default': [ 2, -718 ],
 										en: [ 2, -862 ],
 										cs: [ 2, -862 ],
 										de: [ 2, -934 ],
@@ -94,7 +94,7 @@ $.wikiEditor.modules.toolbar.config = {
 										ml: [ 2, -862 ]
 									},
 									icon: {
-										default: 'format-italic.png',
+										'default': 'format-italic.png',
 										en: 'format-italic-I.png',
 										cs: 'format-italic-I.png',
 										de: 'format-italic-K.png',
