@@ -10,7 +10,8 @@
 			"Toniher",
 			"Vriullop",
 			"Nemo bis",
-			"Macofe"
+			"Macofe",
+			"Jaumeortola"
 		]
 	},
 	"wikieditor": "Interfície avançada de modificació de wikitext",
@@ -54,7 +55,7 @@
 	"wikieditor-toolbar-tool-link-ext-target": "URL de l'enllaç",
 	"wikieditor-toolbar-tool-link-ext-text": "Text de l'enllaç:",
 	"wikieditor-toolbar-tool-link-insert": "Insereix un enllaç",
-	"wikieditor-toolbar-tool-link-cancel": "Canceŀla",
+	"wikieditor-toolbar-tool-link-cancel": "Cancel·la",
 	"wikieditor-toolbar-tool-link-int-target-status-exists": "La pàgina existeix",
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "La pàgina no existeix",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Títol no vàlid",
