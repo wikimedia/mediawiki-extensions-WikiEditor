@@ -39,6 +39,7 @@ $.wikiEditor.modules.toolbar.config = {
 									icon: {
 										'default': 'format-bold.png',
 										en: 'format-bold-B.png',
+										ce: 'format-bold-Iab.svg',
 										cs: 'format-bold-B.png',
 										de: 'format-bold-F.png',
 										fa: 'format-bold-B.png',
