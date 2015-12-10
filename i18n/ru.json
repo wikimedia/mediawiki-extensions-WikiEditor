@@ -83,6 +83,7 @@
 	"wikieditor-toolbar-file-format-none": "никакой",
 	"wikieditor-toolbar-tool-file-insert": "Вставка",
 	"wikieditor-toolbar-tool-file-cancel": "Отмена",
+	"wikieditor-toolbar-tool-file-upload": "Загрузить",
 	"wikieditor-toolbar-tool-reference": "Сноска",
 	"wikieditor-toolbar-tool-reference-example": "Вставьте сюда текст сноски",
 	"wikieditor-toolbar-tool-reference-cancel": "Отмена",
