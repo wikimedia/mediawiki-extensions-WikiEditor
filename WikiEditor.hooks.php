@@ -312,6 +312,8 @@ class WikiEditorHooks {
 		// expose magic words for use by the wikieditor toolbar
 		WikiEditorHooks::getMagicWords( $vars );
 
+		$vars['mw.msg.wikieditor'] = wfMessage( 'sig-text', '~~~~' )->inContentLanguage()->text();
+
 		return true;
 	}
 
