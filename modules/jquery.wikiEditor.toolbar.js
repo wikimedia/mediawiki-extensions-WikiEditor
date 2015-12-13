@@ -447,10 +447,8 @@ $.wikiEditor.modules.toolbar = {
 				rel: id
 			} );
 			if ( deferLoad ) {
-				$page.addClass( 'loading' ).append( $( '<div>' ).addClass( 'spinner' ) );
 				$page.bind( 'loadPage', function () {
 					$.wikiEditor.modules.toolbar.fn.reallyBuildPage( context, id, page, $page );
-					$page.removeClass( 'loading' );
 				} );
 			} else {
 				$.wikiEditor.modules.toolbar.fn.reallyBuildPage( context, id, page, $page );
