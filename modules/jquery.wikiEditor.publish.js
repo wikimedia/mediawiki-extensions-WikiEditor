@@ -1,6 +1,6 @@
 /* Publish module for wikiEditor */
 /*jshint onevar:false */
-( function ( $ ) {
+( function ( $, mw ) {
 
 $.wikiEditor.modules.publish = {
 
@@ -69,7 +69,7 @@ $.wikiEditor.modules.publish = {
 							var i;
 
 							$( this ).find( '[rel]' ).each( function () {
-								$( this ).text( mediaWiki.msg( $( this ).attr( 'rel' ) ) );
+								$( this ).text( mw.msg( $( this ).attr( 'rel' ) ) );
 							} );
 
 							/* REALLY DIRTY HACK! */
@@ -161,4 +161,4 @@ $.wikiEditor.modules.publish = {
 
 };
 
-}( jQuery ) );
+}( jQuery, mediaWiki ) );

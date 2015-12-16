@@ -146,7 +146,7 @@ $.wikiEditor = {
 	},
 
 	/**
-	 * Provides a way to extract messages from objects. Wraps a mediaWiki.message( ... ).plain() call.
+	 * Provides a way to extract messages from objects. Wraps a mw.message( ... ).plain() call.
 	 *
 	 * @param {Object} object Object to extract messages from
 	 * @param {string} property String of name of property which contains the message. This should be the base name of the
@@ -532,7 +532,7 @@ $.fn.wikiEditor = function () {
 		/* Disabling our loading div for now
 		var $loader = $( '<div>' )
 			.addClass( 'wikiEditor-ui-loading' )
-			.append( $( '<span>' + mediaWiki.msg( 'wikieditor-loading' ) + '</span>' )
+			.append( $( '<span>' + mw.msg( 'wikieditor-loading' ) + '</span>' )
 				.css( 'marginTop', context.$textarea.height() / 2 ) );
 		*/
 		/* Preserving cursor and focus state, which will get lost due to wrapAll */
