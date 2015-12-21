@@ -135,7 +135,7 @@ $.wikiEditor.modules.dialogs = {
 			if ( typeof configuration.modal === 'undefined' ) {
 				configuration.modal = true;
 			}
-			configuration.title = $.wikiEditor.autoMsg( module, 'title' ).replace( /\{\{SITENAME\}\}/i, mw.config.get( 'wgSiteName' ) );
+			configuration.title = $.wikiEditor.autoMsg( module, 'title' );
 			// Transform messages in keys
 			// Stupid JS won't let us do stuff like
 			// foo = { mw.msg( 'bar' ): baz }

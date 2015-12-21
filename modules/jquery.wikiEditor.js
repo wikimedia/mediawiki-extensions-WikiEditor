@@ -146,7 +146,7 @@ $.wikiEditor = {
 	},
 
 	/**
-	 * Provides a way to extract messages from objects. Wraps a mw.message( ... ).plain() call.
+	 * Provides a way to extract messages from objects. Wraps a mw.message( ... ).text() call.
 	 *
 	 * @param {Object} object Object to extract messages from
 	 * @param {string} property String of name of property which contains the message. This should be the base name of the
@@ -170,9 +170,9 @@ $.wikiEditor = {
 		} else if ( property + 'Msg' in object ) {
 			p = object[ property + 'Msg' ];
 			if ( $.isArray( p ) && p.length >= 2 ) {
-				return mw.message.apply( mw.message, p ).plain();
+				return mw.message.apply( mw.message, p ).text();
 			} else {
-				return mw.message( p ).plain();
+				return mw.message( p ).text();
 			}
 		} else {
 			return '';
