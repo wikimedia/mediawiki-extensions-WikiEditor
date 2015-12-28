@@ -763,12 +763,19 @@ $.wikiEditor.modules.toolbar.config = {
 										htmlMsg: 'wikieditor-toolbar-help-content-signaturetimestamp-description'
 									},
 									syntax: { htmlMsg: 'wikieditor-toolbar-help-content-signaturetimestamp-syntax' },
-									result: { htmlMsg: 'wikieditor-toolbar-help-content-signaturetimestamp-result' }
+									result: { htmlMsg: [ 'wikieditor-toolbar-help-content-signaturetimestamp-result',
+										mw.config.get( 'wgFormattedNamespaces' )[ 2 ],
+										mw.config.get( 'wgFormattedNamespaces' )[ 3 ]
+									] }
 								},
 								{
 									description: { htmlMsg: 'wikieditor-toolbar-help-content-signature-description' },
 									syntax: { htmlMsg: 'wikieditor-toolbar-help-content-signature-syntax' },
-									result: { htmlMsg: 'wikieditor-toolbar-help-content-signature-result' }
+									result: { htmlMsg: [
+										'wikieditor-toolbar-help-content-signature-result',
+										mw.config.get( 'wgFormattedNamespaces' )[ 2 ],
+										mw.config.get( 'wgFormattedNamespaces' )[ 3 ]
+									] }
 								},
 								{
 									description: { htmlMsg: 'wikieditor-toolbar-help-content-indent-description' },
