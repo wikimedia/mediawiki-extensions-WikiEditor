@@ -201,9 +201,9 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "Afișare referințe",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Textul legăturii</a>, text adițional.</li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Semnătură datată",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='{{#special:mypage}}'>Nume de utilizator</a> (<a href='#' title='{{#special:mytalk}}'>discuție</a>) 15:54, 10 iunie 2009 (UTC)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>Nume de utilizator</a> (<a href='#' title='$2:Username'>discuție</a>) 15:54, 10 iunie 2009 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "Semnătură",
-	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#special:mypage}}'>Nume de utilizator</a> (<a href='#' title='{{#special:mytalk}}'>discuție</a>)",
+	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Nume de utilizator</a> (<a href='#' title='$2:Username'>discuție</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Indentare",
 	"wikieditor-toolbar-help-content-indent-syntax": "Text normal<br />:Text indentat<br />::Text indentat",
 	"wikieditor-toolbar-help-content-indent-result": "Text normal<dl><dd>Text indentat<dl><dd>Text indentat</dd></dl></dd></dl>"

@@ -195,9 +195,9 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "Diskwel an daveennoù",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Anv al liamm</a>, testenn ouzhpenn.</li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Sinadur gant an deiziad",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='{{#special:mypage}}'>Anv implijer</a> (<a href='#' title='{{#special:mytalk}}'>kaozeal</a>) 15:54, 10 Mezheven 2009 (UTC)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>Anv implijer</a> (<a href='#' title='$2:Username'>kaozeal</a>) 15:54, 10 Mezheven 2009 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "Sinadur",
-	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#special:mypage}}'>Anv implijer</a> (<a href='#' title='{{#special:mytalk}}'>kaozeal</a>)",
+	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Anv implijer</a> (<a href='#' title='$2:Username'>kaozeal</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Endantadur",
 	"wikieditor-toolbar-help-content-indent-syntax": "Testenn normal<br />:Testenn endantet<br />::Testenn endantet",
 	"wikieditor-toolbar-help-content-indent-result": "Testenn normal<dl><dd>Testenn endantet<dl><dd>Testenn endantet</dd></dl></dd></dl>"

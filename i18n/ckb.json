@@ -191,9 +191,9 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "نیشان‌دانی سەرچاوەکان",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>دەقی بەستەر</a>, دەقی زیادی.</li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "واژوو و ڕێکەوت",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='{{#special:mypage}}'>ناوی بەکارھێنەر</a> (<a href='#' title='{{#special:mytalk}}'>لێدوان</a>) 15:54, 10 June 2009 (UTC)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>ناوی بەکارھێنەر</a> (<a href='#' title='$2:Username'>لێدوان</a>) 15:54, 10 June 2009 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "واژوو",
-	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#special:mypage}}'>ناوی بەکارھێنەر</a> (<a href='#' title='{{#special:mytalk}}'>لێدوان</a>)",
+	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>ناوی بەکارھێنەر</a> (<a href='#' title='$2:Username'>لێدوان</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "پێشبردن",
 	"wikieditor-toolbar-help-content-indent-syntax": "دەقی ئاسایی<br />:دەقی پێشچوو<br />::دەقی پێشچوو",
 	"wikieditor-toolbar-help-content-indent-result": "دەقی ئاسایی<dl><dd>دەقی پێشچوو<dl><dd>دەقی پێشچوو</dd></dl></dd></dl>"

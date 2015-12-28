@@ -202,7 +202,7 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "संदर्भ दर्शवा",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Link text</a>, additional text.</li><li id='cite_note-test-1'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Link text</a></li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "सही आणि वेळठसा",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='{{#special:mypage}}'>सदस्यनाव</a> (<a href='#' title='{{#special:mytalk}}'>चर्चा</a>) 15:54, 10 June 2009 (UTC)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>सदस्यनाव</a> (<a href='#' title='$2:Username'>चर्चा</a>) 15:54, 10 June 2009 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "सही",
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#विशेष:माझेसदस्यपान}}'>सदस्यनाव</a> (<a href='#' title='{{#विशेष:माझ्याचर्चा}}'>चर्चा</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "समासांतर",

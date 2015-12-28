@@ -212,9 +212,9 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "Afficher les références",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Texte du lien</a>, additional text.</li><li id='cite_note-test-1'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Texte du lien</a></li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Signature avec date",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='{{#special:mypage}}'>Nom d’utilisateur</a> (<a href='#' title='{{#special:mytalk}}'>discuter</a>) 10 Juin 2009 à 15:54 (UTC)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>Nom d’utilisateur</a> (<a href='#' title='$2:Username'>discuter</a>) 10 Juin 2009 à 15:54 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "Signature",
-	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#special:mypage}}'>Nom d’utilisateur</a> (<a href='#' title='{{#special:mytalk}}'>discuter</a>)",
+	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Nom d’utilisateur</a> (<a href='#' title='$2:Username'>discuter</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Retrait",
 	"wikieditor-toolbar-help-content-indent-syntax": "Texte normal<br />:Texte en retrait<br />::Texte en retrait",
 	"wikieditor-toolbar-help-content-indent-result": "Texte normal<dl><dd>Texte en retrait<dl><dd>Texte en retrait</dd></dl></dd></dl>"

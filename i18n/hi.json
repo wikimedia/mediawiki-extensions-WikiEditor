@@ -184,9 +184,9 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "संदर्भ दिखाएँ",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='संदर्भ'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='बाहरी लेख' href='#'>लिंक लेख</a>, अतिरिक्त लेख ।</li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "हस्ताक्षर टाइमस्टैम्प सहित",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='{{#special:mypage}}'>सदस्यनाम</a> (<a href='#' title='{{#special:mytalk}}'>चर्चा</a>) 15:54, 10 June 2009 (UTC)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>सदस्यनाम</a> (<a href='#' title='$2:Username'>चर्चा</a>) 15:54, 10 June 2009 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "हस्ताक्षर",
-	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#special:mypage}}'>सदस्यनाम</a> (<a href='#' title='{{#special:mytalk}}'>वार्ता</a>)",
+	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>सदस्यनाम</a> (<a href='#' title='$2:Username'>वार्ता</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "इनडेंट",
 	"wikieditor-toolbar-help-content-indent-syntax": "सामान्य लेख<br />:इनडेंटेड लेख<br />::इनडेंटेड लेख",
 	"wikieditor-toolbar-help-content-indent-result": "सामान्य लेख<dl><dd>इनडेंटेड लेख<dl><dd>इनडेंटेड लेख</dd></dl></dd></dl>"

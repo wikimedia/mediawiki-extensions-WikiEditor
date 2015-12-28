@@ -201,9 +201,9 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "Liệt kê các chú thích",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-th.E1.BB.AD-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Văn bản liên kết</a>, văn bản bổ sung.</li><li id='cite_note-th.E1.BB.AD-1'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Văn bản liên kết</a></li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Chữ ký có ngày",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='{{#special:mypage}}'>Tên người dùng</a> (<a href='#' title='{{#special:mytalk}}'>thảo luận</a>) 15:54, ngày 10 tháng 6 năm 2009 (UTC)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>Tên người dùng</a> (<a href='#' title='$2:Username'>thảo luận</a>) 15:54, ngày 10 tháng 6 năm 2009 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "Chữ ký",
-	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#special:mypage}}'>Tên người dùng</a> (<a href='#' title='{{#special:mytalk}}'>thảo luận</a>)",
+	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Tên người dùng</a> (<a href='#' title='$2:Username'>thảo luận</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Tăng lề",
 	"wikieditor-toolbar-help-content-indent-syntax": "Văn bản thường<br />:Văn bản được tăng lề<br />::Văn bản được tăng lề",
 	"wikieditor-toolbar-help-content-indent-result": "Văn bản thường<dl><dd>Văn bản được tăng lề<dl><dd>Văn bản được tăng lề</dd></dl></dd></dl>"

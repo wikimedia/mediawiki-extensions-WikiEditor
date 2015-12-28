@@ -187,9 +187,9 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "قایناق لاری گؤستر",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>م</a>، آرتیق متن.</li></ol>تن باغلانتی سی",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "واخت قئیدی ایله ایمضا",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='{{#special:mypage}}'>ایستفادچی آدی</a> (<a href='#' title='{{#special:mytalk}}'>دانیشیق</a>) 15:54, 10 June 2009 (UTC)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>ایستفادچی آدی</a> (<a href='#' title='$2:Username'>دانیشیق</a>) 15:54, 10 June 2009 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "ایمضا",
-	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#special:mypage}}'>ایستفاده چی آدی</a> (<a href='#' title='{{#special:mytalk}}'>دانیشیق</a>)",
+	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>ایستفاده چی آدی</a> (<a href='#' title='$2:Username'>دانیشیق</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "ایچری باتدیگی",
 	"wikieditor-toolbar-help-content-indent-syntax": "Normal mətn<br />:ایچری باتدیگی متن<br />::ایچری باتدیگی متن",
 	"wikieditor-toolbar-help-content-indent-result": "نورمال یازی<dl><dd>ایچری‌گئتمیش یازی<dl><dd>ایچری‌گئتمیش یازی</dd></dl></dd></dl>"

@@ -198,9 +198,9 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "Гайта билгалдаккхар",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Хьажорган йоза</a>, кхин тӀе дузуш йоза.</li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Куьгтаlор хан хlоттош",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='{{#special:mypage}}'>Декъашхочун цӀе</a> (<a href='#' title='{{#special:mytalk}}'>дийцаре</a>) 15:54, 10 июнь 2009 (UTC)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>Декъашхочун цӀе</a> (<a href='#' title='$2:Username'>дийцаре</a>) 15:54, 10 июнь 2009 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "Куьгтаlор",
-	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#special:mypage}}'>Декъашхочун цӀе</a> (<a href='#' title='{{#special:mytalk}}'>дийцаре</a>)",
+	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Декъашхочун цӀе</a> (<a href='#' title='$2:Username'>дийцаре</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Дlахило",
 	"wikieditor-toolbar-help-content-indent-syntax": "Гуттарлера йоза<br />:Дlахилийна йоза<br />::Дlахилийна йоза",
 	"wikieditor-toolbar-help-content-indent-result": "Гуттарлера йоза<dl><dd>Дlахилийна йоза<dl><dd>Дlахилийна йоза</dd></dl></dd></dl>"

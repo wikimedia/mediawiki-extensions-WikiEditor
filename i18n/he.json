@@ -203,9 +203,9 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "הצגת הערות שוליים",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>טקסט הקישור</a>, טקסט נוסף.</li><li id='cite_note-test-1'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>טקסט הקישור</a></li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "חתימה עם תאריך ושעה",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='{{#special:mypage}}'>שם המשתמש</a> (<a href='#' title='{{#special:mytalk}}'>שיחה</a>) 15:54, 10 ביוני 2009 (IDT)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>שם המשתמש</a> (<a href='#' title='$2:Username'>שיחה</a>) 15:54, 10 ביוני 2009 (IDT)",
 	"wikieditor-toolbar-help-content-signature-description": "חתימה",
-	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#special:mypage}}'>שם המשתמש</a> (<a href='#' title='{{#special:mytalk}}'>שיחה</a>)",
+	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>שם המשתמש</a> (<a href='#' title='$2:Username'>שיחה</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "הזחה",
 	"wikieditor-toolbar-help-content-indent-syntax": "טקסט רגיל<br />:טקסט מוזח<br />::טקסט מוזח",
 	"wikieditor-toolbar-help-content-indent-result": "טקסט רגיל<dl><dd>טקסט מוזח<dl><dd>טקסט מוזח</dd></dl></dd></dl>"

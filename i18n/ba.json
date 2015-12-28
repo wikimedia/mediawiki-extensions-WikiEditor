@@ -192,9 +192,9 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "Төшөрмәләрҙе күрһәтеү",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Һылтанма тексты</a>, өҫтәмә текст.</li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Имза һәм ҡуйыу ваҡыты",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='{{#special:mypage}}'>Ҡатнашыусы исеме</a> (<a href='#' title='{{#special:mytalk}}'>фекер алышыу</a>) 11:56, 30 август (Урағай) 2010 (UTC)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>Ҡатнашыусы исеме</a> (<a href='#' title='$2:Username'>фекер алышыу</a>) 11:56, 30 август (Урағай) 2010 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "Имза",
-	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#special:mypage}}'>Ҡатнашыусы исеме</a> (<a href='#' title='{{#special:mytalk}}'>фекер алышыу</a>)",
+	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Ҡатнашыусы исеме</a> (<a href='#' title='$2:Username'>фекер алышыу</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Буш ара",
 	"wikieditor-toolbar-help-content-indent-syntax": "Ғәҙәттәге юл<br />:Буш аралы юл<br />::Буш аралы юл",
 	"wikieditor-toolbar-help-content-indent-result": "Ғәҙәттәге юл<dl><dd>Буш аралы юл<dl><dd>Буш аралы юл</dd></dl></dd></dl>"

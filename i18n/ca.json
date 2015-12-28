@@ -206,9 +206,9 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "Mostra les referències",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.exemple.cat' class='external text' href='#'>Nom de l'enllaç</a>, text addicional.</li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Signatura, data i hora",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='{{#special:mypage}}'>Nom d'usuari</a> (<a href='#' title='{{#special:mytalk}}'>discussió</a>) 15:54, 10 de juny de 2009 (UTC)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>Nom d'usuari</a> (<a href='#' title='$2:Username'>discussió</a>) 15:54, 10 de juny de 2009 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "Signatura",
-	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#special:mypage}}'>Nom d'usuari</a> (<a href='#' title='{{#special:mytalk}}'>discussió</a>)",
+	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Nom d'usuari</a> (<a href='#' title='$2:Username'>discussió</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Sagnat",
 	"wikieditor-toolbar-help-content-indent-syntax": "Text normal<br />:Text sagnat<br />::Text sagnat",
 	"wikieditor-toolbar-help-content-indent-result": "Text normal<dl><dd>Text sagnat<dl><dd>Text sagnat</dd></dl></dd></dl>"

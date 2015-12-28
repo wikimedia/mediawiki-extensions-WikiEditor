@@ -196,9 +196,9 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "სქოლიოს ჩვენება",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>ბმულის ტექსტი</a>, დამატებითი ტექსტი.</li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "ხელმოწერა დროის მითითებით",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='{{#special:mypage}}'>მომხმარებლის სახელი</a> (<a href='#' title='{{#special:mytalk}}'>განხილვა</a>) 15:54, 10 ივნისი 2009 (UTC)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>მომხმარებლის სახელი</a> (<a href='#' title='$2:Username'>განხილვა</a>) 15:54, 10 ივნისი 2009 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "ხელმოწერა",
-	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#special:mypage}}'>მომხმარებლის სახელი</a> (<a href='#' title='{{#special:mytalk}}'>განხილვა</a>)",
+	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>მომხმარებლის სახელი</a> (<a href='#' title='$2:Username'>განხილვა</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "შეწევა",
 	"wikieditor-toolbar-help-content-indent-syntax": "ჩვეულებრივი ტექსტი<br />:შეწეული ტექსტი<br />::შეწეული ტექსტი",
 	"wikieditor-toolbar-help-content-indent-result": "ჩვეულებრივი ტექსტი<dl><dd>შეწეული ტექსტი<dl><dd>შეწეული ტექსტი</dd></dl></dd></dl>"

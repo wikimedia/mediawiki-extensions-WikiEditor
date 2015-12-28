@@ -200,9 +200,9 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "Извеждане на източниците",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Текст на външната препратка</a>, допълнителен текст.</li><li id='cite_note-test-1'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Текст на външната препратка</a></li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Подпис с дата и час",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='{{#special:mypage}}'>Потребителско име</a> (<a href='#' title='{{#special:mytalk}}'>беседа</a>) 15:54, 10 юни 2009 (UTC)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>Потребителско име</a> (<a href='#' title='$2:Username'>беседа</a>) 15:54, 10 юни 2009 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "Подпис",
-	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#special:mypage}}'>Потребителско име</a> (<a href='#' title='{{#special:mytalk}}'>беседа</a>)",
+	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Потребителско име</a> (<a href='#' title='$2:Username'>беседа</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Отстъп",
 	"wikieditor-toolbar-help-content-indent-syntax": "Текст без отстъп<br />:Текст с единичен отстъп<br />::Текст с двоен отстъп",
 	"wikieditor-toolbar-help-content-indent-result": "Текст без отстъп<dl><dd>Текст с единичен отстъп<dl><dd>Текст с двоен отстъп</dd></dl></dd></dl>"

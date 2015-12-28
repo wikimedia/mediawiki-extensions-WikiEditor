@@ -208,9 +208,9 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "Einzelnachweise anzeigen",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Linktext</a>, zusätzlicher Text.</li><li id='cite_note-test-1'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Linktext</a></li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Signatur mit Zeitstempel",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='{{#special:mypage}}'>Benutzername</a> (<a href='#' title='{{#special:mytalk}}'>Diskussion</a>) 15:54, 10. Jun. 2009 (UTC)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>Benutzername</a> (<a href='#' title='$2:Username'>Diskussion</a>) 15:54, 10. Jun. 2009 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "Signatur",
-	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#special:mypage}}'>Benutzername</a> (<a href='#' title='{{#special:mytalk}}'>Diskussion</a>)",
+	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Benutzername</a> (<a href='#' title='$2:Username'>Diskussion</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Einrücken",
 	"wikieditor-toolbar-help-content-indent-syntax": "Normaler Text<br />:Eingerückter Text<br />::Eingerückter Text",
 	"wikieditor-toolbar-help-content-indent-result": "Normaler Text<dl><dd>Eingerückter Text<dl><dd>Eingerückter Text</dd></dl></dd></dl>"

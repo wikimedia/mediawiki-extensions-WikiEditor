@@ -208,9 +208,9 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "Mostrar referências",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><a title='' href='#'><b>^</b></a> <a rel='nofollow' title=\"http://www.example.org\" class='external text' href='#'>Texto da ligação</a>, texto adicional.</li><li id='cite_note-test-1'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Texto da ligação</a></li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Assinatura com data e hora",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='{{#special:mypage}}'>Nome de utilizador</a> (<a href='#' title='{{#special:mytalk}}'>discussão</a>) 15h54min de 10 de junho de 2009 (UTC)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>Nome de utilizador</a> (<a href='#' title='$2:Username'>discussão</a>) 15h54min de 10 de junho de 2009 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "Assinatura",
-	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#special:mypage}}'>Nome de utilizador</a> (<a href='#' title='{{#special:mytalk}}'>discussão</a>)",
+	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Nome de utilizador</a> (<a href='#' title='$2:Username'>discussão</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Indentação",
 	"wikieditor-toolbar-help-content-indent-syntax": "Texto normal<br />:Texto indentado<br />::Texto indentado",
 	"wikieditor-toolbar-help-content-indent-result": "Texto normal<dl><dd>Texto indentado<dl><dd>Texto indentado</dd></dl></dd></dl>"

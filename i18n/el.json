@@ -201,9 +201,9 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "Εμφάνιση παραπομπών",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Κείμενο συνδέσμου</a>, επιπλέον κείμενο.</li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Υπογραφή με σφραγίδα χρόνου",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='{{#special:mypage}}'>Όνομα χρήστη</a> (<a href='#' title='{{#special:mytalk}}'>συζήτηση</a>) 10 Ιουνίου 2009 15:54 (UTC)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>Όνομα χρήστη</a> (<a href='#' title='$2:Username'>συζήτηση</a>) 10 Ιουνίου 2009 15:54 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "Υπογραφή",
-	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#special:mypage}}'>Όνομα χρήστη</a> (<a href='#' title='{{#special:mytalk}}'>συζήτηση</a>)",
+	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Όνομα χρήστη</a> (<a href='#' title='$2:Username'>συζήτηση</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Οδόντωση",
 	"wikieditor-toolbar-help-content-indent-syntax": "Κανονικό κείμενο<br />:Παραγραφοποιημένο κείμενο<br />::Παραγραφοποιημένο κείμενο",
 	"wikieditor-toolbar-help-content-indent-result": "Κανονικό κείμενο<dl><dd>Παραγραφοποιημένο κείμενο<dl><dd>Παραγραφοποιημένο κείμενο</dd></dl></dd></dl>"

@@ -206,9 +206,9 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "각주 보이기",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>링크 텍스트</a>, 추가 텍스트.</li><li id='cite_note-test-1'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>링크 텍스트</a></li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "서명 및 시각",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='{{#special:mypage}}'>사용자 이름</a> (<a href='#' title='{{#special:mytalk}}'>토론</a>) 2009년 6월 10일 (수) 15:54 (UTC)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>사용자 이름</a> (<a href='#' title='$2:Username'>토론</a>) 2009년 6월 10일 (수) 15:54 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "서명",
-	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#special:mypage}}'>사용자 이름</a> (<a href='#' title='{{#special:mytalk}}'>토론</a>)",
+	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>사용자 이름</a> (<a href='#' title='$2:Username'>토론</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "들여쓰기",
 	"wikieditor-toolbar-help-content-indent-syntax": "보통 글<br />:들여쓰기된 글<br />::들여쓰기된 글",
 	"wikieditor-toolbar-help-content-indent-result": "보통 글<dl><dd>들여쓰기된 글<dl><dd>들여쓰기된 글</dd></dl></dd></dl>"

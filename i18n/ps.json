@@ -169,9 +169,9 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "سرچينې ښکاره کول",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>د تړنې متن</a>, اضافي متن.</li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "لاسليک د وخت د ټاپې سره",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='{{#special:mypage}}'>کارن نوم</a> (<a href='#' title='{{#special:mytalk}}'>خبرې اترې</a>) 15:54, 10 June 2009 (UTC)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>کارن نوم</a> (<a href='#' title='$2:Username'>خبرې اترې</a>) 15:54, 10 June 2009 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "لاسليک",
-	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#special:mypage}}'>کارن نوم</a> (<a href='#' title='{{#special:mytalk}}'>خبرې اترې</a>)",
+	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>کارن نوم</a> (<a href='#' title='$2:Username'>خبرې اترې</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "سرتشه",
 	"wikieditor-toolbar-help-content-indent-syntax": "عادي متن<br />:سرتشېدلی متن<br />::سرتشېدلی متن",
 	"wikieditor-toolbar-help-content-indent-result": "عادي  متن<dl><dd>سرتشېدلی متن<dl><dd>سرتشېدلی متن</dd></dl></dd></dl>"
