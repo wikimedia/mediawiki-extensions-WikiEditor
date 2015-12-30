@@ -198,7 +198,7 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "Паказваць зноскі",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Тэкст спасылкі</a>, дадатковы тэкст.</li><li id='cite_note-test-1'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Тэкст спасылкі</a></li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Подпіс і час",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>Імя ўдзельніка</a> (<a href='#' title='$2:Username'>гутаркі</a>) 15:54, 10 чэрвеня 2009 (UTC)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Імя ўдзельніка'>Імя ўдзельніка</a> (<a href='#' title='$2:Імя ўдзельніка'>гутаркі</a>) 15:54, 10 чэрвеня 2009 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "Подпіс",
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Імя ўдзельніка</a> (<a href='#' title='$2:Username'>гутаркі</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Водступ",
