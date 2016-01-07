@@ -318,29 +318,22 @@ $.wikiEditor.modules.toolbar = {
 						tool.offset,
 						$.wikiEditor.imgPath + 'toolbar/'
 					);
+					$button = $( '<a>' )
+						.attr( {
+							href: '#',
+							title: label,
+							rel: id,
+							role: 'button',
+							'class': 'tool tool-button'
+						} )
+						.text( label );
 					if ( typeof offsetOrIcon === 'object' ) {
-						$button = $( '<a>' )
-							.attr( {
-								href: '#',
-								title: label,
-								rel: id,
-								role: 'button',
-								'class': 'tool tool-button wikiEditor-toolbar-spritedButton'
-							} )
-							.text( label )
-							.css( 'backgroundPosition', offsetOrIcon[ 0 ] + 'px ' + offsetOrIcon[ 1 ] + 'px' );
+						$button
+						.addClass( 'wikiEditor-toolbar-spritedButton' )
+						.css( 'backgroundPosition', offsetOrIcon[ 0 ] + 'px ' + offsetOrIcon[ 1 ] + 'px' );
 					} else {
-						$button = $( '<img>' )
-							.attr( {
-								src: offsetOrIcon,
-								width: 22,
-								height: 22,
-								alt: label,
-								title: label,
-								rel: id,
-								role: 'button',
-								'class': 'tool tool-button'
-							} );
+						$button
+						.css( 'background-image', 'url(' + offsetOrIcon + ')' );
 					}
 					if ( 'action' in tool ) {
 						$button
