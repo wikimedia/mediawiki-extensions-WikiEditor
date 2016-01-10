@@ -4,10 +4,11 @@
 			"Autokrator",
 			"OrbiliusMagister",
 			"UV",
-			"Macofe"
+			"Macofe",
+			"Laurentianus"
 		]
 	},
-	"wikieditor-preview-tab": "Praevisum",
+	"wikieditor-preview-tab": "Prospectus",
 	"wikieditor-preview-changes-tab": "Mutata",
 	"wikieditor-preview-loading": "Depromens...",
 	"wikieditor-toolbar-loading": "Depromens…",
