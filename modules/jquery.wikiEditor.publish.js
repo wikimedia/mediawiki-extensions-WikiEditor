@@ -116,11 +116,9 @@ $.wikiEditor.modules.publish = {
 							buttons: {
 								'wikieditor-publish-dialog-publish': function () {
 									var minorChecked = $( '#wikiEditor-' + context.instance +
-										'-dialog-minor' ).is( ':checked' ) ?
-											'checked' : '';
+										'-dialog-minor' ).is( ':checked' );
 									var watchChecked = $( '#wikiEditor-' + context.instance +
-										'-dialog-watch' ).is( ':checked' ) ?
-											'checked' : '';
+										'-dialog-watch' ).is( ':checked' );
 									$( '#wpMinoredit' ).prop( 'checked', minorChecked );
 									$( '#wpWatchthis' ).prop( 'checked', watchChecked );
 									$( '#wpSummary' ).val( $( '#wikiEditor-' + context.instance +
