@@ -138,9 +138,9 @@ $.wikiEditor.modules.toolbar.config = {
 									action: {
 										type: 'encapsulate',
 										options: {
-											pre: "[",
+											pre: '[',
 											periMsg: 'wikieditor-toolbar-tool-xlink-example',
-											post: "]"
+											post: ']'
 										}
 									}
 								},
@@ -152,9 +152,9 @@ $.wikiEditor.modules.toolbar.config = {
 									action: {
 										type: 'encapsulate',
 										options: {
-											pre: "[[",
+											pre: '[[',
 											periMsg: 'wikieditor-toolbar-tool-ilink-example',
-											post: "]]"
+											post: ']]'
 										}
 									}
 								},
@@ -168,7 +168,7 @@ $.wikiEditor.modules.toolbar.config = {
 										options: {
 											pre: '[[' + fileNamespace + ':',
 											periMsg: 'wikieditor-toolbar-tool-file-example',
-											post: "|" + mw.config.get( 'wgWikiEditorMagicWords' ).img_thumbnail + "]]"
+											post: '|' + mw.config.get( 'wgWikiEditorMagicWords' ).img_thumbnail + ']]'
 										}
 									}
 								},
@@ -181,9 +181,9 @@ $.wikiEditor.modules.toolbar.config = {
 									action: {
 										type: 'encapsulate',
 										options: {
-											pre: "<ref>",
+											pre: '<ref>',
 											periMsg: 'wikieditor-toolbar-tool-reference-example',
-											post: "</ref>"
+											post: '</ref>'
 										}
 									}
 								},
@@ -195,7 +195,7 @@ $.wikiEditor.modules.toolbar.config = {
 									action: {
 										type: 'encapsulate',
 										options: {
-											pre: "--~~~~"
+											pre: '--~~~~'
 										}
 									}
 								}
@@ -223,7 +223,7 @@ $.wikiEditor.modules.toolbar.config = {
 													periMsg: 'wikieditor-toolbar-tool-heading-example',
 													post: ' ==',
 													regex: /^(\s*)(={1,6})(.*?)\2(\s*)$/,
-													regexReplace: "$1==$3==$4",
+													regexReplace: '$1==$3==$4',
 													ownline: true
 												}
 											}
@@ -237,7 +237,7 @@ $.wikiEditor.modules.toolbar.config = {
 													periMsg: 'wikieditor-toolbar-tool-heading-example',
 													post: ' ===',
 													regex: /^(\s*)(={1,6})(.*?)\2(\s*)$/,
-													regexReplace: "$1===$3===$4",
+													regexReplace: '$1===$3===$4',
 													ownline: true
 												}
 											}
@@ -251,7 +251,7 @@ $.wikiEditor.modules.toolbar.config = {
 													periMsg: 'wikieditor-toolbar-tool-heading-example',
 													post: ' ====',
 													regex: /^(\s*)(={1,6})(.*?)\2(\s*)$/,
-													regexReplace: "$1====$3====$4",
+													regexReplace: '$1====$3====$4',
 													ownline: true
 												}
 											}
@@ -265,7 +265,7 @@ $.wikiEditor.modules.toolbar.config = {
 													periMsg: 'wikieditor-toolbar-tool-heading-example',
 													post: ' =====',
 													regex: /^(\s*)(={1,6})(.*?)\2(\s*)$/,
-													regexReplace: "$1=====$3=====$4",
+													regexReplace: '$1=====$3=====$4',
 													ownline: true
 												}
 											}
@@ -291,9 +291,9 @@ $.wikiEditor.modules.toolbar.config = {
 									action: {
 										type: 'encapsulate',
 										options: {
-											pre: "* ",
+											pre: '* ',
 											periMsg: 'wikieditor-toolbar-tool-ulist-example',
-											post: "",
+											post: '',
 											ownline: true,
 											splitlines: true
 										}
@@ -313,9 +313,9 @@ $.wikiEditor.modules.toolbar.config = {
 									action: {
 										type: 'encapsulate',
 										options: {
-											pre: "# ",
+											pre: '# ',
 											periMsg: 'wikieditor-toolbar-tool-olist-example',
-											post: "",
+											post: '',
 											ownline: true,
 											splitlines: true
 										}
@@ -329,9 +329,9 @@ $.wikiEditor.modules.toolbar.config = {
 									action: {
 										type: 'encapsulate',
 										options: {
-											pre: "<nowiki>",
+											pre: '<nowiki>',
 											periMsg: 'wikieditor-toolbar-tool-nowiki-example',
-											post: "</nowiki>"
+											post: '</nowiki>'
 										}
 									}
 								},
@@ -343,7 +343,7 @@ $.wikiEditor.modules.toolbar.config = {
 									action: {
 										type: 'encapsulate',
 										options: {
-											pre: "<br />\n"
+											pre: '<br />\n'
 										}
 									}
 								}
@@ -359,9 +359,9 @@ $.wikiEditor.modules.toolbar.config = {
 									action: {
 										type: 'encapsulate',
 										options: {
-											pre: "<big>",
+											pre: '<big>',
 											periMsg: 'wikieditor-toolbar-tool-big-example',
-											post: "</big>"
+											post: '</big>'
 										}
 									}
 								},
@@ -373,9 +373,9 @@ $.wikiEditor.modules.toolbar.config = {
 									action: {
 										type: 'encapsulate',
 										options: {
-											pre: "<small>",
+											pre: '<small>',
 											periMsg: 'wikieditor-toolbar-tool-small-example',
-											post: "</small>"
+											post: '</small>'
 										}
 									}
 								},
@@ -387,9 +387,9 @@ $.wikiEditor.modules.toolbar.config = {
 									action: {
 										type: 'encapsulate',
 										options: {
-											pre: "<sup>",
+											pre: '<sup>',
 											periMsg: 'wikieditor-toolbar-tool-superscript-example',
-											post: "</sup>"
+											post: '</sup>'
 										}
 									}
 								},
@@ -401,9 +401,9 @@ $.wikiEditor.modules.toolbar.config = {
 									action: {
 										type: 'encapsulate',
 										options: {
-											pre: "<sub>",
+											pre: '<sub>',
 											periMsg: 'wikieditor-toolbar-tool-subscript-example',
-											post: "</sub>"
+											post: '</sub>'
 										}
 									}
 								}
@@ -420,12 +420,12 @@ $.wikiEditor.modules.toolbar.config = {
 									action: {
 										type: 'encapsulate',
 										options: {
-											pre: "<gallery>\n",
+											pre: '<gallery>\n',
 											periMsg: [
 												'wikieditor-toolbar-tool-gallery-example',
 												fileNamespace
 											],
-											post: "\n</gallery>",
+											post: '\n</gallery>',
 											ownline: true
 										}
 									}
@@ -439,9 +439,9 @@ $.wikiEditor.modules.toolbar.config = {
 									action: {
 										type: 'encapsulate',
 										options: {
-											pre: "{| class=\"wikitable\" border=\"1\"\n|",
+											pre: '{| class="wikitable" border="1"\n|',
 											periMsg: 'wikieditor-toolbar-tool-table-example-old',
-											post: "\n|}",
+											post: '\n|}',
 											ownline: true
 										}
 									}
@@ -462,7 +462,7 @@ $.wikiEditor.modules.toolbar.config = {
 										options: {
 											pre: mw.config.get( 'wgWikiEditorMagicWords' ).redirect + ' [[',
 											periMsg: 'wikieditor-toolbar-tool-redirect-example',
-											post: "]]",
+											post: ']]',
 											ownline: true
 										}
 									}
