@@ -109,7 +109,7 @@ $.wikiEditor.modules.dialogs.config = {
 						if ( typeof arguments.callee.regex === 'undefined' ) {
 							// Cache the regex
 							arguments.callee.regex =
-								new RegExp( "^(" + mw.config.get( 'wgUrlProtocols' ) + "|www\\.)", 'i' );
+								new RegExp( '^(' + mw.config.get( 'wgUrlProtocols' ) + '|www\\.)', 'i' );
 						}
 						return s.match( arguments.callee.regex );
 					}
@@ -421,10 +421,10 @@ $.wikiEditor.modules.dialogs.config = {
 							text = $( '#wikieditor-toolbar-link-int-text' ).val();
 							// check if the tooltips were passed as target or text
 							if ( $( '#wikieditor-toolbar-link-int-target' ).data( 'tooltip-mode' ) ) {
-								target = "";
+								target = '';
 							}
 							if ( $( '#wikieditor-toolbar-link-int-text' ).data( 'tooltip-mode' ) ) {
-								text = "";
+								text = '';
 							}
 							if ( target === '' ) {
 								alert( mw.msg( 'wikieditor-toolbar-tool-link-empty' ) );
@@ -918,9 +918,9 @@ $.wikiEditor.modules.dialogs.config = {
 							}
 							var headerText = mw.msg( 'wikieditor-toolbar-tool-table-example-header' );
 							var normalText = mw.msg( 'wikieditor-toolbar-tool-table-example' );
-							var table = "";
+							var table = '';
 							for ( var r = 0; r < rows + header; r++ ) {
-								table += "|-\n";
+								table += '|-\n';
 								for ( var c = 0; c < cols; c++ ) {
 									var isHeader = ( header && r === 0 );
 									var delim = isHeader ? '!' : '|';
@@ -931,7 +931,7 @@ $.wikiEditor.modules.dialogs.config = {
 								}
 								// Replace trailing space by newline
 								// table[table.length - 1] is read-only
-								table = table.substr( 0, table.length - 1 ) + "\n";
+								table = table.substr( 0, table.length - 1 ) + '\n';
 							}
 							var classes = [];
 							if ( $( '#wikieditor-toolbar-table-wikitable' ).is( ':checked' ) ) {
@@ -947,7 +947,7 @@ $.wikiEditor.modules.dialogs.config = {
 								{
 									type: 'replace',
 									options: {
-										pre: '{|' + classStr + "\n",
+										pre: '{|' + classStr + '\n',
 										peri: table,
 										post: '|}',
 										ownline: true
