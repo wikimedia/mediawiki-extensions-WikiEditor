@@ -127,11 +127,11 @@ $.wikiEditor.modules.dialogs.config = {
 						}
 						if ( status === 'invalid' ) {
 							$( '.ui-dialog:visible .ui-dialog-buttonpane button:first' )
-								.attr( 'disabled', true )
+								.prop( 'disabled', true )
 								.addClass( 'disabled' );
 						} else {
 							$( '.ui-dialog:visible .ui-dialog-buttonpane button:first' )
-								.removeAttr( 'disabled' )
+								.prop( 'disabled', false )
 								.removeClass( 'disabled' );
 						}
 					}
@@ -505,7 +505,7 @@ $.wikiEditor.modules.dialogs.config = {
 							// Blank form
 							$( '#wikieditor-toolbar-link-int-target, #wikieditor-toolbar-link-int-text' ).val( '' );
 							$( '#wikieditor-toolbar-link-type-int, #wikieditor-toolbar-link-type-ext' )
-								.attr( 'checked', '' );
+								.prop( 'checked', false );
 						},
 						'wikieditor-toolbar-tool-link-cancel': function () {
 							// Clear any saved selection state

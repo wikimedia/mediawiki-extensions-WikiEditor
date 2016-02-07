@@ -278,7 +278,7 @@ $.wikiEditor.modules.toolbar = {
 			var $group = $( '<div>' ).attr( { 'class': 'group group-' + id, rel: id } );
 			var label = $.wikiEditor.autoMsg( group, 'label' );
 			if ( label ) {
-				var $label = $( '<span />' )
+				var $label = $( '<span>' )
 					.addClass( 'label' )
 					.html( label );
 				$group.append( $label );
