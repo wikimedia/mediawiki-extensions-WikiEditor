@@ -180,24 +180,24 @@ $.wikiEditor.modules.dialogs.config = {
 						$( '#wikieditor-toolbar-link-int-target-status' ).data(
 							'request',
 							api.get( {
+								formatversion: 2,
 								action: 'query',
 								prop: 'pageprops',
 								titles: target,
-								ppprop: 'disambiguation',
-								indexpageids: true
+								ppprop: 'disambiguation'
 							} ).done( function ( data ) {
 								var status;
 								if ( !data.query || !data.query.pages ) {
 									// This happens in some weird cases like interwiki links
 									status = false;
 								} else {
-									var page = data.query.pages[ data.query.pageids[ 0 ] ];
+									var page = data.query.pages[ 0 ];
 									status = 'exists';
-									if ( page.missing !== undefined ) {
+									if ( page.missing ) {
 										status = 'notexists';
-									} else if ( page.invalid !== undefined ) {
+									} else if ( page.invalid ) {
 										status = 'invalid';
-									} else if ( page.pageprops !== undefined ) {
+									} else if ( page.pageprops ) {
 										status = 'disambig';
 									}
 								}
@@ -380,6 +380,7 @@ $.wikiEditor.modules.dialogs.config = {
 							}
 
 							var request = api.get( {
+								formatversion: 2,
 								action: 'opensearch',
 								search: title,
 								namespace: 0,

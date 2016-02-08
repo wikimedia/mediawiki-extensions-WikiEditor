@@ -56,20 +56,21 @@ $.wikiEditor.modules.preview = {
 					context.modules.preview.$preview.find( '.wikiEditor-preview-contents' ).empty();
 					context.modules.preview.$preview.find( '.wikiEditor-preview-loading' ).show();
 					api.post( {
+						formatversion: 2,
 						action: 'parse',
 						title: mw.config.get( 'wgPageName' ),
 						text: wikitext,
 						prop: 'text|modules',
 						pst: ''
 					} ).done( function ( data ) {
-						if ( !data.parse || !data.parse.text || data.parse.text[ '*' ] === undefined ) {
+						if ( !data.parse || !data.parse.text ) {
 							return;
 						}
 
 						context.modules.preview.previewText = wikitext;
 						context.modules.preview.$preview.find( '.wikiEditor-preview-loading' ).hide();
 						context.modules.preview.$preview.find( '.wikiEditor-preview-contents' )
-							.html( data.parse.text[ '*' ] )
+							.html( data.parse.text )
 							.append( '<div class="visualClear"></div>' )
 							.find( 'a:not([href^=#])' )
 								.click( false );
@@ -98,6 +99,7 @@ $.wikiEditor.modules.preview = {
 
 					// Call the API. First PST the input, then diff it
 					api.post( {
+						formatversion: 2,
 						action: 'parse',
 						title: mw.config.get( 'wgPageName' ),
 						onlypst: '',
@@ -105,11 +107,11 @@ $.wikiEditor.modules.preview = {
 					} ).done( function ( data ) {
 						try {
 							var postdata2 = {
+								formatversion: 2,
 								action: 'query',
-								indexpageids: '',
 								prop: 'revisions',
 								titles: mw.config.get( 'wgPageName' ),
-								rvdifftotext: data.parse.text[ '*' ],
+								rvdifftotext: data.parse.text,
 								rvprop: ''
 							};
 							var section = $( '[name="wpSection"]' ).val();
@@ -122,8 +124,8 @@ $.wikiEditor.modules.preview = {
 								// Add diff CSS
 								mw.loader.load( 'mediawiki.action.history.diff' );
 								try {
-									var diff = data.query.pages[ data.query.pageids[ 0 ] ]
-										.revisions[ 0 ].diff[ '*' ];
+									var diff = data.query.pages[ 0 ]
+										.revisions[ 0 ].diff.body;
 
 									context.$changesTab.find( 'table.diff tbody' )
 										.html( diff )
