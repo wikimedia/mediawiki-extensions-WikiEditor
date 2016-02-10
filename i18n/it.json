@@ -202,6 +202,8 @@
 	"wikieditor-toolbar-help-content-reference-description": "Nota",
 	"wikieditor-toolbar-help-content-reference-syntax": "Testo della pagina.&lt;ref&gt;[http://www.example.org Testo del collegamento], testo aggiuntivo.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Testo della pagina.<sup><a href='#'>[1]</a></sup>",
+	"wikieditor-toolbar-help-content-named-reference-description": "Riferimento denominato",
+	"wikieditor-toolbar-help-content-named-reference-syntax": "Testo pagina.&lt;ref name=\"test\"&gt;[http://www.example.org Testo collegamento]&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-named-reference-result": "Testo della pagina.<sup><a href='#'>[2]</a></sup>",
 	"wikieditor-toolbar-help-content-rereference-description": "Ulteriore uso della stessa nota",
 	"wikieditor-toolbar-help-content-rereference-result": "Testo della pagina.<sup><a href='#'>[2]</a></sup>",
