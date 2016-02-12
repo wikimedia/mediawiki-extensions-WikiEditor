@@ -138,7 +138,7 @@
 	"wikieditor-toolbar-tool-replace-button-replaceall": "შეცვალეთ ყველაფერი",
 	"wikieditor-toolbar-tool-replace-close": "დახურვა",
 	"wikieditor-toolbar-tool-replace-nomatch": "თქვენი მოთხოვნის შესაბამისი არაფერია ნაპოვნი",
-	"wikieditor-toolbar-tool-replace-success": "$1 განხორციელდა {{PLURAL:$1|შეცვლა|შეცვლა}}.",
+	"wikieditor-toolbar-tool-replace-success": "განხორციელდა $1 {{PLURAL:$1|ცვლილება|ცვლილება}}.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "თქვენ არ მიუთითეთ საძიებელი.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "თქვენს მიერ შეტანილი რეგულარული გამოსახულება არასწორია: $1",
 	"wikieditor-toolbar-section-characters": "სპეციალური სიმბოლოები",
