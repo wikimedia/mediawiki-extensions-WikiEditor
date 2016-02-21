@@ -447,7 +447,7 @@ $.wikiEditor.modules.toolbar = {
 				rel: id
 			} );
 			if ( deferLoad ) {
-				$page.bind( 'loadPage', function () {
+				$page.one( 'loadPage', function () {
 					$.wikiEditor.modules.toolbar.fn.reallyBuildPage( context, id, page, $page );
 				} );
 			} else {
