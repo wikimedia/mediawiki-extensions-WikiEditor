@@ -12,7 +12,8 @@
 			"ترجمان05",
 			"زكريا",
 			"Macofe",
-			"Shbib Al-Subaie"
+			"Shbib Al-Subaie",
+			"Maroen1990"
 		]
 	},
 	"wikieditor": "الواجهة المتقدمة لتعديل نص ويكي",
@@ -80,6 +81,7 @@
 	"wikieditor-toolbar-file-format-none": "لا يوجد",
 	"wikieditor-toolbar-tool-file-insert": "إدراج",
 	"wikieditor-toolbar-tool-file-cancel": "إلغاء",
+	"wikieditor-toolbar-tool-file-upload": "رفع",
 	"wikieditor-toolbar-tool-reference": "مرجع",
 	"wikieditor-toolbar-tool-reference-example": "أدرج نص الحاشية هنا",
 	"wikieditor-toolbar-tool-reference-cancel": "إلغاء",
@@ -169,7 +171,7 @@
 	"wikieditor-toolbar-help-content-bolditalic-syntax": "'''''نص غليظ ومائل'''''",
 	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>نص غليظ ومائل</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "وصلة داخلية",
-	"wikieditor-toolbar-help-content-ilink-syntax": "[[عنوان الصفحة|اسم الوصلة]]<br />[[عنوان الصفحة]]",
+	"wikieditor-toolbar-help-content-ilink-syntax": "[[عنوان الصفحة]]<br />[[عنوان الصفحة|اسم الوصلة]]",
 	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>اسم الوصلة</a><br /><a href='#'>عنوان الصفحة</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "وصلة خارجية",
 	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.example.org اسم الوصلة]<br />[http://www.example.org]<br />http://www.example.org",
