@@ -2,7 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"Sapral Mikail"
+			"Sapral Mikail",
+			"Adam-Yourist",
+			"Умар"
 		]
-	}
+	},
+	"wikieditor": "Вики-йоазув хувцара шера интерфейс",
+	"wikieditor-desc": "Iалашду викийоазув хувцара шералуш йола интерфейс а, модулеша Iалашъю дукха функцеш а",
+	"wikieditor-wikitext-tab": "Викийоазув",
+	"wikieditor-loading": "Чудаккхар...",
+	"wikieditor-toolbar-section-advanced": "Кхы тӀа",
+	"wikieditor-toolbar-section-help": "ГӀо"
 }
