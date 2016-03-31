@@ -1,7 +1,7 @@
 /**
  * This plugin provides a way to build a wiki-text editing user interface around a textarea.
  *
- * @example To intialize without any modules:
+ * @example To initialize without any modules:
  *     $( 'div#edittoolbar' ).wikiEditor();
  *
  * @example To initialize with one or more modules, or to add modules after it's already been initialized:
@@ -38,7 +38,7 @@ fallbackChain = ( function () {
 $.wikiEditor = {
 	/**
 	 * For each module that is loaded, static code shared by all instances is loaded into this object organized by
-	 * module name. The existance of a module in this object only indicates the module is available. To check if a
+	 * module name. The existence of a module in this object only indicates the module is available. To check if a
 	 * module is in use by a specific context check the context.modules object.
 	 */
 	modules: {},
@@ -49,15 +49,15 @@ $.wikiEditor = {
 	extensions: {},
 
 	/**
-	 * In some cases like with the iframe's HTML file, it's convienent to have a lookup table of all instances of the
-	 * WikiEditor. Each context contains an instance field which contains a key that corrosponds to a reference to the
+	 * In some cases like with the iframe's HTML file, it's convenient to have a lookup table of all instances of the
+	 * WikiEditor. Each context contains an instance field which contains a key that corresponds to a reference to the
 	 * textarea which the WikiEditor was build around. This way, by passing a simple integer you can provide a way back
 	 * to a specific context.
 	 */
 	instances: [],
 
 	/**
-	 * For each browser name, an array of conditions that must be met are supplied in [operaton, value]-form where
+	 * For each browser name, an array of conditions that must be met are supplied in [operation, value]-form where
 	 * operation is a string containing a JavaScript compatible binary operator and value is either a number to be
 	 * compared with $.browser.versionNumber or a string to be compared with $.browser.version. If a browser is not
 	 * specifically mentioned, we just assume things will work.
@@ -106,12 +106,12 @@ $.wikiEditor = {
 	/**
 	 * Checks the current browser against the browsers object to determine if the browser has been black-listed or not.
 	 * Because these rules are often very complex, the object contains configurable operators and can check against
-	 * either the browser version number or string. This process also involves checking if the current browser is amung
-	 * those which we have configured as compatible or not. If the browser was not configured as comptible we just go on
+	 * either the browser version number or string. This process also involves checking if the current browser is among
+	 * those which we have configured as compatible or not. If the browser was not configured as compatible we just go on
 	 * assuming things will work - the argument here is to prevent the need to update the code when a new browser comes
 	 * to market. The assumption here is that any new browser will be built on an existing engine or be otherwise so
-	 * similar to another existing browser that things actually do work as expected. The merrits of this argument, which
-	 * is essentially to blacklist rather than whitelist are debateable, but at this point we've decided it's the more
+	 * similar to another existing browser that things actually do work as expected. The merits of this argument, which
+	 * is essentially to blacklist rather than whitelist are debatable, but at this point we've decided it's the more
 	 * "open-web" way to go.
 	 *
 	 * @param {Object} module Module object, defaults to $.wikiEditor
@@ -276,7 +276,7 @@ $.fn.wikiEditor = function () {
 			views: {},
 			// Container for any number of module-specific data - only including data for modules in use on this context
 			modules: {},
-			// General place to shouve bits of data into
+			// General place to shove bits of data into
 			data: {},
 			// Unique numeric ID of this instance used both for looking up and differentiating instances of wikiEditor
 			instance: $.wikiEditor.instances.push( $( this ) ) - 1,
@@ -309,7 +309,7 @@ $.fn.wikiEditor = function () {
 					modules = data;
 				}
 				for ( module in modules ) {
-					// Check for the existance of an available / supported module with a matching name and a create function
+					// Check for the existence of an available / supported module with a matching name and a create function
 					if ( typeof module === 'string' && typeof $.wikiEditor.modules[ module ] !== 'undefined' &&
 							$.wikiEditor.isSupported( $.wikiEditor.modules[ module ] )
 					) {
@@ -579,7 +579,7 @@ $.fn.wikiEditor = function () {
 		context.$wikitext.append( $( '<div>' ).addClass( 'wikiEditor-ui-clear' ) );
 		// Attach a top container to the left pane
 		context.$wikitext.find( '.wikiEditor-ui-left' ).prepend( $( '<div>' ).addClass( 'wikiEditor-ui-top' ) );
-		// Setup the intial view
+		// Setup the initial view
 		context.view = 'wikitext';
 		// Trigger the "resize" event anytime the window is resized
 		$( window ).resize( function ( event ) {

@@ -6,7 +6,7 @@
 $.wikiEditor.modules.dialogs = {
 
 	/**
-	 * Compatability map
+	 * Compatibility map
 	 */
 	browsers: {
 		// Left-to-right languages
@@ -131,7 +131,7 @@ $.wikiEditor.modules.dialogs = {
 			// Add some stuff to configuration
 			configuration.bgiframe = true;
 			configuration.autoOpen = false;
-			// By default our dialogs are modal, unless explicitely defined in their specific configuration.
+			// By default our dialogs are modal, unless explicitly defined in their specific configuration.
 			if ( typeof configuration.modal === 'undefined' ) {
 				configuration.modal = true;
 			}

@@ -102,7 +102,7 @@ $.wikiEditor.modules.dialogs.config = {
 
 					function isExternalLink( s ) {
 						// The following things are considered to be external links:
-						// * Starts a URL protocol
+						// * Starts with a URL protocol
 						// * Starts with www.
 						// All of these are potentially valid titles, and the latter two categories match about 6300
 						// titles in enwiki's ns0. Out of 6.9M titles, that's 0.09%
@@ -136,7 +136,7 @@ $.wikiEditor.modules.dialogs.config = {
 						}
 					}
 
-					// Updates the UI to show if the page title being inputed by the user exists or not
+					// Updates the UI to show if the page title being inputted by the user exists or not
 					// accepts parameter internal for bypassing external link detection
 					function updateExistence( internal ) {
 						// ensure the internal parameter is a boolean
@@ -159,7 +159,7 @@ $.wikiEditor.modules.dialogs.config = {
 							updateWidget( false );
 							return;
 						}
-						// If the forced internal paremter was not true, check if the target is an external link
+						// If the forced internal parameter was not true, check if the target is an external link
 						if ( !internal && isExternalLink( target ) ) {
 							updateWidget( 'external' );
 							return;

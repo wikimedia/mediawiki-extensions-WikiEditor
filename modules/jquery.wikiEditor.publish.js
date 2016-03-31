@@ -5,7 +5,7 @@
 $.wikiEditor.modules.publish = {
 
 	/**
-	 * Compatability map
+	 * Compatibility map
 	 */
 	browsers: {
 		// Left-to-right languages
