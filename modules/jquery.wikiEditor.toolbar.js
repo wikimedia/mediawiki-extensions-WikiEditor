@@ -621,10 +621,13 @@ $.wikiEditor.modules.toolbar = {
 						$( this ).parent().parent().find( 'a' ).removeClass( 'current' );
 						$sections.css( 'overflow', 'hidden' );
 						if ( show ) {
-							$section.removeClass( 'section-hidden' )
+							$section
+								.stop()
+								.removeClass( 'section-hidden' )
 								.attr( 'aria-expanded', 'true' )
 								.animate( { opacity: 100.0 }, 'fast', 'linear', function () {
 									$( this ).addClass( 'section-visible' );
+									context.fn.trigger( 'resize' );
 								} );
 							$sections
 								.animate( { height: $section.outerHeight() }, $section.outerHeight() * 2, function () {
@@ -634,6 +637,7 @@ $.wikiEditor.modules.toolbar = {
 							$( this ).addClass( 'current' );
 						} else {
 							$sections
+								.stop()
 								.css( 'height', $section.outerHeight() )
 								.animate( { height: 0 }, $section.outerHeight() * 2, function () {
 									$( this ).css( { overflow: 'visible' } );
