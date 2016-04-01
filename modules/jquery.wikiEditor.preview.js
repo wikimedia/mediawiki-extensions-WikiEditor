@@ -4,7 +4,7 @@
 $.wikiEditor.modules.preview = {
 
 	/**
-	 * Compatability map
+	 * Compatibility map
 	 */
 	browsers: {
 		// Left-to-right languages
