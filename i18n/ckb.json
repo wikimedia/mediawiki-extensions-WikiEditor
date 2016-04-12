@@ -8,7 +8,8 @@
 			"Marmzok",
 			"McDutchie",
 			"Muhammed taha",
-			"Macofe"
+			"Macofe",
+			"Sarchia"
 		]
 	},
 	"wikieditor": "ڕووکاری پێشکەوتووی دەستکاریکردنی ویکیدەق",
@@ -65,11 +66,14 @@
 	"wikieditor-toolbar-tool-file": "پەڕگەی نێودەق",
 	"wikieditor-toolbar-tool-file-example": "نموونە.jpg",
 	"wikieditor-toolbar-file-target": "ناوی پەرگە:",
+	"wikieditor-toolbar-file-caption": "ڕاڤە:",
 	"wikieditor-toolbar-file-size": "قەبارە:",
+	"wikieditor-toolbar-file-default": "(بنچینەیی)",
 	"wikieditor-toolbar-file-format": "داڕشتن:",
 	"wikieditor-toolbar-file-format-none": "ھیچ",
 	"wikieditor-toolbar-tool-file-insert": "تێخستن",
 	"wikieditor-toolbar-tool-file-cancel": "ھەڵوەشاندنەوە",
+	"wikieditor-toolbar-tool-file-upload": "بارکردن",
 	"wikieditor-toolbar-tool-reference": "سەرچاوە",
 	"wikieditor-toolbar-tool-reference-example": "دەقی پانووس بخەرە ئێرە",
 	"wikieditor-toolbar-tool-reference-cancel": "ھەڵوەشاندنەوە",
