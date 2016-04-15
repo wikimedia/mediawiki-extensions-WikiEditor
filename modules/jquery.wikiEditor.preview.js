@@ -60,26 +60,36 @@ $.wikiEditor.modules.preview = {
 						action: 'parse',
 						title: mw.config.get( 'wgPageName' ),
 						text: wikitext,
-						prop: 'text|modules',
-						pst: ''
+						pst: '',
+						prop: 'text|modules|jsconfigvars',
+						preview: true,
+						disableeditsection: true,
+						uselang: mw.config.get( 'wgUserLanguage' )
 					} ).done( function ( data ) {
 						if ( !data.parse || !data.parse.text ) {
 							return;
 						}
 
-						context.modules.preview.previewText = wikitext;
-						context.modules.preview.$preview.find( '.wikiEditor-preview-loading' ).hide();
-						context.modules.preview.$preview.find( '.wikiEditor-preview-contents' )
-							.html( data.parse.text )
-							.append( '<div class="visualClear"></div>' )
-							.find( 'a:not([href^=#])' )
-								.click( false );
-
+						if ( data.parse.jsconfigvars ) {
+							mw.config.set( data.parse.jsconfigvars );
+						}
 						var loadmodules = data.parse.modules.concat(
 							data.parse.modulescripts,
 							data.parse.modulestyles
 						);
 						mw.loader.load( loadmodules );
+
+						context.modules.preview.previewText = wikitext;
+						context.modules.preview.$preview.find( '.wikiEditor-preview-loading' ).hide();
+						var $content = context.modules.preview.$preview.find( '.wikiEditor-preview-contents' )
+							.detach()
+							.html( data.parse.text );
+						$content.append( '<div class="visualClear"></div>' )
+							.find( 'a:not([href^=#])' )
+								.click( false );
+
+						mw.hook( 'wikipage.content' ).fire( $content );
+						context.modules.preview.$preview.append( $content );
 					} );
 				}
 			} );
@@ -97,48 +107,34 @@ $.wikiEditor.modules.preview = {
 					context.$changesTab.find( 'table.diff tbody' ).empty();
 					context.$changesTab.find( '.wikiEditor-preview-loading' ).show();
 
-					// Call the API. First PST the input, then diff it
-					api.post( {
+					var section = $( '[name="wpSection"]' ).val();
+					var postdata = {
 						formatversion: 2,
-						action: 'parse',
-						title: mw.config.get( 'wgPageName' ),
-						onlypst: '',
-						text: wikitext
-					} ).done( function ( data ) {
+						action: 'query',
+						prop: 'revisions',
+						titles: mw.config.get( 'wgPageName' ),
+						rvdifftotext: wikitext,
+						rvdifftotextpst: true,
+						rvprop: '',
+						rvsection: section === '' ? undefined : section
+					};
+
+					api.post( postdata )
+					.done( function ( data ) {
 						try {
-							var postdata2 = {
-								formatversion: 2,
-								action: 'query',
-								prop: 'revisions',
-								titles: mw.config.get( 'wgPageName' ),
-								rvdifftotext: data.parse.text,
-								rvprop: ''
-							};
-							var section = $( '[name="wpSection"]' ).val();
-							if ( section !== '' ) {
-								postdata2.rvsection = section;
-							}
+							var diff = data.query.pages[ 0 ]
+								.revisions[ 0 ].diff.body;
 
-							api.post( postdata2 )
-							.done( function ( data ) {
-								// Add diff CSS
-								mw.loader.load( 'mediawiki.action.history.diff' );
-								try {
-									var diff = data.query.pages[ 0 ]
-										.revisions[ 0 ].diff.body;
-
-									context.$changesTab.find( 'table.diff tbody' )
-										.html( diff )
-										.append( '<div class="visualClear"></div>' );
-									context.modules.preview.changesText = wikitext;
-								} catch ( e ) {
-									// "data.blah is undefined" error, ignore
-								}
-								context.$changesTab.find( '.wikiEditor-preview-loading' ).hide();
-							} );
+							context.$changesTab.find( 'table.diff tbody' )
+								.html( diff )
+								.append( '<div class="visualClear"></div>' );
+							mw.hook( 'wikipage.diff' )
+								.fire( context.$changesTab.find( 'table.diff' ) );
+							context.modules.preview.changesText = wikitext;
 						} catch ( e ) {
 							// "data.blah is undefined" error, ignore
 						}
+						context.$changesTab.find( '.wikiEditor-preview-loading' ).hide();
 					} );
 				}
 			} );
