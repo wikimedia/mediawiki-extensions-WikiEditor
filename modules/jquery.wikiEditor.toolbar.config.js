@@ -502,6 +502,11 @@ $.wikiEditor.modules.toolbar.config = {
 							language: 'el',
 							characters: mw.language.specialCharacters.greek
 						},
+						greekextended: {
+							labelMsg: 'special-characters-group-greekextended',
+							layout: 'characters',
+							characters: mw.language.specialCharacters.greekextended
+						},
 						cyrillic: {
 							labelMsg: 'special-characters-group-cyrillic',
 							layout: 'characters',
