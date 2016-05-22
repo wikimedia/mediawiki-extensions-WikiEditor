@@ -183,6 +183,8 @@ class WikiEditorHooks {
 			return true;
 		}
 
+		$outputPage->addModuleStyles( 'ext.wikiEditor.styles' );
+
 		// Add modules for enabled features
 		foreach ( self::$features as $name => $feature ) {
 			if ( !self::isEnabled( $name ) ) {
