@@ -136,7 +136,7 @@
 	"wikieditor-toolbar-tool-replace-button-replaceall": "Remplaçar tot",
 	"wikieditor-toolbar-tool-replace-close": "Tampar",
 	"wikieditor-toolbar-tool-replace-nomatch": "Vòstra recèrca a pas trobat cap de correspondéncia.",
-	"wikieditor-toolbar-tool-replace-success": "$1 {{PLURAL:$1|remplaçament fach|remplaçaments faches}}.",
+	"wikieditor-toolbar-tool-replace-success": "$1 {{PLURAL:$1|remplaçament fait|remplaçaments faits}}.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "Avètz pas indicat de tèxte de recercar.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "L'expression racionala entrada es invalida : $1",
 	"wikieditor-toolbar-section-characters": "Caractèrs especials",
