@@ -13,7 +13,8 @@
 			"WTM",
 			"Wpedzich",
 			"Mareklug",
-			"Chrumps"
+			"Chrumps",
+			"Woytecr"
 		]
 	},
 	"wikieditor": "Zaawansowany interfejs edycji wikitekstu",
@@ -24,7 +25,7 @@
 	"wikieditor-preview-tab": "Podgląd",
 	"wikieditor-preview-changes-tab": "Zmiany",
 	"wikieditor-preview-loading": "Wczytywanie...",
-	"wikieditor-publish-preference": "Wspomaga publikację materiału krok po kroku",
+	"wikieditor-publish-preference": "Wspomaganie publikacji materiału krok po kroku",
 	"wikieditor-publish-button-publish": "Opublikuj",
 	"wikieditor-publish-button-cancel": "Anuluj",
 	"wikieditor-publish-dialog-title": "Opublikuj w {{GRAMMAR:MS.lp|{{SITENAME}}}}",
