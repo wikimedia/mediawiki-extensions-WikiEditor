@@ -14,7 +14,8 @@
 			"Waldir",
 			"555",
 			"He7d3r",
-			"Opraco"
+			"Opraco",
+			"Fúlvio"
 		]
 	},
 	"wikieditor": "Interface avançada de edição de texto wiki",
@@ -201,6 +202,7 @@
 	"wikieditor-toolbar-help-content-reference-description": "Referência",
 	"wikieditor-toolbar-help-content-reference-syntax": "Texto da página.&lt;ref&gt;[http://www.exemplo.org Texto do link], texto adicional.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Texto da página.<sup><a href='#'>[1]</a></sup>",
+	"wikieditor-toolbar-help-content-named-reference-description": "Referência nomeada",
 	"wikieditor-toolbar-help-content-named-reference-syntax": "Texto da página.&lt;ref name=\"test\"&gt;[http://www.example.org Link text]&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-named-reference-result": "Texto da página.<sup><a href='#'>[2]</a></sup>",
 	"wikieditor-toolbar-help-content-rereference-description": "Reutilização da mesma referência",
