@@ -29,7 +29,7 @@
 	"wikieditor-publish-button-cancel": "取消",
 	"wikieditor-publish-dialog-title": "发表到{{SITENAME}}",
 	"wikieditor-publish-dialog-summary": "编辑摘要（请简要描述你作出的更改）：",
-	"wikieditor-publish-dialog-minor": "小修改",
+	"wikieditor-publish-dialog-minor": "小编辑",
 	"wikieditor-publish-dialog-watch": "监视本页",
 	"wikieditor-publish-dialog-publish": "发表",
 	"wikieditor-publish-dialog-goback": "后退",
