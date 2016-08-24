@@ -11,7 +11,8 @@
 			"Macofe",
 			"MedShot",
 			"HanV",
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"Servien"
 		]
 	},
 	"wikieditor": "Uitgebreide tekstverwerker voor wikitekst",
@@ -198,6 +199,7 @@
 	"wikieditor-toolbar-help-content-reference-description": "Referentie",
 	"wikieditor-toolbar-help-content-reference-syntax": "Paginatekst.&lt;ref&gt;[http://www.example.org Koppelingstekst], extra tekst.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Paginatekst. <sup><a href='#'>[1]</a></sup>",
+	"wikieditor-toolbar-help-content-named-reference-description": "Benoemde referentie",
 	"wikieditor-toolbar-help-content-rereference-description": "Extra gebruik van dezelfde referentie",
 	"wikieditor-toolbar-help-content-rereference-result": "Paginatekst. <sup><a href='#'>[2]</a></sup>",
 	"wikieditor-toolbar-help-content-showreferences-description": "Referenties weergeven",
