@@ -133,7 +133,7 @@
 	"wikieditor-toolbar-tool-table-preview": "معاينة",
 	"wikieditor-toolbar-tool-table-insert": "أدرج",
 	"wikieditor-toolbar-tool-table-cancel": "إلغاء",
-	"wikieditor-toolbar-tool-table-toomany": "إدراج جدول بأكثر من 1000 خانة غير ممكن هنا.",
+	"wikieditor-toolbar-tool-table-toomany": "إدراج جدول بأكثر من $1 {{PLURAL:$1|خانة}} غير ممكن هنا.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "لم تدخل رقما صحيحا للصفوف أو الأعمدة.",
 	"wikieditor-toolbar-tool-table-zero": "لا يمكن أن تدرج جدولا بلا صفوف أو أعمدة.",
 	"wikieditor-toolbar-tool-replace": "ابحث واستبدل",
