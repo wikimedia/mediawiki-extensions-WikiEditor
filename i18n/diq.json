@@ -7,7 +7,8 @@
 			"Mirzali",
 			"Xoser",
 			"Macofe",
-			"Kumkumuk"
+			"Kumkumuk",
+			"Asmen"
 		]
 	},
 	"wikieditor": "Miyanriyê wikitekstio ke raverşiyayo",
@@ -23,7 +24,7 @@
 	"wikieditor-publish-button-cancel": "Bıterkın",
 	"wikieditor-publish-dialog-title": "{{SITENAME}} rê çap ke",
 	"wikieditor-publish-dialog-summary": "Xulasayê vurnayişi (ser vurnayişê xo xulasa binuse):",
-	"wikieditor-publish-dialog-minor": "Vuriyayışa werdi",
+	"wikieditor-publish-dialog-minor": "Vurriyayışo werdi",
 	"wikieditor-publish-dialog-watch": "Na pele seyr ke",
 	"wikieditor-publish-dialog-publish": "Vıla ke",
 	"wikieditor-publish-dialog-goback": "Peyser şo",
