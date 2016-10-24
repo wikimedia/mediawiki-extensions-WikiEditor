@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Agilight"
+			"Agilight",
+			"Kaganer"
 		]
 	},
 	"wikieditor-wikitext-tab": "Викисөзүглел",
@@ -46,6 +47,7 @@
 	"wikieditor-toolbar-tool-replace-button-replace": "Солуур",
 	"wikieditor-toolbar-tool-replace-button-replaceall": "Шуптузун солуур",
 	"wikieditor-toolbar-tool-replace-close": "Хаар",
+	"wikieditor-toolbar-section-characters": "Тускай демдектер",
 	"wikieditor-toolbar-section-help": "Дуза медээлел",
 	"wikieditor-toolbar-help-content-bold-description": "Карарткан",
 	"wikieditor-toolbar-help-content-bold-syntax": "'''Карарткан сөзүглел'''"
