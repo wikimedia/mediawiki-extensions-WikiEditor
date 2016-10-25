@@ -67,7 +67,7 @@
 	"wikieditor-toolbar-tool-link-int-target-status-loading": "A verificar se a página existe...",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Página de desambiguação",
 	"wikieditor-toolbar-tool-link-int-invalid": "O título que especificou é inválido.",
-	"wikieditor-toolbar-tool-link-lookslikeinternal": "A URL que especificou parece ser um link para outra página da wiki. Deseja torná-la num link interno?",
+	"wikieditor-toolbar-tool-link-lookslikeinternal": "O URL que especificou parece ser uma ligação para outra página da wiki. Deseja torná-lo numa ligação interno?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Link interno",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Link externo",
 	"wikieditor-toolbar-tool-link-empty": "Não introduziu o destino do link.",
