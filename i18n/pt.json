@@ -29,7 +29,7 @@
 	"wikieditor-publish-preference": "Possibilitar publicação passo a passo",
 	"wikieditor-publish-button-publish": "Publicar",
 	"wikieditor-publish-button-cancel": "Cancelar",
-	"wikieditor-publish-dialog-title": "Publicar na {{SITENAME}}",
+	"wikieditor-publish-dialog-title": "Publicar na wiki {{SITENAME}}",
 	"wikieditor-publish-dialog-summary": "Resumo de edição (breve descrição das suas alterações):",
 	"wikieditor-publish-dialog-minor": "Edição menor",
 	"wikieditor-publish-dialog-watch": "Vigiar esta página",
