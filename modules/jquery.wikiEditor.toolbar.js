@@ -141,7 +141,7 @@
 				// animation, otherwise just change height (breaking any ongoing animation)
 				$divSections = context.modules.toolbar.$toolbar.find( 'div.sections' );
 				$visibleSection = $divSections.find( '.section-visible' );
-				if ( $visibleSection.size() ) {
+				if ( $visibleSection.length ) {
 					if ( smooth ) {
 						$divSections.animate( { height: $visibleSection.outerHeight() }, 'fast' );
 					} else {
@@ -308,7 +308,7 @@
 					option, optionLabel;
 				if ( 'filters' in tool ) {
 					for ( i = 0; i < tool.filters.length; i++ ) {
-						if ( $( tool.filters[ i ] ).size() === 0 ) {
+						if ( $( tool.filters[ i ] ).length === 0 ) {
 							return null;
 						}
 					}
@@ -769,7 +769,7 @@
 						var $section;
 						s.$sections.append( $.wikiEditor.modules.toolbar.fn.buildSection( s.context, s.id, s.config ) );
 						$section = s.$sections.find( '.section-visible' );
-						if ( $section.size() ) {
+						if ( $section.length ) {
 							$sections.animate( { height: $section.outerHeight() }, $section.outerHeight() * 2, function () {
 								context.fn.trigger( 'resize' );
 							} );

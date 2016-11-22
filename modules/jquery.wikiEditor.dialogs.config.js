@@ -245,7 +245,7 @@
 										.data( 'tooltip-mode', true );
 								}
 							} )
-							.focus( function () {
+							.on( 'focus', function () {
 								if ( $( this ).val() === $( this ).data( 'tooltip' ) ) {
 									$( this )
 										.val( '' )
@@ -253,14 +253,14 @@
 										.data( 'tooltip-mode', false );
 								}
 							} )
-							.bind( 'change', function () {
+							.on( 'change', function () {
 								if ( $( this ).val() !== $( this ).data( 'tooltip' ) ) {
 									$( this )
 										.removeClass( 'wikieditor-toolbar-dialog-hint' )
 										.data( 'tooltip-mode', false );
 								}
 							} )
-							.bind( 'blur', function () {
+							.on( 'blur', function () {
 								if ( $( this ).val() === '' ) {
 									$( this )
 										.addClass( 'wikieditor-toolbar-dialog-hint' )
@@ -272,7 +272,7 @@
 						// Automatically copy the value of the internal link page title field to the link text field unless the
 						// user has changed the link text field - this is a convenience thing since most link texts are going to
 						// be the the same as the page title - Also change the internal/external radio button accordingly
-						$( '#wikieditor-toolbar-link-int-target' ).bind( 'change keydown paste cut', function () {
+						$( '#wikieditor-toolbar-link-int-target' ).on( 'change keydown paste cut', function () {
 							// $( this ).val() is the old value, before the keypress - Defer this until $( this ).val() has
 							// been updated
 							setTimeout( function () {
@@ -300,7 +300,7 @@
 								}
 							}, 0 );
 						} );
-						$( '#wikieditor-toolbar-link-int-text' ).bind( 'change keydown paste cut', function () {
+						$( '#wikieditor-toolbar-link-int-text' ).on( 'change keydown paste cut', function () {
 							var oldVal = $( this ).val(),
 								that = this;
 							setTimeout( function () {
@@ -345,7 +345,7 @@
 							.children().hide();
 
 						$( '#wikieditor-toolbar-link-int-target' )
-							.bind( 'keyup paste cut', function () {
+							.on( 'keyup paste cut', function () {
 								var timerID;
 								// Cancel the running timer if applicable
 								if ( typeof $( this ).data( 'timerID' ) !== 'undefined' ) {
@@ -356,7 +356,7 @@
 								timerID = setTimeout( updateExistence, 120 );
 								$( this ).data( 'timerID', timerID );
 							} )
-							.change( function () {
+							.on( 'change', function () {
 								// Cancel the running timer if applicable
 								if ( typeof $( this ).data( 'timerID' ) !== 'undefined' ) {
 									clearTimeout( $( this ).data( 'timerID' ) );
@@ -1250,7 +1250,7 @@
 							textbox = context.$textarea;
 
 							$( textbox )
-								.bind( 'keypress.srdialog', function ( e ) {
+								.on( 'keypress.srdialog', function ( e ) {
 									var button;
 									if ( e.which === 13 ) {
 										// Enter
