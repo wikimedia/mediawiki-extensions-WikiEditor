@@ -466,7 +466,7 @@
 									// Detect if this is really an internal link in disguise
 									match = target.match( $( this ).data( 'articlePathRegex' ) );
 									if ( match && !$( this ).data( 'ignoreLooksInternal' ) ) {
-										buttons = {},
+										buttons = {};
 										buttons[ mw.msg( 'wikieditor-toolbar-tool-link-lookslikeinternal-int' ) ] =
 											function () {
 												$( '#wikieditor-toolbar-link-int-target' ).val( match[ 1 ] ).change();
@@ -486,7 +486,7 @@
 										return;
 									}
 
-									escTarget = escapeExternalTarget( target ),
+									escTarget = escapeExternalTarget( target );
 									escText = escapeExternalText( text );
 
 									if ( escTarget === escText ) {
@@ -1141,7 +1141,6 @@
 							} else {
 
 								if ( mode === 'replace' ) {
-									actualReplacement;
 
 									if ( isRegex ) {
 										// If backreferences (like $1) are used, the actual actual replacement string will be different
