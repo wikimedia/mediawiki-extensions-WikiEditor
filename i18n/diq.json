@@ -146,7 +146,7 @@
 	"wikieditor-toolbar-tool-replace-success": "$1 {{PLURAL:$1|yedeg|yedegi}} vıraziya.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "şıma qey cıgêrayiş taway/çiyek nênuşt",
 	"wikieditor-toolbar-tool-replace-invalidregex": "ifadeya normal a ke şıma kwene cı meqbul niya: $1",
-	"wikieditor-toolbar-section-characters": "Karakterê xısusiyi",
+	"wikieditor-toolbar-section-characters": "Karakterê xısusiy",
 	"wikieditor-toolbar-section-help": "Peşti",
 	"wikieditor-toolbar-help-heading-description": "Şınasnayış",
 	"wikieditor-toolbar-help-heading-syntax": "o yo ke şıma nuşt",
