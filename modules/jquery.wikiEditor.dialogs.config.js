@@ -1265,7 +1265,7 @@
 						close: function () {
 							var context = $( this ).data( 'context' ),
 								textbox = context.$textarea;
-							$( textbox ).unbind( 'keypress.srdialog' );
+							$( textbox ).off( 'keypress.srdialog' );
 							$( this ).closest( '.ui-dialog' ).data( 'dialogaction', false );
 						}
 					}
