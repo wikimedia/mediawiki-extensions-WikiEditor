@@ -165,13 +165,13 @@
 					.find( 'button' ).not( '[tabindex]' ) );
 				if ( !( 'resizeme' in module ) || module.resizeme ) {
 					$dialogDiv
-						.bind( 'dialogopen', $.wikiEditor.modules.dialogs.fn.resize )
-						.find( '.ui-tabs' ).bind( 'tabsshow', function () {
+						.on( 'dialogopen', $.wikiEditor.modules.dialogs.fn.resize )
+						.find( '.ui-tabs' ).on( 'tabsshow', function () {
 							$( this ).closest( '.ui-dialog-content' ).each(
 								$.wikiEditor.modules.dialogs.fn.resize );
 						} );
 				}
-				$dialogDiv.bind( 'dialogclose', function () {
+				$dialogDiv.on( 'dialogclose', function () {
 					context.fn.restoreSelection();
 				} );
 
@@ -182,7 +182,7 @@
 			/**
 			 * Resize a dialog so its contents fit
 			 *
-			 * Usage: dialog.each( resize ); or dialog.bind( 'blah', resize );
+			 * Usage: dialog.each( resize ); or dialog.on( 'blah', resize );
 			 * NOTE: This function assumes $.ui.dialog has already been loaded
 			 */
 			resize: function () {
