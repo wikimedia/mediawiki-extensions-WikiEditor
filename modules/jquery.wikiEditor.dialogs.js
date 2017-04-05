@@ -11,35 +11,19 @@
 		browsers: {
 			// Left-to-right languages
 			ltr: {
-				msie: [ [ '>=', 7 ] ],
-				// jQuery UI appears to be broken in FF 2.0 - 2.0.0.4
-				firefox: [
-				[ '>=', 2 ],
-				[ '!=', '2.0' ],
-				[ '!=', '2.0.0.1' ],
-				[ '!=', '2.0.0.2' ],
-				[ '!=', '2.0.0.3' ],
-				[ '!=', '2.0.0.4' ]
-				],
-				opera: [ [ '>=', 9.6 ] ],
-				safari: [ [ '>=', 3 ] ],
-				chrome: [ [ '>=', 3 ] ]
+				msie: [ [ '>=', 9 ] ],
+				firefox: [ [ '>=', 4 ] ],
+				opera: [ [ '>=', '10.5' ] ],
+				safari: [ [ '>=', 5 ] ],
+				chrome: [ [ '>=', 5 ] ]
 			},
 			// Right-to-left languages
 			rtl: {
-				msie: [ [ '>=', 7 ] ],
-				// jQuery UI appears to be broken in FF 2.0 - 2.0.0.4
-				firefox: [
-				[ '>=', 2 ],
-				[ '!=', '2.0' ],
-				[ '!=', '2.0.0.1' ],
-				[ '!=', '2.0.0.2' ],
-				[ '!=', '2.0.0.3' ],
-				[ '!=', '2.0.0.4' ]
-				],
-				opera: [ [ '>=', 9.6 ] ],
-				safari: [ [ '>=', 3 ] ],
-				chrome: [ [ '>=', 3 ] ]
+				msie: [ [ '>=', 9 ] ],
+				firefox: [ [ '>=', 4 ] ],
+				opera: [ [ '>=', '10.5' ] ],
+				safari: [ [ '>=', 5 ] ],
+				chrome: [ [ '>=', 5 ] ]
 			}
 		},
 
