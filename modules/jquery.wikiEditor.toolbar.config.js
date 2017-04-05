@@ -592,6 +592,12 @@
 								language: 'km',
 								layout: 'characters',
 								characters: mw.language.specialCharacters.khmer
+							},
+							canadianaboriginal: {
+								labelMsg: 'special-characters-group-canadianaboriginal',
+								language: 'cr',
+								layout: 'characters',
+								characters: mw.language.specialCharacters.canadianaboriginal
 							}
 						}
 					},
