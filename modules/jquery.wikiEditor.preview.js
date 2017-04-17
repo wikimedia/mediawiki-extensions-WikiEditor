@@ -86,7 +86,7 @@
 								.detach()
 								.html( data.parse.text );
 							$content.append( '<div class="visualClear"></div>' )
-								.find( 'a:not([href^=#])' )
+								.find( 'a:not([href^="#"])' )
 									.click( false );
 
 							mw.hook( 'wikipage.content' ).fire( $content );
