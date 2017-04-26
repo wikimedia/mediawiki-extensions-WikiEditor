@@ -63,15 +63,11 @@
 		browsers: {
 			// Left-to-right languages
 			ltr: {
-				// The toolbar layout is broken in IE6
-				msie: [ [ '>=', 7 ] ],
-				// Layout issues in FF < 2
-				firefox: [ [ '>=', 2 ] ],
-				// Text selection bugs galore
-				opera: [ [ '>=', 9.6 ] ],
-				// jQuery minimums
-				safari: [ [ '>=', 3 ] ],
-				chrome: [ [ '>=', 3 ] ],
+				msie: [ [ '>=', 9 ] ],
+				firefox: [ [ '>=', 4 ] ],
+				opera: [ [ '>=', '10.5' ] ],
+				safari: [ [ '>=', 5 ] ],
+				chrome: [ [ '>=', 5 ] ],
 				netscape: [ [ '>=', 9 ] ],
 				blackberry: false,
 				ipod: [ [ '>=', 6 ] ],
@@ -79,15 +75,11 @@
 			},
 			// Right-to-left languages
 			rtl: {
-				// The toolbar layout is broken in IE 7 in RTL mode, and IE6 in any mode
-				msie: [ [ '>=', 8 ] ],
-				// Layout issues in FF < 2
-				firefox: [ [ '>=', 2 ] ],
-				// Text selection bugs galore
-				opera: [ [ '>=', 9.6 ] ],
-				// jQuery minimums
-				safari: [ [ '>=', 3 ] ],
-				chrome: [ [ '>=', 3 ] ],
+				msie: [ [ '>=', 9 ] ],
+				firefox: [ [ '>=', 4 ] ],
+				opera: [ [ '>=', '10.5' ] ],
+				safari: [ [ '>=', 5 ] ],
+				chrome: [ [ '>=', 5 ] ],
 				netscape: [ [ '>=', 9 ] ],
 				blackberry: false,
 				ipod: [ [ '>=', 6 ] ],
@@ -171,7 +163,7 @@
 				return object[ property ];
 			} else if ( property + 'Msg' in object ) {
 				p = object[ property + 'Msg' ];
-				if ( $.isArray( p ) && p.length >= 2 ) {
+				if ( Array.isArray( p ) && p.length >= 2 ) {
 					return mw.message.apply( mw.message, p ).text();
 				} else {
 					return mw.message( p ).text();

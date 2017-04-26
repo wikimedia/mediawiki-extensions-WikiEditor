@@ -8,17 +8,19 @@
 		browsers: {
 			// Left-to-right languages
 			ltr: {
-				msie: [ [ '>=', 7 ] ],
-				firefox: [ [ '>=', 3 ] ],
-				opera: [ [ '>=', 9.6 ] ],
-				safari: [ [ '>=', 4 ] ]
+				msie: [ [ '>=', 9 ] ],
+				firefox: [ [ '>=', 4 ] ],
+				opera: [ [ '>=', '10.5' ] ],
+				safari: [ [ '>=', 5 ] ],
+				chrome: [ [ '>=', 5 ] ]
 			},
 			// Right-to-left languages
 			rtl: {
-				msie: [ [ '>=', 8 ] ],
-				firefox: [ [ '>=', 3 ] ],
-				opera: [ [ '>=', 9.6 ] ],
-				safari: [ [ '>=', 4 ] ]
+				msie: [ [ '>=', 9 ] ],
+				firefox: [ [ '>=', 4 ] ],
+				opera: [ [ '>=', '10.5' ] ],
+				safari: [ [ '>=', 5 ] ],
+				chrome: [ [ '>=', 5 ] ]
 			}
 		},
 

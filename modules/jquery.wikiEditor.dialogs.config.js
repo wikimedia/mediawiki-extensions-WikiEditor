@@ -1013,19 +1013,11 @@
 					browsers: {
 						// Left-to-right languages
 						ltr: {
-							msie: [ [ '>=', 11 ] ], // Known to work on 11.
-							firefox: [ [ '>=', 2 ] ],
-							opera: false,
-							safari: [ [ '>=', 3 ] ],
-							chrome: [ [ '>=', 3 ] ]
+							msie: [ [ '>=', 11 ] ] // Known to work on 11.
 						},
 						// Right-to-left languages
 						rtl: {
-							msie: [ [ '>=', 11 ] ], // Works on 11 but dialog positioning is cruddy.
-							firefox: [ [ '>=', 2 ] ],
-							opera: false,
-							safari: [ [ '>=', 3 ] ],
-							chrome: [ [ '>=', 3 ] ]
+							msie: [ [ '>=', 11 ] ] // Works on 11 but dialog positioning is cruddy.
 						}
 					},
 					titleMsg: 'wikieditor-toolbar-tool-replace-title',
