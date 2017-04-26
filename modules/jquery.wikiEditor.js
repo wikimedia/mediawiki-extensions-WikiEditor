@@ -358,10 +358,6 @@
 				 */
 				trigger: function ( name, event ) {
 					var returnFromModules, module, ret;
-					// Workaround for a scrolling bug in IE8 (bug 61908)
-					if ( profile.name === 'msie' && profile.versionNumber === 8 ) {
-						context.$textarea.css( 'width', context.$textarea.parent().width() );
-					}
 
 					// Event is an optional argument, but from here on out, at least the type field should be dependable
 					if ( typeof event === 'undefined' ) {
@@ -525,14 +521,6 @@
 					}
 				}
 			};
-
-			/**
-			 * Workaround for a scrolling bug in IE8 (bug 61908)
-			 */
-			if ( profile.name === 'msie' && profile.versionNumber === 8 ) {
-				context.$textarea.css( 'height', context.$textarea.height() );
-				context.$textarea.css( 'width', context.$textarea.parent().width() );
-			}
 
 			/**
 			* Base UI Construction
