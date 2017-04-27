@@ -889,15 +889,16 @@
 							// Instead of show/hiding, switch the HTML around
 							// We do this because the sortable tables script styles the first row,
 							// visible or not
-							var headerHTML = $( '.wikieditor-toolbar-table-preview-header' ).html(),
+							var $sortable,
+								headerHTML = $( '.wikieditor-toolbar-table-preview-header' ).html(),
 								hiddenHTML = $( '.wikieditor-toolbar-table-preview-hidden' ).html();
 							$( '.wikieditor-toolbar-table-preview-header' ).html( hiddenHTML );
 							$( '.wikieditor-toolbar-table-preview-hidden' ).html( headerHTML );
-							if ( typeof jQuery.fn.tablesorter === 'function' ) {
-								$( '#wikieditor-toolbar-table-preview, #wikieditor-toolbar-table-preview2' )
-									.filter( '.sortable' )
-									.tablesorter();
-							}
+							$sortable = $( '#wikieditor-toolbar-table-preview, #wikieditor-toolbar-table-preview2' )
+								.filter( '.sortable' );
+							mw.loader.using( 'jquery.tablesorter', function () {
+								$sortable.tablesorter();
+							} );
 						} );
 					},
 					dialog: {
