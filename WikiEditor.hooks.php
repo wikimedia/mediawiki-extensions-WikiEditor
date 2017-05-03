@@ -17,6 +17,8 @@ class WikiEditorHooks {
 
 		/* Toolbar Features */
 
+		// 'toolbar' is the main wikieditor feature, including toolbars and dialogs.
+		// The legacy name preserves user preferences for disabling the feature.
 		'toolbar' => [
 			'preferences' => [
 				// Ideally this key would be 'wikieditor-toolbar'
@@ -30,27 +32,10 @@ class WikiEditorHooks {
 				'usebetatoolbar' => true,
 			],
 			'modules' => [
-				'ext.wikiEditor.toolbar',
+				'ext.wikiEditor',
 			],
 			'stylemodules' => [
-				'ext.wikiEditor.toolbar.styles',
-			],
-		],
-		'dialogs' => [
-			'preferences' => [
-				// Ideally this key would be 'wikieditor-toolbar-dialogs'
-				'usebetatoolbar-cgd' => [
-					'type' => 'toggle',
-					'label-message' => 'wikieditor-toolbar-dialogs-preference',
-					'section' => 'editing/editor',
-				],
-			],
-			'requirements' => [
-				'usebetatoolbar-cgd' => true,
-				'usebetatoolbar' => true,
-			],
-			'modules' => [
-				'ext.wikiEditor.dialogs',
+				'ext.wikiEditor.styles',
 			],
 		],
 
@@ -182,8 +167,6 @@ class WikiEditorHooks {
 		if ( $editPage->contentModel !== CONTENT_MODEL_WIKITEXT ) {
 			return true;
 		}
-
-		$outputPage->addModuleStyles( 'ext.wikiEditor.styles' );
 
 		// Add modules for enabled features
 		foreach ( self::$features as $name => $feature ) {
