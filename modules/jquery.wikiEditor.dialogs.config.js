@@ -332,7 +332,7 @@
 							.append( $( '<div>' )
 								.attr( 'id', 'wikieditor-toolbar-link-int-target-status-loading' )
 								.append( $( '<img>' ).attr( {
-									src: $.wikiEditor.imgPath + 'dialogs/' + 'loading-small.gif',
+									src: $.wikiEditor.imgPath + 'dialogs/loading-small.gif',
 									alt: loadingMsg,
 									title: loadingMsg
 								} ) )
@@ -435,6 +435,7 @@
 									text = '';
 								}
 								if ( target === '' ) {
+									// eslint-disable-next-line no-alert
 									alert( mw.msg( 'wikieditor-toolbar-tool-link-empty' ) );
 									return;
 								}
@@ -447,6 +448,7 @@
 									// FIXME: Exactly how fragile is this?
 									if ( $( '#wikieditor-toolbar-link-int-target-status-invalid' ).is( ':visible' ) ) {
 										// Refuse to add links to invalid titles
+										// eslint-disable-next-line no-alert
 										alert( mw.msg( 'wikieditor-toolbar-tool-link-int-invalid' ) );
 										return;
 									}
@@ -915,15 +917,18 @@
 									cols = parseInt( colsVal, 10 ),
 									header = $( '#wikieditor-toolbar-table-dimensions-header' ).prop( 'checked' ) ? 1 : 0;
 								if ( isNaN( rows ) || isNaN( cols ) || String( rows ) !== rowsVal || String( cols ) !== colsVal || rowsVal < 0 || colsVal < 0 ) {
+									// eslint-disable-next-line no-alert
 									alert( mw.msg( 'wikieditor-toolbar-tool-table-invalidnumber' ) );
 									return;
 								}
 								if ( rows + header === 0 || cols === 0 ) {
+									// eslint-disable-next-line no-alert
 									alert( mw.msg( 'wikieditor-toolbar-tool-table-zero' ) );
 									return;
 								}
 								if ( ( rows * cols ) > 1000 ) {
 									// 1000 is in the English message. The parameter replacement is kept for BC.
+									// eslint-disable-next-line no-alert
 									alert( mw.msg( 'wikieditor-toolbar-tool-table-toomany', 1000 ) );
 									return;
 								}
