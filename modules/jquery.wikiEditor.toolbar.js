@@ -59,7 +59,8 @@
 								continue;
 							}
 							$group = context.modules.toolbar.$toolbar.find(
-								'div[rel="' + data.section + '"].section ' + 'div[rel="' + data.group + '"].group'
+								'div[rel="' + data.section + '"].section ' +
+								'div[rel="' + data.group + '"].group'
 							);
 							for ( tool in data[ type ] ) {
 								// Tool
@@ -96,7 +97,8 @@
 								continue;
 							}
 							$table = context.modules.toolbar.$toolbar.find(
-								'div[rel="' + data.section + '"].section ' + 'div[rel="' + data.page + '"].page table'
+								'div[rel="' + data.section + '"].section ' +
+								'div[rel="' + data.page + '"].page table'
 							);
 							for ( i = 0; i < data.rows.length; i++ ) {
 								// Row
@@ -109,7 +111,8 @@
 								continue;
 							}
 							$characters = context.modules.toolbar.$toolbar.find(
-								'div[rel="' + data.section + '"].section ' + 'div[rel="' + data.page + '"].page div'
+								'div[rel="' + data.section + '"].section ' +
+								'div[rel="' + data.page + '"].page div'
 							);
 							actions = $characters.data( 'actions' );
 							for ( i = 0; i < data.characters.length; i++ ) {
