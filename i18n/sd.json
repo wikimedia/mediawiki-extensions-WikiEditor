@@ -4,11 +4,16 @@
 			"Mehtab ahmed"
 		]
 	},
+	"wikieditor-publish-button-cancel": "رد",
+	"wikieditor-toolbar-tool-link-cancel": "رد",
 	"wikieditor-toolbar-tool-file-insert": "درج ڪريو",
+	"wikieditor-toolbar-tool-file-cancel": "رد",
 	"wikieditor-toolbar-tool-file-upload": "چاڙهيو",
+	"wikieditor-toolbar-tool-reference-cancel": "رد",
 	"wikieditor-toolbar-tool-reference-insert": "درج ڪريو",
 	"wikieditor-toolbar-section-advanced": "متقدم",
 	"wikieditor-toolbar-group-insert": "درج ڪريو",
 	"wikieditor-toolbar-tool-table-insert": "درج ڪريو",
+	"wikieditor-toolbar-tool-table-cancel": "رد",
 	"wikieditor-toolbar-section-characters": "خاص نشانيون"
 }
