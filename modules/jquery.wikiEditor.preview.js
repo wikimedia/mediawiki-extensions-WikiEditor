@@ -66,6 +66,7 @@
 							prop: 'text|modules|jsconfigvars',
 							preview: true,
 							disableeditsection: true,
+							useskin: mw.config.get( 'skin' ),
 							uselang: mw.config.get( 'wgUserLanguage' )
 						} ).done( function ( data ) {
 							var loadmodules, $content;
