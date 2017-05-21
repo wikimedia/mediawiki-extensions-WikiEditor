@@ -473,14 +473,7 @@
 				 * Related to old IE 8 issues that are no longer reproducible
 				 */
 				saveCursorAndScrollTop: function () {
-					var IHateIE8;
-					if ( profile.name === 'msie' && document.selection && document.selection.createRange ) {
-						IHateIE8 = {
-							scrollTop: context.$textarea.scrollTop(),
-							pos: context.$textarea.textSelection( 'getCaretPosition', { startAndEnd: true } )
-						};
-						context.$textarea.data( 'IHateIE8', IHateIE8 );
-					}
+					// Deprecated, do nothing
 				},
 
 				/**

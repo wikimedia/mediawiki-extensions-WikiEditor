@@ -511,9 +511,6 @@
 									.prop( 'checked', false );
 							},
 							'wikieditor-toolbar-tool-link-cancel': function () {
-								// Clear any saved selection state
-								var context = $( this ).data( 'context' );
-								context.fn.restoreCursorAndScrollTop();
 								$( this ).dialog( 'close' );
 							}
 						},
@@ -528,9 +525,6 @@
 							) );
 							// Pre-fill the text fields based on the current selection
 							context = $( this ).data( 'context' );
-							// Restore and immediately save selection state, needed for inserting stuff later
-							context.fn.restoreCursorAndScrollTop();
-							context.fn.saveCursorAndScrollTop();
 							selection = context.$textarea.textSelection( 'getSelection' );
 							$( '#wikieditor-toolbar-link-int-target' ).focus();
 							// Trigger the change event, so the link status indicator is up to date
@@ -655,9 +649,6 @@
 								$( '#wikieditor-toolbar-reference-text' ).val( '' );
 							},
 							'wikieditor-toolbar-tool-reference-cancel': function () {
-								// Clear any saved selection state
-								var context = $( this ).data( 'context' );
-								context.fn.restoreCursorAndScrollTop();
 								$( this ).dialog( 'close' );
 							}
 						},
@@ -666,8 +657,6 @@
 							var selection, matches, text,
 								context = $( this ).data( 'context' );
 							// Restore and immediately save selection state, needed for inserting stuff later
-							context.fn.restoreCursorAndScrollTop();
-							context.fn.saveCursorAndScrollTop();
 							selection = context.$textarea.textSelection( 'getSelection' );
 							// set focus
 							$( '#wikieditor-toolbar-reference-text' ).focus();

@@ -121,7 +121,6 @@
 								.append(
 									$( $.wikiEditor.modules.toolbar.fn.buildCharacter( data.characters[ i ], actions ) )
 										.mousedown( function ( e ) {
-											context.fn.saveCursorAndScrollTop();
 											// No dragging!
 											e.preventDefault();
 											return false;
@@ -346,7 +345,6 @@
 								.data( 'action', tool.action )
 								.data( 'context', context )
 								.mousedown( function ( e ) {
-									context.fn.saveCursorAndScrollTop();
 									// No dragging!
 									e.preventDefault();
 									return false;
@@ -372,7 +370,6 @@
 										.data( 'action', tool.list[ option ].action )
 										.data( 'context', context )
 										.mousedown( function ( e ) {
-											context.fn.saveCursorAndScrollTop();
 											// No dragging!
 											e.preventDefault();
 											return false;
@@ -425,7 +422,6 @@
 					.attr( 'rel', id )
 					.data( 'context', context )
 					.mousedown( function ( e ) {
-						context.fn.saveCursorAndScrollTop();
 						// No dragging!
 						e.preventDefault();
 						return false;
@@ -442,7 +438,6 @@
 							$( this ).attr( 'rel' ),
 							{ expires: 30, path: '/' }
 						);
-						context.fn.restoreCursorAndScrollTop();
 						// No dragging!
 						event.preventDefault();
 						return false;
@@ -503,7 +498,6 @@
 								.html( html )
 								.children()
 								.mousedown( function ( e ) {
-									context.fn.saveCursorAndScrollTop();
 									// No dragging!
 									e.preventDefault();
 									return false;
