@@ -654,10 +654,9 @@
 						},
 						open: function () {
 							// Pre-fill the text fields based on the current selection
-							var selection, matches, text,
-								context = $( this ).data( 'context' );
-							// Restore and immediately save selection state, needed for inserting stuff later
-							selection = context.$textarea.textSelection( 'getSelection' );
+							var matches, text,
+								context = $( this ).data( 'context' ),
+								selection = context.$textarea.textSelection( 'getSelection' );
 							// set focus
 							$( '#wikieditor-toolbar-reference-text' ).focus();
 							$( '#wikieditor-toolbar-reference-dialog' )
