@@ -195,6 +195,7 @@
 	"wikieditor-toolbar-help-content-reference-syntax": "Tekst stranice.&lt;ref&gt;[http://www.primjer.org Tekst poveznice], dodatni tekst.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Tekst stranice.<sup><a href='#'>[1]</a></sup>",
 	"wikieditor-toolbar-help-content-named-reference-description": "Imenovana referenca",
+	"wikieditor-toolbar-help-content-named-reference-syntax": "Tekst stranice.&lt;ref name=\"test\"&gt;[http://www.example.org Tekst poveznice]&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-named-reference-result": "Tekst stranice.<sup><a href='#'>[2]</a></sup>",
 	"wikieditor-toolbar-help-content-rereference-description": "Dodatno korištenje iste bilješke",
 	"wikieditor-toolbar-help-content-rereference-result": "Tekst stranice.<sup><a href='#'>[2]</a></sup>",
