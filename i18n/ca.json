@@ -12,7 +12,8 @@
 			"Nemo bis",
 			"Macofe",
 			"Jaumeortola",
-			"Kippelboy"
+			"Kippelboy",
+			"Ssola"
 		]
 	},
 	"wikieditor": "Interfície avançada de modificació de wikitext",
@@ -28,14 +29,13 @@
 	"wikieditor-publish-button-cancel": "Anuŀla",
 	"wikieditor-publish-dialog-title": "Publicar a {{SITENAME}}",
 	"wikieditor-publish-dialog-summary": "Resum d'edició (descriviu breument els canvis realitzats):",
-	"wikieditor-publish-dialog-minor": "Modificació menor",
+	"wikieditor-publish-dialog-minor": "Edició menor",
 	"wikieditor-publish-dialog-watch": "Vigila aquesta pàgina",
 	"wikieditor-publish-dialog-publish": "Publica",
 	"wikieditor-publish-dialog-goback": "Torna",
 	"wikieditor-toolbar": "Editant la barra d'eines",
 	"wikieditor-toolbar-desc": "Barra d'eines d'edició amb usabilitat millorada",
 	"wikieditor-toolbar-preference": "Habilita la barra d'eines millorada",
-	"wikieditor-toolbar-dialogs-preference": "Habilita caixes de diàleg per inserir enllaços, taules i altres",
 	"wikieditor-toolbar-loading": "Carregant...",
 	"wikieditor-toolbar-tool-bold": "Negreta",
 	"wikieditor-toolbar-tool-bold-example": "Text en negreta",
