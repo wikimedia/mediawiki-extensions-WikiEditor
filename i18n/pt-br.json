@@ -18,16 +18,17 @@
 			"Opraco",
 			"Macofe",
 			"Eduardo Addad de Oliveira",
-			"Almondega"
+			"Almondega",
+			"Felipe L. Ewald"
 		]
 	},
 	"wikieditor": "Interface avançada de edição de wikitexto",
 	"wikieditor-desc": "Fornece uma interface extensível de edição de textowiki e vários módulos funcionais",
 	"wikieditor-wikitext-tab": "Wikitexto",
-	"wikieditor-loading": "Carregando",
+	"wikieditor-loading": "Carregando...",
 	"wikieditor-preview-preference": "Habilitar a previsão lado-a-lado",
 	"wikieditor-preview-tab": "Pré-visualização",
-	"wikieditor-preview-changes-tab": "Alterações",
+	"wikieditor-preview-changes-tab": "Mudanças",
 	"wikieditor-preview-loading": "Carregando...",
 	"wikieditor-publish-preference": "Ativar publicação passo-a-passo",
 	"wikieditor-publish-button-publish": "Publicar",
@@ -41,7 +42,6 @@
 	"wikieditor-toolbar": "Barra de ferramentas de edição",
 	"wikieditor-toolbar-desc": "Barra de ferramentas de edição com usabilidade melhorada",
 	"wikieditor-toolbar-preference": "Ativar a barra de ferramentas de edição melhorada",
-	"wikieditor-toolbar-dialogs-preference": "Ativa assistentes para a inserção de links, tabelas assim como a função de procurar e substituir",
 	"wikieditor-toolbar-loading": "Carregando...",
 	"wikieditor-toolbar-tool-bold": "Negrito",
 	"wikieditor-toolbar-tool-bold-example": "Texto em negrito",
