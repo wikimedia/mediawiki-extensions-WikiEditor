@@ -68,6 +68,8 @@
 							disableeditsection: true,
 							useskin: mw.config.get( 'skin' ),
 							uselang: mw.config.get( 'wgUserLanguage' )
+						} ).always( function () {
+							context.modules.preview.$preview.find( '.wikiEditor-preview-loading' ).hide();
 						} ).done( function ( data ) {
 							var loadmodules, $content;
 							if ( !data.parse || !data.parse.text ) {
@@ -84,7 +86,6 @@
 							mw.loader.load( loadmodules );
 
 							context.modules.preview.previewText = wikitext;
-							context.modules.preview.$preview.find( '.wikiEditor-preview-loading' ).hide();
 							$content = context.modules.preview.$preview.find( '.wikiEditor-preview-contents' )
 								.detach()
 								.html( data.parse.text );
@@ -126,6 +127,9 @@
 						postPromise = api.post( postdata );
 
 						$.when( postPromise, mw.loader.using( 'mediawiki.diff.styles' ) )
+						.always( function () {
+							context.$changesTab.find( '.wikiEditor-preview-loading' ).hide();
+						} )
 						.done( function ( postResult ) {
 							var diff;
 							try {
@@ -141,7 +145,6 @@
 							} catch ( e ) {
 								// "data.blah is undefined" error, ignore
 							}
-							context.$changesTab.find( '.wikiEditor-preview-loading' ).hide();
 						} );
 					}
 				} );
