@@ -5,6 +5,8 @@
 		]
 	},
 	"wikieditor-publish-button-cancel": "رد",
+	"wikieditor-toolbar-tool-bold-example": "گھري لکت",
+	"wikieditor-toolbar-tool-italic-example": "ترڇي لکت",
 	"wikieditor-toolbar-tool-link-title": "ڳنڍڻو وجھو",
 	"wikieditor-toolbar-tool-link-insert": "ڳنڍڻو وجھو",
 	"wikieditor-toolbar-tool-link-cancel": "رد",
@@ -24,6 +26,8 @@
 	"wikieditor-toolbar-tool-table-cancel": "رد",
 	"wikieditor-toolbar-tool-replace-close": "بند ڪريو",
 	"wikieditor-toolbar-section-characters": "خاص نشانيون",
+	"wikieditor-toolbar-help-page-format": "فارميٽنگ",
+	"wikieditor-toolbar-help-page-link": "ڳنڍڻا",
 	"wikieditor-toolbar-help-content-heading2-description": "2ٻين سطح جي سرخي",
 	"wikieditor-toolbar-help-content-heading2-syntax": "== سرخيءَ جو متن ==",
 	"wikieditor-toolbar-help-content-heading2-result": "<h2>سرخيءَ جو متن</h2>",
