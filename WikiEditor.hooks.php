@@ -81,7 +81,7 @@ class WikiEditorHooks {
 	 * This method is public to allow other extensions that use WikiEditor to use the
 	 * same configuration as WikiEditor itself
 	 *
-	 * @param $name string Name of the feature, should be a key of $features
+	 * @param string $name Name of the feature, should be a key of $features
 	 * @return bool
 	 */
 	public static function isEnabled( $name ) {
@@ -249,7 +249,7 @@ class WikiEditorHooks {
 	 *
 	 * Disable the old toolbar if the new one is enabled
 	 *
-	 * @param $toolbar html
+	 * @param string &$toolbar
 	 * @return bool
 	 */
 	public static function EditPageBeforeEditToolbar( &$toolbar ) {
@@ -273,7 +273,7 @@ class WikiEditorHooks {
 	 * Adds WikiEditor-related items to the preferences
 	 *
 	 * @param User $user current user
-	 * @param array $defaultPreferences list of default user preference controls
+	 * @param array &$defaultPreferences list of default user preference controls
 	 * @return bool
 	 */
 	public static function getPreferences( $user, &$defaultPreferences ) {
@@ -381,7 +381,6 @@ class WikiEditorHooks {
 	 * This is attached to the MediaWiki 'EditPage::attemptSave' hook.
 	 *
 	 * @param EditPage $editPage
-	 * @param Status $status
 	 * @return bool
 	 */
 	public static function editPageAttemptSave( EditPage $editPage ) {
