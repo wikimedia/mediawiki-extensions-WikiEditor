@@ -298,7 +298,7 @@ class WikiEditorHooks {
 	 */
 	public static function resourceLoaderGetConfigVars( &$vars ) {
 		// expose magic words for use by the wikieditor toolbar
-		WikiEditorHooks::getMagicWords( $vars );
+		self::getMagicWords( $vars );
 
 		$vars['mw.msg.wikieditor'] = wfMessage( 'sig-text', '~~~~' )->inContentLanguage()->text();
 
@@ -382,7 +382,7 @@ class WikiEditorHooks {
 	 *
 	 * @param EditPage $editPage
 	 * @param Status $status
-	 * @return boolean
+	 * @return bool
 	 */
 	public static function editPageAttemptSave( EditPage $editPage ) {
 		$article = $editPage->getArticle();
@@ -403,7 +403,7 @@ class WikiEditorHooks {
 	 *
 	 * @param EditPage $editPage
 	 * @param Status $status
-	 * @return boolean
+	 * @return bool
 	 */
 	public static function editPageAttemptSaveAfter( EditPage $editPage, Status $status ) {
 		$article = $editPage->getArticle();
