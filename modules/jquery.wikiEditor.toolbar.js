@@ -336,7 +336,7 @@
 							$button
 							.addClass( 'wikiEditor-toolbar-spritedButton' )
 							.css( 'backgroundPosition', offsetOrIcon[ 0 ] + 'px ' + offsetOrIcon[ 1 ] + 'px' );
-						} else {
+						} else if ( offsetOrIcon !== undefined ) { // Bug T172500
 							$button
 							.css( 'background-image', 'url(' + offsetOrIcon + ')' );
 						}
