@@ -163,7 +163,7 @@ class WikiEditorHooks {
 	 * @param OutputPage $outputPage object.
 	 * @return bool
 	 */
-	public static function editPageShowEditFormInitial( $editPage, $outputPage ) {
+	public static function editPageShowEditFormInitial( EditPage $editPage, OutputPage $outputPage ) {
 		if ( $editPage->contentModel !== CONTENT_MODEL_WIKITEXT ) {
 			return true;
 		}
@@ -219,12 +219,12 @@ class WikiEditorHooks {
 	 * @param OutputPage $outputPage object.
 	 * @return bool
 	 */
-	public static function editPageShowEditFormFields( $editPage, $outputPage ) {
+	public static function editPageShowEditFormFields( EditPage $editPage, OutputPage $outputPage ) {
 		if ( $editPage->contentModel !== CONTENT_MODEL_WIKITEXT ) {
 			return true;
 		}
 
-		$req = $outputPage->getContext()->getRequest();
+		$req = $outputPage->getRequest();
 		$editingStatsId = $req->getVal( 'editingStatsId' );
 		if ( !$editingStatsId || !$req->wasPosted() ) {
 			$editingStatsId = self::getEditingStatsId();
