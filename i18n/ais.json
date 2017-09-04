@@ -2,17 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"Bunukwiki",
-			"Tokoabibi"
+			"Tokoabibi",
+			"Benel"
 		]
 	},
 	"wikieditor-preview-changes-tab": "misumad",
 	"wikieditor-publish-button-cancel": "palawpes",
+	"wikieditor-publish-dialog-minor": "cayka yadah ku misumad",
 	"wikieditor-toolbar-tool-bold": "kibetulay",
 	"wikieditor-toolbar-tool-italic": "tukenihay",
 	"wikieditor-toolbar-tool-link-cancel": "palawpes",
-	"wikieditor-toolbar-file-caption": "pyawti:",
+	"wikieditor-toolbar-file-caption": "satangahan:",
 	"wikieditor-toolbar-file-size": "hacica-tabaki:",
-	"wikieditor-toolbar-file-default": "(pataayaw tu kawaw)",
+	"wikieditor-toolbar-file-default": "(sulul)",
 	"wikieditor-toolbar-file-format": "tatudungay a kenis:",
 	"wikieditor-toolbar-file-format-none": "nayi’",
 	"wikieditor-toolbar-tool-file-insert": "pacucuk",
@@ -32,7 +34,7 @@
 	"wikieditor-toolbar-tool-table-dimensions-rows": "sausi nu silsil",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "sausi nu langat",
 	"wikieditor-toolbar-tool-table-example": "tinaku",
-	"wikieditor-toolbar-tool-table-preview": "paazih pataayaway miazih",
+	"wikieditor-toolbar-tool-table-preview": "pataayaway miazih",
 	"wikieditor-toolbar-tool-table-insert": "pacucuk",
 	"wikieditor-toolbar-tool-table-cancel": "palawpes",
 	"wikieditor-toolbar-tool-replace-search": "kilim:",
