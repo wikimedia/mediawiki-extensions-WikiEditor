@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mehtab ahmed"
+			"Mehtab ahmed",
+			"Indus Asia"
 		]
 	},
 	"wikieditor-publish-button-cancel": "رد",
@@ -31,7 +32,7 @@
 	"wikieditor-toolbar-tool-heading": "سرخي",
 	"wikieditor-toolbar-tool-heading-example": "سرخيءَ جو متن",
 	"wikieditor-toolbar-group-format": "فارميٽ",
-	"wikieditor-toolbar-tool-ulist": "نقطن واري فھرست",
+	"wikieditor-toolbar-tool-ulist": "ٽٻڪن واري فھرست",
 	"wikieditor-toolbar-tool-redirect-example": "گھربل صفحي جو نالو",
 	"wikieditor-toolbar-group-insert": "درج ڪريو",
 	"wikieditor-toolbar-tool-gallery-example": "عنوان1|Example.jpg\nعنوان2|Example.jpg",
