@@ -25,6 +25,8 @@
 	"wikieditor-toolbar-tool-ilink-example": "misiket satangahan a sulit",
 	"wikieditor-toolbar-tool-link-title": "paheceken tu masasiket",
 	"wikieditor-toolbar-tool-link-int-text": "paazih ku sulit:",
+	"wikieditor-toolbar-tool-link-int-text-tooltip": "sapaazih a cudad",
+	"wikieditor-toolbar-tool-link-ext": "masasiket tu hekalay calay-belih(wangyi)",
 	"wikieditor-toolbar-tool-link-ext-target": "misiket tu calay-puenengan(wangzi):",
 	"wikieditor-toolbar-tool-link-ext-text": "masasiket tu sulit:",
 	"wikieditor-toolbar-tool-link-insert": "paheceken tu masasiket",
