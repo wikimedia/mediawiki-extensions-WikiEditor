@@ -4,7 +4,8 @@
 			"Chaojoker",
 			"Vadgt",
 			"Xelgen",
-			"Macofe"
+			"Macofe",
+			"23artashes"
 		]
 	},
 	"wikieditor-loading": "Բեռնվում է…",
@@ -23,7 +24,6 @@
 	"wikieditor-toolbar": "Խմբագրման վահանակ",
 	"wikieditor-toolbar-desc": "Բարձրացրած հարմարավետությամբ խմբագրման վահանակ",
 	"wikieditor-toolbar-preference": "Ակտիվացնել բարելավված խմբագրման վահանակը",
-	"wikieditor-toolbar-dialogs-preference": "Ակտիվացնել երկխոսությունները հղումների, աղյուսակների և այլնի համար",
 	"wikieditor-toolbar-loading": "Բեռնում…",
 	"wikieditor-toolbar-tool-bold": "Թավատառ",
 	"wikieditor-toolbar-tool-bold-example": "Թավատառ տեքստ",
@@ -38,7 +38,7 @@
 	"wikieditor-toolbar-tool-link-int": "Վիքիի էջին",
 	"wikieditor-toolbar-tool-link-int-target": "Էջի վերնագիր․",
 	"wikieditor-toolbar-tool-link-int-target-tooltip": "Էջի վերնագիր կամ URL",
-	"wikieditor-toolbar-tool-link-int-text": "Հղման տեսքստ․",
+	"wikieditor-toolbar-tool-link-int-text": "Հղման տեքստ․",
 	"wikieditor-toolbar-tool-link-int-text-tooltip": "Ներմուծեք տեքստը, որ պետք է ցուցադրվի",
 	"wikieditor-toolbar-tool-link-ext": "Արտաքին վեբ էջին",
 	"wikieditor-toolbar-tool-link-ext-target": "Հղման URL․",
