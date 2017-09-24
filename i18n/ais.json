@@ -6,6 +6,7 @@
 			"Benel"
 		]
 	},
+	"wikieditor": "tapabaw Wiki a sulit mikawaway-kalumyiti taypuolayta",
 	"wikieditor-loading": "miasip henay ayza…",
 	"wikieditor-preview-preference": "miwawah pulung-silsil pataayaway miazih",
 	"wikieditor-preview-changes-tab": "misumad",
@@ -16,6 +17,7 @@
 	"wikieditor-publish-dialog-publish": "patiyak",
 	"wikieditor-publish-dialog-goback": "tatiku",
 	"wikieditor-toolbar": "mikawaway-kalumyiti  sakaluk a silsil",
+	"wikieditor-toolbar-desc": "pamikawaway-kalumyiti kasabelih kadayumay a kasabelih sakaluk-silsil",
 	"wikieditor-toolbar-preference": "miwawah tapabaw mikawaway-kalumyiti sakaluk layalay",
 	"wikieditor-toolbar-loading": "miasip henay ayza…",
 	"wikieditor-toolbar-tool-bold": "kibetulay",
@@ -41,6 +43,7 @@
 	"wikieditor-toolbar-tool-link-int-target-status-external": "masasiket tu hekal",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "caayay kalecad azihen a kasabilih",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "masasiket tu hekal",
+	"wikieditor-toolbar-tool-link-empty": "caay henay kisu pacumud amisasiketay a canacanan.",
 	"wikieditor-toolbar-tool-file": "nicunusay a tangan",
 	"wikieditor-toolbar-tool-file-example": "tinaku.jpg",
 	"wikieditor-toolbar-tool-file-title": "paheceken tu tangan",
@@ -121,6 +124,7 @@
 	"wikieditor-toolbar-help-content-xlink-description": "masasiket tu hekal",
 	"wikieditor-toolbar-help-content-heading2-description": "saka 2 saselal a satangahan",
 	"wikieditor-toolbar-help-content-heading3-description": "saka 3 saselal a satangahan",
+	"wikieditor-toolbar-help-content-heading3-syntax": "=== satangahan a sulit ===",
 	"wikieditor-toolbar-help-content-heading4-description": "saka 4 saselal a satangahan",
 	"wikieditor-toolbar-help-content-heading5-description": "saka 5 saselal a satangahan",
 	"wikieditor-toolbar-help-content-olist-description": "banggu nu piazihan tu sulit",
