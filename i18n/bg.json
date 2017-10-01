@@ -9,7 +9,8 @@
 			"Wizardist",
 			"Macofe",
 			"V111P",
-			"Vodnokon4e"
+			"Vodnokon4e",
+			"StanProg"
 		]
 	},
 	"wikieditor": "Подобрен интерфейс за редактиране на уикитекст",
@@ -32,7 +33,6 @@
 	"wikieditor-toolbar": "Лента за редактиране",
 	"wikieditor-toolbar-desc": "Лента за редактиране с подобрени възможности за използваемост",
 	"wikieditor-toolbar-preference": "Включване на разширената лента с инструменти",
-	"wikieditor-toolbar-dialogs-preference": "Включване на инструменти за вмъкване на препратки и таблици, както и функцията за търсене и замяна на текст",
 	"wikieditor-toolbar-loading": "Зареждане...",
 	"wikieditor-toolbar-tool-bold": "Получер (удебелен) текст",
 	"wikieditor-toolbar-tool-bold-example": "Получер текст",
@@ -145,7 +145,7 @@
 	"wikieditor-toolbar-tool-replace-success": "{{PLURAL:$1|Направена е $1 замяна|Направени са $1 замени}}.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "Не сте въвели низ за търсене.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "Въведеният от вас регулярен израз е невалиден: $1",
-	"wikieditor-toolbar-section-characters": "Специални символи",
+	"wikieditor-toolbar-section-characters": "Специални знаци",
 	"wikieditor-toolbar-section-help": "Помощ",
 	"wikieditor-toolbar-help-heading-description": "Описание",
 	"wikieditor-toolbar-help-heading-syntax": "В режим на редактиране",
