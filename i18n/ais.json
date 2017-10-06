@@ -7,6 +7,7 @@
 		]
 	},
 	"wikieditor": "tapabaw Wiki a sulit mikawaway-kalumyiti taypuolayta",
+	"wikieditor-desc": "nipabeli Wiki sulit mikawaway-kalumyiti taypuolayta sacunusan sasahicaan atu mahizaay a bacu-saupu",
 	"wikieditor-loading": "miasip henay ayza…",
 	"wikieditor-preview-preference": "miwawah pulung-silsil pataayaway miazih",
 	"wikieditor-preview-changes-tab": "misumad",
@@ -112,6 +113,7 @@
 	"wikieditor-toolbar-tool-replace-button-replaceall": "hamin mibalic",
 	"wikieditor-toolbar-tool-replace-close": "edeben",
 	"wikieditor-toolbar-tool-replace-nomatch": "caay katepa amahicahica tu matatungus kasacacay.",
+	"wikieditor-toolbar-tool-replace-success": "malaheci tu {{PLURAL:$1|balic}}.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "inayi’ kisu misulit maydih mikilimay a lacul.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "tatungusay pakatineng-zateng nasuliten nu misu la’cus：$1",
 	"wikieditor-toolbar-section-characters": "sazumaay azihen a sulit",
@@ -149,6 +151,7 @@
 	"wikieditor-toolbar-help-content-olist-description": "banggu nu piazihan tu sulit",
 	"wikieditor-toolbar-help-content-olist-syntax": "# piazihan-tu-sulit kasacacay<br /># piazihan-tu-sulit kasacacay",
 	"wikieditor-toolbar-help-content-file-description": "nicunusay a tangan",
+	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-file-caption": "satangahan a sulit",
 	"wikieditor-toolbar-help-content-reference-description": "miazih tu tatenga’ay  nasulitan",
 	"wikieditor-toolbar-help-content-rereference-description": "misaliyaw pisaungay malecaday a miazih tu tatenga’ay saangangan",
