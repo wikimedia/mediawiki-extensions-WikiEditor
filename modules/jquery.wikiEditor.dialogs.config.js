@@ -115,7 +115,7 @@
 						}
 
 						// Updates the status indicator above the target link
-						function updateWidget( status ) {
+						function updateWidget( status, reason ) {
 							$( '#wikieditor-toolbar-link-int-target-status' ).children().hide();
 							$( '#wikieditor-toolbar-link-int-target' ).parent()
 								.removeClass(
@@ -129,6 +129,13 @@
 								$( '.ui-dialog:visible .ui-dialog-buttonpane button:first' )
 									.prop( 'disabled', true )
 									.addClass( 'disabled' );
+								if ( reason ) {
+									$( '#wikieditor-toolbar-link-int-target-status-invalid' ).html( reason );
+								} else {
+									$( '#wikieditor-toolbar-link-int-target-status-invalid' )
+									.text( mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-invalid' ) );
+								}
+
 							} else {
 								$( '.ui-dialog:visible .ui-dialog-buttonpane button:first' )
 									.prop( 'disabled', false )
@@ -142,7 +149,8 @@
 							// Abort previous request
 							var request = $( '#wikieditor-toolbar-link-int-target-status' ).data( 'request' ),
 								target = $( '#wikieditor-toolbar-link-int-target' ).val(),
-								cache = $( '#wikieditor-toolbar-link-int-target-status' ).data( 'existencecache' );
+								cache = $( '#wikieditor-toolbar-link-int-target-status' ).data( 'existencecache' ),
+								reasoncache = $( '#wikieditor-toolbar-link-int-target-status' ).data( 'reasoncache' );
 							// ensure the internal parameter is a boolean
 							if ( internal !== true ) {
 								internal = false;
@@ -151,7 +159,7 @@
 								request.abort();
 							}
 							if ( hasOwn.call( cache, target ) ) {
-								updateWidget( cache[ target ] );
+								updateWidget( cache[ target ], reasoncache[ target ] );
 								return;
 							}
 							if ( target.replace( /^\s+$/, '' ) === '' ) {
@@ -184,9 +192,11 @@
 									action: 'query',
 									prop: 'pageprops',
 									titles: target,
-									ppprop: 'disambiguation'
+									ppprop: 'disambiguation',
+									errorformat: 'html',
+									errorlang: mw.config.get( 'wgUserLanguage' )
 								} ).done( function ( data ) {
-									var status, page;
+									var status, page, reason = null;
 									if ( !data.query || !data.query.pages ) {
 										// This happens in some weird cases like interwiki links
 										status = false;
@@ -197,6 +207,7 @@
 											status = 'notexists';
 										} else if ( page.invalid ) {
 											status = 'invalid';
+											reason = page.invalidreason && page.invalidreason.html;
 										} else if ( page.pageprops ) {
 											status = 'disambig';
 										}
@@ -205,8 +216,9 @@
 									// parameter was not passed
 									if ( !internal ) {
 										cache[ target ] = status;
+										reasoncache[ target ] = reason;
 									}
-									updateWidget( status );
+									updateWidget( status, reason );
 								} )
 							);
 						}
@@ -321,7 +333,6 @@
 							)
 							.append( $( '<div>' )
 								.attr( 'id', 'wikieditor-toolbar-link-int-target-status-invalid' )
-								.text( mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-invalid' ) )
 							)
 							.append( $( '<div>' )
 								.attr( 'id', 'wikieditor-toolbar-link-int-target-status-external' )
@@ -336,6 +347,7 @@
 								.text( mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-disambig' ) )
 							)
 							.data( 'existencecache', {} )
+							.data( 'reasoncache', {} )
 							.children().hide();
 
 						$( '#wikieditor-toolbar-link-int-target' )
