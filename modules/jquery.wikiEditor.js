@@ -469,30 +469,6 @@
 				},
 
 				/**
-				 * Save scrollTop and cursor position for old IE (<=10)
-				 * Related to old IE 8 issues that are no longer reproducible
-				 */
-				saveCursorAndScrollTop: function () {
-					// Deprecated, do nothing
-				},
-
-				/**
-				 * Restore scrollTo and cursor position for IE (<=10)
-				 * Related to old IE 8 issues that are no longer reproducible
-				 */
-				restoreCursorAndScrollTop: function () {
-					var IHateIE8;
-					if ( profile.name === 'msie' && document.selection && document.selection.createRange ) {
-						IHateIE8 = context.$textarea.data( 'IHateIE8' );
-						if ( IHateIE8 ) {
-							context.$textarea.scrollTop( IHateIE8.scrollTop );
-							context.$textarea.textSelection( 'setSelection', { start: IHateIE8.pos[ 0 ], end: IHateIE8.pos[ 1 ] } );
-							context.$textarea.data( 'IHateIE8', null );
-						}
-					}
-				},
-
-				/**
 				 * Save text selection for old IE (<=10)
 				 */
 				saveSelection: function () {
