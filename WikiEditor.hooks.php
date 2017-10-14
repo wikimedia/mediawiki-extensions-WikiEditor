@@ -293,7 +293,7 @@ class WikiEditorHooks {
 	}
 
 	/**
-	 * @param $vars array
+	 * @param array &$vars
 	 * @return bool
 	 */
 	public static function resourceLoaderGetConfigVars( &$vars ) {
@@ -310,9 +310,9 @@ class WikiEditorHooks {
 	 *
 	 * Registers JavaScript test modules
 	 *
-	 * @param $testModules array of javascript testing modules. 'qunit' is fed using
+	 * @param array &$testModules array of javascript testing modules. 'qunit' is fed using
 	 * tests/qunit/QUnitTestResources.php.
-	 * @param $resourceLoader object
+	 * @param ResourceLoader &$resourceLoader
 	 * @return bool
 	 */
 	public static function resourceLoaderTestModules( &$testModules, &$resourceLoader ) {
@@ -329,7 +329,7 @@ class WikiEditorHooks {
 	 * MakeGlobalVariablesScript hook
 	 *
 	 * Adds enabled/disabled switches for WikiEditor modules
-	 * @param $vars array
+	 * @param array &$vars
 	 * @return bool
 	 */
 	public static function makeGlobalVariablesScript( &$vars ) {
@@ -345,7 +345,7 @@ class WikiEditorHooks {
 
 	/**
 	 * Expose useful magic words which are used by the wikieditor toolbar
-	 * @param $vars array
+	 * @param array &$vars
 	 * @return bool
 	 */
 	private static function getMagicWords( &$vars ) {
