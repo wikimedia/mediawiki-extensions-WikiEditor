@@ -21,17 +21,13 @@
 }
 
 /* FIXME: This only works for the first wikiEditor on the page! */
-/* stylelint-disable-next-line selector-no-id */
-#wikiEditor-0-preview-dialog {
-	.wikiEditor-ui-loading {
-		overflow: hidden;
-		border: 0;
-	}
+/* stylelint-disable-next-line selector-max-id */
+#wikiEditor-0-preview-dialog .wikiEditor-ui-loading {
+	overflow: hidden;
+	border: 0;
 }
 
-.ui-dialog {
-	.ui-dialog-buttonpane {
-		// stylelint-disable-next-line declaration-no-important
-		margin: 0 !important;
-	}
+.ui-dialog .ui-dialog-buttonpane {
+	// stylelint-disable-next-line declaration-no-important
+	margin: 0 !important;
 }

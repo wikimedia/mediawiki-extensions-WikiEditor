@@ -91,7 +91,7 @@
 								.html( data.parse.text );
 							$content.append( '<div class="visualClear"></div>' )
 								.find( 'a:not([href^="#"])' )
-									.click( false );
+								.click( false );
 
 							mw.hook( 'wikipage.content' ).fire( $content );
 							context.modules.preview.$preview.append( $content );
@@ -126,11 +126,9 @@
 						};
 						postPromise = api.post( postdata );
 
-						$.when( postPromise, mw.loader.using( 'mediawiki.diff.styles' ) )
-						.always( function () {
+						$.when( postPromise, mw.loader.using( 'mediawiki.diff.styles' ) ).always( function () {
 							context.$changesTab.find( '.wikiEditor-preview-loading' ).hide();
-						} )
-						.done( function ( postResult ) {
+						} ).done( function ( postResult ) {
 							var diff;
 							try {
 								diff = postResult[ 0 ].query.pages[ 0 ]

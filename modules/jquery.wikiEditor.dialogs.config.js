@@ -133,7 +133,7 @@
 									$( '#wikieditor-toolbar-link-int-target-status-invalid' ).html( reason );
 								} else {
 									$( '#wikieditor-toolbar-link-int-target-status-invalid' )
-									.text( mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-invalid' ) );
+										.text( mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-invalid' ) );
 								}
 
 							} else {
@@ -395,8 +395,7 @@
 									search: title,
 									namespace: 0,
 									suggest: ''
-								} )
-								.done( function ( data ) {
+								} ).done( function ( data ) {
 									cache[ title ] = data[ 1 ];
 									$( that ).suggestions( 'suggestions', data[ 1 ] );
 								} );
@@ -543,7 +542,7 @@
 							$( '#wikieditor-toolbar-link-int-target' ).change();
 							$( '#wikieditor-toolbar-link-dialog' ).data( 'whitespace', [ '', '' ] );
 							if ( selection !== '' ) {
-								if ( ( matches = selection.match( /^(\s*)\[\[([^\]\|]+)(\|([^\]\|]*))?\]\](\s*)$/ ) ) ) {
+								if ( ( matches = selection.match( /^(\s*)\[\[([^\]|]+)(\|([^\]|]*))?\]\](\s*)$/ ) ) ) {
 									// [[foo|bar]] or [[foo]]
 									target = matches[ 2 ];
 									text = ( matches[ 4 ] ? matches[ 4 ] : matches[ 2 ] );
@@ -675,7 +674,7 @@
 								.data( 'whitespace', [ '', '' ] )
 								.data( 'attributes', '' );
 							if ( selection !== '' ) {
-								if ( ( matches = selection.match( /^(\s*)<ref([^\>]*)>([^<]*)<\/ref\>(\s*)$/ ) ) ) {
+								if ( ( matches = selection.match( /^(\s*)<ref([^>]*)>([^<]*)<\/ref>(\s*)$/ ) ) ) {
 									text = matches[ 3 ];
 									// Preserve whitespace when replacing
 									$( '#wikieditor-toolbar-reference-dialog' )
@@ -714,24 +713,20 @@
 					init: function () {
 						var magicWordsI18N = mw.config.get( 'wgWikiEditorMagicWords' ),
 							defaultMsg = mw.msg( 'wikieditor-toolbar-file-default' );
-						$( this )
-							.find( '[data-i18n-magic]' )
-								.text( function () {
-									return magicWordsI18N[ $( this ).attr( 'data-i18n-magic' ) ];
-								} )
-								.removeAttr( 'data-i18n-magic' )
-								.end()
-							.find( '#wikieditor-toolbar-file-size' )
-								.attr( 'placeholder', defaultMsg )
-								// The message may be long in some languages
-								.attr( 'size', defaultMsg.length )
-								.end()
-							.find( '[rel]' )
-								.text( function () {
-									return mw.msg( $( this ).attr( 'rel' ) );
-								} )
-								.removeAttr( 'rel' )
-								.end();
+						$( this ).find( '[data-i18n-magic]' )
+							.text( function () {
+								return magicWordsI18N[ $( this ).attr( 'data-i18n-magic' ) ];
+							} )
+							.removeAttr( 'data-i18n-magic' );
+						$( this ).find( '#wikieditor-toolbar-file-size' )
+							.attr( 'placeholder', defaultMsg )
+							// The message may be long in some languages
+							.attr( 'size', defaultMsg.length );
+						$( this ).find( '[rel]' )
+							.text( function () {
+								return mw.msg( $( this ).attr( 'rel' ) );
+							} )
+							.removeAttr( 'rel' );
 					},
 					dialog: {
 						resizable: false,
