@@ -117,8 +117,7 @@
 							actions = $characters.data( 'actions' );
 							for ( i = 0; i < data.characters.length; i++ ) {
 								// Character
-								$characters
-								.append(
+								$characters.append(
 									$( $.wikiEditor.modules.toolbar.fn.buildCharacter( data.characters[ i ], actions ) )
 										.mousedown( function ( e ) {
 											// No dragging!
@@ -334,11 +333,11 @@
 							.text( label );
 						if ( typeof offsetOrIcon === 'object' ) {
 							$button
-							.addClass( 'wikiEditor-toolbar-spritedButton' )
-							.css( 'backgroundPosition', offsetOrIcon[ 0 ] + 'px ' + offsetOrIcon[ 1 ] + 'px' );
+								.addClass( 'wikiEditor-toolbar-spritedButton' )
+								.css( 'backgroundPosition', offsetOrIcon[ 0 ] + 'px ' + offsetOrIcon[ 1 ] + 'px' );
 						} else if ( offsetOrIcon !== undefined ) { // Bug T172500
 							$button
-							.css( 'background-image', 'url(' + offsetOrIcon + ')' );
+								.css( 'background-image', 'url(' + offsetOrIcon + ')' );
 						}
 						if ( 'action' in tool ) {
 							$button
@@ -395,20 +394,20 @@
 						}
 						$select.append( $( '<div>' ).addClass( 'menu' ).append( $options ) );
 						$select.append( $( '<a>' )
-								.addClass( 'label' )
-								.text( label )
-								.data( 'options', $options )
-								.attr( 'href', '#' )
-								.mousedown( function ( e ) {
-									// No dragging!
-									e.preventDefault();
-									return false;
-								} )
-								.click( function ( e ) {
-									$( this ).data( 'options' ).animate( { opacity: 'toggle' }, 'fast' );
-									e.preventDefault();
-									return false;
-								} )
+							.addClass( 'label' )
+							.text( label )
+							.data( 'options', $options )
+							.attr( 'href', '#' )
+							.mousedown( function ( e ) {
+								// No dragging!
+								e.preventDefault();
+								return false;
+							} )
+							.click( function ( e ) {
+								$( this ).data( 'options' ).animate( { opacity: 'toggle' }, 'fast' );
+								e.preventDefault();
+								return false;
+							} )
 						);
 						return $select;
 					default:

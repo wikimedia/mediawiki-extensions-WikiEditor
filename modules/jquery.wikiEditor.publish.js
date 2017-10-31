@@ -90,7 +90,7 @@
 									newCopyWarnHTML += '</ul>';
 									// No list if there's only one element
 									$( this ).find( '.wikiEditor-publish-dialog-copywarn' ).html(
-											copyWarnStatements.length > 1 ? newCopyWarnHTML : copyWarnHTML
+										copyWarnStatements.length > 1 ? newCopyWarnHTML : copyWarnHTML
 									);
 								}
 								/* END OF REALLY DIRTY HACK */
