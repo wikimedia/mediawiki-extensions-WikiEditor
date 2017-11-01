@@ -165,6 +165,7 @@
 	"wikieditor-toolbar-help-content-named-reference-description": "mapanganganay a miazih tu tatenga’ay nasulitan",
 	"wikieditor-toolbar-help-content-rereference-description": "misaliyaw pisaungay malecaday a miazih tu tatenga’ay saangangan",
 	"wikieditor-toolbar-help-content-showreferences-description": "paazih miazih tu tatenga’ay nay",
+	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b><a rel='nofollow' title='http://www.example.org' class='external text' href='#'> masasiketay a sulit </a>，nicunus a kawaw  sulit。</li><li id='cite_note-test-1'><b><a title='' href='#'>^</a></b><a rel='nofollow' title='http://www.example.org' class='external text' href='#'> masasiketay a sulit </a></li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "sulitan a ngangan atu tuki",
 	"wikieditor-toolbar-help-content-signature-description": "sulitan a ngangan",
 	"wikieditor-toolbar-help-content-indent-description": "kitiw",
