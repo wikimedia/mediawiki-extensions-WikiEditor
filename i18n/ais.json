@@ -147,6 +147,7 @@
 	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>kibetulay tukenihay nisulit</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "labu-labu misiket",
 	"wikieditor-toolbar-help-content-ilink-syntax": "[[kasabelih satangahan]]<br />[[kasabelih satangahan|masasiket aazihen-paya]]",
+	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>kasabelih satangahan</a><br /><a href='#'>masasiket aazihen-paya</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "masasiket tu hekal",
 	"wikieditor-toolbar-help-content-heading2-description": "saka 2 tindud satangahan",
 	"wikieditor-toolbar-help-content-heading2-syntax": "==satangahan a sulit ==",
