@@ -178,5 +178,6 @@
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "sulitan a ngangan atu tuki",
 	"wikieditor-toolbar-help-content-signature-description": "sulitan a ngangan",
 	"wikieditor-toolbar-help-content-indent-description": "kitiw",
-	"wikieditor-toolbar-help-content-indent-syntax": "habutud cudad <br />:kitiw-silsil cudad <br />::kitiw-silsil cudad"
+	"wikieditor-toolbar-help-content-indent-syntax": "habutud cudad <br />:kitiw-silsil cudad <br />::kitiw-silsil cudad",
+	"wikieditor-toolbar-help-content-indent-result": "habutud sulit <dl><dd>satisil sulit <dl><dd>satisil sulit </dd></dl></dd></dl>"
 }
