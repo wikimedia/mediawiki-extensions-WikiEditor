@@ -183,6 +183,7 @@
 	"wikieditor-toolbar-help-content-named-reference-syntax": "kasabelih sulit. &lt;ref name=\"test\"&gt;[http://www.example.org Link text]&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-named-reference-result": "kasabelih sulit.<sup><a href='#'>[2]</a></sup>",
 	"wikieditor-toolbar-help-content-rereference-description": "misaliyaw pisaungay malecaday a miazih tu tatenga’ay saangangan",
+	"wikieditor-toolbar-help-content-rereference-result": "kasabelih sulit.<sup><a href='#'>[2]</a></sup>",
 	"wikieditor-toolbar-help-content-showreferences-description": "paazih miazih tu tatenga’ay nay",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b><a rel='nofollow' title='http://www.example.org' class='external text' href='#'> masasiketay a sulit </a>，nicunus a kawaw  sulit。</li><li id='cite_note-test-1'><b><a title='' href='#'>^</a></b><a rel='nofollow' title='http://www.example.org' class='external text' href='#'> masasiketay a sulit </a></li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "sulitan a ngangan atu tuki",
