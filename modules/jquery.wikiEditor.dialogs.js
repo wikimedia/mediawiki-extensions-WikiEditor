@@ -130,7 +130,7 @@
 				}
 				configuration.buttons = configuration.newButtons;
 				if ( module.htmlTemplate ) {
-					$content = mw.template.get( 'jquery.wikiEditor.dialogs.config', module.htmlTemplate ).render();
+					$content = mw.template.get( 'ext.wikiEditor', module.htmlTemplate ).render();
 				} else if ( module.html instanceof jQuery ) {
 					$content = module.html;
 				} else {

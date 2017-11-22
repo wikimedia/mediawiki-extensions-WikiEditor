@@ -213,7 +213,7 @@ class WikiEditorHooks {
 	public static function resourceLoaderTestModules( &$testModules, &$resourceLoader ) {
 		$testModules['qunit']['ext.wikiEditor.toolbar.test'] = [
 			'scripts' => [ 'tests/qunit/ext.wikiEditor.toolbar.test.js' ],
-			'dependencies' => [ 'ext.wikiEditor.toolbar' ],
+			'dependencies' => [ 'ext.wikiEditor' ],
 			'localBasePath' => __DIR__,
 			'remoteExtPath' => 'WikiEditor',
 		];

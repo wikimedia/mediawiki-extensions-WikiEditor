@@ -50,70 +50,32 @@
 		]
 	},
 	"ResourceModules": {
-		"jquery.wikiEditor": {
-			"group": "ext.wikiEditor",
-			"dependencies": [
-				"jquery.wikiEditor.core",
-				"jquery.wikiEditor.toolbar",
-				"jquery.wikiEditor.dialogs"
-			]
+		"ext.wikiEditor.toolbar": {
+			"dependencies": [ "ext.wikiEditor" ]
 		},
-		"jquery.wikiEditor.core": {
+		"ext.wikiEditor.dialogs": {
+			"dependencies": [ "ext.wikiEditor" ]
+		},
+		"ext.wikiEditor.core": {
+			"dependencies": [ "ext.wikiEditor" ]
+		},
+		"ext.wikiEditor": {
 			"group": "ext.wikiEditor",
-			"scripts": "jquery.wikiEditor.js",
-			"styles": "jquery.wikiEditor.less",
-			"dependencies": [
-				"jquery.client",
-				"jquery.textSelection",
-				"mediawiki.language"
+			"scripts": [
+				"jquery.wikiEditor.js",
+				"jquery.wikiEditor.toolbar.js",
+				"jquery.wikiEditor.toolbar.config.js",
+				"jquery.wikiEditor.dialogs.js",
+				"jquery.wikiEditor.dialogs.config.js",
+				"ext.wikiEditor.js",
+				"ext.wikiEditor.toolbar.js",
+				"ext.wikiEditor.dialogs.js"
 			],
-			"messages": [
-				"wikieditor-wikitext-tab",
-				"wikieditor-loading"
-			]
-		},
-		"jquery.wikiEditor.dialogs": {
-			"group": "ext.wikiEditor",
-			"scripts": "jquery.wikiEditor.dialogs.js",
-			"styles": "jquery.wikiEditor.dialogs.less",
-			"dependencies": [
-				"jquery.wikiEditor.core",
-				"jquery.wikiEditor.toolbar",
-				"jquery.ui.dialog",
-				"jquery.ui.button",
-				"jquery.ui.draggable",
-				"jquery.ui.resizable",
-				"jquery.tabIndex"
-			]
-		},
-		"jquery.wikiEditor.dialogs.config": {
-			"group": "ext.wikiEditor",
-			"scripts": "jquery.wikiEditor.dialogs.config.js",
-			"styles": "jquery.wikiEditor.dialogs.config.less",
-			"dependencies": [
-				"jquery.wikiEditor.core",
-				"jquery.wikiEditor.dialogs",
-				"jquery.wikiEditor.toolbar.i18n",
-				"jquery.suggestions",
-				"mediawiki.Upload.Dialog",
-				"mediawiki.ForeignStructuredUpload.BookletLayout",
-				"mediawiki.api",
-				"mediawiki.RegExp",
-				"mediawiki.Title",
-				"mediawiki.jqueryMsg"
-			],
-			"messages": [
-				"wikieditor-toolbar-tool-file-title",
-				"wikieditor-toolbar-file-target",
-				"wikieditor-toolbar-file-caption",
-				"wikieditor-toolbar-file-size",
-				"wikieditor-toolbar-file-float",
-				"wikieditor-toolbar-file-default",
-				"wikieditor-toolbar-file-format-none",
-				"wikieditor-toolbar-file-format",
-				"wikieditor-toolbar-tool-file-insert",
-				"wikieditor-toolbar-tool-file-cancel",
-				"wikieditor-toolbar-tool-file-upload"
+			"styles": [
+				"jquery.wikiEditor.less",
+				"jquery.wikiEditor.toolbar.less",
+				"jquery.wikiEditor.dialogs.less",
+				"jquery.wikiEditor.dialogs.config.less"
 			],
 			"templates": {
 				"dialogInsertFile.html": "templates/dialogInsertFile.html",
@@ -121,32 +83,10 @@
 				"dialogInsertReference.html": "templates/dialogInsertReference.html",
 				"dialogInsertTable.html": "templates/dialogInsertTable.html",
 				"dialogReplace.html": "templates/dialogReplace.html"
-			}
-		},
-		"jquery.wikiEditor.toolbar": {
-			"group": "ext.wikiEditor",
-			"scripts": "jquery.wikiEditor.toolbar.js",
-			"styles": "jquery.wikiEditor.toolbar.less",
-			"dependencies": [
-				"jquery.wikiEditor.core",
-				"jquery.wikiEditor.toolbar.i18n",
-				"jquery.cookie",
-				"jquery.async"
-			]
-		},
-		"jquery.wikiEditor.toolbar.config": {
-			"group": "ext.wikiEditor",
-			"scripts": "jquery.wikiEditor.toolbar.config.js",
-			"dependencies": [
-				"jquery.wikiEditor.core",
-				"jquery.wikiEditor.toolbar.i18n",
-				"jquery.wikiEditor.toolbar",
-				"mediawiki.language.specialCharacters"
-			]
-		},
-		"jquery.wikiEditor.toolbar.i18n": {
-			"group": "ext.wikiEditor",
+			},
 			"messages": [
+				"wikieditor-wikitext-tab",
+				"wikieditor-loading",
 				"wikieditor-toolbar-loading",
 				"wikieditor-toolbar-tool-bold",
 				"wikieditor-toolbar-tool-bold-example",
@@ -317,47 +257,44 @@
 				"wikieditor-toolbar-help-content-signature-result",
 				"wikieditor-toolbar-help-content-indent-description",
 				"wikieditor-toolbar-help-content-indent-syntax",
-				"wikieditor-toolbar-help-content-indent-result"
-			]
-		},
-		"ext.wikiEditor": {
-			"group": "ext.wikiEditor",
+				"wikieditor-toolbar-help-content-indent-result",
+				"wikieditor-toolbar-tool-file-title",
+				"wikieditor-toolbar-file-target",
+				"wikieditor-toolbar-file-caption",
+				"wikieditor-toolbar-file-size",
+				"wikieditor-toolbar-file-float",
+				"wikieditor-toolbar-file-default",
+				"wikieditor-toolbar-file-format-none",
+				"wikieditor-toolbar-file-format",
+				"wikieditor-toolbar-tool-file-insert",
+				"wikieditor-toolbar-tool-file-cancel",
+				"wikieditor-toolbar-tool-file-upload"
+			],
 			"dependencies": [
-				"ext.wikiEditor.core",
-				"ext.wikiEditor.toolbar",
-				"ext.wikiEditor.dialogs"
+				"jquery.async",
+				"jquery.client",
+				"jquery.cookie",
+				"jquery.suggestions",
+				"jquery.tabIndex",
+				"jquery.textSelection",
+				"jquery.ui.button",
+				"jquery.ui.dialog",
+				"jquery.ui.draggable",
+				"jquery.ui.resizable",
+				"mediawiki.api",
+				"mediawiki.ForeignStructuredUpload.BookletLayout",
+				"mediawiki.jqueryMsg",
+				"mediawiki.language.specialCharacters",
+				"mediawiki.language",
+				"mediawiki.RegExp",
+				"mediawiki.Title",
+				"mediawiki.Upload.Dialog",
+				"mediawiki.user"
 			]
 		},
 		"ext.wikiEditor.styles": {
 			"group": "ext.wikiEditor",
 			"styles": "ext.wikiEditor.toolbar.styles.less"
-		},
-		"ext.wikiEditor.core": {
-			"group": "ext.wikiEditor",
-			"scripts": "ext.wikiEditor.js",
-			"dependencies": [
-				"jquery.wikiEditor.core",
-				"mediawiki.user"
-			]
-		},
-		"ext.wikiEditor.dialogs": {
-			"group": "ext.wikiEditor",
-			"scripts": "ext.wikiEditor.dialogs.js",
-			"dependencies": [
-				"ext.wikiEditor.core",
-				"ext.wikiEditor.toolbar",
-				"jquery.wikiEditor.dialogs",
-				"jquery.wikiEditor.dialogs.config"
-			]
-		},
-		"ext.wikiEditor.toolbar": {
-			"group": "ext.wikiEditor",
-			"scripts": "ext.wikiEditor.toolbar.js",
-			"dependencies": [
-				"ext.wikiEditor.core",
-				"jquery.wikiEditor.toolbar",
-				"jquery.wikiEditor.toolbar.config"
-			]
 		}
 	},
 	"ResourceFileModulePaths": {
