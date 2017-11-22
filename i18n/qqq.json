@@ -28,8 +28,8 @@
 			"Quiddity"
 		]
 	},
-	"wikieditor": "An extension to allow for advanced editing features.\nhttps://www.mediawiki.org/wiki/Extension:WikiEditor",
-	"wikieditor-desc": "{{desc|name=Wiki Editor|url=https://www.mediawiki.org/wiki/Extension:WikiEditor}}\nI guess that \"feature-providing modules\" means the same as \"modules providing features\".",
+	"wikieditor": "An extension to provide an advanced, extensible wikitext editing interface.\nhttps://www.mediawiki.org/wiki/Extension:WikiEditor",
+	"wikieditor-desc": "{{desc|name=WikiEditor|url=https://www.mediawiki.org/wiki/Extension:WikiEditor}}",
 	"wikieditor-wikitext-tab": "Caption of the tab containing the edit box\n{{Identical|Wikitext}}",
 	"wikieditor-loading": "Explanatory text for the temporary cover placed over the wikieditor while it's being assembled.\n{{Identical|Loading}}",
 	"wikieditor-toolbar": "A customizable toolbar for the WikiEditor.\nFor more information, see https://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization",

@@ -11,70 +11,7 @@ class WikiEditorHooks {
 	// EventLogging.
 	private static $statsId = false;
 
-	/* Protected Static Members */
-
-	protected static $features = [
-
-		/* Toolbar Features */
-
-		// 'toolbar' is the main wikieditor feature, including toolbars and dialogs.
-		// The legacy name preserves user preferences for disabling the feature.
-		'toolbar' => [
-			'preferences' => [
-				// Ideally this key would be 'wikieditor-toolbar'
-				'usebetatoolbar' => [
-					'type' => 'toggle',
-					'label-message' => 'wikieditor-toolbar-preference',
-					'section' => 'editing/editor',
-				],
-			],
-			'requirements' => [
-				'usebetatoolbar' => true,
-			],
-			'modules' => [
-				'ext.wikiEditor',
-			],
-			'stylemodules' => [
-				'ext.wikiEditor.styles',
-			],
-		],
-	];
-
 	/* Static Methods */
-
-	/**
-	 * Checks if a certain option is enabled
-	 *
-	 * This method is public to allow other extensions that use WikiEditor to use the
-	 * same configuration as WikiEditor itself
-	 *
-	 * @param string $name Name of the feature, should be a key of $features
-	 * @return bool
-	 */
-	public static function isEnabled( $name ) {
-		global $wgWikiEditorFeatures, $wgUser;
-
-		// Features with global set to true are always enabled
-		if ( !isset( $wgWikiEditorFeatures[$name] ) || $wgWikiEditorFeatures[$name]['global'] ) {
-			return true;
-		}
-		// Features with user preference control can have any number of preferences
-		// to be specific values to be enabled
-		if ( $wgWikiEditorFeatures[$name]['user'] ) {
-			if ( isset( self::$features[$name]['requirements'] ) ) {
-				foreach ( self::$features[$name]['requirements'] as $requirement => $value ) {
-					// Important! We really do want fuzzy evaluation here
-					if ( $wgUser->getOption( $requirement ) != $value ) {
-						return false;
-					}
-				}
-			}
-			return true;
-		}
-		// Features controlled by $wgWikiEditorFeatures with both global and user
-		// set to false are always disabled
-		return false;
-	}
 
 	/**
 	 * Log stuff to EventLogging's Schema:Edit - see https://meta.wikimedia.org/wiki/Schema:Edit
@@ -135,21 +72,16 @@ class WikiEditorHooks {
 			return true;
 		}
 
-		// Add modules for enabled features
-		foreach ( self::$features as $name => $feature ) {
-			if ( !self::isEnabled( $name ) ) {
-				continue;
-			}
-			if ( isset( $feature['stylemodules'] ) ) {
-				$outputPage->addModuleStyles( $feature['stylemodules'] );
-			}
-			if ( isset( $feature['modules'] ) ) {
-				$outputPage->addModules( $feature['modules'] );
-			}
-		}
-
 		$article = $editPage->getArticle();
 		$request = $article->getContext()->getRequest();
+
+		// Add modules if enabled
+		$user = $article->getContext()->getUser();
+		if ( $user->getOption( 'usebetatoolbar' ) ) {
+			$outputPage->addModuleStyles( 'ext.wikiEditor.styles' );
+			$outputPage->addModules( 'ext.wikiEditor' );
+		}
+
 		// Don't run this if the request was posted - we don't want to log 'init' when the
 		// user just pressed 'Show preview' or 'Show changes', or switched from VE keeping
 		// changes.
@@ -220,7 +152,8 @@ class WikiEditorHooks {
 	 * @return bool
 	 */
 	public static function EditPageBeforeEditToolbar( &$toolbar ) {
-		if ( self::isEnabled( 'toolbar' ) ) {
+		global $wgUser;
+		if ( $wgUser->getOption( 'usebetatoolbar' ) ) {
 			$toolbar = Html::rawElement(
 				'div', [
 					'class' => 'wikiEditor-oldToolbar'
@@ -244,18 +177,13 @@ class WikiEditorHooks {
 	 * @return bool
 	 */
 	public static function getPreferences( $user, &$defaultPreferences ) {
-		global $wgWikiEditorFeatures;
+		// Ideally this key would be 'wikieditor-toolbar'
+		$defaultPreferences['usebetatoolbar'] = [
+			'type' => 'toggle',
+			'label-message' => 'wikieditor-toolbar-preference',
+			'section' => 'editing/editor',
+		];
 
-		foreach ( self::$features as $name => $feature ) {
-			if (
-				isset( $feature['preferences'] ) &&
-				( !isset( $wgWikiEditorFeatures[$name] ) || $wgWikiEditorFeatures[$name]['user'] )
-			) {
-				foreach ( $feature['preferences'] as $key => $options ) {
-					$defaultPreferences[$key] = $options;
-				}
-			}
-		}
 		return true;
 	}
 
@@ -301,12 +229,7 @@ class WikiEditorHooks {
 	 */
 	public static function makeGlobalVariablesScript( &$vars ) {
 		// Build and export old-style wgWikiEditorEnabledModules object for back compat
-		$enabledModules = [];
-		foreach ( self::$features as $name => $feature ) {
-			$enabledModules[$name] = self::isEnabled( $name );
-		}
-
-		$vars['wgWikiEditorEnabledModules'] = $enabledModules;
+		$vars['wgWikiEditorEnabledModules'] = [];
 		return true;
 	}
 

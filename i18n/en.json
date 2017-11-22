@@ -5,7 +5,7 @@
 		]
 	},
 	"wikieditor": "Advanced wikitext editing interface",
-	"wikieditor-desc": "Provides an extendable wikitext editing interface and many feature-providing modules",
+	"wikieditor-desc": "Provides an advanced, extensible wikitext editing interface",
 	"wikieditor-wikitext-tab": "Wikitext",
 	"wikieditor-loading": "Loading...",
 	"wikieditor-toolbar": "Editing toolbar",

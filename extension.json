@@ -364,14 +364,8 @@
 		"localBasePath": "modules",
 		"remoteExtPath": "WikiEditor/modules"
 	},
-	"config": {
-		"WikiEditorFeatures": {
-			"toolbar": {
-				"global": false,
-				"user": true
-			},
-			"_merge_strategy": "array_plus_2d"
-		}
+	"DefaultUserOptions": {
+		"usebetatoolbar": true
 	},
 	"AutoloadClasses": {
 		"WikiEditorHooks": "WikiEditorHooks.php"

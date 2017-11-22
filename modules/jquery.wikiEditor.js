@@ -104,18 +104,16 @@
 		 * is essentially to blacklist rather than whitelist are debatable, but at this point we've decided it's the more
 		 * "open-web" way to go.
 		 *
-		 * @param {Object} module Module object, defaults to $.wikiEditor
 		 * @return {boolean}
 		 */
-		isSupported: function ( module ) {
+		isSupported: function () {
 			// Fallback to the wikiEditor browser map if no special map is provided in the module
-			var mod = module && 'browsers' in module ? module : $.wikiEditor;
 			// Check for and make use of cached value and early opportunities to bail
-			if ( typeof mod.supported === 'undefined' ) {
+			if ( typeof $.wikiEditor.supported === 'undefined' ) {
 				// Run a browser support test and then cache and return the result
-				mod.supported = $.client.test( mod.browsers );
+				$.wikiEditor.supported = $.client.test( $.wikiEditor.browsers );
 			}
-			return mod.supported;
+			return $.wikiEditor.supported;
 		},
 
 		/**
