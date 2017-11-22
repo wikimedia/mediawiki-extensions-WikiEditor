@@ -370,10 +370,6 @@
 				"global": false,
 				"user": true
 			},
-			"dialogs": {
-				"global": false,
-				"user": true
-			},
 			"_merge_strategy": "array_plus_2d"
 		}
 	},
