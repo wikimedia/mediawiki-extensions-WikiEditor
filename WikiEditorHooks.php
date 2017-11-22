@@ -38,39 +38,6 @@ class WikiEditorHooks {
 				'ext.wikiEditor.styles',
 			],
 		],
-
-		/* Labs Features */
-
-		'preview' => [
-			'preferences' => [
-				'wikieditor-preview' => [
-					'type' => 'toggle',
-					'label-message' => 'wikieditor-preview-preference',
-					'section' => 'editing/labs',
-				],
-			],
-			'requirements' => [
-				'wikieditor-preview' => true,
-			],
-			'modules' => [
-				'ext.wikiEditor.preview',
-			],
-		],
-		'publish' => [
-			'preferences' => [
-				'wikieditor-publish' => [
-					'type' => 'toggle',
-					'label-message' => 'wikieditor-publish-preference',
-					'section' => 'editing/labs',
-				],
-			],
-			'requirements' => [
-				'wikieditor-publish' => true,
-			],
-			'modules' => [
-				'ext.wikiEditor.publish',
-			],
-		]
 	];
 
 	/* Static Methods */

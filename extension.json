@@ -123,23 +123,6 @@
 				"dialogReplace.html": "templates/dialogReplace.html"
 			}
 		},
-		"jquery.wikiEditor.preview": {
-			"group": "ext.wikiEditor",
-			"scripts": "jquery.wikiEditor.preview.js",
-			"styles": "jquery.wikiEditor.preview.less",
-			"dependencies": [
-				"jquery.wikiEditor.core",
-				"mediawiki.api"
-			]
-		},
-		"jquery.wikiEditor.publish": {
-			"group": "ext.wikiEditor",
-			"scripts": "jquery.wikiEditor.publish.js",
-			"dependencies": [
-				"jquery.wikiEditor.core",
-				"jquery.wikiEditor.dialogs"
-			]
-		},
 		"jquery.wikiEditor.toolbar": {
 			"group": "ext.wikiEditor",
 			"scripts": "jquery.wikiEditor.toolbar.js",
@@ -367,37 +350,6 @@
 				"jquery.wikiEditor.dialogs.config"
 			]
 		},
-		"ext.wikiEditor.preview": {
-			"group": "ext.wikiEditor",
-			"scripts": "ext.wikiEditor.preview.js",
-			"dependencies": [
-				"ext.wikiEditor.core",
-				"jquery.wikiEditor.preview"
-			],
-			"messages": [
-				"wikieditor-preview-tab",
-				"wikieditor-preview-changes-tab",
-				"wikieditor-preview-loading"
-			]
-		},
-		"ext.wikiEditor.publish": {
-			"group": "ext.wikiEditor",
-			"scripts": "ext.wikiEditor.publish.js",
-			"dependencies": [
-				"ext.wikiEditor.core",
-				"jquery.wikiEditor.publish"
-			],
-			"messages": [
-				"wikieditor-publish-button-publish",
-				"wikieditor-publish-button-cancel",
-				"wikieditor-publish-dialog-title",
-				"wikieditor-publish-dialog-summary",
-				"wikieditor-publish-dialog-minor",
-				"wikieditor-publish-dialog-watch",
-				"wikieditor-publish-dialog-publish",
-				"wikieditor-publish-dialog-goback"
-			]
-		},
 		"ext.wikiEditor.toolbar": {
 			"group": "ext.wikiEditor",
 			"scripts": "ext.wikiEditor.toolbar.js",
@@ -419,14 +371,6 @@
 				"user": true
 			},
 			"dialogs": {
-				"global": false,
-				"user": true
-			},
-			"preview": {
-				"global": false,
-				"user": true
-			},
-			"publish": {
 				"global": false,
 				"user": true
 			},
