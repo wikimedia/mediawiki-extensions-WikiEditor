@@ -1,10 +1,10 @@
 # WikiEditor provides enhancements to the MediaWiki edit page
 
-# This extension requires MediaWiki 1.17+ because it makes use of ResourceLoader.
+# This extension requires MediaWiki 1.28 or higher.
 
 # Example LocalSettings.php additions
 
-require_once( "$IP/extensions/WikiEditor/WikiEditor.php" );
+wfLoadExtension( 'WikiEditor' );
 
 # Before configuring this extension, see WikiEditor.php and become familiar with the initial state and structure of the
 # $wgWikiEditorFeatures configuration variable. Essentially it's an array of arrays, keyed by feature name, each
@@ -14,7 +14,3 @@ require_once( "$IP/extensions/WikiEditor/WikiEditor.php" );
 # To enable a preference by default but still allow users to disable it in preferences, use something like...
 
 $wgDefaultUserOptions['usebetatoolbar'] = 1;
-
-# Release 1.21 removes the $wgWikiEditorToolbarClickTracking config variable
-# and with it support for tracking clicks on WikiEditor features via the
-# ClickTracking extension.
