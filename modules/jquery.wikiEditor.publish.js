@@ -152,7 +152,7 @@
 				context.fn.addButton( {
 					captionMsg: 'wikieditor-publish-button-cancel',
 					action: function () {
-						window.location.href = $( '#mw-editform-cancel' ).attr( 'href' );
+						window.location.href = $( '#mw-editform-cancel a' ).attr( 'href' );
 						return false;
 					}
 				} );
