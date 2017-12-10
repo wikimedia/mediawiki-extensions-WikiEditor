@@ -25,9 +25,9 @@
 			"Black9869184"
 		]
 	},
-	"wikieditor": "進階 Wiki 文字編輯介面",
+	"wikieditor": "進階 wikitext 編輯介面",
 	"wikieditor-desc": "提供 Wiki 文字編輯介面擴充功能及相關模組",
-	"wikieditor-wikitext-tab": "Wiki 文字",
+	"wikieditor-wikitext-tab": "Wikitext",
 	"wikieditor-loading": "讀取中...",
 	"wikieditor-preview-preference": "開啟並排預覽",
 	"wikieditor-preview-tab": "預覽",
@@ -56,7 +56,7 @@
 	"wikieditor-toolbar-tool-xlink-example": "http://www.example.com 連結標題",
 	"wikieditor-toolbar-tool-link": "連結",
 	"wikieditor-toolbar-tool-link-title": "插入連結",
-	"wikieditor-toolbar-tool-link-int": "連結 Wiki 頁面",
+	"wikieditor-toolbar-tool-link-int": "連至 wiki 頁面",
 	"wikieditor-toolbar-tool-link-int-target": "目標頁面或網址：",
 	"wikieditor-toolbar-tool-link-int-target-tooltip": "頁面標題或 URL",
 	"wikieditor-toolbar-tool-link-int-text": "顯示文字：",
