@@ -61,6 +61,11 @@
 			logEditEvent( 'ready', {
 				editingSessionId: editingSessionId
 			} );
+			$textarea.on( 'wikiEditor-toolbar-doneInitialSections', function () {
+				logEditEvent( 'loaded', {
+					editingSessionId: editingSessionId
+				} );
+			} );
 			$textarea.closest( 'form' ).submit( function () {
 				submitting = true;
 			} );
