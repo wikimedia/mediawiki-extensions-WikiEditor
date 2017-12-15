@@ -434,7 +434,7 @@
 		}
 	},
 	"AutoloadClasses": {
-		"WikiEditorHooks": "WikiEditor.hooks.php"
+		"WikiEditorHooks": "WikiEditorHooks.php"
 	},
 	"manifest_version": 1
 }
