@@ -141,7 +141,7 @@
 	"wikieditor-toolbar-tool-replace-button-replace": "Заместване",
 	"wikieditor-toolbar-tool-replace-button-replaceall": "Замяна на всички",
 	"wikieditor-toolbar-tool-replace-close": "Затваряне",
-	"wikieditor-toolbar-tool-replace-nomatch": "Нямаше резултати, които да отговарят на вашето търсене.",
+	"wikieditor-toolbar-tool-replace-nomatch": "Няма резултати, които да отговарят на вашето търсене.",
 	"wikieditor-toolbar-tool-replace-success": "{{PLURAL:$1|Направена е $1 замяна|Направени са $1 замени}}.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "Не сте въвели низ за търсене.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "Въведеният от вас регулярен израз е невалиден: $1",
