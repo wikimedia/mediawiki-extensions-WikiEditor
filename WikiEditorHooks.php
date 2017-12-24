@@ -364,6 +364,7 @@ class WikiEditorHooks {
 			$magicWords[$name] = MagicWord::get( $name )->getSynonym( 0 );
 		}
 		$vars['wgWikiEditorMagicWords'] = $magicWords;
+		return true;
 	}
 
 	/**
