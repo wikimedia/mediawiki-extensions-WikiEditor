@@ -272,7 +272,6 @@
 			],
 			"dependencies": [
 				"jquery.async",
-				"jquery.client",
 				"jquery.cookie",
 				"jquery.suggestions",
 				"jquery.tabIndex",

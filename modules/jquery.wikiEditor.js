@@ -191,11 +191,8 @@
 	 * @return {jQuery}
 	 */
 	$.fn.wikiEditor = function () {
-		var context, profile, hasFocus, cursorPos,
+		var context, hasFocus, cursorPos,
 			args, modules, module, e, call;
-
-		// Save browser profile for detailed tests.
-		profile = $.client.profile();
 
 		/* Initialization */
 
@@ -404,22 +401,23 @@
 				},
 
 				/**
-				 * Save text selection for old IE (<=10)
+				 * Save text selection
 				 */
 				saveSelection: function () {
-					if ( profile.name === 'msie' && document.selection && document.selection.createRange ) {
-						context.$textarea.focus();
-						context.savedSelection = document.selection.createRange();
-					}
+					context.$textarea.focus();
+					context.savedSelection = {
+						selectionStart: context.$textarea[ 0 ].selectionStart,
+						selectionEnd: context.$textarea[ 0 ].selectionEnd
+					};
 				},
 
 				/**
-				 * Restore text selection for old IE (<=10)
+				 * Restore text selection
 				 */
 				restoreSelection: function () {
-					if ( profile.name === 'msie' && context.savedSelection !== null ) {
+					if ( context.savedSelection ) {
 						context.$textarea.focus();
-						context.savedSelection.select();
+						context.$textarea[ 0 ].setSelectionRange( context.savedSelection.selectionStart, context.savedSelection.selectionEnd );
 						context.savedSelection = null;
 					}
 				}
