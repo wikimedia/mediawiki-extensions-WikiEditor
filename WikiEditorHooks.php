@@ -154,12 +154,7 @@ class WikiEditorHooks {
 	public static function EditPageBeforeEditToolbar( &$toolbar ) {
 		global $wgUser;
 		if ( $wgUser->getOption( 'usebetatoolbar' ) ) {
-			$toolbar = Html::rawElement(
-				'div', [
-					'class' => 'wikiEditor-oldToolbar'
-				],
-				$toolbar
-			);
+			$toolbar = '';
 			// Return false to signify that the toolbar has been over-written, so
 			// the old toolbar code shouldn't be added to the page.
 			return false;
