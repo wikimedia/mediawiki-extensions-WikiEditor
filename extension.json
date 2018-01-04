@@ -50,15 +50,6 @@
 		]
 	},
 	"ResourceModules": {
-		"ext.wikiEditor.toolbar": {
-			"dependencies": [ "ext.wikiEditor" ]
-		},
-		"ext.wikiEditor.dialogs": {
-			"dependencies": [ "ext.wikiEditor" ]
-		},
-		"ext.wikiEditor.core": {
-			"dependencies": [ "ext.wikiEditor" ]
-		},
 		"ext.wikiEditor": {
 			"group": "ext.wikiEditor",
 			"scripts": [
@@ -294,6 +285,36 @@
 		"ext.wikiEditor.styles": {
 			"group": "ext.wikiEditor",
 			"styles": "ext.wikiEditor.toolbar.styles.less"
+		},
+		"ext.wikiEditor.toolbar": {
+			"dependencies": [ "ext.wikiEditor" ]
+		},
+		"ext.wikiEditor.dialogs": {
+			"dependencies": [ "ext.wikiEditor" ]
+		},
+		"ext.wikiEditor.core": {
+			"dependencies": [ "ext.wikiEditor" ]
+		},
+		"jquery.wikiEditor": {
+			"dependencies": [ "ext.wikiEditor" ]
+		},
+		"jquery.wikiEditor.core": {
+			"dependencies": [ "ext.wikiEditor" ]
+		},
+		"jquery.wikiEditor.dialogs": {
+			"dependencies": [ "ext.wikiEditor" ]
+		},
+		"jquery.wikiEditor.dialogs.config": {
+			"dependencies": [ "ext.wikiEditor" ]
+		},
+		"jquery.wikiEditor.toolbar": {
+			"dependencies": [ "ext.wikiEditor" ]
+		},
+		"jquery.wikiEditor.toolbar.config": {
+			"dependencies": [ "ext.wikiEditor" ]
+		},
+		"jquery.wikiEditor.toolbar.i18n": {
+			"dependencies": [ "ext.wikiEditor" ]
 		}
 	},
 	"ResourceFileModulePaths": {
