@@ -15,7 +15,7 @@
 		]
 	},
 	"wikieditor": "Išplėstinė vikiteksto redagavimo sąsaja",
-	"wikieditor-desc": "Prideda išplečiamą vikiteksto redagavimo sąsają ir daug funkcijų turinčius modulius",
+	"wikieditor-desc": "Prideda pažangią, išplečiamą vikiteksto redagavimo sąsają",
 	"wikieditor-wikitext-tab": "Vikitekstas",
 	"wikieditor-loading": "Įkeliama...",
 	"wikieditor-toolbar": "Redagavimo įrankių juosta",
@@ -116,7 +116,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Peržiūra",
 	"wikieditor-toolbar-tool-table-insert": "Įterpti",
 	"wikieditor-toolbar-tool-table-cancel": "Atšaukti",
-	"wikieditor-toolbar-tool-table-toomany": "Įterpti lentelę su daugiau nei $1 {{PLURAL:$1|}} langelių šiame lange negalima.",
+	"wikieditor-toolbar-tool-table-toomany": "Įterpti lentelę su daugiau nei $1 {{PLURAL:$1|langelių}} šiame lange negalima.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Jūs neįvedėte leistino skaičiaus eilučių ar stulpelių.",
 	"wikieditor-toolbar-tool-table-zero": "Jūs negalite įterpti lentelės su nuliu eilučių ar stulpelių.",
 	"wikieditor-toolbar-tool-replace": "Ieškoti ir pakeisti",
