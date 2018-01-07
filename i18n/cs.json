@@ -6,11 +6,12 @@
 			"Littledogboy",
 			"Mormegil",
 			"Macofe",
-			"Dvorapa"
+			"Dvorapa",
+			"Matěj Suchánek"
 		]
 	},
 	"wikieditor": "Vylepšené rozhraní pro editaci wikitextu",
-	"wikieditor-desc": "Poskytuje rozšiřitelné editační rozhraní a mnoho modulů s novými funkcemi",
+	"wikieditor-desc": "Poskytuje pokročilé, rozšiřitelné rozhraní pro editaci wikitextu",
 	"wikieditor-wikitext-tab": "Wikitext",
 	"wikieditor-loading": "Načítá se",
 	"wikieditor-toolbar": "Editační panel nástrojů",
