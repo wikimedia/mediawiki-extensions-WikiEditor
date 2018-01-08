@@ -20,11 +20,12 @@
 			"Macofe",
 			"Yllelder",
 			"Indiralena",
-			"Sophivorus"
+			"Sophivorus",
+			"2axterix2"
 		]
 	},
 	"wikieditor": "Interfaz avanzada de edición de wikitexto",
-	"wikieditor-desc": "Provee de una interfaz extensible de edición de wikitexto y varios módulos que ofrecen características",
+	"wikieditor-desc": "Provee una interfaz avanzada y extensible de edición de wikitexto",
 	"wikieditor-wikitext-tab": "Wikitexto",
 	"wikieditor-loading": "Cargando…",
 	"wikieditor-toolbar": "Barra de herramientas de edición",
