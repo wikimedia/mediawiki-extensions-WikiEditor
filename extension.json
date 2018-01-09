@@ -287,34 +287,44 @@
 			"styles": "ext.wikiEditor.toolbar.styles.less"
 		},
 		"ext.wikiEditor.toolbar": {
-			"dependencies": [ "ext.wikiEditor" ]
+			"dependencies": "ext.wikiEditor",
+			"deprecated": "Please use 'ext.wikiEditor' instead."
 		},
 		"ext.wikiEditor.dialogs": {
-			"dependencies": [ "ext.wikiEditor" ]
+			"dependencies": "ext.wikiEditor",
+			"deprecated": "Please use 'ext.wikiEditor' instead."
 		},
 		"ext.wikiEditor.core": {
-			"dependencies": [ "ext.wikiEditor" ]
+			"dependencies": "ext.wikiEditor",
+			"deprecated": "Please use 'ext.wikiEditor' instead."
 		},
 		"jquery.wikiEditor": {
-			"dependencies": [ "ext.wikiEditor" ]
+			"dependencies": "ext.wikiEditor",
+			"deprecated": "Please use 'ext.wikiEditor' instead."
 		},
 		"jquery.wikiEditor.core": {
-			"dependencies": [ "ext.wikiEditor" ]
+			"dependencies": "ext.wikiEditor",
+			"deprecated": "Please use 'ext.wikiEditor' instead."
 		},
 		"jquery.wikiEditor.dialogs": {
-			"dependencies": [ "ext.wikiEditor" ]
+			"dependencies": "ext.wikiEditor",
+			"deprecated": "Please use 'ext.wikiEditor' instead."
 		},
 		"jquery.wikiEditor.dialogs.config": {
-			"dependencies": [ "ext.wikiEditor" ]
+			"dependencies": "ext.wikiEditor",
+			"deprecated": "Please use 'ext.wikiEditor' instead."
 		},
 		"jquery.wikiEditor.toolbar": {
-			"dependencies": [ "ext.wikiEditor" ]
+			"dependencies": "ext.wikiEditor",
+			"deprecated": "Please use 'ext.wikiEditor' instead."
 		},
 		"jquery.wikiEditor.toolbar.config": {
-			"dependencies": [ "ext.wikiEditor" ]
+			"dependencies": "ext.wikiEditor",
+			"deprecated": "Please use 'ext.wikiEditor' instead."
 		},
 		"jquery.wikiEditor.toolbar.i18n": {
-			"dependencies": [ "ext.wikiEditor" ]
+			"dependencies": "ext.wikiEditor",
+			"deprecated": "Please use 'ext.wikiEditor' instead."
 		}
 	},
 	"ResourceFileModulePaths": {
