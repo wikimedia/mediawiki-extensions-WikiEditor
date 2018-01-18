@@ -61,20 +61,6 @@
 		imgPath: mw.config.get( 'wgExtensionAssetsPath' ) + '/WikiEditor/modules/images/',
 
 		/**
-		 * Checks if the client supports WikiEditor.
-		 *
-		 * Since 1.31 this check is deprecated and can be skipped as all browsers
-		 * which are served JS by MediaWiki support WikiEditor.
-		 *
-		 * @deprecated since 1.31
-		 * @return {boolean}
-		 */
-		isSupported: function () {
-			mw.log.warn( '$.wikiEditor.isSupported is deprecated.' );
-			return true;
-		},
-
-		/**
 		 * Checks if a module has a specific requirement
 		 *
 		 * @param {Object} module Module object
