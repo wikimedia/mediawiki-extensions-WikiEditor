@@ -24,7 +24,7 @@
 	"wikieditor-toolbar-tool-ilink-example": "ТIахьожаярга дáкъа цIи",
 	"wikieditor-toolbar-tool-xlink": "Арахьара тIахьожаярг (йиц ма ялийтта префикс http://)",
 	"wikieditor-toolbar-tool-xlink-example": "http://www.example.com тIахьожаярга дáкъа цIи",
-	"wikieditor-toolbar-tool-link": "ТIахьожаярг",
+	"wikieditor-toolbar-tool-link": "Тӏатовжам",
 	"wikieditor-toolbar-tool-link-title": "Чуоттабе тIатовжам",
 	"wikieditor-toolbar-tool-link-int": "Вики-оагӀонгахьа",
 	"wikieditor-toolbar-tool-link-int-target": "Дагалаьца оагӀув е URL:",
@@ -75,5 +75,5 @@
 	"wikieditor-toolbar-tool-replace-search": "Хьалáха:",
 	"wikieditor-toolbar-section-characters": "ЛаьрххIа дола хьаракаш",
 	"wikieditor-toolbar-section-help": "Новкъoстал",
-	"wikieditor-toolbar-help-page-link": "ТIахьожаяргаш"
+	"wikieditor-toolbar-help-page-link": "Тӏатовжамаш"
 }
