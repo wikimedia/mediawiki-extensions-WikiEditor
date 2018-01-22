@@ -284,7 +284,7 @@
 				if ( label ) {
 					$label = $( '<span>' )
 						.addClass( 'label' )
-						.html( label );
+						.text( label );
 					$group.append( $label );
 				}
 				empty = true;
