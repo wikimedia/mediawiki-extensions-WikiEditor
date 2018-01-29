@@ -14,11 +14,12 @@
 			"Sjoerddebruin",
 			"Servien",
 			"Dinosaur918",
-			"Mainframe98"
+			"Mainframe98",
+			"Mar(c)"
 		]
 	},
 	"wikieditor": "Uitgebreide tekstverwerker voor wikitekst",
-	"wikieditor-desc": "Voegt een uitbreidbare tekstverwerker voor wikitekst toe en modules met extra mogelijkheden",
+	"wikieditor-desc": "Biedt een geavanceerde, uitbreidbare wikitext-bewerkingsinterface",
 	"wikieditor-wikitext-tab": "Wikitekst",
 	"wikieditor-loading": "Bezig met laden...",
 	"wikieditor-toolbar": "Bewerkingswerkbalk",
