@@ -257,10 +257,10 @@ class WikiEditorHooks {
 	 * @return string
 	 */
 	private static function getEditingStatsId() {
-		if ( self::$statsId ) {
-			return self::$statsId;
+		if ( !self::$statsId ) {
+			self::$statsId = MWCryptRand::generateHex( 32 );
 		}
-		return self::$statsId = MWCryptRand::generateHex( 32 );
+		return self::$statsId;
 	}
 
 	/**
