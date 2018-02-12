@@ -35,7 +35,8 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "ទំព័រមិនទាន់មាន",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "ចំណងជើងមិនត្រឹមត្រូវ",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "តំណភ្ជាប់​ខាងក្រៅ",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "កំពុងពិនិត្យថាតើទំព័រមានហើយឫនៅ...",
+	"wikieditor-toolbar-tool-link-int-target-status-loading": "កំពុងពិនិត្យថាតើទំព័រមានហើយឬនៅ...",
+	"wikieditor-toolbar-tool-link-int-target-status-disambig": "ទំព័រអសង្ស័យកម្ម",
 	"wikieditor-toolbar-tool-link-int-invalid": "ចំណងជើងដែលអ្នកបានផ្ដល់អោយមិនត្រឹមត្រូវទេ",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "URLដែលអ្នកបានផ្ដល់អោយ ទំនងជាតំណភ្ជាប់ទៅកាន់ទំព័រមួយទៀតក្នុងវិគី។\n\nតើអ្នកចង់ប្ដូរវាជាតំណភ្ជាប់ខាងក្នុងវិញទេ?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "តំណភ្ជាប់​ខាងក្នុង",
@@ -164,7 +165,7 @@
 	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>អត្តនាម</a> (<a href='#' title='$2:Username'>ការពិភាក្សា</a>) ១៥:៥៤, ១០ មិថុនា ២០០៩ (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "ហត្ថលេខា​",
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>អត្តនាម</a> (<a href='#' title='$2:Username'>ការពិភាក្សា</a>)",
-	"wikieditor-toolbar-help-content-indent-description": "ខិតចូល (Indent)",
-	"wikieditor-toolbar-help-content-indent-syntax": "អក្សរ​ធម្មតា​<br />:អក្សរ​ខិតចូល​<br />::អក្សរ​ខិតចូល​",
-	"wikieditor-toolbar-help-content-indent-result": "អក្សរ​ធម្មតា​​<dl><dd>អក្សរ​ខិតចូល​<dl><dd>អក្សរ​ខិតចូល​</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-description": "ចូលបន្ទាត់",
+	"wikieditor-toolbar-help-content-indent-syntax": "អក្សរ​ធម្មតា​<br />:អក្សរ​ចូលបន្ទាត់​<br />::អក្សរ​ចូលបន្ទាត់",
+	"wikieditor-toolbar-help-content-indent-result": "អក្សរ​ធម្មតា​​<dl><dd>អក្សរ​ចូលបន្ទាត់<dl><dd>អក្សរ​ចូលបន្ទាត់​</dd></dl></dd></dl>"
 }
