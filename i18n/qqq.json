@@ -26,7 +26,8 @@
 			"Totosunarto",
 			"Robby",
 			"Quiddity",
-			"Alifakoor"
+			"Alifakoor",
+			"Acamicamacaraca"
 		]
 	},
 	"wikieditor": "An extension to provide an advanced, extensible wikitext editing interface.\nhttps://www.mediawiki.org/wiki/Extension:WikiEditor",
@@ -69,7 +70,7 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "{{Identical|External link}}",
 	"wikieditor-toolbar-tool-link-empty": "Used in the link dialog of the toolbar as hint after clicking the insert button",
 	"wikieditor-toolbar-tool-file": "{{Identical|Embedded file}}",
-	"wikieditor-toolbar-tool-file-example": "{{Identical|Example}}",
+	"wikieditor-toolbar-tool-file-example": "Translate Example, but don't translate .jpg\n{{Identical|Example}}",
 	"wikieditor-toolbar-tool-file-title": "Title for insert file dialog",
 	"wikieditor-toolbar-file-target": "Label for the input of filename on insert file dialog.\n{{Identical|Filename}}",
 	"wikieditor-toolbar-file-caption": "Label for input of caption on insert file dialog\n\n{{Identical|Caption}}",
