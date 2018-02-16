@@ -335,7 +335,7 @@
 		"usebetatoolbar": true
 	},
 	"AutoloadClasses": {
-		"WikiEditorHooks": "WikiEditorHooks.php"
+		"WikiEditorHooks": "includes/WikiEditorHooks.php"
 	},
 	"manifest_version": 1
 }
