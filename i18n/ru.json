@@ -18,12 +18,13 @@
 			"Amire80",
 			"Sealle",
 			"Jack who built the house",
-			"Mailman"
+			"Mailman",
+			"Smigles"
 		]
 	},
 	"wikieditor": "Расширенный интерфейс редактирования викитекста",
 	"wikieditor-desc": "Обеспечивает расширяемый интерфейс редактирования викитекста и многие функции, предоставляемые модулями",
-	"wikieditor-wikitext-tab": "Викитекст",
+	"wikieditor-wikitext-tab": "Вики-текст",
 	"wikieditor-loading": "Загрузка",
 	"wikieditor-toolbar": "Панель редактирования",
 	"wikieditor-toolbar-desc": "Панель редактирования, более удобная в использовании",
