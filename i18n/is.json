@@ -4,7 +4,8 @@
 			"Krun",
 			"Maxí",
 			"Snævar",
-			"Macofe"
+			"Macofe",
+			"Sveinn í Felli"
 		]
 	},
 	"wikieditor-wikitext-tab": "Wiki-texti",
@@ -55,6 +56,7 @@
 	"wikieditor-toolbar-file-format-none": "ekkert",
 	"wikieditor-toolbar-tool-file-insert": "Setja inn",
 	"wikieditor-toolbar-tool-file-cancel": "Hætta við",
+	"wikieditor-toolbar-tool-file-upload": "Senda",
 	"wikieditor-toolbar-tool-reference": "Tilvísanir",
 	"wikieditor-toolbar-tool-reference-example": "Settu tilvísunina hér",
 	"wikieditor-toolbar-tool-reference-cancel": "Hætta við",
@@ -173,6 +175,7 @@
 	"wikieditor-toolbar-help-content-reference-description": "Tilvísun",
 	"wikieditor-toolbar-help-content-reference-syntax": "Texti síðu.&lt;ref&gt;[http://www.example.org Titill síðu], Skoðað 1. janúar 2010.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Texti síðu.<sup><a href='#'>[1]</a></sup>",
+	"wikieditor-toolbar-help-content-named-reference-result": "Texti síðu.<sup><a href='#'>[2]</a></sup>",
 	"wikieditor-toolbar-help-content-rereference-description": "Áframhaldandi notkun á sömu tilvísun",
 	"wikieditor-toolbar-help-content-rereference-result": "Texti síðu.<sup><a href='#'>[2]</a></sup>",
 	"wikieditor-toolbar-help-content-showreferences-description": "Sýna tilvísanir",
