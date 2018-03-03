@@ -11,7 +11,8 @@
 			"Csega",
 			"Macofe",
 			"Tacsipacsi",
-			"Bináris"
+			"Bináris",
+			"Bencemac"
 		]
 	},
 	"wikieditor": "Fejlett szerkesztőfelület wikiszöveghez",
@@ -65,6 +66,7 @@
 	"wikieditor-toolbar-file-format-none": "nincs",
 	"wikieditor-toolbar-tool-file-insert": "Beszúrás",
 	"wikieditor-toolbar-tool-file-cancel": "Mégse",
+	"wikieditor-toolbar-tool-file-upload": "Feltöltés",
 	"wikieditor-toolbar-tool-reference": "Forráshivatkozás",
 	"wikieditor-toolbar-tool-reference-example": "Ide írd a lábjegyzet szövegét",
 	"wikieditor-toolbar-tool-reference-cancel": "Mégse",
