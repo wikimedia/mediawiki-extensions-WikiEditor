@@ -7,11 +7,12 @@
 			"Minisarm",
 			"Stelistcristi",
 			"Macofe",
-			"Wintereu"
+			"Wintereu",
+			"Strainu"
 		]
 	},
 	"wikieditor": "Interfață de modificare wikitext avansată",
-	"wikieditor-desc": "Afișează o interfață de modificare a wikitextului ce se poate extinde cu multe funcționalități",
+	"wikieditor-desc": "Afișează o interfață avansată de modificare a wikitextului ce poate fi extinsă",
 	"wikieditor-wikitext-tab": "Text wiki",
 	"wikieditor-loading": "Se încarcă...",
 	"wikieditor-toolbar": "Modificarea barei de instrumente",
