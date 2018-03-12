@@ -172,12 +172,6 @@
 								updateWidget( 'external' );
 								return;
 							}
-							if ( target.indexOf( '|' ) !== -1 ) {
-								// Title contains | , which means it's invalid
-								// but confuses the API. Show invalid and bypass API
-								updateWidget( 'invalid' );
-								return;
-							}
 							// Show loading spinner while waiting for the API to respond
 							updateWidget( 'loading' );
 							// Call the API to check page status, saving the request object so it can be aborted if
@@ -191,7 +185,7 @@
 									formatversion: 2,
 									action: 'query',
 									prop: 'pageprops',
-									titles: target,
+									titles: [ target ],
 									ppprop: 'disambiguation',
 									errorformat: 'html',
 									errorlang: mw.config.get( 'wgUserLanguage' )
