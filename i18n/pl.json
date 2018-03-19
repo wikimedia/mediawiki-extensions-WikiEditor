@@ -15,11 +15,12 @@
 			"Mareklug",
 			"Chrumps",
 			"Woytecr",
-			"Matma Rex"
+			"Matma Rex",
+			"Railfail536"
 		]
 	},
 	"wikieditor": "Zaawansowany interfejs edycji wikitekstu",
-	"wikieditor-desc": "Dostarcza rozszerzalny interfejs edycji wikitekstu oraz wiele funkcji oferowane przez moduły",
+	"wikieditor-desc": "Oferuje zaawansowany, rozszerzalny interfejs edycji wikitekstu",
 	"wikieditor-wikitext-tab": "Wikikod",
 	"wikieditor-loading": "Ładowanie",
 	"wikieditor-toolbar": "Pasek narzędzi edycyjnych",

@@ -121,7 +121,7 @@
 	"wikieditor-toolbar-tool-replace-search": "Pretraži:",
 	"wikieditor-toolbar-tool-replace-replace": "Zamijeni sa:",
 	"wikieditor-toolbar-tool-replace-case": "Pazi na veličinu slova",
-	"wikieditor-toolbar-tool-replace-regex": "Postupi sa stringom za pretragu kao s regularnim izrazom",
+	"wikieditor-toolbar-tool-replace-regex": "Postupi s nizom za pretragu kao s regularnim izrazom",
 	"wikieditor-toolbar-tool-replace-button-findnext": "Nađi sljedeće",
 	"wikieditor-toolbar-tool-replace-button-replace": "Zamijeni",
 	"wikieditor-toolbar-tool-replace-button-replaceall": "Zamijeni sve",
