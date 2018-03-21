@@ -9,11 +9,6 @@
 
 		replaceIcons: function ( $textarea ) {
 			$textarea
-				.wikiEditor( 'removeFromToolbar', { section: 'main', group: 'insert', tool: 'xlink' } )
-				.wikiEditor( 'removeFromToolbar', { section: 'main', group: 'insert', tool: 'ilink' } )
-				.wikiEditor( 'removeFromToolbar', { section: 'main', group: 'insert', tool: 'file' } )
-				.wikiEditor( 'removeFromToolbar', { section: 'main', group: 'insert', tool: 'reference' } )
-				.wikiEditor( 'removeFromToolbar', { section: 'advanced', group: 'insert', tool: 'table' } )
 				.wikiEditor( 'addToToolbar', {
 					section: 'main',
 					group: 'insert',
