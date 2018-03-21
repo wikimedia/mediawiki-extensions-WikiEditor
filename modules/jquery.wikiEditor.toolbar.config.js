@@ -134,63 +134,6 @@
 							},
 							insert: {
 								tools: {
-									xlink: {
-										labelMsg: 'wikieditor-toolbar-tool-xlink',
-										type: 'button',
-										icon: 'insert-xlink.png',
-										offset: [ -70, 2 ],
-										action: {
-											type: 'encapsulate',
-											options: {
-												pre: '[',
-												periMsg: 'wikieditor-toolbar-tool-xlink-example',
-												post: ']'
-											}
-										}
-									},
-									ilink: {
-										labelMsg: 'wikieditor-toolbar-tool-ilink',
-										type: 'button',
-										icon: 'insert-ilink.png',
-										offset: [ 2, -1582 ],
-										action: {
-											type: 'encapsulate',
-											options: {
-												pre: '[[',
-												periMsg: 'wikieditor-toolbar-tool-ilink-example',
-												post: ']]'
-											}
-										}
-									},
-									file: {
-										labelMsg: 'wikieditor-toolbar-tool-file',
-										type: 'button',
-										icon: 'insert-file.png',
-										offset: [ 2, -1438 ],
-										action: {
-											type: 'encapsulate',
-											options: {
-												pre: '[[' + fileNamespace + ':',
-												periMsg: 'wikieditor-toolbar-tool-file-example',
-												post: '|' + mw.config.get( 'wgWikiEditorMagicWords' ).img_thumbnail + ']]'
-											}
-										}
-									},
-									reference: {
-										labelMsg: 'wikieditor-toolbar-tool-reference',
-										filters: [ 'body.ns-subject' ],
-										type: 'button',
-										offset: [ 2, -1798 ],
-										icon: 'insert-reference.png',
-										action: {
-											type: 'encapsulate',
-											options: {
-												pre: '<ref>',
-												periMsg: 'wikieditor-toolbar-tool-reference-example',
-												post: '</ref>'
-											}
-										}
-									},
 									signature: {
 										labelMsg: 'wikieditor-toolbar-tool-signature',
 										type: 'button',
@@ -430,22 +373,6 @@
 													fileNamespace
 												],
 												post: '\n</gallery>',
-												ownline: true
-											}
-										}
-									},
-									table: {
-										labelMsg: 'wikieditor-toolbar-tool-table',
-										type: 'button',
-										icon: 'insert-table.png',
-										offset: [ 2, -1942 ],
-										filters: [ '#wpTextbox1:not(.toolbar-dialogs)' ],
-										action: {
-											type: 'encapsulate',
-											options: {
-												pre: '{| class="wikitable" border="1"\n|',
-												periMsg: 'wikieditor-toolbar-tool-table-example-old',
-												post: '\n|}',
 												ownline: true
 											}
 										}
