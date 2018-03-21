@@ -320,8 +320,8 @@
 .tool-button {
 	background-position: 2px 2px;
 	background-repeat: no-repeat;
-	display: block;
-	float: left;
+	display: inline-block;
+	vertical-align: middle;
 	height: 22px;
 	text-indent: -9999px;
 	width: 22px;
@@ -330,9 +330,28 @@
 	overflow: hidden;
 }
 
-/* Sprited Buttons */
+/* Sprited buttons */
 .wikiEditor-toolbar-spritedButton {
 	.background-image-svg('images/toolbar/button-sprite.svg', 'images/toolbar/button-sprite.png');
+}
+
+/* OOUI buttons */
+.tool.oo-ui-buttonElement-frameless.oo-ui-iconElement {
+	margin: 0;
+	padding: 3px;
+	> .oo-ui-buttonElement-button {
+		padding: 0;
+		border: 0;
+		> .oo-ui-iconElement-icon {
+			width: 20px;
+			height: 20px;
+			min-width: 20px;
+			min-height: 20px;
+			left: 0;
+			// Reduce opacity like Apex theme
+			opacity: 0.7;
+		}
+	}
 }
 
 .ui-widget {
