@@ -305,7 +305,7 @@
 				return $group;
 			},
 			buildTool: function ( context, id, tool ) {
-				var i, label, $button, offsetOrIcon, $select, $options,
+				var i, label, $button, offsetOrIcon, $select, $options, oouiButton,
 					option, optionLabel;
 				if ( 'filters' in tool ) {
 					for ( i = 0; i < tool.filters.length; i++ ) {
@@ -317,27 +317,39 @@
 				label = $.wikiEditor.autoMsg( tool, 'label' );
 				switch ( tool.type ) {
 					case 'button':
-						offsetOrIcon = $.wikiEditor.autoIconOrOffset(
-							tool.icon,
-							tool.offset,
-							$.wikiEditor.imgPath + 'toolbar/'
-						);
-						$button = $( '<a>' )
-							.attr( {
-								href: '#',
-								title: label,
-								rel: id,
-								role: 'button',
-								'class': 'tool tool-button'
-							} )
-							.text( label );
-						if ( typeof offsetOrIcon === 'object' ) {
-							$button
-								.addClass( 'wikiEditor-toolbar-spritedButton' )
-								.css( 'backgroundPosition', offsetOrIcon[ 0 ] + 'px ' + offsetOrIcon[ 1 ] + 'px' );
-						} else if ( offsetOrIcon !== undefined ) { // Bug T172500
-							$button
-								.css( 'background-image', 'url(' + offsetOrIcon + ')' );
+						if ( tool.oouiIcon ) {
+							oouiButton = new OO.ui.ButtonWidget( {
+								framed: false,
+								classes: [ 'tool' ],
+								icon: tool.oouiIcon,
+								title: label
+							} );
+							$button = oouiButton.$element;
+							$button.attr( 'rel', id );
+							$button.data( 'ooui', oouiButton );
+						} else {
+							$button = $( '<a>' )
+								.attr( {
+									href: '#',
+									title: label,
+									rel: id,
+									role: 'button',
+									'class': 'tool tool-button'
+								} )
+								.text( label );
+							offsetOrIcon = $.wikiEditor.autoIconOrOffset(
+								tool.icon,
+								tool.offset,
+								$.wikiEditor.imgPath + 'toolbar/'
+							);
+							if ( typeof offsetOrIcon === 'object' ) {
+								$button
+									.addClass( 'wikiEditor-toolbar-spritedButton' )
+									.css( 'backgroundPosition', offsetOrIcon[ 0 ] + 'px ' + offsetOrIcon[ 1 ] + 'px' );
+							} else if ( offsetOrIcon !== undefined ) { // Bug T172500
+								$button
+									.css( 'background-image', 'url(' + offsetOrIcon + ')' );
+							}
 						}
 						if ( 'action' in tool ) {
 							$button
