@@ -351,6 +351,14 @@
 									.css( 'background-image', 'url(' + offsetOrIcon + ')' );
 							}
 						}
+						$button.data( 'setActive', function ( active ) {
+							$button.toggleClass( 'tool-active', active );
+
+							// OOUI button
+							if ( $button.data( 'ooui' ) ) {
+								$button.data( 'ooui' ).setFlags( { progressive: active } );
+							}
+						} );
 						if ( 'action' in tool ) {
 							$button
 								.data( 'action', tool.action )
