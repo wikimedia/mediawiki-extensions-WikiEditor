@@ -155,37 +155,15 @@
 		 *
 		 * @param {Object} icon Icon object from e.g. toolbar config
 		 * @param {string} path Default icon path, defaults to $.wikiEditor.imgPath
-		 * @return {string}
-		 */
-		autoIcon: function ( icon, path ) {
-			var src = $.wikiEditor.autoLang( icon );
-			path = path || $.wikiEditor.imgPath;
-			// Prepend path if src is not absolute
-			if ( src.substr( 0, 7 ) !== 'http://' && src.substr( 0, 8 ) !== 'https://' && src[ 0 ] !== '/' ) {
-				src = path + src;
-			}
-			return src + '?' + mw.loader.getVersion( 'jquery.wikiEditor' );
-		},
-
-		/**
-		 * Get the sprite offset for a language if available, icon for a language if available, or the default offset or icon,
-		 * in that order of preference.
-		 *
-		 * @param {Object} icon Icon object, see autoIcon()
-		 * @param {Object} offset Offset object
-		 * @param {string} path Icon path, see autoIcon()
 		 * @return {Object}
 		 */
-		autoIconOrOffset: function ( icon, offset, path ) {
+		autoIcon: function ( icon, path ) {
 			var i, key, src;
 
 			path = path || $.wikiEditor.imgPath;
 
 			for ( i = 0; i < fallbackChain.length; i++ ) {
 				key = fallbackChain[ i ];
-				if ( offset && hasOwn.call( offset, key ) ) {
-					return offset[ key ];
-				}
 				if ( icon && hasOwn.call( icon, key ) ) {
 					src = icon[ key ];
 					// Prepend path if src is not absolute
@@ -195,7 +173,7 @@
 					return src + '?' + mw.loader.getVersion( 'jquery.wikiEditor' );
 				}
 			}
-			return offset || icon;
+			return icon;
 		}
 	};
 

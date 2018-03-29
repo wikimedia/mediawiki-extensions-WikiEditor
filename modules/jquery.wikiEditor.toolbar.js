@@ -305,7 +305,7 @@
 				return $group;
 			},
 			buildTool: function ( context, id, tool ) {
-				var i, label, $button, offsetOrIcon, $select, $options, oouiButton,
+				var i, label, $button, icon, $select, $options, oouiButton,
 					option, optionLabel;
 				if ( 'filters' in tool ) {
 					for ( i = 0; i < tool.filters.length; i++ ) {
@@ -337,18 +337,12 @@
 									'class': 'tool tool-button'
 								} )
 								.text( label );
-							offsetOrIcon = $.wikiEditor.autoIconOrOffset(
-								tool.icon,
-								tool.offset,
-								$.wikiEditor.imgPath + 'toolbar/'
-							);
-							if ( typeof offsetOrIcon === 'object' ) {
-								$button
-									.addClass( 'wikiEditor-toolbar-spritedButton' )
-									.css( 'backgroundPosition', offsetOrIcon[ 0 ] + 'px ' + offsetOrIcon[ 1 ] + 'px' );
-							} else if ( offsetOrIcon !== undefined ) { // Bug T172500
-								$button
-									.css( 'background-image', 'url(' + offsetOrIcon + ')' );
+							if ( tool.icon ) {
+								icon = $.wikiEditor.autoIcon(
+									tool.icon,
+									$.wikiEditor.imgPath + 'toolbar/'
+								);
+								$button.css( 'background-image', 'url(' + icon + ')' );
 							}
 						}
 						$button.data( 'setActive', function ( active ) {

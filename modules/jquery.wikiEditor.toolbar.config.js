@@ -56,8 +56,7 @@
 									signature: {
 										labelMsg: 'wikieditor-toolbar-tool-signature',
 										type: 'button',
-										offset: [ 2, -1870 ],
-										icon: 'insert-signature.png',
+										oouiIcon: 'signature',
 										action: {
 											type: 'encapsulate',
 											options: {
@@ -261,8 +260,7 @@
 									gallery: {
 										labelMsg: 'wikieditor-toolbar-tool-gallery',
 										type: 'button',
-										icon: 'insert-gallery.png',
-										offset: [ 2, -1510 ],
+										oouiIcon: 'imageGallery',
 										action: {
 											type: 'encapsulate',
 											options: {
@@ -279,14 +277,7 @@
 									redirect: {
 										labelMsg: 'wikieditor-toolbar-tool-redirect',
 										type: 'button',
-										icon: {
-											'default': 'insert-redirect.png',
-											'default-rtl': 'insert-redirect-rtl.png'
-										},
-										offset: {
-											'default': [ -70, -142 ],
-											'default-rtl': [ -70, -502 ]
-										},
+										oouiIcon: 'articleRedirect',
 										action: {
 											type: 'encapsulate',
 											options: {

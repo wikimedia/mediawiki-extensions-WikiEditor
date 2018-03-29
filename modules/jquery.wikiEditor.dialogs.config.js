@@ -16,8 +16,7 @@
 						link: {
 							labelMsg: 'wikieditor-toolbar-tool-link',
 							type: 'button',
-							icon: 'insert-link.png',
-							offset: [ 2, -1654 ],
+							oouiIcon: 'link',
 							action: {
 								type: 'dialog',
 								module: 'insert-link'
@@ -26,8 +25,7 @@
 						file: {
 							labelMsg: 'wikieditor-toolbar-tool-file',
 							type: 'button',
-							icon: 'insert-file.png',
-							offset: [ 2, -1438 ],
+							oouiIcon: 'image',
 							action: {
 								type: 'dialog',
 								module: 'insert-file'
@@ -37,8 +35,7 @@
 							labelMsg: 'wikieditor-toolbar-tool-reference',
 							filters: [ 'body.ns-subject' ],
 							type: 'button',
-							icon: 'insert-reference.png',
-							offset: [ 2, -1798 ],
+							oouiIcon: 'book',
 							action: {
 								type: 'dialog',
 								module: 'insert-reference'
@@ -53,8 +50,7 @@
 						table: {
 							labelMsg: 'wikieditor-toolbar-tool-table',
 							type: 'button',
-							icon: 'insert-table.png',
-							offset: [ 2, -1942 ],
+							oouiIcon: 'table',
 							action: {
 								type: 'dialog',
 								module: 'insert-table'
@@ -70,8 +66,7 @@
 								replace: {
 									labelMsg: 'wikieditor-toolbar-tool-replace',
 									type: 'button',
-									icon: 'search-replace.png',
-									offset: [ -70, -214 ],
+									oouiIcon: 'find',
 									action: {
 										type: 'dialog',
 										module: 'search-and-replace'
