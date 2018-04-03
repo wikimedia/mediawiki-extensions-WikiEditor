@@ -279,7 +279,10 @@
 				"mediawiki.RegExp",
 				"mediawiki.Title",
 				"mediawiki.Upload.Dialog",
-				"mediawiki.user"
+				"mediawiki.user",
+				"oojs-ui.styles.icons-editing-advanced",
+				"oojs-ui.styles.icons-editing-list",
+				"oojs-ui.styles.icons-editing-styling"
 			]
 		},
 		"ext.wikiEditor.styles": {

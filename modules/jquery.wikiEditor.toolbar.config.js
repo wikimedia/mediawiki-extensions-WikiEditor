@@ -227,14 +227,7 @@
 									ulist: {
 										labelMsg: 'wikieditor-toolbar-tool-ulist',
 										type: 'button',
-										icon: {
-											'default': 'format-ulist.png',
-											'default-rtl': 'format-ulist-rtl.png'
-										},
-										offset: {
-											'default': [ 2, -1366 ],
-											'default-rtl': [ -70, -286 ]
-										},
+										oouiIcon: 'listBullet',
 										action: {
 											type: 'encapsulate',
 											options: {
@@ -249,14 +242,7 @@
 									olist: {
 										labelMsg: 'wikieditor-toolbar-tool-olist',
 										type: 'button',
-										icon: {
-											'default': 'format-olist.png',
-											'default-rtl': 'format-olist-rtl.png'
-										},
-										offset: {
-											'default': [ 2, -1078 ],
-											'default-rtl': [ -70, -358 ]
-										},
+										oouiIcon: 'listNumbered',
 										action: {
 											type: 'encapsulate',
 											options: {
@@ -271,8 +257,7 @@
 									nowiki: {
 										labelMsg: 'wikieditor-toolbar-tool-nowiki',
 										type: 'button',
-										icon: 'insert-nowiki.png',
-										offset: [ -70, -70 ],
+										oouiIcon: 'noWikiText',
 										action: {
 											type: 'encapsulate',
 											options: {
@@ -285,8 +270,7 @@
 									newline: {
 										labelMsg: 'wikieditor-toolbar-tool-newline',
 										type: 'button',
-										icon: 'insert-newline.png',
-										offset: [ 2, -1726 ],
+										oouiIcon: 'newline',
 										action: {
 											type: 'encapsulate',
 											options: {
@@ -301,8 +285,7 @@
 									big: {
 										labelMsg: 'wikieditor-toolbar-tool-big',
 										type: 'button',
-										icon: 'format-big.png',
-										offset: [ 2, 2 ],
+										oouiIcon: 'bigger',
 										action: {
 											type: 'encapsulate',
 											options: {
@@ -315,8 +298,7 @@
 									small: {
 										labelMsg: 'wikieditor-toolbar-tool-small',
 										type: 'button',
-										icon: 'format-small.png',
-										offset: [ 2, -1150 ],
+										oouiIcon: 'smaller',
 										action: {
 											type: 'encapsulate',
 											options: {
@@ -329,8 +311,7 @@
 									superscript: {
 										labelMsg: 'wikieditor-toolbar-tool-superscript',
 										type: 'button',
-										icon: 'format-superscript.png',
-										offset: [ 2, -1294 ],
+										oouiIcon: 'superscript',
 										action: {
 											type: 'encapsulate',
 											options: {
@@ -343,8 +324,7 @@
 									subscript: {
 										labelMsg: 'wikieditor-toolbar-tool-subscript',
 										type: 'button',
-										icon: 'format-subscript.png',
-										offset: [ 2, -1222 ],
+										oouiIcon: 'subscript',
 										action: {
 											type: 'encapsulate',
 											options: {
