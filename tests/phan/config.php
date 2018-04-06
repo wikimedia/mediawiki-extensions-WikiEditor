@@ -16,10 +16,7 @@ $cfg['exclude_analysis_directory_list'] = array_merge(
 	]
 );
 
-$cfg['suppress_issue_types'] = [
-	'PhanDeprecatedFunction',
-	// \WikiPage->ConfirmEdit_ActivateCaptcha not exist is a false-positive
-	'PhanUndeclaredProperty',
-];
+// \WikiPage->ConfirmEdit_ActivateCaptcha not exist is a false-positive
+$cfg['suppress_issue_types'][] = 'PhanUndeclaredProperty';
 
 return $cfg;
