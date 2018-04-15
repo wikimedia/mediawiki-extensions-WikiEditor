@@ -52,6 +52,10 @@
 	"wikieditor-toolbar-help-page-list": "Listi",
 	"wikieditor-toolbar-help-page-file": "Arkivi",
 	"wikieditor-toolbar-help-content-ilink-description": "Interna ligilo",
+	"wikieditor-toolbar-help-content-ilink-syntax": "[[Titulo di la pagino]]<br />[[Titulo di la pagino|Etiketo dil ligilo]]",
+	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>Titulo di la pagino</a><br /><a href='#'>Etiketo dil ligilo</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "Extera ligilo",
+	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.example.org Etiketo dil ligilo]<br />[http://www.example.org]<br />http://www.example.org",
+	"wikieditor-toolbar-help-content-xlink-result": "<a href='#' class='external'>Etiketo dil ligilo</a><br /><a href='#' class='external autonumber'>[1]</a><br /><a href='#' class='external'>http://www.example.org</a>",
 	"wikieditor-toolbar-help-content-signature-description": "Signaturo"
 }
