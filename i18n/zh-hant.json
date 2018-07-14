@@ -23,11 +23,12 @@
 			"LNDDYL",
 			"Macofe",
 			"Black9869184",
-			"Shangkuanlc"
+			"Shangkuanlc",
+			"Kly"
 		]
 	},
 	"wikieditor": "進階 wikitext 編輯介面",
-	"wikieditor-desc": "提供 Wiki 文字編輯介面擴充功能及相關模組",
+	"wikieditor-desc": "提供高級、可擴充的 Wiki 文字編輯介面",
 	"wikieditor-wikitext-tab": "Wikitext",
 	"wikieditor-loading": "讀取中...",
 	"wikieditor-toolbar": "編輯工具列",
