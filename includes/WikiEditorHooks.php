@@ -6,6 +6,8 @@
  * @ingroup Extensions
  */
 
+use MediaWiki\MediaWikiServices;
+
 class WikiEditorHooks {
 	// ID used for grouping entries all of a session's entries together in
 	// EventLogging.
@@ -245,8 +247,15 @@ class WikiEditorHooks {
 			'img_frameless',
 		];
 		$magicWords = [];
+		if ( class_exists( MagicWordFactory::class ) ) {
+			$factory = MediaWikiServices::getInstance()->getMagicWordFactory();
+		}
 		foreach ( $requiredMagicWords as $name ) {
-			$magicWords[$name] = MagicWord::get( $name )->getSynonym( 0 );
+			if ( class_exists( MagicWordFactory::class ) ) {
+				$magicWords[$name] = $factory->get( $name )->getSynonym( 0 );
+			} else {
+				$magicWords[$name] = MagicWord::get( $name )->getSynonym( 0 );
+			}
 		}
 		$vars['wgWikiEditorMagicWords'] = $magicWords;
 		return true;
