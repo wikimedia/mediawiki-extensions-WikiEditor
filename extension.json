@@ -13,7 +13,7 @@
 	"license-name": "GPL-2.0-or-later",
 	"type": "editor",
 	"requires": {
-		"MediaWiki": ">= 1.28.0"
+		"MediaWiki": ">= 1.32.0"
 	},
 	"MessagesDirs": {
 		"WikiEditor": [
@@ -282,6 +282,7 @@
 				"mediawiki.user",
 				"oojs-ui.styles.icons-content",
 				"oojs-ui.styles.icons-editing-advanced",
+				"oojs-ui.styles.icons-editing-citation",
 				"oojs-ui.styles.icons-editing-core",
 				"oojs-ui.styles.icons-editing-list",
 				"oojs-ui.styles.icons-editing-styling",
