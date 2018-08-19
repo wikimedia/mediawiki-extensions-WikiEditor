@@ -26,7 +26,7 @@ class WikiEditorHooks {
 	 */
 	public static function doEventLogging( $action, $article, $data = [] ) {
 		global $wgVersion;
-		if ( !class_exists( 'EventLogging' ) ) {
+		if ( !ExtensionRegistry::getInstance()->isLoaded( 'EventLogging' ) ) {
 			return false;
 		}
 		// Sample 6.25% (via hex digit)
@@ -87,7 +87,7 @@ class WikiEditorHooks {
 		// Don't run this if the request was posted - we don't want to log 'init' when the
 		// user just pressed 'Show preview' or 'Show changes', or switched from VE keeping
 		// changes.
-		if ( class_exists( 'EventLogging' ) && !$request->wasPosted() ) {
+		if ( ExtensionRegistry::getInstance()->isLoaded( 'EventLogging' ) && !$request->wasPosted() ) {
 			$data = [];
 			$data['editingSessionId'] = self::getEditingStatsId();
 			if ( $request->getVal( 'section' ) ) {
