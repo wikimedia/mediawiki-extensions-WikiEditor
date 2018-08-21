@@ -35,7 +35,7 @@
 							labelMsg: 'wikieditor-toolbar-tool-reference',
 							filters: [ 'body.ns-subject' ],
 							type: 'button',
-							oouiIcon: 'book',
+							oouiIcon: 'reference',
 							action: {
 								type: 'dialog',
 								module: 'insert-reference'
