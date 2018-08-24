@@ -66,7 +66,7 @@
 								replace: {
 									labelMsg: 'wikieditor-toolbar-tool-replace',
 									type: 'button',
-									oouiIcon: 'find',
+									oouiIcon: 'articleSearch',
 									action: {
 										type: 'dialog',
 										module: 'search-and-replace'
