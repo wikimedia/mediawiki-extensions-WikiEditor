@@ -39,7 +39,7 @@
 	"wikieditor-toolbar-tool-link-int-target-tooltip": "문서 제목 또는 URL",
 	"wikieditor-toolbar-tool-link-int-text": "표시할 텍스트:",
 	"wikieditor-toolbar-tool-link-int-text-tooltip": "문서에 보이는 글",
-	"wikieditor-toolbar-tool-link-ext": "바깥 웹 페이지로 연결",
+	"wikieditor-toolbar-tool-link-ext": "외부 웹 페이지로 연결",
 	"wikieditor-toolbar-tool-link-ext-target": "링크 URL:",
 	"wikieditor-toolbar-tool-link-ext-text": "링크 텍스트:",
 	"wikieditor-toolbar-tool-link-insert": "링크 넣기",

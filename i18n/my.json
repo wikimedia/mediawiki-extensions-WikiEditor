@@ -1,9 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ninjastrikers"
+			"Ninjastrikers",
+			"Dr Lotus Black"
 		]
 	},
+	"wikieditor-toolbar-tool-link-cancel": "မလုပ်တော့ပါ",
+	"wikieditor-toolbar-tool-file-cancel": "မလုပ်တော့ပါ",
+	"wikieditor-toolbar-tool-reference-cancel": "မလုပ်တော့ပါ",
+	"wikieditor-toolbar-tool-table-cancel": "မလုပ်တော့ပါ",
 	"wikieditor-toolbar-section-help": "အကူအညီ",
 	"wikieditor-toolbar-help-page-file": "ဖိုင်များ"
 }
