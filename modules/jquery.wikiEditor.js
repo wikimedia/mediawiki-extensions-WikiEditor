@@ -82,6 +82,10 @@
 		/**
 		 * Provides a way to extract messages from objects. Wraps a mw.message( ... ).text() call.
 		 *
+		 * FIXME: This is a security nightmare. Only use is for the help toolbar panel. Inline the
+		 *        special need instead?
+		 * FIXME: Also, this is ludicrously complex. Just use mw.message().text() directly.
+		 *
 		 * @param {Object} object Object to extract messages from
 		 * @param {string} property String of name of property which contains the message. This should be the base name of the
 		 * property, which means that in the case of the object { this: 'that', fooMsg: 'bar' }, passing property as 'this'
@@ -108,6 +112,43 @@
 					return mw.message.apply( mw.message, p ).text();
 				} else {
 					return mw.message( p ).text();
+				}
+			} else {
+				return '';
+			}
+		},
+
+		/**
+		 * Provides a way to extract messages from objects. Wraps a mw.message( ... ).escaped() call.
+		 *
+		 * FIXME: This is ludicrously complex. Just use mw.message().escaped() directly.
+		 *
+		 * @param {Object} object Object to extract messages from
+		 * @param {string} property String of name of property which contains the message. This should be the base name of the
+		 * property, which means that in the case of the object { this: 'that', fooMsg: 'bar' }, passing property as 'this'
+		 * would return the raw text 'that', while passing property as 'foo' would return the internationalized message
+		 * with the key 'bar'. This is then escaped.
+		 * @return {string}
+		 */
+		autoSafeMsg: function ( object, property ) {
+			var i, p;
+			// Accept array of possible properties, of which the first one found will be used
+			if ( typeof property === 'object' ) {
+				for ( i in property ) {
+					if ( property[ i ] in object || property[ i ] + 'Msg' in object ) {
+						property = property[ i ];
+						break;
+					}
+				}
+			}
+			if ( property in object ) {
+				return object[ property ];
+			} else if ( property + 'Msg' in object ) {
+				p = object[ property + 'Msg' ];
+				if ( Array.isArray( p ) && p.length >= 2 ) {
+					return mw.message.apply( mw.message, p ).escaped();
+				} else {
+					return mw.message( p ).escaped();
 				}
 			} else {
 				return '';

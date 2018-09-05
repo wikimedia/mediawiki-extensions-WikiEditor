@@ -314,7 +314,7 @@
 						}
 					}
 				}
-				label = $.wikiEditor.autoMsg( tool, 'label' );
+				label = $.wikiEditor.autoSafeMsg( tool, 'label' );
 				switch ( tool.type ) {
 					case 'button':
 					case 'toggle':
@@ -391,7 +391,7 @@
 						$options = $( '<div>' ).addClass( 'options' );
 						if ( 'list' in tool ) {
 							for ( option in tool.list ) {
-								optionLabel = $.wikiEditor.autoMsg( tool.list[ option ], 'label' );
+								optionLabel = $.wikiEditor.autoSafeMsg( tool.list[ option ], 'label' );
 								$options.append(
 									$( '<a>' )
 										.data( 'action', tool.list[ option ].action )
@@ -546,7 +546,7 @@
 			buildHeading: function ( context, headings ) {
 				var i, html = '<tr>';
 				for ( i = 0; i < headings.length; i++ ) {
-					html += '<th>' + $.wikiEditor.autoMsg( headings[ i ], [ 'html', 'text' ] ) + '</th>';
+					html += '<th>' + $.wikiEditor.autoSafeMsg( headings[ i ], [ 'html', 'text' ] ) + '</th>';
 				}
 				return html + '</tr>';
 			},
@@ -554,6 +554,8 @@
 				var cell,
 					html = '<tr>';
 				for ( cell in row ) {
+					// FIXME: This currently needs to use the "unsafe" .text() message because it embeds raw HTML
+					// in the messages (as used exclusively by the 'help' toolbar panel).
 					html += '<td class="cell cell-' + cell + '"><span>' +
 						$.wikiEditor.autoMsg( row[ cell ], [ 'html', 'text' ] ) + '</span></td>';
 				}
