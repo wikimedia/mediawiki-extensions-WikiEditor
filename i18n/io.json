@@ -48,6 +48,7 @@
 	"wikieditor-toolbar-tool-replace-search": "Serchar:",
 	"wikieditor-toolbar-tool-replace-close": "Klozar",
 	"wikieditor-toolbar-tool-replace-success": "$1 {{PLURAL:$1|remplasigo|remplasigi}} facita.",
+	"wikieditor-toolbar-section-characters": "Specala literi",
 	"wikieditor-toolbar-section-help": "Helpo",
 	"wikieditor-toolbar-help-heading-syntax": "Quon vu skribis",
 	"wikieditor-toolbar-help-page-link": "Ligili",

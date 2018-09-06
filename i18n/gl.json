@@ -3,7 +3,8 @@
 		"authors": [
 			"Toliño",
 			"Banjo",
-			"Elisardojm"
+			"Elisardojm",
+			"Navhy"
 		]
 	},
 	"wikieditor": "Interface avanzada de edición de texto wiki",
@@ -28,7 +29,7 @@
 	"wikieditor-toolbar-tool-link-int-target": "Título da páxina ou URL:",
 	"wikieditor-toolbar-tool-link-int-target-tooltip": "Título da páxina ou URL",
 	"wikieditor-toolbar-tool-link-int-text": "Texto da ligazón:",
-	"wikieditor-toolbar-tool-link-int-text-tooltip": "Insira o texto que se mostrará",
+	"wikieditor-toolbar-tool-link-int-text-tooltip": "Insira o texto que se amosará",
 	"wikieditor-toolbar-tool-link-ext": "Cara a unha páxina web externa",
 	"wikieditor-toolbar-tool-link-ext-target": "URL da ligazón:",
 	"wikieditor-toolbar-tool-link-ext-text": "Texto da ligazón:",
@@ -181,7 +182,7 @@
 	"wikieditor-toolbar-help-content-named-reference-result": "Texto da páxina.<sup><a href='#'>[2]</a></sup>",
 	"wikieditor-toolbar-help-content-rereference-description": "Uso adicional da mesma referencia",
 	"wikieditor-toolbar-help-content-rereference-result": "Texto da páxina<sup><a href='#'>[2]</a></sup>.",
-	"wikieditor-toolbar-help-content-showreferences-description": "Mostrar as referencias",
+	"wikieditor-toolbar-help-content-showreferences-description": "Amosar as referencias",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Texto da ligazón</a>, texto adicional.</li><li id='cite_note-test-1'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Texto da ligazón</a></li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Sinatura con data e hora",
 	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>Nome de usuario</a> (<a href='#' title='$2:Username'>conversa</a>) 10 de xuño de 2009 ás 15:54 (UTC)",
