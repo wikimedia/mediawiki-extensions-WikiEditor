@@ -57,7 +57,7 @@ class WikiEditorHooks {
 			$data['user.class'] = 'IP';
 		}
 
-		return EventLogging::logEvent( 'Edit', 13457736, $data );
+		return EventLogging::logEvent( 'Edit', 17541122, $data );
 	}
 
 	/**
