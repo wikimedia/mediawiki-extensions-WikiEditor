@@ -391,7 +391,7 @@
 						$options = $( '<div>' ).addClass( 'options' );
 						if ( 'list' in tool ) {
 							for ( option in tool.list ) {
-								optionLabel = $.wikiEditor.autoSafeMsg( tool.list[ option ], 'label' );
+								optionLabel = $.wikiEditor.autoMsg( tool.list[ option ], 'label' );
 								$options.append(
 									$( '<a>' )
 										.data( 'action', tool.list[ option ].action )
