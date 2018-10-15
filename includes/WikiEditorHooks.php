@@ -25,12 +25,13 @@ class WikiEditorHooks {
 	 * @return bool Whether the event was logged or not.
 	 */
 	public static function doEventLogging( $action, $article, $data = [] ) {
-		global $wgVersion;
+		global $wgVersion, $wgWMESchemaEditSamplingRate;
 		if ( !ExtensionRegistry::getInstance()->isLoaded( 'EventLogging' ) ) {
 			return false;
 		}
-		// Sample 6.25% (via hex digit)
-		if ( $data['editingSessionId'][0] > '0' ) {
+		// Sample 6.25%
+		$samplingRate = $wgWMESchemaEditSamplingRate ?? 0.0625;
+		if ( !EventLogging::sessionInSample( 1 / $samplingRate, $data['editingSessionId'] ) ) {
 			return false;
 		}
 
