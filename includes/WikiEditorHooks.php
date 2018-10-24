@@ -26,12 +26,16 @@ class WikiEditorHooks {
 	 */
 	public static function doEventLogging( $action, $article, $data = [] ) {
 		global $wgVersion, $wgWMESchemaEditSamplingRate;
-		if ( !ExtensionRegistry::getInstance()->isLoaded( 'EventLogging' ) ) {
+		$extensionRegistry = ExtensionRegistry::getInstance();
+		if ( !$extensionRegistry->isLoaded( 'EventLogging' ) ) {
 			return false;
 		}
 		// Sample 6.25%
 		$samplingRate = $wgWMESchemaEditSamplingRate ?? 0.0625;
-		if ( !EventLogging::sessionInSample( 1 / $samplingRate, $data['editingSessionId'] ) ) {
+		$inSample = EventLogging::sessionInSample( 1 / $samplingRate, $data['editingSessionId'] );
+		$shouldOversample = $extensionRegistry->isLoaded( 'WikimediaEvents' ) &&
+			WikimediaEventsHooks::shouldSchemaEditOversample( $article->getContext() );
+		if ( !$inSample && !$shouldOversample ) {
 			return false;
 		}
 
@@ -42,6 +46,7 @@ class WikiEditorHooks {
 		$data = [
 			'action' => $action,
 			'version' => 1,
+			'isOversample' => !$inSample,
 			'editor' => 'wikitext',
 			'platform' => 'desktop', // FIXME
 			'integration' => 'page',
@@ -58,7 +63,7 @@ class WikiEditorHooks {
 			$data['user.class'] = 'IP';
 		}
 
-		return EventLogging::logEvent( 'Edit', 17541122, $data );
+		return EventLogging::logEvent( 'Edit', 18476212, $data );
 	}
 
 	/**

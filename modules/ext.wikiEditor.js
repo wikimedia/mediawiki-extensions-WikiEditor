@@ -15,18 +15,18 @@
 			// We have to do this on the client too because the unload handler
 			// can cause an editingSessionId to be generated on the client
 			// Not using mw.eventLog.inSample() because we need to be able to pass our own editingSessionId
-			if (
-				!mw.eventLog.randomTokenMatch(
-					1 / mw.config.get( 'wgWMESchemaEditSamplingRate' ),
-					editingSessionId
-				)
-			) {
+			var inSample = mw.eventLog.randomTokenMatch(
+				1 / mw.config.get( 'wgWMESchemaEditSamplingRate' ),
+				editingSessionId
+			);
+			if ( !inSample && !mw.config.get( 'wgWMESchemaEditOversample' ) ) {
 				return;
 			}
 
 			data = $.extend( {
 				version: 1,
 				action: action,
+				isOversample: !inSample,
 				editingSessionId: editingSessionId,
 				editor: 'wikitext',
 				platform: 'desktop', // FIXME
