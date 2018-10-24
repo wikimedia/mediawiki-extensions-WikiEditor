@@ -10,17 +10,24 @@
 			return;
 		}
 
-		// Sample 6.25% (via hex digit)
-		// We have to do this on the client too because the unload handler
-		// can cause an editingSessionId to be generated on the client
-		if ( editingSessionId.charAt( 0 ) > '0' ) {
-			return;
-		}
+		mw.loader.using( [ 'schema.Edit', 'ext.eventLogging.subscriber' ] ).done( function () {
+			// Sampling
+			// We have to do this on the client too because the unload handler
+			// can cause an editingSessionId to be generated on the client
+			// Not using mw.eventLog.inSample() because we need to be able to pass our own editingSessionId
+			if (
+				!mw.eventLog.randomTokenMatch(
+					1 / mw.config.get( 'wgWMESchemaEditSamplingRate' ),
+					editingSessionId
+				)
+			) {
+				return;
+			}
 
-		mw.loader.using( 'schema.Edit' ).done( function () {
 			data = $.extend( {
 				version: 1,
 				action: action,
+				editingSessionId: editingSessionId,
 				editor: 'wikitext',
 				platform: 'desktop', // FIXME
 				integration: 'page',
@@ -66,12 +73,10 @@
 				// that don't, we just ignore them, so as to not skew the
 				// results towards better-performance in those cases.
 				logEditEvent( 'ready', {
-					editingSessionId: editingSessionId,
 					timing: Date.now() - window.performance.timing.navigationStart
 				} );
 				$textarea.on( 'wikiEditor-toolbar-doneInitialSections', function () {
 					logEditEvent( 'loaded', {
-						editingSessionId: editingSessionId,
 						timing: Date.now() - window.performance.timing.navigationStart
 					} );
 				} );
@@ -105,7 +110,6 @@
 
 				if ( !submitting ) {
 					logEditEvent( 'abort', {
-						editingSessionId: editingSessionId,
 						type: abortType
 					} );
 				}
