@@ -16,7 +16,8 @@ class WikiEditorHooks {
 	/* Static Methods */
 
 	/**
-	 * Log stuff to EventLogging's Schema:Edit - see https://meta.wikimedia.org/wiki/Schema:Edit
+	 * Log stuff to EventLogging's Schema:EditAttemptStep -
+	 * see https://meta.wikimedia.org/wiki/Schema:EditAttemptStep
 	 * If you don't have EventLogging installed, does nothing.
 	 *
 	 * @param string $action
@@ -25,16 +26,16 @@ class WikiEditorHooks {
 	 * @return bool Whether the event was logged or not.
 	 */
 	public static function doEventLogging( $action, $article, $data = [] ) {
-		global $wgVersion, $wgWMESchemaEditSamplingRate;
+		global $wgVersion, $wgWMESchemaEditAttemptStepSamplingRate;
 		$extensionRegistry = ExtensionRegistry::getInstance();
 		if ( !$extensionRegistry->isLoaded( 'EventLogging' ) ) {
 			return false;
 		}
 		// Sample 6.25%
-		$samplingRate = $wgWMESchemaEditSamplingRate ?? 0.0625;
-		$inSample = EventLogging::sessionInSample( 1 / $samplingRate, $data['editingSessionId'] );
+		$samplingRate = $wgWMESchemaEditAttemptStepSamplingRate ?? 0.0625;
+		$inSample = EventLogging::sessionInSample( 1 / $samplingRate, $data['editing_session_id'] );
 		$shouldOversample = $extensionRegistry->isLoaded( 'WikimediaEvents' ) &&
-			WikimediaEventsHooks::shouldSchemaEditOversample( $article->getContext() );
+			WikimediaEventsHooks::shouldSchemaEditAttemptStepOversample( $article->getContext() );
 		if ( !$inSample && !$shouldOversample ) {
 			return false;
 		}
@@ -46,24 +47,24 @@ class WikiEditorHooks {
 		$data = [
 			'action' => $action,
 			'version' => 1,
-			'isOversample' => !$inSample,
-			'editor' => 'wikitext',
+			'is_oversample' => !$inSample,
+			'editor_interface' => 'wikitext',
 			'platform' => 'desktop', // FIXME
 			'integration' => 'page',
-			'page.id' => $page->getId(),
-			'page.title' => $title->getPrefixedText(),
-			'page.ns' => $title->getNamespace(),
-			'page.revid' => $page->getRevision() ? $page->getRevision()->getId() : 0,
-			'user.id' => $user->getId(),
-			'user.editCount' => $user->getEditCount() ?: 0,
-			'mediawiki.version' => $wgVersion
+			'page_id' => $page->getId(),
+			'page_title' => $title->getPrefixedText(),
+			'page_ns' => $title->getNamespace(),
+			'revision_id' => $page->getRevision() ? $page->getRevision()->getId() : 0,
+			'user_id' => $user->getId(),
+			'user_editcount' => $user->getEditCount() ?: 0,
+			'mw_version' => $wgVersion,
 		] + $data;
 
 		if ( $user->isAnon() ) {
-			$data['user.class'] = 'IP';
+			$data['user_class'] = 'IP';
 		}
 
-		return EventLogging::logEvent( 'Edit', 18476212, $data );
+		return EventLogging::logEvent( 'EditAttemptStep', 18530416, $data );
 	}
 
 	/**
@@ -95,20 +96,20 @@ class WikiEditorHooks {
 		// changes.
 		if ( ExtensionRegistry::getInstance()->isLoaded( 'EventLogging' ) && !$request->wasPosted() ) {
 			$data = [];
-			$data['editingSessionId'] = self::getEditingStatsId();
+			$data['editing_session_id'] = self::getEditingStatsId();
 			if ( $request->getVal( 'section' ) ) {
-				$data['action.init.type'] = 'section';
+				$data['init_type'] = 'section';
 			} else {
-				$data['action.init.type'] = 'page';
+				$data['init_type'] = 'page';
 			}
 			if ( $request->getHeader( 'Referer' ) ) {
 				if ( $request->getVal( 'section' ) === 'new' || !$article->exists() ) {
-					$data['action.init.mechanism'] = 'new';
+					$data['init_mechanism'] = 'new';
 				} else {
-					$data['action.init.mechanism'] = 'click';
+					$data['init_mechanism'] = 'click';
 				}
 			} else {
-				$data['action.init.mechanism'] = 'url';
+				$data['init_mechanism'] = 'url';
 			}
 
 			self::doEventLogging( 'init', $article, $data );
@@ -291,7 +292,7 @@ class WikiEditorHooks {
 			self::doEventLogging(
 				'saveAttempt',
 				$article,
-				[ 'editingSessionId' => $request->getVal( 'editingStatsId' ) ]
+				[ 'editing_session_id' => $request->getVal( 'editingStatsId' ) ]
 			);
 		}
 
@@ -310,7 +311,7 @@ class WikiEditorHooks {
 		$request = $article->getContext()->getRequest();
 		if ( $request->getVal( 'editingStatsId' ) ) {
 			$data = [];
-			$data['editingSessionId'] = $request->getVal( 'editingStatsId' );
+			$data['editing_session_id'] = $request->getVal( 'editingStatsId' );
 
 			if ( $status->isOK() ) {
 				$action = 'saveSuccess';
@@ -319,24 +320,24 @@ class WikiEditorHooks {
 				$errors = $status->getErrorsArray();
 
 				if ( isset( $errors[0][0] ) ) {
-					$data['action.saveFailure.message'] = $errors[0][0];
+					$data['save_failure_message'] = $errors[0][0];
 				}
 
 				if ( $status->value === EditPage::AS_CONFLICT_DETECTED ) {
-					$data['action.saveFailure.type'] = 'editConflict';
+					$data['save_failure_type'] = 'editConflict';
 				} elseif ( $status->value === EditPage::AS_ARTICLE_WAS_DELETED ) {
-					$data['action.saveFailure.type'] = 'editPageDeleted';
+					$data['save_failure_type'] = 'editPageDeleted';
 				} elseif ( isset( $errors[0][0] ) && $errors[0][0] === 'abusefilter-disallowed' ) {
-					$data['action.saveFailure.type'] = 'extensionAbuseFilter';
+					$data['save_failure_type'] = 'extensionAbuseFilter';
 				} elseif ( isset( $editPage->getArticle()->getPage()->ConfirmEdit_ActivateCaptcha ) ) {
 					// TODO: :(
-					$data['action.saveFailure.type'] = 'extensionCaptcha';
+					$data['save_failure_type'] = 'extensionCaptcha';
 				} elseif ( isset( $errors[0][0] ) && $errors[0][0] === 'spamprotectiontext' ) {
-					$data['action.saveFailure.type'] = 'extensionSpamBlacklist';
+					$data['save_failure_type'] = 'extensionSpamBlacklist';
 				} else {
 					// Catch everything else... We don't seem to get userBadToken or
 					// userNewUser through this hook.
-					$data['action.saveFailure.type'] = 'responseUnknown';
+					$data['save_failure_type'] = 'responseUnknown';
 				}
 			}
 			self::doEventLogging( $action, $article, $data );
