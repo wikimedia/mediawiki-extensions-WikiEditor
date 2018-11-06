@@ -185,6 +185,7 @@ class WikiEditorHooks {
 		$defaultPreferences['usebetatoolbar'] = [
 			'type' => 'toggle',
 			'label-message' => 'wikieditor-toolbar-preference',
+			'help-message' => 'wikieditor-toolbar-preference-help',
 			'section' => 'editing/editor',
 		];
 
