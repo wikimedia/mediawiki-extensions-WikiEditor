@@ -19,7 +19,8 @@
 			"Sealle",
 			"Jack who built the house",
 			"Mailman",
-			"Smigles"
+			"Smigles",
+			"Vlad5250"
 		]
 	},
 	"wikieditor": "Расширенный интерфейс редактирования викитекста",
@@ -28,7 +29,7 @@
 	"wikieditor-loading": "Загрузка",
 	"wikieditor-toolbar": "Панель редактирования",
 	"wikieditor-toolbar-desc": "Панель редактирования, более удобная в использовании",
-	"wikieditor-toolbar-preference": "Включить улучшенную панель редактирования",
+	"wikieditor-toolbar-preference": "Включить панель редактирования",
 	"wikieditor-toolbar-loading": "Загрузка…",
 	"wikieditor-toolbar-tool-bold": "Полужирный",
 	"wikieditor-toolbar-tool-bold-example": "Полужирное начертание",
