@@ -18,7 +18,8 @@
 			"Macofe",
 			"Djiboun",
 			"Freak2fast4u",
-			"Wladek92"
+			"Wladek92",
+			"Niridya"
 		]
 	},
 	"wikieditor": "Interface avancée de modification de wikitexte",
@@ -27,8 +28,8 @@
 	"wikieditor-loading": "Chargement en cours...",
 	"wikieditor-toolbar": "Barre d’outils de modification",
 	"wikieditor-toolbar-desc": "Barre d’outils de modification avec l’utilisabilité améliorée",
-	"wikieditor-toolbar-preference": "Activer la barre d’outils améliorée",
-	"wikieditor-toolbar-preference-help": "Ceci est parfois dénommé l' 'éditeur wikitext 2010'.",
+	"wikieditor-toolbar-preference": "Activer la barre d’outils d'édition",
+	"wikieditor-toolbar-preference-help": "Ceci est parfois appelé l'« éditeur wikitext 2010 ».",
 	"wikieditor-toolbar-loading": "Chargement...",
 	"wikieditor-toolbar-tool-bold": "Gras",
 	"wikieditor-toolbar-tool-bold-example": "Texte en gras",
