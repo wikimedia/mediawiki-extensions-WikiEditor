@@ -1,4 +1,4 @@
-( function ( $ ) {
+( function () {
 	QUnit.module( 'ext.wikiEditor.toolbar', QUnit.newMwEnvironment( {
 		setup: function () {
 			var $fixture = $( '#qunit-fixture' ),
@@ -271,4 +271,4 @@
 		assert.strictEqual( this.$ui.find( '*[rel="info"].section' ).length, 0, 'After removing booklet section' );
 	} );
 
-}( jQuery ) );
+}() );

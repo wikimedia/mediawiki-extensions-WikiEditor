@@ -1,7 +1,7 @@
 /**
  * Dialog Module for wikiEditor
  */
-( function ( $, mw ) {
+( function () {
 
 	$.wikiEditor.modules.dialogs = {
 
@@ -131,7 +131,7 @@
 				configuration.buttons = configuration.newButtons;
 				if ( module.htmlTemplate ) {
 					$content = mw.template.get( 'ext.wikiEditor', module.htmlTemplate ).render();
-				} else if ( module.html instanceof jQuery ) {
+				} else if ( module.html instanceof $ ) {
 					$content = module.html;
 				} else {
 					$content = $( $.parseHTML( module.html ) );
@@ -234,4 +234,4 @@
 
 	};
 
-}( jQuery, mediaWiki ) );
+}() );
