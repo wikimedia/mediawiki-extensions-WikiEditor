@@ -247,7 +247,10 @@
 								}
 							}
 							// Activate the module on this context
-							if ( 'fn' in $.wikiEditor.modules[ module ] && 'create' in $.wikiEditor.modules[ module ].fn ) {
+							if ( 'fn' in $.wikiEditor.modules[ module ] &&
+								'create' in $.wikiEditor.modules[ module ].fn &&
+								typeof context.modules[ module ] === 'undefined'
+							) {
 								// Add a place for the module to put it's own stuff
 								context.modules[ module ] = {};
 								// Tell the module to create itself on the context
