@@ -245,6 +245,9 @@
 				switch ( action.type ) {
 					case 'replace':
 					case 'encapsulate':
+						if ( context.$textarea.prop( 'readonly' ) ) {
+							break;
+						}
 						parts = {
 							pre: $.wikiEditor.autoMsg( action.options, 'pre' ),
 							peri: $.wikiEditor.autoMsg( action.options, 'peri' ),
