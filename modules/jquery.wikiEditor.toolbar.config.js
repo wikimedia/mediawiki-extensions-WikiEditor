@@ -1,7 +1,7 @@
 /**
  * Configuration of Toolbar module for wikiEditor
  */
-( function ( $, mw ) {
+( function () {
 
 	$.wikiEditor.modules.toolbar.config = {
 
@@ -635,4 +635,4 @@
 
 	};
 
-}( jQuery, mediaWiki ) );
+}() );

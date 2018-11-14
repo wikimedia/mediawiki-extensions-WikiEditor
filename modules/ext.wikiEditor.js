@@ -2,7 +2,7 @@
  * JavaScript for WikiEditor
  */
 
-( function ( $, mw ) {
+( function () {
 	var editingSessionId,
 		actionPrefixMap = {
 			saveIntent: 'save_intent',
@@ -139,4 +139,4 @@
 			};
 		}
 	} );
-}( jQuery, mediaWiki ) );
+}() );

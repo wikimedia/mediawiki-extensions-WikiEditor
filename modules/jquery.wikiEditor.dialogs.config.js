@@ -1,7 +1,7 @@
 /**
  * Configuration of Dialog module for wikiEditor
  */
-( function ( $, mw, OO ) {
+( function () {
 
 	var hasOwn = Object.prototype.hasOwnProperty;
 
@@ -1246,4 +1246,4 @@
 
 	};
 
-}( jQuery, mediaWiki, OO ) );
+}() );

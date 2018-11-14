@@ -8,7 +8,7 @@
  *     $( 'textarea#wpTextbox1' ).wikiEditor( 'addModule', 'toolbar', { ... config ... } );
  *
  */
-( function ( $, mw ) {
+( function () {
 
 	var hasOwn = Object.prototype.hasOwnProperty,
 
@@ -552,4 +552,4 @@
 
 	};
 
-}( jQuery, mediaWiki ) );
+}() );
