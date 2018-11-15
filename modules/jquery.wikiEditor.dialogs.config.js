@@ -930,16 +930,6 @@
 					}
 				},
 				'search-and-replace': {
-					browsers: {
-						// Left-to-right languages
-						ltr: {
-							msie: [ [ '>=', 11 ] ] // Known to work on 11.
-						},
-						// Right-to-left languages
-						rtl: {
-							msie: [ [ '>=', 11 ] ] // Works on 11 but dialog positioning is cruddy.
-						}
-					},
 					titleMsg: 'wikieditor-toolbar-tool-replace-title',
 					id: 'wikieditor-toolbar-replace-dialog',
 					htmlTemplate: 'dialogReplace.html',

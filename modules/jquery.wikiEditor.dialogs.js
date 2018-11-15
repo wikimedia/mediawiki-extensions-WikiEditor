@@ -6,28 +6,6 @@
 	$.wikiEditor.modules.dialogs = {
 
 		/**
-		 * Compatibility map
-		 */
-		browsers: {
-			// Left-to-right languages
-			ltr: {
-				msie: [ [ '>=', 9 ] ],
-				firefox: [ [ '>=', 4 ] ],
-				opera: [ [ '>=', '10.5' ] ],
-				safari: [ [ '>=', 5 ] ],
-				chrome: [ [ '>=', 5 ] ]
-			},
-			// Right-to-left languages
-			rtl: {
-				msie: [ [ '>=', 9 ] ],
-				firefox: [ [ '>=', 4 ] ],
-				opera: [ [ '>=', '10.5' ] ],
-				safari: [ [ '>=', 5 ] ],
-				chrome: [ [ '>=', 5 ] ]
-			}
-		},
-
-		/**
 		 * API accessible functions
 		 */
 		api: {
