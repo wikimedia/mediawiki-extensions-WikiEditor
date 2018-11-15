@@ -226,44 +226,10 @@
 						} );
 						// Set tabindexes on form fields
 						$.wikiEditor.modules.dialogs.fn.setTabindexes( $( this ).find( 'input' ).not( '[tabindex]' ) );
-						// Setup the tooltips in the textboxes
-						$( '#wikieditor-toolbar-link-int-target' )
-							.data( 'tooltip', mw.msg( 'wikieditor-toolbar-tool-link-int-target-tooltip' ) );
-						$( '#wikieditor-toolbar-link-int-text' )
-							.data( 'tooltip', mw.msg( 'wikieditor-toolbar-tool-link-int-text-tooltip' ) );
-						$( '#wikieditor-toolbar-link-int-target, #wikieditor-toolbar-link-int-text' )
-							.each( function () {
-								if ( $( this ).val() === '' ) {
-									$( this )
-										.addClass( 'wikieditor-toolbar-dialog-hint' )
-										.val( $( this ).data( 'tooltip' ) )
-										.data( 'tooltip-mode', true );
-								}
-							} )
-							.on( 'focus', function () {
-								if ( $( this ).val() === $( this ).data( 'tooltip' ) ) {
-									$( this )
-										.val( '' )
-										.removeClass( 'wikieditor-toolbar-dialog-hint' )
-										.data( 'tooltip-mode', false );
-								}
-							} )
-							.on( 'change', function () {
-								if ( $( this ).val() !== $( this ).data( 'tooltip' ) ) {
-									$( this )
-										.removeClass( 'wikieditor-toolbar-dialog-hint' )
-										.data( 'tooltip-mode', false );
-								}
-							} )
-							.on( 'blur', function () {
-								if ( $( this ).val() === '' ) {
-									$( this )
-										.addClass( 'wikieditor-toolbar-dialog-hint' )
-										.val( $( this ).data( 'tooltip' ) )
-										.data( 'tooltip-mode', true );
-								}
-							} );
-
+						$( '#wikieditor-toolbar-link-int-target' ).attr( 'placeholder',
+							mw.msg( 'wikieditor-toolbar-tool-link-int-target-tooltip' ) );
+						$( '#wikieditor-toolbar-link-int-text' ).attr( 'placeholder',
+							mw.msg( 'wikieditor-toolbar-tool-link-int-text-tooltip' ) );
 						// Automatically copy the value of the internal link page title field to the link text field unless the
 						// user has changed the link text field - this is a convenience thing since most link texts are going to
 						// be the same as the page title - Also change the internal/external radio button accordingly
@@ -279,19 +245,9 @@
 									updateExistence();
 								}
 								if ( $( '#wikieditor-toolbar-link-int-text' ).data( 'untouched' ) ) {
-									// eslint-disable-next-line eqeqeq
-									if ( $( '#wikieditor-toolbar-link-int-target' ).val() ==
-										$( '#wikieditor-toolbar-link-int-target' ).data( 'tooltip' )
-									) {
-										$( '#wikieditor-toolbar-link-int-text' )
-											.addClass( 'wikieditor-toolbar-dialog-hint' )
-											.val( $( '#wikieditor-toolbar-link-int-text' ).data( 'tooltip' ) )
-											.change();
-									} else {
-										$( '#wikieditor-toolbar-link-int-text' )
-											.val( $( '#wikieditor-toolbar-link-int-target' ).val() )
-											.change();
-									}
+									$( '#wikieditor-toolbar-link-int-text' )
+										.val( $( '#wikieditor-toolbar-link-int-target' ).val() )
+										.change();
 								}
 							}, 0 );
 						} );
@@ -415,13 +371,6 @@
 								}
 								function escapeExternalText( s ) {
 									return s.replace( /(\]+)/g, '<nowiki>$1</nowiki>' );
-								}
-								// check if the tooltips were passed as target or text
-								if ( $( '#wikieditor-toolbar-link-int-target' ).data( 'tooltip-mode' ) ) {
-									target = '';
-								}
-								if ( $( '#wikieditor-toolbar-link-int-text' ).data( 'tooltip-mode' ) ) {
-									text = '';
 								}
 								if ( target === '' ) {
 									// eslint-disable-next-line no-alert
@@ -568,8 +517,7 @@
 							}
 							$( '#wikieditor-toolbar-link-int-text' ).data( 'untouched',
 								$( '#wikieditor-toolbar-link-int-text' ).val() ===
-										$( '#wikieditor-toolbar-link-int-target' ).val() ||
-									$( '#wikieditor-toolbar-link-int-text' ).hasClass( 'wikieditor-toolbar-dialog-hint' )
+										$( '#wikieditor-toolbar-link-int-target' ).val()
 							);
 							$( '#wikieditor-toolbar-link-int-target' ).suggestions();
 
@@ -577,13 +525,6 @@
 							if ( selection !== '' ) {
 								$( '#wikieditor-toolbar-link-int-text' ).data( 'untouched', false );
 							}
-
-							$( '#wikieditor-toolbar-link-int-text, #wikiedit-toolbar-link-int-target' )
-								.each( function () {
-									if ( $( this ).val() === '' ) {
-										$( this ).parent().find( 'label' ).show();
-									}
-								} );
 
 							if ( !$( this ).data( 'dialogkeypressset' ) ) {
 								$( this ).data( 'dialogkeypressset', true );
