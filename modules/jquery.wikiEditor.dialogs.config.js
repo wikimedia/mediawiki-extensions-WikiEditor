@@ -37,8 +37,11 @@
 							type: 'button',
 							oouiIcon: 'reference',
 							action: {
-								type: 'dialog',
-								module: 'insert-reference'
+								type: 'encapsulate',
+								options: {
+									pre: '<ref>',
+									post: '</ref>'
+								}
 							}
 						}
 					}
@@ -539,89 +542,6 @@
 									}
 								} );
 
-								// Make tabbing to a button and pressing
-								// Enter do what people expect
-								$( this ).closest( '.ui-dialog' ).find( 'button' ).focus( function () {
-									$( this ).closest( '.ui-dialog' ).data( 'dialogaction', this );
-								} );
-							}
-						}
-					}
-				},
-				'insert-reference': {
-					titleMsg: 'wikieditor-toolbar-tool-reference-title',
-					id: 'wikieditor-toolbar-reference-dialog',
-					htmlTemplate: 'dialogInsertReference.html',
-					init: function () {
-						// Insert translated strings into labels
-						$( this ).find( '[rel]' ).each( function () {
-							$( this ).text( mw.msg( $( this ).attr( 'rel' ) ) );
-						} );
-
-					},
-					dialog: {
-						dialogClass: 'wikiEditor-toolbar-dialog',
-						width: 590,
-						buttons: {
-							'wikieditor-toolbar-tool-reference-insert': function () {
-								var insertText = $( '#wikieditor-toolbar-reference-text' ).val(),
-									whitespace = $( '#wikieditor-toolbar-reference-dialog' ).data( 'whitespace' ),
-									attributes = $( '#wikieditor-toolbar-reference-dialog' ).data( 'attributes' );
-								// Close the dialog
-								$( this ).dialog( 'close' );
-								$.wikiEditor.modules.toolbar.fn.doAction(
-									$( this ).data( 'context' ),
-									{
-										type: 'replace',
-										options: {
-											pre: whitespace[ 0 ] + '<ref' + attributes + '>',
-											peri: insertText,
-											post: '</ref>' + whitespace[ 1 ]
-										}
-									},
-									$( this )
-								);
-								// Restore form state
-								$( '#wikieditor-toolbar-reference-text' ).val( '' );
-							},
-							'wikieditor-toolbar-tool-reference-cancel': function () {
-								$( this ).dialog( 'close' );
-							}
-						},
-						open: function () {
-							// Pre-fill the text fields based on the current selection
-							var matches, text,
-								context = $( this ).data( 'context' ),
-								selection = context.$textarea.textSelection( 'getSelection' );
-							// set focus
-							$( '#wikieditor-toolbar-reference-text' ).focus();
-							$( '#wikieditor-toolbar-reference-dialog' )
-								.data( 'whitespace', [ '', '' ] )
-								.data( 'attributes', '' );
-							if ( selection !== '' ) {
-								if ( ( matches = selection.match( /^(\s*)<ref([^>]*)>([^<]*)<\/ref>(\s*)$/ ) ) ) {
-									text = matches[ 3 ];
-									// Preserve whitespace when replacing
-									$( '#wikieditor-toolbar-reference-dialog' )
-										.data( 'whitespace', [ matches[ 1 ], matches[ 4 ] ] );
-									$( '#wikieditor-toolbar-reference-dialog' ).data( 'attributes', matches[ 2 ] );
-								} else {
-									text = selection;
-								}
-								$( '#wikieditor-toolbar-reference-text' ).val( text );
-							}
-							if ( !( $( this ).data( 'dialogkeypressset' ) ) ) {
-								$( this ).data( 'dialogkeypressset', true );
-								// Execute the action associated with the first button
-								// when the user presses Enter
-								$( this ).closest( '.ui-dialog' ).keypress( function ( e ) {
-									var button;
-									if ( ( e.keyCode || e.which ) === 13 ) {
-										button = $( this ).data( 'dialogaction' ) || $( this ).find( 'button:first' );
-										button.click();
-										e.preventDefault();
-									}
-								} );
 								// Make tabbing to a button and pressing
 								// Enter do what people expect
 								$( this ).closest( '.ui-dialog' ).find( 'button' ).focus( function () {
