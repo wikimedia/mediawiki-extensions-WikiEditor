@@ -769,41 +769,28 @@
 				$selectedIndex.addClass( 'current' );
 			},
 			build: function ( context, config ) {
-				var section, sectionQueue,
+				var section, $section,
 					$tabs = $( '<div>' ).addClass( 'tabs' ).appendTo( context.modules.toolbar.$toolbar ),
 					$sections = $( '<div>' ).addClass( 'sections' ).appendTo( context.modules.toolbar.$toolbar );
 				context.modules.toolbar.$toolbar.append( $( '<div>' ).css( 'clear', 'both' ) );
-				sectionQueue = [];
 				for ( section in config ) {
 					if ( section === 'main' ) {
 						context.modules.toolbar.$toolbar.prepend(
 							$.wikiEditor.modules.toolbar.fn.buildSection( context, section, config[ section ] )
 						);
 					} else {
-						sectionQueue.push( {
-							$sections: $sections,
-							context: context,
-							id: section,
-							config: config[ section ]
-						} );
-						$tabs.append( $.wikiEditor.modules.toolbar.fn.buildTab( context, section, config[ section ] ) );
-					}
-				}
-				$.eachAsync( sectionQueue, {
-					bulk: 0,
-					end: function () {
-						context.$textarea.trigger( 'wikiEditor-toolbar-doneInitialSections' );
-					},
-					loop: function ( i, s ) {
-						var $section;
-						s.$sections.append( $.wikiEditor.modules.toolbar.fn.buildSection( s.context, s.id, s.config ) );
-						$section = s.$sections.find( '.section-visible' );
+						$sections.append( $.wikiEditor.modules.toolbar.fn.buildSection( context, section, config[ section ] ) );
+						$section = $sections.find( '.section-visible' );
 						if ( $section.length ) {
 							$sections.animate( { height: $section.outerHeight() }, $section.outerHeight() * 2, function () {
 								context.fn.trigger( 'resize' );
 							} );
 						}
+						$tabs.append( $.wikiEditor.modules.toolbar.fn.buildTab( context, section, config[ section ] ) );
 					}
+				}
+				setTimeout( function () {
+					context.$textarea.trigger( 'wikiEditor-toolbar-doneInitialSections' );
 				} );
 			}
 		}

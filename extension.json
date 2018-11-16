@@ -262,7 +262,6 @@
 				"wikieditor-toolbar-tool-file-upload"
 			],
 			"dependencies": [
-				"jquery.async",
 				"jquery.cookie",
 				"jquery.suggestions",
 				"jquery.tabIndex",
