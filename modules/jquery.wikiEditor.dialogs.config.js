@@ -942,10 +942,9 @@
 
 						// TODO: Find a cleaner way to share this function
 						$( this ).data( 'replaceCallback', function ( mode ) {
-							var offset, textRemainder, regex, index, i,
+							var offset, textRemainder, regex,
 								searchStr, replaceStr, flags, matchCase, isRegex,
 								$textarea, text, match,
-								matchedText, replace, newEnd,
 								actualReplacement,
 								start, end;
 
@@ -1008,34 +1007,7 @@
 							if ( !match ) {
 								$( '#wikieditor-toolbar-replace-nomatch' ).show();
 							} else if ( mode === 'replaceAll' ) {
-								// Instead of using repetitive .match() calls, we use one .match() call with /g
-								// and indexOf() followed by substr() to find the offsets. This is actually
-								// faster because our indexOf+substr loop is faster than a match loop, and the
-								// /g match is so ridiculously fast that it's negligible.
-								// FIXME: Repetitively calling encapsulateSelection() is probably the best strategy
-								// in Firefox/Webkit, but in IE replacing the entire content once is better.
-								for ( i = 0; i < match.length; i++ ) {
-									index = textRemainder.indexOf( match[ i ] );
-									if ( index === -1 ) {
-										// This shouldn't happen
-										break;
-									}
-									matchedText = textRemainder.substr( index, match[ i ].length );
-									textRemainder = textRemainder.substr( index + match[ i ].length );
-
-									start = index + offset;
-									end = start + match[ i ].length;
-									// Make regex placeholder substitution ($1) work
-									replace = isRegex ? matchedText.replace( regex, replaceStr ) : replaceStr;
-									newEnd = start + replace.length;
-									$textarea
-										.textSelection( 'setSelection', { start: start, end: end } )
-										.textSelection( 'encapsulateSelection', {
-											peri: replace,
-											replace: true } )
-										.textSelection( 'setSelection', { start: start, end: newEnd } );
-									offset = newEnd;
-								}
+								$textarea.textSelection( 'setContents', text.replace( regex, replaceStr ) );
 								$( '#wikieditor-toolbar-replace-success' )
 									.text( mw.msg( 'wikieditor-toolbar-tool-replace-success', match.length ) )
 									.show();
