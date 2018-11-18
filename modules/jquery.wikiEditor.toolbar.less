@@ -331,17 +331,18 @@
 /* OOUI buttons */
 .tool.oo-ui-buttonElement-frameless.oo-ui-iconElement {
 	margin: 0;
-	padding: 3px;
 	> .oo-ui-buttonElement-button {
-		padding: 0;
+		padding: 3px;
 		border: 0;
+		.box-sizing( content-box );
 		> .oo-ui-iconElement-icon {
 			margin: 0;
 			width: 20px;
 			height: 20px;
 			min-width: 20px;
 			min-height: 20px;
-			left: 0;
+			left: 3px;
+			top: 3px;
 			// Reduce opacity like Apex theme
 			opacity: 0.7;
 		}
