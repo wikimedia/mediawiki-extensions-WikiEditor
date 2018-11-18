@@ -291,25 +291,8 @@
 							.children().hide();
 
 						$( '#wikieditor-toolbar-link-int-target' )
-							.on( 'keyup paste cut', function () {
-								var timerID;
-								// Cancel the running timer if applicable
-								if ( typeof $( this ).data( 'timerID' ) !== 'undefined' ) {
-									clearTimeout( $( this ).data( 'timerID' ) );
-								}
-								// Delay fetch for a while
-								// FIXME: Make 120 configurable elsewhere
-								timerID = setTimeout( updateExistence, 120 );
-								$( this ).data( 'timerID', timerID );
-							} )
-							.on( 'change', function () {
-								// Cancel the running timer if applicable
-								if ( typeof $( this ).data( 'timerID' ) !== 'undefined' ) {
-									clearTimeout( $( this ).data( 'timerID' ) );
-								}
-								// Fetch right now
-								updateExistence();
-							} );
+							.on( 'keyup paste cut', $.debounce( 500, updateExistence ) )
+							.on( 'change', updateExistence ); // update right now
 
 						// Title suggestions
 						$( '#wikieditor-toolbar-link-int-target' ).data( 'suggcache', {} ).suggestions( {
