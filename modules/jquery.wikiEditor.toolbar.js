@@ -12,9 +12,7 @@
 			addToToolbar: function ( context, data ) {
 
 				var section, type, i, group, $group, $section, $sections,
-					$tabs, tool, $pages, $index, page, $table, $characters, actions,
-					$divSections, $visibleSection,
-					smooth = true;
+					$tabs, tool, $pages, $index, page, $table, $characters, actions;
 
 				for ( type in data ) {
 					switch ( type ) {
@@ -52,7 +50,6 @@
 									$.wikiEditor.modules.toolbar.fn.buildGroup( context, group, data[ type ][ group ] )
 								);
 							}
-							smooth = false;
 							break;
 						case 'tools':
 							if ( !( 'section' in data && 'group' in data ) ) {
@@ -69,7 +66,6 @@
 							if ( $group.children().length ) {
 								$group.removeClass( 'empty' );
 							}
-							smooth = false;
 							break;
 						case 'pages':
 							if ( !( 'section' in data ) ) {
@@ -90,7 +86,6 @@
 								);
 							}
 							$.wikiEditor.modules.toolbar.fn.updateBookletSelection( context, data.section, $pages, $index );
-							smooth = false;
 							break;
 						case 'rows':
 							if ( !( 'section' in data && 'page' in data ) ) {
@@ -104,7 +99,6 @@
 								// Row
 								$table.append( $.wikiEditor.modules.toolbar.fn.buildRow( context, data.rows[ i ] ) );
 							}
-							smooth = false;
 							break;
 						case 'characters':
 							if ( !( 'section' in data && 'page' in data ) ) {
@@ -132,21 +126,8 @@
 										} )
 								);
 							}
-							smooth = false;
 							break;
 						default: break;
-					}
-				}
-
-				// Fix div.section size after adding things; if smooth is true uses a smooth
-				// animation, otherwise just change height (breaking any ongoing animation)
-				$divSections = context.modules.toolbar.$toolbar.find( 'div.sections' );
-				$visibleSection = $divSections.find( '.section-visible' );
-				if ( $visibleSection.length ) {
-					if ( smooth ) {
-						$divSections.animate( { height: $visibleSection.outerHeight() }, 'fast' );
-					} else {
-						$divSections.height( $visibleSection.outerHeight() );
 					}
 				}
 			},
@@ -199,18 +180,6 @@
 						}
 					}
 				}
-			}
-		},
-
-		/**
-		 * Event handlers
-		 */
-		evt: {
-			/**
-			 * @param {Object} context
-			 */
-			resize: function ( context ) {
-				context.$ui.find( '.sections' ).height( context.$ui.find( '.sections .section-visible' ).outerHeight() );
 			}
 		},
 
@@ -409,11 +378,7 @@
 												$( this ).data( 'context' ), $( this ).data( 'action' ), $( this )
 											);
 											// Hide the dropdown
-											// Sanity check: if this somehow gets called while the dropdown
-											// is hidden, don't show it
-											if ( $( this ).parent().is( ':visible' ) ) {
-												$( this ).parent().animate( { opacity: 'toggle' }, 'fast' );
-											}
+											$( this ).parent().removeClass( 'options-shown' );
 											e.preventDefault();
 											return false;
 										} )
@@ -423,7 +388,6 @@
 								);
 							}
 						}
-						$select.append( $( '<div>' ).addClass( 'menu' ).append( $options ) );
 						$select.append( $( '<a>' )
 							.addClass( 'label' )
 							.text( label )
@@ -434,12 +398,13 @@
 								e.preventDefault();
 								return false;
 							} )
-							.click( function ( e ) {
-								$( this ).data( 'options' ).animate( { opacity: 'toggle' }, 'fast' );
+							.on( 'click', function ( e ) {
+								$( this ).data( 'options' ).toggleClass( 'options-shown' );
 								e.preventDefault();
 								return false;
 							} )
 						);
+						$select.append( $( '<div>' ).addClass( 'menu' ).append( $options ) );
 						return $select;
 					default:
 						return null;
@@ -642,49 +607,29 @@
 								}
 							} );
 							$sections = $( this ).data( 'context' ).$ui.find( '.sections' );
-							$section =
-								$( this ).data( 'context' ).$ui.find( '.section-' + $( this ).parent().attr( 'rel' ) );
+							$section = $sections.find( '.section-' + $( this ).parent().attr( 'rel' ) );
 							show = !$section.hasClass( 'section-visible' );
-							$section.parent().find( '.section-visible' )
-								.css( 'position', 'absolute' )
+							$sections.find( '.section-visible' )
 								.attr( 'aria-expanded', 'false' )
 								.removeClass( 'section-visible' )
-								.animate( { opacity: 0 }, 'fast', 'linear', function () {
-									$( this ).addClass( 'section-hidden' ).css( 'position', 'static' );
-								} );
+								.addClass( 'section-hidden' );
 
 							$( this ).parent().parent().find( 'a' ).removeClass( 'current' );
-							$sections.css( 'overflow', 'hidden' );
 							if ( show ) {
 								$section
-									.stop()
 									.removeClass( 'section-hidden' )
 									.attr( 'aria-expanded', 'true' )
-									.animate( { opacity: 100.0 }, 'fast', 'linear', function () {
-										$( this ).addClass( 'section-visible' );
-										context.fn.trigger( 'resize' );
-									} );
-								$sections
-									.animate( { height: $section.outerHeight() }, $section.outerHeight() * 2, function () {
-										$( this ).css( 'overflow', 'visible' ).css( 'height', 'auto' );
-										context.fn.trigger( 'resize' );
-									} );
+									.addClass( 'section-visible' );
 								$( this ).addClass( 'current' );
-							} else {
-								$sections
-									.stop()
-									.css( 'height', $section.outerHeight() )
-									.animate( { height: 0 }, $section.outerHeight() * 2, function () {
-										$( this ).css( { overflow: 'visible' } );
-										context.fn.trigger( 'resize' );
-									} );
 							}
+
 							// Save the currently visible section
 							$.cookie(
 								'wikiEditor-' + $( this ).data( 'context' ).instance + '-toolbar-section',
 								show ? $section.attr( 'rel' ) : null,
 								{ expires: 30, path: '/' }
 							);
+
 							e.preventDefault();
 							return false;
 						} );
@@ -769,7 +714,7 @@
 				$selectedIndex.addClass( 'current' );
 			},
 			build: function ( context, config ) {
-				var section, $section,
+				var section,
 					$tabs = $( '<div>' ).addClass( 'tabs' ).appendTo( context.modules.toolbar.$toolbar ),
 					$sections = $( '<div>' ).addClass( 'sections' ).appendTo( context.modules.toolbar.$toolbar );
 				context.modules.toolbar.$toolbar.append( $( '<div>' ).css( 'clear', 'both' ) );
@@ -780,12 +725,6 @@
 						);
 					} else {
 						$sections.append( $.wikiEditor.modules.toolbar.fn.buildSection( context, section, config[ section ] ) );
-						$section = $sections.find( '.section-visible' );
-						if ( $section.length ) {
-							$sections.animate( { height: $section.outerHeight() }, $section.outerHeight() * 2, function () {
-								context.fn.trigger( 'resize' );
-							} );
-						}
 						$tabs.append( $.wikiEditor.modules.toolbar.fn.buildTab( context, section, config[ section ] ) );
 					}
 				}
