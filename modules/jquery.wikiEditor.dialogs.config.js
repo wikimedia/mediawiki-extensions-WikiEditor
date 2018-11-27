@@ -363,7 +363,7 @@
 									alert( mw.msg( 'wikieditor-toolbar-tool-link-empty' ) );
 									return;
 								}
-								if ( $.trim( text ) === '' ) {
+								if ( text.trim() === '' ) {
 									// [[Foo| ]] creates an invisible link
 									// Instead, generate [[Foo|]]
 									text = '';
@@ -383,7 +383,7 @@
 										insertText = '[[' + target + '|' + escapeInternalText( text ) + ']]';
 									}
 								} else {
-									target = $.trim( target );
+									target = target.trim();
 									// Prepend http:// if there is no protocol
 									if ( !target.match( /^[a-z]+:\/\/./ ) ) {
 										target = 'http://' + target;
@@ -478,7 +478,7 @@
 								} else {
 									// Trim any leading and trailing whitespace from the selection,
 									// but preserve it when replacing
-									target = text = $.trim( selection );
+									target = text = selection.trim();
 									if ( target.length < selection.length ) {
 										$( '#wikieditor-toolbar-link-dialog' ).data( 'whitespace', [
 											selection.substr( 0, selection.indexOf( target.charAt( 0 ) ) ),
@@ -585,7 +585,7 @@
 								}
 								options = [ fileSize, fileFormat, fileFloat ];
 								// Filter empty values
-								options = $.grep( options, function ( val ) {
+								options = options.filter( function ( val ) {
 									return val.length && val !== 'default';
 								} );
 								if ( caption.length ) {

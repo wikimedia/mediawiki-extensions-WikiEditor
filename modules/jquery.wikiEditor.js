@@ -211,7 +211,7 @@
 	 */
 	$.fn.wikiEditor = function () {
 		var context, hasFocus, cursorPos,
-			args, modules, module, e, call;
+			args, modules, module, extension, call;
 
 		/* Initialization */
 
@@ -527,13 +527,13 @@
 			for ( module in modules ) {
 				if ( module in $.wikiEditor.modules ) {
 					// Activate all required core extensions on context
-					for ( e in $.wikiEditor.extensions ) {
+					for ( extension in $.wikiEditor.extensions ) {
 						if (
-							$.wikiEditor.isRequired( $.wikiEditor.modules[ module ], e ) &&
-							$.inArray( e, context.extensions ) === -1
+							$.wikiEditor.isRequired( $.wikiEditor.modules[ module ], extension ) &&
+							context.extensions.indexOf( extension ) === -1
 						) {
-							context.extensions[ context.extensions.length ] = e;
-							$.wikiEditor.extensions[ e ]( context );
+							context.extensions[ context.extensions.length ] = extension;
+							$.wikiEditor.extensions[ extension ]( context );
 						}
 					}
 					break;

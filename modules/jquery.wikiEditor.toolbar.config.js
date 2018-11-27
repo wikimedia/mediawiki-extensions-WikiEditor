@@ -624,8 +624,9 @@
 
 			// If this page is not a talk page and not in a namespaces listed in
 			// wgExtraSignatureNamespaces, remove the signature button
-			if ( mw.config.get( 'wgNamespaceNumber' ) % 2 === 0 &&
-				$.inArray( mw.config.get( 'wgNamespaceNumber' ), mw.config.get( 'wgExtraSignatureNamespaces' ) ) === -1
+			if (
+				mw.config.get( 'wgNamespaceNumber' ) % 2 === 0 &&
+				mw.config.get( 'wgExtraSignatureNamespaces' ).indexOf( mw.config.get( 'wgNamespaceNumber' ) ) === -1
 			) {
 				delete result.toolbar.main.groups.insert.tools.signature;
 			}
