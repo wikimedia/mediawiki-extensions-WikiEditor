@@ -622,12 +622,8 @@
 				}
 			};
 
-			// If this page is not a talk page and not in a namespaces listed in
-			// wgExtraSignatureNamespaces, remove the signature button
-			if (
-				mw.config.get( 'wgNamespaceNumber' ) % 2 === 0 &&
-				mw.config.get( 'wgExtraSignatureNamespaces' ).indexOf( mw.config.get( 'wgNamespaceNumber' ) ) === -1
-			) {
+			// Remove the signature button on non-signature namespaces
+			if ( !mw.Title.wantSignaturesNamespace( mw.config.get( 'wgNamespaceNumber' ) ) ) {
 				delete result.toolbar.main.groups.insert.tools.signature;
 			}
 
