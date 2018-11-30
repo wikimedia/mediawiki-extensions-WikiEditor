@@ -930,13 +930,17 @@
 										// Do the replacement
 										$textarea.textSelection( 'encapsulateSelection', {
 											peri: actualReplacement,
-											replace: true } );
+											replace: true,
+											selectionStart: offset + match.index,
+											selectionEnd: offset + match.index + match[ 0 ].length,
+											selectPeri: true
+										} );
 										// Reload the text after replacement
 										text = $textarea.textSelection( 'getContents' );
 									}
 
 									// Find the next instance
-									offset = offset + match[ 0 ].length + actualReplacement.length;
+									offset = offset + match.index + actualReplacement.length;
 									textRemainder = text.substr( offset );
 									match = textRemainder.match( regex );
 
