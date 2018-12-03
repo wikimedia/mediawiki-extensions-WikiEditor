@@ -18,7 +18,6 @@
 		float: left;
 		width: 100%;
 		clear: both;
-		height: 0;
 
 		.section {
 			float: left;
@@ -26,7 +25,6 @@
 			border-top: 1px solid #c8ccd1;
 			background-color: #eaf3ff;
 		}
-
 		.section-hidden {
 			display: none;
 		}
@@ -145,6 +143,11 @@
 					border: 1px solid #c8ccd1;
 					background-color: #fff;
 				}
+			}
+
+			&:hover .options,
+			.menu .options-shown {
+				display: block;
 			}
 
 			.options {
