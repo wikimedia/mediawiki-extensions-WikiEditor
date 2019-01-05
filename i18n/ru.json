@@ -20,7 +20,8 @@
 			"Jack who built the house",
 			"Mailman",
 			"Smigles",
-			"Vlad5250"
+			"Vlad5250",
+			"Stjn"
 		]
 	},
 	"wikieditor": "Расширенный интерфейс редактирования викитекста",
@@ -30,6 +31,7 @@
 	"wikieditor-toolbar": "Панель редактирования",
 	"wikieditor-toolbar-desc": "Панель редактирования, более удобная в использовании",
 	"wikieditor-toolbar-preference": "Включить панель редактирования",
+	"wikieditor-toolbar-preference-help": "Иногда называется «редактором вики-кода — 2010».",
 	"wikieditor-toolbar-loading": "Загрузка…",
 	"wikieditor-toolbar-tool-bold": "Полужирный",
 	"wikieditor-toolbar-tool-bold-example": "Полужирное начертание",
