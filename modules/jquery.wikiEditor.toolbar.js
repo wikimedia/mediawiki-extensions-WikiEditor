@@ -113,12 +113,12 @@
 								// Character
 								$characters.append(
 									$( $.wikiEditor.modules.toolbar.fn.buildCharacter( data.characters[ i ], actions ) )
-										.mousedown( function ( e ) {
+										.on( 'mousedown', function ( e ) {
 											// No dragging!
 											e.preventDefault();
 											return false;
 										} )
-										.click( function ( e ) {
+										.on( 'click', function ( e ) {
 											$.wikiEditor.modules.toolbar.fn.doAction( $( this ).parent().data( 'context' ),
 												$( this ).parent().data( 'actions' )[ $( this ).attr( 'rel' ) ] );
 											e.preventDefault();
@@ -251,7 +251,7 @@
 			},
 			buildGroup: function ( context, id, group ) {
 				var $label, empty, tool,
-					$group = $( '<div>' ).attr( { 'class': 'group group-' + id, rel: id } ),
+					$group = $( '<div>' ).attr( { class: 'group group-' + id, rel: id } ),
 					label = $.wikiEditor.autoMsg( group, 'label' );
 				if ( label ) {
 					$label = $( '<span>' )
@@ -312,7 +312,7 @@
 									title: label,
 									rel: id,
 									role: 'button',
-									'class': 'tool tool-button'
+									class: 'tool tool-button'
 								} )
 								.text( label );
 							if ( tool.icon ) {
@@ -335,7 +335,7 @@
 							$button
 								.data( 'action', tool.action )
 								.data( 'context', context )
-								.mousedown( function ( e ) {
+								.on( 'mousedown', function ( e ) {
 									// No dragging!
 									e.preventDefault();
 									return false;
@@ -359,7 +359,7 @@
 						return $button;
 					case 'select':
 						$select = $( '<div>' )
-							.attr( { rel: id, 'class': 'tool tool-select' } );
+							.attr( { rel: id, class: 'tool tool-select' } );
 						$options = $( '<div>' ).addClass( 'options' );
 						if ( 'list' in tool ) {
 							for ( option in tool.list ) {
@@ -368,12 +368,12 @@
 									$( '<a>' )
 										.data( 'action', tool.list[ option ].action )
 										.data( 'context', context )
-										.mousedown( function ( e ) {
+										.on( 'mousedown', function ( e ) {
 											// No dragging!
 											e.preventDefault();
 											return false;
 										} )
-										.click( function ( e ) {
+										.on( 'click', function ( e ) {
 											$.wikiEditor.modules.toolbar.fn.doAction(
 												$( this ).data( 'context' ), $( this ).data( 'action' ), $( this )
 											);
@@ -393,7 +393,7 @@
 							.text( label )
 							.data( 'options', $options )
 							.attr( 'href', '#' )
-							.mousedown( function ( e ) {
+							.on( 'mousedown', function ( e ) {
 								// No dragging!
 								e.preventDefault();
 								return false;
@@ -416,12 +416,12 @@
 					.text( label )
 					.attr( 'rel', id )
 					.data( 'context', context )
-					.mousedown( function ( e ) {
+					.on( 'mousedown', function ( e ) {
 						// No dragging!
 						e.preventDefault();
 						return false;
 					} )
-					.click( function ( event ) {
+					.on( 'click', function ( event ) {
 						var section;
 						$( this ).parent().parent().find( '.page' ).hide();
 						$( this ).parent().parent().find( '.page-' + $( this ).attr( 'rel' ) ).show().trigger( 'loadPage' );
@@ -440,7 +440,7 @@
 			},
 			buildPage: function ( context, id, page, deferLoad ) {
 				var $page = $( '<div>' ).attr( {
-					'class': 'page page-' + id,
+					class: 'page page-' + id,
 					rel: id
 				} );
 				if ( deferLoad ) {
@@ -492,12 +492,12 @@
 							$characters
 								.html( html )
 								.children()
-								.mousedown( function ( e ) {
+								.on( 'mousedown', function ( e ) {
 									// No dragging!
 									e.preventDefault();
 									return false;
 								} )
-								.click( function ( e ) {
+								.on( 'click', function ( e ) {
 									$.wikiEditor.modules.toolbar.fn.doAction(
 										$( this ).parent().data( 'context' ),
 										$( this ).parent().data( 'actions' )[ $( this ).attr( 'rel' ) ],
@@ -589,15 +589,15 @@
 						} )
 						.text( $.wikiEditor.autoMsg( section, 'label' ) )
 						.data( 'context', context )
-						.mouseup( function () {
-							$( this ).blur();
+						.on( 'mouseup', function () {
+							$( this ).trigger( 'blur' );
 						} )
-						.mousedown( function ( e ) {
+						.on( 'mousedown', function ( e ) {
 							// No dragging!
 							e.preventDefault();
 							return false;
 						} )
-						.click( function ( e ) {
+						.on( 'click', function ( e ) {
 							// We have to set aria-pressed over here, as NVDA wont recognize it
 							// if we do it in the below .each as it seems
 							$( this ).attr( 'aria-pressed', 'true' );
@@ -635,7 +635,7 @@
 						} );
 				return $( '<span>' )
 					.attr( {
-						'class': 'tab tab-' + id,
+						class: 'tab tab-' + id,
 						rel: id
 					} )
 					.append( $link );
@@ -643,7 +643,7 @@
 			buildSection: function ( context, id, section ) {
 				var selected, show,
 					$section = $( '<div>' ).attr( {
-						'class': section.type + ' section section-' + id,
+						class: section.type + ' section section-' + id,
 						rel: id,
 						id: 'wikiEditor-section-' + id
 					} );

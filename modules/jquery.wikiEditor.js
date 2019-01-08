@@ -366,7 +366,7 @@
 					context.$buttons.show();
 					return $( '<button>' )
 						.text( $.wikiEditor.autoMsg( options, 'caption' ) )
-						.click( options.action )
+						.on( 'click', options.action )
 						.appendTo( context.$buttons );
 				},
 
@@ -389,16 +389,16 @@
 							.addClass( context.view === options.name ? 'current' : null )
 							.append( $( '<a>' )
 								.attr( 'href', '#' )
-								.mousedown( function () {
+								.on( 'mousedown', function () {
 									// No dragging!
 									return false;
 								} )
-								.click( function ( event ) {
+								.on( 'click', function ( event ) {
 									context.$ui.find( '.wikiEditor-ui-view' ).hide();
 									context.$ui.find( '.' + $( this ).parent().attr( 'rel' ) ).show();
 									context.$tabs.find( 'div' ).removeClass( 'current' );
 									$( this ).parent().addClass( 'current' );
-									$( this ).blur();
+									$( this ).trigger( 'blur' );
 									if ( 'init' in options && typeof options.init === 'function' ) {
 										options.init( context );
 									}
@@ -507,7 +507,7 @@
 			// Setup the initial view
 			context.view = 'wikitext';
 			// Trigger the "resize" event anytime the window is resized
-			$( window ).resize( function ( event ) {
+			$( window ).on( 'resize', function ( event ) {
 				context.fn.trigger( 'resize', event );
 			} );
 		}
