@@ -93,7 +93,7 @@
 					} );
 				} );
 			}
-			$textarea.closest( 'form' ).submit( function () {
+			$textarea.closest( 'form' ).on( 'submit', function () {
 				submitting = true;
 			} );
 			onUnloadFallback = window.onunload;

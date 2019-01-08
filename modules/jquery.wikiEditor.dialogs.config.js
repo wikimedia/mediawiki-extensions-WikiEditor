@@ -209,7 +209,7 @@
 								} )
 							);
 						}
-						$( '#wikieditor-toolbar-link-type-int, #wikieditor-toolbar-link-type-ext' ).click( function () {
+						$( '#wikieditor-toolbar-link-type-int, #wikieditor-toolbar-link-type-ext' ).on( 'click', function () {
 							var request;
 							if ( $( '#wikieditor-toolbar-link-type-ext' ).prop( 'checked' ) ) {
 								// Abort previous request
@@ -250,7 +250,7 @@
 								if ( $( '#wikieditor-toolbar-link-int-text' ).data( 'untouched' ) ) {
 									$( '#wikieditor-toolbar-link-int-text' )
 										.val( $( '#wikieditor-toolbar-link-int-target' ).val() )
-										.change();
+										.trigger( 'change' );
 								}
 							}, 0 );
 						} );
@@ -395,13 +395,13 @@
 										buttons = {};
 										buttons[ mw.msg( 'wikieditor-toolbar-tool-link-lookslikeinternal-int' ) ] =
 											function () {
-												$( '#wikieditor-toolbar-link-int-target' ).val( match[ 1 ] ).change();
+												$( '#wikieditor-toolbar-link-int-target' ).val( match[ 1 ] ).trigger( 'change' );
 												$( this ).dialog( 'close' );
 											};
 										buttons[ mw.msg( 'wikieditor-toolbar-tool-link-lookslikeinternal-ext' ) ] =
 											function () {
 												$( that ).data( 'ignoreLooksInternal', true );
-												$( that ).closest( '.ui-dialog' ).find( 'button:first' ).click();
+												$( that ).closest( '.ui-dialog' ).find( 'button:first' ).trigger( 'click' );
 												$( that ).data( 'ignoreLooksInternal', false );
 												$( this ).dialog( 'close' );
 											};
@@ -456,9 +456,9 @@
 							// Pre-fill the text fields based on the current selection
 							context = $( this ).data( 'context' );
 							selection = context.$textarea.textSelection( 'getSelection' );
-							$( '#wikieditor-toolbar-link-int-target' ).focus();
+							$( '#wikieditor-toolbar-link-int-target' ).trigger( 'focus' );
 							// Trigger the change event, so the link status indicator is up to date
-							$( '#wikieditor-toolbar-link-int-target' ).change();
+							$( '#wikieditor-toolbar-link-int-target' ).trigger( 'change' );
 							$( '#wikieditor-toolbar-link-dialog' ).data( 'whitespace', [ '', '' ] );
 							if ( selection !== '' ) {
 								if ( ( matches = selection.match( /^(\s*)\[\[([^\]|]+)(\|([^\]|]*))?\]\](\s*)$/ ) ) ) {
@@ -492,10 +492,10 @@
 								// Change the value by calling val() doesn't trigger the change event, so let's do that
 								// ourselves
 								if ( typeof text !== 'undefined' ) {
-									$( '#wikieditor-toolbar-link-int-text' ).val( text ).change();
+									$( '#wikieditor-toolbar-link-int-text' ).val( text ).trigger( 'change' );
 								}
 								if ( typeof target !== 'undefined' ) {
-									$( '#wikieditor-toolbar-link-int-target' ).val( target ).change();
+									$( '#wikieditor-toolbar-link-int-target' ).val( target ).trigger( 'change' );
 								}
 								if ( typeof type !== 'undefined' ) {
 									$( '#wikieditor-toolbar-link-' + type ).prop( 'checked', true );
@@ -516,7 +516,7 @@
 								$( this ).data( 'dialogkeypressset', true );
 								// Execute the action associated with the first button
 								// when the user presses Enter
-								$( this ).closest( '.ui-dialog' ).keypress( function ( e ) {
+								$( this ).closest( '.ui-dialog' ).on( 'keypress', function ( e ) {
 									var button;
 									if ( ( e.keyCode || e.which ) === 13 ) {
 										button = $( this ).data( 'dialogaction' ) || $( this ).find( 'button:first' );
@@ -527,7 +527,7 @@
 
 								// Make tabbing to a button and pressing
 								// Enter do what people expect
-								$( this ).closest( '.ui-dialog' ).find( 'button' ).focus( function () {
+								$( this ).closest( '.ui-dialog' ).find( 'button' ).on( 'focus', function () {
 									$( this ).closest( '.ui-dialog' ).data( 'dialogaction', this );
 								} );
 							}
@@ -639,12 +639,12 @@
 							}
 						},
 						open: function () {
-							$( '#wikieditor-toolbar-file-target' ).focus();
+							$( '#wikieditor-toolbar-file-target' ).trigger( 'focus' );
 							if ( !( $( this ).data( 'dialogkeypressset' ) ) ) {
 								$( this ).data( 'dialogkeypressset', true );
 								// Execute the action associated with the first button
 								// when the user presses Enter
-								$( this ).closest( '.ui-dialog' ).keypress( function ( e ) {
+								$( this ).closest( '.ui-dialog' ).on( 'keypress', function ( e ) {
 									var button;
 									if ( e.which === 13 ) {
 										button = $( this ).data( 'dialogaction' ) ||
@@ -656,7 +656,7 @@
 
 								// Make tabbing to a button and pressing
 								// Enter do what people expect
-								$( this ).closest( '.ui-dialog' ).find( 'button' ).focus( function () {
+								$( this ).closest( '.ui-dialog' ).find( 'button' ).on( 'focus', function () {
 									$( this ).closest( '.ui-dialog' ).data( 'dialogaction', this );
 								} );
 							}
@@ -676,7 +676,7 @@
 
 						$( '#wikieditor-toolbar-table-dimensions-rows' ).val( 3 );
 						$( '#wikieditor-toolbar-table-dimensions-columns' ).val( 3 );
-						$( '#wikieditor-toolbar-table-wikitable' ).click( function () {
+						$( '#wikieditor-toolbar-table-wikitable' ).on( 'click', function () {
 							$( '.wikieditor-toolbar-table-preview' ).toggleClass( 'wikitable' );
 						} );
 
@@ -693,7 +693,7 @@
 							$( '#wikieditor-toolbar-table-preview2' ).tablesorter();
 						} );
 
-						$( '#wikieditor-toolbar-table-sortable' ).click( function () {
+						$( '#wikieditor-toolbar-table-sortable' ).on( 'click', function () {
 							// Swap the currently shown one clone with the other one
 							$( '#wikieditor-toolbar-table-preview' )
 								.hide()
@@ -704,7 +704,7 @@
 							$( '#wikieditor-toolbar-table-preview3' ).attr( 'id', 'wikieditor-toolbar-table-preview2' );
 						} );
 
-						$( '#wikieditor-toolbar-table-dimensions-header' ).click( function () {
+						$( '#wikieditor-toolbar-table-dimensions-header' ).on( 'click', function () {
 							// Instead of show/hiding, switch the HTML around
 							// We do this because the sortable tables script styles the first row,
 							// visible or not
@@ -795,13 +795,13 @@
 								// Simulate clicks instead of setting values, so the according
 								// actions are performed
 								if ( !$( '#wikieditor-toolbar-table-dimensions-header' ).is( ':checked' ) ) {
-									$( '#wikieditor-toolbar-table-dimensions-header' ).click();
+									$( '#wikieditor-toolbar-table-dimensions-header' ).trigger( 'click' );
 								}
 								if ( !$( '#wikieditor-toolbar-table-wikitable' ).is( ':checked' ) ) {
-									$( '#wikieditor-toolbar-table-wikitable' ).click();
+									$( '#wikieditor-toolbar-table-wikitable' ).trigger( 'click' );
 								}
 								if ( $( '#wikieditor-toolbar-table-sortable' ).is( ':checked' ) ) {
-									$( '#wikieditor-toolbar-table-sortable' ).click();
+									$( '#wikieditor-toolbar-table-sortable' ).trigger( 'click' );
 								}
 							},
 							'wikieditor-toolbar-tool-table-cancel': function () {
@@ -809,12 +809,12 @@
 							}
 						},
 						open: function () {
-							$( '#wikieditor-toolbar-table-dimensions-rows' ).focus();
+							$( '#wikieditor-toolbar-table-dimensions-rows' ).trigger( 'focus' );
 							if ( !( $( this ).data( 'dialogkeypressset' ) ) ) {
 								$( this ).data( 'dialogkeypressset', true );
 								// Execute the action associated with the first button
 								// when the user presses Enter
-								$( this ).closest( '.ui-dialog' ).keypress( function ( e ) {
+								$( this ).closest( '.ui-dialog' ).on( 'keypress', function ( e ) {
 									var button;
 									if ( ( e.keyCode || e.which ) === 13 ) {
 										button = $( this ).data( 'dialogaction' ) || $( this ).find( 'button:first' );
@@ -825,7 +825,7 @@
 
 								// Make tabbing to a button and pressing
 								// Enter do what people expect
-								$( this ).closest( '.ui-dialog' ).find( 'button' ).focus( function () {
+								$( this ).closest( '.ui-dialog' ).find( 'button' ).on( 'focus', function () {
 									$( this ).closest( '.ui-dialog' ).data( 'dialogaction', this );
 								} );
 							}
@@ -973,6 +973,7 @@
 									end: end } );
 								$textarea.textSelection( 'scrollToCaretPosition' );
 								$( this ).data( 'offset', end );
+								// eslint-disable-next-line jquery/no-event-shorthand
 								$textarea[ 0 ].focus();
 							}
 						} );
@@ -1004,13 +1005,13 @@
 							$( this ).data( 'offset', 0 );
 							$( this ).data( 'matchIndex', 0 );
 
-							$( '#wikieditor-toolbar-replace-search' ).focus();
+							$( '#wikieditor-toolbar-replace-search' ).trigger( 'focus' );
 							$( '#wikieditor-toolbar-replace-nomatch, #wikieditor-toolbar-replace-success, #wikieditor-toolbar-replace-emptysearch, #wikieditor-toolbar-replace-invalidregex' ).hide();
 							if ( !( $( this ).data( 'onetimeonlystuff' ) ) ) {
 								$( this ).data( 'onetimeonlystuff', true );
 								// Execute the action associated with the first button
 								// when the user presses Enter
-								$( this ).closest( '.ui-dialog' ).keypress( function ( e ) {
+								$( this ).closest( '.ui-dialog' ).on( 'keypress', function ( e ) {
 									var button;
 									if ( ( e.keyCode || e.which ) === 13 ) {
 										button = $( this ).data( 'dialogaction' ) || $( this ).find( 'button:first' );
@@ -1020,7 +1021,7 @@
 								} );
 								// Make tabbing to a button and pressing
 								// Enter do what people expect
-								$( this ).closest( '.ui-dialog' ).find( 'button' ).focus( function () {
+								$( this ).closest( '.ui-dialog' ).find( 'button' ).on( 'focus', function () {
 									$( this ).closest( '.ui-dialog' ).data( 'dialogaction', this );
 								} );
 							}
