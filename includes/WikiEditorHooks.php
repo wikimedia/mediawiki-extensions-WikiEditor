@@ -74,11 +74,10 @@ class WikiEditorHooks {
 	 *
 	 * @param EditPage $editPage the current EditPage object.
 	 * @param OutputPage $outputPage object.
-	 * @return bool
 	 */
 	public static function editPageShowEditFormInitial( EditPage $editPage, OutputPage $outputPage ) {
 		if ( $editPage->contentModel !== CONTENT_MODEL_WIKITEXT ) {
-			return true;
+			return;
 		}
 
 		$article = $editPage->getArticle();
@@ -114,8 +113,6 @@ class WikiEditorHooks {
 
 			self::doEventLogging( 'init', $article, $data );
 		}
-
-		return true;
 	}
 
 	/**
@@ -125,11 +122,10 @@ class WikiEditorHooks {
 	 *
 	 * @param EditPage $editPage the current EditPage object.
 	 * @param OutputPage $outputPage object.
-	 * @return bool
 	 */
 	public static function editPageShowEditFormFields( EditPage $editPage, OutputPage $outputPage ) {
 		if ( $editPage->contentModel !== CONTENT_MODEL_WIKITEXT ) {
-			return true;
+			return;
 		}
 
 		$req = $outputPage->getRequest();
@@ -149,7 +145,6 @@ class WikiEditorHooks {
 				]
 			)
 		);
-		return true;
 	}
 
 	/**
@@ -178,7 +173,6 @@ class WikiEditorHooks {
 	 *
 	 * @param User $user current user
 	 * @param array &$defaultPreferences list of default user preference controls
-	 * @return bool
 	 */
 	public static function getPreferences( $user, &$defaultPreferences ) {
 		// Ideally this key would be 'wikieditor-toolbar'
@@ -188,21 +182,16 @@ class WikiEditorHooks {
 			'help-message' => 'wikieditor-toolbar-preference-help',
 			'section' => 'editing/editor',
 		];
-
-		return true;
 	}
 
 	/**
 	 * @param array &$vars
-	 * @return bool
 	 */
 	public static function resourceLoaderGetConfigVars( &$vars ) {
 		// expose magic words for use by the wikieditor toolbar
 		self::getMagicWords( $vars );
 
 		$vars['mw.msg.wikieditor'] = wfMessage( 'sig-text', '~~~~' )->inContentLanguage()->text();
-
-		return true;
 	}
 
 	/**
@@ -213,7 +202,6 @@ class WikiEditorHooks {
 	 * @param array &$testModules array of javascript testing modules. 'qunit' is fed using
 	 * tests/qunit/QUnitTestResources.php.
 	 * @param ResourceLoader &$resourceLoader
-	 * @return bool
 	 */
 	public static function resourceLoaderTestModules( &$testModules, &$resourceLoader ) {
 		$testModules['qunit']['ext.wikiEditor.toolbar.test'] = [
@@ -222,7 +210,6 @@ class WikiEditorHooks {
 			'localBasePath' => __DIR__ . '/..',
 			'remoteExtPath' => 'WikiEditor',
 		];
-		return true;
 	}
 
 	/**
@@ -230,18 +217,15 @@ class WikiEditorHooks {
 	 *
 	 * Adds enabled/disabled switches for WikiEditor modules
 	 * @param array &$vars
-	 * @return bool
 	 */
 	public static function makeGlobalVariablesScript( &$vars ) {
 		// Build and export old-style wgWikiEditorEnabledModules object for back compat
 		$vars['wgWikiEditorEnabledModules'] = [];
-		return true;
 	}
 
 	/**
 	 * Expose useful magic words which are used by the wikieditor toolbar
 	 * @param array &$vars
-	 * @return bool
 	 */
 	private static function getMagicWords( &$vars ) {
 		$requiredMagicWords = [
@@ -266,7 +250,6 @@ class WikiEditorHooks {
 			}
 		}
 		$vars['wgWikiEditorMagicWords'] = $magicWords;
-		return true;
 	}
 
 	/**
@@ -284,7 +267,6 @@ class WikiEditorHooks {
 	 * This is attached to the MediaWiki 'EditPage::attemptSave' hook.
 	 *
 	 * @param EditPage $editPage
-	 * @return bool
 	 */
 	public static function editPageAttemptSave( EditPage $editPage ) {
 		$article = $editPage->getArticle();
@@ -296,8 +278,6 @@ class WikiEditorHooks {
 				[ 'editing_session_id' => $request->getVal( 'editingStatsId' ) ]
 			);
 		}
-
-		return true;
 	}
 
 	/**
@@ -305,7 +285,6 @@ class WikiEditorHooks {
 	 *
 	 * @param EditPage $editPage
 	 * @param Status $status
-	 * @return bool
 	 */
 	public static function editPageAttemptSaveAfter( EditPage $editPage, Status $status ) {
 		$article = $editPage->getArticle();
@@ -343,7 +322,5 @@ class WikiEditorHooks {
 			}
 			self::doEventLogging( $action, $article, $data );
 		}
-
-		return true;
 	}
 }
