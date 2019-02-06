@@ -426,7 +426,7 @@
 				 * Save text selection
 				 */
 				saveSelection: function () {
-					context.$textarea.focus();
+					context.$textarea.trigger( 'focus' );
 					context.savedSelection = {
 						selectionStart: context.$textarea[ 0 ].selectionStart,
 						selectionEnd: context.$textarea[ 0 ].selectionEnd
@@ -438,7 +438,7 @@
 				 */
 				restoreSelection: function () {
 					if ( context.savedSelection ) {
-						context.$textarea.focus();
+						context.$textarea.trigger( 'focus' );
 						context.$textarea[ 0 ].setSelectionRange( context.savedSelection.selectionStart, context.savedSelection.selectionEnd );
 						context.savedSelection = null;
 					}
@@ -478,7 +478,7 @@
 			context.$textarea.prop( 'scrollTop', $( '#wpScrolltop' ).val() );
 			// Restore focus and cursor if needed
 			if ( hasFocus ) {
-				context.$textarea.focus();
+				context.$textarea.trigger( 'focus' );
 				context.$textarea.textSelection( 'setSelection', { start: cursorPos[ 0 ], end: cursorPos[ 1 ] } );
 			}
 

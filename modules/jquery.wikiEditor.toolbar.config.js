@@ -23,10 +23,8 @@
 										action: {
 											type: 'encapsulate',
 											options: {
-												// eslint-disable-next-line quotes
 												pre: "'''",
 												periMsg: 'wikieditor-toolbar-tool-bold-example',
-												// eslint-disable-next-line quotes
 												post: "'''"
 											}
 										}
@@ -41,10 +39,8 @@
 										action: {
 											type: 'encapsulate',
 											options: {
-												// eslint-disable-next-line quotes
 												pre: "''",
 												periMsg: 'wikieditor-toolbar-tool-italic-example',
-												// eslint-disable-next-line quotes
 												post: "''"
 											}
 										}
