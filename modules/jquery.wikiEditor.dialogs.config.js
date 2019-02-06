@@ -973,7 +973,6 @@
 									end: end } );
 								$textarea.textSelection( 'scrollToCaretPosition' );
 								$( this ).data( 'offset', end );
-								// eslint-disable-next-line jquery/no-event-shorthand
 								$textarea[ 0 ].focus();
 							}
 						} );
