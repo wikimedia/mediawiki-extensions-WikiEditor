@@ -15,7 +15,8 @@
 			"Shbib Al-Subaie",
 			"Maroen1990",
 			"محمد أحمد عبد الفتاح",
-			"ديفيد"
+			"ديفيد",
+			"علاء"
 		]
 	},
 	"wikieditor": "الواجهة المتقدمة لتعديل نص ويكي",
@@ -25,7 +26,7 @@
 	"wikieditor-toolbar": "شريط أدوات التحرير",
 	"wikieditor-toolbar-desc": "شريط تحرير الصفحات مع تحسين الاستخدامية",
 	"wikieditor-toolbar-preference": "تفعيل شريط أدوات التحرير",
-	"wikieditor-toolbar-preference-help": "هذا يطلق عليه أحياني 'محرر نص الويكي 2010'.",
+	"wikieditor-toolbar-preference-help": "هذا يطلق عليه أحيانا 'محرر نص الويكي 2010'.",
 	"wikieditor-toolbar-loading": "تحميل...",
 	"wikieditor-toolbar-tool-bold": "غليظ",
 	"wikieditor-toolbar-tool-bold-example": "نص غليظ",
