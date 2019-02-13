@@ -195,24 +195,6 @@ class WikiEditorHooks {
 	}
 
 	/**
-	 * ResourceLoaderTestModules hook
-	 *
-	 * Registers JavaScript test modules
-	 *
-	 * @param array &$testModules array of javascript testing modules. 'qunit' is fed using
-	 * tests/qunit/QUnitTestResources.php.
-	 * @param ResourceLoader &$resourceLoader
-	 */
-	public static function resourceLoaderTestModules( &$testModules, &$resourceLoader ) {
-		$testModules['qunit']['ext.wikiEditor.toolbar.test'] = [
-			'scripts' => [ 'tests/qunit/ext.wikiEditor.toolbar.test.js' ],
-			'dependencies' => [ 'ext.wikiEditor' ],
-			'localBasePath' => __DIR__ . '/..',
-			'remoteExtPath' => 'WikiEditor',
-		];
-	}
-
-	/**
 	 * MakeGlobalVariablesScript hook
 	 *
 	 * Adds enabled/disabled switches for WikiEditor modules

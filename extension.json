@@ -30,9 +30,6 @@
 		"ResourceLoaderGetConfigVars": [
 			"WikiEditorHooks::resourceLoaderGetConfigVars"
 		],
-		"ResourceLoaderTestModules": [
-			"WikiEditorHooks::resourceLoaderTestModules"
-		],
 		"MakeGlobalVariablesScript": [
 			"WikiEditorHooks::makeGlobalVariablesScript"
 		],
@@ -297,6 +294,12 @@
 	"ResourceFileModulePaths": {
 		"localBasePath": "modules",
 		"remoteExtPath": "WikiEditor/modules"
+	},
+	"QUnitTestModule": {
+		"localBasePath": "",
+		"remoteExtPath": "WikiEditor",
+		"scripts": "tests/qunit/ext.wikiEditor.toolbar.test.js",
+		"dependencies": [ "ext.wikiEditor" ]
 	},
 	"DefaultUserOptions": {
 		"usebetatoolbar": true
