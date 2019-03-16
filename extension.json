@@ -271,12 +271,10 @@
 				"jquery.textSelection",
 				"jquery.ui",
 				"mediawiki.api",
-				"mediawiki.ForeignStructuredUpload.BookletLayout",
 				"mediawiki.jqueryMsg",
 				"mediawiki.language.specialCharacters",
 				"mediawiki.language",
 				"mediawiki.Title",
-				"mediawiki.Upload.Dialog",
 				"mediawiki.user",
 				"mediawiki.util",
 				"oojs-ui.styles.icons-content",
@@ -285,7 +283,8 @@
 				"oojs-ui.styles.icons-editing-core",
 				"oojs-ui.styles.icons-editing-list",
 				"oojs-ui.styles.icons-editing-styling",
-				"oojs-ui.styles.icons-media"
+				"oojs-ui.styles.icons-media",
+				"oojs-ui-widgets"
 			]
 		},
 		"ext.wikiEditor.styles": {
