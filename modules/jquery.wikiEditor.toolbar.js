@@ -329,6 +329,13 @@
 							// OOUI button
 							if ( $button.data( 'ooui' ) && tool.type === 'toggle' ) {
 								$button.data( 'ooui' ).setValue( active );
+								// Use progressive icon in WMUI theme
+								if ( OO.ui.WikimediaUITheme && OO.ui.theme instanceof OO.ui.WikimediaUITheme ) {
+									// Wait for updateElementClasses to run
+									setTimeout( function () {
+										$button.data( 'ooui' ).$icon.toggleClass( 'oo-ui-image-progressive', active );
+									} );
+								}
 							}
 						} );
 						if ( 'action' in tool ) {

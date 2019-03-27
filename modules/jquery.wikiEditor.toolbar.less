@@ -7,7 +7,6 @@
 .wikiEditor-ui-toolbar {
 	position: relative;
 	display: block;
-	.vertical-gradient( #fdfefe, #e8f2f8, 0, 32px );
 
 	.empty {
 		display: none;
@@ -23,7 +22,6 @@
 			float: left;
 			width: 100%;
 			border-top: 1px solid #c8ccd1;
-			background-color: #eaf3ff;
 		}
 
 		.section-hidden {
@@ -98,7 +96,7 @@
 			margin: 2px;
 			margin-left: 5px;
 			margin-right: 8px;
-			color: #666;
+			color: #54595d;
 			cursor: default;
 		}
 
@@ -185,44 +183,31 @@
 				display: block;
 			}
 		}
-
-		&:last-of-type {
-			border-right: 0;
-		}
 	}
 
 	.group-search {
 		float: right;
-		padding: 0 0 0 6px;
 		border-right: 0;
 		border-left: 1px solid #c8ccd1;
 	}
 
 	/* Booklet */
 	.booklet {
-		.index {
+		> .index {
 			float: left;
 			width: 20%;
 			height: 125px;
 			overflow: auto;
 			resize: horizontal;
 
-			div {
+			> div {
 				padding: 4px;
 				padding-left: 6px;
 				cursor: pointer;
-				color: #0645ad;
-			}
-
-			.current {
-				background-color: #eaecf0;
-				color: #222;
-				cursor: default;
 			}
 		}
 
 		.pages {
-			background-color: #f8f9fa;
 			height: 125px;
 			overflow: auto;
 		}
@@ -290,7 +275,7 @@
 
 		div {
 			span {
-				border: 1px solid #c8ccd1;
+				border: 1px solid #eaecf0;
 				padding: 5px;
 				padding-left: 8px;
 				padding-right: 8px;
@@ -308,7 +293,7 @@
 				&:hover {
 					background-color: #fff;
 					text-decoration: none;
-					border-color: #36c;
+					border-color: #c8ccd1;
 				}
 			}
 		}
@@ -321,14 +306,13 @@
 }
 
 .tool-button {
-	background-position: 2px 2px;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	display: inline-block;
 	vertical-align: middle;
-	height: 22px;
+	width: 24px;
+	height: 24px;
 	text-indent: -9999px;
-	width: 22px;
-	padding: 2px;
 	cursor: pointer;
 	overflow: hidden;
 }
@@ -336,40 +320,6 @@
 /* OOUI buttons */
 .tool.oo-ui-buttonElement-frameless.oo-ui-iconElement {
 	margin: 0;
-
-	> .oo-ui-buttonElement-button {
-		padding: 3px;
-		border: 0;
-		.box-sizing( content-box );
-
-		> .oo-ui-iconElement-icon {
-			margin: 0;
-			width: 20px;
-			height: 20px;
-			min-width: 20px;
-			min-height: 20px;
-			left: 3px;
-			top: 3px;
-			// Reduce opacity like Apex theme
-			opacity: 0.7;
-		}
-	}
-
-	&:hover {
-		background-color: #ecf4f9;
-		outline: 1px solid #dae5ec;
-	}
-}
-
-.tool-button.tool-active,
-.tool.tool-active.oo-ui-buttonElement-frameless.oo-ui-iconElement {
-	outline: 1px solid #dae5ec;
-	background-color: #ecf4f9;
-	box-shadow: inset 0 -10px 10px rgba( 255, 255, 255, 0.4 );
-}
-
-.tool.tool-active.oo-ui-buttonElement-frameless.oo-ui-iconElement > .oo-ui-buttonElement-button > .oo-ui-iconElement-icon {
-	opacity: 0.9;
 }
 
 .ui-widget {

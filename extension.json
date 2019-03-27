@@ -59,6 +59,11 @@
 				"jquery.wikiEditor.dialogs.less",
 				"jquery.wikiEditor.dialogs.config.less"
 			],
+			"skinStyles": {
+				"default": [
+					"jquery.wikiEditor.toolbar-apex.less"
+				]
+			},
 			"templates": {
 				"dialogInsertFile.html": "templates/dialogInsertFile.html",
 				"dialogInsertLink.html": "templates/dialogInsertLink.html",
