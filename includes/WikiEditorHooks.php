@@ -195,17 +195,6 @@ class WikiEditorHooks {
 	}
 
 	/**
-	 * MakeGlobalVariablesScript hook
-	 *
-	 * Adds enabled/disabled switches for WikiEditor modules
-	 * @param array &$vars
-	 */
-	public static function makeGlobalVariablesScript( &$vars ) {
-		// Build and export old-style wgWikiEditorEnabledModules object for back compat
-		$vars['wgWikiEditorEnabledModules'] = [];
-	}
-
-	/**
 	 * Expose useful magic words which are used by the wikieditor toolbar
 	 * @param array &$vars
 	 */

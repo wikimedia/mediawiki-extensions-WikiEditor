@@ -30,9 +30,6 @@
 		"ResourceLoaderGetConfigVars": [
 			"WikiEditorHooks::resourceLoaderGetConfigVars"
 		],
-		"MakeGlobalVariablesScript": [
-			"WikiEditorHooks::makeGlobalVariablesScript"
-		],
 		"EditPageBeforeEditToolbar": [
 			"WikiEditorHooks::EditPageBeforeEditToolbar"
 		],
