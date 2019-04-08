@@ -16,7 +16,8 @@
 			"ZeiP",
 			"Syreeni",
 			"Macofe",
-			"01miki10"
+			"01miki10",
+			"Pyscowicz"
 		]
 	},
 	"wikieditor": "Edistynyt wikitekstin muokkauskäyttöliittymä",
@@ -26,6 +27,7 @@
 	"wikieditor-toolbar": "Työkalupalkki muokkaukseen",
 	"wikieditor-toolbar-desc": "Muokkaussivun työkalupalkki paremmalla käytettävyydellä.",
 	"wikieditor-toolbar-preference": "Ota käyttöön työkalupalkki muokkauksissa",
+	"wikieditor-toolbar-preference-help": "Tätä kutsutaan joskus '2010 wikitekstimuokkaimeksi'.",
 	"wikieditor-toolbar-loading": "Ladataan…",
 	"wikieditor-toolbar-tool-bold": "Lihavointi",
 	"wikieditor-toolbar-tool-bold-example": "Lihavoitu teksti",
