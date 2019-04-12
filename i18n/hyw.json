@@ -35,7 +35,7 @@
 	"wikieditor-toolbar-tool-file-title": "Մուտքագրեցէ՛ք նիշքը",
 	"wikieditor-toolbar-file-target": "Նիշքի անունը․",
 	"wikieditor-toolbar-file-size": "Չափ․",
-	"wikieditor-toolbar-file-format": "Տեսք․",
+	"wikieditor-toolbar-file-format": "Ձեւաւորել",
 	"wikieditor-toolbar-file-format-none": "Ոչ մէկ",
 	"wikieditor-toolbar-tool-file-insert": "Մուտքագրեցէ՛ք",
 	"wikieditor-toolbar-tool-file-cancel": "Չեղարկել",
@@ -79,5 +79,7 @@
 	"wikieditor-toolbar-tool-replace-button-findnext": "Յաջորդը գտնել",
 	"wikieditor-toolbar-tool-replace-button-replace": "Փոխարինել",
 	"wikieditor-toolbar-tool-replace-button-replaceall": "Փոխարինել բոլորը",
-	"wikieditor-toolbar-tool-replace-close": "Գոցել"
+	"wikieditor-toolbar-tool-replace-close": "Գոցել",
+	"wikieditor-toolbar-section-characters": "Յատուկ նշաններ",
+	"wikieditor-toolbar-section-help": "Օգնութիւն"
 }
