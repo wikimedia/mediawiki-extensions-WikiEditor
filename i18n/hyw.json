@@ -19,6 +19,8 @@
 	"wikieditor-toolbar-tool-link-title": "Մուտքագրեցէ՛ք յղումը",
 	"wikieditor-toolbar-tool-link-int": "Ուիքիի էջին",
 	"wikieditor-toolbar-tool-link-int-target-tooltip": "էջի վերնագիր կամ URL",
+	"wikieditor-toolbar-tool-link-int-text": "Յղման գրութիւն․",
+	"wikieditor-toolbar-tool-link-int-text-tooltip": "Ներմուծեցէ՛ք գրութիւնը, որ պէտք է ցուցադրուի",
 	"wikieditor-toolbar-tool-link-ext-target": "Յղում URL․",
 	"wikieditor-toolbar-tool-link-ext-text": "Յղման գրութիւն",
 	"wikieditor-toolbar-tool-link-insert": "Մուտքագրեցէ՛ք յղումը",
