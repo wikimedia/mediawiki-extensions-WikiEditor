@@ -106,7 +106,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Nåkyken",
 	"wikieditor-toolbar-tool-table-insert": "Invogen",
 	"wikieditor-toolbar-tool-table-cancel": "Afbreaken",
-	"wikieditor-toolbar-tool-table-toomany": "Je kunnen via dit dialoogvienster gien tabel derbie doon mit meer as 1000 sellen.",
+	"wikieditor-toolbar-tool-table-toomany": "Et is neet möägelik üm in dit vinster een tabel in te vogen mid meyr as $1 {{PLURAL:$1|cellen}}.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Jy hebben noch geen geldig antal regels of kolommen upegeaven.",
 	"wikieditor-toolbar-tool-table-zero": "Jy künnen geen tabel invogen sunder regels of kolommen.",
 	"wikieditor-toolbar-tool-replace": "Söken en vervangen",
