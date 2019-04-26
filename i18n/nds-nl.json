@@ -123,7 +123,7 @@
 	"wikieditor-toolbar-tool-replace-success": "Der {{PLURAL:$1|is eyn vervanging|binnen $1 vervangingen}} edån.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "Jy hebben geen söökterm upegeaven.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "De regulyre ekspressy dee jy upegeaven hebben is ungeldig: $1",
-	"wikieditor-toolbar-section-characters": "Speciåle teykens",
+	"wikieditor-toolbar-section-characters": "Speciale teykens",
 	"wikieditor-toolbar-section-help": "Hülpe",
 	"wikieditor-toolbar-help-heading-description": "Beschrieving",
 	"wikieditor-toolbar-help-heading-syntax": "Wa'j tikken",
