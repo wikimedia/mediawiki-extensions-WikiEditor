@@ -128,7 +128,7 @@
 	"wikieditor-toolbar-tool-replace-success": "มีเปลี่ยนแปลง $1 สิ่ง",
 	"wikieditor-toolbar-tool-replace-emptysearch": "คุณไม่ได้ใส่คำที่จะค้นหา",
 	"wikieditor-toolbar-tool-replace-invalidregex": "นิพจน์ปรกติที่คุณป้อนไม่ถูกต้อง: $1",
-	"wikieditor-toolbar-section-characters": "ตัวอักษรพิเศษ",
+	"wikieditor-toolbar-section-characters": "อักขระพิเศษ",
 	"wikieditor-toolbar-section-help": "วิธีใช้",
 	"wikieditor-toolbar-help-heading-description": "คำอธิบาย",
 	"wikieditor-toolbar-help-heading-syntax": "สิ่งที่คุณพิมพ์",
