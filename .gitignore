@@ -2,6 +2,7 @@ composer.lock
 vendor
 node_modules/
 .eslintcache
+package-lock.json
 
 # Editors
 *.kate-swp

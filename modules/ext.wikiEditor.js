@@ -12,11 +12,11 @@
 		};
 
 	function logEditEvent( action, data ) {
-		if ( mw.loader.getState( 'schema.EditAttemptStep' ) === null ) {
+		if ( mw.loader.getState( 'ext.eventLogging' ) === null ) {
 			return;
 		}
 
-		mw.loader.using( [ 'schema.EditAttemptStep', 'ext.eventLogging.subscriber' ] ).done( function () {
+		mw.loader.using( [ 'ext.eventLogging' ] ).done( function () {
 			// Sampling
 			// We have to do this on the client too because the unload handler
 			// can cause an editingSessionId to be generated on the client
