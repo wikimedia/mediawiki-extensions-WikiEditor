@@ -846,7 +846,7 @@
 						// TODO: Find a cleaner way to share this function
 						$( this ).data( 'replaceCallback', function ( mode ) {
 							var offset, textRemainder, regex,
-								searchStr, replaceStr, flags, matchCase, isRegex,
+								searchStr, replaceStr, flags, matchCase, matchWord, isRegex,
 								$textarea, text, match,
 								actualReplacement,
 								start, end;
@@ -872,6 +872,10 @@
 							isRegex = $( '#wikieditor-toolbar-replace-regex' ).is( ':checked' );
 							if ( !isRegex ) {
 								searchStr = mw.RegExp.escape( searchStr );
+							}
+							matchWord = $( '#wikieditor-toolbar-replace-word' ).is( ':checked' );
+							if ( matchWord ) {
+								searchStr = '\\b(?:' + searchStr + ')\\b';
 							}
 							if ( mode === 'replaceAll' ) {
 								flags += 'g';

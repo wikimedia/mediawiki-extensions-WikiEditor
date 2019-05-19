@@ -165,6 +165,7 @@
 				"wikieditor-toolbar-tool-replace-replace",
 				"wikieditor-toolbar-tool-replace-case",
 				"wikieditor-toolbar-tool-replace-regex",
+				"wikieditor-toolbar-tool-replace-word",
 				"wikieditor-toolbar-tool-replace-button-findnext",
 				"wikieditor-toolbar-tool-replace-button-replace",
 				"wikieditor-toolbar-tool-replace-button-replaceall",
