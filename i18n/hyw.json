@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Azniv Stepanian"
+			"Azniv Stepanian",
+			"Kareyac"
 		]
 	},
 	"wikieditor-wikitext-tab": "Ուիքիգրութիւն",
@@ -37,6 +38,7 @@
 	"wikieditor-toolbar-tool-file-title": "Մուտքագրեցէ՛ք նիշքը",
 	"wikieditor-toolbar-file-target": "Նիշքի անունը․",
 	"wikieditor-toolbar-file-size": "Չափ․",
+	"wikieditor-toolbar-file-default": "(լռելեան)",
 	"wikieditor-toolbar-file-format": "Ձեւաւորել",
 	"wikieditor-toolbar-file-format-none": "Ոչ մէկ",
 	"wikieditor-toolbar-tool-file-insert": "Մուտքագրեցէ՛ք",
