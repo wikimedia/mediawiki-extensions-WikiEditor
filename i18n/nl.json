@@ -139,6 +139,7 @@
 	"wikieditor-toolbar-tool-replace-success": "Er {{PLURAL:$1|is één item|zijn $1 items}} vervangen.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "U hebt geen zoekterm opgegeven.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "De door u opgegeven reguliere expressie is ongeldig: $1",
+	"wikieditor-toolbar-tool-replace-word": "Alleen hele woord",
 	"wikieditor-toolbar-section-characters": "Speciale tekens",
 	"wikieditor-toolbar-section-help": "Hulp",
 	"wikieditor-toolbar-help-heading-description": "Beschrijving",
