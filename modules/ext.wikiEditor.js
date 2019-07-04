@@ -3,69 +3,123 @@
  */
 
 ( function () {
-	var editingSessionId,
+	var editingSessionId, logEditEvent, logEditFeature,
 		actionPrefixMap = {
 			saveIntent: 'save_intent',
 			saveAttempt: 'save_attempt',
 			saveSuccess: 'save_success',
 			saveFailure: 'save_failure'
-		};
+		},
+		trackdebug = !!mw.Uri().query.trackdebug;
 
-	function logEditEvent( action, data ) {
-		if ( mw.loader.getState( 'ext.eventLogging' ) === null ) {
-			return;
-		}
+	function log() {
+		// mw.log is a no-op unless resource loader is in debug mode, so
+		// this allows trackdebug to work independently (T211698)
+		// eslint-disable-next-line no-console
+		console.log.apply( console, arguments );
+	}
 
-		mw.loader.using( [ 'ext.eventLogging' ] ).done( function () {
-			// Sampling
-			// We have to do this on the client too because the unload handler
-			// can cause an editingSessionId to be generated on the client
-			// Not using mw.eventLog.inSample() because we need to be able to pass our own editingSessionId
-			var inSample = mw.eventLog.randomTokenMatch(
-					1 / mw.config.get( 'wgWMESchemaEditAttemptStepSamplingRate' ),
-					editingSessionId
-				),
-				actionPrefix = actionPrefixMap[ action ] || action;
-
-			if ( !inSample && !mw.config.get( 'wgWMESchemaEditAttemptStepOversample' ) ) {
+	function sampledLogger( schema, callback ) {
+		return function () {
+			var args;
+			if ( mw.loader.getState( 'ext.eventLogging' ) === null ) {
 				return;
 			}
+			args = Array.prototype.slice.call( arguments );
 
-			/* eslint-disable camelcase */
-			data = $.extend( {
-				version: 1,
-				action: action,
-				is_oversample: !inSample,
-				editing_session_id: editingSessionId,
-				page_token: mw.user.getPageviewToken(),
-				session_token: mw.user.sessionId(),
-				editor_interface: 'wikitext',
-				platform: 'desktop', // FIXME
-				integration: 'page',
-				page_id: mw.config.get( 'wgArticleId' ),
-				page_title: mw.config.get( 'wgPageName' ),
-				page_ns: mw.config.get( 'wgNamespaceNumber' ),
-				revision_id: mw.config.get( 'wgRevisionId' ),
-				user_id: mw.user.getId(),
-				user_editcount: mw.config.get( 'wgUserEditCount', 0 ),
-				mw_version: mw.config.get( 'wgVersion' )
-			}, data );
+			mw.loader.using( [ 'ext.eventLogging' ] ).done( function () {
+				// Sampling
+				// We have to do this on the client too because the unload handler
+				// can cause an editingSessionId to be generated on the client
+				// Not using mw.eventLog.inSample() because we need to be able to pass our own editingSessionId
+				var data,
+					inSample = mw.eventLog.randomTokenMatch(
+						1 / mw.config.get( 'wgWMESchemaEditAttemptStepSamplingRate' ),
+						editingSessionId
+					);
 
-			if ( mw.user.isAnon() ) {
-				data.user_class = 'IP';
-			}
+				if ( !inSample && !mw.config.get( 'wgWMESchemaEditAttemptStepOversample' ) && !trackdebug ) {
+					return;
+				}
 
-			data[ actionPrefix + '_type' ] = data.type;
-			data[ actionPrefix + '_mechanism' ] = data.mechanism;
-			data[ actionPrefix + '_timing' ] = data.timing === undefined ? 0 : Math.floor( data.timing );
-			/* eslint-enable camelcase */
+				data = callback.apply( this, [ inSample ].concat( args ) );
 
-			// Remove renamed properties
-			delete data.type;
-			delete data.mechanism;
-			delete data.timing;
+				if ( trackdebug ) {
+					log( schema, data );
+				} else {
+					mw.eventLog.logEvent( schema, data );
+				}
+			} );
+		};
+	}
 
-			mw.eventLog.logEvent( 'EditAttemptStep', data );
+	logEditEvent = sampledLogger( 'EditAttemptStep', function ( inSample, action, data ) {
+		var actionPrefix = actionPrefixMap[ action ] || action;
+
+		/* eslint-disable camelcase */
+		data = $.extend( {
+			version: 1,
+			action: action,
+			is_oversample: !inSample,
+			editing_session_id: editingSessionId,
+			page_token: mw.user.getPageviewToken(),
+			session_token: mw.user.sessionId(),
+			editor_interface: 'wikitext',
+			platform: 'desktop', // FIXME
+			integration: 'page',
+			page_id: mw.config.get( 'wgArticleId' ),
+			page_title: mw.config.get( 'wgPageName' ),
+			page_ns: mw.config.get( 'wgNamespaceNumber' ),
+			revision_id: mw.config.get( 'wgRevisionId' ),
+			user_id: mw.user.getId(),
+			user_editcount: mw.config.get( 'wgUserEditCount', 0 ),
+			mw_version: mw.config.get( 'wgVersion' )
+		}, data );
+
+		if ( mw.user.isAnon() ) {
+			data.user_class = 'IP';
+		}
+
+		data[ actionPrefix + '_type' ] = data.type;
+		data[ actionPrefix + '_mechanism' ] = data.mechanism;
+		data[ actionPrefix + '_timing' ] = data.timing === undefined ? 0 : Math.floor( data.timing );
+		/* eslint-enable camelcase */
+
+		// Remove renamed properties
+		delete data.type;
+		delete data.mechanism;
+		delete data.timing;
+
+		return data;
+	} );
+
+	logEditFeature = sampledLogger( 'VisualEditorFeatureUse', function ( inSample, feature, action ) {
+		return {
+			feature: feature,
+			action: action,
+			editingSessionId: editingSessionId
+		};
+	} );
+
+	function logAbort( switchingToVE, unmodified ) {
+		var abortType;
+
+		if ( switchingToVE ) {
+			logEditFeature( 'editor-switch', 'visual-desktop' );
+		}
+
+		if ( switchingToVE && unmodified ) {
+			abortType = 'switchnochange';
+		} else if ( switchingToVE ) {
+			abortType = 'switchwithout';
+		} else if ( unmodified ) {
+			abortType = 'nochange';
+		} else {
+			abortType = 'abandon';
+		}
+
+		logEditEvent( 'abort', {
+			type: abortType
 		} );
 	}
 
@@ -97,33 +151,22 @@
 				submitting = true;
 			} );
 			onUnloadFallback = window.onunload;
+
 			window.onunload = function () {
-				var fallbackResult, abortType,
+				var fallbackResult,
+					unmodified = mw.config.get( 'wgAction' ) !== 'submit' && origText === $textarea.val(),
 					caVeEdit = $( '#ca-ve-edit' )[ 0 ],
 					switchingToVE = caVeEdit && (
 						document.activeElement === caVeEdit ||
 						$.contains( caVeEdit, document.activeElement )
-					),
-					unmodified = mw.config.get( 'wgAction' ) !== 'submit' && origText === $textarea.val();
+					);
 
 				if ( onUnloadFallback ) {
 					fallbackResult = onUnloadFallback();
 				}
 
-				if ( switchingToVE && unmodified ) {
-					abortType = 'switchnochange';
-				} else if ( switchingToVE ) {
-					abortType = 'switchwithout';
-				} else if ( unmodified ) {
-					abortType = 'nochange';
-				} else {
-					abortType = 'abandon';
-				}
-
 				if ( !submitting ) {
-					logEditEvent( 'abort', {
-						type: abortType
-					} );
+					logAbort( switchingToVE, unmodified );
 				}
 
 				// If/when the user uses the back button to go back to the edit form
@@ -137,6 +180,14 @@
 
 				return fallbackResult;
 			};
+			$textarea.on( 'wikiEditor-switching-visualeditor', function () {
+				var unmodified = mw.config.get( 'wgAction' ) !== 'submit' && origText === $textarea.val();
+				// A non-navigation switch to VE has occurred. As such, avoid eventually
+				// double-logging an abort when VE is done.
+				window.onunload = onUnloadFallback;
+
+				logAbort( true, unmodified );
+			} );
 		}
 	} );
 }() );
