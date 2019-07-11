@@ -378,7 +378,7 @@
 												$( this ).data( 'context' ), $( this ).data( 'action' ), $( this )
 											);
 											// Hide the dropdown
-											$( this ).parent().removeClass( 'options-shown' );
+											$( this ).closest( '.tool-select' ).removeClass( 'options-shown' );
 											e.preventDefault();
 											return false;
 										} )
@@ -399,7 +399,7 @@
 								return false;
 							} )
 							.on( 'click', function ( e ) {
-								$( this ).data( 'options' ).toggleClass( 'options-shown' );
+								$( this ).data( 'options' ).closest( '.tool-select' ).toggleClass( 'options-shown' );
 								e.preventDefault();
 								return false;
 							} )
