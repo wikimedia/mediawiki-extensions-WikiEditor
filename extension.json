@@ -275,6 +275,7 @@
 				"mediawiki.Title",
 				"mediawiki.Upload.Dialog",
 				"mediawiki.user",
+				"mediawiki.util",
 				"oojs-ui.styles.icons-content",
 				"oojs-ui.styles.icons-editing-advanced",
 				"oojs-ui.styles.icons-editing-citation",

@@ -10,7 +10,7 @@
 			saveSuccess: 'save_success',
 			saveFailure: 'save_failure'
 		},
-		trackdebug = !!mw.Uri().query.trackdebug;
+		trackdebug = !!mw.util.getParamValue( 'trackdebug' );
 
 	function log() {
 		// mw.log is a no-op unless resource loader is in debug mode, so
