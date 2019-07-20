@@ -3,9 +3,11 @@
  */
 ( function () {
 
-	var hasOwn = Object.prototype.hasOwnProperty;
+	var hasOwn = Object.prototype.hasOwnProperty,
+		toolbarModule = require( './jquery.wikiEditor.toolbar.js' ),
+		configData = require( './data.json' );
 
-	$.wikiEditor.modules.dialogs.config = {
+	module.exports = {
 
 		replaceIcons: function ( $textarea ) {
 			$textarea
@@ -428,7 +430,7 @@
 									insertText = whitespace[ 0 ] + insertText + whitespace[ 1 ];
 								}
 								$( this ).dialog( 'close' );
-								$.wikiEditor.modules.toolbar.fn.doAction( $( this ).data( 'context' ), {
+								toolbarModule.fn.doAction( $( this ).data( 'context' ), {
 									type: 'replace',
 									options: {
 										pre: insertText
@@ -539,7 +541,7 @@
 					id: 'wikieditor-toolbar-file-dialog',
 					htmlTemplate: 'dialogInsertFile.html',
 					init: function () {
-						var magicWordsI18N = mw.config.get( 'wgWikiEditorMagicWords' ),
+						var magicWordsI18N = configData.magicWords,
 							defaultMsg = mw.msg( 'wikieditor-toolbar-file-default' );
 						$( this ).find( '[data-i18n-magic]' )
 							.text( function () {
@@ -565,7 +567,7 @@
 								var fileName, caption, fileFloat, fileFormat, fileSize, whitespace,
 									fileTitle, options, fileUse,
 									hasPxRgx = /.+px$/,
-									magicWordsI18N = mw.config.get( 'wgWikiEditorMagicWords' );
+									magicWordsI18N = configData.magicWords;
 								fileName = $( '#wikieditor-toolbar-file-target' ).val();
 								caption = $( '#wikieditor-toolbar-file-caption' ).val();
 								fileFloat = $( '#wikieditor-toolbar-file-float' ).val();
@@ -594,7 +596,7 @@
 								}
 								fileUse = options.length === 0 ? fileName : ( fileName + '|' + options.join( '|' ) );
 								$( this ).dialog( 'close' );
-								$.wikiEditor.modules.toolbar.fn.doAction(
+								toolbarModule.fn.doAction(
 									$( this ).data( 'context' ),
 									{
 										type: 'replace',
@@ -863,7 +865,7 @@
 								}
 								classStr = classes.length > 0 ? ' class="' + classes.join( ' ' ) + '"' : '';
 								$( this ).dialog( 'close' );
-								$.wikiEditor.modules.toolbar.fn.doAction(
+								toolbarModule.fn.doAction(
 									$( this ).data( 'context' ),
 									{
 										type: 'replace',

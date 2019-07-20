@@ -39,7 +39,10 @@
 		 * module name. The existence of a module in this object only indicates the module is available. To check if a
 		 * module is in use by a specific context check the context.modules object.
 		 */
-		modules: {},
+		modules: {
+			toolbar: require( './jquery.wikiEditor.toolbar.js' ),
+			dialogs: require( './jquery.wikiEditor.dialogs.js' )
+		},
 
 		/**
 		 * A context can be extended, such as adding iframe support, on a per-wikiEditor instance basis.

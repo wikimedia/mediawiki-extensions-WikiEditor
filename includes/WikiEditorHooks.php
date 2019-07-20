@@ -185,20 +185,39 @@ class WikiEditorHooks {
 	}
 
 	/**
-	 * @param array &$vars
+	 * @param ResourceLoaderContext $context
+	 * @param Config $config
+	 * @return array
 	 */
-	public static function resourceLoaderGetConfigVars( &$vars ) {
-		// expose magic words for use by the wikieditor toolbar
-		self::getMagicWords( $vars );
+	public static function getModuleData( ResourceLoaderContext $context, Config $config ) {
+		return [
+			// expose magic words for use by the wikieditor toolbar
+			'magicWords' => self::getMagicWords(),
+			'signature' => self::getSignatureMessage( $context )
+		];
+	}
 
-		$vars['mw.msg.wikieditor'] = wfMessage( 'sig-text', '~~~~' )->inContentLanguage()->text();
+	/**
+	 * @param ResourceLoaderContext $context
+	 * @param Config $config
+	 * @return array
+	 */
+	public static function getModuleDataSummary( ResourceLoaderContext $context, Config $config ) {
+		return [
+			'magicWords' => self::getMagicWords(),
+			'signature' => self::getSignatureMessage( $context, true )
+		];
+	}
+
+	private static function getSignatureMessage( MessageLocalizer $ml, $raw = false ) {
+		$msg = $ml->msg( 'sig-text' )->params( '~~~~' )->inContentLanguage();
+		return $raw ? $msg->plain() : $msg->text();
 	}
 
 	/**
 	 * Expose useful magic words which are used by the wikieditor toolbar
-	 * @param array &$vars
 	 */
-	private static function getMagicWords( &$vars ) {
+	private static function getMagicWords() {
 		$requiredMagicWords = [
 			'redirect',
 			'img_right',
@@ -220,7 +239,7 @@ class WikiEditorHooks {
 				$magicWords[$name] = MagicWord::get( $name )->getSynonym( 0 );
 			}
 		}
-		$vars['wgWikiEditorMagicWords'] = $magicWords;
+		return $magicWords;
 	}
 
 	/**

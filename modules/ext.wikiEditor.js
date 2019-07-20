@@ -12,6 +12,9 @@
 		},
 		trackdebug = !!mw.util.getParamValue( 'trackdebug' );
 
+	// This sets $.wikiEditor and $.fn.wikiEditor
+	require( './jquery.wikiEditor.js' );
+
 	function log() {
 		// mw.log is a no-op unless resource loader is in debug mode, so
 		// this allows trackdebug to work independently (T211698)
@@ -127,7 +130,7 @@
 		var $textarea = $( '#wpTextbox1' ),
 			$editingSessionIdInput = $( '#editingStatsId' ),
 			origText = $textarea.val(),
-			submitting, onUnloadFallback;
+			submitting, onUnloadFallback, dialogsConfig;
 
 		if ( $editingSessionIdInput.length ) {
 			editingSessionId = $editingSessionIdInput.val();
@@ -189,5 +192,19 @@
 				logAbort( true, unmodified );
 			} );
 		}
+
+		// The old toolbar is still in place and needs to be removed so there aren't two toolbars
+		$( '#toolbar' ).remove();
+		// Add toolbar module
+		// TODO: Implement .wikiEditor( 'remove' )
+		$textarea.wikiEditor(
+			'addModule', require( './jquery.wikiEditor.toolbar.config.js' )
+		);
+
+		dialogsConfig = require( './jquery.wikiEditor.dialogs.config.js' );
+		// Replace icons
+		dialogsConfig.replaceIcons( $textarea );
+		// Add dialogs module
+		$textarea.wikiEditor( 'addModule', dialogsConfig.getDefaultConfig() );
 	} );
 }() );

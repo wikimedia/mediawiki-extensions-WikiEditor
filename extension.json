@@ -27,9 +27,6 @@
 		"GetPreferences": [
 			"WikiEditorHooks::getPreferences"
 		],
-		"ResourceLoaderGetConfigVars": [
-			"WikiEditorHooks::resourceLoaderGetConfigVars"
-		],
 		"EditPageBeforeEditToolbar": [
 			"WikiEditorHooks::EditPageBeforeEditToolbar"
 		],
@@ -46,15 +43,18 @@
 	"ResourceModules": {
 		"ext.wikiEditor": {
 			"group": "ext.wikiEditor",
-			"scripts": [
+			"packageFiles": [
+				"ext.wikiEditor.js",
 				"jquery.wikiEditor.js",
 				"jquery.wikiEditor.toolbar.js",
 				"jquery.wikiEditor.toolbar.config.js",
 				"jquery.wikiEditor.dialogs.js",
 				"jquery.wikiEditor.dialogs.config.js",
-				"ext.wikiEditor.js",
-				"ext.wikiEditor.toolbar.js",
-				"ext.wikiEditor.dialogs.js"
+				{
+					"name": "data.json",
+					"callback": "WikiEditorHooks::getModuleData",
+					"versionCallback": "WikiEditorHooks::getModuleDataSummary"
+				}
 			],
 			"styles": [
 				"jquery.wikiEditor.less",
