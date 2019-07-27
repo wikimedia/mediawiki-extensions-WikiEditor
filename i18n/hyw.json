@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Azniv Stepanian",
-			"Kareyac"
+			"Kareyac",
+			"Դավիթ Սարոյան"
 		]
 	},
 	"wikieditor-wikitext-tab": "Ուիքիգրութիւն",
 	"wikieditor-loading": "Բեռնաւորութիւն...",
 	"wikieditor-toolbar-loading": "Բեռնաւորութիւն...",
-	"wikieditor-toolbar-tool-bold": "Շեշտուած",
-	"wikieditor-toolbar-tool-bold-example": "Շեշտուած տառերով գրութիւն",
+	"wikieditor-toolbar-tool-bold": "Թաւատառ",
+	"wikieditor-toolbar-tool-bold-example": "Թաւատառ գրութիւն",
 	"wikieditor-toolbar-tool-italic": "Շեղագիր",
 	"wikieditor-toolbar-tool-italic-example": "Շեղատառ գրութիւն",
 	"wikieditor-toolbar-tool-ilink": "Ներքին յղում",
@@ -67,6 +68,7 @@
 	"wikieditor-toolbar-tool-small": "Փոքր",
 	"wikieditor-toolbar-tool-small-example": "Փոքր գրութիւն",
 	"wikieditor-toolbar-group-insert": "Մուտքագրեցէ՛ք",
+	"wikieditor-toolbar-tool-gallery": "Նկարներու ցուցասրահ",
 	"wikieditor-toolbar-tool-newline": "Նոր տող",
 	"wikieditor-toolbar-tool-table": "Սեղան",
 	"wikieditor-toolbar-tool-table-example-header": "Վերնագրի գրութիւն",
