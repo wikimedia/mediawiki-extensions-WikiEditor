@@ -6,7 +6,8 @@
 			"Dawid Deutschland",
 			"ITshnik",
 			"გიორგიმელა",
-			"Macofe"
+			"Macofe",
+			"Otogi"
 		]
 	},
 	"wikieditor": "ვიკიტექსტის რედაქტირების გაფართოებული ინტერფეისი",
@@ -16,6 +17,7 @@
 	"wikieditor-toolbar": "რედაქტირების პანელი",
 	"wikieditor-toolbar-desc": "რედაქტირების პანელი გაუმჯობესებული იუზაბილითით",
 	"wikieditor-toolbar-preference": "ჩართეთ რედაქტირების გაუმჯობესებული პანელი",
+	"wikieditor-toolbar-preference-help": "ზოგჯერ ეწოდება „2010 ვიკიტექსტის რედაქტორი“.",
 	"wikieditor-toolbar-loading": "იტვირთება…",
 	"wikieditor-toolbar-tool-bold": "მუქი",
 	"wikieditor-toolbar-tool-bold-example": "მუქი ტექსტი",
