@@ -643,7 +643,7 @@
 						},
 						open: function () {
 							var context, selection, parseFileSyntax,
-								magicWordsI18N = mw.config.get( 'wgWikiEditorMagicWords' ),
+								magicWordsI18N = configData.magicWords,
 								fileData = {
 									pre: '',
 									post: '',
