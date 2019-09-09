@@ -13,7 +13,7 @@
 	"license-name": "GPL-2.0-or-later",
 	"type": "editor",
 	"requires": {
-		"MediaWiki": ">= 1.33.0"
+		"MediaWiki": ">= 1.34.0"
 	},
 	"MessagesDirs": {
 		"WikiEditor": [
@@ -271,7 +271,6 @@
 				"mediawiki.jqueryMsg",
 				"mediawiki.language.specialCharacters",
 				"mediawiki.language",
-				"mediawiki.RegExp",
 				"mediawiki.Title",
 				"mediawiki.Upload.Dialog",
 				"mediawiki.user",

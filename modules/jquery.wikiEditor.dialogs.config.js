@@ -452,7 +452,7 @@
 								serverName = mw.config.get( 'wgServer' ).replace( /^(https?:)?\/\//, '' );
 							// Cache the articlepath regex
 							$( this ).data( 'articlePathRegex', new RegExp(
-								'^https?://' + mw.RegExp.escape( serverName + mw.config.get( 'wgArticlePath' ) )
+								'^https?://' + mw.util.escapeRegExp( serverName + mw.config.get( 'wgArticlePath' ) )
 									.replace( /\\\$1/g, '(.*)' ) + '$'
 							) );
 							// Pre-fill the text fields based on the current selection
@@ -698,7 +698,7 @@
 									} else if ( param === '' ) {
 										continue;
 									} else if ( i === params.length - 1 ) { // Last param -> caption
-										result.caption = param.replace( new RegExp( mw.RegExp.escape( escapedPipe ), 'g' ), '|' );
+										result.caption = param.replace( new RegExp( mw.util.escapeRegExp( escapedPipe ), 'g' ), '|' );
 									} else { // Unknown param
 										return false;
 									}
@@ -961,7 +961,7 @@
 							}
 							isRegex = $( '#wikieditor-toolbar-replace-regex' ).is( ':checked' );
 							if ( !isRegex ) {
-								searchStr = mw.RegExp.escape( searchStr );
+								searchStr = mw.util.escapeRegExp( searchStr );
 							}
 							matchWord = $( '#wikieditor-toolbar-replace-word' ).is( ':checked' );
 							if ( matchWord ) {
