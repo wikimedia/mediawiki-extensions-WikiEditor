@@ -5,6 +5,7 @@
 ( function () {
 	var editingSessionId, logEditEvent, logEditFeature,
 		actionPrefixMap = {
+			firstChange: 'first_change',
 			saveIntent: 'save_intent',
 			saveAttempt: 'save_attempt',
 			saveSuccess: 'save_success',
@@ -83,9 +84,16 @@
 			data.user_class = 'IP';
 		}
 
-		data[ actionPrefix + '_type' ] = data.type;
-		data[ actionPrefix + '_mechanism' ] = data.mechanism;
-		data[ actionPrefix + '_timing' ] = data.timing === undefined ? 0 : Math.floor( data.timing );
+		// Schema's kind of a mess of special properties
+		if ( data.action === 'init' || data.action === 'abort' || data.action === 'saveFailure' ) {
+			data[ actionPrefix + '_type' ] = data.type;
+		}
+		if ( data.action === 'init' || data.action === 'abort' ) {
+			data[ actionPrefix + '_mechanism' ] = data.mechanism;
+		}
+		if ( data.action !== 'init' ) {
+			data[ actionPrefix + '_timing' ] = data.timing === undefined ? 0 : Math.floor( data.timing );
+		}
 		/* eslint-enable camelcase */
 
 		// Remove renamed properties
@@ -130,7 +138,7 @@
 		var $textarea = $( '#wpTextbox1' ),
 			$editingSessionIdInput = $( '#editingStatsId' ),
 			origText = $textarea.val(),
-			submitting, onUnloadFallback, dialogsConfig;
+			submitting, onUnloadFallback, dialogsConfig, readyTime;
 
 		if ( $editingSessionIdInput.length ) {
 			editingSessionId = $editingSessionIdInput.val();
@@ -141,12 +149,17 @@
 				// fall back to the timestamp when the page loaded for those
 				// that don't, we just ignore them, so as to not skew the
 				// results towards better-performance in those cases.
+				readyTime = Date.now();
 				logEditEvent( 'ready', {
-					timing: Date.now() - window.performance.timing.navigationStart
+					timing: readyTime - window.performance.timing.navigationStart
 				} );
 				$textarea.on( 'wikiEditor-toolbar-doneInitialSections', function () {
 					logEditEvent( 'loaded', {
 						timing: Date.now() - window.performance.timing.navigationStart
+					} );
+				} ).one( 'input', function () {
+					logEditEvent( 'firstChange', {
+						timing: Date.now() - readyTime
 					} );
 				} );
 			}
