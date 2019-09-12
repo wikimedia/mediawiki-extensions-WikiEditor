@@ -302,7 +302,7 @@ class WikiEditorHooks {
 				} elseif ( isset( $editPage->getArticle()->getPage()->ConfirmEdit_ActivateCaptcha ) ) {
 					// TODO: :(
 					$data['save_failure_type'] = 'extensionCaptcha';
-				} elseif ( isset( $errors[0][0] ) && $errors[0][0] === 'spamprotectiontext' ) {
+				} elseif ( isset( $errors[0][0] ) && $errors[0][0] === 'spam-blacklisted-link' ) {
 					$data['save_failure_type'] = 'extensionSpamBlacklist';
 				} else {
 					// Catch everything else... We don't seem to get userBadToken or
