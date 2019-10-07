@@ -399,6 +399,7 @@
 								return false;
 							} )
 							.on( 'click', function ( e ) {
+								// eslint-disable-next-line no-jquery/no-class-state
 								$( this ).data( 'options' ).closest( '.tool-select' ).toggleClass( 'options-shown' );
 								e.preventDefault();
 								return false;
@@ -608,6 +609,7 @@
 							} );
 							$sections = $( this ).data( 'context' ).$ui.find( '.sections' );
 							$section = $sections.find( '.section-' + $( this ).parent().attr( 'rel' ) );
+							// eslint-disable-next-line no-jquery/no-class-state
 							show = !$section.hasClass( 'section-visible' );
 							$sections.find( '.section-visible' )
 								.attr( 'aria-expanded', 'false' )

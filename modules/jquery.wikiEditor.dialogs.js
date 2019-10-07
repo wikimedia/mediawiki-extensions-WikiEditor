@@ -154,6 +154,7 @@
 					// Make sure elements don't wrapped so we get an accurate idea of whether they really fit. Also temporarily show
 					// hidden elements. Work around jQuery bug where <div style="display: inline;"/> inside a dialog is both
 					// :visible and :hidden
+					// eslint-disable-next-line no-jquery/no-sizzle
 					$oldHidden = $( this ).find( '*' ).not( ':visible' );
 
 				// Save the style attributes of the hidden elements to restore them later. Calling hide() after show() messes up

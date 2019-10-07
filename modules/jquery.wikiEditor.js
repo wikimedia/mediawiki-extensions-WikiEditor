@@ -16,6 +16,7 @@
 		 * Array of language codes.
 		 */
 		fallbackChain = ( function () {
+			// eslint-disable-next-line no-jquery/no-class-state
 			var isRTL = $( 'body' ).hasClass( 'rtl' ),
 				chain = mw.language.getFallbackLanguageChain();
 

@@ -8,8 +8,8 @@
 		"commonjs": true
 	},
 	"globals": {
-		"mw": false,
-		"OO": false
+		"mw": "readonly",
+		"OO": "readonly"
 	},
 	"rules": {
 		"max-len": "off",

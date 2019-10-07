@@ -121,7 +121,8 @@
 								$( '#wikieditor-toolbar-link-int-target' ).parent().addClass( 'status-' + status );
 							}
 							if ( status === 'invalid' ) {
-								$( '.ui-dialog:visible .ui-dialog-buttonpane button:first' )
+								// eslint-disable-next-line no-jquery/no-sizzle
+								$( '.ui-dialog:visible .ui-dialog-buttonpane button' ).first()
 									.prop( 'disabled', true )
 									.addClass( 'disabled' );
 								if ( reason ) {
@@ -132,7 +133,8 @@
 								}
 
 							} else {
-								$( '.ui-dialog:visible .ui-dialog-buttonpane button:first' )
+								// eslint-disable-next-line no-jquery/no-sizzle
+								$( '.ui-dialog:visible .ui-dialog-buttonpane button' ).first()
 									.prop( 'disabled', false )
 									.removeClass( 'disabled' );
 							}
@@ -372,6 +374,7 @@
 								}
 								if ( $( '#wikieditor-toolbar-link-type-int' ).is( ':checked' ) ) {
 									// FIXME: Exactly how fragile is this?
+									// eslint-disable-next-line no-jquery/no-sizzle
 									if ( $( '#wikieditor-toolbar-link-int-target-status-invalid' ).is( ':visible' ) ) {
 										// Refuse to add links to invalid titles
 										// eslint-disable-next-line no-alert
@@ -403,7 +406,7 @@
 										buttons[ mw.msg( 'wikieditor-toolbar-tool-link-lookslikeinternal-ext' ) ] =
 											function () {
 												$( that ).data( 'ignoreLooksInternal', true );
-												$( that ).closest( '.ui-dialog' ).find( 'button:first' ).trigger( 'click' );
+												$( that ).closest( '.ui-dialog' ).find( 'button' ).first().trigger( 'click' );
 												$( that ).data( 'ignoreLooksInternal', false );
 												$( this ).dialog( 'close' );
 											};
@@ -521,7 +524,7 @@
 								$( this ).closest( '.ui-dialog' ).on( 'keypress', function ( e ) {
 									var button;
 									if ( ( e.keyCode || e.which ) === 13 ) {
-										button = $( this ).data( 'dialogaction' ) || $( this ).find( 'button:first' );
+										button = $( this ).data( 'dialogaction' ) || $( this ).find( 'button' ).first();
 										button.click();
 										e.preventDefault();
 									}
@@ -738,7 +741,7 @@
 									var button;
 									if ( e.which === 13 ) {
 										button = $( this ).data( 'dialogaction' ) ||
-											$( this ).find( 'button:first' );
+											$( this ).find( 'button' ).first();
 										button.click();
 										e.preventDefault();
 									}
@@ -767,6 +770,7 @@
 						$( '#wikieditor-toolbar-table-dimensions-rows' ).val( 3 );
 						$( '#wikieditor-toolbar-table-dimensions-columns' ).val( 3 );
 						$( '#wikieditor-toolbar-table-wikitable' ).on( 'click', function () {
+							// eslint-disable-next-line no-jquery/no-class-state
 							$( '.wikieditor-toolbar-table-preview' ).toggleClass( 'wikitable' );
 						} );
 
@@ -907,7 +911,7 @@
 								$( this ).closest( '.ui-dialog' ).on( 'keypress', function ( e ) {
 									var button;
 									if ( ( e.keyCode || e.which ) === 13 ) {
-										button = $( this ).data( 'dialogaction' ) || $( this ).find( 'button:first' );
+										button = $( this ).data( 'dialogaction' ) || $( this ).find( 'button' ).first();
 										button.click();
 										e.preventDefault();
 									}
@@ -1107,7 +1111,7 @@
 								$( this ).closest( '.ui-dialog' ).on( 'keypress', function ( e ) {
 									var button;
 									if ( ( e.keyCode || e.which ) === 13 ) {
-										button = $( this ).data( 'dialogaction' ) || $( this ).find( 'button:first' );
+										button = $( this ).data( 'dialogaction' ) || $( this ).find( 'button' ).first();
 										button.click();
 										e.preventDefault();
 									}
@@ -1128,7 +1132,7 @@
 									var button;
 									if ( e.which === 13 ) {
 										// Enter
-										button = dialog.data( 'dialogaction' ) || dialog.find( 'button:first' );
+										button = dialog.data( 'dialogaction' ) || dialog.find( 'button' ).first();
 										button.click();
 										e.preventDefault();
 									} else if ( e.which === 27 ) {
