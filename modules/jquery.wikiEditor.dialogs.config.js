@@ -231,8 +231,6 @@
 						$( this ).find( '[rel]' ).each( function () {
 							$( this ).text( mw.msg( $( this ).attr( 'rel' ) ) );
 						} );
-						// Set tabindexes on form fields
-						$.wikiEditor.modules.dialogs.fn.setTabindexes( $( this ).find( 'input' ).not( '[tabindex]' ) );
 						$( '#wikieditor-toolbar-link-int-target' ).attr( 'placeholder',
 							mw.msg( 'wikieditor-toolbar-tool-link-int-target-tooltip' ) );
 						$( '#wikieditor-toolbar-link-int-text' ).attr( 'placeholder',
@@ -764,8 +762,6 @@
 						$( this ).find( '[rel]' ).each( function () {
 							$( this ).text( mw.msg( $( this ).attr( 'rel' ) ) );
 						} );
-						// Set tabindexes on form fields
-						$.wikiEditor.modules.dialogs.fn.setTabindexes( $( this ).find( 'input' ).not( '[tabindex]' ) );
 
 						$( '#wikieditor-toolbar-table-dimensions-rows' ).val( 3 );
 						$( '#wikieditor-toolbar-table-dimensions-columns' ).val( 3 );
@@ -934,8 +930,6 @@
 						$( this ).find( '[rel]' ).each( function () {
 							$( this ).text( mw.msg( $( this ).attr( 'rel' ) ) );
 						} );
-						// Set tabindexes on form fields
-						$.wikiEditor.modules.dialogs.fn.setTabindexes( $( this ).find( 'input' ).not( '[tabindex]' ) );
 
 						// TODO: Find a cleaner way to share this function
 						$( this ).data( 'replaceCallback', function ( mode ) {
