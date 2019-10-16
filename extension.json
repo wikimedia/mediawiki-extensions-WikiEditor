@@ -260,6 +260,7 @@
 				"jquery.cookie",
 				"jquery.throttle-debounce",
 				"jquery.suggestions",
+				"jquery.tabIndex",
 				"jquery.textSelection",
 				"jquery.ui.button",
 				"jquery.ui.dialog",
