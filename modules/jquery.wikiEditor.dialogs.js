@@ -122,6 +122,9 @@
 					.appendTo( $( 'body' ) )
 					.each( module.init )
 					.dialog( configuration );
+				// Set tabindexes on buttons added by .dialog()
+				dialogsModule.fn.setTabindexes( $dialogDiv.closest( '.ui-dialog' )
+					.find( 'button' ).not( '[tabindex]' ) );
 				if ( !( 'resizeme' in module ) || module.resizeme ) {
 					$dialogDiv
 						.on( 'dialogopen', dialogsModule.fn.resize )
@@ -177,6 +180,19 @@
 				$( this ).css( 'white-space', oldWS );
 				$oldHidden.each( function () {
 					$( this ).attr( 'style', $( this ).data( 'oldstyle' ) );
+				} );
+			},
+
+			/**
+			 * Set the right tabindexes on elements in a dialog
+			 *
+			 * @param {Object} $elements Elements to set tabindexes on. If they already have tabindexes, this function can behave a bit weird
+			 */
+			setTabindexes: function ( $elements ) {
+				// Get the highest tab index
+				var tabIndex = $( document ).lastTabIndex() + 1;
+				$elements.each( function () {
+					$( this ).attr( 'tabindex', tabIndex++ );
 				} );
 			}
 		},
