@@ -4,7 +4,20 @@
 			"Pyscowicz"
 		]
 	},
+	"wikieditor-loading": "Ladathaan...",
+	"wikieditor-toolbar-loading": "Ladathaan...",
+	"wikieditor-toolbar-tool-link": "Länkki",
+	"wikieditor-toolbar-tool-link-title": "Lissää länkki",
+	"wikieditor-toolbar-tool-link-cancel": "Lopeta",
+	"wikieditor-toolbar-tool-link-int-target-status-external": "Ulkoinen länkki",
+	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Sisäinen länkki",
+	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Ulkoinen länkki",
+	"wikieditor-toolbar-tool-file-title": "Lissää fiili",
 	"wikieditor-toolbar-file-target": "Fiilinimi:",
 	"wikieditor-toolbar-tool-file-cancel": "Lopeta",
-	"wikieditor-toolbar-tool-file-upload": "Lattaa ylös"
+	"wikieditor-toolbar-tool-file-upload": "Lattaa ylös",
+	"wikieditor-toolbar-tool-reference-cancel": "Lopeta",
+	"wikieditor-toolbar-tool-table-insert": "Lissää",
+	"wikieditor-toolbar-tool-table-cancel": "Lopeta",
+	"wikieditor-toolbar-tool-replace-button-findnext": "Löyä seuraava"
 }
