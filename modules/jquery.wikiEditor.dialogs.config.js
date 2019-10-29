@@ -229,6 +229,7 @@
 						} );
 						// Set labels of tabs based on rel values
 						$( this ).find( '[rel]' ).each( function () {
+							// eslint-disable-next-line mediawiki/msg-doc
 							$( this ).text( mw.msg( $( this ).attr( 'rel' ) ) );
 						} );
 						$( '#wikieditor-toolbar-link-int-target' ).attr( 'placeholder',
@@ -520,10 +521,10 @@
 								// Execute the action associated with the first button
 								// when the user presses Enter
 								$( this ).closest( '.ui-dialog' ).on( 'keypress', function ( e ) {
-									var button;
+									var $button;
 									if ( ( e.keyCode || e.which ) === 13 ) {
-										button = $( this ).data( 'dialogaction' ) || $( this ).find( 'button' ).first();
-										button.click();
+										$button = $( this ).data( 'dialogaction' ) || $( this ).find( 'button' ).first();
+										$button.trigger( 'click' );
 										e.preventDefault();
 									}
 								} );
@@ -555,6 +556,7 @@
 							.attr( 'size', defaultMsg.length );
 						$( this ).find( '[rel]' )
 							.text( function () {
+								// eslint-disable-next-line mediawiki/msg-doc
 								return mw.msg( $( this ).attr( 'rel' ) );
 							} )
 							.removeAttr( 'rel' );
@@ -736,11 +738,11 @@
 								// Execute the action associated with the first button
 								// when the user presses Enter
 								$( this ).closest( '.ui-dialog' ).on( 'keypress', function ( e ) {
-									var button;
+									var $button;
 									if ( e.which === 13 ) {
-										button = $( this ).data( 'dialogaction' ) ||
+										$button = $( this ).data( 'dialogaction' ) ||
 											$( this ).find( 'button' ).first();
-										button.click();
+										$button.trigger( 'click' );
 										e.preventDefault();
 									}
 								} );
@@ -760,6 +762,7 @@
 					htmlTemplate: 'dialogInsertTable.html',
 					init: function () {
 						$( this ).find( '[rel]' ).each( function () {
+							// eslint-disable-next-line mediawiki/msg-doc
 							$( this ).text( mw.msg( $( this ).attr( 'rel' ) ) );
 						} );
 
@@ -905,10 +908,10 @@
 								// Execute the action associated with the first button
 								// when the user presses Enter
 								$( this ).closest( '.ui-dialog' ).on( 'keypress', function ( e ) {
-									var button;
+									var $button;
 									if ( ( e.keyCode || e.which ) === 13 ) {
-										button = $( this ).data( 'dialogaction' ) || $( this ).find( 'button' ).first();
-										button.click();
+										$button = $( this ).data( 'dialogaction' ) || $( this ).find( 'button' ).first();
+										$button.trigger( 'click' );
 										e.preventDefault();
 									}
 								} );
@@ -928,6 +931,7 @@
 					htmlTemplate: 'dialogReplace.html',
 					init: function () {
 						$( this ).find( '[rel]' ).each( function () {
+							// eslint-disable-next-line mediawiki/msg-doc
 							$( this ).text( mw.msg( $( this ).attr( 'rel' ) ) );
 						} );
 
@@ -1091,7 +1095,7 @@
 							}
 						},
 						open: function () {
-							var dialog, context, textbox,
+							var $dialog, context, $textbox,
 								that = this;
 							$( this ).data( 'offset', 0 );
 							$( this ).data( 'matchIndex', 0 );
@@ -1103,10 +1107,10 @@
 								// Execute the action associated with the first button
 								// when the user presses Enter
 								$( this ).closest( '.ui-dialog' ).on( 'keypress', function ( e ) {
-									var button;
+									var $button;
 									if ( ( e.keyCode || e.which ) === 13 ) {
-										button = $( this ).data( 'dialogaction' ) || $( this ).find( 'button' ).first();
-										button.click();
+										$button = $( this ).data( 'dialogaction' ) || $( this ).find( 'button' ).first();
+										$button.trigger( 'click' );
 										e.preventDefault();
 									}
 								} );
@@ -1116,18 +1120,18 @@
 									$( this ).closest( '.ui-dialog' ).data( 'dialogaction', this );
 								} );
 							}
-							dialog = $( this ).closest( '.ui-dialog' );
+							$dialog = $( this ).closest( '.ui-dialog' );
 							that = this;
 							context = $( this ).data( 'context' );
-							textbox = context.$textarea;
+							$textbox = context.$textarea;
 
-							$( textbox )
+							$textbox
 								.on( 'keypress.srdialog', function ( e ) {
-									var button;
+									var $button;
 									if ( e.which === 13 ) {
 										// Enter
-										button = dialog.data( 'dialogaction' ) || dialog.find( 'button' ).first();
-										button.click();
+										$button = $dialog.data( 'dialogaction' ) || $dialog.find( 'button' ).first();
+										$button.trigger( 'click' );
 										e.preventDefault();
 									} else if ( e.which === 27 ) {
 										// Escape
@@ -1137,8 +1141,8 @@
 						},
 						close: function () {
 							var context = $( this ).data( 'context' ),
-								textbox = context.$textarea;
-							$( textbox ).off( 'keypress.srdialog' );
+								$textbox = context.$textarea;
+							$textbox.off( 'keypress.srdialog' );
 							$( this ).closest( '.ui-dialog' ).data( 'dialogaction', false );
 						}
 					}

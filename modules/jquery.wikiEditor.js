@@ -115,6 +115,7 @@
 				if ( Array.isArray( p ) && p.length >= 2 ) {
 					return mw.message.apply( mw.message, p ).text();
 				} else {
+					// eslint-disable-next-line mediawiki/msg-doc
 					return mw.message( p ).text();
 				}
 			} else {
@@ -152,6 +153,7 @@
 				if ( Array.isArray( p ) && p.length >= 2 ) {
 					return mw.message.apply( mw.message, p ).escaped();
 				} else {
+					// eslint-disable-next-line mediawiki/msg-doc
 					return mw.message( p ).escaped();
 				}
 			} else {
