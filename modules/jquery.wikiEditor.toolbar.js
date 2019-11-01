@@ -399,8 +399,9 @@
 								return false;
 							} )
 							.on( 'click', function ( e ) {
+								var $options = $( this ).data( 'options' );
 								// eslint-disable-next-line no-jquery/no-class-state
-								$( this ).data( 'options' ).closest( '.tool-select' ).toggleClass( 'options-shown' );
+								$options.closest( '.tool-select' ).toggleClass( 'options-shown' );
 								e.preventDefault();
 								return false;
 							} )
@@ -561,6 +562,7 @@
 					if ( character.titleMsg !== undefined ) {
 						return mw.html.element(
 							'span',
+							// eslint-disable-next-line mediawiki/msg-doc
 							{ rel: character.label, title: mw.msg( character.titleMsg ) },
 							character.label
 						);
