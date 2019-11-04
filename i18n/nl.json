@@ -16,7 +16,8 @@
 			"Dinosaur918",
 			"Mainframe98",
 			"Mar(c)",
-			"Bdijkstra"
+			"Bdijkstra",
+			"Elroy"
 		]
 	},
 	"wikieditor": "Uitgebreide tekstverwerker voor wikitekst",
@@ -59,7 +60,7 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Interne koppeling",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Externe koppeling",
 	"wikieditor-toolbar-tool-link-empty": "U hebt niets opgegeven om naar te verwijzen.",
-	"wikieditor-toolbar-tool-file": "Ingebed bestand",
+	"wikieditor-toolbar-tool-file": "Afbeeldingen en media",
 	"wikieditor-toolbar-tool-file-example": "Voorbeeld.jpg",
 	"wikieditor-toolbar-tool-file-title": "Bestand toevoegen",
 	"wikieditor-toolbar-file-target": "Bestandsnaam:",

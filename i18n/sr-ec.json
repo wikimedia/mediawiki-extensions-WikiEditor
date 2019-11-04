@@ -16,7 +16,8 @@
 			"Acamicamacaraca",
 			"Obsuser",
 			"BadDog",
-			"Милан Јелисавчић"
+			"Милан Јелисавчић",
+			"Zoranzoki21"
 		]
 	},
 	"wikieditor": "Напредни интефејс за уређивање викитекста",
@@ -59,7 +60,7 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Унутрашња веза",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Спољашња веза",
 	"wikieditor-toolbar-tool-link-empty": "Ништа нисте унели за повезивање.",
-	"wikieditor-toolbar-tool-file": "Уграђивање датотеке",
+	"wikieditor-toolbar-tool-file": "Слике и медији",
 	"wikieditor-toolbar-tool-file-example": "Пример.jpg",
 	"wikieditor-toolbar-tool-file-title": "Уграђивање датотеке",
 	"wikieditor-toolbar-file-target": "Име датотеке:",
