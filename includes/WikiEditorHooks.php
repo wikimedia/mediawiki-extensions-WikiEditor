@@ -33,7 +33,9 @@ class WikiEditorHooks {
 		}
 		// Sample 6.25%
 		$samplingRate = $wgWMESchemaEditAttemptStepSamplingRate ?? 0.0625;
-		$inSample = EventLogging::sessionInSample( 1 / $samplingRate, $data['editing_session_id'] );
+		$inSample = EventLogging::sessionInSample(
+			(int)( 1 / $samplingRate ), $data['editing_session_id']
+		);
 		$shouldOversample = $extensionRegistry->isLoaded( 'WikimediaEvents' ) &&
 			WikimediaEventsHooks::shouldSchemaEditAttemptStepOversample( $article->getContext() );
 		if ( !$inSample && !$shouldOversample ) {
