@@ -97,7 +97,7 @@ class WikiEditorHooks {
 		// changes.
 		if ( ExtensionRegistry::getInstance()->isLoaded( 'EventLogging' ) && !$request->wasPosted() ) {
 			$data = [];
-			$data['editing_session_id'] = self::getEditingStatsId();
+			$data['editing_session_id'] = self::getEditingStatsId( $request );
 			if ( $request->getVal( 'section' ) ) {
 				$data['init_type'] = 'section';
 			} else {
@@ -131,10 +131,10 @@ class WikiEditorHooks {
 		}
 
 		$req = $outputPage->getRequest();
-		$editingStatsId = $req->getVal( 'editingStatsId' );
-		if ( !$editingStatsId || !$req->wasPosted() ) {
-			$editingStatsId = self::getEditingStatsId();
-		}
+		$editingStatsId = self::getEditingStatsId( $req );
+
+		$shouldOversample = ExtensionRegistry::getInstance()->isLoaded( 'WikimediaEvents' ) &&
+			WikimediaEventsHooks::shouldSchemaEditAttemptStepOversample( $outputPage->getContext() );
 
 		$outputPage->addHTML(
 			Xml::element(
@@ -147,6 +147,20 @@ class WikiEditorHooks {
 				]
 			)
 		);
+
+		if ( $shouldOversample ) {
+			$outputPage->addHTML(
+				Xml::element(
+					'input',
+					[
+						'type' => 'hidden',
+						'name' => 'editingStatsOversample',
+						'id' => 'editingStatsOversample',
+						'value' => 1
+					]
+				)
+			);
+		}
 	}
 
 	/**
@@ -246,9 +260,14 @@ class WikiEditorHooks {
 
 	/**
 	 * Gets a 32 character alphanumeric random string to be used for stats.
+	 * @param WebRequest $request
 	 * @return string
 	 */
-	private static function getEditingStatsId() {
+	private static function getEditingStatsId( WebRequest $request ) {
+		$fromRequest = $request->getVal( 'editingStatsId' );
+		if ( $fromRequest ) {
+			return $fromRequest;
+		}
 		if ( !self::$statsId ) {
 			self::$statsId = MWCryptRand::generateHex( 32 );
 		}
