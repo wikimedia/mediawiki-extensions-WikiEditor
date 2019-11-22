@@ -110,7 +110,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Pirmskats",
 	"wikieditor-toolbar-tool-table-insert": "Ievietot",
 	"wikieditor-toolbar-tool-table-cancel": "Atcelt",
-	"wikieditor-toolbar-tool-table-toomany": "Ar šī dialoga loga palīdzību nav iespējams ievietot tabulu, kas satur vairāk nekā $1 šūnas.",
+	"wikieditor-toolbar-tool-table-toomany": "Ar šī dialoga loga palīdzību nav iespējams ievietot tabulu, kas satur vairāk nekā $1 {{PLURAL:$1|šūnas|šūnu|šūnas}}.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Ievadītais rindu vai kolonnu skaits nav korekts.",
 	"wikieditor-toolbar-tool-table-zero": "Nav iespējams ievietot tabulu, kas nesatur nevienu rindu vai kolonnu.",
 	"wikieditor-toolbar-tool-replace": "Meklēt un aizstāt",
