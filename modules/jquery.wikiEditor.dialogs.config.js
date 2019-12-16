@@ -631,7 +631,7 @@
 									} );
 
 								$( this ).dialog( 'close' );
-								$( 'body' ).append( windowManager.$element );
+								windowManager.$element.appendTo( document.body );
 								windowManager.addWindows( [ uploadDialog ] );
 								windowManager.openWindow( uploadDialog );
 

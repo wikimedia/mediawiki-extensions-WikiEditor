@@ -17,7 +17,7 @@
 		 */
 		fallbackChain = ( function () {
 			// eslint-disable-next-line no-jquery/no-class-state
-			var isRTL = $( 'body' ).hasClass( 'rtl' ),
+			var isRTL = $( document.body ).hasClass( 'rtl' ),
 				chain = mw.language.getFallbackLanguageChain();
 
 			// Do not fallback to 'en'
