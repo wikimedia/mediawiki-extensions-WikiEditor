@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Léon973"
+			"Léon973",
+			"LeGuyanaisPure"
 		]
 	},
-	"wikieditor-toolbar-section-characters": "Karagtèr èspésyal"
+	"wikieditor-toolbar-section-advanced": "Anvansé",
+	"wikieditor-toolbar-section-characters": "Karagtèr èspésyal",
+	"wikieditor-toolbar-section-help": "Lèd"
 }
