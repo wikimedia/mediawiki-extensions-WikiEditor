@@ -120,7 +120,7 @@
 					.attr( 'id', module.id )
 					.append( $content )
 					.data( 'context', context )
-					.appendTo( $( 'body' ) )
+					.appendTo( document.body )
 					.each( module.init )
 					.dialog( configuration );
 				if ( !( 'resizeme' in module ) || module.resizeme ) {
@@ -188,7 +188,7 @@
 		quickDialog: function ( body, settings ) {
 			$( '<div>' )
 				.text( body )
-				.appendTo( $( 'body' ) )
+				.appendTo( document.body )
 				.dialog( $.extend( {
 					bgiframe: true,
 					modal: true
