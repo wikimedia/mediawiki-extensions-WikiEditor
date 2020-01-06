@@ -7,7 +7,8 @@
 			"Teslaton",
 			"Macofe",
 			"Robert Važan",
-			"Vegetator"
+			"Vegetator",
+			"Luky001"
 		]
 	},
 	"wikieditor": "Pokročilé rozhranie na úpravu wikitextu",
@@ -50,7 +51,7 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Interný odkaz",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Externý odkaz",
 	"wikieditor-toolbar-tool-link-empty": "Nezadali ste na čo má odkaz odkazovať.",
-	"wikieditor-toolbar-tool-file": "Vložený súbor",
+	"wikieditor-toolbar-tool-file": "Obrázky a multimédiá",
 	"wikieditor-toolbar-tool-file-example": "Príklad.jpg",
 	"wikieditor-toolbar-tool-file-title": "Vložiť súbor",
 	"wikieditor-toolbar-file-target": "Názov súboru:",

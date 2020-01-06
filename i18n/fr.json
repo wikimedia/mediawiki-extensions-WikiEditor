@@ -21,7 +21,8 @@
 			"Wladek92",
 			"Niridya",
 			"Od1n",
-			"Thibaut120094"
+			"Thibaut120094",
+			"Pols12"
 		]
 	},
 	"wikieditor": "Interface avancée de modification de wikitexte",
@@ -31,7 +32,7 @@
 	"wikieditor-toolbar": "Barre d’outils de modification",
 	"wikieditor-toolbar-desc": "Barre d’outils de modification avec l’utilisabilité améliorée",
 	"wikieditor-toolbar-preference": "Activer la barre d’outils de modification",
-	"wikieditor-toolbar-preference-help": "Ceci est parfois appelé l’« éditeur wikitexte 2010 ».",
+	"wikieditor-toolbar-preference-help": "Elle est parfois appelée « éditeur de wikicode 2010 ».",
 	"wikieditor-toolbar-loading": "Chargement...",
 	"wikieditor-toolbar-tool-bold": "Gras",
 	"wikieditor-toolbar-tool-bold-example": "Texte en gras",
