@@ -245,15 +245,9 @@ class WikiEditorHooks {
 			'img_frameless',
 		];
 		$magicWords = [];
-		if ( class_exists( MagicWordFactory::class ) ) {
-			$factory = MediaWikiServices::getInstance()->getMagicWordFactory();
-		}
+		$factory = MediaWikiServices::getInstance()->getMagicWordFactory();
 		foreach ( $requiredMagicWords as $name ) {
-			if ( class_exists( MagicWordFactory::class ) ) {
-				$magicWords[$name] = $factory->get( $name )->getSynonym( 0 );
-			} else {
-				$magicWords[$name] = MagicWord::get( $name )->getSynonym( 0 );
-			}
+			$magicWords[$name] = $factory->get( $name )->getSynonym( 0 );
 		}
 		return $magicWords;
 	}
