@@ -15,7 +15,8 @@
 			"WikiPhoenix",
 			"Macofe",
 			"Magol",
-			"Mjälten"
+			"Mjälten",
+			"Lejonel"
 		]
 	},
 	"wikieditor": "Avancerat gränssnitt för redigering av wikitext",
@@ -25,7 +26,7 @@
 	"wikieditor-toolbar": "Redigeringsverktygsrad",
 	"wikieditor-toolbar-desc": "Redigeringsverktygsrad med utökad användbarhet",
 	"wikieditor-toolbar-preference": "Aktivera redigeringsverktygsraden",
-	"wikieditor-toolbar-preference-help": "Detta kallas av och till för \"#2010-redigering programmet för wikikode\".",
+	"wikieditor-toolbar-preference-help": "Detta kallas ibland \"2010 års wikitextredigerare\".",
 	"wikieditor-toolbar-loading": "Laddar...",
 	"wikieditor-toolbar-tool-bold": "Fet",
 	"wikieditor-toolbar-tool-bold-example": "Fet text",
