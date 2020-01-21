@@ -13,7 +13,8 @@
 			"Shirayuki",
 			"Shizhao",
 			"Simon Shek",
-			"Xiaomingyan"
+			"Xiaomingyan",
+			"VulpesVulpes825"
 		]
 	},
 	"wikieditor": "高级维基文本编辑界面",
@@ -22,7 +23,7 @@
 	"wikieditor-loading": "正在载入……",
 	"wikieditor-toolbar": "编辑工具栏",
 	"wikieditor-toolbar-desc": "有增强的使用性能的页面编辑工具栏",
-	"wikieditor-toolbar-preference": "启用增强的编辑工具栏",
+	"wikieditor-toolbar-preference": "启用编辑工具栏",
 	"wikieditor-toolbar-loading": "正在载入……",
 	"wikieditor-toolbar-tool-bold": "粗体",
 	"wikieditor-toolbar-tool-bold-example": "粗体文字",
@@ -55,7 +56,7 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "内部链接",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "外部链接",
 	"wikieditor-toolbar-tool-link-empty": "您没有输入链接内容。",
-	"wikieditor-toolbar-tool-file": "嵌入文件",
+	"wikieditor-toolbar-tool-file": "图片与媒体",
 	"wikieditor-toolbar-tool-file-example": "范例.jpg（在这里输入文件名）",
 	"wikieditor-toolbar-tool-file-title": "插入文件",
 	"wikieditor-toolbar-file-target": "文件名：",
@@ -135,6 +136,7 @@
 	"wikieditor-toolbar-tool-replace-success": "完成了$1次{{PLURAL:$1|替换}}。",
 	"wikieditor-toolbar-tool-replace-emptysearch": "您没有输入查找内容。",
 	"wikieditor-toolbar-tool-replace-invalidregex": "您输入的正则表达式无效：$1",
+	"wikieditor-toolbar-tool-replace-word": "全字匹配",
 	"wikieditor-toolbar-section-characters": "特殊字符",
 	"wikieditor-toolbar-section-help": "帮助",
 	"wikieditor-toolbar-help-heading-description": "说明",
