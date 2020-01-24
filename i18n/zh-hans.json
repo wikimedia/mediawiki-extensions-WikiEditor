@@ -24,6 +24,7 @@
 	"wikieditor-toolbar": "编辑工具栏",
 	"wikieditor-toolbar-desc": "有增强的使用性能的页面编辑工具栏",
 	"wikieditor-toolbar-preference": "启用编辑工具栏",
+	"wikieditor-toolbar-preference-help": "这有时被称作“2010 wiki 文字编辑器”。",
 	"wikieditor-toolbar-loading": "正在载入……",
 	"wikieditor-toolbar-tool-bold": "粗体",
 	"wikieditor-toolbar-tool-bold-example": "粗体文字",
