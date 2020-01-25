@@ -400,22 +400,27 @@
 							.attr( 'rel', 'wikiEditor-ui-view-' + options.name )
 							.addClass( context.view === options.name ? 'current' : null )
 							.append( $( '<a>' )
-								.attr( 'href', '#' )
+								.attr( 'tabindex', 0 )
 								.on( 'mousedown', function () {
 									// No dragging!
 									return false;
 								} )
-								.on( 'click', function ( event ) {
-									context.$ui.find( '.wikiEditor-ui-view' ).hide();
-									context.$ui.find( '.' + $( this ).parent().attr( 'rel' ) ).show();
-									context.$tabs.find( 'div' ).removeClass( 'current' );
-									$( this ).parent().addClass( 'current' );
-									$( this ).trigger( 'blur' );
-									if ( 'init' in options && typeof options.init === 'function' ) {
-										options.init( context );
+								.on( 'click keydown', function ( event ) {
+									if (
+										event.type === 'click' ||
+										event.type === 'keydown' && event.key === 'Enter'
+									) {
+										context.$ui.find( '.wikiEditor-ui-view' ).hide();
+										context.$ui.find( '.' + $( this ).parent().attr( 'rel' ) ).show();
+										context.$tabs.find( 'div' ).removeClass( 'current' );
+										$( this ).parent().addClass( 'current' );
+										$( this ).trigger( 'blur' );
+										if ( 'init' in options && typeof options.init === 'function' ) {
+											options.init( context );
+										}
+										event.preventDefault();
+										return false;
 									}
-									event.preventDefault();
-									return false;
 								} )
 								.text( $.wikiEditor.autoMsg( options, 'title' ) )
 							)

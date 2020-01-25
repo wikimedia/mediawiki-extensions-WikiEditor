@@ -308,7 +308,7 @@
 						} else {
 							$button = $( '<a>' )
 								.attr( {
-									href: '#',
+									tabindex: 0,
 									title: label,
 									rel: id,
 									role: 'button',
@@ -347,12 +347,17 @@
 									);
 								} );
 							} else {
-								$button.on( 'click', function ( e ) {
-									toolbarModule.fn.doAction(
-										context, tool.action
-									);
-									e.preventDefault();
-									return false;
+								$button.on( 'click keydown', function ( e ) {
+									if (
+										e.type === 'click' ||
+										e.type === 'keydown' && e.key === 'Enter'
+									) {
+										toolbarModule.fn.doAction(
+											context, tool.action
+										);
+										e.preventDefault();
+										return false;
+									}
 								} );
 							}
 						}
@@ -373,18 +378,23 @@
 											e.preventDefault();
 											return false;
 										} )
-										.on( 'click', function ( e ) {
-											toolbarModule.fn.doAction(
-												$( this ).data( 'context' ), $( this ).data( 'action' ), $( this )
-											);
-											// Hide the dropdown
-											$( this ).closest( '.tool-select' ).removeClass( 'options-shown' );
-											e.preventDefault();
-											return false;
+										.on( 'click keydown', function ( e ) {
+											if (
+												e.type === 'click' ||
+												e.type === 'keydown' && e.key === 'Enter'
+											) {
+												toolbarModule.fn.doAction(
+													$( this ).data( 'context' ), $( this ).data( 'action' ), $( this )
+												);
+												// Hide the dropdown
+												$( this ).closest( '.tool-select' ).removeClass( 'options-shown' );
+												e.preventDefault();
+												return false;
+											}
 										} )
 										.text( optionLabel )
 										.addClass( 'option' )
-										.attr( { rel: option, href: '#' } )
+										.attr( { rel: option, tabindex: 0 } )
 								);
 							}
 						}
@@ -392,18 +402,24 @@
 							.addClass( 'label' )
 							.text( label )
 							.data( 'options', $options )
-							.attr( 'href', '#' )
+							.attr( 'tabindex', 0 )
 							.on( 'mousedown', function ( e ) {
 								// No dragging!
 								e.preventDefault();
 								return false;
 							} )
-							.on( 'click', function ( e ) {
-								var $options = $( this ).data( 'options' );
-								// eslint-disable-next-line no-jquery/no-class-state
-								$options.closest( '.tool-select' ).toggleClass( 'options-shown' );
-								e.preventDefault();
-								return false;
+							.on( 'click keydown', function ( e ) {
+								var $options;
+								if (
+									e.type === 'click' ||
+									e.type === 'keydown' && e.key === 'Enter'
+								) {
+									$options = $( this ).data( 'options' );
+									// eslint-disable-next-line no-jquery/no-class-state
+									$options.closest( '.tool-select' ).toggleClass( 'options-shown' );
+									e.preventDefault();
+									return false;
+								}
 							} )
 						);
 						$select.append( $( '<div>' ).addClass( 'menu' ).append( $options ) );
@@ -585,7 +601,7 @@
 					$( '<a>' )
 						.addClass( selected === id ? 'current' : null )
 						.attr( {
-							href: '#',
+							tabindex: 0,
 							role: 'button',
 							'aria-pressed': 'false',
 							'aria-controls': 'wikiEditor-section-' + id
@@ -600,7 +616,13 @@
 							e.preventDefault();
 							return false;
 						} )
-						.on( 'click', function ( e ) {
+						.on( 'click keydown', function ( e ) {
+							if (
+								e.type !== 'click' &&
+								( e.type !== 'keydown' || e.key !== 'Enter' )
+							) {
+								return;
+							}
 							// We have to set aria-pressed over here, as NVDA wont recognize it
 							// if we do it in the below .each as it seems
 							$( this ).attr( 'aria-pressed', 'true' );
