@@ -27,9 +27,6 @@
 		"GetPreferences": [
 			"WikiEditorHooks::getPreferences"
 		],
-		"EditPageBeforeEditToolbar": [
-			"WikiEditorHooks::EditPageBeforeEditToolbar"
-		],
 		"EditPage::showEditForm:fields": [
 			"WikiEditorHooks::editPageShowEditFormFields"
 		],
