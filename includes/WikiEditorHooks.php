@@ -164,25 +164,6 @@ class WikiEditorHooks {
 	}
 
 	/**
-	 * EditPageBeforeEditToolbar hook
-	 *
-	 * Disable the old toolbar if the new one is enabled
-	 *
-	 * @param string &$toolbar
-	 * @return bool
-	 */
-	public static function EditPageBeforeEditToolbar( &$toolbar ) {
-		global $wgUser;
-		if ( $wgUser->getOption( 'usebetatoolbar' ) ) {
-			$toolbar = '';
-			// Return false to signify that the toolbar has been over-written, so
-			// the old toolbar code shouldn't be added to the page.
-			return false;
-		}
-		return true;
-	}
-
-	/**
 	 * GetPreferences hook
 	 *
 	 * Adds WikiEditor-related items to the preferences
