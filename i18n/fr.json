@@ -22,7 +22,8 @@
 			"Niridya",
 			"Od1n",
 			"Thibaut120094",
-			"Pols12"
+			"Pols12",
+			"Derugon"
 		]
 	},
 	"wikieditor": "Interface avancée de modification de wikitexte",
@@ -128,6 +129,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Prévisualisation",
 	"wikieditor-toolbar-tool-table-insert": "Insérer",
 	"wikieditor-toolbar-tool-table-cancel": "Annuler",
+	"wikieditor-toolbar-tool-table-example-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec purus diam. Sed aliquam imperdiet nunc quis lacinia. Donec rutrum consectetur placerat. Sed volutpat neque non purus faucibus id ultricies enim euismod.",
 	"wikieditor-toolbar-tool-table-toomany": "Il n’est pas possible d’insérer un tableau de plus de $1 cellule{{PLURAL:$1||s}} avec cet outil.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Vous n’avez pas entré un nombre de lignes ou de colonnes valide.",
 	"wikieditor-toolbar-tool-table-zero": "Vous ne pouvez pas insérer un tableau sans ligne ou sans colonne.",
