@@ -278,7 +278,7 @@
 			},
 			buildTool: function ( context, id, tool ) {
 				var i, label, $button, config, icon, $select, $options, oouiButton,
-					option, optionLabel;
+					option, optionLabel, menuId;
 				if ( 'filters' in tool ) {
 					for ( i = 0; i < tool.filters.length; i++ ) {
 						if ( $( tool.filters[ i ] ).length === 0 ) {
@@ -370,6 +370,7 @@
 						}
 						return $button;
 					case 'select':
+						menuId = 'menu-' + ( new Date() ).getTime();
 						$select = $( '<div>' )
 							.attr( { rel: id, class: 'tool tool-select' } );
 						$options = $( '<div>' ).addClass( 'options' );
@@ -401,7 +402,7 @@
 										} )
 										.text( optionLabel )
 										.addClass( 'option' )
-										.attr( { rel: option, tabindex: 0 } )
+										.attr( { rel: option, tabindex: 0, role: 'menuitem' } )
 								);
 							}
 						}
@@ -409,21 +410,23 @@
 							.addClass( 'label' )
 							.text( label )
 							.data( 'options', $options )
-							.attr( 'tabindex', 0 )
+							.attr( { role: 'button', tabindex: 0, 'aria-expanded': false, 'aria-controls': menuId, 'aria-haspopup': 'menu' } )
 							.on( 'mousedown', function ( e ) {
 								// No dragging!
 								e.preventDefault();
 								return false;
 							} )
 							.on( 'click keydown', function ( e ) {
-								var $options;
+								var $options, canShowOptions;
 								if (
 									e.type === 'click' ||
 									e.type === 'keydown' && e.key === 'Enter'
 								) {
 									$options = $( this ).data( 'options' );
 									// eslint-disable-next-line no-jquery/no-class-state
-									$options.closest( '.tool-select' ).toggleClass( 'options-shown' );
+									canShowOptions = !$options.closest( '.tool-select' ).hasClass( 'options-shown' );
+									$options.closest( '.tool-select' ).toggleClass( 'options-shown', canShowOptions );
+									$( this ).attr( 'aria-expanded', canShowOptions.toString() );
 									e.preventDefault();
 									return false;
 								}
@@ -610,7 +613,7 @@
 						.attr( {
 							tabindex: 0,
 							role: 'button',
-							'aria-pressed': 'false',
+							'aria-expanded': ( selected === id ).toString(),
 							'aria-controls': 'wikiEditor-section-' + id
 						} )
 						.text( $.wikiEditor.autoMsg( section, 'label' ) )
@@ -643,17 +646,19 @@
 							// eslint-disable-next-line no-jquery/no-class-state
 							show = !$section.hasClass( 'section-visible' );
 							$sections.find( '.section-visible' )
-								.attr( 'aria-expanded', 'false' )
 								.removeClass( 'section-visible' )
 								.addClass( 'section-hidden' );
 
+							$( this ).attr( 'aria-expanded', 'false' );
 							$( this ).parent().parent().find( 'a' ).removeClass( 'current' );
 							if ( show ) {
 								$section
 									.removeClass( 'section-hidden' )
 									.attr( 'aria-expanded', 'true' )
 									.addClass( 'section-visible' );
-								$( this ).addClass( 'current' );
+
+								$( this ).attr( 'aria-expanded', 'true' )
+									.addClass( 'current' );
 							}
 
 							// Save the currently visible section
