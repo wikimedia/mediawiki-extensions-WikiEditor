@@ -61,6 +61,12 @@
 			],
 			"skinStyles": {
 				"default": [
+					"jquery.wikiEditor.toolbar-wikimedia.less"
+				],
+				"monobook": [
+					"jquery.wikiEditor.toolbar-apex.less"
+				],
+				"apex": [
 					"jquery.wikiEditor.toolbar-apex.less"
 				]
 			},
