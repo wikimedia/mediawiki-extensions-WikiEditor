@@ -126,7 +126,7 @@
 	"wikieditor-toolbar-tool-table-zero": "Sıfır satır veya sütuna sahip bir tablo ekleyemezsiniz.",
 	"wikieditor-toolbar-tool-replace": "Ara ve değiştir",
 	"wikieditor-toolbar-tool-replace-title": "Ara ve değiştir",
-	"wikieditor-toolbar-tool-replace-search": "Şunun için ara:",
+	"wikieditor-toolbar-tool-replace-search": "Şunun ara:",
 	"wikieditor-toolbar-tool-replace-replace": "Şununla değiştir:",
 	"wikieditor-toolbar-tool-replace-case": "Büyük küçük harf duyarlı",
 	"wikieditor-toolbar-tool-replace-regex": "Arama dizesine bir düzenli ifade muamelesi yap",
