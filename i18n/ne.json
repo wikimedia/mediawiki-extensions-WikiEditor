@@ -3,12 +3,13 @@
 		"authors": [
 			"Bhawani Gautam",
 			"NehalDaveND",
-			"राम प्रसाद जोशी"
+			"राम प्रसाद जोशी",
+			"हिमाल सुबेदी"
 		]
 	},
-	"wikieditor-loading": "लोड हुदैछ...",
+	"wikieditor-loading": "खुल्दै छ…",
 	"wikieditor-toolbar": "सम्पादन उपकरणपट्टी",
-	"wikieditor-toolbar-loading": "लोड हुदैछ...",
+	"wikieditor-toolbar-loading": "खुल्दै छ…",
 	"wikieditor-toolbar-tool-bold": "गाढा",
 	"wikieditor-toolbar-tool-bold-example": "गाढा अक्षर",
 	"wikieditor-toolbar-tool-italic": "छड्के",
