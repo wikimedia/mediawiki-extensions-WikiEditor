@@ -213,6 +213,7 @@ class WikiEditorHooks {
 
 	/**
 	 * Expose useful magic words which are used by the wikieditor toolbar
+	 * @return string[]
 	 */
 	private static function getMagicWords() {
 		$requiredMagicWords = [
