@@ -40,31 +40,58 @@
 		position: relative;
 
 		span.tab {
-			display: block;
+			position: relative;
 			float: left;
 			line-height: 32px;
 
-			a,
-			a:visited {
-				.background-image-svg('images/toolbar/arrow-ltr.svg', 'images/toolbar/arrow-ltr.png');
-				background-position: left center;
-				background-repeat: no-repeat;
+			a {
 				color: #0645ad;
 				cursor: pointer;
-				display: inline-block;
-				float: left;
+				display: block;
 				height: 32px;
 				padding-left: 18px;
 				padding-right: 12px;
+
+				&:before {
+					content: '';
+					background-image: url( images/toolbar/arrow-down.svg );
+					background-position: left center;
+					background-repeat: no-repeat;
+					display: block;
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 16px;
+					height: 32px;
+					.transition( ~'transform 100ms' );
+
+					body.ltr & {
+						.transform( rotate( -90deg ) );
+					}
+
+					body.rtl & {
+						.transform( rotate( 90deg ) );
+					}
+				}
+			}
+
+			a:visited {
+				color: #0645ad;
 			}
 
 			a.current,
 			a.current:visited {
-				.background-image-svg('images/toolbar/arrow-down.svg', 'images/toolbar/arrow-down.png');
 				color: #222;
 
 				&:hover {
 					text-decoration: none;
+				}
+
+				&:before {
+					body.ltr &,
+					body.rtl & {
+						.transform( rotate( 0 ) );
+					}
 				}
 			}
 		}
@@ -120,9 +147,7 @@
 			background-color: #fff;
 
 			.label {
-				.background-image-svg( 'images/toolbar/arrow-down.svg', 'images/toolbar/arrow-down.png' );
-				background-position: center right;
-				background-repeat: no-repeat;
+				position: relative;
 				padding: 0;
 				margin: 0;
 				padding-left: 4px;
@@ -131,10 +156,23 @@
 				cursor: pointer;
 				text-decoration: none;
 				color: #222;
+
+				&:after {
+					content: '';
+					background-image: url( images/toolbar/arrow-down.svg );
+					background-position: right center;
+					background-repeat: no-repeat;
+					display: block;
+					position: absolute;
+					top: 0;
+					right: 0;
+					width: 16px;
+					height: 32px;
+				}
 			}
 
-			&.options-shown .label {
-				.background-image-svg( 'images/toolbar/arrow-up.svg', 'images/toolbar/arrow-up.png' );
+			&.options-shown .label:after {
+				.transform( rotate( 180deg ) );
 			}
 
 			.options {
