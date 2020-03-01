@@ -54,9 +54,7 @@
 
 				&:before {
 					content: '';
-					background-image: url( images/toolbar/arrow-down.svg );
-					background-position: left center;
-					background-repeat: no-repeat;
+					background: url( images/toolbar/arrow-down.svg ) center no-repeat;
 					display: block;
 					position: absolute;
 					top: 0;
@@ -120,9 +118,7 @@
 			border: 0;
 			height: 22px;
 			line-height: 22px;
-			margin: 2px;
-			margin-left: 5px;
-			margin-right: 8px;
+			margin: 2px 8px 2px 5px;
 			color: #54595d;
 			cursor: default;
 		}
@@ -138,34 +134,28 @@
 
 		.tool-select {
 			float: left;
-			margin: 2px;
+			margin: 2px 0 2px 2px;
 			height: 22px;
 			cursor: pointer;
 			border: 1px solid #c8ccd1;
 			padding: 0;
-			margin-right: 0;
 			background-color: #fff;
 
 			.label {
 				position: relative;
-				padding: 0;
+				padding: 0 26px 0 4px;
 				margin: 0;
-				padding-left: 4px;
-				padding-right: 22px;
-				margin-right: 4px;
 				cursor: pointer;
 				text-decoration: none;
 				color: #222;
 
 				&:after {
 					content: '';
-					background-image: url( images/toolbar/arrow-down.svg );
-					background-position: right center;
-					background-repeat: no-repeat;
+					background: url( images/toolbar/arrow-down.svg ) center no-repeat;
 					display: block;
 					position: absolute;
 					top: 0;
-					right: 0;
+					right: 4px;
 					width: 16px;
 					height: 32px;
 				}
@@ -240,8 +230,7 @@
 			resize: horizontal;
 
 			> div {
-				padding: 4px;
-				padding-left: 6px;
+				padding: 4px 4px 4px 6px;
 				cursor: pointer;
 			}
 		}
@@ -315,9 +304,7 @@
 		div {
 			span {
 				border: 1px solid #eaecf0;
-				padding: 5px;
-				padding-left: 8px;
-				padding-right: 8px;
+				padding: 5px 8px;
 				margin-left: 5px;
 				margin-top: 5px;
 				height: 1em;
