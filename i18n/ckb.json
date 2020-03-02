@@ -11,7 +11,8 @@
 			"Macofe",
 			"Sarchia",
 			"Épine",
-			"ئارام بکر"
+			"ئارام بکر",
+			"Arya sarhan"
 		]
 	},
 	"wikieditor": "ڕووکاری پێشکەوتووی دەستکاریکردنی ویکیدەق",
@@ -62,7 +63,7 @@
 	"wikieditor-toolbar-file-float": "لاگرتن:",
 	"wikieditor-toolbar-file-default": "(بنچینەیی)",
 	"wikieditor-toolbar-file-format": "داڕشتن:",
-	"wikieditor-toolbar-file-format-none": "ھیچ",
+	"wikieditor-toolbar-file-format-none": "ھیچیان",
 	"wikieditor-toolbar-tool-file-insert": "تێخستن",
 	"wikieditor-toolbar-tool-file-cancel": "ھەڵوەشاندنەوە",
 	"wikieditor-toolbar-tool-file-upload": "بارکردن",
