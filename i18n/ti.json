@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joanmp17"
+		]
+	},
+	"wikieditor-loading": "ጽዕነት...",
+	"wikieditor-toolbar-loading": "ጽዕነት...",
+	"wikieditor-toolbar-tool-bold": "ዓጺቕ",
+	"wikieditor-toolbar-tool-italic": "ቀናን",
+	"wikieditor-toolbar-tool-link-cancel": "ኣትርፍ",
+	"wikieditor-toolbar-tool-file-cancel": "ኣትርፍ",
+	"wikieditor-toolbar-tool-reference-cancel": "ኣትርፍ",
+	"wikieditor-toolbar-tool-reference-insert": "የእትው",
+	"wikieditor-toolbar-group-insert": "የእትው",
+	"wikieditor-toolbar-tool-table-preview": "ኣቐደሚ ትርኢት",
+	"wikieditor-toolbar-tool-table-insert": "የእትው",
+	"wikieditor-toolbar-tool-table-cancel": "ኣትርፍ",
+	"wikieditor-toolbar-tool-replace-close": "ዕጸው",
+	"wikieditor-toolbar-section-help": "ሓገዝ"
+}
