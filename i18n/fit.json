@@ -5,7 +5,15 @@
 		]
 	},
 	"wikieditor-loading": "Ladathaan...",
+	"wikieditor-toolbar": "Työkalupalkki mookkaukseen",
+	"wikieditor-toolbar-desc": "Mookkaussivun työkalupalkki paremmalla käytettävyyellä.",
+	"wikieditor-toolbar-preference": "Ota käythöön työkalupalkki mookkauksissa",
+	"wikieditor-toolbar-preference-help": "Tätä kutsutaan joskus '2010 wikitekstimookkaimeksi'.",
 	"wikieditor-toolbar-loading": "Ladathaan...",
+	"wikieditor-toolbar-tool-ilink": "Sisäinen länkki",
+	"wikieditor-toolbar-tool-ilink-example": "Länkin otsikko",
+	"wikieditor-toolbar-tool-xlink": "Ulkonen länkki (muista http://-etuliite)",
+	"wikieditor-toolbar-tool-xlink-example": "http://www.example.com länkin otsikko",
 	"wikieditor-toolbar-tool-link": "Länkki",
 	"wikieditor-toolbar-tool-link-title": "Lissää länkki",
 	"wikieditor-toolbar-tool-link-cancel": "Lopeta",
@@ -19,5 +27,6 @@
 	"wikieditor-toolbar-tool-reference-cancel": "Lopeta",
 	"wikieditor-toolbar-tool-table-insert": "Lissää",
 	"wikieditor-toolbar-tool-table-cancel": "Lopeta",
-	"wikieditor-toolbar-tool-replace-button-findnext": "Eti seuraava"
+	"wikieditor-toolbar-tool-replace-button-findnext": "Eti seuraava",
+	"wikieditor-toolbar-section-help": "Apua"
 }
