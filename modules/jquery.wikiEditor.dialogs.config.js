@@ -560,6 +560,13 @@
 								return mw.msg( $( this ).attr( 'rel' ) );
 							} )
 							.removeAttr( 'rel' );
+
+						// Preload modules of file upload dialog.
+						mw.loader.load( [
+							'mediawiki.ForeignStructuredUpload.BookletLayout',
+							'mediawiki.Upload.Dialog',
+							'oojs-ui-windows'
+						] );
 					},
 					dialog: {
 						resizable: false,
