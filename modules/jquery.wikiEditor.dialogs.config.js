@@ -625,22 +625,28 @@
 								$( this ).dialog( 'close' );
 							},
 							'wikieditor-toolbar-tool-file-upload': function () {
-								var windowManager = new OO.ui.WindowManager(),
-									uploadDialog = new mw.Upload.Dialog( {
-										bookletClass: mw.ForeignStructuredUpload.BookletLayout
-									} );
-
 								$( this ).dialog( 'close' );
-								windowManager.$element.appendTo( document.body );
-								windowManager.addWindows( [ uploadDialog ] );
-								windowManager.openWindow( uploadDialog );
+								mw.loader.using( [
+									'mediawiki.ForeignStructuredUpload.BookletLayout',
+									'mediawiki.Upload.Dialog',
+									'oojs-ui-windows'
+								] ).then( function () {
+									var windowManager = new OO.ui.WindowManager(),
+										uploadDialog = new mw.Upload.Dialog( {
+											bookletClass: mw.ForeignStructuredUpload.BookletLayout
+										} );
 
-								uploadDialog.uploadBooklet.on( 'fileSaved', function ( imageInfo ) {
-									uploadDialog.close();
-									windowManager.$element.remove();
+									windowManager.$element.appendTo( document.body );
+									windowManager.addWindows( [ uploadDialog ] );
+									windowManager.openWindow( uploadDialog );
 
-									$.wikiEditor.modules.dialogs.api.openDialog( this, 'insert-file' );
-									$( '#wikieditor-toolbar-file-target' ).val( imageInfo.canonicaltitle );
+									uploadDialog.uploadBooklet.on( 'fileSaved', function ( imageInfo ) {
+										uploadDialog.close();
+										windowManager.$element.remove();
+
+										$.wikiEditor.modules.dialogs.api.openDialog( this, 'insert-file' );
+										$( '#wikieditor-toolbar-file-target' ).val( imageInfo.canonicaltitle );
+									} );
 								} );
 							}
 						},
