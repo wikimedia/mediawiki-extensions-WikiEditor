@@ -286,7 +286,7 @@
 						}
 					}
 				}
-				label = $.wikiEditor.autoSafeMsg( tool, 'label' );
+				label = $.wikiEditor.autoMsg( tool, 'label' );
 				switch ( tool.type ) {
 					case 'button':
 					case 'toggle':
