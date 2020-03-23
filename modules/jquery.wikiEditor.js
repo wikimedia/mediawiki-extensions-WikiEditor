@@ -1,7 +1,8 @@
 /**
  * This plugin provides a way to build a wiki-text editing user interface around a textarea.
  *
- * @example To initialize without any modules:
+ * @example To initialize without any modules,
+ * overqualified `div#edittoolbar` to avoid MediaWiki's heading to id automatism:
  *     $( 'div#edittoolbar' ).wikiEditor();
  *
  * @example To initialize with one or more modules, or to add modules after it's already been initialized:
