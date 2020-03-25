@@ -4,7 +4,8 @@
 			"Candalua",
 			"GatoSelvadego",
 			"Vajotwo",
-			"Macofe"
+			"Macofe",
+			"Fierodelveneto"
 		]
 	},
 	"wikieditor": "Interfacia avansada de modifica testo wiki",
@@ -125,7 +126,7 @@
 	"wikieditor-toolbar-tool-replace-emptysearch": "No te ghè inserìo gnente da sercar.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "L'espresion regolare che te ghè inserìo no la xe mia valida: $1",
 	"wikieditor-toolbar-section-characters": "Caràteri speciali",
-	"wikieditor-toolbar-section-help": "Ajuto",
+	"wikieditor-toolbar-section-help": "Juto",
 	"wikieditor-toolbar-help-heading-description": "Descrision",
 	"wikieditor-toolbar-help-heading-syntax": "Cuel che te scrivi",
 	"wikieditor-toolbar-help-heading-result": "Cuel che te otien",
