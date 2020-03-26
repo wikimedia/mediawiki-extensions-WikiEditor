@@ -850,9 +850,8 @@
 									return;
 								}
 								if ( ( rows * cols ) > 1000 ) {
-									// 1000 is in the English message. The parameter replacement is kept for BC.
 									// eslint-disable-next-line no-alert
-									alert( mw.msg( 'wikieditor-toolbar-tool-table-toomany', 1000 ) );
+									alert( mw.msg( 'wikieditor-toolbar-tool-table-toomany', mw.language.convertNumber( 1000 ) ) );
 									return;
 								}
 								headerText = mw.msg( 'wikieditor-toolbar-tool-table-example-header' );
@@ -1021,7 +1020,7 @@
 							} else if ( mode === 'replaceAll' ) {
 								$textarea.textSelection( 'setContents', text.replace( regex, replaceStr ) );
 								$( '#wikieditor-toolbar-replace-success' )
-									.text( mw.msg( 'wikieditor-toolbar-tool-replace-success', match.length ) )
+									.text( mw.msg( 'wikieditor-toolbar-tool-replace-success', mw.language.convertNumber( match.length ) ) )
 									.show();
 								$( this ).data( 'offset', 0 );
 							} else {
