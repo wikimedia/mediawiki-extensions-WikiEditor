@@ -126,7 +126,7 @@
 	"wikieditor-toolbar-tool-table-insert": "Inserir",
 	"wikieditor-toolbar-tool-table-cancel": "Cancelar",
 	"wikieditor-toolbar-tool-table-example-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec purus diam. Sed aliquam imperdiet nunc quis lacinia. Donec rutrum consectetur placerat. Sed volutpat neque non purus faucibus id ultricies enim euismod.",
-	"wikieditor-toolbar-tool-table-toomany": "Não é possível inserir uma tabela com mais de $1 {{PLURAL:$1|células}} com esta interface.",
+	"wikieditor-toolbar-tool-table-toomany": "Não é possível inserir uma tabela com mais de $1 {{PLURAL:$1|célula|células}} com esta interface.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Você não introduziu um número válido de linhas ou colunas.",
 	"wikieditor-toolbar-tool-table-zero": "Você não pode inserir uma tabela com zero linhas ou colunas.",
 	"wikieditor-toolbar-tool-replace": "Localizar e substituir",

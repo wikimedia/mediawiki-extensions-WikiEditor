@@ -28,7 +28,7 @@
 	},
 	"wikieditor": "Interface avancée de modification de wikitexte",
 	"wikieditor-desc": "Fournit une interface de modification de texte wiki avancée et extensible.",
-	"wikieditor-wikitext-tab": "Wikitexte",
+	"wikieditor-wikitext-tab": "Wikicode",
 	"wikieditor-loading": "Chargement en cours...",
 	"wikieditor-toolbar": "Barre d’outils de modification",
 	"wikieditor-toolbar-desc": "Barre d’outils de modification avec l’utilisabilité améliorée",

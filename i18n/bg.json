@@ -119,7 +119,7 @@
 	"wikieditor-toolbar-tool-table-insert": "Вмъкване",
 	"wikieditor-toolbar-tool-table-cancel": "Отказ",
 	"wikieditor-toolbar-tool-table-example-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec purus diam. Sed aliquam imperdiet nunc quis lacinia. Donec rutrum consectetur placerat. Sed volutpat neque non purus faucibus id ultricies enim euismod.",
-	"wikieditor-toolbar-tool-table-toomany": "През този диалогов режим не може да се вмъкне таблица с повече от $1 {{PLURAL:$1|клетка|клетки}}.",
+	"wikieditor-toolbar-tool-table-toomany": "Вмъкването на таблица с повече от $1 {{PLURAL:$1|клетка|клетки}} не е възможно чрез този диалогов прозорец.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Не сте въвели валидно число за броя редове или стълбове.",
 	"wikieditor-toolbar-tool-table-zero": "Не можете да вмъкнете таблица с нула редове или стълбове.",
 	"wikieditor-toolbar-tool-replace": "Търсене и замяна",
