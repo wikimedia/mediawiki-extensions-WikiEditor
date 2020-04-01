@@ -15,7 +15,8 @@
 			"McAang",
 			"Mizunee",
 			"Hedda",
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Sucsuzz"
 		]
 	},
 	"wikieditor": "Gelişmiş viki metni düzenleme arayüzü",
@@ -121,7 +122,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Ön izleme",
 	"wikieditor-toolbar-tool-table-insert": "Ekle",
 	"wikieditor-toolbar-tool-table-cancel": "İptal",
-	"wikieditor-toolbar-tool-table-toomany": "$1 {{PLURAL:$1|Hücrelerinden}} daha fazla olan bir tablo eklemek bu iletişim kutusuyla mümkün değildir.",
+	"wikieditor-toolbar-tool-table-toomany": "$1 {{PLURAL:$1|hücreden}} daha fazla olan bir tablo eklemek bu iletişim kutusuyla mümkün değildir.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Geçerli bir satır ve sütun sayısı girmediniz.",
 	"wikieditor-toolbar-tool-table-zero": "Sıfır satır veya sütuna sahip bir tablo ekleyemezsiniz.",
 	"wikieditor-toolbar-tool-replace": "Ara ve değiştir",

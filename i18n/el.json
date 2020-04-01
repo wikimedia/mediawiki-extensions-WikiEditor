@@ -118,7 +118,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Προεπισκόπηση",
 	"wikieditor-toolbar-tool-table-insert": "Εισαγωγή",
 	"wikieditor-toolbar-tool-table-cancel": "Άκυρο",
-	"wikieditor-toolbar-tool-table-toomany": "Η εισαγωγή ενός πίνακα με περισσότερα από  $1 {{PLURAL:$1|κελιά}} δεν είναι δυνατή με αυτό το πλαίσιο διαλόγου.",
+	"wikieditor-toolbar-tool-table-toomany": "Η εισαγωγή ενός πίνακα με περισσότερα από $1 {{PLURAL:$1|κελί|κελιά}} δεν είναι δυνατή με αυτό το πλαίσιο διαλόγου.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Δεν έχετε εισαγάγει έναν έγκυρο αριθμό των γραμμών ή στηλών.",
 	"wikieditor-toolbar-tool-table-zero": "Δεν μπορείτε να εισαγάγετε έναν πίνακα χωρίς γραμμές ή στήλες.",
 	"wikieditor-toolbar-tool-replace": "Αναζήτηση και αντικατάσταση",
