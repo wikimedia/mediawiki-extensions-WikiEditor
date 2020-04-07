@@ -45,6 +45,7 @@ class WikiEditorHooks {
 		$user = $article->getContext()->getUser();
 		$page = $article->getPage();
 		$title = $article->getTitle();
+		$revisionRecord = $page->getRevisionRecord();
 
 		$data = [
 			'action' => $action,
@@ -56,7 +57,7 @@ class WikiEditorHooks {
 			'page_id' => $page->getId(),
 			'page_title' => $title->getPrefixedText(),
 			'page_ns' => $title->getNamespace(),
-			'revision_id' => $page->getRevision() ? $page->getRevision()->getId() : 0,
+			'revision_id' => $revisionRecord ? $revisionRecord->getId() : 0,
 			'user_id' => $user->getId(),
 			'user_editcount' => $user->getEditCount() ?: 0,
 			'mw_version' => $wgVersion,
