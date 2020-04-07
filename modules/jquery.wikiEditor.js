@@ -209,7 +209,7 @@
 					if ( src.substr( 0, 7 ) !== 'http://' && src.substr( 0, 8 ) !== 'https://' && src[ 0 ] !== '/' ) {
 						src = path + src;
 					}
-					return src + '?' + mw.loader.getVersion( 'jquery.wikiEditor' );
+					return src;
 				}
 			}
 			return icon;
