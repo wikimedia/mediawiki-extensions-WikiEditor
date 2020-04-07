@@ -152,8 +152,8 @@
 			$editingSessionIdInput = $( '#editingStatsId' ),
 			origText = $textarea.val();
 
-		// Tracking Javascript support: T263505
-		$( '#wikieditorJavascriptSupport' ).val( 'yes' );
+		// T263505, T249038
+		$( '#wikieditorUsed' ).val( 'yes' );
 
 		if ( $editingSessionIdInput.length ) {
 			editingSessionId = $editingSessionIdInput.val();
