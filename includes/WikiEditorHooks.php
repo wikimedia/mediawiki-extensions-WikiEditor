@@ -7,6 +7,7 @@
  */
 
 use MediaWiki\MediaWikiServices;
+use WikimediaEvents\WikimediaEventsHooks;
 
 class WikiEditorHooks {
 	// ID used for grouping entries all of a session's entries together in
