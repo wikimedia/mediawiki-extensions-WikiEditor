@@ -117,7 +117,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Verqayt",
 	"wikieditor-toolbar-tool-table-insert": "têare ker",
 	"wikieditor-toolbar-tool-table-cancel": "Bıtexelne",
-	"wikieditor-toolbar-tool-table-toomany": "$1 hucrara ziyed tablo {{PLURAL:$1|eştış}} pê no mesaj mumkın niyo",
+	"wikieditor-toolbar-tool-table-toomany": "$1 {{PLURAL:$1|hucre|hucreyan}} ra zêde tablo definayışi rê ena dora irtibatiya mıkum niyo.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "şıma pê yew amaro meqbul o satır u estun cı nêkewti",
 	"wikieditor-toolbar-tool-table-zero": "tablo ya ke tede satır u estun çinibo şıma nêşkeni têare bıkeri",
 	"wikieditor-toolbar-tool-replace": "bıgêr u bıvurn",
