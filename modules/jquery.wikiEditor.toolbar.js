@@ -768,6 +768,8 @@
 				}
 				setTimeout( function () {
 					context.$textarea.trigger( 'wikiEditor-toolbar-doneInitialSections' );
+					// Use hook for attaching new toolbar tools to avoid race conditions
+					mw.hook( 'wikiEditor.toolbarReady' ).fire( context.$textarea );
 				} );
 			}
 		}
