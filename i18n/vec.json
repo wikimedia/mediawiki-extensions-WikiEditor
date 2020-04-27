@@ -125,6 +125,7 @@
 	"wikieditor-toolbar-tool-replace-success": "$1 {{PLURAL:$1|sostitusion efetuà|sostitusion efetuae}}.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "No te ghè inserìo gnente da sercar.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "L'espresion regolare che te ghè inserìo no la xe mia valida: $1",
+	"wikieditor-toolbar-tool-replace-word": "Conpara ła paroła intiera",
 	"wikieditor-toolbar-section-characters": "Caràteri speciali",
 	"wikieditor-toolbar-section-help": "Juto",
 	"wikieditor-toolbar-help-heading-description": "Descrision",
