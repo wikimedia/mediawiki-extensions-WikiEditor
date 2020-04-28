@@ -106,7 +106,10 @@ class WikiEditorHooks {
 				$data['init_type'] = 'page';
 			}
 			if ( $request->getHeader( 'Referer' ) ) {
-				if ( $request->getVal( 'section' ) === 'new' || !$article->exists() ) {
+				if (
+					$request->getVal( 'section' ) === 'new'
+					|| !$article->getPage()->exists()
+				) {
 					$data['init_mechanism'] = 'new';
 				} else {
 					$data['init_mechanism'] = 'click';
@@ -292,13 +295,14 @@ class WikiEditorHooks {
 					$data['save_failure_message'] = $errors[0][0];
 				}
 
+				$wikiPage = $editPage->getArticle()->getPage();
 				if ( $status->value === EditPage::AS_CONFLICT_DETECTED ) {
 					$data['save_failure_type'] = 'editConflict';
 				} elseif ( $status->value === EditPage::AS_ARTICLE_WAS_DELETED ) {
 					$data['save_failure_type'] = 'editPageDeleted';
 				} elseif ( isset( $errors[0][0] ) && $errors[0][0] === 'abusefilter-disallowed' ) {
 					$data['save_failure_type'] = 'extensionAbuseFilter';
-				} elseif ( isset( $editPage->getArticle()->getPage()->ConfirmEdit_ActivateCaptcha ) ) {
+				} elseif ( isset( $wikiPage->ConfirmEdit_ActivateCaptcha ) ) {
 					// TODO: :(
 					$data['save_failure_type'] = 'extensionCaptcha';
 				} elseif ( isset( $errors[0][0] ) && $errors[0][0] === 'spam-blacklisted-link' ) {
