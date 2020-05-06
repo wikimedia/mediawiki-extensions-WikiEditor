@@ -8,7 +8,7 @@
 			"Vajotwo"
 		]
 	},
-	"wikieditor": "Interfacia avansada de modifica testo wiki",
+	"wikieditor": "Intermuxo vansà de modìfega testo wiki",
 	"wikieditor-desc": "Fornise na interfacia avansada de modifica testo wiki e vari moduli funsionali",
 	"wikieditor-wikitext-tab": "Testo wiki",
 	"wikieditor-loading": "Drio cargar...",
@@ -18,8 +18,8 @@
 	"wikieditor-toolbar-loading": "So' drio cargar...",
 	"wikieditor-toolbar-tool-bold": "Graseto",
 	"wikieditor-toolbar-tool-bold-example": "Testo in graseto",
-	"wikieditor-toolbar-tool-italic": "Corsivo",
-	"wikieditor-toolbar-tool-italic-example": "Testo in corsivo",
+	"wikieditor-toolbar-tool-italic": "Corivo",
+	"wikieditor-toolbar-tool-italic-example": "Testo in corivo",
 	"wikieditor-toolbar-tool-ilink": "Colegamento interno",
 	"wikieditor-toolbar-tool-ilink-example": "Tìtolo del colegamento",
 	"wikieditor-toolbar-tool-xlink": "Colegamento esterno (ricòrdete el prefiso http:// )",
@@ -65,7 +65,7 @@
 	"wikieditor-toolbar-tool-reference-insert": "Inserisi",
 	"wikieditor-toolbar-tool-reference-text": "Testo de ła nòda",
 	"wikieditor-toolbar-tool-signature": "Firma e data",
-	"wikieditor-toolbar-section-advanced": "Avansada",
+	"wikieditor-toolbar-section-advanced": "Vansada",
 	"wikieditor-toolbar-tool-heading": "Intestasion",
 	"wikieditor-toolbar-tool-heading-1": "Livèl 1",
 	"wikieditor-toolbar-tool-heading-2": "Livèl 2",
