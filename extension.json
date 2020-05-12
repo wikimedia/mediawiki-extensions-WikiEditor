@@ -300,12 +300,14 @@
 		"localBasePath": "",
 		"remoteExtPath": "WikiEditor",
 		"scripts": "tests/qunit/ext.wikiEditor.toolbar.test.js",
-		"dependencies": [ "ext.wikiEditor" ]
+		"dependencies": [
+			"ext.wikiEditor"
+		]
 	},
 	"DefaultUserOptions": {
 		"usebetatoolbar": true
 	},
-	"RawHtmlMessages":[
+	"RawHtmlMessages": [
 		"wikieditor-toolbar-help-heading-description",
 		"wikieditor-toolbar-help-heading-syntax",
 		"wikieditor-toolbar-help-heading-result",
@@ -377,5 +379,5 @@
 	"AutoloadClasses": {
 		"WikiEditorHooks": "includes/WikiEditorHooks.php"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
