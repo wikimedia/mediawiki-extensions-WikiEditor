@@ -26,7 +26,7 @@ class WikiEditorHooks {
 	 * @return bool Whether the event was logged or not.
 	 */
 	public static function doEventLogging( $action, $article, $data = [] ) {
-		global $wgVersion, $wgWMESchemaEditAttemptStepSamplingRate;
+		global $wgWMESchemaEditAttemptStepSamplingRate;
 		$extensionRegistry = ExtensionRegistry::getInstance();
 		if ( !$extensionRegistry->isLoaded( 'EventLogging' ) ) {
 			return false;
@@ -59,7 +59,7 @@ class WikiEditorHooks {
 			'revision_id' => $page->getRevision() ? $page->getRevision()->getId() : 0,
 			'user_id' => $user->getId(),
 			'user_editcount' => $user->getEditCount() ?: 0,
-			'mw_version' => $wgVersion,
+			'mw_version' => MW_VERSION,
 		] + $data;
 
 		if ( $user->isAnon() ) {
