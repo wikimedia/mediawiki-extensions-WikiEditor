@@ -238,6 +238,8 @@
 			context = {
 				// Reference to the textarea element which the wikiEditor is being built around
 				$textarea: $( this ),
+				// Reference to the focused element before the dialog opens, so it can be restored once it closes
+				$focusedElem: null,
 				// Container for any number of mutually exclusive views that are accessible by tabs
 				views: {},
 				// Container for any number of module-specific data - only including data for modules in use on this context
@@ -444,6 +446,7 @@
 				 * Save text selection
 				 */
 				saveSelection: function () {
+					context.$focusedElem = $( ':focus' );
 					context.$textarea.trigger( 'focus' );
 					context.savedSelection = {
 						selectionStart: context.$textarea[ 0 ].selectionStart,
@@ -459,6 +462,9 @@
 						context.$textarea.trigger( 'focus' );
 						context.$textarea[ 0 ].setSelectionRange( context.savedSelection.selectionStart, context.savedSelection.selectionEnd );
 						context.savedSelection = null;
+					}
+					if ( context.$focusedElem ) {
+						context.$focusedElem.trigger( 'focus' );
 					}
 				}
 			};
