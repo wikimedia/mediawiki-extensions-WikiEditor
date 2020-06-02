@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ahmetlii",
 			"BaRaN6161 TURK",
 			"Emperyan",
 			"Erdemaslancan",
@@ -20,7 +21,7 @@
 		]
 	},
 	"wikieditor": "Gelişmiş vikimetin düzenleme arayüzü",
-	"wikieditor-desc": "Genişletilebilir bir vikimetin düzenleme arayüzü sunar",
+	"wikieditor-desc": "İleri düzey genişletilebilir bir vikimetin düzenleme arayüzü sunar",
 	"wikieditor-wikitext-tab": "Vikimetin",
 	"wikieditor-loading": "Yükleniyor...",
 	"wikieditor-toolbar": "Araç çubuğu düzenleme",
