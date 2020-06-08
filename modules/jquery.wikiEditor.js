@@ -448,10 +448,7 @@
 				saveSelection: function () {
 					context.$focusedElem = $( ':focus' );
 					context.$textarea.trigger( 'focus' );
-					context.savedSelection = {
-						selectionStart: context.$textarea[ 0 ].selectionStart,
-						selectionEnd: context.$textarea[ 0 ].selectionEnd
-					};
+					context.savedSelection = context.$textarea.textSelection( 'getCaretPosition', { startAndEnd: true } );
 				},
 
 				/**
@@ -460,7 +457,7 @@
 				restoreSelection: function () {
 					if ( context.savedSelection ) {
 						context.$textarea.trigger( 'focus' );
-						context.$textarea[ 0 ].setSelectionRange( context.savedSelection.selectionStart, context.savedSelection.selectionEnd );
+						context.$textarea.textSelection( 'setSelection', { start: context.savedSelection[ 0 ], end: context.savedSelection[ 1 ] } );
 						context.savedSelection = null;
 					}
 					if ( context.$focusedElem ) {
