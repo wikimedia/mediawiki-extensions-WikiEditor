@@ -126,6 +126,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "Used as example text when inserting a table into the editbox from the toolbar",
 	"wikieditor-toolbar-tool-table-example-cell-text": "[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.",
 	"wikieditor-toolbar-tool-table-example-header": "[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.\n\nSee also:\n* {{msg-mw|wikieditor-toolbar-tool-table-example-header}}\n* {{msg-mw|wikieditor-toolbar-tool-table-example}}",
+	"wikieditor-toolbar-tool-table-example-caption": "Used as example caption when inserting a table into the editbox from the toolbar",
 	"wikieditor-toolbar-tool-table-title": "[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "See screenshot.\n[[File:Wikieditor-toolbar-tool-table.png|thumb]]\n{{Identical|Row}}",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "[[File:Wikieditor-toolbar-tool-table.png|thumb]] See screenshot.\n{{Identical|Column}}",

@@ -832,7 +832,7 @@
 						width: 590,
 						buttons: {
 							'wikieditor-toolbar-tool-table-insert': function () {
-								var headerText, normalText, table, r, c,
+								var captionText, headerText, normalText, table, r, c,
 									isHeader, delim, classes, classStr,
 									rowsVal = $( '#wikieditor-toolbar-table-dimensions-rows' ).val(),
 									colsVal = $( '#wikieditor-toolbar-table-dimensions-columns' ).val(),
@@ -854,9 +854,11 @@
 									alert( mw.msg( 'wikieditor-toolbar-tool-table-toomany', mw.language.convertNumber( 1000 ) ) );
 									return;
 								}
+								captionText = mw.msg( 'wikieditor-toolbar-tool-table-example-caption' );
 								headerText = mw.msg( 'wikieditor-toolbar-tool-table-example-header' );
 								normalText = mw.msg( 'wikieditor-toolbar-tool-table-example' );
 								table = '';
+								table += '|+ ' + captionText + '\n';
 								for ( r = 0; r < rows + header; r++ ) {
 									table += '|-\n';
 									for ( c = 0; c < cols; c++ ) {
