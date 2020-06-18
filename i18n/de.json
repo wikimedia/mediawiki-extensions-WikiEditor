@@ -109,6 +109,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! Überschrift 1\n! Überschrift 2\n! Überschrift 3\n|-\n| Zeile 1, Zelle 1\n| Zeile 1, Zelle 2\n| Zeile 1, Zelle 3\n|-\n| Zeile 2, Zelle 1\n| Zeile 2, Zelle 2\n| Zeile 2, Zelle 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Zellentext",
 	"wikieditor-toolbar-tool-table-example-header": "Überschrift",
+	"wikieditor-toolbar-tool-table-example-caption": "Text der Überschrift",
 	"wikieditor-toolbar-tool-table-title": "Tabelle einfügen",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Zeilen",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Spalten",

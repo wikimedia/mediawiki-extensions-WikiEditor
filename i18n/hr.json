@@ -104,6 +104,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! naslov 1\n! naslov 2\n! naslov 3\n|-\n| red 1, ćelija 1\n| red 1, ćelija 2\n| red 1, ćelija 3\n|-\n| red 2, ćelija 1\n| red 2, ćelija 2\n| red 2, ćelija 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Tekst u ćeliji",
 	"wikieditor-toolbar-tool-table-example-header": "Tekst zaglavlja",
+	"wikieditor-toolbar-tool-table-example-caption": "Opisni tekst",
 	"wikieditor-toolbar-tool-table-title": "Umetni tablicu",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Retci",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Stupci",

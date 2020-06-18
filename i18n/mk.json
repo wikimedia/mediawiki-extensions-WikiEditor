@@ -99,6 +99,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! наслов 1\n! наслов 2\n! наслов 3\n|-\n| ред 1, поле 1\n| ред 1, поле 2\n| ред 1, поле 3\n|-\n| ред 2, поле 1\n| ред 2, поле 2\n| ред 2, поле 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Текст во полето",
 	"wikieditor-toolbar-tool-table-example-header": "Текст на наслов",
+	"wikieditor-toolbar-tool-table-example-caption": "Описен текст",
 	"wikieditor-toolbar-tool-table-title": "Вметни табела",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Редови",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Столбови",

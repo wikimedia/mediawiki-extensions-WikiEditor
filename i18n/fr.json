@@ -119,6 +119,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "|+ Légende du tableau\n|-\n!scope=\"col\"| En-tête 1\n!scope=\"col\"| En-tête 2\n!scope=\"col\"| En-tête 3\n|-\n| Ligne 1, cellule 1\n| Ligne 1, cellule 2\n| Ligne 1, cellule 3\n|-\n| Ligne 2, cellule 1\n| Ligne 2, cellule 2\n| Ligne 2, cellule 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Texte de la cellule",
 	"wikieditor-toolbar-tool-table-example-header": "Texte de l’en-tête",
+	"wikieditor-toolbar-tool-table-example-caption": "Texte de la légende",
 	"wikieditor-toolbar-tool-table-title": "Insérer un tableau",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Lignes",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Colonnes",
