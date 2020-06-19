@@ -115,6 +115,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! cabeçalho 1\n! cabeçalho 2\n! cabeçalho 3\n|-\n| linha 1, célula 1\n| linha 1, célula 2\n| linha 1, célula 3\n|-\n| linha 2, célula 1\n| linha 2, célula 2\n| linha 2, célula 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Texto da célula",
 	"wikieditor-toolbar-tool-table-example-header": "Texto do cabeçalho",
+	"wikieditor-toolbar-tool-table-example-caption": "Texto da legenda",
 	"wikieditor-toolbar-tool-table-title": "Inserir tabela",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Linhas",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Colunas",

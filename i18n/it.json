@@ -112,6 +112,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! titolo 1\n! titolo 2\n! titolo 3\n|-\n| riga 1, cella 1\n| riga 1, cella 2\n| riga 1, cella 3\n|-\n| riga 2, cella 1\n| riga 2, cella 2\n| riga 2, cella 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Testo della cella",
 	"wikieditor-toolbar-tool-table-example-header": "Testo del titolo",
+	"wikieditor-toolbar-tool-table-example-caption": "Testo della didascalia",
 	"wikieditor-toolbar-tool-table-title": "Inserisci tabella",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Righe",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Colonne",

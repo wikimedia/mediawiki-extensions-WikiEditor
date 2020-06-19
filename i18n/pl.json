@@ -113,6 +113,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! nagłówek 1\n! nagłówek 2\n! nagłówek 3\n| -\n| wiersz 1, komórka 1\n| wiersz 1, komórka 2\n| wiersz 1, komórka 3\n| -\n| wiersz 2, komórka 1\n| wiersz 2, komórka 2\n| wiersz 2, komórka 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Treść komórki",
 	"wikieditor-toolbar-tool-table-example-header": "Tekst nagłówka",
+	"wikieditor-toolbar-tool-table-example-caption": "Tekst podpisu",
 	"wikieditor-toolbar-tool-table-title": "Wstaw tabelę",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Wiersze",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Kolumny",
