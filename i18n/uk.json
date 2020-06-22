@@ -112,6 +112,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! заголовок 1\n! заголовок 2\n! заголовок 3\n|-\n| рядок 1, комірка 1\n| рядок 1, комірка 2\n| рядок 1, комірка 3\n|-\n| рядок 2, комірка 1\n| рядок 2, комірка 2\n| рядок 2, комірка 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Текст комірки",
 	"wikieditor-toolbar-tool-table-example-header": "Текст заголовка",
+	"wikieditor-toolbar-tool-table-example-caption": "Текст опису",
 	"wikieditor-toolbar-tool-table-title": "Вставити таблицю",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Рядків",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Стовпців",

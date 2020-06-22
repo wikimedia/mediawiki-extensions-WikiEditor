@@ -15,6 +15,7 @@
 			"Simon Shek",
 			"VulpesVulpes825",
 			"Xiaomingyan",
+			"列维劳德",
 			"铁桶"
 		]
 	},
@@ -111,6 +112,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! 标题1\n! 标题2\n! 标题3\n|-\n| 第1行第1格\n| 第1行第2格\n| 第1行第3格\n|-\n| 第2行第1格\n| 第2行第2格\n| 第2行第3格",
 	"wikieditor-toolbar-tool-table-example-cell-text": "单元格文字",
 	"wikieditor-toolbar-tool-table-example-header": "标题文字",
+	"wikieditor-toolbar-tool-table-example-caption": "标题文本",
 	"wikieditor-toolbar-tool-table-title": "插入表格",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "行数",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "列数",

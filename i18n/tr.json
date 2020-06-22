@@ -113,6 +113,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! başlık 1\n! başlık 2\n! başlık 3\n|-\n| satır 1, hücre 1\n| satır 1, hücre 2\n| satır 1, hücre 3\n|-\n| satır 2, hücre 1\n| satır 2, hücre 2\n| satır 2, hücre 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Hücre metni",
 	"wikieditor-toolbar-tool-table-example-header": "Başlık metni",
+	"wikieditor-toolbar-tool-table-example-caption": "Altyazı metni",
 	"wikieditor-toolbar-tool-table-title": "Tablo ekle",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Satırlar",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Sütunlar",
