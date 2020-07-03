@@ -98,6 +98,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! testate 1\n! testate 2\n! testate 3\n|-\n| righe 1, celle 1\n| righe 1, celle 2\n| righe 1, celle 3\n|-\n| righe 2, celle 1\n| righe 2, celle 2\n| righe 2, celle 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Teste d'a celle",
 	"wikieditor-toolbar-tool-table-example-header": "Teste d'a testate",
+	"wikieditor-toolbar-tool-table-example-caption": "Teste d'u titole",
 	"wikieditor-toolbar-tool-table-title": "'Nzerisce 'na tabbelle",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Righe",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Culonne",
