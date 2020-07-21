@@ -116,7 +116,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Forhåndsvisning",
 	"wikieditor-toolbar-tool-table-insert": "Sett inn",
 	"wikieditor-toolbar-tool-table-cancel": "Avbryt",
-	"wikieditor-toolbar-tool-table-toomany": "Det er ikke mulig å sette inn mer enn $1 {{PLURAL:$1|celler}} med denne dialogen.",
+	"wikieditor-toolbar-tool-table-toomany": "Det er ikke mulig å sette inn mer enn $1 {{PLURAL:$1|celle|celler}} med denne dialogen.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Du har ikke skrevet inn et gyldig antall rader eller kolonner.",
 	"wikieditor-toolbar-tool-table-zero": "De kan ikke sette inn en tabell med null rader eller kolonner.",
 	"wikieditor-toolbar-tool-replace": "Søk og erstatt",
