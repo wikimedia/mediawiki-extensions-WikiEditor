@@ -106,6 +106,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! overskrift 1\n! overskrift 2\n! overskrift 3\n|-\n| rad 1, celle 1\n| rad 1, celle 2\n| rad 1, celle 3\n|-\n| rad 2, celle 1\n| rad 2, celle 2\n| rad 2, celle 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Celletekst",
 	"wikieditor-toolbar-tool-table-example-header": "Overskriftstekst",
+	"wikieditor-toolbar-tool-table-example-caption": "Bildetekst",
 	"wikieditor-toolbar-tool-table-title": "Sett inn tabell",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Rader",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Kolonner",
