@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ahmad252",
 			"Alifakoor",
 			"Alirezaaa",
 			"BMRG14",
@@ -22,6 +23,7 @@
 	"wikieditor-toolbar": "نوار ابزار ویرایش",
 	"wikieditor-toolbar-desc": "نوار ابزار ویرایش صفحه با استفاده‌پذیری بالاتر",
 	"wikieditor-toolbar-preference": "نوارابزار ویرایش فعال شود",
+	"wikieditor-toolbar-preference-help": "گاهی از این ویژگی به عنوان «ویرایشگر ویکی‌متن ۲۰۱۰» یاد می‌شود.",
 	"wikieditor-toolbar-loading": "در حال بارگیری...",
 	"wikieditor-toolbar-tool-bold": "پررنگ",
 	"wikieditor-toolbar-tool-bold-example": "متن پررنگ",
