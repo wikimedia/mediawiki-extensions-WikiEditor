@@ -99,6 +99,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! коьрта могӀа 1\n! коьрта могӀа 2\n! коьрта могӀа 3\n|-\n| могӀа 1, чоь 1\n| могӀа 1, чоь 2\n| могӀа 1, чоь 3\n|-\n| могӀа 2, чоь 1\n| могӀа 2, чоь 2\n| могӀа 2, чоь 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Чоьнан йоза",
 	"wikieditor-toolbar-tool-table-example-header": "Коьрта йоза",
+	"wikieditor-toolbar-tool-table-example-caption": "Кортан йоза",
 	"wikieditor-toolbar-tool-table-title": "Чуйилла таблица",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "МогӀанаш",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Бlогlамаш",
