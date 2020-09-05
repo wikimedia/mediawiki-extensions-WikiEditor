@@ -14,6 +14,7 @@
 	"rules": {
 		"max-len": "off",
 		"no-jquery/no-global-selector": "off",
-		"mediawiki/class-doc": "warn"
+		"mediawiki/class-doc": "warn",
+		"no-shadow": "warn"
 	}
 }
