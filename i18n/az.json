@@ -10,7 +10,8 @@
 			"Toghrul Rahimli",
 			"Vago",
 			"Vugar 1981",
-			"Wertuose"
+			"Wertuose",
+			"Şeyx Şamil"
 		]
 	},
 	"wikieditor-wikitext-tab": "Vikimətn",
@@ -36,6 +37,8 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Xarici keçid",
 	"wikieditor-toolbar-tool-file": "Şəkil əlavə etmə",
 	"wikieditor-toolbar-tool-file-example": "Misal.jpg",
+	"wikieditor-toolbar-file-target": "Fayl adı:",
+	"wikieditor-toolbar-tool-file-upload": "Yüklə",
 	"wikieditor-toolbar-tool-reference": "İstinad",
 	"wikieditor-toolbar-tool-reference-cancel": "Ləğv et",
 	"wikieditor-toolbar-tool-reference-insert": "Yerləşdirmək",
