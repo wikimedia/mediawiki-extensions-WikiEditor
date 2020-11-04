@@ -8,9 +8,6 @@
 	"env": {
 		"commonjs": true
 	},
-	"globals": {
-		"OO": "readonly"
-	},
 	"rules": {
 		"max-len": "off",
 		"no-jquery/no-global-selector": "off",
