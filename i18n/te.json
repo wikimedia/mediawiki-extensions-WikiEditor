@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Arjunaraoc",
 			"Macofe",
 			"Veeven"
 		]
@@ -10,6 +11,8 @@
 	"wikieditor-loading": "లోడవుతూంది",
 	"wikieditor-toolbar": "ఎడిటింగ్ టూల్‌బార్",
 	"wikieditor-toolbar-desc": "మెరుగైన ఉపయోగశీలతో దిద్దుబాటు పేజీ పనిముట్లపట్టీ",
+	"wikieditor-toolbar-preference": "సవరణ టూల్ బార్   సచేతనం",
+	"wikieditor-toolbar-preference-help": "దీనిని కొన్నిసార్లు '2010 వికీటెక్స్ట్ ఎడిటర్'  అంటారు.",
 	"wikieditor-toolbar-loading": "లోడవుతోంది...",
 	"wikieditor-toolbar-tool-bold": "బొద్దు",
 	"wikieditor-toolbar-tool-bold-example": "బొద్దు పాఠ్యం",
