@@ -74,7 +74,7 @@
 			page_id: mw.config.get( 'wgArticleId' ),
 			page_title: mw.config.get( 'wgPageName' ),
 			page_ns: mw.config.get( 'wgNamespaceNumber' ),
-			revision_id: mw.config.get( 'wgRevisionId' ),
+			revision_id: mw.config.get( 'wgRevisionId' ) || +$( 'input[name=parentRevId]' ).val() || 0,
 			user_id: mw.user.getId(),
 			user_editcount: mw.config.get( 'wgUserEditCount', 0 ),
 			mw_version: mw.config.get( 'wgVersion' )
