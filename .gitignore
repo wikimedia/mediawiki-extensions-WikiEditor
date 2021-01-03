@@ -22,3 +22,4 @@ project.index
 sublime-*
 sftp-config.json
 tests/phan/issues
+/.eslintcache
