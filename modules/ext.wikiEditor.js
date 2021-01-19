@@ -138,7 +138,7 @@
 		var $textarea = $( '#wpTextbox1' ),
 			$editingSessionIdInput = $( '#editingStatsId' ),
 			origText = $textarea.val(),
-			submitting, onUnloadFallback, dialogsConfig, readyTime;
+			submitting, onUnloadFallback, readyTime;
 
 		if ( $editingSessionIdInput.length ) {
 			editingSessionId = $editingSessionIdInput.val();
@@ -210,6 +210,12 @@
 		$( '#toolbar' ).remove();
 		// Add toolbar module
 		// TODO: Implement .wikiEditor( 'remove' )
+		mw.addWikiEditor( $textarea );
+	} );
+
+	mw.addWikiEditor = function ( $textarea ) {
+		var dialogsConfig;
+
 		$textarea.wikiEditor(
 			'addModule', require( './jquery.wikiEditor.toolbar.config.js' )
 		);
@@ -219,5 +225,6 @@
 		dialogsConfig.replaceIcons( $textarea );
 		// Add dialogs module
 		$textarea.wikiEditor( 'addModule', dialogsConfig.getDefaultConfig() );
-	} );
+
+	};
 }() );
