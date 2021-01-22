@@ -550,7 +550,7 @@
 
 						$( this ).find( '[data-i18n-magic]' )
 							.text( function () {
-								return magicWordsI18N[ $( this ).attr( 'data-i18n-magic' ) ];
+								return magicWordsI18N[ $( this ).attr( 'data-i18n-magic' ) ][ 0 ];
 							} )
 							.removeAttr( 'data-i18n-magic' );
 						$( this ).find( '#wikieditor-toolbar-file-size' )
@@ -614,7 +614,7 @@
 									return val.length && val !== 'default';
 								} );
 								if ( fileAlt.length ) {
-									options.push( magicWordsI18N.img_alt.replace( '$1', fileAlt ) );
+									options.push( magicWordsI18N.img_alt[ 0 ].replace( '$1', fileAlt ) );
 								}
 								if ( caption.length ) {
 									options.push( caption );
@@ -643,7 +643,7 @@
 									'#wikieditor-toolbar-file-size' ].join( ',' )
 								).val( '' );
 								$( '#wikieditor-toolbar-file-float' ).val( 'default' );
-								$( '#wikieditor-toolbar-file-format' ).val( magicWordsI18N.img_thumbnail );
+								$( '#wikieditor-toolbar-file-format' ).val( magicWordsI18N.img_thumbnail[ 0 ] );
 							},
 							'wikieditor-toolbar-tool-file-cancel': function () {
 								$( this ).dialog( 'close' );
@@ -685,13 +685,13 @@
 									fileAlt: '',
 									fileSize: '',
 									fileFloat: 'default',
-									fileFormat: magicWordsI18N.img_thumbnail
+									fileFormat: magicWordsI18N.img_thumbnail[ 0 ]
 								};
 
 							parseFileSyntax = function ( wikitext ) {
 								var escapedPipe = '\u0001',
 									result = {},
-									match, params, file, i, param, text, altTexti18n;
+									match, params, file, i, param;
 								if ( wikitext.indexOf( escapedPipe ) !== -1 ) {
 									return false;
 								}
@@ -711,28 +711,24 @@
 									return false;
 								}
 								result.fileName = file.getMainText();
-								altTexti18n = magicWordsI18N.img_alt.split( '=' )[ 0 ];
 								for ( i = 1; i < params.length; i++ ) {
 									param = params[ i ].toLowerCase();
-									if ( param === 'right' || param === magicWordsI18N.img_right ) {
-										result.fileFloat = magicWordsI18N.img_right;
-									} else if ( param === 'left' || param === magicWordsI18N.img_left ) {
-										result.fileFloat = magicWordsI18N.img_left;
-									} else if ( param === 'none' || param === magicWordsI18N.img_none ) {
-										result.fileFloat = magicWordsI18N.img_none;
-									} else if ( param === 'center' || param === 'centre' || param === magicWordsI18N.img_center ) {
-										result.fileFloat = magicWordsI18N.img_center;
-									} else if ( param === 'thumbnail' || param === 'thumb' || param === magicWordsI18N.img_thumbnail ) {
-										result.fileFormat = magicWordsI18N.img_thumbnail;
-									} else if ( param === 'framed' || param === 'enframed' || param === 'frame' || param === magicWordsI18N.img_framed ) {
-										result.fileFormat = magicWordsI18N.img_framed;
-									} else if ( param === 'frameless' || param === magicWordsI18N.img_frameless ) {
-										result.fileFormat = magicWordsI18N.img_frameless;
-									} else if ( param.indexOf( 'alt=' ) === 0 || param.indexOf( altTexti18n + '=' ) === 0 ) {
-										text = param.split( '=' );
-										if ( text[ 0 ] === 'alt' || text[ 0 ] === altTexti18n ) {
-											result.fileAlt = text[ 1 ].trim();
-										}
+									if ( magicWordsI18N.img_right.indexOf( param ) !== -1 ) {
+										result.fileFloat = magicWordsI18N.img_right[ 0 ];
+									} else if ( magicWordsI18N.img_left.indexOf( param ) !== -1 ) {
+										result.fileFloat = magicWordsI18N.img_left[ 0 ];
+									} else if ( magicWordsI18N.img_none.indexOf( param ) !== -1 ) {
+										result.fileFloat = magicWordsI18N.img_none[ 0 ];
+									} else if ( magicWordsI18N.img_center.indexOf( param ) !== -1 ) {
+										result.fileFloat = magicWordsI18N.img_center[ 0 ];
+									} else if ( magicWordsI18N.img_thumbnail.indexOf( param ) !== -1 ) {
+										result.fileFormat = magicWordsI18N.img_thumbnail[ 0 ];
+									} else if ( magicWordsI18N.img_framed.indexOf( param ) !== -1 ) {
+										result.fileFormat = magicWordsI18N.img_framed[ 0 ];
+									} else if ( magicWordsI18N.img_frameless.indexOf( param ) !== -1 ) {
+										result.fileFormat = magicWordsI18N.img_frameless[ 0 ];
+									} else if ( magicWordsI18N.img_alt.indexOf( param.split( '=', 2 )[ 0 ] + '=$1' ) !== -1 ) {
+										result.fileAlt = param.split( '=', 2 )[ 1 ];
 									} else if ( /.+px$/.test( param ) ) {
 										result.fileSize = param.replace( /px$/, '' );
 									} else if ( param === '' ) {
