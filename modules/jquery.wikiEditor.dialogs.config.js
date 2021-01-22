@@ -691,7 +691,7 @@
 							parseFileSyntax = function ( wikitext ) {
 								var escapedPipe = '\u0001',
 									result = {},
-									match, params, file, i, param;
+									match, params, file, i, param, paramOrig;
 								if ( wikitext.indexOf( escapedPipe ) !== -1 ) {
 									return false;
 								}
@@ -712,7 +712,8 @@
 								}
 								result.fileName = file.getMainText();
 								for ( i = 1; i < params.length; i++ ) {
-									param = params[ i ].toLowerCase();
+									paramOrig = params[ i ];
+									param = paramOrig.toLowerCase();
 									if ( magicWordsI18N.img_right.indexOf( param ) !== -1 ) {
 										result.fileFloat = magicWordsI18N.img_right[ 0 ];
 									} else if ( magicWordsI18N.img_left.indexOf( param ) !== -1 ) {
@@ -728,13 +729,13 @@
 									} else if ( magicWordsI18N.img_frameless.indexOf( param ) !== -1 ) {
 										result.fileFormat = magicWordsI18N.img_frameless[ 0 ];
 									} else if ( magicWordsI18N.img_alt.indexOf( param.split( '=', 2 )[ 0 ] + '=$1' ) !== -1 ) {
-										result.fileAlt = param.split( '=', 2 )[ 1 ];
+										result.fileAlt = paramOrig.split( '=', 2 )[ 1 ];
 									} else if ( /.+px$/.test( param ) ) {
 										result.fileSize = param.replace( /px$/, '' );
 									} else if ( param === '' ) {
 										continue;
 									} else if ( i === params.length - 1 ) { // Last param -> caption
-										result.caption = param.replace( new RegExp( mw.util.escapeRegExp( escapedPipe ), 'g' ), '|' );
+										result.caption = paramOrig.replace( new RegExp( mw.util.escapeRegExp( escapedPipe ), 'g' ), '|' );
 									} else { // Unknown param
 										return false;
 									}
