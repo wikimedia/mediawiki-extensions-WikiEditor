@@ -223,6 +223,7 @@ class WikiEditorHooks {
 	private static function getMagicWords() {
 		$requiredMagicWords = [
 			'redirect',
+			'img_alt',
 			'img_right',
 			'img_left',
 			'img_none',

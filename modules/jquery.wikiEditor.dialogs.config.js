@@ -544,7 +544,10 @@
 					htmlTemplate: 'dialogInsertFile.html',
 					init: function () {
 						var magicWordsI18N = configData.magicWords,
-							defaultMsg = mw.msg( 'wikieditor-toolbar-file-default' );
+							defaultMsg = mw.msg( 'wikieditor-toolbar-file-default' ),
+							altHelpText = mw.msg( 'wikieditor-toolbar-file-alt-help' ),
+							altHelpLabel = mw.msg( 'wikieditor-toolbar-file-alt-help-label' );
+
 						$( this ).find( '[data-i18n-magic]' )
 							.text( function () {
 								return magicWordsI18N[ $( this ).attr( 'data-i18n-magic' ) ];
@@ -561,6 +564,14 @@
 							} )
 							.removeAttr( 'rel' );
 
+						// Expandable help message for 'alt text' field
+						$( this ).find( '.wikieditor-toolbar-file-alt-help' ).text( altHelpLabel );
+						$( '.wikieditor-toolbar-file-alt-help' ).on( 'click', function () {
+							$( this ).text( function ( i, text ) {
+								return text === altHelpLabel ? altHelpText : altHelpLabel;
+							} );
+						} );
+
 						// Preload modules of file upload dialog.
 						mw.loader.load( [
 							'mediawiki.ForeignStructuredUpload.BookletLayout',
@@ -574,12 +585,13 @@
 						width: 590,
 						buttons: {
 							'wikieditor-toolbar-tool-file-insert': function () {
-								var fileName, caption, fileFloat, fileFormat, fileSize, whitespace,
-									fileTitle, options, fileUse,
+								var fileName, caption, fileAlt, fileFloat, fileFormat,
+									fileSize, whitespace, fileTitle, options, fileUse,
 									hasPxRgx = /.+px$/,
 									magicWordsI18N = configData.magicWords;
 								fileName = $( '#wikieditor-toolbar-file-target' ).val();
 								caption = $( '#wikieditor-toolbar-file-caption' ).val();
+								fileAlt = $( '#wikieditor-toolbar-file-alt' ).val();
 								fileFloat = $( '#wikieditor-toolbar-file-float' ).val();
 								fileFormat = $( '#wikieditor-toolbar-file-format' ).val();
 								fileSize = $( '#wikieditor-toolbar-file-size' ).val();
@@ -601,9 +613,13 @@
 								options = options.filter( function ( val ) {
 									return val.length && val !== 'default';
 								} );
+								if ( fileAlt.length ) {
+									options.push( magicWordsI18N.img_alt.replace( '$1', fileAlt ) );
+								}
 								if ( caption.length ) {
 									options.push( caption );
 								}
+
 								fileUse = options.length === 0 ? fileName : ( fileName + '|' + options.join( '|' ) );
 								$( this ).dialog( 'close' );
 								toolbarModule.fn.doAction(
@@ -623,6 +639,7 @@
 								// Restore form state
 								$( [ '#wikieditor-toolbar-file-target',
 									'#wikieditor-toolbar-file-caption',
+									'#wikieditor-toolbar-file-alt',
 									'#wikieditor-toolbar-file-size' ].join( ',' )
 								).val( '' );
 								$( '#wikieditor-toolbar-file-float' ).val( 'default' );
@@ -665,6 +682,7 @@
 									post: '',
 									fileName: '',
 									caption: '',
+									fileAlt: '',
 									fileSize: '',
 									fileFloat: 'default',
 									fileFormat: magicWordsI18N.img_thumbnail
@@ -673,7 +691,7 @@
 							parseFileSyntax = function ( wikitext ) {
 								var escapedPipe = '\u0001',
 									result = {},
-									match, params, file, i, param;
+									match, params, file, i, param, text, altTexti18n;
 								if ( wikitext.indexOf( escapedPipe ) !== -1 ) {
 									return false;
 								}
@@ -693,6 +711,7 @@
 									return false;
 								}
 								result.fileName = file.getMainText();
+								altTexti18n = magicWordsI18N.img_alt.split( '=' )[ 0 ];
 								for ( i = 1; i < params.length; i++ ) {
 									param = params[ i ].toLowerCase();
 									if ( param === 'right' || param === magicWordsI18N.img_right ) {
@@ -709,6 +728,11 @@
 										result.fileFormat = magicWordsI18N.img_framed;
 									} else if ( param === 'frameless' || param === magicWordsI18N.img_frameless ) {
 										result.fileFormat = magicWordsI18N.img_frameless;
+									} else if ( param.indexOf( 'alt=' ) === 0 || param.indexOf( altTexti18n + '=' ) === 0 ) {
+										text = param.split( '=' );
+										if ( text[ 0 ] === 'alt' || text[ 0 ] === altTexti18n ) {
+											result.fileAlt = text[ 1 ].trim();
+										}
 									} else if ( /.+px$/.test( param ) ) {
 										result.fileSize = param.replace( /px$/, '' );
 									} else if ( param === '' ) {
@@ -739,6 +763,7 @@
 								.data( 'whitespace', [ fileData.pre, fileData.post ] );
 							$( '#wikieditor-toolbar-file-target' ).val( fileData.fileName );
 							$( '#wikieditor-toolbar-file-caption' ).val( fileData.caption );
+							$( '#wikieditor-toolbar-file-alt' ).val( fileData.fileAlt );
 							$( '#wikieditor-toolbar-file-float' ).val( fileData.fileFloat );
 							$( '#wikieditor-toolbar-file-format' ).val( fileData.fileFormat );
 							$( '#wikieditor-toolbar-file-size' ).val( fileData.fileSize );
