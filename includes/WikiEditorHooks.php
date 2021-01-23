@@ -218,7 +218,7 @@ class WikiEditorHooks {
 
 	/**
 	 * Expose useful magic words which are used by the wikieditor toolbar
-	 * @return string[]
+	 * @return string[][]
 	 */
 	private static function getMagicWords() {
 		$requiredMagicWords = [
@@ -235,7 +235,7 @@ class WikiEditorHooks {
 		$magicWords = [];
 		$factory = MediaWikiServices::getInstance()->getMagicWordFactory();
 		foreach ( $requiredMagicWords as $name ) {
-			$magicWords[$name] = $factory->get( $name )->getSynonym( 0 );
+			$magicWords[$name] = $factory->get( $name )->getSynonyms();
 		}
 		return $magicWords;
 	}
