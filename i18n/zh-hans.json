@@ -15,6 +15,7 @@
 			"Simon Shek",
 			"VulpesVulpes825",
 			"Xiaomingyan",
+			"Zhang8569",
 			"列维劳德",
 			"铁桶"
 		]
@@ -64,6 +65,9 @@
 	"wikieditor-toolbar-tool-file-title": "插入文件",
 	"wikieditor-toolbar-file-target": "文件名：",
 	"wikieditor-toolbar-file-caption": "标题：",
+	"wikieditor-toolbar-file-alt": "可替代文本",
+	"wikieditor-toolbar-file-alt-help": "您可以用此可选区域来为那些不能看见项目的人们写一段文字描述。这段描述应该让他们足够理解媒体项目提供的目的和信息。这对于盲人用户和其他使用屏幕阅读器软件或纯文本浏览器的人们来说是至关重要的。",
+	"wikieditor-toolbar-file-alt-help-label": "（显示帮助）",
 	"wikieditor-toolbar-file-size": "尺寸：",
 	"wikieditor-toolbar-file-float": "对齐：",
 	"wikieditor-toolbar-file-default": "（默认）",

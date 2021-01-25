@@ -61,6 +61,7 @@
 	"wikieditor-toolbar-tool-file-title": "Indsæt fil",
 	"wikieditor-toolbar-file-target": "Filnavn:",
 	"wikieditor-toolbar-file-caption": "Billedtekst:",
+	"wikieditor-toolbar-file-alt-help-label": "(Vis hjælp)",
 	"wikieditor-toolbar-file-size": "Størrelse:",
 	"wikieditor-toolbar-file-float": "Justering:",
 	"wikieditor-toolbar-file-default": "(standard)",

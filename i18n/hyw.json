@@ -39,6 +39,8 @@
 	"wikieditor-toolbar-tool-file-example": "Օրինակ.jpg",
 	"wikieditor-toolbar-tool-file-title": "Մուտքագրեցէ՛ք նիշքը",
 	"wikieditor-toolbar-file-target": "Նիշքի անունը․",
+	"wikieditor-toolbar-file-alt": "Ուրիշ տարբերակ՝",
+	"wikieditor-toolbar-file-alt-help-label": "(Օգնութիւն)",
 	"wikieditor-toolbar-file-size": "Չափ․",
 	"wikieditor-toolbar-file-default": "(լռելեան)",
 	"wikieditor-toolbar-file-format": "Ձեւաւորել",

@@ -79,7 +79,7 @@
 	"wikieditor-toolbar-tool-file-title": "Title for insert file dialog",
 	"wikieditor-toolbar-file-target": "Label for the input of filename on insert file dialog.\n{{Identical|Filename}}",
 	"wikieditor-toolbar-file-caption": "Label for input of caption on insert file dialog\n\n{{Identical|Caption}}",
-	"wikieditor-toolbar-file-alt":  "Label for input of alternative text on insert file dialog",
+	"wikieditor-toolbar-file-alt": "Label for input of alternative text on insert file dialog",
 	"wikieditor-toolbar-file-alt-help": "Help text explaining the use of alternative text",
 	"wikieditor-toolbar-file-alt-help-label": "Label for toggling help text of alternative text",
 	"wikieditor-toolbar-file-size": "Label for input of size on insert file dialog\n{{Identical|Size}}",
