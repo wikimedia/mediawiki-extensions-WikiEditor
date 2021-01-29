@@ -84,6 +84,10 @@
 			data.user_class = 'IP';
 		}
 
+		if ( mw.user.options.get( 'discussiontools-abtest' ) ) {
+			data.bucket = mw.user.options.get( 'discussiontools-abtest' );
+		}
+
 		// Schema's kind of a mess of special properties
 		if ( data.action === 'init' || data.action === 'abort' || data.action === 'saveFailure' ) {
 			data[ actionPrefix + '_type' ] = data.type;
@@ -106,7 +110,7 @@
 
 	logEditFeature = sampledLogger( 'VisualEditorFeatureUse', function ( inSample, feature, action ) {
 		/* eslint-disable camelcase */
-		return {
+		var data = {
 			feature: feature,
 			action: action,
 			editingSessionId: editingSessionId,
@@ -117,6 +121,10 @@
 			editor_interface: 'wikitext'
 		};
 		/* eslint-enable camelcase */
+		if ( mw.user.options.get( 'discussiontools-abtest' ) ) {
+			data.bucket = mw.user.options.get( 'discussiontools-abtest' );
+		}
+		return data;
 	} );
 
 	function logAbort( switchingToVE, unmodified ) {
