@@ -64,6 +64,10 @@ class WikiEditorHooks {
 			'mw_version' => MW_VERSION,
 		] + $data;
 
+		if ( $user->getOption( 'discussiontools-abtest' ) ) {
+			$data['bucket'] = $user->getOption( 'discussiontools-abtest' );
+		}
+
 		if ( $user->isAnon() ) {
 			$data['user_class'] = 'IP';
 		}
