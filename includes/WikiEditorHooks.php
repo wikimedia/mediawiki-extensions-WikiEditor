@@ -119,7 +119,14 @@ class WikiEditorHooks {
 					$data['init_mechanism'] = 'click';
 				}
 			} else {
-				$data['init_mechanism'] = 'url';
+				if (
+					$request->getVal( 'section' ) === 'new'
+					|| !$article->getPage()->exists()
+				) {
+					$data['init_mechanism'] = 'url-new';
+				} else {
+					$data['init_mechanism'] = 'url';
+				}
 			}
 
 			self::doEventLogging( 'init', $article, $data );
