@@ -7,6 +7,17 @@
 		toolbarModule = require( './jquery.wikiEditor.toolbar.js' ),
 		configData = require( './data.json' );
 
+	function triggerButtonClick( element ) {
+		var $button;
+		$button = $( element ).data( 'dialogaction' ) || $( element ).find( 'button' ).first();
+		// Since we're reading from data attribute, make sure we got an element before clicking.
+		// Note when closing a dialog this can be false leading to TypeError: $button.trigger is not a function
+		// (T261529)
+		if ( $button ) {
+			$button.trigger( 'click' );
+		}
+	}
+
 	module.exports = {
 
 		replaceIcons: function ( $textarea ) {
@@ -521,10 +532,8 @@
 								// Execute the action associated with the first button
 								// when the user presses Enter
 								$( this ).closest( '.ui-dialog' ).on( 'keypress', function ( e ) {
-									var $button;
 									if ( ( e.keyCode || e.which ) === 13 ) {
-										$button = $( this ).data( 'dialogaction' ) || $( this ).find( 'button' ).first();
-										$button.trigger( 'click' );
+										triggerButtonClick( this );
 										e.preventDefault();
 									}
 								} );
@@ -773,11 +782,8 @@
 								// Execute the action associated with the first button
 								// when the user presses Enter
 								$( this ).closest( '.ui-dialog' ).on( 'keypress', function ( e ) {
-									var $button;
 									if ( e.which === 13 ) {
-										$button = $( this ).data( 'dialogaction' ) ||
-											$( this ).find( 'button' ).first();
-										$button.trigger( 'click' );
+										triggerButtonClick( this );
 										e.preventDefault();
 									}
 								} );
@@ -944,10 +950,8 @@
 								// Execute the action associated with the first button
 								// when the user presses Enter
 								$( this ).closest( '.ui-dialog' ).on( 'keypress', function ( e ) {
-									var $button;
 									if ( ( e.keyCode || e.which ) === 13 ) {
-										$button = $( this ).data( 'dialogaction' ) || $( this ).find( 'button' ).first();
-										$button.trigger( 'click' );
+										triggerButtonClick( this );
 										e.preventDefault();
 									}
 								} );
@@ -1143,10 +1147,8 @@
 								// Execute the action associated with the first button
 								// when the user presses Enter
 								$( this ).closest( '.ui-dialog' ).on( 'keypress', function ( e ) {
-									var $button;
 									if ( ( e.keyCode || e.which ) === 13 ) {
-										$button = $( this ).data( 'dialogaction' ) || $( this ).find( 'button' ).first();
-										$button.trigger( 'click' );
+										triggerButtonClick( this );
 										e.preventDefault();
 									}
 								} );
@@ -1163,11 +1165,9 @@
 
 							$textbox
 								.on( 'keypress.srdialog', function ( e ) {
-									var $button;
 									if ( e.which === 13 ) {
 										// Enter
-										$button = $dialog.data( 'dialogaction' ) || $dialog.find( 'button' ).first();
-										$button.trigger( 'click' );
+										triggerButtonClick( $dialog );
 										e.preventDefault();
 									} else if ( e.which === 27 ) {
 										// Escape
