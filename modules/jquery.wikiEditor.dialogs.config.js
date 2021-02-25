@@ -8,8 +8,10 @@
 		configData = require( './data.json' );
 
 	function triggerButtonClick( element ) {
-		var $button;
-		$button = $( element ).data( 'dialogaction' ) || $( element ).find( 'button' ).first();
+		var $button,
+			// The dialog action should always be a DOMElement.
+			dialogAction = $( element ).data( 'dialogaction' );
+		$button = dialogAction ? $( dialogAction ) : $( element ).find( 'button' ).first();
 		// Since we're reading from data attribute, make sure we got an element before clicking.
 		// Note when closing a dialog this can be false leading to TypeError: $button.trigger is not a function
 		// (T261529)
