@@ -105,7 +105,7 @@
 	"wikieditor-toolbar-tool-heading-4": "Used as example text when inserting a header into the editbox from the toolbar",
 	"wikieditor-toolbar-tool-heading-5": "Used as example text when inserting a header into the editbox from the toolbar",
 	"wikieditor-toolbar-tool-heading-example": "Used as example text when inserting a header into the editbox from the toolbar",
-	"wikieditor-toolbar-group-format": "{{Identical|Format}}",
+	"wikieditor-toolbar-group-format": "A label for a group of toolbar buttons that includes buttons such as:\n* {{msg-mw|wikieditor-toolbar-tool-ulist}}\n* {{msg-mw|wikieditor-toolbar-tool-olist}}\n* {{msg-mw|wikieditor-toolbar-tool-nowiki}}\n* {{msg-mw|wikieditor-toolbar-tool-newline}}\n\n{{Identical|Format}}",
 	"wikieditor-toolbar-tool-ulist": "{{Identical|Bulleted list}}",
 	"wikieditor-toolbar-tool-ulist-example": "Used as example text when inserting an unordered list into the editbox from the toolbar",
 	"wikieditor-toolbar-tool-olist": "{{Identical|Numbered list}}",
