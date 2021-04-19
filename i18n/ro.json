@@ -114,7 +114,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Previzualizare",
 	"wikieditor-toolbar-tool-table-insert": "Inserează",
 	"wikieditor-toolbar-tool-table-cancel": "Revocare",
-	"wikieditor-toolbar-tool-table-toomany": "Inserarea unui tabel cu mai mult de $1 {{PLURAL:$1|celule|de celule}} nu este posibilă cu această unealtă.",
+	"wikieditor-toolbar-tool-table-toomany": "Inserarea unui tabel cu mai mult de $1 {{PLURAL:$1|celulă|celule|de celule}} nu este posibilă cu această unealtă.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Nu ați introdus un număr valabil de rânduri sau coloane.",
 	"wikieditor-toolbar-tool-table-zero": "Nu puteți introduce un tabel cu zero rânduri sau coloane.",
 	"wikieditor-toolbar-tool-replace": "Căutare și înlocuire",
