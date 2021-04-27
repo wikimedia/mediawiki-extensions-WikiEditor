@@ -612,12 +612,14 @@
 									fileSize += 'px';
 								}
 								if ( fileName !== '' ) {
-									fileTitle = new mw.Title( fileName );
+									fileTitle = mw.Title.newFromText( fileName );
 									// Append file namespace prefix to filename if not already contains it
-									if ( fileTitle.getNamespaceId() !== 6 ) {
-										fileTitle = new mw.Title( fileName, 6 );
+									if ( fileTitle && fileTitle.getNamespaceId() !== 6 ) {
+										fileTitle = mw.Title.makeTitle( 6, fileName );
 									}
-									fileName = fileTitle.toText();
+									if ( fileTitle ) {
+										fileName = fileTitle.toText();
+									}
 								}
 								options = [ fileSize, fileFormat, fileFloat ];
 								// Filter empty values
@@ -717,8 +719,8 @@
 								params = match[ 2 ].replace( /\[\[[^[\]]*\]\]|\{\{[^{}]\}\}/g, function ( link ) {
 									return link.replace( /\|/g, escapedPipe );
 								} ).split( '|' );
-								file = new mw.Title( params[ 0 ] );
-								if ( file.getNamespaceId() !== 6 ) {
+								file = mw.Title.newFromText( params[ 0 ] );
+								if ( !file || file.getNamespaceId() !== 6 ) {
 									return false;
 								}
 								result.fileName = file.getMainText();
