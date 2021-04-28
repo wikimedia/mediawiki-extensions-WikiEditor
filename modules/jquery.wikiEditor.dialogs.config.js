@@ -335,8 +335,7 @@
 									formatversion: 2,
 									action: 'opensearch',
 									search: title,
-									namespace: 0,
-									suggest: ''
+									namespace: 0
 								} ).done( function ( data ) {
 									cache[ title ] = data[ 1 ];
 									$( that ).suggestions( 'suggestions', data[ 1 ] );
