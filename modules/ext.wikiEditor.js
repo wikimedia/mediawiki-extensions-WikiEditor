@@ -155,6 +155,9 @@
 			origText = $textarea.val(),
 			submitting, onUnloadFallback, readyTime;
 
+		// Tracking Javascript support: T263505
+		$( '#wikieditorJavascriptSupport' ).val( 'yes' );
+
 		if ( $editingSessionIdInput.length ) {
 			editingSessionId = $editingSessionIdInput.val();
 			if ( window.performance && window.performance.timing ) {
