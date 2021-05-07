@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Aushulz",
 			"Gmelfi",
 			"Macofe",
@@ -15,7 +16,7 @@
 	"wikieditor-toolbar": "Barra dî strummenta di canci",
 	"wikieditor-toolbar-desc": "Barra dî strummenta di canci dâ pàggina cu na megghiu usabbilità",
 	"wikieditor-toolbar-preference": "Abbilita la barra avanzata dî strummenta di canci",
-	"wikieditor-toolbar-loading": "Caricamentu in corsu...",
+	"wikieditor-toolbar-loading": "Caricamentu n corsu...",
 	"wikieditor-toolbar-tool-bold": "Grassettu",
 	"wikieditor-toolbar-tool-bold-example": "Testu in grassettu",
 	"wikieditor-toolbar-tool-italic": "Cursivu",
@@ -87,7 +88,7 @@
 	"wikieditor-toolbar-tool-table": "Tabbella",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! titulu 1\n! titulu 2\n! titulu 3\n|-\n| ligna 1, cella 1\n| ligna 1, cella 2\n| ligna 1, cella 3\n|-\n| ligna 2, cella 1\n| ligna 2, cella 2\n| ligna 2, cella 3\n-\n! titulu 1\n! titulu 2\n! titulu 3\n|-\n| ligna 1, cella 1\n| ligna 1, cella 2\n| ligna 1, cella 3\n|-\n| ligna 2, cella 1\n| ligna 2, cella 2\n| ligna 2, cella 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Testu dâ cella",
-	"wikieditor-toolbar-tool-table-example-header": "Testz dû titulu",
+	"wikieditor-toolbar-tool-table-example-header": "Testu dû titulu",
 	"wikieditor-toolbar-tool-table-title": "Nzirisci tabbella",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Lìgni",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Culonni",
