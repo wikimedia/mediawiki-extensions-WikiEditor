@@ -114,7 +114,7 @@ class WikiEditorHooks {
 		$data = [
 			'feature' => $feature,
 			'action' => $action,
-			'editing_session_id' => $sessionId,
+			'editingSessionId' => $sessionId,
 			'platform' => 'desktop', // FIXME T249944
 			'integration' => 'page',
 			'editor_interface' => 'wikitext',
