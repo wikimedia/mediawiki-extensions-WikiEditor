@@ -223,14 +223,11 @@
 	 * @return {jQuery}
 	 */
 	$.fn.wikiEditor = function () {
-		var context, hasFocus, cursorPos,
-			args, modules, module, extension, call;
-
 		/* Initialization */
 
 		// The wikiEditor context is stored in the element's data, so when this function gets called again we can pick up right
 		// where we left off
-		context = $( this ).data( 'wikiEditor-context' );
+		var context = $( this ).data( 'wikiEditor-context' );
 		// On first call, we need to set things up, but on all following calls we can skip right to the API handling
 		if ( !context || typeof context === 'undefined' ) {
 
@@ -268,7 +265,7 @@
 				 * @param data Either a string of the name of a module to add without any additional configuration parameters,
 				 * or an object with members keyed with module names and valued with configuration objects.
 				 */
-				addModule: function ( context, data ) {
+				addModule: function ( ctx, data ) {
 					var module, call,
 						modules = {};
 					if ( typeof data === 'string' ) {
@@ -283,20 +280,20 @@
 							if ( 'api' in $.wikiEditor.modules[ module ] ) {
 								for ( call in $.wikiEditor.modules[ module ].api ) {
 									// Modules may not overwrite existing API functions - first come, first serve
-									if ( !( call in context.api ) ) {
-										context.api[ call ] = $.wikiEditor.modules[ module ].api[ call ];
+									if ( !( call in ctx.api ) ) {
+										ctx.api[ call ] = $.wikiEditor.modules[ module ].api[ call ];
 									}
 								}
 							}
 							// Activate the module on this context
 							if ( 'fn' in $.wikiEditor.modules[ module ] &&
 								'create' in $.wikiEditor.modules[ module ].fn &&
-								typeof context.modules[ module ] === 'undefined'
+								typeof ctx.modules[ module ] === 'undefined'
 							) {
 								// Add a place for the module to put it's own stuff
-								context.modules[ module ] = {};
+								ctx.modules[ module ] = {};
 								// Tell the module to create itself on the context
-								$.wikiEditor.modules[ module ].fn.create( context, modules[ module ] );
+								$.wikiEditor.modules[ module ].fn.create( ctx, modules[ module ] );
 							}
 						}
 					}
@@ -394,14 +391,14 @@
 				 */
 				addView: function ( options ) {
 					// Adds a tab
-					function addTab( options ) {
+					function addTab( opts ) {
 						// Ensure that buttons and tabs are visible
 						context.$controls.show();
 						context.$tabs.show();
 						// Return the newly appended tab
 						return $( '<div>' )
-							.attr( 'rel', 'wikiEditor-ui-view-' + options.name )
-							.addClass( context.view === options.name ? 'current' : null )
+							.attr( 'rel', 'wikiEditor-ui-view-' + opts.name )
+							.addClass( context.view === opts.name ? 'current' : null )
 							.append( $( '<a>' )
 								.attr( 'tabindex', 0 )
 								.on( 'mousedown', function () {
@@ -418,14 +415,14 @@
 										context.$tabs.find( 'div' ).removeClass( 'current' );
 										$( this ).parent().addClass( 'current' );
 										$( this ).trigger( 'blur' );
-										if ( 'init' in options && typeof options.init === 'function' ) {
-											options.init( context );
+										if ( 'init' in opts && typeof opts.init === 'function' ) {
+											opts.init( context );
 										}
 										event.preventDefault();
 										return false;
 									}
 								} )
-								.text( $.wikiEditor.autoMsg( options, 'title' ) )
+								.text( $.wikiEditor.autoMsg( opts, 'title' ) )
 							)
 							.appendTo( context.$tabs );
 					}
@@ -436,6 +433,7 @@
 					// Add the tab for the view we were actually asked to add
 					addTab( options );
 					// Return newly appended view
+					// eslint-disable-next-line mediawiki/class-doc
 					return $( '<div>' )
 						.addClass( 'wikiEditor-ui-view wikiEditor-ui-view-' + options.name )
 						.hide()
@@ -482,8 +480,8 @@
 					.css( 'marginTop', context.$textarea.height() / 2 ) );
 			*/
 			/* Preserving cursor and focus state, which will get lost due to wrapAll */
-			hasFocus = context.$textarea.is( ':focus' );
-			cursorPos = context.$textarea.textSelection( 'getCaretPosition', { startAndEnd: true } );
+			var hasFocus = context.$textarea.is( ':focus' );
+			var cursorPos = context.$textarea.textSelection( 'getCaretPosition', { startAndEnd: true } );
 			// Encapsulate the textarea with some containers for layout
 			context.$textarea
 			/* Disabling our loading div for now
@@ -536,19 +534,19 @@
 		/* API Execution */
 
 		// Since javascript gives arguments as an object, we need to convert them so they can be used more easily
-		args = $.makeArray( arguments );
+		var args = $.makeArray( arguments );
 
 		// Dynamically setup core extensions for modules that are required
 		if ( args[ 0 ] === 'addModule' && typeof args[ 1 ] !== 'undefined' ) {
-			modules = args[ 1 ];
-			if ( typeof modules !== 'object' ) {
-				modules = {};
-				modules[ args[ 1 ] ] = '';
+			var modulesArg = args[ 1 ];
+			if ( typeof modulesArg !== 'object' ) {
+				modulesArg = {};
+				modulesArg[ args[ 1 ] ] = '';
 			}
-			for ( module in modules ) {
-				if ( module in $.wikiEditor.modules ) {
+			for ( var m in modulesArg ) {
+				if ( m in $.wikiEditor.modules ) {
 					// Activate all required core extensions on context
-					for ( extension in $.wikiEditor.extensions ) {
+					for ( var extension in $.wikiEditor.extensions ) {
 						if (
 							$.wikiEditor.isRequired( $.wikiEditor.modules[ module ], extension ) &&
 							context.extensions.indexOf( extension ) === -1
@@ -565,9 +563,9 @@
 		// There would need to be some arguments if the API is being called
 		if ( args.length > 0 ) {
 			// Handle API calls
-			call = args.shift();
-			if ( call in context.api ) {
-				context.api[ call ]( context, typeof args[ 0 ] === 'undefined' ? {} : args[ 0 ] );
+			var callArg = args.shift();
+			if ( callArg in context.api ) {
+				context.api[ callArg ]( context, typeof args[ 0 ] === 'undefined' ? {} : args[ 0 ] );
 			}
 		}
 

@@ -417,15 +417,14 @@
 								return false;
 							} )
 							.on( 'click keydown', function ( e ) {
-								var $options, canShowOptions;
 								if (
 									e.type === 'click' ||
 									e.type === 'keydown' && e.key === 'Enter'
 								) {
-									$options = $( this ).data( 'options' );
+									var $opts = $( this ).data( 'options' );
 									// eslint-disable-next-line no-jquery/no-class-state
-									canShowOptions = !$options.closest( '.tool-select' ).hasClass( 'options-shown' );
-									$options.closest( '.tool-select' ).toggleClass( 'options-shown', canShowOptions );
+									var canShowOptions = !$opts.closest( '.tool-select' ).hasClass( 'options-shown' );
+									$opts.closest( '.tool-select' ).toggleClass( 'options-shown', canShowOptions );
 									$( this ).attr( 'aria-expanded', canShowOptions.toString() );
 									e.preventDefault();
 									return false;
