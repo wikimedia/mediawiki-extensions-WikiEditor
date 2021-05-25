@@ -6,7 +6,9 @@
 			"Malafaya"
 		]
 	},
+	"wikieditor-loading": "Karganta...",
 	"wikieditor-toolbar-preference": "Habilitar utensilo-stango (editing toolbar)",
+	"wikieditor-toolbar-loading": "Karganta...",
 	"wikieditor-toolbar-tool-italic": "Kursiva",
 	"wikieditor-toolbar-tool-italic-example": "Kursiva texto",
 	"wikieditor-toolbar-tool-ilink": "Interna ligilo",
