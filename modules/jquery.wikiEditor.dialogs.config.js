@@ -131,6 +131,8 @@
 								);
 							if ( status ) {
 								$( '#wikieditor-toolbar-link-int-target-status-' + status ).show();
+								// Status classes listed above
+								// eslint-disable-next-line mediawiki/class-doc
 								$( '#wikieditor-toolbar-link-int-target' ).parent().addClass( 'status-' + status );
 							}
 							if ( status === 'invalid' ) {
