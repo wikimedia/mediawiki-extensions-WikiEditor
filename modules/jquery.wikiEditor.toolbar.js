@@ -797,7 +797,8 @@
 			handleKeyDown: function ( $element, event, $parent ) {
 				var $nextItem,
 					$currentItem = $element.find( '.wikiEditor-character-highlighted' ),
-					optionTop = $parent.find( '.wikiEditor-character-highlighted' ).offset().top,
+					optionOffset = $parent.find( '.wikiEditor-character-highlighted' ).offset(),
+					optionTop = optionOffset ? optionOffset.top : 0,
 					selectTop = $parent.offset().top;
 				switch ( event.keyCode ) {
 					// Up arrow
