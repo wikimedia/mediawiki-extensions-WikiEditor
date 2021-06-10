@@ -548,7 +548,7 @@
 					// Activate all required core extensions on context
 					for ( var extension in $.wikiEditor.extensions ) {
 						if (
-							$.wikiEditor.isRequired( $.wikiEditor.modules[ module ], extension ) &&
+							$.wikiEditor.isRequired( $.wikiEditor.modules[ m ], extension ) &&
 							context.extensions.indexOf( extension ) === -1
 						) {
 							context.extensions[ context.extensions.length ] = extension;
