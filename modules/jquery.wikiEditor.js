@@ -73,9 +73,8 @@
 		 * @return {boolean}
 		 */
 		isRequired: function ( module, requirement ) {
-			var req;
 			if ( typeof module.req !== 'undefined' ) {
-				for ( req in module.req ) {
+				for ( var req in module.req ) {
 					if ( module.req[ req ] === requirement ) {
 						return true;
 					}
@@ -99,10 +98,9 @@
 		 * @return {string}
 		 */
 		autoMsg: function ( object, property ) {
-			var i, p;
 			// Accept array of possible properties, of which the first one found will be used
 			if ( typeof property === 'object' ) {
-				for ( i in property ) {
+				for ( var i in property ) {
 					if ( property[ i ] in object || property[ i ] + 'Msg' in object ) {
 						property = property[ i ];
 						break;
@@ -112,7 +110,7 @@
 			if ( property in object ) {
 				return object[ property ];
 			} else if ( property + 'Msg' in object ) {
-				p = object[ property + 'Msg' ];
+				var p = object[ property + 'Msg' ];
 				if ( Array.isArray( p ) && p.length >= 2 ) {
 					return mw.message.apply( mw.message, p ).text();
 				} else {
@@ -137,10 +135,9 @@
 		 * @return {string}
 		 */
 		autoSafeMsg: function ( object, property ) {
-			var i, p;
 			// Accept array of possible properties, of which the first one found will be used
 			if ( typeof property === 'object' ) {
-				for ( i in property ) {
+				for ( var i in property ) {
 					if ( property[ i ] in object || property[ i ] + 'Msg' in object ) {
 						property = property[ i ];
 						break;
@@ -150,7 +147,7 @@
 			if ( property in object ) {
 				return object[ property ];
 			} else if ( property + 'Msg' in object ) {
-				p = object[ property + 'Msg' ];
+				var p = object[ property + 'Msg' ];
 				if ( Array.isArray( p ) && p.length >= 2 ) {
 					return mw.message.apply( mw.message, p ).escaped();
 				} else {
@@ -172,10 +169,8 @@
 		 * @return {Object}
 		 */
 		autoLang: function ( object ) {
-			var i, key;
-
-			for ( i = 0; i < fallbackChain.length; i++ ) {
-				key = fallbackChain[ i ];
+			for ( var i = 0; i < fallbackChain.length; i++ ) {
+				var key = fallbackChain[ i ];
 				if ( hasOwn.call( object, key ) ) {
 					return object[ key ];
 				}
@@ -192,14 +187,12 @@
 		 * @return {Object}
 		 */
 		autoIcon: function ( icon, path ) {
-			var i, key, src;
-
 			path = path || $.wikiEditor.imgPath;
 
-			for ( i = 0; i < fallbackChain.length; i++ ) {
-				key = fallbackChain[ i ];
+			for ( var i = 0; i < fallbackChain.length; i++ ) {
+				var key = fallbackChain[ i ];
 				if ( icon && hasOwn.call( icon, key ) ) {
-					src = icon[ key ];
+					var src = icon[ key ];
 
 					// Return a data URL immediately
 					if ( src.substr( 0, 5 ) === 'data:' ) {
@@ -266,19 +259,18 @@
 				 * or an object with members keyed with module names and valued with configuration objects.
 				 */
 				addModule: function ( ctx, data ) {
-					var module, call,
-						modules = {};
+					var modules = {};
 					if ( typeof data === 'string' ) {
 						modules[ data ] = {};
 					} else if ( typeof data === 'object' ) {
 						modules = data;
 					}
-					for ( module in modules ) {
+					for ( var module in modules ) {
 						// Check for the existence of an available module with a matching name and a create function
 						if ( typeof module === 'string' && typeof $.wikiEditor.modules[ module ] !== 'undefined' ) {
 							// Extend the context's core API with this module's own API calls
 							if ( 'api' in $.wikiEditor.modules[ module ] ) {
-								for ( call in $.wikiEditor.modules[ module ].api ) {
+								for ( var call in $.wikiEditor.modules[ module ].api ) {
 									// Modules may not overwrite existing API functions - first come, first serve
 									if ( !( call in ctx.api ) ) {
 										ctx.api[ call ] = $.wikiEditor.modules[ module ].api[ call ];
@@ -322,8 +314,6 @@
 				 * @return {boolean}
 				 */
 				trigger: function ( name, event ) {
-					var returnFromModules, module, ret;
-
 					// Event is an optional argument, but from here on out, at least the type field should be dependable
 					if ( typeof event === 'undefined' ) {
 						event = { type: 'custom' };
@@ -339,16 +329,16 @@
 							return false;
 						}
 					}
-					returnFromModules = null; // they return null by default
+					var returnFromModules = null; // they return null by default
 					// Pass the event around to all modules activated on this context
 
-					for ( module in context.modules ) {
+					for ( var module in context.modules ) {
 						if (
 							module in $.wikiEditor.modules &&
 							'evt' in $.wikiEditor.modules[ module ] &&
 							name in $.wikiEditor.modules[ module ].evt
 						) {
-							ret = $.wikiEditor.modules[ module ].evt[ name ]( context, event );
+							var ret = $.wikiEditor.modules[ module ].evt[ name ]( context, event );
 							if ( ret !== null ) {
 								// if 1 returns false, the end result is false
 								if ( returnFromModules === null ) {
