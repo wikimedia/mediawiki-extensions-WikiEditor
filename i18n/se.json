@@ -4,5 +4,9 @@
 			"Yupik"
 		]
 	},
-	"wikieditor-toolbar-tool-link": "Liŋka"
+	"wikieditor-toolbar-tool-link": "Liŋka",
+	"wikieditor-toolbar-tool-file-example": "Ovdamearka.jpg",
+	"wikieditor-toolbar-file-target": "Fiilanamma:",
+	"wikieditor-toolbar-tool-table": "Tabealla",
+	"wikieditor-toolbar-tool-table-example": "Ovdamearka"
 }
