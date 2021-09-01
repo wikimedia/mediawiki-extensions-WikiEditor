@@ -3,8 +3,9 @@
  */
 ( function () {
 
-	var hasOwn = Object.prototype.hasOwnProperty,
-		toolbarModule = require( './jquery.wikiEditor.toolbar.js' ),
+	var toolbarModule = require( './jquery.wikiEditor.toolbar.js' ),
+		InsertLinkTitleInputField = require( './insertlink/TitleInputField.js' ),
+		insertLinkTitleInputField = new InsertLinkTitleInputField(),
 		configData = require( './data.json' );
 
 	function triggerButtonClick( element ) {
@@ -103,173 +104,50 @@
 					htmlTemplate: 'dialogInsertLink.html',
 
 					init: function () {
-						var api = new mw.Api();
+						$( '.wikieditor-toolbar-link-target' ).replaceWith( insertLinkTitleInputField.$element );
 
-						function isExternalLink( s ) {
-							// The following things are considered to be external links:
-							// * Starts with a URL protocol
-							// * Starts with www.
-							// All of these are potentially valid titles, and the latter two categories match about 6300
-							// titles in enwiki's ns0. Out of 6.9M titles, that's 0.09%
-							/* eslint-disable no-caller */
-							if ( typeof arguments.callee.regex === 'undefined' ) {
-								// Cache the regex
-								arguments.callee.regex =
-									new RegExp( '^(' + mw.config.get( 'wgUrlProtocols' ) + '|www\\.)', 'i' );
-							}
-							return s.match( arguments.callee.regex );
-							/* eslint-enable no-caller */
-						}
-
-						// Updates the status indicator above the target link
-						function updateWidget( status, reason ) {
-							$( '#wikieditor-toolbar-link-int-target-status' ).children().hide();
-							$( '#wikieditor-toolbar-link-int-target' ).parent()
-								.removeClass(
-									'status-invalid status-external status-notexists status-exists status-loading'
-								);
-							if ( status ) {
-								$( '#wikieditor-toolbar-link-int-target-status-' + status ).show();
-								// Status classes listed above
-								// eslint-disable-next-line mediawiki/class-doc
-								$( '#wikieditor-toolbar-link-int-target' ).parent().addClass( 'status-' + status );
-							}
-							if ( status === 'invalid' ) {
-								// eslint-disable-next-line no-jquery/no-sizzle
-								$( '.ui-dialog:visible .ui-dialog-buttonpane button' ).first()
-									.prop( 'disabled', true )
-									.addClass( 'disabled' );
-								if ( reason ) {
-									$( '#wikieditor-toolbar-link-int-target-status-invalid' ).html( reason );
-								} else {
-									$( '#wikieditor-toolbar-link-int-target-status-invalid' )
-										.text( mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-invalid' ) );
-								}
-
-							} else {
-								// eslint-disable-next-line no-jquery/no-sizzle
-								$( '.ui-dialog:visible .ui-dialog-buttonpane button' ).first()
-									.prop( 'disabled', false )
-									.removeClass( 'disabled' );
-							}
-						}
-
-						// Updates the UI to show if the page title being inputted by the user exists or not
-						// accepts parameter internal for bypassing external link detection
-						function updateExistence( internal ) {
-							// Abort previous request
-							var request = $( '#wikieditor-toolbar-link-int-target-status' ).data( 'request' ),
-								target = $( '#wikieditor-toolbar-link-int-target' ).val(),
-								cache = $( '#wikieditor-toolbar-link-int-target-status' ).data( 'existencecache' ),
-								reasoncache = $( '#wikieditor-toolbar-link-int-target-status' ).data( 'reasoncache' );
-							// ensure the internal parameter is a boolean
-							if ( internal !== true ) {
-								internal = false;
-							}
-							if ( request ) {
-								request.abort();
-							}
-							if ( hasOwn.call( cache, target ) ) {
-								updateWidget( cache[ target ], reasoncache[ target ] );
-								return;
-							}
-							if ( target.replace( /^\s+$/, '' ) === '' ) {
-								// Hide the widget when the textbox is empty
-								updateWidget( false );
-								return;
-							}
-							// If the forced internal parameter was not true, check if the target is an external link
-							if ( !internal && isExternalLink( target ) ) {
-								updateWidget( 'external' );
-								return;
-							}
-							// Show loading spinner while waiting for the API to respond
-							updateWidget( 'loading' );
-							// Call the API to check page status, saving the request object so it can be aborted if
-							// necessary.
-							// This used to request a page that would show whether or not the target exists, but we can
-							// also check whether it has the disambiguation property and still get existence information.
-							// If the Disambiguator extension is not installed then such a property won't be set.
-							$( '#wikieditor-toolbar-link-int-target-status' ).data(
-								'request',
-								api.get( {
-									formatversion: 2,
-									action: 'query',
-									prop: 'pageprops',
-									titles: [ target ],
-									ppprop: 'disambiguation',
-									errorformat: 'html',
-									errorlang: mw.config.get( 'wgUserLanguage' )
-								} ).done( function ( data ) {
-									var reason = null;
-									var status;
-									if ( !data.query || !data.query.pages ) {
-										// This happens in some weird cases like interwiki links
-										status = false;
-									} else {
-										var page = data.query.pages[ 0 ];
-										status = 'exists';
-										if ( page.missing ) {
-											status = 'notexists';
-										} else if ( page.invalid ) {
-											status = 'invalid';
-											reason = page.invalidreason && page.invalidreason.html;
-										} else if ( page.pageprops ) {
-											status = 'disambig';
-										}
-									}
-									// Cache the status of the link target if the force internal
-									// parameter was not passed
-									if ( !internal ) {
-										cache[ target ] = status;
-										reasoncache[ target ] = reason;
-									}
-									updateWidget( status, reason );
-								} )
-							);
-						}
-						$( '#wikieditor-toolbar-link-type-int, #wikieditor-toolbar-link-type-ext' ).on( 'click', function () {
-							if ( $( '#wikieditor-toolbar-link-type-ext' ).prop( 'checked' ) ) {
-								// Abort previous request
-								var request = $( '#wikieditor-toolbar-link-int-target-status' ).data( 'request' );
-								if ( request ) {
-									request.abort();
-								}
-								updateWidget( 'external' );
-							}
-							if ( $( '#wikieditor-toolbar-link-type-int' ).prop( 'checked' ) ) {
-								updateExistence( true );
-							}
-						} );
 						// Set labels of tabs based on rel values
 						$( this ).find( '[rel]' ).each( function () {
 							// eslint-disable-next-line mediawiki/msg-doc
 							$( this ).text( mw.msg( $( this ).attr( 'rel' ) ) );
 						} );
-						$( '#wikieditor-toolbar-link-int-target' ).attr( 'placeholder',
-							mw.msg( 'wikieditor-toolbar-tool-link-int-target-tooltip' ) );
 						$( '#wikieditor-toolbar-link-int-text' ).attr( 'placeholder',
 							mw.msg( 'wikieditor-toolbar-tool-link-int-text-tooltip' ) );
 						// Automatically copy the value of the internal link page title field to the link text field unless the
 						// user has changed the link text field - this is a convenience thing since most link texts are going to
 						// be the same as the page title - Also change the internal/external radio button accordingly
-						$( '#wikieditor-toolbar-link-int-target' ).on( 'change keydown paste cut', function () {
-							// $( this ).val() is the old value, before the keypress - Defer this until $( this ).val() has
-							// been updated
-							setTimeout( function () {
-								if ( isExternalLink( $( '#wikieditor-toolbar-link-int-target' ).val() ) ) {
+						insertLinkTitleInputField.connect( this, {
+							change: function ( val ) {
+								if ( insertLinkTitleInputField.getField().isExternalLink( val ) ) {
 									$( '#wikieditor-toolbar-link-type-ext' ).prop( 'checked', true );
-									updateWidget( 'external' );
 								} else {
 									$( '#wikieditor-toolbar-link-type-int' ).prop( 'checked', true );
-									updateExistence();
 								}
 								if ( $( '#wikieditor-toolbar-link-int-text' ).data( 'untouched' ) ) {
 									$( '#wikieditor-toolbar-link-int-text' )
-										.val( $( '#wikieditor-toolbar-link-int-target' ).val() )
+										.val( val )
 										.trigger( 'change' );
 								}
-							}, 0 );
+								// eslint-disable-next-line no-jquery/no-sizzle
+								$( '.ui-dialog:visible .ui-dialog-buttonpane button' )
+									.first()
+									.prop( 'disabled', false )
+									.removeClass( 'disabled' );
+							},
+							invalid: function () {
+								// eslint-disable-next-line no-jquery/no-sizzle
+								$( '.ui-dialog:visible .ui-dialog-buttonpane button' )
+									.first()
+									.prop( 'disabled', true )
+									.addClass( 'disabled' );
+							}
+						} );
+						// Tell the title input field when the internal/external radio changes.
+						$( 'input[name="wikieditor-toolbar-link-type"]' ).on( 'change', function ( event ) {
+							var urlMode = event.target.id === 'wikieditor-toolbar-link-type-ext' ?
+								insertLinkTitleInputField.urlModes.external :
+								insertLinkTitleInputField.urlModes.internal;
+							insertLinkTitleInputField.setUrlMode( urlMode );
 						} );
 						$( '#wikieditor-toolbar-link-int-text' ).on( 'change keydown paste cut', function () {
 							var oldVal = $( this ).val(),
@@ -279,75 +157,6 @@
 									$( that ).data( 'untouched', false );
 								}
 							}, 0 );
-						} );
-						// Add images to the page existence widget, which will be shown mutually exclusively to communicate if
-						// the page exists, does not exist or the title is invalid (like if it contains a | character)
-						$( '#wikieditor-toolbar-link-int-target-status' )
-							.append( $( '<div>' )
-								.attr( 'id', 'wikieditor-toolbar-link-int-target-status-exists' )
-								.text( mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-exists' ) )
-							)
-							.append( $( '<div>' )
-								.attr( 'id', 'wikieditor-toolbar-link-int-target-status-notexists' )
-								.text( mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-notexists' ) )
-							)
-							.append( $( '<div>' )
-								.attr( 'id', 'wikieditor-toolbar-link-int-target-status-invalid' )
-							)
-							.append( $( '<div>' )
-								.attr( 'id', 'wikieditor-toolbar-link-int-target-status-external' )
-								.text( mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-external' ) )
-							)
-							.append( $( '<div>' )
-								.attr( 'id', 'wikieditor-toolbar-link-int-target-status-loading' )
-								.attr( 'title', mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-loading' ) )
-							)
-							.append( $( '<div>' )
-								.attr( 'id', 'wikieditor-toolbar-link-int-target-status-disambig' )
-								.text( mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-disambig' ) )
-							)
-							.data( 'existencecache', {} )
-							.data( 'reasoncache', {} )
-							.children().hide();
-
-						$( '#wikieditor-toolbar-link-int-target' )
-							.on( 'keyup paste cut', $.debounce( 500, updateExistence ) )
-							.on( 'change', updateExistence ); // update right now
-
-						// Title suggestions
-						$( '#wikieditor-toolbar-link-int-target' ).data( 'suggcache', {} ).suggestions( {
-							fetch: function () {
-								var that = this,
-									title = $( this ).val();
-
-								if ( isExternalLink( title ) || title.indexOf( '|' ) !== -1 || title === '' ) {
-									$( this ).suggestions( 'suggestions', [] );
-									return;
-								}
-
-								var cache = $( this ).data( 'suggcache' );
-								if ( hasOwn.call( cache, title ) ) {
-									$( this ).suggestions( 'suggestions', cache[ title ] );
-									return;
-								}
-
-								var request = api.get( {
-									formatversion: 2,
-									action: 'opensearch',
-									search: title,
-									namespace: 0
-								} ).done( function ( data ) {
-									cache[ title ] = data[ 1 ];
-									$( that ).suggestions( 'suggestions', data[ 1 ] );
-								} );
-								$( this ).data( 'request', request );
-							},
-							cancel: function () {
-								var request = $( this ).data( 'request' );
-								if ( request ) {
-									request.abort();
-								}
-							}
 						} );
 					},
 					dialog: {
@@ -369,7 +178,7 @@
 									return s.replace( /(\]+)/g, '<nowiki>$1</nowiki>' );
 								}
 
-								var target = $( '#wikieditor-toolbar-link-int-target' ).val();
+								var target = insertLinkTitleInputField.getField().getValue();
 								if ( target === '' ) {
 									// eslint-disable-next-line no-alert
 									alert( mw.msg( 'wikieditor-toolbar-tool-link-empty' ) );
@@ -454,7 +263,8 @@
 								}, $( this ) );
 
 								// Blank form
-								$( '#wikieditor-toolbar-link-int-target, #wikieditor-toolbar-link-int-text' ).val( '' );
+								insertLinkTitleInputField.getField().setValue( '' );
+								$( '#wikieditor-toolbar-link-int-text' ).val( '' );
 								$( '#wikieditor-toolbar-link-type-int, #wikieditor-toolbar-link-type-ext' )
 									.prop( 'checked', false );
 							},
@@ -473,9 +283,10 @@
 							// Pre-fill the text fields based on the current selection
 							var context = $( this ).data( 'context' );
 							var selection = context.$textarea.textSelection( 'getSelection' );
-							$( '#wikieditor-toolbar-link-int-target' ).trigger( 'focus' );
+
+							insertLinkTitleInputField.getField().focus();
 							// Trigger the change event, so the link status indicator is up to date
-							$( '#wikieditor-toolbar-link-int-target' ).trigger( 'change' );
+							insertLinkTitleInputField.getField().$input.trigger( 'change' );
 							$( '#wikieditor-toolbar-link-dialog' ).data( 'whitespace', [ '', '' ] );
 							if ( selection !== '' ) {
 								var matches, target, text, type;
@@ -513,7 +324,7 @@
 									$( '#wikieditor-toolbar-link-int-text' ).val( text ).trigger( 'change' );
 								}
 								if ( typeof target !== 'undefined' ) {
-									$( '#wikieditor-toolbar-link-int-target' ).val( target ).trigger( 'change' );
+									insertLinkTitleInputField.getField().setValue( target );
 								}
 								if ( typeof type !== 'undefined' ) {
 									$( '#wikieditor-toolbar-link-' + type ).prop( 'checked', true );
@@ -521,9 +332,8 @@
 							}
 							$( '#wikieditor-toolbar-link-int-text' ).data( 'untouched',
 								$( '#wikieditor-toolbar-link-int-text' ).val() ===
-										$( '#wikieditor-toolbar-link-int-target' ).val()
+									insertLinkTitleInputField.getField().getValue()
 							);
-							$( '#wikieditor-toolbar-link-int-target' ).suggestions();
 
 							// don't overwrite user's text
 							if ( selection !== '' ) {

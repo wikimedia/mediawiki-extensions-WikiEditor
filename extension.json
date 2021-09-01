@@ -42,6 +42,9 @@
 			"group": "ext.wikiEditor",
 			"packageFiles": [
 				"ext.wikiEditor.js",
+				"insertlink/TitleInputField.js",
+				"insertlink/TitleInputWidget.js",
+				"insertlink/TitleOptionWidget.js",
 				"jquery.wikiEditor.js",
 				"jquery.wikiEditor.toolbar.js",
 				"jquery.wikiEditor.toolbar.config.js",
@@ -54,6 +57,7 @@
 				}
 			],
 			"styles": [
+				"insertlink/TitleInputField.less",
 				"jquery.wikiEditor.less",
 				"jquery.wikiEditor.toolbar.less",
 				"jquery.wikiEditor.dialogs.less",
@@ -271,7 +275,6 @@
 			"dependencies": [
 				"jquery.cookie",
 				"jquery.throttle-debounce",
-				"jquery.suggestions",
 				"jquery.textSelection",
 				"jquery.ui",
 				"mediawiki.api",
@@ -281,6 +284,7 @@
 				"mediawiki.Title",
 				"mediawiki.user",
 				"mediawiki.util",
+				"mediawiki.widgets",
 				"oojs-ui.styles.icons-content",
 				"oojs-ui.styles.icons-editing-advanced",
 				"oojs-ui.styles.icons-editing-citation",
