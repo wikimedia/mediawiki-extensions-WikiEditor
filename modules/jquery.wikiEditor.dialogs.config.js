@@ -5,7 +5,9 @@
 
 	var toolbarModule = require( './jquery.wikiEditor.toolbar.js' ),
 		InsertLinkTitleInputField = require( './insertlink/TitleInputField.js' ),
+		LinkTextField = require( './insertlink/LinkTextField.js' ),
 		insertLinkTitleInputField = new InsertLinkTitleInputField(),
+		insertLinkLinkTextField = new LinkTextField(),
 		configData = require( './data.json' );
 
 	function triggerButtonClick( element ) {
@@ -105,14 +107,13 @@
 
 					init: function () {
 						$( '.wikieditor-toolbar-link-target' ).replaceWith( insertLinkTitleInputField.$element );
+						$( '.wikieditor-toolbar-link-text' ).replaceWith( insertLinkLinkTextField.$element );
 
 						// Set labels of tabs based on rel values
 						$( this ).find( '[rel]' ).each( function () {
 							// eslint-disable-next-line mediawiki/msg-doc
 							$( this ).text( mw.msg( $( this ).attr( 'rel' ) ) );
 						} );
-						$( '#wikieditor-toolbar-link-int-text' ).attr( 'placeholder',
-							mw.msg( 'wikieditor-toolbar-tool-link-int-text-tooltip' ) );
 						// Automatically copy the value of the internal link page title field to the link text field unless the
 						// user has changed the link text field - this is a convenience thing since most link texts are going to
 						// be the same as the page title - Also change the internal/external radio button accordingly
@@ -123,11 +124,7 @@
 								} else {
 									$( '#wikieditor-toolbar-link-type-int' ).prop( 'checked', true );
 								}
-								if ( $( '#wikieditor-toolbar-link-int-text' ).data( 'untouched' ) ) {
-									$( '#wikieditor-toolbar-link-int-text' )
-										.val( val )
-										.trigger( 'change' );
-								}
+								insertLinkLinkTextField.setValueIfUntouched( val );
 								// eslint-disable-next-line no-jquery/no-sizzle
 								$( '.ui-dialog:visible .ui-dialog-buttonpane button' )
 									.first()
@@ -148,15 +145,6 @@
 								insertLinkTitleInputField.urlModes.external :
 								insertLinkTitleInputField.urlModes.internal;
 							insertLinkTitleInputField.setUrlMode( urlMode );
-						} );
-						$( '#wikieditor-toolbar-link-int-text' ).on( 'change keydown paste cut', function () {
-							var oldVal = $( this ).val(),
-								that = this;
-							setTimeout( function () {
-								if ( $( that ).val() !== oldVal ) {
-									$( that ).data( 'untouched', false );
-								}
-							}, 0 );
 						} );
 					},
 					dialog: {
@@ -185,7 +173,7 @@
 									return;
 								}
 
-								var text = $( '#wikieditor-toolbar-link-int-text' ).val();
+								var text = insertLinkLinkTextField.getField().getValue();
 								if ( text.trim() === '' ) {
 									// [[Foo| ]] creates an invisible link
 									// Instead, generate [[Foo|]]
@@ -264,7 +252,7 @@
 
 								// Blank form
 								insertLinkTitleInputField.getField().setValue( '' );
-								$( '#wikieditor-toolbar-link-int-text' ).val( '' );
+								insertLinkLinkTextField.getField().setValue( '' );
 								$( '#wikieditor-toolbar-link-type-int, #wikieditor-toolbar-link-type-ext' )
 									.prop( 'checked', false );
 							},
@@ -318,27 +306,20 @@
 									}
 								}
 
-								// Change the value by calling val() doesn't trigger the change event, so let's do that
-								// ourselves
-								if ( typeof text !== 'undefined' ) {
-									$( '#wikieditor-toolbar-link-int-text' ).val( text ).trigger( 'change' );
-								}
+								// Change the values of the title and text fields to the parts extracted from the selection.
 								if ( typeof target !== 'undefined' ) {
 									insertLinkTitleInputField.getField().setValue( target );
+								}
+								if ( typeof text !== 'undefined' ) {
+									insertLinkLinkTextField.getField().setValue( text );
 								}
 								if ( typeof type !== 'undefined' ) {
 									$( '#wikieditor-toolbar-link-' + type ).prop( 'checked', true );
 								}
 							}
-							$( '#wikieditor-toolbar-link-int-text' ).data( 'untouched',
-								$( '#wikieditor-toolbar-link-int-text' ).val() ===
-									insertLinkTitleInputField.getField().getValue()
-							);
 
-							// don't overwrite user's text
-							if ( selection !== '' ) {
-								$( '#wikieditor-toolbar-link-int-text' ).data( 'untouched', false );
-							}
+							// Don't overwrite user's selection.
+							insertLinkLinkTextField.setTouched( selection !== '' );
 
 							if ( !$( this ).data( 'dialogkeypressset' ) ) {
 								$( this ).data( 'dialogkeypressset', true );
