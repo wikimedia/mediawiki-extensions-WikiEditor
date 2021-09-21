@@ -357,18 +357,6 @@
 							'wikieditor-toolbar-tool-link-insert': function () {
 								var that = this;
 
-								function escapeInternalTarget( s ) {
-									var fileTitle = mw.Title.newFromText( s );
-									if ( fileTitle === null ) {
-										return s;
-									}
-									var namespaceId = fileTitle.getNamespaceId();
-									if ( namespaceId === 6 || namespaceId === 14 ) {
-										return ':' + s;
-									} else {
-										return s;
-									}
-								}
 								function escapeInternalText( s ) {
 									return s.replace( /(\]{2,})/g, '<nowiki>$1</nowiki>' );
 								}
@@ -406,9 +394,9 @@
 									}
 
 									if ( target === text || !text.length ) {
-										insertText = '[[' + escapeInternalTarget( target ) + ']]';
+										insertText = '[[' + target + ']]';
 									} else {
-										insertText = '[[' + escapeInternalTarget( target ) + '|' + escapeInternalText( text ) + ']]';
+										insertText = '[[' + target + '|' + escapeInternalText( text ) + ']]';
 									}
 								} else {
 									target = target.trim();
@@ -491,7 +479,7 @@
 							$( '#wikieditor-toolbar-link-dialog' ).data( 'whitespace', [ '', '' ] );
 							if ( selection !== '' ) {
 								var matches, target, text, type;
-								if ( ( matches = selection.match( /^(\s*):?\[\[([^\]|]+)(\|([^\]|]*))?\]\](\s*)$/ ) ) ) {
+								if ( ( matches = selection.match( /^(\s*)\[\[([^\]|]+)(\|([^\]|]*))?\]\](\s*)$/ ) ) ) {
 									// [[foo|bar]] or [[foo]]
 									target = matches[ 2 ];
 									text = ( matches[ 4 ] ? matches[ 4 ] : matches[ 2 ] );
