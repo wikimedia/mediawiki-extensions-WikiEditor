@@ -20,6 +20,7 @@
 	"wikieditor-toolbar": "Modificarea barei de instrumente",
 	"wikieditor-toolbar-desc": "Modificarea barei de instrumente cu utilizare ridicată",
 	"wikieditor-toolbar-preference": "Activează bara de unelte de editare",
+	"wikieditor-toolbar-preference-help": "Aceasta este uneori numită „editorul de wikitext 2010”.",
 	"wikieditor-toolbar-loading": "Se încarcă...",
 	"wikieditor-toolbar-tool-bold": "Aldin",
 	"wikieditor-toolbar-tool-bold-example": "Text aldin",
