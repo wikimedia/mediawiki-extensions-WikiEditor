@@ -41,6 +41,7 @@
 	"wikieditor-toolbar-tool-file-example": "Misal.jpg",
 	"wikieditor-toolbar-tool-file-title": "Fayl əlavə et",
 	"wikieditor-toolbar-file-target": "Fayl adı:",
+	"wikieditor-toolbar-file-alt": "Alternativ mətn:",
 	"wikieditor-toolbar-file-alt-help": "Bu əlavə sahəni faylı görə bilməyən insanlar üçün bir açıqlama yazmaq üçün istifadə edə bilərsiniz. Açıqlama fayl tərəfindən verilən məqsədi və məlumatları başa düşmələri üçün kifayət etməlidir. Bu, görmə məhdudiyyətli istifadəçilər və ekran oxuyucu proqramı və ya yalnız mətn göstərən brauzerlərdən istifadə edən digər insanlar üçün vacibdir.",
 	"wikieditor-toolbar-file-alt-help-label": "(İzahını göstər)",
 	"wikieditor-toolbar-file-format": "Format:",
