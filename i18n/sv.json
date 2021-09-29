@@ -66,6 +66,7 @@
 	"wikieditor-toolbar-tool-file-title": "Infoga fil",
 	"wikieditor-toolbar-file-target": "Filnamn:",
 	"wikieditor-toolbar-file-caption": "Bildtext:",
+	"wikieditor-toolbar-file-alt": "Alternativ text:",
 	"wikieditor-toolbar-file-size": "Storlek:",
 	"wikieditor-toolbar-file-float": "Justering:",
 	"wikieditor-toolbar-file-default": "(standard)",
