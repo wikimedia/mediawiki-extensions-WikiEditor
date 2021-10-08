@@ -581,11 +581,18 @@
 				}
 				if ( character && 'action' in character && 'label' in character ) {
 					actions[ character.label ] = character.action;
-					if ( character.titleMsg !== undefined ) {
+					if ( character.titleMsg !== undefined || character.title !== undefined ) {
+						var title;
+						if ( character.titleMsg !== undefined ) {
+							// eslint-disable-next-line mediawiki/msg-doc
+							title = mw.msg( character.titleMsg );
+						} else {
+							title = character.title;
+						}
+
 						return mw.html.element(
 							'span',
-							// eslint-disable-next-line mediawiki/msg-doc
-							{ rel: character.label, title: mw.msg( character.titleMsg ) },
+							{ rel: character.label, title: title },
 							character.label
 						);
 					} else {
