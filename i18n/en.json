@@ -38,7 +38,7 @@
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "The title you specified is invalid",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "External link",
 	"wikieditor-toolbar-tool-link-int-target-status-loading": "Checking page existence...",
-	"wikieditor-toolbar-tool-link-int-target-status-disambig": "This page is not a content page, it lists topics with similar names",
+	"wikieditor-toolbar-tool-link-int-target-status-disambig": "This page is not a content page, but a list of topics with similar names",
 	"wikieditor-toolbar-tool-link-int-invalid": "The title you specified is invalid.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "The URL you specified looks like it was intended as a link to another wiki page.\nDo you want to make it an internal link?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Internal link",
