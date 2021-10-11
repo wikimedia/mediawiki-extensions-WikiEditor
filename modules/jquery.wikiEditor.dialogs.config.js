@@ -6,8 +6,10 @@
 	var toolbarModule = require( './jquery.wikiEditor.toolbar.js' ),
 		InsertLinkTitleInputField = require( './insertlink/TitleInputField.js' ),
 		LinkTextField = require( './insertlink/LinkTextField.js' ),
+		LinkTypeField = require( './insertlink/LinkTypeField.js' ),
 		insertLinkTitleInputField = new InsertLinkTitleInputField(),
 		insertLinkLinkTextField = new LinkTextField(),
+		insertLinkLinkTypeField = new LinkTypeField(),
 		configData = require( './data.json' );
 
 	function triggerButtonClick( element ) {
@@ -108,22 +110,14 @@
 					init: function () {
 						$( '.wikieditor-toolbar-link-target' ).replaceWith( insertLinkTitleInputField.$element );
 						$( '.wikieditor-toolbar-link-text' ).replaceWith( insertLinkLinkTextField.$element );
+						$( '.wikieditor-toolbar-link-type' ).replaceWith( insertLinkLinkTypeField.$element );
 
-						// Set labels of tabs based on rel values
-						$( this ).find( '[rel]' ).each( function () {
-							// eslint-disable-next-line mediawiki/msg-doc
-							$( this ).text( mw.msg( $( this ).attr( 'rel' ) ) );
-						} );
 						// Automatically copy the value of the internal link page title field to the link text field unless the
 						// user has changed the link text field - this is a convenience thing since most link texts are going to
 						// be the same as the page title - Also change the internal/external radio button accordingly
 						insertLinkTitleInputField.connect( this, {
 							change: function ( val ) {
-								if ( insertLinkTitleInputField.getField().isExternalLink( val ) ) {
-									$( '#wikieditor-toolbar-link-type-ext' ).prop( 'checked', true );
-								} else {
-									$( '#wikieditor-toolbar-link-type-int' ).prop( 'checked', true );
-								}
+								insertLinkLinkTypeField.setIsExternal( insertLinkTitleInputField.getField().isExternalLink( val ) );
 								insertLinkLinkTextField.setValueIfUntouched( val );
 								// eslint-disable-next-line no-jquery/no-sizzle
 								$( '.ui-dialog:visible .ui-dialog-buttonpane button' )
@@ -140,11 +134,13 @@
 							}
 						} );
 						// Tell the title input field when the internal/external radio changes.
-						$( 'input[name="wikieditor-toolbar-link-type"]' ).on( 'change', function ( event ) {
-							var urlMode = event.target.id === 'wikieditor-toolbar-link-type-ext' ?
-								insertLinkTitleInputField.urlModes.external :
-								insertLinkTitleInputField.urlModes.internal;
-							insertLinkTitleInputField.setUrlMode( urlMode );
+						insertLinkLinkTypeField.connect( this, {
+							change: function ( isExternal ) {
+								var urlMode = isExternal ?
+									insertLinkTitleInputField.urlModes.external :
+									insertLinkTitleInputField.urlModes.internal;
+								insertLinkTitleInputField.setUrlMode( urlMode );
+							}
 						} );
 					},
 					dialog: {
@@ -180,7 +176,7 @@
 									text = '';
 								}
 								var insertText = '';
-								if ( $( '#wikieditor-toolbar-link-type-int' ).is( ':checked' ) ) {
+								if ( insertLinkLinkTypeField.isInternal() ) {
 									// FIXME: Exactly how fragile is this?
 									// eslint-disable-next-line no-jquery/no-sizzle
 									if ( $( '#wikieditor-toolbar-link-int-target-status-invalid' ).is( ':visible' ) ) {
@@ -253,8 +249,7 @@
 								// Blank form
 								insertLinkTitleInputField.getField().setValue( '' );
 								insertLinkLinkTextField.getField().setValue( '' );
-								$( '#wikieditor-toolbar-link-type-int, #wikieditor-toolbar-link-type-ext' )
-									.prop( 'checked', false );
+								insertLinkLinkTypeField.getField().selectItem( null );
 							},
 							'wikieditor-toolbar-tool-link-cancel': function () {
 								$( this ).dialog( 'close' );
@@ -277,19 +272,19 @@
 							insertLinkTitleInputField.getField().$input.trigger( 'change' );
 							$( '#wikieditor-toolbar-link-dialog' ).data( 'whitespace', [ '', '' ] );
 							if ( selection !== '' ) {
-								var matches, target, text, type;
+								var matches, target, text, isExternal;
 								if ( ( matches = selection.match( /^(\s*)\[\[([^\]|]+)(\|([^\]|]*))?\]\](\s*)$/ ) ) ) {
 									// [[foo|bar]] or [[foo]]
 									target = matches[ 2 ];
 									text = ( matches[ 4 ] ? matches[ 4 ] : matches[ 2 ] );
-									type = 'int';
+									isExternal = false;
 									// Preserve whitespace when replacing
 									$( '#wikieditor-toolbar-link-dialog' ).data( 'whitespace', [ matches[ 1 ], matches[ 5 ] ] );
 								} else if ( ( matches = selection.match( /^(\s*)\[([^\] ]+)( ([^\]]+))?\](\s*)$/ ) ) ) {
 									// [http://www.example.com foo] or [http://www.example.com]
 									target = matches[ 2 ];
 									text = ( matches[ 4 ] || '' );
-									type = 'ext';
+									isExternal = true;
 									// Preserve whitespace when replacing
 									$( '#wikieditor-toolbar-link-dialog' ).data( 'whitespace', [ matches[ 1 ], matches[ 5 ] ] );
 								} else {
@@ -313,8 +308,8 @@
 								if ( typeof text !== 'undefined' ) {
 									insertLinkLinkTextField.getField().setValue( text );
 								}
-								if ( typeof type !== 'undefined' ) {
-									$( '#wikieditor-toolbar-link-' + type ).prop( 'checked', true );
+								if ( typeof isExternal !== 'undefined' ) {
+									insertLinkLinkTypeField.setIsExternal( isExternal );
 								}
 							}
 

@@ -46,6 +46,7 @@
 				"insertlink/TitleInputWidget.js",
 				"insertlink/TitleOptionWidget.js",
 				"insertlink/LinkTextField.js",
+				"insertlink/LinkTypeField.js",
 				"jquery.wikiEditor.js",
 				"jquery.wikiEditor.toolbar.js",
 				"jquery.wikiEditor.toolbar.config.js",
@@ -59,7 +60,7 @@
 			],
 			"styles": [
 				"insertlink/TitleInputField.less",
-				"insertlink/LinkTextField.less",
+				"insertlink/LinkTypeField.less",
 				"jquery.wikiEditor.less",
 				"jquery.wikiEditor.toolbar.less",
 				"jquery.wikiEditor.dialogs.less",

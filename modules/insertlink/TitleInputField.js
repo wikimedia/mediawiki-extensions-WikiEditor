@@ -10,6 +10,9 @@ var TitleOptionWidget = require( './TitleOptionWidget.js' );
  * @constructor
  */
 function TitleInputField() {
+	// Mixin constructor
+	OO.EventEmitter.call( this );
+
 	var input = new TitleInputWidget();
 	input.connect( this, {
 		change: this.onChange,
@@ -29,8 +32,6 @@ function TitleInputField() {
 		classes: [ 'ext-WikiEditor-InsertLink-TitleInputField' ]
 	};
 	TitleInputField.super.call( this, input, config );
-
-	OO.EventEmitter.call( this );
 }
 
 OO.inheritClass( TitleInputField, OO.ui.FieldLayout );
