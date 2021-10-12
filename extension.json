@@ -79,7 +79,6 @@
 			},
 			"templates": {
 				"dialogInsertFile.html": "templates/dialogInsertFile.html",
-				"dialogInsertLink.html": "templates/dialogInsertLink.html",
 				"dialogInsertReference.html": "templates/dialogInsertReference.html",
 				"dialogInsertTable.html": "templates/dialogInsertTable.html",
 				"dialogReplace.html": "templates/dialogReplace.html"

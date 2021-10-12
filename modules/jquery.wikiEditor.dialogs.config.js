@@ -105,13 +105,13 @@
 				'insert-link': {
 					titleMsg: 'wikieditor-toolbar-tool-link-title',
 					id: 'wikieditor-toolbar-link-dialog',
-					htmlTemplate: 'dialogInsertLink.html',
+					html: $( '<fieldset>' ).append(
+						insertLinkTitleInputField.$element,
+						insertLinkLinkTextField.$element,
+						insertLinkLinkTypeField.$element
+					),
 
 					init: function () {
-						$( '.wikieditor-toolbar-link-target' ).replaceWith( insertLinkTitleInputField.$element );
-						$( '.wikieditor-toolbar-link-text' ).replaceWith( insertLinkLinkTextField.$element );
-						$( '.wikieditor-toolbar-link-type' ).replaceWith( insertLinkLinkTypeField.$element );
-
 						// Automatically copy the value of the internal link page title field to the link text field unless the
 						// user has changed the link text field - this is a convenience thing since most link texts are going to
 						// be the same as the page title - Also change the internal/external radio button accordingly
