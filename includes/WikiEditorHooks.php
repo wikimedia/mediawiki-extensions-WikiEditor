@@ -10,8 +10,8 @@ use MediaWiki\MediaWikiServices;
 use WikimediaEvents\WikimediaEventsHooks;
 
 class WikiEditorHooks {
-	// ID used for grouping entries all of a session's entries together in
-	// EventLogging.
+
+	/** @var string|bool ID used for grouping entries all of a session's entries together in EventLogging. */
 	private static $statsId = false;
 
 	/* Static Methods */
@@ -64,7 +64,8 @@ class WikiEditorHooks {
 			'version' => 1,
 			'is_oversample' => !$inSample,
 			'editor_interface' => 'wikitext',
-			'platform' => 'desktop', // FIXME
+			// @todo FIXME for other than 'desktop'. T249944
+			'platform' => 'desktop',
 			'integration' => 'page',
 			'page_id' => $page->getId(),
 			'page_title' => $title->getPrefixedText(),
@@ -115,7 +116,8 @@ class WikiEditorHooks {
 			'feature' => $feature,
 			'action' => $action,
 			'editingSessionId' => $sessionId,
-			'platform' => 'desktop', // FIXME T249944
+			// @todo FIXME for other than 'desktop'. T249944
+			'platform' => 'desktop',
 			'integration' => 'page',
 			'editor_interface' => 'wikitext',
 			'user_id' => $user->getId(),
@@ -288,6 +290,11 @@ class WikiEditorHooks {
 		];
 	}
 
+	/**
+	 * @param MessageLocalizer $ml
+	 * @param bool $raw
+	 * @return string
+	 */
 	private static function getSignatureMessage( MessageLocalizer $ml, $raw = false ) {
 		$msg = $ml->msg( 'sig-text' )->params( '~~~~' )->inContentLanguage();
 		return $raw ? $msg->plain() : $msg->text();
