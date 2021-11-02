@@ -42,7 +42,7 @@
 	"wikieditor-toolbar-tool-link-cancel": "বাতিল",
 	"wikieditor-toolbar-tool-link-int-target-status-exists": "পাতা রয়েছে",
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "পাতা বিদ্যমান নেই",
-	"wikieditor-toolbar-tool-link-int-target-status-invalid": "অবৈধ শিরোনাম",
+	"wikieditor-toolbar-tool-link-int-target-status-invalid": "আপনার প্রদেয় শিরোনামটি বৈধ নয়।",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "বহিঃসংযোগ",
 	"wikieditor-toolbar-tool-link-int-target-status-loading": "পাতার অস্তিত্ব পরীক্ষা করা হচ্ছে...",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "দ্ব্যর্থতা নিরসন পাতা",
