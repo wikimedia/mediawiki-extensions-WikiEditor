@@ -178,8 +178,15 @@
 					} );
 				} );
 			}
+			var $form = $textarea.closest( 'form' );
+			if ( mw.user.options.get( 'uselivepreview' ) ) {
+				$form.find( '#wpPreview' ).on( 'click', function () {
+					logEditFeature( 'preview', 'preview-live' );
+				} );
+			}
+
 			var submitting;
-			$textarea.closest( 'form' ).on( 'submit', function () {
+			$form.on( 'submit', function () {
 				submitting = true;
 			} );
 			var onUnloadFallback = window.onunload;
