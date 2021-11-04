@@ -111,7 +111,8 @@ class WikiEditorHooks {
 		}
 
 		$user = $article->getContext()->getUser();
-
+		$services = MediaWikiServices::getInstance();
+		$editCount = $services->getUserEditTracker()->getUserEditCount( $user );
 		$data = [
 			'feature' => $feature,
 			'action' => $action,
@@ -121,11 +122,12 @@ class WikiEditorHooks {
 			'integration' => 'page',
 			'editor_interface' => 'wikitext',
 			'user_id' => $user->getId(),
-			'user_editcount' => $user->getEditCount() ?: 0,
+			'user_editcount' => $editCount ?: 0,
 		];
 
-		if ( $user->getOption( 'discussiontools-abtest' ) ) {
-			$data['bucket'] = $user->getOption( 'discussiontools-abtest' );
+		$bucket = $services->getUserOptionsLookup()->getOption( $user, 'discussiontools-abtest' );
+		if ( $bucket ) {
+			$data['bucket'] = $bucket;
 		}
 
 		return EventLogging::logEvent( 'VisualEditorFeatureUse', 21199762, $data );
