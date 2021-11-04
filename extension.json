@@ -35,7 +35,13 @@
 		],
 		"EditPage::attemptSave:after": [
 			"WikiEditorHooks::editPageAttemptSaveAfter"
-		]
+		],
+		"EditPageGetPreviewContent": "WikiEditorHooks"
+	},
+	"HookHandlers": {
+		"WikiEditorHooks": {
+			"class": "WikiEditorHooks"
+		}
 	},
 	"ResourceModules": {
 		"ext.wikiEditor": {
