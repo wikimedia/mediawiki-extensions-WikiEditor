@@ -211,40 +211,28 @@ class WikiEditorHooks {
 			WikimediaEventsHooks::shouldSchemaEditAttemptStepOversample( $outputPage->getContext() );
 
 		$outputPage->addHTML(
-			Xml::element(
-				'input',
-				[
-					'type' => 'hidden',
-					'name' => 'editingStatsId',
-					'id' => 'editingStatsId',
-					'value' => $editingStatsId
-				]
+			Html::hidden(
+				'editingStatsId',
+				$editingStatsId,
+				[ 'id' => 'editingStatsId' ]
 			)
 		);
 
 		if ( $shouldOversample ) {
 			$outputPage->addHTML(
-				Xml::element(
-					'input',
-					[
-						'type' => 'hidden',
-						'name' => 'editingStatsOversample',
-						'id' => 'editingStatsOversample',
-						'value' => 1
-					]
+				Html::hidden(
+					'editingStatsOversample',
+					1,
+					[ 'id' => 'editingStatsOversample' ]
 				)
 			);
 		}
 
 		$outputPage->addHTML(
-			Xml::element(
-				'input',
-				[
-					'type' => 'hidden',
-					'name' => 'wikieditorJavascriptSupport',
-					'id' => 'wikieditorJavascriptSupport',
-					'value' => ''
-				]
+			Html::hidden(
+				'wikieditorJavascriptSupport',
+				'',
+				[ 'id' => 'wikieditorJavascriptSupport' ]
 			)
 		);
 	}
