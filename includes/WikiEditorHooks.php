@@ -200,7 +200,8 @@ class WikiEditorHooks {
 	 * @param OutputPage $outputPage object.
 	 */
 	public static function editPageShowEditFormFields( EditPage $editPage, OutputPage $outputPage ) {
-		if ( $editPage->contentModel !== CONTENT_MODEL_WIKITEXT ) {
+		if ( $editPage->contentModel !== CONTENT_MODEL_WIKITEXT
+			|| !ExtensionRegistry::getInstance()->isLoaded( 'EventLogging' ) ) {
 			return;
 		}
 
