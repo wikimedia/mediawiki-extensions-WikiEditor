@@ -22,25 +22,25 @@
 	},
 	"Hooks": {
 		"EditPage::showEditForm:initial": [
-			"WikiEditorHooks::editPageShowEditFormInitial"
+			"MediaWiki\\Extension\\WikiEditor\\Hooks::editPageShowEditFormInitial"
 		],
 		"GetPreferences": [
-			"WikiEditorHooks::getPreferences"
+			"MediaWiki\\Extension\\WikiEditor\\Hooks::getPreferences"
 		],
 		"EditPage::showEditForm:fields": [
-			"WikiEditorHooks::editPageShowEditFormFields"
+			"MediaWiki\\Extension\\WikiEditor\\Hooks::editPageShowEditFormFields"
 		],
 		"EditPage::attemptSave": [
-			"WikiEditorHooks::editPageAttemptSave"
+			"MediaWiki\\Extension\\WikiEditor\\Hooks::editPageAttemptSave"
 		],
 		"EditPage::attemptSave:after": [
-			"WikiEditorHooks::editPageAttemptSaveAfter"
+			"MediaWiki\\Extension\\WikiEditor\\Hooks::editPageAttemptSaveAfter"
 		],
 		"EditPageGetPreviewContent": "WikiEditorHooks"
 	},
 	"HookHandlers": {
 		"WikiEditorHooks": {
-			"class": "WikiEditorHooks"
+			"class": "MediaWiki\\Extension\\WikiEditor\\Hooks"
 		}
 	},
 	"ResourceModules": {
@@ -60,8 +60,8 @@
 				"jquery.wikiEditor.dialogs.config.js",
 				{
 					"name": "data.json",
-					"callback": "WikiEditorHooks::getModuleData",
-					"versionCallback": "WikiEditorHooks::getModuleDataSummary"
+					"callback": "MediaWiki\\Extension\\WikiEditor\\Hooks::getModuleData",
+					"versionCallback": "MediaWiki\\Extension\\WikiEditor\\Hooks::getModuleDataSummary"
 				}
 			],
 			"styles": [
@@ -393,7 +393,8 @@
 		"wikieditor-toolbar-help-content-indent-result"
 	],
 	"AutoloadClasses": {
-		"WikiEditorHooks": "includes/WikiEditorHooks.php"
+		"MediaWiki\\Extension\\WikiEditor\\Hooks": "includes/Hooks.php",
+		"WikiEditorHooks": "includes/Hooks.php"
 	},
 	"manifest_version": 2
 }

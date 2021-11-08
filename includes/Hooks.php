@@ -6,12 +6,29 @@
  * @ingroup Extensions
  */
 
+namespace MediaWiki\Extension\WikiEditor;
+
+use ApiMessage;
+use Article;
+use Config;
+use Content;
+use EditPage;
+use EventLogging;
+use ExtensionRegistry;
+use Html;
 use MediaWiki\Cache\CacheKeyHelper;
 use MediaWiki\Hook\EditPageGetPreviewContentHook;
 use MediaWiki\MediaWikiServices;
+use MessageLocalizer;
+use MWCryptRand;
+use OutputPage;
+use ResourceLoaderContext;
+use Status;
+use User;
+use WebRequest;
 use WikimediaEvents\WikimediaEventsHooks;
 
-class WikiEditorHooks implements EditPageGetPreviewContentHook {
+class Hooks implements EditPageGetPreviewContentHook {
 
 	/** @var string|bool ID used for grouping entries all of a session's entries together in EventLogging. */
 	private static $statsId = false;
@@ -439,3 +456,9 @@ class WikiEditorHooks implements EditPageGetPreviewContentHook {
 		}
 	}
 }
+
+/**
+ * Retain the old class name for backwards compatibility.
+ * @deprecated since 1.38
+ */
+class_alias( Hooks::class, 'WikiEditorHooks' );
