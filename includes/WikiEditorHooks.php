@@ -6,6 +6,7 @@
  * @ingroup Extensions
  */
 
+use MediaWiki\Cache\CacheKeyHelper;
 use MediaWiki\MediaWikiServices;
 use WikimediaEvents\WikimediaEventsHooks;
 
@@ -397,9 +398,17 @@ class WikiEditorHooks {
 				}
 
 				$wikiPage = $editPage->getArticle()->getPage();
-				if ( isset( $wikiPage->ConfirmEdit_ActivateCaptcha ) ) {
-					// TODO: :(
-					$code = 'captcha';
+
+				if ( ExtensionRegistry::getInstance()->isLoaded( 'ConfirmEdit' ) ) {
+					$key = CacheKeyHelper::getKeyForPage( $wikiPage );
+					/** @var SimpleCaptcha $captcha */
+					// @phan-suppress-next-line PhanUndeclaredClassMethod
+					$captcha = ConfirmEditHooks::getInstance();
+					$activatedCaptchas = $captcha->getActivatedCaptchas();
+					if ( isset( $activatedCaptchas[$key] ) ) {
+						// TODO: :(
+						$code = 'captcha';
+					}
 				}
 
 				$data['save_failure_message'] = $code;
