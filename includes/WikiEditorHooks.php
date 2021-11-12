@@ -163,14 +163,15 @@ class WikiEditorHooks {
 		if ( ExtensionRegistry::getInstance()->isLoaded( 'EventLogging' ) && !$request->wasPosted() ) {
 			$data = [];
 			$data['editing_session_id'] = self::getEditingStatsId( $request );
-			if ( $request->getVal( 'section' ) ) {
+			$section = $request->getRawVal( 'section' );
+			if ( $section !== null ) {
 				$data['init_type'] = 'section';
 			} else {
 				$data['init_type'] = 'page';
 			}
 			if ( $request->getHeader( 'Referer' ) ) {
 				if (
-					$request->getVal( 'section' ) === 'new'
+					$section === 'new'
 					|| !$article->getPage()->exists()
 				) {
 					$data['init_mechanism'] = 'new';
@@ -179,7 +180,7 @@ class WikiEditorHooks {
 				}
 			} else {
 				if (
-					$request->getVal( 'section' ) === 'new'
+					$section === 'new'
 					|| !$article->getPage()->exists()
 				) {
 					$data['init_mechanism'] = 'url-new';
@@ -322,8 +323,8 @@ class WikiEditorHooks {
 	 * @return string
 	 */
 	private static function getEditingStatsId( WebRequest $request ) {
-		$fromRequest = $request->getVal( 'editingStatsId' );
-		if ( $fromRequest ) {
+		$fromRequest = $request->getRawVal( 'editingStatsId' );
+		if ( $fromRequest !== null ) {
 			return $fromRequest;
 		}
 		if ( !self::$statsId ) {
@@ -340,11 +341,12 @@ class WikiEditorHooks {
 	public static function editPageAttemptSave( EditPage $editPage ) {
 		$article = $editPage->getArticle();
 		$request = $article->getContext()->getRequest();
-		if ( $request->getVal( 'editingStatsId' ) ) {
+		$statsId = $request->getRawVal( 'editingStatsId' );
+		if ( $statsId !== null ) {
 			self::doEventLogging(
 				'saveAttempt',
 				$article,
-				[ 'editing_session_id' => $request->getVal( 'editingStatsId' ) ]
+				[ 'editing_session_id' => $statsId ]
 			);
 		}
 	}
@@ -358,16 +360,17 @@ class WikiEditorHooks {
 	public static function editPageAttemptSaveAfter( EditPage $editPage, Status $status ) {
 		$article = $editPage->getArticle();
 		$request = $article->getContext()->getRequest();
-		if ( $request->getVal( 'editingStatsId' ) ) {
+		$statsId = $request->getRawVal( 'editingStatsId' );
+		if ( $statsId !== null ) {
 			$data = [];
-			$data['editing_session_id'] = $request->getVal( 'editingStatsId' );
+			$data['editing_session_id'] = $statsId;
 
 			if ( $status->isOK() ) {
 				$action = 'saveSuccess';
 
-				if ( $request->getVal( 'wikieditorJavascriptSupport' ) === 'yes' ) {
+				if ( $request->getRawVal( 'wikieditorJavascriptSupport' ) === 'yes' ) {
 					self::doVisualEditorFeatureUseLogging(
-						'mwSave', 'source-has-js', $article, $request->getVal( 'editingStatsId' )
+						'mwSave', 'source-has-js', $article, $statsId
 					);
 				}
 			} else {
