@@ -8,6 +8,7 @@
 			"MaGa",
 			"Macofe",
 			"Neptune, the Mystic",
+			"Ponor",
 			"Roberta F.",
 			"SpeedyGonsales"
 		]
@@ -127,7 +128,7 @@
 	"wikieditor-toolbar-tool-replace-search": "Traži:",
 	"wikieditor-toolbar-tool-replace-replace": "Zamijeni s:",
 	"wikieditor-toolbar-tool-replace-case": "Pazi na velika slova",
-	"wikieditor-toolbar-tool-replace-regex": "Postupaj s traženim nizom kao regularnim izrazom",
+	"wikieditor-toolbar-tool-replace-regex": "Tekst za pretragu je regularni izraz",
 	"wikieditor-toolbar-tool-replace-button-findnext": "Nađi sljedeće",
 	"wikieditor-toolbar-tool-replace-button-replace": "Zamijeni",
 	"wikieditor-toolbar-tool-replace-button-replaceall": "Zamijeni sve",
