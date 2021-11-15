@@ -204,8 +204,11 @@
 										var buttons = {};
 										buttons[ mw.msg( 'wikieditor-toolbar-tool-link-lookslikeinternal-int' ) ] =
 											function () {
-												$( '#wikieditor-toolbar-link-int-target' ).val( match[ 1 ] ).trigger( 'change' );
+												insertLinkTitleInputField.getField().setValue( match[ 1 ] );
 												$( this ).dialog( 'close' );
+												// Select the first match (i.e. the value set above) so that the
+												// message under the title field will be updated correctly.
+												insertLinkTitleInputField.getField().selectFirstMatch();
 											};
 										buttons[ mw.msg( 'wikieditor-toolbar-tool-link-lookslikeinternal-ext' ) ] =
 											function () {

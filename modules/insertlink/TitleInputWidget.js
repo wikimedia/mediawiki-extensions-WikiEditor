@@ -40,6 +40,14 @@ TitleInputWidget.static.urlRegex = new RegExp( '^(' + mw.config.get( 'wgUrlProto
  */
 TitleInputWidget.prototype.onLookupInputBlur = function () {
 	TitleInputWidget.parent.prototype.onLookupInputBlur.apply( this );
+	this.selectFirstMatch();
+};
+
+/**
+ * Select the first matching search result
+ * The first match might not be at the top of the list, nor an exact match.
+ */
+TitleInputWidget.prototype.selectFirstMatch = function () {
 	var that = this;
 	this.getLookupMenuItems().done( function ( items ) {
 		// The matching item is not always the first,
