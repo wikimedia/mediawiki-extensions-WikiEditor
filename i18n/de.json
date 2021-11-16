@@ -50,7 +50,7 @@
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Der angegebene Seitenname ist ungültig",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Externer Link",
 	"wikieditor-toolbar-tool-link-int-target-status-loading": "Prüfe, ob Seite vorhanden ist …",
-	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Diese Seite ist keine Inhaltsseite, sondern listet Themen mit ähnlichen Namen auf",
+	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Diese Seite ist keine Inhaltsseite, sondern eine Liste von Themen mit ähnlichen Namen",
 	"wikieditor-toolbar-tool-link-int-invalid": "Der angegebene Seitenname ist ungültig.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "Die von dir angegebene URL wirkt wie eine, die auf eine andere Wikiseite verlinken würde.\nMöchtest du daraus einen internen Link machen?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Interner Link",
