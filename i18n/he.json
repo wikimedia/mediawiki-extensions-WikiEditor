@@ -44,7 +44,7 @@
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "הכותרת שכתבת אינה תקינה",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "קישור חיצוני",
 	"wikieditor-toolbar-tool-link-int-target-status-loading": "בדיקה האם הדף קיים...",
-	"wikieditor-toolbar-tool-link-int-target-status-disambig": "זה אינו דף תוכן, אלא דף שמכיל רשימת נושאים בעלי שמות דומים",
+	"wikieditor-toolbar-tool-link-int-target-status-disambig": "זה אינו דף תוכן, אלא רשימת נושאים בעלי שמות דומים",
 	"wikieditor-toolbar-tool-link-int-invalid": "הכותרת שצוינה אינה תקינה.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "הכתובת שציינת נראית כאילו היא מיועדת לקשר לדף אחר בוויקי.\nהאם ברצונך להפוך זאת לקישור פנימי?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "קישור פנימי",

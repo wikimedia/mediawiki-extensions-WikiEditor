@@ -56,7 +56,7 @@
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "您指定的标题无效",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "外部链接",
 	"wikieditor-toolbar-tool-link-int-target-status-loading": "检查页面是否存在……",
-	"wikieditor-toolbar-tool-link-int-target-status-disambig": "此页面不是内容页面，它列出了具有相似名称的主题",
+	"wikieditor-toolbar-tool-link-int-target-status-disambig": "此页面不是一个内容页面，而是一个列出了具有相似名称主题的列表",
 	"wikieditor-toolbar-tool-link-int-invalid": "您指定的标题无效。",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "您输入的网址似乎指向另一个wiki页面。\n是否希望将其改为内部链接？",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "内部链接",

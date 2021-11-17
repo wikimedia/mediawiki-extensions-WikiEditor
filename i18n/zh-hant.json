@@ -58,7 +58,7 @@
 	"wikieditor-toolbar-tool-link-ext-text": "連結文字：",
 	"wikieditor-toolbar-tool-link-insert": "插入連結",
 	"wikieditor-toolbar-tool-link-cancel": "取消",
-	"wikieditor-toolbar-tool-link-int-target-status-exists": "頁面已{{SITENAME}}存在",
+	"wikieditor-toolbar-tool-link-int-target-status-exists": "{{SITENAME}}頁面已存在",
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "頁面不存在",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "您指定的標題無效",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "外部連結",
