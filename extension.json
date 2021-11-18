@@ -13,7 +13,7 @@
 	"license-name": "GPL-2.0-or-later",
 	"type": "editor",
 	"requires": {
-		"MediaWiki": ">= 1.37"
+		"MediaWiki": ">= 1.38.0"
 	},
 	"MessagesDirs": {
 		"WikiEditor": [
@@ -300,6 +300,26 @@
 		"ext.wikiEditor.styles": {
 			"group": "ext.wikiEditor",
 			"styles": "ext.wikiEditor.toolbar.styles.less"
+		},
+		"ext.wikiEditor.realtimepreview": {
+			"dependencies": [
+				"ext.wikiEditor",
+				"mediawiki.page.preview"
+			],
+			"messages": [
+				"wikieditor-realtimepreview-preview"
+			],
+			"packageFiles": [
+				"realtimepreview/init.js",
+				"realtimepreview/RealtimePreview.js",
+				"realtimepreview/ResizingDragBar.js",
+				"realtimepreview/TwoPaneLayout.js"
+			],
+			"styles": [
+				"realtimepreview/RealtimePreview.less",
+				"realtimepreview/ResizingDragBar.less",
+				"realtimepreview/TwoPaneLayout.less"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {
@@ -388,6 +408,12 @@
 	],
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\WikiEditor\\": "includes/"
+	},
+	"config": {
+		"WikiEditorRealtimePreview": {
+			"description": "Whether to enable the Realtime Preview feature.",
+			"value": false
+		}
 	},
 	"manifest_version": 2
 }

@@ -197,5 +197,6 @@
 	"wikieditor-toolbar-help-content-indent-syntax": "Normal text<br />:Indented text<br />::Indented text",
 	"wikieditor-toolbar-help-content-indent-result": "Normal text<dl><dd>Indented text<dl><dd>Indented text</dd></dl></dd></dl>",
 	"tag-wikieditor": "-",
-	"tag-wikieditor-description": "Edit made using [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (2010 wikitext editor)"
+	"tag-wikieditor-description": "Edit made using [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (2010 wikitext editor)",
+	"wikieditor-realtimepreview-preview": "Preview"
 }

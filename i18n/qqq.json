@@ -228,5 +228,6 @@
 	"wikieditor-toolbar-help-content-indent-syntax": "{{RawHtml|phab=T294760}}\n\nSyntax example used in the help section \"discussion\" of the toolbar",
 	"wikieditor-toolbar-help-content-indent-result": "{{RawHtml|phab=T294760}}\n\nHTML example used in the help section \"discussion\" of the toolbar",
 	"tag-wikieditor": "{{ignored}}Short description of the wikieditor tag.\n\nShown on lists of changes (history, recentchanges, etc.) for each edit made using WikiEditor.\n\nSee also:\n* {{msg-mw|Tag-wikieditor-description}}",
-	"tag-wikieditor-description": "Long description of the wikieditor tag ({{msg-mw|Tag-wikieditor}}).\n\nShown on [[Special:Tags]].\n\nSee also:\n* {{msg-mw|Tag-wikieditor}}"
+	"tag-wikieditor-description": "Long description of the wikieditor tag ({{msg-mw|Tag-wikieditor}}).\n\nShown on [[Special:Tags]].\n\nSee also:\n* {{msg-mw|Tag-wikieditor}}",
+	"wikieditor-realtimepreview-preview": "Label for the toolbar button to enable/disable real-time preview."
 }

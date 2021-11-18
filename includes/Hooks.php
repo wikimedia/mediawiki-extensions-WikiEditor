@@ -222,6 +222,10 @@ class Hooks implements
 		if ( $this->userOptionsLookup->getBoolOption( $user, 'usebetatoolbar' ) ) {
 			$outputPage->addModuleStyles( 'ext.wikiEditor.styles' );
 			$outputPage->addModules( 'ext.wikiEditor' );
+			// Optionally enable Realtime Preview.
+			if ( $this->config->get( 'WikiEditorRealtimePreview' ) ) {
+				$outputPage->addModules( 'ext.wikiEditor.realtimepreview' );
+			}
 		}
 
 		// Don't run this if the request was posted - we don't want to log 'init' when the
