@@ -7,10 +7,11 @@
  */
 
 use MediaWiki\Cache\CacheKeyHelper;
+use MediaWiki\Hook\EditPageGetPreviewContentHook;
 use MediaWiki\MediaWikiServices;
 use WikimediaEvents\WikimediaEventsHooks;
 
-class WikiEditorHooks {
+class WikiEditorHooks implements EditPageGetPreviewContentHook {
 
 	/** @var string|bool ID used for grouping entries all of a session's entries together in EventLogging. */
 	private static $statsId = false;
@@ -419,6 +420,22 @@ class WikiEditorHooks {
 			}
 
 			self::doEventLogging( $action, $article, $data );
+		}
+	}
+
+	/**
+	 * Log a 'preview-nonlive' action when a page is previewed via the non-ajax full-page preview.
+	 *
+	 * @param EditPage $editPage
+	 * @param Content &$content Content object to be previewed (may be replaced by hook function)
+	 * @return bool|void True or no return value to continue or false to abort
+	 */
+	public function onEditPageGetPreviewContent( $editPage, &$content ) {
+		// This hook is only called for non-live previews, so we don't need to check the uselivepreview user option.
+		$editingStatsId = $editPage->getContext()->getRequest()->getRawVal( 'editingStatsId' );
+		if ( $editingStatsId !== null ) {
+			$article = $editPage->getArticle();
+			self::doVisualEditorFeatureUseLogging( 'preview', 'preview-nonlive', $article, $editingStatsId );
 		}
 	}
 }
