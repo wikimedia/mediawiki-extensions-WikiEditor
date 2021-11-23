@@ -424,7 +424,7 @@ class Hooks implements EditPageGetPreviewContentHook {
 					$key = CacheKeyHelper::getKeyForPage( $wikiPage );
 					/** @var SimpleCaptcha $captcha */
 					// @phan-suppress-next-line PhanUndeclaredClassMethod
-					$captcha = ConfirmEditHooks::getInstance();
+					$captcha = \ConfirmEditHooks::getInstance();
 					$activatedCaptchas = $captcha->getActivatedCaptchas();
 					if ( isset( $activatedCaptchas[$key] ) ) {
 						// TODO: :(
