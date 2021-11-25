@@ -17,8 +17,15 @@ use EventLogging;
 use ExtensionRegistry;
 use Html;
 use MediaWiki\Cache\CacheKeyHelper;
+use MediaWiki\Hook\EditPage__attemptSave_afterHook;
+use MediaWiki\Hook\EditPage__attemptSaveHook;
+use MediaWiki\Hook\EditPage__showEditForm_fieldsHook;
+use MediaWiki\Hook\EditPage__showEditForm_initialHook;
 use MediaWiki\Hook\EditPageGetPreviewContentHook;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Preferences\Hook\GetPreferencesHook;
+use MediaWiki\User\UserEditTracker;
+use MediaWiki\User\UserOptionsLookup;
 use MessageLocalizer;
 use MWCryptRand;
 use OutputPage;
@@ -28,12 +35,44 @@ use User;
 use WebRequest;
 use WikimediaEvents\WikimediaEventsHooks;
 
-class Hooks implements EditPageGetPreviewContentHook {
+/**
+ * @phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
+ */
+class Hooks implements
+	EditPage__showEditForm_initialHook,
+	EditPage__showEditForm_fieldsHook,
+	GetPreferencesHook,
+	EditPage__attemptSaveHook,
+	EditPage__attemptSave_afterHook,
+	EditPageGetPreviewContentHook
+{
 
 	/** @var string|bool ID used for grouping entries all of a session's entries together in EventLogging. */
 	private static $statsId = false;
 
-	/* Static Methods */
+	/** @var Config */
+	private $config;
+
+	/** @var UserEditTracker */
+	private $userEditTracker;
+
+	/** @var UserOptionsLookup */
+	private $userOptionsLookup;
+
+	/**
+	 * @param Config $config
+	 * @param UserEditTracker $userEditTracker
+	 * @param UserOptionsLookup $userOptionsLookup
+	 */
+	public function __construct(
+		Config $config,
+		UserEditTracker $userEditTracker,
+		UserOptionsLookup $userOptionsLookup
+	) {
+		$this->config = $config;
+		$this->userEditTracker = $userEditTracker;
+		$this->userOptionsLookup = $userOptionsLookup;
+	}
 
 	/**
 	 * Should the current session be sampled for EventLogging?
@@ -41,10 +80,10 @@ class Hooks implements EditPageGetPreviewContentHook {
 	 * @param string $sessionId
 	 * @return bool Whether to sample the session
 	 */
-	protected static function inEventSample( $sessionId ) {
-		global $wgWMESchemaEditAttemptStepSamplingRate;
+	protected function inEventSample( $sessionId ) {
 		// Sample 6.25%
-		$samplingRate = $wgWMESchemaEditAttemptStepSamplingRate ?? 0.0625;
+		$samplingRate = $this->config->has( 'WMESchemaEditAttemptStepSamplingRate' ) ?
+			$this->config->get( 'WMESchemaEditAttemptStepSamplingRate' ) : 0.0625;
 		$inSample = EventLogging::sessionInSample(
 			(int)( 1 / $samplingRate ), $sessionId
 		);
@@ -61,12 +100,12 @@ class Hooks implements EditPageGetPreviewContentHook {
 	 * @param array $data Data to log for this action
 	 * @return bool Whether the event was logged or not.
 	 */
-	public static function doEventLogging( $action, $article, $data = [] ) {
+	public function doEventLogging( $action, $article, $data = [] ) {
 		$extensionRegistry = ExtensionRegistry::getInstance();
 		if ( !$extensionRegistry->isLoaded( 'EventLogging' ) ) {
 			return false;
 		}
-		$inSample = self::inEventSample( $data['editing_session_id'] );
+		$inSample = $this->inEventSample( $data['editing_session_id'] );
 		$shouldOversample = $extensionRegistry->isLoaded( 'WikimediaEvents' ) &&
 			WikimediaEventsHooks::shouldSchemaEditAttemptStepOversample( $article->getContext() );
 		if ( !$inSample && !$shouldOversample ) {
@@ -91,12 +130,12 @@ class Hooks implements EditPageGetPreviewContentHook {
 			'page_ns' => $title->getNamespace(),
 			'revision_id' => $revisionRecord ? $revisionRecord->getId() : 0,
 			'user_id' => $user->getId(),
-			'user_editcount' => $user->getEditCount() ?: 0,
+			'user_editcount' => $this->userEditTracker->getUserEditCount( $user ) ?: 0,
 			'mw_version' => MW_VERSION,
 		] + $data;
 
-		if ( $user->getOption( 'discussiontools-abtest' ) ) {
-			$data['bucket'] = $user->getOption( 'discussiontools-abtest' );
+		if ( $this->userOptionsLookup->getOption( $user, 'discussiontools-abtest' ) ) {
+			$data['bucket'] = $this->userOptionsLookup->getOption( $user, 'discussiontools-abtest' );
 		}
 
 		if ( $user->isAnon() ) {
@@ -117,12 +156,12 @@ class Hooks implements EditPageGetPreviewContentHook {
 	 * @param string $sessionId Session identifier
 	 * @return bool Whether the event was logged or not.
 	 */
-	public static function doVisualEditorFeatureUseLogging( $feature, $action, $article, $sessionId ) {
+	public function doVisualEditorFeatureUseLogging( $feature, $action, $article, $sessionId ) {
 		$extensionRegistry = ExtensionRegistry::getInstance();
 		if ( !$extensionRegistry->isLoaded( 'EventLogging' ) ) {
 			return false;
 		}
-		$inSample = self::inEventSample( $sessionId );
+		$inSample = $this->inEventSample( $sessionId );
 		$shouldOversample = $extensionRegistry->isLoaded( 'WikimediaEvents' ) &&
 			WikimediaEventsHooks::shouldSchemaEditAttemptStepOversample( $article->getContext() );
 		if ( !$inSample && !$shouldOversample ) {
@@ -130,8 +169,7 @@ class Hooks implements EditPageGetPreviewContentHook {
 		}
 
 		$user = $article->getContext()->getUser();
-		$services = MediaWikiServices::getInstance();
-		$editCount = $services->getUserEditTracker()->getUserEditCount( $user );
+		$editCount = $this->userEditTracker->getUserEditCount( $user );
 		$data = [
 			'feature' => $feature,
 			'action' => $action,
@@ -144,7 +182,7 @@ class Hooks implements EditPageGetPreviewContentHook {
 			'user_editcount' => $editCount ?: 0,
 		];
 
-		$bucket = $services->getUserOptionsLookup()->getOption( $user, 'discussiontools-abtest' );
+		$bucket = $this->userOptionsLookup->getOption( $user, 'discussiontools-abtest' );
 		if ( $bucket ) {
 			$data['bucket'] = $bucket;
 		}
@@ -160,7 +198,7 @@ class Hooks implements EditPageGetPreviewContentHook {
 	 * @param EditPage $editPage the current EditPage object.
 	 * @param OutputPage $outputPage object.
 	 */
-	public static function editPageShowEditFormInitial( EditPage $editPage, OutputPage $outputPage ) {
+	public function onEditPage__showEditForm_initial( $editPage, $outputPage ) {
 		if ( $editPage->contentModel !== CONTENT_MODEL_WIKITEXT ) {
 			return;
 		}
@@ -170,7 +208,7 @@ class Hooks implements EditPageGetPreviewContentHook {
 
 		// Add modules if enabled
 		$user = $article->getContext()->getUser();
-		if ( $user->getOption( 'usebetatoolbar' ) ) {
+		if ( $this->userOptionsLookup->getBoolOption( $user, 'usebetatoolbar' ) ) {
 			$outputPage->addModuleStyles( 'ext.wikiEditor.styles' );
 			$outputPage->addModules( 'ext.wikiEditor' );
 		}
@@ -207,8 +245,26 @@ class Hooks implements EditPageGetPreviewContentHook {
 				}
 			}
 
-			self::doEventLogging( 'init', $article, $data );
+			$this->doEventLogging( 'init', $article, $data );
 		}
+	}
+
+	/**
+	 * Deprecated static alias for onEditPage__showEditForm_initial
+	 *
+	 * Adds the modules to the edit form
+	 *
+	 * @deprecated since 1.38
+	 * @param EditPage $editPage the current EditPage object.
+	 * @param OutputPage $outputPage object.
+	 */
+	public static function editPageShowEditFormInitial( EditPage $editPage, OutputPage $outputPage ) {
+		$services = MediaWikiServices::getInstance();
+		( new self(
+			$services->getMainConfig(),
+			$services->getUserEditTracker(),
+			$services->getUserOptionsLookup()
+		) )->onEditPage__showEditForm_initial( $editPage, $outputPage );
 	}
 
 	/**
@@ -219,7 +275,7 @@ class Hooks implements EditPageGetPreviewContentHook {
 	 * @param EditPage $editPage the current EditPage object.
 	 * @param OutputPage $outputPage object.
 	 */
-	public static function editPageShowEditFormFields( EditPage $editPage, OutputPage $outputPage ) {
+	public function onEditPage__showEditForm_fields( $editPage, $outputPage ) {
 		if ( $editPage->contentModel !== CONTENT_MODEL_WIKITEXT
 			|| !ExtensionRegistry::getInstance()->isLoaded( 'EventLogging' ) ) {
 			return;
@@ -266,7 +322,7 @@ class Hooks implements EditPageGetPreviewContentHook {
 	 * @param User $user current user
 	 * @param array &$defaultPreferences list of default user preference controls
 	 */
-	public static function getPreferences( $user, &$defaultPreferences ) {
+	public function onGetPreferences( $user, &$defaultPreferences ) {
 		// Ideally this key would be 'wikieditor-toolbar'
 		$defaultPreferences['usebetatoolbar'] = [
 			'type' => 'toggle',
@@ -356,12 +412,12 @@ class Hooks implements EditPageGetPreviewContentHook {
 	 *
 	 * @param EditPage $editPage
 	 */
-	public static function editPageAttemptSave( EditPage $editPage ) {
+	public function onEditPage__attemptSave( $editPage ) {
 		$article = $editPage->getArticle();
 		$request = $article->getContext()->getRequest();
 		$statsId = $request->getRawVal( 'editingStatsId' );
 		if ( $statsId !== null ) {
-			self::doEventLogging(
+			$this->doEventLogging(
 				'saveAttempt',
 				$article,
 				[ 'editing_session_id' => $statsId ]
@@ -374,8 +430,9 @@ class Hooks implements EditPageGetPreviewContentHook {
 	 *
 	 * @param EditPage $editPage
 	 * @param Status $status
+	 * @param array $resultDetails
 	 */
-	public static function editPageAttemptSaveAfter( EditPage $editPage, Status $status ) {
+	public function onEditPage__attemptSave_after( $editPage, $status, $resultDetails ) {
 		$article = $editPage->getArticle();
 		$request = $article->getContext()->getRequest();
 		$statsId = $request->getRawVal( 'editingStatsId' );
@@ -387,7 +444,7 @@ class Hooks implements EditPageGetPreviewContentHook {
 				$action = 'saveSuccess';
 
 				if ( $request->getRawVal( 'wikieditorJavascriptSupport' ) === 'yes' ) {
-					self::doVisualEditorFeatureUseLogging(
+					$this->doVisualEditorFeatureUseLogging(
 						'mwSave', 'source-has-js', $article, $statsId
 					);
 				}
@@ -436,7 +493,7 @@ class Hooks implements EditPageGetPreviewContentHook {
 				$data['save_failure_type'] = $typeMap[ $code ] ?? 'responseUnknown';
 			}
 
-			self::doEventLogging( $action, $article, $data );
+			$this->doEventLogging( $action, $article, $data );
 		}
 	}
 
@@ -452,7 +509,7 @@ class Hooks implements EditPageGetPreviewContentHook {
 		$editingStatsId = $editPage->getContext()->getRequest()->getRawVal( 'editingStatsId' );
 		if ( $editingStatsId !== null ) {
 			$article = $editPage->getArticle();
-			self::doVisualEditorFeatureUseLogging( 'preview', 'preview-nonlive', $article, $editingStatsId );
+			$this->doVisualEditorFeatureUseLogging( 'preview', 'preview-nonlive', $article, $editingStatsId );
 		}
 	}
 }

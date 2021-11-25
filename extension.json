@@ -21,26 +21,21 @@
 		]
 	},
 	"Hooks": {
-		"EditPage::showEditForm:initial": [
-			"MediaWiki\\Extension\\WikiEditor\\Hooks::editPageShowEditFormInitial"
-		],
-		"GetPreferences": [
-			"MediaWiki\\Extension\\WikiEditor\\Hooks::getPreferences"
-		],
-		"EditPage::showEditForm:fields": [
-			"MediaWiki\\Extension\\WikiEditor\\Hooks::editPageShowEditFormFields"
-		],
-		"EditPage::attemptSave": [
-			"MediaWiki\\Extension\\WikiEditor\\Hooks::editPageAttemptSave"
-		],
-		"EditPage::attemptSave:after": [
-			"MediaWiki\\Extension\\WikiEditor\\Hooks::editPageAttemptSaveAfter"
-		],
+		"EditPage::showEditForm:initial": "WikiEditorHooks",
+		"GetPreferences": "WikiEditorHooks",
+		"EditPage::showEditForm:fields": "WikiEditorHooks",
+		"EditPage::attemptSave": "WikiEditorHooks",
+		"EditPage::attemptSave:after": "WikiEditorHooks",
 		"EditPageGetPreviewContent": "WikiEditorHooks"
 	},
 	"HookHandlers": {
 		"WikiEditorHooks": {
-			"class": "MediaWiki\\Extension\\WikiEditor\\Hooks"
+			"class": "MediaWiki\\Extension\\WikiEditor\\Hooks",
+			"services": [
+				"MainConfig",
+				"UserEditTracker",
+				"UserOptionsLookup"
+			]
 		}
 	},
 	"ResourceModules": {
