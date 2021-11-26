@@ -112,25 +112,31 @@
 					),
 
 					init: function () {
+						/**
+						 * Convenience function for enabling/disabling the main insert button. This is a workaround for
+						 * the fact that the button isn't yet in the DOM when init() is run, so we have to query for it
+						 * in the event handlers.
+						 *
+						 * @param {boolean} enable Whether to enable or disable the button
+						 */
+						var setButtonState = function ( enable ) {
+							// eslint-disable-next-line no-jquery/no-sizzle
+							$( '.ui-dialog:visible .ui-dialog-buttonpane button' )
+								.first()
+								.prop( 'disabled', !enable )
+								.toggleClass( 'disabled', !enable );
+						};
 						// Automatically copy the value of the internal link page title field to the link text field unless the
 						// user has changed the link text field - this is a convenience thing since most link texts are going to
-						// be the same as the page title - Also change the internal/external radio button accordingly
+						// be the same as the page title.
 						insertLinkTitleInputField.connect( this, {
 							change: function ( val ) {
 								insertLinkLinkTypeField.setIsExternal( insertLinkTitleInputField.getField().isExternalLink( val ) );
 								insertLinkLinkTextField.setValueIfUntouched( val );
-								// eslint-disable-next-line no-jquery/no-sizzle
-								$( '.ui-dialog:visible .ui-dialog-buttonpane button' )
-									.first()
-									.prop( 'disabled', false )
-									.removeClass( 'disabled' );
+								setButtonState( val !== '' );
 							},
 							invalid: function () {
-								// eslint-disable-next-line no-jquery/no-sizzle
-								$( '.ui-dialog:visible .ui-dialog-buttonpane button' )
-									.first()
-									.prop( 'disabled', true )
-									.addClass( 'disabled' );
+								setButtonState( false );
 							}
 						} );
 						// Tell the title input field when the internal/external radio changes.
@@ -271,8 +277,10 @@
 							var selection = context.$textarea.textSelection( 'getSelection' );
 
 							insertLinkTitleInputField.getField().focus();
-							// Trigger the change event, so the link status indicator is up to date
-							insertLinkTitleInputField.getField().$input.trigger( 'change' );
+							// Trigger the change event, so the link status indicator is up to date.
+							// It may be triggered again for the selection, below.
+							insertLinkTitleInputField.getField().emit( 'change', '' );
+
 							$( '#wikieditor-toolbar-link-dialog' ).data( 'whitespace', [ '', '' ] );
 							if ( selection !== '' ) {
 								var matches, target, text, isExternal;

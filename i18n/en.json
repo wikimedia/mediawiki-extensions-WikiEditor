@@ -43,7 +43,6 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "The URL you specified looks like it was intended as a link to another wiki page.\nDo you want to make it an internal link?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Internal link",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "External link",
-	"wikieditor-toolbar-tool-link-empty": "You did not enter anything to link to.",
 	"wikieditor-toolbar-tool-file": "Images and media",
 	"wikieditor-toolbar-tool-file-example": "Example.jpg",
 	"wikieditor-toolbar-tool-file-title": "Insert file",

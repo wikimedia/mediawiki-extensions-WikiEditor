@@ -73,7 +73,6 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "Used in the link dialog of the toolbar as hint when clicking the insert button",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "{{Identical|Internal link}}",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "{{Identical|External link}}",
-	"wikieditor-toolbar-tool-link-empty": "Used in the link dialog of the toolbar as hint after clicking the insert button",
 	"wikieditor-toolbar-tool-file": "A tooltip on a toolbar button that adds a file (image, audio, or video).\n\nAppears in the same section with the following:\n* {{msg-mw|wikieditor-toolbar-tool-link}}\n* {{msg-mw|wikieditor-toolbar-tool-file}}\n* {{msg-mw|wikieditor-toolbar-tool-reference}}\n* {{msg-mw|templatewizard-dialog-title}} (on wikis where the TemplateWizard extension is installed)",
 	"wikieditor-toolbar-tool-file-example": "Translate Example, but don't translate .jpg\n{{Identical|Example}}",
 	"wikieditor-toolbar-tool-file-title": "Title for insert file dialog",
