@@ -45,7 +45,6 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "L'URL qu'avètz especificada sembla ligar cap a una autra pagina del wiki. Volètz utilizar un ligam intèrne a la plaça ?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Ligam intèrne",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Ligam extèrne",
-	"wikieditor-toolbar-tool-link-empty": "Avètz pas entrat res que pòsca èsser ligat.",
 	"wikieditor-toolbar-tool-file": "Fichièr inserit",
 	"wikieditor-toolbar-tool-file-example": "Exemple.jpg",
 	"wikieditor-toolbar-tool-file-title": "Importar un fichièr",

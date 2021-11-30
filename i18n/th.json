@@ -50,7 +50,6 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "URL ที่คุณระบุดูเหมือนว่ามีเจตนาเพื่อเป็นลิงก์ไปยังหน้าวิกิอื่น\nคุณต้องการทำให้เป็นลิงก์ภายในหรือไม่?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "ลิงก์ภายใน",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "ลิงก์ภายนอก",
-	"wikieditor-toolbar-tool-link-empty": "คุณไม่ได้ป้อนสิ่งที่จะเชื่อมโยงไป",
 	"wikieditor-toolbar-tool-file": "ไฟล์ที่ฝัง",
 	"wikieditor-toolbar-tool-file-example": "ตัวอย่าง.jpg",
 	"wikieditor-toolbar-tool-file-title": "แทรกไฟล์",

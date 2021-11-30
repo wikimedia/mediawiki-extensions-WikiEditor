@@ -54,7 +54,6 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "Η διεύθυνση URL που ορίσατε φαίνεται πως προορίζεται για σύνδεσμο σε σελίδα σε άλλο βίκι.\nΘέλετε να τη μετατρέψετε σε εσωτερικό σύνδεσμο;",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Εσωτερικός σύνδεσμος",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Εξωτερικός σύνδεσμος",
-	"wikieditor-toolbar-tool-link-empty": "Δεν εισάγατε τίποτα για σύνδεση σε αυτό.",
 	"wikieditor-toolbar-tool-file": "Ενσωματωμένο αρχείο",
 	"wikieditor-toolbar-tool-file-example": "Paradeigma.jpg",
 	"wikieditor-toolbar-tool-file-title": "Εισαγωγή αρχείου",

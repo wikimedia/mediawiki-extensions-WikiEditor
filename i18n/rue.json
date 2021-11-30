@@ -43,7 +43,6 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "URL котре сьте задали вызерать як одказ на іншу сторінку той вікі. Хочете з нєй зробити інтерный одказ?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Інтерный одказ",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Екстерный одказ",
-	"wikieditor-toolbar-tool-link-empty": "Мусите увести ціль одказу.",
 	"wikieditor-toolbar-tool-file": "Вложеный файл",
 	"wikieditor-toolbar-tool-file-example": "Приклад.jpg",
 	"wikieditor-toolbar-file-target": "Назва файлу:",

@@ -59,7 +59,6 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "يبدو أن المُراد بالمسار الذي حددته وصلة إلى صفحة ويكي أخرى. أتريد أن تجعلها وصلة داخلية؟",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "وصلة داخلية",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "وصلة خارجية",
-	"wikieditor-toolbar-tool-link-empty": "لم تدخل شيئا لتصل به.",
 	"wikieditor-toolbar-tool-file": "الصور والوسائط",
 	"wikieditor-toolbar-tool-file-example": "Example.jpg",
 	"wikieditor-toolbar-tool-file-title": "أدرج الملف",

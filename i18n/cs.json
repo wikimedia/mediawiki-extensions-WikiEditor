@@ -51,7 +51,6 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "Uvedené URL vypadá jako odkaz na jinou stránku této wiki.\nChcete z něj tedy udělat vnitřní odkaz?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Vnitřní odkaz",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Externí odkaz",
-	"wikieditor-toolbar-tool-link-empty": "Musíte uvést cíl odkazu.",
 	"wikieditor-toolbar-tool-file": "Obrázky a média",
 	"wikieditor-toolbar-tool-file-example": "Příklad.jpg",
 	"wikieditor-toolbar-tool-file-title": "Vložit soubor",

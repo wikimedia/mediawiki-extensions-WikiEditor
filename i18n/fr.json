@@ -66,7 +66,6 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "L’URL que vous avez spécifiée semble mener à une autre page du wiki.\nVoulez-vous utiliser un lien interne à la place ?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Lien interne",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Lien externe",
-	"wikieditor-toolbar-tool-link-empty": "Vous n’avez rien entré qui puisse être lié.",
 	"wikieditor-toolbar-tool-file": "Images et médias",
 	"wikieditor-toolbar-tool-file-example": "Exemple.jpg",
 	"wikieditor-toolbar-tool-file-title": "Importer un fichier",

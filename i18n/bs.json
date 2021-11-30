@@ -51,7 +51,6 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "Izgleda da je URL koji ste naveli prepoznat kao link na drugu wiki-stranicu.\nŽelite li napraviti unutrašnji link?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Unutrašnji link",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Vanjski link",
-	"wikieditor-toolbar-tool-link-empty": "Niste unijeli ništa za linkovanje.",
 	"wikieditor-toolbar-tool-file": "Slike i medijske datoteke",
 	"wikieditor-toolbar-tool-file-example": "Primjer.jpg",
 	"wikieditor-toolbar-tool-file-title": "Umetanje datoteke",

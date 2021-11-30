@@ -49,7 +49,6 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "আপুনি নিৰ্দেশ কৰা ইউআৰএল টো আন এখন ৱিকি পৃষ্ঠালৈ লিংক যেন অনুমান হৈছে।\nআপুনি ইয়াক এটা আভ্যন্তৰীণ লিংক কৰিব খুজিছে নেকি?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "আভ্যন্তৰীণ সংযোগ",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "বাহ্যিক সংযোগ",
-	"wikieditor-toolbar-tool-link-empty": "লিংক কৰিবলৈ আপুনি একো টাইপ কৰা নাই।",
 	"wikieditor-toolbar-tool-file": "চিত্ৰ আৰু মিডিয়া",
 	"wikieditor-toolbar-tool-file-example": "Example.jpg",
 	"wikieditor-toolbar-tool-file-title": "ফাইল সুমুৱাওক",

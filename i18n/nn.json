@@ -46,7 +46,6 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "URL-en du oppgav ser ut til å vera meint som ei lenkje til ei anna wikiside. Ynskjer du å gjera han til ei intern lenkje?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Intern lenkje",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Ekstern lenkje",
-	"wikieditor-toolbar-tool-link-empty": "Du skreiv ikkje inn noko å lenkja til.",
 	"wikieditor-toolbar-tool-file": "Fil",
 	"wikieditor-toolbar-tool-file-example": "Døme.jpg",
 	"wikieditor-toolbar-tool-file-title": "Set inn fil",

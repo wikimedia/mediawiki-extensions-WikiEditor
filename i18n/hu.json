@@ -54,7 +54,6 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "Úgy tűnik, hogy a megadott URL másik wiki lapra mutató hivatkozás akart lenni.\nSzeretnéd belső hivatkozássá alakítani?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Belső hivatkozás",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Külső hivatkozás",
-	"wikieditor-toolbar-tool-link-empty": "Nem adtad meg, hogy hová szeretnél hivatkozást készíteni.",
 	"wikieditor-toolbar-tool-file": "Képek és médiafájlok",
 	"wikieditor-toolbar-tool-file-example": "Egyszerikép.jpg",
 	"wikieditor-toolbar-tool-file-title": "Fájl beillesztése",

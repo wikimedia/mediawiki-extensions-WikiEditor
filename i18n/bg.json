@@ -54,7 +54,6 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "URL-адресът, който сте задали, изглежда като връзка към друга уики-страница.\nИскате ли препратката да бъде вътрешна?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Вътрешна препратка",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Външна препратка",
-	"wikieditor-toolbar-tool-link-empty": "Не сте въвели адрес на препратката.",
 	"wikieditor-toolbar-tool-file": "Изображения и медия",
 	"wikieditor-toolbar-tool-file-example": "Пример.jpg",
 	"wikieditor-toolbar-tool-file-title": "Вмъкване на файл",

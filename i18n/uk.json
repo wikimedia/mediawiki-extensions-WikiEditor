@@ -59,7 +59,6 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "Зазначений вами URL виглядає як посилання на іншу вікі-сторінку. Ви хочете зробити його внутрішнім посиланням?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Внутрішнє посилання",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Зовнішнє посилання",
-	"wikieditor-toolbar-tool-link-empty": "Ви не зазначили, на що створити посилання.",
 	"wikieditor-toolbar-tool-file": "Зображення та мультимедіа",
 	"wikieditor-toolbar-tool-file-example": "Example.jpg",
 	"wikieditor-toolbar-tool-file-title": "Вставити файл",

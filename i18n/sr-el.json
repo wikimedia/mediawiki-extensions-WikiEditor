@@ -51,7 +51,6 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "URL adresa koju ste uneli izgleda kao veza prema drugoj viki stranici. \nŽelite li da je promenite u unutrašnju vezu?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Unutrašnja veza",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Spoljašnja veza",
-	"wikieditor-toolbar-tool-link-empty": "Ništa niste uneli za povezivanje.",
 	"wikieditor-toolbar-tool-file": "Ugrađivanje datoteke",
 	"wikieditor-toolbar-tool-file-example": "Primer.jpg",
 	"wikieditor-toolbar-tool-file-title": "Ugrađivanje datoteke",

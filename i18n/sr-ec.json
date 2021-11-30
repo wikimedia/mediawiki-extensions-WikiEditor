@@ -59,7 +59,6 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "URL адреса коју сте унели изгледа као веза према другој вики страници. \nЖелите ли да је промените у унутрашњу везу?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Унутрашња веза",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Спољашња веза",
-	"wikieditor-toolbar-tool-link-empty": "Ништа нисте унели за повезивање.",
 	"wikieditor-toolbar-tool-file": "Слике и снимци",
 	"wikieditor-toolbar-tool-file-example": "Пример.jpg",
 	"wikieditor-toolbar-tool-file-title": "Убацивање датотеке",

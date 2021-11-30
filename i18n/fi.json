@@ -61,7 +61,6 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "URL-osoite, jonka annoit näyttää siltä kuin se olisi linkki toiselle wikisivulle.\nHaluatko tehdä siitä sisäisen linkin?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Sisäinen linkki",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Ulkoinen linkki",
-	"wikieditor-toolbar-tool-link-empty": "Et antanut mitään linkitettävää.",
 	"wikieditor-toolbar-tool-file": "Kuvat ja media",
 	"wikieditor-toolbar-tool-file-example": "Esimerkki.jpg",
 	"wikieditor-toolbar-tool-file-title": "Lisää tiedosto",

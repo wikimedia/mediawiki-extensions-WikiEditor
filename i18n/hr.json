@@ -52,7 +52,6 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "URL koji ste predali čini se namijenjen kao poveznica na drugu wiki stranicu.\nŽelite li napraviti unutrašnju poveznicu?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Unutarnja poveznica",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Vanjska poveznica",
-	"wikieditor-toolbar-tool-link-empty": "Niste unijeli ništa za povezivanje.",
 	"wikieditor-toolbar-tool-file": "Slike i medijske datoteke",
 	"wikieditor-toolbar-tool-file-example": "Primjer.jpg",
 	"wikieditor-toolbar-tool-file-title": "Umetni datoteku",

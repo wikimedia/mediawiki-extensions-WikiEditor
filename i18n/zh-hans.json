@@ -61,7 +61,6 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "您输入的网址似乎指向另一个wiki页面。\n是否希望将其改为内部链接？",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "内部链接",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "外部链接",
-	"wikieditor-toolbar-tool-link-empty": "您没有输入链接内容。",
 	"wikieditor-toolbar-tool-file": "图片和媒体",
 	"wikieditor-toolbar-tool-file-example": "示例.jpg（在这里输入文件名）",
 	"wikieditor-toolbar-tool-file-title": "插入文件",

@@ -59,7 +59,6 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "O URL que especificou parece ser uma hiperligação para outra página da wiki. Deseja torná-la numa hiperligação interna?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Hiperligação interna",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Hiperligação externa",
-	"wikieditor-toolbar-tool-link-empty": "Não introduziu o destino da hiperligação.",
 	"wikieditor-toolbar-tool-file": "Imagens e multimédia",
 	"wikieditor-toolbar-tool-file-example": "Exemplo.jpg",
 	"wikieditor-toolbar-tool-file-title": "Inserir ficheiro",
