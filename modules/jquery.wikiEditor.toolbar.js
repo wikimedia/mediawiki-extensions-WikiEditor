@@ -18,7 +18,7 @@
 							var $sections = context.modules.toolbar.$toolbar.find( 'div.sections' );
 							var $tabs = context.modules.toolbar.$toolbar.find( 'div.tabs' );
 							for ( var section in data[ type ] ) {
-								if ( section === 'main' ) {
+								if ( section === 'main' || section === 'secondary' ) {
 									// Section
 									context.modules.toolbar.$toolbar.prepend(
 										toolbarModule.fn.buildSection(
@@ -692,7 +692,7 @@
 				toolbarModule.fn.reallyBuildSection( context, id, section, $section, section.deferLoad );
 
 				// Show or hide section
-				if ( id !== 'main' ) {
+				if ( id !== 'main' && id !== 'secondary' ) {
 					$section.attr( 'aria-expanded', show ? 'true' : 'false' );
 
 					if ( show ) {
@@ -774,7 +774,7 @@
 					$sections = $( '<div>' ).addClass( 'sections' ).appendTo( context.modules.toolbar.$toolbar );
 				context.modules.toolbar.$toolbar.append( $( '<div>' ).css( 'clear', 'both' ) );
 				for ( var section in config ) {
-					if ( section === 'main' ) {
+					if ( section === 'main' || section === 'secondary' ) {
 						context.modules.toolbar.$toolbar.prepend(
 							toolbarModule.fn.buildSection( context, section, config[ section ] )
 						);
