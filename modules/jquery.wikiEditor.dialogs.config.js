@@ -131,7 +131,7 @@
 						// be the same as the page title.
 						insertLinkTitleInputField.connect( this, {
 							change: function ( val ) {
-								insertLinkLinkTypeField.setIsExternal( insertLinkTitleInputField.getField().isExternalLink( val ) );
+								insertLinkLinkTypeField.setIsExternal( insertLinkTitleInputField.isExternal() );
 								insertLinkLinkTextField.setValueIfUntouched( val );
 								setButtonState( val !== '' );
 							},
@@ -256,7 +256,7 @@
 								}, $( this ) );
 
 								// Blank form
-								insertLinkTitleInputField.getField().setValue( '' );
+								insertLinkTitleInputField.reset();
 								insertLinkLinkTextField.getField().setValue( '' );
 								insertLinkLinkTypeField.getField().selectItem( null );
 							},

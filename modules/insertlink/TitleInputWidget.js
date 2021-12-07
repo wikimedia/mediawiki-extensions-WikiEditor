@@ -46,6 +46,8 @@ TitleInputWidget.prototype.onLookupInputBlur = function () {
 /**
  * Select the first matching search result
  * The first match might not be at the top of the list, nor an exact match.
+ *
+ * @public
  */
 TitleInputWidget.prototype.selectFirstMatch = function () {
 	var that = this;
@@ -107,7 +109,7 @@ TitleInputWidget.prototype.getLookupCacheDataFromResponse = function ( response 
 	for ( var pageId in res.pages ) {
 		if ( Object.prototype.hasOwnProperty.call( res.pages, pageId ) ) {
 			var page = res.pages[ pageId ];
-			page.external = page.missing !== undefined && this.isExternalLink( page.title );
+			page.external = page.missing !== undefined && this.looksLikeExternalLink( page.title );
 		}
 	}
 	return res;
@@ -146,7 +148,7 @@ TitleInputWidget.prototype.getOverlay = function () {
  * @param {string} urlString The possible URL.
  * @return {boolean}
  */
-TitleInputWidget.prototype.isExternalLink = function ( urlString ) {
+TitleInputWidget.prototype.looksLikeExternalLink = function ( urlString ) {
 	var matches = urlString.match( this.constructor.static.urlRegex );
 	return matches !== null && matches.length > 0;
 };
