@@ -26,7 +26,10 @@
 		"EditPage::showEditForm:fields": "WikiEditorHooks",
 		"EditPage::attemptSave": "WikiEditorHooks",
 		"EditPage::attemptSave:after": "WikiEditorHooks",
-		"EditPageGetPreviewContent": "WikiEditorHooks"
+		"EditPageGetPreviewContent": "WikiEditorHooks",
+		"ListDefinedTags": "WikiEditorHooks",
+		"ChangeTagsListActive": "WikiEditorHooks",
+		"RecentChange_save": "WikiEditorHooks"
 	},
 	"HookHandlers": {
 		"WikiEditorHooks": {

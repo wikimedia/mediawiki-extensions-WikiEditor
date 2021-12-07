@@ -17,11 +17,14 @@ use EventLogging;
 use ExtensionRegistry;
 use Html;
 use MediaWiki\Cache\CacheKeyHelper;
+use MediaWiki\ChangeTags\Hook\ChangeTagsListActiveHook;
+use MediaWiki\ChangeTags\Hook\ListDefinedTagsHook;
 use MediaWiki\Hook\EditPage__attemptSave_afterHook;
 use MediaWiki\Hook\EditPage__attemptSaveHook;
 use MediaWiki\Hook\EditPage__showEditForm_fieldsHook;
 use MediaWiki\Hook\EditPage__showEditForm_initialHook;
 use MediaWiki\Hook\EditPageGetPreviewContentHook;
+use MediaWiki\Hook\RecentChange_saveHook;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
 use MediaWiki\User\UserEditTracker;
@@ -29,6 +32,8 @@ use MediaWiki\User\UserOptionsLookup;
 use MessageLocalizer;
 use MWCryptRand;
 use OutputPage;
+use RecentChange;
+use RequestContext;
 use ResourceLoaderContext;
 use Status;
 use User;
@@ -44,11 +49,17 @@ class Hooks implements
 	GetPreferencesHook,
 	EditPage__attemptSaveHook,
 	EditPage__attemptSave_afterHook,
-	EditPageGetPreviewContentHook
+	EditPageGetPreviewContentHook,
+	ListDefinedTagsHook,
+	ChangeTagsListActiveHook,
+	RecentChange_saveHook
 {
 
 	/** @var string|bool ID used for grouping entries all of a session's entries together in EventLogging. */
 	private static $statsId = false;
+
+	/** @var string[] */
+	private static $tags = [ 'wikieditor' ];
 
 	/** @var Config */
 	private $config;
@@ -276,6 +287,14 @@ class Hooks implements
 	 * @param OutputPage $outputPage object.
 	 */
 	public function onEditPage__showEditForm_fields( $editPage, $outputPage ) {
+		$outputPage->addHTML(
+			Html::hidden(
+				'wikieditorUsed',
+				'',
+				[ 'id' => 'wikieditorUsed' ]
+			)
+		);
+
 		if ( $editPage->contentModel !== CONTENT_MODEL_WIKITEXT
 			|| !ExtensionRegistry::getInstance()->isLoaded( 'EventLogging' ) ) {
 			return;
@@ -304,14 +323,6 @@ class Hooks implements
 				)
 			);
 		}
-
-		$outputPage->addHTML(
-			Html::hidden(
-				'wikieditorJavascriptSupport',
-				'',
-				[ 'id' => 'wikieditorJavascriptSupport' ]
-			)
-		);
 	}
 
 	/**
@@ -443,7 +454,7 @@ class Hooks implements
 			if ( $status->isOK() ) {
 				$action = 'saveSuccess';
 
-				if ( $request->getRawVal( 'wikieditorJavascriptSupport' ) === 'yes' ) {
+				if ( $request->getRawVal( 'wikieditorUsed' ) === 'yes' ) {
 					$this->doVisualEditorFeatureUseLogging(
 						'mwSave', 'source-has-js', $article, $statsId
 					);
@@ -511,6 +522,41 @@ class Hooks implements
 			$article = $editPage->getArticle();
 			$this->doVisualEditorFeatureUseLogging( 'preview', 'preview-nonlive', $article, $editingStatsId );
 		}
+	}
+
+	/**
+	 * @param string[] &$tags
+	 * @return bool|void
+	 */
+	public function onChangeTagsListActive( &$tags ) {
+		$this->registerTags( $tags );
+	}
+
+	/**
+	 * @param string[] &$tags
+	 * @return bool|void
+	 */
+	public function onListDefinedTags( &$tags ) {
+		$this->registerTags( $tags );
+	}
+
+	/**
+	 * @param string[] &$tags
+	 */
+	protected function registerTags( &$tags ) {
+		$tags = array_merge( $tags, static::$tags );
+	}
+
+	/**
+	 * @param RecentChange $recentChange
+	 * @return bool|void
+	 */
+	public function onRecentChange_save( $recentChange ) {
+		$request = RequestContext::getMain()->getRequest();
+		if ( $request->getRawVal( 'wikieditorUsed' ) === 'yes' ) {
+			$recentChange->addTags( 'wikieditor' );
+		}
+		return true;
 	}
 }
 
