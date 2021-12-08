@@ -279,7 +279,7 @@
 							insertLinkTitleInputField.getField().focus();
 							// Trigger the change event, so the link status indicator is up to date.
 							// It may be triggered again for the selection, below.
-							insertLinkTitleInputField.getField().emit( 'change', '' );
+							insertLinkTitleInputField.getField().emit( 'change', insertLinkTitleInputField.getField().getValue() );
 
 							$( '#wikieditor-toolbar-link-dialog' ).data( 'whitespace', [ '', '' ] );
 							if ( selection !== '' ) {
