@@ -143,8 +143,8 @@
 						insertLinkLinkTypeField.connect( this, {
 							change: function ( isExternal ) {
 								var urlMode = isExternal ?
-									insertLinkTitleInputField.urlModes.external :
-									insertLinkTitleInputField.urlModes.internal;
+									insertLinkLinkTypeField.constructor.static.LINK_MODE_EXTERNAL :
+									insertLinkLinkTypeField.constructor.static.LINK_MODE_INTERNAL;
 								insertLinkTitleInputField.setUrlMode( urlMode );
 							}
 						} );

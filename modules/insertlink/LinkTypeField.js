@@ -9,11 +9,9 @@ function LinkTypeField() {
 	OO.EventEmitter.call( this );
 
 	this.radioInt = new OO.ui.RadioOptionWidget( {
-		data: 'int',
 		label: mw.msg( 'wikieditor-toolbar-tool-link-int' )
 	} );
 	this.radioExt = new OO.ui.RadioOptionWidget( {
-		data: 'ext',
 		label: mw.msg( 'wikieditor-toolbar-tool-link-ext' )
 	} );
 	var radioSelect = new OO.ui.RadioSelectWidget( {
@@ -35,6 +33,10 @@ function LinkTypeField() {
 
 OO.inheritClass( LinkTypeField, OO.ui.FieldLayout );
 OO.mixinClass( LinkTypeField, OO.EventEmitter );
+
+LinkTypeField.static.LINK_MODE_INTERNAL = 'internal';
+
+LinkTypeField.static.LINK_MODE_EXTERNAL = 'external';
 
 /**
  * Select the 'external link' radio.

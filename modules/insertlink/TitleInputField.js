@@ -1,3 +1,4 @@
+var LinkTypeField = require( './LinkTypeField.js' );
 var TitleInputWidget = require( './TitleInputWidget.js' );
 var TitleOptionWidget = require( './TitleOptionWidget.js' );
 
@@ -20,11 +21,7 @@ function TitleInputField() {
 	} );
 
 	// The URL mode is set by the user via radio buttons, or automatically for link targets that look like URLs.
-	this.urlModes = {
-		internal: 'internal',
-		external: 'external'
-	};
-	this.urlMode = this.urlModes.internal;
+	this.urlMode = LinkTypeField.static.LINK_MODE_INTERNAL;
 	// The 'manual' URL mode flag is set when the user changes the mode, and doesn't change again.
 	this.urlModeManual = false;
 
@@ -45,7 +42,7 @@ OO.mixinClass( TitleInputField, OO.EventEmitter );
 TitleInputField.prototype.reset = function () {
 	this.getField().setValue( '' );
 	this.urlModeManual = false;
-	this.urlMode = this.urlModes.internal;
+	this.urlMode = LinkTypeField.static.LINK_MODE_INTERNAL;
 };
 
 /**
@@ -55,9 +52,9 @@ TitleInputField.prototype.reset = function () {
  * @param {string} urlMode One of the `TitleInputField.urlModes.*` values.
  */
 TitleInputField.prototype.setUrlMode = function ( urlMode ) {
-	this.urlMode = urlMode === this.urlModes.external ?
-		this.urlModes.external :
-		this.urlModes.internal;
+	this.urlMode = urlMode === LinkTypeField.static.LINK_MODE_EXTERNAL ?
+		LinkTypeField.static.LINK_MODE_EXTERNAL :
+		LinkTypeField.static.LINK_MODE_INTERNAL;
 	this.urlModeManual = true;
 	this.getField().selectFirstMatch();
 	this.validate( this.getField().getValue() );
@@ -68,7 +65,7 @@ TitleInputField.prototype.setUrlMode = function ( urlMode ) {
  * @return {boolean}
  */
 TitleInputField.prototype.isExternal = function () {
-	return this.urlMode === this.urlModes.external;
+	return this.urlMode === LinkTypeField.static.LINK_MODE_EXTERNAL;
 };
 
 /**
@@ -103,7 +100,7 @@ TitleInputField.prototype.setMessage = function ( icon, message, type ) {
  */
 TitleInputField.prototype.onChange = function ( value ) {
 	if ( !this.urlModeManual && this.getField().looksLikeExternalLink( value ) ) {
-		this.urlMode = this.urlModes.external;
+		this.urlMode = LinkTypeField.static.LINK_MODE_EXTERNAL;
 	}
 	this.validate( value );
 };
@@ -115,7 +112,7 @@ TitleInputField.prototype.onChange = function ( value ) {
  * @param {string} value
  */
 TitleInputField.prototype.validate = function ( value ) {
-	if ( this.urlMode === this.urlModes.internal && value !== '' && !mw.Title.newFromText( value ) ) {
+	if ( this.urlMode === LinkTypeField.static.LINK_MODE_INTERNAL && value !== '' && !mw.Title.newFromText( value ) ) {
 		this.setMessage( 'error', mw.message( 'wikieditor-toolbar-tool-link-int-target-status-invalid' ).parse(), 'error' );
 		this.emit( 'invalid' );
 	} else {
@@ -129,7 +126,9 @@ TitleInputField.prototype.validate = function ( value ) {
  * @param {TitleOptionWidget} item
  */
 TitleInputField.prototype.onSelect = function ( item ) {
-	if ( this.urlMode === this.urlModes.external || ( !this.urlModeManual && this.urlMode === this.urlModes.internal && item.isExternal() ) ) {
+	if ( this.urlMode === LinkTypeField.static.LINK_MODE_EXTERNAL ||
+		( !this.urlModeManual && this.urlMode === LinkTypeField.static.LINK_MODE_INTERNAL && item.isExternal() )
+	) {
 		this.setMessage( 'linkExternal', mw.message( 'wikieditor-toolbar-tool-link-int-target-status-external' ).parse() );
 	} else if ( item.isDisambiguation() ) {
 		this.setMessage( 'articleDisambiguation', mw.message( 'wikieditor-toolbar-tool-link-int-target-status-disambig' ).parse() );
