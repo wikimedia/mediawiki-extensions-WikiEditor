@@ -192,5 +192,6 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Nom de l'utent</a> (<a href='#' title='$2:Username'>ciciarada</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Inseriment d'un spazzi voeud",
 	"wikieditor-toolbar-help-content-indent-syntax": "Test normal<br />:Test cont un spazzi denanz<br />::Test cont un alter spazzi denanz",
-	"wikieditor-toolbar-help-content-indent-result": "Test normal<dl><dd>Test cont un spazzi denanz<dl><dd>Testo cont un alter spazzi denanz</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "Test normal<dl><dd>Test cont un spazzi denanz<dl><dd>Testo cont un alter spazzi denanz</dd></dl></dd></dl>",
+	"tag-wikieditor-description": "Modifega fornida cont el drovà [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (2010 editor de wiki-test )"
 }

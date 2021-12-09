@@ -198,5 +198,6 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Brukernavn</a> (<a href='#' title='$2:Username'>diskusjon</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Innrykk",
 	"wikieditor-toolbar-help-content-indent-syntax": "Normal tekst<br />:Innrykket tekst<br />::Innrykket tekst",
-	"wikieditor-toolbar-help-content-indent-result": "Normal tekst<dl><dd>Innrykket tekst<dl><dd>Innrykket tekst</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "Normal tekst<dl><dd>Innrykket tekst<dl><dd>Innrykket tekst</dd></dl></dd></dl>",
+	"tag-wikieditor-description": "Redigering gjort med [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (wikitekst-redigeringsmotoren fra 2010)"
 }
