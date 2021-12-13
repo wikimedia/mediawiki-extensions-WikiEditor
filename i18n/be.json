@@ -39,7 +39,7 @@
 	"wikieditor-toolbar-tool-link-insert": "Уставіць спасылку",
 	"wikieditor-toolbar-tool-link-cancel": "Закрыць",
 	"wikieditor-toolbar-tool-link-int-target-status-exists": "Старонка існуе",
-	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Старонкі не існуе",
+	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Гэтая старонка не існуе ў {{GRAMMAR:prepositional|{{SITENAME}}}}",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Няслушная назва",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Спасылка ў Сеціва",
 	"wikieditor-toolbar-tool-link-int-target-status-loading": "Праверка наяўнасці старонкі...",

@@ -207,5 +207,6 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Kullanıcı adı</a> (<a href='#' title='$2:Username'>mesaj</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Girinti",
 	"wikieditor-toolbar-help-content-indent-syntax": "Normal metin<br />:Girintili metin<br />::Girintili metin",
-	"wikieditor-toolbar-help-content-indent-result": "Normal metin<dl><dd>Girintili metin<dl><dd>Girintili metin</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "Normal metin<dl><dd>Girintili metin<dl><dd>Girintili metin</dd></dl></dd></dl>",
+	"tag-wikieditor-description": "[[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] kullanılarak yapılan düzenleme (2010 vikimetin düzenleyici)"
 }
