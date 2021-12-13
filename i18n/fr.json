@@ -23,7 +23,8 @@
 			"Verdy p",
 			"Wladek92",
 			"Wyz",
-			"Zetud"
+			"Zetud",
+			"DreZhsh"
 		]
 	},
 	"wikieditor": "Interface avancée de modification de wikitexte",
@@ -41,7 +42,7 @@
 	"wikieditor-toolbar-tool-italic-example": "Texte en italique",
 	"wikieditor-toolbar-tool-ilink": "Lien interne",
 	"wikieditor-toolbar-tool-ilink-example": "Titre du lien",
-	"wikieditor-toolbar-tool-xlink": "Lien externe (n’oubliez pas le préfixe <tt>http://</tt> ou <tt>https://</tt>)",
+	"wikieditor-toolbar-tool-xlink": "Lien externe (n’oubliez pas le préfixe http://)",
 	"wikieditor-toolbar-tool-xlink-example": "https://www.example.com/ Titre du lien",
 	"wikieditor-toolbar-tool-link": "Lien",
 	"wikieditor-toolbar-tool-link-title": "Insérer un lien",
@@ -145,7 +146,7 @@
 	"wikieditor-toolbar-tool-replace-button-replaceall": "Remplacer tout",
 	"wikieditor-toolbar-tool-replace-close": "Fermer",
 	"wikieditor-toolbar-tool-replace-nomatch": "Votre recherche n’a abouti à aucune correspondance.",
-	"wikieditor-toolbar-tool-replace-success": "$1 remplacement{{PLURAL:$1||s}} réalisés{{PLURAL:$1||s}}.",
+	"wikieditor-toolbar-tool-replace-success": "$1 {{PLURAL:$1|remplacement|remplacements}} {{PLURAL:$1|réalisé|réalisés}}.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "Vous n’avez pas indiqué de texte à rechercher.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "L’expression rationnelle saisie n’est pas valide : $1",
 	"wikieditor-toolbar-tool-replace-word": "Correspond à tout mot complet",

@@ -100,6 +100,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! päis 1\n! päis 2\n! päis 3\n|-\n| 1. rida, 1. lahter\n| 1. rida, 2. lahter\n| 1. rida, 3. lahter\n|-\n| 2. rida, 1. lahter\n| 2. rida, 2. lahter\n| 2. rida, 3. lahter",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Lahtri tekst",
 	"wikieditor-toolbar-tool-table-example-header": "Päise tekst",
+	"wikieditor-toolbar-tool-table-example-caption": "Pealkirja tekst",
 	"wikieditor-toolbar-tool-table-title": "Tabeli lisamine",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Ridu",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Veerge",

@@ -22,7 +22,8 @@
 			"Sophivorus",
 			"Translationista",
 			"Vivaelcelta",
-			"Yllelder"
+			"Yllelder",
+			"Rodney Araujo"
 		]
 	},
 	"wikieditor": "Interfaz avanzada de edición de wikitexto",
@@ -118,6 +119,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! cabecera 1\n! cabecera 2\n! cabecera 3\n|-\n| fila 1, celda 1\n| fila 1, celda 2\n| fila 1, celda 3\n|-\n| fila 2, celda 1\n| fila 2, celda 2\n| fila 2, celda 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Texto de celda",
 	"wikieditor-toolbar-tool-table-example-header": "Texto de cabecera",
+	"wikieditor-toolbar-tool-table-example-caption": "Texto de la leyenda",
 	"wikieditor-toolbar-tool-table-title": "Insertar una tabla",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Filas",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Columnas",
@@ -128,7 +130,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Previsualización",
 	"wikieditor-toolbar-tool-table-insert": "Insertar",
 	"wikieditor-toolbar-tool-table-cancel": "Cancelar",
-	"wikieditor-toolbar-tool-table-toomany": "No se puede insertar una tabla con más de $1 {{PLURAL:$1|celdas}} con este diálogo.",
+	"wikieditor-toolbar-tool-table-toomany": "No se puede insertar una tabla con más de $1 {{PLURAL:$1|celda|celdas}} con este diálogo.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "No se ha introducido un número válido de filas o columnas.",
 	"wikieditor-toolbar-tool-table-zero": "No se puede insertar una tabla con cero filas o columnas.",
 	"wikieditor-toolbar-tool-replace": "Buscar y reemplazar",

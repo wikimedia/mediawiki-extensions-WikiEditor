@@ -127,6 +127,7 @@
 	"wikieditor-toolbar-tool-replace-success": "Aizvietots $1 {{PLURAL:$1|vietās|vietā|vietās}}.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "Nav norādīta meklējamā simbolu virkne.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "Šī ievadītā regulārā izteiksme nav korekta: $1",
+	"wikieditor-toolbar-tool-replace-word": "Atbilst visam vārdam",
 	"wikieditor-toolbar-section-characters": "Īpašie simboli",
 	"wikieditor-toolbar-section-help": "Palīdzība",
 	"wikieditor-toolbar-help-heading-description": "Paskaidrojums",
