@@ -19,6 +19,7 @@
 			"Tmv",
 			"Whym",
 			"おはぐろ蜻蛉",
+			"ひまり",
 			"青子守歌"
 		]
 	},
@@ -66,6 +67,8 @@
 	"wikieditor-toolbar-tool-file-title": "ファイルの挿入",
 	"wikieditor-toolbar-file-target": "ファイル名:",
 	"wikieditor-toolbar-file-caption": "キャプション:",
+	"wikieditor-toolbar-file-alt": "代替テキスト:",
+	"wikieditor-toolbar-file-alt-help-label": "(ヘルプを表示)",
 	"wikieditor-toolbar-file-size": "サイズ:",
 	"wikieditor-toolbar-file-float": "配置:",
 	"wikieditor-toolbar-file-default": "(既定)",
@@ -114,6 +117,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! 見出し 1\n! 見出し 2\n! 見出し 3\n|-\n| 行 1、セル 1\n| 行 1、セル 2\n| 行 1、セル 3\n|-\n| 行 2、セル 1\n| 行 2、セル 2\n| 行 2、セル 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "セル内のテキスト",
 	"wikieditor-toolbar-tool-table-example-header": "見出しテキスト",
+	"wikieditor-toolbar-tool-table-example-caption": "キャプション文",
 	"wikieditor-toolbar-tool-table-title": "表を挿入",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "行数",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "列数",
@@ -206,5 +210,6 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:利用者名'>利用者名</a> (<a href='#' title='$2:利用者名'>トーク</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "インデント",
 	"wikieditor-toolbar-help-content-indent-syntax": "通常の文章<br />:インデントされた文章<br />::インデントされた文章",
-	"wikieditor-toolbar-help-content-indent-result": "通常の文章<dl><dd>インデントされた文章<dl><dd>インデントされた文章</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "通常の文章<dl><dd>インデントされた文章<dl><dd>インデントされた文章</dd></dl></dd></dl>",
+	"tag-wikieditor-description": "[[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (2010年版ウィキテキストエディター)を使用した編集"
 }
