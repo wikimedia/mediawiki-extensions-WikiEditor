@@ -19,7 +19,8 @@
 			"おはぐろ蜻蛉",
 			"青子守歌",
 			"RYOUMA1117",
-			"Tmv"
+			"Tmv",
+			"ひまり"
 		]
 	},
 	"wikieditor": "高度なウィキテキスト編集インターフェイス",
@@ -115,6 +116,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! 見出し 1\n! 見出し 2\n! 見出し 3\n|-\n| 行 1、セル 1\n| 行 1、セル 2\n| 行 1、セル 3\n|-\n| 行 2、セル 1\n| 行 2、セル 2\n| 行 2、セル 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "セル内のテキスト",
 	"wikieditor-toolbar-tool-table-example-header": "見出しテキスト",
+	"wikieditor-toolbar-tool-table-example-caption": "キャプション文",
 	"wikieditor-toolbar-tool-table-title": "表を挿入",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "行数",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "列数",
