@@ -211,6 +211,7 @@
 										buttons[ mw.msg( 'wikieditor-toolbar-tool-link-lookslikeinternal-int' ) ] =
 											function () {
 												insertLinkTitleInputField.getField().setValue( match[ 1 ] );
+												insertLinkLinkTypeField.setIsExternal( false );
 												$( this ).dialog( 'close' );
 												// Select the first match (i.e. the value set above) so that the
 												// message under the title field will be updated correctly.
