@@ -123,8 +123,7 @@
 							// eslint-disable-next-line no-jquery/no-sizzle
 							$( '.ui-dialog:visible .ui-dialog-buttonpane button' )
 								.first()
-								.prop( 'disabled', !enable )
-								.toggleClass( 'disabled', !enable );
+								.button( 'option', 'disabled', !enable );
 						};
 						// Automatically copy the value of the internal link page title field to the link text field unless the
 						// user has changed the link text field - this is a convenience thing since most link texts are going to
@@ -169,12 +168,6 @@
 								}
 
 								var target = insertLinkTitleInputField.getField().getValue();
-								if ( target === '' ) {
-									// eslint-disable-next-line no-alert
-									alert( mw.msg( 'wikieditor-toolbar-tool-link-empty' ) );
-									return;
-								}
-
 								var text = insertLinkLinkTextField.getField().getValue();
 								if ( text.trim() === '' ) {
 									// [[Foo| ]] creates an invisible link
