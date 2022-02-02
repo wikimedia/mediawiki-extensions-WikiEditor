@@ -83,8 +83,11 @@
 			data.user_class = 'IP';
 		}
 
-		if ( mw.user.options.get( 'discussiontools-abtest' ) ) {
-			data.bucket = mw.user.options.get( 'discussiontools-abtest' );
+		if ( mw.config.get( 'wgDiscussionToolsABTestBucket' ) ) {
+			data.bucket = mw.config.get( 'wgDiscussionToolsABTestBucket' );
+			if ( mw.config.get( 'wgDiscussionToolsAnonymousUserId' ) ) {
+				data.anonymous_user_id = mw.config.get( 'wgDiscussionToolsAnonymousUserId' );
+			}
 		}
 
 		// Schema's kind of a mess of special properties
@@ -119,10 +122,13 @@
 			integration: 'page',
 			editor_interface: 'wikitext'
 		};
-		/* eslint-enable camelcase */
-		if ( mw.user.options.get( 'discussiontools-abtest' ) ) {
-			data.bucket = mw.user.options.get( 'discussiontools-abtest' );
+		if ( mw.config.get( 'wgDiscussionToolsABTestBucket' ) ) {
+			data.bucket = mw.config.get( 'wgDiscussionToolsABTestBucket' );
+			if ( mw.config.get( 'wgDiscussionToolsAnonymousUserId' ) ) {
+				data.anonymous_user_id = mw.config.get( 'wgDiscussionToolsAnonymousUserId' );
+			}
 		}
+		/* eslint-enable camelcase */
 		return data;
 	} );
 
