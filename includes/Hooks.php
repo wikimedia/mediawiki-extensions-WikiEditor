@@ -145,8 +145,8 @@ class Hooks implements
 			'mw_version' => MW_VERSION,
 		] + $data;
 
-		if ( $this->userOptionsLookup->getOption( $user, 'discussiontools-abtest' ) ) {
-			$data['bucket'] = $this->userOptionsLookup->getOption( $user, 'discussiontools-abtest' );
+		if ( $this->userOptionsLookup->getOption( $user, 'discussiontools-abtest2' ) ) {
+			$data['bucket'] = $this->userOptionsLookup->getOption( $user, 'discussiontools-abtest2' );
 		}
 
 		if ( $user->isAnon() ) {
@@ -193,7 +193,7 @@ class Hooks implements
 			'user_editcount' => $editCount ?: 0,
 		];
 
-		$bucket = $this->userOptionsLookup->getOption( $user, 'discussiontools-abtest' );
+		$bucket = $this->userOptionsLookup->getOption( $user, 'discussiontools-abtest2' );
 		if ( $bucket ) {
 			$data['bucket'] = $bucket;
 		}
