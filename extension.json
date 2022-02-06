@@ -389,9 +389,8 @@
 		"wikieditor-toolbar-help-content-indent-syntax",
 		"wikieditor-toolbar-help-content-indent-result"
 	],
-	"AutoloadClasses": {
-		"MediaWiki\\Extension\\WikiEditor\\Hooks": "includes/Hooks.php",
-		"WikiEditorHooks": "includes/Hooks.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\WikiEditor\\": "includes/"
 	},
 	"manifest_version": 2
 }

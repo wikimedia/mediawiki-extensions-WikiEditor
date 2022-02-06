@@ -558,9 +558,3 @@ class Hooks implements
 		return true;
 	}
 }
-
-/**
- * Retain the old class name for backwards compatibility.
- * @deprecated since 1.38
- */
-class_alias( Hooks::class, 'WikiEditorHooks' );
