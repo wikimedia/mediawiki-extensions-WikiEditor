@@ -305,10 +305,8 @@
 									target = text = selection.trim();
 									if ( target.length < selection.length ) {
 										$( '#wikieditor-toolbar-link-dialog' ).data( 'whitespace', [
-											selection.substr( 0, selection.indexOf( target.charAt( 0 ) ) ),
-											selection.substr(
-												selection.lastIndexOf( target.charAt( target.length - 1 ) ) + 1
-											) ]
+											selection.slice( 0, selection.indexOf( target.charAt( 0 ) ) ),
+											selection.slice( selection.lastIndexOf( target.charAt( target.length - 1 ) ) + 1 ) ]
 										);
 									}
 								}
@@ -696,7 +694,7 @@
 									}
 									// Replace trailing space by newline
 									// table[table.length - 1] is read-only
-									table = table.substr( 0, table.length - 1 ) + '\n';
+									table = table.slice( 0, table.length - 1 ) + '\n';
 								}
 								var classes = [];
 								if ( $( '#wikieditor-toolbar-table-wikitable' ).is( ':checked' ) ) {
@@ -825,7 +823,7 @@
 								} else {
 									offset = $( this ).data( 'offset' );
 								}
-								textRemainder = text.substr( offset );
+								textRemainder = text.slice( offset );
 								match = textRemainder.match( regex );
 							}
 							if ( !match ) {
@@ -872,7 +870,7 @@
 
 									// Find the next instance
 									offset = offset + match.index + actualReplacement.length;
-									textRemainder = text.substr( offset );
+									textRemainder = text.slice( offset );
 									match = textRemainder.match( regex );
 
 									if ( match ) {

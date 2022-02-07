@@ -365,7 +365,7 @@
 						}
 						return $button;
 					case 'select':
-						var menuId = 'menu-' + ( new Date() ).getTime();
+						var menuId = 'menu-' + Date.now();
 						var $select = $( '<div>' )
 							.attr( { rel: id, class: 'tool tool-select' } );
 						var $options = $( '<div>' ).addClass( 'options' );

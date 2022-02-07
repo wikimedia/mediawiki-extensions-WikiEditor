@@ -195,12 +195,12 @@
 					var src = icon[ key ];
 
 					// Return a data URL immediately
-					if ( src.substr( 0, 5 ) === 'data:' ) {
+					if ( src.slice( 0, 5 ) === 'data:' ) {
 						return src;
 					}
 
 					// Prepend path if src is not absolute
-					if ( src.substr( 0, 7 ) !== 'http://' && src.substr( 0, 8 ) !== 'https://' && src[ 0 ] !== '/' ) {
+					if ( src.slice( 0, 7 ) !== 'http://' && src.slice( 0, 8 ) !== 'https://' && src[ 0 ] !== '/' ) {
 						src = path + src;
 					}
 					return src;

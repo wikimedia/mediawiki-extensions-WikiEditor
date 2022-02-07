@@ -13,7 +13,7 @@ function InsertLinkTitleOptionWidget( config ) {
 		config.icon = 'linkExternal';
 		config.description = mw.msg( 'wikieditor-toolbar-tool-link-int-target-status-external' );
 		// Lowercase the first character; it was uppercased by the API.
-		config.url = config.data.substr( 0, 1 ).toLowerCase() + config.data.substr( 1 );
+		config.url = config.data.slice( 0, 1 ).toLowerCase() + config.data.slice( 1 );
 		config.data = config.url;
 		// Prepend http:// if there is no protocol (i.e. if it starts with "www.").
 		// @TODO This is repeated when the link is inserted (in jquery.wikiEditor.dialogs.config.js).
