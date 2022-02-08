@@ -428,6 +428,16 @@
 						);
 						$select.append( $( '<div>' ).addClass( 'menu' ).append( $options ) );
 						return $select;
+					case 'element':
+						// A raw 'element' type can be {htmlString|Element|Text|Array|jQuery|OO.ui.HTMLSnippet}.
+						var $element = $( '<div>' )
+							.attr( { rel: id, class: 'tool tool-element' } );
+						if ( tool.element instanceof OO.ui.HtmlSnippet ) {
+							$element.append( tool.element.toString() );
+						} else {
+							$element.append( tool.element );
+						}
+						return $element;
 					default:
 						return null;
 				}
