@@ -120,10 +120,7 @@
 						 * @param {boolean} enable Whether to enable or disable the button
 						 */
 						var setButtonState = function ( enable ) {
-							// eslint-disable-next-line no-jquery/no-sizzle
-							$( '.ui-dialog:visible .ui-dialog-buttonpane button' )
-								.first()
-								.button( 'option', 'disabled', !enable );
+							$( '.wikieditor-toolbar-tool-link-insert' ).button( 'option', 'disabled', !enable );
 						};
 						// Automatically copy the value of the internal link page title field to the link text field unless the
 						// user has changed the link text field - this is a convenience thing since most link texts are going to
@@ -152,98 +149,107 @@
 						width: 500,
 						dialogClass: 'wikiEditor-toolbar-dialog',
 						buttons: {
-							'wikieditor-toolbar-tool-link-insert': function () {
-								var that = this;
+							'wikieditor-toolbar-tool-link-insert': {
+								class: 'wikieditor-toolbar-tool-link-insert',
+								text: mw.msg( 'wikieditor-toolbar-tool-link-insert' ),
+								click: function () {
+									var that = this;
 
-								function escapeInternalText( s ) {
-									return s.replace( /(\]{2,})/g, '<nowiki>$1</nowiki>' );
-								}
-								function escapeExternalTarget( s ) {
-									return s.replace( / /g, '%20' )
-										.replace( /\[/g, '%5B' )
-										.replace( /\]/g, '%5D' );
-								}
-								function escapeExternalText( s ) {
-									return s.replace( /(\]+)/g, '<nowiki>$1</nowiki>' );
-								}
-
-								var target = insertLinkTitleInputField.getField().getValue();
-								var text = insertLinkLinkTextField.getField().getValue();
-								if ( text.trim() === '' ) {
-									// [[Foo| ]] creates an invisible link
-									// Instead, generate [[Foo|]]
-									text = '';
-								}
-								var insertText = '';
-								if ( insertLinkLinkTypeField.isInternal() ) {
-									if ( target === text || !text.length ) {
-										insertText = '[[' + target + ']]';
-									} else {
-										insertText = '[[' + target + '|' + escapeInternalText( text ) + ']]';
+									function escapeInternalText( s ) {
+										return s.replace( /(\]{2,})/g, '<nowiki>$1</nowiki>' );
 									}
-								} else {
-									target = target.trim();
-									// Prepend http:// if there is no protocol
-									if ( !target.match( /^[a-z]+:\/\/./ ) ) {
-										target = 'http://' + target;
+									function escapeExternalTarget( s ) {
+										return s.replace( / /g, '%20' )
+											.replace( /\[/g, '%5B' )
+											.replace( /\]/g, '%5D' );
+									}
+									function escapeExternalText( s ) {
+										return s.replace( /(\]+)/g, '<nowiki>$1</nowiki>' );
 									}
 
-									// Detect if this is really an internal link in disguise
-									var match = target.match( $( this ).data( 'articlePathRegex' ) );
-									if ( match && !$( this ).data( 'ignoreLooksInternal' ) ) {
-										var buttons = {};
-										buttons[ mw.msg( 'wikieditor-toolbar-tool-link-lookslikeinternal-int' ) ] =
-											function () {
-												insertLinkTitleInputField.getField().setValue( match[ 1 ] );
-												insertLinkLinkTypeField.setIsExternal( false );
-												$( this ).dialog( 'close' );
-												// Select the first match (i.e. the value set above) so that the
-												// message under the title field will be updated correctly.
-												insertLinkTitleInputField.getField().selectFirstMatch();
-											};
-										buttons[ mw.msg( 'wikieditor-toolbar-tool-link-lookslikeinternal-ext' ) ] =
-											function () {
-												$( that ).data( 'ignoreLooksInternal', true );
-												$( that ).closest( '.ui-dialog' ).find( 'button' ).first().trigger( 'click' );
-												$( that ).data( 'ignoreLooksInternal', false );
-												$( this ).dialog( 'close' );
-											};
-										$.wikiEditor.modules.dialogs.quickDialog(
-											mw.msg( 'wikieditor-toolbar-tool-link-lookslikeinternal', match[ 1 ] ),
-											{ buttons: buttons }
-										);
+									// Make sure that this button isn't disabled.
+									if ( $( '.wikieditor-toolbar-tool-link-insert' ).button( 'option', 'disabled' ) ) {
 										return;
 									}
 
-									var escTarget = escapeExternalTarget( target );
-									var escText = escapeExternalText( text );
-
-									if ( escTarget === escText ) {
-										insertText = escTarget;
-									} else if ( text === '' ) {
-										insertText = '[' + escTarget + ']';
+									var target = insertLinkTitleInputField.getField().getValue();
+									var text = insertLinkLinkTextField.getField().getValue();
+									if ( text.trim() === '' ) {
+										// [[Foo| ]] creates an invisible link
+										// Instead, generate [[Foo|]]
+										text = '';
+									}
+									var insertText = '';
+									if ( insertLinkLinkTypeField.isInternal() ) {
+										if ( target === text || !text.length ) {
+											insertText = '[[' + target + ']]';
+										} else {
+											insertText = '[[' + target + '|' + escapeInternalText( text ) + ']]';
+										}
 									} else {
-										insertText = '[' + escTarget + ' ' + escText + ']';
-									}
-								}
+										target = target.trim();
+										// Prepend http:// if there is no protocol
+										if ( !target.match( /^[a-z]+:\/\/./ ) ) {
+											target = 'http://' + target;
+										}
 
-								var whitespace = $( '#wikieditor-toolbar-link-dialog' ).data( 'whitespace' );
-								// Preserve whitespace in selection when replacing
-								if ( whitespace ) {
-									insertText = whitespace[ 0 ] + insertText + whitespace[ 1 ];
-								}
-								$( this ).dialog( 'close' );
-								toolbarModule.fn.doAction( $( this ).data( 'context' ), {
-									type: 'replace',
-									options: {
-										pre: insertText
-									}
-								}, $( this ) );
+										// Detect if this is really an internal link in disguise
+										var match = target.match( $( this ).data( 'articlePathRegex' ) );
+										if ( match && !$( this ).data( 'ignoreLooksInternal' ) ) {
+											var buttons = {};
+											buttons[ mw.msg( 'wikieditor-toolbar-tool-link-lookslikeinternal-int' ) ] =
+												function () {
+													insertLinkTitleInputField.getField().setValue( match[ 1 ] );
+													insertLinkLinkTypeField.setIsExternal( false );
+													$( this ).dialog( 'close' );
+													// Select the first match (i.e. the value set above) so that the
+													// message under the title field will be updated correctly.
+													insertLinkTitleInputField.getField().selectFirstMatch();
+												};
+											buttons[ mw.msg( 'wikieditor-toolbar-tool-link-lookslikeinternal-ext' ) ] =
+												function () {
+													$( that ).data( 'ignoreLooksInternal', true );
+													$( that ).closest( '.ui-dialog' ).find( 'button' ).first().trigger( 'click' );
+													$( that ).data( 'ignoreLooksInternal', false );
+													$( this ).dialog( 'close' );
+												};
+											$.wikiEditor.modules.dialogs.quickDialog(
+												mw.msg( 'wikieditor-toolbar-tool-link-lookslikeinternal', match[ 1 ] ),
+												{ buttons: buttons }
+											);
+											return;
+										}
 
-								// Blank form
-								insertLinkTitleInputField.reset();
-								insertLinkLinkTextField.getField().setValue( '' );
-								insertLinkLinkTypeField.getField().selectItem( null );
+										var escTarget = escapeExternalTarget( target );
+										var escText = escapeExternalText( text );
+
+										if ( escTarget === escText ) {
+											insertText = escTarget;
+										} else if ( text === '' ) {
+											insertText = '[' + escTarget + ']';
+										} else {
+											insertText = '[' + escTarget + ' ' + escText + ']';
+										}
+									}
+
+									var whitespace = $( '#wikieditor-toolbar-link-dialog' ).data( 'whitespace' );
+									// Preserve whitespace in selection when replacing
+									if ( whitespace ) {
+										insertText = whitespace[ 0 ] + insertText + whitespace[ 1 ];
+									}
+									$( this ).dialog( 'close' );
+									toolbarModule.fn.doAction( $( this ).data( 'context' ), {
+										type: 'replace',
+										options: {
+											pre: insertText
+										}
+									}, $( this ) );
+
+									// Blank form
+									insertLinkTitleInputField.reset();
+									insertLinkLinkTextField.getField().setValue( '' );
+									insertLinkLinkTypeField.getField().selectItem( null );
+								}
 							},
 							'wikieditor-toolbar-tool-link-cancel': function () {
 								$( this ).dialog( 'close' );
