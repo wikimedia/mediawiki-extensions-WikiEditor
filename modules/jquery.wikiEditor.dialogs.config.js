@@ -176,15 +176,6 @@
 								}
 								var insertText = '';
 								if ( insertLinkLinkTypeField.isInternal() ) {
-									// FIXME: Exactly how fragile is this?
-									// eslint-disable-next-line no-jquery/no-sizzle
-									if ( $( '#wikieditor-toolbar-link-int-target-status-invalid' ).is( ':visible' ) ) {
-										// Refuse to add links to invalid titles
-										// eslint-disable-next-line no-alert
-										alert( mw.msg( 'wikieditor-toolbar-tool-link-int-invalid' ) );
-										return;
-									}
-
 									if ( target === text || !text.length ) {
 										insertText = '[[' + target + ']]';
 									} else {
