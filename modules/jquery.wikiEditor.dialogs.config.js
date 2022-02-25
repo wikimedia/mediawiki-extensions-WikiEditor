@@ -139,8 +139,8 @@
 						insertLinkLinkTypeField.connect( this, {
 							change: function ( isExternal ) {
 								var urlMode = isExternal ?
-									insertLinkLinkTypeField.constructor.static.LINK_MODE_EXTERNAL :
-									insertLinkLinkTypeField.constructor.static.LINK_MODE_INTERNAL;
+									LinkTypeField.static.LINK_MODE_EXTERNAL :
+									LinkTypeField.static.LINK_MODE_INTERNAL;
 								insertLinkTitleInputField.setUrlMode( urlMode );
 							}
 						} );
@@ -200,7 +200,7 @@
 											buttons[ mw.msg( 'wikieditor-toolbar-tool-link-lookslikeinternal-int' ) ] =
 												function () {
 													insertLinkTitleInputField.getField().setValue( match[ 1 ] );
-													insertLinkLinkTypeField.setIsExternal( false );
+													insertLinkTitleInputField.setUrlMode( LinkTypeField.static.LINK_MODE_INTERNAL );
 													$( this ).dialog( 'close' );
 													// Select the first match (i.e. the value set above) so that the
 													// message under the title field will be updated correctly.
@@ -308,13 +308,16 @@
 								if ( typeof text !== 'undefined' ) {
 									insertLinkLinkTextField.getField().setValue( text );
 								}
+								// Don't overwrite values from user's selection.
+								insertLinkLinkTextField.setTouched( true );
+
 								if ( typeof isExternal !== 'undefined' ) {
-									insertLinkLinkTypeField.setIsExternal( isExternal );
+									var urlMode = isExternal ?
+										LinkTypeField.static.LINK_MODE_EXTERNAL :
+										LinkTypeField.static.LINK_MODE_INTERNAL;
+									insertLinkTitleInputField.setUrlMode( urlMode );
 								}
 							}
-
-							// Don't overwrite user's selection.
-							insertLinkLinkTextField.setTouched( selection !== '' );
 
 							if ( !$( this ).data( 'dialogkeypressset' ) ) {
 								$( this ).data( 'dialogkeypressset', true );
