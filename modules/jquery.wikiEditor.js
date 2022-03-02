@@ -462,22 +462,11 @@
 			 * as a response to the "resize" event.
 			 */
 
-			// Assemble a temporary div to place over the wikiEditor while it's being constructed
-			/* Disabling our loading div for now
-			var $loader = $( '<div>' )
-				.addClass( 'wikiEditor-ui-loading' )
-				.append( $( '<span>' + mw.msg( 'wikieditor-loading' ) + '</span>' )
-					.css( 'marginTop', context.$textarea.height() / 2 ) );
-			*/
 			/* Preserving cursor and focus state, which will get lost due to wrapAll */
 			var hasFocus = context.$textarea.is( ':focus' );
 			var cursorPos = context.$textarea.textSelection( 'getCaretPosition', { startAndEnd: true } );
 			// Encapsulate the textarea with some containers for layout
 			context.$textarea
-			/* Disabling our loading div for now
-				.after( $loader )
-				.add( $loader )
-			*/
 				.wrapAll( $( '<div>' ).addClass( 'wikiEditor-ui' ) )
 				.wrapAll( $( '<div>' ).addClass( 'wikiEditor-ui-view wikiEditor-ui-view-wikitext' ) )
 				.wrapAll( $( '<div>' ).addClass( 'wikiEditor-ui-left' ) )

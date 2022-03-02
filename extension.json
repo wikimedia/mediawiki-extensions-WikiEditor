@@ -89,8 +89,6 @@
 			},
 			"messages": [
 				"wikieditor-wikitext-tab",
-				"wikieditor-loading",
-				"wikieditor-toolbar-loading",
 				"wikieditor-toolbar-tool-bold",
 				"wikieditor-toolbar-tool-bold-example",
 				"wikieditor-toolbar-tool-italic",
