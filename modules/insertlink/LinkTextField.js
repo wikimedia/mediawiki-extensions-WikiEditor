@@ -15,7 +15,7 @@ function LinkTextField() {
 	var config = {
 		align: 'top',
 		label: mw.msg( 'wikieditor-toolbar-tool-link-int-text' ),
-		classes: [ 'ext-WikiEditor-InsertLink-LinkTextField' ]
+		classes: [ 'mw-wikiEditor-InsertLink-LinkTextField' ]
 	};
 	LinkTextField.super.call( this, input, config );
 

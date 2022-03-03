@@ -26,7 +26,7 @@ function LinkTypeField() {
 
 	var config = {
 		align: 'top',
-		classes: [ 'ext-WikiEditor-InsertLink-LinkTypeField' ]
+		classes: [ 'mw-wikiEditor-InsertLink-LinkTypeField' ]
 	};
 	LinkTypeField.super.call( this, radioSelect, config );
 }

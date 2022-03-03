@@ -28,7 +28,7 @@ function TitleInputField() {
 	var config = {
 		align: 'top',
 		label: mw.msg( 'wikieditor-toolbar-tool-link-int-target' ),
-		classes: [ 'ext-WikiEditor-InsertLink-TitleInputField' ]
+		classes: [ 'mw-wikiEditor-InsertLink-TitleInputField' ]
 	};
 	TitleInputField.super.call( this, input, config );
 }
@@ -113,7 +113,11 @@ TitleInputField.prototype.onChange = function ( value ) {
  */
 TitleInputField.prototype.validate = function ( value ) {
 	if ( this.urlMode === LinkTypeField.static.LINK_MODE_INTERNAL && value !== '' && !mw.Title.newFromText( value ) ) {
-		this.setMessage( 'error', mw.message( 'wikieditor-toolbar-tool-link-int-target-status-invalid' ).parse(), 'error' );
+		this.setMessage(
+			'error',
+			mw.message( 'wikieditor-toolbar-tool-link-int-target-status-invalid' ).parse(),
+			'error'
+		);
 		this.emit( 'invalid' );
 	} else {
 		// Remove message; it'll be re-added if required (after selection or blur).
@@ -129,13 +133,25 @@ TitleInputField.prototype.onSelect = function ( item ) {
 	if ( this.urlMode === LinkTypeField.static.LINK_MODE_EXTERNAL ||
 		( !this.urlModeManual && this.urlMode === LinkTypeField.static.LINK_MODE_INTERNAL && item.isExternal() )
 	) {
-		this.setMessage( 'linkExternal', mw.message( 'wikieditor-toolbar-tool-link-int-target-status-external' ).parse() );
+		this.setMessage(
+			'linkExternal',
+			mw.message( 'wikieditor-toolbar-tool-link-int-target-status-external' ).parse()
+		);
 	} else if ( item.isDisambiguation() ) {
-		this.setMessage( 'articleDisambiguation', mw.message( 'wikieditor-toolbar-tool-link-int-target-status-disambig' ).parse() );
+		this.setMessage(
+			'articleDisambiguation',
+			mw.message( 'wikieditor-toolbar-tool-link-int-target-status-disambig' ).parse()
+		);
 	} else if ( !item.isMissing() && !item.isExternal() ) {
-		this.setMessage( 'article', mw.message( 'wikieditor-toolbar-tool-link-int-target-status-exists' ).parse() );
+		this.setMessage(
+			'article',
+			mw.message( 'wikieditor-toolbar-tool-link-int-target-status-exists' ).parse()
+		);
 	} else {
-		this.setMessage( 'articleNotFound', mw.message( 'wikieditor-toolbar-tool-link-int-target-status-notexists' ).parse() );
+		this.setMessage(
+			'articleNotFound',
+			mw.message( 'wikieditor-toolbar-tool-link-int-target-status-notexists' ).parse()
+		);
 	}
 };
 
