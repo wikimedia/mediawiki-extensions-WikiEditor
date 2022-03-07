@@ -10,11 +10,9 @@
 		]
 	},
 	"wikieditor-wikitext-tab": "Վիքիտեքստ",
-	"wikieditor-loading": "Բեռնվում է…",
 	"wikieditor-toolbar": "Խմբագրման վահանակ",
 	"wikieditor-toolbar-desc": "Բարձրացրած հարմարավետությամբ խմբագրման վահանակ",
 	"wikieditor-toolbar-preference": "Ակտիվացնել բարելավված խմբագրման վահանակը",
-	"wikieditor-toolbar-loading": "Բեռնում…",
 	"wikieditor-toolbar-tool-bold": "Թավատառ",
 	"wikieditor-toolbar-tool-bold-example": "Թավատառ տեքստ",
 	"wikieditor-toolbar-tool-italic": "Շեղատառ",
