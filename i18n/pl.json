@@ -47,12 +47,12 @@
 	"wikieditor-toolbar-tool-link-ext-text": "Tekst",
 	"wikieditor-toolbar-tool-link-insert": "Wstaw link",
 	"wikieditor-toolbar-tool-link-cancel": "Zrezygnuj",
-	"wikieditor-toolbar-tool-link-int-target-status-exists": "Strona istnieje",
-	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Strona nie istnieje",
-	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Nieprawidłowy tytuł",
+	"wikieditor-toolbar-tool-link-int-target-status-exists": "Strona istnieje na {{GRAMMAR:MS.lp|{{SITENAME}}}}",
+	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Strona nie istnieje na {{GRAMMAR:MS.lp|{{SITENAME}}}}",
+	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Podany tytuł jest nieprawidłowy",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Link zewnętrzny",
 	"wikieditor-toolbar-tool-link-int-target-status-loading": "Sprawdzanie, czy strona istnieje…",
-	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Strona ujednoznaczniająca",
+	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Strona nie zawiera treści, a jedynie listę tematów o podobnych nazwach",
 	"wikieditor-toolbar-tool-link-int-invalid": "Wprowadzony tytuł jest nieprawidłowy.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "Podany URL wygląda jak link do innej strony wiki. Czy chcesz, aby był to link wewnętrzny?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Link wewnętrzny",
@@ -206,5 +206,7 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Nazwa użytkownika</a> (<a href='#' title='$2:Username'>dyskusja</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Wcięcie",
 	"wikieditor-toolbar-help-content-indent-syntax": "Zwykły tekst<br />:Tekst wcięty<br />::Tekst wcięty",
-	"wikieditor-toolbar-help-content-indent-result": "Zwykły tekst<dl><dd>Tekst wcięty<dl><dd>Tekst wcięty</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "Zwykły tekst<dl><dd>Tekst wcięty<dl><dd>Tekst wcięty</dd></dl></dd></dl>",
+	"tag-wikieditor-description": "Edycja wykonana przy użyciu [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditora]] (edytora wikitekstu 2010)",
+	"wikieditor-realtimepreview-preview": "Podgląd"
 }
