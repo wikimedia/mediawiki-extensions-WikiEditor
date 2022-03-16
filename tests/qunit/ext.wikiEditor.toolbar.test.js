@@ -1,10 +1,10 @@
 ( function () {
 	QUnit.module( 'ext.wikiEditor.toolbar', QUnit.newMwEnvironment( {
 		setup: function () {
-			var $fixture = $( '#qunit-fixture' ),
-				$target = $( '<textarea>' ).attr( 'id', 'wpTextBox1' );
+			var $target = $( '<textarea>' )
+				.attr( 'id', 'wpTextBox1' )
+				.appendTo( '#qunit-fixture' );
 			this.$target = $target;
-			$fixture.append( $target );
 			$target.wikiEditor( 'addModule', 'toolbar' );
 			this.$ui = $target.data( 'wikiEditor-context' ).$ui;
 		}
