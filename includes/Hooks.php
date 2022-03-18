@@ -356,7 +356,8 @@ class Hooks implements
 		return [
 			// expose magic words for use by the wikieditor toolbar
 			'magicWords' => self::getMagicWords(),
-			'signature' => self::getSignatureMessage( $context )
+			'signature' => self::getSignatureMessage( $context ),
+			'realtimeDebounce' => $config->get( 'WikiEditorRealtimePreviewDebounce' ),
 		];
 	}
 
