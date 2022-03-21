@@ -153,6 +153,7 @@ RealtimePreview.prototype.doRealtimePreview = function () {
 		loadingSelectors: loadingSelectors
 	} ).fail( function ( code, result ) {
 		this.showError( ( new mw.Api() ).getErrorMessage( result ) );
+		mw.log.error( 'WikiEditor realtime preview error', result );
 	}.bind( this ) ).always( function () {
 		this.twoPaneLayout.getPane2().removeClass( 'ext-WikiEditor-twopanes-loading' );
 		this.isPreviewing = false;
