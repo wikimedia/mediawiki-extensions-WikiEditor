@@ -254,6 +254,10 @@
 	} );
 
 	mw.addWikiEditor = function ( $textarea ) {
+		if ( $textarea.css( 'display' ) === 'none' ) {
+			return;
+		}
+
 		$textarea.wikiEditor(
 			'addModule', require( './jquery.wikiEditor.toolbar.config.js' )
 		);
