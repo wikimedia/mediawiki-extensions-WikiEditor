@@ -199,5 +199,6 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>ব্যবহারকারী নাম</a> (<a href='#' title='$2:Username'>আলাপ</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "প্রান্তিককরণ",
 	"wikieditor-toolbar-help-content-indent-syntax": "সাধারণ লেখ<br />:প্রান্তিককৃত লেখ<br />::প্রান্তিককৃত লেখ",
-	"wikieditor-toolbar-help-content-indent-result": "সাধারণ লেখ<dl><dd>প্রান্তিককৃত লেখ<dl><dd>প্রান্তিককৃত লেখ</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "সাধারণ লেখ<dl><dd>প্রান্তিককৃত লেখ<dl><dd>প্রান্তিককৃত লেখ</dd></dl></dd></dl>",
+	"wikieditor-realtimepreview-preview": "প্রাকদর্শন"
 }

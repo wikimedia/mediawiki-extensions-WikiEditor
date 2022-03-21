@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"DCLXVI",
+			"Kareyac",
 			"Macofe",
 			"McDutchie",
 			"ShockD",
@@ -200,5 +201,6 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Потребителско име</a> (<a href='#' title='$2:Username'>беседа</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Отстъп",
 	"wikieditor-toolbar-help-content-indent-syntax": "Текст без отстъп<br />:Текст с единичен отстъп<br />::Текст с двоен отстъп",
-	"wikieditor-toolbar-help-content-indent-result": "Текст без отстъп<dl><dd>Текст с единичен отстъп<dl><dd>Текст с двоен отстъп</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "Текст без отстъп<dl><dd>Текст с единичен отстъп<dl><dd>Текст с двоен отстъп</dd></dl></dd></dl>",
+	"wikieditor-realtimepreview-preview": "Предварителен преглед"
 }
