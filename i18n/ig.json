@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Edith Nwobu",
 			"Izuchi Onyeike",
 			"Ukabia"
 		]
@@ -61,5 +62,5 @@
 	"wikieditor-toolbar-help-content-heading5-result": "<h5>Íshí edemede</h5>",
 	"wikieditor-toolbar-help-content-signature-description": "Áhà gi",
 	"wikieditor-toolbar-help-content-indent-description": "Tụ atụ",
-	"wikieditor-realtimepreview-preview": "Nhụchalụ"
+	"wikieditor-realtimepreview-preview": "Ngosi etu ọ ga-adị"
 }
