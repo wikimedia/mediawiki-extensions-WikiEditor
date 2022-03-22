@@ -19,6 +19,9 @@ function RealtimePreview() {
 		.addClass( 'error' );
 	this.twoPaneLayout.getPane2().append( this.$previewNode, this.$errorNode );
 	this.eventNames = 'change.realtimepreview input.realtimepreview cut.realtimepreview paste.realtimepreview';
+	// Used to ensure we wait for a response before making new requests.
+	this.isPreviewing = false;
+	this.previewPending = false;
 }
 
 /**
@@ -54,7 +57,6 @@ RealtimePreview.prototype.getToolbarButton = function ( context ) {
  * Toggle the two-pane preview display.
  *
  * @private
- * @param {Object} context The WikiEditor context object.
  */
 RealtimePreview.prototype.toggle = function () {
 	var $uiText = this.context.$ui.find( '.wikiEditor-ui-text' );
@@ -114,10 +116,19 @@ RealtimePreview.prototype.addPreviewListener = function ( $editor ) {
  * @private
  */
 RealtimePreview.prototype.doRealtimePreview = function () {
+	// Wait for a response before making any new requests.
+	if ( this.isPreviewing ) {
+		// Queue up one final preview once this one finishes.
+		this.previewPending = true;
+		return;
+	}
+
+	this.isPreviewing = true;
 	this.twoPaneLayout.getPane2().addClass( 'ext-WikiEditor-twopanes-loading' );
 	var loadingSelectors = this.pagePreview.getLoadingSelectors();
 	loadingSelectors.push( '.ext-WikiEditor-realtimepreview-preview' );
 	this.$errorNode.empty();
+
 	this.pagePreview.doPreview( {
 		$previewNode: this.$previewNode,
 		$spinnerNode: false,
@@ -128,6 +139,12 @@ RealtimePreview.prototype.doRealtimePreview = function () {
 		this.$errorNode.append( $errorMsg );
 	}.bind( this ) ).always( function () {
 		this.twoPaneLayout.getPane2().removeClass( 'ext-WikiEditor-twopanes-loading' );
+		this.isPreviewing = false;
+
+		if ( this.previewPending ) {
+			this.previewPending = false;
+			this.doRealtimePreview();
+		}
 	}.bind( this ) );
 };
 
