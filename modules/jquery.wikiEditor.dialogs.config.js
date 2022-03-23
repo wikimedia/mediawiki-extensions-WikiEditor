@@ -247,9 +247,8 @@
 
 									// Blank form
 									insertLinkTitleInputField.reset();
-									insertLinkLinkTextField.getField()
-										.setValue( '' )
-										.selectItem( null );
+									insertLinkLinkTextField.getField().setValue( '' );
+									insertLinkLinkTypeField.getField().selectItem( null );
 								}
 							},
 							'wikieditor-toolbar-tool-link-cancel': function () {
