@@ -1,5 +1,6 @@
 var ResizingDragBar = require( './ResizingDragBar.js' );
 var TwoPaneLayout = require( './TwoPaneLayout.js' );
+var ErrorLayout = require( './ErrorLayout.js' );
 
 /**
  * @class
@@ -15,9 +16,11 @@ function RealtimePreview() {
 	this.$previewNode = $( '<div>' )
 		.addClass( 'ext-WikiEditor-realtimepreview-preview' )
 		.append( $previewContent );
-	this.$errorNode = $( '<div>' )
-		.addClass( 'error' );
-	this.twoPaneLayout.getPane2().append( this.$previewNode, this.$errorNode );
+	this.errorLayout = new ErrorLayout();
+	this.errorLayout.getReloadButton().connect( this, {
+		click: this.doRealtimePreview.bind( this )
+	} );
+	this.twoPaneLayout.getPane2().append( this.$previewNode, this.errorLayout.$element );
 	this.eventNames = 'change.realtimepreview input.realtimepreview cut.realtimepreview paste.realtimepreview';
 	// Used to ensure we wait for a response before making new requests.
 	this.isPreviewing = false;
@@ -114,6 +117,18 @@ RealtimePreview.prototype.addPreviewListener = function ( $editor ) {
 
 /**
  * @private
+ * @param {jQuery} $msg
+ */
+RealtimePreview.prototype.showError = function ( $msg ) {
+	this.$previewNode.hide();
+	// There is no need for a default message because mw.Api.getErrorMessage() will
+	// always provide something (even for no network connection, server-side fatal errors, etc.).
+	this.errorLayout.setMessage( $msg );
+	this.errorLayout.toggle( true );
+};
+
+/**
+ * @private
  */
 RealtimePreview.prototype.doRealtimePreview = function () {
 	// Wait for a response before making any new requests.
@@ -127,16 +142,13 @@ RealtimePreview.prototype.doRealtimePreview = function () {
 	this.twoPaneLayout.getPane2().addClass( 'ext-WikiEditor-twopanes-loading' );
 	var loadingSelectors = this.pagePreview.getLoadingSelectors();
 	loadingSelectors.push( '.ext-WikiEditor-realtimepreview-preview' );
-	this.$errorNode.empty();
-
+	this.errorLayout.toggle( false );
 	this.pagePreview.doPreview( {
 		$previewNode: this.$previewNode,
 		$spinnerNode: false,
 		loadingSelectors: loadingSelectors
 	} ).fail( function ( code, result ) {
-		var $errorMsg = ( new mw.Api() ).getErrorMessage( result );
-		this.$previewNode.hide();
-		this.$errorNode.append( $errorMsg );
+		this.showError( ( new mw.Api() ).getErrorMessage( result ) );
 	}.bind( this ) ).always( function () {
 		this.twoPaneLayout.getPane2().removeClass( 'ext-WikiEditor-twopanes-loading' );
 		this.isPreviewing = false;

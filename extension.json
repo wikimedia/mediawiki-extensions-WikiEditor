@@ -301,24 +301,39 @@
 			"group": "ext.wikiEditor",
 			"styles": "ext.wikiEditor.toolbar.styles.less"
 		},
+		"ext.wikiEditor.images": {
+			"class": "ResourceLoaderImageModule",
+			"selector": ".ext-WikiEditor-image-{name}",
+			"images": {
+				"realtimepreview-error": {
+					"file": "realtimepreview/error.svg"
+				}
+			}
+		},
 		"ext.wikiEditor.realtimepreview": {
 			"dependencies": [
 				"ext.wikiEditor",
-				"mediawiki.page.preview"
+				"mediawiki.page.preview",
+				"ext.wikiEditor.images",
+				"oojs-ui.styles.icons-interactions"
 			],
 			"messages": [
-				"wikieditor-realtimepreview-preview"
+				"wikieditor-realtimepreview-preview",
+				"wikieditor-realtimepreview-error",
+				"wikieditor-realtimepreview-reload"
 			],
 			"packageFiles": [
 				"realtimepreview/init.js",
 				"realtimepreview/RealtimePreview.js",
 				"realtimepreview/ResizingDragBar.js",
-				"realtimepreview/TwoPaneLayout.js"
+				"realtimepreview/TwoPaneLayout.js",
+				"realtimepreview/ErrorLayout.js"
 			],
 			"styles": [
 				"realtimepreview/RealtimePreview.less",
 				"realtimepreview/ResizingDragBar.less",
-				"realtimepreview/TwoPaneLayout.less"
+				"realtimepreview/TwoPaneLayout.less",
+				"realtimepreview/ErrorLayout.less"
 			]
 		}
 	},
