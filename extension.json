@@ -413,6 +413,10 @@
 		"WikiEditorRealtimePreview": {
 			"description": "Whether to enable the Realtime Preview feature.",
 			"value": false
+		},
+		"WikiEditorRealtimePreviewDebounce": {
+			"description": "Debounce time in milliseconds for the Realtime Preview feature.",
+			"value": 2500
 		}
 	},
 	"manifest_version": 2

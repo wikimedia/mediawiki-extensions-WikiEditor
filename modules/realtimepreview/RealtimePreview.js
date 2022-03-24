@@ -5,6 +5,7 @@ var TwoPaneLayout = require( './TwoPaneLayout.js' );
  * @class
  */
 function RealtimePreview() {
+	this.configData = mw.loader.moduleRegistry[ 'ext.wikiEditor' ].script.files[ 'data.json' ];
 	this.enabled = false;
 	this.twoPaneLayout = new TwoPaneLayout();
 	this.pagePreview = require( 'mediawiki.page.preview' );
@@ -109,7 +110,10 @@ RealtimePreview.prototype.addPreviewListener = function ( $editor ) {
 	// Also get preview on keyup, change, paste etc.
 	$editor
 		.off( this.eventNames )
-		.on( this.eventNames, mw.util.debounce( 2000, this.doRealtimePreview.bind( this ) ) );
+		.on( this.eventNames, mw.util.debounce(
+			this.doRealtimePreview.bind( this ),
+			this.configData.realtimeDebounce
+		) );
 };
 
 /**
