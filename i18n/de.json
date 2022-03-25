@@ -204,5 +204,7 @@
 	"wikieditor-toolbar-help-content-indent-syntax": "Normaler Text<br />:Eingerückter Text<br />::Eingerückter Text",
 	"wikieditor-toolbar-help-content-indent-result": "Normaler Text<dl><dd>Eingerückter Text<dl><dd>Eingerückter Text</dd></dl></dd></dl>",
 	"tag-wikieditor-description": "Bearbeitungen mit dem [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (2010 Wikitext-Editor)",
-	"wikieditor-realtimepreview-preview": "Vorschau"
+	"wikieditor-realtimepreview-preview": "Vorschau",
+	"wikieditor-realtimepreview-error": "Vorschau wird nicht geladen",
+	"wikieditor-realtimepreview-reload": "Neu laden"
 }
