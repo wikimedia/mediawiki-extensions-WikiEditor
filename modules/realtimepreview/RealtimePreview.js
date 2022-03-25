@@ -26,6 +26,8 @@ function RealtimePreview() {
 	// Used to ensure we wait for a response before making new requests.
 	this.isPreviewing = false;
 	this.previewPending = false;
+	// Used to average response times and automatically disable realtime preview if it's very slow.
+	this.responseTimes = [];
 }
 
 /**
@@ -133,6 +135,30 @@ RealtimePreview.prototype.showError = function ( $msg ) {
 
 /**
  * @private
+ * @param {number} time
+ */
+RealtimePreview.prototype.checkResponseTimes = function ( time ) {
+	this.responseTimes.push( Date.now() - time );
+	if ( this.responseTimes.length < 3 ) {
+		return;
+	}
+
+	var totalResponseTime = this.responseTimes.reduce( function ( a, b ) {
+		return a + b;
+	}, 0 );
+
+	if ( ( totalResponseTime / this.responseTimes.length ) > this.configData.realtimeDisableDuration ) {
+		// TODO: switch to the 'manual preview' workflow once designs/behaviour is finalized.
+		this.showError(
+			$( '<div>' ).text( '[PLACEHOLDER] Realtime preview is too slow' )
+		);
+	}
+
+	this.responseTimes.shift();
+};
+
+/**
+ * @private
  */
 RealtimePreview.prototype.doRealtimePreview = function () {
 	// Wait for a response before making any new requests.
@@ -147,6 +173,8 @@ RealtimePreview.prototype.doRealtimePreview = function () {
 	var loadingSelectors = this.pagePreview.getLoadingSelectors();
 	loadingSelectors.push( '.ext-WikiEditor-realtimepreview-preview' );
 	this.errorLayout.toggle( false );
+	var time = Date.now();
+
 	this.pagePreview.doPreview( {
 		$previewNode: this.$previewNode,
 		$spinnerNode: false,
@@ -157,6 +185,7 @@ RealtimePreview.prototype.doRealtimePreview = function () {
 	}.bind( this ) ).always( function () {
 		this.twoPaneLayout.getPane2().removeClass( 'ext-WikiEditor-twopanes-loading' );
 		this.isPreviewing = false;
+		this.checkResponseTimes( time );
 
 		if ( this.previewPending ) {
 			this.previewPending = false;
