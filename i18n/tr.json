@@ -206,5 +206,8 @@
 	"wikieditor-toolbar-help-content-indent-description": "Girinti",
 	"wikieditor-toolbar-help-content-indent-syntax": "Normal metin<br />:Girintili metin<br />::Girintili metin",
 	"wikieditor-toolbar-help-content-indent-result": "Normal metin<dl><dd>Girintili metin<dl><dd>Girintili metin</dd></dl></dd></dl>",
-	"tag-wikieditor-description": "[[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] kullanılarak yapılan düzenleme (2010 vikimetin düzenleyici)"
+	"tag-wikieditor-description": "[[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] kullanılarak yapılan düzenleme (2010 vikimetin düzenleyici)",
+	"wikieditor-realtimepreview-preview": "Önizleme",
+	"wikieditor-realtimepreview-error": "Önizleme yüklenemiyor",
+	"wikieditor-realtimepreview-reload": "Yeniden yükle"
 }

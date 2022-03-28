@@ -7,6 +7,7 @@
 			"Gaoxuewei",
 			"GuoPC",
 			"Hydra",
+			"Lantx",
 			"Liangent",
 			"Liuxinyu970226",
 			"Onecountry",
@@ -209,5 +210,6 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>用户名</a>（<a href='#' title='$2:Username'>讨论</a>）",
 	"wikieditor-toolbar-help-content-indent-description": "缩进",
 	"wikieditor-toolbar-help-content-indent-syntax": "标准文本<br />:缩进文本<br />::缩进文本",
-	"wikieditor-toolbar-help-content-indent-result": "标准文本<dl><dd>缩进文本<dl><dd>缩进文本</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "标准文本<dl><dd>缩进文本<dl><dd>缩进文本</dd></dl></dd></dl>",
+	"wikieditor-realtimepreview-reload": "重新加载"
 }

@@ -195,5 +195,7 @@
 	"wikieditor-toolbar-help-content-indent-syntax": "Normale tekst<br />:Ynsprongen tekst<br />::Ynsprongen tekst",
 	"wikieditor-toolbar-help-content-indent-result": "Normale tekst<dl><dd>Ynsprongen tekst<dl><dd>Ynsprongen tekst</dd></dl></dd></dl>",
 	"tag-wikieditor-description": "Bewurking dien mei de [[mw:Special:MyLanguage/Extension:WikiEditor|WikiBewurker]] (wikitekstbewurker 2010)",
-	"wikieditor-realtimepreview-preview": "Proefbyld"
+	"wikieditor-realtimepreview-preview": "Proefbyld",
+	"wikieditor-realtimepreview-error": "Proefbyld laadt net",
+	"wikieditor-realtimepreview-reload": "Werlade"
 }

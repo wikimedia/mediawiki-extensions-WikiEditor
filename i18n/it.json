@@ -204,5 +204,6 @@
 	"wikieditor-toolbar-help-content-indent-description": "Indentazione",
 	"wikieditor-toolbar-help-content-indent-syntax": "Testo normale<br />:Testo indentato<br />::Testo indentato",
 	"wikieditor-toolbar-help-content-indent-result": "Testo normale<dl><dd>Testo indentato<dl><dd>Testo indentato</dd></dl></dd></dl>",
-	"wikieditor-realtimepreview-preview": "Anteprima"
+	"wikieditor-realtimepreview-preview": "Anteprima",
+	"wikieditor-realtimepreview-reload": "Ricarica"
 }

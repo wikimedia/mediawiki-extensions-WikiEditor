@@ -203,5 +203,7 @@
 	"wikieditor-toolbar-help-content-indent-syntax": "보통 글<br />:들여쓰기된 글<br />::들여쓰기된 글",
 	"wikieditor-toolbar-help-content-indent-result": "보통 글<dl><dd>들여쓰기된 글<dl><dd>들여쓰기된 글</dd></dl></dd></dl>",
 	"tag-wikieditor-description": "[[mw:Special:MyLanguage/Extension:WikiEditor|위키편집기]]를 사용한 편집 (2010년 위키텍스트 편집기)",
-	"wikieditor-realtimepreview-preview": "미리 보기"
+	"wikieditor-realtimepreview-preview": "미리 보기",
+	"wikieditor-realtimepreview-error": "미리 보기가 로드되지 않음",
+	"wikieditor-realtimepreview-reload": "다시 불러오기"
 }

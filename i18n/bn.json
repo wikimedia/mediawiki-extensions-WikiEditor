@@ -9,6 +9,7 @@
 			"Macofe",
 			"Nasir8891",
 			"Wikitanvir",
+			"Yahya",
 			"আফতাবুজ্জামান"
 		]
 	},
@@ -200,5 +201,7 @@
 	"wikieditor-toolbar-help-content-indent-description": "প্রান্তিককরণ",
 	"wikieditor-toolbar-help-content-indent-syntax": "সাধারণ লেখ<br />:প্রান্তিককৃত লেখ<br />::প্রান্তিককৃত লেখ",
 	"wikieditor-toolbar-help-content-indent-result": "সাধারণ লেখ<dl><dd>প্রান্তিককৃত লেখ<dl><dd>প্রান্তিককৃত লেখ</dd></dl></dd></dl>",
-	"wikieditor-realtimepreview-preview": "প্রাকদর্শন"
+	"wikieditor-realtimepreview-preview": "প্রাকদর্শন",
+	"wikieditor-realtimepreview-error": "প্রাকদর্শন লোড হচ্ছে না",
+	"wikieditor-realtimepreview-reload": "পুনঃলোড"
 }

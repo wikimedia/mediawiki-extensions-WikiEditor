@@ -196,5 +196,7 @@
 	"wikieditor-toolbar-help-content-indent-syntax": "Нормален текст<br />:Вовлечен текст<br />::Вовлечен текст",
 	"wikieditor-toolbar-help-content-indent-result": "Нормален текст<dl><dd>Вовлечен текст<dl><dd>Вовлечен текст</dd></dl></dd></dl>",
 	"tag-wikieditor-description": "Уредувањето е направено користејќи [[mw:Special:MyLanguage/Extension:WikiEditor|Викиуредник]] (уредникот на вики текст од 2010 г.)",
-	"wikieditor-realtimepreview-preview": "Преглед"
+	"wikieditor-realtimepreview-preview": "Преглед",
+	"wikieditor-realtimepreview-error": "Прегледот не се вчитува",
+	"wikieditor-realtimepreview-reload": "Превчитај"
 }
