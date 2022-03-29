@@ -19,6 +19,8 @@ function ResizingDragBar( config ) {
 	this.$element.addClass( classNameDir );
 
 	var resizingDragBar = this;
+	// Determine the horizontal direction to move (flexbox automatically reverses but the offset direction doesn't).
+	var rtlFactor = config.isEW && OO.ui.Element.static.getDir( document ) === 'rtl' ? -1 : 1;
 	this.$element.on( 'mousedown', function ( eventMousedown ) {
 		if ( eventMousedown.button !== ResizingDragBar.static.MAIN_MOUSE_BUTTON ) {
 			// If not the main mouse (e.g. left) button, ignore.
@@ -37,7 +39,7 @@ function ResizingDragBar( config ) {
 			// Current position of the mouse (relative to page, not viewport).
 			var newOffset = eventMousemove[ xOrY ];
 			// Distance the mouse has moved.
-			var change = lastOffset - newOffset;
+			var change = rtlFactor * ( lastOffset - newOffset );
 			// Set the new size of the pane, and tell others about it.
 			var newSize = Math.max( startSize - change, ResizingDragBar.static.MIN_PANE_SIZE );
 			resizingDragBar.getResizedPane().css( widthOrHeight, newSize );
