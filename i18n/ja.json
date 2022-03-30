@@ -19,6 +19,7 @@
 			"Sujiniku",
 			"Tmv",
 			"Whym",
+			"Yamagata Yusuke",
 			"おはぐろ蜻蛉",
 			"ひまり",
 			"青子守歌"
@@ -56,7 +57,7 @@
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "指定したページ名は無効です。",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "外部リンク",
 	"wikieditor-toolbar-tool-link-int-target-status-loading": "ページの存在を確認中...",
-	"wikieditor-toolbar-tool-link-int-target-status-disambig": "曖昧さ回避ページ",
+	"wikieditor-toolbar-tool-link-int-target-status-disambig": "このページは内容のあるページではありませんが、似た名前の題目の一覧です。",
 	"wikieditor-toolbar-tool-link-int-invalid": "指定したページ名は無効です。",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "指定した URL は別のウィキページへのリンクのようです。\nこれを内部リンクにしますか?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "内部リンク",
