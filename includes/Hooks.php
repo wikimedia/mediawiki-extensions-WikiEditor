@@ -370,7 +370,9 @@ class Hooks implements
 	public static function getModuleDataSummary( ResourceLoaderContext $context, Config $config ) {
 		return [
 			'magicWords' => self::getMagicWords(),
-			'signature' => self::getSignatureMessage( $context, true )
+			'signature' => self::getSignatureMessage( $context, true ),
+			'realtimeDebounce' => $config->get( 'WikiEditorRealtimePreviewDebounce' ),
+			'realtimeDisableDuration' => $config->get( 'WikiEditorRealtimeDisableDuration' ),
 		];
 	}
 
