@@ -358,6 +358,7 @@ class Hooks implements
 			'magicWords' => self::getMagicWords(),
 			'signature' => self::getSignatureMessage( $context ),
 			'realtimeDebounce' => $config->get( 'WikiEditorRealtimePreviewDebounce' ),
+			'realtimeDisableDuration' => $config->get( 'WikiEditorRealtimeDisableDuration' ),
 		];
 	}
 
