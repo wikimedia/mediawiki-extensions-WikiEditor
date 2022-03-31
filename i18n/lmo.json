@@ -191,5 +191,8 @@
 	"wikieditor-toolbar-help-content-indent-description": "Inseriment d'un spazzi voeud",
 	"wikieditor-toolbar-help-content-indent-syntax": "Test normal<br />:Test cont un spazzi denanz<br />::Test cont un alter spazzi denanz",
 	"wikieditor-toolbar-help-content-indent-result": "Test normal<dl><dd>Test cont un spazzi denanz<dl><dd>Testo cont un alter spazzi denanz</dd></dl></dd></dl>",
-	"tag-wikieditor-description": "Modifega fornida cont el drovà [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (2010 editor de wiki-test )"
+	"tag-wikieditor-description": "Modifega fornida cont el drovà [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (2010 editor de wiki-test )",
+	"wikieditor-realtimepreview-preview": "Anticipazzion",
+	"wikieditor-realtimepreview-error": "Anticipazzion minga caregada",
+	"wikieditor-realtimepreview-reload": "Carega de noeuv"
 }
