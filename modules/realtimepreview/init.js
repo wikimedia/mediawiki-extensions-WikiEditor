@@ -13,4 +13,7 @@ mw.hook( 'wikiEditor.toolbarReady' ).add( function ( $textarea ) {
 			}
 		}
 	} );
+	if ( realtimePreview.getUserPref() ) {
+		realtimePreview.enable();
+	}
 } );
