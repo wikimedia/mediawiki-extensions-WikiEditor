@@ -7,7 +7,8 @@
 			"Maksim L.",
 			"Mikalai Udodau",
 			"Yury Tarasievich",
-			"ZlyiLev"
+			"ZlyiLev",
+			"Tomato Cream"
 		]
 	},
 	"wikieditor": "Палепшаны інтэрфейс праўкі вікітэкста",
@@ -53,6 +54,7 @@
 	"wikieditor-toolbar-file-target": "Назва файла:",
 	"wikieditor-toolbar-file-caption": "Подпіс:",
 	"wikieditor-toolbar-file-alt": "Альтэрнатыўны тэкст:",
+	"wikieditor-toolbar-file-alt-help": "Вы можаце выкарыстоўваць гэта неабавязковае поле, каб напісаць тэкставае апісанне для людзей, якія не могуць бачыць гэты файл.\nАпісанне мусіць быць дастатковым, каб яны зразумелі прызначэнне і інфармацыю, перададзеныя медыя-элементам. Гэта неабходна сляпым і іншым людзям, якія карыстаюцца экраннымі чытачамі альбо тэкставымі браўзерамі.",
 	"wikieditor-toolbar-file-alt-help-label": "(Паказаць дапамогу)",
 	"wikieditor-toolbar-file-size": "Аб’ём:",
 	"wikieditor-toolbar-file-float": "Выраўноўванне:",
@@ -102,6 +104,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n ! загаловак 1\n ! загаловак 2\n ! загаловак 3\n | -\n | радок 1, ячэйка 1\n | радок 1, ячэйка 2\n | радок 1, ячэйка 3\n | -\n | радок 2, ячэйка 1\n | радок 2, ячэйка 2\n | радок 2, ячэйка 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Тэкст ячэйкі",
 	"wikieditor-toolbar-tool-table-example-header": "Тэкст загалоўка",
+	"wikieditor-toolbar-tool-table-example-caption": "Тэкст подпісу",
 	"wikieditor-toolbar-tool-table-title": "Уставіць табліцу",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Радкоў",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Слупкоў",
@@ -190,5 +193,6 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Імя ўдзельніка</a> (<a href='#' title='$2:Username'>размовы</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Водступ",
 	"wikieditor-toolbar-help-content-indent-syntax": "Просты тэкст<br />:Тэкст з водступам<br />::Тэкст з водступам",
-	"wikieditor-toolbar-help-content-indent-result": "Просты тэкст<dl><dd>Тэкст з водступам<dl><dd>Тэкст з водступам</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "Просты тэкст<dl><dd>Тэкст з водступам<dl><dd>Тэкст з водступам</dd></dl></dd></dl>",
+	"wikieditor-realtimepreview-preview": "Перадпаказ"
 }

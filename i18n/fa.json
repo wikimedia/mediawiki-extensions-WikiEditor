@@ -200,5 +200,6 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>نام کاربری</a> (<a href='#' title='$2:Username'>بحث</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "تورفتگی",
 	"wikieditor-toolbar-help-content-indent-syntax": "متن عادی<br />:متن تورفته<br />::متن تورفته",
-	"wikieditor-toolbar-help-content-indent-result": "متن عادی<dl><dd>متن تورفته<dl><dd>متن تورفته</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "متن عادی<dl><dd>متن تورفته<dl><dd>متن تورفته</dd></dl></dd></dl>",
+	"wikieditor-realtimepreview-preview": "پیش‌نمایش"
 }

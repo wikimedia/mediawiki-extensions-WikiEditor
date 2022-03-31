@@ -198,5 +198,6 @@
 	"wikieditor-toolbar-help-content-indent-description": "הזחה",
 	"wikieditor-toolbar-help-content-indent-syntax": "טקסט רגיל<br />:טקסט מוזח<br />::טקסט מוזח",
 	"wikieditor-toolbar-help-content-indent-result": "טקסט רגיל<dl><dd>טקסט מוזח<dl><dd>טקסט מוזח</dd></dl></dd></dl>",
-	"tag-wikieditor-description": "עריכה שנעשתה באמצעות [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (עורך קוד ויקי 2010)"
+	"tag-wikieditor-description": "עריכה שנעשתה באמצעות [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (עורך קוד ויקי 2010)",
+	"wikieditor-realtimepreview-preview": "תצוגה מקדימה"
 }

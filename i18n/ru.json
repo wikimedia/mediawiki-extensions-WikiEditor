@@ -214,5 +214,6 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Имя участника</a> (<a href='#' title='$2:Username'>обсуждение</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Отступ",
 	"wikieditor-toolbar-help-content-indent-syntax": "Обычный текст<br />:Текст с отступом<br />::Текст с отступом",
-	"wikieditor-toolbar-help-content-indent-result": "Обычный текст<dl><dd>Текст с отступом<dl><dd>Текст с отступом</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "Обычный текст<dl><dd>Текст с отступом<dl><dd>Текст с отступом</dd></dl></dd></dl>",
+	"wikieditor-realtimepreview-preview": "Предпросмотр"
 }

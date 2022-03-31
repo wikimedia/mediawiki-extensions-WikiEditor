@@ -110,6 +110,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Преглед",
 	"wikieditor-toolbar-tool-table-insert": "Вметни",
 	"wikieditor-toolbar-tool-table-cancel": "Откажи",
+	"wikieditor-toolbar-tool-table-example-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec purus diam. Sed aliquam imperdiet nunc quis lacinia. Donec rutrum consectetur placerat. Sed volutpat neque non purus faucibus id ultricies enim euismod.",
 	"wikieditor-toolbar-tool-table-toomany": "Не можете да вметнувате табела со повеќе од $1 {{PLURAL:$1|ќелија|ќелии}} со овој дијалог.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Не внесовте важечки број на редови или столбови.",
 	"wikieditor-toolbar-tool-table-zero": "Не можете да вметнувате табела со нула редови или столбови.",
@@ -194,5 +195,6 @@
 	"wikieditor-toolbar-help-content-indent-description": "Отстап",
 	"wikieditor-toolbar-help-content-indent-syntax": "Нормален текст<br />:Вовлечен текст<br />::Вовлечен текст",
 	"wikieditor-toolbar-help-content-indent-result": "Нормален текст<dl><dd>Вовлечен текст<dl><dd>Вовлечен текст</dd></dl></dd></dl>",
-	"tag-wikieditor-description": "Уредувањето е направено користејќи [[mw:Special:MyLanguage/Extension:WikiEditor|Викиуредник]] (уредникот на вики текст од 2010 г.)"
+	"tag-wikieditor-description": "Уредувањето е направено користејќи [[mw:Special:MyLanguage/Extension:WikiEditor|Викиуредник]] (уредникот на вики текст од 2010 г.)",
+	"wikieditor-realtimepreview-preview": "Преглед"
 }

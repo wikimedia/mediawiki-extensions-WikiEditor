@@ -8,7 +8,8 @@
 			"Macofe",
 			"Octahedron80",
 			"Thas Tayapongsak",
-			"Woraponboonkerd"
+			"Woraponboonkerd",
+			"Trisorn Triboon"
 		]
 	},
 	"wikieditor": "อินเทอร์เฟซการแก้ไขข้อความวิกิขั้นสูง",
@@ -188,5 +189,6 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>ชื่อผู้ใช้</a> (<a href='#' title='$2:Username'>คุย</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "ย่อหน้า",
 	"wikieditor-toolbar-help-content-indent-syntax": "บรรทัดปกติ<br />:บรรทัดย่อหน้า<br />::บรรทัดย่อหน้า",
-	"wikieditor-toolbar-help-content-indent-result": "บรรทัดปกติ<dl><dd>บรรทัดย่อหน้า<dl><dd>บรรทัดย่อหน้า</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "บรรทัดปกติ<dl><dd>บรรทัดย่อหน้า<dl><dd>บรรทัดย่อหน้า</dd></dl></dd></dl>",
+	"wikieditor-realtimepreview-preview": "แสดงตัวอย่าง"
 }
