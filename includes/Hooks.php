@@ -345,6 +345,9 @@ class Hooks implements
 			'help-message' => 'wikieditor-toolbar-preference-help',
 			'section' => 'editing/editor',
 		];
+		$defaultPreferences['wikieditor-realtimepreview'] = [
+			'type' => 'api',
+		];
 	}
 
 	/**

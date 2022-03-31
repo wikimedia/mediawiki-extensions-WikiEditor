@@ -350,7 +350,8 @@
 		]
 	},
 	"DefaultUserOptions": {
-		"usebetatoolbar": true
+		"usebetatoolbar": true,
+		"wikieditor-realtimepreview": 0
 	},
 	"RawHtmlMessages": [
 		"wikieditor-toolbar-help-heading-description",

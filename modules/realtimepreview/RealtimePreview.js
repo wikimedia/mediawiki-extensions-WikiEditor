@@ -7,7 +7,9 @@ var ErrorLayout = require( './ErrorLayout.js' );
  */
 function RealtimePreview() {
 	this.configData = mw.loader.moduleRegistry[ 'ext.wikiEditor' ].script.files[ 'data.json' ];
-	this.enabled = false;
+	// Preference name, must match what's in extension.json and Hooks.php.
+	this.prefName = 'wikieditor-realtimepreview';
+	this.enabled = this.getUserPref();
 	this.twoPaneLayout = new TwoPaneLayout();
 	this.pagePreview = require( 'mediawiki.page.preview' );
 	// @todo This shouldn't be required, but the preview element is added in PHP
@@ -60,6 +62,26 @@ RealtimePreview.prototype.getToolbarButton = function ( context ) {
 };
 
 /**
+ * Get the user preference for Realtime Preview.
+ *
+ * @public
+ * @return {boolean}
+ */
+RealtimePreview.prototype.getUserPref = function () {
+	return mw.user.options.get( this.prefName ) > 0;
+};
+
+/**
+ * Enable Realtime Preview.
+ *
+ * @public
+ */
+RealtimePreview.prototype.enable = function () {
+	this.enabled = false;
+	this.toggle();
+};
+
+/**
  * Toggle the two-pane preview display.
  *
  * @private
@@ -103,6 +125,7 @@ RealtimePreview.prototype.toggle = function () {
 	// Record the toggle state and update the button.
 	this.enabled = !this.enabled;
 	this.button.setFlags( { progressive: this.enabled } );
+	( new mw.Api() ).saveOption( this.prefName, this.enabled ? 1 : 0 );
 };
 
 /**
