@@ -194,5 +194,9 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Kasutajanimi'>Kasutajanimi</a> (<a href='#' title='$2:Kasutajanimi'>arutelu</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Taane",
 	"wikieditor-toolbar-help-content-indent-syntax": "Harilik tekst<br />:Taandega tekst<br />::Taandega tekst",
-	"wikieditor-toolbar-help-content-indent-result": "Harilik tekst<dl><dd>Taandega tekst<dl><dd>Taandega tekst</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "Harilik tekst<dl><dd>Taandega tekst<dl><dd>Taandega tekst</dd></dl></dd></dl>",
+	"tag-wikieditor-description": "Muudatus tehtud [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditoriga]] (2010. aasta vikiteksti toimeti)",
+	"wikieditor-realtimepreview-preview": "Eelvaade",
+	"wikieditor-realtimepreview-error": "Eelvaadet ei laadita",
+	"wikieditor-realtimepreview-reload": "Laadi uuesti"
 }

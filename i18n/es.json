@@ -7,6 +7,7 @@
 			"Armando-Martin",
 			"Crazymadlover",
 			"Danniel07",
+			"DiegoAmbrocio",
 			"Fierodelveneto",
 			"Fitoschido",
 			"Imre",
@@ -214,5 +215,7 @@
 	"wikieditor-toolbar-help-content-indent-description": "Sangría",
 	"wikieditor-toolbar-help-content-indent-syntax": "Texto normal<br />:Texto con sangría<br />::Texto con sangría",
 	"wikieditor-toolbar-help-content-indent-result": "Texto normal<dl><dd>Texto con sangría<dl><dd>Texto con sangría</dd></dl></dd></dl>",
-	"wikieditor-realtimepreview-preview": "Vista previa"
+	"wikieditor-realtimepreview-preview": "Vista previa",
+	"wikieditor-realtimepreview-error": "No se carga la vista previa",
+	"wikieditor-realtimepreview-reload": "Recargar"
 }
