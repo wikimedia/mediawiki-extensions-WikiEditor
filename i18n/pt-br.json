@@ -20,6 +20,7 @@
 			"MetalBrasil",
 			"Opraco",
 			"Rafael Vargas",
+			"YuriNikolai",
 			555
 		]
 	},
@@ -212,5 +213,7 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Nome de usuário</a> (<a href='#' title='$2:Username'>discussão</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Indentação",
 	"wikieditor-toolbar-help-content-indent-syntax": "Texto normal<br />:Texto indentado<br />::Texto indentado",
-	"wikieditor-toolbar-help-content-indent-result": "Texto normal<dl><dd>Texto indentado<dl><dd>Texto indentado</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "Texto normal<dl><dd>Texto indentado<dl><dd>Texto indentado</dd></dl></dd></dl>",
+	"wikieditor-realtimepreview-preview": "Mostar previsão",
+	"wikieditor-realtimepreview-reload": "Recarregar"
 }
