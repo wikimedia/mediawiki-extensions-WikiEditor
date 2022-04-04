@@ -200,5 +200,7 @@
 	"tag-wikieditor-description": "Edit made using [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (2010 wikitext editor)",
 	"wikieditor-realtimepreview-preview": "Preview",
 	"wikieditor-realtimepreview-error": "Preview not loading",
-	"wikieditor-realtimepreview-reload": "Reload"
+	"wikieditor-realtimepreview-reload": "Reload",
+	"wikieditor-realtimepreview-beta-label": "Realtime Preview",
+	"wikieditor-realtimepreview-beta-desc": "See how wikitext changes will appear to readers inside the [[mw:Special:MyLanguage/Extension:WikiEditor|2010 editor]]."
 }

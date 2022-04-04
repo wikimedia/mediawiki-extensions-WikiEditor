@@ -29,7 +29,8 @@
 		"EditPageGetPreviewContent": "WikiEditorHooks",
 		"ListDefinedTags": "WikiEditorHooks",
 		"ChangeTagsListActive": "WikiEditorHooks",
-		"RecentChange_save": "WikiEditorHooks"
+		"RecentChange_save": "WikiEditorHooks",
+		"GetBetaFeaturePreferences": "MediaWiki\\Extension\\WikiEditor\\Hooks::onGetBetaFeaturePreferences"
 	},
 	"HookHandlers": {
 		"WikiEditorHooks": {
