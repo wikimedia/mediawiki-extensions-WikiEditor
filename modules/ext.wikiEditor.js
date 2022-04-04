@@ -269,4 +269,16 @@
 		$textarea.wikiEditor( 'addModule', dialogsConfig.getDefaultConfig() );
 
 	};
+
+	// Add logging for Realtime Preview.
+	mw.hook( 'ext.WikiEditor.realtimepreview.enable' ).add( function () {
+		logEditFeature( 'preview', 'preview-realtime-on' );
+	} );
+	mw.hook( 'ext.WikiEditor.realtimepreview.inuse' ).add( function () {
+		logEditFeature( 'preview', 'preview-realtime-inuse' );
+	} );
+	mw.hook( 'ext.WikiEditor.realtimepreview.disable' ).add( function () {
+		logEditFeature( 'preview', 'preview-realtime-off' );
+	} );
+
 }() );

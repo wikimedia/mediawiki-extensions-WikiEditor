@@ -15,5 +15,6 @@ mw.hook( 'wikiEditor.toolbarReady' ).add( function ( $textarea ) {
 	} );
 	if ( realtimePreview.getUserPref() ) {
 		realtimePreview.enable();
+		mw.hook( 'ext.WikiEditor.realtimepreview.inuse' ).fire( this );
 	}
 } );
