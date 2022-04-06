@@ -204,5 +204,6 @@
 	"wikieditor-realtimepreview-beta-label": "Realtime Preview",
 	"wikieditor-realtimepreview-beta-desc": "See how wikitext changes will appear to readers inside the [[mw:Special:MyLanguage/Extension:WikiEditor|2010 editor]].",
 	"wikieditor-realtimepreview-reload-title": "Reload the realtime preview pane",
-	"accesskey-wikieditor-realtimepreview": ")"
+	"accesskey-wikieditor-realtimepreview": ")",
+	"wikieditor-realtimepreview-manual": "Please reload now to manually preview your edits."
 }

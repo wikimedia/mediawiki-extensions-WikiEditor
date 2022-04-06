@@ -1,6 +1,7 @@
 var ResizingDragBar = require( './ResizingDragBar.js' );
 var TwoPaneLayout = require( './TwoPaneLayout.js' );
 var ErrorLayout = require( './ErrorLayout.js' );
+var ManualWidget = require( './ManualWidget.js' );
 
 /**
  * @class
@@ -21,13 +22,19 @@ function RealtimePreview() {
 		.append( $previewContent );
 
 	// Loading bar.
-	this.$loadingBar = $( '<div>' ).addClass( 'ext-WikiEditor-realtimepreview-loadingbar' );
+	this.$loadingBar = $( '<div>' ).addClass( 'ext-WikiEditor-realtimepreview-loadingbar' ).append( '<div>' );
 	this.$loadingBar.hide();
 
 	// Error layout.
 	this.errorLayout = new ErrorLayout();
 	this.errorLayout.getReloadButton().connect( this, {
-		click: this.doRealtimePreview.bind( this )
+		click: function () {
+			// Re-show the manual message after the error message is closed.
+			if ( this.inManualMode ) {
+				this.manualWidget.toggle( true );
+			}
+			this.doRealtimePreview();
+		}.bind( this )
 	} );
 
 	// Manual reload button (visible on hover).
@@ -47,7 +54,11 @@ function RealtimePreview() {
 		}.bind( this )
 	} );
 
-	this.twoPaneLayout.getPane2().append( reloadButton.$element, this.$loadingBar, this.$previewNode, this.errorLayout.$element );
+	// Manual mode widget.
+	this.manualWidget = new ManualWidget( this, reloadButton );
+	this.inManualMode = false;
+
+	this.twoPaneLayout.getPane2().append( this.manualWidget.$element, reloadButton.$element, this.$loadingBar, this.$previewNode, this.errorLayout.$element );
 	this.eventNames = 'change.realtimepreview input.realtimepreview cut.realtimepreview paste.realtimepreview';
 	// Used to ensure we wait for a response before making new requests.
 	this.isPreviewing = false;
@@ -146,6 +157,9 @@ RealtimePreview.prototype.toggle = function () {
 			.off( this.eventNames )
 			.on( this.eventNames, this.getEventHandler() );
 
+		// Hide or show the manual-reload message bar.
+		this.manualWidget.toggle( this.inManualMode );
+
 		// Let other things happen after enabling.
 		mw.hook( 'ext.WikiEditor.realtimepreview.enable' ).fire( this );
 	}
@@ -162,7 +176,12 @@ RealtimePreview.prototype.toggle = function () {
  */
 RealtimePreview.prototype.getEventHandler = function () {
 	return mw.util.debounce(
-		this.doRealtimePreview.bind( this ),
+		function () {
+			// Only do preview if we're not in manual mode (as set in this.checkResponseTimes()).
+			if ( !this.inManualMode ) {
+				this.doRealtimePreview();
+			}
+		}.bind( this ),
 		this.configData.realtimeDebounce
 	);
 };
@@ -173,6 +192,7 @@ RealtimePreview.prototype.getEventHandler = function () {
  */
 RealtimePreview.prototype.showError = function ( $msg ) {
 	this.$previewNode.hide();
+	this.manualWidget.toggle( false );
 	// There is no need for a default message because mw.Api.getErrorMessage() will
 	// always provide something (even for no network connection, server-side fatal errors, etc.).
 	this.errorLayout.setMessage( $msg );
@@ -184,6 +204,11 @@ RealtimePreview.prototype.showError = function ( $msg ) {
  * @param {number} time
  */
 RealtimePreview.prototype.checkResponseTimes = function ( time ) {
+	// Don't track response times if we're already in manual mode.
+	if ( this.inManualMode ) {
+		return;
+	}
+
 	this.responseTimes.push( Date.now() - time );
 	if ( this.responseTimes.length < 3 ) {
 		return;
@@ -194,10 +219,10 @@ RealtimePreview.prototype.checkResponseTimes = function ( time ) {
 	}, 0 );
 
 	if ( ( totalResponseTime / this.responseTimes.length ) > this.configData.realtimeDisableDuration ) {
-		// TODO: switch to the 'manual preview' workflow once designs/behaviour is finalized.
-		this.showError(
-			$( '<div>' ).text( '[PLACEHOLDER] Realtime preview is too slow' )
-		);
+		this.inManualMode = true;
+		// The error message might already be displayed if e.g. server timeout is greater than the disable-duration here.
+		this.errorLayout.toggle( false );
+		this.manualWidget.toggle( true );
 	}
 
 	this.responseTimes.shift();
@@ -218,6 +243,7 @@ RealtimePreview.prototype.doRealtimePreview = function () {
 	this.$loadingBar.show();
 	var loadingSelectors = this.pagePreview.getLoadingSelectors();
 	loadingSelectors.push( '.ext-WikiEditor-realtimepreview-preview' );
+	loadingSelectors.push( '.ext-WikiEditor-ManualWidget' );
 	this.errorLayout.toggle( false );
 	var time = Date.now();
 
