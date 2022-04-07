@@ -206,5 +206,7 @@
 	"tag-wikieditor-description": "Bearbeitungen mit dem [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (2010 Wikitext-Editor)",
 	"wikieditor-realtimepreview-preview": "Vorschau",
 	"wikieditor-realtimepreview-error": "Vorschau wird nicht geladen",
-	"wikieditor-realtimepreview-reload": "Neu laden"
+	"wikieditor-realtimepreview-reload": "Neu laden",
+	"wikieditor-realtimepreview-beta-label": "Vorschau in Echtzeit",
+	"wikieditor-realtimepreview-beta-desc": "Siehe, wie Wikitext-Änderungen im [[mw:Special:MyLanguage/Extension:WikiEditor|2010er-Editor]] für die Leser erscheinen werden."
 }
