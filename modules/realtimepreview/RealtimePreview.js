@@ -115,8 +115,12 @@ RealtimePreview.prototype.toggle = function () {
 		this.twoPaneLayout.$element.css( 'height', $uiText.height() + 'px' );
 		$uiText.css( 'height', '100%' );
 
-		// Enable realtime previewing.
-		this.addPreviewListener( $textarea );
+		// Load the preview when enabling,
+		this.doRealtimePreview();
+		// and also on keyup, change, paste etc.
+		$textarea
+			.off( this.eventNames )
+			.on( this.eventNames, this.getEventHandler() );
 
 		// Let other things happen after enabling.
 		mw.hook( 'ext.WikiEditor.realtimepreview.enable' ).fire( this );
@@ -130,18 +134,13 @@ RealtimePreview.prototype.toggle = function () {
 
 /**
  * @public
- * @param {jQuery} $editor The element to listen to changes on.
+ * @return {Function}
  */
-RealtimePreview.prototype.addPreviewListener = function ( $editor ) {
-	// Get preview when enabling.
-	this.doRealtimePreview();
-	// Also get preview on keyup, change, paste etc.
-	$editor
-		.off( this.eventNames )
-		.on( this.eventNames, mw.util.debounce(
-			this.doRealtimePreview.bind( this ),
-			this.configData.realtimeDebounce
-		) );
+RealtimePreview.prototype.getEventHandler = function () {
+	return mw.util.debounce(
+		this.doRealtimePreview.bind( this ),
+		this.configData.realtimeDebounce
+	);
 };
 
 /**
