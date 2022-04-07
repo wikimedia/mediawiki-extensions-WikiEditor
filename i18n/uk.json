@@ -211,5 +211,6 @@
 	"wikieditor-toolbar-help-content-indent-description": "Відступ",
 	"wikieditor-toolbar-help-content-indent-syntax": "Звичайний текст<br />:Текст з відступом<br />::Текст з відступом",
 	"wikieditor-toolbar-help-content-indent-result": "Звичайний текст<dl><dd>Текст з відступом<dl><dd>Текст з відступом</dd></dl></dd></dl>",
-	"tag-wikieditor-description": "Редагування зроблено використовуючи [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (редактор вікітексту 2010 року)"
+	"tag-wikieditor-description": "Редагування зроблено використовуючи [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (редактор вікітексту 2010 року)",
+	"wikieditor-realtimepreview-preview": "Попередній перегляд"
 }

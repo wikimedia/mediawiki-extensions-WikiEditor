@@ -219,5 +219,5 @@
 	"wikieditor-toolbar-help-content-indent-description": "縮排",
 	"wikieditor-toolbar-help-content-indent-syntax": "一般文字<br />:縮排文字<br />::縮排文字",
 	"wikieditor-toolbar-help-content-indent-result": "一般文字<dl><dd>縮排文字<dl><dd>縮排文字</dd></dl></dd></dl>",
-	"tag-wikieditor-description": "編輯模式使用 [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]]（2010 wikitext 編輯器）"
+	"tag-wikieditor-description": "編輯模式使用 [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]]（2010 年版 wikitext 編輯器）"
 }

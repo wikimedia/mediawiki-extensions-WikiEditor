@@ -194,5 +194,6 @@
 	"wikieditor-toolbar-help-content-indent-description": "Водступ",
 	"wikieditor-toolbar-help-content-indent-syntax": "Просты тэкст<br />:Тэкст з водступам<br />::Тэкст з водступам",
 	"wikieditor-toolbar-help-content-indent-result": "Просты тэкст<dl><dd>Тэкст з водступам<dl><dd>Тэкст з водступам</dd></dl></dd></dl>",
+	"tag-wikieditor-description": "Праўка зроблена з дапамогай [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]]-а (рэдактара вікітэксту 2010)",
 	"wikieditor-realtimepreview-preview": "Перадпаказ"
 }
