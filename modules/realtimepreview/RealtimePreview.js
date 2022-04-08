@@ -30,7 +30,24 @@ function RealtimePreview() {
 		click: this.doRealtimePreview.bind( this )
 	} );
 
-	this.twoPaneLayout.getPane2().append( this.$loadingBar, this.$previewNode, this.errorLayout.$element );
+	// Manual reload button (visible on hover).
+	var reloadButton = new OO.ui.ButtonWidget( {
+		classes: [ 'ext-WikiEditor-reloadButton' ],
+		icon: 'reload',
+		label: mw.msg( 'wikieditor-realtimepreview-reload' ),
+		accessKey: mw.msg( 'accesskey-wikieditor-realtimepreview' ),
+		title: mw.msg( 'wikieditor-realtimepreview-reload-title' )
+	} );
+	reloadButton.connect( this, {
+		click: function () {
+			if ( !this.enabled ) {
+				this.enable();
+			}
+			this.doRealtimePreview();
+		}.bind( this )
+	} );
+
+	this.twoPaneLayout.getPane2().append( reloadButton.$element, this.$loadingBar, this.$previewNode, this.errorLayout.$element );
 	this.eventNames = 'change.realtimepreview input.realtimepreview cut.realtimepreview paste.realtimepreview';
 	// Used to ensure we wait for a response before making new requests.
 	this.isPreviewing = false;

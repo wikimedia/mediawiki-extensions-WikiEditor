@@ -321,7 +321,9 @@
 			"messages": [
 				"wikieditor-realtimepreview-preview",
 				"wikieditor-realtimepreview-error",
-				"wikieditor-realtimepreview-reload"
+				"wikieditor-realtimepreview-reload",
+				"wikieditor-realtimepreview-reload-title",
+				"accesskey-wikieditor-realtimepreview"
 			],
 			"packageFiles": [
 				"realtimepreview/init.js",

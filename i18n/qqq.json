@@ -233,5 +233,7 @@
 	"wikieditor-realtimepreview-error": "Header text for realtime preview errors.",
 	"wikieditor-realtimepreview-reload": "Button text for the 'reload' button on realtime preview errors.",
 	"wikieditor-realtimepreview-beta-label": "Used in [[Special:Preferences]].\n\nUsed as label for checkbox to enable Realtime Preview as a Beta Feature.\n\nThe description for this checkbox is: {{msg-mw|wikieditor-realtimepreview-beta-desc}}.",
-	"wikieditor-realtimepreview-beta-desc": "Used in [[Special:Preferences]].\n\nUsed as description for the checkbox to enable Realtime Preview as a Beta Feature.\n\nThe label for this checkbox is {{msg-mw|wikieditor-realtimepreview-beta-label}}."
+	"wikieditor-realtimepreview-beta-desc": "Used in [[Special:Preferences]].\n\nUsed as description for the checkbox to enable Realtime Preview as a Beta Feature.\n\nThe label for this checkbox is {{msg-mw|wikieditor-realtimepreview-beta-label}}.",
+	"wikieditor-realtimepreview-reload-title": "Tooltip text for the manual reload button.",
+	"accesskey-wikieditor-realtimepreview": "{{doc-accesskey}}\nAccesskey for the manual reload button."
 }
