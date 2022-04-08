@@ -198,5 +198,7 @@
 	"tag-wikieditor-description": "Уредувањето е направено користејќи [[mw:Special:MyLanguage/Extension:WikiEditor|Викиуредник]] (уредникот на вики текст од 2010 г.)",
 	"wikieditor-realtimepreview-preview": "Преглед",
 	"wikieditor-realtimepreview-error": "Прегледот не се вчитува",
-	"wikieditor-realtimepreview-reload": "Превчитај"
+	"wikieditor-realtimepreview-reload": "Превчитај",
+	"wikieditor-realtimepreview-beta-label": "Преглед во живо",
+	"wikieditor-realtimepreview-beta-desc": "Погледајте како промените во викитекстот ќе им изгледаат на читателите во [[mw:Special:MyLanguage/Extension:WikiEditor|уредникот од 2010 г]]."
 }

@@ -203,5 +203,6 @@
 	"wikieditor-toolbar-help-content-indent-result": "সাধারণ লেখ<dl><dd>প্রান্তিককৃত লেখ<dl><dd>প্রান্তিককৃত লেখ</dd></dl></dd></dl>",
 	"wikieditor-realtimepreview-preview": "প্রাকদর্শন",
 	"wikieditor-realtimepreview-error": "প্রাকদর্শন লোড হচ্ছে না",
-	"wikieditor-realtimepreview-reload": "পুনঃলোড করুন"
+	"wikieditor-realtimepreview-reload": "পুনঃলোড করুন",
+	"wikieditor-realtimepreview-beta-label": "বাস্তব সময়ে প্রাকদর্শন"
 }

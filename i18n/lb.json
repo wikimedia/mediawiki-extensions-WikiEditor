@@ -186,5 +186,6 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Benotzernumm</a> (<a href='#' title='$2:Username'>Diskussioun</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Erasetzen",
 	"wikieditor-toolbar-help-content-indent-syntax": "Normalen Text<br />\n:Erageréckelten Text<br />\n::Erageréckelten Text",
-	"wikieditor-toolbar-help-content-indent-result": "Normalen Text\n<dl>\n <dd>Erageréckelten Text\n  <dl>\n    <dd>Erageréckelten Text</dd>\n  </dl>\n </dd>\n</dl>"
+	"wikieditor-toolbar-help-content-indent-result": "Normalen Text\n<dl>\n <dd>Erageréckelten Text\n  <dl>\n    <dd>Erageréckelten Text</dd>\n  </dl>\n </dd>\n</dl>",
+	"wikieditor-realtimepreview-reload": "Nei lueden"
 }
