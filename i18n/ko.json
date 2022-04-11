@@ -9,6 +9,7 @@
 			"Kwj2772",
 			"LFM",
 			"Macofe",
+			"MemphisA5",
 			"Mintz0223",
 			"Priviet",
 			"Ykhwong",
@@ -205,5 +206,6 @@
 	"tag-wikieditor-description": "[[mw:Special:MyLanguage/Extension:WikiEditor|위키편집기]]를 사용한 편집 (2010년 위키텍스트 편집기)",
 	"wikieditor-realtimepreview-preview": "미리 보기",
 	"wikieditor-realtimepreview-error": "미리 보기가 로드되지 않음",
-	"wikieditor-realtimepreview-reload": "다시 불러오기"
+	"wikieditor-realtimepreview-reload": "다시 불러오기",
+	"wikieditor-realtimepreview-beta-label": "실시간 미리 보기"
 }

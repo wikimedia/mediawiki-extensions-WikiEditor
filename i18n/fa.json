@@ -201,5 +201,6 @@
 	"wikieditor-toolbar-help-content-indent-description": "تورفتگی",
 	"wikieditor-toolbar-help-content-indent-syntax": "متن عادی<br />:متن تورفته<br />::متن تورفته",
 	"wikieditor-toolbar-help-content-indent-result": "متن عادی<dl><dd>متن تورفته<dl><dd>متن تورفته</dd></dl></dd></dl>",
-	"wikieditor-realtimepreview-preview": "پیش‌نمایش"
+	"wikieditor-realtimepreview-preview": "پیش‌نمایش",
+	"wikieditor-realtimepreview-beta-label": "پیش‌نمایش زنده"
 }

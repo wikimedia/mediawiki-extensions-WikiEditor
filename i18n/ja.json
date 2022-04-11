@@ -213,5 +213,6 @@
 	"wikieditor-toolbar-help-content-indent-result": "通常の文章<dl><dd>インデントされた文章<dl><dd>インデントされた文章</dd></dl></dd></dl>",
 	"tag-wikieditor-description": "[[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (2010年版ウィキテキストエディター)を使用した編集",
 	"wikieditor-realtimepreview-preview": "プレビュー",
-	"wikieditor-realtimepreview-reload": "再読み込み"
+	"wikieditor-realtimepreview-reload": "再読み込み",
+	"wikieditor-realtimepreview-beta-label": "リアルタイムのプレビュー"
 }

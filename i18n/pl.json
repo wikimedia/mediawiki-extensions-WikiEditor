@@ -208,5 +208,9 @@
 	"wikieditor-toolbar-help-content-indent-syntax": "Zwykły tekst<br />:Tekst wcięty<br />::Tekst wcięty",
 	"wikieditor-toolbar-help-content-indent-result": "Zwykły tekst<dl><dd>Tekst wcięty<dl><dd>Tekst wcięty</dd></dl></dd></dl>",
 	"tag-wikieditor-description": "Edycja wykonana przy użyciu [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditora]] (edytora wikitekstu 2010)",
-	"wikieditor-realtimepreview-preview": "Podgląd"
+	"wikieditor-realtimepreview-preview": "Podgląd",
+	"wikieditor-realtimepreview-error": "Podgląd nie został wczytany",
+	"wikieditor-realtimepreview-reload": "Odśwież",
+	"wikieditor-realtimepreview-beta-label": "Podgląd w czasie rzeczywistym",
+	"wikieditor-realtimepreview-beta-desc": "Obserwuj jak zmiany wikitekstu zostaną wyświetlone czytelnikom wewnątrz [[mw:Special:MyLanguage/Extension:WikiEditor|edytora 2010]]."
 }
