@@ -156,5 +156,7 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>వాడుకరిపేరు</a> (<a href='#' title='$2:Username'>చర్చ</a>)",
 	"wikieditor-realtimepreview-preview": "మునుజూపు",
 	"wikieditor-realtimepreview-error": "మునుజూపు లోడవడం లేదు",
-	"wikieditor-realtimepreview-reload": "తిరిగి లోడు చెయ్యి"
+	"wikieditor-realtimepreview-reload": "తిరిగి లోడు చెయ్యి",
+	"wikieditor-realtimepreview-beta-label": "తక్షణ మునుజూపు",
+	"wikieditor-realtimepreview-beta-desc": "వికీటెక్స్టులో చేసిన మార్పులు పాఠకులకు ఎలా కనబడతాయో [[mw:Special:MyLanguage/Extension:WikiEditor|2010 ఎడిటరులో]] చూడండి."
 }
