@@ -19,11 +19,18 @@ function RealtimePreview() {
 	this.$previewNode = $( '<div>' )
 		.addClass( 'ext-WikiEditor-realtimepreview-preview' )
 		.append( $previewContent );
+
+	// Loading bar.
+	this.$loadingBar = $( '<div>' ).addClass( 'ext-WikiEditor-realtimepreview-loadingbar' );
+	this.$loadingBar.hide();
+
+	// Error layout.
 	this.errorLayout = new ErrorLayout();
 	this.errorLayout.getReloadButton().connect( this, {
 		click: this.doRealtimePreview.bind( this )
 	} );
-	this.twoPaneLayout.getPane2().append( this.$previewNode, this.errorLayout.$element );
+
+	this.twoPaneLayout.getPane2().append( this.$loadingBar, this.$previewNode, this.errorLayout.$element );
 	this.eventNames = 'change.realtimepreview input.realtimepreview cut.realtimepreview paste.realtimepreview';
 	// Used to ensure we wait for a response before making new requests.
 	this.isPreviewing = false;
@@ -191,7 +198,7 @@ RealtimePreview.prototype.doRealtimePreview = function () {
 	}
 
 	this.isPreviewing = true;
-	this.twoPaneLayout.getPane2().addClass( 'ext-WikiEditor-twopanes-loading' );
+	this.$loadingBar.show();
 	var loadingSelectors = this.pagePreview.getLoadingSelectors();
 	loadingSelectors.push( '.ext-WikiEditor-realtimepreview-preview' );
 	this.errorLayout.toggle( false );
@@ -205,7 +212,7 @@ RealtimePreview.prototype.doRealtimePreview = function () {
 		this.showError( ( new mw.Api() ).getErrorMessage( result ) );
 		mw.log.error( 'WikiEditor realtime preview error', result );
 	}.bind( this ) ).always( function () {
-		this.twoPaneLayout.getPane2().removeClass( 'ext-WikiEditor-twopanes-loading' );
+		this.$loadingBar.hide();
 		this.isPreviewing = false;
 		this.checkResponseTimes( time );
 
