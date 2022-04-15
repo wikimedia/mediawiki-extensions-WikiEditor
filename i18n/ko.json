@@ -208,5 +208,6 @@
 	"wikieditor-realtimepreview-preview": "미리 보기",
 	"wikieditor-realtimepreview-error": "미리 보기가 로드되지 않음",
 	"wikieditor-realtimepreview-reload": "다시 불러오기",
-	"wikieditor-realtimepreview-beta-label": "실시간 미리 보기"
+	"wikieditor-realtimepreview-beta-label": "실시간 미리 보기",
+	"wikieditor-realtimepreview-reload-title": "실시간 미리 보기 창 다시 로드"
 }

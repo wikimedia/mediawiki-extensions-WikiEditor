@@ -203,5 +203,6 @@
 	"wikieditor-realtimepreview-error": "תצוגה מקדימה לא נטענת",
 	"wikieditor-realtimepreview-reload": "רענון",
 	"wikieditor-realtimepreview-beta-label": "תצוגה מקדימה בזמן אמת",
-	"wikieditor-realtimepreview-beta-desc": "אפשרות לראות איך שינויים בקוד הוויקי יופיעו לקוראים בתוך [[mw:Special:MyLanguage/Extension:WikiEditor|עורך קוד ויקי 2010]]."
+	"wikieditor-realtimepreview-beta-desc": "אפשרות לראות איך שינויים בקוד הוויקי יופיעו לקוראים בתוך [[mw:Special:MyLanguage/Extension:WikiEditor|עורך קוד ויקי 2010]].",
+	"wikieditor-realtimepreview-reload-title": "רענון חלונית התצוכה המקדימה בזמן אמת"
 }
