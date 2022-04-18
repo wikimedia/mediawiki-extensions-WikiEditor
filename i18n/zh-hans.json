@@ -15,8 +15,10 @@
 			"Shirayuki",
 			"Shizhao",
 			"Simon Shek",
+			"Stang",
 			"Tranve",
 			"VulpesVulpes825",
+			"Winston Sung",
 			"Xiaomingyan",
 			"Zhang8569",
 			"列维劳德",
@@ -29,7 +31,7 @@
 	"wikieditor-toolbar": "编辑工具栏",
 	"wikieditor-toolbar-desc": "有增强的使用性能的页面编辑工具栏",
 	"wikieditor-toolbar-preference": "启用编辑工具栏",
-	"wikieditor-toolbar-preference-help": "该功能有时被称为“2010年wikitext编辑器”。",
+	"wikieditor-toolbar-preference-help": "该功能有时被称为“2010年版wikitext编辑器”。",
 	"wikieditor-toolbar-tool-bold": "粗体",
 	"wikieditor-toolbar-tool-bold-example": "粗体文本",
 	"wikieditor-toolbar-tool-italic": "斜体",
@@ -211,5 +213,11 @@
 	"wikieditor-toolbar-help-content-indent-description": "缩进",
 	"wikieditor-toolbar-help-content-indent-syntax": "标准文本<br />:缩进文本<br />::缩进文本",
 	"wikieditor-toolbar-help-content-indent-result": "标准文本<dl><dd>缩进文本<dl><dd>缩进文本</dd></dl></dd></dl>",
-	"wikieditor-realtimepreview-reload": "重新加载"
+	"tag-wikieditor-description": "通过[[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]]（2010年版wikitext编辑器）做出的编辑",
+	"wikieditor-realtimepreview-preview": "预览",
+	"wikieditor-realtimepreview-error": "未能加载预览",
+	"wikieditor-realtimepreview-reload": "重新加载",
+	"wikieditor-realtimepreview-beta-label": "实时预览",
+	"wikieditor-realtimepreview-beta-desc": "在[[mw:Special:MyLanguage/Extension:WikiEditor|2010年版编辑器]]中查看wikitext的更改是如何呈现给读者的。",
+	"wikieditor-realtimepreview-reload-title": "重新加载实时预览窗格"
 }

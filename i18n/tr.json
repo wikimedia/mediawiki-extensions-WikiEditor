@@ -3,6 +3,7 @@
 		"authors": [
 			"Agaafd",
 			"Ahmetlii",
+			"Amire80",
 			"BaRaN6161 TURK",
 			"Cobija",
 			"Emperyan",
@@ -167,8 +168,8 @@
 	"wikieditor-toolbar-help-content-bolditalic-syntax": "'''''Kalın ve eğik metin'''''",
 	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>Kalın ve eğik metin</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "İç bağlantı",
-	"wikieditor-toolbar-help-content-ilink-syntax": "[[Sayfa başlığı|Bağlantı etiketi]]<br />[[Sayfa başlığı]]",
-	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>Bağlantı etiketi</a><br /><a href='#'>Sayfa başlığı</a>",
+	"wikieditor-toolbar-help-content-ilink-syntax": "[[Sayfa başlığı]]<br />[[Sayfa başlığı|Bağlantı etiketi]]",
+	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>Sayfa başlığı</a><br /><a href='#'>Bağlantı etiketi</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "Dış bağlantı",
 	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.ornek.org Bağlantı etiketi]<br />[http://www.ornek.org]<br />http://www.ornek.org",
 	"wikieditor-toolbar-help-content-xlink-result": "<a href='#' class='external'>Bağlantı etiketi</a><br /><a href='#' class='external autonumber'>[1]</a><br /><a href='#' class='external'>http://www.ornek.org</a>",
