@@ -36,7 +36,7 @@
 	"wikieditor-toolbar-tool-link-cancel": "Atcelt",
 	"wikieditor-toolbar-tool-link-int-target-status-exists": "Lapa eksistē",
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Lapa nepastāv",
-	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Nekorekts nosaukums",
+	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Norādītais nosaukums nav derīgs",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Ārējā saite",
 	"wikieditor-toolbar-tool-link-int-target-status-loading": "Tiek pārbaudīts vai lapa eksistē...",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Nozīmju atdalīšanas lapa",
@@ -191,5 +191,6 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Lietotāja vārds</a> (<a href='#' title='$2:Username'>diskusija</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Atkāpe",
 	"wikieditor-toolbar-help-content-indent-syntax": "Teksts bez atkāpes<br />:Teksts ar atkāpi<br />::Teksts ar atkāpi",
-	"wikieditor-toolbar-help-content-indent-result": "Teksts bez atkāpes<dl><dd>Teksts ar atkāpi<dl><dd>Teksts ar atkāpi</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "Teksts bez atkāpes<dl><dd>Teksts ar atkāpi<dl><dd>Teksts ar atkāpi</dd></dl></dd></dl>",
+	"wikieditor-realtimepreview-reload": "Pārlādēt"
 }

@@ -201,5 +201,7 @@
 	"wikieditor-toolbar-help-content-indent-description": "Behúzás",
 	"wikieditor-toolbar-help-content-indent-syntax": "Sima szöveg<br />:Behúzott szöveg<br />::Behúzott szöveg",
 	"wikieditor-toolbar-help-content-indent-result": "Sima szöveg<dl><dd>Behúzott szöveg<dl><dd>Behúzott szöveg</dd></dl></dd></dl>",
-	"tag-wikieditor-description": "A [[mw:Extension:WikiEditor/hu|WikiEditorrel]] (2010-es wikiszöveg-szerkesztővel) készült szerkesztés"
+	"tag-wikieditor-description": "A [[mw:Extension:WikiEditor/hu|WikiEditorrel]] (2010-es wikiszöveg-szerkesztővel) készült szerkesztés",
+	"wikieditor-realtimepreview-preview": "Előnézet",
+	"wikieditor-realtimepreview-reload": "Újratöltés"
 }
