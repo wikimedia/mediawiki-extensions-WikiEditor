@@ -9,6 +9,8 @@
 			"Xil"
 		]
 	},
+	"wikieditor": "Uzlabotā vikiteksta labošanas saskarne",
+	"wikieditor-desc": "Nodrošina uzlabotu, paplašināmu vikiteksta labošanas saskarni",
 	"wikieditor-wikitext-tab": "Vikiteksts",
 	"wikieditor-toolbar": "Rediģēšanas rīku josla",
 	"wikieditor-toolbar-desc": "Rediģēšanas rīku josla ar uzlabotu lietojamību",
@@ -99,6 +101,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! 1. virsraksts\n! 2. virsraksts\n! 3. virsraksts\n|-\n| 1. rinda, 1. šūna\n| 1. rinda, 2. šūna\n| 1. rinda, 3. šūna\n|-\n| 2. rinda, 1. šūna\n| 2. rinda, 2. šūna\n| 2. rinda, 3. šūna",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Rinda $1, šūna $2",
 	"wikieditor-toolbar-tool-table-example-header": "Virsraksta teksts",
+	"wikieditor-toolbar-tool-table-example-caption": "Paraksta teksts",
 	"wikieditor-toolbar-tool-table-title": "Ievietot tabulu",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Rindas",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Kolonnas",
@@ -192,5 +195,9 @@
 	"wikieditor-toolbar-help-content-indent-description": "Atkāpe",
 	"wikieditor-toolbar-help-content-indent-syntax": "Teksts bez atkāpes<br />:Teksts ar atkāpi<br />::Teksts ar atkāpi",
 	"wikieditor-toolbar-help-content-indent-result": "Teksts bez atkāpes<dl><dd>Teksts ar atkāpi<dl><dd>Teksts ar atkāpi</dd></dl></dd></dl>",
-	"wikieditor-realtimepreview-reload": "Pārlādēt"
+	"tag-wikieditor-description": "Labojums veikts, izmantojot [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (2010. gada vikiteksta redaktoru)",
+	"wikieditor-realtimepreview-preview": "Pirmskats",
+	"wikieditor-realtimepreview-error": "Pirmskats nelādējas",
+	"wikieditor-realtimepreview-reload": "Pārlādēt",
+	"wikieditor-realtimepreview-beta-label": "Reālā laika pirmskats"
 }

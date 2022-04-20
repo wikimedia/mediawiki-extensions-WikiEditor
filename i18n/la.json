@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Autokrator",
 			"Laurentianus",
 			"Lesgles",
@@ -69,7 +70,7 @@
 	"wikieditor-toolbar-help-content-bolditalic-syntax": "'''''Textus litteris pinguibus &amp; italicis scriptus'''''",
 	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>Textus litteris pinguibus &amp; italicis scriptus</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "Nexus internus",
-	"wikieditor-toolbar-help-content-ilink-syntax": "[[Titulus paginae|Titulus nexus]]<br />[[Titulus paginae]]",
+	"wikieditor-toolbar-help-content-ilink-syntax": "[[Titulus paginae]]<br />[[Titulus paginae|Titulus nexus]]",
 	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>Titulus nexus</a><br /><a href='#'>Titulus paginae</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "Nexus externus",
 	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.example.org Titulus nexus]<br />[http://www.example.org]<br />http://www.example.org",

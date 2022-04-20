@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Dudi",
 			"Macofe",
 			"Meno25"
@@ -144,8 +145,8 @@
 	"wikieditor-toolbar-help-content-bolditalic-syntax": "'''''Bold &amp; italic text'''''",
 	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>Bold &amp; italic text</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "لينك جوّانى",
-	"wikieditor-toolbar-help-content-ilink-syntax": "[[اسم الصفحه|اسم اللينك]]<br />[[اسم الصفحه]]",
-	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>اسم اللينك</a><br /><a href='#'>اسم الصفحه</a>",
+	"wikieditor-toolbar-help-content-ilink-syntax": "[[اسم الصفحه]]<br />[[اسم الصفحه|اسم اللينك]]",
+	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>اسم الصفحه</a><br /><a href='#'>اسم اللينك</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "لينك برّانى",
 	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.example.org اسم اللينك]<br />[http://www.example.org]<br />http://www.example.org",
 	"wikieditor-toolbar-help-content-xlink-result": "<a href='#' class='external'>اسم اللينك</a><br /><a href='#' class='external autonumber'>[1]</a><br /><a href='#' class='external'>http://www.example.org</a>",

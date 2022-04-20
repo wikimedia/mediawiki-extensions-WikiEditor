@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"MacTire02",
 			"Macofe",
 			"Shimmin Beg"
@@ -129,7 +130,7 @@
 	"wikieditor-toolbar-help-content-bolditalic-syntax": "'''''Teks trome &amp; iddaalagh'''''",
 	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>Teks trome &amp; iddaalagh</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "Kiangley yn-veanagh",
-	"wikieditor-toolbar-help-content-ilink-syntax": "[[Ennym duillag|Teks kiangley]]<br />[[Ennym duillag]]",
+	"wikieditor-toolbar-help-content-ilink-syntax": "[[Ennym duillag]]<br />[[Ennym duillag|Teks kiangley]]",
 	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>Teks kiangley</a><br /><a href='#'>Ennym duillag</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "Kiangley mooie",
 	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.example.org Teks kiangley]<br />[http://www.example.org]<br />http://www.example.org",

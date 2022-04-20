@@ -3,6 +3,7 @@
 		"authors": [
 			"Alp Er Tunqa",
 			"Amir a57",
+			"Amire80",
 			"E THP",
 			"Ebrahimi-amir",
 			"Ilğım",
@@ -142,8 +143,8 @@
 	"wikieditor-toolbar-help-content-bolditalic-syntax": "'''''قالین و مورب متن'''''",
 	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>قالین و مورب متن</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "ایچری باغلانتی‌سی",
-	"wikieditor-toolbar-help-content-ilink-syntax": "[[صحیفه‌نین آدی|کئچیدین آدی]]<br />[[صحیفه‌نین آدی]]",
-	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>کئچیدین آدی</a><br /><a href='#'>سهیفه‌نین آدی</a>",
+	"wikieditor-toolbar-help-content-ilink-syntax": "[[صحیفه‌نین آدی]]<br />[[صحیفه‌نین آدی|کئچیدین آدی]]",
+	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>سهیفه‌نین آدی</a><br /><a href='#'>کئچیدین آدی</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "خاریجی باغلانتی‌سی",
 	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.example.org باغلانتی باشلیقی]<br />[http://www.example.org]<br />http://www.example.org",
 	"wikieditor-toolbar-help-content-xlink-result": "</a><br /><a href='#' class='external autonumber'>[1]</a><br /><a href='#' class='external'>http://www.example.org</a>",

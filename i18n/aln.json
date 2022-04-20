@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Ammartivari",
 			"Macofe",
 			"Mdupont"
@@ -132,7 +133,7 @@
 	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>Bold & italic text</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "Lidhje të Brendshme",
 	"wikieditor-toolbar-help-content-ilink-syntax": "[[Page title|Link emërtim]]<br />[[Page title]]",
-	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>Etiketa Link</a><br /><a href='#'>Titulli i faqes</a>",
+	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>Titulli i faqes</a><br /><a href='#'>Etiketa Link</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "Lidhje e jashtme",
 	"wikieditor-toolbar-help-content-xlink-syntax": "Etiketa [http://www.example.org Link] <br /> [Http://www.example.org] <br /> http://www.example.org",
 	"wikieditor-toolbar-help-content-xlink-result": "<a href='#' class='external'>Etiketa Link</a> <br /> <a href='#' class='external autonumber'>[1]</a> <br /> <a href='#' class='external'>http://www.example.org</a>",
@@ -162,7 +163,7 @@
 	"wikieditor-toolbar-help-content-rereference-description": "përdorimin shtesë të njëjtën referencë",
 	"wikieditor-toolbar-help-content-rereference-result": "Tekst faqesh. <a href='#'><sup>[2]</sup></a>",
 	"wikieditor-toolbar-help-content-showreferences-description": "referenca Display",
-	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'> <a title='' href='#'><b>^</b></a> <a rel='nofollow' title=\"http://www.example.org\" class='external text' href='#'>Teksti Link</a> , teksti shtesë. </li></ol>",
+	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'> <a title='' href='#'><b>^</b></a> <a rel='nofollow' title=\"http://www.example.org\" class='external text' href='#'>Teksti Link</a>, teksti shtesë.</li><li id='cite_note-test-1'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Teksti Link</a></li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Nënshkrimi me gjithë kohë",
 	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>Emri i përdoruesit</a> ( <a href='#' title=\"$2:Username\">të folur</a> ) 15:54, 10 Qershor 2009 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "Nënshkrim",

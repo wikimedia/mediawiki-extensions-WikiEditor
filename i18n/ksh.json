@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Purodha"
 		]
 	},
@@ -143,7 +144,7 @@
 	"wikieditor-toolbar-help-content-bolditalic-syntax": "'''''Fätt un scheive Schreff'''''",
 	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>Fätt un scheive Schreff</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "Lengk en et Wiki",
-	"wikieditor-toolbar-help-content-ilink-syntax": "[[Sigge_Tittel|Täx för dä Lengk]]<br />[[Sigge_Tittel]]",
+	"wikieditor-toolbar-help-content-ilink-syntax": "[[Sigge_Tittel]]<br />[[Sigge_Tittel|Täx för dä Lengk]]",
 	"wikieditor-toolbar-help-content-ilink-result": "<a href=\"#\">Täx för dä Lengk</a><br /><a href=\"#\">Sigge_Tittel</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "Lengk noh ußerhallf vum Wiki",
 	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.example.org Täx för dä Lengk]<br />[http://www.example.org]<br />http://www.example.org",

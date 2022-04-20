@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Adriendelucca",
+			"Amire80",
 			"Fohanno",
 			"Fulup",
 			"Gwendal",
@@ -146,8 +147,8 @@
 	"wikieditor-toolbar-help-content-bolditalic-syntax": "'''''Testenn dev hag italek'''''",
 	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>Testenn dev &amp; italek</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "Liamm diabarzh",
-	"wikieditor-toolbar-help-content-ilink-syntax": "[[Titl ar bajenn|Testenn al liamm]]<br />[[Titl ar bajenn]]",
-	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>Testenn al liamm</a><br /><a href='#'>Titl ar bajenn</a>",
+	"wikieditor-toolbar-help-content-ilink-syntax": "[[Titl ar bajenn]]<br />[[Titl ar bajenn|Testenn al liamm]]",
+	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>Titl ar bajenn</a><br /><a href='#'>Testenn al liamm</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "Liamm diavaez",
 	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.example.org Testenn al liamm]<br />[http://www.example.org]<br />http://www.example.org",
 	"wikieditor-toolbar-help-content-xlink-result": "<a href='#' class='external'>Testenn al liamm</a><br /><a href='#' class='external autonumber'>[1]</a><br /><a href='#' class='external'>http://www.example.org</a>",
@@ -177,7 +178,7 @@
 	"wikieditor-toolbar-help-content-rereference-description": "Adimplij eus an hevelep daveenn",
 	"wikieditor-toolbar-help-content-rereference-result": "Testenn ar bajenn.<sup><a href='#'>[2]</a></sup>",
 	"wikieditor-toolbar-help-content-showreferences-description": "Diskwel an daveennoù",
-	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Anv al liamm</a>, testenn ouzhpenn.</li></ol>",
+	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Anv al liamm</a>, testenn ouzhpenn.</li><li id='cite_note-test-1'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Anv al liamm</a></li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Sinadur gant an deiziad",
 	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>Anv implijer</a> (<a href='#' title='$2:Username'>kaozeal</a>) 15:54, 10 Mezheven 2009 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "Sinadur",

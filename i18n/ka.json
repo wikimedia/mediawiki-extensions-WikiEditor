@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"BRUTE",
 			"David1010",
 			"Dawid Deutschland",
@@ -148,7 +149,7 @@
 	"wikieditor-toolbar-help-content-bolditalic-syntax": "'''''სქელი დახრილი ტექსტი'''''",
 	"wikieditor-toolbar-help-content-bolditalic-result": "<em><strong>სქელი დახრილი ტექსტი</strong></em>",
 	"wikieditor-toolbar-help-content-ilink-description": "შიდა ბმული",
-	"wikieditor-toolbar-help-content-ilink-syntax": "[[გვერდის სათაური|ბმულის წარწერა]]<br />[[გვერდის სათაური]]",
+	"wikieditor-toolbar-help-content-ilink-syntax": "[[გვერდის სათაური]]<br />[[გვერდის სათაური|ბმულის წარწერა]]",
 	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>ბმულის ტექსტი</a><br /><a href='#'>გვერდის სათაური</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "გარე ბმული",
 	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.example.org ბმულის წარწერა]<br />[http://www.example.org]<br />http://www.example.org",

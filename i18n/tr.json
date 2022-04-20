@@ -210,5 +210,6 @@
 	"tag-wikieditor-description": "[[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] kullanılarak yapılan düzenleme (2010 vikimetin düzenleyici)",
 	"wikieditor-realtimepreview-preview": "Önizleme",
 	"wikieditor-realtimepreview-error": "Önizleme yüklenemiyor",
-	"wikieditor-realtimepreview-reload": "Yeniden yükle"
+	"wikieditor-realtimepreview-reload": "Yeniden yükle",
+	"wikieditor-realtimepreview-reload-title": "Gerçek zamanlı önizleme bölmesini yeniden yükleyin"
 }

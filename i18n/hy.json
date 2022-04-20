@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"23artashes",
+			"Amire80",
 			"Chaojoker",
 			"Kareyac",
 			"Macofe",
@@ -146,7 +147,7 @@
 	"wikieditor-toolbar-help-content-bolditalic-syntax": "'''''Թավատառ և շեղատառ տեքստ'''''",
 	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>Թավատառ և շեղատառ տեքստ</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "Ներքին հղում",
-	"wikieditor-toolbar-help-content-ilink-syntax": "[[Էջի անվանում|հղման տեքստ]]<br />[[Էջի անվանում]]",
+	"wikieditor-toolbar-help-content-ilink-syntax": "[[Էջի անվանում]]<br />[[Էջի անվանում|հղման տեքստ]]",
 	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>հղման տեքստ</a><br /><a href='#'>Էջի անվանում</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "Արտաքին հղում",
 	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.example.org Հղման տեքստ]<br />[http://www.example.org]<br />http://www.example.org",

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"ChrisPtDe",
 			"Macofe"
 		]
@@ -141,7 +142,7 @@
 	"wikieditor-toolbar-help-content-bolditalic-syntax": "'''''Tèxto en grâs &amp; en étalico'''''",
 	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>Tèxto en grâs &amp; en étalico</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "Lim de dedens",
-	"wikieditor-toolbar-help-content-ilink-syntax": "[[Titro de la pâge|Tèxto du lim]]<br />[[Titro de la pâge]]",
+	"wikieditor-toolbar-help-content-ilink-syntax": "[[Titro de la pâge]]<br />[[Titro de la pâge|Tèxto du lim]]",
 	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>Tèxto du lim</a><br /><a href='#'>Titro de la pâge</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "Lim de defôr",
 	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.example.org Tèxto du lim]<br />[http://www.example.org]<br />http://www.example.org",
