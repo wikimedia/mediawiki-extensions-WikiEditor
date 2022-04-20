@@ -79,7 +79,8 @@ RealtimePreview.prototype.getToolbarButton = function ( context ) {
 		label: mw.msg( 'wikieditor-realtimepreview-preview' ),
 		icon: 'article',
 		value: this.enabled,
-		framed: false
+		framed: false,
+		classes: [ 'tool' ] // T305953; So we can find usage of this class later: .tool
 	} );
 	this.button.connect( this, { change: this.toggle } );
 	return this.button;
@@ -152,6 +153,7 @@ RealtimePreview.prototype.toggle = function () {
 
 	// Record the toggle state and update the button.
 	this.enabled = !this.enabled;
+	this.button.$element.toggleClass( 'tool-active', this.enabled ); // T305953
 	this.button.setFlags( { progressive: this.enabled } );
 	( new mw.Api() ).saveOption( this.prefName, this.enabled ? 1 : 0 );
 };
