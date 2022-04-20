@@ -148,7 +148,7 @@ TitleInputWidget.prototype.getOverlay = function () {
  * @return {boolean}
  */
 TitleInputWidget.prototype.looksLikeExternalLink = function ( urlString ) {
-	this.constructor.static.urlRegex.test( urlString );
+	return this.constructor.static.urlRegex.test( urlString );
 };
 
 module.exports = TitleInputWidget;
