@@ -41,7 +41,7 @@
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Norādītais nosaukums nav derīgs",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Ārējā saite",
 	"wikieditor-toolbar-tool-link-int-target-status-loading": "Tiek pārbaudīts vai lapa eksistē...",
-	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Nozīmju atdalīšanas lapa",
+	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Šī lapa nav satura lapa, bet tēmu ar līdzīgiem nosaukumiem uzskaitījums",
 	"wikieditor-toolbar-tool-link-int-invalid": "Norādītais nosaukums nav derīgs.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "Norādītais URL izskatās pēc saites uz viki lapu. Vai vēlaties to pārveidot par iekšēju saiti?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Iekšējā saite",
