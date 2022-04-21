@@ -19,7 +19,10 @@
 			"Xiaomingyan",
 			"Zhang8569",
 			"列维劳德",
-			"铁桶"
+			"铁桶",
+			"Lantx",
+			"Stang",
+			"Winston Sung"
 		]
 	},
 	"wikieditor": "高级wikitext编辑界面",
@@ -28,7 +31,7 @@
 	"wikieditor-toolbar": "编辑工具栏",
 	"wikieditor-toolbar-desc": "有增强的使用性能的页面编辑工具栏",
 	"wikieditor-toolbar-preference": "启用编辑工具栏",
-	"wikieditor-toolbar-preference-help": "该功能有时被称为“2010年wikitext编辑器”。",
+	"wikieditor-toolbar-preference-help": "该功能有时被称为“2010年版wikitext编辑器”。",
 	"wikieditor-toolbar-tool-bold": "粗体",
 	"wikieditor-toolbar-tool-bold-example": "粗体文本",
 	"wikieditor-toolbar-tool-italic": "斜体",
@@ -209,5 +212,7 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>用户名</a>（<a href='#' title='$2:Username'>讨论</a>）",
 	"wikieditor-toolbar-help-content-indent-description": "缩进",
 	"wikieditor-toolbar-help-content-indent-syntax": "标准文本<br />:缩进文本<br />::缩进文本",
-	"wikieditor-toolbar-help-content-indent-result": "标准文本<dl><dd>缩进文本<dl><dd>缩进文本</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "标准文本<dl><dd>缩进文本<dl><dd>缩进文本</dd></dl></dd></dl>",
+	"tag-wikieditor-description": "通过[[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]]（2010年版wikitext编辑器）做出的编辑",
+	"wikieditor-realtimepreview-preview": "预览"
 }

@@ -5,7 +5,8 @@
 			"Kernoweger",
 			"Kw-Moon",
 			"Macofe",
-			"Nrowe"
+			"Nrowe",
+			"Amire80"
 		]
 	},
 	"wikieditor-wikitext-tab": "Wikitekst",
@@ -127,7 +128,7 @@
 	"wikieditor-toolbar-help-content-bolditalic-syntax": "'''''Tekst tew &amp; italek'''''",
 	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>Tekst tew &amp; italek</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "Kevren bervedhel",
-	"wikieditor-toolbar-help-content-ilink-syntax": "[[Titel an folen|Tekst an gevren]]<br />[[Titel an folen]]",
+	"wikieditor-toolbar-help-content-ilink-syntax": "[[Titel an folen]]<br />[[Titel an folen|Tekst an gevren]]",
 	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>Tekst an gevren</a><br /><a href='#'>Titel an folen</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "Kevren bervedhel",
 	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.ensampel.org Tekst an gevren]<br />[http://www.ensampel.org]<br />http://www.ensampel.org",
