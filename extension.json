@@ -323,20 +323,23 @@
 				"wikieditor-realtimepreview-error",
 				"wikieditor-realtimepreview-reload",
 				"wikieditor-realtimepreview-reload-title",
-				"accesskey-wikieditor-realtimepreview"
+				"accesskey-wikieditor-realtimepreview",
+				"wikieditor-realtimepreview-manual"
 			],
 			"packageFiles": [
 				"realtimepreview/init.js",
 				"realtimepreview/RealtimePreview.js",
 				"realtimepreview/ResizingDragBar.js",
 				"realtimepreview/TwoPaneLayout.js",
-				"realtimepreview/ErrorLayout.js"
+				"realtimepreview/ErrorLayout.js",
+				"realtimepreview/ManualWidget.js"
 			],
 			"styles": [
 				"realtimepreview/RealtimePreview.less",
 				"realtimepreview/ResizingDragBar.less",
 				"realtimepreview/TwoPaneLayout.less",
-				"realtimepreview/ErrorLayout.less"
+				"realtimepreview/ErrorLayout.less",
+				"realtimepreview/ManualWidget.less"
 			]
 		}
 	},
