@@ -442,7 +442,7 @@
 		},
 		"WikiEditorRealtimeDisableDuration": {
 			"description": "Average number of milliseconds after which to automatically disable Realtime Preview.",
-			"value": 10000
+			"value": 6000
 		}
 	},
 	"manifest_version": 2
