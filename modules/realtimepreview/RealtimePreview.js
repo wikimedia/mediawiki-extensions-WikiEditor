@@ -38,14 +38,14 @@ function RealtimePreview() {
 	} );
 
 	// Manual reload button (visible on hover).
-	var reloadButton = new OO.ui.ButtonWidget( {
+	this.reloadButton = new OO.ui.ButtonWidget( {
 		classes: [ 'ext-WikiEditor-reloadButton' ],
 		icon: 'reload',
 		label: mw.msg( 'wikieditor-realtimepreview-reload' ),
 		accessKey: mw.msg( 'accesskey-wikieditor-realtimepreview' ),
 		title: mw.msg( 'wikieditor-realtimepreview-reload-title' )
 	} );
-	reloadButton.connect( this, {
+	this.reloadButton.connect( this, {
 		click: function () {
 			if ( !this.enabled ) {
 				this.enable();
@@ -55,10 +55,10 @@ function RealtimePreview() {
 	} );
 
 	// Manual mode widget.
-	this.manualWidget = new ManualWidget( this, reloadButton );
+	this.manualWidget = new ManualWidget( this, this.reloadButton );
 	this.inManualMode = false;
 
-	this.twoPaneLayout.getPane2().append( this.manualWidget.$element, reloadButton.$element, this.$loadingBar, this.$previewNode, this.errorLayout.$element );
+	this.twoPaneLayout.getPane2().append( this.manualWidget.$element, this.reloadButton.$element, this.$loadingBar, this.$previewNode, this.errorLayout.$element );
 	this.eventNames = 'change.realtimepreview input.realtimepreview cut.realtimepreview paste.realtimepreview';
 	// Used to ensure we wait for a response before making new requests.
 	this.isPreviewing = false;
@@ -243,6 +243,7 @@ RealtimePreview.prototype.doRealtimePreview = function () {
 
 	this.isPreviewing = true;
 	this.$loadingBar.show();
+	this.reloadButton.setDisabled( true );
 	var loadingSelectors = this.pagePreview.getLoadingSelectors();
 	loadingSelectors.push( '.ext-WikiEditor-realtimepreview-preview' );
 	loadingSelectors.push( '.ext-WikiEditor-ManualWidget' );
@@ -258,6 +259,7 @@ RealtimePreview.prototype.doRealtimePreview = function () {
 		mw.log.error( 'WikiEditor realtime preview error', result );
 	}.bind( this ) ).always( function () {
 		this.$loadingBar.hide();
+		this.reloadButton.setDisabled( false );
 		this.isPreviewing = false;
 		this.checkResponseTimes( time );
 
