@@ -8,14 +8,30 @@
 	border-color: @colorGray12;
 	border-width: 1px 0;
 	border-style: solid;
-	padding: 6px 24px;
+	padding: 14px 24px;
+	position: relative;
+	color: inherit;
 
-	& > .oo-ui-iconWidget {
+	&:hover {
+		text-decoration: none;
+	}
+
+	.oo-ui-iconElement-icon {
+		position: relative;
 		margin-right: 1em;
 	}
 
-	.oo-ui-buttonWidget {
+	.ext-WikiEditor-realtimepreview-manual-reload {
 		margin-left: auto;
 		font-weight: bolder;
+		color: @color-primary;
+	}
+
+	&.oo-ui-widget-disabled .ext-WikiEditor-realtimepreview-manual-reload {
+		color: @colorDisabledText;
+	}
+
+	&.oo-ui-widget-disabled:active {
+		color: inherit;
 	}
 }

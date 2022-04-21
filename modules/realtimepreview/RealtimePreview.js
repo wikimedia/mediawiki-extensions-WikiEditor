@@ -302,9 +302,9 @@ RealtimePreview.prototype.doRealtimePreview = function () {
 	this.isPreviewing = true;
 	this.$loadingBar.show();
 	this.reloadButton.setDisabled( true );
+	this.manualWidget.setDisabled( true );
 	var loadingSelectors = this.pagePreview.getLoadingSelectors();
 	loadingSelectors.push( '.ext-WikiEditor-realtimepreview-preview' );
-	loadingSelectors.push( '.ext-WikiEditor-ManualWidget' );
 	this.errorLayout.toggle( false );
 	var time = Date.now();
 
@@ -322,6 +322,7 @@ RealtimePreview.prototype.doRealtimePreview = function () {
 			// Only re-show the reload button if no error message is currently showing.
 			this.reloadButton.toggle( true );
 		}
+		this.manualWidget.setDisabled( false );
 		this.isPreviewing = false;
 		this.checkResponseTimes( time );
 

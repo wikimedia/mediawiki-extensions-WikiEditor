@@ -8,35 +8,56 @@
 function ManualWidget( realtimePreview, reloadHoverButton ) {
 	var config = {
 		classes: [ 'ext-WikiEditor-ManualWidget' ],
-		framed: true
+		$element: $( '<a>' )
 	};
 	ManualWidget.super.call( this, config );
+
+	// Mixins.
+	OO.ui.mixin.AccessKeyedElement.call( this, {} );
+	OO.ui.mixin.ButtonElement.call( this, $.extend( {
+		$button: this.$element
+	}, config ) );
+	OO.ui.mixin.IconElement.call( this, { icon: 'reload' } );
+	OO.ui.mixin.TitledElement.call( this, {
+		title: mw.msg( 'wikieditor-realtimepreview-reload-title' )
+	} );
 
 	this.reloadHoverButton = reloadHoverButton;
 
 	// UI elements.
-	var reloadIcon = new OO.ui.IconWidget( { icon: 'reload' } );
 	var $reloadLabel = $( '<span>' )
 		.text( mw.msg( 'wikieditor-realtimepreview-manual' ) );
-	this.reloadButton = new OO.ui.ButtonWidget( {
-		label: mw.msg( 'wikieditor-realtimepreview-reload' ),
-		framed: false,
-		flags: [ 'progressive' ]
+	var $reloadButton = $( '<span>' )
+		.addClass( 'ext-WikiEditor-realtimepreview-manual-reload' )
+		.text( mw.msg( 'wikieditor-realtimepreview-reload' ) );
+	this.connect( realtimePreview, {
+		click: function () {
+			if ( !this.isScreenWideEnough() ) {
+				// Do nothing if realtime preview is not visible.
+				return;
+			}
+			// Make sure the preview pane is visible.
+			if ( !this.enabled ) {
+				this.setEnabled();
+			}
+			this.doRealtimePreview();
+		}.bind( realtimePreview )
 	} );
-	this.reloadButton.connect( realtimePreview, {
-		click: realtimePreview.doRealtimePreview.bind( realtimePreview )
-	} );
-	this.$element.append( reloadIcon.$element, $reloadLabel, this.reloadButton.$element );
+	this.$element.append( this.$icon, $reloadLabel, $reloadButton );
 }
 
 OO.inheritClass( ManualWidget, OO.ui.Widget );
+OO.mixinClass( ManualWidget, OO.ui.mixin.AccessKeyedElement );
+OO.mixinClass( ManualWidget, OO.ui.mixin.ButtonElement );
+OO.mixinClass( ManualWidget, OO.ui.mixin.IconElement );
+OO.mixinClass( ManualWidget, OO.ui.mixin.TitledElement );
 
 ManualWidget.prototype.toggle = function ( show ) {
 	ManualWidget.parent.prototype.toggle.call( this, show );
 	if ( show ) {
 		this.reloadHoverButton.$element.remove();
 		// Use the same access key as the hover reload button, because this won't ever be displayed at the same time as that.
-		this.reloadButton.setAccessKey( mw.msg( 'accesskey-wikieditor-realtimepreview' ) );
+		this.setAccessKey( mw.msg( 'accesskey-wikieditor-realtimepreview' ) );
 	}
 };
 
