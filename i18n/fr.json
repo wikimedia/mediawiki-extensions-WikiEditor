@@ -221,5 +221,6 @@
 	"wikieditor-realtimepreview-reload": "Recharger",
 	"wikieditor-realtimepreview-beta-label": "Aperçu en temps réel",
 	"wikieditor-realtimepreview-beta-desc": "Voir comment les modifications du wikicode apparaîtront aux lecteurs dans l’[[mw:Special:MyLanguage/Extension:WikiEditor|éditeur 2010]].",
-	"wikieditor-realtimepreview-reload-title": "Recharger le panneau d’aperçu en temps réel"
+	"wikieditor-realtimepreview-reload-title": "Recharger le panneau d’aperçu en temps réel",
+	"wikieditor-realtimepreview-manual": "Veuillez recharger maintenant pour prévisualiser manuellement vos modifications."
 }

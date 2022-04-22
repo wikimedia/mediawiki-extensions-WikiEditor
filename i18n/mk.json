@@ -201,5 +201,6 @@
 	"wikieditor-realtimepreview-reload": "Превчитај",
 	"wikieditor-realtimepreview-beta-label": "Преглед во живо",
 	"wikieditor-realtimepreview-beta-desc": "Погледајте како промените во викитекстот ќе им изгледаат на читателите во [[mw:Special:MyLanguage/Extension:WikiEditor|уредникот од 2010 г]].",
-	"wikieditor-realtimepreview-reload-title": "Превчитај го прегледникот во живо"
+	"wikieditor-realtimepreview-reload-title": "Превчитај го прегледникот во живо",
+	"wikieditor-realtimepreview-manual": "Превчитајте сега за да ги прегледате вашите уредувања рачно."
 }

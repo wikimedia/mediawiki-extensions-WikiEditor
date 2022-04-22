@@ -214,5 +214,6 @@
 	"tag-wikieditor-description": "[[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (2010年版ウィキテキストエディター)を使用した編集",
 	"wikieditor-realtimepreview-preview": "プレビュー",
 	"wikieditor-realtimepreview-reload": "再読み込み",
-	"wikieditor-realtimepreview-beta-label": "リアルタイムのプレビュー"
+	"wikieditor-realtimepreview-beta-label": "リアルタイムのプレビュー",
+	"wikieditor-realtimepreview-manual": "編集を手動でプレビューするには今リロードしてください。"
 }
