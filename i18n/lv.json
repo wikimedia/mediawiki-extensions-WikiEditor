@@ -9,6 +9,8 @@
 			"Xil"
 		]
 	},
+	"wikieditor": "Uzlabotā vikiteksta labošanas saskarne",
+	"wikieditor-desc": "Nodrošina uzlabotu, paplašināmu vikiteksta labošanas saskarni",
 	"wikieditor-wikitext-tab": "Vikiteksts",
 	"wikieditor-loading": "Ielādē…",
 	"wikieditor-toolbar": "Rediģēšanas rīku josla",
@@ -100,6 +102,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! 1. virsraksts\n! 2. virsraksts\n! 3. virsraksts\n|-\n| 1. rinda, 1. šūna\n| 1. rinda, 2. šūna\n| 1. rinda, 3. šūna\n|-\n| 2. rinda, 1. šūna\n| 2. rinda, 2. šūna\n| 2. rinda, 3. šūna",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Rinda $1, šūna $2",
 	"wikieditor-toolbar-tool-table-example-header": "Virsraksta teksts",
+	"wikieditor-toolbar-tool-table-example-caption": "Paraksta teksts",
 	"wikieditor-toolbar-tool-table-title": "Ievietot tabulu",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Rindas",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Kolonnas",

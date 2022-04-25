@@ -7,7 +7,8 @@
 			"Gitartha.bordoloi",
 			"Macofe",
 			"Nilamdyuti",
-			"Simbu123"
+			"Simbu123",
+			"Amire80"
 		]
 	},
 	"wikieditor": "উচ্চতৰ ৱিকিপাঠ্য সম্পাদনা ইণ্টাৰফে'চ",
@@ -154,7 +155,7 @@
 	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>গাঢ় &amp; হেলনীয়া আখৰ</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "ভিতৰুৱা সংযোগ",
 	"wikieditor-toolbar-help-content-ilink-syntax": "[[পৃষ্ঠাৰ শিৰোনাম|সংযোগ লেবেল]]<br />[[পৃষ্ঠাৰ শিৰোনাম]]",
-	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>সংযোগ লেবেল</a><br /><a href='#'>পৃষ্ঠাৰ শিৰোনাম</a>",
+	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>পৃষ্ঠাৰ শিৰোনাম</a><br /><a href='#'>সংযোগ লেবেল</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "বাহ্যিক সংযোগ",
 	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.example.org সংযোগ লেবেল]<br />[http://www.example.org]<br />http://www.example.org",
 	"wikieditor-toolbar-help-content-xlink-result": "<a href='#' class='external'>সংযোগ লেবেল</a><br /><a href='#' class='external autonumber'>[1]</a><br /><a href='#' class='external'>http://www.example.org</a>",
