@@ -13,6 +13,7 @@
 			"Imre",
 			"Indiralena",
 			"Invadinado",
+			"Josuert",
 			"Locos epraix",
 			"Luis Felipe Schenone",
 			"Macofe",
@@ -59,7 +60,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "No existe la página",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "El título no es válido",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Enlace externo",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "Comprobando que la página existe…",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Página de desambiguación",
 	"wikieditor-toolbar-tool-link-int-invalid": "El título que ha especificado no es válido.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "EL URL que has especificado parece que tenia como finalidad ser un vínculo para otra página wiki.\n¿Deseas hacerlo un vínculo interno?",
@@ -217,5 +217,6 @@
 	"wikieditor-toolbar-help-content-indent-result": "Texto normal<dl><dd>Texto con sangría<dl><dd>Texto con sangría</dd></dl></dd></dl>",
 	"wikieditor-realtimepreview-preview": "Vista previa",
 	"wikieditor-realtimepreview-error": "No se carga la vista previa",
-	"wikieditor-realtimepreview-reload": "Recargar"
+	"wikieditor-realtimepreview-reload": "Recargar",
+	"wikieditor-realtimepreview-manual": "Vuelva a cargar ahora para obtener una vista previa manual de sus ediciones."
 }

@@ -39,7 +39,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "{{SITENAME}}ում Էջը գոյություն չունի",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Սխալ վերնագիր",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Արտաքին հղում",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "Էջի գոյության ստուգում…",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Բազմիմաստության փարատման էջ",
 	"wikieditor-toolbar-tool-link-int-invalid": "Ձեր նշած վերնագիրը անթույլատրելի է։",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "Ձեր նշած URL-ը նման է վիքիի այլ էջին հղմանը։\nԴուք ուզո՞ւմ եք այս հղումը սարքել ներքին։",

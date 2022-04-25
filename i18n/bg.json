@@ -47,7 +47,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Страницата не съществува",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Невалидно заглавие",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Външна препратка",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "Проверка дали страницата съществува...",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Пояснителна страница",
 	"wikieditor-toolbar-tool-link-int-invalid": "Зададеното заглавие е невалидно.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "URL-адресът, който сте задали, изглежда като връзка към друга уики-страница.\nИскате ли препратката да бъде вътрешна?",

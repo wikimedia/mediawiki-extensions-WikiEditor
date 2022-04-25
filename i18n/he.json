@@ -41,7 +41,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "הדף הזה אינו קיים באתר {{SITENAME}}",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "הכותרת שכתבת אינה תקינה",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "קישור חיצוני",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "בדיקה האם הדף קיים...",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "זה אינו דף תוכן, אלא רשימת נושאים בעלי שמות דומים",
 	"wikieditor-toolbar-tool-link-int-invalid": "הכותרת שצוינה אינה תקינה.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "הכתובת שציינת נראית כאילו היא מיועדת לקשר לדף אחר בוויקי.\nהאם ברצונך להפוך זאת לקישור פנימי?",
@@ -204,5 +203,6 @@
 	"wikieditor-realtimepreview-reload": "רענון",
 	"wikieditor-realtimepreview-beta-label": "תצוגה מקדימה בזמן אמת",
 	"wikieditor-realtimepreview-beta-desc": "אפשרות לראות איך שינויים בקוד הוויקי יופיעו לקוראים בתוך [[mw:Special:MyLanguage/Extension:WikiEditor|עורך קוד ויקי 2010]].",
-	"wikieditor-realtimepreview-reload-title": "רענון חלונית התצוגה המקדימה בזמן אמת"
+	"wikieditor-realtimepreview-reload-title": "רענון חלונית התצוגה המקדימה בזמן אמת",
+	"wikieditor-realtimepreview-manual": "נא לרענן כדי לעשות תצוגה מקדימה ידנית של העריכות שלך."
 }

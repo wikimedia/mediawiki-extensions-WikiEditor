@@ -51,7 +51,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "الصفحة غير موجودة",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "عنوان غير صحيح",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "وصلة خارجية",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "يلتمس وجود الصفحة...",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "صفحة توضيح",
 	"wikieditor-toolbar-tool-link-int-invalid": "العنوان الذي اخترته غير صالح.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "يبدو أن المُراد بالمسار الذي حددته وصلة إلى صفحة ويكي أخرى. أتريد أن تجعلها وصلة داخلية؟",

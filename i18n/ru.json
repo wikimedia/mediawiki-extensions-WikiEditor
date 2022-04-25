@@ -18,6 +18,7 @@
 			"Mailman",
 			"Movses",
 			"Okras",
+			"Pacha Tchernof",
 			"Sealle",
 			"Smigles",
 			"Stjn",
@@ -57,7 +58,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Эта страница не существует на {{GRAMMAR:prepositional|{{SITENAME}}}}",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Указанное вами название недействительно",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Внешняя ссылка",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "Проверка существования страницы…",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Эта страница не является содержательной страницей, а списком тем с похожими названиями",
 	"wikieditor-toolbar-tool-link-int-invalid": "Указанное название недопустимо.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "Указанный вами URL похож на ссылку на другую вики-страницу. Возможно, вы хотите сделать данную ссылку внутренней?",
@@ -222,5 +222,6 @@
 	"wikieditor-realtimepreview-reload": "Перезагрузить",
 	"wikieditor-realtimepreview-beta-label": "Предварительный просмотр в реальном времени",
 	"wikieditor-realtimepreview-beta-desc": "Посмотрите, как изменения вики-разметки будут показываться читателям в [[mw:Special:MyLanguage/Extension:WikiEditor|редакторе 2010]].",
-	"wikieditor-realtimepreview-reload-title": "Перезагрузить панель предварительного просмотра"
+	"wikieditor-realtimepreview-reload-title": "Перезагрузить панель предварительного просмотра",
+	"wikieditor-realtimepreview-manual": "Пожалуйста, перезагрузите сейчас, чтобы вручную совершить предпросмотр ваших правок."
 }

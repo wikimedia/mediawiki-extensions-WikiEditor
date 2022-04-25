@@ -43,7 +43,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Stránka neexistuje",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Neplatný název",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Externí odkaz",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "Zjišťování existence stránky…",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Rozcestník",
 	"wikieditor-toolbar-tool-link-int-invalid": "Zadaný název je neplatný.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "Uvedené URL vypadá jako odkaz na jinou stránku této wiki.\nChcete z něj tedy udělat vnitřní odkaz?",

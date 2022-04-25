@@ -43,7 +43,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Гэтая старонка не існуе ў {{GRAMMAR:prepositional|{{SITENAME}}}}",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Няслушная назва",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Спасылка ў Сеціва",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "Праверка наяўнасці старонкі...",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Гэта старонка не ўтрымлівае зместу, а толькі пералічвае спіс элементаў з аднолькавымі назвамі",
 	"wikieditor-toolbar-tool-link-int-invalid": "Упісаная няслушная назва.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "Устаўлены URL, падобны да спасылкі на іншую вікі-старонку.\nЗрабіць спасылку ўнутранай?",

@@ -52,7 +52,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Deze pagina bestaat niet op {{SITENAME}}",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "De opgegeven titel is ongeldig",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Externe koppeling",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "Bezig met controleren of de pagina al bestaat...",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Deze pagina heeft geen inhoud, maar bevat een lijst met verwante thema's",
 	"wikieditor-toolbar-tool-link-int-invalid": "De opgegeven pagina is ongeldig.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "De URL die u hebt opgegeven lijkt bedoeld te zijn als koppeling naar een andere wikipagina.\nWilt u er een interne koppeling van maken?",

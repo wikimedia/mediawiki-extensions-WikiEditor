@@ -38,7 +38,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Seda lehekülge pole {{GRAMMAR:inessive|{{SITENAME}}}}.",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Määratud pealkiri on vigane.",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Välislink",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "Lehekülje olemasolu kindlakstegemine...",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "See ei ole sisulehekülg. See on loetelu sarnase pealkirjaga teemadest.",
 	"wikieditor-toolbar-tool-link-int-invalid": "Määratud pealkiri on vigane.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "Paistab, et sisestatud internetiaadress viitab teisele vikileheküljele.\nKas soovid sellest siselingi teha?",

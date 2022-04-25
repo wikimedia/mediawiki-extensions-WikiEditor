@@ -64,7 +64,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "頁面不存在",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "您指定的標題無效",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "外部連結",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "正檢查頁面是否存在...",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "此頁面不是内容頁面，而是具有相似名稱主題的清單",
 	"wikieditor-toolbar-tool-link-int-invalid": "指定標題無效。",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "您所輸入的 URL 似乎指向一個 Wiki 頁面。\n您是否要轉換為內部連結？",

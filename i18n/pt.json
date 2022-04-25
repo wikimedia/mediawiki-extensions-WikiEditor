@@ -51,7 +51,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "A página não existe",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Título inválido",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Hiperligação externa",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "A verificar se a página existe...",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Página de desambiguação",
 	"wikieditor-toolbar-tool-link-int-invalid": "O título que especificou é inválido.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "O URL que especificou parece ser uma hiperligação para outra página da wiki. Deseja torná-la numa hiperligação interna?",

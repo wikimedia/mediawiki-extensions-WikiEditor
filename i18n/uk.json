@@ -52,7 +52,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Ця сторінка не існує на {{SITENAME}}",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Вказаний вами заголовок недійсний",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Зовнішнє посилання",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "Перевірка наявності сторінки...",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Ця сторінка не є сторінкою вмісту, тут лише перераховано теми зі схожими назвами",
 	"wikieditor-toolbar-tool-link-int-invalid": "Зазначена назва неприпустима.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "Зазначений вами URL виглядає як посилання на іншу вікі-сторінку. Ви хочете зробити його внутрішнім посиланням?",

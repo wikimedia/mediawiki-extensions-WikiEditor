@@ -53,7 +53,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Sidan existerar inte",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Ogiltig titel",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Extern länk",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "Kontrollerar om sidan existerar...",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Förgreningssida",
 	"wikieditor-toolbar-tool-link-int-invalid": "Titeln du angav är ogiltig.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "URL:en du specificerade ser ut att vara avsed som en länk till en annan wikisida. Vill du göra den till en intern länk?",

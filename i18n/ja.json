@@ -56,7 +56,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "このページは {{SITENAME}} に存在しません",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "指定したページ名は無効です。",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "外部リンク",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "ページの存在を確認中...",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "このページは内容のあるページではありませんが、似た名前の題目の一覧です。",
 	"wikieditor-toolbar-tool-link-int-invalid": "指定したページ名は無効です。",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "指定した URL は別のウィキページへのリンクのようです。\nこれを内部リンクにしますか?",

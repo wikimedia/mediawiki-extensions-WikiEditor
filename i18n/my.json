@@ -30,7 +30,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "စာမျက်နှာသည် {{SITENAME}}တွင် မရှိပါ",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "သင်ရွေးချယ်သော ခေါင်းစဉ်သည် မရေရပါ။",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "ပြင်ပ လင့်ခ်",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "စာမျက်နှာတည်ရှိမှုကို စစ်ဆေးနေသည်...",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "ဤစာမျက်နှာသည် အကြောင်းအရာစာမျက်နှာတစ်ခု မဟုတ်ပါ။ သို့သော် ယင်းသည် ဆင်တူသော အမည်များအား စုစည်းထားသည့် စာရင်းစာမျက်နှာဖြစ်သည်။",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "အတွင်းပိုင်း လင့်ခ်",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "ပြင်ပ လင့်ခ်",

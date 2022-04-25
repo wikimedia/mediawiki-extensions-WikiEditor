@@ -37,7 +37,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "الصفحه مش موجوده",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "لينك مش موجود",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "لينك برّانى",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "بيتشيّك على وجود الصفحه...",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "صفحه توضيح",
 	"wikieditor-toolbar-tool-link-int-invalid": "العنوان اللى حددته مش موجود.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "الURL اللى حددته باين عليه انه كان مقصود انه يحوّل على صفحة ويكى تانيه. عايز تخلّيه لينك جوّانى؟",

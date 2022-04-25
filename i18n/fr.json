@@ -58,7 +58,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Cette page n’existe pas sur {{SITENAME}}",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Le titre que vous avez spécifié n’est pas valide",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Lien externe",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "Vérification de l’existence de la page...",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Cette page n’est pas une page de contenu mais une liste de sujets avec des noms similaires",
 	"wikieditor-toolbar-tool-link-int-invalid": "Le titre que vous avez spécifié est incorrect.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "L’URL que vous avez spécifiée semble mener à une autre page du wiki.\nVoulez-vous utiliser un lien interne à la place ?",

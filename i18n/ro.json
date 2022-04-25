@@ -44,7 +44,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Pagina nu există",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Titlu incorect",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Legătură externă",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "Verific existența paginii...",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Pagină de dezambiguizare",
 	"wikieditor-toolbar-tool-link-int-invalid": "Titlul specificat nu este corect.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "URL-ul specificat pare a fi o legătură către o altă pagină wiki. Doriți să o transformați într-o legătură internă?",

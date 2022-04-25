@@ -38,7 +38,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Dy side bestiet net op {{GRAMMAR:l|{{SITENAME}}}}",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Jo opjûne titel is ûnjildich",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Eksterne keppeling",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "Neigean oft de side bestiet ...",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Dit is gjin ynhâldlike side, mar in list fan ûnderwerpen mei soartgelikense nammen",
 	"wikieditor-toolbar-tool-link-int-invalid": "Jo opjûne titel is ûnjildich.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "Jo opjûne URL liket as is it bedoeld as in keppeling nei in oare wikiside.\nWolle jo der in ynterne keppeling fan meitsje?",

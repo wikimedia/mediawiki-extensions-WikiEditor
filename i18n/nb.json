@@ -45,7 +45,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Siden finnes ikke på {{SITENAME}}",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Tittelen du oppga er ugyldig.",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Ekstern lenke",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "Kontrollerer om siden finnes…",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Denne siden er ikke en innholdsside, men en liste over emner med lignende navn",
 	"wikieditor-toolbar-tool-link-int-invalid": "Tittelen du gav er ugyldig",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "URLen du la inn ser ut som en lenke til en annen wikiside. Vil du gjøre den til en internlenke?",

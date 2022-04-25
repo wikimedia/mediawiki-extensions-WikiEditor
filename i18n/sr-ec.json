@@ -52,7 +52,6 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Ова страница не постоји на {{SITENAME}}",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Наслов који сте навели није важећи.",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Спољашња веза",
-	"wikieditor-toolbar-tool-link-int-target-status-loading": "Провера постојања странице…",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Ова страница није страница са садржајем, него списак тема са сличним именима.",
 	"wikieditor-toolbar-tool-link-int-invalid": "Наслов који сте навели није важећи.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "URL адреса коју сте унели изгледа као веза према другој вики страници. \nЖелите ли да је промените у унутрашњу везу?",
