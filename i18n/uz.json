@@ -121,7 +121,7 @@
 	"wikieditor-toolbar-tool-replace-button-replaceall": "Hammasini almashtirish",
 	"wikieditor-toolbar-tool-replace-close": "Yopish",
 	"wikieditor-toolbar-tool-replace-nomatch": "Sizning soʻrovingiz boʻyicha hech nima topilmadi.",
-	"wikieditor-toolbar-tool-replace-success": "$1 ta almashtirish amalga oshirildi.",
+	"wikieditor-toolbar-tool-replace-success": "$1 ta {{PLURAL:$1|almashtirish}} amalga oshirildi.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "Nimani qidirishni koʻrsatmadingiz.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "Siz kiritgan muntazam ifodada xatolik: $1",
 	"wikieditor-toolbar-section-characters": "Maxsus belgilar",
