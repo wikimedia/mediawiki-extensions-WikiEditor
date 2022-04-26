@@ -195,6 +195,7 @@ RealtimePreview.prototype.getEventHandler = function () {
 RealtimePreview.prototype.showError = function ( $msg ) {
 	this.$previewNode.hide();
 	this.manualWidget.toggle( false );
+	this.reloadButton.toggle( false );
 	// There is no need for a default message because mw.Api.getErrorMessage() will
 	// always provide something (even for no network connection, server-side fatal errors, etc.).
 	this.errorLayout.setMessage( $msg );
@@ -260,6 +261,10 @@ RealtimePreview.prototype.doRealtimePreview = function () {
 	}.bind( this ) ).always( function () {
 		this.$loadingBar.hide();
 		this.reloadButton.setDisabled( false );
+		if ( !this.errorLayout.isVisible() ) {
+			// Only re-show the reload button if no error message is currently showing.
+			this.reloadButton.toggle( true );
+		}
 		this.isPreviewing = false;
 		this.checkResponseTimes( time );
 
