@@ -12,7 +12,8 @@
 			"Nemo bis",
 			"Robin van der Vliet",
 			"Yekrats",
-			"Ziko"
+			"Ziko",
+			"Amire80"
 		]
 	},
 	"wikieditor": "Progresa redaktilo por vikiteksto",
@@ -157,7 +158,7 @@
 	"wikieditor-toolbar-help-content-bolditalic-syntax": "'''''Diklitera &amp; kursiva teksto'''''",
 	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>Diklitera &amp; kursiva teksto</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "Interna ligilo",
-	"wikieditor-toolbar-help-content-ilink-syntax": "[[Paĝa titolo|Ligila etikedo]]<br />[[Paĝa titolo]]",
+	"wikieditor-toolbar-help-content-ilink-syntax": "[[Paĝa titolo]]<br />[[Paĝa titolo|Ligila etikedo]]",
 	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>Ligila etikedo</a><br /><a href='#'>Paĝa titolo</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "Ekstera ligilo",
 	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.ekzemplo.org Ligila etikedo]<br />[http://www.ekzemplo.org]<br />http://www.ekzemplo.org",

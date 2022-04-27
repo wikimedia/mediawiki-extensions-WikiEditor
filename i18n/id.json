@@ -11,7 +11,8 @@
 			"Macofe",
 			"William Surya Permana",
 			"WongKentir",
-			"Daud I.F. Argana"
+			"Daud I.F. Argana",
+			"Amire80"
 		]
 	},
 	"wikieditor": "Antarmuka penyuntingan teks wiki canggih",
@@ -161,8 +162,8 @@
 	"wikieditor-toolbar-help-content-bolditalic-syntax": "'''''Teks tebal &amp; miring'''''",
 	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>Teks tebal &amp; miring</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "Pranala internal",
-	"wikieditor-toolbar-help-content-ilink-syntax": "[[Judul halaman|Judul pranala]]<br />[[Judul halaman]]",
-	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>Label pranala</a><br /><a href='#'>Judul halaman</a>",
+	"wikieditor-toolbar-help-content-ilink-syntax": "[[Judul halaman]]<br />[[Judul halaman|Judul pranala]]",
+	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>Judul halaman</a><br /><a href='#'>Label pranala</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "Pranala luar",
 	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.contoh.org Label pranala]<br />[http://www.contoh.org]<br />http://www.contoh.org",
 	"wikieditor-toolbar-help-content-xlink-result": "<a href='#' class='external'>Label pranala</a><br /><a href='#' class='external autonumber'>[1]</a><br /><a href='#' class='external'>http://www.contoh.org</a>",
@@ -196,7 +197,7 @@
 	"wikieditor-toolbar-help-content-rereference-description": "Penggunaan kembali referensi yang sama",
 	"wikieditor-toolbar-help-content-rereference-result": "Teks halaman.<sup><a href='#'>[2]</a></sup>",
 	"wikieditor-toolbar-help-content-showreferences-description": "Menampilkan referensi",
-	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.contoh.org' class='external text' href='#'>Teks pranala</a>, teks tambahan.</li></ol>",
+	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Teks pranala</a>, teks tambahan.</li><li id='cite_note-test-1'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Teks pranala</a></li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Tanda tangan dengan waktu",
 	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>Nama pengguna</a> (<a href='#' title='$2:Username'>bicara</a>) 15:54, 10 Mei 2013 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "Tanda tangan",
