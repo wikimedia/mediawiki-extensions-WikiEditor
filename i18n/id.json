@@ -202,5 +202,6 @@
 	"wikieditor-toolbar-help-content-indent-description": "Inden",
 	"wikieditor-toolbar-help-content-indent-syntax": "Teks biasa<br />:Teks inden<br />::Teks inden",
 	"wikieditor-toolbar-help-content-indent-result": "Teks normal<dl><dd>Teks inden<dl><dd>Teks inden</dd></dl></dd></dl>",
-	"tag-wikieditor-description": "Suntingan dibuat menggunakan [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (editor teks wiki 2010)"
+	"tag-wikieditor-description": "Suntingan dibuat menggunakan [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (editor teks wiki 2010)",
+	"wikieditor-realtimepreview-preview": "Pratayang"
 }

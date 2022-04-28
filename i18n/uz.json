@@ -118,7 +118,7 @@
 	"wikieditor-toolbar-tool-replace-button-replaceall": "Hammasini almashtirish",
 	"wikieditor-toolbar-tool-replace-close": "Yopish",
 	"wikieditor-toolbar-tool-replace-nomatch": "Sizning soʻrovingiz boʻyicha hech nima topilmadi.",
-	"wikieditor-toolbar-tool-replace-success": "$1 ta almashtirish amalga oshirildi.",
+	"wikieditor-toolbar-tool-replace-success": "$1 ta {{PLURAL:$1|almashtirish}} amalga oshirildi.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "Nimani qidirishni koʻrsatmadingiz.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "Siz kiritgan muntazam ifodada xatolik: $1",
 	"wikieditor-toolbar-section-characters": "Maxsus belgilar",
@@ -181,5 +181,6 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Foydalanuvchi nomi</a> (<a href='#' title='$2:Username'>munozara</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Xat boshi",
 	"wikieditor-toolbar-help-content-indent-syntax": "Odatiy matn<br />:Matn xat boshi bilan<br />::Matn xat boshi bilan",
-	"wikieditor-toolbar-help-content-indent-result": "Odatiy matn<dl><dd>Matn xat boshi bilan<dl><dd>Matn xat boshi bilan</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "Odatiy matn<dl><dd>Matn xat boshi bilan<dl><dd>Matn xat boshi bilan</dd></dl></dd></dl>",
+	"wikieditor-realtimepreview-preview": "Koʻrib chiqish"
 }

@@ -8,7 +8,8 @@
 			"Macofe",
 			"Otogi",
 			"გიორგიმელა",
-			"Amire80"
+			"Amire80",
+			"Გიო ოქრო"
 		]
 	},
 	"wikieditor": "ვიკიტექსტის რედაქტირების გაფართოებული ინტერფეისი",
@@ -47,7 +48,7 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "თქვენ მიერ მითითებული URL, როგორც ჩანს მითითებულია სხვა ვიკი-გვერდზე. გინდათ იყოს ის შიდა ბმული?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "შიდა ბმული",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "გარე ბმული",
-	"wikieditor-toolbar-tool-file": "ჩასმული ფაილი",
+	"wikieditor-toolbar-tool-file": "ფაილის ჩასმა",
 	"wikieditor-toolbar-tool-file-example": "მაგალითი.jpg",
 	"wikieditor-toolbar-tool-file-title": "ფაილის ჩასმა",
 	"wikieditor-toolbar-file-target": "ფაილის სახელი:",
@@ -60,7 +61,7 @@
 	"wikieditor-toolbar-tool-file-insert": "ჩასმა",
 	"wikieditor-toolbar-tool-file-cancel": "გაუქმება",
 	"wikieditor-toolbar-tool-file-upload": "ატვირთვა",
-	"wikieditor-toolbar-tool-reference": "მინიშნებები",
+	"wikieditor-toolbar-tool-reference": "სქოლიო",
 	"wikieditor-toolbar-tool-reference-example": "ჩასვით მინიშნებების ტექსტი აქ",
 	"wikieditor-toolbar-tool-reference-cancel": "გაუქმება",
 	"wikieditor-toolbar-tool-reference-title": "სქოლიოს ჩასმა",
@@ -137,7 +138,7 @@
 	"wikieditor-toolbar-help-page-heading": "სათაურები",
 	"wikieditor-toolbar-help-page-list": "სიები",
 	"wikieditor-toolbar-help-page-file": "ფაილები",
-	"wikieditor-toolbar-help-page-reference": "მინიშნებები",
+	"wikieditor-toolbar-help-page-reference": "სქოლიო",
 	"wikieditor-toolbar-help-page-discussion": "განხილვა",
 	"wikieditor-toolbar-help-content-italic-description": "კურსივი",
 	"wikieditor-toolbar-help-content-italic-syntax": "''დახრილი ტექსტი''",
