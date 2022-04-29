@@ -251,7 +251,6 @@ RealtimePreview.prototype.enableFeatureWhenScreenIsWideEnough = function () {
  */
 RealtimePreview.prototype.showError = function ( $msg ) {
 	this.$previewNode.hide();
-	this.manualWidget.toggle( false );
 	this.reloadButton.toggle( false );
 	// There is no need for a default message because mw.Api.getErrorMessage() will
 	// always provide something (even for no network connection, server-side fatal errors, etc.).
@@ -280,8 +279,6 @@ RealtimePreview.prototype.checkResponseTimes = function ( time ) {
 
 	if ( ( totalResponseTime / this.responseTimes.length ) > this.configData.realtimeDisableDuration ) {
 		this.inManualMode = true;
-		// The error message might already be displayed if e.g. server timeout is greater than the disable-duration here.
-		this.errorLayout.toggle( false );
 		this.manualWidget.toggle( true );
 	}
 
@@ -301,18 +298,23 @@ RealtimePreview.prototype.doRealtimePreview = function () {
 
 	this.isPreviewing = true;
 	this.$loadingBar.show();
+	this.$previewNode.show();
 	this.reloadButton.setDisabled( true );
 	this.manualWidget.setDisabled( true );
+	this.errorLayout.toggle( false );
 	var loadingSelectors = this.pagePreview.getLoadingSelectors();
 	loadingSelectors.push( '.ext-WikiEditor-realtimepreview-preview' );
-	this.errorLayout.toggle( false );
+	loadingSelectors.push( '.ext-WikiEditor-ManualWidget' );
+	loadingSelectors.push( '.ext-WikiEditor-realtimepreview-ErrorLayout' );
 	var time = Date.now();
 
 	this.pagePreview.doPreview( {
 		$previewNode: this.$previewNode,
 		$spinnerNode: false,
 		loadingSelectors: loadingSelectors
-	} ).fail( function ( code, result ) {
+	} ).done( function () {
+		this.errorLayout.toggle( false );
+	}.bind( this ) ).fail( function ( code, result ) {
 		this.showError( ( new mw.Api() ).getErrorMessage( result ) );
 		mw.log.error( 'WikiEditor realtime preview error', result );
 	}.bind( this ) ).always( function () {
