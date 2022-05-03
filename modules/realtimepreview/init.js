@@ -13,8 +13,8 @@ mw.hook( 'wikiEditor.toolbarReady' ).add( function ( $textarea ) {
 			}
 		}
 	} );
-	if ( realtimePreview.getUserPref() ) {
-		realtimePreview.enable();
+	if ( realtimePreview.getUserPref() && realtimePreview.isScreenWideEnough() ) {
+		realtimePreview.setEnabled();
 		mw.hook( 'ext.WikiEditor.realtimepreview.inuse' ).fire( this );
 	}
 } );

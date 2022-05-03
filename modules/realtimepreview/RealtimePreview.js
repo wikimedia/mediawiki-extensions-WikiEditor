@@ -10,7 +10,8 @@ function RealtimePreview() {
 	this.configData = mw.loader.moduleRegistry[ 'ext.wikiEditor' ].script.files[ 'data.json' ];
 	// Preference name, must match what's in extension.json and Hooks.php.
 	this.prefName = 'wikieditor-realtimepreview';
-	this.enabled = this.getUserPref();
+	this.userPref = this.getUserPref();
+	this.enabled = this.userPref;
 	this.twoPaneLayout = new TwoPaneLayout();
 	this.pagePreview = require( 'mediawiki.page.preview' );
 	// @todo This shouldn't be required, but the preview element is added in PHP
@@ -48,7 +49,7 @@ function RealtimePreview() {
 	this.reloadButton.connect( this, {
 		click: function () {
 			if ( !this.enabled ) {
-				this.enable();
+				this.setEnabled();
 			}
 			this.doRealtimePreview();
 		}.bind( this )
@@ -65,6 +66,8 @@ function RealtimePreview() {
 	this.previewPending = false;
 	// Used to average response times and automatically disable realtime preview if it's very slow.
 	this.responseTimes = [];
+
+	$( window ).on( 'resize', this.enableFeatureWhenScreenIsWideEnough.bind( this ) );
 }
 
 /**
@@ -93,7 +96,11 @@ RealtimePreview.prototype.getToolbarButton = function ( context ) {
 		framed: false,
 		classes: [ 'tool' ] // T305953; So we can find usage of this class later: .tool
 	} );
-	this.button.connect( this, { change: this.toggle } );
+	this.button.connect( this, { change: [ this.toggle, true ] } );
+
+	if ( !this.isScreenWideEnough() ) {
+		this.button.toggle( false );
+	}
 	return this.button;
 };
 
@@ -104,28 +111,40 @@ RealtimePreview.prototype.getToolbarButton = function ( context ) {
  * @return {boolean}
  */
 RealtimePreview.prototype.getUserPref = function () {
-	return mw.user.options.get( this.prefName ) > 0;
+	return ( typeof this.userPref !== 'undefined' ) ? this.userPref : mw.user.options.get( this.prefName ) > 0;
 };
 
 /**
- * Enable Realtime Preview.
+ * Set enabled variable to `true` or `false`, which enables or disable Realtime Preview.
  *
+ * @param {boolean} enable Whether to set enabled to `true` or `false`
+ * @param {boolean} saveUserPref Whether to save the user preference.
  * @public
  */
-RealtimePreview.prototype.enable = function () {
-	this.enabled = false;
-	this.toggle();
+RealtimePreview.prototype.setEnabled = function ( enable, saveUserPref ) {
+	this.enabled = ( typeof enable === 'boolean' ) ? enable : false;
+	this.toggle( saveUserPref );
+};
+
+/**
+ * Save the user preference for Realtime Preview.
+ *
+ * @private
+ */
+RealtimePreview.prototype.saveUserPref = function () {
+	this.userPref = this.enabled ? 1 : 0;
+	( new mw.Api() ).saveOption( this.prefName, this.userPref );
 };
 
 /**
  * Toggle the two-pane preview display.
  *
+ * @param {boolean} saveUserPref Whether to save the user preference.
  * @private
  */
-RealtimePreview.prototype.toggle = function () {
+RealtimePreview.prototype.toggle = function ( saveUserPref ) {
 	var $uiText = this.context.$ui.find( '.wikiEditor-ui-text' );
 	var $textarea = this.context.$textarea;
-
 	// Remove or add the layout to the DOM.
 	if ( this.enabled ) {
 		// Move height from the TwoPaneLayout to the text UI div.
@@ -169,7 +188,10 @@ RealtimePreview.prototype.toggle = function () {
 	this.enabled = !this.enabled;
 	this.button.$element.toggleClass( 'tool-active', this.enabled ); // T305953
 	this.button.setFlags( { progressive: this.enabled } );
-	( new mw.Api() ).saveOption( this.prefName, this.enabled ? 1 : 0 );
+
+	if ( typeof saveUserPref === 'undefined' || ( typeof saveUserPref === 'boolean' && saveUserPref ) ) {
+		this.saveUserPref();
+	}
 };
 
 /**
@@ -186,6 +208,40 @@ RealtimePreview.prototype.getEventHandler = function () {
 		}.bind( this ),
 		this.configData.realtimeDebounce
 	);
+};
+
+/**
+ * Check if screen meets minimum width requirement for Realtime Preview.
+ *
+ * @public
+ * @return {boolean}
+ */
+RealtimePreview.prototype.isScreenWideEnough = function () {
+	return this.context.$ui.width() > 600;
+};
+
+/**
+ * Display feature (buttons and functionality) only when screen is wide enough
+ *
+ * @private
+ */
+RealtimePreview.prototype.enableFeatureWhenScreenIsWideEnough = function () {
+	var previewButtonIsVisible = this.button.isVisible();
+	var isScreenWideEnough = this.isScreenWideEnough();
+	if ( !isScreenWideEnough && previewButtonIsVisible ) {
+		this.button.toggle( false );
+		this.reloadButton.setDisabled( true );
+		if ( this.enabled ) {
+			this.setEnabled( true, false );
+		}
+	} else if ( isScreenWideEnough && !previewButtonIsVisible ) {
+		this.button.toggle( true );
+		this.reloadButton.setDisabled( false );
+		// if user preference and realtime disable
+		if ( !this.enabled && this.getUserPref() ) {
+			this.setEnabled( false, false );
+		}
+	}
 };
 
 /**
