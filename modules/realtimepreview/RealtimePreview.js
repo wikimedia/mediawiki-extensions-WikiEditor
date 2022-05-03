@@ -115,14 +115,15 @@ RealtimePreview.prototype.getUserPref = function () {
 };
 
 /**
- * Set enabled variable to `true` or `false`, which enables or disable Realtime Preview.
+ * Enable or disable Realtime Preview.
  *
- * @param {boolean} enable Whether to set enabled to `true` or `false`
- * @param {boolean} saveUserPref Whether to save the user preference.
+ * @param {boolean} [enable=true] Whether to enable or disable.
+ * @param {boolean} [saveUserPref=true] Whether to save the user preference.
  * @public
  */
 RealtimePreview.prototype.setEnabled = function ( enable, saveUserPref ) {
-	this.enabled = ( typeof enable === 'boolean' ) ? enable : false;
+	// Set this.enabled to the opposite of what we want, and then toggle it to the desired state.
+	this.enabled = ( typeof enable === 'boolean' ) ? !enable : false;
 	this.toggle( saveUserPref );
 };
 
@@ -139,7 +140,7 @@ RealtimePreview.prototype.saveUserPref = function () {
 /**
  * Toggle the two-pane preview display.
  *
- * @param {boolean} saveUserPref Whether to save the user preference.
+ * @param {boolean} [saveUserPref=true] Whether to save the user preference.
  * @private
  */
 RealtimePreview.prototype.toggle = function ( saveUserPref ) {
@@ -232,14 +233,14 @@ RealtimePreview.prototype.enableFeatureWhenScreenIsWideEnough = function () {
 		this.button.toggle( false );
 		this.reloadButton.setDisabled( true );
 		if ( this.enabled ) {
-			this.setEnabled( true, false );
+			this.setEnabled( false, false );
 		}
 	} else if ( isScreenWideEnough && !previewButtonIsVisible ) {
 		this.button.toggle( true );
 		this.reloadButton.setDisabled( false );
 		// if user preference and realtime disable
 		if ( !this.enabled && this.getUserPref() ) {
-			this.setEnabled( false, false );
+			this.setEnabled( true, false );
 		}
 	}
 };
