@@ -13,7 +13,10 @@
 			"Physicsch",
 			"Reza1615",
 			"Wayiran",
-			"ZxxZxxZ"
+			"ZxxZxxZ",
+			"Beginneruser",
+			"Jeeputer",
+			"Mojtabakd"
 		]
 	},
 	"wikieditor": "رابط ویرایش پیشرفته ویکی‌متن",
@@ -60,8 +63,9 @@
 	"wikieditor-toolbar-tool-file-example": "مثال.jpg",
 	"wikieditor-toolbar-tool-file-title": "درج پرونده",
 	"wikieditor-toolbar-file-target": "نام پرونده:",
-	"wikieditor-toolbar-file-caption": "عنوان:",
+	"wikieditor-toolbar-file-caption": "برنگاشت:",
 	"wikieditor-toolbar-file-alt": "متن جایگزین:",
+	"wikieditor-toolbar-file-alt-help-label": "(نمایش راهنما)",
 	"wikieditor-toolbar-file-size": "اندازه:",
 	"wikieditor-toolbar-file-float": "تراز:",
 	"wikieditor-toolbar-file-default": "(پیش‌فرض)",
@@ -110,6 +114,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! عنوان ۱\n! عنوان ۲\n! عنوان ۳\n|-\n| ردیف ۱، خانه ۱\n| ردیف ۱، خانه ۲\n| ردیف ۱، خانه ۳\n|-\n| ردیف ۲، خانه ۱\n| ردیف ۲، خانه ۲\n| ردیف ۲، خانه ۳",
 	"wikieditor-toolbar-tool-table-example-cell-text": "متن خانه",
 	"wikieditor-toolbar-tool-table-example-header": "متن عنوان",
+	"wikieditor-toolbar-tool-table-example-caption": "متن برنگاشت",
 	"wikieditor-toolbar-tool-table-title": "افزودن جدول",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "ردیف‌ها",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "ستون‌ها",
