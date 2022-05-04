@@ -186,7 +186,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>مورد فهرست</li><li>مورد فهرست</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "پرونده جاسازی‌شده",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
-	"wikieditor-toolbar-help-content-file-caption": "متن زیرنویس",
+	"wikieditor-toolbar-help-content-file-caption": "متن برنگاشت",
 	"wikieditor-toolbar-help-content-reference-description": "منبع",
 	"wikieditor-toolbar-help-content-reference-syntax": "متن صفحه.&lt;ref&gt;[http://www.example.org متن پیوند]، متن اضافی.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "متن صفحه.<sup><a href='#'>[1]</a></sup>",
