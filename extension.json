@@ -339,7 +339,12 @@
 				"realtimepreview/TwoPaneLayout.less",
 				"realtimepreview/ErrorLayout.less",
 				"realtimepreview/ManualWidget.less"
-			]
+			],
+			"skinStyles": {
+				"monobook": [
+					"realtimepreview/monobook.less"
+				]
+			}
 		}
 	},
 	"ResourceFileModulePaths": {

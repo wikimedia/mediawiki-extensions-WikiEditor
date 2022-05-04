@@ -94,7 +94,8 @@ RealtimePreview.prototype.getToolbarButton = function ( context ) {
 		icon: 'article',
 		value: this.enabled,
 		framed: false,
-		classes: [ 'tool' ] // T305953; So we can find usage of this class later: .tool
+		// T305953; So we can find usage of this class later: .tool
+		classes: [ 'tool', 'ext-WikiEditor-realtimepreview-button' ]
 	} );
 	this.button.connect( this, { change: [ this.toggle, true ] } );
 
