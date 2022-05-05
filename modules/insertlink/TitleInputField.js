@@ -1,6 +1,6 @@
 var LinkTypeField = require( './LinkTypeField.js' );
 var TitleInputWidget = require( './TitleInputWidget.js' );
-var TitleOptionWidget = require( './TitleOptionWidget.js' );
+/* global InsertLinkTitleOptionWidget */
 
 /**
  * A FieldLayout containing a custom TitleInputwidget and message-display system.
@@ -128,7 +128,7 @@ TitleInputField.prototype.validate = function ( value ) {
 };
 
 /**
- * @param {TitleOptionWidget} item
+ * @param {InsertLinkTitleOptionWidget} item
  */
 TitleInputField.prototype.onSelect = function ( item ) {
 	var icon, msg;
