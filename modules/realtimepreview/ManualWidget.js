@@ -36,11 +36,10 @@ function ManualWidget( realtimePreview, reloadHoverButton ) {
 				// Do nothing if realtime preview is not visible.
 				return;
 			}
-			// Make sure the preview pane is visible.
-			if ( !this.enabled ) {
-				this.setEnabled();
+			// Only refresh the preview if we're enabled.
+			if ( this.enabled ) {
+				this.doRealtimePreview();
 			}
-			this.doRealtimePreview();
 		}.bind( realtimePreview )
 	} );
 	this.$element.append( this.$icon, $reloadLabel, $reloadButton );

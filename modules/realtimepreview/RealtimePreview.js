@@ -48,10 +48,10 @@ function RealtimePreview() {
 	} );
 	this.reloadButton.connect( this, {
 		click: function () {
-			if ( !this.enabled ) {
-				this.setEnabled();
+			// Only refresh the preview if we're enabled.
+			if ( this.enabled ) {
+				this.doRealtimePreview();
 			}
-			this.doRealtimePreview();
 		}.bind( this )
 	} );
 
