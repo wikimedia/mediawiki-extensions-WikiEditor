@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"CoderSI",
 			"Macofe",
 			"Malikxan",
@@ -133,7 +134,7 @@
 	"wikieditor-toolbar-help-page-heading": "Sarlavhalar",
 	"wikieditor-toolbar-help-page-list": "Roʻyxatlar",
 	"wikieditor-toolbar-help-page-file": "Fayllar",
-	"wikieditor-toolbar-help-page-reference": "Izohlar",
+	"wikieditor-toolbar-help-page-reference": "Manbalar",
 	"wikieditor-toolbar-help-page-discussion": "Munozara",
 	"wikieditor-toolbar-help-content-italic-description": "Yotiq",
 	"wikieditor-toolbar-help-content-italic-syntax": "''Yotiq matn''",
@@ -170,7 +171,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>Roʻyxat qismi</li><li>Roʻyxat qismi</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Fayl oʻrnatish",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
-	"wikieditor-toolbar-help-content-reference-description": "Izoh",
+	"wikieditor-toolbar-help-content-reference-description": "Manba",
 	"wikieditor-toolbar-help-content-reference-syntax": "Sahifa matni.&lt;ref&gt;[http://www.example.org Havola matni], qoʻshimcha matn.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Sahifa matni.<sup><a href='#'>[1]</a></sup>",
 	"wikieditor-toolbar-help-content-rereference-description": "Oʻsha havoladan qoʻshimcha foydalanish",
