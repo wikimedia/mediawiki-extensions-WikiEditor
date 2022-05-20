@@ -19,6 +19,7 @@ use MediaWiki\Cache\CacheKeyHelper;
 use MediaWiki\ChangeTags\Hook\ChangeTagsListActiveHook;
 use MediaWiki\ChangeTags\Hook\ListDefinedTagsHook;
 use MediaWiki\Extension\BetaFeatures\BetaFeatures;
+use MediaWiki\Extension\DiscussionTools\Hooks as DiscussionToolsHooks;
 use MediaWiki\Extension\EventLogging\EventLogging;
 use MediaWiki\Hook\EditPage__attemptSave_afterHook;
 use MediaWiki\Hook\EditPage__attemptSaveHook;
@@ -146,8 +147,11 @@ class Hooks implements
 			'mw_version' => MW_VERSION,
 		] + $data;
 
-		if ( $this->userOptionsLookup->getOption( $user, 'discussiontools-abtest2' ) ) {
-			$data['bucket'] = $this->userOptionsLookup->getOption( $user, 'discussiontools-abtest2' );
+		$bucket = ExtensionRegistry::getInstance()->isLoaded( 'DiscussionTools' ) ?
+			// @phan-suppress-next-line PhanUndeclaredClassMethod
+			DiscussionToolsHooks\HookUtils::determineUserABTestBucket( $user ) : false;
+		if ( $bucket ) {
+			$data['bucket'] = $bucket;
 		}
 
 		if ( $user->isAnon() ) {
@@ -194,7 +198,9 @@ class Hooks implements
 			'user_editcount' => $editCount ?: 0,
 		];
 
-		$bucket = $this->userOptionsLookup->getOption( $user, 'discussiontools-abtest2' );
+		$bucket = ExtensionRegistry::getInstance()->isLoaded( 'DiscussionTools' ) ?
+			// @phan-suppress-next-line PhanUndeclaredClassMethod
+			DiscussionToolsHooks\HookUtils::determineUserABTestBucket( $user ) : false;
 		if ( $bucket ) {
 			$data['bucket'] = $bucket;
 		}
