@@ -2,6 +2,7 @@ var ResizingDragBar = require( './ResizingDragBar.js' );
 var TwoPaneLayout = require( './TwoPaneLayout.js' );
 var ErrorLayout = require( './ErrorLayout.js' );
 var ManualWidget = require( './ManualWidget.js' );
+var OnboardingPopup = require( './OnboardingPopup.js' );
 
 /**
  * @class
@@ -73,7 +74,7 @@ function RealtimePreview() {
 /**
  * @public
  * @param {Object} context The WikiEditor context.
- * @return {OO.ui.ToggleButtonWidget}
+ * @return {jQuery}
  */
 RealtimePreview.prototype.getToolbarButton = function ( context ) {
 	this.context = context;
@@ -98,11 +99,15 @@ RealtimePreview.prototype.getToolbarButton = function ( context ) {
 		classes: [ 'tool', 'ext-WikiEditor-realtimepreview-button' ]
 	} );
 	this.button.connect( this, { change: [ this.toggle, true ] } );
-
 	if ( !this.isScreenWideEnough() ) {
 		this.button.toggle( false );
 	}
-	return this.button;
+
+	// Add the onboarding popup.
+	var onboardingPopup = new OnboardingPopup();
+	this.button.connect( onboardingPopup, { change: onboardingPopup.onPreviewButtonClick } );
+
+	return $( '<div>' ).append( this.button.$element, onboardingPopup.$element );
 };
 
 /**

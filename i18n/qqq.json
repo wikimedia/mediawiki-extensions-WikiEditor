@@ -235,5 +235,8 @@
 	"wikieditor-realtimepreview-beta-desc": "Used in [[Special:Preferences]].\n\nUsed as description for the checkbox to enable Realtime Preview as a Beta Feature.\n\nThe label for this checkbox is {{msg-mw|wikieditor-realtimepreview-beta-label}}.",
 	"wikieditor-realtimepreview-reload-title": "Tooltip text for the manual reload button.",
 	"accesskey-wikieditor-realtimepreview": "{{doc-accesskey}}\nAccesskey for the manual reload button.",
-	"wikieditor-realtimepreview-manual": "Message displayed when realtime preview is in 'manual' mode."
+	"wikieditor-realtimepreview-manual": "Message displayed when realtime preview is in 'manual' mode.",
+	"wikieditor-realtimepreview-onboarding-title": "Title label shown in the Realtime Preview onboarding popup.",
+	"wikieditor-realtimepreview-onboarding-body": "Description of Realtime Preview shown in the onboarding popup.",
+	"wikieditor-realtimepreview-onboarding-button": "Dismissing button for the Realtime Preview onboarding popup."
 }
