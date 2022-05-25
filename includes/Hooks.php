@@ -29,6 +29,7 @@ use MediaWiki\Hook\EditPageGetPreviewContentHook;
 use MediaWiki\Hook\RecentChange_saveHook;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
+use MediaWiki\ResourceLoader as RL;
 use MediaWiki\User\UserEditTracker;
 use MediaWiki\User\UserOptionsLookup;
 use MessageLocalizer;
@@ -36,7 +37,6 @@ use MWCryptRand;
 use OutputPage;
 use RecentChange;
 use RequestContext;
-use ResourceLoaderContext;
 use Status;
 use User;
 use WebRequest;
@@ -364,11 +364,11 @@ class Hooks implements
 	}
 
 	/**
-	 * @param ResourceLoaderContext $context
+	 * @param RL\Context $context
 	 * @param Config $config
 	 * @return array
 	 */
-	public static function getModuleData( ResourceLoaderContext $context, Config $config ) {
+	public static function getModuleData( RL\Context $context, Config $config ) {
 		return [
 			// expose magic words for use by the wikieditor toolbar
 			'magicWords' => self::getMagicWords(),
@@ -379,11 +379,11 @@ class Hooks implements
 	}
 
 	/**
-	 * @param ResourceLoaderContext $context
+	 * @param RL\Context $context
 	 * @param Config $config
 	 * @return array
 	 */
-	public static function getModuleDataSummary( ResourceLoaderContext $context, Config $config ) {
+	public static function getModuleDataSummary( RL\Context $context, Config $config ) {
 		return [
 			'magicWords' => self::getMagicWords(),
 			'signature' => self::getSignatureMessage( $context, true ),
