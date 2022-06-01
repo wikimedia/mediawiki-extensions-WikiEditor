@@ -8,7 +8,7 @@ mw.hook( 'wikiEditor.toolbarReady' ).add( function ( $textarea ) {
 			realtimepreview: {
 				type: 'element',
 				element: function ( context ) {
-					return realtimePreview.getToolbarButton( context ).$element;
+					return realtimePreview.getToolbarButton( context );
 				}
 			}
 		}

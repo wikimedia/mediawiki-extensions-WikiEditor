@@ -307,6 +307,12 @@
 			"images": {
 				"realtimepreview-error": {
 					"file": "realtimepreview/error.svg"
+				},
+				"realtimepreview-onboarding": {
+					"file": {
+						"ltr": "realtimepreview/OnboardingPopup_ltr.svg",
+						"rtl": "realtimepreview/OnboardingPopup_rtl.svg"
+					}
 				}
 			}
 		},
@@ -314,6 +320,7 @@
 			"dependencies": [
 				"ext.wikiEditor",
 				"mediawiki.page.preview",
+				"mediawiki.pulsatingdot",
 				"ext.wikiEditor.images",
 				"oojs-ui.styles.icons-interactions"
 			],
@@ -323,7 +330,10 @@
 				"wikieditor-realtimepreview-reload",
 				"wikieditor-realtimepreview-reload-title",
 				"accesskey-wikieditor-realtimepreview",
-				"wikieditor-realtimepreview-manual"
+				"wikieditor-realtimepreview-manual",
+				"wikieditor-realtimepreview-onboarding-title",
+				"wikieditor-realtimepreview-onboarding-body",
+				"wikieditor-realtimepreview-onboarding-button"
 			],
 			"packageFiles": [
 				"realtimepreview/init.js",
@@ -331,14 +341,16 @@
 				"realtimepreview/ResizingDragBar.js",
 				"realtimepreview/TwoPaneLayout.js",
 				"realtimepreview/ErrorLayout.js",
-				"realtimepreview/ManualWidget.js"
+				"realtimepreview/ManualWidget.js",
+				"realtimepreview/OnboardingPopup.js"
 			],
 			"styles": [
 				"realtimepreview/RealtimePreview.less",
 				"realtimepreview/ResizingDragBar.less",
 				"realtimepreview/TwoPaneLayout.less",
 				"realtimepreview/ErrorLayout.less",
-				"realtimepreview/ManualWidget.less"
+				"realtimepreview/ManualWidget.less",
+				"realtimepreview/OnboardingPopup.less"
 			],
 			"skinStyles": {
 				"monobook": [
