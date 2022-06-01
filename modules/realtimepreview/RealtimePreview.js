@@ -151,6 +151,7 @@ RealtimePreview.prototype.saveUserPref = function () {
 RealtimePreview.prototype.toggle = function ( saveUserPref ) {
 	var $uiText = this.context.$ui.find( '.wikiEditor-ui-text' );
 	var $textarea = this.context.$textarea;
+	var originalScrollTop = $textarea[ 0 ].scrollTop;
 	// Remove or add the layout to the DOM.
 	if ( this.enabled ) {
 		// Move height from the TwoPaneLayout to the text UI div.
@@ -189,6 +190,9 @@ RealtimePreview.prototype.toggle = function ( saveUserPref ) {
 		// Let other things happen after enabling.
 		mw.hook( 'ext.WikiEditor.realtimepreview.enable' ).fire( this );
 	}
+
+	// Reset original scroll position.
+	$textarea[ 0 ].scrollTop = originalScrollTop;
 
 	// Record the toggle state and update the button.
 	this.enabled = !this.enabled;
