@@ -209,5 +209,8 @@
 	"wikieditor-realtimepreview-beta-label": "Vorschau in Echtzeit",
 	"wikieditor-realtimepreview-beta-desc": "Siehe, wie Wikitext-Änderungen im [[mw:Special:MyLanguage/Extension:WikiEditor|2010er-Editor]] für die Leser erscheinen werden.",
 	"wikieditor-realtimepreview-reload-title": "Lade das Echtzeit-Vorschaufenster neu",
-	"wikieditor-realtimepreview-manual": "Bitte lade jetzt neu, um eine Vorschau deiner Bearbeitungen manuell zu erhalten."
+	"wikieditor-realtimepreview-manual": "Bitte lade jetzt neu, um eine Vorschau deiner Bearbeitungen manuell zu erhalten.",
+	"wikieditor-realtimepreview-onboarding-title": "Vorschau in Echtzeit",
+	"wikieditor-realtimepreview-onboarding-body": "Sieh dir in der Echtzeit-Vorschau an, wie deine Bearbeitungen für die Leser aussehen werden.",
+	"wikieditor-realtimepreview-onboarding-button": "Okay, verstanden."
 }

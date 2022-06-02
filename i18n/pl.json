@@ -211,5 +211,10 @@
 	"wikieditor-realtimepreview-error": "Podgląd nie został wczytany",
 	"wikieditor-realtimepreview-reload": "Odśwież",
 	"wikieditor-realtimepreview-beta-label": "Podgląd w czasie rzeczywistym",
-	"wikieditor-realtimepreview-beta-desc": "Obserwuj jak zmiany wikitekstu zostaną wyświetlone czytelnikom wewnątrz [[mw:Special:MyLanguage/Extension:WikiEditor|edytora 2010]]."
+	"wikieditor-realtimepreview-beta-desc": "Obserwuj jak zmiany wikitekstu zostaną wyświetlone czytelnikom wewnątrz [[mw:Special:MyLanguage/Extension:WikiEditor|edytora 2010]].",
+	"wikieditor-realtimepreview-reload-title": "Odśwież okno podglądu w czasie rzeczywistym",
+	"wikieditor-realtimepreview-manual": "Przeładuj, aby ręcznie podglądać zmiany w swoich edycjach.",
+	"wikieditor-realtimepreview-onboarding-title": "Podgląd w czasie rzeczywistym",
+	"wikieditor-realtimepreview-onboarding-body": "Obserwuj jak zmiany wikitekstu zostaną wyświetlone czytelnikom poprzez podgląd w czasie rzeczywistym.",
+	"wikieditor-realtimepreview-onboarding-button": "Ok, rozumiem"
 }

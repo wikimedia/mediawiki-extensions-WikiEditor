@@ -214,5 +214,7 @@
 	"wikieditor-realtimepreview-preview": "プレビュー",
 	"wikieditor-realtimepreview-reload": "再読み込み",
 	"wikieditor-realtimepreview-beta-label": "リアルタイムのプレビュー",
-	"wikieditor-realtimepreview-manual": "編集を手動でプレビューするには今リロードしてください。"
+	"wikieditor-realtimepreview-manual": "編集を手動でプレビューするには今リロードしてください。",
+	"wikieditor-realtimepreview-onboarding-title": "リアルタイムのプレビュー",
+	"wikieditor-realtimepreview-onboarding-button": "わかりました"
 }
