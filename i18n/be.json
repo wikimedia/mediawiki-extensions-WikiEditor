@@ -40,8 +40,8 @@
 	"wikieditor-toolbar-tool-link-ext-text": "Тэкст спасылкі:",
 	"wikieditor-toolbar-tool-link-insert": "Уставіць спасылку",
 	"wikieditor-toolbar-tool-link-cancel": "Закрыць",
-	"wikieditor-toolbar-tool-link-int-target-status-exists": "Гэтая старонка існуе на сайце {{SITENAME}}",
-	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Гэтая старонка не існуе ў {{GRAMMAR:prepositional|{{SITENAME}}}}",
+	"wikieditor-toolbar-tool-link-int-target-status-exists": "Старонка ёсць на сайце {{SITENAME}}",
+	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Старонка няма ў {{GRAMMAR:prepositional|{{SITENAME}}}}",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Назва, якую вы ўказалі, неслушная",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Спасылка ў Сеціва",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Гэта старонка не ўтрымлівае зместу, а толькі пералічвае спіс элементаў з аднолькавымі назвамі",
@@ -206,5 +206,8 @@
 	"wikieditor-realtimepreview-beta-label": "Перадпрагляд у рэжыме рэальнага часу",
 	"wikieditor-realtimepreview-beta-desc": "Паглядзіце, як змены вікі-тэксту будуць выглядаць для чытачоў у [[mw:Special:MyLanguage/Extension:WikiEditor|рэдактары 2010]].",
 	"wikieditor-realtimepreview-reload-title": "Перазагрузіць панэль перадпрагляду ў рэжыме рэальнага часу",
-	"wikieditor-realtimepreview-manual": "Калі ласка, перазагрузіце зараз, каб уручную прагледзець свае змены."
+	"wikieditor-realtimepreview-manual": "Калі ласка, перазагрузіце зараз, каб уручную прагледзець свае змены.",
+	"wikieditor-realtimepreview-onboarding-title": "Перадпрагляд у рэжыме рэальнага часу",
+	"wikieditor-realtimepreview-onboarding-body": "Паглядзіце ў рэжыме рэальнага часу як вашы праўкі будуць выглядаць для чытачоў.",
+	"wikieditor-realtimepreview-onboarding-button": "Так, зразумела."
 }
