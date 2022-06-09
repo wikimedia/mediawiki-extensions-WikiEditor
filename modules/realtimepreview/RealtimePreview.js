@@ -84,6 +84,7 @@ RealtimePreview.prototype.getToolbarButton = function ( context ) {
 	var height = context.$textarea.height();
 	$uiText.css( 'height', height + 'px' );
 	context.$textarea.removeAttr( 'rows cols' );
+	context.$textarea.addClass( 'ext-WikiEditor-realtimepreview-textbox' );
 
 	// Add the resizing bar.
 	var bottomDragBar = new ResizingDragBar( { isEW: false } );
