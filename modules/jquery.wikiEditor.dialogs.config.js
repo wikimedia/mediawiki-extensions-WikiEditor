@@ -199,7 +199,13 @@
 											var buttons = {};
 											buttons[ mw.msg( 'wikieditor-toolbar-tool-link-lookslikeinternal-int' ) ] =
 												function () {
-													insertLinkTitleInputField.getField().setValue( match[ 1 ] );
+													var titleValue = match[ 1 ];
+													try {
+														titleValue = decodeURI( titleValue );
+													} catch ( ex ) {
+														// Ignore invalid URLs; use plain titleValue instead.
+													}
+													insertLinkTitleInputField.getField().setValue( titleValue );
 													insertLinkTitleInputField.setUrlMode( LinkTypeField.static.LINK_MODE_INTERNAL );
 													$( this ).dialog( 'close' );
 													// Select the first match (i.e. the value set above) so that the
