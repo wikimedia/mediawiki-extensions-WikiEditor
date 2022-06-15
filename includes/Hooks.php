@@ -272,6 +272,9 @@ class Hooks implements
 					$data['init_mechanism'] = 'url';
 				}
 			}
+			if ( $request->getRawVal( 'wvprov' ) === 'sticky-header' ) {
+				$data['init_mechanism'] .= '-sticky-header';
+			}
 
 			$this->doEventLogging( 'init', $article, $data );
 		}
