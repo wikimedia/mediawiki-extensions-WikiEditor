@@ -152,8 +152,6 @@ RealtimePreview.prototype.saveUserPref = function () {
 RealtimePreview.prototype.toggle = function ( saveUserPref ) {
 	var $uiText = this.context.$ui.find( '.wikiEditor-ui-text' );
 	var $textarea = this.context.$textarea;
-	var originalScrollTop = $textarea[ 0 ].scrollTop;
-	var scrollEvents = this.eventNames + ' scroll.realtimepreview';
 	// Remove or add the layout to the DOM.
 	if ( this.enabled ) {
 		// Move height from the TwoPaneLayout to the text UI div.
@@ -165,10 +163,6 @@ RealtimePreview.prototype.toggle = function ( saveUserPref ) {
 
 		// Remove the keyup handler.
 		$textarea.off( this.eventNames );
-
-		// Remove the scroll handlers.
-		$textarea.off( scrollEvents, null, this.scrollHandler );
-		this.$previewNode.off( scrollEvents, null, this.scrollHandler );
 
 		// Let other things happen after disabling.
 		mw.hook( 'ext.WikiEditor.realtimepreview.disable' ).fire( this );
@@ -193,16 +187,9 @@ RealtimePreview.prototype.toggle = function ( saveUserPref ) {
 		// Hide or show the manual-reload message bar.
 		this.manualWidget.toggle( this.inManualMode );
 
-		// Synchronize vertical scroll positions.
-		$textarea.on( scrollEvents, null, this.$previewNode[ 0 ], this.scrollHandler );
-		this.$previewNode.on( scrollEvents, null, $textarea[ 0 ], this.scrollHandler );
-
 		// Let other things happen after enabling.
 		mw.hook( 'ext.WikiEditor.realtimepreview.enable' ).fire( this );
 	}
-
-	// Reset original scroll position.
-	$textarea[ 0 ].scrollTop = originalScrollTop;
 
 	// Record the toggle state and update the button.
 	this.enabled = !this.enabled;
@@ -212,25 +199,6 @@ RealtimePreview.prototype.toggle = function ( saveUserPref ) {
 	if ( typeof saveUserPref === 'undefined' || ( typeof saveUserPref === 'boolean' && saveUserPref ) ) {
 		this.saveUserPref();
 	}
-};
-
-/**
- * Scroll a 2nd element to match the percentage scrolled of the active element.
- *
- * @private
- * @param {Event} event
- */
-RealtimePreview.prototype.scrollHandler = function ( event ) {
-	var scrolledEl = event.target;
-	var targetEl = event.data;
-	mw.util.debounce( 100, function () {
-		// Amount that the scrolled element is currently positioned down its total length (between 0 and 1).
-		var ratio = scrolledEl.scrollTop / ( scrolledEl.scrollHeight - scrolledEl.clientHeight );
-		// The new offset for the other element (between 0 and total height minus viewport height).
-		var targetTop = ( targetEl.scrollHeight - targetEl.clientHeight ) * ratio;
-		// Set the new scroll position.
-		targetEl.scrollTop = Math.round( targetTop );
-	} )();
 };
 
 /**
@@ -365,8 +333,6 @@ RealtimePreview.prototype.doRealtimePreview = function () {
 		this.manualWidget.setDisabled( false );
 		this.isPreviewing = false;
 		this.checkResponseTimes( time );
-		// Pretend to scroll, to make sure the preview scroll position matches.
-		this.context.$textarea.trigger( 'scroll' );
 
 		if ( this.previewPending ) {
 			this.previewPending = false;
