@@ -51,7 +51,7 @@ function RealtimePreview() {
 		click: function () {
 			// Only refresh the preview if we're enabled.
 			if ( this.enabled ) {
-				this.doRealtimePreview();
+				this.doRealtimePreview( true );
 			}
 		}.bind( this )
 	} );
@@ -65,6 +65,7 @@ function RealtimePreview() {
 	// Used to ensure we wait for a response before making new requests.
 	this.isPreviewing = false;
 	this.previewPending = false;
+	this.lastWikitext = null;
 	// Used to average response times and automatically disable realtime preview if it's very slow.
 	this.responseTimes = [];
 
@@ -293,14 +294,24 @@ RealtimePreview.prototype.checkResponseTimes = function ( time ) {
 
 /**
  * @private
+ * @param {boolean} forceUpdate For the preview to update, even if the wikitext is unchanged,
+ *  e.g. when the user presses the 'reload' button.
  */
-RealtimePreview.prototype.doRealtimePreview = function () {
+RealtimePreview.prototype.doRealtimePreview = function ( forceUpdate ) {
 	// Wait for a response before making any new requests.
 	if ( this.isPreviewing ) {
 		// Queue up one final preview once this one finishes.
 		this.previewPending = true;
 		return;
 	}
+
+	var $textareaNode = $( '#wpTextbox1' );
+	var wikitext = $textareaNode.textSelection( 'getContents' );
+	if ( !forceUpdate && wikitext === this.lastWikitext ) {
+		// Wikitext unchanged, no update necessary
+		return;
+	}
+	this.lastWikitext = wikitext;
 
 	this.isPreviewing = true;
 	this.$loadingBar.show();
@@ -315,6 +326,7 @@ RealtimePreview.prototype.doRealtimePreview = function () {
 	var time = Date.now();
 
 	this.pagePreview.doPreview( {
+		$textareaNode: $textareaNode,
 		$previewNode: this.$previewNode,
 		$spinnerNode: false,
 		loadingSelectors: loadingSelectors
