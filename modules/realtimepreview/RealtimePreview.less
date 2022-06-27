@@ -58,14 +58,17 @@
 	}
 }
 
-.ext-WikiEditor-twopanes-pane2 .ext-WikiEditor-reloadButton {
-	display: none;
-	position: absolute;
-	top: 8px;
-	right: 15px;
-	z-index: 5;
-}
+.ext-WikiEditor-twopanes-pane2 {
+	.ext-WikiEditor-reloadButton {
+		opacity: 0;
+		transition: opacity 100ms;
+		position: absolute;
+		top: 8px;
+		right: 15px;
+		z-index: 5;
+	}
 
-.ext-WikiEditor-twopanes-pane2:hover .ext-WikiEditor-reloadButton {
-	display: block;
+	&:hover .ext-WikiEditor-reloadButton {
+		opacity: 1;
+	}
 }
