@@ -153,6 +153,11 @@ RealtimePreview.prototype.saveUserPref = function () {
 RealtimePreview.prototype.toggle = function ( saveUserPref ) {
 	var $uiText = this.context.$ui.find( '.wikiEditor-ui-text' );
 	var $textarea = this.context.$textarea;
+
+	// Save the current cursor selection.
+	var textareaHasFocus = $textarea.is( ':focus' );
+	var cursorPos = $textarea.textSelection( 'getCaretPosition', { startAndEnd: true } );
+
 	// Remove or add the layout to the DOM.
 	if ( this.enabled ) {
 		// Move height from the TwoPaneLayout to the text UI div.
@@ -190,6 +195,12 @@ RealtimePreview.prototype.toggle = function ( saveUserPref ) {
 
 		// Let other things happen after enabling.
 		mw.hook( 'ext.WikiEditor.realtimepreview.enable' ).fire( this );
+	}
+
+	// Restore current selection.
+	if ( textareaHasFocus ) {
+		$textarea.trigger( 'focus' );
+		$textarea.textSelection( 'setSelection', { start: cursorPos[ 0 ], end: cursorPos[ 1 ] } );
 	}
 
 	// Record the toggle state and update the button.
