@@ -7,7 +7,9 @@
 			"NehalDaveND",
 			"Pooja.srivastava",
 			"Sfic",
-			"Siddhartha Ghai"
+			"Siddhartha Ghai",
+			"Abijeet Patro",
+			"Saurmandal"
 		]
 	},
 	"wikieditor": "उन्नत विकिपाठ्य सम्पादन अंतरफ़लक",
@@ -15,6 +17,7 @@
 	"wikieditor-wikitext-tab": "विकिपाठ्य",
 	"wikieditor-loading": "लदान",
 	"wikieditor-toolbar": "संपादन उपकरण पट्टी",
+	"wikieditor-toolbar-preference": "संपादन टूलबार को सक्षम करें",
 	"wikieditor-toolbar-loading": "लोड हो रहा है...",
 	"wikieditor-toolbar-tool-bold": "गहरा",
 	"wikieditor-toolbar-tool-bold-example": "मोटे अक्षर",
