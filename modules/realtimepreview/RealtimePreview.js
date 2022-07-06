@@ -340,7 +340,9 @@ RealtimePreview.prototype.doRealtimePreview = function ( forceUpdate ) {
 		$textareaNode: $textareaNode,
 		$previewNode: this.$previewNode,
 		$spinnerNode: false,
-		loadingSelectors: loadingSelectors
+		loadingSelectors: loadingSelectors,
+		// Don't hide the diff view, if visible.
+		$diffNode: null
 	} ).done( function () {
 		this.errorLayout.toggle( false );
 	}.bind( this ) ).fail( function ( code, result ) {
