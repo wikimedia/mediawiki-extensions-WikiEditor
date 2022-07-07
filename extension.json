@@ -321,6 +321,7 @@
 				"ext.wikiEditor",
 				"mediawiki.page.preview",
 				"mediawiki.pulsatingdot",
+				"mediawiki.storage",
 				"ext.wikiEditor.images",
 				"oojs-ui.styles.icons-interactions"
 			],
