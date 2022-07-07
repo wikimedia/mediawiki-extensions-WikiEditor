@@ -68,8 +68,6 @@ function RealtimePreview() {
 	this.lastWikitext = null;
 	// Used to average response times and automatically disable realtime preview if it's very slow.
 	this.responseTimes = [];
-
-	$( window ).on( 'resize', this.enableFeatureWhenScreenIsWideEnough.bind( this ) );
 }
 
 /**
@@ -104,6 +102,9 @@ RealtimePreview.prototype.getToolbarButton = function ( context ) {
 	if ( !this.isScreenWideEnough() ) {
 		this.button.toggle( false );
 	}
+
+	// Hide or show the preview and toolbar button when the window is resized.
+	$( window ).on( 'resize', this.enableFeatureWhenScreenIsWideEnough.bind( this ) );
 
 	// Add the onboarding popup.
 	var onboardingPopup = new OnboardingPopup();
