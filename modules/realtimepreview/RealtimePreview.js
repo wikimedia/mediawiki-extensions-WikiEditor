@@ -155,9 +155,9 @@ RealtimePreview.prototype.toggle = function ( saveUserPref ) {
 	var $uiText = this.context.$ui.find( '.wikiEditor-ui-text' );
 	var $textarea = this.context.$textarea;
 
-	// Save the current cursor selection.
-	var textareaHasFocus = $textarea.is( ':focus' );
+	// Save the current cursor selection and focused element.
 	var cursorPos = $textarea.textSelection( 'getCaretPosition', { startAndEnd: true } );
+	var focusedElement = document.activeElement;
 
 	// Remove or add the layout to the DOM.
 	if ( this.enabled ) {
@@ -199,10 +199,9 @@ RealtimePreview.prototype.toggle = function ( saveUserPref ) {
 	}
 
 	// Restore current selection.
-	if ( textareaHasFocus ) {
-		$textarea.trigger( 'focus' );
-		$textarea.textSelection( 'setSelection', { start: cursorPos[ 0 ], end: cursorPos[ 1 ] } );
-	}
+	$textarea.textSelection( 'setSelection', { start: cursorPos[ 0 ], end: cursorPos[ 1 ] } );
+	// Focus on whatever had focus before, in case it wasn't the textarea.
+	focusedElement.focus();
 
 	// Record the toggle state and update the button.
 	this.enabled = !this.enabled;
