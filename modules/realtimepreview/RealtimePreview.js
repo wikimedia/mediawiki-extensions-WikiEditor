@@ -56,6 +56,8 @@ function RealtimePreview() {
 		}.bind( this )
 	} );
 
+	this.onboardingPopup = new OnboardingPopup();
+
 	// Manual mode widget.
 	this.manualWidget = new ManualWidget( this, this.reloadButton );
 	this.inManualMode = false;
@@ -101,16 +103,16 @@ RealtimePreview.prototype.getToolbarButton = function ( context ) {
 	this.button.connect( this, { change: [ this.toggle, true ] } );
 	if ( !this.isScreenWideEnough() ) {
 		this.button.toggle( false );
+		this.onboardingPopup.toggle( false );
 	}
 
 	// Hide or show the preview and toolbar button when the window is resized.
 	$( window ).on( 'resize', this.enableFeatureWhenScreenIsWideEnough.bind( this ) );
 
 	// Add the onboarding popup.
-	var onboardingPopup = new OnboardingPopup();
-	this.button.connect( onboardingPopup, { change: onboardingPopup.onPreviewButtonClick } );
+	this.button.connect( this.onboardingPopup, { change: this.onboardingPopup.onPreviewButtonClick } );
 
-	return $( '<div>' ).append( this.button.$element, onboardingPopup.$element );
+	return $( '<div>' ).append( this.button.$element, this.onboardingPopup.$element );
 };
 
 /**
@@ -249,12 +251,14 @@ RealtimePreview.prototype.enableFeatureWhenScreenIsWideEnough = function () {
 	var isScreenWideEnough = this.isScreenWideEnough();
 	if ( !isScreenWideEnough && previewButtonIsVisible ) {
 		this.button.toggle( false );
+		this.onboardingPopup.toggle( false );
 		this.reloadButton.setDisabled( true );
 		if ( this.enabled ) {
 			this.setEnabled( true, false );
 		}
 	} else if ( isScreenWideEnough && !previewButtonIsVisible ) {
 		this.button.toggle( true );
+		this.onboardingPopup.toggle( true );
 		this.reloadButton.setDisabled( false );
 		// if user preference and realtime disable
 		if ( !this.enabled && this.getUserPref() ) {
