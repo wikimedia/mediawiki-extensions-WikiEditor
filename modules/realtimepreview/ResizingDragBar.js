@@ -70,8 +70,9 @@ ResizingDragBar.static.MAIN_MOUSE_BUTTON = 0;
  * @static
  * @property {number} The minimum pane size, in pixels.
  * Should be slightly more than the affordance length.
+ * This should match the max-width of the .ext-WikiEditor-twopanes-pane2 element.
  */
-ResizingDragBar.static.MIN_PANE_SIZE = 100;
+ResizingDragBar.static.MIN_PANE_SIZE = 248;
 
 /**
  * Get the pane that is resized by this bar (always the immediate prior sibling).
