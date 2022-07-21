@@ -7,6 +7,10 @@ var localStorage = require( 'mediawiki.storage' ).local;
  * @class
  */
 function OnboardingPopup() {
+	OnboardingPopup.super.call( this, {
+		classes: [ 'ext-WikiEditor-realtimepreview-onboarding' ]
+	} );
+
 	this.localStorageName = 'WikiEditor-RealtimePreview-onboarding-dismissed';
 	if ( localStorage.get( this.localStorageName ) ) {
 		return;
@@ -53,9 +57,7 @@ function OnboardingPopup() {
 	} );
 
 	// Add the dot and popup to this widget.
-	this.$element = $( '<div>' )
-		.addClass( 'ext-WikiEditor-realtimepreview-onboarding' )
-		.append( $pulsatingDot, popup.$element );
+	this.$element.append( $pulsatingDot, popup.$element );
 }
 
 OO.inheritClass( OnboardingPopup, OO.ui.Widget );
