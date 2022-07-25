@@ -40,6 +40,7 @@ function ManualWidget( realtimePreview, reloadHoverButton ) {
 			if ( this.enabled ) {
 				this.doRealtimePreview();
 			}
+			mw.hook( 'ext.WikiEditor.realtimepreview.reloadManual' ).fire( this );
 		}.bind( realtimePreview )
 	} );
 	this.$element.append( this.$icon, $reloadLabel, $reloadButton );

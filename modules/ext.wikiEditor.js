@@ -269,5 +269,17 @@
 	mw.hook( 'ext.WikiEditor.realtimepreview.disable' ).add( function () {
 		logEditFeature( 'preview', 'preview-realtime-off' );
 	} );
+	mw.hook( 'ext.WikiEditor.realtimepreview.stop' ).add( function () {
+		logEditFeature( 'preview', 'preview-realtime-error-stopped' );
+	} );
+	mw.hook( 'ext.WikiEditor.realtimepreview.reloadError' ).add( function () {
+		logEditFeature( 'preview', 'preview-realtime-reload-error' );
+	} );
+	mw.hook( 'ext.WikiEditor.realtimepreview.reloadHover' ).add( function () {
+		logEditFeature( 'preview', 'preview-realtime-reload-hover' );
+	} );
+	mw.hook( 'ext.WikiEditor.realtimepreview.reloadManual' ).add( function () {
+		logEditFeature( 'preview', 'preview-realtime-reload-manual' );
+	} );
 
 }() );
