@@ -274,6 +274,7 @@ RealtimePreview.prototype.enableFeatureWhenScreenIsWideEnough = function () {
 RealtimePreview.prototype.showError = function ( $msg ) {
 	this.$previewNode.hide();
 	this.reloadButton.toggle( false );
+	this.manualWidget.toggle( false );
 	// There is no need for a default message because mw.Api.getErrorMessage() will
 	// always provide something (even for no network connection, server-side fatal errors, etc.).
 	this.errorLayout.setMessage( $msg );
@@ -285,8 +286,8 @@ RealtimePreview.prototype.showError = function ( $msg ) {
  * @param {number} time
  */
 RealtimePreview.prototype.checkResponseTimes = function ( time ) {
-	// Don't track response times if we're already in manual mode.
-	if ( this.inManualMode ) {
+	// Don't track response times if we're already in manual mode or an error is shown.
+	if ( this.inManualMode || this.errorLayout.isVisible() ) {
 		return;
 	}
 
@@ -358,6 +359,9 @@ RealtimePreview.prototype.doRealtimePreview = function ( forceUpdate ) {
 		if ( !this.errorLayout.isVisible() ) {
 			// Only re-show the reload button if no error message is currently showing.
 			this.reloadButton.toggle( true );
+		} else {
+			// Don't show both the error message and the manual-mode bar at the same time.
+			this.manualWidget.toggle( false );
 		}
 		this.manualWidget.setDisabled( false );
 		this.isPreviewing = false;
