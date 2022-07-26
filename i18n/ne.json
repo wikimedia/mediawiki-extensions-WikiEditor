@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bada Kaji",
 			"Bhawani Gautam",
 			"NehalDaveND",
 			"पर्वत सुबेदी",
@@ -40,10 +41,10 @@
 	"wikieditor-toolbar-file-format": "स्वरूप:",
 	"wikieditor-toolbar-file-format-none": "कुनै पनि होइन",
 	"wikieditor-toolbar-tool-file-insert": "थप्ने",
-	"wikieditor-toolbar-tool-file-cancel": "रद्द गर्ने",
+	"wikieditor-toolbar-tool-file-cancel": "रद्द गर्नुहोस्",
 	"wikieditor-toolbar-tool-file-upload": "उर्ध्वभरण गर्नुहोस्",
 	"wikieditor-toolbar-tool-reference": "सन्दर्भ",
-	"wikieditor-toolbar-tool-reference-cancel": "रद्द गर्ने",
+	"wikieditor-toolbar-tool-reference-cancel": "रद्द गर्नुहोस्",
 	"wikieditor-toolbar-tool-reference-title": "सन्दर्भ थप्ने",
 	"wikieditor-toolbar-tool-reference-insert": "थप्ने",
 	"wikieditor-toolbar-tool-reference-text": "सन्दर्भ पाठ",
@@ -85,7 +86,7 @@
 	"wikieditor-toolbar-tool-table-example": "उदाहरण",
 	"wikieditor-toolbar-tool-table-preview": "पूर्वावलोकन",
 	"wikieditor-toolbar-tool-table-insert": "थप्ने",
-	"wikieditor-toolbar-tool-table-cancel": "रद्द गर्ने",
+	"wikieditor-toolbar-tool-table-cancel": "रद्द गर्नुहोस्",
 	"wikieditor-toolbar-tool-replace": "खाेज्ने र प्रतिस्थापन गर्ने",
 	"wikieditor-toolbar-tool-replace-title": "खाेज्ने र प्रतिस्थापन गर्ने",
 	"wikieditor-toolbar-tool-replace-search": "यसलाइ खोज्ने:",
