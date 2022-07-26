@@ -202,6 +202,7 @@ RealtimePreview.prototype.toggle = function ( saveUserPref ) {
 
 	// Restore current selection.
 	$textarea.textSelection( 'setSelection', { start: cursorPos[ 0 ], end: cursorPos[ 1 ] } );
+	$textarea.textSelection( 'scrollToCaretPosition' );
 	// Focus on whatever had focus before, in case it wasn't the textarea.
 	focusedElement.focus();
 
