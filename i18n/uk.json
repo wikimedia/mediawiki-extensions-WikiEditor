@@ -18,6 +18,7 @@
 			"Prima klasy4na",
 			"Vlad5250",
 			"Ата",
+			"Пан Хаунд",
 			"Тест"
 		]
 	},
@@ -213,5 +214,7 @@
 	"tag-wikieditor-description": "Редагування зроблено використовуючи [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (редактор вікітексту 2010 року)",
 	"wikieditor-realtimepreview-preview": "Попередній перегляд",
 	"wikieditor-realtimepreview-error": "Попередній перегляд не завантажується",
-	"wikieditor-realtimepreview-reload": "Перезавантажити"
+	"wikieditor-realtimepreview-reload": "Перезавантажити",
+	"wikieditor-realtimepreview-beta-label": "Перегляд у реальному часі",
+	"wikieditor-realtimepreview-onboarding-button": "Гаразд, зрозуміло"
 }
