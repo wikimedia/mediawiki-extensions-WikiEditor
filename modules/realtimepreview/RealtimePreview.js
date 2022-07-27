@@ -36,6 +36,7 @@ function RealtimePreview() {
 				this.manualWidget.toggle( true );
 			}
 			this.doRealtimePreview();
+			mw.hook( 'ext.WikiEditor.realtimepreview.reloadError' ).fire( this );
 		}.bind( this )
 	} );
 
@@ -53,6 +54,8 @@ function RealtimePreview() {
 			if ( this.enabled ) {
 				this.doRealtimePreview( true );
 			}
+			// Let other things happen after refreshing.
+			mw.hook( 'ext.WikiEditor.realtimepreview.reloadHover' ).fire( this );
 		}.bind( this )
 	} );
 
@@ -304,6 +307,7 @@ RealtimePreview.prototype.checkResponseTimes = function ( time ) {
 	if ( ( totalResponseTime / this.responseTimes.length ) > this.configData.realtimeDisableDuration ) {
 		this.inManualMode = true;
 		this.manualWidget.toggle( true );
+		mw.hook( 'ext.WikiEditor.realtimepreview.stop' ).fire( this );
 	}
 
 	this.responseTimes.shift();
