@@ -364,10 +364,9 @@ RealtimePreview.prototype.doRealtimePreview = function ( forceUpdate ) {
 		if ( !this.errorLayout.isVisible() ) {
 			// Only re-show the reload button if no error message is currently showing.
 			this.reloadButton.toggle( true );
-		} else {
-			// Don't show both the error message and the manual-mode bar at the same time.
-			this.manualWidget.toggle( false );
 		}
+		// Show the manual mode if applicable (but not if an error is displayed).
+		this.manualWidget.toggle( this.inManualMode && !this.errorLayout.isVisible() );
 		this.manualWidget.setDisabled( false );
 		this.isPreviewing = false;
 		this.checkResponseTimes( time );
