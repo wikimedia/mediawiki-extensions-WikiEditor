@@ -35,7 +35,7 @@ function RealtimePreview() {
 			if ( this.inManualMode ) {
 				this.manualWidget.toggle( true );
 			}
-			this.doRealtimePreview();
+			this.doRealtimePreview( true );
 			mw.hook( 'ext.WikiEditor.realtimepreview.reloadError' ).fire( this );
 		}.bind( this )
 	} );
