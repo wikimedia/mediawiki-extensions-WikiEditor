@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Hanberke",
-			"Macofe"
+			"Macofe",
+			"TayfunEt."
 		]
 	},
 	"wikieditor": "Giňeldilen wikitekst redaktirleme interfeýsi",
@@ -167,5 +168,6 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Ulanyjy ady</a> (<a href='#' title='$2:Username'>çekişme</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Boş ýer",
 	"wikieditor-toolbar-help-content-indent-syntax": "Adaty tekst<br />:Boş ýerli tekst<br />::Boş ýerli tekst",
-	"wikieditor-toolbar-help-content-indent-result": "Adaty tekst<dl><dd>Boş ýerli tekst<dl><dd>Boş ýerli tekst</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "Adaty tekst<dl><dd>Boş ýerli tekst<dl><dd>Boş ýerli tekst</dd></dl></dd></dl>",
+	"wikieditor-realtimepreview-onboarding-button": "Bolýar, düşündim"
 }
