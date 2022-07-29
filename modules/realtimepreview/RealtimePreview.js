@@ -31,10 +31,6 @@ function RealtimePreview() {
 	this.errorLayout = new ErrorLayout();
 	this.errorLayout.getReloadButton().connect( this, {
 		click: function () {
-			// Re-show the manual message after the error message is closed.
-			if ( this.inManualMode ) {
-				this.manualWidget.toggle( true );
-			}
 			this.doRealtimePreview( true );
 			mw.hook( 'ext.WikiEditor.realtimepreview.reloadError' ).fire( this );
 		}.bind( this )
