@@ -269,6 +269,9 @@
 	mw.hook( 'ext.WikiEditor.realtimepreview.disable' ).add( function () {
 		logEditFeature( 'preview', 'preview-realtime-off' );
 	} );
+	mw.hook( 'ext.WikiEditor.realtimepreview.loaded' ).add( function () {
+		logEditFeature( 'preview', 'preview-realtime-loaded' );
+	} );
 	mw.hook( 'ext.WikiEditor.realtimepreview.stop' ).add( function () {
 		logEditFeature( 'preview', 'preview-realtime-error-stopped' );
 	} );

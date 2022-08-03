@@ -372,6 +372,7 @@ RealtimePreview.prototype.doRealtimePreview = function ( forceUpdate ) {
 			this.previewPending = false;
 			this.doRealtimePreview();
 		}
+		mw.hook( 'ext.WikiEditor.realtimepreview.loaded' ).fire( this );
 	}.bind( this ) );
 };
 
