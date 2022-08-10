@@ -97,8 +97,12 @@ class Hooks implements
 		// Sample 6.25%
 		$samplingRate = $this->config->has( 'WMESchemaEditAttemptStepSamplingRate' ) ?
 			$this->config->get( 'WMESchemaEditAttemptStepSamplingRate' ) : 0.0625;
+
+		// (T314896) Convert whatever we've been given to a string of hex, as that's what EL needs
+		$hexValue = hash( 'md5', $sessionId, false );
+
 		$inSample = EventLogging::sessionInSample(
-			(int)( 1 / $samplingRate ), $sessionId
+			(int)( 1 / $samplingRate ), $hexValue
 		);
 		return $inSample;
 	}
