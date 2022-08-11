@@ -216,6 +216,9 @@
 	"wikieditor-realtimepreview-error": "Попередній перегляд не завантажується",
 	"wikieditor-realtimepreview-reload": "Перезавантажити",
 	"wikieditor-realtimepreview-beta-label": "Перегляд у реальному часі",
+	"wikieditor-realtimepreview-reload-title": "Перезавантажте панель попереднього перегляду в реальному часі",
+	"wikieditor-realtimepreview-manual": "Будь ласка, перезавантажте зараз, щоб вручну переглянути свої зміни.",
 	"wikieditor-realtimepreview-onboarding-title": "Перегляд у реальному часі",
+	"wikieditor-realtimepreview-onboarding-body": "Подивіться, як ваші правки виглядатимуть читачам, переглянувши їх у реальному часі.",
 	"wikieditor-realtimepreview-onboarding-button": "Гаразд, зрозуміло"
 }
