@@ -59,7 +59,10 @@ function RealtimePreview() {
 
 	// Manual mode widget.
 	this.manualWidget = new ManualWidget( this, this.reloadButton );
-	this.inManualMode = false;
+	// Set up a property for reducedMotion — useful for customising the UI message.
+	this.reducedMotion = window.matchMedia( '(prefers-reduced-motion: reduce)' ).matches;
+	// If the user has "prefers-reduced-motion" set, force us into manual mode.
+	this.inManualMode = this.reducedMotion;
 
 	this.twoPaneLayout.getPane2().append( this.manualWidget.$element, this.reloadButton.$element, this.$loadingBar, this.$previewNode, this.errorLayout.$element );
 	this.eventNames = 'change.realtimepreview input.realtimepreview cut.realtimepreview paste.realtimepreview';
