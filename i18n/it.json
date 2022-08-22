@@ -206,5 +206,11 @@
 	"wikieditor-toolbar-help-content-indent-result": "Testo normale<dl><dd>Testo indentato<dl><dd>Testo indentato</dd></dl></dd></dl>",
 	"wikieditor-realtimepreview-preview": "Anteprima",
 	"wikieditor-realtimepreview-error": "Impossibile visualizzare l'anteprima",
-	"wikieditor-realtimepreview-reload": "Ricarica"
+	"wikieditor-realtimepreview-reload": "Ricarica",
+	"wikieditor-realtimepreview-beta-label": "Anteprima in tempo reale",
+	"wikieditor-realtimepreview-beta-desc": "Mostra come appariranno le tue modifiche ai lettori in una finestra dell'[[mw:Special:MyLanguage/Extension:WikiEditor|editor di testo del 2010]].",
+	"wikieditor-realtimepreview-reload-title": "Ricarica la finestra dell'anteprima in tempo reale",
+	"wikieditor-realtimepreview-onboarding-title": "Anteprima in tempo reale",
+	"wikieditor-realtimepreview-onboarding-body": "Visualizza in anteprima come appariranno le tue modifiche ai lettori.",
+	"wikieditor-realtimepreview-onboarding-button": "Ok, capito"
 }

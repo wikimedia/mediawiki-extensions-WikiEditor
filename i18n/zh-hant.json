@@ -227,5 +227,9 @@
 	"wikieditor-realtimepreview-reload": "重新載入",
 	"wikieditor-realtimepreview-beta-label": "實時預覽",
 	"wikieditor-realtimepreview-beta-desc": "在[[mw:Special:MyLanguage/Extension:WikiEditor|2010年版編輯器]]檢視wikitext的變更會如何向讀者呈現。",
-	"wikieditor-realtimepreview-reload-title": "重新載入實時預覽窗格"
+	"wikieditor-realtimepreview-reload-title": "重新載入實時預覽窗格",
+	"wikieditor-realtimepreview-manual": "請現在重新載入來手動預覽您的編輯。",
+	"wikieditor-realtimepreview-onboarding-title": "即時預覽",
+	"wikieditor-realtimepreview-onboarding-body": "藉由即時預覽來查看您的編輯內容在讀者眼裡的模樣。",
+	"wikieditor-realtimepreview-onboarding-button": "好的，了解"
 }
