@@ -7,16 +7,17 @@
 			"Macofe",
 			"Y-M D",
 			"Adriendelucca",
-			"Amire80"
+			"Amire80",
+			"Huñvreüs"
 		]
 	},
 	"wikieditor": "Etrefas kemmañ wikitestenn klokaet",
-	"wikieditor-desc": "Poruchas a ra un etrefas kemmañ wikitestenn astennidik ha meur a arc'hwel all.",
+	"wikieditor-desc": "Pourchas a ra un etrefas kemmañ wikitestenn araoket hag astennidik.",
 	"wikieditor-wikitext-tab": "Wikitestenn",
 	"wikieditor-loading": "O kargañ...",
 	"wikieditor-toolbar": "Barrenn ostilhoù kemmañ",
 	"wikieditor-toolbar-desc": "Barrenn ostilhoù kemmañ aesoc'h da implijout",
-	"wikieditor-toolbar-preference": "Gweredekaat ar varrenn ostilhoù kemmañ gwellaet",
+	"wikieditor-toolbar-preference": "Gweredekaat ar varrenn ostilhoù kemmañ",
 	"wikieditor-toolbar-loading": "O kargañ...",
 	"wikieditor-toolbar-tool-bold": "Tev",
 	"wikieditor-toolbar-tool-bold-example": "Testenn dev",
