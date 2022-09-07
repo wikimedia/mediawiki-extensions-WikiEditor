@@ -10,6 +10,7 @@
 			"हिमाल सुबेदी"
 		]
 	},
+	"wikieditor": "उन्नत विकिटेक्स्ट सम्पादन इन्टरफेस",
 	"wikieditor-wikitext-tab": "विकिपाठ",
 	"wikieditor-toolbar": "सम्पादन उपकरणपट्टी",
 	"wikieditor-toolbar-preference": "सम्पादन उपकरणपट्टी सक्षम गर्नुहोस्",
@@ -24,6 +25,7 @@
 	"wikieditor-toolbar-tool-link": "कडीहरू",
 	"wikieditor-toolbar-tool-link-title": "आन्तरिक कडी",
 	"wikieditor-toolbar-tool-link-int": "विकि पृष्ठमा",
+	"wikieditor-toolbar-tool-link-int-text": "प्रदर्शन गर्न पाठ:",
 	"wikieditor-toolbar-tool-link-cancel": "रद्द गर्नुहोस्",
 	"wikieditor-toolbar-tool-link-int-target-status-exists": "पृष्ठ उपलब्ध छ",
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "पृष्ठ उपलब्ध छैन",
@@ -152,6 +154,7 @@
 	"wikieditor-realtimepreview-preview": "पूर्वावलोकन",
 	"wikieditor-realtimepreview-reload": "पुन: लोड गर्नुहोस्",
 	"wikieditor-realtimepreview-beta-label": "वास्तविक समय पूर्वावलोकन",
+	"wikieditor-realtimepreview-beta-desc": "[[mw:Special:MyLanguage/Extension:WikiEditor|२०१० सम्पादक]] भित्र विकिटेक्स्ट परिवर्तनहरू पाठकहरूलाई कसरी देखा पर्नेछ हेर्नुहोस्।",
 	"wikieditor-realtimepreview-reload-title": "वास्तविक समय पूर्वावलोकन फलक पुन: लोड गर्नुहोस्",
 	"wikieditor-realtimepreview-manual": "तपाईंका सम्पादनहरू म्यानुअल रूपमा पूर्वावलोकन गर्न कृपया अहिले पुन: लोड गर्नुहोस्।",
 	"wikieditor-realtimepreview-onboarding-title": "वास्तविक समय पूर्वावलोकन",

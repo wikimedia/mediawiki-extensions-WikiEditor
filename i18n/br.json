@@ -103,6 +103,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! talbenn 1\n! talbenn 2\n! talbenn 3\n|-\n| linenn 1, kellig 1\n| linenn 1, kellig 2\n| linenn 1, kellig 3\n|-\n| linenn 2, kellig 1\n| linenn 2, kellig 2\n| linenn 2, kellig 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Tenstenn er gellig",
 	"wikieditor-toolbar-tool-table-example-header": "Testenn an talbenn",
+	"wikieditor-toolbar-tool-table-example-caption": "Testenn an alc’hwez",
 	"wikieditor-toolbar-tool-table-title": "Ensoc'hañ un daolenn",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Linennoù",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Bannoù",
