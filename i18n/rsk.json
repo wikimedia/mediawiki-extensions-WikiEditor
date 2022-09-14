@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Keresturec"
+		]
+	},
+	"wikieditor": "Напредни интефейс за ушорйованє викитекста",
+	"wikieditor-desc": "Обезпечує напредни, преширююци интерфейс за ушорйованє викитекста",
+	"wikieditor-wikitext-tab": "Викитекст",
+	"wikieditor-toolbar": "Панел зоз опциями за ушорйованє",
+	"wikieditor-toolbar-desc": "Панел на боку за ушорйованє зоз злєпшанима опциями хаснованя",
+	"wikieditor-toolbar-preference": "Уключ панел з опциями за ушорйованє",
+	"wikieditor-toolbar-preference-help": "Дзекеди ше наволує „ушорйовал  викитекста зоз 2010. року”.",
+	"wikieditor-toolbar-tool-bold": "Почарнєте",
+	"wikieditor-toolbar-tool-bold-example": "Почарнєти текст",
+	"wikieditor-toolbar-tool-italic": "Италика",
+	"wikieditor-toolbar-tool-italic-example": "Италика текст",
+	"wikieditor-toolbar-tool-ilink": "Нукашня вяза",
+	"wikieditor-toolbar-tool-ilink-example": "Наслов вяза",
+	"wikieditor-toolbar-tool-xlink": "Вонкашня вяза (зоз префиксом http://)",
+	"wikieditor-toolbar-tool-xlink-example": "http://www.example.com наслов вязи",
+	"wikieditor-toolbar-tool-link": "Вяза",
+	"wikieditor-toolbar-tool-link-title": "Уложиц вязу",
+	"wikieditor-toolbar-tool-link-int": "На вики бок",
+	"wikieditor-toolbar-tool-link-int-target": "Цильни бок або URL:",
+	"wikieditor-toolbar-tool-link-int-target-tooltip": "Наслов бока або URL",
+	"wikieditor-toolbar-tool-link-int-text": "Текст за приказ:",
+	"wikieditor-toolbar-tool-link-int-text-tooltip": "Текст хтори ше ма приказац",
+	"wikieditor-toolbar-tool-link-ext": "Спрам вонкашнього веб боку",
+	"wikieditor-toolbar-tool-link-ext-target": "URL адреса вязи:",
+	"wikieditor-toolbar-tool-link-ext-text": "Текст вязи:",
+	"wikieditor-toolbar-tool-link-insert": "Уложиц вязу",
+	"wikieditor-toolbar-tool-link-cancel": "Одкаж",
+	"wikieditor-toolbar-tool-link-int-target-status-exists": "Тот бок еґзистує на {{SITENAME}}",
+	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Тот бок нє еґзистує на {{SITENAME}}"
+}
