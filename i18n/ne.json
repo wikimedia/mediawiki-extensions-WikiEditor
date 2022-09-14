@@ -10,6 +10,7 @@
 			"बडा काजी"
 		]
 	},
+	"wikieditor": "उन्नत विकिटेक्स्ट सम्पादन इन्टरफेस",
 	"wikieditor-wikitext-tab": "विकिपाठ",
 	"wikieditor-toolbar": "सम्पादन उपकरणपट्टी",
 	"wikieditor-toolbar-preference": "सम्पादन उपकरणपट्टी सक्षम गर्नुहोस्",
@@ -24,6 +25,7 @@
 	"wikieditor-toolbar-tool-link": "कडीहरू",
 	"wikieditor-toolbar-tool-link-title": "आन्तरिक कडी",
 	"wikieditor-toolbar-tool-link-int": "विकि पृष्ठमा",
+	"wikieditor-toolbar-tool-link-int-text": "प्रदर्शन गर्न पाठ:",
 	"wikieditor-toolbar-tool-link-cancel": "रद्द गर्नुहोस्",
 	"wikieditor-toolbar-tool-link-int-target-status-exists": "पृष्ठ उपलब्ध छ",
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "पृष्ठ उपलब्ध छैन",
