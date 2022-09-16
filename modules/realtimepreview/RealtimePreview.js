@@ -104,6 +104,7 @@ RealtimePreview.prototype.getToolbarButton = function ( context ) {
 	} );
 	this.button.connect( this, { change: [ this.toggle, true ] } );
 	if ( !this.isScreenWideEnough() ) {
+		this.enabled = false;
 		this.button.toggle( false );
 		this.onboardingPopup.toggle( false );
 	}
