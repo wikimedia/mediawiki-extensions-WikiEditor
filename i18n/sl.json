@@ -188,5 +188,9 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Uporabniško ime'>Uporabniško ime</a> (<a href='#' title='$2:Uporabniško ime'>pogovor</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Zamik",
 	"wikieditor-toolbar-help-content-indent-syntax": "Navadno besedilo<br />:Zamaknjeno besedilo<br />::Še bolj zamaknjeno besedilo",
-	"wikieditor-toolbar-help-content-indent-result": "Navadno besedilo <dl><dd> Zamaknjeno besedilo <dl><dd> Še bolj zamaknjeno besedilo </dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "Navadno besedilo <dl><dd> Zamaknjeno besedilo <dl><dd> Še bolj zamaknjeno besedilo </dd></dl></dd></dl>",
+	"wikieditor-realtimepreview-beta-label": "Sprotni predogled",
+	"wikieditor-realtimepreview-beta-desc": "V [[mw:Special:MyLanguage/Extension:WikiEditor|Urejevalniku 2010]] si oglejte, kako bo vikibesedilo videti za bralce.",
+	"wikieditor-realtimepreview-reload-title": "Znova naloži podokno s sprotnim predogledom",
+	"wikieditor-realtimepreview-onboarding-title": "Sprotni predogled"
 }
