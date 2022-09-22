@@ -25,7 +25,8 @@
 			"Stjn",
 			"Temuri rajavi",
 			"Vlad5250",
-			"Александр Сигачёв"
+			"Александр Сигачёв",
+			"WindEwriX"
 		]
 	},
 	"wikieditor": "Расширенный интерфейс редактирования вики-текста",
@@ -71,7 +72,7 @@
 	"wikieditor-toolbar-file-caption": "Подпись:",
 	"wikieditor-toolbar-file-alt": "Альтернативный текст:",
 	"wikieditor-toolbar-file-alt-help": "Вы можете использовать это необязательное поле, чтобы написать текстовое описание для людей, которые не могут видеть файл. Описание должно быть достаточным, чтобы они могли понять цель и информацию, предоставляемую медиа-элементом. Это жизненно важно для слепых пользователей и других людей, использующих программы чтения с экрана или текстовые браузеры.",
-	"wikieditor-toolbar-file-alt-help-label": "(Показать помощь)",
+	"wikieditor-toolbar-file-alt-help-label": "(Показать справку)",
 	"wikieditor-toolbar-file-size": "Размер:",
 	"wikieditor-toolbar-file-float": "Выравнивание:",
 	"wikieditor-toolbar-file-default": "(по умолчанию)",
@@ -224,5 +225,8 @@
 	"wikieditor-realtimepreview-beta-label": "Предпросмотр в реальном времени",
 	"wikieditor-realtimepreview-beta-desc": "Посмотрите, как изменения вики-разметки будут показываться читателям в [[mw:Special:MyLanguage/Extension:WikiEditor|редакторе 2010]].",
 	"wikieditor-realtimepreview-reload-title": "Перезагрузить панель предварительного просмотра",
-	"wikieditor-realtimepreview-manual": "Пожалуйста, перезагрузите сейчас, чтобы вручную совершить предпросмотр ваших правок."
+	"wikieditor-realtimepreview-manual": "Пожалуйста, перезагрузите сейчас, чтобы вручную совершить предпросмотр ваших правок.",
+	"wikieditor-realtimepreview-onboarding-title": "Предпросмотр в реальном времени",
+	"wikieditor-realtimepreview-onboarding-body": "Проверьте, как читатели будут видеть ваши правки, просмотрев их в режиме реального времени.",
+	"wikieditor-realtimepreview-onboarding-button": "Окей, понятно"
 }
