@@ -126,5 +126,7 @@
 	"wikieditor-toolbar-tool-replace-invalidregex": "Регуларни вираз хтори сце унєсли нє важаци: $1",
 	"wikieditor-toolbar-tool-replace-word": "Поклопйованє зоз цалим словом",
 	"wikieditor-toolbar-section-characters": "Окремни знаки",
-	"wikieditor-toolbar-section-help": "Помоц"
+	"wikieditor-toolbar-section-help": "Помоц",
+	"tag-wikieditor-description": "Ушорйованє зробене зоз хаснованьом [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (редактор викитексту 2010)",
+	"wikieditor-realtimepreview-preview": "Предходни прегляд"
 }
