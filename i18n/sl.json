@@ -8,7 +8,7 @@
 		]
 	},
 	"wikieditor": "Napredni vmesnik za urejanje vikibesedila",
-	"wikieditor-desc": "Omogoča napreden, razširljiv vmesnik za urejanje wikibesedila",
+	"wikieditor-desc": "Zagotavlja napreden, razširljiv vmesnik za urejanje vikibesedila",
 	"wikieditor-wikitext-tab": "Vikibesedilo",
 	"wikieditor-toolbar": "Urejevalna orodna vrstica",
 	"wikieditor-toolbar-desc": "Urejevalna orodna vrstica z večjo uporabnostjo",
@@ -90,7 +90,7 @@
 	"wikieditor-toolbar-tool-subscript-example": "Podpisano besedilo",
 	"wikieditor-toolbar-group-insert": "Vstavi",
 	"wikieditor-toolbar-tool-gallery": "Galerija slik",
-	"wikieditor-toolbar-tool-gallery-example": "Primer 1.jpg|Napis 1\nPrimer 2.jpg|Napis 2",
+	"wikieditor-toolbar-tool-gallery-example": "Zgled 1.jpg|Napis 1\nZgled 2.jpg|Napis 2",
 	"wikieditor-toolbar-tool-newline": "Nova vrstica",
 	"wikieditor-toolbar-tool-table": "Tabela",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! glava 1\n! glava 2\n! glava 3\n|-\n| vrstica 1, celica 1\n| vrstica 1, celica 2\n| vrstica 1, celica 3\n|-\n| vrstica 2, celica 1\n| vrstica 2, celica 2\n| vrstica 2, celica 3",
@@ -189,8 +189,13 @@
 	"wikieditor-toolbar-help-content-indent-description": "Zamik",
 	"wikieditor-toolbar-help-content-indent-syntax": "Navadno besedilo<br />:Zamaknjeno besedilo<br />::Še bolj zamaknjeno besedilo",
 	"wikieditor-toolbar-help-content-indent-result": "Navadno besedilo <dl><dd> Zamaknjeno besedilo <dl><dd> Še bolj zamaknjeno besedilo </dd></dl></dd></dl>",
+	"wikieditor-realtimepreview-preview": "Predogled",
+	"wikieditor-realtimepreview-error": "Predogled se ne nalaga",
+	"wikieditor-realtimepreview-reload": "Naloži znova",
 	"wikieditor-realtimepreview-beta-label": "Sprotni predogled",
 	"wikieditor-realtimepreview-beta-desc": "V [[mw:Special:MyLanguage/Extension:WikiEditor|Urejevalniku 2010]] si oglejte, kako bo vikibesedilo videti za bralce.",
 	"wikieditor-realtimepreview-reload-title": "Znova naloži podokno s sprotnim predogledom",
-	"wikieditor-realtimepreview-onboarding-title": "Sprotni predogled"
+	"wikieditor-realtimepreview-manual": "Za ročno predogledovanje svojih urejanj stran zdaj znova naložite.",
+	"wikieditor-realtimepreview-onboarding-title": "Sprotni predogled",
+	"wikieditor-realtimepreview-onboarding-body": "Ogledujte si sproti, kako bodo vaša urejanja videti za bralce."
 }
