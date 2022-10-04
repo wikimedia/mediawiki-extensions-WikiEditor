@@ -12,7 +12,8 @@
 			"Protnet",
 			"ZaDiak",
 			"Απεργός",
-			"Περίεργος"
+			"Περίεργος",
+			"Norhorn"
 		]
 	},
 	"wikieditor": "Προηγμένη διεπαφή επεξεργασίας κειμένου wiki",
@@ -55,11 +56,14 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Εσωτερικός σύνδεσμος",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Εξωτερικός σύνδεσμος",
 	"wikieditor-toolbar-tool-link-empty": "Δεν εισάγατε τίποτα για σύνδεση σε αυτό.",
-	"wikieditor-toolbar-tool-file": "Ενσωματωμένο αρχείο",
+	"wikieditor-toolbar-tool-file": "Εικόνες και πολυμέσα",
 	"wikieditor-toolbar-tool-file-example": "Paradeigma.jpg",
 	"wikieditor-toolbar-tool-file-title": "Εισαγωγή αρχείου",
 	"wikieditor-toolbar-file-target": "Όνομα αρχείου:",
 	"wikieditor-toolbar-file-caption": "Λεζάντα",
+	"wikieditor-toolbar-file-alt": "Εναλλακτικό κείμενο:",
+	"wikieditor-toolbar-file-alt-help": "Μπορείτε να χρησιμοποιήσετε αυτό το προαιρετικό πεδίο για να γράψετε μια περιγραφή κειμένου για άτομα που δεν μπορούν να δουν το αρχείο.\nΗ περιγραφή πρέπει να είναι ικανή για να κατανοήσουν τον σκοπό και τις πληροφορίες που δίνονται από το πολυμέσο. Αυτό είναι ζωτικής σημασίας για τυφλούς χρήστες και άλλα άτομα που χρησιμοποιούν λογισμικό ανάγνωσης οθόνης ή προγράμματα περιήγησης μόνο κειμένου.",
+	"wikieditor-toolbar-file-alt-help-label": "(Εμφάνιση βοήθειας)",
 	"wikieditor-toolbar-file-size": "Μέγεθος:",
 	"wikieditor-toolbar-file-float": "Ευθυγράμμιση:",
 	"wikieditor-toolbar-file-default": "(προεπιλεγμένο)",
@@ -108,6 +112,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! κεφαλίδα 1\n! κεφαλίδα 2\n! κεφαλίδα 3\n|-\n| γραμμή 1, κελί 1\n| γραμμή 1, κελί 2\n| γραμμή 1, κελί 3\n|-\n| γραμμή 2, κελί 1\n| γραμμή 2, κελί 2\n| γραμμή 2, κελί 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Κείμενο κελιού",
 	"wikieditor-toolbar-tool-table-example-header": "Κείμενο κεφαλίδας",
+	"wikieditor-toolbar-tool-table-example-caption": "Κείμενο λεζάντας",
 	"wikieditor-toolbar-tool-table-title": "Εισαγωγή πίνακα",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Σειρές",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Στήλες",
