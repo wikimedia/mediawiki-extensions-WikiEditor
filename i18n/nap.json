@@ -4,6 +4,7 @@
 			"C.R.",
 			"Candalua",
 			"Chelin",
+			"Finizio",
 			"Ruthven"
 		]
 	},
@@ -114,7 +115,7 @@
 	"wikieditor-toolbar-tool-replace-replace": "Sostituisce cu:",
 	"wikieditor-toolbar-tool-replace-case": "Maiuscole/minuscole",
 	"wikieditor-toolbar-tool-replace-regex": "Tratta 'a stringa 'e ricerca comm'a n'espressione revolare",
-	"wikieditor-toolbar-tool-replace-button-findnext": "Cirche 'o prossemo",
+	"wikieditor-toolbar-tool-replace-button-findnext": "Ascia chillo aroppo",
 	"wikieditor-toolbar-tool-replace-button-replace": "Sostituisce",
 	"wikieditor-toolbar-tool-replace-button-replaceall": "Sostituisce tutte",
 	"wikieditor-toolbar-tool-replace-close": "Chiure",
