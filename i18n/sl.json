@@ -191,6 +191,6 @@
 	"wikieditor-toolbar-help-content-indent-description": "Zamik",
 	"wikieditor-toolbar-help-content-indent-syntax": "Navadno besedilo<br />:Zamaknjeno besedilo<br />::Še bolj zamaknjeno besedilo",
 	"wikieditor-toolbar-help-content-indent-result": "Navadno besedilo <dl><dd> Zamaknjeno besedilo <dl><dd> Še bolj zamaknjeno besedilo </dd></dl></dd></dl>",
-	"tag-wikieditor-description": "Urejanje, opravljeno z [[mw:Special:MyLanguage/Extension:WikiEditor|WikiUrejevalnikom]] (urejevalnik vikibesedila 2010)",
+	"tag-wikieditor-description": "Urejanje, opravljeno z [[mw:Special:MyLanguage/Extension:WikiEditor|VikiUrejevalnikom]] (urejevalnik vikibesedila 2010)",
 	"wikieditor-realtimepreview-preview": "Predogled"
 }
