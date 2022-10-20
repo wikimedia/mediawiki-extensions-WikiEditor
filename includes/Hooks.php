@@ -162,7 +162,10 @@ class Hooks implements
 			$data['user_class'] = 'IP';
 		}
 
-		return EventLogging::logEvent( 'EditAttemptStep', 18530416, $data );
+		// NOTE: The 'EditAttemptStep' event was migrated to the Event Platform and is no longer
+		//  using the legacy EventLogging schema from metawiki. $revId is actually overriden by
+		//  the EventLoggingSchemas extension attribute in WikimediaEvents/extension.json.
+		return EventLogging::logEvent( 'EditAttemptStep', -1, $data );
 	}
 
 	/**
@@ -209,7 +212,11 @@ class Hooks implements
 			$data['bucket'] = $bucket;
 		}
 
-		return EventLogging::logEvent( 'VisualEditorFeatureUse', 21199762, $data );
+		// NOTE: The 'VisualEditorFeatureUse' event was migrated to the Event Platform and is no
+		//  longer using the legacy EventLogging schema from metawiki. $revId is actually
+		//  overridden by the EventLoggingSchemas extension attribute in
+		//  WikimediaEvents/extension.json.
+		return EventLogging::logEvent( 'VisualEditorFeatureUse', -1, $data );
 	}
 
 	/**
