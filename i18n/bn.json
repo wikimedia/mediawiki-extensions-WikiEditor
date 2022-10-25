@@ -205,8 +205,10 @@
 	"wikieditor-realtimepreview-error": "প্রাকদর্শন লোড হচ্ছে না",
 	"wikieditor-realtimepreview-reload": "পুনঃলোড করুন",
 	"wikieditor-realtimepreview-beta-label": "তাৎক্ষণিক প্রাকদর্শন",
+	"wikieditor-realtimepreview-beta-desc": "[[mw:Special:MyLanguage/Extension:WikiEditor|২০১০ সম্পাদকের]] ভিতর উইকিপাঠ্যের পরিবর্তন পাঠকদের কাছে কীরূপে প্রদর্শিত হবে তা দেখুন।",
 	"wikieditor-realtimepreview-reload-title": "তাৎক্ষণিক প্রাকদর্শন ফলকটি পুনঃলোড করুন",
 	"wikieditor-realtimepreview-manual": "হাতে দিয়ে আপনার সম্পাদনার প্রাকদর্শন দেখতে দয়া করে এখনই পুনঃলোড করুন।",
 	"wikieditor-realtimepreview-onboarding-title": "তাৎক্ষণিক প্রাকদর্শন",
+	"wikieditor-realtimepreview-onboarding-body": "আপনার সম্পাদনা পাঠকদের কাছে কেমনভাবে প্রদর্শিত হবে তা তাৎক্ষণিকভাবে দেখুন।",
 	"wikieditor-realtimepreview-onboarding-button": "ঠিক আছে, বুঝেছি"
 }
