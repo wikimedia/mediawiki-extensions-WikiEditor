@@ -112,6 +112,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! заглавље 1\n! заглавље 2\n! заглавље 3\n|-\n| ред 1, ћелија 1\n| ред 1, ћелија 2\n| ред 1, ћелија 3\n|-\n| ред 2, ћелија 1\n| ред 2, ћелија 2\n| ред 2, ћелија 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Текст ћелије",
 	"wikieditor-toolbar-tool-table-example-header": "Текст наслова",
+	"wikieditor-toolbar-tool-table-example-caption": "Описни текст",
 	"wikieditor-toolbar-tool-table-title": "Уметање табеле",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Редова",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Колона",
@@ -208,6 +209,9 @@
 	"wikieditor-toolbar-help-content-indent-description": "Увлачење",
 	"wikieditor-toolbar-help-content-indent-syntax": "Обичан текст<br />:Увучен текст<br />::Увучен текст",
 	"wikieditor-toolbar-help-content-indent-result": "Обичан текст<dl><dd>Увучен текст<dl><dd>Увучен текст</dd></dl></dd></dl>",
+	"tag-wikieditor-description": "Измене направљене [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]]-ом из 2010",
 	"wikieditor-realtimepreview-preview": "Преглед",
-	"wikieditor-realtimepreview-reload": "Поново учитај"
+	"wikieditor-realtimepreview-error": "Претпреглед се не учитава",
+	"wikieditor-realtimepreview-reload": "Поново учитај",
+	"wikieditor-realtimepreview-onboarding-button": "У реду, разумем"
 }
