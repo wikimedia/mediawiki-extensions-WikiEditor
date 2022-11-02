@@ -18,7 +18,8 @@
 			"Siebrand",
 			"Sjoerddebruin",
 			"Tvdm",
-			"Wiki13"
+			"Wiki13",
+			"Vistaus"
 		]
 	},
 	"wikieditor": "Uitgebreide tekstverwerker voor wikitekst",
@@ -64,6 +65,7 @@
 	"wikieditor-toolbar-file-target": "Bestandsnaam:",
 	"wikieditor-toolbar-file-caption": "Bijschrift:",
 	"wikieditor-toolbar-file-alt": "Alternatieve tekst:",
+	"wikieditor-toolbar-file-alt-help": "U kunt dit optionele veld gebruiken om een tekstbeschrijving te schrijven voor mensen die het bestand niet kunnen zien.\nDe beschrijving moet voldoende zijn om het doel en de informatie van het media-item te begrijpen. Dit is van vitaal belang voor blinde gebruikers en andere mensen die schermlezersoftware of tekstbrowsers gebruiken.",
 	"wikieditor-toolbar-file-alt-help-label": "(Hulp weergeven)",
 	"wikieditor-toolbar-file-size": "Grootte:",
 	"wikieditor-toolbar-file-float": "Uitlijning:",
@@ -113,6 +115,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! kop 1\n! kop 2\n! kop 3\n|-\n| rij 1, cel 1\n| rij 1, cel 2\n| rij 1, cel 3\n|-\n| rij 2, cel 1\n| rij 2, cel 2\n| rij 2, cel 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Celtekst",
 	"wikieditor-toolbar-tool-table-example-header": "Koptekst",
+	"wikieditor-toolbar-tool-table-example-caption": "Bijschrift",
 	"wikieditor-toolbar-tool-table-title": "Tabel invoegen",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Rijen",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Kolommen",
@@ -123,6 +126,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Voorvertoning",
 	"wikieditor-toolbar-tool-table-insert": "Invoegen",
 	"wikieditor-toolbar-tool-table-cancel": "Annuleren",
+	"wikieditor-toolbar-tool-table-example-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec purus diam. Sed aliquam imperdiet nunc quis lacinia. Donec rutrum consectetur placerat. Sed volutpat neque non purus faucibus id ultricies enim euismod.",
 	"wikieditor-toolbar-tool-table-toomany": "Het invoegen van een tabel met meer dan $1 {{PLURAL:$1|cel|cellen}} is niet mogelijk met dit dialoogvenster.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "U hebt een ongeldig aantal regels of kolommen opgegeven.",
 	"wikieditor-toolbar-tool-table-zero": "U kunt geen tabel invoegen zonder regels of kolommen.",
@@ -205,5 +209,7 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Gebruikersnaam</a> (<a href='#' title='$2:Username'>overleg</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Inspringen",
 	"wikieditor-toolbar-help-content-indent-syntax": "Normale tekst<br />:Ingesprongen tekst<br />::Ingesprongen tekst",
-	"wikieditor-toolbar-help-content-indent-result": "Normale tekst<dl><dd>Ingesprongen tekst<dl><dd>Ingesprongen tekst</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "Normale tekst<dl><dd>Ingesprongen tekst<dl><dd>Ingesprongen tekst</dd></dl></dd></dl>",
+	"tag-wikieditor-description": "Bewerking gemaakt met [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (wikitekstbewerker uit 2010)",
+	"wikieditor-realtimepreview-preview": "Voorvertoning"
 }
