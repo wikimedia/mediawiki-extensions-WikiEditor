@@ -35,7 +35,7 @@
 	"wikieditor-toolbar-tool-link-insert": "Vstavi povezavo",
 	"wikieditor-toolbar-tool-link-cancel": "Prekliči",
 	"wikieditor-toolbar-tool-link-int-target-status-exists": "Stran obstaja na {{SITENAME}}",
-	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Stran ne obstaja na {{SITENAME}}",
+	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Ta stran v projektu {{SITENAME}} ne obstaja",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Navedeni naslov ni veljaven",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Zunanja povezava",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Ta stran ni stran z vsebino, ampak seznam tem s podobnimi imeni",
