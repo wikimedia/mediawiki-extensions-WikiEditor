@@ -19,7 +19,8 @@
 			"علاء",
 			"محمد أحمد عبد الفتاح",
 			"Asma",
-			"Michel Bakni"
+			"Michel Bakni",
+			"FShbib"
 		]
 	},
 	"wikieditor": "الواجهة المتقدمة لتعديل نص ويكي",
@@ -68,6 +69,7 @@
 	"wikieditor-toolbar-file-target": "اسم الملف:",
 	"wikieditor-toolbar-file-caption": "التعليق:",
 	"wikieditor-toolbar-file-alt": "نص بديل:",
+	"wikieditor-toolbar-file-alt-help": "يمكنك استخدام هذا الحقل الاختياري لكتابة وصف نصي للأشخاص الذين لا يستطيعون رؤية الملف.! لا! يجب أن يكون الوصف كافياً لهم لفهم الغرض والمعلومات التي يوفرها عنصر الوسائط. يعد هذا أمرًا حيويًا للمستخدمين المكفوفين وغيرهم من الأشخاص الذين يستخدمون برامج قراءة الشاشة أو المتصفحات النصية فقط.",
 	"wikieditor-toolbar-file-alt-help-label": "(أظهر المساعدة)",
 	"wikieditor-toolbar-file-size": "الحجم:",
 	"wikieditor-toolbar-file-float": "ناحية:",
@@ -128,7 +130,7 @@
 	"wikieditor-toolbar-tool-table-preview": "معاينة",
 	"wikieditor-toolbar-tool-table-insert": "أدرج",
 	"wikieditor-toolbar-tool-table-cancel": "إلغاء",
-	"wikieditor-toolbar-tool-table-toomany": "إدراج جدول بأكثر من $1 {{PLURAL:$1|خانة}} غير ممكن هنا.",
+	"wikieditor-toolbar-tool-table-toomany": "إدراج جدول بأكثر من $1 {{PLURAL:$1| خلية | خلايا}} غير ممكنة مع هذا الحوار.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "لم تدخل رقما صحيحا للصفوف أو الأعمدة.",
 	"wikieditor-toolbar-tool-table-zero": "لا يمكن أن تدرج جدولا بلا صفوف أو أعمدة.",
 	"wikieditor-toolbar-tool-replace": "ابحث واستبدل",
