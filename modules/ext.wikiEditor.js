@@ -15,7 +15,7 @@
 		console.log.apply( console, arguments );
 	}
 
-	function sampledLogger( schema, callback ) {
+	function sampledLogger( schema, callback, transformCallback ) {
 		var trackdebug = !!mw.util.getParamValue( 'trackdebug' );
 		return function () {
 			if ( mw.loader.getState( 'ext.eventLogging' ) === null ) {
@@ -41,8 +41,17 @@
 
 				if ( trackdebug ) {
 					log( schema, data );
-				} else {
-					mw.eventLog.logEvent( schema, data );
+
+					return;
+				}
+
+				mw.eventLog.logEvent( schema, data );
+
+				// T309013: If applicable, log via the Metrics Platform:
+				if ( transformCallback ) {
+					var transformed = transformCallback.apply( this, [ data ] );
+
+					mw.eventLog.dispatch( transformed[ 0 ], transformed[ 1 ] );
 				}
 			} );
 		};
@@ -66,54 +75,97 @@
 		saveFailure: 'save_failure'
 	};
 
-	var logEditEvent = sampledLogger( 'EditAttemptStep', function ( inSample, action, data ) {
-		var actionPrefix = actionPrefixMap[ action ] || action;
+	var logEditEvent = sampledLogger(
+		'EditAttemptStep',
+		function ( inSample, action, data ) {
+			var actionPrefix = actionPrefixMap[ action ] || action;
 
-		/* eslint-disable camelcase */
-		data = $.extend( {
-			version: 1,
-			action: action,
-			is_oversample: !inSample,
-			editing_session_id: editingSessionId,
-			page_token: mw.user.getPageviewToken(),
-			session_token: mw.user.sessionId(),
-			editor_interface: 'wikitext',
-			platform: 'desktop', // FIXME T249944
-			integration: 'page',
-			page_id: mw.config.get( 'wgArticleId' ),
-			page_title: mw.config.get( 'wgPageName' ),
-			page_ns: mw.config.get( 'wgNamespaceNumber' ),
-			revision_id: mw.config.get( 'wgRevisionId' ) || +$( 'input[name=parentRevId]' ).val() || 0,
-			user_id: mw.user.getId(),
-			user_editcount: mw.config.get( 'wgUserEditCount', 0 ),
-			mw_version: mw.config.get( 'wgVersion' )
-		}, data );
+			/* eslint-disable camelcase */
+			data = $.extend( {
+				version: 1,
+				action: action,
+				is_oversample: !inSample,
+				editing_session_id: editingSessionId,
+				page_token: mw.user.getPageviewToken(),
+				session_token: mw.user.sessionId(),
+				editor_interface: 'wikitext',
+				platform: 'desktop', // FIXME T249944
+				integration: 'page',
+				page_id: mw.config.get( 'wgArticleId' ),
+				page_title: mw.config.get( 'wgPageName' ),
+				page_ns: mw.config.get( 'wgNamespaceNumber' ),
+				revision_id: mw.config.get( 'wgRevisionId' ) || +$( 'input[name=parentRevId]' ).val() || 0,
+				user_id: mw.user.getId(),
+				user_editcount: mw.config.get( 'wgUserEditCount', 0 ),
+				mw_version: mw.config.get( 'wgVersion' )
+			}, data );
 
-		if ( mw.user.isAnon() ) {
-			data.user_class = 'IP';
+			if ( mw.user.isAnon() ) {
+				data.user_class = 'IP';
+			}
+
+			addABTestData( data );
+
+			// Schema's kind of a mess of special properties
+			if ( data.action === 'init' || data.action === 'abort' || data.action === 'saveFailure' ) {
+				data[ actionPrefix + '_type' ] = data.type;
+			}
+			if ( data.action === 'init' || data.action === 'abort' ) {
+				data[ actionPrefix + '_mechanism' ] = data.mechanism;
+			}
+			if ( data.action !== 'init' ) {
+				data[ actionPrefix + '_timing' ] = data.timing === undefined ? 0 : Math.floor( data.timing );
+			}
+			/* eslint-enable camelcase */
+
+			// Remove renamed properties
+			delete data.type;
+			delete data.mechanism;
+			delete data.timing;
+
+			return data;
+		},
+
+		// Transforms the data produced by the callback above into an event name/custom data pair
+		// to be logged via the Metrics Platform.
+		function ( data ) {
+			var actionPrefix = actionPrefixMap[ data.action ] || data.action,
+				eventName = 'eas.wt.' + actionPrefix,
+				customData = $.extend( {}, data );
+
+			delete customData.version;
+			delete customData.action;
+
+			// Sampling rate (and therefore whether a stream should oversample) is captured in
+			// the stream config ($wgEventStreams).
+			delete customData.is_oversample;
+
+			delete customData.page_token;
+			delete customData.session_token;
+
+			// Platform can be derived from the agent_client_platform_family context attribute
+			// mixed in by the JavaScript Metrics Platform Client. The context attribute will be
+			// "desktop_browser" or "mobile_browser" depending on whether the MobileFrontend
+			// extension has signalled that it is enabled.
+			delete customData.platform;
+
+			delete customData.page_id;
+			delete customData.page_title;
+			delete customData.page_ns;
+
+			// If the revision ID can be fetched from the config, then it will be mixed in by the
+			// JavaScript Metrics Platform Client.
+			if ( mw.config.exists( 'wgRevisionId' ) ) {
+				delete customData.revision_id;
+			}
+
+			delete customData.user_id;
+			delete customData.user_editcount;
+			delete customData.mw_version;
+
+			return [ eventName, customData ];
 		}
-
-		addABTestData( data );
-
-		// Schema's kind of a mess of special properties
-		if ( data.action === 'init' || data.action === 'abort' || data.action === 'saveFailure' ) {
-			data[ actionPrefix + '_type' ] = data.type;
-		}
-		if ( data.action === 'init' || data.action === 'abort' ) {
-			data[ actionPrefix + '_mechanism' ] = data.mechanism;
-		}
-		if ( data.action !== 'init' ) {
-			data[ actionPrefix + '_timing' ] = data.timing === undefined ? 0 : Math.floor( data.timing );
-		}
-		/* eslint-enable camelcase */
-
-		// Remove renamed properties
-		delete data.type;
-		delete data.mechanism;
-		delete data.timing;
-
-		return data;
-	} );
+	);
 
 	var logEditFeature = sampledLogger( 'VisualEditorFeatureUse', function ( inSample, feature, action ) {
 		/* eslint-disable camelcase */
