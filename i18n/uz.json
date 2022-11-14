@@ -5,7 +5,8 @@
 			"Macofe",
 			"Malikxan",
 			"Sociologist",
-			"Amire80"
+			"Amire80",
+			"Zafar Shamsiddinov"
 		]
 	},
 	"wikieditor": "Vikimatnni tahrirlashning kengaytirilgan interfeysi",
@@ -15,6 +16,7 @@
 	"wikieditor-toolbar": "Tahrirlash darchasi",
 	"wikieditor-toolbar-desc": "Foydalanishga qulayroq boʻlgan tahrirlash darchasi",
 	"wikieditor-toolbar-preference": "Yaxshilangan tahrirlash darchasini yoqish",
+	"wikieditor-toolbar-preference-help": "Bu baʼzan „2010 vikimatn muharriri“ deb ataladi.",
 	"wikieditor-toolbar-loading": "Yuklash...",
 	"wikieditor-toolbar-tool-bold": "Qalin",
 	"wikieditor-toolbar-tool-bold-example": "Qalin matn",
@@ -99,6 +101,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! sarlavha 1\n! sarlavha 2\n! sarlavha 3\n|-\n| qator 1, katak 1\n| qator 1, katak 2\n| qator 1, katak 3\n|-\n| qator 2, katak 1\n| qator 2, katak 2\n| qator 2, katak 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "Katak matni",
 	"wikieditor-toolbar-tool-table-example-header": "Sarlavha matni",
+	"wikieditor-toolbar-tool-table-example-caption": "Sarlavha matni",
 	"wikieditor-toolbar-tool-table-title": "Jadval qoʻyish",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Qatorlar",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "Ustunlar",
@@ -126,6 +129,7 @@
 	"wikieditor-toolbar-tool-replace-success": "$1 ta {{PLURAL:$1|almashtirish}} amalga oshirildi.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "Nimani qidirishni koʻrsatmadingiz.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "Siz kiritgan muntazam ifodada xatolik: $1",
+	"wikieditor-toolbar-tool-replace-word": "Mos keluvchi butun soʻz",
 	"wikieditor-toolbar-section-characters": "Maxsus belgilar",
 	"wikieditor-toolbar-section-help": "Yordam",
 	"wikieditor-toolbar-help-heading-description": "Taʼrif",
