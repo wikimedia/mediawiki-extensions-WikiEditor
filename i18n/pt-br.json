@@ -214,5 +214,8 @@
 	"wikieditor-toolbar-help-content-indent-syntax": "Texto normal<br />:Texto indentado<br />::Texto indentado",
 	"wikieditor-toolbar-help-content-indent-result": "Texto normal<dl><dd>Texto indentado<dl><dd>Texto indentado</dd></dl></dd></dl>",
 	"wikieditor-realtimepreview-preview": "Mostar previsão",
-	"wikieditor-realtimepreview-reload": "Recarregar"
+	"wikieditor-realtimepreview-reload": "Recarregar",
+	"wikieditor-realtimepreview-beta-label": "Pré-visualização em tempo real",
+	"wikieditor-realtimepreview-reload-title": "Recarregar o painel da pré-visualização em tempo real",
+	"wikieditor-realtimepreview-onboarding-title": "Pré-visualização em tempo real"
 }
