@@ -233,6 +233,32 @@
 
 				logAbort( true, unmodified );
 			} );
+
+			// Add logging for Realtime Preview.
+			mw.hook( 'ext.WikiEditor.realtimepreview.enable' ).add( function () {
+				logEditFeature( 'preview', 'preview-realtime-on' );
+			} );
+			mw.hook( 'ext.WikiEditor.realtimepreview.inuse' ).add( function () {
+				logEditFeature( 'preview', 'preview-realtime-inuse' );
+			} );
+			mw.hook( 'ext.WikiEditor.realtimepreview.disable' ).add( function () {
+				logEditFeature( 'preview', 'preview-realtime-off' );
+			} );
+			mw.hook( 'ext.WikiEditor.realtimepreview.loaded' ).add( function () {
+				logEditFeature( 'preview', 'preview-realtime-loaded' );
+			} );
+			mw.hook( 'ext.WikiEditor.realtimepreview.stop' ).add( function () {
+				logEditFeature( 'preview', 'preview-realtime-error-stopped' );
+			} );
+			mw.hook( 'ext.WikiEditor.realtimepreview.reloadError' ).add( function () {
+				logEditFeature( 'preview', 'preview-realtime-reload-error' );
+			} );
+			mw.hook( 'ext.WikiEditor.realtimepreview.reloadHover' ).add( function () {
+				logEditFeature( 'preview', 'preview-realtime-reload-hover' );
+			} );
+			mw.hook( 'ext.WikiEditor.realtimepreview.reloadManual' ).add( function () {
+				logEditFeature( 'preview', 'preview-realtime-reload-manual' );
+			} );
 		}
 
 		// The old toolbar is still in place and needs to be removed so there aren't two toolbars
@@ -258,31 +284,5 @@
 		$textarea.wikiEditor( 'addModule', dialogsConfig.getDefaultConfig() );
 
 	};
-
-	// Add logging for Realtime Preview.
-	mw.hook( 'ext.WikiEditor.realtimepreview.enable' ).add( function () {
-		logEditFeature( 'preview', 'preview-realtime-on' );
-	} );
-	mw.hook( 'ext.WikiEditor.realtimepreview.inuse' ).add( function () {
-		logEditFeature( 'preview', 'preview-realtime-inuse' );
-	} );
-	mw.hook( 'ext.WikiEditor.realtimepreview.disable' ).add( function () {
-		logEditFeature( 'preview', 'preview-realtime-off' );
-	} );
-	mw.hook( 'ext.WikiEditor.realtimepreview.loaded' ).add( function () {
-		logEditFeature( 'preview', 'preview-realtime-loaded' );
-	} );
-	mw.hook( 'ext.WikiEditor.realtimepreview.stop' ).add( function () {
-		logEditFeature( 'preview', 'preview-realtime-error-stopped' );
-	} );
-	mw.hook( 'ext.WikiEditor.realtimepreview.reloadError' ).add( function () {
-		logEditFeature( 'preview', 'preview-realtime-reload-error' );
-	} );
-	mw.hook( 'ext.WikiEditor.realtimepreview.reloadHover' ).add( function () {
-		logEditFeature( 'preview', 'preview-realtime-reload-hover' );
-	} );
-	mw.hook( 'ext.WikiEditor.realtimepreview.reloadManual' ).add( function () {
-		logEditFeature( 'preview', 'preview-realtime-reload-manual' );
-	} );
 
 }() );
