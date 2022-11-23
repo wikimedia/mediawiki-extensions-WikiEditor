@@ -118,7 +118,7 @@
 	"wikieditor-toolbar-tool-replace-regex": "Dopra la stringa de ricerca come un'espression regolar",
 	"wikieditor-toolbar-tool-replace-button-findnext": "Troeuva chi che vegnen adree",
 	"wikieditor-toolbar-tool-replace-button-replace": "Sotituìss",
-	"wikieditor-toolbar-tool-replace-button-replaceall": "Sotituìss tusscoss",
+	"wikieditor-toolbar-tool-replace-button-replaceall": "Muda tuscoss",
 	"wikieditor-toolbar-tool-replace-close": "Sara su",
 	"wikieditor-toolbar-tool-replace-nomatch": "La toa ricerca l'hà prodot minga de risultad",
 	"wikieditor-toolbar-tool-replace-success": "$1 {{PLURAL:$1|sostituzzion efetuada|sostituzzion effetuade}}.",
