@@ -187,5 +187,7 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Nomine de usator</a> (<a href='#' title='$2:Username'>discussion</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Indentation",
 	"wikieditor-toolbar-help-content-indent-syntax": "Texto normal<br />:Texto indentate<br />::Texto indentate",
-	"wikieditor-toolbar-help-content-indent-result": "Texto normal<dl><dd>Texto indentate<dl><dd>Texto indentate</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "Texto normal<dl><dd>Texto indentate<dl><dd>Texto indentate</dd></dl></dd></dl>",
+	"tag-wikieditor-description": "Modification facite con [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (editor de wikitexto de 2010)",
+	"wikieditor-realtimepreview-preview": "Previsualisation"
 }
