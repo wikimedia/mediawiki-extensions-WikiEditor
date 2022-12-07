@@ -21,7 +21,8 @@
 			"Opraco",
 			"Rafael Vargas",
 			555,
-			"YuriNikolai"
+			"YuriNikolai",
+			"Fúlvio"
 		]
 	},
 	"wikieditor": "Interface avançada de edição de wikitexto",
@@ -214,5 +215,6 @@
 	"wikieditor-toolbar-help-content-indent-description": "Indentação",
 	"wikieditor-toolbar-help-content-indent-syntax": "Texto normal<br />:Texto indentado<br />::Texto indentado",
 	"wikieditor-toolbar-help-content-indent-result": "Texto normal<dl><dd>Texto indentado<dl><dd>Texto indentado</dd></dl></dd></dl>",
+	"tag-wikieditor-description": "Edição feita usando o [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (editor de wikitexto de 2010)",
 	"wikieditor-realtimepreview-preview": "Mostar previsão"
 }
