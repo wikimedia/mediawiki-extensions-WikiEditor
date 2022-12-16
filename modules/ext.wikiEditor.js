@@ -57,13 +57,20 @@
 		};
 	}
 
-	function addABTestData( data ) {
+	function addABTestData( data, addToken ) {
 		// DiscussionTools New Topic A/B test for logged out users
 		if ( !mw.config.get( 'wgDiscussionToolsABTest' ) ) {
 			return;
 		}
 		if ( mw.config.get( 'wgDiscussionToolsABTestBucket' ) ) {
 			data.bucket = mw.config.get( 'wgDiscussionToolsABTestBucket' );
+		}
+		if ( mw.user.isAnon() && addToken ) {
+			var token = mw.cookie.get( 'DTABid', '' );
+			if ( token ) {
+				// eslint-disable-next-line camelcase
+				data.anonymous_user_token = token;
+			}
 		}
 	}
 
@@ -104,7 +111,7 @@
 				data.user_class = 'IP';
 			}
 
-			addABTestData( data );
+			addABTestData( data, true );
 
 			// Schema's kind of a mess of special properties
 			if ( data.action === 'init' || data.action === 'abort' || data.action === 'saveFailure' ) {
