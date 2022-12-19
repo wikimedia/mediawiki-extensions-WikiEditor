@@ -32,7 +32,8 @@
 			"Ericliu1912",
 			"SunAfterRain",
 			"Diskdance",
-			"Lakejason0"
+			"Lakejason0",
+			"捍粵者"
 		]
 	},
 	"wikieditor": "進階wikitext編輯介面",
@@ -117,7 +118,7 @@
 	"wikieditor-toolbar-tool-small": "縮小",
 	"wikieditor-toolbar-tool-small-example": "縮小文字",
 	"wikieditor-toolbar-tool-superscript": "上標",
-	"wikieditor-toolbar-tool-superscript-example": "上標文字",
+	"wikieditor-toolbar-tool-superscript-example": "上標",
 	"wikieditor-toolbar-tool-subscript": "下標",
 	"wikieditor-toolbar-tool-subscript-example": "下標文字",
 	"wikieditor-toolbar-group-insert": "插入",
