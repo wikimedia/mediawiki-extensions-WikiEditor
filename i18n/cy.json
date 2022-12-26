@@ -4,7 +4,8 @@
 			"Lloffiwr",
 			"Macofe",
 			"Robin Owain",
-			"Xxglennxx"
+			"Xxglennxx",
+			"Afalau"
 		]
 	},
 	"wikieditor": "Rhyngwyneb golygu testun wici uwch",
@@ -46,7 +47,7 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Cyswllt mewnol",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "Cyswllt allanol",
 	"wikieditor-toolbar-tool-link-empty": "Nid ydych wedi ysgrifennu nod i'r cyswllt fynd ato.",
-	"wikieditor-toolbar-tool-file": "Ffeil mewnosodol",
+	"wikieditor-toolbar-tool-file": "Delweddau a chyfryngau",
 	"wikieditor-toolbar-tool-file-example": "Enghraifft.jpg",
 	"wikieditor-toolbar-tool-file-title": "Mewnosod ffeil",
 	"wikieditor-toolbar-file-target": "Enw'r ffeil:",
