@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
+			"Bosogo",
 			"Chorobek",
 			"Macofe",
 			"Викиней"
@@ -74,7 +75,7 @@
 	"wikieditor-toolbar-tool-table-zero": "Сиз бир дагы сабы же тилкеси жок жадыбал киргизе албайсыз",
 	"wikieditor-toolbar-tool-replace": "Таап алмаштыр",
 	"wikieditor-toolbar-tool-replace-title": "Таап алмаштыр",
-	"wikieditor-toolbar-tool-replace-search": "Изде:",
+	"wikieditor-toolbar-tool-replace-search": "Издөө:",
 	"wikieditor-toolbar-tool-replace-replace": "Менен алмаштыр:",
 	"wikieditor-toolbar-tool-replace-case": "Баш тамганы айырмала",
 	"wikieditor-toolbar-tool-replace-regex": "Издөө көзөнөгүн регулярдуу айтылыш  катары эсепте",
