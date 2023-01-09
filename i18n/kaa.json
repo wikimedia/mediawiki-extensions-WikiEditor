@@ -16,5 +16,9 @@
 	"wikieditor-toolbar-tool-ilink": "Ishki silteme",
 	"wikieditor-toolbar-tool-ilink-example": "Silteme bası",
 	"wikieditor-toolbar-tool-link": "Silteme",
-	"wikieditor-toolbar-tool-link-title": "Silteme qoyıw"
+	"wikieditor-toolbar-tool-link-title": "Silteme qoyıw",
+	"wikieditor-toolbar-tool-link-ext-target": "URL siltemesi:",
+	"wikieditor-toolbar-tool-link-ext-text": "Silteme teksti:",
+	"wikieditor-toolbar-tool-link-insert": "Silteme kiritiw",
+	"wikieditor-toolbar-tool-link-cancel": "Biykarlaw"
 }
