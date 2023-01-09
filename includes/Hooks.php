@@ -245,8 +245,9 @@ class Hooks implements
 			$user = $article->getContext()->getUser();
 			$betaFeatureEnabled = $betaFeaturesInstalled &&
 				BetaFeatures::isFeatureEnabled( $user, 'wikieditor-realtime-preview' );
+			$useBetaFeature = $this->config->get( 'WikiEditorRealtimePreviewBeta' );
 			if ( $this->config->get( 'WikiEditorRealtimePreview' ) &&
-				( $betaFeatureEnabled || !$betaFeaturesInstalled )
+				( $useBetaFeature && $betaFeatureEnabled || !$betaFeaturesInstalled || !$useBetaFeature )
 			) {
 				$outputPage->addModules( 'ext.wikiEditor.realtimepreview' );
 			}
@@ -603,7 +604,7 @@ class Hooks implements
 	 */
 	public static function onGetBetaFeaturePreferences( $user, &$prefs ) {
 		$config = MediaWikiServices::getInstance()->getMainConfig();
-		if ( !$config->get( 'WikiEditorRealtimePreview' ) ) {
+		if ( !$config->get( 'WikiEditorRealtimePreview' ) || !$config->get( 'WikiEditorRealtimePreviewBeta' ) ) {
 			return;
 		}
 		$extensionAssetsPath = $config->get( 'ExtensionAssetsPath' );
