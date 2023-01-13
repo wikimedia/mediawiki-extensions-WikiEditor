@@ -104,5 +104,7 @@
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Mînak.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-file-caption": "Nivîsa sernavê",
 	"wikieditor-toolbar-help-content-reference-description": "Çavkanî",
-	"wikieditor-toolbar-help-content-signature-description": "Îmze"
+	"wikieditor-toolbar-help-content-signature-description": "Îmze",
+	"wikieditor-realtimepreview-preview": "Pêşdîtin",
+	"wikieditor-realtimepreview-reload": "Ji nû ve bar bike"
 }
