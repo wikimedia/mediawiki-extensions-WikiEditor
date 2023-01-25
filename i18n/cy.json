@@ -39,7 +39,7 @@
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Teitl annilys",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Cyswllt allanol",
 	"wikieditor-toolbar-tool-link-int-target-status-loading": "Wrthi'n gwirio a yw'r dudalen ar gael...",
-	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Tudalen gwahaniaethu",
+	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Nid yw'r dudalen hon yn dudalen gynnwys, ond yn rhestr o bynciau ag enwau tebyg",
 	"wikieditor-toolbar-tool-link-int-invalid": "Ysgrifennwyd teitl annilys.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "Mae'n ymddangos bod yr URL a osodwyd yn arwain at dudalen arall yn y wici.\nYdych chi am ei osod ar ffurf cyswllt mewnol?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Dolen fewnol",
@@ -187,5 +187,6 @@
 	"wikieditor-toolbar-help-content-indent-description": "Mewnoli",
 	"wikieditor-toolbar-help-content-indent-syntax": "Ysgrifen rheolaidd<br />:Ysgrifen wedi'i mewnoli<br />::Ysgrifen wedi'i mewnoli",
 	"wikieditor-toolbar-help-content-indent-result": "Ysgrifen rheolaidd<dl><dd>Ysgrifen wedi'i mewnoli<dl><dd>Ysgrifen wedi'i mewnoli</dd></dl></dd></dl>",
+	"tag-wikieditor-description": "Golygiad trwy [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (golygydd cystrawen wici 2010 wikitext)",
 	"wikieditor-realtimepreview-preview": "Rhagolwg"
 }
