@@ -190,5 +190,6 @@
 	"wikieditor-realtimepreview-beta-label": "Sanntidsførehandsvising",
 	"wikieditor-realtimepreview-reload-title": "Last panelet for sanntidsførehandsvising om att",
 	"wikieditor-realtimepreview-manual": "Last om att no for å førehandsvisa endringane dine manuelt.",
-	"wikieditor-realtimepreview-onboarding-body": "Sjå korleis endringane dine vil sjå ut for lesarar ved å førehandsvisa dei i sanntid."
+	"wikieditor-realtimepreview-onboarding-body": "Sjå korleis endringane dine vil sjå ut for lesarar ved å førehandsvisa dei i sanntid.",
+	"wikieditor-realtimepreview-onboarding-button": "Greitt, skjøner"
 }
