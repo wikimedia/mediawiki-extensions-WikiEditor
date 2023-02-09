@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ajeje Brazorf",
+			"Amire80",
 			"Aushulz",
 			"Gmelfi",
 			"Macofe",
@@ -142,7 +143,7 @@
 	"wikieditor-toolbar-help-content-bolditalic-syntax": "'''''Testu n grassettu e cursivu'''''",
 	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>Testuo n grassettu e cursivu</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "Liami nternu",
-	"wikieditor-toolbar-help-content-ilink-syntax": "[[Tìtulu dâ pàggina|Etichetta dû culligamentu]]<br />[[Tìtulu dâ pàggina]]",
+	"wikieditor-toolbar-help-content-ilink-syntax": "[[Tìtulu dâ pàggina]]<br />[[Tìtulu dâ pàggina|Etichetta dû culligamentu]]",
 	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>Etichetta di culligamentu</a><br /><a href='#'>Tìtulu dâ pàggina</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "Lijami di fora",
 	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.example.org Etichetta dû liami]<br />[http://www.example.org]<br />http://www.example.org",
