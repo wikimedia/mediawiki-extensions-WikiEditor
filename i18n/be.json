@@ -10,7 +10,8 @@
 			"Chadyka",
 			"Tomato Cream",
 			"Amire80",
-			"No Sleep till Krupki"
+			"No Sleep till Krupki",
+			"Plaga med"
 		]
 	},
 	"wikieditor": "Палепшаны інтэрфейс праўкі вікітэкста",
@@ -65,7 +66,7 @@
 	"wikieditor-toolbar-file-format-none": "няма",
 	"wikieditor-toolbar-tool-file-insert": "Уставіць",
 	"wikieditor-toolbar-tool-file-cancel": "Адмена",
-	"wikieditor-toolbar-tool-file-upload": "Загрузіць",
+	"wikieditor-toolbar-tool-file-upload": "Запампаваць",
 	"wikieditor-toolbar-tool-reference": "Зноска",
 	"wikieditor-toolbar-tool-reference-example": "Упішыце сюды тэкст зноскі",
 	"wikieditor-toolbar-tool-reference-cancel": "Закрыць",
