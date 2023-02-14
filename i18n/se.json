@@ -16,6 +16,7 @@
 	"wikieditor-toolbar-tool-file-title": "Lasit fiilla",
 	"wikieditor-toolbar-file-target": "Fiilanamma:",
 	"wikieditor-toolbar-file-caption": "Govvateaksta:",
+	"wikieditor-toolbar-file-alt": "Molssaevttolaš teaksta:",
 	"wikieditor-toolbar-file-size": "Sturrodat:",
 	"wikieditor-toolbar-tool-file-insert": "Lasit",
 	"wikieditor-toolbar-tool-file-cancel": "Šluhtte",
@@ -37,10 +38,12 @@
 	"wikieditor-toolbar-tool-table": "Tabealla",
 	"wikieditor-toolbar-tool-table-title": "Lasit tabealla",
 	"wikieditor-toolbar-tool-table-example": "Ovdamearka",
+	"wikieditor-toolbar-tool-table-preview": "Ovdačájáhus",
 	"wikieditor-toolbar-tool-table-insert": "Lasit",
 	"wikieditor-toolbar-tool-table-cancel": "Šluhtte",
 	"wikieditor-toolbar-tool-replace-search": "Oza:",
 	"wikieditor-toolbar-tool-replace-close": "Gidde",
 	"wikieditor-toolbar-section-help": "Rávvagat",
+	"wikieditor-realtimepreview-preview": "Ovdačájáhus",
 	"wikieditor-realtimepreview-onboarding-button": "Ášši lea čielggas."
 }
