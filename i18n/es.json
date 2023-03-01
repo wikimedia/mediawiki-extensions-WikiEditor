@@ -63,7 +63,7 @@
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "El título especificado no es válido",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Enlace externo",
 	"wikieditor-toolbar-tool-link-int-target-status-loading": "Comprobando que la página existe…",
-	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Página de desambiguación",
+	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Esta no es una página de contenido, sino una lista de temas con nombres idénticos o similares",
 	"wikieditor-toolbar-tool-link-int-invalid": "El título que ha especificado no es válido.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "EL URL que has especificado parece que tenia como finalidad ser un vínculo para otra página wiki.\n¿Deseas hacerlo un vínculo interno?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Enlace interno",
