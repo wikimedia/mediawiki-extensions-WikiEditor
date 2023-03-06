@@ -125,6 +125,7 @@
 	"wikieditor-toolbar-tool-replace-nomatch": "توھان جي ڳولا ڪنھن-شيءِ سان نہ ملي.",
 	"wikieditor-toolbar-tool-replace-success": "$1 {{PLURAL:$1|مٽاءُ|مٽاءَ}} ڪيل.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "توھان ڳولڻ لاءِ ڪجهہ بہ داخل نہ ڪيو.",
+	"wikieditor-toolbar-tool-replace-invalidregex": "توهان جو داخل ڪيل باقاعده اظھار غلط آهي: $1",
 	"wikieditor-toolbar-tool-replace-word": "سڄو لفظ چوريو",
 	"wikieditor-toolbar-section-characters": "خاص نشانيون",
 	"wikieditor-toolbar-section-help": "مدد",
