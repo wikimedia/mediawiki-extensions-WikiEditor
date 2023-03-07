@@ -122,6 +122,13 @@ class Hooks implements
 		if ( !$extensionRegistry->isLoaded( 'EventLogging' ) ) {
 			return false;
 		}
+		if ( $extensionRegistry->isLoaded( 'MobileFrontend' ) ) {
+			$mobFrontContext = MediaWikiServices::getInstance()->getService( 'MobileFrontend.Context' );
+			if ( $mobFrontContext->shouldDisplayMobileView() ) {
+				// on a MobileFrontend page the logging should be handled by it
+				return false;
+			}
+		}
 		$inSample = $this->inEventSample( $data['editing_session_id'] );
 		$shouldOversample = $extensionRegistry->isLoaded( 'WikimediaEvents' ) &&
 			WikimediaEventsHooks::shouldSchemaEditAttemptStepOversample( $article->getContext() );

@@ -21,6 +21,12 @@
 			if ( mw.loader.getState( 'ext.eventLogging' ) === null ) {
 				return;
 			}
+			if ( mw.config.get( 'wgMFMode' ) !== null ) {
+				// Visiting a ?action=edit URL can, depending on user settings, result
+				// in the MobileFrontend overlay appearing on top of WikiEditor. In
+				// these cases, don't log anything.
+				return;
+			}
 			var args = Array.prototype.slice.call( arguments );
 
 			mw.loader.using( [ 'ext.eventLogging' ] ).done( function () {
