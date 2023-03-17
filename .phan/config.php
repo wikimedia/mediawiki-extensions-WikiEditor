@@ -8,7 +8,6 @@ $cfg['directory_list'] = array_merge(
 		'../../extensions/EventLogging',
 		'../../extensions/WikimediaEvents',
 		'../../extensions/ConfirmEdit',
-		'../../extensions/BetaFeatures',
 	]
 );
 
@@ -18,7 +17,6 @@ $cfg['exclude_analysis_directory_list'] = array_merge(
 		'../../extensions/EventLogging',
 		'../../extensions/WikimediaEvents',
 		'../../extensions/ConfirmEdit',
-		'../../extensions/BetaFeatures',
 	]
 );
 
