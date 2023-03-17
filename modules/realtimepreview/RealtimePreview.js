@@ -2,7 +2,7 @@ var ResizingDragBar = require( './ResizingDragBar.js' );
 var TwoPaneLayout = require( './TwoPaneLayout.js' );
 var ErrorLayout = require( './ErrorLayout.js' );
 var ManualWidget = require( './ManualWidget.js' );
-var OnboardingPopup = require( './OnboardingPopup.js' );
+var localStorage = require( 'mediawiki.storage' ).local;
 
 /**
  * @class
@@ -55,8 +55,6 @@ function RealtimePreview() {
 		}.bind( this )
 	} );
 
-	this.onboardingPopup = new OnboardingPopup();
-
 	// Manual mode widget.
 	this.manualWidget = new ManualWidget( this, this.reloadButton );
 	// Set up a property for reducedMotion — useful for customising the UI message.
@@ -106,16 +104,15 @@ RealtimePreview.prototype.getToolbarButton = function ( context ) {
 	if ( !this.isScreenWideEnough() ) {
 		this.enabled = false;
 		this.button.toggle( false );
-		this.onboardingPopup.toggle( false );
 	}
 
 	// Hide or show the preview and toolbar button when the window is resized.
 	$( window ).on( 'resize', this.enableFeatureWhenScreenIsWideEnough.bind( this ) );
 
-	// Add the onboarding popup.
-	this.button.connect( this.onboardingPopup, { change: this.onboardingPopup.onPreviewButtonClick } );
+	// Remove the old onboarding-status storage that was discontinued in March 2023.
+	localStorage.remove( 'WikiEditor-RealtimePreview-onboarding-dismissed' );
 
-	return $( '<div>' ).append( this.button.$element, this.onboardingPopup.$element );
+	return $( '<div>' ).append( this.button.$element );
 };
 
 /**
@@ -256,14 +253,12 @@ RealtimePreview.prototype.enableFeatureWhenScreenIsWideEnough = function () {
 	var isScreenWideEnough = this.isScreenWideEnough();
 	if ( !isScreenWideEnough && previewButtonIsVisible ) {
 		this.button.toggle( false );
-		this.onboardingPopup.toggle( false );
 		this.reloadButton.setDisabled( true );
 		if ( this.enabled ) {
 			this.setEnabled( false, false );
 		}
 	} else if ( isScreenWideEnough && !previewButtonIsVisible ) {
 		this.button.toggle( true );
-		this.onboardingPopup.toggle( true );
 		this.reloadButton.setDisabled( false );
 		// if user preference and realtime disable
 		if ( !this.enabled && this.getUserPref() ) {

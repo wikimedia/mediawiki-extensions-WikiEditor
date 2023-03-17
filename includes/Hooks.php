@@ -18,7 +18,6 @@ use Html;
 use MediaWiki\Cache\CacheKeyHelper;
 use MediaWiki\ChangeTags\Hook\ChangeTagsListActiveHook;
 use MediaWiki\ChangeTags\Hook\ListDefinedTagsHook;
-use MediaWiki\Extension\BetaFeatures\BetaFeatures;
 use MediaWiki\Extension\DiscussionTools\Hooks as DiscussionToolsHooks;
 use MediaWiki\Extension\EventLogging\EventLogging;
 use MediaWiki\Hook\EditPage__attemptSave_afterHook;
@@ -247,15 +246,7 @@ class Hooks implements
 		if ( $this->userOptionsLookup->getBoolOption( $user, 'usebetatoolbar' ) ) {
 			$outputPage->addModuleStyles( 'ext.wikiEditor.styles' );
 			$outputPage->addModules( 'ext.wikiEditor' );
-			// Optionally enable Realtime Preview, and behind a BetaFeature where applicable.
-			$betaFeaturesInstalled = ExtensionRegistry::getInstance()->isLoaded( 'BetaFeatures' );
-			$user = $article->getContext()->getUser();
-			$betaFeatureEnabled = $betaFeaturesInstalled &&
-				BetaFeatures::isFeatureEnabled( $user, 'wikieditor-realtime-preview' );
-			$useBetaFeature = $this->config->get( 'WikiEditorRealtimePreviewBeta' );
-			if ( $this->config->get( 'WikiEditorRealtimePreview' ) &&
-				( $useBetaFeature && $betaFeatureEnabled || !$betaFeaturesInstalled || !$useBetaFeature )
-			) {
+			if ( $this->config->get( 'WikiEditorRealtimePreview' ) ) {
 				$outputPage->addModules( 'ext.wikiEditor.realtimepreview' );
 			}
 		}
@@ -602,31 +593,5 @@ class Hooks implements
 			$recentChange->addTags( 'wikieditor' );
 		}
 		return true;
-	}
-
-	/**
-	 * @param User $user
-	 * @param array &$prefs
-	 * @return void
-	 */
-	public static function onGetBetaFeaturePreferences( $user, &$prefs ) {
-		$config = MediaWikiServices::getInstance()->getMainConfig();
-		if ( !$config->get( 'WikiEditorRealtimePreview' ) || !$config->get( 'WikiEditorRealtimePreviewBeta' ) ) {
-			return;
-		}
-		$extensionAssetsPath = $config->get( 'ExtensionAssetsPath' );
-		$prefs['wikieditor-realtime-preview'] = [
-			'label-message' => 'wikieditor-realtimepreview-beta-label',
-			'desc-message' => 'wikieditor-realtimepreview-beta-desc',
-			'screenshot' => [
-				'ltr' => "$extensionAssetsPath/WikiEditor/modules/images/beta-feature-ltr.svg",
-				'rtl' => "$extensionAssetsPath/WikiEditor/modules/images/beta-feature-rtl.svg",
-			],
-			// @todo Update links once mw:Help:Extension:WikiEditor/Realtime_Preview is written.
-			'info-link' => 'https://meta.wikimedia.org/wiki/Special:MyLanguage/' .
-				'Community_Wishlist_Survey_2021/Real_Time_Preview_for_Wikitext',
-			'discussion-link' => 'https://meta.wikimedia.org/wiki/' .
-				'Talk:Community_Wishlist_Survey_2021/Real_Time_Preview_for_Wikitext',
-		];
 	}
 }
