@@ -9,7 +9,8 @@
 			"Macofe",
 			"Pizza1016",
 			"Yosri",
-			"Tofeiku"
+			"Tofeiku",
+			"Bebudak"
 		]
 	},
 	"wikieditor": "Wikiteks keutamaan halaman suntingan",
@@ -21,9 +22,9 @@
 	"wikieditor-toolbar-preference": "Bolehkan alatan penyuntingan",
 	"wikieditor-toolbar-preference-help": "Ini kadangkala dipanggil 'penyunting wikiteks 2010'.",
 	"wikieditor-toolbar-loading": "Memuatkan...",
-	"wikieditor-toolbar-tool-bold": "Teks tebal",
+	"wikieditor-toolbar-tool-bold": "Tebal",
 	"wikieditor-toolbar-tool-bold-example": "Teks tebal",
-	"wikieditor-toolbar-tool-italic": "Teks condong",
+	"wikieditor-toolbar-tool-italic": "Condong",
 	"wikieditor-toolbar-tool-italic-example": "Teks condong",
 	"wikieditor-toolbar-tool-ilink": "Pautan dalaman",
 	"wikieditor-toolbar-tool-ilink-example": "Tajuk pautan",
