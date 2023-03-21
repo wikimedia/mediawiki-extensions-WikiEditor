@@ -441,7 +441,7 @@
 	"config": {
 		"WikiEditorRealtimePreview": {
 			"description": "Whether to enable the Realtime Preview feature.",
-			"value": false
+			"value": true
 		},
 		"WikiEditorRealtimePreviewDebounce": {
 			"description": "Debounce time in milliseconds for the Realtime Preview feature.",
