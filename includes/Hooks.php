@@ -107,25 +107,25 @@ class Hooks implements
 	}
 
 	/**
-	 * Log stuff to EventLogging's Schema:EditAttemptStep -
-	 * see https://meta.wikimedia.org/wiki/Schema:EditAttemptStep
-	 * If you don't have EventLogging and WikimediaEvents installed, does nothing.
+	 * Log stuff to the eventlogging_EditAttemptStep stream in a shape that conforms to the
+	 * analytics/legacy/editattemptstep schema.
+	 *
+	 * If the EventLogging extension is not loaded, then this is a NOP.
+	 *
+	 * @see https://meta.wikimedia.org/wiki/Schema:EditAttemptStep
 	 *
 	 * @param string $action
 	 * @param Article $article Which article (with full context, page, title, etc.)
 	 * @param array $data Data to log for this action
-	 * @return bool Whether the event was logged or not.
+	 * @return void
 	 */
 	public function doEventLogging( $action, $article, $data = [] ) {
 		$extensionRegistry = ExtensionRegistry::getInstance();
 		if ( !$extensionRegistry->isLoaded( 'EventLogging' ) || !$extensionRegistry->isLoaded( 'WikimediaEvents' ) ) {
-			return false;
+			return;
 		}
 		$inSample = $this->inEventSample( $data['editing_session_id'] );
 		$shouldOversample = WikimediaEventsHooks::shouldSchemaEditAttemptStepOversample( $article->getContext() );
-		if ( !$inSample && !$shouldOversample ) {
-			return false;
-		}
 
 		$user = $article->getContext()->getUser();
 		$page = $article->getPage();
@@ -161,10 +161,55 @@ class Hooks implements
 			$data['user_class'] = 'IP';
 		}
 
-		// NOTE: The 'EditAttemptStep' event was migrated to the Event Platform and is no longer
-		//  using the legacy EventLogging schema from metawiki. $revId is actually overriden by
-		//  the EventLoggingSchemas extension attribute in WikimediaEvents/extension.json.
-		return EventLogging::logEvent( 'EditAttemptStep', -1, $data );
+		$this->doMetricsPlatformLogging( $action, $data );
+
+		if ( !$inSample && !$shouldOversample ) {
+			return;
+		}
+
+		EventLogging::submit(
+			'eventlogging_EditAttemptStep',
+			[
+				'$schema' => '/analytics/legacy/editattemptstep/1.4.1',
+				'event' => $data,
+			]
+		);
+	}
+
+	/**
+	 * @see https://phabricator.wikimedia.org/T309013
+	 * @see https://phabricator.wikimedia.org/T309985
+	 */
+	private function doMetricsPlatformLogging( string $action, array $data ): void {
+		unset( $data['version'] );
+		unset( $data['action'] );
+
+		// Sampling rate (and therefore whether a stream should oversample) is captured in
+		// the stream config ($wgEventStreams).
+		unset( $data['is_oversample'] );
+		unset( $data['session_token'] );
+
+		// Platform can be derived from the agent_client_platform_family context attribute
+		// mixed in by the JavaScript Metrics Platform Client. The context attribute will be
+		// "desktop_browser" or "mobile_browser" depending on whether the MobileFrontend
+		// extension has signalled that it is enabled.
+		unset( $data['platform'] );
+
+		unset( $data['page_id'] );
+		unset( $data['page_title'] );
+		unset( $data['page_ns'] );
+
+		// If the revision ID can be fetched (i.e. it is a positive integer), then it will be
+		//mixed in by the Metrics Platform Client.
+		if ( $data['revision_id'] ) {
+			unset( $data['revision_id'] );
+		}
+
+		unset( $data['user_id'] );
+		unset( $data['user_editcount'] );
+		unset( $data['mw_version'] );
+
+		EventLogging::submitMetricsEvent( 'eas.wt.' . $action, $data );
 	}
 
 	/**
