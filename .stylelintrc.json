@@ -2,7 +2,6 @@
 	"extends": "stylelint-config-wikimedia/support-modern",
 	"rules": {
 		"no-descending-specificity": null,
-		"plugin/no-unsupported-browser-features": null,
-		"selector-pseudo-element-colon-notation": null
+		"plugin/no-unsupported-browser-features": null
 	}
 }
