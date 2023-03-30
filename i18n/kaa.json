@@ -43,8 +43,11 @@
 	"wikieditor-toolbar-tool-file-cancel": "Biykarlaw",
 	"wikieditor-toolbar-tool-file-upload": "Júklew",
 	"wikieditor-toolbar-tool-reference": "Derek qosıw",
+	"wikieditor-toolbar-tool-reference-insert": "Engiziw",
 	"wikieditor-toolbar-section-advanced": "Keńeytilgen",
 	"wikieditor-toolbar-tool-olist": "Nomerlengen dizim",
+	"wikieditor-toolbar-group-insert": "Engiziw",
+	"wikieditor-toolbar-tool-table-insert": "Engiziw",
 	"wikieditor-toolbar-section-characters": "Arnawlı tańbalar",
 	"wikieditor-toolbar-section-help": "Túsindirme"
 }
