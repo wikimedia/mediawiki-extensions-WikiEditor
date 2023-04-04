@@ -210,6 +210,8 @@
 	"wikieditor-realtimepreview-preview": "Önizleme",
 	"wikieditor-realtimepreview-error": "Önizleme yüklenemiyor",
 	"wikieditor-realtimepreview-reload": "Yeniden yükle",
+	"wikieditor-realtimepreview-beta-label": "Gerçek Zamanlı Önizleme",
+	"wikieditor-realtimepreview-beta-desc": "[[mw:Special:MyLanguage/Extension:WikiEditor|2010 düzenleyicisinde]] vikimetnin okuyuculara nasıl görüntüleneceğini görün.",
 	"wikieditor-realtimepreview-reload-title": "Gerçek zamanlı önizleme bölmesini yeniden yükleyin",
 	"wikieditor-realtimepreview-manual": "Düzenlemelerinizi elle önizlemek için lütfen şimdi yeniden yükleyin.",
 	"wikieditor-realtimepreview-onboarding-title": "Gerçek Zamanlı Önizleme",
