@@ -109,7 +109,7 @@ class Hooks implements
 	/**
 	 * Log stuff to EventLogging's Schema:EditAttemptStep -
 	 * see https://meta.wikimedia.org/wiki/Schema:EditAttemptStep
-	 * If you don't have EventLogging installed, does nothing.
+	 * If you don't have EventLogging and WikimediaEvents installed, does nothing.
 	 *
 	 * @param string $action
 	 * @param Article $article Which article (with full context, page, title, etc.)
@@ -118,7 +118,7 @@ class Hooks implements
 	 */
 	public function doEventLogging( $action, $article, $data = [] ) {
 		$extensionRegistry = ExtensionRegistry::getInstance();
-		if ( !$extensionRegistry->isLoaded( 'EventLogging' ) ) {
+		if ( !$extensionRegistry->isLoaded( 'EventLogging' ) || !$extensionRegistry->isLoaded( 'WikimediaEvents' ) ) {
 			return false;
 		}
 		if ( $extensionRegistry->isLoaded( 'MobileFrontend' ) ) {
@@ -129,8 +129,7 @@ class Hooks implements
 			}
 		}
 		$inSample = $this->inEventSample( $data['editing_session_id'] );
-		$shouldOversample = $extensionRegistry->isLoaded( 'WikimediaEvents' ) &&
-			WikimediaEventsHooks::shouldSchemaEditAttemptStepOversample( $article->getContext() );
+		$shouldOversample = WikimediaEventsHooks::shouldSchemaEditAttemptStepOversample( $article->getContext() );
 		if ( !$inSample && !$shouldOversample ) {
 			return false;
 		}
@@ -177,7 +176,7 @@ class Hooks implements
 	/**
 	 * Log stuff to EventLogging's Schema:VisualEditorFeatureUse -
 	 * see https://meta.wikimedia.org/wiki/Schema:VisualEditorFeatureUse
-	 * If you don't have EventLogging installed, does nothing.
+	 * If you don't have EventLogging and WikimediaEvents installed, does nothing.
 	 *
 	 * @param string $feature
 	 * @param string $action
@@ -187,12 +186,11 @@ class Hooks implements
 	 */
 	public function doVisualEditorFeatureUseLogging( $feature, $action, $article, $sessionId ) {
 		$extensionRegistry = ExtensionRegistry::getInstance();
-		if ( !$extensionRegistry->isLoaded( 'EventLogging' ) ) {
+		if ( !$extensionRegistry->isLoaded( 'EventLogging' ) || !$extensionRegistry->isLoaded( 'WikimediaEvents' ) ) {
 			return false;
 		}
 		$inSample = $this->inEventSample( $sessionId );
-		$shouldOversample = $extensionRegistry->isLoaded( 'WikimediaEvents' ) &&
-			WikimediaEventsHooks::shouldSchemaEditAttemptStepOversample( $article->getContext() );
+		$shouldOversample = WikimediaEventsHooks::shouldSchemaEditAttemptStepOversample( $article->getContext() );
 		if ( !$inSample && !$shouldOversample ) {
 			return false;
 		}
