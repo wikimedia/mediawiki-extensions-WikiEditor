@@ -152,6 +152,7 @@ class Hooks implements
 			'page_ns' => $title->getNamespace(),
 			'revision_id' => $revisionRecord ? $revisionRecord->getId() : 0,
 			'user_id' => $user->getId(),
+			'user_is_temp' => $user->isTemp(),
 			'user_editcount' => $this->userEditTracker->getUserEditCount( $user ) ?: 0,
 			'mw_version' => MW_VERSION,
 		] + $data;
@@ -206,6 +207,7 @@ class Hooks implements
 			'integration' => 'page',
 			'editor_interface' => 'wikitext',
 			'user_id' => $user->getId(),
+			'user_is_temp' => $user->isTemp(),
 			'user_editcount' => $editCount ?: 0,
 		];
 
