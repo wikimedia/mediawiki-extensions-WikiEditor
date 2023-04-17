@@ -174,7 +174,6 @@
 	"wikieditor-toolbar-help-content-reference-syntax": "Taksto ng pahina.&lt;ref&gt;[http://www.halimbawa.org Teksto ng kawing], karagdagang teksto.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "Teksto ng pahina.<sup><a href='#'>[1]</a></sup>",
 	"wikieditor-toolbar-help-content-rereference-description": "Karagdagang paggamit na gayun ding sanggunian",
-	"wikieditor-toolbar-help-content-rereference-syntax": "&lt;ref name=\"test\" /&gt;",
 	"wikieditor-toolbar-help-content-rereference-result": "Teksto ng pahina.<sup><a href='#'>[2]</a></sup>",
 	"wikieditor-toolbar-help-content-showreferences-description": "Ipakita ang mga sanggunian",
 	"wikieditor-toolbar-help-content-showreferences-syntax": "&lt;mga sanggunian /&gt;",
