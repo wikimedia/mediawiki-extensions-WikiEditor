@@ -6,7 +6,8 @@
 			"Ebraminio",
 			"Muhammad Shuaib",
 			"محبوب عالم",
-			"පසිඳු කාවින්ද"
+			"පසිඳු කාවින්ද",
+			"TheAafi"
 		]
 	},
 	"wikieditor": "ویکی متن کی ترمیم کے ليے اضافی خصوصیات سے آراستہ انٹرفیس",
@@ -48,7 +49,7 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "اندرونی ربط",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "بیرونی ربط",
 	"wikieditor-toolbar-tool-link-empty": "مربوط کرنے کے لیے آپ نے کچھ درج نہیں کیا۔",
-	"wikieditor-toolbar-tool-file": "پیوستہ فائل",
+	"wikieditor-toolbar-tool-file": "تصاویر اور میڈیا",
 	"wikieditor-toolbar-tool-file-example": "مثال.jpg",
 	"wikieditor-toolbar-tool-file-title": "فائل رکھیں",
 	"wikieditor-toolbar-file-target": "فائل کا نام:",
@@ -101,6 +102,7 @@
 	"wikieditor-toolbar-tool-table-example-old": "-\n! سرنامہ 1\n! سرنامہ 2\n! سرنامہ 3\n|-\n| صف 1, خانہ 1\n| صف 1, خانہ 2\n| صف 1, خانہ 3\n|-\n| صف 2, خانہ 1\n| صف 2, خانہ 2\n| صف 2, خانہ 3",
 	"wikieditor-toolbar-tool-table-example-cell-text": "خانے کا متن",
 	"wikieditor-toolbar-tool-table-example-header": "سرنامے کا متن",
+	"wikieditor-toolbar-tool-table-example-caption": "کیپشن کا متن",
 	"wikieditor-toolbar-tool-table-title": "جدول رکھیں",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "صفیں",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "قطاریں",
