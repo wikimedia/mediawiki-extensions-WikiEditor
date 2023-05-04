@@ -69,5 +69,6 @@
 	"wikieditor-toolbar-tool-replace-button-replaceall": "ኩሉ ተክእ",
 	"wikieditor-toolbar-tool-replace-close": "ዕጸው",
 	"wikieditor-toolbar-section-characters": "ፍሉይ ፊደላት",
-	"wikieditor-toolbar-section-help": "ሓገዝ"
+	"wikieditor-toolbar-section-help": "ሓገዝ",
+	"wikieditor-realtimepreview-preview": "ቅድመ ትርኢት"
 }
