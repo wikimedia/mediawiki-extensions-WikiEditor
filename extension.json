@@ -276,7 +276,7 @@
 				"wikieditor-toolbar-tool-file-upload"
 			],
 			"dependencies": [
-				"jquery.cookie",
+				"mediawiki.cookie",
 				"jquery.textSelection",
 				"jquery.ui",
 				"mediawiki.api",
