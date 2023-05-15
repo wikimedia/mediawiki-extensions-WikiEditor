@@ -79,6 +79,9 @@
 	"wikieditor-toolbar-tool-big-example": "Gita xuufiya",
 	"wikieditor-toolbar-tool-small": "Qeera",
 	"wikieditor-toolbar-tool-small-example": "Qeera xuufiya",
+	"wikieditor-toolbar-group-insert": "Gelissa",
+	"wikieditor-toolbar-tool-gallery": "Misiliya galaariya",
+	"wikieditor-toolbar-tool-gallery-example": "Leemisuwaa.jpg|Kiike xuufiya1\nLeemisuwaa.jpg|Kiike xuufiya2",
 	"wikieditor-toolbar-tool-newline": "Ooratta yafaraa",
 	"wikieditor-toolbar-tool-table": "Zaraa",
 	"wikieditor-toolbar-tool-table-example-old": "! huuphe yohuwaa 1\n! huuphe yohuwaa 2\n! huuphe yohuwaa 3\n|-\n| meegaa 1, shaahuwaa 1\n| meegaa 1, shaahuwaa 2\n| meegaa 1, shaahuwaa 3\n|-\n| meegaa 2, shaahuwaa 1\n| meegaa 2, shaahuwaa 2\n| meegaa 2, shaahuwaa 3",
@@ -114,5 +117,8 @@
 	"wikieditor-toolbar-tool-replace-word": "Ubba qaalatakka issi mala ootta",
 	"wikieditor-toolbar-section-characters": "Dumma machchallata",
 	"wikieditor-toolbar-section-help": "Maaduwaa",
+	"wikieditor-realtimepreview-preview": "Kaseti be'uwaa",
+	"wikieditor-realtimepreview-error": "Kaseti be'oy yibeenna",
+	"wikieditor-realtimepreview-reload": "Zaara eha",
 	"wikieditor-realtimepreview-onboarding-button": "Likke, demmaasi"
 }
