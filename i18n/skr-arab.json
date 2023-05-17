@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saraiki"
+		]
+	},
+	"wikieditor-toolbar-tool-bold": "موٹا",
+	"wikieditor-toolbar-tool-bold-example": "موٹی لکھت",
+	"wikieditor-toolbar-tool-italic": "ترچھا",
+	"wikieditor-toolbar-tool-italic-example": "ترچھی لکھت",
+	"wikieditor-toolbar-tool-ilink": "اندرلا لنک",
+	"wikieditor-toolbar-tool-link": "لنک",
+	"wikieditor-toolbar-tool-link-title": "لنک پاؤ",
+	"wikieditor-toolbar-file-size": "سائز:",
+	"wikieditor-toolbar-file-float": "سِیدھ:",
+	"wikieditor-toolbar-file-format": "فارمیٹ",
+	"wikieditor-toolbar-file-format-none": "کوئی وی کائنی",
+	"wikieditor-toolbar-tool-file-insert": "درج کرو",
+	"wikieditor-toolbar-tool-file-cancel": "منسوخ",
+	"wikieditor-toolbar-tool-file-upload": "اپلوڈ",
+	"wikieditor-toolbar-tool-reference": "حوالہ",
+	"wikieditor-toolbar-tool-reference-cancel": "منسوخ",
+	"wikieditor-toolbar-tool-replace-button-replace": "بدل گھنو",
+	"wikieditor-toolbar-tool-replace-button-replaceall": "سارے بدل گھنو",
+	"wikieditor-toolbar-tool-replace-close": "بند کرو",
+	"wikieditor-toolbar-section-help": "مدد"
+}
