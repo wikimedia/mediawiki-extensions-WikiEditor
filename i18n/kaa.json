@@ -146,7 +146,7 @@
 	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>Juwan qıya tekst</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "Ishki siltew",
 	"wikieditor-toolbar-help-content-ilink-syntax": "[[Bet ataması]]<br />[[Bet ataması|Siltew táriypi]]",
-	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>Bet ataması</a><br /><a href='#'>Siltew táriypi</a>",
+	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>Bet ataması</a><br /><a href='#'>Silteme táriypi</a>",
 	"wikieditor-toolbar-help-content-xlink-description": "Sırtqı siltew",
 	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.example.org Siltew táriypi]<br />[http://www.example.org]<br />http://www.example.org",
 	"wikieditor-toolbar-help-content-xlink-result": "<a href='#' class='external'>Siltew táriypi</a><br /><a href='#' class='external autonumber'>[1]</a><br /><a href='#' class='external'>http://www.example.org</a>",
