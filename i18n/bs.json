@@ -198,5 +198,6 @@
 	"wikieditor-toolbar-help-content-indent-description": "Uvučeno",
 	"wikieditor-toolbar-help-content-indent-syntax": "Obični tekst<br />:Uvučeni tekst<br />::Uvučeni tekst",
 	"wikieditor-toolbar-help-content-indent-result": "Obični tekst<dl><dd>Uvučeni tekst<dl><dd>Uvučeni tekst</dd></dl></dd></dl>",
-	"wikieditor-realtimepreview-preview": "Pregled"
+	"wikieditor-realtimepreview-preview": "Pregled",
+	"wikieditor-realtimepreview-reload": "Osvježi"
 }
