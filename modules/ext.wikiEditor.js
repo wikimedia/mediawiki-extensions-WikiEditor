@@ -9,6 +9,12 @@
 	require( './jquery.wikiEditor.js' );
 
 	function logEditEvent( data ) {
+		if ( mw.config.get( 'wgMFMode' ) !== null ) {
+			// Visiting a ?action=edit URL can, depending on user settings, result
+			// in the MobileFrontend overlay appearing on top of WikiEditor. In
+			// these cases, don't log anything.
+			return;
+		}
 		mw.track( 'editAttemptStep', $.extend( {
 			// eslint-disable-next-line camelcase
 			editor_interface: 'wikitext',
@@ -18,6 +24,12 @@
 	}
 
 	function logEditFeature( feature, action ) {
+		if ( mw.config.get( 'wgMFMode' ) !== null ) {
+			// Visiting a ?action=edit URL can, depending on user settings, result
+			// in the MobileFrontend overlay appearing on top of WikiEditor. In
+			// these cases, don't log anything.
+			return;
+		}
 		mw.track( 'visualEditorFeatureUse', {
 			feature: feature,
 			action: action,
