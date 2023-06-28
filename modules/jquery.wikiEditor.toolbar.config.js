@@ -561,37 +561,6 @@
 							}
 						]
 					},
-					reference: {
-						labelMsg: 'wikieditor-toolbar-help-page-reference',
-						layout: 'table',
-						headings: [
-							{ textMsg: 'wikieditor-toolbar-help-heading-description' },
-							{ textMsg: 'wikieditor-toolbar-help-heading-syntax' },
-							{ textMsg: 'wikieditor-toolbar-help-heading-result' }
-						],
-						rows: [
-							{
-								description: { htmlMsg: 'wikieditor-toolbar-help-content-reference-description' },
-								syntax: { htmlMsg: 'wikieditor-toolbar-help-content-reference-syntax' },
-								result: { htmlMsg: 'wikieditor-toolbar-help-content-reference-result' }
-							},
-							{
-								description: { htmlMsg: 'wikieditor-toolbar-help-content-named-reference-description' },
-								syntax: { htmlMsg: 'wikieditor-toolbar-help-content-named-reference-syntax' },
-								result: { htmlMsg: 'wikieditor-toolbar-help-content-named-reference-result' }
-							},
-							{
-								description: { htmlMsg: 'wikieditor-toolbar-help-content-rereference-description' },
-								syntax: { htmlMsg: 'wikieditor-toolbar-help-content-rereference-syntax' },
-								result: { htmlMsg: 'wikieditor-toolbar-help-content-rereference-result' }
-							},
-							{
-								description: { htmlMsg: 'wikieditor-toolbar-help-content-showreferences-description' },
-								syntax: { htmlMsg: 'wikieditor-toolbar-help-content-showreferences-syntax' },
-								result: { htmlMsg: 'wikieditor-toolbar-help-content-showreferences-result' }
-							}
-						]
-					},
 					discussion: {
 						labelMsg: 'wikieditor-toolbar-help-page-discussion',
 						layout: 'table',

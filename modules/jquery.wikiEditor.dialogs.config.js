@@ -49,19 +49,6 @@
 								type: 'dialog',
 								module: 'insert-file'
 							}
-						},
-						reference: {
-							labelMsg: 'wikieditor-toolbar-tool-reference',
-							filters: [ 'body.ns-subject' ],
-							type: 'button',
-							oouiIcon: 'reference',
-							action: {
-								type: 'encapsulate',
-								options: {
-									pre: '<ref>',
-									post: '</ref>'
-								}
-							}
 						}
 					}
 				} )
