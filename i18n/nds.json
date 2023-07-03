@@ -36,9 +36,6 @@
 	"wikieditor-toolbar-tool-file-insert": "Infögen",
 	"wikieditor-toolbar-tool-file-cancel": "Afbreken",
 	"wikieditor-toolbar-tool-file-upload": "Hoochladen",
-	"wikieditor-toolbar-tool-reference": "Enkelnawies",
-	"wikieditor-toolbar-tool-reference-cancel": "Afbreken",
-	"wikieditor-toolbar-tool-reference-title": "Footnoot infögen",
 	"wikieditor-toolbar-section-advanced": "Verwiedert",
 	"wikieditor-toolbar-tool-heading": "Böverschrift",
 	"wikieditor-toolbar-tool-heading-1": "Evene 1",
@@ -90,7 +87,6 @@
 	"wikieditor-toolbar-help-page-heading": "Böverschriften",
 	"wikieditor-toolbar-help-page-list": "Liesten",
 	"wikieditor-toolbar-help-page-file": "Datein",
-	"wikieditor-toolbar-help-page-reference": "Footnoten",
 	"wikieditor-toolbar-help-page-discussion": "Diskuschoon",
 	"wikieditor-toolbar-help-content-italic-description": "Kursiv",
 	"wikieditor-toolbar-help-content-bold-description": "Fett",
@@ -107,6 +103,5 @@
 	"wikieditor-toolbar-help-content-ulist-description": "Optellensteken",
 	"wikieditor-toolbar-help-content-olist-description": "Nummereerte Liest",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Bispööl.png|$2|$3]]",
-	"wikieditor-toolbar-help-content-file-caption": "Bischrift",
-	"wikieditor-toolbar-help-content-reference-description": "Enkelnawies"
+	"wikieditor-toolbar-help-content-file-caption": "Bischrift"
 }

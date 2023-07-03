@@ -40,10 +40,6 @@
 	"wikieditor-toolbar-file-format-none": "ungat",
 	"wikieditor-toolbar-tool-file-cancel": "Laxan",
 	"wikieditor-toolbar-tool-file-upload": "Pawsa’ sa kktan",
-	"wikieditor-toolbar-tool-reference": "Kmita’ sa bungkeng",
-	"wikieditor-toolbar-tool-reference-cancel": "Laxan",
-	"wikieditor-toolbar-tool-reference-title": "Hbaniy quw knita’ squw bunkeng",
-	"wikieditor-toolbar-tool-reference-text": "Kt’aniy sa biru’ na bunkeng",
 	"wikieditor-toolbar-tool-signature": "Miru’ lalu’ squw zikang",
 	"wikieditor-toolbar-section-advanced": "Mkkura’ pinqbaqan",
 	"wikieditor-toolbar-tool-heading": "Lalu’",
@@ -99,7 +95,6 @@
 	"wikieditor-toolbar-help-page-heading": "Lalu’",
 	"wikieditor-toolbar-help-page-list": "Binzyagan sa kktan",
 	"wikieditor-toolbar-help-page-file": "Biru’ na zayzyuwaw",
-	"wikieditor-toolbar-help-page-reference": "Kmita’ sa bungkeng",
 	"wikieditor-toolbar-help-content-italic-description": "Mtkkiy",
 	"wikieditor-toolbar-help-content-italic-syntax": "\"Mtkkiy na biru’\"",
 	"wikieditor-toolbar-help-content-bold-description": "Qthuy na biru’",
@@ -116,6 +111,5 @@
 	"wikieditor-toolbar-help-content-olist-description": "Banggo’ na binkgan na zngayan",
 	"wikieditor-toolbar-help-content-file-description": "Pinraw niya’ biru’ na tang’an",
 	"wikieditor-toolbar-help-content-file-caption": "Lalu’ na biru’ kkayal",
-	"wikieditor-toolbar-help-content-reference-description": "Kmita’ sa bungkeng",
 	"wikieditor-toolbar-help-content-signature-description": "Miru’ lalu’"
 }

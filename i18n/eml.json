@@ -16,10 +16,6 @@
 	"wikieditor-toolbar-tool-file-title": "Mèt dèint'r un file",
 	"wikieditor-toolbar-tool-file-cancel": "Scanślèr",
 	"wikieditor-toolbar-tool-file-upload": "Carghèr",
-	"wikieditor-toolbar-tool-reference": "Referèinsa",
-	"wikieditor-toolbar-tool-reference-cancel": "Scanślèr",
-	"wikieditor-toolbar-tool-reference-title": "Mèter dèinter na referèinsa",
-	"wikieditor-toolbar-tool-reference-insert": "Mèter dèinter",
 	"wikieditor-toolbar-tool-heading-1": "Livêl 1",
 	"wikieditor-toolbar-tool-heading-2": "Livêl 2",
 	"wikieditor-toolbar-tool-heading-3": "Livêl 3",
@@ -34,7 +30,6 @@
 	"wikieditor-toolbar-help-page-heading": "Intestasiòun",
 	"wikieditor-toolbar-help-page-list": "Elèinc",
 	"wikieditor-toolbar-help-page-file": "Files",
-	"wikieditor-toolbar-help-page-reference": "Referèinsi",
 	"wikieditor-toolbar-help-page-discussion": "Discusiòun",
 	"wikieditor-toolbar-help-content-italic-description": "Cursîv",
 	"wikieditor-toolbar-help-content-ilink-description": "Colegamèint intèren",
@@ -51,6 +46,5 @@
 	"wikieditor-toolbar-help-content-heading5-description": "Tìtol ed quìnt livêl",
 	"wikieditor-toolbar-help-content-heading5-syntax": "=====Têst dal tìtol=====",
 	"wikieditor-toolbar-help-content-heading5-result": "<h5>Têst dal tìtol</h5>",
-	"wikieditor-toolbar-help-content-reference-description": "Referèinsa",
 	"wikieditor-toolbar-help-content-signature-description": "Firma"
 }
