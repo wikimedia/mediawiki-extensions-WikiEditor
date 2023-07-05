@@ -194,5 +194,6 @@
 	"wikieditor-toolbar-help-content-indent-description": "Дlахило",
 	"wikieditor-toolbar-help-content-indent-syntax": "Гуттарлера йоза<br />:Дlахилийна йоза<br />::Дlахилийна йоза",
 	"wikieditor-toolbar-help-content-indent-result": "Гуттарлера йоза<dl><dd>Дlахилийна йоза<dl><dd>Дlахилийна йоза</dd></dl></dd></dl>",
+	"tag-wikieditor-description": "Нисдар дина [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]]-а (2010 вики-форматан редакторан) гӀоьнца",
 	"wikieditor-realtimepreview-preview": "Хьалххе хьажар"
 }
