@@ -33,7 +33,7 @@
 					group: 'insert',
 					tools: {
 						link: {
-							labelMsg: 'wikieditor-toolbar-tool-link',
+							label: mw.msg( 'wikieditor-toolbar-tool-link' ),
 							type: 'button',
 							oouiIcon: 'link',
 							action: {
@@ -42,7 +42,7 @@
 							}
 						},
 						file: {
-							labelMsg: 'wikieditor-toolbar-tool-file',
+							label: mw.msg( 'wikieditor-toolbar-tool-file' ),
 							type: 'button',
 							oouiIcon: 'image',
 							action: {
@@ -57,7 +57,7 @@
 					group: 'insert',
 					tools: {
 						table: {
-							labelMsg: 'wikieditor-toolbar-tool-table',
+							label: mw.msg( 'wikieditor-toolbar-tool-table' ),
 							type: 'button',
 							oouiIcon: 'table',
 							action: {
@@ -73,7 +73,7 @@
 						search: {
 							tools: {
 								replace: {
-									labelMsg: 'wikieditor-toolbar-tool-replace',
+									label: mw.msg( 'wikieditor-toolbar-tool-replace' ),
 									type: 'button',
 									oouiIcon: 'articleSearch',
 									action: {
@@ -90,7 +90,7 @@
 		getDefaultConfig: function () {
 			return { dialogs: {
 				'insert-link': {
-					titleMsg: 'wikieditor-toolbar-tool-link-title',
+					title: mw.message( 'wikieditor-toolbar-tool-link-title' ).parse(),
 					id: 'wikieditor-toolbar-link-dialog',
 					html: $( '<fieldset>' ).append(
 						insertLinkTitleInputField.$element,
@@ -333,7 +333,7 @@
 					}
 				},
 				'insert-file': {
-					titleMsg: 'wikieditor-toolbar-tool-file-title',
+					title: mw.message( 'wikieditor-toolbar-tool-file-title' ).parse(),
 					id: 'wikieditor-toolbar-file-dialog',
 					htmlTemplate: 'dialogInsertFile.html',
 					init: function () {
@@ -583,7 +583,7 @@
 					}
 				},
 				'insert-table': {
-					titleMsg: 'wikieditor-toolbar-tool-table-title',
+					title: mw.message( 'wikieditor-toolbar-tool-table-title' ).parse(),
 					id: 'wikieditor-toolbar-table-dialog',
 					htmlTemplate: 'dialogInsertTable.html',
 					init: function () {
@@ -748,7 +748,7 @@
 					}
 				},
 				'search-and-replace': {
-					titleMsg: 'wikieditor-toolbar-tool-replace-title',
+					title: mw.message( 'wikieditor-toolbar-tool-replace-title' ).parse(),
 					id: 'wikieditor-toolbar-replace-dialog',
 					htmlTemplate: 'dialogReplace.html',
 					init: function () {

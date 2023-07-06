@@ -90,6 +90,8 @@
 		 *        special need instead?
 		 * FIXME: Also, this is ludicrously complex. Just use mw.message().text() directly.
 		 *
+		 * @deprecated Since v0.5.4. Use mw.message() directly instead of <key>Msg
+		 *
 		 * @param {Object} object Object to extract messages from
 		 * @param {string} property String of name of property which contains the message. This should be the base name of the
 		 * property, which means that in the case of the object { this: 'that', fooMsg: 'bar' }, passing property as 'this'
@@ -126,6 +128,8 @@
 		 * Provides a way to extract messages from objects. Wraps a mw.message( ... ).escaped() call.
 		 *
 		 * FIXME: This is ludicrously complex. Just use mw.message().escaped() directly.
+		 *
+		 * @deprecated Since v0.5.4. Use mw.message() directly instead of <key>Msg
 		 *
 		 * @param {Object} object Object to extract messages from
 		 * @param {string} property String of name of property which contains the message. This should be the base name of the
@@ -406,7 +410,7 @@
 					}
 					// Automatically add the previously not-needed wikitext tab
 					if ( !context.$tabs.children().length ) {
-						addTab( { name: 'wikitext', titleMsg: 'wikieditor-wikitext-tab' } );
+						addTab( { name: 'wikitext', title: mw.message( 'wikieditor-wikitext-tab' ).parse() } );
 					}
 					// Add the tab for the view we were actually asked to add
 					addTab( options );
