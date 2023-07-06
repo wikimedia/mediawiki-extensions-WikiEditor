@@ -33,6 +33,38 @@
 		}() );
 
 	/**
+	 * Helper function to mark the automatic message functionality in
+	 * the autoMsg and autoSafeMsg functions as deprecated.
+	 *
+	 * @param {string} property
+	 */
+	function deprecateAutoMsg( property, key ) {
+		var searchParam = mw.config.get( 'wgSearchType' ) === 'CirrusSearch' ?
+			'insource:/' + property + 'Msg: \'' + key + '\'/' :
+			property + 'Msg: ' + key;
+		var searchUri = mw.config.get( 'wgServer' ) +
+			mw.util.getUrl(
+				'Special:Search',
+				{ search: searchParam, ns2: 1, ns8: 1 }
+			);
+		if ( searchUri.slice( 0, 2 ) === '//' ) {
+			searchUri = location.protocol + searchUri;
+		}
+
+		var messageMethod;
+		if ( property === 'html' || property === 'text' || property === 'title' ) {
+			messageMethod = 'mw.message( ' + JSON.stringify( key ) + ' ).parse()';
+		} else {
+			messageMethod = 'mw.msg( ' + JSON.stringify( key ) + ')';
+		}
+		var deprecationMsg = mw.log.makeDeprecated(
+			'wikiEditor_autoMsg',
+			'WikiEditor: Use `' + property + ': ' + messageMethod + '` instead of `' + property + 'Msg: ' + JSON.stringify( key ) + '`.\nSearch: ' + searchUri
+		);
+		deprecationMsg();
+	}
+
+	/**
 	 * Global static object for wikiEditor that provides generally useful functionality to all modules and contexts.
 	 */
 	$.wikiEditor = {
@@ -114,8 +146,10 @@
 			} else if ( property + 'Msg' in object ) {
 				var p = object[ property + 'Msg' ];
 				if ( Array.isArray( p ) && p.length >= 2 ) {
+					deprecateAutoMsg( property, p[ 0 ] );
 					return mw.message.apply( mw.message, p ).text();
 				} else {
+					deprecateAutoMsg( property, p );
 					// eslint-disable-next-line mediawiki/msg-doc
 					return mw.message( p ).text();
 				}
@@ -153,8 +187,10 @@
 			} else if ( property + 'Msg' in object ) {
 				var p = object[ property + 'Msg' ];
 				if ( Array.isArray( p ) && p.length >= 2 ) {
+					deprecateAutoMsg( property, p[ 0 ] );
 					return mw.message.apply( mw.message, p ).escaped();
 				} else {
+					deprecateAutoMsg( property, p );
 					// eslint-disable-next-line mediawiki/msg-doc
 					return mw.message( p ).escaped();
 				}
