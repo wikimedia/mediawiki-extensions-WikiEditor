@@ -45,13 +45,9 @@
 	"wikieditor-toolbar-help-content-bold-description": "Fett",
 	"wikieditor-toolbar-help-content-ilink-description": "Gleecher",
 	"wikieditor-toolbar-help-content-xlink-description": "Gewebbgleecher",
-	"wikieditor-toolbar-help-content-heading2-syntax": "== Iwwerschrift ==",
-	"wikieditor-toolbar-help-content-heading2-result": "<h2>Iwwerschrift</h2>",
-	"wikieditor-toolbar-help-content-heading3-syntax": "=== Iwwerschrift ===",
-	"wikieditor-toolbar-help-content-heading3-result": "<h3>Iwwerschrift</h3>",
-	"wikieditor-toolbar-help-content-heading4-syntax": "==== Iwwerschrift ====",
-	"wikieditor-toolbar-help-content-heading4-result": "<h4>Iwwerschrift</h4>",
-	"wikieditor-toolbar-help-content-heading5-syntax": "===== Iwwerschrift =====",
-	"wikieditor-toolbar-help-content-heading5-result": "<h5>Iwwerschrift</h5>",
+	"wikieditor-toolbar-help-content-heading2-example": "Iwwerschrift",
+	"wikieditor-toolbar-help-content-heading3-example": "Iwwerschrift",
+	"wikieditor-toolbar-help-content-heading4-example": "Iwwerschrift",
+	"wikieditor-toolbar-help-content-heading5-example": "Iwwerschrift",
 	"wikieditor-toolbar-help-content-signature-description": "Unnerschrift"
 }

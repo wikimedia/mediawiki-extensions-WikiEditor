@@ -18,8 +18,8 @@
 	"wikieditor-toolbar-tool-table-cancel": "Khansela",
 	"wikieditor-toolbar-help-page-link": "Dihlomaganyo",
 	"wikieditor-toolbar-help-content-xlink-description": "Hhlomaganyo ya kantle",
-	"wikieditor-toolbar-help-content-heading2-syntax": "== Ditlhaka tša hlogo-taba ==",
-	"wikieditor-toolbar-help-content-heading3-syntax": "== Ditlhaka tša hlogo-taba ==",
-	"wikieditor-toolbar-help-content-heading4-syntax": "== Ditlhaka tša hlogo-taba ==",
-	"wikieditor-toolbar-help-content-heading5-syntax": "== Ditlhaka tša hlogo-taba =="
+	"wikieditor-toolbar-help-content-heading2-example": "Ditlhaka tša hlogo-taba",
+	"wikieditor-toolbar-help-content-heading3-example": "== Ditlhaka tša hlogo-taba ==",
+	"wikieditor-toolbar-help-content-heading4-example": "== Ditlhaka tša hlogo-taba ==",
+	"wikieditor-toolbar-help-content-heading5-example": "== Ditlhaka tša hlogo-taba =="
 }

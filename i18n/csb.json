@@ -38,8 +38,7 @@
 	"wikieditor-toolbar-section-help": "Pòmòc",
 	"wikieditor-toolbar-help-heading-description": "Òpis",
 	"wikieditor-toolbar-help-content-italic-description": "Kùrsywa",
-	"wikieditor-toolbar-help-content-italic-syntax": "''Kùrsywa''",
-	"wikieditor-toolbar-help-content-italic-result": "<em>Kùrsywa</em>",
+	"wikieditor-toolbar-help-content-italic-example": "Kùrsywa",
 	"wikieditor-toolbar-help-content-bold-description": "Grëbi",
 	"wikieditor-toolbar-help-content-ilink-description": "Bënowi lënk",
 	"wikieditor-toolbar-help-content-xlink-description": "Bùtnowé lënczi"

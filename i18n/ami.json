@@ -21,8 +21,8 @@
 	"wikieditor-toolbar-help-heading-description": "kimad",
 	"wikieditor-toolbar-help-page-file": "tang’an",
 	"wikieditor-toolbar-help-page-discussion": "malalicay",
-	"wikieditor-toolbar-help-content-italic-syntax": "''matokenihay a tilid''",
-	"wikieditor-toolbar-help-content-bold-syntax": "'''kifetolay a tilid'''",
+	"wikieditor-toolbar-help-content-italic-example": "matokenihay a tilid",
+	"wikieditor-toolbar-help-content-bold-example": "kifetolay a tilid",
 	"wikieditor-toolbar-help-content-ilink-description": "I laloma’ay a makakafit",
 	"wikieditor-toolbar-help-content-file-description": "Sapakemel a tang^an"
 }
