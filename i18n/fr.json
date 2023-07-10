@@ -162,7 +162,7 @@
 	"wikieditor-toolbar-help-content-bolditalic-description": "Gras et italique",
 	"wikieditor-toolbar-help-content-bolditalic-example": "Texte gras et italique",
 	"wikieditor-toolbar-help-content-ilink-description": "Lien interne",
-	"wikieditor-toolbar-help-content-ilink-example": "[[Page title]]\n[[Page title|Libellé du lien]]",
+	"wikieditor-toolbar-help-content-ilink-example": "[[Titre de la page]]\n[[Titre de la page|Libellé du lien]]",
 	"wikieditor-toolbar-help-content-xlink-description": "Lien externe",
 	"wikieditor-toolbar-help-content-xlink-example-label": "Libellé du lien",
 	"wikieditor-toolbar-help-content-heading2-description": "Titre de deuxième niveau",

@@ -172,6 +172,8 @@
 	"wikieditor-toolbar-help-content-file-caption": "Kuvateksti",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Allekirjoitus aikaleimalla",
 	"wikieditor-toolbar-help-content-signature-description": "Allekirjoitus",
+	"wikieditor-toolbar-help-content-signature-username": "Käyttäjänimi",
 	"wikieditor-toolbar-help-content-indent-description": "Sisennys",
+	"wikieditor-toolbar-help-content-indent1": "Normaali teksti",
 	"wikieditor-realtimepreview-preview": "Esikatselu"
 }

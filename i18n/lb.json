@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"wikieditor": "Erweiderten Interface fir d'Änner vu Wikitext",
@@ -132,7 +133,7 @@
 	"wikieditor-toolbar-help-content-italic-example": "Kursiven Text",
 	"wikieditor-toolbar-help-content-bold-description": "Fett",
 	"wikieditor-toolbar-help-content-bold-example": "Fetten Text",
-	"wikieditor-toolbar-help-content-bolditalic-description": "Fett &amp; kursiv",
+	"wikieditor-toolbar-help-content-bolditalic-description": "Fett & kursiv",
 	"wikieditor-toolbar-help-content-bolditalic-example": "Fetten & kursiven Text",
 	"wikieditor-toolbar-help-content-ilink-description": "Interne Link",
 	"wikieditor-toolbar-help-content-xlink-description": "Externe Link",
@@ -150,6 +151,8 @@
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Beispill.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Ënnerschrëft mat Datum an Auerzäit",
 	"wikieditor-toolbar-help-content-signature-description": "Ënnerschrëft",
+	"wikieditor-toolbar-help-content-signature-username": "Benotzernumm",
 	"wikieditor-toolbar-help-content-indent-description": "Erasetzen",
+	"wikieditor-toolbar-help-content-indent1": "Normalen Text",
 	"wikieditor-realtimepreview-reload": "Nei lueden"
 }
