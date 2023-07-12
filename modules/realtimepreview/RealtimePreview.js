@@ -21,6 +21,7 @@ function RealtimePreview() {
 	var $previewContent = $( '#wikiPreview .mw-content-ltr, #wikiPreview .mw-content-rtl' ).first().clone();
 	this.$previewNode = $( '<div>' )
 		.addClass( 'ext-WikiEditor-realtimepreview-preview' )
+		.attr( 'tabindex', '1' ) // T317108
 		.append( $previewContent );
 
 	// Loading bar.
