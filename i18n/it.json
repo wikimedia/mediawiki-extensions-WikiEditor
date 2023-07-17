@@ -16,7 +16,8 @@
 			"Statix64",
 			"Toadino2",
 			"Una giornata uggiosa '94",
-			"Vituzzu"
+			"Vituzzu",
+			"IrsY"
 		]
 	},
 	"wikieditor": "Interfaccia avanzata di modifica del wikitesto",
@@ -140,6 +141,7 @@
 	"wikieditor-toolbar-tool-replace-success": "$1 {{PLURAL:$1|sostituzione effettuata|sostituzioni effettuate}}.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "Non hai indicato cosa cercare.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "L'espressione regolare immessa non è valida: $1",
+	"wikieditor-toolbar-tool-replace-word": "Corrispondenza con la parola intera",
 	"wikieditor-toolbar-section-characters": "Caratteri speciali",
 	"wikieditor-toolbar-section-help": "Aiuto",
 	"wikieditor-toolbar-help-heading-description": "Descrizione",
