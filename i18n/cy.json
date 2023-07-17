@@ -157,6 +157,7 @@
 	"wikieditor-toolbar-help-content-signature-example": "[[$1:$3|$3]] ([[$2:$3|sgwrs]])",
 	"wikieditor-toolbar-help-content-signature-username": "Enw defnyddiwr",
 	"wikieditor-toolbar-help-content-indent-description": "Mewnoli",
+	"wikieditor-toolbar-help-content-indent1": "Testun arferol",
 	"tag-wikieditor-description": "Golygiad trwy [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (golygydd cystrawen wici 2010 wikitext)",
 	"wikieditor-realtimepreview-preview": "Rhagolwg",
 	"wikieditor-realtimepreview-error": "Rhagolwg ddim yn llwytho",
