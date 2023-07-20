@@ -31,6 +31,7 @@ use MediaWiki\Preferences\Hook\GetPreferencesHook;
 use MediaWiki\ResourceLoader as RL;
 use MediaWiki\User\UserEditTracker;
 use MediaWiki\User\UserOptionsLookup;
+use MediaWiki\WikiMap\WikiMap;
 use MessageLocalizer;
 use MWCryptRand;
 use OutputPage;
@@ -138,6 +139,7 @@ class Hooks implements
 		$page = $article->getPage();
 		$title = $article->getTitle();
 		$revisionRecord = $page->getRevisionRecord();
+		$skin = $article->getContext()->getSkin();
 
 		$data = [
 			'action' => $action,
@@ -155,6 +157,10 @@ class Hooks implements
 			'user_is_temp' => $user->isTemp(),
 			'user_editcount' => $this->userEditTracker->getUserEditCount( $user ) ?: 0,
 			'mw_version' => MW_VERSION,
+			'skin' => $skin->getSkinName(),
+			'is_bot' => $user->isRegistered() && $user->isBot(),
+			'is_anon' => $user->isAnon(),
+			'wiki' => WikiMap::getCurrentWikiId(),
 		] + $data;
 
 		$bucket = ExtensionRegistry::getInstance()->isLoaded( 'DiscussionTools' ) ?
@@ -177,7 +183,7 @@ class Hooks implements
 		EventLogging::submit(
 			'eventlogging_EditAttemptStep',
 			[
-				'$schema' => '/analytics/legacy/editattemptstep/1.4.1',
+				'$schema' => '/analytics/legacy/editattemptstep/2.0.0',
 				'event' => $data,
 			]
 		);
