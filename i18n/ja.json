@@ -24,7 +24,9 @@
 			"MathXplore",
 			"Yamagata Yusuke",
 			"Dragoniez",
-			"Kokage si"
+			"Kokage si",
+			"Likibp",
+			"MagicAho"
 		]
 	},
 	"wikieditor": "高度なウィキテキスト編集インターフェイス",
@@ -70,6 +72,7 @@
 	"wikieditor-toolbar-file-target": "ファイル名:",
 	"wikieditor-toolbar-file-caption": "キャプション:",
 	"wikieditor-toolbar-file-alt": "代替テキスト:",
+	"wikieditor-toolbar-file-alt-help": "この省略可能な入力欄を使用し、ファイルが見えない人のためにテキストによる説明を記述することができます。説明文はこのメディアアイテムによって与えられる目的と情報を理解するために十分なものでなければいけません。視覚に障害がある利用者や、スクリーンリーダー・ソフトウェア、テキストブラウザなどを利用する人たちにとって、必要不可欠なものです。",
 	"wikieditor-toolbar-file-alt-help-label": "(ヘルプを表示)",
 	"wikieditor-toolbar-file-size": "サイズ:",
 	"wikieditor-toolbar-file-float": "配置:",
