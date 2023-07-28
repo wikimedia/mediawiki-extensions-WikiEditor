@@ -121,6 +121,10 @@ class Hooks implements
 	 * @return void
 	 */
 	public function doEventLogging( $action, $article, $data = [] ) {
+		if ( defined( 'MW_PHPUNIT_TEST' ) ) {
+			return;
+		}
+
 		$extensionRegistry = ExtensionRegistry::getInstance();
 		if ( !$extensionRegistry->isLoaded( 'EventLogging' ) || !$extensionRegistry->isLoaded( 'WikimediaEvents' ) ) {
 			return;
@@ -157,7 +161,7 @@ class Hooks implements
 			'user_is_temp' => $user->isTemp(),
 			'user_editcount' => $this->userEditTracker->getUserEditCount( $user ) ?: 0,
 			'mw_version' => MW_VERSION,
-			'skin' => $skin->getSkinName(),
+			'skin' => $skin ? $skin->getSkinName() : null,
 			'is_bot' => $user->isRegistered() && $user->isBot(),
 			'is_anon' => $user->isAnon(),
 			'wiki' => WikiMap::getCurrentWikiId(),
