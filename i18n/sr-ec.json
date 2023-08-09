@@ -64,6 +64,7 @@
 	"wikieditor-toolbar-file-target": "Име:",
 	"wikieditor-toolbar-file-caption": "Натпис:",
 	"wikieditor-toolbar-file-alt": "Алтернативни текст:",
+	"wikieditor-toolbar-file-alt-help": "Можете користити ово необавезно поље да напишете опис ове датотеке за слепе и слобовиде особе.\nОпис треба да буде довољан да они разумеју сврху и информације које датотека пружа. Ово је витално за слепе и слбовиде који користе читаче текста или (само)текстуалне прегледаче.",
 	"wikieditor-toolbar-file-alt-help-label": "(Помоћ)",
 	"wikieditor-toolbar-file-size": "Величина:",
 	"wikieditor-toolbar-file-float": "Позиција:",
