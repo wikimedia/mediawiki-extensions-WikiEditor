@@ -37,6 +37,7 @@
 	 * the autoMsg and autoSafeMsg functions as deprecated.
 	 *
 	 * @param {string} property
+	 * @param {string} key
 	 */
 	function deprecateAutoMsg( property, key ) {
 		var searchParam = mw.config.get( 'wgSearchType' ) === 'CirrusSearch' ?
