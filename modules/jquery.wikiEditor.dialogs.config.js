@@ -250,8 +250,10 @@
 						},
 						open: function () {
 							// Obtain the server name without the protocol. wgServer may be protocol-relative
+							// eslint-disable-next-line security/detect-unsafe-regex
 							var serverName = mw.config.get( 'wgServer' ).replace( /^(https?:)?\/\//, '' );
 							// Cache the articlepath regex
+							// eslint-disable-next-line security/detect-non-literal-regexp
 							$( this ).data( 'articlePathRegex', new RegExp(
 								'^https?://' + mw.util.escapeRegExp( serverName + mw.config.get( 'wgArticlePath' ) )
 									.replace( /\\\$1/g, '(.*)' ) + '$'
