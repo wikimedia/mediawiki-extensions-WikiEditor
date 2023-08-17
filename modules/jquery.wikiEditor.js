@@ -56,7 +56,7 @@
 		if ( property === 'html' || property === 'text' || property === 'title' ) {
 			messageMethod = 'mw.message( ' + JSON.stringify( key ) + ' ).parse()';
 		} else {
-			messageMethod = 'mw.msg( ' + JSON.stringify( key ) + ')';
+			messageMethod = 'mw.msg( ' + JSON.stringify( key ) + ' )';
 		}
 		var deprecationMsg = mw.log.makeDeprecated(
 			'wikiEditor_autoMsg',
