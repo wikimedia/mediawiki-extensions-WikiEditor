@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Baloch Afghanistan"
+			"Baloch Afghanistan",
+			"Moshtank"
 		]
 	},
 	"wikieditor-toolbar-tool-link": "لینک",
@@ -21,6 +22,6 @@
 	"wikieditor-toolbar-tool-table-dimensions-rows": "ردیپان",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "ستونان",
 	"wikieditor-toolbar-tool-table-cancel": "کنسیل",
-	"wikieditor-toolbar-tool-replace-close": "بستین",
+	"wikieditor-toolbar-tool-replace-close": "بندگ",
 	"wikieditor-toolbar-section-help": "کومک"
 }
