@@ -10,7 +10,8 @@
 			"NGC 54",
 			"Stelistcristi",
 			"Strainu",
-			"Wintereu"
+			"Wintereu",
+			"Alesaru"
 		]
 	},
 	"wikieditor": "Interfață de modificare wikitext avansată",
@@ -193,5 +194,6 @@
 	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Nume de utilizator</a> (<a href='#' title='$2:Username'>discuție</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Indentare",
 	"wikieditor-toolbar-help-content-indent-syntax": "Text normal<br />:Text indentat<br />::Text indentat",
-	"wikieditor-toolbar-help-content-indent-result": "Text normal<dl><dd>Text indentat<dl><dd>Text indentat</dd></dl></dd></dl>"
+	"wikieditor-toolbar-help-content-indent-result": "Text normal<dl><dd>Text indentat<dl><dd>Text indentat</dd></dl></dd></dl>",
+	"wikieditor-realtimepreview-preview": "Previzualizare"
 }
