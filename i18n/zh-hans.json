@@ -25,7 +25,8 @@
 			"Winston Sung",
 			"Anarkiisto",
 			"Diskdance",
-			"Lakejason0"
+			"Lakejason0",
+			"LittlePaw365"
 		]
 	},
 	"wikieditor": "高级wikitext编辑界面",
@@ -35,7 +36,7 @@
 	"wikieditor-toolbar": "编辑工具栏",
 	"wikieditor-toolbar-desc": "有增强的使用性能的页面编辑工具栏",
 	"wikieditor-toolbar-preference": "启用编辑工具栏",
-	"wikieditor-toolbar-preference-help": "该功能有时被称为“2010年版wikitext编辑器”。",
+	"wikieditor-toolbar-preference-help": "此功能有时称作“2010版wikitext编辑器”。",
 	"wikieditor-toolbar-loading": "正在加载...",
 	"wikieditor-toolbar-tool-bold": "粗体",
 	"wikieditor-toolbar-tool-bold-example": "粗体文本",

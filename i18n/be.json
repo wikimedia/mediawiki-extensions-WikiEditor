@@ -118,7 +118,7 @@
 	"wikieditor-toolbar-tool-table-preview": "Перадпаказ",
 	"wikieditor-toolbar-tool-table-insert": "Уставіць",
 	"wikieditor-toolbar-tool-table-cancel": "Закрыць",
-	"wikieditor-toolbar-tool-table-toomany": "Устаўка табліцы, якая ўтрымлівае больш чым $1 {{PLURAL:$1|ячэйка|ячэйкі|ячэек}}, праз гэты дыялог немагчыма.",
+	"wikieditor-toolbar-tool-table-toomany": "Устаўка табліцы больш чым з $1 {{PLURAL:$1|ячэйкай|ячэйкамі}} праз гэты дыялог немагчыма.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Вы не ўвялі слушную колькасць радкоў або слупкоў.",
 	"wikieditor-toolbar-tool-table-zero": "Вы не можаце ўставіць табліцу з нулявой колькасцю радкоў або слупкоў.",
 	"wikieditor-toolbar-tool-replace": "Знайсці і замяніць",
