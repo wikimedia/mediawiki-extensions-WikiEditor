@@ -5,8 +5,8 @@
 			"Bangrapip"
 		]
 	},
-	"wikieditor": "Antermuka pemermakan tèks wiki lanjutan",
-	"wikieditor-desc": "Nyediain antermuka pemermakan tèks wiki nyang canggih èn kena diperlèng",
+	"wikieditor": "Telampangan pemermakan tèks wiki lanjutan",
+	"wikieditor-desc": "Nyediain telampangan pemermakan tèks wiki nyang canggih èn kena diperlèng",
 	"wikieditor-wikitext-tab": "Tèks wiki",
 	"wikieditor-toolbar": "Palang peranti pemermakan",
 	"wikieditor-toolbar-desc": "Palang peranti permak dengen kebegunaan nyang ditingkatin",
@@ -36,7 +36,7 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Ni halaman kaga' ada di {{SITENAME}}",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Judul lu punya masupin kaga' aci",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Sènggètan luar",
-	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Ni halaman bukan halaman isi, tapi daptar topik dengen nama nyang numbras",
+	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Ni halaman bukan halaman isi, tapi daptar topik dengen nama nyang mèmper",
 	"wikieditor-toolbar-tool-link-int-invalid": "Judul lu punya maksud kaga' aci.",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "URL lu punya maksud kiatannya kaya' dimaksudin sebagé sènggètan bakal halaman wiki laèn.\nApa lu pèngèn ngeja sènggètan dalem?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "Sènggètan dalem",
