@@ -5,8 +5,8 @@
 			"Bangrapip"
 		]
 	},
-	"wikieditor": "Antermuka pemermakan tèks wiki lanjutan",
-	"wikieditor-desc": "Nyediain antermuka pemermakan tèks wiki nyang canggih èn kena diperlèng",
+	"wikieditor": "Telampangan pemermakan tèks wiki lanjutan",
+	"wikieditor-desc": "Nyediain telampangan pemermakan tèks wiki nyang canggih èn kena diperlèng",
 	"wikieditor-wikitext-tab": "Tèks wiki",
 	"wikieditor-toolbar": "Palang peranti pemermakan",
 	"wikieditor-toolbar-desc": "Palang peranti permak dengen kebegunaan nyang ditingkatin",
@@ -47,7 +47,7 @@
 	"wikieditor-toolbar-file-target": "Nama berekas:",
 	"wikieditor-toolbar-file-caption": "Keterangan",
 	"wikieditor-toolbar-file-alt": "Tèks alternatip:",
-	"wikieditor-toolbar-file-alt-help": "Lu bisa paké ni isian opsionil bakal nulis tèks jabaran bakal orang nyang kaga' bisa ngiat berekasnya.\nJabaran kudu gampil dingartiin, biar orang pada ngarti tujuan èn inpormasi nyang dikasi ama butir média. Ni penting juga' bakal pemaké buta èn laèn-laèn orang nyang maké peranti pembaca layar atawa pengorag tèks-doang.",
+	"wikieditor-toolbar-file-alt-help": "Lu bisa paké ni isian sunah bakal nulis tèks jabaran bakal orang nyang kaga' bisa ngiat berekasnya.\nJabaran kudu gampil dingartiin, biar orang pada ngarti tujuan èn inpormasi nyang dikasi ama butir média. Ni penting juga' bakal pemaké buta èn laèn-laèn orang nyang maké peranti pembaca layar atawa pengorag tèks-doang.",
 	"wikieditor-toolbar-file-alt-help-label": "(Kasi unjuk pertulungan)",
 	"wikieditor-toolbar-file-size": "Ukuran:",
 	"wikieditor-toolbar-file-float": "Lurusan:",
@@ -197,7 +197,7 @@
 	"wikieditor-realtimepreview-reload": "Muat ulang",
 	"wikieditor-realtimepreview-beta-label": "Pradeleng Waktu-bener",
 	"wikieditor-realtimepreview-beta-desc": "Liat pagémana perobahan tèks wiki bakal nongol ke pembaca di dalem [[mw:Special:MyLanguage/Extension:WikiEditor|pemermak 2010]].",
-	"wikieditor-realtimepreview-reload-title": "Muat ulang anakjendèla pradeleng waktu-bener",
+	"wikieditor-realtimepreview-reload-title": "Muat ulang plang pradeleng waktu-bener",
 	"wikieditor-realtimepreview-manual": "Tulung sekarang muat ulang bakal manual ngiat pradeleng lu punya permakan.",
 	"wikieditor-realtimepreview-onboarding-title": "Pradeleng Waktu-bener",
 	"wikieditor-realtimepreview-onboarding-body": "Liat gimana kiatannya lu punya permakan bakal pembaca dengen mradelengin tu pada di waktu-bener.",
