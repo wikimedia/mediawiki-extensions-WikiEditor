@@ -337,7 +337,12 @@ RealtimePreview.prototype.doRealtimePreview = function ( forceUpdate ) {
 	this.reloadButton.setDisabled( true );
 	this.manualWidget.setDisabled( true );
 	this.errorLayout.toggle( false );
-	var loadingSelectors = this.pagePreview.getLoadingSelectors();
+	var loadingSelectors = this.pagePreview.getLoadingSelectors()
+		// config.$previewNode below is a clone of #wikiPreview with a different selector!
+		// config.$diffNode defaults to #wikiDiff but is disabled below and never updated.
+		.filter( function ( selector ) {
+			return selector.indexOf( '#wiki' ) !== 0;
+		} );
 	loadingSelectors.push( '.ext-WikiEditor-realtimepreview-preview' );
 	loadingSelectors.push( '.ext-WikiEditor-ManualWidget' );
 	loadingSelectors.push( '.ext-WikiEditor-realtimepreview-ErrorLayout' );
