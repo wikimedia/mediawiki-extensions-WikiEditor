@@ -17,6 +17,7 @@
 		]
 	},
 	"wikieditor": "ڕووکاری پێشکەوتووی دەستکاریکردنی ویکیدەق",
+	"wikieditor-desc": "ڕووکارێکی دەستکاریکردنی پێشکەوتوو و فراوانی ویکیدەق دابین دەکات",
 	"wikieditor-wikitext-tab": "ویکیدەق",
 	"wikieditor-loading": "بارکردن",
 	"wikieditor-toolbar": "شریتامرازی دەستکاریکردن",
@@ -184,6 +185,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>ئەندامی لیست</li><li>ئەندامی لیست</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "پەڕگەی نێودەق",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
+	"wikieditor-toolbar-help-content-file-caption": "دەقی شرۆڤەی وێنە",
 	"wikieditor-toolbar-help-content-reference-description": "سەرچاوە",
 	"wikieditor-toolbar-help-content-reference-syntax": "دەقی پەڕە.&lt;ref&gt;[http://www.example.org دەقی بەستەر], دەقی زیادی.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "دەقی پەڕە.<sup><a href='#'>[1]</a></sup>",
