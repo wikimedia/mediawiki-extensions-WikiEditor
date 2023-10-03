@@ -355,6 +355,7 @@ class Hooks implements
 	 * @param OutputPage $outputPage object.
 	 */
 	public static function editPageShowEditFormInitial( EditPage $editPage, OutputPage $outputPage ) {
+		wfDeprecated( __METHOD__, '1.38' );
 		$services = MediaWikiServices::getInstance();
 		( new self(
 			$services->getMainConfig(),
