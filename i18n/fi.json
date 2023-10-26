@@ -20,7 +20,8 @@
 			"Syreeni",
 			"VezonThunder",
 			"ZeiP",
-			"Kyykaarme"
+			"Kyykaarme",
+			"Jack Phoenix"
 		]
 	},
 	"wikieditor": "Edistynyt wikitekstin muokkauskäyttöliittymä",
@@ -209,6 +210,7 @@
 	"wikieditor-toolbar-help-content-indent-description": "Sisennys",
 	"wikieditor-toolbar-help-content-indent-syntax": "Normaali teksti<br />:Sisennetty teksti<br />::Sisennetty teksti",
 	"wikieditor-toolbar-help-content-indent-result": "Normaali teksti<dl><dd>Sisennetty teksti<dl><dd>Sisennetty teksti</dd></dl></dd></dl>",
+	"tag-wikieditor-description": "[[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditorilla]] (vuoden 2010 wikitekstimuokkain) tehty muokkaus",
 	"wikieditor-realtimepreview-preview": "Esikatselu",
 	"wikieditor-realtimepreview-error": "Esikatselu ei lataudu",
 	"wikieditor-realtimepreview-reload": "Lataa uudelleen",
