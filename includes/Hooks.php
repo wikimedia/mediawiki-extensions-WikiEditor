@@ -187,7 +187,7 @@ class Hooks implements
 		EventLogging::submit(
 			'eventlogging_EditAttemptStep',
 			[
-				'$schema' => '/analytics/legacy/editattemptstep/2.0.0',
+				'$schema' => '/analytics/legacy/editattemptstep/2.0.2',
 				'event' => $data,
 			]
 		);
