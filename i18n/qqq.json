@@ -208,12 +208,7 @@
 	"wikieditor-realtimepreview-preview": "Label for the toolbar button to enable/disable realtime preview.",
 	"wikieditor-realtimepreview-error": "Header text for realtime preview errors.",
 	"wikieditor-realtimepreview-reload": "Button text for the realtime preview 'reload' buttons (the hover button, the manual-reload button, and the button shown in error messages).",
-	"wikieditor-realtimepreview-beta-label": "Used in [[Special:Preferences]].\n\nUsed as label for checkbox to enable Realtime Preview as a Beta Feature.\n\nThe description for this checkbox is: {{msg-mw|wikieditor-realtimepreview-beta-desc}}.",
-	"wikieditor-realtimepreview-beta-desc": "Used in [[Special:Preferences]].\n\nUsed as description for the checkbox to enable Realtime Preview as a Beta Feature.\n\nThe label for this checkbox is {{msg-mw|wikieditor-realtimepreview-beta-label}}.",
 	"wikieditor-realtimepreview-reload-title": "Tooltip text for the manual reload button.",
 	"accesskey-wikieditor-realtimepreview": "{{doc-accesskey}}\nAccesskey for the manual reload button.",
-	"wikieditor-realtimepreview-manual": "Message displayed when realtime preview is in 'manual' mode.",
-	"wikieditor-realtimepreview-onboarding-title": "Title label shown in the Realtime Preview onboarding popup.",
-	"wikieditor-realtimepreview-onboarding-body": "Description of Realtime Preview shown in the onboarding popup.",
-	"wikieditor-realtimepreview-onboarding-button": "Dismissing button for the Realtime Preview onboarding popup."
+	"wikieditor-realtimepreview-manual": "Message displayed when realtime preview is in 'manual' mode."
 }
