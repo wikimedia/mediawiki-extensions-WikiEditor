@@ -129,7 +129,5 @@
 	"wikieditor-toolbar-help-content-signature-description": "సంతకం",
 	"wikieditor-realtimepreview-preview": "మునుజూపు",
 	"wikieditor-realtimepreview-error": "మునుజూపు లోడవడం లేదు",
-	"wikieditor-realtimepreview-reload": "తిరిగి లోడు చెయ్యి",
-	"wikieditor-realtimepreview-beta-label": "తక్షణ మునుజూపు",
-	"wikieditor-realtimepreview-beta-desc": "వికీటెక్స్టులో చేసిన మార్పులు పాఠకులకు ఎలా కనబడతాయో [[mw:Special:MyLanguage/Extension:WikiEditor|2010 ఎడిటరులో]] చూడండి."
+	"wikieditor-realtimepreview-reload": "తిరిగి లోడు చెయ్యి"
 }

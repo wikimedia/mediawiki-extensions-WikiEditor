@@ -162,11 +162,6 @@
 	"wikieditor-realtimepreview-preview": "Oldindan koʻrish",
 	"wikieditor-realtimepreview-error": "Oldindan koʻrish yuklanmayapti",
 	"wikieditor-realtimepreview-reload": "Qayta yuklash",
-	"wikieditor-realtimepreview-beta-label": "Haqiqiy vaqtda oldindan koʻrish",
-	"wikieditor-realtimepreview-beta-desc": "[[mw:Special:MyLanguage/Extension:WikiEditor|2010 muharriri]] ichidagi vikimatn oʻzgarishlari oʻquvchilarga qanday koʻrinishini koʻring.",
 	"wikieditor-realtimepreview-reload-title": "Haqiqiy vaqtda oldindan koʻrish panelini qayta yuklash",
-	"wikieditor-realtimepreview-manual": "Tahrirlaringizni oʻzingiz koʻrishingiz uchun hozir qayta yuklang.",
-	"wikieditor-realtimepreview-onboarding-title": "Haqiqiy vaqtda oldindan koʻrish",
-	"wikieditor-realtimepreview-onboarding-body": "Tahrirlaringizni real vaqtda oldindan koʻrish orqali oʻquvchilarga qanday koʻrinishini koʻring.",
-	"wikieditor-realtimepreview-onboarding-button": "Tushunarli"
+	"wikieditor-realtimepreview-manual": "Tahrirlaringizni oʻzingiz koʻrishingiz uchun hozir qayta yuklang."
 }

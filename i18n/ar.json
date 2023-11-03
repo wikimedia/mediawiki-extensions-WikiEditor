@@ -177,11 +177,6 @@
 	"wikieditor-realtimepreview-preview": "معاينة",
 	"wikieditor-realtimepreview-error": "لم تُحمَّل المعاينة",
 	"wikieditor-realtimepreview-reload": "إعادة تحميل",
-	"wikieditor-realtimepreview-beta-label": "معاينة في أثناء التعديل",
-	"wikieditor-realtimepreview-beta-desc": "شاهد كيف ستظهر تغييرات نص ويكي للقراء داخل [[mw:Special:MyLanguage/Extension:WikiEditor|2010 editor]].",
 	"wikieditor-realtimepreview-reload-title": "أعد تحميل جزء المعاينة في الوقت الفعلي",
-	"wikieditor-realtimepreview-manual": "يرجى إعادة التحميل الآن لمعاينة تعديلاتك يدويًا.",
-	"wikieditor-realtimepreview-onboarding-title": "معاينة في أثناء التعديل",
-	"wikieditor-realtimepreview-onboarding-body": "تعرف على الشكل الذي ستبدو عليه تعديلاتك للقراء من خلال معاينتها في الوقت الفعلي.",
-	"wikieditor-realtimepreview-onboarding-button": "حسنا، فهمت"
+	"wikieditor-realtimepreview-manual": "يرجى إعادة التحميل الآن لمعاينة تعديلاتك يدويًا."
 }

@@ -161,11 +161,6 @@
 	"wikieditor-realtimepreview-preview": "Proefbyld",
 	"wikieditor-realtimepreview-error": "Proefbyld laadt net",
 	"wikieditor-realtimepreview-reload": "Werlade",
-	"wikieditor-realtimepreview-beta-label": "Fuort bywurke proefbyld",
-	"wikieditor-realtimepreview-beta-desc": "Binnen de [[mw:Special:MyLanguage/Extension:WikiEditor|Bewurker 2010]] besjen hoe't feroarings yn 'e wikitekst foar de lêzer werjûn wurde.",
 	"wikieditor-realtimepreview-reload-title": "It proefbyldpart op 'e nij lade",
-	"wikieditor-realtimepreview-manual": "Brûk hânmjittich werladen foar in proefbyld fan jo bewurkings.",
-	"wikieditor-realtimepreview-onboarding-title": "Fuort bywurke proefbyld",
-	"wikieditor-realtimepreview-onboarding-body": "Sjoch yn it proefbyld drekst hoe't jo bewurkings der foar de lêzer út sjen sille.",
-	"wikieditor-realtimepreview-onboarding-button": "Bêst, begrepen"
+	"wikieditor-realtimepreview-manual": "Brûk hânmjittich werladen foar in proefbyld fan jo bewurkings."
 }

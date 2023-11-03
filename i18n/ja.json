@@ -193,11 +193,6 @@
 	"wikieditor-realtimepreview-preview": "プレビュー",
 	"wikieditor-realtimepreview-error": "プレビューが読み込まれません",
 	"wikieditor-realtimepreview-reload": "再読み込み",
-	"wikieditor-realtimepreview-beta-label": "リアルタイムのプレビュー",
-	"wikieditor-realtimepreview-beta-desc": "ウィキテキストの変更が [[mw:Special:MyLanguage/Extension:WikiEditor|2010 editor]] 内の読者にどのように表示されるかを確認してください。",
 	"wikieditor-realtimepreview-reload-title": "リアルタイム プレビュー ペインをリロードする",
-	"wikieditor-realtimepreview-manual": "編集を手動でプレビューするには今リロードしてください。",
-	"wikieditor-realtimepreview-onboarding-title": "リアルタイムのプレビュー",
-	"wikieditor-realtimepreview-onboarding-body": "編集をリアルタイムにプレビューして、読者にどのように表示されるかを確認します。",
-	"wikieditor-realtimepreview-onboarding-button": "わかりました"
+	"wikieditor-realtimepreview-manual": "編集を手動でプレビューするには今リロードしてください。"
 }

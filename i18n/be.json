@@ -168,11 +168,6 @@
 	"wikieditor-realtimepreview-preview": "Перадпаказ",
 	"wikieditor-realtimepreview-error": "Перадпаказ не загружаецца",
 	"wikieditor-realtimepreview-reload": "Перазагрузіць",
-	"wikieditor-realtimepreview-beta-label": "Перадпрагляд у рэжыме рэальнага часу",
-	"wikieditor-realtimepreview-beta-desc": "Паглядзіце, як змены вікі-тэксту будуць выглядаць для чытачоў у [[mw:Special:MyLanguage/Extension:WikiEditor|рэдактары 2010]].",
 	"wikieditor-realtimepreview-reload-title": "Перазагрузіць панэль перадпрагляду ў рэжыме рэальнага часу",
-	"wikieditor-realtimepreview-manual": "Калі ласка, перазагрузіце зараз, каб уручную прагледзець свае змены.",
-	"wikieditor-realtimepreview-onboarding-title": "Перадпрагляд у рэжыме рэальнага часу",
-	"wikieditor-realtimepreview-onboarding-body": "Паглядзіце ў рэжыме рэальнага часу як вашы праўкі будуць выглядаць для чытачоў.",
-	"wikieditor-realtimepreview-onboarding-button": "Так, зразумела."
+	"wikieditor-realtimepreview-manual": "Калі ласка, перазагрузіце зараз, каб уручную прагледзець свае змены."
 }

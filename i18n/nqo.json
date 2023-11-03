@@ -121,11 +121,6 @@
 	"wikieditor-realtimepreview-preview": "ߢߍߦߋߟߌ",
 	"wikieditor-realtimepreview-error": "ߢߍߦߋߟߌ ߡߊ߫ ߟߊߢߎ߲߫",
 	"wikieditor-realtimepreview-reload": "ߊ߬ ߟߊߢߎ߲߫ ߞߎߘߊ߫ ߘߌ߫",
-	"wikieditor-realtimepreview-beta-label": "ߕߎ߬ߡߊ߬ ߘߌߡߊ߲ ߢߍߦߋߟߌ",
-	"wikieditor-realtimepreview-beta-desc": "ߊ߬ ߝߟߍ߫ ߓߊ߫ ߥߞߌߞߟߏߜߍ ߟߊ߫ ߡߊ߬ߦߟߍ߬ߡߊ߲߬ߠߌ߲ ߠߎ߬ ߞߎ߲߬ߓߐ߬ ߕߐ߫ ߦߋ߫ ߘߐ߬ߞߊ߬ߙߊ߲߬ߠߌ߲߬ߠߊ ߟߎ߬ ߢߊߞߘߐ߫ ߢߊ ߡߍ߲ ߡߊ߬ [[mw:Special:MyLanguage/Extension:WikiEditor|2010 editor]].",
 	"wikieditor-realtimepreview-reload-title": "ߕߎ߬ߡߊ߬ ߖߐ߲ߖߐ߲ ߢߍߦߋߟߌ ߦߌ߬ߘߊ߬ߥߟߊ ߟߊߦߟߍ߬",
-	"wikieditor-realtimepreview-manual": "ߊ߬ ߟߊߢߎ߲߫ ߓߟߏ ߟߊ߫ ߖߊ߰ߣߌ߲߫ ߞߵߌ ߟߊ߫ ߡߊ߬ߦߟߍ߬ߡߊ߲߬ߠߌ߲ ߢߍߛߐ߲ ߘߐߜߍ߫.",
-	"wikieditor-realtimepreview-onboarding-title": "ߕߎ߬ߡߊ߬ ߖߐ߲ߖߐ߲  ߢߍߦߋߟߌ",
-	"wikieditor-realtimepreview-onboarding-body": "ߊ߬ ߡߊߝߟߍ߫ ߡߎߣߎ߲߬ ߓߊ߫ ߞߵߊ߬ ߟߐ߲߫ ߌ ߟߊ߫ ߡߊ߬ߦߟߍ߬ߡߊ߲߬ߠߌ߲ ߞߍ߫ ߕߐ߫ ߦߋ߫ ߘߐ߬ߞߊ߬ߙߊ߲߬ߠߌ߲߬ߠߊ ߟߎ߬ ߢߊߞߘߐ߫ ߢߊ ߡߍ߲ ߡߊ߬߸ ߞߵߊ߬ߟߎ߫ ߢߍߛߐ߲ ߘߐߜߍ߫ ߕߎ߬ߡߊ߬ߣߍ߲߫ ߘߌߡߊ߲ ߠߊ߫.",
-	"wikieditor-realtimepreview-onboarding-button": "ߏ߰ߞߍ߫߸ ߒ ߓߘߴߊ߬ ߢߊߦߋ߫"
+	"wikieditor-realtimepreview-manual": "ߊ߬ ߟߊߢߎ߲߫ ߓߟߏ ߟߊ߫ ߖߊ߰ߣߌ߲߫ ߞߵߌ ߟߊ߫ ߡߊ߬ߦߟߍ߬ߡߊ߲߬ߠߌ߲ ߢߍߛߐ߲ ߘߐߜߍ߫."
 }

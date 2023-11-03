@@ -176,11 +176,6 @@
 	"wikieditor-realtimepreview-preview": "תצוגה מקדימה",
 	"wikieditor-realtimepreview-error": "תצוגה מקדימה לא נטענת",
 	"wikieditor-realtimepreview-reload": "רענון",
-	"wikieditor-realtimepreview-beta-label": "תצוגה מקדימה בזמן־אמת",
-	"wikieditor-realtimepreview-beta-desc": "אפשרות לראות איך שינויים בקוד הוויקי יופיעו לקוראים בתוך [[mw:Special:MyLanguage/Extension:WikiEditor|עורך קוד ויקי 2010]].",
 	"wikieditor-realtimepreview-reload-title": "רענון חלונית התצוגה המקדימה בזמן־אמת",
-	"wikieditor-realtimepreview-manual": "נא לרענן כדי לעשות תצוגה מקדימה ידנית של העריכות שלך.",
-	"wikieditor-realtimepreview-onboarding-title": "תצוגה מקדימה בזמן־אמת",
-	"wikieditor-realtimepreview-onboarding-body": "הצגה של איך העריכות תיראינה לקוראים באמצעות תצוגה מקדימה בזמן־אמת.",
-	"wikieditor-realtimepreview-onboarding-button": "בסדר, הבנתי"
+	"wikieditor-realtimepreview-manual": "נא לרענן כדי לעשות תצוגה מקדימה ידנית של העריכות שלך."
 }

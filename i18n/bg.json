@@ -163,8 +163,5 @@
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Подпис с дата и час",
 	"wikieditor-toolbar-help-content-signature-description": "Подпис",
 	"wikieditor-toolbar-help-content-indent-description": "Отстъп",
-	"wikieditor-realtimepreview-preview": "Предварителен преглед",
-	"wikieditor-realtimepreview-beta-label": "Предварителен преглед в реално време",
-	"wikieditor-realtimepreview-beta-desc": "Вижте как промените на wikitext-а ще изглеждат за читателите в [[mw:Special:MyLanguage/Extension:WikiEditor|редактора от 2010 г.]].",
-	"wikieditor-realtimepreview-onboarding-title": "Предварителен преглед в реално време"
+	"wikieditor-realtimepreview-preview": "Предварителен преглед"
 }

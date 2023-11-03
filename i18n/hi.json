@@ -167,11 +167,6 @@
 	"wikieditor-realtimepreview-preview": "पूर्वावलोकन",
 	"wikieditor-realtimepreview-error": "पूर्वावलोकन लोड नहीं हो रहा है",
 	"wikieditor-realtimepreview-reload": "पुनः लोड करें",
-	"wikieditor-realtimepreview-beta-label": "लाइव पूर्वावलोकन",
-	"wikieditor-realtimepreview-beta-desc": "[[mw:Special:MyLanguage/Extension:WikiEditor|2010 एडिटर]] के अंदर ही देखें कि विकिटेक्स्ट के बदलाव पाठकों को कैसे दिखेंगे।",
 	"wikieditor-realtimepreview-reload-title": "लाइव पूर्वावलोकन क्षेत्र को पुनः लोड करें",
-	"wikieditor-realtimepreview-manual": "अपने संपादन का पूर्वावलोकन खुद देखने के लिए पुनः लोड करें।",
-	"wikieditor-realtimepreview-onboarding-title": "लाइव पूर्वावलोकन",
-	"wikieditor-realtimepreview-onboarding-body": "लाइव पूर्वावलोकन देखकर पता करें कि पाठकों को आपका संपादन किस तरह से दिखेगा।",
-	"wikieditor-realtimepreview-onboarding-button": "हाँ, समझ आ गया"
+	"wikieditor-realtimepreview-manual": "अपने संपादन का पूर्वावलोकन खुद देखने के लिए पुनः लोड करें।"
 }

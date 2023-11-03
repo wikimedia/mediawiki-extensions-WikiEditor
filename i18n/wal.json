@@ -123,11 +123,6 @@
 	"wikieditor-realtimepreview-preview": "Kaseti be'uwaa",
 	"wikieditor-realtimepreview-error": "Kaseti be'oy yibeenna",
 	"wikieditor-realtimepreview-reload": "Zaara eha",
-	"wikieditor-realtimepreview-beta-label": "Ha saatiyaa kaseti be'uwaa",
-	"wikieditor-realtimepreview-beta-desc": "[[mw:Special:MyLanguage/Extension:WikiEditor|2010 goyidiyagaa]] giddon laameti waani uttanaakko be'a.",
 	"wikieditor-realtimepreview-reload-title": "Ha saatiyaa kaseti be'uwaa zaara eha",
-	"wikieditor-realtimepreview-manual": "Hayyanaa ne goyidota kaseti be'anawu zaara eha.",
-	"wikieditor-realtimepreview-onboarding-title": "Ha saatiyaa kaseti be'uwaa",
-	"wikieditor-realtimepreview-onboarding-body": "Ne goyidettay nabbabiyageetussi ayi malatiyakko attamennan de'aydda kaseta be'a.",
-	"wikieditor-realtimepreview-onboarding-button": "Likke, demmaasi"
+	"wikieditor-realtimepreview-manual": "Hayyanaa ne goyidota kaseti be'anawu zaara eha."
 }

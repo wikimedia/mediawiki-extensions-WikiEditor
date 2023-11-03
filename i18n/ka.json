@@ -165,11 +165,6 @@
 	"wikieditor-realtimepreview-preview": "გადახედვა",
 	"wikieditor-realtimepreview-error": "გადახედვა არ იტვირთება",
 	"wikieditor-realtimepreview-reload": "ხელახლა ჩატვირთვა",
-	"wikieditor-realtimepreview-beta-label": "რეალურ დროში გადახედვა",
-	"wikieditor-realtimepreview-beta-desc": "[[mw:Special:MyLanguage/Extension:WikiEditor|2010 წლის ვიკირედაქტორშივე]] ნახეთ, როგორ გამოჩნდება ვიკიტექსტის ცვლილებები მკითხველებისათვის.",
 	"wikieditor-realtimepreview-reload-title": "რეალურ დროში გადახედვის პანელის გადატვირთვა",
-	"wikieditor-realtimepreview-manual": "გთხოვთ, გადატვირთოთ ახლა, რათა ხელით მოახდინოთ თქვენი რედაქტირებების გადახედვა.",
-	"wikieditor-realtimepreview-onboarding-title": "რეალურ დროში გადახედვა",
-	"wikieditor-realtimepreview-onboarding-body": "რეალურ დროში გადახედვის გზით იხილეთ როგორი იქნება თქვენი რედაქტირებები მკითხველის თვალით.",
-	"wikieditor-realtimepreview-onboarding-button": "კარგი, გასაგებია"
+	"wikieditor-realtimepreview-manual": "გთხოვთ, გადატვირთოთ ახლა, რათა ხელით მოახდინოთ თქვენი რედაქტირებების გადახედვა."
 }

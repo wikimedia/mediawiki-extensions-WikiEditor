@@ -158,10 +158,6 @@
 	"wikieditor-toolbar-help-content-indent-description": "Boş ýer",
 	"wikieditor-realtimepreview-preview": "Deslapky syn",
 	"wikieditor-realtimepreview-reload": "Gaýtadan ýükläň",
-	"wikieditor-realtimepreview-beta-label": "Hakyky syn",
 	"wikieditor-realtimepreview-reload-title": "Hakyky deslapky syn panelini täzeden ýükläň",
-	"wikieditor-realtimepreview-manual": "Üýtgeşmeleriňizi el bilen görmek üçin indi täzeden ýükläň.",
-	"wikieditor-realtimepreview-onboarding-title": "Hakyky syn",
-	"wikieditor-realtimepreview-onboarding-body": "Redaktirlemeleriňizi okyjylara hakyky wagtda gözden geçirip nähili boljakdygyny görüň.",
-	"wikieditor-realtimepreview-onboarding-button": "Bolýar, düşündim"
+	"wikieditor-realtimepreview-manual": "Üýtgeşmeleriňizi el bilen görmek üçin indi täzeden ýükläň."
 }

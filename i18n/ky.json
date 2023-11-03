@@ -143,8 +143,5 @@
 	"wikieditor-toolbar-help-content-indent1": "Кадимки текст",
 	"wikieditor-realtimepreview-preview": "Алдын ала көрүү",
 	"wikieditor-realtimepreview-error": "Алдын ала көрүү жүктөлбөй жатат",
-	"wikieditor-realtimepreview-reload": "Кайра жүктөө",
-	"wikieditor-realtimepreview-beta-label": "Түз ободогу алдын ала көрүү",
-	"wikieditor-realtimepreview-onboarding-title": "Түз ободогу алдын ала көрүү",
-	"wikieditor-realtimepreview-onboarding-button": "Макул, түшүндүм"
+	"wikieditor-realtimepreview-reload": "Кайра жүктөө"
 }

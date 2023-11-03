@@ -178,11 +178,6 @@
 	"wikieditor-realtimepreview-preview": "Forhåndsvisning",
 	"wikieditor-realtimepreview-error": "Forhåndsvisningen lastes ikke inn",
 	"wikieditor-realtimepreview-reload": "Last på nytt",
-	"wikieditor-realtimepreview-beta-label": "Forhåndsvisning i sanntid",
-	"wikieditor-realtimepreview-beta-desc": "Se hvordan endringer vil vises for leserne i [[mw:Special:MyLanguage/Extension:WikiEditor|2010-editoren]].",
 	"wikieditor-realtimepreview-reload-title": "Last panelet med sanntidsforhåndsvisning på nytt",
-	"wikieditor-realtimepreview-manual": "Last på nytt nå for å forhåndsvise redigeringene dine manuelt.",
-	"wikieditor-realtimepreview-onboarding-title": "Forhåndsvisning i sanntid",
-	"wikieditor-realtimepreview-onboarding-body": "Se hvordan redigeringene dine vil vises for lesere ved å forhåndsvise dem i sanntid.",
-	"wikieditor-realtimepreview-onboarding-button": "Ok, skjønner"
+	"wikieditor-realtimepreview-manual": "Last på nytt nå for å forhåndsvise redigeringene dine manuelt."
 }

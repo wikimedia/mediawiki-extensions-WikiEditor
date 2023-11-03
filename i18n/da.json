@@ -169,8 +169,5 @@
 	"wikieditor-toolbar-help-content-indent-description": "Indrykning",
 	"wikieditor-realtimepreview-preview": "Forhåndsvisning",
 	"wikieditor-realtimepreview-reload": "Genindlæs",
-	"wikieditor-realtimepreview-beta-label": "Forhåndsvisning i realtid",
-	"wikieditor-realtimepreview-reload-title": "Genindlæs ruden med forhåndsvisning i realtid",
-	"wikieditor-realtimepreview-onboarding-body": "Se hvordan dine redigeringer vil se ud for læserne ved at bruge forhåndsvisning i realtid.",
-	"wikieditor-realtimepreview-onboarding-button": "OK, modtaget"
+	"wikieditor-realtimepreview-reload-title": "Genindlæs ruden med forhåndsvisning i realtid"
 }

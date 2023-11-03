@@ -184,11 +184,6 @@
 	"wikieditor-realtimepreview-preview": "پیش‌نمایش",
 	"wikieditor-realtimepreview-error": "پیش‌نمایش در حال بارگیری نیست",
 	"wikieditor-realtimepreview-reload": "تازه‌سازی",
-	"wikieditor-realtimepreview-beta-label": "پیش‌نمایش زنده",
-	"wikieditor-realtimepreview-beta-desc": "مشاهدهٔ چگونگی نمایش تغییرات ویکی‌متن به مخاطبان درون [[mw:Special:MyLanguage/Extension:WikiEditor|ویرایشگر ۲۰۱۰]].",
 	"wikieditor-realtimepreview-reload-title": "بارگیری مجدد پنجرهٔ پیش‌نمایش زنده",
-	"wikieditor-realtimepreview-manual": "برای پیش‌نمایش دستی ویرایش‌هایتان، لطفاً صفحه را مجدداً بارگیری کنید.",
-	"wikieditor-realtimepreview-onboarding-title": "پیش‌نمایش زنده",
-	"wikieditor-realtimepreview-onboarding-body": "نحوهٔ نمایش ویرایش‌های شما به مخاطبان را به‌واسطهٔ پیش‌نمایش زندهٔ آن‌ها مشاهده کنید.",
-	"wikieditor-realtimepreview-onboarding-button": "باشه، فهمیدم"
+	"wikieditor-realtimepreview-manual": "برای پیش‌نمایش دستی ویرایش‌هایتان، لطفاً صفحه را مجدداً بارگیری کنید."
 }

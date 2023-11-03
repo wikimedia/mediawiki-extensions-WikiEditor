@@ -161,10 +161,5 @@
 	"tag-wikieditor-description": "Нисдар дина [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]]-а (2010 вики-форматан редакторан) гӀоьнца",
 	"wikieditor-realtimepreview-preview": "Хьалххе хьажар",
 	"wikieditor-realtimepreview-error": "Хьалххе хьажар гучу ца долу",
-	"wikieditor-realtimepreview-reload": "Йухахьажа",
-	"wikieditor-realtimepreview-beta-label": "ХӀинца йолу хенаца хьалхе хьажар",
-	"wikieditor-realtimepreview-beta-desc": "Хьажа, хийцам бина вики-йоза [[mw:Special:MyLanguage/Extension:WikiEditor|2010 редактор тӀехь]] болу йешархошна гура ду.",
-	"wikieditor-realtimepreview-onboarding-title": "ХӀинца йолу хенаца хьалхе хьажар",
-	"wikieditor-realtimepreview-onboarding-body": "Хьан нисдарш йешархошна муха гур ду хьажа, уьш хӀинца йолу хенахь хьаьжна.",
-	"wikieditor-realtimepreview-onboarding-button": "Окей, кхетта"
+	"wikieditor-realtimepreview-reload": "Йухахьажа"
 }

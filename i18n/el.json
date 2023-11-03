@@ -181,11 +181,6 @@
 	"wikieditor-realtimepreview-preview": "Προεπισκόπηση",
 	"wikieditor-realtimepreview-error": "Η προεπισκόπηση δεν φορτώνεται",
 	"wikieditor-realtimepreview-reload": "Επαναφόρτωση",
-	"wikieditor-realtimepreview-beta-label": "Προεπισκόπηση σε πραγματικό χρόνο",
-	"wikieditor-realtimepreview-beta-desc": "Δείτε πώς θα εμφανίζονται οι αλλαγές στον κώδικα wiki στους αναγνώστες εντός του [[mw:Special:MyLanguage/Extension:WikiEditor|επεξεργαστή 2010]].",
 	"wikieditor-realtimepreview-reload-title": "Επαναφόρτωση του παραθύρου προεπισκόπησης σε πραγματικό χρόνο",
-	"wikieditor-realtimepreview-manual": "Επαναλάβετε τώρα τη φόρτωση για μη αυτόματη προεπισκόπηση των αλλαγών σας.",
-	"wikieditor-realtimepreview-onboarding-title": "Προεπισκόπηση σε πραγματικό χρόνο",
-	"wikieditor-realtimepreview-onboarding-body": "Δείτε πώς θα φαίνονται οι αλλαγές σας στους αναγνώστες κάνοντας προεπισκόπηση σε πραγματικό χρόνο.",
-	"wikieditor-realtimepreview-onboarding-button": "Εντάξει, κατάλαβα"
+	"wikieditor-realtimepreview-manual": "Επαναλάβετε τώρα τη φόρτωση για μη αυτόματη προεπισκόπηση των αλλαγών σας."
 }

@@ -167,9 +167,5 @@
 	"wikieditor-realtimepreview-preview": "Pregled",
 	"wikieditor-realtimepreview-error": "Pretpregled se ne učitava",
 	"wikieditor-realtimepreview-reload": "Osveži",
-	"wikieditor-realtimepreview-beta-label": "Uživo pregled",
-	"wikieditor-realtimepreview-reload-title": "Osveži pregled",
-	"wikieditor-realtimepreview-onboarding-title": "Uživo pregled",
-	"wikieditor-realtimepreview-onboarding-body": "Pregled izmena u realnom vremenu.",
-	"wikieditor-realtimepreview-onboarding-button": "U redu, razumem"
+	"wikieditor-realtimepreview-reload-title": "Osveži pregled"
 }

@@ -180,11 +180,6 @@
 	"wikieditor-realtimepreview-preview": "پێشبینین",
 	"wikieditor-realtimepreview-error": "پێشبینین بار ناکرێت",
 	"wikieditor-realtimepreview-reload": "بارکردنەوە",
-	"wikieditor-realtimepreview-beta-label": "پێشبینینی ڕاستەوخۆ",
-	"wikieditor-realtimepreview-beta-desc": "بزانە گۆڕانکارییەکانی ویکیدەق لەنێو [[mw:Special:MyLanguage/Extension:WikiEditor|دەستکاریکەرەکەی ٢٠١٠]] چۆن بۆ خوێنەران دەردەکەون.",
 	"wikieditor-realtimepreview-reload-title": "پەنجەرەی پێشبینینی ڕاستەوخۆ باربکەرەوە",
-	"wikieditor-realtimepreview-manual": "تکایە ئێستا باری بکەرەوە تا بە شێوەی دەستی پێشبینینی دەستکارییەکانت بکەیت.",
-	"wikieditor-realtimepreview-onboarding-title": "پێشبینینی ڕاستەوخۆ",
-	"wikieditor-realtimepreview-onboarding-body": "بزانە دەستکارییەکانت بۆ خوێنەران چۆن دەبن لەڕێی پێشبینیکردنیان لە پێشبینینی ڕاستەوخۆدا.",
-	"wikieditor-realtimepreview-onboarding-button": "باشە، تێگەیشتم"
+	"wikieditor-realtimepreview-manual": "تکایە ئێستا باری بکەرەوە تا بە شێوەی دەستی پێشبینینی دەستکارییەکانت بکەیت."
 }

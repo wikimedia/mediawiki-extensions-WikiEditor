@@ -171,11 +171,6 @@
 	"wikieditor-realtimepreview-preview": "Преглед",
 	"wikieditor-realtimepreview-error": "Прегледот не се вчитува",
 	"wikieditor-realtimepreview-reload": "Превчитај",
-	"wikieditor-realtimepreview-beta-label": "Преглед во живо",
-	"wikieditor-realtimepreview-beta-desc": "Погледајте како промените во викитекстот ќе им изгледаат на читателите во [[mw:Special:MyLanguage/Extension:WikiEditor|уредникот од 2010 г]].",
 	"wikieditor-realtimepreview-reload-title": "Превчитај го прегледникот во живо",
-	"wikieditor-realtimepreview-manual": "Превчитајте сега за да ги прегледате вашите уредувања рачно.",
-	"wikieditor-realtimepreview-onboarding-title": "Преглед во живо",
-	"wikieditor-realtimepreview-onboarding-body": "Погледајте како изгледаат вашите уредувања за читателите, прегледувајќи ги во живо.",
-	"wikieditor-realtimepreview-onboarding-button": "Јасно"
+	"wikieditor-realtimepreview-manual": "Превчитајте сега за да ги прегледате вашите уредувања рачно."
 }

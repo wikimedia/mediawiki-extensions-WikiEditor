@@ -172,11 +172,6 @@
 	"wikieditor-realtimepreview-preview": "Predogled",
 	"wikieditor-realtimepreview-error": "Predogled se ne nalaga",
 	"wikieditor-realtimepreview-reload": "Naloži znova",
-	"wikieditor-realtimepreview-beta-label": "Sprotni predogled",
-	"wikieditor-realtimepreview-beta-desc": "V [[mw:Special:MyLanguage/Extension:WikiEditor|Urejevalniku 2010]] si oglejte, kako bo vikibesedilo prikazano bralcem.",
 	"wikieditor-realtimepreview-reload-title": "Znova naloži podokno s sprotnim predogledom",
-	"wikieditor-realtimepreview-manual": "Za ročno predogledovanje svojih urejanj stran zdaj znova naložite.",
-	"wikieditor-realtimepreview-onboarding-title": "Sprotni predogled",
-	"wikieditor-realtimepreview-onboarding-body": "Ogledujte si sproti, kako bodo vaša urejanja prikazana bralcem.",
-	"wikieditor-realtimepreview-onboarding-button": "V redu, razumem"
+	"wikieditor-realtimepreview-manual": "Za ročno predogledovanje svojih urejanj stran zdaj znova naložite."
 }

@@ -169,11 +169,6 @@
 	"wikieditor-realtimepreview-preview": "Previsualisation",
 	"wikieditor-realtimepreview-error": "Le previsualisation non se carga",
 	"wikieditor-realtimepreview-reload": "Recargar",
-	"wikieditor-realtimepreview-beta-label": "Previsualisation in tempore real",
-	"wikieditor-realtimepreview-beta-desc": "Vider como le cambiamentos de wikitexto apparera al lectores in le [[mw:Special:MyLanguage/Extension:WikiEditor|editor de 2010]].",
 	"wikieditor-realtimepreview-reload-title": "Recargar le pannello de previsualisation in tempore real",
-	"wikieditor-realtimepreview-manual": "Per favor recarga ora pro previsualisar manualmente tu modificationes.",
-	"wikieditor-realtimepreview-onboarding-title": "Previsualisation in tempore real",
-	"wikieditor-realtimepreview-onboarding-body": "Vide como tu modificationes apparera al lectores, previsualisante los in tempore real.",
-	"wikieditor-realtimepreview-onboarding-button": "Ben, io comprende"
+	"wikieditor-realtimepreview-manual": "Per favor recarga ora pro previsualisar manualmente tu modificationes."
 }

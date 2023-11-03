@@ -178,11 +178,6 @@
 	"wikieditor-realtimepreview-preview": "Pralihat",
 	"wikieditor-realtimepreview-error": "Pralihat tidak memuat",
 	"wikieditor-realtimepreview-reload": "Muat semula",
-	"wikieditor-realtimepreview-beta-label": "Pralihat Masa Nyata",
-	"wikieditor-realtimepreview-beta-desc": "Lihat cara perubahan wikiteks akan muncul kepada pembaca di dalam [[mw:Special:MyLanguage/Extension:WikiEditor|penyunting 2010]].",
 	"wikieditor-realtimepreview-reload-title": "Muat semula anak tetingkap pralihat masa nyata",
-	"wikieditor-realtimepreview-manual": "Sila muat semula sekarang untuk pralihatkan secara manual suntingan anda.",
-	"wikieditor-realtimepreview-onboarding-title": "Pralihat Masa Nyata",
-	"wikieditor-realtimepreview-onboarding-body": "Lihat rupa suntingan anda bagi pembaca dengan pralihatnya pada masa nyata.",
-	"wikieditor-realtimepreview-onboarding-button": "Baik, saya faham"
+	"wikieditor-realtimepreview-manual": "Sila muat semula sekarang untuk pralihatkan secara manual suntingan anda."
 }

@@ -181,11 +181,6 @@
 	"wikieditor-realtimepreview-preview": "Antevisão",
 	"wikieditor-realtimepreview-error": "A antevisão não foi carregada",
 	"wikieditor-realtimepreview-reload": "Recarregar",
-	"wikieditor-realtimepreview-beta-label": "Antevisão em tempo real",
-	"wikieditor-realtimepreview-beta-desc": "Ver como as alterações do texto wiki irão aparecer aos leitores dentro do [[mw:Special:MyLanguage/Extension:WikiEditor|editor de 2010]].",
 	"wikieditor-realtimepreview-reload-title": "Recarregar o painel da antevisão em tempo real",
-	"wikieditor-realtimepreview-manual": "Recarregue agora para antever manualmente as suas edições.",
-	"wikieditor-realtimepreview-onboarding-title": "Antevisão em tempo real",
-	"wikieditor-realtimepreview-onboarding-body": "Ver como as suas edições aparecerão aos leitores, antevendo-as em tempo real.",
-	"wikieditor-realtimepreview-onboarding-button": "Compreendi"
+	"wikieditor-realtimepreview-manual": "Recarregue agora para antever manualmente as suas edições."
 }

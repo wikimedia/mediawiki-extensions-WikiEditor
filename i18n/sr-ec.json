@@ -186,11 +186,6 @@
 	"wikieditor-realtimepreview-preview": "Преглед",
 	"wikieditor-realtimepreview-error": "Претпреглед се не учитава",
 	"wikieditor-realtimepreview-reload": "Освежи",
-	"wikieditor-realtimepreview-beta-label": "Уживо преглед",
-	"wikieditor-realtimepreview-beta-desc": "Претпреглед измена у [[mw:Special:MyLanguage/Extension:WikiEditor|уређивачу из 2010]].",
 	"wikieditor-realtimepreview-reload-title": "Освежи преглед",
-	"wikieditor-realtimepreview-manual": "Молимо освежите страницу да ручно прегледате измене.",
-	"wikieditor-realtimepreview-onboarding-title": "Уживо преглед",
-	"wikieditor-realtimepreview-onboarding-body": "Преглед измена у реалном времену.",
-	"wikieditor-realtimepreview-onboarding-button": "У реду, разумем"
+	"wikieditor-realtimepreview-manual": "Молимо освежите страницу да ручно прегледате измене."
 }

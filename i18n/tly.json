@@ -171,11 +171,6 @@
 	"wikieditor-realtimepreview-preview": "Syftənə nišo doj",
 	"wikieditor-realtimepreview-error": "Syftənə nišo doj obejdəni",
 	"wikieditor-realtimepreview-reload": "Ižənən nujə karde",
-	"wikieditor-realtimepreview-beta-label": "Ysətnə vaxtədə Syftənə nišo doj",
-	"wikieditor-realtimepreview-beta-desc": "Dijəkənən cerə ce viki-nyšoni ovaxtətijon bo handəkəson vinde bəben [[mw:Special:MyLanguage/Extension:WikiEditor|2010 redaktorədə]].",
 	"wikieditor-realtimepreview-reload-title": "Syftənə nišo doj paneli ižənən nujə karde",
-	"wikieditor-realtimepreview-manual": "Zəhmət nybu ysət nujə bykənən de dastiro šymə ovaxtətijon syftənə nišo doj.",
-	"wikieditor-realtimepreview-onboarding-title": "Ysətnə vaxtədə Syftənə nišo doj",
-	"wikieditor-realtimepreview-onboarding-body": "Osə bykənən cerə šymə handəkəson šymə ovaxtətijon bəvinden ijən əvoni dijə bykənən bə ysətnə vaxti režimədə.",
-	"wikieditor-realtimepreview-onboarding-button": "Cok, dərəsəjm"
+	"wikieditor-realtimepreview-manual": "Zəhmət nybu ysət nujə bykənən de dastiro šymə ovaxtətijon syftənə nišo doj."
 }

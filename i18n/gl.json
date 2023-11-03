@@ -162,11 +162,6 @@
 	"wikieditor-realtimepreview-preview": "Vista previa",
 	"wikieditor-realtimepreview-error": "Non carga a vista previa",
 	"wikieditor-realtimepreview-reload": "Recargar",
-	"wikieditor-realtimepreview-beta-label": "Vista previa en tempo real",
-	"wikieditor-realtimepreview-beta-desc": "Ver como se mostrarán os cambios no texto wiki aos lectores dentro do [[mw:Special:MyLanguage/Extension:WikiEditor|editor de 2010]].",
 	"wikieditor-realtimepreview-reload-title": "Recargar o panel de vista previa en tempo real",
-	"wikieditor-realtimepreview-manual": "Recargue agora manualmente para ter unha vista previa das súas edicións.",
-	"wikieditor-realtimepreview-onboarding-title": "Vista previa en tempo real",
-	"wikieditor-realtimepreview-onboarding-body": "Vexa como se mostrarán as súas edicións aos lectores cunha vista previa en tempo real.",
-	"wikieditor-realtimepreview-onboarding-button": "Entendido"
+	"wikieditor-realtimepreview-manual": "Recargue agora manualmente para ter unha vista previa das súas edicións."
 }

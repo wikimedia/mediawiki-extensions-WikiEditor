@@ -178,11 +178,6 @@
 	"wikieditor-realtimepreview-preview": "Pretpregled",
 	"wikieditor-realtimepreview-error": "Pretpregled se ne učitava",
 	"wikieditor-realtimepreview-reload": "Ponovno učitaj",
-	"wikieditor-realtimepreview-beta-label": "Pretpregled u stvarnom vremenu",
-	"wikieditor-realtimepreview-beta-desc": "Pogledajte kako će se promjene wikiteksta prikazati čitateljima unutar [[mw:Special:MyLanguage/Extension:WikiEditor|uređivača iz 2010]].",
 	"wikieditor-realtimepreview-reload-title": "Ponovno učitajte okno pretpregleda u stvarnom vremenu",
-	"wikieditor-realtimepreview-manual": "Ponovno učitajte sada kako biste ručno pregledali svoja uređivanja.",
-	"wikieditor-realtimepreview-onboarding-title": "Pretpregled u stvarnom vremenu",
-	"wikieditor-realtimepreview-onboarding-body": "Pogledajte kako će Vaša uređivanja izgledati čitateljima pretpregledom u stvarnom vremenu.",
-	"wikieditor-realtimepreview-onboarding-button": "U redu, razumijem."
+	"wikieditor-realtimepreview-manual": "Ponovno učitajte sada kako biste ručno pregledali svoja uređivanja."
 }

@@ -180,11 +180,6 @@
 	"wikieditor-realtimepreview-preview": "Előnézet",
 	"wikieditor-realtimepreview-error": "Az előnézet nem töltődik be",
 	"wikieditor-realtimepreview-reload": "Újratöltés",
-	"wikieditor-realtimepreview-beta-label": "Valós idejű előnézet",
-	"wikieditor-realtimepreview-beta-desc": "A [[mw:Special:MyLanguage/Extension:WikiEditor|2010-es szerkesztőfelületen]] is láthatod, hogyan jelennek meg a változtatások az olvasók számára.",
 	"wikieditor-realtimepreview-reload-title": "A valós idejű előnézet ablaktáblájának újratöltése",
-	"wikieditor-realtimepreview-manual": "Kérlek töltsd újra a szerkesztéseid kézi előnézetéhez.",
-	"wikieditor-realtimepreview-onboarding-title": "Valós idejű előnézet",
-	"wikieditor-realtimepreview-onboarding-body": "A valós idejű előnézetben látni fogod, hogyan jelennek meg a szerkesztéseid az olvasók számára.",
-	"wikieditor-realtimepreview-onboarding-button": "Oké, értettem"
+	"wikieditor-realtimepreview-manual": "Kérlek töltsd újra a szerkesztéseid kézi előnézetéhez."
 }

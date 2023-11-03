@@ -162,8 +162,5 @@
 	"tag-wikieditor-description": "[[mw:Special:MyLanguage/Extension:WikiEditor|WikiSompadok]] (2010 wikimozkur sompadok) vorvim kel'le sompadonam",
 	"wikieditor-realtimepreview-preview": "Purvdekhavo",
 	"wikieditor-realtimepreview-error": "Purvdekhavo load zaina",
-	"wikieditor-realtimepreview-reload": "Portun load kor",
-	"wikieditor-realtimepreview-beta-label": "Chalu Purvdekhavo",
-	"wikieditor-realtimepreview-onboarding-title": "Chalu Purvdekhavo",
-	"wikieditor-realtimepreview-onboarding-button": "Borem asa, {{GENDER:|somzolom|somzolim|somzolom/somzolim}}"
+	"wikieditor-realtimepreview-reload": "Portun load kor"
 }

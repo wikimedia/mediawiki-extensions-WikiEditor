@@ -175,11 +175,6 @@
 	"wikieditor-realtimepreview-preview": "Rakwelet",
 	"wikieditor-realtimepreview-error": "N’emañ ket ar rakwel o kargañ",
 	"wikieditor-realtimepreview-reload": "Adkargañ",
-	"wikieditor-realtimepreview-beta-label": "Rakwel war-eeun",
-	"wikieditor-realtimepreview-beta-desc": "Gwelet penaos e vo gwelet kemmoù wikitestenn gant al lennerien en [[mw:Special:MyLanguage/Extension:WikiEditor|aozer 2010]].",
 	"wikieditor-realtimepreview-reload-title": "Adkargañ an takad rakwel war-eeun",
-	"wikieditor-realtimepreview-manual": "Adkargit bremañ mar plij evit rakwelet ho kemmoù dre zorn.",
-	"wikieditor-realtimepreview-onboarding-title": "Rakwel war-eeun",
-	"wikieditor-realtimepreview-onboarding-body": "Gwelet penaos e vo gwelet ho kemmoù gant al lennerien en ur rakwelet anezho war-eeun.",
-	"wikieditor-realtimepreview-onboarding-button": "OK, deomp dezhi"
+	"wikieditor-realtimepreview-manual": "Adkargit bremañ mar plij evit rakwelet ho kemmoù dre zorn."
 }

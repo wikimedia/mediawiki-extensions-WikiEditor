@@ -161,8 +161,5 @@
 	"tag-wikieditor-description": "Golygiad trwy [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (golygydd cystrawen wici 2010 wikitext)",
 	"wikieditor-realtimepreview-preview": "Rhagolwg",
 	"wikieditor-realtimepreview-error": "Rhagolwg ddim yn llwytho",
-	"wikieditor-realtimepreview-reload": "Ail-lwytho",
-	"wikieditor-realtimepreview-beta-label": "Rhagolwg Amser Real",
-	"wikieditor-realtimepreview-onboarding-title": "Rhagolwg Amser Real",
-	"wikieditor-realtimepreview-onboarding-button": "Iawn"
+	"wikieditor-realtimepreview-reload": "Ail-lwytho"
 }

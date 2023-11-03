@@ -172,9 +172,6 @@
 	"tag-wikieditor-description": "Endring gjort med [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (wikitekst-endringsmotoren frå 2010)",
 	"wikieditor-realtimepreview-preview": "Førehandsvising",
 	"wikieditor-realtimepreview-error": "Førehandsvisinga lastar ikkje",
-	"wikieditor-realtimepreview-beta-label": "Sanntidsførehandsvising",
 	"wikieditor-realtimepreview-reload-title": "Last panelet for sanntidsførehandsvising om att",
-	"wikieditor-realtimepreview-manual": "Last om att no for å førehandsvisa endringane dine manuelt.",
-	"wikieditor-realtimepreview-onboarding-body": "Sjå korleis endringane dine vil sjå ut for lesarar ved å førehandsvisa dei i sanntid.",
-	"wikieditor-realtimepreview-onboarding-button": "Greitt, skjøner"
+	"wikieditor-realtimepreview-manual": "Last om att no for å førehandsvisa endringane dine manuelt."
 }

@@ -171,11 +171,6 @@
 	"wikieditor-realtimepreview-preview": "Eelvaade",
 	"wikieditor-realtimepreview-error": "Eelvaadet ei laadita",
 	"wikieditor-realtimepreview-reload": "Laadi uuesti",
-	"wikieditor-realtimepreview-beta-label": "Eelvaade reaalajas",
-	"wikieditor-realtimepreview-beta-desc": "Vaata [[mw:Special:MyLanguage/Extension:WikiEditor|2010. aasta toimetis]], kuidas vikiteksti muudatused lugejate jaoks välja näevad.",
 	"wikieditor-realtimepreview-reload-title": "Laadi reaalaja eelvaate paan uuesti",
-	"wikieditor-realtimepreview-manual": "Palun laadi nüüd käsitsi uuesti, et näha muudatuste eelvaadet.",
-	"wikieditor-realtimepreview-onboarding-title": "Eelvaade reaalajas",
-	"wikieditor-realtimepreview-onboarding-body": "Vaata reaalajas, kuidas sinu muudatused lugejate jaoks välja näevad.",
-	"wikieditor-realtimepreview-onboarding-button": "Hästi, sain aru"
+	"wikieditor-realtimepreview-manual": "Palun laadi nüüd käsitsi uuesti, et näha muudatuste eelvaadet."
 }

@@ -76,8 +76,5 @@
 	"wikieditor-toolbar-help-content-ilink-description": "ပြင်ပ လင့်ခ်",
 	"wikieditor-toolbar-help-content-xlink-description": "ပြင်ပ လင့်ခ်",
 	"wikieditor-realtimepreview-preview": "ကြိုတင်အစမ်းကြည့်ရှုရန်",
-	"wikieditor-realtimepreview-reload": "ပြန်လည်ခေါ်ယူရန်",
-	"wikieditor-realtimepreview-beta-label": "အချိန်နှင့်တပြေးညီ အကြိုမြင်ကွင်း",
-	"wikieditor-realtimepreview-onboarding-title": "အချိန်နှင့်တပြေးညီ အကြိုမြင်ကွင်း",
-	"wikieditor-realtimepreview-onboarding-button": "အိုကေ သဘောပေါက်ပြီ"
+	"wikieditor-realtimepreview-reload": "ပြန်လည်ခေါ်ယူရန်"
 }
