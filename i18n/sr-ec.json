@@ -138,7 +138,7 @@
 	"wikieditor-toolbar-tool-replace-button-replace": "Замени",
 	"wikieditor-toolbar-tool-replace-button-replaceall": "Замени све",
 	"wikieditor-toolbar-tool-replace-close": "Затвори",
-	"wikieditor-toolbar-tool-replace-nomatch": "Претрага није пронашла резултате.",
+	"wikieditor-toolbar-tool-replace-nomatch": "Нема резултата.",
 	"wikieditor-toolbar-tool-replace-success": "{{PLURAL:$1|Направљена $1 замена|Направљене $1 замене|Направљено $1 замена}}.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "Нисте унели ништа за претрагу.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "Регуларни израз који сте унели није важећи: $1",
