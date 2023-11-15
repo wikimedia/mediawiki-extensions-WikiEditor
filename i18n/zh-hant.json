@@ -164,7 +164,7 @@
 	"wikieditor-toolbar-help-content-ilink-description": "內部連結",
 	"wikieditor-toolbar-help-content-ilink-example": "[[頁面標題]]\n[[頁面標題|連結標籤]]",
 	"wikieditor-toolbar-help-content-xlink-description": "外部連結",
-	"wikieditor-toolbar-help-content-xlink-example-label": "連結標籤",
+	"wikieditor-toolbar-help-content-xlink-example-label": "連結文字",
 	"wikieditor-toolbar-help-content-heading2-description": "第 2 層標題",
 	"wikieditor-toolbar-help-content-heading2-example": "標題文字",
 	"wikieditor-toolbar-help-content-heading3-description": "第 3 層標題",
