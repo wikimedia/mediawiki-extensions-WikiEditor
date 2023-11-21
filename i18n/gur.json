@@ -2,9 +2,25 @@
 	"@metadata": {
 		"authors": [
 			"Akandee1",
-			"Akoonaba"
+			"Akoonaba",
+			"Akolpoka"
 		]
 	},
+	"wikieditor": "\"Wikitext\" demesego nɛntɔlega",
+	"wikieditor-desc": "Ba n wan ta'am iŋɛ se'em demese \"wikitext\" tole niŋa",
+	"wikieditor-wikitext-tab": "Wikitext",
+	"wikieditor-toolbar": "Demesego \"toolbar\"",
+	"wikieditor-toolbar-preference": "Iŋɛ sɛla n wan ta'am iŋɛ demesego \"toolbar\" la",
+	"wikieditor-toolbar-preference-help": "Saŋa ka sɛka ti ba yi'ira Dina wa ti '2010 Wikitext dɛmesa'.",
+	"wikieditor-toolbar-tool-bold": "Sukãberɛ",
+	"wikieditor-toolbar-tool-bold-example": "Sukãberɛ gulesegɔ",
+	"wikieditor-toolbar-tool-link-int": "Wiki pɛgera puan",
+	"wikieditor-toolbar-tool-link-int-target": "Putiirɛ pɛgerɛ bii \"URL\"",
+	"wikieditor-toolbar-tool-link-int-target-tooltip": "Pɛgera fii bii \"URL\"",
+	"wikieditor-toolbar-tool-link-int-text": "Gulesɛ pa'alɛ",
+	"wikieditor-toolbar-tool-link-int-text-tooltip": "Gulesɛ ti la pa'alɛ ni",
+	"wikieditor-toolbar-tool-link-ext": "Wɛb pɛgera la n boi yiŋa",
+	"wikieditor-toolbar-tool-link-cancel": "Basɛ",
 	"wikieditor-toolbar-tool-link-int-target-status-exists": "Pɛɛge kana boɛ {{SITENAME}}",
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Pɛɛge kana ka boɛ bona {{Zi'ia la yu'urɛ}}",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Yele-zuo la tı fu baŋɛ la pa'alɛ la yelemiŋerɛ",
