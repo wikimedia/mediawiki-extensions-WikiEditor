@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hasslaebetch"
+			"Hasslaebetch",
+			"Raizkgh"
 		]
 	},
+	"wikieditor": "Wikitext sẽn tar pãng n maandẽ",
+	"wikieditor-desc": "A kõt-d-la wikitext sẽn tar pãng n tõe n tall n modgd-a",
 	"wikieditor-wikitext-tab": "wiki-gʋlsgo",
 	"wikieditor-toolbar-preference-help": "B boonda woto wakat ninga tɩ \" 2010 wikitext editor \".",
 	"wikieditor-toolbar-tool-bold": "Kasenga",
