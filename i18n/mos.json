@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hasslaebetch"
+		]
+	},
+	"wikieditor-wikitext-tab": "wiki-gʋlsgo",
+	"wikieditor-toolbar-preference-help": "B boonda woto wakat ninga tɩ \" 2010 wikitext editor \".",
+	"wikieditor-toolbar-tool-bold": "Kasenga",
+	"wikieditor-toolbar-tool-bold-example": "\nGʋlsg sẽn yaa kãsenga",
+	"wikieditor-toolbar-tool-italic": "Gʋls relle",
+	"wikieditor-toolbar-tool-italic-example": "Sebr ning sẽn be zallã",
+	"wikieditor-toolbar-tool-link": "Tõge",
+	"wikieditor-toolbar-tool-link-title": "ning-y-yã tõke",
+	"wikieditor-toolbar-tool-link-int": "Wiki Nenga wã pʋgẽ",
+	"wikieditor-toolbar-tool-link-int-target-tooltip": "Seb-vão gom-zugu bɩ URL",
+	"wikieditor-toolbar-tool-link-int-text": "Gʋlsg sẽn na n wilge:",
+	"wikieditor-toolbar-tool-link-int-text-tooltip": "Gʋlsg sẽn dat n wilgã",
+	"wikieditor-toolbar-tool-link-ext-target": "Tõke URL:",
+	"wikieditor-toolbar-tool-link-insert": "Ning-y-yã tõke",
+	"wikieditor-toolbar-tool-link-cancel": "Base",
+	"wikieditor-toolbar-tool-link-int-target-status-exists": "Nenga beẽ wã yaa {{SITENAME}}",
+	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Nenga pa be {{SITENAME}} pʋgẽ ye",
+	"wikieditor-toolbar-tool-file": "Bõn-naandse la kibayã"
+}
