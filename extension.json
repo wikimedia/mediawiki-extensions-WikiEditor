@@ -276,7 +276,7 @@
 			"styles": "ext.wikiEditor.toolbar.styles.less"
 		},
 		"ext.wikiEditor.images": {
-			"class": "ResourceLoaderImageModule",
+			"class": "MediaWiki\\ResourceLoader\\ImageModule",
 			"selector": ".ext-WikiEditor-image-{name}",
 			"images": {
 				"realtimepreview-error": {
