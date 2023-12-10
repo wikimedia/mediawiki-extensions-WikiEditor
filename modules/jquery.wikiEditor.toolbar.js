@@ -119,7 +119,7 @@ const toolbarModule = {
 						for ( let i = 0; i < data.characters.length; i++ ) {
 							// Character
 							$characters.append(
-								$( toolbarModule.fn.buildCharacter( data.characters[ i ], actions ) )
+								toolbarModule.fn.buildCharacter( data.characters[ i ], actions )
 									.on( 'mousedown', ( e ) => {
 										// No dragging!
 										e.preventDefault();
@@ -522,17 +522,23 @@ const toolbarModule = {
 		reallyBuildPage: function ( context, id, page, $page ) {
 			switch ( page.layout ) {
 				case 'table': {
-					$page.addClass( 'page-table' );
-					let html = '';
+					// The following classes are used here:
+					// * table-format
+					// * table-link
+					// * table-heading
+					// * table-list
+					// * table-file
+					// * table-discussion
+					const $table = $( '<table>' ).addClass( 'table-' + id );
 					if ( 'headings' in page ) {
-						html += toolbarModule.fn.buildHeading( context, page.headings );
+						$table.append( toolbarModule.fn.buildHeading( context, page.headings ) );
 					}
 					if ( 'rows' in page ) {
 						for ( let i = 0; i < page.rows.length; i++ ) {
-							html += toolbarModule.fn.buildRow( context, page.rows[ i ] );
+							$table.append( toolbarModule.fn.buildRow( context, page.rows[ i ] ) );
 						}
 					}
-					$page.html( '<table class="table-' + id + '">' + html + '</table>' );
+					$page.addClass( 'page-table' ).append( $table );
 					break;
 				}
 				case 'characters': {
@@ -551,12 +557,12 @@ const toolbarModule = {
 						$characters.attr( 'dir', 'ltr' );
 					}
 					if ( 'characters' in page ) {
-						let html = '';
 						for ( let i = 0; i < page.characters.length; i++ ) {
-							html += toolbarModule.fn.buildCharacter( page.characters[ i ], actions );
+							$characters.append(
+								toolbarModule.fn.buildCharacter( page.characters[ i ], actions )
+							);
 						}
 						$characters
-							.html( html )
 							.children()
 							.attr( 'role', 'option' )
 							.on( 'mousedown', ( e ) => {
@@ -589,21 +595,30 @@ const toolbarModule = {
 			}
 		},
 		buildHeading: function ( context, headings ) {
-			let html = '';
+			const $row = $( '<tr>' );
 			for ( let i = 0; i < headings.length; i++ ) {
-				html += '<th>' + $.wikiEditor.autoSafeMsg( headings[ i ], [ 'html', 'text' ] ) + '</th>';
+				$row.append(
+					$( '<th>' ).html( $.wikiEditor.autoSafeMsg( headings[ i ], [ 'html', 'text' ] ) )
+				);
 			}
-			return '<tr>' + html + '</tr>';
+			return $row;
 		},
 		buildRow: function ( context, row ) {
-			let html = '';
+			const $row = $( '<tr>' );
 			for ( const cell in row ) {
 				// FIXME: This currently needs to use the "unsafe" .text() message because it embeds raw HTML
 				// in the messages (as used exclusively by the 'help' toolbar panel).
-				html += '<td class="cell cell-' + cell + '"><span>' +
-					$.wikiEditor.autoMsg( row[ cell ], [ 'html', 'text' ] ) + '</span></td>';
+				$row.append(
+					// The following classes are used here:
+					// * cell-description
+					// * cell-syntax
+					// * cell-result
+					$( '<td>' ).addClass( 'cell cell-' + cell ).append(
+						$( '<span>' ).html( $.wikiEditor.autoMsg( row[ cell ], [ 'html', 'text' ] ) )
+					)
+				);
 			}
-			return '<tr>' + html + '</tr>';
+			return $row;
 		},
 		buildCharacter: function ( character, actions ) {
 			const configRepresentation = character; // For recently used
@@ -664,15 +679,16 @@ const toolbarModule = {
 				];
 				// eslint-disable-next-line mediawiki/msg-doc
 				const title = character.titleMsg ? mw.msg( character.titleMsg ) : character.title;
-				return mw.html.element(
-					'span',
-					{ rel: character.label, title: title || false },
-					character.label
-				);
+				return $( '<span>' )
+					.attr( {
+						rel: character.label,
+						title: title
+					} )
+					.text( character.label );
 			}
 			mw.log( 'A character for the toolbar was undefined. This is not supposed to happen. Double check the config.' );
 			// bug 31673; also an additional fix for bug 24208...
-			return '';
+			return $();
 		},
 		buildTab: function ( context, id, section ) {
 			const selected = $.cookie( 'wikiEditor-' + context.instance + '-toolbar-section' );
