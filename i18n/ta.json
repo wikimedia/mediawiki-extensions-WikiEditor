@@ -10,7 +10,8 @@
 			"Surya Prakash.S.A.",
 			"TRYPPN",
 			"செல்வா",
-			"மதனாஹரன்"
+			"மதனாஹரன்",
+			"Fahimrazick"
 		]
 	},
 	"wikieditor": "மேம்பட்ட விக்கியுரைத் தொகுப்பு இடைமுகம்",
@@ -40,7 +41,7 @@
 	"wikieditor-toolbar-tool-link-ext-target": "இணைப்பு உரலி:",
 	"wikieditor-toolbar-tool-link-ext-text": "இணைப்புச் சொற்றொடர்:",
 	"wikieditor-toolbar-tool-link-insert": "இணைப்பையிடு",
-	"wikieditor-toolbar-tool-link-cancel": "ரத்து செய்",
+	"wikieditor-toolbar-tool-link-cancel": "கைவிடு",
 	"wikieditor-toolbar-tool-link-int-target-status-exists": "இப்பக்கம் உள்ளது",
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "இப்பக்கம் இன்னும் உருவாக்கப்படவில்லை",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "தவறான தலைப்பு",
@@ -62,7 +63,7 @@
 	"wikieditor-toolbar-file-format": "வடிவமைப்பு:",
 	"wikieditor-toolbar-file-format-none": "ஏதுமில்லை",
 	"wikieditor-toolbar-tool-file-insert": "உள்ளிடு",
-	"wikieditor-toolbar-tool-file-cancel": "ரத்து செய்",
+	"wikieditor-toolbar-tool-file-cancel": "கைவிடு",
 	"wikieditor-toolbar-tool-reference": "# மேற்கோள்\n# முன்மாதிரி",
 	"wikieditor-toolbar-tool-reference-example": "அடிக்குறிப்பை இங்கே எழுதவும்",
 	"wikieditor-toolbar-tool-reference-cancel": "விட்டுவிடு",
@@ -125,7 +126,7 @@
 	"wikieditor-toolbar-tool-replace-button-findnext": "அடுத்ததை கண்டுபிடி",
 	"wikieditor-toolbar-tool-replace-button-replace": "மாற்றுக",
 	"wikieditor-toolbar-tool-replace-button-replaceall": "எல்லாவற்றையும் மாற்றவும்",
-	"wikieditor-toolbar-tool-replace-close": "மூடுக",
+	"wikieditor-toolbar-tool-replace-close": "மூடு",
 	"wikieditor-toolbar-tool-replace-nomatch": "தங்களது தேடலுக்கான முடிவு எங்கும் ஒத்துவரவில்லை.",
 	"wikieditor-toolbar-tool-replace-success": "$1 மாற்றம்(கள்) மேற்கொள்ளப்பட்டன.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "எதனைத்தேடுவது என்று தாங்கள் குறிப்பிடவில்லை.",

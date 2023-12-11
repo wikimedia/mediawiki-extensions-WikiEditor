@@ -19,7 +19,8 @@
 			"Sjoerddebruin",
 			"Tvdm",
 			"Wiki13",
-			"Vistaus"
+			"Vistaus",
+			"Mbch331"
 		]
 	},
 	"wikieditor": "Uitgebreide tekstverwerker voor wikitekst",
@@ -29,7 +30,7 @@
 	"wikieditor-toolbar": "Bewerkingswerkbalk",
 	"wikieditor-toolbar-desc": "Bewerkingsbalk die eenvoudiger te gebruiken is",
 	"wikieditor-toolbar-preference": "Bewerkingsbalk inschakelen",
-	"wikieditor-toolbar-preference-help": "Dit wordt soms de '2010 wikitext editor' genoemd.",
+	"wikieditor-toolbar-preference-help": "Dit wordt ook wel de ‘wikitekst-editor van 2010’ genoemd.",
 	"wikieditor-toolbar-loading": "Bezig met laden…",
 	"wikieditor-toolbar-tool-bold": "Vet",
 	"wikieditor-toolbar-tool-bold-example": "Vetgedrukte tekst",
