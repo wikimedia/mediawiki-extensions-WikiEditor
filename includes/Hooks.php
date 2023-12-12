@@ -178,8 +178,6 @@ class Hooks implements
 			$data['user_class'] = 'IP';
 		}
 
-		$this->doMetricsPlatformLogging( $action, $data );
-
 		if ( !$inSample && !$shouldOversample ) {
 			return;
 		}
@@ -191,42 +189,6 @@ class Hooks implements
 				'event' => $data,
 			]
 		);
-	}
-
-	/**
-	 * @see https://phabricator.wikimedia.org/T309013
-	 * @see https://phabricator.wikimedia.org/T309985
-	 */
-	private function doMetricsPlatformLogging( string $action, array $data ): void {
-		unset( $data['version'] );
-		unset( $data['action'] );
-
-		// Sampling rate (and therefore whether a stream should oversample) is captured in
-		// the stream config ($wgEventStreams).
-		unset( $data['is_oversample'] );
-		unset( $data['session_token'] );
-
-		// Platform can be derived from the agent_client_platform_family context attribute
-		// mixed in by the JavaScript Metrics Platform Client. The context attribute will be
-		// "desktop_browser" or "mobile_browser" depending on whether the MobileFrontend
-		// extension has signalled that it is enabled.
-		unset( $data['platform'] );
-
-		unset( $data['page_id'] );
-		unset( $data['page_title'] );
-		unset( $data['page_ns'] );
-
-		// If the revision ID can be fetched (i.e. it is a positive integer), then it will be
-		//mixed in by the Metrics Platform Client.
-		if ( $data['revision_id'] ) {
-			unset( $data['revision_id'] );
-		}
-
-		unset( $data['user_id'] );
-		unset( $data['user_editcount'] );
-		unset( $data['mw_version'] );
-
-		EventLogging::submitMetricsEvent( 'eas.wt.' . $action, $data );
 	}
 
 	/**
