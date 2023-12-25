@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Joachim Yirkang"
+			"Joachim Yirkang",
+			"Zakaria Tunsung"
 		]
 	},
 	"wikieditor": "Eŋ wiki-ŋmaaroŋ maaloŋ",
@@ -61,9 +62,9 @@
 	"wikieditor-toolbar-tool-nowiki-example": "Ta eŋ gɔɔloŋ ŋmaaroŋ a kyɛ",
 	"wikieditor-toolbar-tool-redirect": "Leɛ wuli",
 	"wikieditor-toolbar-tool-redirect-example": "Bɔ gampɛle yuori",
-	"wikieditor-toolbar-tool-big": "Kpoɖ",
+	"wikieditor-toolbar-tool-big": "Kpoŋ",
 	"wikieditor-toolbar-tool-big-example": "Ŋmaaroŋ kpoŋ",
-	"wikieditor-toolbar-tool-small": "Bilee",
+	"wikieditor-toolbar-tool-small": "Bile",
 	"wikieditor-toolbar-tool-small-example": "Boŋ-bilee ŋmaaroŋ",
 	"wikieditor-toolbar-tool-superscript": "Sage sommo",
 	"wikieditor-toolbar-tool-superscript-example": "Sage sommo ŋmaaroŋ",
