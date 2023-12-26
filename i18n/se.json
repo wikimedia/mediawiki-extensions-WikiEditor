@@ -36,6 +36,8 @@
 	"wikieditor-toolbar-tool-reference-cancel": "Šluhtte",
 	"wikieditor-toolbar-tool-reference-title": "Lasit gáldočujuhusa",
 	"wikieditor-toolbar-tool-reference-insert": "Lasit",
+	"wikieditor-toolbar-tool-signature": "Vuolláičála ja áigesteampal",
+	"wikieditor-toolbar-section-advanced": "Aiddostahttojuvvon",
 	"wikieditor-toolbar-tool-heading-1": "Dássi 1",
 	"wikieditor-toolbar-tool-heading-2": "Dássi 2",
 	"wikieditor-toolbar-tool-heading-3": "Dássi 3",
@@ -73,6 +75,8 @@
 	"wikieditor-toolbar-help-page-discussion": "Ságastallan",
 	"wikieditor-toolbar-help-content-italic-description": "Finjučála",
 	"wikieditor-toolbar-help-content-bold-description": "Buoiddesčála",
+	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Vuolláičála áigesteampaliin",
+	"wikieditor-toolbar-help-content-signature-description": "Vuolláičála",
 	"wikieditor-realtimepreview-preview": "Ovdačájáhus",
 	"wikieditor-realtimepreview-onboarding-button": "Ášši lea čielggas."
 }
