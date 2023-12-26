@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BHARATHESHA ALASANDEMAJALU",
+			"ChiK",
 			"Kiranpoojary",
 			"Ravi Mundkur",
 			"Soundarya shetty s"
@@ -13,5 +14,6 @@
 	"wikieditor-toolbar-section-advanced": "ನನಾತ",
 	"wikieditor-toolbar-tool-heading": "ತರೆಬರವು",
 	"wikieditor-toolbar-group-insert": "ಸೇರ್ಪಲೆ",
-	"wikieditor-toolbar-section-characters": "ವಿಸೇಸೊ ಅಕ್ಷರೊಲು"
+	"wikieditor-toolbar-section-characters": "ವಿಸೇಸೊ ಅಕ್ಷರೊಲು",
+	"wikieditor-toolbar-section-help": "ಸಹಾಯೊ"
 }
