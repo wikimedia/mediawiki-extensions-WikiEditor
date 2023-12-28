@@ -308,25 +308,6 @@ class Hooks implements
 	}
 
 	/**
-	 * Deprecated static alias for onEditPage__showEditForm_initial
-	 *
-	 * Adds the modules to the edit form
-	 *
-	 * @deprecated since 1.38
-	 * @param EditPage $editPage the current EditPage object.
-	 * @param OutputPage $outputPage object.
-	 */
-	public static function editPageShowEditFormInitial( EditPage $editPage, OutputPage $outputPage ) {
-		wfDeprecated( __METHOD__, '1.38' );
-		$services = MediaWikiServices::getInstance();
-		( new self(
-			$services->getMainConfig(),
-			$services->getUserEditTracker(),
-			$services->getUserOptionsLookup()
-		) )->onEditPage__showEditForm_initial( $editPage, $outputPage );
-	}
-
-	/**
 	 * EditPage::showEditForm:fields hook
 	 *
 	 * Adds the event fields to the edit form
