@@ -43,10 +43,6 @@
 	},
 	"ResourceModules": {
 		"ext.wikiEditor": {
-			"targets": [
-				"desktop",
-				"mobile"
-			],
 			"group": "ext.wikiEditor",
 			"packageFiles": [
 				"ext.wikiEditor.js",
@@ -268,10 +264,6 @@
 			]
 		},
 		"ext.wikiEditor.styles": {
-			"targets": [
-				"desktop",
-				"mobile"
-			],
 			"group": "ext.wikiEditor",
 			"styles": "ext.wikiEditor.toolbar.styles.less"
 		},
