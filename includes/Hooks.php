@@ -17,6 +17,7 @@ use MediaWiki\ChangeTags\Hook\ChangeTagsListActiveHook;
 use MediaWiki\ChangeTags\Hook\ListDefinedTagsHook;
 use MediaWiki\Config\Config;
 use MediaWiki\EditPage\EditPage;
+use MediaWiki\Extension\ConfirmEdit\Hooks as ConfirmEditHooks;
 use MediaWiki\Extension\DiscussionTools\Hooks as DiscussionToolsHooks;
 use MediaWiki\Extension\EventLogging\EventLogging;
 use MediaWiki\Hook\EditPage__attemptSave_afterHook;
@@ -527,7 +528,7 @@ class Hooks implements
 				if ( ExtensionRegistry::getInstance()->isLoaded( 'ConfirmEdit' ) ) {
 					$key = CacheKeyHelper::getKeyForPage( $wikiPage );
 					/** @var SimpleCaptcha $captcha */
-					$captcha = \ConfirmEditHooks::getInstance();
+					$captcha = ConfirmEditHooks::getInstance();
 					$activatedCaptchas = $captcha->getActivatedCaptchas();
 					if ( isset( $activatedCaptchas[$key] ) ) {
 						// TODO: :(
