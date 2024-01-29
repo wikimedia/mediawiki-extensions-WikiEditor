@@ -9,7 +9,11 @@
 			"Octahedron80",
 			"Thas Tayapongsak",
 			"Trisorn Triboon",
-			"Woraponboonkerd"
+			"Woraponboonkerd",
+			"Ekminarin",
+			"Patsagorn Y.",
+			"RidJasper",
+			"Thastp"
 		]
 	},
 	"wikieditor": "อินเทอร์เฟซการแก้ไขข้อความวิกิขั้นสูง",
@@ -48,11 +52,13 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "URL ที่คุณระบุดูเหมือนว่ามีเจตนาเพื่อเป็นลิงก์ไปยังหน้าวิกิอื่น\nคุณต้องการทำให้เป็นลิงก์ภายในหรือไม่?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "ลิงก์ภายใน",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "ลิงก์ภายนอก",
-	"wikieditor-toolbar-tool-file": "ไฟล์ที่ฝัง",
+	"wikieditor-toolbar-tool-file": "ภาพและสื่อ",
 	"wikieditor-toolbar-tool-file-example": "ตัวอย่าง.jpg",
 	"wikieditor-toolbar-tool-file-title": "แทรกไฟล์",
 	"wikieditor-toolbar-file-target": "ชื่อไฟล์:",
 	"wikieditor-toolbar-file-caption": "คำบรรยายโดยย่อ",
+	"wikieditor-toolbar-file-alt": "ข้อความแสดงแทน:",
+	"wikieditor-toolbar-file-alt-help-label": "(แสดงวิธีใช้)",
 	"wikieditor-toolbar-file-size": "ขนาด:",
 	"wikieditor-toolbar-file-float": "จัดชิดแนว:",
 	"wikieditor-toolbar-file-default": "(ค่าเริ่มต้น)",
@@ -176,6 +182,7 @@
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li>เนื้อหารายการ</li><li>เนื้อหารายการ</li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "แทรกไฟล์",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
+	"wikieditor-toolbar-help-content-file-caption": "ข้อความคำบรรยาย",
 	"wikieditor-toolbar-help-content-reference-description": "อ้างอิง",
 	"wikieditor-toolbar-help-content-reference-syntax": "ชื่อหน้า.&lt;ref&gt;[http://www.example.org ชื่อลิงก์], คำอธิบายเพิ่มเติม.&lt;/ref&gt;",
 	"wikieditor-toolbar-help-content-reference-result": "ข้อความในหน้า<sup><a href='#'>[1]</a></sup>",
@@ -189,6 +196,7 @@
 	"wikieditor-toolbar-help-content-indent-description": "ย่อหน้า",
 	"wikieditor-toolbar-help-content-indent-syntax": "บรรทัดปกติ<br />:บรรทัดย่อหน้า<br />::บรรทัดย่อหน้า",
 	"wikieditor-toolbar-help-content-indent-result": "บรรทัดปกติ<dl><dd>บรรทัดย่อหน้า<dl><dd>บรรทัดย่อหน้า</dd></dl></dd></dl>",
+	"tag-wikieditor-description": "แก้ไขที่ทำโดยใช้[[mw:Special:MyLanguage/Extension:WikiEditor|ตัวแก้ไขข้อความวิกิ]] (ตัวแก้ไขข้อความวิกิปี 2553)",
 	"wikieditor-realtimepreview-preview": "แสดงตัวอย่าง",
 	"wikieditor-realtimepreview-error": "แสดงตัวอย่างไม่โหลด",
 	"wikieditor-realtimepreview-reload": "โหลดใหม่"
