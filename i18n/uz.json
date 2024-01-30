@@ -191,7 +191,7 @@
 	"wikieditor-toolbar-help-content-indent-description": "Xat boshi",
 	"wikieditor-toolbar-help-content-indent-syntax": "Odatiy matn<br />:Matn xat boshi bilan<br />::Matn xat boshi bilan",
 	"wikieditor-toolbar-help-content-indent-result": "Odatiy matn<dl><dd>Matn xat boshi bilan<dl><dd>Matn xat boshi bilan</dd></dl></dd></dl>",
-	"tag-wikieditor-description": "Tahrirlash [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (2010 vikimatn muharriri) yordamida amalga oshirildi.",
+	"tag-wikieditor-description": "[[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] yordamida qilingan tahrir (2010 vikimatn muharriri)",
 	"wikieditor-realtimepreview-preview": "Oldindan koʻrish",
 	"wikieditor-realtimepreview-error": "Oldindan koʻrish yuklanmayapti",
 	"wikieditor-realtimepreview-reload": "Qayta yuklash",
