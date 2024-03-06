@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Аль-Гимравий"
+			"Аль-Гимравий",
+			"Augustus A C"
 		]
 	},
+	"wikieditor-toolbar-file-alt-help-label": "(Квекел бихьизабизе)",
+	"wikieditor-toolbar-section-help": "Квеки",
 	"wikieditor-toolbar-help-page-discussion": "Гьоркьоб лъей"
 }
