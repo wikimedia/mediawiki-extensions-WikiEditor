@@ -38,6 +38,9 @@
 				"MainConfig",
 				"UserEditTracker",
 				"UserOptionsLookup"
+			],
+			"optional_services": [
+				"MobileFrontend.Context"
 			]
 		}
 	},

@@ -38,6 +38,7 @@ use MediaWiki\User\User;
 use MediaWiki\User\UserEditTracker;
 use MediaWiki\WikiMap\WikiMap;
 use MessageLocalizer;
+use MobileContext;
 use MWCryptRand;
 use RecentChange;
 use RequestContext;
@@ -73,19 +74,25 @@ class Hooks implements
 	/** @var UserOptionsLookup */
 	private $userOptionsLookup;
 
+	/** @var MobileContext|null */
+	private ?MobileContext $mobileContext;
+
 	/**
 	 * @param Config $config
 	 * @param UserEditTracker $userEditTracker
 	 * @param UserOptionsLookup $userOptionsLookup
+	 * @param MobileContext|null $mobileContext
 	 */
 	public function __construct(
 		Config $config,
 		UserEditTracker $userEditTracker,
-		UserOptionsLookup $userOptionsLookup
+		UserOptionsLookup $userOptionsLookup,
+		?MobileContext $mobileContext
 	) {
 		$this->config = $config;
 		$this->userEditTracker = $userEditTracker;
 		$this->userOptionsLookup = $userOptionsLookup;
+		$this->mobileContext = $mobileContext;
 	}
 
 	/**
@@ -130,9 +137,8 @@ class Hooks implements
 		if ( !$extensionRegistry->isLoaded( 'EventLogging' ) || !$extensionRegistry->isLoaded( 'WikimediaEvents' ) ) {
 			return;
 		}
-		if ( $extensionRegistry->isLoaded( 'MobileFrontend' ) ) {
-			$mobFrontContext = MediaWikiServices::getInstance()->getService( 'MobileFrontend.Context' );
-			if ( $mobFrontContext->shouldDisplayMobileView() ) {
+		if ( $extensionRegistry->isLoaded( 'MobileFrontend' ) && $this->mobileContext ) {
+			if ( $this->mobileContext->shouldDisplayMobileView() ) {
 				// on a MobileFrontend page the logging should be handled by it
 				return;
 			}
