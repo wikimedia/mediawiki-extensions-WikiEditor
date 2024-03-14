@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kisare",
 			"Kwisha",
 			"Lloffiwr",
 			"Macofe",
@@ -103,7 +104,7 @@
 	"wikieditor-toolbar-tool-replace-success": "Yalifanyiwa (ma)badiliko $1.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "Hukuweka maandishi ya kutafutwa.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "Uonyesho wa kawaida ulichoingiza ni batili: $1",
-	"wikieditor-toolbar-section-characters": "Herufi maalum",
+	"wikieditor-toolbar-section-characters": "Herufi maalumu",
 	"wikieditor-toolbar-section-help": "Msaada",
 	"wikieditor-toolbar-help-heading-description": "Elezo",
 	"wikieditor-toolbar-help-heading-syntax": "Ukiandika haya",
