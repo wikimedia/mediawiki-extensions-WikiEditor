@@ -22,7 +22,9 @@
 			"Rafael Vargas",
 			"YuriNikolai",
 			555,
-			"Fúlvio"
+			"Fúlvio",
+			"Eduaddad",
+			"Jaideraf"
 		]
 	},
 	"wikieditor": "Interface avançada de edição de wikitexto",
@@ -215,7 +217,7 @@
 	"wikieditor-toolbar-help-content-indent-syntax": "Texto normal<br />:Texto indentado<br />::Texto indentado",
 	"wikieditor-toolbar-help-content-indent-result": "Texto normal<dl><dd>Texto indentado<dl><dd>Texto indentado</dd></dl></dd></dl>",
 	"tag-wikieditor-description": "Edição feita usando o [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (editor de wikitexto de 2010)",
-	"wikieditor-realtimepreview-preview": "Mostar previsão",
+	"wikieditor-realtimepreview-preview": "Mostrar previsão",
 	"wikieditor-realtimepreview-error": "A visualização não está carregando",
 	"wikieditor-realtimepreview-reload": "Recarregar",
 	"wikieditor-realtimepreview-beta-label": "Pré-visualização em tempo real",
