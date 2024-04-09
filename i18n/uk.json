@@ -51,7 +51,7 @@
 	"wikieditor-toolbar-tool-link-insert": "Вставити посилання",
 	"wikieditor-toolbar-tool-link-cancel": "Скасувати",
 	"wikieditor-toolbar-tool-link-int-target-status-exists": "Ця сторінка існує на {{SITENAME}}",
-	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Ця сторінка не існує на {{SITENAME}}",
+	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Ця сторінка не існує у {{GRAMMAR:locative|{{SITENAME}}}}",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Вказаний вами заголовок недійсний",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Зовнішнє посилання",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Ця сторінка не є сторінкою вмісту, тут лише перераховано теми зі схожими назвами",
