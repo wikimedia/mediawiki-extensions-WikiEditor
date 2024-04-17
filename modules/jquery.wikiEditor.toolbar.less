@@ -295,25 +295,36 @@
 				vertical-align: top;
 			}
 
-			td.cell-syntax {
+			.cell-syntax {
 				font-family: monospace, 'Courier';
 			}
 
-			td.cell-syntax,
-			td.cell-result {
+			.cell-syntax,
+			.cell-result {
 				width: 40%;
 			}
 
-			td.cell-description {
+			.cell-description {
 				width: 20%;
 			}
 
 			/* T33649 */
 			.table-link {
-				td.cell-syntax,
+				.cell-syntax,
 				span.pre-wrap {
 					white-space: pre;
 				}
+			}
+		}
+
+		.cell-result {
+			h2,
+			h3,
+			h4,
+			h5 {
+				margin-bottom: 0;
+				margin-top: 0;
+				padding-top: 0;
 			}
 		}
 	}
