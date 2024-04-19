@@ -7,7 +7,6 @@
  *
  * @example To initialize with one or more modules, or to add modules after it's already been initialized:
  *     $( 'textarea#wpTextbox1' ).wikiEditor( 'addModule', 'toolbar', { ... config ... } );
- *
  */
 var hasOwn = Object.prototype.hasOwnProperty,
 
