@@ -199,7 +199,7 @@
 	"wikieditor-toolbar-help-content-indent-syntax": "Teks normal<br />:Teks terinden<br />::Teks terinden",
 	"wikieditor-toolbar-help-content-indent-result": "Teks normal<dl><dd>Teks terinden<dl><dd>Teks terinden</dd></dl></dd></dl>",
 	"tag-wikieditor-description": "Suntingan dibuat menggunakan [[mw:Special:MyLanguage/Extension:WikiEditor|WikiPenyunting]] (penyunting wikiteks 2010)",
-	"wikieditor-realtimepreview-preview": "Pralihat",
+	"wikieditor-realtimepreview-preview": "Pratayang",
 	"wikieditor-realtimepreview-error": "Pralihat tidak memuat",
 	"wikieditor-realtimepreview-reload": "Muat semula",
 	"wikieditor-realtimepreview-beta-label": "Pralihat Masa Nyata",
