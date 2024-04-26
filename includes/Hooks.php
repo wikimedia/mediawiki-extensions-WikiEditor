@@ -16,6 +16,7 @@ use MediaWiki\Cache\CacheKeyHelper;
 use MediaWiki\ChangeTags\Hook\ChangeTagsListActiveHook;
 use MediaWiki\ChangeTags\Hook\ListDefinedTagsHook;
 use MediaWiki\Config\Config;
+use MediaWiki\Context\RequestContext;
 use MediaWiki\EditPage\EditPage;
 use MediaWiki\Extension\ConfirmEdit\Hooks as ConfirmEditHooks;
 use MediaWiki\Extension\DiscussionTools\Hooks as DiscussionToolsHooks;
@@ -41,7 +42,6 @@ use MessageLocalizer;
 use MobileContext;
 use MWCryptRand;
 use RecentChange;
-use RequestContext;
 use WikimediaEvents\WikimediaEventsHooks;
 
 /**
