@@ -15,7 +15,8 @@
 			"Vugar 1981",
 			"Wertuose",
 			"Şeyx Şamil",
-			"Wealszy"
+			"Wealszy",
+			"Nemoralis"
 		]
 	},
 	"wikieditor": "Təkmil vikimətn redaktə interfeysi",
@@ -58,7 +59,7 @@
 	"wikieditor-toolbar-tool-file-example": "Nümunə.jpg",
 	"wikieditor-toolbar-tool-file-title": "Fayl əlavə et",
 	"wikieditor-toolbar-file-target": "Fayl adı:",
-	"wikieditor-toolbar-file-caption": "Başlıq:",
+	"wikieditor-toolbar-file-caption": "İzah:",
 	"wikieditor-toolbar-file-alt": "Alternativ mətn:",
 	"wikieditor-toolbar-file-alt-help": "Bu əlavə sahəni faylı görə bilməyən insanlar üçün bir açıqlama yazmaq üçün istifadə edə bilərsiniz. Açıqlama fayl tərəfindən verilən məqsədi və məlumatları başa düşmələri üçün kifayət etməlidir. Bu, görmə məhdudiyyətli istifadəçilər və ekran oxuyucu proqramı və ya yalnız mətn göstərən brauzerlərdən istifadə edən digər insanlar üçün vacibdir.",
 	"wikieditor-toolbar-file-alt-help-label": "(İzahını göstər)",
@@ -166,7 +167,7 @@
 	"wikieditor-toolbar-help-content-xlink-description": "Xarici keçid",
 	"wikieditor-toolbar-help-content-xlink-syntax": "[http://www.example.org Keçidin adı]<br />[http://www.example.org]<br />http://www.example.org",
 	"wikieditor-toolbar-help-content-xlink-result": "<a href='#' class='external'>Keçidin adı</a><br /><a href='#' class='external autonumber'>[1]</a><br /><a href='#' class='external'>http://www.example.org</a>",
-	"wikieditor-toolbar-help-content-heading2-description": "2-ci səviyyəlı başlıq",
+	"wikieditor-toolbar-help-content-heading2-description": "2-ci səviyyəli başlıq",
 	"wikieditor-toolbar-help-content-heading2-syntax": "== Başlıq mətn ==",
 	"wikieditor-toolbar-help-content-heading2-result": "<h2>Başlıq mətn</h2>",
 	"wikieditor-toolbar-help-content-heading3-description": "3-cü səviyyəli başlıq",
@@ -175,7 +176,7 @@
 	"wikieditor-toolbar-help-content-heading4-description": "4-cü səviyyəli başlıq",
 	"wikieditor-toolbar-help-content-heading4-syntax": "==== Başlıq mətn ====",
 	"wikieditor-toolbar-help-content-heading4-result": "<h4>Başlıq mətn</h4>",
-	"wikieditor-toolbar-help-content-heading5-description": "5-ci səviyyəlı başlıq",
+	"wikieditor-toolbar-help-content-heading5-description": "5-ci səviyyəli başlıq",
 	"wikieditor-toolbar-help-content-heading5-syntax": "===== Başlıq mətn =====",
 	"wikieditor-toolbar-help-content-heading5-result": "<h5>Başlıq mətn</h5>",
 	"wikieditor-toolbar-help-content-ulist-description": "Markalanmış siyahı",
@@ -208,7 +209,7 @@
 	"wikieditor-realtimepreview-beta-label": "Real vaxtda sınaq göstərişi",
 	"wikieditor-realtimepreview-beta-desc": "[[mw:Special:MyLanguage/Extension:WikiEditor|2010 vikimətn redaktoru]] daxilində redaktənizin real vaxtda necə göründüyünə baxın.",
 	"wikieditor-realtimepreview-reload-title": "Sınaq göstərişi panelini yenidən yüklə",
-	"wikieditor-realtimepreview-manual": "Lütfən, redaktələrinizi əl ilə nəzərdən keçirmək üçün indi yenidən yükləyin.",
+	"wikieditor-realtimepreview-manual": "Lütfən, redaktələrinizi manual nəzərdən keçirmək üçün indi yenidən yükləyin.",
 	"wikieditor-realtimepreview-onboarding-title": "Real vaxtda sınaq göstərişi",
 	"wikieditor-realtimepreview-onboarding-body": "Redaktələrinizin oxuculara real vaxt rejimində necə görünəcəyinə baxın.",
 	"wikieditor-realtimepreview-onboarding-button": "Tamam, başa düşdüm"
