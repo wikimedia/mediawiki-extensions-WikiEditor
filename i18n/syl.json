@@ -5,5 +5,13 @@
 		]
 	},
 	"wikieditor-wikitext-tab": "ꠃꠁꠇꠤꠟꠦꠈꠣ",
-	"wikieditor-toolbar-tool-bold": "ꠛꠑꠟꠣ"
+	"wikieditor-toolbar-tool-bold": "ꠛꠑꠟꠣ",
+	"wikieditor-toolbar-help-page-list": "ꠟꠤꠡ꠆ꠐꠤꠘ",
+	"wikieditor-toolbar-help-page-file": "ꠚꠣꠁꠟꠣꠁꠘ",
+	"wikieditor-toolbar-help-page-discussion": "ꠝꠣꠔ ꠇꠕꠣ",
+	"wikieditor-toolbar-help-content-italic-description": "ꠁꠔꠣꠟꠤ",
+	"wikieditor-toolbar-help-content-bold-description": "ꠊꠣꠐ꠆ꠐꠣ",
+	"wikieditor-toolbar-help-content-ilink-description": "ꠜꠤꠔ꠆ꠞꠞ ꠟꠤꠋꠇ",
+	"wikieditor-toolbar-help-content-xlink-description": "ꠛꠣꠞꠣ ꠟꠤꠋꠇ",
+	"wikieditor-realtimepreview-preview": "ꠀꠉꠛꠣꠞꠤ ꠖꠦꠈꠣꠘꠤ"
 }
