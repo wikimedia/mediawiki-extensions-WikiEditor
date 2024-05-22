@@ -15,7 +15,9 @@
 			"Priviet",
 			"Ykhwong",
 			"관인생략",
-			"아라"
+			"아라",
+			"Markingdots",
+			"Suleiman the Magnificent Television"
 		]
 	},
 	"wikieditor": "확장된 위키텍스트 편집 인터페이스",
@@ -60,6 +62,7 @@
 	"wikieditor-toolbar-file-target": "파일 이름:",
 	"wikieditor-toolbar-file-caption": "설명:",
 	"wikieditor-toolbar-file-alt": "대체 텍스트:",
+	"wikieditor-toolbar-file-alt-help": "이 선택적 필드를 사용하여 파일을 볼 수 없는 사람들에게 텍스트 설명을 작성할 수 있습니다. 그 설명은 미디어 항목의 목적과 정보를 이해하는 데 충분해야 합니다. 이것은 시각장애인 사용자와 스크린 리더 소프트웨어 또는 텍스트 전용 브라우저를 사용하는 다른 사람들에게 매우 중요합니다.",
 	"wikieditor-toolbar-file-alt-help-label": "(도움말 보기)",
 	"wikieditor-toolbar-file-size": "크기:",
 	"wikieditor-toolbar-file-float": "정렬:",
@@ -150,6 +153,7 @@
 	"wikieditor-toolbar-help-content-bolditalic-description": "굵고 기울인 글씨",
 	"wikieditor-toolbar-help-content-bolditalic-example": "굵고 기울인 글씨",
 	"wikieditor-toolbar-help-content-ilink-description": "내부 링크",
+	"wikieditor-toolbar-help-content-ilink-example": "[[문서 이름]]\n[[문서 이름|다른 이름]]",
 	"wikieditor-toolbar-help-content-xlink-description": "외부 링크",
 	"wikieditor-toolbar-help-content-heading2-description": "2단계 제목",
 	"wikieditor-toolbar-help-content-heading2-example": "제목",
