@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Babanwalia",
-			"Kuldeepburjbhalaike"
+			"Kuldeepburjbhalaike",
+			"Cabal"
 		]
 	},
 	"wikieditor-wikitext-tab": "ਵਿਕੀਲਿਖਤ",
@@ -32,6 +33,7 @@
 	"wikieditor-toolbar-tool-file-title": "ਫ਼ਾਈਲ ਜੋੜੋ",
 	"wikieditor-toolbar-file-target": "ਫ਼ਾਈਲ ਦਾ ਨਾਂ:",
 	"wikieditor-toolbar-file-caption": "ਸਿਰਲੇਖ:",
+	"wikieditor-toolbar-file-alt-help-label": "(ਮਦਦ ਦਿਖਾਓ)",
 	"wikieditor-toolbar-file-size": "ਅਕਾਰ:",
 	"wikieditor-toolbar-file-float": "ਪੰਗਤ:",
 	"wikieditor-toolbar-file-default": "(ਮੂਲ)",
@@ -68,13 +70,14 @@
 	"wikieditor-toolbar-group-insert": "ਜੋੜੋ",
 	"wikieditor-toolbar-tool-gallery": "ਤਸਵੀਰਾਂ ਦੀ ਗੈਲਰੀ",
 	"wikieditor-toolbar-tool-gallery-example": "ਮਿਸਾਲ.jpg|ਸਿਰਲੇਖ੧\nਮਿਸਾਲ.jpg|ਸਿਰਲੇਖ੨",
-	"wikieditor-toolbar-tool-newline": "ਨਵੀਂ ਲਾਈਨ",
+	"wikieditor-toolbar-tool-newline": "ਨਵੀਂ ਲਕੀਰ",
 	"wikieditor-toolbar-tool-table": "ਸਾਰਨੀ",
 	"wikieditor-toolbar-tool-table-example-header": "ਸਿਰਨਾਵੇਂ ਦੀ ਲਿਖਤ",
 	"wikieditor-toolbar-tool-table-title": "ਸਾਰਨੀ ਜੋੜੋ",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "ਕਤਾਰਾਂ",
 	"wikieditor-toolbar-tool-table-dimensions-columns": "ਕਾਲਮ",
 	"wikieditor-toolbar-tool-table-dimensions-header": "ਸਿਰਨਾਵੇਂ ਦੀ ਕਤਾਰ ਜੋੜੋ",
+	"wikieditor-toolbar-tool-table-sortable": "ਸਾਰਣੀ ਨੂੰ ਛਾਂਟੀ-ਯੋਗ ਬਣਾਓ",
 	"wikieditor-toolbar-tool-table-example": "ਮਿਸਾਲ",
 	"wikieditor-toolbar-tool-table-preview": "ਝਲਕ",
 	"wikieditor-toolbar-tool-table-insert": "ਜੋੜੋ",
@@ -84,10 +87,14 @@
 	"wikieditor-toolbar-tool-replace": "ਖੋਜੋ ਅਤੇ ਵਾਪਸ ਰੱਖੋ",
 	"wikieditor-toolbar-tool-replace-title": "ਖੋਜੋ ਅਤੇ ਵਾਪਸ ਰੱਖੋ",
 	"wikieditor-toolbar-tool-replace-search": "ਖੋਜੋ:",
+	"wikieditor-toolbar-tool-replace-replace": "ਨਾਲ ਬਦਲੋ:",
 	"wikieditor-toolbar-tool-replace-button-findnext": "ਅਗਲਾ ਲੱਭੋ",
+	"wikieditor-toolbar-tool-replace-button-replace": "ਬਦਲੋ",
+	"wikieditor-toolbar-tool-replace-button-replaceall": "ਸਾਰੇ ਬਦਲੋ",
 	"wikieditor-toolbar-tool-replace-close": "ਬੰਦ ਕਰੋ",
 	"wikieditor-toolbar-tool-replace-nomatch": "ਤੁਹਾਡੀ ਖੋਜ ਨੇ ਕਿਸੇ ਨਾਲ਼ ਮੇਲ ਨਹੀਂ ਖਾਧਾ।",
 	"wikieditor-toolbar-tool-replace-emptysearch": "ਤੁਸੀਂ ਲੱਭਣ ਲਈ ਕੁਝ ਨਹੀਂ ਭਰਿਆ।",
+	"wikieditor-toolbar-tool-replace-word": "ਪੂਰੇ ਸ਼ਬਦ ਨਾਲ ਮੇਲ ਕਰੋ",
 	"wikieditor-toolbar-section-characters": "ਖ਼ਾਸ ਚਿੰਨ੍ਹ",
 	"wikieditor-toolbar-section-help": "ਮਦਦ",
 	"wikieditor-toolbar-help-heading-description": "ਵੇਰਵਾ",
@@ -118,5 +125,8 @@
 	"wikieditor-toolbar-help-content-olist-description": "ਗਿਣਤੀਦਾਇਕ ਸੂਚੀ",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "ਸਮੇਂ ਦੀ ਮੋਹਰ ਸਮੇਤ ਦਸਤਖ਼ਤ",
 	"wikieditor-toolbar-help-content-signature-description": "ਦਸਤਖ਼ਤ",
-	"wikieditor-toolbar-help-content-indent-description": "ਹਾਸ਼ੀਏ ਤੋਂ ਦੂਰ"
+	"wikieditor-toolbar-help-content-signature-username": "ਵਰਤੋਂਕਾਰ ਨਾਂ",
+	"wikieditor-toolbar-help-content-indent-description": "ਹਾਸ਼ੀਏ ਤੋਂ ਦੂਰ",
+	"wikieditor-realtimepreview-preview": "ਝਲਕ",
+	"wikieditor-realtimepreview-reload": "ਮੁੜ ਲੱਦੋ"
 }
