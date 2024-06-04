@@ -4,6 +4,7 @@
 			"Ajiniyaz Nurniyazov",
 			"Arystanbek",
 			"Batyrbek.kz",
+			"Casserium",
 			"GaiJin",
 			"Kaztrans"
 		]
@@ -143,5 +144,6 @@
 	"wikieditor-toolbar-help-content-file-caption": "Файл тақырыбы",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Қолтаңба және уақыт",
 	"wikieditor-toolbar-help-content-signature-description": "Қолтаңба",
-	"wikieditor-toolbar-help-content-indent-description": "Шегініс"
+	"wikieditor-toolbar-help-content-indent-description": "Шегініс",
+	"tag-wikieditor-description": "Өңдеме [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (2010 жылғы уикимәтін редакторы) көмегімен жасалған"
 }
