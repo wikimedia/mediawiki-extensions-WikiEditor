@@ -1,5 +1,7 @@
 /**
  * Configuration of Dialog module for wikiEditor
+ *
+ * @private
  */
 var toolbarModule = require( './jquery.wikiEditor.toolbar.js' ),
 	InsertLinkTitleInputField = require( './insertlink/TitleInputField.js' ),
@@ -23,7 +25,10 @@ function triggerButtonClick( element ) {
 }
 
 module.exports = {
-
+	/**
+	 * @param {jQuery} $textarea
+	 * @memberof module:ext.wikiEditor
+	 */
 	replaceIcons: function ( $textarea ) {
 		$textarea
 			.wikiEditor( 'addToToolbar', {
@@ -85,6 +90,10 @@ module.exports = {
 			} );
 	},
 
+	/**
+	 * @return {Object}
+	 * @memberof module:ext.wikiEditor
+	 */
 	getDefaultConfig: function () {
 		return { dialogs: {
 			'insert-link': {

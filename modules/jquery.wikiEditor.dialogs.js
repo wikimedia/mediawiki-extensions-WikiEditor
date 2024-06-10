@@ -1,5 +1,7 @@
 /**
  * Dialog Module for wikiEditor
+ *
+ * @memberof module:ext.wikiEditor
  */
 var dialogsModule = {
 

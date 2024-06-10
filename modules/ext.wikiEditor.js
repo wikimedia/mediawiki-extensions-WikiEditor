@@ -2,6 +2,10 @@
  * JavaScript for WikiEditor
  */
 
+/**
+ * @module module:ext.wikiEditor
+ */
+
 var editingSessionId;
 
 // This sets $.wikiEditor and $.fn.wikiEditor

@@ -1,5 +1,7 @@
 /**
  * Toolbar module for wikiEditor
+ *
+ * @memberof module:ext.wikiEditor
  */
 var toolbarModule = {
 
