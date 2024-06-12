@@ -14,7 +14,8 @@
 			"TMg",
 			"Umherirrender",
 			"Ziko",
-			"✓"
+			"✓",
+			"Inkowik"
 		]
 	},
 	"wikieditor": "Fortgeschrittener Wikitext-Editor",
@@ -127,7 +128,7 @@
 	"wikieditor-toolbar-tool-replace-button-replace": "Ersetzen",
 	"wikieditor-toolbar-tool-replace-button-replaceall": "Alle ersetzen",
 	"wikieditor-toolbar-tool-replace-close": "Schließen",
-	"wikieditor-toolbar-tool-replace-nomatch": "Deine Suche hat keine Ergebnisse erbracht.",
+	"wikieditor-toolbar-tool-replace-nomatch": "Die Suche hat keine Ergebnisse erbracht.",
 	"wikieditor-toolbar-tool-replace-success": "{{PLURAL:$1|Eine Ersetzung|$1 Ersetzungen}} durchgeführt.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "Du hast nichts zum Suchen eingegeben.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "Der eingegebene reguläre Ausdruck ist ungültig: $1",

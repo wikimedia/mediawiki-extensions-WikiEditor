@@ -30,7 +30,8 @@
 			"Translationista",
 			"Vivaelcelta",
 			"Yllelder",
-			"ZebaX2010"
+			"ZebaX2010",
+			"Agabi10"
 		]
 	},
 	"wikieditor": "Interfaz avanzada de edición de wikitexto",
@@ -51,7 +52,7 @@
 	"wikieditor-toolbar-tool-link": "Enlace",
 	"wikieditor-toolbar-tool-link-title": "Insertar enlace",
 	"wikieditor-toolbar-tool-link-int": "A una página wiki",
-	"wikieditor-toolbar-tool-link-int-target": "Título de página:",
+	"wikieditor-toolbar-tool-link-int-target": "Página o URL de destino:",
 	"wikieditor-toolbar-tool-link-int-target-tooltip": "Título de la página o URL",
 	"wikieditor-toolbar-tool-link-int-text": "Título del enlace",
 	"wikieditor-toolbar-tool-link-int-text-tooltip": "Texto que se mostrará",
@@ -146,7 +147,7 @@
 	"wikieditor-toolbar-tool-replace-nomatch": "Tu búsqueda no halló resultados.",
 	"wikieditor-toolbar-tool-replace-success": "Se {{PLURAL:$1|realizó|realizaron}} $1 {{PLURAL:$1|reemplazo|reemplazos}}.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "No ingresaste nada para buscar.",
-	"wikieditor-toolbar-tool-replace-invalidregex": "La expresión regular que has introducido es inválida: $1",
+	"wikieditor-toolbar-tool-replace-invalidregex": "La expresión regular que has introducido no es válida: $1",
 	"wikieditor-toolbar-tool-replace-word": "Comparar la palabra completa",
 	"wikieditor-toolbar-section-characters": "Caracteres especiales",
 	"wikieditor-toolbar-section-help": "Ayuda",
