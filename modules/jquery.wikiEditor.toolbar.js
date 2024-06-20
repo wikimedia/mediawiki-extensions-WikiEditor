@@ -230,7 +230,7 @@ var toolbarModule = {
 					}
 					context.$textarea.textSelection(
 						'encapsulateSelection',
-						$.extend( {}, action.options, parts, { replace: replace } )
+						Object.assign( {}, action.options, parts, { replace: replace } )
 					);
 					break;
 				case 'callback':

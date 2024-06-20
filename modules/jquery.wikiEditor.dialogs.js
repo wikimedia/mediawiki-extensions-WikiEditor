@@ -137,7 +137,7 @@ var dialogsModule = {
 		$( '<div>' )
 			.text( body )
 			.appendTo( document.body )
-			.dialog( $.extend( {
+			.dialog( Object.assign( {
 				bgiframe: true,
 				modal: true
 			}, settings ) )

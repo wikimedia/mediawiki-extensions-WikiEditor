@@ -257,10 +257,10 @@ module.exports = {
 					},
 					open: function () {
 						// Obtain the server name without the protocol. wgServer may be protocol-relative
-						// eslint-disable-next-line security/detect-unsafe-regex
+
 						var serverName = mw.config.get( 'wgServer' ).replace( /^(https?:)?\/\//, '' );
 						// Cache the articlepath regex
-						// eslint-disable-next-line security/detect-non-literal-regexp
+
 						$( this ).data( 'articlePathRegex', new RegExp(
 							'^https?://' + mw.util.escapeRegExp( serverName + mw.config.get( 'wgArticlePath' ) )
 								.replace( /\\\$1/g, '(.*)' ) + '$'
@@ -555,7 +555,7 @@ module.exports = {
 
 						// Pre-fill the text fields based on the current selection
 						if ( selection !== '' ) {
-							fileData = $.extend( fileData, parseFileSyntax( selection ) );
+							fileData = Object.assign( fileData, parseFileSyntax( selection ) );
 						}
 
 						// Initialize the form fields
