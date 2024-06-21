@@ -19,7 +19,6 @@ use MediaWiki\Config\Config;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\EditPage\EditPage;
 use MediaWiki\Extension\ConfirmEdit\Hooks as ConfirmEditHooks;
-use MediaWiki\Extension\DiscussionTools\Hooks as DiscussionToolsHooks;
 use MediaWiki\Extension\EventLogging\EventLogging;
 use MediaWiki\Hook\EditPage__attemptSave_afterHook;
 use MediaWiki\Hook\EditPage__attemptSaveHook;
@@ -165,13 +164,6 @@ class Hooks implements
 			'wiki' => WikiMap::getCurrentWikiId(),
 		] + $data;
 
-		$bucket = ExtensionRegistry::getInstance()->isLoaded( 'DiscussionTools' ) ?
-			// @phan-suppress-next-line PhanUndeclaredClassMethod
-			DiscussionToolsHooks\HookUtils::determineUserABTestBucket( $user ) : false;
-		if ( $bucket ) {
-			$data['bucket'] = $bucket;
-		}
-
 		if ( $user->isAnon() ) {
 			$data['user_class'] = 'IP';
 		}
@@ -230,13 +222,6 @@ class Hooks implements
 			'user_is_temp' => $user->isTemp(),
 			'user_editcount' => $editCount ?: 0,
 		];
-
-		$bucket = ExtensionRegistry::getInstance()->isLoaded( 'DiscussionTools' ) ?
-			// @phan-suppress-next-line PhanUndeclaredClassMethod
-			DiscussionToolsHooks\HookUtils::determineUserABTestBucket( $user ) : false;
-		if ( $bucket ) {
-			$data['bucket'] = $bucket;
-		}
 
 		// NOTE: The 'VisualEditorFeatureUse' event was migrated to the Event Platform and is no
 		//  longer using the legacy EventLogging schema from metawiki. $revId is actually
