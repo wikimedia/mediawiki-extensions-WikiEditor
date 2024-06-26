@@ -399,7 +399,7 @@ var toolbarModule = {
 						}
 					}
 					$select.append( $( '<a>' )
-						.addClass( 'label' )
+						.addClass( 'label skin-invert' )
 						.text( label )
 						.data( 'options', $options )
 						.attr( { role: 'button', tabindex: 0, 'aria-expanded': false, 'aria-controls': menuId, 'aria-haspopup': 'menu' } )
@@ -612,6 +612,7 @@ var toolbarModule = {
 			var $link =
 				$( '<a>' )
 					.addClass( selected === id ? 'current' : null )
+					.addClass( 'skin-invert' )
 					.attr( {
 						tabindex: 0,
 						role: 'button',
