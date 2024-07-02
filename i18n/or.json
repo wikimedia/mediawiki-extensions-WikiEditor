@@ -108,7 +108,7 @@
 	"wikieditor-toolbar-tool-replace-button-replaceall": "ସବୁ ବଦଳାଇବେ",
 	"wikieditor-toolbar-tool-replace-close": "ବନ୍ଦ କରିବେ",
 	"wikieditor-toolbar-tool-replace-nomatch": "ଆପଣଙ୍କ ଖୋଜା କାହା ସଙ୍ଗେ ମେଳ ହେଲାନାହିଁ ।",
-	"wikieditor-toolbar-tool-replace-success": "$1 {{PLURAL:$1|ପ୍ରତିବଦଳ|ପ୍ରତିବଦଳମାନ}} କରାଗଲା ।",
+	"wikieditor-toolbar-tool-replace-success": "$1ଟି {{PLURAL:$1|ପ୍ରତିବଦଳ|ପ୍ରତିବଦଳ}} କରାଗଲା ।",
 	"wikieditor-toolbar-tool-replace-emptysearch": "ଆପଣ କିଛି ଖୋଜିନାହାଁନ୍ତି ।",
 	"wikieditor-toolbar-tool-replace-invalidregex": "ଆପଣ ଦେଇଥିବା ରେଗୁଲାର ଏକ୍ସ‌ପ୍ରେସନ‌ଟି ଭୁଲ: $1",
 	"wikieditor-toolbar-section-characters": "ବିଶେଷ ସଙ୍କେତ",
