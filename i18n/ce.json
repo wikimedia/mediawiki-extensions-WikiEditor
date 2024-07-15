@@ -123,7 +123,7 @@
 	"wikieditor-toolbar-tool-replace-button-replace": "Хийца",
 	"wikieditor-toolbar-tool-replace-button-replaceall": "Дерриге хийца",
 	"wikieditor-toolbar-tool-replace-close": "ДӀачӀагӀа",
-	"wikieditor-toolbar-tool-replace-nomatch": "Хьан дехарца хlумма ца карийна.",
+	"wikieditor-toolbar-tool-replace-nomatch": "Ахьа лехнарг ца карийна.",
 	"wikieditor-toolbar-tool-replace-success": "$1 {{PLURAL:$1|балийна хийцам}}.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "Ахьа ца гайтна хlу лаха деза.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "Ахьа йазйина цӀе нийса йац: $1",
