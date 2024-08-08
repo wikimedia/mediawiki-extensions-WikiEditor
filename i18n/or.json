@@ -111,6 +111,7 @@
 	"wikieditor-toolbar-tool-replace-success": "$1ଟି {{PLURAL:$1|ପ୍ରତିବଦଳ|ପ୍ରତିବଦଳ}} କରାଗଲା ।",
 	"wikieditor-toolbar-tool-replace-emptysearch": "ଆପଣ କିଛି ଖୋଜିନାହାଁନ୍ତି ।",
 	"wikieditor-toolbar-tool-replace-invalidregex": "ଆପଣ ଦେଇଥିବା ରେଗୁଲାର ଏକ୍ସ‌ପ୍ରେସନ‌ଟି ଭୁଲ: $1",
+	"wikieditor-toolbar-tool-replace-word": "ପୂରା ଶବ୍ଦ ମେଳକରନ୍ତୁ",
 	"wikieditor-toolbar-section-characters": "ବିଶେଷ ସଙ୍କେତ",
 	"wikieditor-toolbar-section-help": "ସହଯୋଗ (Help)",
 	"wikieditor-toolbar-help-heading-description": "ବିବରଣ",
