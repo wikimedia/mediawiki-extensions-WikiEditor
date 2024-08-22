@@ -166,5 +166,6 @@
 	"tag-wikieditor-description": "แก้ไขที่ทำโดยใช้[[mw:Special:MyLanguage/Extension:WikiEditor|ตัวแก้ไขข้อความวิกิ]] (ตัวแก้ไขข้อความวิกิปี 2553)",
 	"wikieditor-realtimepreview-preview": "แสดงตัวอย่าง",
 	"wikieditor-realtimepreview-error": "แสดงตัวอย่างไม่โหลด",
-	"wikieditor-realtimepreview-reload": "โหลดใหม่"
+	"wikieditor-realtimepreview-reload": "โหลดใหม่",
+	"wikieditor-realtimepreview-manual": "โปรดโหลดซ้ำตอนนี้เพื่อดูตัวอย่างการแก้ไขของคุณด้วยตนเอง"
 }
