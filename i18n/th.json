@@ -196,7 +196,7 @@
 	"wikieditor-toolbar-help-content-indent-description": "ย่อหน้า",
 	"wikieditor-toolbar-help-content-indent-syntax": "บรรทัดปกติ<br />:บรรทัดย่อหน้า<br />::บรรทัดย่อหน้า",
 	"wikieditor-toolbar-help-content-indent-result": "บรรทัดปกติ<dl><dd>บรรทัดย่อหน้า<dl><dd>บรรทัดย่อหน้า</dd></dl></dd></dl>",
-	"tag-wikieditor-description": "แก้ไขที่ทำโดยใช้[[mw:Special:MyLanguage/Extension:WikiEditor|ตัวแก้ไขข้อความวิกิ]] (ตัวแก้ไขข้อความวิกิปี 2553)",
+	"tag-wikieditor-description": "การแก้ไขที่ทำโดยใช้[[mw:Special:MyLanguage/Extension:WikiEditor|ตัวแก้ไขข้อความวิกิ]] (ตัวแก้ไขข้อความวิกิปี 2553)",
 	"wikieditor-realtimepreview-preview": "แสดงตัวอย่าง",
 	"wikieditor-realtimepreview-error": "แสดงตัวอย่างไม่โหลด",
 	"wikieditor-realtimepreview-reload": "โหลดใหม่",
