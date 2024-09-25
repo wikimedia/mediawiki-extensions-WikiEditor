@@ -108,7 +108,7 @@
 	"wikieditor-toolbar-tool-replace-button-replaceall": "Zaměniti vse",
 	"wikieditor-toolbar-tool-replace-close": "Zatvoriti",
 	"wikieditor-toolbar-tool-replace-nomatch": "Ničto odpovědajuče vašemu zapytu ne najdeno.",
-	"wikieditor-toolbar-tool-replace-success": "{{PLURAL:$1|Sdělano $1 zaměnu|Sdělanyh $1 zaměn}}.",
+	"wikieditor-toolbar-tool-replace-success": "{{PLURAL:$1|Sdělano $1 zaměnu|Sdělane $1 zaměny|Sdělanyh $1 zaměn}}.",
 	"wikieditor-toolbar-tool-replace-emptysearch": "Vy ne vvedli jeste ničto za poiskanje.",
 	"wikieditor-toolbar-tool-replace-invalidregex": "Vvedeny vami regularny izraz jest nepravilny: $1",
 	"wikieditor-toolbar-tool-replace-word": "Samo cělo slovo",

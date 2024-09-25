@@ -128,5 +128,6 @@
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Cuntuh.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Tandatangan lawan waktu",
 	"wikieditor-toolbar-help-content-signature-description": "Tandatangan",
-	"wikieditor-toolbar-help-content-indent-description": "Inden"
+	"wikieditor-toolbar-help-content-indent-description": "Inden",
+	"tag-wikieditor-description": "Babakan diulah mamakai [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (éditor naskah wiki 2010)"
 }
