@@ -359,6 +359,9 @@ var toolbarModule = {
 								}
 							} );
 						}
+						if ( 'hotkey' in tool ) {
+							toolbarModule.fn.ctrlShortcuts[ tool.hotkey ] = tool;
+						}
 					}
 					return $button;
 				case 'select':
@@ -785,6 +788,23 @@ var toolbarModule = {
 				context.$textarea.trigger( 'wikiEditor-toolbar-doneInitialSections' );
 				// Use hook for attaching new toolbar tools to avoid race conditions
 				mw.hook( 'wikiEditor.toolbarReady' ).fire( context.$textarea );
+			} );
+			toolbarModule.fn.setupShortcuts( context );
+		},
+		ctrlShortcuts: {},
+		setupShortcuts: function ( context ) {
+			var platform = $.client.profile().platform;
+			var platformModifier = platform === 'mac' ? 'metaKey' : 'ctrlKey';
+			var otherModifier = platform === 'mac' ? 'ctrlKey' : 'metaKey';
+
+			context.$textarea.on( 'keydown', function ( e ) {
+				// Check if the primary modifier key is pressed and that others aren't
+				var target = e[ platformModifier ] && !e[ otherModifier ] && !e.altKey && !e.shiftKey &&
+					toolbarModule.fn.ctrlShortcuts[ e.which ];
+				if ( target ) {
+					e.preventDefault();
+					toolbarModule.fn.doAction( context, target.action );
+				}
 			} );
 		},
 		handleKeyDown: function ( $element, event, $parent ) {

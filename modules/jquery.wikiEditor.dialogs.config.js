@@ -42,7 +42,8 @@ module.exports = {
 						action: {
 							type: 'dialog',
 							module: 'insert-link'
-						}
+						},
+						hotkey: 75 // K
 					},
 					file: {
 						label: mw.msg( 'wikieditor-toolbar-tool-file' ),
