@@ -246,6 +246,7 @@
 			],
 			"dependencies": [
 				"mediawiki.cookie",
+				"jquery.client",
 				"jquery.textSelection",
 				"jquery.ui",
 				"mediawiki.api",
