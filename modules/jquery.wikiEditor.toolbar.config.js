@@ -45,8 +45,7 @@ toolbarConfig = {
 									peri: mw.msg( 'wikieditor-toolbar-tool-bold-example' ),
 									post: "'''"
 								}
-							},
-							hotkey: 'KeyB'
+							}
 						},
 						italic: {
 							section: 'main',
@@ -62,8 +61,7 @@ toolbarConfig = {
 									peri: mw.msg( 'wikieditor-toolbar-tool-italic-example' ),
 									post: "''"
 								}
-							},
-							hotkey: 'KeyI'
+							}
 						}
 					}
 				},
@@ -208,8 +206,7 @@ toolbarConfig = {
 									peri: mw.msg( 'wikieditor-toolbar-tool-nowiki-example' ),
 									post: '</nowiki>'
 								}
-							},
-							hotkey: 'Backslash'
+							}
 						},
 						newline: {
 							label: mw.msg( 'wikieditor-toolbar-tool-newline' ),
@@ -263,8 +260,7 @@ toolbarConfig = {
 									peri: mw.msg( 'wikieditor-toolbar-tool-superscript-example' ),
 									post: '</sup>'
 								}
-							},
-							hotkey: 'Period'
+							}
 						},
 						subscript: {
 							label: mw.msg( 'wikieditor-toolbar-tool-subscript' ),
@@ -277,8 +273,7 @@ toolbarConfig = {
 									peri: mw.msg( 'wikieditor-toolbar-tool-subscript-example' ),
 									post: '</sub>'
 								}
-							},
-							hotkey: 'Comma'
+							}
 						}
 					}
 				},
