@@ -15,7 +15,9 @@
 			"Saederup92",
 			"Sarrus",
 			"Sir48",
-			"Weblars"
+			"Weblars",
+			"Jon Harald Søby",
+			"Steenth"
 		]
 	},
 	"wikieditor": "Avanceret interface til redigering af wikitekst",
@@ -59,6 +61,8 @@
 	"wikieditor-toolbar-tool-file-title": "Indsæt fil",
 	"wikieditor-toolbar-file-target": "Filnavn:",
 	"wikieditor-toolbar-file-caption": "Billedtekst:",
+	"wikieditor-toolbar-file-alt": "Alternativ tekst:",
+	"wikieditor-toolbar-file-alt-help": "Du kan bruge dette valgfrie felt til at skrive en tekstbeskrivelse til personer, der ikke kan se filen.\nBeskrivelsen bør være nok til, at de forstår formålet og informationen fra medieelementet. Dette er afgørende for blinde brugere og andre mennesker, der bruger skærmlæsersoftware eller browsere, der kun bruger tekst.",
 	"wikieditor-toolbar-file-alt-help-label": "(Vis hjælp)",
 	"wikieditor-toolbar-file-size": "Størrelse:",
 	"wikieditor-toolbar-file-float": "Justering:",
@@ -202,10 +206,13 @@
 	"wikieditor-toolbar-help-content-indent-description": "Indrykning",
 	"wikieditor-toolbar-help-content-indent-syntax": "Normal tekst<br />:Indrykket tekst<br />::Indrykket tekst",
 	"wikieditor-toolbar-help-content-indent-result": "Normal tekst<dl><dd>Indrykket tekst<dl><dd>Indrykket tekst</dd></dl></dd></dl>",
+	"tag-wikieditor-description": "Redigering foretaget ved hjælp af [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (2010 wikitext editor)",
 	"wikieditor-realtimepreview-preview": "Forhåndsvisning",
+	"wikieditor-realtimepreview-error": "Forhåndsvisningen indlæses ikke",
 	"wikieditor-realtimepreview-reload": "Genindlæs",
 	"wikieditor-realtimepreview-beta-label": "Forhåndsvisning i realtid",
 	"wikieditor-realtimepreview-reload-title": "Genindlæs ruden med forhåndsvisning i realtid",
+	"wikieditor-realtimepreview-manual": "Genindlæs nu for at få vist dine redigeringer manuelt.",
 	"wikieditor-realtimepreview-onboarding-body": "Se hvordan dine redigeringer vil se ud for læserne ved at bruge forhåndsvisning i realtid.",
 	"wikieditor-realtimepreview-onboarding-button": "OK, modtaget"
 }
