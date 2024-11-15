@@ -3,7 +3,7 @@
  *
  * @private
  */
-var configData = require( './data.json' ),
+let configData = require( './data.json' ),
 	fileNamespace = mw.config.get( 'wgFormattedNamespaces' )[ 6 ],
 	specialCharacterGroups = require( 'mediawiki.language.specialCharacters' ),
 	toolbarConfig;
@@ -18,7 +18,7 @@ var configData = require( './data.json' ),
  */
 function delink( $message ) {
 	// dummy div to append the message to
-	var $div = $( '<div>' );
+	const $div = $( '<div>' );
 
 	$div.append( $message );
 	$div.find( 'a' ).attr( 'href', '#' );

@@ -1,6 +1,6 @@
 QUnit.module( 'ext.wikiEditor.toolbar', ( hooks ) => {
 	hooks.beforeEach( function () {
-		var $target = $( '<textarea>' )
+		const $target = $( '<textarea>' )
 			.attr( 'id', 'wpTextBox1' )
 			.appendTo( '#qunit-fixture' );
 		this.$target = $target;
@@ -10,7 +10,7 @@ QUnit.module( 'ext.wikiEditor.toolbar', ( hooks ) => {
 
 	QUnit.test( 'Toolbars', function ( assert ) {
 		// Add toolbar section
-		var data = {
+		let data = {
 			sections: {
 				emoticons: {
 					type: 'toolbar',
@@ -141,7 +141,7 @@ QUnit.module( 'ext.wikiEditor.toolbar', ( hooks ) => {
 
 	QUnit.test( 'Booklets', function ( assert ) {
 		// Add booklet section
-		var data = {
+		let data = {
 			sections: {
 				info: {
 					type: 'booklet',

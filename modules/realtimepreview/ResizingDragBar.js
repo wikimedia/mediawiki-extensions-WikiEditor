@@ -12,15 +12,15 @@ function ResizingDragBar( config ) {
 	}, config );
 	ResizingDragBar.super.call( this, config );
 
-	var classNameDir = 'ext-WikiEditor-ResizingDragBar-' + ( config.isEW ? 'ew' : 'ns' );
+	const classNameDir = 'ext-WikiEditor-ResizingDragBar-' + ( config.isEW ? 'ew' : 'ns' );
 	// Possible class names:
 	// * ext-WikiEditor-ResizingDragBar-ew
 	// * ext-WikiEditor-ResizingDragBar-ns
 	this.$element.addClass( classNameDir );
 
-	var resizingDragBar = this;
+	const resizingDragBar = this;
 	// Determine the horizontal direction to move (flexbox automatically reverses but the offset direction doesn't).
-	var rtlFactor = config.isEW && OO.ui.Element.static.getDir( document ) === 'rtl' ? -1 : 1;
+	const rtlFactor = config.isEW && OO.ui.Element.static.getDir( document ) === 'rtl' ? -1 : 1;
 	this.$element.on( 'mousedown', ( eventMousedown ) => {
 		if ( eventMousedown.button !== ResizingDragBar.static.MAIN_MOUSE_BUTTON ) {
 			// If not the main mouse (e.g. left) button, ignore.
@@ -29,19 +29,19 @@ function ResizingDragBar( config ) {
 		// Prevent selecting (or anything else) when dragging over other parts of the page.
 		$( document ).on( 'selectstart.' + classNameDir, false );
 		// Set up parameter names.
-		var xOrY = config.isEW ? 'pageX' : 'pageY';
-		var widthOrHeight = config.isEW ? 'width' : 'height';
-		var lastOffset = eventMousedown[ xOrY ];
+		const xOrY = config.isEW ? 'pageX' : 'pageY';
+		const widthOrHeight = config.isEW ? 'width' : 'height';
+		let lastOffset = eventMousedown[ xOrY ];
 		// Handle the actual dragging.
 		$( document ).on( 'mousemove.' + classNameDir, ( eventMousemove ) => {
 			// Initial width or height of the pane.
-			var startSize = resizingDragBar.getResizedPane()[ widthOrHeight ]();
+			const startSize = resizingDragBar.getResizedPane()[ widthOrHeight ]();
 			// Current position of the mouse (relative to page, not viewport).
-			var newOffset = eventMousemove[ xOrY ];
+			const newOffset = eventMousemove[ xOrY ];
 			// Distance the mouse has moved.
-			var change = rtlFactor * ( lastOffset - newOffset );
+			const change = rtlFactor * ( lastOffset - newOffset );
 			// Set the new size of the pane, and tell others about it.
-			var newSize = Math.max( startSize - change, ResizingDragBar.static.MIN_PANE_SIZE );
+			const newSize = Math.max( startSize - change, ResizingDragBar.static.MIN_PANE_SIZE );
 			resizingDragBar.getResizedPane().css( widthOrHeight, newSize );
 			// Save the new starting point of the mouse, from which to calculate the next move.
 			lastOffset = newOffset;
