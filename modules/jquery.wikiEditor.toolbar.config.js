@@ -3,10 +3,9 @@
  *
  * @private
  */
-let configData = require( './data.json' ),
+const configData = require( './data.json' ),
 	fileNamespace = mw.config.get( 'wgFormattedNamespaces' )[ 6 ],
-	specialCharacterGroups = require( 'mediawiki.language.specialCharacters' ),
-	toolbarConfig;
+	specialCharacterGroups = require( 'mediawiki.language.specialCharacters' );
 
 /**
  * Replace link targets from example messages with hash
@@ -26,7 +25,7 @@ function delink( $message ) {
 	return $div.html();
 }
 
-toolbarConfig = {
+const toolbarConfig = {
 	toolbar: {
 		// Main section
 		main: {

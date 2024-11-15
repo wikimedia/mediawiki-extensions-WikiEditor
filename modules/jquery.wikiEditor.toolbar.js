@@ -13,7 +13,6 @@ const toolbarModule = {
 		addToToolbar: function ( context, data ) {
 
 			for ( const type in data ) {
-				let i;
 				switch ( type ) {
 					case 'sections': {
 						const $sections = context.modules.toolbar.$toolbar.find( 'div.sections' );
@@ -98,7 +97,7 @@ const toolbarModule = {
 							'div[rel="' + data.section + '"].section ' +
 							'div[rel="' + data.page + '"].page table'
 						);
-						for ( i = 0; i < data.rows.length; i++ ) {
+						for ( let i = 0; i < data.rows.length; i++ ) {
 							// Row
 							$table.append( toolbarModule.fn.buildRow( context, data.rows[ i ] ) );
 						}
@@ -113,7 +112,7 @@ const toolbarModule = {
 							'div[rel="' + data.page + '"].page div'
 						);
 						const actions = $characters.data( 'actions' );
-						for ( i = 0; i < data.characters.length; i++ ) {
+						for ( let i = 0; i < data.characters.length; i++ ) {
 							// Character
 							$characters.append(
 								$( toolbarModule.fn.buildCharacter( data.characters[ i ], actions ) )
@@ -502,7 +501,6 @@ const toolbarModule = {
 			return $page;
 		},
 		reallyBuildPage: function ( context, id, page, $page ) {
-			let i;
 			switch ( page.layout ) {
 				case 'table': {
 					$page.addClass( 'page-table' );
@@ -511,7 +509,7 @@ const toolbarModule = {
 						html += toolbarModule.fn.buildHeading( context, page.headings );
 					}
 					if ( 'rows' in page ) {
-						for ( i = 0; i < page.rows.length; i++ ) {
+						for ( let i = 0; i < page.rows.length; i++ ) {
 							html += toolbarModule.fn.buildRow( context, page.rows[ i ] );
 						}
 					}
@@ -535,7 +533,7 @@ const toolbarModule = {
 					}
 					if ( 'characters' in page ) {
 						let html = '';
-						for ( i = 0; i < page.characters.length; i++ ) {
+						for ( let i = 0; i < page.characters.length; i++ ) {
 							html += toolbarModule.fn.buildCharacter( page.characters[ i ], actions );
 						}
 						$characters
@@ -769,8 +767,8 @@ const toolbarModule = {
 			}
 		},
 		updateBookletSelection: function ( context, id, $pages, $index ) {
-			let cookie = 'wikiEditor-' + context.instance + '-booklet-' + id + '-page',
-				selected = $.cookie( cookie );
+			const cookie = 'wikiEditor-' + context.instance + '-booklet-' + id + '-page';
+			let selected = $.cookie( cookie );
 			// Re-save cookie
 			if ( selected !== null ) {
 				$.cookie( cookie, selected, { expires: 30, path: '/' } );

@@ -476,7 +476,7 @@ module.exports = {
 						}
 					},
 					open: function () {
-						let magicWordsI18N = configData.magicWords,
+						const magicWordsI18N = configData.magicWords,
 							fileData = {
 								pre: '',
 								post: '',
@@ -550,7 +550,7 @@ module.exports = {
 
 						// Pre-fill the text fields based on the current selection
 						if ( selection !== '' ) {
-							fileData = Object.assign( fileData, parseFileSyntax( selection ) );
+							Object.assign( fileData, parseFileSyntax( selection ) );
 						}
 
 						// Initialize the form fields
@@ -831,7 +831,6 @@ module.exports = {
 							$( this ).data( 'offset', 0 );
 						} else {
 
-							let start, end;
 							if ( mode === 'replace' ) {
 
 								let actualReplacement;
@@ -871,8 +870,8 @@ module.exports = {
 									match = { index: 0, 0: { length: 0 } };
 								}
 							}
-							start = offset + match.index;
-							end = start + match[ 0 ].length;
+							const start = offset + match.index;
+							const end = start + match[ 0 ].length;
 
 							$( this ).data( 'matchIndex', start );
 
