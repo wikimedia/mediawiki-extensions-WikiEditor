@@ -90,7 +90,6 @@
 				"dialogReplace.html": "templates/dialogReplace.html"
 			},
 			"messages": [
-				"wikieditor-wikitext-tab",
 				"wikieditor-toolbar-tool-bold",
 				"wikieditor-toolbar-tool-bold-example",
 				"wikieditor-toolbar-tool-italic",

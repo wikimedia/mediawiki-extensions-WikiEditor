@@ -6,7 +6,6 @@
 	},
 	"wikieditor": "Advanced wikitext editing interface",
 	"wikieditor-desc": "Provides an advanced, extensible wikitext editing interface",
-	"wikieditor-wikitext-tab": "Wikitext",
 	"wikieditor-toolbar": "Editing toolbar",
 	"wikieditor-toolbar-desc": "Edit page toolbar with enhanced usability",
 	"wikieditor-toolbar-preference": "Enable the editing toolbar",
