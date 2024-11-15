@@ -465,11 +465,12 @@ module.exports = {
 								windowManager.addWindows( [ uploadDialog ] );
 								windowManager.openWindow( uploadDialog );
 
-								uploadDialog.uploadBooklet.on( 'fileSaved', function ( imageInfo ) {
+								uploadDialog.uploadBooklet.on( 'fileSaved', ( imageInfo ) => {
 									uploadDialog.close();
 									windowManager.$element.remove();
 
-									$.wikiEditor.modules.dialogs.api.openDialog( this, 'insert-file' );
+									const context = $( this ).data( 'context' );
+									$.wikiEditor.modules.dialogs.api.openDialog( context, 'insert-file' );
 									$( '#wikieditor-toolbar-file-target' ).val( imageInfo.canonicaltitle );
 								} );
 							} );
