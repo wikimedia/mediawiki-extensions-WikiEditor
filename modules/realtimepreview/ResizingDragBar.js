@@ -18,7 +18,6 @@ function ResizingDragBar( config ) {
 	// * ext-WikiEditor-ResizingDragBar-ns
 	this.$element.addClass( classNameDir );
 
-	const resizingDragBar = this;
 	// Determine the horizontal direction to move (flexbox automatically reverses but the offset direction doesn't).
 	const rtlFactor = config.isEW && OO.ui.Element.static.getDir( document ) === 'rtl' ? -1 : 1;
 	this.$element.on( 'mousedown', ( eventMousedown ) => {
@@ -35,18 +34,18 @@ function ResizingDragBar( config ) {
 		// Handle the actual dragging.
 		$( document ).on( 'mousemove.' + classNameDir, ( eventMousemove ) => {
 			// Initial width or height of the pane.
-			const startSize = resizingDragBar.getResizedPane()[ widthOrHeight ]();
+			const startSize = this.getResizedPane()[ widthOrHeight ]();
 			// Current position of the mouse (relative to page, not viewport).
 			const newOffset = eventMousemove[ xOrY ];
 			// Distance the mouse has moved.
 			const change = rtlFactor * ( lastOffset - newOffset );
 			// Set the new size of the pane, and tell others about it.
 			const newSize = Math.max( startSize - change, ResizingDragBar.static.MIN_PANE_SIZE );
-			resizingDragBar.getResizedPane().css( widthOrHeight, newSize );
+			this.getResizedPane().css( widthOrHeight, newSize );
 			// Save the new starting point of the mouse, from which to calculate the next move.
 			lastOffset = newOffset;
 			// Let other scripts do things after the resize.
-			mw.hook( 'ext.WikiEditor.realtimepreview.resize' ).fire( resizingDragBar );
+			mw.hook( 'ext.WikiEditor.realtimepreview.resize' ).fire( this );
 		} );
 	} );
 	// Add a UI affordance within the handle area (CSS gives it its appearance).
