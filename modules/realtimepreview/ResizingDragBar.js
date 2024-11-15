@@ -21,7 +21,7 @@ function ResizingDragBar( config ) {
 	var resizingDragBar = this;
 	// Determine the horizontal direction to move (flexbox automatically reverses but the offset direction doesn't).
 	var rtlFactor = config.isEW && OO.ui.Element.static.getDir( document ) === 'rtl' ? -1 : 1;
-	this.$element.on( 'mousedown', function ( eventMousedown ) {
+	this.$element.on( 'mousedown', ( eventMousedown ) => {
 		if ( eventMousedown.button !== ResizingDragBar.static.MAIN_MOUSE_BUTTON ) {
 			// If not the main mouse (e.g. left) button, ignore.
 			return;
@@ -33,7 +33,7 @@ function ResizingDragBar( config ) {
 		var widthOrHeight = config.isEW ? 'width' : 'height';
 		var lastOffset = eventMousedown[ xOrY ];
 		// Handle the actual dragging.
-		$( document ).on( 'mousemove.' + classNameDir, function ( eventMousemove ) {
+		$( document ).on( 'mousemove.' + classNameDir, ( eventMousemove ) => {
 			// Initial width or height of the pane.
 			var startSize = resizingDragBar.getResizedPane()[ widthOrHeight ]();
 			// Current position of the mouse (relative to page, not viewport).
@@ -52,7 +52,7 @@ function ResizingDragBar( config ) {
 	// Add a UI affordance within the handle area (CSS gives it its appearance).
 	this.$element.append( $( '<span>' ) );
 	// Remove the resize event handler when the mouse is released.
-	$( document ).on( 'mouseup', function () {
+	$( document ).on( 'mouseup', () => {
 		$( document ).off( 'mousemove.' + classNameDir );
 		$( document ).off( 'selectstart.' + classNameDir, false );
 	} );

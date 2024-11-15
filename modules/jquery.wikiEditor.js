@@ -423,10 +423,8 @@ $.fn.wikiEditor = function () {
 						.addClass( context.view === opts.name ? 'current' : null )
 						.append( $( '<a>' )
 							.attr( 'tabindex', 0 )
-							.on( 'mousedown', function () {
-								// No dragging!
-								return false;
-							} )
+							// No dragging!
+							.on( 'mousedown', () => false )
 							.on( 'click keydown', function ( event ) {
 								if (
 									event.type === 'click' ||
@@ -539,7 +537,7 @@ $.fn.wikiEditor = function () {
 		// Setup the initial view
 		context.view = 'wikitext';
 		// Trigger the "resize" event anytime the window is resized
-		$( window ).on( 'resize', function ( event ) {
+		$( window ).on( 'resize', ( event ) => {
 			context.fn.trigger( 'resize', event );
 		} );
 	}

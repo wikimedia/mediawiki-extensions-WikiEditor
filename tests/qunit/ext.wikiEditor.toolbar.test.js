@@ -1,4 +1,4 @@
-QUnit.module( 'ext.wikiEditor.toolbar', function ( hooks ) {
+QUnit.module( 'ext.wikiEditor.toolbar', ( hooks ) => {
 	hooks.beforeEach( function () {
 		var $target = $( '<textarea>' )
 			.attr( 'id', 'wpTextBox1' )

@@ -121,7 +121,7 @@ var dialogsModule = {
 				.each( module.init )
 				.dialog( configuration );
 
-			$dialogDiv.on( 'dialogclose', function () {
+			$dialogDiv.on( 'dialogclose', () => {
 				context.fn.restoreSelection();
 			} );
 

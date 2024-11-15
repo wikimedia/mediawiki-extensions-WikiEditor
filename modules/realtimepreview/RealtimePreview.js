@@ -228,12 +228,12 @@ RealtimePreview.prototype.toggle = function ( saveUserPref ) {
  */
 RealtimePreview.prototype.getEventHandler = function () {
 	return mw.util.debounce(
-		function () {
+		() => {
 			// Only do preview if we're not in manual mode (as set in this.checkResponseTimes()).
 			if ( !this.inManualMode ) {
 				this.doRealtimePreview();
 			}
-		}.bind( this ),
+		},
 		this.configData.realtimeDebounce
 	);
 };
@@ -301,9 +301,7 @@ RealtimePreview.prototype.checkResponseTimes = function ( time ) {
 		return;
 	}
 
-	var totalResponseTime = this.responseTimes.reduce( function ( a, b ) {
-		return a + b;
-	}, 0 );
+	var totalResponseTime = this.responseTimes.reduce( ( a, b ) => a + b, 0 );
 
 	if ( ( totalResponseTime / this.responseTimes.length ) > this.configData.realtimeDisableDuration ) {
 		this.inManualMode = true;
@@ -344,9 +342,7 @@ RealtimePreview.prototype.doRealtimePreview = function ( forceUpdate ) {
 	var loadingSelectors = this.pagePreview.getLoadingSelectors()
 		// config.$previewNode below is a clone of #wikiPreview with a different selector!
 		// config.$diffNode defaults to #wikiDiff but is disabled below and never updated.
-		.filter( function ( selector ) {
-			return selector.indexOf( '#wiki' ) !== 0;
-		} );
+		.filter( ( selector ) => selector.indexOf( '#wiki' ) !== 0 );
 	loadingSelectors.push( '.ext-WikiEditor-realtimepreview-preview' );
 	loadingSelectors.push( '.ext-WikiEditor-ManualWidget' );
 	loadingSelectors.push( '.ext-WikiEditor-realtimepreview-ErrorLayout' );
@@ -359,12 +355,12 @@ RealtimePreview.prototype.doRealtimePreview = function ( forceUpdate ) {
 		loadingSelectors: loadingSelectors,
 		// Don't hide the diff view, if visible.
 		$diffNode: null
-	} ).done( function () {
+	} ).done( () => {
 		this.errorLayout.toggle( false );
-	}.bind( this ) ).fail( function ( code, result ) {
+	} ).fail( ( code, result ) => {
 		this.showError( ( new mw.Api() ).getErrorMessage( result ) );
 		mw.log.error( 'WikiEditor realtime preview error', result );
-	}.bind( this ) ).always( function () {
+	} ).always( () => {
 		this.$loadingBar.hide();
 		this.reloadButton.setDisabled( false );
 		if ( !this.errorLayout.isVisible() ) {
@@ -382,7 +378,7 @@ RealtimePreview.prototype.doRealtimePreview = function ( forceUpdate ) {
 			this.doRealtimePreview();
 		}
 		mw.hook( 'ext.WikiEditor.realtimepreview.loaded' ).fire( this );
-	}.bind( this ) );
+	} );
 };
 
 module.exports = RealtimePreview;

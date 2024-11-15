@@ -111,7 +111,7 @@ var toolbarModule = {
 							// Character
 							$characters.append(
 								$( toolbarModule.fn.buildCharacter( data.characters[ i ], actions ) )
-									.on( 'mousedown', function ( e ) {
+									.on( 'mousedown', ( e ) => {
 										// No dragging!
 										e.preventDefault();
 										return false;
@@ -315,7 +315,7 @@ var toolbarModule = {
 							$button.css( 'background-image', 'url(' + icon + ')' );
 						}
 					}
-					$button.data( 'setActive', function ( active ) {
+					$button.data( 'setActive', ( active ) => {
 						$button.toggleClass( 'tool-active', active );
 
 						// OOUI button
@@ -324,7 +324,7 @@ var toolbarModule = {
 							// Use progressive icon in WMUI theme
 							if ( OO.ui.WikimediaUITheme && OO.ui.theme instanceof OO.ui.WikimediaUITheme ) {
 								// Wait for updateElementClasses to run
-								setTimeout( function () {
+								setTimeout( () => {
 									$button.data( 'ooui' ).$icon.toggleClass( 'oo-ui-image-progressive', active );
 								} );
 							}
@@ -334,19 +334,19 @@ var toolbarModule = {
 						$button
 							.data( 'action', tool.action )
 							.data( 'context', context )
-							.on( 'mousedown', function ( e ) {
+							.on( 'mousedown', ( e ) => {
 								// No dragging!
 								e.preventDefault();
 								return false;
 							} );
 						if ( $button.data( 'ooui' ) ) {
-							$button.data( 'ooui' ).on( 'click', function () {
+							$button.data( 'ooui' ).on( 'click', () => {
 								toolbarModule.fn.doAction(
 									context, tool.action
 								);
 							} );
 						} else {
-							$button.on( 'click keydown', function ( e ) {
+							$button.on( 'click keydown', ( e ) => {
 								if (
 									e.type === 'click' ||
 									e.type === 'keydown' && e.key === 'Enter'
@@ -376,7 +376,7 @@ var toolbarModule = {
 								$( '<a>' )
 									.data( 'action', tool.list[ option ].action )
 									.data( 'context', context )
-									.on( 'mousedown', function ( e ) {
+									.on( 'mousedown', ( e ) => {
 										// No dragging!
 										e.preventDefault();
 										return false;
@@ -406,7 +406,7 @@ var toolbarModule = {
 						.text( label )
 						.data( 'options', $options )
 						.attr( { role: 'button', tabindex: 0, 'aria-expanded': false, 'aria-controls': menuId, 'aria-haspopup': 'menu' } )
-						.on( 'mousedown', function ( e ) {
+						.on( 'mousedown', ( e ) => {
 							// No dragging!
 							e.preventDefault();
 							return false;
@@ -454,7 +454,7 @@ var toolbarModule = {
 					role: 'option'
 				} )
 				.data( 'context', context )
-				.on( 'mousedown', function ( e ) {
+				.on( 'mousedown', ( e ) => {
 					// No dragging!
 					e.preventDefault();
 					return false;
@@ -482,7 +482,7 @@ var toolbarModule = {
 				rel: id
 			} );
 			if ( deferLoad ) {
-				$page.one( 'loadPage', function () {
+				$page.one( 'loadPage', () => {
 					toolbarModule.fn.reallyBuildPage( context, id, page, $page );
 				} );
 			} else {
@@ -530,7 +530,7 @@ var toolbarModule = {
 							.html( html )
 							.children()
 							.attr( 'role', 'option' )
-							.on( 'mousedown', function ( e ) {
+							.on( 'mousedown', ( e ) => {
 								// No dragging!
 								e.preventDefault();
 								return false;
@@ -627,7 +627,7 @@ var toolbarModule = {
 					.on( 'mouseup', function () {
 						$( this ).trigger( 'blur' );
 					} )
-					.on( 'mousedown', function ( e ) {
+					.on( 'mousedown', ( e ) => {
 						// No dragging!
 						e.preventDefault();
 						return false;
@@ -642,7 +642,7 @@ var toolbarModule = {
 						// We have to set aria-pressed over here, as NVDA wont recognize it
 						// if we do it in the below .each as it seems
 						$( this ).attr( 'aria-pressed', 'true' );
-						$( '.tab > a' ).each( function ( i, elem ) {
+						$( '.tab > a' ).each( ( i, elem ) => {
 							if ( elem !== e.target ) {
 								$( elem ).attr( 'aria-pressed', 'false' );
 							}
@@ -723,7 +723,7 @@ var toolbarModule = {
 							tabindex: '0',
 							role: 'listbox'
 						} )
-						.on( 'keydown', function ( event ) {
+						.on( 'keydown', ( event ) => {
 							var $selected = $pages.children().filter( function () {
 								return $( this ).css( 'display' ) !== 'none';
 							} );
@@ -735,7 +735,7 @@ var toolbarModule = {
 							tabindex: '0',
 							role: 'listbox'
 						} )
-						.on( 'keydown', function ( event ) {
+						.on( 'keydown', ( event ) => {
 							$.wikiEditor.modules.toolbar.fn.handleKeyDown( $index, event, $index );
 						} );
 					if ( 'pages' in section ) {
@@ -784,7 +784,7 @@ var toolbarModule = {
 					$tabs.append( toolbarModule.fn.buildTab( context, section, config[ section ] ) );
 				}
 			}
-			setTimeout( function () {
+			setTimeout( () => {
 				context.$textarea.trigger( 'wikiEditor-toolbar-doneInitialSections' );
 				// Use hook for attaching new toolbar tools to avoid race conditions
 				mw.hook( 'wikiEditor.toolbarReady' ).fire( context.$textarea );
@@ -797,7 +797,7 @@ var toolbarModule = {
 			var platformModifier = platform === 'mac' ? 'metaKey' : 'ctrlKey';
 			var otherModifier = platform === 'mac' ? 'ctrlKey' : 'metaKey';
 
-			context.$textarea.on( 'keydown', function ( e ) {
+			context.$textarea.on( 'keydown', ( e ) => {
 				// Check if the primary modifier key is pressed and that others aren't
 				var target = e[ platformModifier ] && !e[ otherModifier ] && !e.altKey && !e.shiftKey &&
 					toolbarModule.fn.ctrlShortcuts[ e.which ];

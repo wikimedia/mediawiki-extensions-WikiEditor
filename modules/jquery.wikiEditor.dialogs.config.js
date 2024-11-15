@@ -372,9 +372,7 @@ module.exports = {
 					// Expandable help message for 'alt text' field
 					$( this ).find( '.wikieditor-toolbar-file-alt-help' ).text( altHelpLabel );
 					$( '.wikieditor-toolbar-file-alt-help' ).on( 'click', function () {
-						$( this ).text( function ( i, text ) {
-							return text === altHelpLabel ? altHelpText : altHelpLabel;
-						} );
+						$( this ).text( ( i, text ) => text === altHelpLabel ? altHelpText : altHelpLabel );
 					} );
 
 					// Preload modules of file upload dialog.
@@ -415,9 +413,7 @@ module.exports = {
 							}
 							var options = [ fileSize, fileFormat, fileFloat ];
 							// Filter empty values
-							options = options.filter( function ( val ) {
-								return val.length && val !== 'default';
-							} );
+							options = options.filter( ( val ) => val.length && val !== 'default' );
 							if ( fileAlt.length ) {
 								options.push( magicWordsI18N.img_alt[ 0 ].replace( '$1', fileAlt ) );
 							}
@@ -459,7 +455,7 @@ module.exports = {
 								'mediawiki.ForeignStructuredUpload.BookletLayout',
 								'mediawiki.Upload.Dialog',
 								'oojs-ui-windows'
-							] ).then( function () {
+							] ).then( () => {
 								var windowManager = new OO.ui.WindowManager(),
 									uploadDialog = new mw.Upload.Dialog( {
 										bookletClass: mw.ForeignStructuredUpload.BookletLayout
@@ -503,9 +499,7 @@ module.exports = {
 							}
 							// Escape pipes inside links and templates,
 							// then split the parameters at the remaining pipes
-							var params = match[ 2 ].replace( /\[\[[^[\]]*\]\]|\{\{[^{}]\}\}/g, function ( link ) {
-								return link.replace( /\|/g, escapedPipe );
-							} ).split( '|' );
+							var params = match[ 2 ].replace( /\[\[[^[\]]*\]\]|\{\{[^{}]\}\}/g, ( link ) => link.replace( /\|/g, escapedPipe ) ).split( '|' );
 							var file = mw.Title.newFromText( params[ 0 ] );
 							if ( !file || file.getNamespaceId() !== 6 ) {
 								return false;
@@ -604,7 +598,7 @@ module.exports = {
 
 					$( '#wikieditor-toolbar-table-dimensions-rows' ).val( 3 );
 					$( '#wikieditor-toolbar-table-dimensions-columns' ).val( 3 );
-					$( '#wikieditor-toolbar-table-wikitable' ).on( 'click', function () {
+					$( '#wikieditor-toolbar-table-wikitable' ).on( 'click', () => {
 						// eslint-disable-next-line no-jquery/no-class-state
 						$( '.wikieditor-toolbar-table-preview' ).toggleClass( 'wikitable' );
 					} );
@@ -618,11 +612,11 @@ module.exports = {
 						.insertAfter( $( '#wikieditor-toolbar-table-preview' ) )
 						.hide();
 
-					mw.loader.using( 'jquery.tablesorter', function () {
+					mw.loader.using( 'jquery.tablesorter', () => {
 						$( '#wikieditor-toolbar-table-preview2' ).tablesorter();
 					} );
 
-					$( '#wikieditor-toolbar-table-sortable' ).on( 'click', function () {
+					$( '#wikieditor-toolbar-table-sortable' ).on( 'click', () => {
 						// Swap the currently shown one clone with the other one
 						$( '#wikieditor-toolbar-table-preview' )
 							.hide()
@@ -633,7 +627,7 @@ module.exports = {
 						$( '#wikieditor-toolbar-table-preview3' ).attr( 'id', 'wikieditor-toolbar-table-preview2' );
 					} );
 
-					$( '#wikieditor-toolbar-table-dimensions-header' ).on( 'click', function () {
+					$( '#wikieditor-toolbar-table-dimensions-header' ).on( 'click', () => {
 						// Instead of show/hiding, switch the HTML around
 						// We do this because the sortable tables script styles the first row,
 						// visible or not
@@ -643,7 +637,7 @@ module.exports = {
 						$( '.wikieditor-toolbar-table-preview-hidden' ).html( headerHTML );
 						var $sortable = $( '#wikieditor-toolbar-table-preview, #wikieditor-toolbar-table-preview2' )
 							.filter( '.sortable' );
-						mw.loader.using( 'jquery.tablesorter', function () {
+						mw.loader.using( 'jquery.tablesorter', () => {
 							$sortable.tablesorter();
 						} );
 					} );
@@ -937,7 +931,7 @@ module.exports = {
 						var $dialog = $( this ).closest( '.ui-dialog' );
 						that = this;
 						$( this ).data( 'context' ).$textarea
-							.on( 'keypress.srdialog', function ( e ) {
+							.on( 'keypress.srdialog', ( e ) => {
 								if ( e.which === 13 ) {
 									// Enter
 									triggerButtonClick( $dialog );
