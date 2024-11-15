@@ -121,9 +121,10 @@ const toolbarModule = {
 										e.preventDefault();
 										return false;
 									} )
-									.on( 'click', function ( e ) {
-										toolbarModule.fn.doAction( $( this ).parent().data( 'context' ),
-											$( this ).parent().data( 'actions' )[ $( this ).attr( 'rel' ) ] );
+									.on( 'click', ( e ) => {
+										const $character = $( e.target );
+										toolbarModule.fn.doAction( $character.parent().data( 'context' ),
+											$character.parent().data( 'actions' )[ $character.attr( 'rel' ) ] );
 										e.preventDefault();
 										return false;
 									} )
@@ -389,16 +390,17 @@ const toolbarModule = {
 										e.preventDefault();
 										return false;
 									} )
-									.on( 'click keydown', function ( e ) {
+									.on( 'click keydown', ( e ) => {
 										if (
 											e.type === 'click' ||
 											e.type === 'keydown' && e.key === 'Enter'
 										) {
+											const $link = $( e.target );
 											toolbarModule.fn.doAction(
-												$( this ).data( 'context' ), $( this ).data( 'action' ), $( this )
+												$link.data( 'context' ), $link.data( 'action' ), $link
 											);
 											// Hide the dropdown
-											$( this ).closest( '.tool-select' ).removeClass( 'options-shown' );
+											$link.closest( '.tool-select' ).removeClass( 'options-shown' );
 											e.preventDefault();
 											return false;
 										}
@@ -419,16 +421,17 @@ const toolbarModule = {
 							e.preventDefault();
 							return false;
 						} )
-						.on( 'click keydown', function ( e ) {
+						.on( 'click keydown', ( e ) => {
 							if (
 								e.type === 'click' ||
 								e.type === 'keydown' && e.key === 'Enter'
 							) {
-								const $opts = $( this ).data( 'options' );
+								const $link = $( e.target );
+								const $opts = $link.data( 'options' );
 								// eslint-disable-next-line no-jquery/no-class-state
 								const canShowOptions = !$opts.closest( '.tool-select' ).hasClass( 'options-shown' );
 								$opts.closest( '.tool-select' ).toggleClass( 'options-shown', canShowOptions );
-								$( this ).attr( 'aria-expanded', canShowOptions.toString() );
+								$link.attr( 'aria-expanded', canShowOptions.toString() );
 								e.preventDefault();
 								return false;
 							}
@@ -457,7 +460,8 @@ const toolbarModule = {
 		},
 		buildBookmark: function ( context, id, page ) {
 			const label = $.wikiEditor.autoMsg( page, 'label' );
-			return $( '<div>' )
+			const $bookmark = $( '<div>' );
+			return $bookmark
 				.text( label )
 				.attr( {
 					rel: id,
@@ -469,16 +473,16 @@ const toolbarModule = {
 					e.preventDefault();
 					return false;
 				} )
-				.on( 'click', function ( event ) {
-					$( this ).parent().parent().find( '.page' ).hide();
-					$( this ).parent().parent().find( '.page-' + $( this ).attr( 'rel' ) ).show().trigger( 'loadPage' );
-					$( this )
+				.on( 'click', ( event ) => {
+					$bookmark.parent().parent().find( '.page' ).hide();
+					$bookmark.parent().parent().find( '.page-' + $bookmark.attr( 'rel' ) ).show().trigger( 'loadPage' );
+					$bookmark
 						.addClass( 'current' )
 						.siblings().removeClass( 'current' );
-					const section = $( this ).parent().parent().attr( 'rel' );
+					const section = $bookmark.parent().parent().attr( 'rel' );
 					$.cookie(
-						'wikiEditor-' + $( this ).data( 'context' ).instance + '-booklet-' + section + '-page',
-						$( this ).attr( 'rel' ),
+						'wikiEditor-' + $bookmark.data( 'context' ).instance + '-booklet-' + section + '-page',
+						$bookmark.attr( 'rel' ),
 						{ expires: 30, path: '/' }
 					);
 					// No dragging!
@@ -545,11 +549,12 @@ const toolbarModule = {
 								e.preventDefault();
 								return false;
 							} )
-							.on( 'click', function ( e ) {
+							.on( 'click', ( e ) => {
+								const $character = $( e.target );
 								toolbarModule.fn.doAction(
-									$( this ).parent().data( 'context' ),
-									$( this ).parent().data( 'actions' )[ $( this ).attr( 'rel' ) ],
-									$( this )
+									$character.parent().data( 'context' ),
+									$character.parent().data( 'actions' )[ $character.attr( 'rel' ) ],
+									$character
 								);
 								e.preventDefault();
 								return false;
@@ -635,15 +640,15 @@ const toolbarModule = {
 					} )
 					.text( $.wikiEditor.autoMsg( section, 'label' ) )
 					.data( 'context', context )
-					.on( 'mouseup', function () {
-						$( this ).trigger( 'blur' );
+					.on( 'mouseup', () => {
+						$link.trigger( 'blur' );
 					} )
 					.on( 'mousedown', ( e ) => {
 						// No dragging!
 						e.preventDefault();
 						return false;
 					} )
-					.on( 'click keydown', function ( e ) {
+					.on( 'click keydown', ( e ) => {
 						if (
 							e.type !== 'click' &&
 							( e.type !== 'keydown' || e.key !== 'Enter' )
@@ -652,21 +657,21 @@ const toolbarModule = {
 						}
 						// We have to set aria-pressed over here, as NVDA wont recognize it
 						// if we do it in the below .each as it seems
-						$( this ).attr( 'aria-pressed', 'true' );
+						$link.attr( 'aria-pressed', 'true' );
 						$( '.tab > a' ).each( ( i, elem ) => {
 							if ( elem !== e.target ) {
 								$( elem ).attr( 'aria-pressed', 'false' );
 							}
 						} );
-						const $sections = $( this ).data( 'context' ).$ui.find( '.sections' );
-						const $section = $sections.find( '.section-' + $( this ).parent().attr( 'rel' ) );
+						const $sections = $link.data( 'context' ).$ui.find( '.sections' );
+						const $section = $sections.find( '.section-' + $link.parent().attr( 'rel' ) );
 						// eslint-disable-next-line no-jquery/no-class-state
 						const show = !$section.hasClass( 'section-visible' );
 						$sections.find( '.section-visible' )
 							.removeClass( 'section-visible' )
 							.addClass( 'section-hidden' );
 
-						$( this )
+						$link
 							.attr( 'aria-expanded', 'false' )
 							.parent().parent().find( 'a' ).removeClass( 'current' );
 						if ( show ) {
@@ -675,13 +680,13 @@ const toolbarModule = {
 								.attr( 'aria-expanded', 'true' )
 								.addClass( 'section-visible' );
 
-							$( this ).attr( 'aria-expanded', 'true' )
+							$link.attr( 'aria-expanded', 'true' )
 								.addClass( 'current' );
 						}
 
 						// Save the currently visible section
 						$.cookie(
-							'wikiEditor-' + $( this ).data( 'context' ).instance + '-toolbar-section',
+							'wikiEditor-' + $link.data( 'context' ).instance + '-toolbar-section',
 							show ? $section.attr( 'rel' ) : null,
 							{ expires: 30, path: '/' }
 						);

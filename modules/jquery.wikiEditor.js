@@ -417,6 +417,7 @@ $.fn.wikiEditor = function () {
 					// Ensure that buttons and tabs are visible
 					context.$controls.show();
 					context.$tabs.show();
+
 					// Return the newly appended tab
 					return $( '<div>' )
 						.attr( 'rel', 'wikiEditor-ui-view-' + opts.name )
@@ -425,16 +426,16 @@ $.fn.wikiEditor = function () {
 							.attr( 'tabindex', 0 )
 							// No dragging!
 							.on( 'mousedown', () => false )
-							.on( 'click keydown', function ( event ) {
+							.on( 'click keydown', ( event ) => {
 								if (
 									event.type === 'click' ||
 									event.type === 'keydown' && event.key === 'Enter'
 								) {
 									context.$ui.find( '.wikiEditor-ui-view' ).hide();
-									context.$ui.find( '.' + $( this ).parent().attr( 'rel' ) ).show();
+									context.$ui.find( '.' + $( event.target ).parent().attr( 'rel' ) ).show();
 									context.$tabs.find( 'div' ).removeClass( 'current' );
-									$( this ).parent().addClass( 'current' );
-									$( this ).trigger( 'blur' );
+									$( event.target ).parent().addClass( 'current' );
+									$( event.target ).trigger( 'blur' );
 									if ( 'init' in opts && typeof opts.init === 'function' ) {
 										opts.init( context );
 									}

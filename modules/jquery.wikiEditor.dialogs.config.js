@@ -12,10 +12,10 @@ const toolbarModule = require( './jquery.wikiEditor.toolbar.js' ),
 	insertLinkLinkTypeField = new LinkTypeField(),
 	configData = require( './data.json' );
 
-function triggerButtonClick( element ) {
+function triggerButtonClick( $element ) {
 	// The dialog action should always be a DOMElement.
-	const dialogAction = $( element ).data( 'dialogaction' );
-	const $button = dialogAction ? $( dialogAction ) : $( element ).find( 'button' ).first();
+	const dialogAction = $element.data( 'dialogaction' );
+	const $button = dialogAction ? $( dialogAction ) : $element.find( 'button' ).first();
 	// Since we're reading from data attribute, make sure we got an element before clicking.
 	// Note when closing a dialog this can be false leading to TypeError: $button.trigger is not a function
 	// (T261529)
@@ -326,17 +326,18 @@ module.exports = {
 							$( this ).data( 'dialogkeypressset', true );
 							// Execute the action associated with the first button
 							// when the user presses Enter
-							$( this ).closest( '.ui-dialog' ).on( 'keypress', function ( e ) {
+							const $dialog = $( this ).closest( '.ui-dialog' );
+							$dialog.on( 'keypress', ( e ) => {
 								if ( ( e.keyCode || e.which ) === 13 ) {
-									triggerButtonClick( this );
+									triggerButtonClick( $dialog );
 									e.preventDefault();
 								}
 							} );
 
 							// Make tabbing to a button and pressing
 							// Enter do what people expect
-							$( this ).closest( '.ui-dialog' ).find( 'button' ).on( 'focus', function () {
-								$( this ).closest( '.ui-dialog' ).data( 'dialogaction', this );
+							$dialog.find( 'button' ).on( 'focus', ( e ) => {
+								$dialog.data( 'dialogaction', e.delegateTarget );
 							} );
 						}
 					}
@@ -370,10 +371,11 @@ module.exports = {
 					const altHelpText = mw.msg( 'wikieditor-toolbar-file-alt-help' );
 					const altHelpLabel = mw.msg( 'wikieditor-toolbar-file-alt-help-label' );
 					// Expandable help message for 'alt text' field
-					$( this ).find( '.wikieditor-toolbar-file-alt-help' ).text( altHelpLabel );
-					$( '.wikieditor-toolbar-file-alt-help' ).on( 'click', function () {
-						$( this ).text( ( i, text ) => text === altHelpLabel ? altHelpText : altHelpLabel );
-					} );
+					const $altHelp = $( this ).find( '.wikieditor-toolbar-file-alt-help' )
+						.text( altHelpLabel )
+						.on( 'click', () => {
+							$altHelp.text( ( i, text ) => text === altHelpLabel ? altHelpText : altHelpLabel );
+						} );
 
 					// Preload modules of file upload dialog.
 					mw.loader.load( [
@@ -571,17 +573,18 @@ module.exports = {
 							$( this ).data( 'dialogkeypressset', true );
 							// Execute the action associated with the first button
 							// when the user presses Enter
-							$( this ).closest( '.ui-dialog' ).on( 'keypress', function ( e ) {
+							const $dialog = $( this ).closest( '.ui-dialog' );
+							$dialog.on( 'keypress', ( e ) => {
 								if ( e.which === 13 ) {
-									triggerButtonClick( this );
+									triggerButtonClick( $dialog );
 									e.preventDefault();
 								}
 							} );
 
 							// Make tabbing to a button and pressing
 							// Enter do what people expect
-							$( this ).closest( '.ui-dialog' ).find( 'button' ).on( 'focus', function () {
-								$( this ).closest( '.ui-dialog' ).data( 'dialogaction', this );
+							$dialog.find( 'button' ).on( 'focus', ( e ) => {
+								$dialog.data( 'dialogaction', e.delegateTarget );
 							} );
 						}
 					}
@@ -736,17 +739,18 @@ module.exports = {
 							$( this ).data( 'dialogkeypressset', true );
 							// Execute the action associated with the first button
 							// when the user presses Enter
-							$( this ).closest( '.ui-dialog' ).on( 'keypress', function ( e ) {
+							const $dialog = $( this ).closest( '.ui-dialog' );
+							$dialog.on( 'keypress', ( e ) => {
 								if ( ( e.keyCode || e.which ) === 13 ) {
-									triggerButtonClick( this );
+									triggerButtonClick( $dialog );
 									e.preventDefault();
 								}
 							} );
 
 							// Make tabbing to a button and pressing
 							// Enter do what people expect
-							$( this ).closest( '.ui-dialog' ).find( 'button' ).on( 'focus', function () {
-								$( this ).closest( '.ui-dialog' ).data( 'dialogaction', this );
+							$dialog.find( 'button' ).on( 'focus', ( e ) => {
+								$dialog.data( 'dialogaction', e.delegateTarget );
 							} );
 						}
 					}
@@ -763,7 +767,7 @@ module.exports = {
 					} );
 
 					// TODO: Find a cleaner way to share this function
-					$( this ).data( 'replaceCallback', function ( mode ) {
+					$( this ).data( 'replaceCallback', ( mode ) => {
 						$( '#wikieditor-toolbar-replace-nomatch, #wikieditor-toolbar-replace-success, #wikieditor-toolbar-replace-emptysearch, #wikieditor-toolbar-replace-invalidregex' ).hide();
 
 						// Search string cannot be empty
@@ -910,31 +914,32 @@ module.exports = {
 						let that = this;
 						$( this ).data( { offset: 0, matchIndex: 0 } );
 
+						const $dialog = $( this ).closest( '.ui-dialog' );
 						$( '#wikieditor-toolbar-replace-search' ).trigger( 'focus' );
 						$( '#wikieditor-toolbar-replace-nomatch, #wikieditor-toolbar-replace-success, #wikieditor-toolbar-replace-emptysearch, #wikieditor-toolbar-replace-invalidregex' ).hide();
 						if ( !( $( this ).data( 'onetimeonlystuff' ) ) ) {
 							$( this ).data( 'onetimeonlystuff', true );
 							// Execute the action associated with the first button
 							// when the user presses Enter
-							$( this ).closest( '.ui-dialog' ).on( 'keypress', function ( e ) {
+							$dialog.on( 'keypress', ( e ) => {
 								if ( ( e.keyCode || e.which ) === 13 ) {
-									triggerButtonClick( this );
+									triggerButtonClick( $dialog );
 									e.preventDefault();
 								}
 							} );
 							// Make tabbing to a button and pressing
 							// Enter do what people expect
-							$( this ).closest( '.ui-dialog' ).find( 'button' ).on( 'focus', function () {
-								$( this ).closest( '.ui-dialog' ).data( 'dialogaction', this );
+							$dialog.find( 'button' ).on( 'focus', ( e ) => {
+								$dialog.data( 'dialogaction', e.delegateTarget );
 							} );
 						}
-						const $dialog = $( this ).closest( '.ui-dialog' );
 						that = this;
-						$( this ).data( 'context' ).$textarea
+						const $textarea = $( this ).data( 'context' ).$textarea;
+						$textarea
 							.on( 'keypress.srdialog', ( e ) => {
 								if ( e.which === 13 ) {
 									// Enter
-									triggerButtonClick( $dialog );
+									triggerButtonClick( $textarea );
 									e.preventDefault();
 								} else if ( e.which === 27 ) {
 									// Escape
