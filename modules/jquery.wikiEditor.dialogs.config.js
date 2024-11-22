@@ -148,8 +148,6 @@ module.exports = {
 							class: 'wikieditor-toolbar-tool-link-insert',
 							text: mw.msg( 'wikieditor-toolbar-tool-link-insert' ),
 							click: function () {
-								const that = this;
-
 								function escapeInternalText( s ) {
 									return s.replace( /(\]{2,})/g, '<nowiki>$1</nowiki>' );
 								}
@@ -192,6 +190,7 @@ module.exports = {
 									const match = target.match( $( this ).data( 'articlePathRegex' ) );
 									if ( match && !$( this ).data( 'ignoreLooksInternal' ) ) {
 										const buttons = {};
+										const linkDialog = this;
 										buttons[ mw.msg( 'wikieditor-toolbar-tool-link-lookslikeinternal-int' ) ] =
 											function () {
 												let titleValue = match[ 1 ];
@@ -209,9 +208,9 @@ module.exports = {
 											};
 										buttons[ mw.msg( 'wikieditor-toolbar-tool-link-lookslikeinternal-ext' ) ] =
 											function () {
-												$( that ).data( 'ignoreLooksInternal', true );
-												$( that ).closest( '.ui-dialog' ).find( 'button' ).first().trigger( 'click' );
-												$( that ).data( 'ignoreLooksInternal', false );
+												$( linkDialog ).data( 'ignoreLooksInternal', true );
+												$( linkDialog ).closest( '.ui-dialog' ).find( 'button' ).first().trigger( 'click' );
+												$( linkDialog ).data( 'ignoreLooksInternal', false );
 												$( this ).dialog( 'close' );
 											};
 										$.wikiEditor.modules.dialogs.quickDialog(
@@ -911,7 +910,6 @@ module.exports = {
 						}
 					},
 					open: function () {
-						let that = this;
 						$( this ).data( { offset: 0, matchIndex: 0 } );
 
 						const $dialog = $( this ).closest( '.ui-dialog' );
@@ -933,7 +931,6 @@ module.exports = {
 								$dialog.data( 'dialogaction', e.delegateTarget );
 							} );
 						}
-						that = this;
 						const $textarea = $( this ).data( 'context' ).$textarea;
 						$textarea
 							.on( 'keypress.srdialog', ( e ) => {
@@ -943,7 +940,7 @@ module.exports = {
 									e.preventDefault();
 								} else if ( e.which === 27 ) {
 									// Escape
-									$( that ).dialog( 'close' );
+									$( this ).dialog( 'close' );
 								}
 							} );
 					},

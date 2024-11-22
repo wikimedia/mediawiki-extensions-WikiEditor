@@ -50,19 +50,18 @@ TitleInputWidget.prototype.onLookupInputBlur = function () {
  * @public
  */
 TitleInputWidget.prototype.selectFirstMatch = function () {
-	const that = this;
 	this.getLookupMenuItems().done( ( items ) => {
 		// The matching item is not always the first,
 		// because disambiguation pages are moved to the end.
 		for ( let i = 0; i < items.length; i++ ) {
 			const item = items[ i ];
-			const queryVal = that.getQueryValue();
+			const queryVal = this.getQueryValue();
 			// Check for exact match, or a match with uppercase first character.
 			if ( item.getData() === queryVal ||
 				item.getData() === queryVal.charAt( 0 ).toUpperCase() + queryVal.slice( 1 )
 			) {
 				// If a matching title is is found, fire an event and stop looking.
-				that.emit( 'select', item );
+				this.emit( 'select', item );
 				break;
 			}
 		}
