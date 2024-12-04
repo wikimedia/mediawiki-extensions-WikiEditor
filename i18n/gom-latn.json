@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"The Discoverer"
+			"The Discoverer",
+			"QW90"
 		]
 	},
 	"wikieditor": "Sudarit wikimozkur sompadonacho interface",
@@ -135,7 +136,9 @@
 	"wikieditor-toolbar-help-content-bolditalic-description": "Datt & palso",
 	"wikieditor-toolbar-help-content-bolditalic-example": "Datt & palxim okxorancho mozkur",
 	"wikieditor-toolbar-help-content-ilink-description": "Bhitorlo duvo",
+	"wikieditor-toolbar-help-content-ilink-example": "[[Panacho mathallo]]\n[[Panacho mathallo|Duvechi kurvechitt]]",
 	"wikieditor-toolbar-help-content-xlink-description": "Bhailo duvo",
+	"wikieditor-toolbar-help-content-xlink-example-label": "Duvechi kurvechitt",
 	"wikieditor-toolbar-help-content-heading2-description": "2rea panvddeacho mathallo",
 	"wikieditor-toolbar-help-content-heading2-example": "Mathalleacho mozkur",
 	"wikieditor-toolbar-help-content-heading3-description": "3rea panvddeacho mathallo",
@@ -164,6 +167,7 @@
 	"wikieditor-realtimepreview-error": "Purvdekhavo load zaina",
 	"wikieditor-realtimepreview-reload": "Portun load kor",
 	"wikieditor-realtimepreview-beta-label": "Chalu Purvdekhavo",
+	"wikieditor-realtimepreview-manual": "Tujeo sompadonacho purvdekhavo hatan polleunk upkar korun portun load kor.",
 	"wikieditor-realtimepreview-onboarding-title": "Chalu Purvdekhavo",
 	"wikieditor-realtimepreview-onboarding-button": "Borem asa, {{GENDER:|somzolom|somzolim|somzolom/somzolim}}"
 }
