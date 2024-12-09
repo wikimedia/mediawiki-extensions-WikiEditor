@@ -389,79 +389,6 @@ $.fn.wikiEditor = function () {
 			},
 
 			/**
-			 * Adds a button to the UI
-			 *
-			 * @param {Object} options
-			 * @return {jQuery}
-			 */
-			addButton: function ( options ) {
-				// Ensure that buttons and tabs are visible
-				context.$controls.show();
-				context.$buttons.show();
-				return $( '<button>' )
-					.text( $.wikiEditor.autoMsg( options, 'caption' ) )
-					.on( 'click', options.action )
-					.appendTo( context.$buttons );
-			},
-
-			/**
-			 * Adds a view to the UI, which is accessed using a set of tabs. Views are mutually exclusive and by default a
-			 * wikitext view will be present. Only when more than one view exists will the tabs will be visible.
-			 *
-			 * @param {Object} options
-			 * @return {jQuery}
-			 */
-			addView: function ( options ) {
-				// Adds a tab
-				function addTab( opts ) {
-					// Ensure that buttons and tabs are visible
-					context.$controls.show();
-					context.$tabs.show();
-
-					// Return the newly appended tab
-					return $( '<div>' )
-						.attr( 'rel', 'wikiEditor-ui-view-' + opts.name )
-						.addClass( context.view === opts.name ? 'current' : null )
-						.append( $( '<a>' )
-							.attr( 'tabindex', 0 )
-							// No dragging!
-							.on( 'mousedown', () => false )
-							.on( 'click keydown', ( event ) => {
-								if (
-									event.type === 'click' ||
-									event.type === 'keydown' && event.key === 'Enter'
-								) {
-									context.$ui.find( '.wikiEditor-ui-view' ).hide();
-									context.$ui.find( '.' + $( event.target ).parent().attr( 'rel' ) ).show();
-									context.$tabs.find( 'div' ).removeClass( 'current' );
-									$( event.target ).parent().addClass( 'current' );
-									$( event.target ).trigger( 'blur' );
-									if ( 'init' in opts && typeof opts.init === 'function' ) {
-										opts.init( context );
-									}
-									event.preventDefault();
-									return false;
-								}
-							} )
-							.text( $.wikiEditor.autoMsg( opts, 'title' ) )
-						)
-						.appendTo( context.$tabs );
-				}
-				// Automatically add the previously not-needed wikitext tab
-				if ( !context.$tabs.children().length ) {
-					addTab( { name: 'wikitext', title: mw.message( 'wikieditor-wikitext-tab' ).parse() } );
-				}
-				// Add the tab for the view we were actually asked to add
-				addTab( options );
-				// Return newly appended view
-				// eslint-disable-next-line mediawiki/class-doc
-				return $( '<div>' )
-					.addClass( 'wikiEditor-ui-view wikiEditor-ui-view-' + options.name )
-					.hide()
-					.appendTo( context.$ui );
-			},
-
-			/**
 			 * Save text selection
 			 */
 			saveSelection: function () {
@@ -499,7 +426,7 @@ $.fn.wikiEditor = function () {
 		// Encapsulate the textarea with some containers for layout
 		context.$textarea
 			.wrapAll( $( '<div>' ).addClass( 'wikiEditor-ui' ) )
-			.wrapAll( $( '<div>' ).addClass( 'wikiEditor-ui-view wikiEditor-ui-view-wikitext' ) )
+			.wrapAll( $( '<div>' ).addClass( 'wikiEditor-ui-view' ) )
 			.wrapAll( $( '<div>' ).addClass( 'wikiEditor-ui-left' ) )
 			.wrapAll( $( '<div>' ).addClass( 'wikiEditor-ui-bottom' ) )
 			.wrapAll( $( '<div>' ).addClass( 'wikiEditor-ui-text' ) );
@@ -514,18 +441,7 @@ $.fn.wikiEditor = function () {
 		// Get references to some of the newly created containers
 		context.$ui = context.$textarea.parent().parent().parent().parent().parent();
 		context.$wikitext = context.$textarea.parent().parent().parent().parent();
-		// Add in tab and button containers
-		context.$wikitext.before(
-			$( '<div>' ).addClass( 'wikiEditor-ui-controls' ).append(
-				$( '<div>' ).addClass( 'wikiEditor-ui-tabs' ).hide(),
-				$( '<div>' ).addClass( 'wikiEditor-ui-buttons' )
-			),
-			$( '<div>' ).addClass( 'wikiEditor-ui-clear' )
-		);
-		// Get references to some of the newly created containers
-		context.$controls = context.$ui.find( '.wikiEditor-ui-buttons' ).hide();
-		context.$buttons = context.$ui.find( '.wikiEditor-ui-buttons' );
-		context.$tabs = context.$ui.find( '.wikiEditor-ui-tabs' );
+
 		// Clear all floating after the UI
 		context.$ui.after( $( '<div>' ).addClass( 'wikiEditor-ui-clear' ) );
 		// Attach a right container
