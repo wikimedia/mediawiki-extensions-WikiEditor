@@ -31,7 +31,6 @@
 	},
 	"wikieditor": "高级wikitext编辑界面",
 	"wikieditor-desc": "提供高级、可扩展的wikitext编辑界面",
-	"wikieditor-wikitext-tab": "wikitext",
 	"wikieditor-toolbar": "编辑工具栏",
 	"wikieditor-toolbar-desc": "有增强的使用性能的页面编辑工具栏",
 	"wikieditor-toolbar-preference": "启用编辑工具栏",

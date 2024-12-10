@@ -30,7 +30,6 @@
 	},
 	"wikieditor": "Interface avancée de modification de wikicode",
 	"wikieditor-desc": "Fournit une interface de modification de wikicode avancée et extensible.",
-	"wikieditor-wikitext-tab": "Wikicode",
 	"wikieditor-toolbar": "Barre d’outils de modification",
 	"wikieditor-toolbar-desc": "Barre d’outils de modification avec l’utilisabilité améliorée",
 	"wikieditor-toolbar-preference": "Activer la barre d’outils de modification",

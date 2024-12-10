@@ -22,7 +22,6 @@
 	},
 	"wikieditor": "확장된 위키텍스트 편집 인터페이스",
 	"wikieditor-desc": "확장 가능한 고급 위키텍스트 편집 인터페이스를 제공합니다",
-	"wikieditor-wikitext-tab": "위키텍스트",
 	"wikieditor-toolbar": "편집 도구 모음",
 	"wikieditor-toolbar-desc": "사용성이 향상된 문서 편집 도구 모음",
 	"wikieditor-toolbar-preference": "편집 도구 모음 활성화하기",
