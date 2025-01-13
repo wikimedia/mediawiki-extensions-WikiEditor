@@ -4,6 +4,10 @@
  * @memberof module:ext.wikiEditor
  */
 
+/* This feature was added to ve before it was contemplated for WikiEditor,
+   so we wound up using a slightly awkward key */
+const RECENTKEY = 'visualeditor-symbolList-recentlyUsed-specialCharacters';
+
 const toolbarModule = {
 
 	/**
@@ -496,9 +500,20 @@ const toolbarModule = {
 				rel: id
 			} );
 			if ( deferLoad ) {
-				$page.one( 'loadPage', () => {
-					toolbarModule.fn.reallyBuildPage( context, id, page, $page );
-				} );
+				if ( id === 'recent' ) {
+					$page.on( 'loadPage', () => {
+						try {
+							page.characters = JSON.parse( mw.user.options.get( RECENTKEY ) || '[]' );
+						} catch ( e ) {
+							page.characters = [];
+						}
+						toolbarModule.fn.reallyBuildPage( context, id, page, $page );
+					} );
+				} else {
+					$page.one( 'loadPage', () => {
+						toolbarModule.fn.reallyBuildPage( context, id, page, $page );
+					} );
+				}
 			} else {
 				toolbarModule.fn.reallyBuildPage( context, id, page, $page );
 			}
@@ -551,15 +566,23 @@ const toolbarModule = {
 							} )
 							.on( 'click', ( e ) => {
 								const $character = $( e.target );
-								toolbarModule.fn.doAction(
-									$character.parent().data( 'context' ),
-									$character.parent().data( 'actions' )[ $character.attr( 'rel' ) ],
-									$character
-								);
+								let clickActions = actions[ $character.attr( 'rel' ) ];
+								if ( !( Array.isArray( clickActions ) ) ) {
+									clickActions = [ clickActions ];
+								}
+								for ( const action of clickActions ) {
+									toolbarModule.fn.doAction(
+										context,
+										action
+									);
+								}
 								e.preventDefault();
 								return false;
 							} );
 					}
+					/* Usually we do not build a page more than once, but in
+					   the case of recent characters, we do */
+					$page.empty();
 					$page.append( $characters );
 					break;
 				}
@@ -583,6 +606,7 @@ const toolbarModule = {
 			return '<tr>' + html + '</tr>';
 		},
 		buildCharacter: function ( character, actions ) {
+			const configRepresentation = character; // For recently used
 			if ( typeof character === 'string' ) {
 				character = {
 					label: character,
@@ -592,7 +616,8 @@ const toolbarModule = {
 							peri: character,
 							selectPeri: false
 						}
-					}
+					},
+					configRepresentation
 				};
 			// In some cases the label for the character isn't the same as the
 			// character that gets inserted (e.g. Hebrew vowels)
@@ -605,11 +630,38 @@ const toolbarModule = {
 							peri: character[ 1 ],
 							selectPeri: false
 						}
-					}
+					},
+					configRepresentation
 				};
 			}
 			if ( character && 'action' in character && 'label' in character ) {
-				actions[ character.label ] = character.action;
+				/* Helper for updating the list of recently-used characters */
+				const updateRecentAction = {
+					type: 'callback',
+					character,
+					execute: function () {
+						const maxRecentlyUsed = 20;
+						let cache;
+						try {
+							cache = JSON.parse( mw.user.options.get( RECENTKEY ) || '[]' );
+						} catch ( e ) {
+							cache = [];
+						}
+						const storeAs = this.character.configRepresentation ? this.character.configRepresentation : this.character;
+						const i = cache.findIndex( ( item ) => ( JSON.stringify( storeAs ) === JSON.stringify( item ) ) );
+						if ( i !== -1 ) {
+							cache.splice( i, 1 );
+						}
+						cache.unshift( storeAs );
+						cache = cache.slice( 0, maxRecentlyUsed );
+						( new mw.Api() ).saveOption( RECENTKEY, JSON.stringify( cache ) );
+						mw.user.options.set( RECENTKEY, JSON.stringify( cache ) );
+					}
+				};
+				actions[ character.label ] = [
+					character.action,
+					updateRecentAction
+				];
 				// eslint-disable-next-line mediawiki/msg-doc
 				const title = character.titleMsg ? mw.msg( character.titleMsg ) : character.title;
 				return mw.html.element(
