@@ -196,6 +196,19 @@ const toolbarConfig = {
 								}
 							}
 						},
+						code: {
+							label: mw.msg( 'wikieditor-toolbar-tool-code' ),
+							type: 'button',
+							oouiIcon: 'code',
+							action: {
+								type: 'encapsulate',
+								options: {
+									pre: '<code>',
+									peri: mw.msg( 'wikieditor-toolbar-tool-code-example' ),
+									post: '</code>'
+								}
+							}
+						},
 						nowiki: {
 							label: mw.msg( 'wikieditor-toolbar-tool-nowiki' ),
 							type: 'button',
