@@ -176,6 +176,8 @@ const toolbarConfig = {
 									pre: '* ',
 									peri: mw.msg( 'wikieditor-toolbar-tool-ulist-example' ),
 									post: '',
+									regex: /^([*#:;]*?)\s*(.*)$/gm,
+									regexReplace: '$1* $2',
 									ownline: true,
 									splitlines: true
 								}
@@ -191,6 +193,8 @@ const toolbarConfig = {
 									pre: '# ',
 									peri: mw.msg( 'wikieditor-toolbar-tool-olist-example' ),
 									post: '',
+									regex: /^([*#:;]*?)\s*(.*)$/gm,
+									regexReplace: '$1# $2',
 									ownline: true,
 									splitlines: true
 								}
