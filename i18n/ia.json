@@ -64,6 +64,8 @@
 	"wikieditor-toolbar-tool-ulist-example": "Elemento de lista a punctos",
 	"wikieditor-toolbar-tool-olist": "Lista numerate",
 	"wikieditor-toolbar-tool-olist-example": "Elemento de lista numerate",
+	"wikieditor-toolbar-tool-code": "Codice de computator",
+	"wikieditor-toolbar-tool-code-example": "Codice de computator",
 	"wikieditor-toolbar-tool-nowiki": "Nulle formatation wiki",
 	"wikieditor-toolbar-tool-nowiki-example": "Insere texto non formatate hic",
 	"wikieditor-toolbar-tool-redirect": "Redirection",

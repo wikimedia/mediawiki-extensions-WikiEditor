@@ -90,6 +90,8 @@
 	"wikieditor-toolbar-tool-ulist-example": "Элемент маркированного списка",
 	"wikieditor-toolbar-tool-olist": "Нумерованный список",
 	"wikieditor-toolbar-tool-olist-example": "Элемент нумерованного списка",
+	"wikieditor-toolbar-tool-code": "Программный код",
+	"wikieditor-toolbar-tool-code-example": "Программный код",
 	"wikieditor-toolbar-tool-nowiki": "Игнорировать вики-форматирование",
 	"wikieditor-toolbar-tool-nowiki-example": "Вставьте сюда текст, который не нужно форматировать",
 	"wikieditor-toolbar-tool-redirect": "Перенаправление",

@@ -83,6 +83,8 @@
 	"wikieditor-toolbar-tool-ulist-example": "Madde işaretli liste ögesi",
 	"wikieditor-toolbar-tool-olist": "Numaralı liste",
 	"wikieditor-toolbar-tool-olist-example": "Numaralı liste ögesi",
+	"wikieditor-toolbar-tool-code": "Bilgisayar kodu",
+	"wikieditor-toolbar-tool-code-example": "Bilgisayar kodu",
 	"wikieditor-toolbar-tool-nowiki": "Viki biçimlendirmesi yok",
 	"wikieditor-toolbar-tool-nowiki-example": "Buraya biçimlendirilmemiş metin ekleyin",
 	"wikieditor-toolbar-tool-redirect": "Yönlendirme",

@@ -67,6 +67,8 @@
 	"wikieditor-toolbar-tool-ulist-example": "Elemento da lista con asteriscos",
 	"wikieditor-toolbar-tool-olist": "Lista numerada",
 	"wikieditor-toolbar-tool-olist-example": "Elemento da lista numerada",
+	"wikieditor-toolbar-tool-code": "Código máquina",
+	"wikieditor-toolbar-tool-code-example": "Código máquina",
 	"wikieditor-toolbar-tool-nowiki": "Sen formato wiki",
 	"wikieditor-toolbar-tool-nowiki-example": "Insire aquí un texto sen formato",
 	"wikieditor-toolbar-tool-redirect": "Redirección",
