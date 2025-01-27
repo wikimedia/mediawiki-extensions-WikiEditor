@@ -338,6 +338,11 @@ const toolbarConfig = {
 			type: 'booklet',
 			deferLoad: true,
 			pages: {
+				recent: {
+					label: mw.msg( 'special-characters-recently-used' ),
+					layout: 'characters',
+					characters: []
+				},
 				latin: {
 					label: mw.msg( 'special-characters-group-latin' ),
 					layout: 'characters',
