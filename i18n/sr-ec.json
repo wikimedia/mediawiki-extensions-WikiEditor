@@ -80,6 +80,8 @@
 	"wikieditor-toolbar-tool-ulist-example": "Ставка набројивог списка",
 	"wikieditor-toolbar-tool-olist": "Нумерисани списак",
 	"wikieditor-toolbar-tool-olist-example": "Ставка нумерисаног списка",
+	"wikieditor-toolbar-tool-code": "Рачунарски код",
+	"wikieditor-toolbar-tool-code-example": "Рачунарски код",
 	"wikieditor-toolbar-tool-nowiki": "Без вики обликовања",
 	"wikieditor-toolbar-tool-nowiki-example": "Овде уметните неформатиран текст",
 	"wikieditor-toolbar-tool-redirect": "Преусмерење",

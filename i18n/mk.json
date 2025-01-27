@@ -65,6 +65,8 @@
 	"wikieditor-toolbar-tool-ulist-example": "Потточка во списокот",
 	"wikieditor-toolbar-tool-olist": "Список со редни броеви",
 	"wikieditor-toolbar-tool-olist-example": "Реден број во список",
+	"wikieditor-toolbar-tool-code": "Сметачки код",
+	"wikieditor-toolbar-tool-code-example": "Сметачки код",
 	"wikieditor-toolbar-tool-nowiki": "Без викиформатирање",
 	"wikieditor-toolbar-tool-nowiki-example": "Тука вметнете неформатиран текст",
 	"wikieditor-toolbar-tool-redirect": "Пренасочи",
