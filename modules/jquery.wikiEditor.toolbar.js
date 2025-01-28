@@ -640,7 +640,7 @@ const toolbarModule = {
 					type: 'callback',
 					character,
 					execute: function () {
-						const maxRecentlyUsed = 20;
+						const maxRecentlyUsed = 32;
 						let cache;
 						try {
 							cache = JSON.parse( mw.user.options.get( RECENTKEY ) || '[]' );
