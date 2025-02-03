@@ -87,6 +87,8 @@
 	"wikieditor-toolbar-tool-ulist-example": "Élément de la liste à puces",
 	"wikieditor-toolbar-tool-olist": "Liste numérotée",
 	"wikieditor-toolbar-tool-olist-example": "Élément de la liste numérotée",
+	"wikieditor-toolbar-tool-code": "Code informatique",
+	"wikieditor-toolbar-tool-code-example": "Code informatique",
 	"wikieditor-toolbar-tool-nowiki": "Pas de formatage wiki",
 	"wikieditor-toolbar-tool-nowiki-example": "Insérer ici un texte non formaté",
 	"wikieditor-toolbar-tool-redirect": "Redirection",
