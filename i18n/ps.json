@@ -132,5 +132,6 @@
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:بېلگه.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "لاسليک د وخت د ټاپې سره",
 	"wikieditor-toolbar-help-content-signature-description": "لاسليک",
-	"wikieditor-toolbar-help-content-indent-description": "سرتشه"
+	"wikieditor-toolbar-help-content-indent-description": "سرتشه",
+	"wikieditor-realtimepreview-preview": "مخليدنه"
 }
