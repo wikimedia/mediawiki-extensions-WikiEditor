@@ -225,9 +225,9 @@ const toolbarModule = {
 						break;
 					}
 					const parts = {
-						pre: $.wikiEditor.autoMsg( action.options, 'pre' ),
-						peri: $.wikiEditor.autoMsg( action.options, 'peri' ),
-						post: $.wikiEditor.autoMsg( action.options, 'post' )
+						pre: action.options.pre,
+						peri: action.options.peri,
+						post: action.options.post
 					};
 					let replace = action.type === 'replace';
 					if ( 'regex' in action.options && 'regexReplace' in action.options ) {
@@ -259,7 +259,7 @@ const toolbarModule = {
 		},
 		buildGroup: function ( context, id, group ) {
 			const $group = $( '<div>' ).attr( { class: 'group group-' + id, rel: id } ),
-				label = $.wikiEditor.autoMsg( group, 'label' );
+				label = group.label;
 			if ( label ) {
 				$( '<span>' ).addClass( 'label' ).text( label ).appendTo( $group );
 			}
@@ -288,7 +288,7 @@ const toolbarModule = {
 					}
 				}
 			}
-			const label = $.wikiEditor.autoMsg( tool, 'label' );
+			const label = tool.label;
 			switch ( tool.type ) {
 				case 'button':
 				case 'toggle': {
@@ -384,7 +384,7 @@ const toolbarModule = {
 					const $options = $( '<div>' ).addClass( 'options' );
 					if ( 'list' in tool ) {
 						for ( const option in tool.list ) {
-							const optionLabel = $.wikiEditor.autoMsg( tool.list[ option ], 'label' );
+							const optionLabel = tool.list[ option ].label;
 							$options.append(
 								$( '<a>' )
 									.data( 'action', tool.list[ option ].action )
@@ -463,7 +463,7 @@ const toolbarModule = {
 			}
 		},
 		buildBookmark: function ( context, id, page ) {
-			const label = $.wikiEditor.autoMsg( page, 'label' );
+			const label = page.label;
 			const $bookmark = $( '<div>' );
 			return $bookmark
 				.text( label )
@@ -606,15 +606,13 @@ const toolbarModule = {
 		buildRow: function ( context, row ) {
 			const $row = $( '<tr>' );
 			for ( const cell in row ) {
-				// FIXME: This currently needs to use the "unsafe" .text() message because it embeds raw HTML
-				// in the messages (as used exclusively by the 'help' toolbar panel).
 				$row.append(
 					// The following classes are used here:
 					// * cell-description
 					// * cell-syntax
 					// * cell-result
 					$( '<td>' ).addClass( 'cell cell-' + cell ).append(
-						$( '<span>' ).html( $.wikiEditor.autoMsg( row[ cell ], [ 'html', 'text' ] ) )
+						$( '<span>' ).html( row[ cell ].html )
 					)
 				);
 			}
@@ -706,7 +704,7 @@ const toolbarModule = {
 						'aria-expanded': ( selected === id ).toString(),
 						'aria-controls': 'wikiEditor-section-' + id
 					} )
-					.text( $.wikiEditor.autoMsg( section, 'label' ) )
+					.text( section.label )
 					.data( 'context', context )
 					.on( 'mouseup', () => {
 						$link.trigger( 'blur' );
