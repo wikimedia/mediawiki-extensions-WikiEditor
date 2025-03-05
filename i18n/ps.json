@@ -4,7 +4,8 @@
 			"Af420",
 			"Ahmed-Najib-Biabani-Ibrahimkhel",
 			"Amjad Khan",
-			"Baloch Khan"
+			"Baloch Khan",
+			"شاه زمان پټان"
 		]
 	},
 	"wikieditor": "د پرمختللی ويکي متن د سمون ليدنمخ",
@@ -81,7 +82,7 @@
 	"wikieditor-toolbar-tool-newline": "نوې کرښه",
 	"wikieditor-toolbar-tool-table": "لښتيال",
 	"wikieditor-toolbar-tool-table-example-old": "-\n! سرليک 1\n! سرليک 2\n! سرليک 3\n|-\n| صف 1، کوټه 1\n| صف 1، کوټه 2\n| صف 1، کوټه 3\n|-\n| صف 2، کوټه 1\n| صف 2، کوټه 2\n| صف 2، کوټه 3",
-	"wikieditor-toolbar-tool-table-example-cell-text": "ډاگ متن",
+	"wikieditor-toolbar-tool-table-example-cell-text": "ډاگ ليک",
 	"wikieditor-toolbar-tool-table-example-header": "د سرليک متن",
 	"wikieditor-toolbar-tool-table-title": "لښتيال ورټومبل",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "ليکې",
@@ -121,7 +122,7 @@
 	"wikieditor-toolbar-help-content-bolditalic-description": "زغرد او رېوند",
 	"wikieditor-toolbar-help-content-bolditalic-example": "زغرد او رېوند متن",
 	"wikieditor-toolbar-help-content-ilink-description": "کورنۍ تړنه",
-	"wikieditor-toolbar-help-content-ilink-example": "[[د مخ سرليک]]\n[[د مخ سرليک|د تړنې نښلن]]",
+	"wikieditor-toolbar-help-content-ilink-example": "[[مخ سرليک]]\n[[مخ سرليک|د تړنې نښلن]]",
 	"wikieditor-toolbar-help-content-xlink-description": "باندنۍ تړنه",
 	"wikieditor-toolbar-help-content-xlink-example-label": "د تړنې نښلن",
 	"wikieditor-toolbar-help-content-heading2-description": "د دويمې کچې سرليک",
@@ -141,7 +142,7 @@
 	"wikieditor-toolbar-help-content-signature-example": "[[$1:$3|$3]] ([[$2:$3|خبرې اترې]])",
 	"wikieditor-toolbar-help-content-signature-username": "کارن‌نوم",
 	"wikieditor-toolbar-help-content-indent-description": "سرتشه",
-	"wikieditor-toolbar-help-content-indent1": "عادي متن",
+	"wikieditor-toolbar-help-content-indent1": "نورمال ليک",
 	"wikieditor-realtimepreview-preview": "مخليدنه",
 	"wikieditor-realtimepreview-reload": "بيابارول"
 }
