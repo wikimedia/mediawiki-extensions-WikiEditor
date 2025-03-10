@@ -67,6 +67,8 @@
 	"wikieditor-toolbar-tool-ulist-example": "Nenumurēta saraksta elements",
 	"wikieditor-toolbar-tool-olist": "Numurēts saraksts",
 	"wikieditor-toolbar-tool-olist-example": "Numurēta saraksta elements",
+	"wikieditor-toolbar-tool-code": "Datora kods",
+	"wikieditor-toolbar-tool-code-example": "Datora kods",
 	"wikieditor-toolbar-tool-nowiki": "Ignorēt wiki formatējumu",
 	"wikieditor-toolbar-tool-nowiki-example": "Ievietojiet tekstu, ko nevajag formatēt, šeit",
 	"wikieditor-toolbar-tool-redirect": "Pāradresācija",
