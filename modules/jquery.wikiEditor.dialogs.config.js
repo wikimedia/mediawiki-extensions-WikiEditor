@@ -492,7 +492,7 @@ module.exports = {
 
 						const parseFileSyntax = function ( wikitext ) {
 							const escapedPipe = '\u0001';
-							if ( wikitext.indexOf( escapedPipe ) !== -1 ) {
+							if ( wikitext.includes( escapedPipe ) ) {
 								return false;
 							}
 							const match = /^(\s*)\[\[(.*)\]\](\s*)$/.exec( wikitext );
@@ -514,21 +514,21 @@ module.exports = {
 							for ( let i = 1; i < params.length; i++ ) {
 								const paramOrig = params[ i ];
 								const param = paramOrig.toLowerCase();
-								if ( magicWordsI18N.img_right.indexOf( param ) !== -1 ) {
+								if ( magicWordsI18N.img_right.includes( param ) ) {
 									result.fileFloat = magicWordsI18N.img_right[ 0 ];
-								} else if ( magicWordsI18N.img_left.indexOf( param ) !== -1 ) {
+								} else if ( magicWordsI18N.img_left.includes( param ) ) {
 									result.fileFloat = magicWordsI18N.img_left[ 0 ];
-								} else if ( magicWordsI18N.img_none.indexOf( param ) !== -1 ) {
+								} else if ( magicWordsI18N.img_none.includes( param ) ) {
 									result.fileFloat = magicWordsI18N.img_none[ 0 ];
-								} else if ( magicWordsI18N.img_center.indexOf( param ) !== -1 ) {
+								} else if ( magicWordsI18N.img_center.includes( param ) ) {
 									result.fileFloat = magicWordsI18N.img_center[ 0 ];
-								} else if ( magicWordsI18N.img_thumbnail.indexOf( param ) !== -1 ) {
+								} else if ( magicWordsI18N.img_thumbnail.includes( param ) ) {
 									result.fileFormat = magicWordsI18N.img_thumbnail[ 0 ];
-								} else if ( magicWordsI18N.img_framed.indexOf( param ) !== -1 ) {
+								} else if ( magicWordsI18N.img_framed.includes( param ) ) {
 									result.fileFormat = magicWordsI18N.img_framed[ 0 ];
-								} else if ( magicWordsI18N.img_frameless.indexOf( param ) !== -1 ) {
+								} else if ( magicWordsI18N.img_frameless.includes( param ) ) {
 									result.fileFormat = magicWordsI18N.img_frameless[ 0 ];
-								} else if ( magicWordsI18N.img_alt.indexOf( param.split( '=', 2 )[ 0 ] + '=$1' ) !== -1 ) {
+								} else if ( magicWordsI18N.img_alt.includes( param.split( '=', 2 )[ 0 ] + '=$1' ) ) {
 									result.fileAlt = paramOrig.split( '=', 2 )[ 1 ];
 								} else if ( /.+px$/.test( param ) ) {
 									result.fileSize = param.replace( /px$/, '' );

@@ -477,7 +477,7 @@ $.fn.wikiEditor = function () {
 				for ( const extension in $.wikiEditor.extensions ) {
 					if (
 						$.wikiEditor.isRequired( $.wikiEditor.modules[ m ], extension ) &&
-						context.extensions.indexOf( extension ) === -1
+						!context.extensions.includes( extension )
 					) {
 						context.extensions[ context.extensions.length ] = extension;
 						$.wikiEditor.extensions[ extension ]( context );
