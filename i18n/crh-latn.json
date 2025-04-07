@@ -6,8 +6,12 @@
 			"Zolgoyo"
 		]
 	},
+	"wikieditor-toolbar-preference": "Deñiştirüv panelini işlet",
+	"wikieditor-toolbar-preference-help": "Bu funktsiyağa bazıda \"2010 vikimetin türlendirgiçi\" de aytıla.",
 	"wikieditor-toolbar-tool-bold": "Qalın",
-	"wikieditor-toolbar-tool-italic": "İtalik",
+	"wikieditor-toolbar-tool-bold-example": "Qalın metin",
+	"wikieditor-toolbar-tool-italic": "Kursiv",
+	"wikieditor-toolbar-tool-italic-example": "Kursiv metin",
 	"wikieditor-toolbar-tool-link": "Bağlantı",
 	"wikieditor-toolbar-tool-file": "Resimler ve mediya",
 	"wikieditor-toolbar-tool-file-title": "Fayl qoy",
