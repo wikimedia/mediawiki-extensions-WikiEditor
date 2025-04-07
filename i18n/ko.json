@@ -17,7 +17,8 @@
 			"관인생략",
 			"아라",
 			"Suleiman the Magnificent Television",
-			"Markingdots"
+			"Markingdots",
+			"Tensama0415"
 		]
 	},
 	"wikieditor": "확장된 위키텍스트 편집 인터페이스",
@@ -53,7 +54,7 @@
 	"wikieditor-toolbar-tool-link-int-target-status-external": "외부 링크",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "이 문서는 본문 내용 문서가 아니라, 유사한 이름을 가진 주제의 목록입니다",
 	"wikieditor-toolbar-tool-link-int-invalid": "입력한 제목이 잘못되었습니다.",
-	"wikieditor-toolbar-tool-link-lookslikeinternal": "입력한 URL은 다른 내부 문서일 수 있습니다.\n안쪽 링크로 바꾸겠습니까?",
+	"wikieditor-toolbar-tool-link-lookslikeinternal": "입력한 URL은 다른 위키로 연결되도록 의도된 링크일 수도 있습니다.\n내부 링크로 만들겠습니까?",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "내부 링크",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "외부 링크",
 	"wikieditor-toolbar-tool-file": "이미지 및 미디어",
