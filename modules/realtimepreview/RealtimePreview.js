@@ -355,12 +355,15 @@ RealtimePreview.prototype.doRealtimePreview = function ( forceUpdate ) {
 		loadingSelectors: loadingSelectors,
 		// Don't hide the diff view, if visible.
 		$diffNode: null
-	} ).done( () => {
-		this.errorLayout.toggle( false );
-	} ).fail( ( code, result ) => {
-		this.showError( ( new mw.Api() ).getErrorMessage( result ) );
-		mw.log.error( 'WikiEditor realtime preview error', result );
-	} ).always( () => {
+	} ).then(
+		() => {
+			this.errorLayout.toggle( false );
+		},
+		( code, result ) => {
+			this.showError( ( new mw.Api() ).getErrorMessage( result ) );
+			mw.log.error( 'WikiEditor realtime preview error', result );
+		}
+	).then( () => {
 		this.$loadingBar.hide();
 		this.reloadButton.setDisabled( false );
 		if ( !this.errorLayout.isVisible() ) {
