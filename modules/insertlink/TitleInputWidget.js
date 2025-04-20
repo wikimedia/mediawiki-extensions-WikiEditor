@@ -50,7 +50,7 @@ TitleInputWidget.prototype.onLookupInputBlur = function () {
  * @public
  */
 TitleInputWidget.prototype.selectFirstMatch = function () {
-	this.getLookupMenuItems().done( ( items ) => {
+	this.getLookupMenuItems().then( ( items ) => {
 		// The matching item is not always the first,
 		// because disambiguation pages are moved to the end.
 		for ( let i = 0; i < items.length; i++ ) {
