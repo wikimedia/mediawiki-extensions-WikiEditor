@@ -598,7 +598,11 @@ const toolbarModule = {
 			const $row = $( '<tr>' );
 			for ( let i = 0; i < headings.length; i++ ) {
 				$row.append(
-					$( '<th>' ).html( $.wikiEditor.autoSafeMsg( headings[ i ], [ 'html', 'text' ] ) )
+					headings[ i ].msg ?
+						// eslint-disable-next-line mediawiki/msg-doc
+						$( '<th>' ).append( mw.message( headings[ i ].msg ).parseDom() ) :
+						// Deprecated backward compatibility
+						$( '<th>' ).html( $.wikiEditor.autoSafeMsg( headings[ i ], [ 'html', 'text' ] ) )
 				);
 			}
 			return $row;

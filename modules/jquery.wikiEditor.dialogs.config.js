@@ -98,7 +98,7 @@ module.exports = {
 	getDefaultConfig: function () {
 		return { dialogs: {
 			'insert-link': {
-				title: mw.message( 'wikieditor-toolbar-tool-link-title' ).parse(),
+				title: mw.message( 'wikieditor-toolbar-tool-link-title' ),
 				id: 'wikieditor-toolbar-link-dialog',
 				html: $( '<fieldset>' ).append(
 					insertLinkTitleInputField.$element,
@@ -343,7 +343,7 @@ module.exports = {
 				}
 			},
 			'insert-file': {
-				title: mw.message( 'wikieditor-toolbar-tool-file-title' ).parse(),
+				title: mw.message( 'wikieditor-toolbar-tool-file-title' ),
 				id: 'wikieditor-toolbar-file-dialog',
 				htmlTemplate: 'dialogInsertFile.html',
 				init: function () {
@@ -590,7 +590,7 @@ module.exports = {
 				}
 			},
 			'insert-table': {
-				title: mw.message( 'wikieditor-toolbar-tool-table-title' ).parse(),
+				title: mw.message( 'wikieditor-toolbar-tool-table-title' ),
 				id: 'wikieditor-toolbar-table-dialog',
 				htmlTemplate: 'dialogInsertTable.html',
 				init: function () {
@@ -756,7 +756,7 @@ module.exports = {
 				}
 			},
 			'search-and-replace': {
-				title: mw.message( 'wikieditor-toolbar-tool-replace-title' ).parse(),
+				title: mw.message( 'wikieditor-toolbar-tool-replace-title' ),
 				id: 'wikieditor-toolbar-replace-dialog',
 				htmlTemplate: 'dialogReplace.html',
 				init: function () {

@@ -161,9 +161,9 @@ QUnit.module( 'ext.wikiEditor.toolbar', ( hooks ) => {
 					layout: 'table',
 					label: 'Colors',
 					headings: [
-						{ text: 'Name' },
-						{ text: 'Temperature' },
-						{ text: 'Swatch' }
+						{ msg: 'Name' },
+						{ msg: 'Temperature' },
+						{ msg: 'Swatch' }
 					]
 				}
 			}

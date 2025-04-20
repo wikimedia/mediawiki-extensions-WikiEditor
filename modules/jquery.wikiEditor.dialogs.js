@@ -94,7 +94,13 @@ const dialogsModule = {
 			if ( typeof configuration.modal === 'undefined' ) {
 				configuration.modal = true;
 			}
-			configuration.title = $.wikiEditor.autoSafeMsg( module, 'title' );
+			// The jQuery UI Dialog Widget option title (https://api.jqueryui.com/dialog/#option-title)
+			// is specified as string but also accepts DOM elements like other jQuery functions.
+			// Therefor use .parseDom() instead of .parse().
+			configuration.title = module.title instanceof mw.Message ?
+				module.title.parseDom() :
+				// Deprecated backward compatibility
+				module.title;
 			// Transform messages in keys
 			// Stupid JS won't let us do stuff like
 			// foo = { mw.msg( 'bar' ): baz }
