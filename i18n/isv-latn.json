@@ -63,6 +63,8 @@
 	"wikieditor-toolbar-tool-ulist-example": "Element točkovanogo spiska",
 	"wikieditor-toolbar-tool-olist": "Numerovany spisok",
 	"wikieditor-toolbar-tool-olist-example": "Element numerovanogo spiska",
+	"wikieditor-toolbar-tool-code": "Programny kod",
+	"wikieditor-toolbar-tool-code-example": "Programny kod",
 	"wikieditor-toolbar-tool-nowiki": "Bez viki-formatovanja",
 	"wikieditor-toolbar-tool-nowiki-example": "Neformatovany tekst vstavite tu",
 	"wikieditor-toolbar-tool-redirect": "Prěnapravjenje",
