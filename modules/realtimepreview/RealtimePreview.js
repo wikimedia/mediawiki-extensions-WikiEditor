@@ -71,6 +71,8 @@ function RealtimePreview() {
 	this.lastWikitext = null;
 	// Used to average response times and automatically disable realtime preview if it's very slow.
 	this.responseTimes = [];
+	// Used to hide the 'abort' error when submitting the #editform.
+	this.isSubmitting = false;
 }
 
 /**
@@ -177,6 +179,10 @@ RealtimePreview.prototype.toggle = function ( saveUserPref ) {
 		$textarea.off( this.eventNames );
 		$form.off( 'reset.realtimepreview' );
 
+		// Remove the submit handler.
+		$form.off( 'submit.realtimepreview' );
+		this.isSubmitting = false;
+
 		// Let other things happen after disabling.
 		mw.hook( 'ext.WikiEditor.realtimepreview.disable' ).fire( this );
 
@@ -201,6 +207,10 @@ RealtimePreview.prototype.toggle = function ( saveUserPref ) {
 
 		// Hide or show the manual-reload message bar.
 		this.manualWidget.toggle( this.inManualMode );
+
+		$form.on( 'submit.realtimepreview', () => {
+			this.isSubmitting = true;
+		} );
 
 		// Let other things happen after enabling.
 		mw.hook( 'ext.WikiEditor.realtimepreview.enable' ).fire( this );
@@ -277,6 +287,11 @@ RealtimePreview.prototype.enableFeatureWhenScreenIsWideEnough = function () {
  * @param {jQuery} $msg
  */
 RealtimePreview.prototype.showError = function ( $msg ) {
+	if ( this.isSubmitting ) {
+		// Do not show any error if the form has been submitted (the page is being reloaded and
+		// any preview request will have been aborted).
+		return;
+	}
 	this.$previewNode.hide();
 	this.reloadButton.toggle( false );
 	this.manualWidget.toggle( false );
