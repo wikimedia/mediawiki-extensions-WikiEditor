@@ -91,7 +91,7 @@ RealtimePreview.prototype.getToolbarButton = function ( context ) {
 	context.$textarea.addClass( 'ext-WikiEditor-realtimepreview-textbox' );
 
 	// Add the resizing bar.
-	const bottomDragBar = new ResizingDragBar( { isEW: false } );
+	const bottomDragBar = new ResizingDragBar( { isEW: false, id: 'ext-WikiEditor-bottom-dragbar' } );
 	$uiText.after( bottomDragBar.$element );
 
 	// Create and configure the toolbar button.
