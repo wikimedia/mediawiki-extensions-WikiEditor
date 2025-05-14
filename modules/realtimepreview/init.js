@@ -7,15 +7,16 @@ mw.hook( 'wikiEditor.toolbarReady' ).add( function ( $textarea ) {
 	}
 
 	const RealtimePreview = require( './RealtimePreview.js' );
-	const realtimePreview = new RealtimePreview();
+	const realtimePreview = new RealtimePreview( $textarea.data( 'wikiEditorContext' ) );
+
 	$textarea.wikiEditor( 'addToToolbar', {
 		section: 'secondary',
 		group: 'default',
 		tools: {
 			realtimepreview: {
 				type: 'element',
-				element: function ( context ) {
-					return realtimePreview.getToolbarButton( context );
+				element: function () {
+					return realtimePreview.getToolbarButton();
 				}
 			}
 		}

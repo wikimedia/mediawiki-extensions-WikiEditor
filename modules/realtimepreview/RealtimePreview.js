@@ -6,8 +6,10 @@ const localStorage = require( 'mediawiki.storage' ).local;
 
 /**
  * @class
+ * @param {Object} context The WikiEditor context.
  */
-function RealtimePreview() {
+function RealtimePreview( context ) {
+	this.context = context;
 	this.configData = mw.loader.moduleRegistry[ 'ext.wikiEditor' ].script.files[ 'data.json' ];
 	// Preference name, must match what's in extension.json and Hooks.php.
 	this.prefName = 'wikieditor-realtimepreview';
@@ -23,6 +25,7 @@ function RealtimePreview() {
 		.addClass( 'ext-WikiEditor-realtimepreview-preview' )
 		.attr( 'tabindex', '1' ) // T317108
 		.append( $previewContent );
+	this.createToolbarButton();
 
 	// Loading bar.
 	this.$loadingBar = $( '<div>' ).addClass( 'ext-WikiEditor-realtimepreview-loadingbar' ).append( '<div>' );
@@ -76,19 +79,16 @@ function RealtimePreview() {
 }
 
 /**
- * @public
- * @param {Object} context The WikiEditor context.
- * @return {jQuery}
+ * @private
  */
-RealtimePreview.prototype.getToolbarButton = function ( context ) {
-	this.context = context;
-	const $uiText = context.$ui.find( '.wikiEditor-ui-text' );
+RealtimePreview.prototype.createToolbarButton = function () {
+	const $uiText = this.context.$ui.find( '.wikiEditor-ui-text' );
 
 	// Fix the height of the textarea, before adding a resizing bar below it.
-	const height = context.$textarea.height();
+	const height = this.context.$textarea.height();
 	$uiText.css( 'height', height + 'px' );
-	context.$textarea.removeAttr( 'rows cols' );
-	context.$textarea.addClass( 'ext-WikiEditor-realtimepreview-textbox' );
+	this.context.$textarea.removeAttr( 'rows cols' );
+	this.context.$textarea.addClass( 'ext-WikiEditor-realtimepreview-textbox' );
 
 	// Add the resizing bar.
 	const bottomDragBar = new ResizingDragBar( { isEW: false, id: 'ext-WikiEditor-bottom-dragbar' } );
@@ -114,7 +114,13 @@ RealtimePreview.prototype.getToolbarButton = function ( context ) {
 
 	// Remove the old onboarding-status storage that was discontinued in March 2023.
 	localStorage.remove( 'WikiEditor-RealtimePreview-onboarding-dismissed' );
+};
 
+/**
+ * @public
+ * @return {jQuery}
+ */
+RealtimePreview.prototype.getToolbarButton = function () {
 	return $( '<div>' ).append( this.button.$element );
 };
 
