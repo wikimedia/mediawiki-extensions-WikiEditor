@@ -26,7 +26,8 @@
 			"Xiaomingyan",
 			"Zhang8569",
 			"列维劳德",
-			"铁桶"
+			"铁桶",
+			"沈澄心"
 		]
 	},
 	"wikieditor": "高级wikitext编辑界面",
@@ -88,6 +89,8 @@
 	"wikieditor-toolbar-tool-ulist-example": "无序列表项",
 	"wikieditor-toolbar-tool-olist": "有序列表",
 	"wikieditor-toolbar-tool-olist-example": "有序列表项",
+	"wikieditor-toolbar-tool-code": "代码",
+	"wikieditor-toolbar-tool-code-example": "代码",
 	"wikieditor-toolbar-tool-nowiki": "非wiki格式",
 	"wikieditor-toolbar-tool-nowiki-example": "请在这里插入非格式化文本",
 	"wikieditor-toolbar-tool-redirect": "重定向",
