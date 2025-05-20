@@ -13,6 +13,12 @@ mw.hook( 'wikiEditor.toolbarReady' ).add( function ( $textarea ) {
 		section: 'secondary',
 		group: 'default',
 		tools: {
+			realtimepreviewReload: {
+				type: 'element',
+				element: function () {
+					return realtimePreview.getToolbarReloadButton();
+				}
+			},
 			realtimepreview: {
 				type: 'element',
 				element: function () {

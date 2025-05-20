@@ -40,11 +40,12 @@ function RealtimePreview( context ) {
 		}.bind( this )
 	} );
 
-	// Manual reload button (visible on hover).
+	// Manual reload button.
 	this.reloadButton = new OO.ui.ButtonWidget( {
-		classes: [ 'ext-WikiEditor-reloadButton' ],
+		// Add the .tool class.
+		classes: [ 'tool', 'ext-WikiEditor-reloadButton' ],
 		icon: 'reload',
-		label: mw.msg( 'wikieditor-realtimepreview-reload' ),
+		framed: false,
 		accessKey: mw.msg( 'accesskey-wikieditor-realtimepreview' ),
 		title: mw.msg( 'wikieditor-realtimepreview-reload-title' )
 	} );
@@ -54,19 +55,21 @@ function RealtimePreview( context ) {
 			if ( this.enabled ) {
 				this.doRealtimePreview( true );
 			}
-			// Let other things happen after refreshing.
+			// Let other things happen after reloading.
+			// The button used to appear only when hovering on the preview pane, hence the hook name.
 			mw.hook( 'ext.WikiEditor.realtimepreview.reloadHover' ).fire( this );
 		}.bind( this )
 	} );
+	this.reloadButton.toggle( this.enabled );
 
 	// Manual mode widget.
-	this.manualWidget = new ManualWidget( this, this.reloadButton );
+	this.manualWidget = new ManualWidget( this );
 	// Set up a property for reducedMotion — useful for customising the UI message.
 	this.reducedMotion = window.matchMedia( '(prefers-reduced-motion: reduce)' ).matches;
 	// If the user has "prefers-reduced-motion" set, force us into manual mode.
 	this.inManualMode = this.reducedMotion;
 
-	this.twoPaneLayout.getPane2().append( this.manualWidget.$element, this.reloadButton.$element, this.$loadingBar, this.$previewNode, this.errorLayout.$element );
+	this.twoPaneLayout.getPane2().append( this.manualWidget.$element, this.$loadingBar, this.$previewNode, this.errorLayout.$element );
 	this.eventNames = 'change.realtimepreview input.realtimepreview cut.realtimepreview paste.realtimepreview';
 	// Used to ensure we wait for a response before making new requests.
 	this.isPreviewing = false;
@@ -121,7 +124,15 @@ RealtimePreview.prototype.createToolbarButton = function () {
  * @return {jQuery}
  */
 RealtimePreview.prototype.getToolbarButton = function () {
-	return $( '<div>' ).append( this.button.$element );
+	return this.button.$element;
+};
+
+/**
+ * @public
+ * @return {jQuery}
+ */
+RealtimePreview.prototype.getToolbarReloadButton = function () {
+	return this.reloadButton.$element;
 };
 
 /**
@@ -192,6 +203,9 @@ RealtimePreview.prototype.toggle = function ( saveUserPref ) {
 		// Let other things happen after disabling.
 		mw.hook( 'ext.WikiEditor.realtimepreview.disable' ).fire( this );
 
+		// Remove the reload button from the toolbar.
+		this.reloadButton.toggle( false );
+
 	} else {
 		// Add the layout before the text div of the UI and then move the text div into it.
 		$uiText.before( this.twoPaneLayout.$element );
@@ -217,6 +231,9 @@ RealtimePreview.prototype.toggle = function ( saveUserPref ) {
 		$form.on( 'submit.realtimepreview', () => {
 			this.isSubmitting = true;
 		} );
+
+		// Show the reload button in the toolbar.
+		this.reloadButton.toggle( true );
 
 		// Let other things happen after enabling.
 		mw.hook( 'ext.WikiEditor.realtimepreview.enable' ).fire( this );
@@ -299,7 +316,6 @@ RealtimePreview.prototype.showError = function ( $msg ) {
 		return;
 	}
 	this.$previewNode.hide();
-	this.reloadButton.toggle( false );
 	this.manualWidget.toggle( false );
 	// There is no need for a default message because mw.Api.getErrorMessage() will
 	// always provide something (even for no network connection, server-side fatal errors, etc.).
@@ -387,10 +403,6 @@ RealtimePreview.prototype.doRealtimePreview = function ( forceUpdate ) {
 	).then( () => {
 		this.$loadingBar.hide();
 		this.reloadButton.setDisabled( false );
-		if ( !this.errorLayout.isVisible() ) {
-			// Only re-show the reload button if no error message is currently showing.
-			this.reloadButton.toggle( true );
-		}
 		// Show the manual mode if applicable (but not if an error is displayed).
 		this.manualWidget.toggle( this.inManualMode && !this.errorLayout.isVisible() );
 		this.manualWidget.setDisabled( false );
