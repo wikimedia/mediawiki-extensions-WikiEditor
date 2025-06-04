@@ -6,8 +6,14 @@ mw.hook( 'wikiEditor.toolbarReady' ).add( function ( $textarea ) {
 		return;
 	}
 
+	// Ensure WikiEditor has loaded.
+	const context = $textarea.data( 'wikiEditor-context' );
+	if ( context === undefined ) {
+		return;
+	}
+
 	const RealtimePreview = require( './RealtimePreview.js' );
-	const realtimePreview = new RealtimePreview( $textarea.data( 'wikiEditorContext' ) );
+	const realtimePreview = new RealtimePreview( context );
 
 	$textarea.wikiEditor( 'addToToolbar', {
 		section: 'secondary',
