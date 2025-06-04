@@ -362,7 +362,7 @@ RealtimePreview.prototype.doRealtimePreview = function ( forceUpdate ) {
 		return;
 	}
 
-	const $textareaNode = $( '#wpTextbox1' );
+	const $textareaNode = this.context.$textarea;
 	const wikitext = $textareaNode.textSelection( 'getContents' );
 	if ( !forceUpdate && wikitext === this.lastWikitext ) {
 		// Wikitext unchanged, no update necessary
