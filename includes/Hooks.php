@@ -65,21 +65,12 @@ class Hooks implements
 	/** @var string[] */
 	private static $tags = [ 'wikieditor' ];
 
-	private Config $config;
-	private UserEditTracker $userEditTracker;
-	private UserOptionsLookup $userOptionsLookup;
-	private ?MobileContext $mobileContext;
-
 	public function __construct(
-		Config $config,
-		UserEditTracker $userEditTracker,
-		UserOptionsLookup $userOptionsLookup,
-		?MobileContext $mobileContext
+		private readonly Config $config,
+		private readonly UserEditTracker $userEditTracker,
+		private readonly UserOptionsLookup $userOptionsLookup,
+		private readonly ?MobileContext $mobileContext,
 	) {
-		$this->config = $config;
-		$this->userEditTracker = $userEditTracker;
-		$this->userOptionsLookup = $userOptionsLookup;
-		$this->mobileContext = $mobileContext;
 	}
 
 	/**
