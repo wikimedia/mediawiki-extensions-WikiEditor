@@ -399,7 +399,7 @@ class Hooks implements
 	 * @return string
 	 */
 	private static function getSignatureMessage( MessageLocalizer $ml, bool $raw = false ): string {
-		$msg = $ml->msg( 'sig-text' )->params( '~~~~' )->inContentLanguage();
+		$msg = $ml->msg( 'sig-text', '~~~~' )->inContentLanguage();
 		return $raw ? $msg->plain() : $msg->text();
 	}
 
