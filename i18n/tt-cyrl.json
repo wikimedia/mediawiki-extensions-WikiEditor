@@ -8,7 +8,8 @@
 			"Ильнар",
 			"Рашат Якупов",
 			"Don Alessandro",
-			"З. ӘЙЛЕ"
+			"З. ӘЙЛЕ",
+			"Ильгиз"
 		]
 	},
 	"wikieditor": "Викитекстны үзгәртү буенча киңәйтелгән интерфейс",
@@ -137,7 +138,7 @@
 	"wikieditor-toolbar-help-page-list": "Исемлекләр",
 	"wikieditor-toolbar-help-page-file": "Файллар",
 	"wikieditor-toolbar-help-page-reference": "Искәрмә",
-	"wikieditor-toolbar-help-page-discussion": "Бәхәс",
+	"wikieditor-toolbar-help-page-discussion": "Фикер алышу",
 	"wikieditor-toolbar-help-content-italic-description": "Авышлы",
 	"wikieditor-toolbar-help-content-italic-syntax": "''Авышлы кулъязма''",
 	"wikieditor-toolbar-help-content-italic-result": "<em>Авышлы кулъязма</em>",
