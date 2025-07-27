@@ -888,7 +888,7 @@ const toolbarModule = {
 			context.$textarea.on( 'keydown', ( e ) => {
 				// Check if the primary modifier key is pressed and that others aren't
 				const target = e[ platformModifier ] && !e[ otherModifier ] && !e.altKey && !e.shiftKey &&
-					toolbarModule.fn.ctrlShortcuts[ e.which ];
+					( toolbarModule.fn.ctrlShortcuts[ e.key ] || toolbarModule.fn.ctrlShortcuts[ e.which ] );
 				if ( target ) {
 					e.preventDefault();
 					toolbarModule.fn.doAction( context, target.action );
