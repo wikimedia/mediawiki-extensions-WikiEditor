@@ -298,7 +298,7 @@ const toolbarModule = {
 							framed: false,
 							classes: [ 'tool' ],
 							icon: tool.oouiIcon,
-							title: label
+							title: this.buildShortcutLabel( label, tool.hotkey )
 						};
 						let oouiButton;
 						if ( tool.type === 'button' ) {
@@ -894,6 +894,21 @@ const toolbarModule = {
 					toolbarModule.fn.doAction( context, target.action );
 				}
 			} );
+		},
+		buildShortcutLabel: function ( label, key ) {
+			if ( typeof key !== 'string' ) {
+				return label;
+			}
+			const platform = $.client.profile().platform;
+			const platformModifier = platform === 'mac' ? '⌘' : 'ctrl';
+
+			// see: jquery.accessKeyLabel.updateTooltipOnElement
+			const separatorMsg = mw.message( 'word-separator' ).plain();
+			const parts = ( separatorMsg + mw.message( 'brackets' ).plain() ).split( '$1' );
+
+			const regexp = new RegExp( parts.map( mw.util.escapeRegExp ).join( '.*?' ) + '$' );
+
+			return label.replace( regexp, '' ) + separatorMsg + mw.message( 'brackets', platformModifier + '-' + key ).plain();
 		},
 		handleKeyDown: function ( $element, event, $parent ) {
 			const $currentItem = $element.find( '.wikiEditor-character-highlighted' ),
