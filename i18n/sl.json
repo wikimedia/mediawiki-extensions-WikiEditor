@@ -66,6 +66,8 @@
 	"wikieditor-toolbar-tool-ulist-example": "Vnos v označenem seznamu",
 	"wikieditor-toolbar-tool-olist": "Oštevilčen seznam",
 	"wikieditor-toolbar-tool-olist-example": "Vnos v oštevilčenem seznamu",
+	"wikieditor-toolbar-tool-code": "Računalniška koda",
+	"wikieditor-toolbar-tool-code-example": "Računalniška koda",
 	"wikieditor-toolbar-tool-nowiki": "Brez vikioblikovanja",
 	"wikieditor-toolbar-tool-nowiki-example": "Tukaj vstavite neoblikovano besedilo",
 	"wikieditor-toolbar-tool-redirect": "Preusmeritev",
