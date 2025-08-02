@@ -881,13 +881,11 @@ const toolbarModule = {
 		},
 		ctrlShortcuts: {},
 		setupShortcuts: function ( context ) {
-			const platform = $.client.profile().platform;
-			const platformModifier = platform === 'mac' ? 'metaKey' : 'ctrlKey';
-			const otherModifier = platform === 'mac' ? 'ctrlKey' : 'metaKey';
-
 			context.$textarea.on( 'keydown', ( e ) => {
+				const modifier = this.modifierForKey( e.key );
+				const otherModifier = modifier === 'ctrlKey' ? 'metaKey' : 'ctrlKey';
 				// Check if the primary modifier key is pressed and that others aren't
-				const target = e[ platformModifier ] && !e[ otherModifier ] && !e.altKey && !e.shiftKey &&
+				const target = e[ modifier ] && !e[ otherModifier ] && !e.altKey && !e.shiftKey &&
 					( toolbarModule.fn.ctrlShortcuts[ e.key ] || toolbarModule.fn.ctrlShortcuts[ e.which ] );
 				if ( target ) {
 					e.preventDefault();
@@ -899,8 +897,7 @@ const toolbarModule = {
 			if ( typeof key !== 'string' ) {
 				return label;
 			}
-			const platform = $.client.profile().platform;
-			const platformModifier = platform === 'mac' ? '⌘' : 'ctrl';
+			const modifier = this.modifierForKey( key ) === 'ctrlKey' ? 'ctrl+' : '⌘';
 
 			// see: jquery.accessKeyLabel.updateTooltipOnElement
 			const separatorMsg = mw.message( 'word-separator' ).plain();
@@ -908,7 +905,16 @@ const toolbarModule = {
 
 			const regexp = new RegExp( parts.map( mw.util.escapeRegExp ).join( '.*?' ) + '$' );
 
-			return label.replace( regexp, '' ) + separatorMsg + mw.message( 'brackets', platformModifier + '-' + key ).plain();
+			return label.replace( regexp, '' ) + separatorMsg + mw.message( 'brackets', modifier + key ).plain();
+		},
+		modifierForKey: function ( key ) {
+			const profile = $.client.profile();
+			if ( profile.name === 'safari' && key === ',' ) {
+				// Safari doesn't let you override some macOS system-level
+				// shortcuts, so they should fall back to using a different modifier.
+				return 'ctrlKey';
+			}
+			return profile.platform === 'mac' ? 'metaKey' : 'ctrlKey';
 		},
 		handleKeyDown: function ( $element, event, $parent ) {
 			const $currentItem = $element.find( '.wikiEditor-character-highlighted' ),
