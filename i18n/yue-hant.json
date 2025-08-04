@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Al12si",
 			"H78c67c",
 			"JeffreyKim",
 			"Winston Sung"
@@ -40,7 +41,7 @@
 	"wikieditor-toolbar-tool-file-title": "插入快勞",
 	"wikieditor-toolbar-file-target": "快勞個名：",
 	"wikieditor-toolbar-file-caption": "標題：",
-	"wikieditor-toolbar-file-alt": "另類文字：",
+	"wikieditor-toolbar-file-alt": "替代文字：",
 	"wikieditor-toolbar-file-alt-help": "你可以用呢個選擇性欄位為睇唔到檔案嘅人寫文字描述。\n描述應該足以令佢哋明白媒體項目所提供嘅目的同資訊。呢個對盲人用戶同其他使用螢幕閱讀器軟件或者純文字瀏覽器嘅人嚟講係非常重要嘅。",
 	"wikieditor-toolbar-file-alt-help-label": "（顯示幫助）",
 	"wikieditor-toolbar-file-size": "嘥士:",
