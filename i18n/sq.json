@@ -7,7 +7,8 @@
 			"Mikullovci11",
 			"Nemo bis",
 			"Olsi",
-			"Ritam"
+			"Ritam",
+			"Xhulianoo"
 		]
 	},
 	"wikieditor": "Ndërfaqja e përparuar e redaktimit të wikitextit",
@@ -92,7 +93,7 @@
 	"wikieditor-toolbar-tool-table-title": "Shto tabelë",
 	"wikieditor-toolbar-tool-table-dimensions-rows": "Rreshta",
 	"wikieditor-toolbar-tool-table-dimensions-columns": " Kolona",
-	"wikieditor-toolbar-tool-table-dimensions-header": "Shtoni kryeradhen",
+	"wikieditor-toolbar-tool-table-dimensions-header": "Shto rreshtin e titujve",
 	"wikieditor-toolbar-tool-table-wikitable": "Stil me kufij",
 	"wikieditor-toolbar-tool-table-sortable": "Bëni tabelë të rënditshme",
 	"wikieditor-toolbar-tool-table-example": "Shembull",
@@ -144,7 +145,7 @@
 	"wikieditor-toolbar-help-content-heading4-example": "Mbishkrimi",
 	"wikieditor-toolbar-help-content-heading5-description": "Kryeradhe niveli 5",
 	"wikieditor-toolbar-help-content-heading5-example": "Mbishkrimi",
-	"wikieditor-toolbar-help-content-ulist-description": "Lista e numruar",
+	"wikieditor-toolbar-help-content-ulist-description": "Lista me pika",
 	"wikieditor-toolbar-help-content-olist-description": "Lista e numëruar",
 	"wikieditor-toolbar-help-content-file-description": "Vendos një figurë",
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example.png|$2|$3]]",
