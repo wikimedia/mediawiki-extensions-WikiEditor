@@ -171,7 +171,7 @@
 	"wikieditor-toolbar-help-content-ulist-description": "Označen seznam",
 	"wikieditor-toolbar-help-content-ulist-syntax": "* Vnos a<br />* Vnos b",
 	"wikieditor-toolbar-help-content-ulist-result": "<ul><li> Vnos a </li><li> Vnos b </li></ul>",
-	"wikieditor-toolbar-help-content-olist-description": "Oštevilčen seznam",
+	"wikieditor-toolbar-help-content-olist-description": "Oštevilčeni seznam",
 	"wikieditor-toolbar-help-content-olist-syntax": "# Vnos a <br /> # Vnos b",
 	"wikieditor-toolbar-help-content-olist-result": "<ol><li> Vnos a </li><li> Vnos b </li></ol>",
 	"wikieditor-toolbar-help-content-file-description": "Vgradnja slike",
