@@ -5,7 +5,8 @@
 			"H78c67c",
 			"JeffreyKim",
 			"Ktchankt",
-			"Winston Sung"
+			"Winston Sung",
+			"Yueman"
 		]
 	},
 	"wikieditor": "進階維基文字編輯界面",
@@ -111,7 +112,7 @@
 	"wikieditor-toolbar-tool-replace-button-findnext": "下筆",
 	"wikieditor-toolbar-tool-replace-button-replace": "代替",
 	"wikieditor-toolbar-tool-replace-button-replaceall": "取代全部",
-	"wikieditor-toolbar-tool-replace-close": "關閉",
+	"wikieditor-toolbar-tool-replace-close": "閂",
 	"wikieditor-toolbar-tool-replace-nomatch": "你嘅搜尋唔配合任何野。",
 	"wikieditor-toolbar-tool-replace-success": "已取代$1個。",
 	"wikieditor-toolbar-tool-replace-emptysearch": "你無打要搵啲咩。",
