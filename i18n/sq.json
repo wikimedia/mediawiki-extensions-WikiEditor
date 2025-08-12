@@ -12,7 +12,7 @@
 		]
 	},
 	"wikieditor": "Ndërfaqja e përparuar e redaktimit të wikitextit",
-	"wikieditor-desc": "Siguron një ndërfaqe të avancuar të rededimit të wikitext-it të avancuar",
+	"wikieditor-desc": "Ofron një ndërfaqe redaktimi wikiteksti të përparuar dhe të zgjerueshme",
 	"wikieditor-wikitext-tab": "Tekstwiki",
 	"wikieditor-toolbar": "Paneli i veglave të editimit",
 	"wikieditor-toolbar-desc": "Redaktoni shiritin e veglave të faqes me përdorshmëri të zgjeruar",
@@ -57,7 +57,7 @@
 	"wikieditor-toolbar-tool-file-cancel": "Anulo",
 	"wikieditor-toolbar-tool-file-upload": "Ngarko",
 	"wikieditor-toolbar-tool-signature": "Nënshkrimi dhe vula e kohës",
-	"wikieditor-toolbar-section-advanced": "Avancuar",
+	"wikieditor-toolbar-section-advanced": "Të përparuara",
 	"wikieditor-toolbar-tool-heading": "Mbishkrimi",
 	"wikieditor-toolbar-tool-heading-1": "Niveli 1",
 	"wikieditor-toolbar-tool-heading-2": "Niveli 2",
