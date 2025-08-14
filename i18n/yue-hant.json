@@ -35,7 +35,7 @@
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "呢個頁面喺{{SITENAME}}上面唔存在",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "你指定嘅標題無效",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "外部連結",
-	"wikieditor-toolbar-tool-link-int-target-status-disambig": "呢個頁面唔係內容頁面，而係一個名稱相似嘅主題清單",
+	"wikieditor-toolbar-tool-link-int-target-status-disambig": "呢版唔係內容頁面，而係一個集合咗有相似名嘅主題嘅清單",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "條URL應該係連去其他Wiki頁面嘅，你打唔打算做一個內部連結？",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-int": "內部連結",
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "外部連結",
