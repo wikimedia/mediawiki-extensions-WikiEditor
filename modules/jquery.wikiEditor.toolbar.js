@@ -597,6 +597,9 @@ const toolbarModule = {
 		buildHeading: function ( context, headings ) {
 			const $row = $( '<tr>' );
 			for ( let i = 0; i < headings.length; i++ ) {
+				if ( !headings[ i ].msg ) {
+					mw.log.warn( 'The toolbar headings must use a `msg` key with a `mw.Message` key as value. Other keys are deprecated.' );
+				}
 				$row.append(
 					headings[ i ].msg ?
 						// eslint-disable-next-line mediawiki/msg-doc
