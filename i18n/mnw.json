@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ranger-Mon",
-			"咽頭べさ"
+			"咽頭べさ",
+			"Htawmonzel"
 		]
 	},
 	"wikieditor-wikitext-tab": "လိက်ဝဳကဳ",
@@ -107,6 +108,6 @@
 	"wikieditor-toolbar-help-content-file-syntax": "[[$1:Example-mnw.png|$2|$3]]",
 	"wikieditor-toolbar-help-content-file-caption": "က္ဍိုပ်လိက်ဗီုရုပ်",
 	"wikieditor-toolbar-help-content-signature-description": "စၟတ်တဲ",
-	"wikieditor-realtimepreview-preview": "ဗဵုရံၚ်ဗီုပြၚ်",
+	"wikieditor-realtimepreview-preview": "နမူနာ",
 	"wikieditor-realtimepreview-reload": "ကလေၚ်ကော်ကေတ်"
 }
