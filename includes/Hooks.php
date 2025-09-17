@@ -44,9 +44,6 @@ use MobileContext;
 use MWCryptRand;
 use WikimediaEvents\WikimediaEventsHooks;
 
-/**
- * @phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
- */
 class Hooks implements
 	EditPage__showEditForm_initialHook,
 	EditPage__showEditForm_fieldsHook,
