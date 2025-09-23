@@ -4,6 +4,7 @@
 			"Azul25",
 			"Chab2079",
 			"Coala23",
+			"Kuxtal",
 			"Primavera11"
 		]
 	},
@@ -39,12 +40,12 @@
 	"wikieditor-toolbar-tool-link-lookslikeinternal-ext": "tàanxelil liink",
 	"wikieditor-toolbar-tool-file": "wìimvala' yèetel multimedia",
 	"wikieditor-toolbar-tool-file-title": "ts'àa archivo",
-	"wikieditor-toolbar-file-size": "BUKA'AJ U NOJCHIL",
-	"wikieditor-toolbar-file-float": "TOJKÍINSEJ",
-	"wikieditor-toolbar-file-default": "U K'ASA'ANIL",
-	"wikieditor-toolbar-file-format": "BA'ASTI'  Ó  BIXIJ",
-	"wikieditor-toolbar-file-format-none": "MIIX JUMP'ÉEL",
-	"wikieditor-toolbar-tool-file-insert": "SE DICE TS'OOTEJ TAMBIEN  SE PUEDE DECIR OKSEJ",
-	"wikieditor-toolbar-tool-file-cancel": "K'ALEJ",
-	"wikieditor-toolbar-tool-signature": "JOORON TS'ÍIBT YÉETEL E'ESAJ SÚUTUK"
+	"wikieditor-toolbar-file-size": "Buka'aj u p'iisil",
+	"wikieditor-toolbar-file-float": "Tojkíinsej",
+	"wikieditor-toolbar-file-default": "Beetpaja'an",
+	"wikieditor-toolbar-file-format": "Tsoolil meyaj",
+	"wikieditor-toolbar-file-format-none": "MIX JUMP'ÉEL WA MIX BA'AL",
+	"wikieditor-toolbar-tool-file-insert": "oksej wa ts'otej",
+	"wikieditor-toolbar-tool-file-cancel": "p'atej le meyaja'",
+	"wikieditor-toolbar-tool-signature": "JORONTS'ÍIB YÉETEL BA'AX K'IINIL TÁAN U YÚUCHUL"
 }
