@@ -7,7 +7,8 @@
 			"Macofe",
 			"Naudefj",
 			"Servien",
-			"පසිඳු කාවින්ද"
+			"පසිඳු කාවින්ද",
+			"Rooiratel"
 		]
 	},
 	"wikieditor": "Uitgebreide teksverwerker vir wikiteks",
@@ -50,6 +51,7 @@
 	"wikieditor-toolbar-tool-file-title": "Voeg lêer by",
 	"wikieditor-toolbar-file-target": "Lêernaam:",
 	"wikieditor-toolbar-file-caption": "Byskrif:",
+	"wikieditor-toolbar-file-alt-help-label": "(Wys hulp)",
 	"wikieditor-toolbar-file-size": "Grootte:",
 	"wikieditor-toolbar-file-float": "Uitlyning:",
 	"wikieditor-toolbar-file-default": "(standaard)",
