@@ -17,7 +17,6 @@ use MediaWiki\Content\Content;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\EditPage\EditPage;
 use MediaWiki\Extension\ConfirmEdit\Hooks as ConfirmEditHooks;
-use MediaWiki\Extension\ConfirmEdit\SimpleCaptcha\SimpleCaptcha;
 use MediaWiki\Extension\EventLogging\EventLogging;
 use MediaWiki\Hook\EditPage__attemptSave_afterHook;
 use MediaWiki\Hook\EditPage__attemptSaveHook;
@@ -503,8 +502,9 @@ class Hooks implements
 
 				if ( ExtensionRegistry::getInstance()->isLoaded( 'ConfirmEdit' ) ) {
 					$key = CacheKeyHelper::getKeyForPage( $wikiPage );
-					/** @var SimpleCaptcha $captcha */
-					$captcha = ConfirmEditHooks::getInstance();
+					$captcha = ConfirmEditHooks::getInstance(
+						ConfirmEditHooks::getCaptchaTriggerActionFromTitle( $article->getTitle() )
+					);
 					$activatedCaptchas = $captcha->getActivatedCaptchas();
 					if ( isset( $activatedCaptchas[$key] ) ) {
 						// TODO: :(
