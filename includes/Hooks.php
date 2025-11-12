@@ -463,15 +463,28 @@ class Hooks implements
 			$data = [];
 			$data['editing_session_id'] = $statsId;
 
+			// The `wikieditorUsed` parameter is populated in ext.wikiEditor.js, so
+			// if the value is set, we know the submission had JavaScript enabled
+			$sourceHasJs = $request->getRawVal( 'wikieditorUsed' ) === 'yes' ?
+				'source-has-js' :
+				'source-no-js';
+
 			if ( $status->isOK() ) {
 				$action = 'saveSuccess';
 
-				if ( $request->getRawVal( 'wikieditorUsed' ) === 'yes' ) {
-					$this->doVisualEditorFeatureUseLogging(
-						'mwSave', 'source-has-js', $article, $statsId
-					);
-				}
+				$this->doVisualEditorFeatureUseLogging(
+					'mwSave',
+					$sourceHasJs,
+					$article,
+					$statsId
+				);
 			} else {
+				$this->doVisualEditorFeatureUseLogging(
+					'mwSaveFailure',
+					$sourceHasJs,
+					$article,
+					$statsId
+				);
 				$action = 'saveFailure';
 
 				// Compare to ve.init.mw.ArticleTargetEvents.js in VisualEditor.
