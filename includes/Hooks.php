@@ -439,7 +439,7 @@ class Hooks implements
 		$article = $editPage->getArticle();
 		$request = $article->getContext()->getRequest();
 		$statsId = $request->getRawVal( 'editingStatsId' );
-		if ( $statsId !== null ) {
+		if ( $request->getRawVal( 'wikieditorUsed' ) !== null && $statsId !== null ) {
 			$this->doEventLogging(
 				'saveAttempt',
 				$article,
@@ -459,7 +459,11 @@ class Hooks implements
 		$article = $editPage->getArticle();
 		$request = $article->getContext()->getRequest();
 		$statsId = $request->getRawVal( 'editingStatsId' );
-		if ( $statsId !== null ) {
+		// wikieditorUsed will be present in requests from WikiEditor either
+		// as an empty string or as "yes", if JavaScript is enabled
+		// editingStatsId is theoretically only supposed to be populated by WikiEditor
+		// but we cannot rely on this.
+		if ( $request->getRawVal( 'wikieditorUsed' ) !== null && $statsId !== null ) {
 			$data = [];
 			$data['editing_session_id'] = $statsId;
 
@@ -542,8 +546,9 @@ class Hooks implements
 	 */
 	public function onEditPageGetPreviewContent( $editPage, &$content ) {
 		// This hook is only called for non-live previews, so we don't need to check the uselivepreview user option.
-		$editingStatsId = $editPage->getContext()->getRequest()->getRawVal( 'editingStatsId' );
-		if ( $editingStatsId !== null ) {
+		$request = $editPage->getContext()->getRequest();
+		$editingStatsId = $request->getRawVal( 'editingStatsId' );
+		if ( $request->getRawVal( 'wikieditorUsed' ) !== null && $editingStatsId !== null ) {
 			$article = $editPage->getArticle();
 			$this->doVisualEditorFeatureUseLogging( 'preview', 'preview-nonlive', $article, $editingStatsId );
 		}
