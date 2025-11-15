@@ -10,6 +10,8 @@
 	},
 	"rules": {
 		"max-len": "off",
-		"no-jquery/no-global-selector": "off"
+		"no-jquery/no-global-selector": "off",
+		"mediawiki/no-unlabeled-buttonwidget": "warn",
+		"mediawiki/no-storage": "warn"
 	}
 }
