@@ -179,7 +179,7 @@ module.exports = {
 								} else {
 									target = target.trim();
 									// Prepend http:// if there is no protocol
-									if ( !/^[a-z]+:\/\/./.test( target ) ) {
+									if ( !new RegExp( `^(?:${ mw.config.get( 'wgUrlProtocols' ) }).` ).test( target ) ) {
 										target = 'http://' + target;
 									}
 
@@ -220,7 +220,7 @@ module.exports = {
 									const escTarget = escapeExternalTarget( target );
 									const escText = escapeExternalText( text );
 
-									if ( escTarget === escText ) {
+									if ( escTarget === escText && !target.startsWith( '//' ) ) {
 										insertText = escTarget;
 									} else if ( text === '' ) {
 										insertText = '[' + escTarget + ']';
