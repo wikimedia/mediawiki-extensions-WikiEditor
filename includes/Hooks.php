@@ -9,7 +9,6 @@
 namespace MediaWiki\Extension\WikiEditor;
 
 use MediaWiki\Api\ApiMessage;
-use MediaWiki\Cache\CacheKeyHelper;
 use MediaWiki\ChangeTags\Hook\ChangeTagsListActiveHook;
 use MediaWiki\ChangeTags\Hook\ListDefinedTagsHook;
 use MediaWiki\Config\Config;
@@ -29,6 +28,7 @@ use MediaWiki\Logger\LoggerFactory;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Output\OutputPage;
 use MediaWiki\Page\Article;
+use MediaWiki\Page\CacheKeyHelper;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
 use MediaWiki\RecentChanges\RecentChange;
 use MediaWiki\Registration\ExtensionRegistry;
