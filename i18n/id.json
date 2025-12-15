@@ -13,7 +13,8 @@
 			"Veracious",
 			"William Surya Permana",
 			"WongKentir",
-			"Rtnf"
+			"Rtnf",
+			"Penyuwangi"
 		]
 	},
 	"wikieditor": "Antarmuka penyuntingan teks wiki canggih",
@@ -21,7 +22,7 @@
 	"wikieditor-wikitext-tab": "Teks wiki",
 	"wikieditor-toolbar": "Bilah alat penyuntingan",
 	"wikieditor-toolbar-desc": "Bilah alat penyuntingan dengan kebergunaan yang ditingkatkan",
-	"wikieditor-toolbar-preference": "Aktifkan bilah alat penyuntingan",
+	"wikieditor-toolbar-preference": "Nyalakan bilah alat penyuntingan",
 	"wikieditor-toolbar-preference-help": "Ini terkadang disebut 'penyunting teks wiki 2010'.",
 	"wikieditor-toolbar-tool-bold": "Tebal",
 	"wikieditor-toolbar-tool-bold-example": "Teks tebal",
@@ -202,7 +203,7 @@
 	"wikieditor-toolbar-help-content-indent-description": "Inden",
 	"wikieditor-toolbar-help-content-indent-syntax": "Teks biasa<br />:Teks inden<br />::Teks inden",
 	"wikieditor-toolbar-help-content-indent-result": "Teks normal<dl><dd>Teks inden<dl><dd>Teks inden</dd></dl></dd></dl>",
-	"tag-wikieditor-description": "Suntingan dibuat menggunakan [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (editor teks wiki 2010)",
+	"tag-wikieditor-description": "Suntingan dibuat menggunakan [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (penyunting teks wiki 2010)",
 	"wikieditor-realtimepreview-preview": "Pratayang",
 	"wikieditor-realtimepreview-error": "Pratayang tidak termuat",
 	"wikieditor-realtimepreview-reload": "Muat ulang",
