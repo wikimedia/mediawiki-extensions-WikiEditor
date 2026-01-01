@@ -24,6 +24,7 @@ use MediaWiki\Hook\EditPage__showEditForm_initialHook;
 use MediaWiki\Hook\EditPageGetPreviewContentHook;
 use MediaWiki\Hook\RecentChange_saveHook;
 use MediaWiki\Html\Html;
+use MediaWiki\Language\FormatterFactory;
 use MediaWiki\Logger\LoggerFactory;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Output\OutputPage;
@@ -63,6 +64,7 @@ class Hooks implements
 	private static $tags = [ 'wikieditor' ];
 
 	public function __construct(
+		private readonly FormatterFactory $formatterFactory,
 		private readonly Config $config,
 		private readonly UserEditTracker $userEditTracker,
 		private readonly UserOptionsLookup $userOptionsLookup,
@@ -533,7 +535,7 @@ class Hooks implements
 				$data['save_failure_message'] = $code;
 				$data['save_failure_type'] = $typeMap[ $code ] ?? 'responseUnknown';
 				if ( $data['save_failure_type'] === 'responseUnknown' ) {
-					$statusFormatter = MediaWikiServices::getInstance()->getFormatterFactory()->getStatusFormatter(
+					$statusFormatter = $this->formatterFactory->getStatusFormatter(
 						RequestContext::getMain()
 					);
 					LoggerFactory::getInstance( 'WikiEditor' )->info(
