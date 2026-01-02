@@ -125,13 +125,14 @@ class Hooks implements
 			}
 		}
 		$inSample = $this->inEventSample( $data['editing_session_id'] );
-		$shouldOversample = WikimediaEventsHooks::shouldSchemaEditAttemptStepOversample( $article->getContext() );
+		$context = $article->getContext();
+		$shouldOversample = WikimediaEventsHooks::shouldSchemaEditAttemptStepOversample( $context );
 
-		$user = $article->getContext()->getUser();
+		$user = $context->getUser();
 		$page = $article->getPage();
 		$title = $article->getTitle();
 		$revisionRecord = $page->getRevisionRecord();
-		$skin = $article->getContext()->getSkin();
+		$skin = $context->getSkin();
 
 		$data = [
 			'action' => $action,
@@ -194,12 +195,13 @@ class Hooks implements
 			return false;
 		}
 		$inSample = $this->inEventSample( $sessionId );
-		$shouldOversample = WikimediaEventsHooks::shouldSchemaEditAttemptStepOversample( $article->getContext() );
+		$context = $article->getContext();
+		$shouldOversample = WikimediaEventsHooks::shouldSchemaEditAttemptStepOversample( $context );
 		if ( !$inSample && !$shouldOversample ) {
 			return false;
 		}
 
-		$user = $article->getContext()->getUser();
+		$user = $context->getUser();
 		$editCount = $this->userEditTracker->getUserEditCount( $user );
 		$data = [
 			'feature' => $feature,
@@ -235,10 +237,11 @@ class Hooks implements
 		}
 
 		$article = $editPage->getArticle();
-		$request = $article->getContext()->getRequest();
+		$context = $article->getContext();
+		$request = $context->getRequest();
 
 		// Add modules if enabled
-		$user = $article->getContext()->getUser();
+		$user = $context->getUser();
 		if ( $this->userOptionsLookup->getBoolOption( $user, 'usebetatoolbar' ) ) {
 			$outputPage->addModuleStyles( 'ext.wikiEditor.styles' );
 			$outputPage->addModules( 'ext.wikiEditor' );
@@ -460,7 +463,8 @@ class Hooks implements
 	 */
 	public function onEditPage__attemptSave_after( $editPage, $status, $resultDetails ) {
 		$article = $editPage->getArticle();
-		$request = $article->getContext()->getRequest();
+		$context = $article->getContext();
+		$request = $context->getRequest();
 		$statsId = $request->getRawVal( 'editingStatsId' );
 		// wikieditorUsed will be present in requests from WikiEditor either
 		// as an empty string or as "yes", if JavaScript is enabled
@@ -535,9 +539,7 @@ class Hooks implements
 				$data['save_failure_message'] = $code;
 				$data['save_failure_type'] = $typeMap[ $code ] ?? 'responseUnknown';
 				if ( $data['save_failure_type'] === 'responseUnknown' ) {
-					$statusFormatter = $this->formatterFactory->getStatusFormatter(
-						RequestContext::getMain()
-					);
+					$statusFormatter = $this->formatterFactory->getStatusFormatter( $context );
 					LoggerFactory::getInstance( 'WikiEditor' )->info(
 						...$statusFormatter->getPsr3MessageAndContext( $status, [
 							'message' => $statusFormatter->getMessage( $status )->getKey()
