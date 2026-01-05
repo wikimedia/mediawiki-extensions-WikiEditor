@@ -64,6 +64,7 @@ class Hooks implements
 	private static $tags = [ 'wikieditor' ];
 
 	public function __construct(
+		private readonly ExtensionRegistry $extensionRegistry,
 		private readonly FormatterFactory $formatterFactory,
 		private readonly Config $config,
 		private readonly UserEditTracker $userEditTracker,
@@ -114,11 +115,13 @@ class Hooks implements
 			return;
 		}
 
-		$extensionRegistry = ExtensionRegistry::getInstance();
-		if ( !$extensionRegistry->isLoaded( 'EventLogging' ) || !$extensionRegistry->isLoaded( 'WikimediaEvents' ) ) {
+		if (
+			!$this->extensionRegistry->isLoaded( 'EventLogging' ) ||
+			!$this->extensionRegistry->isLoaded( 'WikimediaEvents' )
+		) {
 			return;
 		}
-		if ( $extensionRegistry->isLoaded( 'MobileFrontend' ) && $this->mobileContext ) {
+		if ( $this->extensionRegistry->isLoaded( 'MobileFrontend' ) && $this->mobileContext ) {
 			if ( $this->mobileContext->shouldDisplayMobileView() ) {
 				// on a MobileFrontend page the logging should be handled by it
 				return;
@@ -190,8 +193,10 @@ class Hooks implements
 		Article $article,
 		string $sessionId
 	): bool {
-		$extensionRegistry = ExtensionRegistry::getInstance();
-		if ( !$extensionRegistry->isLoaded( 'EventLogging' ) || !$extensionRegistry->isLoaded( 'WikimediaEvents' ) ) {
+		if (
+			!$this->extensionRegistry->isLoaded( 'EventLogging' ) ||
+			!$this->extensionRegistry->isLoaded( 'WikimediaEvents' )
+		) {
 			return false;
 		}
 		$inSample = $this->inEventSample( $sessionId );
@@ -253,7 +258,7 @@ class Hooks implements
 		// Don't run this if the request was posted - we don't want to log 'init' when the
 		// user just pressed 'Show preview' or 'Show changes', or switched from VE keeping
 		// changes.
-		if ( ExtensionRegistry::getInstance()->isLoaded( 'EventLogging' ) && !$request->wasPosted() ) {
+		if ( $this->extensionRegistry->isLoaded( 'EventLogging' ) && !$request->wasPosted() ) {
 			$data = [];
 			$data['editing_session_id'] = self::getEditingStatsId( $request );
 			$section = $request->getRawVal( 'section' );
@@ -307,14 +312,14 @@ class Hooks implements
 		);
 
 		if ( $editPage->contentModel !== CONTENT_MODEL_WIKITEXT
-			|| !ExtensionRegistry::getInstance()->isLoaded( 'EventLogging' ) ) {
+			|| !$this->extensionRegistry->isLoaded( 'EventLogging' ) ) {
 			return;
 		}
 
 		$req = $outputPage->getRequest();
 		$editingStatsId = self::getEditingStatsId( $req );
 
-		$shouldOversample = ExtensionRegistry::getInstance()->isLoaded( 'WikimediaEvents' ) &&
+		$shouldOversample = $this->extensionRegistry->isLoaded( 'WikimediaEvents' ) &&
 			WikimediaEventsHooks::shouldSchemaEditAttemptStepOversample( $outputPage->getContext() );
 
 		$outputPage->addHTML(
@@ -524,7 +529,7 @@ class Hooks implements
 
 				$wikiPage = $editPage->getArticle()->getPage();
 
-				if ( ExtensionRegistry::getInstance()->isLoaded( 'ConfirmEdit' ) ) {
+				if ( $this->extensionRegistry->isLoaded( 'ConfirmEdit' ) ) {
 					$key = CacheKeyHelper::getKeyForPage( $wikiPage );
 					$captcha = ConfirmEditHooks::getInstance(
 						ConfirmEditHooks::getCaptchaTriggerActionFromTitle( $article->getTitle() )

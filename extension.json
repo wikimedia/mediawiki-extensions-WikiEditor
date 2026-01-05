@@ -35,6 +35,7 @@
 		"WikiEditorHooks": {
 			"class": "MediaWiki\\Extension\\WikiEditor\\Hooks",
 			"services": [
+				"ExtensionRegistry",
 				"FormatterFactory",
 				"MainConfig",
 				"UserEditTracker",
