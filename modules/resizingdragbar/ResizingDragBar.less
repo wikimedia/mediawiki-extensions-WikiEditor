@@ -19,6 +19,7 @@
 
 	&-ns {
 		cursor: ns-resize;
+		border-top: @border-width-base @border-style-base @border-color-subtle;
 	}
 
 	span {
@@ -44,6 +45,16 @@
 			border-width: 0 @border-width-base;
 		}
 	}
+}
+
+/* stylelint-disable selector-max-id */
+.ext-WikiEditor-resizable-textbox,
+.ext-WikiEditor-resizable-textbox#wpTextbox1,
+.mw-editform .ext-WikiEditor-resizable-textbox#wpTextbox1 {
+	resize: none;
+	height: 100%;
+	min-height: auto;
+	max-height: none;
 }
 
 // This is needed to make the CodeMirror editor height constrained to .wikiEditor-ui-text
