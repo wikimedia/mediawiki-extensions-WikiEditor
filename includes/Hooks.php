@@ -548,7 +548,7 @@ class Hooks implements
 					LoggerFactory::getInstance( 'WikiEditor' )->info(
 						...$statusFormatter->getPsr3MessageAndContext( $status, [
 							'message' => $statusFormatter->getMessage( $status )->getKey()
-						]
+						] + $request->getSecurityLogContext( $context->getUser() )
 					) );
 				}
 			}
