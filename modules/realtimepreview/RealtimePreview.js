@@ -1,4 +1,3 @@
-const ResizingDragBar = require( './ResizingDragBar.js' );
 const TwoPaneLayout = require( './TwoPaneLayout.js' );
 const ErrorLayout = require( './ErrorLayout.js' );
 const ManualWidget = require( './ManualWidget.js' );
@@ -85,18 +84,6 @@ function RealtimePreview( context ) {
  * @private
  */
 RealtimePreview.prototype.createToolbarButton = function () {
-	const $uiText = this.context.$ui.find( '.wikiEditor-ui-text' );
-
-	// Fix the height of the textarea, before adding a resizing bar below it.
-	const height = this.context.$textarea.height();
-	$uiText.css( 'height', height + 'px' );
-	this.context.$textarea.removeAttr( 'rows cols' );
-	this.context.$textarea.addClass( 'ext-WikiEditor-realtimepreview-textbox' );
-
-	// Add the resizing bar.
-	const bottomDragBar = new ResizingDragBar( { isEW: false, id: 'ext-WikiEditor-bottom-dragbar' } );
-	$uiText.after( bottomDragBar.$element );
-
 	// Create and configure the toolbar button.
 	this.button = new OO.ui.ToggleButtonWidget( {
 		label: mw.msg( 'wikieditor-realtimepreview-preview' ),
