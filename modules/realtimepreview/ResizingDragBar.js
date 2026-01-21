@@ -108,7 +108,6 @@ ResizingDragBar.prototype.getResizedPane = function () {
  */
 ResizingDragBar.prototype.resizePane = function ( widthOrHeight, newSize ) {
 	if ( !newSize || isNaN( parseFloat( newSize ) ) ) {
-		mw.hook( 'ext.WikiEditor.resize' ).fire( this );
 		return;
 	}
 	// Resize the pane.
@@ -119,10 +118,7 @@ ResizingDragBar.prototype.resizePane = function ( widthOrHeight, newSize ) {
 		mwStorage.set( this.storageKey, newSize, oneYear );
 	}
 	// Let other scripts do things after the resize.
-	mw.hook( 'ext.WikiEditor.resize' ).fire( this );
-	mw.hook( 'ext.WikiEditor.realtimepreview.resize' )
-		.deprecate( 'Use "ext.WikiEditor.resize" instead.' )
-		.fire( this );
+	mw.hook( 'ext.WikiEditor.realtimepreview.resize' ).fire( this );
 };
 
 module.exports = ResizingDragBar;

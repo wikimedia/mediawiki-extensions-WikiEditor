@@ -61,7 +61,6 @@
 				"jquery.wikiEditor.toolbar.config.js",
 				"jquery.wikiEditor.dialogs.js",
 				"jquery.wikiEditor.dialogs.config.js",
-				"resizingdragbar/ResizingDragBar.js",
 				{
 					"name": "data.json",
 					"callback": "MediaWiki\\Extension\\WikiEditor\\Hooks::getModuleData",
@@ -71,7 +70,6 @@
 			"styles": [
 				"insertlink/TitleInputField.less",
 				"insertlink/LinkTypeField.less",
-				"resizingdragbar/ResizingDragBar.less",
 				"jquery.wikiEditor.less",
 				"jquery.wikiEditor.toolbar.less",
 				"jquery.wikiEditor.dialogs.less",
@@ -307,12 +305,14 @@
 			"packageFiles": [
 				"realtimepreview/init.js",
 				"realtimepreview/RealtimePreview.js",
+				"realtimepreview/ResizingDragBar.js",
 				"realtimepreview/TwoPaneLayout.js",
 				"realtimepreview/ErrorLayout.js",
 				"realtimepreview/ManualWidget.js"
 			],
 			"styles": [
 				"realtimepreview/RealtimePreview.less",
+				"realtimepreview/ResizingDragBar.less",
 				"realtimepreview/TwoPaneLayout.less",
 				"realtimepreview/ErrorLayout.less",
 				"realtimepreview/ManualWidget.less"
