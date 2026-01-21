@@ -17,6 +17,7 @@
 	"wikieditor-toolbar-tool-link-int-text-tooltip": "Пый текст вӯзьхуввэм гуэйкэ",
 	"wikieditor-toolbar-tool-link-ext": "Оалкма вэб-лысста",
 	"wikieditor-toolbar-tool-link-insert": "Пыйе уж",
+	"wikieditor-toolbar-tool-link-int-target-status-exists": "Тэдт лысст лӣ {{GRAMMAR:prepositional|{{SITENAME}}}}-эсьт",
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Тэдт лысст {{GRAMMAR:prepositional|{{SITENAME}}}}-эсьт элля",
 	"wikieditor-toolbar-tool-file": "Ка̄вь я ме̄дьяфа̄йял",
 	"wikieditor-toolbar-tool-file-title": "Пыйе фа̄ял",
