@@ -25,6 +25,7 @@ use MediaWiki\Hook\EditPageGetPreviewContentHook;
 use MediaWiki\Hook\RecentChange_saveHook;
 use MediaWiki\Html\Html;
 use MediaWiki\Language\FormatterFactory;
+use MediaWiki\Language\MessageLocalizer;
 use MediaWiki\Logger\LoggerFactory;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Output\OutputPage;
@@ -39,10 +40,9 @@ use MediaWiki\Status\Status;
 use MediaWiki\User\Options\UserOptionsLookup;
 use MediaWiki\User\User;
 use MediaWiki\User\UserEditTracker;
+use MediaWiki\Utils\MWCryptRand;
 use MediaWiki\WikiMap\WikiMap;
-use MessageLocalizer;
 use MobileContext;
-use MWCryptRand;
 use WikimediaEvents\WikimediaEventsHooks;
 
 class Hooks implements
