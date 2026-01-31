@@ -475,7 +475,10 @@ $.fn.wikiEditor = function () {
 		context.$ui = context.$textarea.parent().parent().parent().parent().parent();
 		context.$wikitext = context.$textarea.parent().parent().parent().parent();
 
-		context.fn.addResizingDragBar();
+		// TODO: Move this condition to Extension:ProofreadPage
+		if ( mw.config.get( 'wgPageContentModel' ) !== 'proofread-page' ) {
+			context.fn.addResizingDragBar();
+		}
 
 		// Clear all floating after the UI
 		context.$ui.after( $( '<div>' ).addClass( 'wikiEditor-ui-clear' ) );
