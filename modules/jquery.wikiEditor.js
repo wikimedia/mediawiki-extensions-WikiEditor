@@ -81,7 +81,8 @@ $.wikiEditor = {
 	 */
 	modules: {
 		toolbar: require( './jquery.wikiEditor.toolbar.js' ),
-		dialogs: require( './jquery.wikiEditor.dialogs.js' )
+		dialogs: require( './jquery.wikiEditor.dialogs.js' ),
+		resizingdragbar: require( './jquery.wikiEditor.resizingdragbar.js' )
 	},
 
 	/**
@@ -425,23 +426,6 @@ $.fn.wikiEditor = function () {
 				if ( context.$focusedElem ) {
 					context.$focusedElem.trigger( 'focus' );
 				}
-			},
-
-			/**
-			 * Adds a resizing drag bar below the textarea to allow vertical resizing.
-			 */
-			addResizingDragBar: function () {
-				// Fix the height of the textarea, before adding a resizing bar below it.
-				const $uiText = context.$ui.find( '.wikiEditor-ui-text' );
-				const height = context.$textarea.height();
-				$uiText.css( 'height', height + 'px' );
-				context.$textarea.removeAttr( 'rows cols' );
-				context.$textarea.addClass( 'ext-WikiEditor-resizable-textbox' );
-				$uiText.closest( '.wikiEditor-ui-view' ).addClass( 'wikiEditor-ui-view-resizable' );
-
-				// Add the resizing bar.
-				const bottomDragBar = new ResizingDragBar( { isEW: false, id: 'ext-WikiEditor-bottom-dragbar' } );
-				$uiText.after( bottomDragBar.$element );
 			}
 		};
 
@@ -474,11 +458,6 @@ $.fn.wikiEditor = function () {
 		// Get references to some of the newly created containers
 		context.$ui = context.$textarea.parent().parent().parent().parent().parent();
 		context.$wikitext = context.$textarea.parent().parent().parent().parent();
-
-		// TODO: Move this condition to Extension:ProofreadPage
-		if ( mw.config.get( 'wgPageContentModel' ) !== 'proofread-page' ) {
-			context.fn.addResizingDragBar();
-		}
 
 		// Clear all floating after the UI
 		context.$ui.after( $( '<div>' ).addClass( 'wikiEditor-ui-clear' ) );

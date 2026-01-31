@@ -61,6 +61,7 @@
 				"jquery.wikiEditor.toolbar.config.js",
 				"jquery.wikiEditor.dialogs.js",
 				"jquery.wikiEditor.dialogs.config.js",
+				"jquery.wikiEditor.resizingdragbar.js",
 				"resizingdragbar/ResizingDragBar.js",
 				{
 					"name": "data.json",

@@ -198,4 +198,9 @@ mw.addWikiEditor = function ( $textarea ) {
 	// Add dialogs module
 	$textarea.wikiEditor( 'addModule', dialogsConfig.getDefaultConfig() );
 
+	// TODO: Move this condition to Extension:ProofreadPage
+	if ( mw.config.get( 'wgPageContentModel' ) !== 'proofread-page' ) {
+		$textarea.wikiEditor( 'addModule', 'resizingdragbar' );
+	}
+
 };
