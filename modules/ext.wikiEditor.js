@@ -180,26 +180,32 @@ $( () => {
 	$( '#toolbar' ).remove();
 	// Add toolbar module
 	// TODO: Implement .wikiEditor( 'remove' )
-	mw.addWikiEditor( $textarea );
+	mw.addWikiEditor( $textarea, {
+		// TODO: Move this condition to Extension:ProofreadPage
+		resizingdragbar: mw.config.get( 'wgPageContentModel' ) !== 'proofread-page'
+	} );
 } );
 
-mw.addWikiEditor = function ( $textarea ) {
+mw.addWikiEditor = function ( $textarea, config = {} ) {
 	if ( $textarea.css( 'display' ) === 'none' ) {
 		return;
 	}
 
-	$textarea.wikiEditor(
-		'addModule', require( './jquery.wikiEditor.toolbar.config.js' )
-	);
+	if ( config.toolbar !== false ) {
+		$textarea.wikiEditor(
+			'addModule', require( './jquery.wikiEditor.toolbar.config.js' )
+		);
+	}
 
-	const dialogsConfig = require( './jquery.wikiEditor.dialogs.config.js' );
-	// Replace icons
-	dialogsConfig.replaceIcons( $textarea );
-	// Add dialogs module
-	$textarea.wikiEditor( 'addModule', dialogsConfig.getDefaultConfig() );
+	if ( config.dialogs !== false ) {
+		const dialogsConfig = require( './jquery.wikiEditor.dialogs.config.js' );
+		// Replace icons
+		dialogsConfig.replaceIcons( $textarea );
+		// Add dialogs module
+		$textarea.wikiEditor( 'addModule', dialogsConfig.getDefaultConfig() );
+	}
 
-	// TODO: Move this condition to Extension:ProofreadPage
-	if ( mw.config.get( 'wgPageContentModel' ) !== 'proofread-page' ) {
+	if ( config.resizingdragbar !== false ) {
 		$textarea.wikiEditor( 'addModule', 'resizingdragbar' );
 	}
 
