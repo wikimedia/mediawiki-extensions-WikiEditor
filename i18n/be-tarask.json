@@ -33,7 +33,7 @@
 	"wikieditor-toolbar-tool-link-ext-target": "URL-адрас спасылкі:",
 	"wikieditor-toolbar-tool-link-ext-text": "Тэкст спасылкі:",
 	"wikieditor-toolbar-tool-link-insert": "Уставіць спасылку",
-	"wikieditor-toolbar-tool-link-cancel": "Закрыць",
+	"wikieditor-toolbar-tool-link-cancel": "Скасаваць",
 	"wikieditor-toolbar-tool-link-int-target-status-exists": "Старонка існуе на {{GRAMMAR:prepositional|{{SITENAME}}}}",
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Старонка не існуе на {{GRAMMAR:prepositional|{{SITENAME}}}}",
 	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Пазначаная вамі назва няслушная",
@@ -95,7 +95,7 @@
 	"wikieditor-toolbar-tool-table-example": "Тэкст у ячэйцы",
 	"wikieditor-toolbar-tool-table-preview": "Папярэдні прагляд",
 	"wikieditor-toolbar-tool-table-insert": "Уставіць",
-	"wikieditor-toolbar-tool-table-cancel": "Закрыць",
+	"wikieditor-toolbar-tool-table-cancel": "Скасаваць",
 	"wikieditor-toolbar-tool-table-toomany": "З дапамогай гэтага дыялёгу нельга ўставіць табліцу памерам больш чым $1 {{PLURAL:$1|ячэйка|ячэйкі|ячэек}}.",
 	"wikieditor-toolbar-tool-table-invalidnumber": "Вы не ўвялі слушную колькасьць радкоў ці слупкоў.",
 	"wikieditor-toolbar-tool-table-zero": "Вы ня можаце ўставіць табліцу з нулявой колькасьцю радкоў ці слупкоў.",
@@ -104,7 +104,7 @@
 	"wikieditor-toolbar-tool-replace-search": "Шукаць:",
 	"wikieditor-toolbar-tool-replace-replace": "Замяніць на:",
 	"wikieditor-toolbar-tool-replace-case": "Улічваць рэгістар літар",
-	"wikieditor-toolbar-tool-replace-regex": "Лічыць радок пошуку рэгулярным выразам",
+	"wikieditor-toolbar-tool-replace-regex": "Уважаць радок пошуку рэгулярным выразам",
 	"wikieditor-toolbar-tool-replace-button-findnext": "Працягваць пошук",
 	"wikieditor-toolbar-tool-replace-button-replace": "Замяніць",
 	"wikieditor-toolbar-tool-replace-button-replaceall": "Замяніць усё",
@@ -147,5 +147,6 @@
 	"wikieditor-toolbar-help-content-file-caption": "Тэкст апісаньня",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Подпіс і час",
 	"wikieditor-toolbar-help-content-signature-description": "Подпіс",
-	"wikieditor-toolbar-help-content-indent-description": "Водступ"
+	"wikieditor-toolbar-help-content-indent-description": "Водступ",
+	"wikieditor-realtimepreview-error": "Папярэдні прагляд не ладуецца"
 }
