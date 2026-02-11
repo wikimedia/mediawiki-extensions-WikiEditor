@@ -103,7 +103,7 @@
 	"wikieditor-toolbar-tool-replace-search": "Шукаць:",
 	"wikieditor-toolbar-tool-replace-replace": "Замяніць на:",
 	"wikieditor-toolbar-tool-replace-case": "Улічваць рэгістар літар",
-	"wikieditor-toolbar-tool-replace-regex": "Лічыць радок пошуку рэгулярным выразам",
+	"wikieditor-toolbar-tool-replace-regex": "Уважаць радок пошуку рэгулярным выразам",
 	"wikieditor-toolbar-tool-replace-button-findnext": "Працягваць пошук",
 	"wikieditor-toolbar-tool-replace-button-replace": "Замяніць",
 	"wikieditor-toolbar-tool-replace-button-replaceall": "Замяніць усё",
@@ -146,5 +146,6 @@
 	"wikieditor-toolbar-help-content-file-caption": "Тэкст апісаньня",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Подпіс і час",
 	"wikieditor-toolbar-help-content-signature-description": "Подпіс",
-	"wikieditor-toolbar-help-content-indent-description": "Водступ"
+	"wikieditor-toolbar-help-content-indent-description": "Водступ",
+	"wikieditor-realtimepreview-error": "Папярэдні прагляд не ладуецца"
 }
