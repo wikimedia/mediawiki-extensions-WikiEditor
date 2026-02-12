@@ -53,7 +53,7 @@ function deprecateAutoMsg( property, key ) {
 			'Special:Search',
 			{ search: searchParam, ns2: 1, ns8: 1 }
 		);
-	if ( searchUri.slice( 0, 2 ) === '//' ) {
+	if ( searchUri.startsWith( '//' ) ) {
 		searchUri = location.protocol + searchUri;
 	}
 
@@ -244,12 +244,12 @@ $.wikiEditor = {
 				let src = icon[ key ];
 
 				// Return a data URL immediately
-				if ( src.slice( 0, 5 ) === 'data:' ) {
+				if ( src.startsWith( 'data:' ) ) {
 					return src;
 				}
 
 				// Prepend path if src is not absolute
-				if ( src.slice( 0, 7 ) !== 'http://' && src.slice( 0, 8 ) !== 'https://' && src[ 0 ] !== '/' ) {
+				if ( !src.startsWith( 'http://' ) && !src.startsWith( 'https://' ) && !src.startsWith( '/' ) ) {
 					src = path + src;
 				}
 				return src;

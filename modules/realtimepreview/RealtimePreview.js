@@ -367,7 +367,7 @@ RealtimePreview.prototype.doRealtimePreview = function ( forceUpdate ) {
 	const loadingSelectors = this.pagePreview.getLoadingSelectors()
 		// config.$previewNode below is a clone of #wikiPreview with a different selector!
 		// config.$diffNode defaults to #wikiDiff but is disabled below and never updated.
-		.filter( ( selector ) => selector.indexOf( '#wiki' ) !== 0 );
+		.filter( ( selector ) => !selector.startsWith( '#wiki' ) );
 	loadingSelectors.push( '.ext-WikiEditor-realtimepreview-preview' );
 	loadingSelectors.push( '.ext-WikiEditor-ManualWidget' );
 	loadingSelectors.push( '.ext-WikiEditor-realtimepreview-ErrorLayout' );
