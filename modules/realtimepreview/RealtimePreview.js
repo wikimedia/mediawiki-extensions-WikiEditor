@@ -1,7 +1,7 @@
 const TwoPaneLayout = require( './TwoPaneLayout.js' );
 const ErrorLayout = require( './ErrorLayout.js' );
 const ManualWidget = require( './ManualWidget.js' );
-const localStorage = require( 'mediawiki.storage' ).local;
+const storage = require( 'mediawiki.storage' );
 
 /**
  * @class
@@ -46,7 +46,8 @@ function RealtimePreview( context ) {
 		icon: 'reload',
 		framed: false,
 		accessKey: mw.msg( 'accesskey-wikieditor-realtimepreview' ),
-		title: mw.msg( 'wikieditor-realtimepreview-reload-title' )
+		label: mw.msg( 'wikieditor-realtimepreview-reload-title' ),
+		invisibleLabel: true
 	} );
 	this.reloadButton.connect( this, {
 		click: function () {
@@ -103,7 +104,7 @@ RealtimePreview.prototype.createToolbarButton = function () {
 	$( window ).on( 'resize', this.enableFeatureWhenScreenIsWideEnough.bind( this ) );
 
 	// Remove the old onboarding-status storage that was discontinued in March 2023.
-	localStorage.remove( 'WikiEditor-RealtimePreview-onboarding-dismissed' );
+	storage.local.remove( 'WikiEditor-RealtimePreview-onboarding-dismissed' );
 };
 
 /**
