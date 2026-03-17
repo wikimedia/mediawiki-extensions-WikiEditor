@@ -6,7 +6,9 @@ const mwStorage = require( 'mediawiki.storage' ).local;
  * @extends OO.ui.Element
  * @param {Object} [config] Configuration options
  * @param {boolean} [config.isEW] Orientation of the drag bar, East-West (true) or North-South (false).
+ * @param {boolean} [config.isBefore] If true, the drag bar should be inserted before the reference element.
  * @param {boolean} [config.id] The element ID. If supplied, the size of the resized pane will be persisted to localStorage.
+ * @param {number} [config.minPaneSize] The minimum size of the pane being resized, in pixels. Default is 248.
  */
 function ResizingDragBar( config ) {
 	config = Object.assign( {}, {
@@ -17,6 +19,8 @@ function ResizingDragBar( config ) {
 	ResizingDragBar.super.call( this, config );
 
 	const widthOrHeight = config.isEW ? 'width' : 'height';
+
+	this.isBefore = !!config.isBefore;
 
 	this.storageKey = null;
 	if ( config.id ) {
@@ -32,7 +36,8 @@ function ResizingDragBar( config ) {
 	this.$element.addClass( classNameDir );
 
 	// Determine the horizontal direction to move (flexbox automatically reverses but the offset direction doesn't).
-	const rtlFactor = config.isEW && OO.ui.Element.static.getDir( document ) === 'rtl' ? -1 : 1;
+	const rtlFactor = ( config.isEW && OO.ui.Element.static.getDir( document ) === 'rtl' ? -1 : 1 ) *
+		( config.isBefore ? -1 : 1 );
 	this.$element.on( 'mousedown', ( eventMousedown ) => {
 		if ( eventMousedown.button !== ResizingDragBar.static.MAIN_MOUSE_BUTTON ) {
 			// If not the main mouse (e.g. left) button, ignore.
@@ -52,7 +57,10 @@ function ResizingDragBar( config ) {
 			// Distance the mouse has moved.
 			const change = rtlFactor * ( lastOffset - newOffset );
 			// Set the new size of the pane, and tell others about it.
-			const newSize = Math.max( startSize - change, ResizingDragBar.static.MIN_PANE_SIZE );
+			const newSize = Math.max(
+				startSize - change,
+				Number.isFinite( config.minPaneSize ) ? config.minPaneSize : ResizingDragBar.static.MIN_PANE_SIZE
+			);
 			this.resizePane( widthOrHeight, newSize );
 			// Save the new starting point of the mouse, from which to calculate the next move.
 			lastOffset = newOffset;
@@ -99,7 +107,7 @@ ResizingDragBar.static.MIN_PANE_SIZE = 248;
  * @return {jQuery}
  */
 ResizingDragBar.prototype.getResizedPane = function () {
-	return this.$element.prev();
+	return this.$element[ this.isBefore ? 'next' : 'prev' ]();
 };
 
 /**
