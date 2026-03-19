@@ -261,6 +261,7 @@
 				"mediawiki.jqueryMsg",
 				"mediawiki.language.specialCharacters",
 				"mediawiki.language",
+				"mediawiki.storage",
 				"mediawiki.Title",
 				"mediawiki.user",
 				"mediawiki.util",
@@ -293,7 +294,6 @@
 				"ext.wikiEditor",
 				"mediawiki.page.preview",
 				"mediawiki.pulsatingdot",
-				"mediawiki.storage",
 				"ext.wikiEditor.images",
 				"oojs-ui.styles.icons-interactions"
 			],

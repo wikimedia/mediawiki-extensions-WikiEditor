@@ -1,7 +1,6 @@
 const TwoPaneLayout = require( './TwoPaneLayout.js' );
 const ErrorLayout = require( './ErrorLayout.js' );
 const ManualWidget = require( './ManualWidget.js' );
-const storage = require( 'mediawiki.storage' );
 
 /**
  * @class
@@ -102,9 +101,6 @@ RealtimePreview.prototype.createToolbarButton = function () {
 
 	// Hide or show the preview and toolbar button when the window is resized.
 	$( window ).on( 'resize', this.enableFeatureWhenScreenIsWideEnough.bind( this ) );
-
-	// Remove the old onboarding-status storage that was discontinued in March 2023.
-	storage.local.remove( 'WikiEditor-RealtimePreview-onboarding-dismissed' );
 };
 
 /**
