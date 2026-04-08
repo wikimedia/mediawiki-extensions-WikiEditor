@@ -599,7 +599,7 @@ const toolbarModule = {
 			for ( let i = 0; i < headings.length; i++ ) {
 				$row.append(
 					// eslint-disable-next-line mediawiki/msg-doc
-					$( '<th>' ).append( mw.message( headings[ i ].msg ).parseDom() )
+					$( '<th>' ).text( mw.message( headings[ i ].msg ).text() )
 				);
 			}
 			return $row;
