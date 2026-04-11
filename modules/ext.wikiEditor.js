@@ -75,27 +75,27 @@ $( () => {
 
 	if ( $editingSessionIdInput.length ) {
 		editingSessionId = $editingSessionIdInput.val();
-		if ( window.performance && window.performance.timing ) {
-			// We want to track from the time the user started to try to
-			// launch the editor which navigationStart approximates. All
-			// of our supported browsers *should* allow this. Rather than
-			// fall back to the timestamp when the page loaded for those
-			// that don't, we just ignore them, so as to not skew the
-			// results towards better-performance in those cases.
-			const readyTime = Date.now();
+		// We want to measure time from when the user started to try to launch the
+		// editor, which performance.timeOrigin (aka navigationStart) approximates.
+		// performance.now() is relative to performance.timeOrigin.
+		// Ignore browsers that don't support this. Don't fall back to something
+		// else (e.g. when the page loaded), so as not to skew the results
+		// towards better-performance in those cases.
+		if ( window.performance && window.performance.now ) {
+			const readyTime = window.performance.now();
 			logEditEvent( {
 				action: 'ready',
-				timing: readyTime - window.performance.timing.navigationStart
+				timing: Math.round( readyTime )
 			} );
 			$textarea.on( 'wikiEditor-toolbar-doneInitialSections', () => {
 				logEditEvent( {
 					action: 'loaded',
-					timing: Date.now() - window.performance.timing.navigationStart
+					timing: Math.round( window.performance.now() )
 				} );
 			} ).one( 'input', () => {
 				logEditEvent( {
 					action: 'firstChange',
-					timing: Date.now() - readyTime
+					timing: Math.round( window.performance.now() - readyTime )
 				} );
 			} );
 		}
