@@ -146,6 +146,7 @@
 	"wikieditor-toolbar-help-content-bolditalic-description": "Fed & kursiv",
 	"wikieditor-toolbar-help-content-bolditalic-example": "Fed & kursiv tekst",
 	"wikieditor-toolbar-help-content-ilink-description": "Intern henvisning",
+	"wikieditor-toolbar-help-content-ilink-example": "[[Sidetitel]]\n[[Sidetitel|Linketiket]]",
 	"wikieditor-toolbar-help-content-xlink-description": "Ekstern henvisning",
 	"wikieditor-toolbar-help-content-xlink-example-label": "Linktekst",
 	"wikieditor-toolbar-help-content-heading2-description": "Overskrift på niveau 2",
