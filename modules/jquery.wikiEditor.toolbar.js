@@ -24,21 +24,21 @@ const toolbarModule = {
 						for ( const section in data[ type ] ) {
 							if ( section === 'main' || section === 'secondary' ) {
 								// Section
-								context.modules.toolbar.$toolbar.prepend(
-									toolbarModule.fn.buildSection(
-										context, section, data[ type ][ section ]
-									)
+								const $prependedSection = toolbarModule.fn.buildSection(
+									context, section, data[ type ][ section ]
 								);
+								context.modules.toolbar.$toolbar.prepend( $prependedSection );
+								mw.hook( 'ext.WikiEditor.toolbar.builtSection' ).fire( $prependedSection );
 								continue;
 							}
 							// Section
-							$sections.append(
-								toolbarModule.fn.buildSection( context, section, data[ type ][ section ] )
-							);
+							const $section = toolbarModule.fn.buildSection( context, section, data[ type ][ section ] );
+							$sections.append( $section );
 							// Tab
 							$tabs.append(
 								toolbarModule.fn.buildTab( context, section, data[ type ][ section ] )
 							);
+							mw.hook( 'ext.WikiEditor.toolbar.builtSection' ).fire( $section );
 						}
 						break;
 					}
@@ -872,6 +872,8 @@ const toolbarModule = {
 			setTimeout( () => {
 				context.$textarea.trigger( 'wikiEditor-toolbar-doneInitialSections' );
 				// Use hook for attaching new toolbar tools to avoid race conditions
+				mw.hook( 'ext.WikiEditor.toolbar.ready' ).fire( context.$textarea );
+				// Deprecated
 				mw.hook( 'wikiEditor.toolbarReady' ).fire( context.$textarea );
 			} );
 			toolbarModule.fn.setupShortcuts( context );
