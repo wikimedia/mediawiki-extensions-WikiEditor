@@ -140,6 +140,25 @@ const toolbarModule = {
 				}
 			}
 		},
+		/**
+		 * Removes elements from the WikiEditor toolbar based on the provided configuration.
+		 *
+		 * This method supports removing:
+		 * - Entire sections
+		 * - Groups within a section
+		 * - Individual tools within a group
+		 * - Booklet pages and their characters
+		 *
+		 * The removal is determined by properties in the data object.
+		 *
+		 * @param {Object} context - The WikiEditor context object containing toolbar state.
+		 * @param {Object} data - Configuration object specifying what to remove.
+		 * @param {string} [data.section] - The section identifier to target.
+		 * @param {string} [data.group] - The group identifier within the section.
+		 * @param {string} [data.tool] - The tool identifier within the group.
+		 * @param {string} [data.page] - The booklet page identifier.
+		 * @param {string} [data.character] - The character identifier within a page.
+		 */
 		removeFromToolbar: function ( context, data ) {
 			if ( typeof data.section === 'string' ) {
 				// Section
@@ -196,10 +215,14 @@ const toolbarModule = {
 	 */
 	fn: {
 		/**
-		 * Creates a toolbar module within a wikiEditor
+		 * Initializes the WikiEditor toolbar module.
 		 *
-		 * @param {Object} context Context object of editor to create module in
-		 * @param {Object} config Configuration object to create module from
+		 * Creates the toolbar DOM element and attaches it to the editor context
+		 * if it has not already been initialized. If the toolbar already exists,
+		 * the function exits without making changes.
+		 *
+		 * @param {Object} context - WikiEditor context containing module state and DOM references.
+		 * @param {Object} config - Configuration object used to initialize the toolbar module.
 		 */
 		create: function ( context, config ) {
 			if ( '$toolbar' in context.modules.toolbar ) {
@@ -280,6 +303,23 @@ const toolbarModule = {
 			}
 			return $group;
 		},
+		/**
+		 * Builds a toolbar tool based on the provided configuration.
+		 *
+		 * Creates a UI element (e.g., button or toggle) depending on the tool type.
+		 * If the tool defines filters and any filter condition is not met,
+		 * the tool is not created and null is returned.
+		 *
+		 * @param {Object} context - WikiEditor context containing module state and DOM references.
+		 * @param {string} id - Unique identifier for the tool.
+		 * @param {Object} tool - Configuration object defining the tool.
+		 * @param {string} tool.type - Type of tool (e.g., 'button', 'toggle').
+		 * @param {string} [tool.label] - Display label for the tool.
+		 * @param {string} [tool.ooUiIcon] - Icon name used for OOUI-based tools.
+		 * @param {string[]} [tool.filters] - List of selectors used to determine if the tool should be displayed.
+		 *
+		 * @return {jQuery|null} jQuery object representing the tool element, or null if not created.
+		 */
 		buildTool: function ( context, id, tool ) {
 			if ( 'filters' in tool ) {
 				for ( let i = 0; i < tool.filters.length; i++ ) {
