@@ -66,7 +66,7 @@ function logAbort( switchingToVE, unmodified ) {
 }
 
 $( () => {
-	const $textarea = $( '#wpTextbox1' ),
+	const $textarea = $( 'textarea#wpTextbox1' ),
 		$editingSessionIdInput = $( '#editingStatsId' ),
 		origText = $textarea.val();
 
