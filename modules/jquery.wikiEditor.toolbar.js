@@ -244,7 +244,7 @@ const toolbarModule = {
 			switch ( action.type ) {
 				case 'replace':
 				case 'encapsulate': {
-					if ( context.$textarea.prop( 'readonly' ) ) {
+					if ( context.$textarea.prop( 'readonly' ) || context.$ui.find( ':focus' ).length === 0 ) {
 						break;
 					}
 					const parts = {
