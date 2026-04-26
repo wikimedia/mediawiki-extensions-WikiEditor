@@ -333,6 +333,7 @@ $.fn.wikiEditor = function () {
 		if ( hasFocus ) {
 			context.$textarea.trigger( 'focus' );
 			context.$textarea.textSelection( 'setSelection', { start: cursorPos[ 0 ], end: cursorPos[ 1 ] } );
+			context.$textarea.textSelection( 'scrollToCaretPosition' );
 		}
 
 		// Get references to some of the newly created containers
