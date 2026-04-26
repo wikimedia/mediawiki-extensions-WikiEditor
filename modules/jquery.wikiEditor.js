@@ -6,9 +6,14 @@ const ResizingDragBar = require( './resizingdragbar/ResizingDragBar.js' );
 const hasOwn = Object.prototype.hasOwnProperty,
 
 	/**
-	 * Array of language codes.
+	 * Generates an array of language fallback codes used for localization.
+	 *
+	 * This function builds a fallback chain based on the user's language settings.
+	 * It removes certain English fallbacks, adds RTL-specific defaults if needed,
+	 * and ensures a default fallback is always present.
 	 *
 	 * @private
+	 * @return {string[]} Array of language fallback codes
 	 */
 	fallbackChain = ( function () {
 		// eslint-disable-next-line no-jquery/no-class-state
@@ -247,12 +252,14 @@ $.fn.wikiEditor = function () {
 
 		context.fn = {
 			/**
-			 * Executes core event filters as well as event handlers provided by modules.
+			 * Triggers an event across the editor context and all active modules.
 			 *
-			 * @ignore
-			 * @param {string} name
-			 * @param {Object} event
-			 * @return {boolean}
+			 * This function first runs any registered event filters, and if not blocked,
+			 * propagates the event to all modules that implement the corresponding handler.
+			 *
+			 * @param {string} name Name of the event to trigger
+			 * @param {Object} [event] Event object containing additional data
+			 * @return {boolean} Returns false if any handler blocks the event, otherwise true
 			 */
 			trigger: function ( name, event ) {
 				// Event is an optional argument, but from here on out, at least the type field should be dependable
@@ -286,9 +293,10 @@ $.fn.wikiEditor = function () {
 			},
 
 			/**
-			 * Save text selection
+			 * Saves the current text selection and focused element.
 			 *
-			 * @ignore
+			 * This function stores the cursor position and the currently focused element
+			 * so that it can be restored later when needed (e.g., after UI interactions).
 			 */
 			saveSelection: function () {
 				context.$focusedElem = $( ':focus' );
@@ -297,9 +305,10 @@ $.fn.wikiEditor = function () {
 			},
 
 			/**
-			 * Restore text selection
+			 * Restores the previously saved text selection and focus.
 			 *
-			 * @ignore
+			 * This function re-applies the cursor position and restores focus to the
+			 * element that was active before the selection was saved.
 			 */
 			restoreSelection: function () {
 				if ( context.savedSelection ) {
