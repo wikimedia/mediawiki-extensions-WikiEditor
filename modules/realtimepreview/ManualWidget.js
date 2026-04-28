@@ -1,8 +1,14 @@
 /* global RealtimePreview */
 /**
+ * Manual-reload widget shown above the preview pane when Realtime Preview has
+ * fallen back to manual mode — typically because the server has been slow to
+ * respond, or because the user has the `prefers-reduced-motion` media query
+ * set. Clicking the widget triggers a fresh preview.
+ *
  * @class
  * @constructor
- * @param {RealtimePreview} realtimePreview
+ * @param {RealtimePreview} realtimePreview The Realtime Preview instance this
+ *  widget will trigger reloads on when clicked.
  */
 function ManualWidget( realtimePreview ) {
 	const config = {

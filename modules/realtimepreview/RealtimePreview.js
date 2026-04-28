@@ -3,6 +3,11 @@ const ErrorLayout = require( './ErrorLayout.js' );
 const ManualWidget = require( './ManualWidget.js' );
 
 /**
+ * Realtime Preview controller. Manages a two-pane editing layout that shows
+ * the parsed wikitext preview alongside the textarea, including the toolbar
+ * toggle button, manual-reload widget, error display, and automatic fallback
+ * to manual mode when the server is slow to respond.
+ *
  * @class
  * @param {Object} context The WikiEditor context.
  */
@@ -81,6 +86,10 @@ function RealtimePreview( context ) {
 }
 
 /**
+ * Creates the toggle button used in the WikiEditor toolbar to enable or
+ * disable Realtime Preview, and registers a window-resize handler so the
+ * button is hidden when the screen is too narrow.
+ *
  * @private
  */
 RealtimePreview.prototype.createToolbarButton = function () {
@@ -104,16 +113,20 @@ RealtimePreview.prototype.createToolbarButton = function () {
 };
 
 /**
+ * Get the toggle button element for insertion into the WikiEditor toolbar.
+ *
  * @public
- * @return {jQuery}
+ * @return {jQuery} The toggle button's root element.
  */
 RealtimePreview.prototype.getToolbarButton = function () {
 	return this.button.$element;
 };
 
 /**
+ * Get the manual reload button element for insertion into the WikiEditor toolbar.
+ *
  * @public
- * @return {jQuery}
+ * @return {jQuery} The reload button's root element.
  */
 RealtimePreview.prototype.getToolbarReloadButton = function () {
 	return this.reloadButton.$element;
@@ -123,7 +136,7 @@ RealtimePreview.prototype.getToolbarReloadButton = function () {
  * Get the user preference for Realtime Preview.
  *
  * @public
- * @return {boolean}
+ * @return {boolean} True if Realtime Preview is enabled in the user's preferences.
  */
 RealtimePreview.prototype.getUserPref = function () {
 	return ( typeof this.userPref !== 'undefined' ) ? this.userPref : mw.user.options.get( this.prefName ) > 0;
@@ -240,8 +253,11 @@ RealtimePreview.prototype.toggle = function ( saveUserPref ) {
 };
 
 /**
+ * Get the debounced event handler that triggers a preview update on textarea
+ * input, change, paste, etc. The handler is a no-op while in manual mode.
+ *
  * @public
- * @return {Function}
+ * @return {Function} The debounced event handler.
  */
 RealtimePreview.prototype.getEventHandler = function () {
 	return mw.util.debounce(
@@ -259,7 +275,7 @@ RealtimePreview.prototype.getEventHandler = function () {
  * Check if screen meets minimum width requirement for Realtime Preview.
  *
  * @public
- * @return {boolean}
+ * @return {boolean} True if the editor UI is wider than the minimum threshold.
  */
 RealtimePreview.prototype.isScreenWideEnough = function () {
 	return this.context.$ui.width() > 600;
@@ -290,8 +306,12 @@ RealtimePreview.prototype.enableFeatureWhenScreenIsWideEnough = function () {
 };
 
 /**
+ * Display an error message in the preview pane, hiding the preview content
+ * and the manual-reload widget. No-op while the form is being submitted, since
+ * any in-flight preview request will already have been aborted.
+ *
  * @private
- * @param {jQuery} $msg
+ * @param {jQuery} $msg The error message to show.
  */
 RealtimePreview.prototype.showError = function ( $msg ) {
 	if ( this.isSubmitting ) {
@@ -308,8 +328,13 @@ RealtimePreview.prototype.showError = function ( $msg ) {
 };
 
 /**
+ * Track preview response times and switch to manual mode if the running
+ * average of the last three responses exceeds the configured threshold.
+ * Stops sampling once in manual mode or when an error is being shown.
+ *
  * @private
- * @param {number} time
+ * @param {number} time Timestamp (ms, from `Date.now()`) when the preview
+ *  request was started; used to compute the round-trip duration.
  */
 RealtimePreview.prototype.checkResponseTimes = function ( time ) {
 	// Don't track response times if we're already in manual mode or an error is shown.
@@ -334,9 +359,14 @@ RealtimePreview.prototype.checkResponseTimes = function ( time ) {
 };
 
 /**
+ * Perform a single preview request: fetch the parsed wikitext via
+ * `mediawiki.page.preview` and swap it into the preview pane. Skips if the
+ * wikitext hasn't changed since the last preview (unless `forceUpdate` is set),
+ * and queues at most one follow-up request if called while another is in flight.
+ *
  * @private
- * @param {boolean} forceUpdate For the preview to update, even if the wikitext is unchanged,
- *  e.g. when the user presses the 'reload' button.
+ * @param {boolean} forceUpdate Force the preview to update, even if the
+ *  wikitext is unchanged, e.g. when the user presses the 'reload' button.
  */
 RealtimePreview.prototype.doRealtimePreview = function ( forceUpdate ) {
 	// Wait for a response before making any new requests.
