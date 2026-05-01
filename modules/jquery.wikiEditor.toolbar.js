@@ -644,6 +644,14 @@ const toolbarModule = {
 			}
 			return $row;
 		},
+
+		/**
+		 * Builds a table row element for the toolbar.
+		 *
+		 * @param {Object} context Editor context
+		 * @param {Object} row Row data containing cell content
+		 * @return {jQuery} Generated table row element
+		 */
 		buildRow: function ( context, row ) {
 			const $row = $( '<tr>' );
 			for ( const cell in row ) {
