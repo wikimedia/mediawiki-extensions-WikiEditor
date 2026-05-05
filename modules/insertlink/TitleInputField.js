@@ -147,7 +147,7 @@ TitleInputField.prototype.onSelect = function ( item ) {
 		icon = 'articleNotFound';
 		msg = 'wikieditor-toolbar-tool-link-int-target-status-notexists';
 	}
-	// eslint-disable-next-line mediawiki/msg-doc
+
 	this.setMessage( icon, mw.message( msg ).parse() );
 };
 

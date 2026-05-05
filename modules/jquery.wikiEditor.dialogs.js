@@ -103,7 +103,7 @@ const dialogsModule = {
 			// foo = { mw.msg( 'bar' ): baz }
 			configuration.newButtons = {};
 			for ( const msg in configuration.buttons ) {
-				// eslint-disable-next-line mediawiki/msg-doc
+
 				configuration.newButtons[ mw.msg( msg ) ] = configuration.buttons[ msg ];
 			}
 			configuration.buttons = configuration.newButtons;

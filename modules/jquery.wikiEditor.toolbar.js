@@ -598,7 +598,7 @@ const toolbarModule = {
 			const $row = $( '<tr>' );
 			for ( let i = 0; i < headings.length; i++ ) {
 				$row.append(
-					// eslint-disable-next-line mediawiki/msg-doc
+
 					$( '<th>' ).text( mw.message( headings[ i ].msg ).text() )
 				);
 			}
@@ -676,7 +676,7 @@ const toolbarModule = {
 					character.action,
 					updateRecentAction
 				];
-				// eslint-disable-next-line mediawiki/msg-doc
+
 				const title = character.titleMsg ? mw.msg( character.titleMsg ) : character.title;
 				return $( '<span>' )
 					.attr( {
