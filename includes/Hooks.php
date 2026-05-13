@@ -40,6 +40,7 @@ use MediaWiki\Status\Status;
 use MediaWiki\User\Options\UserOptionsLookup;
 use MediaWiki\User\User;
 use MediaWiki\User\UserEditTracker;
+use MediaWiki\User\UserGroupManager;
 use MediaWiki\Utils\MWCryptRand;
 use MediaWiki\WikiMap\WikiMap;
 use MobileContext;
@@ -68,6 +69,7 @@ class Hooks implements
 		private readonly FormatterFactory $formatterFactory,
 		private readonly Config $config,
 		private readonly UserEditTracker $userEditTracker,
+		private readonly UserGroupManager $userGroupManager,
 		private readonly UserOptionsLookup $userOptionsLookup,
 		private readonly ?MobileContext $mobileContext,
 	) {
@@ -152,6 +154,7 @@ class Hooks implements
 			'user_id' => $user->getId(),
 			'user_is_temp' => $user->isTemp(),
 			'user_editcount' => $this->userEditTracker->getUserEditCount( $user ) ?: 0,
+			'user_groups' => $this->userGroupManager->getUserEffectiveGroups( $user ),
 			'mw_version' => MW_VERSION,
 			'skin' => $skin ? $skin->getSkinName() : null,
 			'is_bot' => $user->isRegistered() && $user->isBot(),
@@ -170,7 +173,7 @@ class Hooks implements
 		EventLogging::submit(
 			'eventlogging_EditAttemptStep',
 			[
-				'$schema' => '/analytics/legacy/editattemptstep/2.0.2',
+				'$schema' => '/analytics/legacy/editattemptstep/2.2.0',
 				'event' => $data,
 			]
 		);

@@ -39,6 +39,7 @@
 				"FormatterFactory",
 				"MainConfig",
 				"UserEditTracker",
+				"UserGroupManager",
 				"UserOptionsLookup"
 			],
 			"optional_services": [
