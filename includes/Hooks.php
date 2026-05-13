@@ -133,6 +133,38 @@ class Hooks implements
 		$context = $article->getContext();
 		$shouldOversample = WikimediaEventsHooks::shouldSchemaEditAttemptStepOversample( $context );
 
+		$data = $this->buildEditAttemptStepEventData( $action, $article, !$inSample, $data );
+
+		if ( !$inSample && !$shouldOversample ) {
+			return;
+		}
+
+		EventLogging::submit(
+			'eventlogging_EditAttemptStep',
+			[
+				'$schema' => '/analytics/legacy/editattemptstep/2.2.0',
+				'event' => $data,
+			]
+		);
+	}
+
+	/**
+	 * Build the EditAttemptStep event payload. Extracted from doEventLogging so
+	 * tests can exercise it without hitting the MW_PHPUNIT_TEST early-return.
+	 *
+	 * @param string $action
+	 * @param Article $article
+	 * @param bool $isOversample
+	 * @param array $extra
+	 * @return array
+	 */
+	protected function buildEditAttemptStepEventData(
+		string $action,
+		Article $article,
+		bool $isOversample,
+		array $extra = []
+	): array {
+		$context = $article->getContext();
 		$user = $context->getUser();
 		$page = $article->getPage();
 		$title = $article->getTitle();
@@ -142,7 +174,7 @@ class Hooks implements
 		$data = [
 			'action' => $action,
 			'version' => 1,
-			'is_oversample' => !$inSample,
+			'is_oversample' => $isOversample,
 			'editor_interface' => 'wikitext',
 			// @todo FIXME for other than 'desktop'. T249944
 			'platform' => 'desktop',
@@ -160,23 +192,13 @@ class Hooks implements
 			'is_bot' => $user->isRegistered() && $user->isBot(),
 			'is_anon' => $user->isAnon(),
 			'wiki' => WikiMap::getCurrentWikiId(),
-		] + $data;
+		] + $extra;
 
 		if ( $user->isAnon() ) {
 			$data['user_class'] = 'IP';
 		}
 
-		if ( !$inSample && !$shouldOversample ) {
-			return;
-		}
-
-		EventLogging::submit(
-			'eventlogging_EditAttemptStep',
-			[
-				'$schema' => '/analytics/legacy/editattemptstep/2.2.0',
-				'event' => $data,
-			]
-		);
+		return $data;
 	}
 
 	/**
