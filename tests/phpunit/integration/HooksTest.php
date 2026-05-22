@@ -33,6 +33,7 @@ class HooksTest extends MediaWikiIntegrationTestCase {
 			$services->getUserEditTracker(),
 			$services->getUserGroupManager(),
 			$services->getUserOptionsLookup(),
+			null,
 			null
 		);
 	}

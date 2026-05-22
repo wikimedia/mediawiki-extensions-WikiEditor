@@ -43,7 +43,8 @@
 				"UserOptionsLookup"
 			],
 			"optional_services": [
-				"MobileFrontend.Context"
+				"MobileFrontend.Context",
+				"ConfirmEditCaptchaFactory"
 			]
 		}
 	},

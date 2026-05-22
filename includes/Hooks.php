@@ -15,7 +15,7 @@ use MediaWiki\Config\Config;
 use MediaWiki\Content\Content;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\EditPage\EditPage;
-use MediaWiki\Extension\ConfirmEdit\Hooks as ConfirmEditHooks;
+use MediaWiki\Extension\ConfirmEdit\Services\CaptchaFactory;
 use MediaWiki\Extension\EventLogging\EventLogging;
 use MediaWiki\Hook\EditPage__attemptSave_afterHook;
 use MediaWiki\Hook\EditPage__attemptSaveHook;
@@ -72,6 +72,7 @@ class Hooks implements
 		private readonly UserGroupManager $userGroupManager,
 		private readonly UserOptionsLookup $userOptionsLookup,
 		private readonly ?MobileContext $mobileContext,
+		private readonly ?CaptchaFactory $captchaFactory,
 	) {
 	}
 
@@ -554,11 +555,9 @@ class Hooks implements
 
 				$wikiPage = $editPage->getArticle()->getPage();
 
-				if ( $this->extensionRegistry->isLoaded( 'ConfirmEdit' ) ) {
+				if ( $this->extensionRegistry->isLoaded( 'ConfirmEdit' ) && $this->captchaFactory ) {
 					$key = CacheKeyHelper::getKeyForPage( $wikiPage );
-					$captcha = ConfirmEditHooks::getInstance(
-						ConfirmEditHooks::getCaptchaTriggerActionFromTitle( $article->getTitle() )
-					);
+					$captcha = $this->captchaFactory->getGlobalInstanceFromContext( $article->getContext() );
 					$activatedCaptchas = $captcha->getActivatedCaptchas();
 					if ( isset( $activatedCaptchas[$key] ) ) {
 						// TODO: :(
