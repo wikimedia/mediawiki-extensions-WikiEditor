@@ -312,7 +312,11 @@
 				"realtimepreview/RealtimePreview.js",
 				"realtimepreview/TwoPaneLayout.js",
 				"realtimepreview/ErrorLayout.js",
-				"realtimepreview/ManualWidget.js"
+				"realtimepreview/ManualWidget.js",
+				{
+					"name": "realtimepreview/config.json",
+					"callback": "MediaWiki\\Extension\\WikiEditor\\Hooks::getRealtimePreviewConfig"
+				}
 			],
 			"styles": [
 				"realtimepreview/RealtimePreview.less",

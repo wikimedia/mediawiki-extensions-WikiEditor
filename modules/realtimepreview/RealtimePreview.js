@@ -1,6 +1,7 @@
 const TwoPaneLayout = require( './TwoPaneLayout.js' );
 const ErrorLayout = require( './ErrorLayout.js' );
 const ManualWidget = require( './ManualWidget.js' );
+const config = require( './config.json' );
 
 /**
  * Realtime Preview controller. Manages a two-pane editing layout that shows
@@ -13,7 +14,7 @@ const ManualWidget = require( './ManualWidget.js' );
  */
 function RealtimePreview( context ) {
 	this.context = context;
-	this.configData = mw.loader.moduleRegistry[ 'ext.wikiEditor' ].script.files[ 'data.json' ];
+	this.configData = config;
 	// Preference name, must match what's in extension.json and Hooks.php.
 	this.prefName = 'wikieditor-realtimepreview';
 	this.userPref = this.getUserPref();

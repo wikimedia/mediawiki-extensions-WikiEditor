@@ -36,6 +36,7 @@ use MediaWiki\RecentChanges\RecentChange;
 use MediaWiki\Registration\ExtensionRegistry;
 use MediaWiki\Request\WebRequest;
 use MediaWiki\ResourceLoader as RL;
+use MediaWiki\ResourceLoader\Context;
 use MediaWiki\Status\Status;
 use MediaWiki\User\Options\UserOptionsLookup;
 use MediaWiki\User\User;
@@ -263,7 +264,7 @@ class Hooks implements
 	 * @param OutputPage $outputPage object.
 	 */
 	public function onEditPage__showEditForm_initial( $editPage, $outputPage ) {
-		if ( $editPage->contentModel !== CONTENT_MODEL_WIKITEXT ) {
+		if ( !in_array( $editPage->contentModel, static::getRealtimePreviewContentModels() ) ) {
 			return;
 		}
 
@@ -390,30 +391,24 @@ class Hooks implements
 
 	/**
 	 * @param RL\Context $context
-	 * @param Config $config
 	 * @return array
 	 */
-	public static function getModuleData( RL\Context $context, Config $config ): array {
+	public static function getModuleData( RL\Context $context ): array {
 		return [
 			// expose magic words for use by the wikieditor toolbar
 			'magicWords' => self::getMagicWords(),
 			'signature' => self::getSignatureMessage( $context ),
-			'realtimeDebounce' => $config->get( 'WikiEditorRealtimePreviewDebounce' ),
-			'realtimeDisableDuration' => $config->get( 'WikiEditorRealtimeDisableDuration' ),
 		];
 	}
 
 	/**
 	 * @param RL\Context $context
-	 * @param Config $config
 	 * @return array
 	 */
-	public static function getModuleDataSummary( RL\Context $context, Config $config ): array {
+	public static function getModuleDataSummary( RL\Context $context ): array {
 		return [
 			'magicWords' => self::getMagicWords(),
 			'signature' => self::getSignatureMessage( $context, true ),
-			'realtimeDebounce' => $config->get( 'WikiEditorRealtimePreviewDebounce' ),
-			'realtimeDisableDuration' => $config->get( 'WikiEditorRealtimeDisableDuration' ),
 		];
 	}
 
@@ -630,5 +625,27 @@ class Hooks implements
 		if ( $request->getRawVal( 'wikieditorUsed' ) === 'yes' ) {
 			$recentChange->addTags( 'wikieditor' );
 		}
+	}
+
+	/**
+	 * @param Context $context
+	 * @param Config $config
+	 * @return array
+	 */
+	public static function getRealtimePreviewConfig( RL\Context $context, Config $config ): array {
+		return [
+			'contentModels' => static::getRealtimePreviewContentModels(),
+			'realtimeDebounce' => $config->get( 'WikiEditorRealtimePreviewDebounce' ),
+			'realtimeDisableDuration' => $config->get( 'WikiEditorRealtimeDisableDuration' ),
+		];
+	}
+
+	private static function getRealtimePreviewContentModels(): array {
+		return [
+			CONTENT_MODEL_WIKITEXT,
+			...ExtensionRegistry::getInstance()->getAttribute(
+				'WikiEditorRealtimePreviewContentModels'
+			) ?? []
+		];
 	}
 }

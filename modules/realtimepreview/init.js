@@ -1,8 +1,10 @@
+const { contentModels } = require( './config.json' );
+
 mw.hook( 'wikiEditor.toolbarReady' ).add( function ( $textarea ) {
 
-	// Guard against this module being loaded for non-wikitext pages.
+	// Guard against this module being loaded on unsupported pages.
 	// This is already done in Hooks.php but Realtime Preview can also be loaded as a gadget so this is necessary.
-	if ( mw.config.get( 'wgPageContentModel' ) !== 'wikitext' ) {
+	if ( !contentModels.includes( mw.config.get( 'wgPageContentModel' ) ) ) {
 		return;
 	}
 
