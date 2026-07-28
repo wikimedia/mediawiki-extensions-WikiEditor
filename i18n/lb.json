@@ -31,7 +31,7 @@
 	"wikieditor-toolbar-tool-link-cancel": "Ofbriechen",
 	"wikieditor-toolbar-tool-link-int-target-status-exists": "Dës Säit gëtt et op {{SITENAME}}",
 	"wikieditor-toolbar-tool-link-int-target-status-notexists": "Dës Säit gëtt et net op {{SITENAME}}",
-	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Den Titel den dir uginn hutt ass net valabel",
+	"wikieditor-toolbar-tool-link-int-target-status-invalid": "Den Titel, deen Dir uginn hutt, ass ongülteg",
 	"wikieditor-toolbar-tool-link-int-target-status-external": "Externe Link",
 	"wikieditor-toolbar-tool-link-int-target-status-disambig": "Dës Säit ass keng Inhaltssäit, mee eng Lëscht vun Theeme mat änlechem Numm",
 	"wikieditor-toolbar-tool-link-lookslikeinternal": "D'URL, déi Dir uginn hutt, gesäit aus, wéi wa se als Link op eng aner Wikisäit geduecht wier.\nWëllt Dir doraus en interne Link maachen?",
