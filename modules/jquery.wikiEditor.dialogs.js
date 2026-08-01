@@ -9,9 +9,21 @@ const dialogsModule = {
 	 * API accessible functions
 	 */
 	api: {
+		/**
+		 * Adds a new dialog module to the wikiEditor
+		 *
+		 * @param {Object} context Context object of editor to add dialog to
+		 * @param {Object} data Configuration object for the dialog module
+		 */
 		addDialog: function ( context, data ) {
 			dialogsModule.fn.create( context, data );
 		},
+		/**
+		 * Opens a dialog, creating it first if it does not already exist
+		 *
+		 * @param {Object} context Context object of editor containing the dialog
+		 * @param {string} module Name of the dialog module to open
+		 */
 		openDialog: function ( context, module ) {
 			if ( module in dialogsModule.modules ) {
 				const mod = dialogsModule.modules[ module ];
@@ -29,6 +41,12 @@ const dialogsModule = {
 				$dialog.dialog( 'open' );
 			}
 		},
+		/**
+		 * Closes an open dialog
+		 *
+		 * @param {Object} context Context object of editor containing the dialog
+		 * @param {string} module Name of the dialog module to close
+		 */
 		closeDialog: function ( context, module ) {
 			if ( module in dialogsModule.modules ) {
 				$( '#' + dialogsModule.modules[ module ].id ).dialog( 'close' );
