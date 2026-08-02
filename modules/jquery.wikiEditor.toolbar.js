@@ -1,19 +1,22 @@
-/**
- * Toolbar module for wikiEditor
- *
- * @memberof module:ext.wikiEditor
- */
-
 /* This feature was added to ve before it was contemplated for WikiEditor,
    so we wound up using a slightly awkward key */
 const RECENTKEY = 'visualeditor-symbolList-recentlyUsed-specialCharacters';
 
+/**
+ * Toolbar module for wikiEditor
+ *
+ * @namespace toolbarModule
+ * @memberof module:ext.wikiEditor
+ */
 const toolbarModule = {
 
 	/**
 	 * API accessible functions
+	 *
+	 * @namespace api
+	 * @memberof module:ext.wikiEditor.toolbarModule
 	 */
-	api: {
+	api: /** @lends module:ext.wikiEditor.toolbarModule.api */ {
 		addToToolbar: function ( context, data ) {
 
 			for ( const type in data ) {
@@ -212,8 +215,11 @@ const toolbarModule = {
 
 	/**
 	 * Internally used functions
+	 *
+	 * @namespace fn
+	 * @memberof module:ext.wikiEditor.toolbarModule
 	 */
-	fn: {
+	fn: /** @lends module:ext.wikiEditor.toolbarModule.fn */ {
 		/**
 		 * Initializes the WikiEditor toolbar module.
 		 *
@@ -221,6 +227,7 @@ const toolbarModule = {
 		 * if it has not already been initialized. If the toolbar already exists,
 		 * the function exits without making changes.
 		 *
+		 * @internal
 		 * @param {Object} context - WikiEditor context containing module state and DOM references.
 		 * @param {Object} config - Configuration object used to initialize the toolbar module.
 		 */
@@ -237,6 +244,7 @@ const toolbarModule = {
 		/**
 		 * Performs an operation based on parameters
 		 *
+		 * @internal
 		 * @param {Object} context
 		 * @param {Object} action
 		 */
@@ -310,6 +318,7 @@ const toolbarModule = {
 		 * If the tool defines filters and any filter condition is not met,
 		 * the tool is not created and null is returned.
 		 *
+		 * @internal
 		 * @param {Object} context - WikiEditor context containing module state and DOM references.
 		 * @param {string} id - Unique identifier for the tool.
 		 * @param {Object} tool - Configuration object defining the tool.
@@ -648,6 +657,7 @@ const toolbarModule = {
 		/**
 		 * Builds a table row element for the toolbar.
 		 *
+		 * @internal
 		 * @param {Object} context Editor context
 		 * @param {Object} row Row data containing cell content
 		 * @return {jQuery} Generated table row element

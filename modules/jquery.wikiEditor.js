@@ -1,16 +1,6 @@
 const ResizingDragBar = require( './resizingdragbar/ResizingDragBar.js' );
 
 /**
- * This plugin provides a way to build a wiki-text editing user interface around a textarea.
- *
- * @example To initialize without any modules,
- * overqualified `div#edittoolbar` to avoid MediaWiki's heading to id automatism:
- *     $( 'div#edittoolbar' ).wikiEditor();
- *
- * @example To initialize with one or more modules, or to add modules after it's already been initialized:
- *     $( 'textarea#wpTextbox1' ).wikiEditor( 'addModule', 'toolbar', { ... config ... } );
- */
-/**
  * @private
  */
 const hasOwn = Object.prototype.hasOwnProperty,
@@ -36,10 +26,10 @@ const hasOwn = Object.prototype.hasOwnProperty,
 		return chain;
 	}() );
 
-/**
+/*
  * Global static object for wikiEditor that provides generally useful functionality to all modules and contexts.
  */
-$.wikiEditor = {
+$.wikiEditor = /** @lends module:ext.wikiEditor */ {
 	/**
 	 * For each module that is loaded, static code shared by all instances is loaded into this object organized by
 	 * module name. The existence of a module in this object only indicates the module is available. To check if a
@@ -152,8 +142,17 @@ $.wikiEditor = {
 };
 
 /**
- * jQuery plugin that provides a way to initialize a wikiEditor instance on a textarea.
+ * jQuery plugin that provides a way to build a wiki-text editing user interface around a textarea.
  *
+ * @example To initialize without any modules,
+ * overqualified `div#edittoolbar` to avoid MediaWiki's heading to id automatism:
+ *     $( 'div#edittoolbar' ).wikiEditor();
+ *
+ * @example To initialize with one or more modules, or to add modules after it's already been initialized:
+ *     $( 'textarea#wpTextbox1' ).wikiEditor( 'addModule', 'toolbar', { ... config ... } );
+ *
+ * @method wikiEditor
+ * @memberof module:ext.wikiEditor
  * @return {jQuery}
  */
 $.fn.wikiEditor = function () {
@@ -250,6 +249,7 @@ $.fn.wikiEditor = function () {
 			/**
 			 * Executes core event filters as well as event handlers provided by modules.
 			 *
+			 * @ignore
 			 * @param {string} name
 			 * @param {Object} event
 			 * @return {boolean}
@@ -287,6 +287,8 @@ $.fn.wikiEditor = function () {
 
 			/**
 			 * Save text selection
+			 *
+			 * @ignore
 			 */
 			saveSelection: function () {
 				context.$focusedElem = $( ':focus' );
@@ -296,6 +298,8 @@ $.fn.wikiEditor = function () {
 
 			/**
 			 * Restore text selection
+			 *
+			 * @ignore
 			 */
 			restoreSelection: function () {
 				if ( context.savedSelection ) {

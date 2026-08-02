@@ -3,17 +3,22 @@ const ResizingDragBar = require( './resizingdragbar/ResizingDragBar.js' );
 /**
  * ResizingDragBar Module for wikiEditor
  *
+ * @namespace resizingdragbarModule
  * @memberof module:ext.wikiEditor
  */
 const resizingdragbarModule = {
 
 	/**
 	 * Internally used functions
+	 *
+	 * @namespace fn
+	 * @memberof module:ext.wikiEditor.resizingdragbarModule
 	 */
-	fn: {
+	fn: /** @lends module:ext.wikiEditor.resizingdragbarModule.fn */ {
 		/**
 		 * Creates a resizingdragbar module within a wikiEditor
 		 *
+		 * @internal
 		 * @param {Object} context Context object of editor to create module in
 		 */
 		create: function ( context ) {

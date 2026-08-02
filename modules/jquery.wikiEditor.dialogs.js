@@ -1,14 +1,18 @@
 /**
  * Dialog Module for wikiEditor
  *
+ * @namespace dialogsModule
  * @memberof module:ext.wikiEditor
  */
 const dialogsModule = {
 
 	/**
 	 * API accessible functions
+	 *
+	 * @namespace api
+	 * @memberof module:ext.wikiEditor.dialogsModule
 	 */
-	api: {
+	api: /** @lends module:ext.wikiEditor.dialogsModule.api */ {
 		/**
 		 * Adds a new dialog module to the wikiEditor
 		 *
@@ -56,11 +60,15 @@ const dialogsModule = {
 
 	/**
 	 * Internally used functions
+	 *
+	 * @namespace fn
+	 * @memberof module:ext.wikiEditor.dialogsModule
 	 */
-	fn: {
+	fn: /** @lends module:ext.wikiEditor.dialogsModule.fn */ {
 		/**
 		 * Creates a dialog module within a wikiEditor
 		 *
+		 * @internal
 		 * @param {Object} context Context object of editor to create module in
 		 * @param {Object} config Configuration object to create module from
 		 */
@@ -99,6 +107,7 @@ const dialogsModule = {
 		/**
 		 * Build the actual dialog. This done on-demand rather than in create()
 		 *
+		 * @internal
 		 * @param {Object} context Context object of editor dialog belongs to
 		 * @param {Object} module Dialog module object
 		 * @param {string} name Dialog name (key in dialogsModule.modules)
