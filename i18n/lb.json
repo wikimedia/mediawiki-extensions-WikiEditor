@@ -41,6 +41,7 @@
 	"wikieditor-toolbar-file-target": "Numm vum Fichier:",
 	"wikieditor-toolbar-file-caption": "Beschrëftung:",
 	"wikieditor-toolbar-file-alt": "Alternativtext:",
+	"wikieditor-toolbar-file-alt-help": "Dir kënnt dat heite fakultatiivt Feld benotzen, fir eng Textbeschreiwung unzegi fir Leit, déi de Fichier net kënne gesinn.\nD'Beschreiwung soll duergoen, fir datt een den Zweck an d'Informatioune vum Medienelement versteet. Dat ass essentiel fir blann Benotzer an aner Leit, déi Screen-Reader-Software oder reng textbaséiert Browsere benotzen.",
 	"wikieditor-toolbar-file-alt-help-label": "(Hëllef weisen)",
 	"wikieditor-toolbar-file-size": "Gréisst:",
 	"wikieditor-toolbar-file-float": "Ausriichtung:",
@@ -161,5 +162,8 @@
 	"wikieditor-toolbar-help-content-indent3": "Indentéierten Text",
 	"tag-wikieditor-description": "Ännerung, déi mam [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditor]] (2010-Wikitext-Editeur) gemaach gouf",
 	"wikieditor-realtimepreview-preview": "Virschau",
-	"wikieditor-realtimepreview-reload": "Nei lueden"
+	"wikieditor-realtimepreview-error": "D'Virschau gëtt net gelueden",
+	"wikieditor-realtimepreview-reload": "Nei lueden",
+	"wikieditor-realtimepreview-reload-title": "De Panneau mat der Echtzäit-Virschau nei lueden",
+	"wikieditor-realtimepreview-manual": "Luet elo wgl. nei, fir manuell eng Virschau vun Ären Ännerungen ze kréien."
 }
