@@ -359,7 +359,6 @@ module.exports = {
 						.attr( 'size', defaultMsg.length );
 					$( this ).find( '[rel]' )
 						.text( function () {
-							// eslint-disable-next-line mediawiki/msg-doc
 							return mw.msg( $( this ).attr( 'rel' ) );
 						} )
 						.removeAttr( 'rel' );
@@ -592,7 +591,6 @@ module.exports = {
 				htmlTemplate: 'dialogInsertTable.html',
 				init: function () {
 					$( this ).find( '[rel]' ).each( function () {
-						// eslint-disable-next-line mediawiki/msg-doc
 						$( this ).text( mw.msg( $( this ).attr( 'rel' ) ) );
 					} );
 
@@ -758,7 +756,6 @@ module.exports = {
 				htmlTemplate: 'dialogReplace.html',
 				init: function () {
 					$( this ).find( '[rel]' ).each( function () {
-						// eslint-disable-next-line mediawiki/msg-doc
 						$( this ).text( mw.msg( $( this ).attr( 'rel' ) ) );
 					} );
 

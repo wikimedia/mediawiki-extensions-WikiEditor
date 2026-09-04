@@ -602,7 +602,6 @@ const toolbarModule = {
 				}
 				$row.append(
 					headings[ i ].msg ?
-						// eslint-disable-next-line mediawiki/msg-doc
 						$( '<th>' ).append( mw.message( headings[ i ].msg ).parseDom() ) :
 						// Deprecated backward compatibility
 						$( '<th>' ).html( $.wikiEditor.autoSafeMsg( headings[ i ], [ 'html', 'text' ] ) )
@@ -682,7 +681,6 @@ const toolbarModule = {
 					character.action,
 					updateRecentAction
 				];
-				// eslint-disable-next-line mediawiki/msg-doc
 				const title = character.titleMsg ? mw.msg( character.titleMsg ) : character.title;
 				return $( '<span>' )
 					.attr( {

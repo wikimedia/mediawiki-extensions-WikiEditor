@@ -155,7 +155,6 @@ $.wikiEditor = {
 				return mw.message.apply( mw.message, p ).text();
 			} else {
 				deprecateAutoMsg( property, p );
-				// eslint-disable-next-line mediawiki/msg-doc
 				return mw.message( p ).text();
 			}
 		} else {
@@ -197,7 +196,6 @@ $.wikiEditor = {
 				return mw.message.apply( mw.message, p ).escaped();
 			} else {
 				deprecateAutoMsg( property, p );
-				// eslint-disable-next-line mediawiki/msg-doc
 				return mw.message( p ).escaped();
 			}
 		} else {
