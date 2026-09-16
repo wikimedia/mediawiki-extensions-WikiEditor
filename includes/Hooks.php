@@ -645,7 +645,7 @@ class Hooks implements
 			CONTENT_MODEL_WIKITEXT,
 			...ExtensionRegistry::getInstance()->getAttribute(
 				'WikiEditorRealtimePreviewContentModels'
-			) ?? []
+			)
 		];
 	}
 }
