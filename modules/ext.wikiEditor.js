@@ -110,20 +110,14 @@ $( () => {
 		$form.on( 'submit', () => {
 			submitting = true;
 		} );
-		const onUnloadFallback = window.onunload;
-
-		window.onunload = function () {
+		// Use pagehide, not unload: browsers can skip unload handlers.
+		const onPageHide = function () {
 			const unmodified = mw.config.get( 'wgAction' ) !== 'submit' && origText === $textarea.val(),
 				caVeEdit = $( '#ca-ve-edit' )[ 0 ],
 				switchingToVE = caVeEdit && (
 					document.activeElement === caVeEdit ||
 					$.contains( caVeEdit, document.activeElement )
 				);
-
-			let fallbackResult;
-			if ( onUnloadFallback ) {
-				fallbackResult = onUnloadFallback();
-			}
 
 			if ( !submitting ) {
 				logAbort( switchingToVE, unmodified );
@@ -137,14 +131,13 @@ $( () => {
 			// So instead we modify the DOM here, after sending the abort event.
 			editingSessionId = mw.user.generateRandomSessionId();
 			$editingSessionIdInput.val( editingSessionId );
-
-			return fallbackResult;
 		};
+		window.addEventListener( 'pagehide', onPageHide );
 		$textarea.on( 'wikiEditor-switching-visualeditor', () => {
 			const unmodified = mw.config.get( 'wgAction' ) !== 'submit' && origText === $textarea.val();
 			// A non-navigation switch to VE has occurred. As such, avoid eventually
 			// double-logging an abort when VE is done.
-			window.onunload = onUnloadFallback;
+			window.removeEventListener( 'pagehide', onPageHide );
 
 			logAbort( true, unmodified );
 		} );
