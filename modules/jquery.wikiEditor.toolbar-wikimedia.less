@@ -5,9 +5,24 @@
  * CSS for WikiEditor Toolbar jQuery plugin
  */
 
+/* Height of the OOUI frameless buttons in the toolbar, which grows with the font size (T312970) */
+@height-toolbar-item: calc( 2.14285714em + 2px );
+
 .wikiEditor-ui-toolbar {
 	background-color: @background-color-neutral-subtle;
 	box-shadow: 0 2px 1px 0 rgba( 0, 0, 0, 0.1 );
+
+	/* Tabs */
+	.tabs span.tab a {
+		display: flex;
+		align-items: center;
+		min-height: @min-size-interactive-pointer;
+		height: @height-toolbar-item;
+
+		&::before {
+			height: @size-full;
+		}
+	}
 
 	/* Groups */
 	.group,
@@ -16,7 +31,9 @@
 	}
 
 	.group {
+		align-items: center;
 		min-height: 32px;
+		height: @height-toolbar-item;
 		margin: 0;
 		padding-right: 0;
 
