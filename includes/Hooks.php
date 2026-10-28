@@ -32,12 +32,10 @@ use MediaWiki\Page\Article;
 use MediaWiki\Page\CacheKeyHelper;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
 use MediaWiki\RecentChanges\Hook\RecentChange_saveHook;
-use MediaWiki\RecentChanges\RecentChange;
 use MediaWiki\Registration\ExtensionRegistry;
 use MediaWiki\Request\WebRequest;
 use MediaWiki\ResourceLoader as RL;
 use MediaWiki\ResourceLoader\Context;
-use MediaWiki\Status\Status;
 use MediaWiki\User\Options\UserOptionsLookup;
 use MediaWiki\User\User;
 use MediaWiki\User\UserEditTracker;
@@ -59,11 +57,10 @@ class Hooks implements
 	RecentChange_saveHook
 {
 
+	private const CHANGE_TAG = 'wikieditor';
+
 	/** @var string|bool ID used for grouping entries all of a session's entries together in EventLogging. */
 	private static $statsId = false;
-
-	/** @var string[] */
-	private static $tags = [ 'wikieditor' ];
 
 	public function __construct(
 		private readonly ExtensionRegistry $extensionRegistry,
@@ -462,11 +459,7 @@ class Hooks implements
 		return self::$statsId;
 	}
 
-	/**
-	 * This is attached to the MediaWiki 'EditPage::attemptSave' hook.
-	 *
-	 * @param EditPage $editPage
-	 */
+	/** @inheritDoc */
 	public function onEditPage__attemptSave( $editPage ) {
 		$article = $editPage->getArticle();
 		$request = $article->getContext()->getRequest();
@@ -480,13 +473,7 @@ class Hooks implements
 		}
 	}
 
-	/**
-	 * This is attached to the MediaWiki 'EditPage::attemptSave:after' hook.
-	 *
-	 * @param EditPage $editPage
-	 * @param Status $status
-	 * @param array $resultDetails
-	 */
+	/** @inheritDoc */
 	public function onEditPage__attemptSave_after( $editPage, $status, $resultDetails ) {
 		$article = $editPage->getArticle();
 		$context = $article->getContext();
@@ -593,37 +580,21 @@ class Hooks implements
 		}
 	}
 
-	/**
-	 * @param string[] &$tags
-	 * @return bool|void
-	 */
+	/** @inheritDoc */
 	public function onChangeTagsListActive( &$tags ) {
-		$this->registerTags( $tags );
+		$tags[] = self::CHANGE_TAG;
 	}
 
-	/**
-	 * @param string[] &$tags
-	 * @return bool|void
-	 */
+	/** @inheritDoc */
 	public function onListDefinedTags( &$tags ) {
-		$this->registerTags( $tags );
+		$tags[] = self::CHANGE_TAG;
 	}
 
-	/**
-	 * @param string[] &$tags
-	 */
-	protected function registerTags( array &$tags ): void {
-		$tags = array_merge( $tags, static::$tags );
-	}
-
-	/**
-	 * @param RecentChange $recentChange
-	 * @return bool|void
-	 */
+	/** @inheritDoc */
 	public function onRecentChange_save( $recentChange ) {
 		$request = RequestContext::getMain()->getRequest();
 		if ( $request->getRawVal( 'wikieditorUsed' ) === 'yes' ) {
-			$recentChange->addTags( 'wikieditor' );
+			$recentChange->addTags( self::CHANGE_TAG );
 		}
 	}
 
