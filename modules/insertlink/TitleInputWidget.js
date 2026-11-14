@@ -79,6 +79,15 @@ TitleInputWidget.prototype.selectFirstMatch = function () {
 TitleInputWidget.prototype.getOptionWidgetData = function ( title, data ) {
 	const widgetData = TitleInputWidget.super.prototype.getOptionWidgetData.call( this, title, data );
 	widgetData.external = data.originalData.external;
+	if ( widgetData.external ) {
+		// The title came back from the API normalized as a page title (e.g. with
+		// underscores replaced by spaces), so use the URL exactly as it was typed.
+		const query = this.getQueryValue();
+		const queryTitle = mw.Title.newFromText( query );
+		if ( queryTitle && queryTitle.getPrefixedText() === title ) {
+			widgetData.data = query;
+		}
+	}
 	return widgetData;
 };
 
