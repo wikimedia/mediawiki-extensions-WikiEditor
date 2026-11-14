@@ -338,7 +338,13 @@
 	"QUnitTestModule": {
 		"localBasePath": "",
 		"remoteExtPath": "WikiEditor",
-		"scripts": "tests/qunit/ext.wikiEditor.toolbar.test.js",
+		"packageFiles": [
+			"tests/qunit/index.js",
+			"tests/qunit/ext.wikiEditor.toolbar.test.js",
+			"tests/qunit/insertlink/TitleInputWidget.test.js",
+			"modules/insertlink/TitleInputWidget.js",
+			"modules/insertlink/TitleOptionWidget.js"
+		],
 		"dependencies": [
 			"ext.wikiEditor"
 		]
