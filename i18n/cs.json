@@ -168,5 +168,7 @@
 	"tag-wikieditor-description": "Editace provedená pomocí [[mw:Special:MyLanguage/Extension:WikiEditor|WikiEditoru]] (editor wikitextu z roku 2010)",
 	"wikieditor-realtimepreview-preview": "Náhled",
 	"wikieditor-realtimepreview-error": "Náhled se nenačítá",
-	"wikieditor-realtimepreview-reload": "Obnovit"
+	"wikieditor-realtimepreview-reload": "Obnovit",
+	"wikieditor-realtimepreview-reload-title": "Znovu načíst okno náhledu v reálném čase",
+	"wikieditor-realtimepreview-manual": "Obnovte prosím, abyste ručně vyvolali náhled vašich úprav."
 }
